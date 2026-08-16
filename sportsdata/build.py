@@ -27,6 +27,7 @@ from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from . import highlights
 from .adapters import ADAPTERS, SourceError
 from .model import Event, Status
 
@@ -140,6 +141,12 @@ def main() -> int:
     print(f"building {a.days}-day feed from {len(ADAPTERS)} adapters")
     events, problems = collect(a.days)
     events.sort(key=lambda e: (e.start_utc, e.competition_id))
+
+    # Highlights are matched after collection because matching needs the whole day's fixtures: a title
+    # naming two teams is only unambiguous against the full set.
+    today = datetime.now(timezone.utc).date().isoformat()
+    matched = highlights.apply(events, today, out / "highlights.json")
+    print(f"  highlights matched: {matched}")
 
     feed = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),

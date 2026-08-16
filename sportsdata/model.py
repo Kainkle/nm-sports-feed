@@ -100,6 +100,11 @@ class Event:
     # same teams on the same day are indistinguishable to the matcher — which is exactly where naive
     # name-plus-date matching sends a viewer to the wrong stream.
     game_number: int = 1
+    # YouTube id of the official full-game highlight, once one has been matched.
+    #
+    # Carried as an ID, never a URL: the app builds its own embed URL with its own player parameters, the
+    # same way NMFlix does for card trailers.
+    highlight_video_id: str = ""
 
     def to_json(self) -> dict[str, Any]:
         d = asdict(self)
