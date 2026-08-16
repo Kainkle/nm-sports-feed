@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-16T19:34:38.232281+00:00",
+  "generated_utc": "2026-08-16T21:38:51.048289+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133674",
@@ -187,84 +187,6 @@
       "game_number": 1
     },
     {
-      "event_id": "sofa:16001934",
-      "sport": "cricket",
-      "competition_id": "cricket",
-      "competition_name": "Cricket",
-      "start_utc": "2026-08-16T09:30:00Z",
-      "status": "live",
-      "home": {
-        "id": "sofa:470855",
-        "name": "Northamptonshire Women",
-        "abbrev": "NWO",
-        "logo": "https://api.sofascore.app/api/v1/team/470855/image",
-        "logo_dark": null,
-        "aliases": [
-          "NTW",
-          "NWO",
-          "Northamptonshire Women"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "sofa:470853",
-        "name": "Worcestershire Women",
-        "abbrev": "WWO",
-        "logo": "https://api.sofascore.app/api/v1/team/470853/image",
-        "logo_dark": null,
-        "aliases": [
-          "WCW",
-          "WWO",
-          "Worcestershire Women"
-        ],
-        "color": null
-      },
-      "source": "sofascore:cricket",
-      "source_status": "inprogress/1st Inning",
-      "venue": "Womens One Day Cup, League 2",
-      "detail": "1st Inning",
-      "game_number": 1
-    },
-    {
-      "event_id": "sofa:16708590",
-      "sport": "cricket",
-      "competition_id": "cricket",
-      "competition_name": "Cricket",
-      "start_utc": "2026-08-16T10:00:00Z",
-      "status": "live",
-      "home": {
-        "id": "sofa:1257070",
-        "name": "Pakistan Gold",
-        "abbrev": "PGO",
-        "logo": "https://api.sofascore.app/api/v1/team/1257070/image",
-        "logo_dark": null,
-        "aliases": [
-          "PG",
-          "PGO",
-          "Pakistan Gold"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "sofa:1257068",
-        "name": "Pakistan Whites",
-        "abbrev": "PWH",
-        "logo": "https://api.sofascore.app/api/v1/team/1257068/image",
-        "logo_dark": null,
-        "aliases": [
-          "PW",
-          "PWH",
-          "Pakistan Whites"
-        ],
-        "color": null
-      },
-      "source": "sofascore:cricket",
-      "source_status": "inprogress/1st Inning",
-      "venue": "National Champions Cup",
-      "detail": "1st Inning",
-      "game_number": 1
-    },
-    {
       "event_id": "espn:soccer:401882920",
       "sport": "soccer",
       "competition_id": "esp.1",
@@ -341,44 +263,6 @@
       "source_status": "Final/Final",
       "venue": "Tropicana Field",
       "detail": "",
-      "game_number": 1
-    },
-    {
-      "event_id": "sofa:16834440",
-      "sport": "cricket",
-      "competition_id": "cricket",
-      "competition_name": "Cricket",
-      "start_utc": "2026-08-16T17:00:00Z",
-      "status": "live",
-      "home": {
-        "id": "sofa:377176",
-        "name": "Trent Rockets",
-        "abbrev": "TRO",
-        "logo": "https://api.sofascore.app/api/v1/team/377176/image",
-        "logo_dark": null,
-        "aliases": [
-          "TRO",
-          "TRT",
-          "Trent Rockets"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "sofa:377173",
-        "name": "Manchester Super Giants",
-        "abbrev": "MSG",
-        "logo": "https://api.sofascore.app/api/v1/team/377173/image",
-        "logo_dark": null,
-        "aliases": [
-          "MSG",
-          "Manchester Super Giants"
-        ],
-        "color": null
-      },
-      "source": "sofascore:cricket",
-      "source_status": "inprogress/1st Inning",
-      "venue": "The Hundred, Final",
-      "detail": "1st Inning",
       "game_number": 1
     },
     {
@@ -465,7 +349,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T17:35:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:144",
         "name": "Atlanta Braves",
@@ -496,7 +380,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Truist Park",
       "detail": "",
       "game_number": 1
@@ -507,7 +391,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T17:37:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:141",
         "name": "Toronto Blue Jays",
@@ -538,7 +422,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Rogers Centre",
       "detail": "",
       "game_number": 1
@@ -549,7 +433,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:121",
         "name": "New York Mets",
@@ -580,7 +464,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1
@@ -591,7 +475,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T17:40:00Z",
-      "status": "suspended",
+      "status": "live",
       "home": {
         "id": "mlb:114",
         "name": "Cleveland Guardians",
@@ -621,7 +505,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Delayed Start",
+      "source_status": "Live/In Progress",
       "venue": "Progressive Field",
       "detail": "",
       "game_number": 1
@@ -632,7 +516,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:116",
         "name": "Detroit Tigers",
@@ -663,7 +547,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Comerica Park",
       "detail": "",
       "game_number": 1
@@ -674,7 +558,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:113",
         "name": "Cincinnati Reds",
@@ -704,7 +588,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Great American Ball Park",
       "detail": "",
       "game_number": 1
@@ -715,7 +599,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T18:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:142",
         "name": "Minnesota Twins",
@@ -745,7 +629,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Target Field",
       "detail": "",
       "game_number": 1
@@ -793,49 +677,12 @@
       "game_number": 1
     },
     {
-      "event_id": "sofa:16837644",
-      "sport": "volleyball",
-      "competition_id": "volleyball",
-      "competition_name": "Volleyball",
-      "start_utc": "2026-08-16T19:30:00Z",
-      "status": "live",
-      "home": {
-        "id": "sofa:169084",
-        "name": "Dominican Republic",
-        "abbrev": "DOM",
-        "logo": "https://api.sofascore.app/api/v1/team/169084/image",
-        "logo_dark": null,
-        "aliases": [
-          "DOM",
-          "Dominican Republic"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "sofa:6817",
-        "name": "Cuba",
-        "abbrev": "CUB",
-        "logo": "https://api.sofascore.app/api/v1/team/6817/image",
-        "logo_dark": null,
-        "aliases": [
-          "CUB",
-          "Cuba"
-        ],
-        "color": null
-      },
-      "source": "sofascore:volleyball",
-      "source_status": "inprogress/1st set",
-      "venue": "Pan American Cup, Placement Matches",
-      "detail": "1st set",
-      "game_number": 1
-    },
-    {
       "event_id": "mlb:823182",
       "sport": "baseball",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T20:05:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:137",
         "name": "San Francisco Giants",
@@ -865,7 +712,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Oracle Park",
       "detail": "",
       "game_number": 1
@@ -876,7 +723,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T20:05:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:133",
         "name": "Athletics",
@@ -904,7 +751,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Sutter Health Park",
       "detail": "",
       "game_number": 1
@@ -915,7 +762,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T20:07:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:108",
         "name": "Los Angeles Angels",
@@ -946,7 +793,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Angel Stadium",
       "detail": "",
       "game_number": 1
@@ -957,7 +804,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T20:10:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:119",
         "name": "Los Angeles Dodgers",
@@ -988,7 +835,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "game_number": 1
@@ -999,7 +846,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-16T21:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:14",
         "name": "Seattle Storm",
@@ -1029,9 +876,9 @@
         "color": "5091cd"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Climate Pledge Arena",
-      "detail": "Sun, August 16th at 5:00 PM EDT",
+      "detail": "3:49 - 2nd Quarter",
       "game_number": 1
     },
     {
@@ -1040,7 +887,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-16T21:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:20",
         "name": "Atlanta Dream",
@@ -1070,9 +917,9 @@
         "color": "002d62"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "Sun, August 16th at 5:00 PM EDT",
+      "detail": "5:58 - 2nd Quarter",
       "game_number": 1
     },
     {
@@ -1230,7 +1077,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Daikin Park",
       "detail": "",
       "game_number": 1
