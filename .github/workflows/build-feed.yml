@@ -1,0 +1,46 @@
+name: build-feed
+
+on:
+  schedule:
+    # Every 5 minutes is the FLOOR GitHub Actions allows, and scheduled runs are best-effort — they are
+    # routinely late under load. So feed freshness is roughly 5-15 minutes, not 5. The app polls the
+    # published file every 10s, which controls how fast a change reaches the screen once it is published,
+    # not how fast it is produced. Minute-accurate live status needs a different runner; see docs.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+# The job commits back to this repo, so it needs write access to contents.
+permissions:
+  contents: write
+
+concurrency:
+  # A late run must not stack on top of a running one and produce conflicting commits.
+  group: build-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build feed
+        # `continue-on-error` is deliberate. A partial feed is a degraded product; a failed job that
+        # commits nothing leaves the last good feed in place, which is the correct outcome. What must never
+        # happen is committing an empty feed over a working one.
+        run: python -m sportsdata.build --days 2 --out feed
+      - name: Commit if changed
+        run: |
+          git config user.name "nm-sports-feed bot"
+          git config user.email "actions@github.com"
+          # Guard against publishing an empty feed. If the build produced no events, every source failed at
+          # once and the previous file is strictly better than what we just made.
+          COUNT=$(python -c "import json;print(len(json.load(open('feed/events.json'))['events']))")
+          echo "events: $COUNT"
+          if [ "$COUNT" -eq 0 ]; then echo "empty feed - refusing to commit"; exit 0; fi
+          git add feed/
+          git diff --staged --quiet || git commit -m "feed: $COUNT events [skip ci]"
+          git push
