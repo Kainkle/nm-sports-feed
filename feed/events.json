@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-16T22:52:30.329358+00:00",
+  "generated_utc": "2026-08-16T23:16:06.804094+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133674",
@@ -699,7 +699,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T20:05:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:137",
         "name": "San Francisco Giants",
@@ -729,7 +729,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Oracle Park",
       "detail": "",
       "game_number": 1,
@@ -824,7 +824,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-16T20:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:119",
         "name": "Los Angeles Dodgers",
@@ -855,7 +855,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "game_number": 1,
@@ -867,7 +867,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-16T21:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:14",
         "name": "Seattle Storm",
@@ -897,9 +897,9 @@
         "color": "5091cd"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Climate Pledge Arena",
-      "detail": "2:35 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": ""
     },
@@ -941,7 +941,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "3:37 - 4th Quarter",
+      "detail": "4:13 - OT",
       "game_number": 1,
       "highlight_video_id": ""
     },
@@ -979,9 +979,9 @@
         "color": "2c5234"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Second Half",
       "venue": "Soldier Field",
-      "detail": "42'",
+      "detail": "46'",
       "game_number": 1,
       "highlight_video_id": ""
     },
@@ -1019,9 +1019,9 @@
         "color": "051f31"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Yankee Stadium",
-      "detail": "41'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": ""
     },
@@ -1031,7 +1031,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-16T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:11",
         "name": "Phoenix Mercury",
@@ -1061,9 +1061,9 @@
         "color": "cee5eb"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Mortgage Matchup Center",
-      "detail": "Sun, August 16th at 7:00 PM EDT",
+      "detail": "4:08 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": ""
     },
