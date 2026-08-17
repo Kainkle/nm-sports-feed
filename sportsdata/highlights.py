@@ -30,6 +30,7 @@ import json
 import re
 import ssl
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -43,15 +44,33 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128.0.
 CHANNELS: dict[str, str] = {
     "mlb": "UCoLrcjPV5PbUrUyXq5mjc_A",
     "nba": "UCWJ2lWNubArHWmf3FIHbfcQ",
-    "ufc": "UCvgfXK4nTYKudb0rFR6noLA",
+    "wnba": "UCO9a_ryN_l7DIDS-VIt-zmw",
+    "afl": "UCui2LJ0N-Zi7Uw_sHyE5kgQ",
+    "nrl": "UCME0EifJ3Xm3mGmLdBz1Kyw",
+    # CORRECTED. The id previously here was wrong and would have matched nothing forever while looking
+    # perfectly plausible in the config - the failure mode of hardcoding an id you never verified.
+    "ufc": "UCPQDDlGe7lbgmEJ0ge7a_JA",
+    # RESOLVES TO "NHL Europe", NOT THE MAIN NHL CHANNEL.
+    #
+    # Confirmed by reading the RSS feed's own <title>: resolving @NHL from here returns the European
+    # variant. It is left in because it does post highlights and NHL is out of season anyway, but the
+    # regional channel may carry a different slate. Re-resolve from a US egress before the season starts.
+    "nhl": "UCK3CHl-6e3hq4gQaz_TOyoQ",
 }
 
 # Competitions each channel is allowed to satisfy. A channel must never be matched against a sport it does
 # not cover, or an MLB highlight could be linked to a hockey fixture on a name collision.
 CHANNEL_COMPETITIONS: dict[str, set[str]] = {
     "mlb": {"mlb"},
-    "nba": {"nba", "wnba"},
+    "nba": {"nba"},
+    "wnba": {"wnba"},
+    "nhl": {"nhl"},
+    "afl": {"afl"},
+    "nrl": {"rugby-league"},
     "ufc": {"ufc", "mma-sofa"},
+    # MLS and LaLiga deliberately absent: their handles did not resolve to a channel id, and soccer
+    # highlight rights are fragmented and geo-restricted per competition. An unverified id here would
+    # silently match nothing while looking configured.
 }
 
 # The shape gate. Both must be present or the upload is not a game highlight.
@@ -125,13 +144,18 @@ def match(events: list[Event], today: str) -> dict[str, dict]:
     for e in events:
         by_comp.setdefault(e.competition_id, []).append(e)
 
+    # Fetch every channel feed up front, concurrently. Seven sequential RSS round-trips added real time to
+    # a build that already runs on a timer.
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        feeds = dict(zip(CHANNELS, pool.map(_entries, CHANNELS.values())))
+
     found: dict[str, dict] = {}
     for channel, cid in CHANNELS.items():
         comps = CHANNEL_COMPETITIONS.get(channel, set())
         candidates = [e for c in comps for e in by_comp.get(c, [])]
         if not candidates:
             continue
-        for entry in _entries(cid):
+        for entry in feeds.get(channel, []):
             title = entry["title"]
             # Shape gate first: this is what discards the ~half of uploads that are not game highlights.
             if not (_HIGHLIGHT.search(title) and _VERSUS.search(title)):

@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -45,19 +46,43 @@ def collect(days: int) -> tuple[list[Event], list[dict]]:
     problems: list[dict] = []
     today = datetime.now(timezone.utc).date()
 
-    for ad in ADAPTERS:
-        got = 0
-        for i in range(days):
-            d = (today + timedelta(days=i)).isoformat()
-            try:
-                for ev in ad.fetch(d):
-                    # Keyed by event_id, so NHL's 7-day window overlapping successive calls de-duplicates
-                    # for free rather than publishing the same fixture several times.
-                    events[ev.event_id] = ev
-                    got += 1
-            except SourceError as e:
-                problems.append({"source": ad.key, "date": d, "error": str(e)})
-        print(f"  {ad.key:<6} {got:>4} rows over {days}d")
+    # CONCURRENT, because this is entirely network-bound and there are now dozens of sources.
+    #
+    # Sequentially the build took ~20s at three adapters and blew past ten minutes at twenty-six - long
+    # enough that a job on a five-minute cron would start overlapping itself. Every fetch is an independent
+    # HTTP call with no shared state, so the only thing serial execution was buying was latency.
+    jobs = [
+        (ad, (today + timedelta(days=i)).isoformat())
+        for ad in ADAPTERS
+        for i in range(days)
+    ]
+    counts: dict[str, int] = {ad.key: 0 for ad in ADAPTERS}
+
+    def run(job):
+        ad, d = job
+        try:
+            return ad, d, ad.fetch(d), None
+        except SourceError as e:
+            return ad, d, [], str(e)
+        except Exception as e:  # a broken adapter must not take the whole feed down
+            return ad, d, [], f"{type(e).__name__}: {e}"
+
+    # Capped: this runs on a shared CI runner, and politeness to the sources matters more than shaving
+    # the last few seconds.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for ad, d, rows, err in pool.map(run, jobs):
+            if err:
+                problems.append({"source": ad.key, "date": d, "error": err})
+                continue
+            for ev in rows:
+                # Keyed by event_id, so NHL's 7-day window overlapping successive calls de-duplicates
+                # for free rather than publishing the same fixture several times.
+                events[ev.event_id] = ev
+                counts[ad.key] += 1
+
+    for k, n in sorted(counts.items()):
+        if n:
+            print(f"  {k:<22} {n:>4} rows")
 
     return list(events.values()), problems
 
