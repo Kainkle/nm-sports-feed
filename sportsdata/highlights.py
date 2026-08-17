@@ -75,10 +75,24 @@ CHANNEL_COMPETITIONS: dict[str, set[str]] = {
 
 # The shape gate. Both must be present or the upload is not a game highlight.
 _HIGHLIGHT = re.compile(r"highlight", re.I)
-_VERSUS = re.compile(r"\b(?:vs\.?|at|@)\b", re.I)
+# EVERY separator the leagues actually use, read off their live feeds rather than assumed. The four
+# formats differ in separator, in date shape, and in whether a date appears at all — matching only MLB's
+# was why every other channel scored zero while looking correctly configured.
+#
+# A bare `v` is the Australian convention (AFL, NRL) and matching it is what unblocked both. It is anchored
+# on word boundaries precisely BECAUSE it is a single letter: unanchored it would fire inside any word
+# containing a v and match essentially everything.
+_VERSUS = re.compile(r"\b(?:vs\.?|v|at|@)\b", re.I)
+
+_MONTHS_RE = (
+    "January|February|March|April|May|June|July|August|September|October|November|December"
+)
+
+# Two shapes: MLB parenthesises the date and omits the year, WNBA writes it plainly with one. The leading
+# paren is optional so both match. Titles carrying no date at all — AFL and NRL give a round number
+# instead — fall through to the +/- 2 day window against the fixture list.
 _TITLE_DATE = re.compile(
-    r"\((?P<month>January|February|March|April|May|June|July|August|September|October|November|December)"
-    r"\s+(?P<day>\d{1,2})\)",
+    r"\(?\b(?P<month>" + _MONTHS_RE + r")\s+(?P<day>\d{1,2})\b",
     re.I,
 )
 _MONTHS = {m: i + 1 for i, m in enumerate(
