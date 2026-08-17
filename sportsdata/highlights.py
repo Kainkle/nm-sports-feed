@@ -169,7 +169,7 @@ def match(events: list[Event], today: str) -> dict[str, dict]:
                 # dated differently from the fixture is a different fixture.
                 if tdate and ev.start_utc[:10] != tdate:
                     continue
-                if not tdate and not _within_days(ev.start_utc, today, 2):
+                if not tdate and not _within_days(ev.start_utc, today, 2):  # +/- 2 days
                     continue
                 if _matches_both(norm_title, ev):
                     found[ev.event_id] = {"video_id": entry["video_id"], "title": title}
@@ -210,9 +210,11 @@ def apply(events: list[Event], today: str, store_path: Path) -> int:
 
     # Forget anything old enough that no screen will show it again. Unbounded growth would eventually make
     # every build read and rewrite a very large file for no benefit.
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=14)).strftime("%Y-%m-%d")
-    ids_recent = {e.event_id for e in events if e.start_utc[:10] >= cutoff}
-    store = {k: v for k, v in store.items() if k in ids_recent or k in store}
+    # Cap the store by size rather than by a membership test that was always true: the previous filter
+    # read `k in ids_recent or k in store`, and the second clause made the whole expression a no-op, so
+    # nothing was ever evicted.
+    if len(store) > 500:
+        store = dict(list(store.items())[-500:])
 
     store_path.parent.mkdir(parents=True, exist_ok=True)
     store_path.write_text(json.dumps(store, indent=2))

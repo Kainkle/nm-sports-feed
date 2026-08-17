@@ -51,10 +51,18 @@ def collect(days: int) -> tuple[list[Event], list[dict]]:
     # Sequentially the build took ~20s at three adapters and blew past ten minutes at twenty-six - long
     # enough that a job on a five-minute cron would start overlapping itself. Every fetch is an independent
     # HTTP call with no shared state, so the only thing serial execution was buying was latency.
+    # THE WINDOW REACHES BACKWARDS, and that is not a detail.
+    #
+    # Highlights only exist AFTER a game ends, so a forward-only window (today onwards) can never hold a
+    # finished game and its highlight at the same time: at 00:01 UTC the day rolled, yesterday's fixtures
+    # left the feed, and six matched highlights went to zero without anything actually breaking.
+    #
+    # Starting a day earlier keeps completed games in the feed long enough to carry the highlight that
+    # follows them, which is the entire point of the hero.
     jobs = [
         (ad, (today + timedelta(days=i)).isoformat())
         for ad in ADAPTERS
-        for i in range(days)
+        for i in range(-1, days)
     ]
     counts: dict[str, int] = {ad.key: 0 for ad in ADAPTERS}
 
