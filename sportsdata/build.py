@@ -34,6 +34,21 @@ from .model import Event, Status
 
 REPO = Path(__file__).resolve().parent.parent
 
+# How far back the fixture window reaches, in days.
+#
+# ONE DAY WAS NOT ENOUGH, and the symptom was the "Latest events & highlights" row holding a single card.
+# The highlight STORE had twenty matched clips; nineteen of them belonged to games that had already left
+# the window, and an event that is not in the feed cannot carry its highlight into the app.
+#
+# Three days is chosen against how the matcher actually works rather than picked round: YouTube's per-channel
+# RSS is a rolling fifteen-entry window, so a busy league's highlight is matched within hours of the game and
+# then pushed out of reach. Holding the game itself for three days is what gives the store time to be useful,
+# and it is also roughly how long a viewer still considers a result "latest".
+#
+# The cost is linear and concurrent: at 27 adapters this is 54 extra fetches per build, spread across the
+# same worker pool. Fixtures are keyed by event_id, so overlapping windows de-duplicate for free.
+BACKFILL_DAYS = 3
+
 
 def collect(days: int) -> tuple[list[Event], list[dict]]:
     """
@@ -62,7 +77,7 @@ def collect(days: int) -> tuple[list[Event], list[dict]]:
     jobs = [
         (ad, (today + timedelta(days=i)).isoformat())
         for ad in ADAPTERS
-        for i in range(-1, days)
+        for i in range(-BACKFILL_DAYS, days)
     ]
     counts: dict[str, int] = {ad.key: 0 for ad in ADAPTERS}
 
