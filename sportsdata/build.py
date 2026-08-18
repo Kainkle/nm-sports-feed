@@ -28,7 +28,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import highlights
+from . import highlights, news
 from .adapters import ADAPTERS, SourceError
 from .model import Event, Status
 
@@ -181,13 +181,31 @@ def main() -> int:
     matched = highlights.apply(events, today, out / "highlights.json")
     print(f"  highlights matched: {matched}")
 
+    # Editorial, fetched alongside the fixtures and published in the same file.
+    #
+    # One file rather than two: the box already polls this URL every ten seconds, and a second request on
+    # its own schedule would double the traffic to save bytes that do not matter. Stories are small.
+    stories = news.collect()
+    print(f"  stories: {len(stories)} across "
+          f"{len({s.competition_id for s in stories})} competitions")
+
     feed = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "events": [e.to_json() for e in events],
+        "stories": [s.to_json() for s in stories],
     }
     (out / "events.json").write_text(json.dumps(feed, indent=2))
 
     cov = coverage(events, problems, a.days)
+    # Recorded in the coverage report for the same reason fixtures are: "no stories" and "the news source
+    # broke" look identical on screen, and only a count distinguishes them after the fact.
+    cov["stories"] = {
+        "total": len(stories),
+        "by_competition": {
+            cid: sum(1 for s in stories if s.competition_id == cid)
+            for cid in sorted({s.competition_id for s in stories})
+        },
+    }
     (out / "coverage.json").write_text(json.dumps(cov, indent=2))
 
     print(f"\n{'competition':<12} {'events':>7} {'status%':>8} {'logos%':>7} {'live':>5}  dates")
