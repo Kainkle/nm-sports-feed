@@ -1,20 +1,22 @@
 {
-  "generated_utc": "2026-08-18T00:37:40.508943+00:00",
+  "generated_utc": "2026-08-18T00:39:13.173872+00:00",
   "window_days": 2,
-  "total_events": 65,
+  "total_events": 140,
   "competitions": [
     {
       "competition": "afl",
       "name": "AFL",
       "sport": "australian-football",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 8,
+      "date_range": [
+        "2026-08-15",
+        "2026-08-16"
+      ],
+      "explicit_status": 8,
+      "status_coverage_pct": 100,
+      "both_logos": 8,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "boxing",
@@ -85,14 +87,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 2,
+      "events": 6,
       "date_range": [
-        "2026-08-17",
+        "2026-08-15",
         "2026-08-19"
       ],
-      "explicit_status": 2,
+      "explicit_status": 6,
       "status_coverage_pct": 100,
-      "both_logos": 2,
+      "both_logos": 6,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -139,14 +141,14 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 41,
+      "events": 71,
       "date_range": [
-        "2026-08-17",
+        "2026-08-15",
         "2026-08-20"
       ],
-      "explicit_status": 41,
+      "explicit_status": 71,
       "status_coverage_pct": 100,
-      "both_logos": 41,
+      "both_logos": 71,
       "logo_coverage_pct": 100,
       "live_now": 10
     },
@@ -232,14 +234,16 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 7,
+      "date_range": [
+        "2026-08-15",
+        "2026-08-16"
+      ],
+      "explicit_status": 7,
+      "status_coverage_pct": 100,
+      "both_logos": 7,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "nhl",
@@ -258,14 +262,16 @@
       "competition": "rugby-league",
       "name": "Rugby League",
       "sport": "rugby-league",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 5,
+      "date_range": [
+        "2026-08-15",
+        "2026-08-16"
+      ],
+      "explicit_status": 5,
+      "status_coverage_pct": 100,
+      "both_logos": 5,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "snooker",
@@ -323,14 +329,14 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 15,
+      "events": 30,
       "date_range": [
-        "2026-08-19",
+        "2026-08-15",
         "2026-08-20"
       ],
-      "explicit_status": 15,
+      "explicit_status": 30,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 30,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -351,14 +357,14 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 7,
+      "events": 13,
       "date_range": [
-        "2026-08-18",
+        "2026-08-15",
         "2026-08-20"
       ],
-      "explicit_status": 7,
+      "explicit_status": 13,
       "status_coverage_pct": 100,
-      "both_logos": 7,
+      "both_logos": 13,
       "logo_coverage_pct": 100,
       "live_now": 0
     }
