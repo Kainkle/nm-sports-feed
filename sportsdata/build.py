@@ -28,7 +28,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import highlights, news
+from . import highlights, news, replays
 from .adapters import ADAPTERS, SourceError
 from .model import Event, Status
 
@@ -195,6 +195,11 @@ def main() -> int:
     today = datetime.now(timezone.utc).date().isoformat()
     matched = highlights.apply(events, today, out / "highlights.json")
     print(f"  highlights matched: {matched}")
+
+    # Replays after highlights for the same reason: the match needs the whole fixture set, and a
+    # source failure here must not be able to take the feed down (apply catches its own scrapes).
+    replay_hits = replays.apply(events, today, out / "replays.json")
+    print(f"  replays matched: {replay_hits}")
 
     # Editorial, fetched alongside the fixtures and published in the same file.
     #

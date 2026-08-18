@@ -105,6 +105,13 @@ class Event:
     # Carried as an ID, never a URL: the app builds its own embed URL with its own player parameters, the
     # same way NMFlix does for card trailers.
     highlight_video_id: str = ""
+    # Embeddable player URL of a scraped full-event replay (see `replays.py`), once one has been matched.
+    #
+    # A URL rather than an id — deliberately unlike the highlight — because the embed is third-party
+    # (ok.ru) and carries no parameters we control. `replay_poster` is the replay entry's own artwork
+    # for surfaces that want a play affordance over it.
+    replay_url: str = ""
+    replay_poster: str = ""
 
     def to_json(self) -> dict[str, Any]:
         d = asdict(self)
