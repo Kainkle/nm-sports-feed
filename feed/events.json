@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-18T22:56:28.402660+00:00",
+  "generated_utc": "2026-08-18T23:28:32.641676+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133677",
@@ -4052,7 +4052,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-18T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:18",
         "name": "Connecticut Sun",
@@ -4082,9 +4082,9 @@
         "color": "552583"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "TD Garden",
-      "detail": "Tue, August 18th at 7:00 PM EDT",
+      "detail": "8:35 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4096,7 +4096,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-18T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:131935",
         "name": "Toronto Tempo",
@@ -4126,9 +4126,9 @@
         "color": "002d62"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/End of Period",
       "venue": "Scotiabank Arena",
-      "detail": "Tue, August 18th at 7:00 PM EDT",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4171,7 +4171,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Fenway Park",
       "detail": "",
       "game_number": 1,
@@ -4216,7 +4216,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -4230,7 +4230,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-18T23:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:118",
         "name": "Kansas City Royals",
@@ -4258,7 +4258,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Kauffman Stadium",
       "detail": "",
       "game_number": 1,
@@ -4272,7 +4272,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-18T23:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:142",
         "name": "Minnesota Twins",
@@ -4302,7 +4302,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Target Field",
       "detail": "",
       "game_number": 1,
@@ -4316,7 +4316,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-18T23:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:158",
         "name": "Milwaukee Brewers",
@@ -4346,7 +4346,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "American Family Field",
       "detail": "",
       "game_number": 1,
@@ -6044,16 +6044,28 @@
   ],
   "stories": [
     {
-      "story_id": "40699880",
-      "headline": "Fantasy football buzz: Colts sign Keenan Allen, Giants adding Najee Harris",
-      "summary": "Matt Bowen looks at what kind of impact Keenan Allen and Najee Harris will have on their new teams.",
-      "image": "https://a.espncdn.com/photo/2026/0818/r1703254_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T21:40:46Z",
+      "story_id": "49419756",
+      "headline": "2026 New York Jets training camp: Latest intel, updates",
+      "summary": "Catch up on our daily updates from Jets training camp, including intel on QBs, position battles and potential breakouts.",
+      "image": "https://a.espncdn.com/photo/2026/0813/r1701270_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T22:19:34Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "ESPN Fantasy",
+      "byline": "Rich Cimini",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
+      "link": "https://www.espn.com/nfl/story/_/id/49419756/new-york-jets-training-camp-2026-intel-updates"
+    },
+    {
+      "story_id": "49651586",
+      "headline": "Five Buss siblings 'united' in decision to sell Lakers shares",
+      "summary": "Five of the six members of the Buss trust say they are \"united\" in their intention to sell their remaining shares in the Lakers, despite pushback from Jeanie Buss.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/ss_20260818_084909900_3627967531/ss_20260818_084909900_3627967531.jpg",
+      "published_utc": "2026-08-18T22:06:22Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/49651586/five-buss-siblings-united-decision-sell-lakers-shares"
     },
     {
       "story_id": "49651825",
@@ -6068,6 +6080,18 @@
       "link": "https://www.espn.com/soccer/story/_/id/49651825/us-youth-gozo-move-real-salt-lake-crystal-palace"
     },
     {
+      "story_id": "49642343",
+      "headline": "Swans deciding penalties for 'serious' standards breach",
+      "summary": "Sydney will soon announce punishments for the AFL players who breached club standards and behaviours at a Melbourne hotel.",
+      "image": "https://a.espncdn.com/photo/2023/0502/r1167280_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T21:23:50Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49642343/afl-sydney-swans-news-police-investigation-stand-player-alleged-assault"
+    },
+    {
       "story_id": "49651722",
       "headline": "Brighton sign Canada striker Promise David on loan",
       "summary": "Brighton & Hove Albion have signed Canada striker Promise David on a season-long loan from Union St.-Gilloise",
@@ -6078,30 +6102,6 @@
       "byline": "ESPN News Services",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49651722/brighton-canada-promise-david-loan-union-st-gilloise"
-    },
-    {
-      "story_id": "49651586",
-      "headline": "Five Buss siblings 'united' in decision to sell Lakers shares",
-      "summary": "Five of the six members of the Buss trust say they are \"united\" in their intention to sell their remaining shares in the Lakers, despite pushback from Jeanie Buss.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/ss_20260818_084909900_3627967531/ss_20260818_084909900_3627967531.jpg",
-      "published_utc": "2026-08-18T21:21:27Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49651586/five-buss-siblings-united-decision-sell-lakers-shares"
-    },
-    {
-      "story_id": "49642343",
-      "headline": "Swans deciding penalties for 'serious' standards breach",
-      "summary": "Sydney players will be punished for serious breaches of club behavioural standards, separate to the police investigation into sexual assault allegations which has engulfed the AFL club.",
-      "image": "https://a.espncdn.com/photo/2023/0502/r1167280_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T20:51:27Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49642343/afl-sydney-swans-news-police-investigation-stand-player-alleged-assault"
     },
     {
       "story_id": "49638967",
@@ -6176,52 +6176,28 @@
       "link": "https://www.espn.com/olympics/hockey/story/_/id/49593415/hockey-canada-extends-bans-stemming-2018-sexual-assault-case"
     },
     {
-      "story_id": "49646439",
-      "headline": "Don't call it a slump: Penrith say they can fix slide",
-      "summary": "Penrith insist they are not in a form slump and can turn around their late-season slide, adamant only minor changes are required to perform at the crunch.",
+      "story_id": "49634994",
+      "headline": "NRL Midweek Mail R25: Bears add former Panther, Kikau's simple message for Dogs",
+      "summary": "Former Panthers forward Zac Lipowicz has found a new home, while surgery for Broncos fullback Reece Walsh looks likely to rule him out of the World Cup.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0816/dm_260816_NRL_Highlight_The_Fletchers_get_it_done_for_the_Knights_20260816_AUS_ONLY/dm_260816_NRL_Highlight_The_Fletchers_get_it_done_for_the_Knights_20260816_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49646439/nrl-latrell-mitchell-eyes-south-sydney-return-jett-cleary-nears-new-zealand-warriors-debut"
+      "link": "https://www.espn.com/nrl/story/_/id/49634994/nrl-news-round-25-espn-midweek-mail-cubs-circle-former-panther-reece-walsh-facing-surgery"
     },
     {
-      "story_id": "49427703",
-      "headline": "2026 New England Patriots training camp: Latest intel, updates",
-      "summary": "Catch up on our daily updates from Patriots training camp, including intel on QBs, position battles and potential breakouts.",
-      "image": "https://a.espncdn.com/photo/2026/0813/r1701288_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T21:37:32Z",
+      "story_id": "40699880",
+      "headline": "Fantasy football buzz: Colts sign Keenan Allen, Giants adding Najee Harris",
+      "summary": "Matt Bowen looks at what kind of impact Keenan Allen and Najee Harris will have on their new teams.",
+      "image": "https://a.espncdn.com/photo/2026/0818/r1703254_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T21:40:46Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Mike Reiss",
+      "byline": "ESPN Fantasy",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49427703/new-england-patriots-training-camp-2026-intel-updates"
-    },
-    {
-      "story_id": "49650257",
-      "headline": "Source: USMNT's Mark McKenzie set to rejoin Philadelphia Union",
-      "summary": "The Philadelphia Union is finalizing the transfer of Toulouse and United States international defender Mark McKenzie, a source confirmed to ESPN.",
-      "image": "https://a.espncdn.com/photo/2026/0818/r1703475_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T18:00:57Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "Jeff Carlisle",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49650257/usa-mark-mckenzie-philadelphia-union-transfer-toulouse-mls"
-    },
-    {
-      "story_id": "49646017",
-      "headline": "Transfer rumors, news: Coventry City to sign Chelsea's Mudryk?",
-      "summary": "Coventry City are reportedly linked with a move for Chelsea's Mykhailo Mudryk. Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/0818/r1703563_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T20:47:34Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49646017/transfer-rumors-news-galatasaray-offer-bruno-fernandes-double-salary"
+      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
     },
     {
       "story_id": "49648776",
@@ -6236,6 +6212,18 @@
       "link": "https://www.espn.com/nba/story/_/id/49648776/knicks-title-run-embarrassing-nets-owner-joe-tsai-says"
     },
     {
+      "story_id": "49650257",
+      "headline": "Source: USMNT's Mark McKenzie set to rejoin Philadelphia Union",
+      "summary": "The Philadelphia Union is finalizing the transfer of Toulouse and United States international defender Mark McKenzie, a source confirmed to ESPN.",
+      "image": "https://a.espncdn.com/photo/2026/0818/r1703475_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T18:00:57Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "Jeff Carlisle",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49650257/usa-mark-mckenzie-philadelphia-union-transfer-toulouse-mls"
+    },
+    {
       "story_id": "49646566",
       "headline": "Dillon stresses seriousness of Swans' allegations",
       "summary": "AFL boss Andrew Dillon has released the following statement regarding the Sydney Swans allegations.",
@@ -6246,6 +6234,18 @@
       "byline": "AAP",
       "source": "ESPN",
       "link": "https://www.espn.com/afl/story/_/id/49646566/afl-sydney-swans-news-andrew-dillon-releases-statement"
+    },
+    {
+      "story_id": "49646017",
+      "headline": "Transfer rumors, news: Coventry City to sign Chelsea's Mudryk?",
+      "summary": "Coventry City are reportedly linked with a move for Chelsea's Mykhailo Mudryk. Transfer Talk has the latest.",
+      "image": "https://a.espncdn.com/photo/2026/0818/r1703563_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T20:47:34Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49646017/transfer-rumors-news-galatasaray-offer-bruno-fernandes-double-salary"
     },
     {
       "story_id": "48350446",
@@ -6320,16 +6320,16 @@
       "link": "https://www.espn.com/nhl/story/_/id/49235590/nhl-free-agency-tracker-2026-contracts-teams-analysis-updates"
     },
     {
-      "story_id": "49646391",
-      "headline": "Mitchell eyes Souths return; other Cleary nears NRL debut",
-      "summary": "Latrell Mitchell could be in line for his first NRL action in more than three months after the South Sydney superstar was named on the Rabbitohs' extended bench for the weekend.",
+      "story_id": "49646439",
+      "headline": "Don't call it a slump: Penrith say they can fix slide",
+      "summary": "Penrith insist they are not in a form slump and can turn around their late-season slide, adamant only minor changes are required to perform at the crunch.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0816/dm_260816_NRL_Highlight_The_Fletchers_get_it_done_for_the_Knights_20260816_AUS_ONLY/dm_260816_NRL_Highlight_The_Fletchers_get_it_done_for_the_Knights_20260816_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49646391/nrl-latrell-mitchell-eyes-south-sydney-return-jett-cleary-nears-new-zealand-warriors-debut"
+      "link": "https://www.espn.com/nrl/story/_/id/49646439/nrl-latrell-mitchell-eyes-south-sydney-return-jett-cleary-nears-new-zealand-warriors-debut"
     }
   ]
 }
