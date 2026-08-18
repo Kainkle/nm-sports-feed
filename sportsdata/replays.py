@@ -1,33 +1,56 @@
 """
 Match full-event replays from replay sites to fixtures in the feed.
 
-## The provider, characterised by probe (docs/captures/replays/, 2026-08-18)
+## mlblive.net (MLB), characterised by probe (docs/captures/replays/, 2026-08-18)
 
-**mlblive.net** is a uCoz `publ` catalog, fully server-rendered — every listing and entry page is
-parseable with plain HTTP, no JS. That matters because **the site's own pages main-frame-redirect a
-real browser to an Adsterra fake-browser preland** (`boost-you-browser.com/...`, JS-injected after
-load; a plain HTTP client never sees it). Consequences, both load-bearing:
+A uCoz `publ` catalog, fully server-rendered — every listing and entry page is parseable with
+plain HTTP, no JS. That matters because **the site's own pages main-frame-redirect a real browser
+to an Adsterra fake-browser preland** (`boost-you-browser.com/...`, JS-injected after load; a
+plain HTTP client never sees it). Consequences, both load-bearing:
 
 1. Scraping it with urllib is safe and stable — no ads execute, no redirects fire.
 2. **The app must never load an mlblive.net page.** It plays the video *embed* the entry carries
    (an ok.ru player), extracted here and shipped in the feed as `replay_url`.
 
-## Title grammar (verified across every entry probed)
+Title grammar (verified across every entry probed):
 
     St. Louis Cardinals @ Cincinnati Reds Game 2 - MLB Full Game Replay - August 17, 2026
     ^away                        ^home           ^optional     ^literal            ^US date
 
-The date is the site's local (US) date, so matching converts the fixture's `start_utc` to
-America/New_York before comparing — a 9:40pm PT game is "August 17" on the site but August 18 in
-UTC, and comparing raw UTC dates would miss every West Coast night game.
+Playback facts, measured (probe_mlb_autoplay.py): the ok.ru embed is gesture-gated like videasy —
+it resolves and prebuffers on load but mounts no `<video>` until a click. One synthesized centre
+click starts it (MSE, `blob:` src, quality ladders from 240p; segments on `*.vkuser.net`). Full
+games run ~2.5h. Native resolve is not available anonymously, so the play path is a WebView
+pointed at the embed.
 
-## Playback facts, measured (probe_mlb_autoplay.py)
+## basketball-video.com (NBA + WNBA), characterised by probe (docs/captures/bbv/, 2026-08-18)
 
-The ok.ru embed is gesture-gated like videasy: it resolves and prebuffers on load but mounts no
-`<video>` until a click. One synthesized centre click starts it (MSE, `blob:` src, quality ladders
-from 240p; segments on `*.vkuser.net` — the verdict host for any blocklist work). Full games run
-~2.5h. Native resolve is not available anonymously (`/dk?cmd=videoPlayerMetadata` 302s without a
-browser session), so the play path is a WebView pointed at the embed.
+Same uCoz engine and card markup as mlblive (entryID split, H3+poster per card) behind Cloudflare;
+a browser-ish UA gets plain 200s, no preland. Structure differs from mlblive in two ways:
+
+- **The embed is not an iframe on the entry page.** Each per-game entry carries "Server" Watch
+  buttons (`<a class="su-button" href="//ok.ru/videoembed/...">`); some entries offer dailymotion
+  or filemoon servers instead. Only the ok.ru server is extracted — it is the one host the app's
+  player is verified against; any other server needs its own player probe first.
+- **Placeholder entries exist and must be skipped.** When the operator has no embed, the Watch
+  button points at a stale TV-schedule site (nbaontv.com, dated 2024) — an entry page with no
+  ok.ru href is a shell, not a match failure. Verified window: every WNBA entry after Aug 10 2026
+  was a shell at probe time, while the operator's ok.ru upload channel continued posting — so the
+  site is an index that can lag or drop its wiring; the scraper takes what is wired, no more.
+
+The ok.ru uploader behind these embeds titles every video "." (probe_bbv_okru.py) — ok.ru itself
+is unmatchable by title; the index site's titles are the only match source and always will be.
+
+Listings walked: `/wnba-video-full-game` (stable URL) and the current NBA season hub, discovered
+from the home page's season links each run (`/2025-26` today; hard-coded fallback) so a new
+season's hub is picked up without a code change. An alternate index exists — day-hub entries with
+an inline per-game table ("NBA Summer League - July 19, 2026 ...") whose rows carry ok.ru links
+directly; it is not walked (per-game listings cover the same games) but is the fallback shape if
+the per-game listings ever change.
+
+The date in every title is the site's local (US) date, so matching converts the fixture's
+`start_utc` to America/New_York before comparing — a 9:40pm PT game is "August 17" on the site
+but August 18 in UTC, and comparing raw UTC dates would miss every West Coast night game.
 """
 
 from __future__ import annotations
@@ -51,6 +74,14 @@ LISTING_URL = "https://mlblive.net/2026-mlb-full-game-replays"
 # redesign that breaks date parsing cannot turn into crawling all 169 pages.
 MAX_PAGES = 6
 
+BBV_BASE = "https://basketball-video.com"
+# Stable per-game WNBA catalog (the user's own link). ~3-4 games/day, so 4 pages cover the window.
+BBV_WNBA = f"{BBV_BASE}/wnba-video-full-game"
+# NBA: the current season hub is discovered from the home page each run (season links, newest
+# first); this is only the fallback if discovery fails.
+BBV_SEASON_FALLBACK = f"{BBV_BASE}/2025-26"
+BBV_MAX_PAGES = 4
+
 _MONTHS = {m: i + 1 for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july",
      "august", "september", "october", "november", "december"])}
@@ -64,15 +95,37 @@ _TITLE = re.compile(
     r"\s*-\s*.*Replay\s*-\s*(?P<month>[A-Za-z]+)\s+(?P<day>\d{1,2}),\s+(?P<year>\d{4})\s*$"
 )
 
+# basketball-video title grammar, two eras observed per league (date last / date middle, "vs."
+# or "vs", optional series segment between the teams and the date):
+#   "Dallas Wings vs. Golden State Valkyries - WNBA Full Game Replay - August 17, 2026"
+#   "Minnesota Lynx vs Indiana Fever August 22, 2025 WNBA Full Game Replay"
+#   "San Antonio Spurs vs. New York Knicks - NBA Finals - Game 4 - Full Game Replay - June 10, 2026"
+#   "Los Angeles Lakers vs. Golden State Warriors Gold - NBA Summer League - Full Game Replay - ..."
+# Teams live in the first " - "-separated segment (whole title in the 2025 era, which had no
+# dashes); the date is found anywhere. Trailing qualifiers after the second team ("Gold") are
+# tolerated by substring alias matching downstream.
+_BBV_TITLE = re.compile(
+    r"^(?P<away>.+?)\s+vs\.?\s+(?P<home>.+?)(?:\s+[A-Za-z]+\s+\d{1,2},\s*\d{4}\b.*)?$"
+)
+_BBV_DATE = re.compile(r"\b(?P<month>[A-Za-z]+)\s+(?P<day>\d{1,2}),\s+(?P<year>\d{4})\b")
+
 # One listing entry: the entry link, the H3 title, and the poster art. The entry id is captured
-# by the split in `listing()`, not by a regex of its own.
+# by the split in `listing()`, not by a regex of its own. Shared by both uCoz sites.
 _ENTRY_LINK_TITLE = re.compile(
     r'<h3><a href="(?P<href>/[a-z0-9-]+)"[^>]*>(?P<title>[^<]+)</a></h3>'
 )
 _ENTRY_POSTER = re.compile(r'<div class="poster">\s*<a href="[^"]+">\s*<img src="(?P<img>[^"]+)"')
 
-# The embed iframe on an entry page. Protocol-relative (`//ok.ru/...`) is normalised on extraction.
+# The embed iframe on an mlblive entry page. Protocol-relative (`//ok.ru/...`) is normalised.
 _IFRAME = re.compile(r'<iframe[^>]*\ssrc="(?P<src>//[^"]+|https?://[^"]+)"', re.I)
+
+# basketball-video's ok.ru Watch button (protocol-relative). Deliberately host-pinned: the other
+# servers (dailymotion, filemoon) have not been player-probed, and an unproven host in the app's
+# WebView is a black screen, not a feature.
+_BBV_OK = re.compile(r'href="(?P<src>//ok\.ru/videoembed/\d+)"')
+
+# The home page's season-hub links, newest first: <a href="https://.../2025-26">2025-26 NBA Season</a>
+_BBV_SEASON_LINK = re.compile(r'href="https?://(?:www\.)?basketball-video\.com/(20\d{2}-\d{2})"')
 
 
 def _get(url: str) -> str:
@@ -96,18 +149,42 @@ def _parse_title(title: str) -> dict | None:
     }
 
 
-def listing(pages: int = MAX_PAGES, min_date: str = "") -> list[dict]:
+def _parse_bbv_title(title: str) -> dict | None:
     """
-    Walk the category pages, newest first, stopping early once entries fall before `min_date`.
+    Tolerant across the site's eras; `game` is always 1 on purpose. MLB's `Game N` is a
+    doubleheader half the fixture data can corroborate; basketball's `Game N` is a *series* game
+    (NBA Finals Game 4) that the fixture side does not carry at all — enforcing it here would
+    reject every playoff replay. Date + both teams is the match, and a same-day rematch does not
+    exist in these leagues.
+    """
+    m = _BBV_TITLE.match(title.strip().split(" - ")[0])
+    d = _BBV_DATE.search(title)
+    if not m or not d:
+        return None
+    month = _MONTHS.get(d.group("month").lower())
+    if not month:
+        return None
+    return {
+        "away": m.group("away").strip(" .,-"),
+        "home": m.group("home").strip(" .,-"),
+        "game": 1,
+        "date": f"{int(d.group('year')):04d}-{month:02d}-{int(d.group('day')):02d}",
+    }
 
-    Returns entries as `{replay_id, page_url, title, poster, ...parsed}`. No network fetch of the
-    entry pages happens here — the embed extraction is a second, concurrent pass, so a listing
-    problem and an embed problem stay separately diagnosable.
+
+def _walk_ucoz(listing_url: str, base: str, tag: str, parse, pages: int, min_date: str) -> list[dict]:
+    """
+    The shared uCoz listing walk (mlblive and basketball-video use the same engine and card
+    markup). Newest first, `?pageN` pagination, early stop once a whole page predates `min_date`.
+
+    Returns entries as `{replay_id, page_url, title, poster?, ...parsed}`. No entry pages are
+    fetched here — embed extraction is a second, concurrent pass, so a listing problem and an
+    embed problem stay separately diagnosable.
     """
     out: list[dict] = []
     seen: set[str] = set()
     for page_n in range(1, pages + 1):
-        url = LISTING_URL if page_n == 1 else f"{LISTING_URL}?page{page_n}"
+        url = listing_url if page_n == 1 else f"{listing_url}?page{page_n}"
         try:
             html = _get(url)
         except Exception:
@@ -124,18 +201,18 @@ def listing(pages: int = MAX_PAGES, min_date: str = "") -> list[dict]:
             t = _ENTRY_LINK_TITLE.search(b)
             if not t:
                 continue
-            parsed = _parse_title(t.group("title"))
+            parsed = parse(t.group("title"))
             if not parsed:
                 continue
             entry = {
-                "replay_id": f"mlblive:{parts[i]}",
-                "page_url": "https://mlblive.net" + t.group("href"),
+                "replay_id": f"{tag}:{parts[i]}",
+                "page_url": base + t.group("href"),
                 "title": t.group("title"),
                 **parsed,
             }
             poster = _ENTRY_POSTER.search(b)
             if poster:
-                entry["poster"] = "https://mlblive.net" + poster.group("img")
+                entry["poster"] = base + poster.group("img")
             if entry["replay_id"] in seen:
                 continue
             seen.add(entry["replay_id"])
@@ -147,9 +224,39 @@ def listing(pages: int = MAX_PAGES, min_date: str = "") -> list[dict]:
     return out
 
 
+def listing(pages: int = MAX_PAGES, min_date: str = "") -> list[dict]:
+    """mlblive listing (MLB)."""
+    return _walk_ucoz(LISTING_URL, "https://mlblive.net", "mlblive", _parse_title, pages, min_date)
+
+
+def _bbv_nba_url() -> str:
+    """The current NBA season hub, discovered so a new season needs no code change."""
+    try:
+        seasons = _BBV_SEASON_LINK.findall(_get(BBV_BASE + "/"))
+        if seasons:
+            return f"{BBV_BASE}/{seasons[0]}"
+    except Exception:
+        pass
+    return BBV_SEASON_FALLBACK
+
+
+def bbv_listing(min_date: str) -> list[dict]:
+    """basketball-video listing (NBA + WNBA): both catalogs, deduped by replay id."""
+    wnba = _walk_ucoz(BBV_WNBA, BBV_BASE, "bbv", _parse_bbv_title, BBV_MAX_PAGES, min_date)
+    nba = _walk_ucoz(_bbv_nba_url(), BBV_BASE, "bbv", _parse_bbv_title, BBV_MAX_PAGES, min_date)
+    seen: set[str] = set()
+    out: list[dict] = []
+    for e in wnba + nba:
+        if e["replay_id"] in seen:
+            continue
+        seen.add(e["replay_id"])
+        out.append(e)
+    return out
+
+
 def _embed(entry: dict) -> dict | None:
     """
-    Fetch one entry page and extract its embeddable player URL.
+    Fetch one mlblive entry page and extract its embeddable player URL.
 
     Returns `{**entry, embed_url}` or None (no entry page, or no embed yet — a game posted before
     its video finished uploading has no iframe, and must not enter the store half-alive).
@@ -169,13 +276,47 @@ def _embed(entry: dict) -> dict | None:
     return {**entry, "embed_url": src}
 
 
+def _bbv_embed(entry: dict) -> dict | None:
+    """
+    Fetch one basketball-video entry page and take its ok.ru server, if the entry is wired.
+
+    None for every other outcome — including the placeholder entries (Watch buttons pointed at a
+    stale TV-schedule site) that the operator posts in place of real embeds; a shell must not
+    enter the store half-alive. An iframe, if the site ever returns to mlblive's form, is taken
+    as a fallback provided it is ok.ru.
+    """
+    try:
+        html = _get(entry["page_url"])
+    except Exception:
+        return None
+    m = _BBV_OK.search(html) or _IFRAME.search(html)
+    if not m:
+        return None
+    src = m.group("src")
+    if src.startswith("//"):
+        src = "https:" + src
+    if "//ok.ru/" not in src and ".ok.ru/" not in src:
+        return None
+    return {**entry, "embed_url": src}
+
+
 def collect(min_date: str) -> list[dict]:
-    """Listing, then concurrent embed extraction."""
+    """mlblive: listing, then concurrent embed extraction."""
     entries = listing(min_date=min_date)
     if not entries:
         return []
     with ThreadPoolExecutor(max_workers=6) as pool:
         got = list(pool.map(_embed, entries))
+    return [g for g in got if g]
+
+
+def collect_bbv(min_date: str) -> list[dict]:
+    """basketball-video: listing, then concurrent embed extraction."""
+    entries = bbv_listing(min_date=min_date)
+    if not entries:
+        return []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        got = list(pool.map(_bbv_embed, entries))
     return [g for g in got if g]
 
 
@@ -192,17 +333,18 @@ def _eastern_date(start_utc: str) -> str:
         return start_utc[:10]
 
 
-def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
+def _match_league(events: list[Event], replays: list[dict], game_guard: bool) -> dict[str, dict]:
     """
     Map `event_id -> {embed_url, poster, title}` for confidently matched replays.
 
     Same strictness rule as highlights: **both team names must land in the replay title**, the date
-    must agree (in the site's timezone, see `_eastern_date`), and a doubleheader's `game` number
-    must match — date+teams alone sends a viewer to the wrong half of a twin bill.
+    must agree (in the site's timezone, see `_eastern_date`), and — where the fixture data can
+    corroborate it (`game_guard`, MLB doubleheaders) — the game number must match. For basketball
+    the guard is off: the site's `Game N` is a series game the fixtures do not carry (see
+    `_parse_bbv_title`), and date+both-teams cannot alias inside one league-day.
     """
     found: dict[str, dict] = {}
-    mlb = [e for e in events if e.competition_id == "mlb"]
-    for e in mlb:
+    for e in events:
         edate = _eastern_date(e.start_utc)
 
         def side_hits(title: str, team) -> bool:
@@ -213,7 +355,7 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
         for r in replays:
             if r["date"] != edate:
                 continue
-            if r["game"] != (e.game_number or 1):
+            if game_guard and r["game"] != (e.game_number or 1):
                 continue
             if not (side_hits(r["title"], e.away) and side_hits(r["title"], e.home)):
                 continue
@@ -224,6 +366,19 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
                 "replay_id": r["replay_id"],
             }
             break
+    return found
+
+
+def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
+    """Route each league's fixtures to the source that covers it. Cross-source false positives
+    are impossible by construction — an event only ever sees its own source's replays."""
+    mlb_r = [r for r in replays if r["replay_id"].startswith("mlblive:")]
+    bbv_r = [r for r in replays if r["replay_id"].startswith("bbv:")]
+    found: dict[str, dict] = {}
+    found.update(_match_league(
+        [e for e in events if e.competition_id == "mlb"], mlb_r, game_guard=True))
+    found.update(_match_league(
+        [e for e in events if e.competition_id in ("nba", "wnba")], bbv_r, game_guard=False))
     return found
 
 
@@ -244,12 +399,18 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
         except ValueError:
             store = {}  # a corrupt store regenerates; the scrape below re-finds recent games
 
-    # A total scrape failure (site down, DNS) must degrade to "no new replays", never an empty feed:
-    # the store still carries everything matched on previous runs.
+    # A total scrape failure (site down, DNS, Cloudflare challenge) must degrade to "no new
+    # replays", never an empty feed: each source is guarded separately (one site being down must
+    # not silence the other) and the store still carries everything matched on previous runs.
     try:
-        fresh = match(events, collect(min_date))
+        mlb_r = collect(min_date)
     except Exception:
-        fresh = {}
+        mlb_r = []
+    try:
+        bbv_r = collect_bbv(min_date)
+    except Exception:
+        bbv_r = []
+    fresh = match(events, mlb_r + bbv_r)
     store.update(fresh)
 
     # Evict by age: keep what any screen could still show (fixtures inside the backfill window).
