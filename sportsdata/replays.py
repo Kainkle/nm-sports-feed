@@ -66,6 +66,22 @@ ok.ru id sits in the same upload channel). Same uCoz engine, no preland. Differe
   source is therefore live-but-waiting, like WNBA: wired July entries sit outside the 5-day
   backfill window, so nothing matches until the operator wires an in-window game.
 
+## rugby24.net (Rugby both codes + AFL), characterised by probe (r24/, 2026-08-19)
+
+Fourth uCoz sibling and the healthiest: ~2s TTFB (NOT the 43s Cloudflare edge), and every entry
+probed across NRL / Super League / Currie Cup / NPC / internationals / AFL carries a live ok.ru
+iframe — no wiring outage anywhere. Titles: "{A} v {B} - Full Match Replay - {Comp} - {D Month
+YYYY}" (day-first; AFL entries put the date before the comp). The comp segment is parse-extracted
+and the matcher GATES on it, because this one pool mixes rugby codes and short club names overlap
+them (NRL "Sharks v Storm" vs Currie Cup "Sharks v Stormers" on a shared date). Fixture side:
+NRL is ESPN `rugby-league/3` (all 5 of the Aug 15-16 round's site entries match under the Eastern
+date rule); AFL is ESPN `afl` but the one measured site entry is dated a day off Eastern, so the
+strict rule conservatively yields nothing there; UNION (Super League, Currie Cup, NPC, tests) has
+no free fixture source — ESPN's legacy rugby league ids all 404 on the scoreboard and SofaScore's
+API has no rugby at all — so union entries enter the store unmatched until a fixture source
+exists. An ad iframe (`bysesukior.com`) rides entry pages unordered beside the player, which is
+why the ok.ru iframe is host-pinned at the regex.
+
 ## watch-wrestling.eu (UFC cards + WWE/AEW shows), characterised by probe (ww/, 2026-08-19)
 
 WordPress (not uCoz), ~44s TTFB from the dev box like the whole family; CI expected fast. The
@@ -130,6 +146,16 @@ BBV_MAX_PAGES = 4
 NFLV_BASE = "https://nfl-video.com"
 NFLV_MAX_PAGES = 4
 
+# rugby24.net — the fourth uCoz sibling, and the healthiest of them: fast (~2s TTFB, not the
+# 43s Cloudflare edge the -video.com family sits behind), and as of 2026-08-19 EVERY entry
+# probed carries a live ok.ru iframe — no wiring outage. The home feed is a mixed catalog
+# (NRL, Super League, Currie Cup, NZ NPC, internationals, AFL), and unlike the NFL sibling the
+# titles always carry the competition segment, which the matcher gates on: the pool holds both
+# codes and short club names overlap them ("Sharks v Storm" NRL could false-hit Currie Cup's
+# "Sharks v Stormers" on a shared date — an NRL-gated match cannot).
+R24_BASE = "https://rugby24.net"
+R24_MAX_PAGES = 4
+
 # watch-wrestling.eu — WordPress, not uCoz, and unlike every source above it needs **no entry-page
 # fetch at all**: the site publishes a documented embed API addressed by (category, date, post,
 # source, button), so the category listing IS the whole scrape. Category tags for the API are the
@@ -177,6 +203,17 @@ _BBV_TITLE = re.compile(
 )
 _BBV_DATE = re.compile(r"\b(?P<month>[A-Za-z]+)\s+(?P<day>\d{1,2}),\s+(?P<year>\d{4})\b")
 
+# rugby24 title grammar — teams separated by a bare "v", day-first date, competition segment
+# always present but positionally inconsistent (AFL entries put the date before the comp):
+#   "Hull KR v Warrington Wolves - Full Match Replay - Super League - 18 August 2026"
+#   "Essendon Bombers v Sydney Swans - Full Match Replay - 15 August 2026 - AFL"
+#   "Wests Tigers v St. George Illawarra Dragons - Full Match Replay - NRL - 16 August 2026"
+# The comp is whichever dash segment is neither the date nor the replay boilerplate; a stricter
+# known-comp list would break the day the operator words a competition differently.
+_R24_TITLE = re.compile(r"^(?P<away>.+?)\s+v\.?\s+(?P<home>.+?)$")
+_R24_DATE = re.compile(r"\b(?P<day>\d{1,2})\s+(?P<month>[A-Za-z]+)\s+(?P<year>\d{4})\b")
+_R24_FILLER = re.compile(r"full.?match.?replay|replay", re.I)
+
 # One listing entry: the entry link, the H3 title, and the poster art. The entry id is captured
 # by the split in `listing()`, not by a regex of its own. Shared by both uCoz sites.
 _ENTRY_LINK_TITLE = re.compile(
@@ -187,10 +224,16 @@ _ENTRY_POSTER = re.compile(r'<div class="poster">\s*<a href="[^"]+">\s*<img src=
 # The embed iframe on an mlblive entry page. Protocol-relative (`//ok.ru/...`) is normalised.
 _IFRAME = re.compile(r'<iframe[^>]*\ssrc="(?P<src>//[^"]+|https?://[^"]+)"', re.I)
 
-# basketball-video's ok.ru Watch button (protocol-relative). Deliberately host-pinned: the other
-# servers (dailymotion, filemoon) have not been player-probed, and an unproven host in the app's
-# WebView is a black screen, not a feature.
-_BBV_OK = re.compile(r'href="(?P<src>//ok\.ru/videoembed/\d+)"')
+# basketball-video's ok.ru Watch button (protocol-relative; rugby24's variant appends
+# `?nochat=1&autoplay=1`). Deliberately host-pinned: the other servers (dailymotion, filemoon)
+# have not been player-probed, and an unproven host in the app's WebView is a black screen, not a
+# feature.
+_BBV_OK = re.compile(r'href="(?P<src>//ok\.ru/videoembed/\d+(?:\?[^"]*)?)"')
+
+# The ok.ru iframe, host-pinned at the regex rather than checked after a generic iframe search.
+# rugby24 mounts an ad iframe (`bysesukior.com`) alongside the player and nothing orders them;
+# first-iframe-then-check would skip a live entry the day the ad loads first.
+_OKRU_IFRAME = re.compile(r'<iframe[^>]*\ssrc="(?P<src>(?:https?:)?//ok\.ru/videoembed/\d+(?:\?[^"]*)?)"')
 
 # The home page's season-hub links, newest first: <a href="https://.../2025-26">2025-26 NBA Season</a>
 _BBV_SEASON_LINK = re.compile(r'href="https?://(?:www\.)?basketball-video\.com/(20\d{2}-\d{2})"')
@@ -237,6 +280,35 @@ def _parse_bbv_title(title: str) -> dict | None:
         "home": m.group("home").strip(" .,-"),
         "game": 1,
         "date": f"{int(d.group('year')):04d}-{month:02d}-{int(d.group('day')):02d}",
+    }
+
+
+def _parse_r24_title(title: str) -> dict | None:
+    """
+    rugby24's grammar keeps teams in the first `" - "` segment and the date anywhere (day-first).
+    The extra `comp` key is what makes this pool safe to match against: the site lists both rugby
+    codes plus AFL in one feed, and `_match_league` gates on it (see the source comment above).
+    `game` is always 1 — rugby has no doubleheaders.
+    """
+    m = _R24_TITLE.match(title.strip().split(" - ")[0])
+    d = _R24_DATE.search(title)
+    if not m or not d:
+        return None
+    month = _MONTHS.get(d.group("month").lower())
+    if not month:
+        return None
+    comp = ""
+    for seg in title.split(" - ")[1:]:
+        if _R24_DATE.search(seg) or _R24_FILLER.search(seg):
+            continue
+        comp = seg.strip()
+        break
+    return {
+        "away": m.group("away").strip(" .,-"),
+        "home": m.group("home").strip(" .,-"),
+        "game": 1,
+        "date": f"{int(d.group('year')):04d}-{month:02d}-{int(d.group('day')):02d}",
+        "comp": comp,
     }
 
 
@@ -317,6 +389,11 @@ def bbv_listing(min_date: str) -> list[dict]:
 def nflv_listing(min_date: str) -> list[dict]:
     """nfl-video listing: the home feed (`/?pageN`), newest first."""
     return _walk_sites([(NFLV_BASE + "/", NFLV_BASE)], "nflv", min_date, NFLV_MAX_PAGES)
+
+
+def r24_listing(min_date: str) -> list[dict]:
+    """rugby24 listing: the mixed-code home feed (`/?pageN`), newest first, r24 parser for `comp`."""
+    return _walk_ucoz(R24_BASE + "/", R24_BASE, "r24", _parse_r24_title, R24_MAX_PAGES, min_date)
 
 
 def _walk_sites(sites: list[tuple[str, str]], tag: str, min_date: str, pages: int) -> list[dict]:
@@ -466,7 +543,7 @@ def _okru_embed(entry: dict) -> dict | None:
         html = _get(entry["page_url"])
     except Exception:
         return None
-    m = _BBV_OK.search(html) or _IFRAME.search(html)
+    m = _BBV_OK.search(html) or _OKRU_IFRAME.search(html)
     if not m:
         return None
     src = m.group("src")
@@ -474,7 +551,10 @@ def _okru_embed(entry: dict) -> dict | None:
         src = "https:" + src
     if "//ok.ru/" not in src and ".ok.ru/" not in src:
         return None
-    return {**entry, "embed_url": src}
+    # Query strings (rugby24's `?nochat=1&autoplay=1`) are dropped: the bare videoembed URL is
+    # the canonical form every other source ships and the one the app's tap pump is calibrated
+    # for — an operator's autoplay flag is not ours to honour.
+    return {**entry, "embed_url": src.split("?")[0]}
 
 
 def collect(min_date: str) -> list[dict]:
@@ -507,6 +587,16 @@ def collect_nfl(min_date: str) -> list[dict]:
     return [g for g in got if g]
 
 
+def collect_r24(min_date: str) -> list[dict]:
+    """rugby24: listing, then concurrent embed extraction."""
+    entries = r24_listing(min_date=min_date)
+    if not entries:
+        return []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        got = list(pool.map(_okru_embed, entries))
+    return [g for g in got if g]
+
+
 def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
@@ -520,7 +610,8 @@ def _eastern_date(start_utc: str) -> str:
         return start_utc[:10]
 
 
-def _match_league(events: list[Event], replays: list[dict], game_guard: bool) -> dict[str, dict]:
+def _match_league(events: list[Event], replays: list[dict], game_guard: bool,
+                  comp_gate: str = "") -> dict[str, dict]:
     """
     Map `event_id -> {embed_url, poster, title}` for confidently matched replays.
 
@@ -529,7 +620,12 @@ def _match_league(events: list[Event], replays: list[dict], game_guard: bool) ->
     corroborate it (`game_guard`, MLB doubleheaders) — the game number must match. For basketball
     the guard is off: the site's `Game N` is a series game the fixtures do not carry (see
     `_parse_bbv_title`), and date+both-teams cannot alias inside one league-day.
+
+    `comp_gate` serves pools that mix codes (rugby24): when set, only replays whose parsed
+    competition segment normalizes to it are eligible — an NRL "Sharks v Storm" fixture must not
+    grab Currie Cup's "Sharks v Stormers" title off a shared Saturday.
     """
+    gate = _norm(comp_gate)
     found: dict[str, dict] = {}
     for e in events:
         edate = _eastern_date(e.start_utc)
@@ -541,6 +637,8 @@ def _match_league(events: list[Event], replays: list[dict], game_guard: bool) ->
 
         for r in replays:
             if r["date"] != edate:
+                continue
+            if gate and _norm(r.get("comp", "")) != gate:
                 continue
             if game_guard and r["game"] != (e.game_number or 1):
                 continue
@@ -600,6 +698,15 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     found.update(_match_league(
         [e for e in events if e.competition_id == "nfl"],
         by_prefix.get("nflv", []), game_guard=False))
+    # rugby24: NRL now; AFL rides the same pool but its one measured entry is dated a day off the
+    # fixture's Eastern date ("15 August" vs Aug 16 ET), so the strict rule yields nothing until
+    # that pattern is re-measured — conservative by design, not a bug.
+    found.update(_match_league(
+        [e for e in events if e.competition_id == "rugby-league"],
+        by_prefix.get("r24", []), game_guard=False, comp_gate="nrl"))
+    found.update(_match_league(
+        [e for e in events if e.competition_id == "afl"],
+        by_prefix.get("r24", []), game_guard=False, comp_gate="afl"))
     found.update(_match_cards(
         [e for e in events if e.competition_id == "ufc"],
         by_prefix.get("ww", [])))
@@ -627,7 +734,7 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
     # replays", never an empty feed: each source is guarded separately (one site being down must
     # not silence the others) and the store still carries everything matched on previous runs.
     fresh_replays: list[dict] = []
-    for collector in (collect, collect_bbv, collect_nfl, collect_ww):
+    for collector in (collect, collect_bbv, collect_nfl, collect_ww, collect_r24):
         try:
             fresh_replays.extend(collector(min_date))
         except Exception:
