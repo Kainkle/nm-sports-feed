@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-19T02:10:40.886197+00:00",
+  "generated_utc": "2026-08-19T03:12:34.180654+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133674",
@@ -2208,7 +2208,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Fenway Park",
       "detail": "",
       "game_number": 1,
@@ -2222,7 +2222,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-18T23:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:121",
         "name": "New York Mets",
@@ -2253,7 +2253,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -2267,7 +2267,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-18T23:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:118",
         "name": "Kansas City Royals",
@@ -2295,7 +2295,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Kauffman Stadium",
       "detail": "",
       "game_number": 1,
@@ -2353,7 +2353,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-18T23:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:158",
         "name": "Milwaukee Brewers",
@@ -2383,7 +2383,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "American Family Field",
       "detail": "",
       "game_number": 1,
@@ -2397,7 +2397,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-19T00:05:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:140",
         "name": "Texas Rangers",
@@ -2427,7 +2427,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Globe Life Field",
       "detail": "",
       "game_number": 1,
@@ -2441,7 +2441,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-19T00:05:00Z",
-      "status": "live",
+      "status": "suspended",
       "home": {
         "id": "mlb:112",
         "name": "Chicago Cubs",
@@ -2473,7 +2473,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Live/Delayed",
       "venue": "Wrigley Field",
       "detail": "",
       "game_number": 1,
@@ -2487,7 +2487,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-19T00:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:117",
         "name": "Houston Astros",
@@ -2518,7 +2518,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Daikin Park",
       "detail": "",
       "game_number": 1,
@@ -2577,7 +2577,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-19T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:19",
         "name": "Chicago Sky",
@@ -2607,9 +2607,9 @@
         "color": "86cebc"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Wintrust Arena",
-      "detail": "7:03 - 3rd Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2651,9 +2651,9 @@
         "color": "e31837"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "Halftime",
+      "detail": "3:24 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4819,11 +4819,35 @@
   ],
   "stories": [
     {
+      "story_id": "49654028",
+      "headline": "Kelsey Mitchell scores 29 before sitting out 4th in Fever win",
+      "summary": "Kelsey Mitchell scored 16 points in the first quarter and finished with 29 before sitting out the fourth, Caitlin Clark added 24 points and the Fever beat the Tempo 101-95 on Tuesday for their fifth straight victory.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/cb61d3bd-39d1-4c7f-b8b6-23b1241569ba/cb61d3bd-39d1-4c7f-b8b6-23b1241569ba.jpg",
+      "published_utc": "2026-08-19T02:56:48Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49654028/fever-kelsey-mitchell-scores-29-points-sitting-4th-quarter-combines-caitlin-clark-wnba-duo-record"
+    },
+    {
+      "story_id": "49654264",
+      "headline": "Athletics vs. Kansas City Royals: Game Highlights",
+      "summary": "Athletics vs. Kansas City Royals: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/cbc781a3-6a59-4ffc-a878-d5c76e2034e9/cbc781a3-6a59-4ffc-a878-d5c76e2034e9.jpg",
+      "published_utc": "2026-08-19T02:42:55Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49654264/game-highlights"
+    },
+    {
       "story_id": "49653675",
       "headline": "Multiple brawls mar Saints-Cowboys joint practice session",
       "summary": "The Cowboys and Saints had so many fights during their joint session Tuesday that the coaches of each team discussed whether they needed to cancel the practice.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/dm_260818_saints_cowboys_fights/dm_260818_saints_cowboys_fights.jpg",
-      "published_utc": "2026-08-19T01:57:43Z",
+      "published_utc": "2026-08-19T02:34:57Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Katherine Terrell",
@@ -4831,28 +4855,16 @@
       "link": "https://www.espn.com/nfl/story/_/id/49653675/multiple-brawls-mar-saints-cowboys-joint-practice-session"
     },
     {
-      "story_id": "49653927",
-      "headline": "Miami Marlins vs. Philadelphia Phillies: Game Highlights",
-      "summary": "Miami Marlins vs. Philadelphia Phillies: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/0363903a-c667-4d1f-89c3-f91576d94ce1/0363903a-c667-4d1f-89c3-f91576d94ce1.jpg",
-      "published_utc": "2026-08-19T01:50:11Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
+      "story_id": "49626937",
+      "headline": "August Draft Power Rankings: Four prospects in the open pool 'pick 1' race",
+      "summary": "There are four names in the race to be the 'open pool top pick', but they're behind a pair of club-tied prospects, with ESPN's No. 1 delivering his first starring performance of the year. Here's Jasper Chellappah's August Power Rankings.",
+      "image": "https://a.espncdn.com/photo/2026/0818/r1703595_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T23:14:24Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "Jasper Chellappah",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49653927/game-highlights"
-    },
-    {
-      "story_id": "49653680",
-      "headline": "Kelsey Mitchell drops 29 for Fever in road win",
-      "summary": "Kelsey Mitchell drops 29 for Fever in road win",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/cb61d3bd-39d1-4c7f-b8b6-23b1241569ba/cb61d3bd-39d1-4c7f-b8b6-23b1241569ba.jpg",
-      "published_utc": "2026-08-19T01:22:30Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49653680/kelsey-mitchell-drops-29-fever-road-win"
+      "link": "https://www.espn.com/afl/story/_/id/49626937/afl-draft-2026-national-championships-power-rankings-july-top-30-dougie-cochrane-ethan-drever-khaled-el-souki-cody-walker-harry-van-hattum"
     },
     {
       "story_id": "49651586",
@@ -4877,18 +4889,6 @@
       "byline": "Cesar Hernandez",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49651825/us-youth-gozo-move-real-salt-lake-crystal-palace"
-    },
-    {
-      "story_id": "49642343",
-      "headline": "Swans deciding penalties for 'serious' standards breach",
-      "summary": "Sydney will soon announce punishments for the AFL players who breached club standards and behaviours at a Melbourne hotel.",
-      "image": "https://a.espncdn.com/photo/2023/0502/r1167280_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T21:23:50Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49642343/afl-sydney-swans-news-police-investigation-stand-player-alleged-assault"
     },
     {
       "story_id": "49651722",
@@ -4963,6 +4963,30 @@
       "link": "https://www.espn.com/nrl/story/_/id/49634994/nrl-news-round-25-espn-midweek-mail-cubs-circle-former-panther-reece-walsh-facing-surgery"
     },
     {
+      "story_id": "49653694",
+      "headline": "Olivia Nelson-Ododa scores 18 for Connecticut Sun in 85-77 win over LA Sparks at TD Garden",
+      "summary": "\u2014 Olivia Nelson-Ododa scored 18 points and Kennedy Burke had 17 to lead the Connecticut Sun to an 85-77 win over the Los Angeles Sparks at TD Garden on Tuesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857152.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-19T01:22:29Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/wnba/recap?gameId=401857152"
+    },
+    {
+      "story_id": "49654309",
+      "headline": "Fernando Tatis Jr. robs a grand slam and hits 2 homers in Padres' 5-2 win over Mets",
+      "summary": "\u2014 Fernando Tatis Jr. robbed New York's Francisco Lindor of a grand slam and hit two homers, leading the San Diego Padres to a 5-2 win over the Mets on Tuesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816575.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-19T02:40:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/recap?gameId=401816575"
+    },
+    {
       "story_id": "49653929",
       "headline": "Saints, Cowboys get into multiple fights at joint practice",
       "summary": "The Saints and Cowboys scrap multiple times at joint practice on Tuesday.",
@@ -4975,28 +4999,16 @@
       "link": "https://www.espn.com/video/clip/_/id/49653929/saints-cowboys-get-multiple-fights-joint-practice"
     },
     {
-      "story_id": "49653908",
-      "headline": "Toronto Blue Jays vs. Tampa Bay Rays: Game Highlights",
-      "summary": "Toronto Blue Jays vs. Tampa Bay Rays: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/23c1c592-c996-417e-a4de-fa6de1d1925f/23c1c592-c996-417e-a4de-fa6de1d1925f.jpg",
-      "published_utc": "2026-08-19T01:48:52Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
+      "story_id": "49642343",
+      "headline": "Swans deciding penalties for 'serious' standards breach",
+      "summary": "Sydney will soon announce punishments for the AFL players who breached club standards and behaviours at a Melbourne hotel.",
+      "image": "https://a.espncdn.com/photo/2023/0502/r1167280_1296x729_16-9.jpg",
+      "published_utc": "2026-08-18T21:23:50Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49653908/game-highlights"
-    },
-    {
-      "story_id": "49653694",
-      "headline": "Olivia Nelson-Ododa scores 18 for Connecticut Sun in 85-77 win over LA Sparks at TD Garden",
-      "summary": "\u2014 Olivia Nelson-Ododa scored 18 points and Kennedy Burke had 17 to lead the Connecticut Sun to an 85-77 win over the Los Angeles Sparks at TD Garden on Tuesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857152.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-19T01:22:29Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/recap?gameId=401857152"
+      "link": "https://www.espn.com/afl/story/_/id/49642343/afl-sydney-swans-news-police-investigation-stand-player-alleged-assault"
     },
     {
       "story_id": "49648776",
@@ -5021,18 +5033,6 @@
       "byline": "Jeff Carlisle",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49650257/usa-mark-mckenzie-philadelphia-union-transfer-toulouse-mls"
-    },
-    {
-      "story_id": "49646566",
-      "headline": "Dillon stresses seriousness of Swans' allegations",
-      "summary": "AFL boss Andrew Dillon has released the following statement regarding the Sydney Swans allegations.",
-      "image": "https://a.espncdn.com/photo/2023/0502/r1167280_1296x729_16-9.jpg",
-      "published_utc": "2026-08-18T09:19:46Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49646566/afl-sydney-swans-news-andrew-dillon-releases-statement"
     },
     {
       "story_id": "49646017",
