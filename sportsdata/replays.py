@@ -82,6 +82,22 @@ API has no rugby at all — so union entries enter the store unmatched until a f
 exists. An ad iframe (`bysesukior.com`) rides entry pages unordered beside the player, which is
 why the ok.ru iframe is host-pinned at the regex.
 
+## fullraces.com (motorsport sessions), characterised by probe (fr/, 2026-08-19)
+
+Fifth uCoz sibling (~2.6s TTFB). Entry pages carry the ok.ru iframe plus dailymotion su-buttons
+(alternate servers, unprobed in-app — the host-pinned extractor ships ok.ru only). The structural
+difference is SESSIONS: a race weekend arrives as separate RACE / Qualifying / practice entries,
+and the fixture side is ONE athlete-listed event per weekend (ESPN racing had the same
+homeAway-less competitor shape as MMA — the adapter synthesizes the pair and carries the race
+name in `card`). The match rule is therefore series + weekend window with **no name matching**:
+the site names races by sponsor ("Cook Out 400") where ESPN names by venue ("at Richmond") and
+prefixes sponsors onto GP names ("AWS Hungarian Grand Prix") — a name rule rejects the true
+pairs. Window 0-3 days after the fixture's Eastern date (ESPN dates the weekend's first session;
+measured F1 gap 2, NASCAR/IndyCar 0). User scope decision 2026-08-19: RACE REPLAYS ONLY —
+qualifying/practice/sprint entries never match; MotoGP's dateless titles and WRC's ranges are
+parser-floor drops; F2/F3/WRC have no fixture source (stored unmatched if they carried dates).
+IndyCar was registered (ESPN `irl`, one line) for this source.
+
 ## watch-wrestling.eu (UFC cards + WWE/AEW shows), characterised by probe (ww/, 2026-08-19)
 
 WordPress (not uCoz), ~44s TTFB from the dev box like the whole family; CI expected fast. The
@@ -156,6 +172,15 @@ NFLV_MAX_PAGES = 4
 R24_BASE = "https://rugby24.net"
 R24_MAX_PAGES = 4
 
+# fullraces.com — fifth uCoz sibling (~2.6s TTFB), ok.ru iframes plus dailymotion alternates.
+# Sessions, not teams: a weekend carries RACE / Qualifying / practice entries and the fixture
+# side (ESPN racing) is ONE athlete-listed event per weekend, so the match key is
+# series + weekend window — see `_match_races` for why name matching is deliberately absent.
+# User's scope decision 2026-08-19: RACE REPLAYS ONLY (quali/practice/sprint entries are not
+# matched and not published as show items).
+FR_BASE = "https://fullraces.com"
+FR_MAX_PAGES = 4
+
 # watch-wrestling.eu — WordPress, not uCoz, and unlike every source above it needs **no entry-page
 # fetch at all**: the site publishes a documented embed API addressed by (category, date, post,
 # source, button), so the category listing IS the whole scrape. Category tags for the API are the
@@ -213,6 +238,20 @@ _BBV_DATE = re.compile(r"\b(?P<month>[A-Za-z]+)\s+(?P<day>\d{1,2}),\s+(?P<year>\
 _R24_TITLE = re.compile(r"^(?P<away>.+?)\s+v\.?\s+(?P<home>.+?)$")
 _R24_DATE = re.compile(r"\b(?P<day>\d{1,2})\s+(?P<month>[A-Za-z]+)\s+(?P<year>\d{4})\b")
 _R24_FILLER = re.compile(r"full.?match.?replay|replay", re.I)
+
+# fullraces title grammar — no teams at all. Two shapes by series:
+#   "NASCAR Cook Out 400 - Full Race Replay - August 15, 2026"            (series-led, no session)
+#   "RACE - F1 2026 - Hungarian Grand Prix - Full Race Replay - July 26, 2026 - Formula 1"  (session-led)
+# MotoGP entries are dateless, WRC spans a date range (its LAST day is the rally's end), F2/F3
+# carry only a year. The parser floors those to no-date and the walk drops them — an entry with
+# no month-day cannot sit in a day-keyed store, and inventing its date would be fabrication.
+_FR_SESSION_WORDS = ("race", "qualifying", "quali", "practice", "fp1", "fp2", "fp3", "sprint",
+                     "warmup", "shootout")
+_FR_SERIES = {
+    "nascar": "nascar", "f1": "f1", "motogp": "motogp", "indycar": "indycar", "indy car": "indycar",
+    "wrc": "wrc", "formula2": "f2", "formula 2": "f2", "f2": "f2",
+    "formula3": "f3", "formula 3": "f3", "f3": "f3",
+}
 
 # One listing entry: the entry link, the H3 title, and the poster art. The entry id is captured
 # by the split in `listing()`, not by a regex of its own. Shared by both uCoz sites.
@@ -312,6 +351,42 @@ def _parse_r24_title(title: str) -> dict | None:
     }
 
 
+def _parse_fr_title(title: str) -> dict | None:
+    """
+    fullraces: extract `{series, session, date}` — there are no teams to extract. The first
+    dash-segment is either a session word ("RACE", "Qualifying" — then the series lives in the
+    second) or the series-led event name itself ("NASCAR Cook Out 400"). A date range (WRC)
+    yields its last day. NBSP entities in titles are normalised first.
+    """
+    title = title.replace("\xa0", " ").replace("&#39;", "'")
+    segs = [s.strip() for s in title.split(" - ")]
+    d = _BBV_DATE.search(title)
+    if not d:
+        return None
+    month = _MONTHS.get(d.group("month").lower())
+    if not month:
+        return None
+    first = segs[0].lower().strip(" .")
+    # "3rd Practice" -> "practice": F1's numbered sessions carry an ordinal prefix.
+    sess_word = re.sub(r"\d+(st|nd|rd|th)\s+", "", first)
+    session = ""
+    series_seg = segs[0]
+    if sess_word in _FR_SESSION_WORDS:
+        session = sess_word
+        series_seg = segs[1] if len(segs) > 1 else ""
+    series = ""
+    for key, cid in _FR_SERIES.items():
+        if key in series_seg.lower():
+            series = cid
+            break
+    return {
+        "away": "", "home": "", "game": 1,
+        "date": f"{int(d.group('year')):04d}-{month:02d}-{int(d.group('day')):02d}",
+        "series": series,
+        "session": session,
+    }
+
+
 def _walk_ucoz(listing_url: str, base: str, tag: str, parse, pages: int, min_date: str) -> list[dict]:
     """
     The shared uCoz listing walk (mlblive and basketball-video use the same engine and card
@@ -394,6 +469,11 @@ def nflv_listing(min_date: str) -> list[dict]:
 def r24_listing(min_date: str) -> list[dict]:
     """rugby24 listing: the mixed-code home feed (`/?pageN`), newest first, r24 parser for `comp`."""
     return _walk_ucoz(R24_BASE + "/", R24_BASE, "r24", _parse_r24_title, R24_MAX_PAGES, min_date)
+
+
+def fr_listing(min_date: str) -> list[dict]:
+    """fullraces listing: the mixed-series home feed (`/?pageN`), newest first, fr parser."""
+    return _walk_ucoz(FR_BASE + "/", FR_BASE, "fr", _parse_fr_title, FR_MAX_PAGES, min_date)
 
 
 def _walk_sites(sites: list[tuple[str, str]], tag: str, min_date: str, pages: int) -> list[dict]:
@@ -597,6 +677,16 @@ def collect_r24(min_date: str) -> list[dict]:
     return [g for g in got if g]
 
 
+def collect_fr(min_date: str) -> list[dict]:
+    """fullraces: listing, then concurrent embed extraction."""
+    entries = fr_listing(min_date=min_date)
+    if not entries:
+        return []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        got = list(pool.map(_okru_embed, entries))
+    return [g for g in got if g]
+
+
 def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
@@ -682,6 +772,50 @@ def _match_cards(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     return found
 
 
+def _match_races(events: list[Event], replays: list[dict]) -> dict[str, dict]:
+    """
+    The motorsport variant: **series + weekend window, deliberately no name matching**. The site
+    names races by sponsor ("NASCAR Cook Out 400") where ESPN names them by venue ("NASCAR Cup
+    Series at Richmond") and prefixes sponsors onto Grand Prix names ("AWS Hungarian Grand
+    Prix") — neither string contains the other, so a name rule would reject the TRUE pairs it was
+    meant to confirm. One race per series per weekend makes series+date sufficient instead.
+
+    Window: ESPN dates a race weekend at its FIRST session (measured: F1 Hungary event Jul 24,
+    race Sunday Jul 26) while the site dates the race itself, so a replay matches when its date
+    falls 0-3 days AFTER the fixture's Eastern date. NASCAR/IndyCar measured gap: 0.
+
+    Session rule (user decision 2026-08-19): only race replays match — an entry whose parsed
+    session is a qualifying/practice/sprint word never enters, and a bare session-less entry
+    (NASCAR/IndyCar style, always the race) does.
+    """
+    found: dict[str, dict] = {}
+    for e in events:
+        edate = _eastern_date(e.start_utc)
+        try:
+            base = datetime.strptime(edate, "%Y-%m-%d")
+        except ValueError:
+            continue
+        for r in replays:
+            if r.get("series") != e.competition_id:
+                continue
+            if r.get("session") not in ("", "race"):
+                continue
+            try:
+                rday = datetime.strptime(r["date"], "%Y-%m-%d")
+            except ValueError:
+                continue
+            if not (0 <= (rday - base).days <= 3):
+                continue
+            found[e.event_id] = {
+                "embed_url": r["embed_url"],
+                "poster": r.get("poster", ""),
+                "title": r["title"],
+                "replay_id": r["replay_id"],
+            }
+            break
+    return found
+
+
 def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     """Route each league's fixtures to the source that covers it. Cross-source false positives
     are impossible by construction — an event only ever sees its own source's replays."""
@@ -710,6 +844,10 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     found.update(_match_cards(
         [e for e in events if e.competition_id == "ufc"],
         by_prefix.get("ww", [])))
+    # fullraces: series + weekend window, race sessions only (see `_match_races`).
+    found.update(_match_races(
+        [e for e in events if e.competition_id in ("f1", "nascar", "motogp", "indycar")],
+        by_prefix.get("fr", [])))
     return found
 
 
@@ -734,7 +872,7 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
     # replays", never an empty feed: each source is guarded separately (one site being down must
     # not silence the others) and the store still carries everything matched on previous runs.
     fresh_replays: list[dict] = []
-    for collector in (collect, collect_bbv, collect_nfl, collect_ww, collect_r24):
+    for collector in (collect, collect_bbv, collect_nfl, collect_ww, collect_r24, collect_fr):
         try:
             fresh_replays.extend(collector(min_date))
         except Exception:

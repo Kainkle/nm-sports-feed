@@ -286,14 +286,17 @@ class EspnAdapter(Adapter):
             home, away = sides.get("home"), sides.get("away")
             card = ""
             if not home or not away:
-                # Individual sports split: golf/tennis draws/racing have no two-sided shape at all
-                # (skipped — they need their own presentation), but FIGHT CARDS are two-athlete
-                # events that simply omit `homeAway`. Synthesize the pair from billing order
-                # (competitor 0 reads first: "A vs B"), and keep the card name — the headliners the
-                # card is NAMED for are not the competitors the API lists, so the name is the match
-                # key and the display label, not decoration.
+                # Individual sports split: golf/tennis draws have no two-sided shape at all
+                # (skipped — they need their own presentation), but FIGHT CARDS and RACES are
+                # athlete-listed events that simply omit `homeAway` (measured identically on both:
+                # MMA 2026-08-19, racing 2026-08-19 — every competitor homeAway=None, team=None).
+                # Synthesize the pair from listing order — for a card that is the two fighters, for
+                # a race it is the first two of twenty drivers, placeholders and nothing more — and
+                # keep the event name in `card`, because THAT is the identity: a card is named for
+                # headliners the API may not list, and a race's drivers say nothing about which
+                # race it is. Display and matching key off `card`, not the synthesized pair.
                 athletes = [s for s in (c.get("competitors") or []) if s.get("athlete")]
-                if self._sport != "mma" or len(athletes) < 2:
+                if self._sport not in ("mma", "racing") or len(athletes) < 2:
                     continue
                 away, home = athletes[0], athletes[1]
                 card = e.get("name", "") or ""
@@ -425,6 +428,9 @@ ESPN_COMPETITIONS = [
     ("mma", "ufc", "ufc", "UFC"),
     ("racing", "f1", "f1", "Formula 1"),
     ("racing", "nascar-premier", "nascar", "NASCAR Cup Series"),
+    # Registered for fullraces.com replays 2026-08-19: ESPN carries the series (`irl`), the site
+    # posts its races, and the one line here is all the fixture side needed.
+    ("racing", "irl", "indycar", "IndyCar Series"),
 ]
 
 ADAPTERS = [MlbAdapter(), NhlAdapter(), MotoGpAdapter()] + [
