@@ -48,6 +48,24 @@ an inline per-game table ("NBA Summer League - July 19, 2026 ...") whose rows ca
 directly; it is not walked (per-game listings cover the same games) but is the fallback shape if
 the per-game listings ever change.
 
+## nfl-video.com (NFL), characterised by probe (docs/captures/nflv/, 2026-08-18)
+
+Third sibling, same operator family (the sites cross-link each other; the May 2026 wired entry's
+ok.ru id sits in the same upload channel). Same uCoz engine, no preland. Differences:
+
+- The home feed (`/?pageN`) is a **mixed catalog** — NFL games, CFL week hubs, Hard Knocks
+  shows, college spring games. Hub/show titles carry no "vs" and fall to the parser floor;
+  spring-game oddities parse but never match a fixture. NFL titles share basketball's grammar
+  ("Dallas Cowboys vs. Seattle Seahawks - Full Game Replay - NFL Preseason - August 15, 2026").
+- The wired-era form is the **iframe** (mlblive's), not the Watch button; `_okru_embed` takes
+  either.
+- **A second wiring outage, earlier than basketball's**: wired through **Jul 31 2026** (11
+  embeds verified live on page 2 of the home feed, Jul 12–31), then every August entry — from
+  the Aug 6 Hall of Fame Game through all of preseason week 1 — is a shell (six placeholder
+  buttons each; the current page-1 entries Aug 13–15 were all verified shells). The NFL feed
+  source is therefore live-but-waiting, like WNBA: wired July entries sit outside the 5-day
+  backfill window, so nothing matches until the operator wires an in-window game.
+
 The date in every title is the site's local (US) date, so matching converts the fixture's
 `start_utc` to America/New_York before comparing — a 9:40pm PT game is "August 17" on the site
 but August 18 in UTC, and comparing raw UTC dates would miss every West Coast night game.
@@ -81,6 +99,14 @@ BBV_WNBA = f"{BBV_BASE}/wnba-video-full-game"
 # first); this is only the fallback if discovery fails.
 BBV_SEASON_FALLBACK = f"{BBV_BASE}/2025-26"
 BBV_MAX_PAGES = 4
+
+# nfl-video.com, the third sibling (same operator, same uCoz engine, same ok.ru channel). The
+# home feed is a mixed catalog (NFL games, CFL week hubs, Hard Knocks, spring games); hub and
+# show titles carry no "vs" and fall to the parser floor. Wired-era entries carry the embed as
+# an IFRAME (mlblive's form — a May 2026 entry measured so), unlike basketball-video's
+# su-buttons; the extractor takes either.
+NFLV_BASE = "https://nfl-video.com"
+NFLV_MAX_PAGES = 4
 
 _MONTHS = {m: i + 1 for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july",
@@ -242,15 +268,31 @@ def _bbv_nba_url() -> str:
 
 def bbv_listing(min_date: str) -> list[dict]:
     """basketball-video listing (NBA + WNBA): both catalogs, deduped by replay id."""
-    wnba = _walk_ucoz(BBV_WNBA, BBV_BASE, "bbv", _parse_bbv_title, BBV_MAX_PAGES, min_date)
-    nba = _walk_ucoz(_bbv_nba_url(), BBV_BASE, "bbv", _parse_bbv_title, BBV_MAX_PAGES, min_date)
-    seen: set[str] = set()
+    return _walk_sites(
+        [(BBV_WNBA, BBV_BASE), (_bbv_nba_url(), BBV_BASE)], "bbv", min_date, BBV_MAX_PAGES)
+
+
+def nflv_listing(min_date: str) -> list[dict]:
+    """nfl-video listing: the home feed (`/?pageN`), newest first."""
+    return _walk_sites([(NFLV_BASE + "/", NFLV_BASE)], "nflv", min_date, NFLV_MAX_PAGES)
+
+
+def _walk_sites(sites: list[tuple[str, str]], tag: str, min_date: str, pages: int) -> list[dict]:
+    """Walk each (listing_url, base) with the basketball-era title parser, dedupe by replay id.
+
+    NFL and basketball titles share the grammar this parser tolerates (teams in the first
+    `" - "` segment or before the date, "vs"/"vs.", date anywhere): "Dallas Cowboys vs. Seattle
+    Seahawks - Full Game Replay - NFL Preseason - August 15, 2026" and every basketball form
+    observed. One parser, three catalogs.
+    """
     out: list[dict] = []
-    for e in wnba + nba:
-        if e["replay_id"] in seen:
-            continue
-        seen.add(e["replay_id"])
-        out.append(e)
+    seen: set[str] = set()
+    for listing_url, base in sites:
+        for e in _walk_ucoz(listing_url, base, tag, _parse_bbv_title, pages, min_date):
+            if e["replay_id"] in seen:
+                continue
+            seen.add(e["replay_id"])
+            out.append(e)
     return out
 
 
@@ -276,14 +318,15 @@ def _embed(entry: dict) -> dict | None:
     return {**entry, "embed_url": src}
 
 
-def _bbv_embed(entry: dict) -> dict | None:
+def _okru_embed(entry: dict) -> dict | None:
     """
-    Fetch one basketball-video entry page and take its ok.ru server, if the entry is wired.
+    Fetch one entry page and take its ok.ru server, whatever form the site wires it in.
 
-    None for every other outcome — including the placeholder entries (Watch buttons pointed at a
-    stale TV-schedule site) that the operator posts in place of real embeds; a shell must not
-    enter the store half-alive. An iframe, if the site ever returns to mlblive's form, is taken
-    as a fallback provided it is ok.ru.
+    Two wired forms are observed across the family: basketball-video's Watch button
+    (`<a class="su-button" href="//ok.ru/videoembed/...">`) and nfl-video/mlblive's iframe. None
+    for every other outcome — including the placeholder shells (Watch buttons pointed at stale
+    TV-schedule sites) the operators post in place of real embeds; a shell must not enter the
+    store half-alive.
     """
     try:
         html = _get(entry["page_url"])
@@ -316,7 +359,17 @@ def collect_bbv(min_date: str) -> list[dict]:
     if not entries:
         return []
     with ThreadPoolExecutor(max_workers=6) as pool:
-        got = list(pool.map(_bbv_embed, entries))
+        got = list(pool.map(_okru_embed, entries))
+    return [g for g in got if g]
+
+
+def collect_nfl(min_date: str) -> list[dict]:
+    """nfl-video: listing, then concurrent embed extraction."""
+    entries = nflv_listing(min_date=min_date)
+    if not entries:
+        return []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        got = list(pool.map(_okru_embed, entries))
     return [g for g in got if g]
 
 
@@ -372,13 +425,19 @@ def _match_league(events: list[Event], replays: list[dict], game_guard: bool) ->
 def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     """Route each league's fixtures to the source that covers it. Cross-source false positives
     are impossible by construction — an event only ever sees its own source's replays."""
-    mlb_r = [r for r in replays if r["replay_id"].startswith("mlblive:")]
-    bbv_r = [r for r in replays if r["replay_id"].startswith("bbv:")]
+    by_prefix: dict[str, list[dict]] = {}
+    for r in replays:
+        by_prefix.setdefault(r["replay_id"].split(":", 1)[0], []).append(r)
     found: dict[str, dict] = {}
     found.update(_match_league(
-        [e for e in events if e.competition_id == "mlb"], mlb_r, game_guard=True))
+        [e for e in events if e.competition_id == "mlb"],
+        by_prefix.get("mlblive", []), game_guard=True))
     found.update(_match_league(
-        [e for e in events if e.competition_id in ("nba", "wnba")], bbv_r, game_guard=False))
+        [e for e in events if e.competition_id in ("nba", "wnba")],
+        by_prefix.get("bbv", []), game_guard=False))
+    found.update(_match_league(
+        [e for e in events if e.competition_id == "nfl"],
+        by_prefix.get("nflv", []), game_guard=False))
     return found
 
 
@@ -401,16 +460,14 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
 
     # A total scrape failure (site down, DNS, Cloudflare challenge) must degrade to "no new
     # replays", never an empty feed: each source is guarded separately (one site being down must
-    # not silence the other) and the store still carries everything matched on previous runs.
-    try:
-        mlb_r = collect(min_date)
-    except Exception:
-        mlb_r = []
-    try:
-        bbv_r = collect_bbv(min_date)
-    except Exception:
-        bbv_r = []
-    fresh = match(events, mlb_r + bbv_r)
+    # not silence the others) and the store still carries everything matched on previous runs.
+    fresh_replays: list[dict] = []
+    for collector in (collect, collect_bbv, collect_nfl):
+        try:
+            fresh_replays.extend(collector(min_date))
+        except Exception:
+            continue
+    fresh = match(events, fresh_replays)
     store.update(fresh)
 
     # Evict by age: keep what any screen could still show (fixtures inside the backfill window).
