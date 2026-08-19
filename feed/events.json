@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-19T19:56:35.926496+00:00",
+  "generated_utc": "2026-08-19T20:35:55.955424+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133674",
@@ -2838,7 +2838,7 @@
       "venue": "PNC Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "1OKajDaCGqs",
       "replay_url": "",
       "replay_poster": "",
       "card": ""
@@ -2849,7 +2849,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-19T17:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:121",
         "name": "New York Mets",
@@ -2880,7 +2880,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -2895,7 +2895,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-19T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:142",
         "name": "Minnesota Twins",
@@ -2925,7 +2925,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Target Field",
       "detail": "",
       "game_number": 1,
@@ -3014,9 +3014,9 @@
         "color": "b9e8f0"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Second Half",
       "venue": "Riyadh Air Metropolitano",
-      "detail": "45'+2'",
+      "detail": "66'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3060,7 +3060,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Fenway Park",
       "detail": "",
       "game_number": 1,
@@ -3718,7 +3718,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "American Family Field",
       "detail": "",
       "game_number": 1,
@@ -3806,7 +3806,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Globe Life Field",
       "detail": "",
       "game_number": 1,
@@ -3852,7 +3852,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Daikin Park",
       "detail": "",
       "game_number": 1,
@@ -5008,28 +5008,40 @@
   ],
   "stories": [
     {
-      "story_id": "49662257",
-      "headline": "Lowe and Flores homer in the ninth off Jansen as the Pirates rally past Tigers 4-3",
-      "summary": "\u2014 Brandon Lowe homered off Detroit closer Kenley Jansen with two outs in the ninth inning to lift the Pittsburgh Pirates to a 4-3 victory over the Tigers on Wednesday.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816587.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-19T19:48:30Z",
+      "story_id": "49662501",
+      "headline": "San Diego Padres vs. New York Mets: Game Highlights",
+      "summary": "San Diego Padres vs. New York Mets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/47e32ba6-1178-4c92-bf69-62de5495d436/47e32ba6-1178-4c92-bf69-62de5495d436.jpg",
+      "published_utc": "2026-08-19T20:11:52Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816587"
+      "link": "https://www.espn.com/video/clip/_/id/49662501/game-highlights"
     },
     {
-      "story_id": "48562101",
-      "headline": "Fantasy football draft rankings 2026: Wide receiver",
-      "summary": "Fantasy football draft rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
-      "image": "https://a.espncdn.com/photo/2025/1017/r1561488_1296x729_16-9.jpg",
-      "published_utc": "2026-08-19T19:38:24Z",
+      "story_id": "49662205",
+      "headline": "Harry Kane: No longer have same 'itch' to return to England",
+      "summary": "Harry Kane said he no longer has the same \"itch\" to return to the Premier League as he did when he first left Tottenham Hotspur for Bayern Munich three years ago.",
+      "image": "https://a.espncdn.com/photo/2026/0819/r1704026_1296x729_16-9.jpg",
+      "published_utc": "2026-08-19T20:04:09Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN News Services",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49662205/harry-kane-premier-league-bayern-munich-transfer-golden-shoe"
+    },
+    {
+      "story_id": "49427703",
+      "headline": "2026 New England Patriots training camp: Latest intel, updates",
+      "summary": "Catch up on our daily updates from Patriots training camp, including intel on QBs, position battles and potential breakouts.",
+      "image": "https://a.espncdn.com/photo/2026/0813/r1701288_1296x729_16-9.jpg",
+      "published_utc": "2026-08-19T20:00:17Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Fantasy staff",
+      "byline": "Mike Reiss",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26WR/nfl-fantasy-football-draft-rankings-2026-wr-wide-receiver"
+      "link": "https://www.espn.com/nfl/story/_/id/49427703/new-england-patriots-training-camp-2026-intel-updates"
     },
     {
       "story_id": "49660380",
@@ -5042,18 +5054,6 @@
       "byline": "Kendra Andrews and Alexa Philippou",
       "source": "ESPN",
       "link": "https://www.espn.com/wnba/story/_/id/49660380/nneka-ogwumike-11-wnba-all-star-retire-end-season"
-    },
-    {
-      "story_id": "49661670",
-      "headline": "USMNT, Coventry forward Haji Wright out with 'very serious' injury",
-      "summary": "United States forward Haji Wright has been ruled out for up to 12 weeks with a quad injury in a major blow to Coventry City for their return to the Premier League.",
-      "image": "https://a.espncdn.com/photo/2026/0819/r1703992_1296x729_16-9.jpg",
-      "published_utc": "2026-08-19T18:55:51Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49661670/usa-coventry-city-haji-wright-injury-premier-league"
     },
     {
       "story_id": "49660077",
@@ -5152,28 +5152,40 @@
       "link": "https://www.espn.com/nrl/story/_/id/49654771/tigers-half-back-very-painful-training-balls-up"
     },
     {
-      "story_id": "49662030",
-      "headline": "Pirates acquire veteran catcher Christian Bethancourt from Yankees",
-      "summary": "The Pirates acquired veteran catcher Christian Bethancourt from the Yankees for cash considerations.",
-      "image": "https://a.espncdn.com/photo/2026/0819/r1704010_1296x729_16-9.jpg",
-      "published_utc": "2026-08-19T19:44:27Z",
+      "story_id": "49662265",
+      "headline": "Detroit Tigers vs. Pittsburgh Pirates: Game Highlights",
+      "summary": "Detroit Tigers vs. Pittsburgh Pirates: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/0694cf74-6422-4a66-b101-09d244643784/0694cf74-6422-4a66-b101-09d244643784.jpg",
+      "published_utc": "2026-08-19T19:56:43Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49662030/pirates-acquire-veteran-catcher-christian-bethancourt-yankees"
+      "link": "https://www.espn.com/video/clip/_/id/49662265/game-highlights"
     },
     {
-      "story_id": "48640423",
-      "headline": "Fantasy football cheat sheets: PPR, non-PPR, depth charts",
-      "summary": "Our collection of downloadable, printable cheat sheets for the 2026 fantasy football season, including PPR, non-PPR and dynasty/keeper leagues.",
-      "image": "https://a.espncdn.com/photo/2026/0601/r1666642_1296x729_16-9.jpg",
-      "published_utc": "2026-08-19T19:36:38Z",
+      "story_id": "49661670",
+      "headline": "USMNT, Coventry forward Haji Wright out with 'very serious' injury",
+      "summary": "United States forward Haji Wright has been ruled out for up to 12 weeks with a quad injury in a major blow to Coventry City for their return to the Premier League.",
+      "image": "https://a.espncdn.com/photo/2026/0819/r1703992_1296x729_16-9.jpg",
+      "published_utc": "2026-08-19T18:55:51Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49661670/usa-coventry-city-haji-wright-injury-premier-league"
+    },
+    {
+      "story_id": "48562101",
+      "headline": "Fantasy football draft rankings 2026: Wide receiver",
+      "summary": "Fantasy football draft rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
+      "image": "https://a.espncdn.com/photo/2025/1017/r1561488_1296x729_16-9.jpg",
+      "published_utc": "2026-08-19T19:38:24Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "ESPN Fantasy",
+      "byline": "Fantasy staff",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFCheatSheetCent26-48640423/2026-fantasy-football-rankings-cheat-sheet-depth-charts-ppr"
+      "link": "https://www.espn.com/fantasy/football/story/_/page/FFPreseasonRank26WR/nfl-fantasy-football-draft-rankings-2026-wr-wide-receiver"
     },
     {
       "story_id": "49659927",
@@ -5186,18 +5198,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/wnba/story/_/id/49659927/sophie-cunningham-wnba-needs-bold-commissioner-wants-best-players"
-    },
-    {
-      "story_id": "49660534",
-      "headline": "Coventry boss Frank Lampard keen to emulate Sunderland, Leeds in Premier League return",
-      "summary": "Frank Lampard wants his Coventry City side to take inspiration from Sunderland and Leeds United as they prepare for a first Premier League campaign in 25 years.",
-      "image": "https://a.espncdn.com/photo/2026/0819/r1703938_1296x729_16-9.jpg",
-      "published_utc": "2026-08-19T16:59:49Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "PA",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49660534/coventry-boss-frank-lampard-keen-emulate-sunderland-leeds-premier-league-return"
     },
     {
       "story_id": "49590770",
