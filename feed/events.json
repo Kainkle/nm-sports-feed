@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-19T03:12:34.180654+00:00",
+  "generated_utc": "2026-08-19T04:03:05.120797+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133674",
@@ -2532,7 +2532,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-19T00:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:115",
         "name": "Colorado Rockies",
@@ -2563,7 +2563,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Coors Field",
       "detail": "",
       "game_number": 1,
@@ -2621,7 +2621,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-19T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:17",
         "name": "Las Vegas Aces",
@@ -2651,9 +2651,9 @@
         "color": "e31837"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Michelob ULTRA Arena",
-      "detail": "3:24 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4819,28 +4819,40 @@
   ],
   "stories": [
     {
-      "story_id": "49654028",
-      "headline": "Kelsey Mitchell scores 29 before sitting out 4th in Fever win",
-      "summary": "Kelsey Mitchell scored 16 points in the first quarter and finished with 29 before sitting out the fourth, Caitlin Clark added 24 points and the Fever beat the Tempo 101-95 on Tuesday for their fifth straight victory.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/cb61d3bd-39d1-4c7f-b8b6-23b1241569ba/cb61d3bd-39d1-4c7f-b8b6-23b1241569ba.jpg",
-      "published_utc": "2026-08-19T02:56:48Z",
+      "story_id": "49654903",
+      "headline": "Rhyne Howard scores 23 and Dream beat Aces 97-82. Las Vegas coach Becky Hammon ejected in 1st half",
+      "summary": "\u2014 Rhyne Howard scored 23 points, Angel Reese had 21 points and 10 rebounds for her league-leading 24th double-double, and the Atlanta Dream beat the Las Vegas Aces 97-82 on Tuesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857155.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-19T03:57:29Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49654028/fever-kelsey-mitchell-scores-29-points-sitting-4th-quarter-combines-caitlin-clark-wnba-duo-record"
+      "link": "http://www.espn.com/wnba/recap?gameId=401857155"
     },
     {
-      "story_id": "49654264",
-      "headline": "Athletics vs. Kansas City Royals: Game Highlights",
-      "summary": "Athletics vs. Kansas City Royals: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0819/cbc781a3-6a59-4ffc-a878-d5c76e2034e9/cbc781a3-6a59-4ffc-a878-d5c76e2034e9.jpg",
-      "published_utc": "2026-08-19T02:42:55Z",
+      "story_id": "48873964",
+      "headline": "MLB home run leaders for each MLB team",
+      "summary": "Check out each team's all-time home run leaders.",
+      "image": "https://a.espncdn.com/photo/2015/0824/now_otd_0909MLBOwnersRealign_cr__608x342.jpg",
+      "published_utc": "2026-08-19T03:53:32Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
+      "byline": "James Howat and Sean Coyle",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/48873964/mlb-home-run-leaders-mlb-team"
+    },
+    {
+      "story_id": "49654465",
+      "headline": "Socceroos will benefit from big-money transfers",
+      "summary": "Joey Lynch explains the knock-on effect that moves like of Nestory Irankunda to Sporting and Lucas Herrington to Hull will have.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/dm_260818_Soc_Analysis_Socceroos_will_benefit_from_bigmoney_transfers_20260819_ESPN_AUS/dm_260818_Soc_Analysis_Socceroos_will_benefit_from_bigmoney_transfers_20260819_ESPN_AUS.jpg",
+      "published_utc": "2026-08-19T02:57:13Z",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49654264/game-highlights"
+      "link": "https://www.espn.com/video/clip/_/id/49654465/socceroos-benefit-big-money-transfers"
     },
     {
       "story_id": "49653675",
@@ -4927,18 +4939,6 @@
       "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
     },
     {
-      "story_id": "49641817",
-      "headline": "Kane: It would be amazing to win the Ballon d'Or",
-      "summary": "Kane: It would be amazing to win the Ballon d'Or",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0817/dm_260817_COM_SOC_Presser_Kane_It_would_be_amazing_to_win_the_Ballon_dOr_20260817_GLOBAL/dm_260817_COM_SOC_Presser_Kane_It_would_be_amazing_to_win_the_Ballon_dOr_20260817_GLOBAL.jpg",
-      "published_utc": "2026-08-17T20:39:53Z",
-      "competition_id": "uefa.champions",
-      "competition_name": "Champions League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49641817/amazing-win-ballon-dor"
-    },
-    {
       "story_id": "49593415",
       "headline": "Hockey Canada extends bans stemming from 2018 sexual assault case",
       "summary": "Three of the five hockey players acquitted of sexual assault in the 2018 Canada world junior case had their international bans extended for at least another year.",
@@ -4963,28 +4963,40 @@
       "link": "https://www.espn.com/nrl/story/_/id/49634994/nrl-news-round-25-espn-midweek-mail-cubs-circle-former-panther-reece-walsh-facing-surgery"
     },
     {
-      "story_id": "49653694",
-      "headline": "Olivia Nelson-Ododa scores 18 for Connecticut Sun in 85-77 win over LA Sparks at TD Garden",
-      "summary": "\u2014 Olivia Nelson-Ododa scored 18 points and Kennedy Burke had 17 to lead the Connecticut Sun to an 85-77 win over the Los Angeles Sparks at TD Garden on Tuesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857152.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-19T01:22:29Z",
+      "story_id": "49654731",
+      "headline": "Las Vegas Aces vs. Atlanta Dream - Game Highlights",
+      "summary": "Watch the Game Highlights from Las Vegas Aces vs. Atlanta Dream, 08/18/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/6417e9cc27ce41c59afc3e70995d05e11419/6417e9cc27ce41c59afc3e70995d05e11419.jpg",
+      "published_utc": "2026-08-19T03:41:17Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/wnba/recap?gameId=401857152"
+      "link": "https://www.espn.com/video/clip/_/id/49654731/las-vegas-aces-vs-atlanta-dream-game-highlights"
     },
     {
-      "story_id": "49654309",
-      "headline": "Fernando Tatis Jr. robs a grand slam and hits 2 homers in Padres' 5-2 win over Mets",
-      "summary": "\u2014 Fernando Tatis Jr. robbed New York's Francisco Lindor of a grand slam and hit two homers, leading the San Diego Padres to a 5-2 win over the Mets on Tuesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816575.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-19T02:40:30Z",
+      "story_id": "49654778",
+      "headline": "Jo Adell hits 455-foot homer before exiting Guardians' win",
+      "summary": "Jo Adell's career night, which included a 455-foot, three-run homer and six RBIs, ended with him leaving the Cleveland Guardians' 8-1 victory over the San Francisco Giants before the eighth inning due to a bruised left knee at Progressive Field Tuesday.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0818/a93599b3-0ba8-4e98-89a7-8b2b75c103fd/a93599b3-0ba8-4e98-89a7-8b2b75c103fd.jpg",
+      "published_utc": "2026-08-19T03:51:23Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816575"
+      "link": "https://www.espn.com/mlb/story/_/id/49654778/jo-adell-hits-455-foot-homer-exiting-guardians-win"
+    },
+    {
+      "story_id": "49641817",
+      "headline": "Kane: It would be amazing to win the Ballon d'Or",
+      "summary": "Kane: It would be amazing to win the Ballon d'Or",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0817/dm_260817_COM_SOC_Presser_Kane_It_would_be_amazing_to_win_the_Ballon_dOr_20260817_GLOBAL/dm_260817_COM_SOC_Presser_Kane_It_would_be_amazing_to_win_the_Ballon_dOr_20260817_GLOBAL.jpg",
+      "published_utc": "2026-08-17T20:39:53Z",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49641817/amazing-win-ballon-dor"
     },
     {
       "story_id": "49653929",
@@ -5069,18 +5081,6 @@
       "byline": "Brett Okamoto",
       "source": "ESPN",
       "link": "https://www.espn.com/mma/story/_/id/49629312/next-islam-makhachev-mackenzie-dern-ufc-330"
-    },
-    {
-      "story_id": "49641183",
-      "headline": "The story behind Atl\u00e9tico Madrid's unique preseason ritual",
-      "summary": "The story behind Atl\u00e9tico Madrid's unique preseason ritual",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0817/dm_260817_COM_SOC_Feature_The_story_behind_Atletico_Madrids_unique_preseason_ritual_20260817_GLOBAL/dm_260817_COM_SOC_Feature_The_story_behind_Atletico_Madrids_unique_preseason_ritual_20260817_GLOBAL.jpg",
-      "published_utc": "2026-08-17T19:44:17Z",
-      "competition_id": "uefa.champions",
-      "competition_name": "Champions League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49641183/the-story-atletico-madrid-unique-preseason-ritual"
     },
     {
       "story_id": "49235590",
