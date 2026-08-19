@@ -209,10 +209,21 @@ def main() -> int:
     print(f"  stories: {len(stories)} across "
           f"{len({s.competition_id for s in stories})} competitions")
 
+    # Weekly wrestling shows: replay items with no fixture representation (no feed event will
+    # ever carry them), so they are collected rather than matched. Same one-file rule as stories.
+    # A 6-day window holds exactly one episode per weekly show.
+    try:
+        shows = replays.collect_ww_shows(
+            (datetime.now(timezone.utc).date() - timedelta(days=6)).isoformat())
+    except Exception:
+        shows = []
+    print(f"  shows: {len(shows)}")
+
     feed = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "events": [e.to_json() for e in events],
         "stories": [s.to_json() for s in stories],
+        "shows": shows,
     }
     (out / "events.json").write_text(json.dumps(feed, indent=2))
 

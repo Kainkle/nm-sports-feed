@@ -284,10 +284,19 @@ class EspnAdapter(Adapter):
             c = comps[0]
             sides = {s.get("homeAway"): s for s in (c.get("competitors") or [])}
             home, away = sides.get("home"), sides.get("away")
+            card = ""
             if not home or not away:
-                # Individual sports (golf, tennis draws, racing) have no home/away pair. Skipped rather than
-                # forced into a two-sided shape they do not have — they need their own presentation.
-                continue
+                # Individual sports split: golf/tennis draws/racing have no two-sided shape at all
+                # (skipped — they need their own presentation), but FIGHT CARDS are two-athlete
+                # events that simply omit `homeAway`. Synthesize the pair from billing order
+                # (competitor 0 reads first: "A vs B"), and keep the card name — the headliners the
+                # card is NAMED for are not the competitors the API lists, so the name is the match
+                # key and the display label, not decoration.
+                athletes = [s for s in (c.get("competitors") or []) if s.get("athlete")]
+                if self._sport != "mma" or len(athletes) < 2:
+                    continue
+                away, home = athletes[0], athletes[1]
+                card = e.get("name", "") or ""
             stype = (e.get("status") or {}).get("type") or {}
             out.append(
                 Event(
@@ -303,6 +312,7 @@ class EspnAdapter(Adapter):
                     source_status=f"{stype.get('state','')}/{stype.get('description','')}",
                     venue=(c.get("venue") or {}).get("fullName", ""),
                     detail=stype.get("detail", "") or "",
+                    card=card,
                 )
             )
         return out
@@ -327,15 +337,19 @@ class EspnAdapter(Adapter):
 
     @staticmethod
     def _team(side: dict) -> Team:
-        t = side.get("team", {}) or {}
+        t = side.get("team") or side.get("athlete") or {}
         name = t.get("displayName") or t.get("name") or ""
         aliases = [a for a in {name, t.get("name") or "", t.get("shortDisplayName") or "",
-                               t.get("location") or "", t.get("abbreviation") or ""} if a]
+                               t.get("fullName") or "", t.get("location") or "",
+                               t.get("abbreviation") or ""} if a]
+        logo = t.get("logo")
+        if not logo and isinstance(t.get("flag"), dict):
+            logo = t["flag"].get("href")  # MMA athletes carry a country flag, not a crest
         return Team(
             id=f"espn:{t.get('id')}",
             name=name,
             abbrev=t.get("abbreviation") or "",
-            logo=t.get("logo"),
+            logo=logo,
             aliases=sorted(aliases),
             color=(t.get("color") or None),
         )

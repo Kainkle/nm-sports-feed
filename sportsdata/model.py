@@ -112,6 +112,11 @@ class Event:
     # for surfaces that want a play affordance over it.
     replay_url: str = ""
     replay_poster: str = ""
+    # The event's own name where the source has one that differs from the two sides — a fight CARD
+    # ("UFC 330: Makhachev vs. Machado Garry") is one event whose headliners are the card name, not
+    # the competitors the API happens to list. Empty for team sports. Carried because the card name
+    # is the match key against replay-site titles, and it is what a surface should label the card.
+    card: str = ""
 
     def to_json(self) -> dict[str, Any]:
         d = asdict(self)

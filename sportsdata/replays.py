@@ -66,6 +66,27 @@ ok.ru id sits in the same upload channel). Same uCoz engine, no preland. Differe
   source is therefore live-but-waiting, like WNBA: wired July entries sit outside the 5-day
   backfill window, so nothing matches until the operator wires an in-window game.
 
+## watch-wrestling.eu (UFC cards + WWE/AEW shows), characterised by probe (ww/, 2026-08-19)
+
+WordPress (not uCoz), ~44s TTFB from the dev box like the whole family; CI expected fast. The
+only source in the ledger that ships a **documented embed API** (`dailywrestling.cc/embed/...`),
+addressed by (category tag reversed, mm-dd-yyyy, post/source/button index) — so the category
+listing is the entire scrape and no entry page is ever fetched. `1/1` is the featured Full Show
+(verified by mounting: UFC 330 source 1 = Main card, 3 = Early Prelims, 4 = Prelims). The embed
+page is a JS shell mounting dailymotion iframes plus a limemint m3u8; nothing is statically
+extractable, which is fine — the app's WebView runs the shell itself.
+
+Two item kinds, deliberately different shapes:
+
+- **UFC cards** are fixture-like: one ESPN event per card (see the MMA branch in
+  `EspnAdapter.fetch` — MMA competitors carry no `homeAway`, and the card name lives in
+  `Event.card` because the headliners a card is NAMED for are not the competitors listed).
+  Matched by `_match_cards`: Eastern date + normalized card-name containment.
+- **Weekly shows** (Raw, SmackDown, NXT via the generic /wwe/ category filtered by title
+  prefix; Dynamite via its own) have **no fixture representation anywhere** — they are published
+  as `feed["shows"]` (see `collect_ww_shows`), never matched. Undated posts (TUF "S34E10")
+  are skipped: nothing anchors their freshness.
+
 The date in every title is the site's local (US) date, so matching converts the fixture's
 `start_utc` to America/New_York before comparing — a 9:40pm PT game is "August 17" on the site
 but August 18 in UTC, and comparing raw UTC dates would miss every West Coast night game.
@@ -77,6 +98,7 @@ import json
 import re
 import ssl
 import urllib.request
+from html import unescape
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -107,6 +129,26 @@ BBV_MAX_PAGES = 4
 # su-buttons; the extractor takes either.
 NFLV_BASE = "https://nfl-video.com"
 NFLV_MAX_PAGES = 4
+
+# watch-wrestling.eu — WordPress, not uCoz, and unlike every source above it needs **no entry-page
+# fetch at all**: the site publishes a documented embed API addressed by (category, date, post,
+# source, button), so the category listing IS the whole scrape. Category tags for the API are the
+# display name reversed/lowercased/spaces-removed ("UFC" -> "cfu", verified against a live embed;
+# "WWE Smackdown" -> "nwodkcamsww", "AEW Dynamite" -> "etimanydwea"). source/button 1/1 is the
+# post's first media block — the featured Full Show in every layout measured (UFC 330: block 1 is
+# the Main card; probed: sources 1/3/4 mount Main card / Early Prelims / Prelims respectively).
+WW_BASE = "https://watch-wrestling.eu"
+WW_EMBED = "https://dailywrestling.cc/embed"
+# slug -> (reversed API tag, accepted title prefixes). ufc-78 feeds the fixture-matched UFC
+# replays; the rest are weekly SHOWS (no fixture representation anywhere — published as
+# feed["shows"], not matched). Raw/SmackDown/NXT posts carry only the generic /wwe/ category
+# (measured on the Aug 17 Raw post), so that one walk is filtered by title prefix; SmackDown's
+# dedicated archive exists but one walk of /wwe/ covers all three shows with one fetch.
+WW_UFC_CATEGORY = ("ufc-78", "cfu")
+WW_SHOW_CATEGORIES = {
+    "wwe": ("eww", ("wwe raw", "wwe smackdown", "wwe nxt")),
+    "dynamite": ("etimanydwea", ("aew dynamite",)),
+}
 
 _MONTHS = {m: i + 1 for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july",
@@ -296,6 +338,98 @@ def _walk_sites(sites: list[tuple[str, str]], tag: str, min_date: str, pages: in
     return out
 
 
+# WordPress archive entries: `<h1 class="entry-title"><a href="...">Title</a></h1>`, newest first.
+_WW_ENTRY = re.compile(
+    r'entry-title[^>]*>\s*<a href="(?P<href>[^"]+)"[^>]*>(?P<title>[^<]+)</a>')
+# Two date forms on one SmackDown page: "WWE Smackdown 8/7/2026" and
+# "WWE Smackdown 8/14/26 – August 14, 2026" (the latter also matches _BBV_DATE).
+_WW_SLASH_DATE = re.compile(r"\b(?P<m>\d{1,2})/(?P<d>\d{1,2})/(?P<y>20\d{2})\b")
+_WW_SHORT_DATE = re.compile(r"\b(?P<m>\d{1,2})/(?P<d>\d{1,2})/(?P<y2>\d{2})\b")
+
+
+def _ww_date(title: str) -> str:
+    """`M/D/YYYY` (or `M/D/YY`, or a spelled-out month) anywhere in a watch-wrestling title."""
+    m = _WW_SLASH_DATE.search(title)
+    if m:
+        return f"{m['y']}-{int(m['m']):02d}-{int(m['d']):02d}"
+    m = _BBV_DATE.search(title)  # "August 14, 2026"
+    if m:
+        return f"{m['year']}-{_MONTHS[m['month'].lower()]:02d}-{int(m['day']):02d}"
+    m = _WW_SHORT_DATE.search(title)
+    if m:
+        return f"20{m['y2']}-{int(m['m']):02d}-{int(m['d']):02d}"
+    return ""
+
+
+def _ww_embed_url(tag: str, date: str) -> str:
+    """The documented embed API address for a category+date. Post/source/button 1/1 = the
+    featured Full Show (see WW_BASE comment)."""
+    y, m, d = date.split("-")
+    return f"{WW_EMBED}/{tag}/{m}-{d}-{y}/select-post-1/1/1"
+
+
+def _ww_walk(slug: str, tag: str, min_date: str, prefixes: tuple[str, ...] = ()) -> list[dict]:
+    """One watch-wrestling category page. No entry fetches, no embed parsing — the API is
+    addressed by category+date, so the listing is the entire scrape. Undated posts (The
+    Ultimate Fighter episode numbers) are skipped: nothing anchors their freshness or identity.
+    `prefixes` filters a mixed category (/wwe/ holds every WWE show) by title prefix."""
+    try:
+        html = _get(f"{WW_BASE}/{slug}/")
+    except Exception:
+        return []
+    out: list[dict] = []
+    seen: set[str] = set()
+    for m in _WW_ENTRY.finditer(html):
+        href = m.group("href")
+        if href in seen:
+            continue
+        seen.add(href)
+        title = unescape(m.group("title")).strip()
+        if prefixes and not title.lower().startswith(prefixes):
+            continue
+        date = _ww_date(title)
+        if not date:
+            continue
+        if min_date and date < min_date:
+            continue
+        out.append({
+            "replay_id": "ww:" + href.rstrip("/").rsplit("/", 1)[-1][:50],
+            "title": title,
+            "date": date,
+            "url": href,
+            "embed_url": _ww_embed_url(tag, date),
+        })
+    return out
+
+
+def collect_ww(min_date: str) -> list[dict]:
+    """watch-wrestling UFC cards, ready for the matcher. One post per card, dated."""
+    slug, tag = WW_UFC_CATEGORY
+    return _ww_walk(slug, tag, min_date)
+
+
+def collect_ww_shows(min_date: str) -> list[dict]:
+    """Weekly wrestling shows (Raw, SmackDown, Dynamite, ...) as first-class replay items.
+
+    These have NO fixture representation — no feed event will ever carry them — so they are not
+    matched; they are the feed's `shows` array, each row entry already playable via `replay_url`.
+    Sorted newest first; the window is the caller's choice (a weekly cadence wants ~6 days so
+    exactly one episode per show is live at a time).
+    """
+    out: list[dict] = []
+    for slug, (tag, prefixes) in WW_SHOW_CATEGORIES.items():
+        for p in _ww_walk(slug, tag, min_date, prefixes):
+            out.append({
+                "id": p["replay_id"],
+                "title": p["title"],
+                "date": p["date"],
+                "replay_url": p["embed_url"],
+                "source_url": p["url"],
+            })
+    out.sort(key=lambda s: s["date"], reverse=True)
+    return out
+
+
 def _embed(entry: dict) -> dict | None:
     """
     Fetch one mlblive entry page and extract its embeddable player URL.
@@ -422,6 +556,34 @@ def _match_league(events: list[Event], replays: list[dict], game_guard: bool) ->
     return found
 
 
+def _match_cards(events: list[Event], replays: list[dict]) -> dict[str, dict]:
+    """
+    The UFC variant of the matcher: a fight CARD is one event named for its headliners
+    ("UFC 330: Makhachev vs. Machado Garry"), and the competitors the API happens to list are an
+    undercard pairing — team-name matching would misfire. The card name IS the identity, so the
+    rule is Eastern-date equality plus normalized card-name containment in the replay title
+    (punctuation stripped on both sides, so "vs." and "vs" agree). One card per date on both
+    sides makes this as strict as the team rule.
+    """
+    found: dict[str, dict] = {}
+    for e in events:
+        if not e.card:
+            continue
+        key = _norm(e.card)
+        edate = _eastern_date(e.start_utc)
+        for r in replays:
+            if r["date"] != edate or key not in _norm(r["title"]):
+                continue
+            found[e.event_id] = {
+                "embed_url": r["embed_url"],
+                "poster": r.get("poster", ""),
+                "title": r["title"],
+                "replay_id": r["replay_id"],
+            }
+            break
+    return found
+
+
 def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     """Route each league's fixtures to the source that covers it. Cross-source false positives
     are impossible by construction — an event only ever sees its own source's replays."""
@@ -438,6 +600,9 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     found.update(_match_league(
         [e for e in events if e.competition_id == "nfl"],
         by_prefix.get("nflv", []), game_guard=False))
+    found.update(_match_cards(
+        [e for e in events if e.competition_id == "ufc"],
+        by_prefix.get("ww", [])))
     return found
 
 
@@ -462,7 +627,7 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
     # replays", never an empty feed: each source is guarded separately (one site being down must
     # not silence the others) and the store still carries everything matched on previous runs.
     fresh_replays: list[dict] = []
-    for collector in (collect, collect_bbv, collect_nfl):
+    for collector in (collect, collect_bbv, collect_nfl, collect_ww):
         try:
             fresh_replays.extend(collector(min_date))
         except Exception:
