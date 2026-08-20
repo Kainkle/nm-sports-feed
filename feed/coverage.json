@@ -1,20 +1,20 @@
 {
-  "generated_utc": "2026-08-19T23:54:42.483517+00:00",
+  "generated_utc": "2026-08-20T01:16:26.223379+00:00",
   "window_days": 2,
-  "total_events": 113,
+  "total_events": 109,
   "competitions": [
     {
       "competition": "afl",
       "name": "AFL",
       "sport": "australian-football",
-      "events": 4,
+      "events": 2,
       "date_range": [
-        "2026-08-16",
-        "2026-08-20"
+        "2026-08-20",
+        "2026-08-21"
       ],
-      "explicit_status": 4,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 4,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -74,27 +74,29 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 1,
+      "date_range": [
+        "2026-08-21",
+        "2026-08-21"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 5,
+      "events": 4,
       "date_range": [
-        "2026-08-16",
-        "2026-08-20"
+        "2026-08-17",
+        "2026-08-21"
       ],
-      "explicit_status": 5,
+      "explicit_status": 4,
       "status_coverage_pct": 100,
-      "both_logos": 5,
+      "both_logos": 4,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -128,16 +130,14 @@
       "competition": "indycar",
       "name": "IndyCar Series",
       "sport": "racing",
-      "events": 1,
-      "date_range": [
-        "2026-08-16",
-        "2026-08-16"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
-      "both_logos": 1,
-      "logo_coverage_pct": 100,
-      "live_now": 0
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "ita.1",
@@ -158,14 +158,14 @@
       "sport": "baseball",
       "events": 65,
       "date_range": [
-        "2026-08-16",
-        "2026-08-21"
+        "2026-08-17",
+        "2026-08-22"
       ],
       "explicit_status": 65,
       "status_coverage_pct": 100,
       "both_logos": 65,
       "logo_coverage_pct": 100,
-      "live_now": 9
+      "live_now": 8
     },
     {
       "competition": "mma-sofa",
@@ -249,14 +249,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 2,
+      "events": 5,
       "date_range": [
         "2026-08-21",
-        "2026-08-21"
+        "2026-08-22"
       ],
-      "explicit_status": 2,
+      "explicit_status": 5,
       "status_coverage_pct": 100,
-      "both_logos": 2,
+      "both_logos": 5,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -279,8 +279,8 @@
       "sport": "rugby-league",
       "events": 3,
       "date_range": [
-        "2026-08-16",
-        "2026-08-20"
+        "2026-08-20",
+        "2026-08-21"
       ],
       "explicit_status": 3,
       "status_coverage_pct": 100,
@@ -346,16 +346,16 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 19,
+      "events": 15,
       "date_range": [
-        "2026-08-16",
+        "2026-08-19",
         "2026-08-20"
       ],
-      "explicit_status": 19,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 19,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 7
+      "live_now": 8
     },
     {
       "competition": "volleyball",
@@ -376,8 +376,8 @@
       "sport": "basketball",
       "events": 13,
       "date_range": [
-        "2026-08-16",
-        "2026-08-21"
+        "2026-08-18",
+        "2026-08-22"
       ],
       "explicit_status": 13,
       "status_coverage_pct": 100,
