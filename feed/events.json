@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-21T10:38:26.362431+00:00",
+  "generated_utc": "2026-08-21T11:03:36.687618+00:00",
   "events": [
     {
       "event_id": "mlb:824803",
@@ -3180,9 +3180,9 @@
         "color": "6d144a"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "MCG",
-      "detail": "19:03 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3221,14 +3221,53 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Suncorp Stadium",
-      "detail": "30'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "espn:racing:600057441",
+      "sport": "racing",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "start_utc": "2026-08-21T10:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:None",
+        "name": "George Russell",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gbr.png",
+        "logo_dark": null,
+        "aliases": [
+          "George Russell"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Lewis Hamilton",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gbr.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lewis Hamilton"
+        ],
+        "color": null
+      },
+      "source": "espn:racing/f1",
+      "source_status": "in/In Progress",
+      "venue": "",
+      "detail": "In Progress",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_poster": "",
+      "card": "Heineken Dutch Grand Prix"
     },
     {
       "event_id": "espn:soccer:401879301",
@@ -6954,28 +6993,64 @@
   ],
   "stories": [
     {
-      "story_id": "48990955",
-      "headline": "Summer transfer window: Grading big signings in men's soccer",
-      "summary": "The 2026 summer transfer window is open. Here is how we rated the biggest deals.",
-      "image": "https://a.espncdn.com/photo/2026/0409/r1641030_1296x729_16-9.jpg",
-      "published_utc": "2026-08-21T10:25:28Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "Sam Tighe",
+      "story_id": "49590770",
+      "headline": "NBA offseason recap, early 2026-27 season previews by team",
+      "summary": "We're looking back at the offseason and taking an early look at the regular season by rolling out one team profile each weekday through Sept. 18.",
+      "image": "https://a.espncdn.com/photo/2026/0210/nba_power_rankings_week15-16x9_608x342.jpg",
+      "published_utc": "2026-08-21T10:59:52Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "NBA Insiders",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer"
+      "link": "https://www.espn.com/nba/story/_/id/49590770/nba-offseason-recap-2026-27-season-previews-stats-roster-depth-chart-schedules-30-teams"
     },
     {
-      "story_id": "49650260",
-      "headline": "Tiering college quarterbacks by 2027 NFL draft stock",
-      "summary": "With the college season right around the corner, Jordan Reid stacked every NFL draft-eligible QB worthy of getting picked next April by their current round grade.",
-      "image": "https://a.espncdn.com/photo/2026/0819/r1703680_608x342_16-9.jpg",
-      "published_utc": "2026-08-21T10:20:07Z",
+      "story_id": "48677635",
+      "headline": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis",
+      "summary": "Your one-stop shop as you prep for draft season, including rankings, projections and analysis.",
+      "image": "https://a.espncdn.com/photo/2026/0615/fan_football_draft_guide_cr_16x9.jpg",
+      "published_utc": "2026-08-21T10:57:16Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Jordan Reid",
+      "byline": "Fantasy staff",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/draft2027/story/_/id/49650260/2027-nfl-draft-quarterback-tiers-rounds-one-seven-moore-manning"
+      "link": "https://www.espn.com/fantasy/football/story/_/page/FFDraftGuide26-48677635/2026-fantasy-football-rankings-mock-draft-cheat-sheets-sleepers"
+    },
+    {
+      "story_id": "49668967",
+      "headline": "Champions League 2026-27 draw: How to watch in UK, start time, how does it work, when are fixtures?",
+      "summary": "The Champions League returns for another season. Here's everything you need to know about the league phase draw.",
+      "image": "https://a.espncdn.com/photo/2025/1106/r1571752_1296x729_16-9.jpg",
+      "published_utc": "2026-08-21T10:45:59Z",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49668967/champions-league-2026-27-draw-football-how-watch-uk-start-how-does-work-teams-in"
+    },
+    {
+      "story_id": "49679399",
+      "headline": "Alonso: Fern\u00e1ndez is still a Chelsea player",
+      "summary": "Alonso: Fern\u00e1ndez is still a Chelsea player",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0821/dm_260821_COM_SOC_Analysis_Alonso3A_FernC3A1ndez_is_still_a_Chelsea_player_GLOBAL_2026-08-21/dm_260821_COM_SOC_Analysis_Alonso3A_FernC3A1ndez_is_still_a_Chelsea_player_GLOBAL_2026-08-21.jpg",
+      "published_utc": "2026-08-21T10:41:49Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49679399/fernandez-chelsea-player"
+    },
+    {
+      "story_id": "49672418",
+      "headline": "Little League Classic 2026: MLB players' best youth baseball advice",
+      "summary": "We asked major leagues what one piece of advice from their youth baseball days stuck with them -- and what advice they'd give now. Here's what they said.",
+      "image": "https://a.espncdn.com/photo/2026/0819/r1703953_608x342_16-9.jpg",
+      "published_utc": "2026-08-21T10:34:28Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49672418/mlb-2026-little-league-classic-braves-brewers-best-youth-baseball-advice"
     },
     {
       "story_id": "49678510",
@@ -6988,18 +7063,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49678510/pochettino-name-cavan-sullivan-next-usmnt-roster"
-    },
-    {
-      "story_id": "49678421",
-      "headline": "Brewers host the Braves to begin 3-game series",
-      "summary": "Atlanta Braves (75-53, first in the NL East) vs. Milwaukee Brewers (79-49, first in the NL Central)",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816617.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-21T08:04:26Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/preview?gameId=401816617"
     },
     {
       "story_id": "49677788",
@@ -7038,18 +7101,6 @@
       "link": "https://www.espn.com/afl/story/_/id/49675697/afl-news-sydney-swans-coach-dean-cox-unaware-anyone-else-was-hotel-room"
     },
     {
-      "story_id": "49676691",
-      "headline": "Anthony Edwards' latest shoe put Filipino artistry on full display",
-      "summary": "The shoes were designed to represent bayanihan, a distinctly Filipino value communal unity, cooperation, and helpfulness.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0815/dm_260815_Basketball_Interview_Anthony_Edwards_stoked_to_be_back_in_Philippines_20260815_NO_TARGET/dm_260815_Basketball_Interview_Anthony_Edwards_stoked_to_be_back_in_Philippines_20260815_NO_TARGET.jpg",
-      "published_utc": "2026-08-21T04:02:18Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Miguel Alfonso Caramoan",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49676691/anthony-edwards-latest-shoe-put-filipino-artistry-full-display"
-    },
-    {
       "story_id": "49675714",
       "headline": "Islanders announce 'Navy Lighthouse' as fan-voted third jersey contest winner",
       "summary": "The New York Islanders put the fate of their third jersey design in the hands of their fans -- and they've landed on a winning concept.",
@@ -7060,18 +7111,6 @@
       "byline": "Kristen Shilton",
       "source": "ESPN",
       "link": "https://www.espn.com/nhl/story/_/id/49675714/new-york-islanders-fan-designed-third-jersey-navy-lighthouse"
-    },
-    {
-      "story_id": "49674598",
-      "headline": "Walcott: Arsenal fans want to win the Champions League this season",
-      "summary": "Walcott: Arsenal fans want to win the Champions League this season",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0820/dm_260820_COM_SOC_Analysis_Walcott3A_Arsenal_fans_want_to_win_the_Champions_League_this_season_GLOBAL_2026-08/dm_260820_COM_SOC_Analysis_Walcott3A_Arsenal_fans_want_to_win_the_Champions_League_this_season_GLOBAL_2026-08.jpg",
-      "published_utc": "2026-08-20T22:16:20Z",
-      "competition_id": "uefa.champions",
-      "competition_name": "Champions League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49674598/arsenal-fans-want-win-champions-league-season"
     },
     {
       "story_id": "24067525",
@@ -7098,28 +7137,64 @@
       "link": "https://www.espn.com/nrl/story/_/id/49676393/nrl-news-report-south-sydney-rabbitohs-wayne-bennett-confident-latrell-mitchell-return-next-week"
     },
     {
-      "story_id": "49678076",
-      "headline": "Transfer rumors, news: Arsenal want Yildiz as Al Hilal add Martinelli to shortlist",
-      "summary": "Arsenal are looking into the possibility of signing Kenan Yildiz from Juventus. Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/0128/r1606845_1296x729_16-9.jpg",
-      "published_utc": "2026-08-21T10:10:31Z",
+      "story_id": "49639942",
+      "headline": "Denver Nuggets offseason recap, early 2026-27 season preview",
+      "summary": "After finally resolving the franchise's biggest piece of business, what's next for Denver? We're recapping the offseason and taking an early look at 2026-27.",
+      "image": "https://a.espncdn.com/photo/2026/0407/r1639665_1296x729_16-9.jpg",
+      "published_utc": "2026-08-21T10:52:25Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "NBA Insiders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/49639942/denver-nuggets-offseason-recap-2026-27-season-preview-stats-roster-depth-chart"
+    },
+    {
+      "story_id": "49652186",
+      "headline": "Carson Beck, Tre' Harris among deep fantasy football sleepers in 2026",
+      "summary": "These sleepers are truly for those in deeper leagues seeking off-the-radar types who could emerge in 2026.",
+      "image": "https://a.espncdn.com/photo/2026/0818/r1703615_608x342_16-9.jpg",
+      "published_utc": "2026-08-21T10:54:33Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Tristan H. Cockcroft",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/football/story/_/id/49652186/2026-fantasy-football-sleepers-nfl-deep-leagues"
+    },
+    {
+      "story_id": "49674598",
+      "headline": "Walcott: Arsenal fans want to win the Champions League this season",
+      "summary": "Walcott: Arsenal fans want to win the Champions League this season",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0820/dm_260820_COM_SOC_Analysis_Walcott3A_Arsenal_fans_want_to_win_the_Champions_League_this_season_GLOBAL_2026-08/dm_260820_COM_SOC_Analysis_Walcott3A_Arsenal_fans_want_to_win_the_Champions_League_this_season_GLOBAL_2026-08.jpg",
+      "published_utc": "2026-08-20T22:16:20Z",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49674598/arsenal-fans-want-win-champions-league-season"
+    },
+    {
+      "story_id": "49660035",
+      "headline": "Premier League live updates: Arsenal kick off season against Coventry",
+      "summary": "The 2026-27 Premier League season begins as defending champions Arsenal take on newly promoted Coventry City.",
+      "image": "https://a.espncdn.com/photo/2026/0819/r1703916_1296x729_16-9.jpg",
+      "published_utc": "2026-08-21T10:37:14Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49678076/transfer-rumors-news-arsenal-want-yildiz-al-hilal-add-martinelli-shortlist"
+      "link": "https://www.espn.com/soccer/story/_/id/49660035/premier-league-live-updates-arsenal-kick-season-coventry-city"
     },
     {
-      "story_id": "49638556",
-      "headline": "2026 NFL season: Ranking the best, worst positional groups",
-      "summary": "Which team has the best running backs? The shakiest edge rusher room? We ranked all 32 teams in 10 different position groups.",
-      "image": "https://a.espncdn.com/photo/2026/0817/r1702980_608x342_16-9.jpg",
-      "published_utc": "2026-08-21T10:19:22Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Mike Clay",
+      "story_id": "49678421",
+      "headline": "Brewers host the Braves to begin 3-game series",
+      "summary": "Atlanta Braves (75-53, first in the NL East) vs. Milwaukee Brewers (79-49, first in the NL Central)",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816617.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-21T08:04:26Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49638556/2026-nfl-season-positional-group-best-worst-quarterbacks-cornerbacks-receivers"
+      "link": "http://www.espn.com/mlb/preview?gameId=401816617"
     },
     {
       "story_id": "49678375",
@@ -7132,18 +7207,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49678375/is-lionel-messi-back-best-inter-miami"
-    },
-    {
-      "story_id": "49678418",
-      "headline": "Dodgers host the Pirates to open 3-game series",
-      "summary": "Pittsburgh Pirates (63-66, fourth in the NL Central) vs. Los Angeles Dodgers (77-51, first in the NL West)",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816624.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-21T08:04:23Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/preview?gameId=401816624"
     },
     {
       "story_id": "49677787",
@@ -7182,18 +7245,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49675933/callum-mills-apologises-all-women-community"
     },
     {
-      "story_id": "49672691",
-      "headline": "Russell Westbrook foreshadowed retirement in answer to young fan",
-      "summary": "The nine-time All-Star and former MVP announced his retirement on Wednesday after 18 NBA seasons.",
-      "image": "https://a.espncdn.com/photo/2026/0814/r1701670_608x342_16-9.jpg",
-      "published_utc": "2026-08-20T21:59:34Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Kalan Hooks",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49672691/russell-westbrook-retirement-why-not-foundation-camp-viral-clip-young-fan"
-    },
-    {
       "story_id": "49672634",
       "headline": "Leon Draisaitl's top moments of the 2025-26 season",
       "summary": "Leon Draisaitl's top moments of the 2025-26 season",
@@ -7204,18 +7255,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49672634/leon-draisaitl-top-moments-2025-26-season"
-    },
-    {
-      "story_id": "49642340",
-      "headline": "2026-27 European soccer predictions: Premier League, Champions League, LaLiga",
-      "summary": "The new season has arrived! Which teams will win silverware? Who wins Golden Boot? ESPN's writers predict it all for Europe's top men's leagues.",
-      "image": "https://a.espncdn.com/photo/2026/0819/soc_european-predictions_16x9.jpg",
-      "published_utc": "2026-08-20T15:20:58Z",
-      "competition_id": "uefa.champions",
-      "competition_name": "Champions League",
-      "byline": "Multiple contributors",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49642340/european-soccer-predictions-2026-27-premier-league-champions-league-laliga-bundesliga-golden-boot"
     },
     {
       "story_id": "21807736",
