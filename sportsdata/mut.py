@@ -70,7 +70,27 @@ _PT_DATE = re.compile(r"\((\d{2})/(\d{2})/(\d{4})\)")
 
 def _norm(s: str) -> frozenset[str]:
     flat = re.sub(r"[^0-9a-zA-Z\s]", " ", unicodedata.normalize("NFKD", s)).lower()
-    return frozenset(t for t in flat.split() if t and t not in STOP)
+    # Initialism joining, BEFORE the stop filter: the feed writes "D.C. United" (tokens d, c)
+    # where mut writes "DC United" (token dc) — as separate tokens the two can never equal and
+    # the game looks uncarried when it is carried (found live on Charlotte vs D.C. United,
+    # 2026-08-22). Adjacent single letters are one initialism, so they join; and the join lands
+    # "F.C." on "fc", which the stop filter then drops — exactly what a stop list is for.
+    joined: list[str] = []
+    run: list[str] = []
+
+    def flush() -> None:
+        if run:
+            joined.append("".join(run))
+            run.clear()
+
+    for t in flat.split():
+        if len(t) == 1:
+            run.append(t)
+        else:
+            flush()
+            joined.append(t)
+    flush()
+    return frozenset(t for t in joined if t not in STOP)
 
 
 def _side_score(a: frozenset[str], b: frozenset[str]) -> float:
