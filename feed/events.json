@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-22T12:31:49.132077+00:00",
+  "generated_utc": "2026-08-22T13:17:16.055638+00:00",
   "events": [
     {
       "event_id": "mlb:823342",
@@ -2816,96 +2816,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401857161",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-08-21T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:16",
-        "name": "Washington Mystics",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mystics",
-          "WSH",
-          "Washington",
-          "Washington Mystics"
-        ],
-        "color": "e03a3e"
-      },
-      "away": {
-        "id": "espn:8",
-        "name": "Minnesota Lynx",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "Lynx",
-          "MIN",
-          "Minnesota",
-          "Minnesota Lynx"
-        ],
-        "color": "266092"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "CareFirst Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "FHmnyH2Gqz4",
-      "replay_url": "",
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401857162",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-08-21T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:19",
-        "name": "Chicago Sky",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "CHI",
-          "Chicago",
-          "Chicago Sky",
-          "Sky"
-        ],
-        "color": "5091cd"
-      },
-      "away": {
-        "id": "espn:129689",
-        "name": "Golden State Valkyries",
-        "abbrev": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png",
-        "logo_dark": null,
-        "aliases": [
-          "GS",
-          "Golden State",
-          "Golden State Valkyries",
-          "Valkyries"
-        ],
-        "color": "b38fcf"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Wintrust Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "_EKhhUgbMLo",
-      "replay_url": "",
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "mlb:824559",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -3268,51 +3178,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401857163",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-08-22T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:131935",
-        "name": "Toronto Tempo",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png",
-        "logo_dark": null,
-        "aliases": [
-          "TOR",
-          "Tempo",
-          "Toronto",
-          "Toronto Tempo"
-        ],
-        "color": "33476D"
-      },
-      "away": {
-        "id": "espn:132052",
-        "name": "Portland Fire",
-        "abbrev": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fire",
-          "POR",
-          "Portland",
-          "Portland Fire"
-        ],
-        "color": "cee5eb"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Rogers Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "mlb:823911",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -3656,7 +3521,7 @@
       "competition_id": "afl",
       "competition_name": "AFL",
       "start_utc": "2026-08-22T10:10Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:15",
         "name": "Adelaide Crows",
@@ -3682,9 +3547,9 @@
         "color": "F07947"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Adelaide Oval",
-      "detail": "8:26 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3725,9 +3590,9 @@
         "color": "da020e"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "The MKM Stadium",
-      "detail": "HT",
+      "detail": "88'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7670,7 +7535,7 @@
       "headline": "European soccer live updates: Hull lead Man United in season opener",
       "summary": "Manchester United and Real Madrid are among the clubs in action during a full set of matches across Europe on Saturday.",
       "image": "https://a.espncdn.com/photo/2026/0822/r1705211_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T12:29:47Z",
+      "published_utc": "2026-08-22T12:51:08Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "ESPN",
@@ -7682,7 +7547,7 @@
       "headline": "Fantasy football buzz: What you need to know from Friday's games",
       "summary": "Michael Florio provides the biggest fantasy takeaways from Friday's NFL preseason games.",
       "image": "https://a.espncdn.com/photo/2026/0821/r1704853_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T12:26:54Z",
+      "published_utc": "2026-08-22T12:33:34Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "ESPN Fantasy",
@@ -7702,16 +7567,16 @@
       "link": "https://www.espn.com/espn/betting/story/_/id/49652105/mlb-betting-tips-odds-lines-2026-saturday-august-22"
     },
     {
-      "story_id": "49688739",
-      "headline": "Richards' shoeless snap sails through",
-      "summary": "Bulldog Ed Richards loses his boot mid-play but still manages to slot the long range snap",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Richards_shoeless_snap_sails_through_2026822_AUS_ONLY/dm_260822_AFL_Highlight_Richards_shoeless_snap_sails_through_2026822_AUS_ONLY.jpg",
-      "published_utc": "2026-08-22T08:32:26Z",
+      "story_id": "49689170",
+      "headline": "Young Sun Usher does it all herself",
+      "summary": "Gold Coast Suns top pick Ava Usher takes off on a three bounce run before slotting the goal herself.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Young_Sun_Usher_does_it_all_herself_2026822_AUS_ONLY/dm_260822_AFL_Highlight_Young_Sun_Usher_does_it_all_herself_2026822_AUS_ONLY.jpg",
+      "published_utc": "2026-08-22T10:19:59Z",
       "competition_id": "afl",
       "competition_name": "AFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49688739/richards-shoeless-snap-sails-through"
+      "link": "https://www.espn.com/video/clip/_/id/49689170/young-sun-usher-does-all-herself"
     },
     {
       "story_id": "49535348",
@@ -7798,16 +7663,16 @@
       "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
     },
     {
-      "story_id": "49685875",
-      "headline": "Knights stunned by Manly in blow to home finals hopes",
-      "summary": "Newcastle have thrown their home-final hopes into jeopardy after capitulating to Manly in a shock 44-24 humbling on Old Boys' Day.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705166_1296x729_16-9.jpg",
+      "story_id": "49685893",
+      "headline": "Warriors defeat Souths, climb to first on NRL ladder",
+      "summary": "The battle for the NRL's minor premiership is set to go down to the wire after the Warriors downed South Sydney 45-26 to go top of the table.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705181_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49685875/nrl-round-25-news-report-knights-stunned-manly-blow-home-finals-hopes"
+      "link": "https://www.espn.com/nrl/story/_/id/49685893/nrl-round-25-news-report-warriors-defeat-souths-climb-first-nrl-ladder"
     },
     {
       "story_id": "49690076",
@@ -7846,16 +7711,16 @@
       "link": "https://www.espn.com/fantasy/baseball/story/_/id/48297021/espn-fantasy-baseball-buzz-injuries-promotions-demotions-trades-prospects-lineup-changes-mlb-news-analysis-2026"
     },
     {
-      "story_id": "49687696",
-      "headline": "Francis Evans crumbs for perfect small forward's goal",
-      "summary": "Carlton small Francis Evans reads the play beautifully and gets a kind bounce as he kicks a nice goal.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Francis_Evans_crumbs_for_perfect_small_forwards_goal_2026822_AUS_ONLY/dm_260822_AFL_Highlight_Francis_Evans_crumbs_for_perfect_small_forwards_goal_2026822_AUS_ONLY.jpg",
-      "published_utc": "2026-08-22T05:06:04Z",
+      "story_id": "49688739",
+      "headline": "Richards' shoeless snap sails through",
+      "summary": "Bulldog Ed Richards loses his boot mid-play but still manages to slot the long range snap",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Richards_shoeless_snap_sails_through_2026822_AUS_ONLY/dm_260822_AFL_Highlight_Richards_shoeless_snap_sails_through_2026822_AUS_ONLY.jpg",
+      "published_utc": "2026-08-22T08:32:26Z",
       "competition_id": "afl",
       "competition_name": "AFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49687696/francis-evans-crumbs-perfect-small-forward-goal"
+      "link": "https://www.espn.com/video/clip/_/id/49688739/richards-shoeless-snap-sails-through"
     },
     {
       "story_id": "49409520",
@@ -7942,16 +7807,16 @@
       "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
     },
     {
-      "story_id": "49687083",
-      "headline": "Bulldogs press on with Preston talks; eye Volkman",
-      "summary": "Canterbury are pressing ahead with negotiations to retain Jacob Preston despite suggestions that talks had stalled, with Bulldogs general manager Phil Gould expected to meet with the back-rower's management as the Bulldogs look to advance talks.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/dm_260818_NRL_Analysis_When_Tony_Williams_met_Josh_Reynolds_20260819_ESPN/dm_260818_NRL_Analysis_When_Tony_Williams_met_Josh_Reynolds_20260819_ESPN.jpg",
+      "story_id": "49685875",
+      "headline": "Knights stunned by Manly in blow to home finals hopes",
+      "summary": "Newcastle have thrown their home-final hopes into jeopardy after capitulating to Manly in a shock 44-24 humbling on Old Boys' Day.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705166_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49687083/nrl-news-report-canterbury-bulldogs-press-jacob-preston-talks-eye-ronald-volkman"
+      "link": "https://www.espn.com/nrl/story/_/id/49685875/nrl-round-25-news-report-knights-stunned-manly-blow-home-finals-hopes"
     }
   ],
   "shows": [

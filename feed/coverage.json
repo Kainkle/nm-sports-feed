@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-22T12:31:49.141390+00:00",
+  "generated_utc": "2026-08-22T13:17:16.062254+00:00",
   "window_days": 2,
-  "total_events": 175,
+  "total_events": 172,
   "competitions": [
     {
       "competition": "afl",
@@ -16,7 +16,7 @@
       "status_coverage_pct": 100,
       "both_logos": 9,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "boxing",
@@ -378,19 +378,25 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 15,
+      "events": 12,
       "date_range": [
         "2026-08-19",
         "2026-08-23"
       ],
-      "explicit_status": 15,
+      "explicit_status": 12,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 12,
       "logo_coverage_pct": 100,
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/wnba",
+      "date": "2026-08-21",
+      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260821: The read operation timed out"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
