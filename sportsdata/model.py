@@ -96,6 +96,13 @@ class Event:
     # Only meaningful while status is LIVE. Carried because it is the difference between a card that says a
     # game is live and one that shows you the game is live.
     detail: str = ""
+    # Whether our live-stream provider (mut.st) was carrying this game AT FEED-BUILD TIME — see
+    # `sportsdata/mut.py`. Only meaningful while status is LIVE: SofaScore stays the sole authority
+    # on live/finished (mut does not delist finished games in time), and this field only answers
+    # "is there anything to show". Absent means the build could not check (mut unreachable) — old
+    # feeds predate it entirely — and consumers must fall back to status alone, never read absence
+    # as either answer.
+    has_live_source: bool | None = None
     # Distinguishes the second game of a doubleheader from the first. Without it, two fixtures between the
     # same teams on the same day are indistinguishable to the matcher — which is exactly where naive
     # name-plus-date matching sends a viewer to the wrong stream.
@@ -111,6 +118,12 @@ class Event:
     # (ok.ru) and carries no parameters we control. `replay_poster` is the replay entry's own artwork
     # for surfaces that want a play affordance over it.
     replay_url: str = ""
+    # The replay's full option ladder, ranked (see `replays.py`): `[{"url", "label", "part",
+    # "live"}, ...]`, newest reasoning first — single-file full replays, then multi-part, then
+    # live-replay captures. `replay_url` stays the first rung so surfaces that never heard of
+    # the ladder keep working; the app walks candidates in order, door+latch per rung, exactly
+    # as a person clicking through a replay page's options would.
+    replay_candidates: list[dict[str, Any]] = field(default_factory=list)
     replay_poster: str = ""
     # The event's own name where the source has one that differs from the two sides — a fight CARD
     # ("UFC 330: Makhachev vs. Machado Garry") is one event whose headliners are the card name, not
@@ -121,6 +134,8 @@ class Event:
     def to_json(self) -> dict[str, Any]:
         d = asdict(self)
         d["status"] = self.status.value
+        if d["has_live_source"] is None:
+            del d["has_live_source"]
         return d
 
 

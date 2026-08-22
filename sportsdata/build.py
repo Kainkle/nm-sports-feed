@@ -28,7 +28,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import highlights, news, replays
+from . import highlights, mut, news, replays
 from .adapters import ADAPTERS, SourceError
 from .model import Event, Status
 
@@ -201,6 +201,17 @@ def main() -> int:
     replay_hits = replays.apply(events, today, out / "replays.json")
     print(f"  replays matched: {replay_hits}")
 
+    # The live intersection — SofaScore's live list checked against what mut.st actually carries
+    # (see sportsdata/mut.py). This is what keeps a game with no streams out of the app's live
+    # row: "no stream for this match" was a card the viewer could press, not a bug report. A
+    # listing fetch failure leaves the field absent on every event — the app then falls back to
+    # status alone, and the play-time resolver stays as the backstop.
+    intersection = mut.mark_live(events)
+    if intersection is None:
+        print("  mut intersection: SKIPPED (listing unreachable) — status-only live row this cycle")
+    else:
+        print(f"  mut intersection: {intersection[0]} of {intersection[1]} live events carried")
+
     # Editorial, fetched alongside the fixtures and published in the same file.
     #
     # One file rather than two: the box already polls this URL every ten seconds, and a second request on
@@ -228,6 +239,10 @@ def main() -> int:
     (out / "events.json").write_text(json.dumps(feed, indent=2))
 
     cov = coverage(events, problems, a.days)
+    # Recorded for the same reason every other count is: "live row empty" is ambiguous on screen —
+    # no games live, or games live that mut does not carry. Only this pair tells them apart later.
+    if intersection is not None:
+        cov["live_intersection"] = {"live_events": intersection[1], "carried": intersection[0]}
     # Recorded in the coverage report for the same reason fixtures are: "no stories" and "the news source
     # broke" look identical on screen, and only a count distinguishes them after the fact.
     cov["stories"] = {
