@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-22T15:53:06.319385+00:00",
+  "generated_utc": "2026-08-22T16:19:38.317013+00:00",
   "events": [
     {
       "event_id": "mlb:823342",
@@ -3740,7 +3740,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-22T14:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:368",
         "name": "Everton",
@@ -3767,9 +3767,9 @@
         "color": "0202fb"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Hill Dickinson Stadium",
-      "detail": "90'+1'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3782,7 +3782,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-22T14:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:373",
         "name": "Ipswich Town",
@@ -3809,9 +3809,9 @@
         "color": "EB172B"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Portman Road",
-      "detail": "90'+4'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3824,7 +3824,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-22T14:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:393",
         "name": "Nottingham Forest",
@@ -3852,9 +3852,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "The City Ground",
-      "detail": "90'+3'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3894,9 +3894,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "San Mam\u00e9s",
-      "detail": "HT",
+      "detail": "55'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3909,7 +3909,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-08-22T16:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:8",
         "name": "Detroit Lions",
@@ -3939,9 +3939,9 @@
         "color": "5a1414"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Ford Field",
-      "detail": "Sat, August 22nd at 12:00 PM EDT",
+      "detail": "11:31 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7666,16 +7666,28 @@
   ],
   "stories": [
     {
-      "story_id": "49661606",
-      "headline": "European soccer live updates: Premier League action continues after Hull stun Man United",
-      "summary": "Manchester United and Real Madrid are among the clubs in action during a full set of matches across Europe on Saturday.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705270_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T15:17:39Z",
+      "story_id": "49673898",
+      "headline": "Anton Stack free kick helps Leeds beat Nottingham Forest",
+      "summary": "Anton Stach's late free kick saw Leeds kick off their Premier League campaign with a 1-0 win at Nottingham Forest.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705302_1296x729_16-9.jpg",
+      "published_utc": "2026-08-22T16:02:33Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "ESPN",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49661606/european-soccer-live-updates-manchester-united-real-madrid-tottenham"
+      "link": "http://www.espn.com/soccer/report/_/gameId/401879298"
+    },
+    {
+      "story_id": "49610285",
+      "headline": "Lando Norris gets back-to-back poles, Mercedes duo behind for Dutch Grand Prix",
+      "summary": "Lando Norris clinched pole position at the Dutch Grand Prix after banishing his sprint struggles to end the day on top at Zandvoort.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705287_1296x729_16-9.jpg",
+      "published_utc": "2026-08-22T15:30:12Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "PA",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49610285/lando-norris-gets-back-back-poles-mercedes-duo-dutch-grand-prix-dutch-grand-prix-formula-1-zandvoort"
     },
     {
       "story_id": "49690629",
@@ -7688,18 +7700,6 @@
       "byline": "ESPN Fantasy",
       "source": "ESPN",
       "link": "https://www.espn.com/fantasy/football/story/_/id/49690629/2026-fantasy-football-cheat-sheet-draft-tips-sleepers-busts"
-    },
-    {
-      "story_id": "49610274",
-      "headline": "Lando Norris on his McLaren: 'Nowhere near good enough' to fight for title",
-      "summary": "Lando Norris gave a downbeat forecast of his Dutch Grand Prix chances after finishing third during Saturday's sprint.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705226_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T13:36:07Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "PA",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49610274/lando-norris-mclaren-nowhere-good-enough-fight-title-dutch-grand-prix-formula-1-zandvoort"
     },
     {
       "story_id": "48297021",
@@ -7810,16 +7810,28 @@
       "link": "https://www.espn.com/nrl/story/_/id/49685909/nrl-round-25-news-report-dogs-finals-hopes-alive-dragons-close-spoon"
     },
     {
-      "story_id": "49691616",
-      "headline": "Michael Carrick: Man United should not panic after humbling Hull defeat",
-      "summary": "Manchester United head coach Michael Carrick insisted it was not the time to panic despite watching his team fall to a humbling 2-0 defeat to newly-promoted Hull City on Saturday.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705282_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T15:16:16Z",
+      "story_id": "49691944",
+      "headline": "Bruno Fernandes: 'Same mistakes, every away game' to blame for Man United loss to Hull",
+      "summary": "Manchester United captain Bruno Fernandes said the \"same mistakes\" were responsible for his side's shock 2-0 defeat to newly-promoted Hull City in their opening game of the Premier League season on Saturday.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705300_1296x729_16-9.jpg",
+      "published_utc": "2026-08-22T15:56:23Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "Rob Dawson",
+      "byline": "Jamie Barton",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49691616/michael-carrick-man-united-panic-humbling-hull-defeat"
+      "link": "https://www.espn.com/soccer/story/_/id/49691944/bruno-fernandes-same-mistakes-man-united-loss-hull"
+    },
+    {
+      "story_id": "49610274",
+      "headline": "Lando Norris on his McLaren: 'Nowhere near good enough' to fight for title",
+      "summary": "Lando Norris gave a downbeat forecast of his Dutch Grand Prix chances after finishing third during Saturday's sprint.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705226_1296x729_16-9.jpg",
+      "published_utc": "2026-08-22T13:36:07Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "PA",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49610274/lando-norris-mclaren-nowhere-good-enough-fight-title-dutch-grand-prix-formula-1-zandvoort"
     },
     {
       "story_id": "48640423",
@@ -7832,18 +7844,6 @@
       "byline": "ESPN Fantasy",
       "source": "ESPN",
       "link": "https://www.espn.com/fantasy/football/story/_/page/FFCheatSheetCent26-48640423/2026-fantasy-football-rankings-cheat-sheet-depth-charts-ppr"
-    },
-    {
-      "story_id": "49610261",
-      "headline": "Dutch Grand Prix: George Russell takes third sprint race victory of the season",
-      "summary": "George Russell delivered a much-needed boost to his championship hopes with a commanding victory in the Dutch Grand Prix sprint.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705195_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T11:14:15Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "PA",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49610261/george-russell-takes-third-sprint-race-victory-season-dutch-grand-prix-formula-1-zandvoort"
     },
     {
       "story_id": "49652105",
