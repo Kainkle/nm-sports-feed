@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-22T17:07:08.478379+00:00",
+  "generated_utc": "2026-08-22T17:35:10.300460+00:00",
   "window_days": 2,
-  "total_events": 175,
+  "total_events": 176,
   "competitions": [
     {
       "competition": "afl",
@@ -98,7 +98,7 @@
       "status_coverage_pct": 100,
       "both_logos": 9,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "f1",
@@ -169,7 +169,7 @@
       "status_coverage_pct": 100,
       "both_logos": 69,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "mma-sofa",
@@ -201,14 +201,16 @@
       "competition": "nascar",
       "name": "NASCAR Cup Series",
       "sport": "racing",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 1,
+      "date_range": [
+        "2026-08-23",
+        "2026-08-23"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "nba",
@@ -262,7 +264,7 @@
       "status_coverage_pct": 100,
       "both_logos": 16,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 3
     },
     {
       "competition": "nhl",
