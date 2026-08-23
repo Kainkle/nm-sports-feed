@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T09:14:08.728051+00:00",
+  "generated_utc": "2026-08-23T09:47:44.871216+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -5167,7 +5167,7 @@
       "competition_id": "afl",
       "competition_name": "AFL",
       "start_utc": "2026-08-23T09:20Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:3",
         "name": "West Coast Eagles",
@@ -5193,9 +5193,10 @@
         "color": "462d22"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Optus Stadium",
-      "detail": "Sun, August 22nd at 2:20 AM EDT",
+      "detail": "25:49 - 1st Quarter",
+      "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7490,6 +7491,18 @@
   ],
   "stories": [
     {
+      "story_id": "49696698",
+      "headline": "Swans win first AFL game after hotel scandal",
+      "summary": "Embattled and understrength Sydney have beaten North Melbourne by 53 points in the Swans' first game since the sexual assault allegations that have rocked the AFL club.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705651_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T08:29:53Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49696698/afl-round-24-news-report-sydney-swans-win-first-afl-game-hotel-scandal-north-melbourne-kangaroos"
+    },
+    {
       "story_id": "49699496",
       "headline": "White Sox and Mets play to decide series winner",
       "summary": "New York Mets (59-71, fifth in the NL East) vs. Chicago White Sox (67-62, first in the AL Central)",
@@ -7500,18 +7513,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "http://www.espn.com/mlb/preview?gameId=401816649"
-    },
-    {
-      "story_id": "49699258",
-      "headline": "'I'm a realist': Power brace for star midfielder's free agency call",
-      "summary": "Port Adelaide coach Josh Carr has all but conceded he will lose restricted free agent Zak Butters as he attempts to lift the club back into finals contention next year.",
-      "image": "https://a.espncdn.com/photo/2026/0616/r1673946_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T07:23:00Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49699258/afl-news-port-adelaide-power-brace-zak-butters-free-agency-call-josh-carr"
     },
     {
       "story_id": "49535348",
@@ -7622,16 +7623,28 @@
       "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
     },
     {
-      "story_id": "49696716",
-      "headline": "Sharks rally to beat Titans, stay in NRL top-four race",
-      "summary": "Cronulla have snapped a shocking two-game losing streak to revive their NRL top-four finals hopes with a potentially season-saving 30-22 win over the lowly Gold Coast.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705638_1296x729_16-9.jpg",
+      "story_id": "49696744",
+      "headline": "Tigers stun Roosters, blow NRL top-four race wide open",
+      "summary": "The Sydney Roosters have slipped on a Wests Tigers-shaped banana skin in a shock 25-24 loss that could prove fatal in their pursuit of the NRL's minor premiership.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705652_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49696716/nrl-round-25-news-report-sharks-rally-beat-titans-stay-nrl-top-four-race"
+      "link": "https://www.espn.com/nrl/story/_/id/49696744/nrl-round-25-news-report-tigers-stun-roosters-blow-nrl-top-four-race-wide-open"
+    },
+    {
+      "story_id": "49699258",
+      "headline": "'I'm a realist': Power brace for star midfielder's free agency call",
+      "summary": "Port Adelaide coach Josh Carr has all but conceded he will lose restricted free agent Zak Butters as he attempts to lift the club back into finals contention next year.",
+      "image": "https://a.espncdn.com/photo/2026/0616/r1673946_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T07:23:00Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49699258/afl-news-port-adelaide-power-brace-zak-butters-free-agency-call-josh-carr"
     },
     {
       "story_id": "49699493",
@@ -7644,18 +7657,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "http://www.espn.com/mlb/preview?gameId=401816653"
-    },
-    {
-      "story_id": "49696687",
-      "headline": "'Right path': Bombers eye new era after wooden spoon",
-      "summary": "Essendon's new coach will be tasked with picking up the pieces from the worst season in the AFL club's long history after a calamitous campaign ended with a 10-point defeat to Port Adelaide.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705643_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T06:38:39Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49696687/afl-round-24-news-report-georgiades-shines-port-adelaide-power-hand-essendon-bombers-wooden-spoon"
     },
     {
       "story_id": "49409520",
@@ -7766,19 +7767,52 @@
       "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
     },
     {
-      "story_id": "49634298",
-      "headline": "NRL Round 25: Teams, line-ups, tips, odds, everything you need to know for the weekend",
-      "summary": "The NRL season has hit the home straight with just three rounds remaining. Positions in the Top 4 and finals berths are still up for grabs with several teams needing to win this weekend.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0820/Int_260820_NRL_Highlight_Too_notches_100th_try_in_hat_trick_hero_performance_2026821_AUS_ONLY/Int_260820_NRL_Highlight_Too_notches_100th_try_in_hat_trick_hero_performance_2026821_AUS_ONLY.jpg",
+      "story_id": "49696716",
+      "headline": "Sharks rally to beat Titans, stay in NRL top-four race",
+      "summary": "Cronulla have snapped a shocking two-game losing streak to revive their NRL top-four finals hopes with a potentially season-saving 30-22 win over the lowly Gold Coast.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705638_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49634298/nrl-round-25-teams-line-ups-tips-odds-everything-need-know-weekend"
+      "link": "https://www.espn.com/nrl/story/_/id/49696716/nrl-round-25-news-report-sharks-rally-beat-titans-stay-nrl-top-four-race"
     }
   ],
   "shows": [
+    {
+      "id": "ww:tna-lockdown-8-23-26-august-23-2026",
+      "title": "TNA Lockdown 8/23/26 \u2013 August 23, 2026",
+      "date": "2026-08-23",
+      "replay_url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 51)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (Thunder) \u2014 Live SD (CH 52)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/2/1",
+          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 53)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/2/2",
+          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live SD (CH 54)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "source_url": "https://watch-wrestling.eu/tna-lockdown-8-23-26-august-23-2026/"
+    },
     {
       "id": "ww:12b3e69cebbfb956f6335a13e1ddcfd6",
       "title": "NOAH KAWASAKI SUMMER VOYAGE 2026 8/23/2026",
