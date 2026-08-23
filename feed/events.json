@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T19:16:36.712983+00:00",
+  "generated_utc": "2026-08-23T19:41:41.940573+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -1029,6 +1029,12 @@
       "replay_candidates": [
         {
           "url": "https://ok.ru/videoembed/15904255314604",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://ok.ru/videoembed/15905144441516",
           "label": "OK.ru",
           "part": false,
           "live": false
@@ -5619,7 +5625,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-23T17:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2922",
         "name": "Getafe",
@@ -5646,10 +5652,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Estadio Coliseum",
-      "detail": "84'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5855,23 +5860,23 @@
       "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "Shane van Gisbergen",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-        "logo_dark": null,
-        "aliases": [
-          "Shane van Gisbergen"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "espn:None",
         "name": "William Byron",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
           "William Byron"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Shane van Gisbergen",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+        "logo_dark": null,
+        "aliases": [
+          "Shane van Gisbergen"
         ],
         "color": null
       },
@@ -6108,9 +6113,9 @@
         "color": "0fa653"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "New Balance Arena",
-      "detail": "29'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6152,9 +6157,9 @@
         "color": "e4002b"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Stadio Olimpico Grande Torino",
-      "detail": "30'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6263,7 +6268,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-23T19:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:3751",
         "name": "Elche",
@@ -6289,9 +6294,10 @@
         "color": "990000"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Estadio Mart\u00ednez Valero",
-      "detail": "Sun, August 23rd at 3:30 PM EDT",
+      "detail": "9'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6794,7 +6800,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Journey Bank Ballpark",
       "detail": "",
       "game_number": 1,
@@ -7617,16 +7623,16 @@
   ],
   "stories": [
     {
-      "story_id": "49703912",
-      "headline": "Ogden: Liverpool right to protect Isak from last-minute penalty",
-      "summary": "Ogden: Liverpool right to protect Isak from last-minute penalty",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0823/dm_260823_COM_SOC_Analysis_Ogden_Liverpool_right_to_protect_Isak_from_last_minute_penalty_20260823_GLOBAL/dm_260823_COM_SOC_Analysis_Ogden_Liverpool_right_to_protect_Isak_from_last_minute_penalty_20260823_GLOBAL.jpg",
-      "published_utc": "2026-08-23T18:55:28Z",
+      "story_id": "49703303",
+      "headline": "New season, same Liverpool: More work ahead to be Premier League contender again",
+      "summary": "Liverpool changed coaches after last season's poor showing, but the Reds' Premier League opener looked like more of the same.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705865_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T19:30:57Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "",
+      "byline": "Beth Lindop",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49703912/liverpool-right-protect-isak-last-minute-penalty"
+      "link": "https://www.espn.com/soccer/story/_/id/49703303/new-season-same-liverpool-more-work-ahead-premier-league-contender-again"
     },
     {
       "story_id": "49702673",
@@ -7641,6 +7647,18 @@
       "link": "https://www.espn.com/mlb/story/_/id/49702673/yankees-put-lhp-ryan-weathers-forearm-strain-15-day-il"
     },
     {
+      "story_id": "49679189",
+      "headline": "George Russell defends Mercedes' team orders: Title rival Kimi Antonelli 'deserved to finish ahead'",
+      "summary": "George Russell has said Mercedes was right to ask him to move over and let teammate and title rival Kimi Antonelli by at the Dutch Grand Prix even if it cost him ground in the championship.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705783_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T18:09:45Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49679189/dutch-grand-prix-george-russell-defends-mercedes-team-orders-title-rival-kimi-antonelli-deserved-finish-ahead-formula-1-zandvoort"
+    },
+    {
       "story_id": "49702970",
       "headline": "49ers activate star TE George Kittle from PUP list",
       "summary": "The 49ers have activated tight end George Kittle from the PUP list as he chases a return for Week 1 against the Rams.",
@@ -7651,18 +7669,6 @@
       "byline": "Nick Wagoner",
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/49702970/49ers-activate-star-te-george-kittle-pup-list"
-    },
-    {
-      "story_id": "49679187",
-      "headline": "Lewis Hamilton 'proud' of Ferrari despite dicey radio messages during Dutch GP",
-      "summary": "Lewis Hamilton has said Ferrari's mid-race dithering over strategy cost him a podium at the Dutch Grand Prix but said the team has made a clear step forward.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705790_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T17:08:32Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Nate Saunders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49679187/lewis-hamilton-proud-ferrari-dicey-radio-messages-dutch-grand-prix-formula-1-zandvoort"
     },
     {
       "story_id": "24067525",
@@ -7761,16 +7767,16 @@
       "link": "https://www.espn.com/nrl/story/_/id/49696744/nrl-round-25-news-report-tigers-stun-roosters-blow-nrl-top-four-race-wide-open"
     },
     {
-      "story_id": "49703753",
-      "headline": "Ogden questions whether Van Dijk should still be at Liverpool",
-      "summary": "Ogden questions whether Van Dijk should still be at Liverpool",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0823/dm_260823_COM_SOC_Analysis_Ogden_questions_whether_Van_Dijk_should_still_be_at_Liverpool_20260823_GLOBAL/dm_260823_COM_SOC_Analysis_Ogden_questions_whether_Van_Dijk_should_still_be_at_Liverpool_20260823_GLOBAL.jpg",
-      "published_utc": "2026-08-23T18:41:14Z",
+      "story_id": "49703912",
+      "headline": "Ogden: Liverpool right to protect Isak from last-minute penalty",
+      "summary": "Ogden: Liverpool right to protect Isak from last-minute penalty",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0823/dm_260823_COM_SOC_Analysis_Ogden_Liverpool_right_to_protect_Isak_from_last_minute_penalty_20260823_GLOBAL/dm_260823_COM_SOC_Analysis_Ogden_Liverpool_right_to_protect_Isak_from_last_minute_penalty_20260823_GLOBAL.jpg",
+      "published_utc": "2026-08-23T18:55:28Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49703753/ogden-questions-whether-van-dijk-at-liverpool"
+      "link": "https://www.espn.com/video/clip/_/id/49703912/liverpool-right-protect-isak-last-minute-penalty"
     },
     {
       "story_id": "49702925",
@@ -7785,6 +7791,18 @@
       "link": "https://www.espn.com/mlb/story/_/id/49702925/yankees-cody-bellinger-hamstring-back-missing-25"
     },
     {
+      "story_id": "49679187",
+      "headline": "Lewis Hamilton 'proud' of Ferrari despite dicey radio messages during Dutch GP",
+      "summary": "Lewis Hamilton has said Ferrari's mid-race dithering over strategy cost him a podium at the Dutch Grand Prix but said the team has made a clear step forward.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705790_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T17:08:32Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49679187/lewis-hamilton-proud-ferrari-dicey-radio-messages-dutch-grand-prix-formula-1-zandvoort"
+    },
+    {
       "story_id": "49702892",
       "headline": "Chargers place Tyler Biadasz on season-ending injured reserve",
       "summary": "The Chargers placed Tyler Biadasz on season-ending injured reserve after the center suffered damage to his ACL and additional injuries to his left knee.",
@@ -7795,18 +7813,6 @@
       "byline": "Kris Rhim",
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/49702892/chargers-place-tyler-biadasz-season-ending-injured-reserve"
-    },
-    {
-      "story_id": "49610384",
-      "headline": "Lando Norris wins thrilling Dutch Grand Prix to take back-to-back victories",
-      "summary": "Reigning world champion Lando Norris proved McLaren are back in the fight after claiming victory at the Dutch Grand Prix.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705786_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T16:55:51Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49610384/lando-norris-wins-thrilling-dutch-grand-prix-take-back-back-victories-formula-1-zandvoort"
     },
     {
       "story_id": "21807736",
@@ -9136,6 +9142,12 @@
       "replay_candidates": [
         {
           "url": "https://ok.ru/videoembed/15904255314604",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://ok.ru/videoembed/15905144441516",
           "label": "OK.ru",
           "part": false,
           "live": false
