@@ -129,6 +129,7 @@ from __future__ import annotations
 import json
 import re
 import ssl
+import urllib.parse
 import urllib.request
 from html import unescape
 from concurrent.futures import ThreadPoolExecutor
@@ -136,7 +137,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from .model import Event
+from .model import Event, Status
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128.0.0.0 Safari/537.36"
 
@@ -170,16 +171,22 @@ NFLV_MAX_PAGES = 4
 # codes and short club names overlap them ("Sharks v Storm" NRL could false-hit Currie Cup's
 # "Sharks v Stormers" on a shared date — an NRL-gated match cannot).
 R24_BASE = "https://rugby24.net"
-R24_MAX_PAGES = 4
+# 5 pages: the item window is 7 days now (weekly sports persist until their next edition), and
+# the mixed-code home feed runs ~6-10 entries/day across NRL / SL / Currie / NPC / AFL.
+R24_MAX_PAGES = 5
 
 # fullraces.com — fifth uCoz sibling (~2.6s TTFB), ok.ru iframes plus dailymotion alternates.
 # Sessions, not teams: a weekend carries RACE / Qualifying / practice entries and the fixture
 # side (ESPN racing) is ONE athlete-listed event per weekend, so the match key is
 # series + weekend window — see `_match_races` for why name matching is deliberately absent.
 # User's scope decision 2026-08-19: RACE REPLAYS ONLY (quali/practice/sprint entries are not
-# matched and not published as show items).
+# matched and not published as show items), extended 2026-08-22 to weekend COVERAGE posts
+# ("Paddock Uncut", "Drivers Press Conference") — neither a session nor a series, dropped at
+# the item filter.
 FR_BASE = "https://fullraces.com"
-FR_MAX_PAGES = 4
+# 5 pages for the 7-day item window: a race weekend posts ~10-20 entries (race + quali +
+# practice per series), so a week spans more pages than the old 5-day store window did.
+FR_MAX_PAGES = 5
 
 # watch-wrestling.eu — WordPress, not uCoz, and unlike every source above it needs **no entry-page
 # fetch at all**: the site publishes a documented embed API addressed by (category, date, post,
@@ -190,16 +197,46 @@ FR_MAX_PAGES = 4
 # the Main card; probed: sources 1/3/4 mount Main card / Early Prelims / Prelims respectively).
 WW_BASE = "https://watch-wrestling.eu"
 WW_EMBED = "https://dailywrestling.cc/embed"
-# slug -> (reversed API tag, accepted title prefixes). ufc-78 feeds the fixture-matched UFC
-# replays; the rest are weekly SHOWS (no fixture representation anywhere — published as
-# feed["shows"], not matched). Raw/SmackDown/NXT posts carry only the generic /wwe/ category
-# (measured on the Aug 17 Raw post), so that one walk is filtered by title prefix; SmackDown's
-# dedicated archive exists but one walk of /wwe/ covers all three shows with one fetch.
+# The chronological home listing (the user's pointer, 2026-08-22): every UFC/wrestling replay
+# post lives here newest-first — WWE, AEW (both shows), ROH, TNA, UFC, Contender Series — so
+# ONE walk covers the whole family and per-show category walks are retired. WordPress
+# pagination is /home-15/page/2/; the walk stops once a page's posts all predate the window.
+WW_HOME = WW_BASE + "/home-15/"
+# The old per-category walks, kept only as names for the embed tags they had verified:
+# "UFC" -> "cfu", "WWE" -> "eww". Tags are now derived per-post from the post's own
+# data-secondary-catname (below), which measured correct on every show kind probed.
 WW_UFC_CATEGORY = ("ufc-78", "cfu")
 WW_SHOW_CATEGORIES = {
     "wwe": ("eww", ("wwe raw", "wwe smackdown", "wwe nxt")),
     "dynamite": ("etimanydwea", ("aew dynamite",)),
 }
+
+# The option tree on a watch-wrestling post page (probed 2026-08-22, AEW Dynamite 8/19 and
+# seven other posts — every show kind carries the same shape):
+#
+#     <div class="src-name">VidQ FHD@50fps MyAEW</div>
+#     <div class="srccontainer">
+#       <button class="srcbtn" data-src="…scrambled…">Full Show</button>
+#     </div>
+#
+# Sections repeat down the page (VidQ FHD, VidQ SD, VidFrame FHD/SD, Dailymotion, OK.ru,
+# "Other Hosts" with one button per host, "Dailymotion (Live replay)"), and the set is UNIQUE
+# PER REPLAY — fewer, more, and never-seen-before hosts appear from post to post. The
+# scrambled data-src is the website's own click path and is deliberately NOT decoded: the
+# documented embed API addresses every option as select-post-{p}/{source}/{button}, where
+# source = the section's index AMONG MEDIA SECTIONS (the "Quick links!" section carries no
+# srcbtn and does not count — confirmed by the site's own "Source 1/2/3" labels on posts
+# that number their sections) and button = the button's index within its section. Every
+# address returns the same dailywrestling JS-shell family the app already plays.
+_WW_CAT = re.compile(r'data-secondary-catname="([^"]*)"')
+_WW_SELECT_POST = re.compile(r'data-select-post="(\d+)"')
+_WW_SRC_SPLIT = '<div class="src-name">'
+_WW_SECTION_LABEL = re.compile(r'^([^<]+)</div>')
+_WW_SRCBTN = re.compile(r'<button class="srcbtn"[^>]*>(.*?)</button>', re.S)
+_WW_BTN_TEXT = re.compile(r'<[^>]+>')
+# A multi-part button: "Part 1".."Part N" or "last part". Everything else (Full Show, host
+# names like "Abyss (HD)") is a single-file option.
+_WW_PART = re.compile(r'\bpart\b|last part', re.I)
 
 _MONTHS = {m: i + 1 for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july",
@@ -260,8 +297,8 @@ _ENTRY_LINK_TITLE = re.compile(
 )
 _ENTRY_POSTER = re.compile(r'<div class="poster">\s*<a href="[^"]+">\s*<img src="(?P<img>[^"]+)"')
 
-# The embed iframe on an mlblive entry page. Protocol-relative (`//ok.ru/...`) is normalised.
-_IFRAME = re.compile(r'<iframe[^>]*\ssrc="(?P<src>//[^"]+|https?://[^"]+)"', re.I)
+# The embed iframe forms live at `_OKRU_IFRAME`/`_DM_IFRAME` below, host-pinned — see the
+# comment there for why the generic first-iframe scan this file once used is gone.
 
 # basketball-video's ok.ru Watch button (protocol-relative; rugby24's variant appends
 # `?nochat=1&autoplay=1`). Deliberately host-pinned: the other servers (dailymotion, filemoon)
@@ -273,6 +310,15 @@ _BBV_OK = re.compile(r'href="(?P<src>//ok\.ru/videoembed/\d+(?:\?[^"]*)?)"')
 # rugby24 mounts an ad iframe (`bysesukior.com`) alongside the player and nothing orders them;
 # first-iframe-then-check would skip a live entry the day the ad loads first.
 _OKRU_IFRAME = re.compile(r'<iframe[^>]*\ssrc="(?P<src>(?:https?:)?//ok\.ru/videoembed/\d+(?:\?[^"]*)?)"')
+
+# Dailymotion alternates, both wired forms across the family (iframe, and basketball-video's
+# su-button). Host-pinned for the same reason as ok.ru above — the generic iframe scan would
+# admit ad frames. Player-proven: the watch-wrestling shells mount dailymotion iframes and the
+# app plays them, so a dm rung is a real fallback, not a hopeful one.
+_DM_IFRAME = re.compile(
+    r'<iframe[^>]*\ssrc="(?P<src>(?:https?:)?//(?:www\.)?dailymotion\.com/embed/video/[^"]+)"')
+_DM_LINK = re.compile(
+    r'href="(?P<src>(?:https?:)?//(?:www\.)?dailymotion\.com/video/[^"]+)"')
 
 # The home page's season-hub links, newest first: <a href="https://.../2025-26">2025-26 NBA Season</a>
 _BBV_SEASON_LINK = re.compile(r'href="https?://(?:www\.)?basketball-video\.com/(20\d{2}-\d{2})"')
@@ -354,9 +400,19 @@ def _parse_r24_title(title: str) -> dict | None:
 def _parse_fr_title(title: str) -> dict | None:
     """
     fullraces: extract `{series, session, date}` — there are no teams to extract. The first
-    dash-segment is either a session word ("RACE", "Qualifying" — then the series lives in the
-    second) or the series-led event name itself ("NASCAR Cook Out 400"). A date range (WRC)
-    yields its last day. NBSP entities in titles are normalised first.
+    dash-segment is a session word ("RACE", "Sprint Qualifying" — then the series lives in the
+    second segment) or the series-led event name itself ("NASCAR Cook Out 400", which carries
+    the series inline). A date range (WRC) yields its last day. NBSP entities in titles are
+    normalised first.
+
+    The session is found by WORD-SCAN of the first segment, not exact equality: "Sprint
+    Qualifying" is as much a non-race as "Qualifying", but an exact rule parsed it as
+    session-less — the bucket meant for series-led races, which are always the race itself.
+    Weekend coverage posts ("Paddock Uncut", "Drivers Press Conference") contain neither a
+    session word nor a series name and parse to `{series: "", session: ""}`; the item filter
+    drops that pair (see `_replay_items`). Series detection scans the first segment, then the
+    second only when the entry is session-led — a coverage post's series ("Paddock Uncut -
+    F1 2026 - ...") must NOT promote it to a series-led race.
     """
     title = title.replace("\xa0", " ").replace("&#39;", "'")
     segs = [s.strip() for s in title.split(" - ")]
@@ -369,15 +425,16 @@ def _parse_fr_title(title: str) -> dict | None:
     first = segs[0].lower().strip(" .")
     # "3rd Practice" -> "practice": F1's numbered sessions carry an ordinal prefix.
     sess_word = re.sub(r"\d+(st|nd|rd|th)\s+", "", first)
-    session = ""
-    series_seg = segs[0]
-    if sess_word in _FR_SESSION_WORDS:
-        session = sess_word
-        series_seg = segs[1] if len(segs) > 1 else ""
+    session = next((w for w in sess_word.replace(":", " ").split()
+                    if w in _FR_SESSION_WORDS), "")
     series = ""
-    for key, cid in _FR_SERIES.items():
-        if key in series_seg.lower():
-            series = cid
+    series_segs = [segs[0]] + ([segs[1]] if session and len(segs) > 1 else [])
+    for seg in series_segs:
+        for key, cid in _FR_SERIES.items():
+            if key in seg.lower():
+                series = cid
+                break
+        if series:
             break
     return {
         "away": "", "home": "", "game": 1,
@@ -518,123 +575,237 @@ def _ww_date(title: str) -> str:
     return ""
 
 
-def _ww_embed_url(tag: str, date: str) -> str:
-    """The documented embed API address for a category+date. Post/source/button 1/1 = the
-    featured Full Show (see WW_BASE comment)."""
+def _ww_embed_url(tag: str, date: str, post: int, source: int, button: int) -> str:
+    """One option's documented embed API address."""
     y, m, d = date.split("-")
-    return f"{WW_EMBED}/{tag}/{m}-{d}-{y}/select-post-1/1/1"
+    return f"{WW_EMBED}/{tag}/{m}-{d}-{y}/select-post-{post}/{source}/{button}"
 
 
-def _ww_walk(slug: str, tag: str, min_date: str, prefixes: tuple[str, ...] = ()) -> list[dict]:
-    """One watch-wrestling category page. No entry fetches, no embed parsing — the API is
-    addressed by category+date, so the listing is the entire scrape. Undated posts (The
-    Ultimate Fighter episode numbers) are skipped: nothing anchors their freshness or identity.
-    `prefixes` filters a mixed category (/wwe/ holds every WWE show) by title prefix."""
-    try:
-        html = _get(f"{WW_BASE}/{slug}/")
-    except Exception:
+def _ww_post_options(html: str, date: str) -> list[dict]:
+    """
+    Parse one post page's option tree into ranked candidates.
+
+    The ranking encodes how a person picks: the FULL SHOW single file first (the site's own
+    featured order — VidQ/ VidFrame/ OK.ru "Full Show" buttons), then multi-part fallbacks,
+    then "Live replay" sections last (a broadcast capture, not the finished upload). Host
+    names are never special-cased — a never-seen-before host rides through on the same
+    (source, button) address, and the app's door+latch decide if it plays.
+    """
+    cat = _WW_CAT.search(html)
+    if not cat:
         return []
-    out: list[dict] = []
-    seen: set[str] = set()
-    for m in _WW_ENTRY.finditer(html):
-        href = m.group("href")
-        if href in seen:
-            continue
-        seen.add(href)
-        title = unescape(m.group("title")).strip()
-        if prefixes and not title.lower().startswith(prefixes):
-            continue
-        date = _ww_date(title)
-        if not date:
-            continue
-        if min_date and date < min_date:
+    tag = cat.group(1).lower()[::-1].replace(" ", "")
+    post_m = _WW_SELECT_POST.search(html)
+    post = int(post_m.group(1)) if post_m else 1
+
+    singles: list[dict] = []
+    parts: list[dict] = []
+    live: list[dict] = []
+    source = 0
+    for chunk in html.split(_WW_SRC_SPLIT)[1:]:
+        label_m = _WW_SECTION_LABEL.search(chunk)
+        buttons = [unescape(_WW_BTN_TEXT.sub("", b)).strip()
+                   for b in _WW_SRCBTN.findall(chunk)]
+        if not label_m or not buttons:
+            continue  # "Quick links!" and other non-media sections carry no srcbtn
+        source += 1  # the API counts media sections only — see the regex docs above
+        section = unescape(label_m.group(1)).strip()
+        is_live = "live replay" in section.lower()
+        for button, blabel in enumerate(buttons, 1):
+            cand = {
+                "url": _ww_embed_url(tag, date, post, source, button),
+                "label": (section + " — " + blabel).strip()[:80],
+                "part": bool(_WW_PART.search(blabel)),
+                "live": is_live,
+            }
+            (live if is_live else parts if cand["part"] else singles).append(cand)
+    return singles + parts + live
+
+
+# home-15 pagination, probed 2026-08-22: the pretty `/home-15/page/2/` and `?paged=2` forms both
+# silently serve page 1 (same posts, `data-paged` stuck at 2) — the theme pages exclusively via
+# `#load-more-posts`, which POSTs `action=_load_more_posts&paged=N&search=&catid=` to
+# admin-ajax.php (handler: generatepress menu.min.js `gpLoadMorePosts`). Plain urllib POST works;
+# `catid` may be empty. Each page carries 12 posts, newest first.
+_WW_AJAX = WW_BASE + "/wp-admin/admin-ajax.php"
+_WW_WALK_DAYS = 7      # one walk serves every caller; callers filter to their own window
+_WW_MAX_PAGES = 8      # ~12 posts/page; hard stop so a parsing regression cannot crawl forever
+_WW_HOME_CACHE: list[dict] | None = None  # per-process: apply() and build.py both walk
+
+
+def _ww_ajax_page(paged: int) -> str:
+    body = urllib.parse.urlencode(
+        {"action": "_load_more_posts", "paged": str(paged), "search": "", "catid": ""}
+    ).encode()
+    req = urllib.request.Request(
+        _WW_AJAX, data=body,
+        headers={"User-Agent": UA, "Referer": WW_HOME,
+                 "Content-Type": "application/x-www-form-urlencoded"})
+    with urllib.request.urlopen(req, timeout=90, context=ssl.create_default_context()) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def _ww_home(min_date: str) -> list[dict]:
+    """
+    Walk home-15 once per process, fetch each dated post's page, and parse its option tree.
+    Both consumers — UFC cards for the matcher and everything else for the shows array — are
+    category splits of this one walk. The walk runs at a fixed 7-day boundary (wider than any
+    caller's window) so caller order cannot shrink what a later caller sees.
+
+    Posts whose titles carry no date (TUF "S34E11", Contender "Season 10, Week 2") are skipped,
+    same standing decision as before: nothing anchors their freshness. A post that parses to no
+    candidates is dropped too — an option-less post is not playable through the ladder.
+    """
+    global _WW_HOME_CACHE
+    if _WW_HOME_CACHE is None:
+        floor = (datetime.now(timezone.utc) - timedelta(days=_WW_WALK_DAYS)).strftime("%Y-%m-%d")
+        posts: list[dict] = []
+        seen: set[str] = set()
+        paged = 1
+        while paged <= _WW_MAX_PAGES:
+            try:
+                html = _get(WW_HOME) if paged == 1 else _ww_ajax_page(paged)
+            except Exception:
+                break  # a listing page that will not load: ship what the earlier pages held
+            page_dates: list[str] = []
+            for m in _WW_ENTRY.finditer(html):
+                href = m.group("href")
+                if href in seen:
+                    continue
+                seen.add(href)
+                title = unescape(m.group("title")).strip()
+                date = _ww_date(title)
+                if not date:
+                    continue
+                page_dates.append(date)
+                if date < floor:
+                    continue
+                posts.append({
+                    "replay_id": "ww:" + href.rstrip("/").rsplit("/", 1)[-1][:50],
+                    "title": title,
+                    "date": date,
+                    "page_url": href,
+                })
+            # newest-first: when a page's NEWEST dated post predates the window, the walk is done
+            if not page_dates or page_dates[0] < floor:
+                break
+            paged += 1
+
+        def load(p: dict) -> None:
+            try:
+                html = _get(p["page_url"])
+            except Exception:
+                return
+            cat = _WW_CAT.search(html)
+            p["category"] = unescape(cat.group(1)).strip() if cat else ""
+            p["candidates"] = _ww_post_options(html, p["date"])
+
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            list(pool.map(load, posts))
+        _WW_HOME_CACHE = [p for p in posts if p.get("candidates")]
+    return [p for p in _WW_HOME_CACHE if p["date"] >= min_date]
+
+
+def collect_ww(min_date: str) -> list[dict]:
+    """watch-wrestling UFC cards, ready for the matcher: one post per card, dated, carrying the
+    full ranked option ladder. `embed_url` stays the first ranked option — the matcher and the
+    persistent store speak it, and it is the ladder's rung 0."""
+    out = []
+    for p in _ww_home(min_date):
+        if p["category"].upper() != "UFC":
             continue
         out.append({
-            "replay_id": "ww:" + href.rstrip("/").rsplit("/", 1)[-1][:50],
-            "title": title,
-            "date": date,
-            "url": href,
-            "embed_url": _ww_embed_url(tag, date),
+            "replay_id": p["replay_id"],
+            "title": p["title"],
+            "date": p["date"],
+            "page_url": p["page_url"],
+            "embed_url": p["candidates"][0]["url"],
+            "candidates": p["candidates"],
         })
     return out
 
 
-def collect_ww(min_date: str) -> list[dict]:
-    """watch-wrestling UFC cards, ready for the matcher. One post per card, dated."""
-    slug, tag = WW_UFC_CATEGORY
-    return _ww_walk(slug, tag, min_date)
-
-
 def collect_ww_shows(min_date: str) -> list[dict]:
-    """Weekly wrestling shows (Raw, SmackDown, Dynamite, ...) as first-class replay items.
-
-    These have NO fixture representation — no feed event will ever carry them — so they are not
-    matched; they are the feed's `shows` array, each row entry already playable via `replay_url`.
-    Sorted newest first; the window is the caller's choice (a weekly cadence wants ~6 days so
-    exactly one episode per show is live at a time).
     """
-    out: list[dict] = []
-    for slug, (tag, prefixes) in WW_SHOW_CATEGORIES.items():
-        for p in _ww_walk(slug, tag, min_date, prefixes):
-            out.append({
-                "id": p["replay_id"],
-                "title": p["title"],
-                "date": p["date"],
-                "replay_url": p["embed_url"],
-                "source_url": p["url"],
-            })
+    Every dated watch-wrestling post that is NOT a UFC card — weekly shows (Raw, SmackDown,
+    Dynamite, Collision, NXT) and the specials the home walk surfaces with no extra code (ROH,
+    TNA, NJPW, GCW, TJPW) — as first-class replay items, each carrying its own option ladder.
+
+    These have no fixture representation — no feed event will ever carry them — so they are not
+    matched; they are the feed's `shows` array. Sorted newest first; the window is the caller's
+    (a weekly cadence wants ~6 days so exactly one episode per show is live at a time).
+    """
+    out = []
+    for p in _ww_home(min_date):
+        if p["category"].upper() == "UFC":
+            continue  # UFC cards surface through event matching, not the shows array
+        out.append({
+            "id": p["replay_id"],
+            "title": p["title"],
+            "date": p["date"],
+            "replay_url": p["candidates"][0]["url"],
+            "replay_candidates": p["candidates"],
+            "source_url": p["page_url"],
+        })
     out.sort(key=lambda s: s["date"], reverse=True)
     return out
 
 
+def _ucandidates(html: str) -> list[dict]:
+    """
+    A uCoz entry page's playable servers as a ranked ladder: ok.ru first (the host the app's
+    tap pump is calibrated for), dailymotion alternates behind it. Both are host-pinned at
+    their regexes — a generic iframe scan would ship the ad frames that ride entry pages
+    unordered (rugby24's `bysesukior.com`).
+
+    Query strings (rugby24's `?nochat=1&autoplay=1`) are dropped: the bare videoembed URL is
+    the canonical form every other source ships and the one the app's tap pump is calibrated
+    for — an operator's autoplay flag is not ours to honour.
+    """
+    urls: list[str] = []
+    for rx in (_OKRU_IFRAME, _BBV_OK, _DM_IFRAME, _DM_LINK):
+        for m in rx.finditer(html):
+            src = m.group("src")
+            if src.startswith("//"):
+                src = "https:" + src
+            src = src.split("?")[0]
+            if src not in urls:
+                urls.append(src)
+    return [{"url": u, "label": "OK.ru" if "ok.ru" in u else "Dailymotion",
+             "part": False, "live": False} for u in urls]
+
+
 def _embed(entry: dict) -> dict | None:
     """
-    Fetch one mlblive entry page and extract its embeddable player URL.
+    Fetch one mlblive entry page and extract its option ladder. Same extraction as
+    `_okru_embed` (kept as its own name — the mlblive walk and its docs speak it).
 
-    Returns `{**entry, embed_url}` or None (no entry page, or no embed yet — a game posted before
-    its video finished uploading has no iframe, and must not enter the store half-alive).
+    None for no entry page or no embed yet — a game posted before its video finished uploading
+    has no iframe, and must not enter the store half-alive.
     """
-    try:
-        html = _get(entry["page_url"])
-    except Exception:
-        return None
-    m = _IFRAME.search(html)
-    if not m:
-        return None
-    src = m.group("src")
-    if src.startswith("//"):
-        src = "https:" + src
-    # The spam-redirect finding means only embed hosts are ever handed to a WebView. Anything that
-    # is not a known player host is recorded but flagged, rather than silently shipped.
-    return {**entry, "embed_url": src}
+    return _okru_embed(entry)
 
 
 def _okru_embed(entry: dict) -> dict | None:
     """
-    Fetch one entry page and take its ok.ru server, whatever form the site wires it in.
+    Fetch one entry page and take its option ladder: ok.ru first, whatever form the site wires
+    it in (basketball-video's Watch button, nfl-video/mlblive's iframe), dailymotion alternates
+    behind it.
 
-    Two wired forms are observed across the family: basketball-video's Watch button
-    (`<a class="su-button" href="//ok.ru/videoembed/...">`) and nfl-video/mlblive's iframe. None
-    for every other outcome — including the placeholder shells (Watch buttons pointed at stale
-    TV-schedule sites) the operators post in place of real embeds; a shell must not enter the
-    store half-alive.
+    None for every other outcome — including the placeholder shells (Watch buttons pointed at
+    stale TV-schedule sites) the operators post in place of real embeds. A shell must not enter
+    the store half-alive: an entry with no ok.ru at all stays out, even if a dailymotion
+    alternate happens to be wired — dm ships as a rung on a known-good entry, never as the
+    reason to admit one.
     """
     try:
         html = _get(entry["page_url"])
     except Exception:
         return None
-    m = _BBV_OK.search(html) or _OKRU_IFRAME.search(html)
-    if not m:
+    cands = _ucandidates(html)
+    if not any("ok.ru" in c["url"] for c in cands):
         return None
-    src = m.group("src")
-    if src.startswith("//"):
-        src = "https:" + src
-    if "//ok.ru/" not in src and ".ok.ru/" not in src:
-        return None
-    # Query strings (rugby24's `?nochat=1&autoplay=1`) are dropped: the bare videoembed URL is
-    # the canonical form every other source ships and the one the app's tap pump is calibrated
-    # for — an operator's autoplay flag is not ours to honour.
-    return {**entry, "embed_url": src.split("?")[0]}
+    return {**entry, "embed_url": cands[0]["url"], "candidates": cands}
 
 
 def collect(min_date: str) -> list[dict]:
@@ -691,6 +862,14 @@ def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
+def _cands(r: dict) -> list[dict]:
+    """A replay row's option ladder. The `or` fallback re-wraps a bare `embed_url` — the
+    persistent store carries matches from runs that predate the candidates field, and those
+    must keep playing as one-rung ladders."""
+    return r.get("candidates") or [
+        {"url": r["embed_url"], "label": "Replay", "part": False, "live": False}]
+
+
 def _eastern_date(start_utc: str) -> str:
     """The US/Eastern calendar date a game was played on — the date the replay site writes."""
     try:
@@ -736,6 +915,7 @@ def _match_league(events: list[Event], replays: list[dict], game_guard: bool,
                 continue
             found[e.event_id] = {
                 "embed_url": r["embed_url"],
+                "candidates": _cands(r),
                 "poster": r.get("poster", ""),
                 "title": r["title"],
                 "replay_id": r["replay_id"],
@@ -764,6 +944,7 @@ def _match_cards(events: list[Event], replays: list[dict]) -> dict[str, dict]:
                 continue
             found[e.event_id] = {
                 "embed_url": r["embed_url"],
+                "candidates": _cands(r),
                 "poster": r.get("poster", ""),
                 "title": r["title"],
                 "replay_id": r["replay_id"],
@@ -808,6 +989,7 @@ def _match_races(events: list[Event], replays: list[dict]) -> dict[str, dict]:
                 continue
             found[e.event_id] = {
                 "embed_url": r["embed_url"],
+                "candidates": _cands(r),
                 "poster": r.get("poster", ""),
                 "title": r["title"],
                 "replay_id": r["replay_id"],
@@ -851,14 +1033,28 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     return found
 
 
-def apply(events: list[Event], today: str, store_path: Path, backfill_days: int = 5) -> int:
+def apply(events: list[Event], today: str, store_path: Path, backfill_days: int = 7) -> tuple[int, list[dict]]:
     """
-    Scrape, match, merge into the persistent store, and stamp replay fields onto events.
+    Scrape, match, merge into the persistent store, stamp replay fields onto events, and assemble
+    the feed's `replays` array — replay items that exist by THEIR OWN DATE, not their fixture's.
 
-    Accumulating store, same reason as highlights: a replay that has scrolled onto page 3 of the
-    category should not fall out of the feed while the fixture is still inside the backfill window.
-    The window here is wider than the fixture backfill because a full game uploads hours after the
-    final out — a 3-day-old fixture regularly gets its replay only on day 3 or 4.
+    Returns `(stamped_event_count, replay_items)`.
+
+    ## The two rules this function enforces (user directive, 2026-08-22)
+
+    **Aired only.** SofaScore's `final` is the only finished signal the feed trusts, so a replay
+    is stamped onto an event — and a matched item is published — only when the fixture has
+    actually finished. A replay post that exists while the card is still live is a broadcast
+    capture, not a replay; it enters when the fixture flips final (the feed rebuilds every ~5
+    minutes, so that flip is itself near-real-time).
+
+    **A replay outlives its fixture.** A replay card used to vanish the moment its fixture left
+    the 3-day fixture window — a Sunday race was unwatchable by Wednesday, mid-week, while the
+    replay itself was hours old. Items in the `replays` array carry their own date and their own
+    ladder, exactly like `shows`, so they persist by the fan's timeline instead: daily sports
+    (baseball, basketball, NFL) hold ~4 days, weekly ones (rugby rounds, race weekends, fight
+    cards) hold ~7 — the latest edition of a weekly thing stays watchable until the next one
+    replaces it. Nothing older than 7 days is published.
     """
     min_date = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=backfill_days)).strftime("%Y-%m-%d")
     store: dict[str, dict] = {}
@@ -871,10 +1067,18 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
     # A total scrape failure (site down, DNS, Cloudflare challenge) must degrade to "no new
     # replays", never an empty feed: each source is guarded separately (one site being down must
     # not silence the others) and the store still carries everything matched on previous runs.
+    #
+    # Per-source windows, not one global one: the fan's timeline differs by cadence. Daily sports
+    # are watched same-day or next-day (4 days covers the fixture window plus upload lag); weekly
+    # sports are watched until the next edition (7 days). A single 7-day window for all would
+    # mean ~100 MLB entry fetches per build on a 5-minute loop for cards nobody wants on day 5.
+    daily = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=4)).strftime("%Y-%m-%d")
+    weekly = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
     fresh_replays: list[dict] = []
-    for collector in (collect, collect_bbv, collect_nfl, collect_ww, collect_r24, collect_fr):
+    for collector, floor in ((collect, daily), (collect_bbv, daily), (collect_nfl, daily),
+                             (collect_ww, weekly), (collect_r24, weekly), (collect_fr, weekly)):
         try:
-            fresh_replays.extend(collector(min_date))
+            fresh_replays.extend(collector(floor))
         except Exception:
             continue
     fresh = match(events, fresh_replays)
@@ -890,8 +1094,89 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
     hit = 0
     for e in events:
         r = store.get(e.event_id)
-        if r:
+        # FINAL only — the aired rule. SofaScore stays the sole authority on finished (the same
+        # rule as the live intersection: never infer from the clock, never borrow from the site).
+        if r and e.status is Status.FINAL:
             e.replay_url = r["embed_url"]
+            e.replay_candidates = _cands(r)
             e.replay_poster = r.get("poster") or ""
             hit += 1
-    return hit
+    return hit, _replay_items(fresh_replays, fresh, events, min_date)
+
+
+# A source's item defaults, used when no fixture enriches the entry. `competition` is the card's
+# kicker on screen — the site's own comp segment when it parses one (rugby24 always does), the
+# league name otherwise.
+_ITEM_DEFAULTS = {
+    "mlblive": ("baseball", "MLB"),
+    "bbv": ("basketball", "Basketball"),
+    "nflv": ("american-football", "NFL"),
+    "fr": ("motor-sports", "Motorsports"),
+    "ww": ("mma", "UFC"),
+}
+
+
+def _replay_items(fresh_replays: list[dict], fresh_matches: dict[str, dict],
+                  events: list[Event], min_date: str) -> list[dict]:
+    """
+    The feed's `replays` array: every source's recent, AIRED entries as self-dating items —
+    `{id, title, date, sport, competition, replay_url, replay_candidates, poster, source_url}` —
+    the same shape contract as `shows`, so a card never depends on a fixture existing.
+
+    Aired, for an entry WITH a matched fixture, means the fixture is FINAL (a live capture under
+    an in-progress card waits for the flip). For an entry with no fixture — union rugby, F2/F3,
+    anything the fixture sources do not carry — the replay site posting it is itself the aired
+    signal, with one guard: a watch-wrestling card whose every rung is a live-replay capture is
+    still in progress and stays out.
+
+    `sport` is the SOURCE's, never the fixture's: rugby24's pool is one feed of both codes plus
+    AFL, and taking sport from whichever entries happen to match fixtures split that one pool
+    into two buckets ("rugby-league" vs "rugby") — two shares of the app's per-sport row cap for
+    what is one sport family, and a mix that double-counts. The source defaults are already the
+    fixture taxonomy's names for every matched league, so enrichment would add nothing anyway.
+
+    fullraces items are RACE sessions only, the same standing scope decision (2026-08-19) the
+    matcher enforces: a fan who missed the weekend watches the race, not Tuesday's qualifying.
+    """
+    ev_by_id = {e.event_id: e for e in events}
+    by_replay_id = {v["replay_id"]: ev_by_id[k] for k, v in fresh_matches.items() if k in ev_by_id}
+    items: list[dict] = []
+    for r in fresh_replays:
+        if r["date"] < min_date:
+            continue
+        prefix = r["replay_id"].split(":", 1)[0]
+        sport, comp = _ITEM_DEFAULTS.get(prefix, ("", ""))
+        if prefix == "r24":  # the site's own comp segment separates AFL from both rugby codes
+            c = _norm(r.get("comp", ""))
+            if c == "afl":
+                sport, comp = "australian-football", "AFL"
+            else:
+                sport, comp = "rugby", r.get("comp", "") or "Rugby"
+        elif prefix == "fr":
+            if r.get("session") not in ("", "race"):
+                continue  # qualifying/practice/sprint: matcher scope is races, items match it
+            if not r.get("session") and not r.get("series"):
+                continue  # neither session-led nor series-led: weekend coverage, not a race
+            if r.get("series"):
+                comp = r["series"].upper()
+        ev = by_replay_id.get(r["replay_id"])
+        if ev is not None:
+            if ev.status is not Status.FINAL:
+                continue  # matched but not aired yet — a broadcast capture, not a replay
+        elif prefix == "ww":
+            if all(c.get("live") for c in r.get("candidates", []) if c.get("url")):
+                continue  # every rung is a live capture: the card is still in progress
+        items.append({
+            "id": r["replay_id"],
+            # uCoz listing titles carry HTML entities raw ("Hawke&#39;s Bay"); the feed ships text.
+            "title": unescape(r["title"]),
+            "date": r["date"],
+            "sport": sport,
+            "competition": comp,
+            "replay_url": r["embed_url"],
+            "replay_candidates": _cands(r),
+            "poster": r.get("poster", ""),
+            "source_url": r.get("page_url", ""),
+        })
+    items.sort(key=lambda i: i["date"], reverse=True)
+    return items

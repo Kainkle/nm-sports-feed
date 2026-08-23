@@ -198,8 +198,10 @@ def main() -> int:
 
     # Replays after highlights for the same reason: the match needs the whole fixture set, and a
     # source failure here must not be able to take the feed down (apply catches its own scrapes).
-    replay_hits = replays.apply(events, today, out / "replays.json")
-    print(f"  replays matched: {replay_hits}")
+    # The second return value is the feed's `replays` array — replay items that persist by their
+    # own date rather than their fixture's window (see sportsdata/replays.py `apply`).
+    replay_hits, replay_items = replays.apply(events, today, out / "replays.json")
+    print(f"  replays matched: {replay_hits}, items: {len(replay_items)}")
 
     # The live intersection — SofaScore's live list checked against what mut.st actually carries
     # (see sportsdata/mut.py). This is what keeps a game with no streams out of the app's live
@@ -235,6 +237,7 @@ def main() -> int:
         "events": [e.to_json() for e in events],
         "stories": [s.to_json() for s in stories],
         "shows": shows,
+        "replays": replay_items,
     }
     (out / "events.json").write_text(json.dumps(feed, indent=2))
 
@@ -243,6 +246,15 @@ def main() -> int:
     # no games live, or games live that mut does not carry. Only this pair tells them apart later.
     if intersection is not None:
         cov["live_intersection"] = {"live_events": intersection[1], "carried": intersection[0]}
+    # Per-sport item counts: "the row has no rugby" is ambiguous on screen — no rugby replay
+    # posted this week, or the source broke? Only this says which.
+    cov["replay_items"] = {
+        "total": len(replay_items),
+        "by_sport": {
+            s: sum(1 for i in replay_items if i["sport"] == s)
+            for s in sorted({i["sport"] for i in replay_items})
+        },
+    }
     # Recorded in the coverage report for the same reason fixtures are: "no stories" and "the news source
     # broke" look identical on screen, and only a count distinguishes them after the fact.
     cov["stories"] = {
