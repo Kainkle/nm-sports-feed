@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T14:45:27.356303+00:00",
+  "generated_utc": "2026-08-23T15:04:44.467627+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -5293,7 +5293,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-23T13:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:331",
         "name": "Brighton & Hove Albion",
@@ -5320,10 +5320,9 @@
         "color": "660e36"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "American Express Stadium",
-      "detail": "84'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5337,7 +5336,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-23T13:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:382",
         "name": "Manchester City",
@@ -5365,10 +5364,9 @@
         "color": "f42727"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Etihad Stadium",
-      "detail": "84'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5382,7 +5380,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-23T15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:1068",
         "name": "Atl\u00e9tico Madrid",
@@ -5409,9 +5407,10 @@
         "color": "ffff00"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Riyadh Air Metropolitano",
-      "detail": "Sun, August 23rd at 11:00 AM EDT",
+      "detail": "2'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5934,7 +5933,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Daikin Park",
       "detail": "",
       "game_number": 1,
@@ -7576,28 +7575,28 @@
   ],
   "stories": [
     {
-      "story_id": "40699880",
-      "headline": "Fantasy football buzz: What you need to know from Saturday's games",
-      "summary": "Adam Rank provides the biggest fantasy takeaways from Saturday's NFL preseason games.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705716_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T14:39:32Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "ESPN Fantasy",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
-    },
-    {
       "story_id": "49661948",
-      "headline": "European soccer live updates: Man City begin season vs. Bournemouth; Villa face Brighton",
+      "headline": "European soccer live updates: Man City beat Bournemouth; Liverpool to face Newcastle",
       "summary": "We have more matches this Sunday with Man City, Liverpool, Barcelona and more in action.",
       "image": "https://a.espncdn.com/photo/2026/0823/r1705691_2_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T14:38:23Z",
+      "published_utc": "2026-08-23T14:58:05Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "ESPN",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49661948/european-soccer-live-updates-manchester-city-liverpool-barcelona-ac-milan-juventus"
+    },
+    {
+      "story_id": "40699880",
+      "headline": "Fantasy football buzz: What you need to know from Saturday's games",
+      "summary": "Adam Rank provides the biggest fantasy takeaways from Saturday's NFL preseason games.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705716_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T14:49:56Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "ESPN Fantasy",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis"
     },
     {
       "story_id": "49409520",
@@ -7720,18 +7719,6 @@
       "link": "https://www.espn.com/nrl/story/_/id/49696744/nrl-round-25-news-report-tigers-stun-roosters-blow-nrl-top-four-race-wide-open"
     },
     {
-      "story_id": "49694778",
-      "headline": "Patriots' Will Campbell leaning into advice from top linemen",
-      "summary": "After an up and down rookie season, Campbell focused this offseason on regaining strength lost due to 2025 injury. And he's leaning on his peers for advice.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705460_608x342_16-9.jpg",
-      "published_utc": "2026-08-23T12:16:45Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Mike Reiss",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49694778/new-england-patriots-campbell-left-tackle-depth-chart"
-    },
-    {
       "story_id": "49699929",
       "headline": "Transfer rumors, news: Nottingham Forest bid \u00a370M for Igor Thiago",
       "summary": "Nottingham Forest want Brazil striker Igor Thiago, and Barcelona continue their search for a No. 9. Transfer Talk has the latest.",
@@ -7742,6 +7729,18 @@
       "byline": "ESPN",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49699929/transfer-rumors-news-nottingham-forest-bid-70m-igor-thiago"
+    },
+    {
+      "story_id": "49694778",
+      "headline": "Patriots' Will Campbell leaning into advice from top linemen",
+      "summary": "After an up and down rookie season, Campbell focused this offseason on regaining strength lost due to 2025 injury. And he's leaning on his peers for advice.",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705460_608x342_16-9.jpg",
+      "published_utc": "2026-08-23T12:16:45Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Mike Reiss",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49694778/new-england-patriots-campbell-left-tackle-depth-chart"
     },
     {
       "story_id": "49610383",
