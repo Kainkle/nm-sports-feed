@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T03:43:48.881020+00:00",
+  "generated_utc": "2026-08-23T04:24:48.741703+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -2018,7 +2018,7 @@
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "G7Ok_YtNs1w",
       "replay_url": "https://ok.ru/videoembed/15888749103788",
       "replay_candidates": [
         {
@@ -3474,43 +3474,13 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 24)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 25)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 26)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/4",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live Backup",
+          "label": "VidQ FHD (Main card) \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 28)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Mstream (Alpha) \u2014 Live HD (CH 29)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Mstream (Alpha) \u2014 Live SD (CH 30)",
+          "label": "VidFrame FHD (Main card) \u2014 Full Show",
           "part": false,
           "live": false
         },
@@ -3540,19 +3510,37 @@
         },
         {
           "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/7/1",
+          "label": "OK.ru FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/8/1",
           "label": "Other Hosts \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/7/2",
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/8/2",
           "label": "Other Hosts \u2014 StreamW (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/7/3",
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/8/3",
           "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/9/1",
+          "label": "Other Hosts (Main card) \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/9/2",
+          "label": "Other Hosts (Main card) \u2014 VOE.sx (SD)",
           "part": false,
           "live": false
         }
@@ -4819,9 +4807,9 @@
         "color": "002a5c"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "State Farm Stadium",
-      "detail": "Halftime",
+      "detail": "11:23 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -4836,7 +4824,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:11",
         "name": "Phoenix Mercury",
@@ -4866,10 +4854,9 @@
         "color": "e31837"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mortgage Matchup Center",
-      "detail": "4:56 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4909,9 +4896,9 @@
         "color": "2498a5"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Marvel Stadium",
-      "detail": "Halftime",
+      "detail": "1:54 - 4th Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -4952,9 +4939,9 @@
         "color": "2c5234"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "BMO Stadium",
-      "detail": "HT",
+      "detail": "84'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -4997,9 +4984,9 @@
         "color": "8a2432"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "Snapdragon Stadium",
-      "detail": "HT",
+      "detail": "83'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -5042,9 +5029,9 @@
         "color": "000000"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "PayPal Park",
-      "detail": "HT",
+      "detail": "83'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -5059,7 +5046,7 @@
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "start_utc": "2026-08-23T04:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:289206",
         "name": "Titans",
@@ -5085,9 +5072,10 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Cbus Super Stadium",
-      "detail": "Sun, August 22nd at 12:00 AM EDT",
+      "detail": "21'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7508,18 +7496,6 @@
   ],
   "stories": [
     {
-      "story_id": "49697680",
-      "headline": "Padres rally behind Cronenworth, France in 7th inning to beat Twins 7-5",
-      "summary": "\u2014 Jake Cronenworth raced home with the tying run on an error and Ty France singled in the go-ahead run during a four-run rally in the seventh inning that gave the San Diego Padres a 7-5 win against the Minnesota Twins on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816638.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-23T03:41:30Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816638"
-    },
-    {
       "story_id": "49697648",
       "headline": "Sparks end skid as Burrell has 20 in 77-68 win over Sun",
       "summary": "\u2014 Rae Burrell scored 20 points and the Los Angeles Sparks ended a six-game losing streak with a 77-68 win over the Connecticut Sun on Saturday night.",
@@ -7530,6 +7506,18 @@
       "byline": "",
       "source": "ESPN",
       "link": "http://www.espn.com/wnba/recap?gameId=401857165"
+    },
+    {
+      "story_id": "49697589",
+      "headline": "Minnesota Twins vs. San Diego Padres: Game Highlights",
+      "summary": "Minnesota Twins vs. San Diego Padres: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/6055af97-bc2f-4326-9a8b-f74af5a9b031/6055af97-bc2f-4326-9a8b-f74af5a9b031.jpg",
+      "published_utc": "2026-08-23T03:32:35Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49697589/game-highlights"
     },
     {
       "story_id": "49697361",
@@ -7652,18 +7640,6 @@
       "link": "https://www.espn.com/nrl/story/_/id/49634298/nrl-round-25-teams-line-ups-tips-odds-everything-need-know-weekend"
     },
     {
-      "story_id": "49697619",
-      "headline": "Cincinnati Reds vs. Arizona Diamondbacks: Game Highlights",
-      "summary": "Cincinnati Reds vs. Arizona Diamondbacks: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/4ec4e05c-8832-4277-93d6-68be090442b4/4ec4e05c-8832-4277-93d6-68be090442b4.jpg",
-      "published_utc": "2026-08-23T03:31:30Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49697619/game-highlights"
-    },
-    {
       "story_id": "49697635",
       "headline": "Los Angeles Sparks vs. Connecticut Sun - Game Highlights",
       "summary": "Watch the Game Highlights from Los Angeles Sparks vs. Connecticut Sun, 08/22/2026",
@@ -7674,6 +7650,18 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49697635/los-angeles-sparks-vs-connecticut-sun-game-highlights"
+    },
+    {
+      "story_id": "49697619",
+      "headline": "Cincinnati Reds vs. Arizona Diamondbacks: Game Highlights",
+      "summary": "Cincinnati Reds vs. Arizona Diamondbacks: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/4ec4e05c-8832-4277-93d6-68be090442b4/4ec4e05c-8832-4277-93d6-68be090442b4.jpg",
+      "published_utc": "2026-08-23T03:31:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49697619/game-highlights"
     },
     {
       "story_id": "49697497",
@@ -8760,43 +8748,13 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 24)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 25)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 26)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/1/4",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live Backup",
+          "label": "VidQ FHD (Main card) \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 28)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Mstream (Alpha) \u2014 Live HD (CH 29)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Mstream (Alpha) \u2014 Live SD (CH 30)",
+          "label": "VidFrame FHD (Main card) \u2014 Full Show",
           "part": false,
           "live": false
         },
@@ -8826,19 +8784,37 @@
         },
         {
           "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/7/1",
+          "label": "OK.ru FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/8/1",
           "label": "Other Hosts \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/7/2",
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/8/2",
           "label": "Other Hosts \u2014 StreamW (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/7/3",
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/8/3",
           "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/9/1",
+          "label": "Other Hosts (Main card) \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/08-22-2026/select-post-1/9/2",
+          "label": "Other Hosts (Main card) \u2014 VOE.sx (SD)",
           "part": false,
           "live": false
         }
