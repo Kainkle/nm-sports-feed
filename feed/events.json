@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T19:59:21.902195+00:00",
+  "generated_utc": "2026-08-23T20:34:12.391572+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -1322,7 +1322,7 @@
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "GMBnpYLGIG8",
+      "highlight_video_id": "6no59clsa7A",
       "replay_url": "https://ok.ru/videoembed/15888386624172",
       "replay_candidates": [
         {
@@ -5584,7 +5584,7 @@
       "competition_id": "indycar",
       "competition_name": "IndyCar Series",
       "start_utc": "2026-08-23T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:None",
         "name": "Christian Lundgaard",
@@ -5608,10 +5608,9 @@
         "color": null
       },
       "source": "espn:racing/irl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Streets of Washington",
-      "detail": "In Progress",
-      "has_live_source": false,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5668,7 +5667,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-23T17:35:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:110",
         "name": "Baltimore Orioles",
@@ -5698,10 +5697,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Oriole Park at Camden Yards",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5715,7 +5713,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-23T17:35:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:143",
         "name": "Philadelphia Phillies",
@@ -5745,10 +5743,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Citizens Bank Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5762,7 +5759,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-23T17:35:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:147",
         "name": "New York Yankees",
@@ -5793,10 +5790,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Yankee Stadium",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5810,7 +5806,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-23T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:146",
         "name": "Miami Marlins",
@@ -5840,10 +5836,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "loanDepot park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5860,23 +5855,23 @@
       "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "William Byron",
+        "name": "Zane Smith",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
-          "William Byron"
+          "Zane Smith"
         ],
         "color": null
       },
       "away": {
         "id": "espn:None",
-        "name": "Shane van Gisbergen",
+        "name": "Ryan Preece",
         "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
-          "Shane van Gisbergen"
+          "Ryan Preece"
         ],
         "color": null
       },
@@ -6115,7 +6110,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "New Balance Arena",
-      "detail": "57'",
+      "detail": "90'+2'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6159,7 +6154,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Stadio Olimpico Grande Torino",
-      "detail": "54'",
+      "detail": "89'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6294,9 +6289,9 @@
         "color": "990000"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Estadio Mart\u00ednez Valero",
-      "detail": "27'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6311,7 +6306,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T20:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:3",
         "name": "Dallas Wings",
@@ -6341,9 +6336,10 @@
         "color": "2c5235"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "College Park Center",
-      "detail": "Sun, August 23rd at 4:00 PM EDT",
+      "detail": "6:52 - 2nd Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6388,7 +6384,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "has_live_source": true,
@@ -6436,7 +6432,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "T-Mobile Park",
       "detail": "",
       "has_live_source": true,
@@ -6483,7 +6479,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Petco Park",
       "detail": "",
       "has_live_source": true,
@@ -6531,7 +6527,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Chase Field",
       "detail": "",
       "has_live_source": true,
@@ -7639,18 +7635,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49704162/enzo-maresca-manchester-city-need-solutions-bournemouth-marc-guehi-midfield"
     },
     {
-      "story_id": "49679190",
-      "headline": "Fernando Alonso reflects on highest-place finish in 2026: 'I'm happy and relaxed'",
-      "summary": "A \"happy and relaxed\" Fernando Alonso issued a rallying cry that there's much more to come this year for Aston Martin after his ninth-place finish at the Dutch Grand Prix.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705847_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T19:15:59Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Nate Saunders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49679190/fernando-alonso-reflects-highest-place-finish-2026-im-happy-relaxed-dutch-grand-prix-formula-1-zandvoort"
-    },
-    {
       "story_id": "49702673",
       "headline": "Yankees' Ryan Weathers (forearm strain) hopeful on 2026 return",
       "summary": "Yankees left-hander Ryan Weathers is optimistic he can return by the end of the season after he was placed on the 15-day injured list with a left forearm flexor strain.",
@@ -7673,6 +7657,18 @@
       "byline": "Nick Wagoner",
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/49702970/49ers-activate-star-te-george-kittle-pup-list"
+    },
+    {
+      "story_id": "49679189",
+      "headline": "George Russell defends Mercedes' team orders: Title rival Kimi Antonelli 'deserved to finish ahead'",
+      "summary": "George Russell has said Mercedes was right to ask him to move over and let teammate and title rival Kimi Antonelli by at the Dutch Grand Prix, even if it cost him ground in the championship.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705783_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T17:38:24Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49679189/dutch-grand-prix-george-russell-defends-mercedes-team-orders-title-rival-kimi-antonelli-deserved-finish-ahead-formula-1-zandvoort"
     },
     {
       "story_id": "24067525",
@@ -7783,18 +7779,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49703303/new-season-same-liverpool-more-work-ahead-premier-league-contender-again"
     },
     {
-      "story_id": "49704069",
-      "headline": "Norris: 'Not happy with the car' despite Dutch GP win",
-      "summary": "Norris: 'Not happy with the car' despite Dutch GP win",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0823/dm_260823_COM_F1_PRESSER_Norris_Not_happy_with_the_car_despite_Dutch_GP_win_2026_8_23/dm_260823_COM_F1_PRESSER_Norris_Not_happy_with_the_car_despite_Dutch_GP_win_2026_8_23.jpg",
-      "published_utc": "2026-08-23T19:14:38Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49704069/not-happy-car-dutch-gp-win"
-    },
-    {
       "story_id": "49702925",
       "headline": "Yankees' Cody Bellinger (hamstring) back after missing 25 games",
       "summary": "The Yankees have activated Cody Bellinger from the injured list after the outfielder missed 25 games with a strained left hamstring.",
@@ -7817,6 +7801,18 @@
       "byline": "Kris Rhim",
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/49702892/chargers-place-tyler-biadasz-season-ending-injured-reserve"
+    },
+    {
+      "story_id": "49679187",
+      "headline": "Lewis Hamilton 'proud' of Ferrari despite dicey radio messages during Dutch GP",
+      "summary": "Lewis Hamilton has said Ferrari's mid-race dithering over strategy cost him a podium at the Dutch Grand Prix but said the team has made a clear step forward.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705790_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T17:08:32Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49679187/lewis-hamilton-proud-ferrari-dicey-radio-messages-dutch-grand-prix-formula-1-zandvoort"
     },
     {
       "story_id": "21807736",
