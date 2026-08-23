@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T07:41:25.364823+00:00",
+  "generated_utc": "2026-08-23T08:03:43.737902+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -5083,7 +5083,7 @@
       "competition_id": "afl",
       "competition_name": "AFL",
       "start_utc": "2026-08-23T05:20Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:4",
         "name": "Sydney Swans",
@@ -5109,10 +5109,9 @@
         "color": "124cb1"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "SCG",
-      "detail": "13:25 - 4th Quarter",
-      "has_live_source": false,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5126,7 +5125,7 @@
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "start_utc": "2026-08-23T06:05Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:289204",
         "name": "Roosters",
@@ -5152,10 +5151,9 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "in/Second Half",
+      "source_status": "post/Final",
       "venue": "Allianz Stadium",
-      "detail": "69'",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7492,6 +7490,30 @@
   ],
   "stories": [
     {
+      "story_id": "49699496",
+      "headline": "White Sox and Mets play to decide series winner",
+      "summary": "New York Mets (59-71, fifth in the NL East) vs. Chicago White Sox (67-62, first in the AL Central)",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816649.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-23T08:03:02Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/preview?gameId=401816649"
+    },
+    {
+      "story_id": "49535348",
+      "headline": "Formula 1 2026: The surprises, talking points and battles shaping the season",
+      "summary": "Formula 1 is back and its heading to Zandvoort for the Dutch Grand Prix to kick off the second half of the season.",
+      "image": "https://a.espncdn.com/photo/2026/0805/r1697853_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T06:31:00Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Alicia Turner",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49535348/formula-1-2026-surprises-talking-points-battles-shaping-season-lewis-hamilton-kimi-antonelli-george-russell"
+    },
+    {
       "story_id": "49668967",
       "headline": "Champions League 2026-27 draw: How to watch in UK, start time, how does it work, when are fixtures?",
       "summary": "The Champions League returns for another season. Here's everything you need to know about the league phase draw.",
@@ -7540,18 +7562,6 @@
       "link": "http://www.espn.com/wnba/preview?gameId=401857168"
     },
     {
-      "story_id": "49696687",
-      "headline": "Georgiades shines as Port hand Bombers wooden spoon",
-      "summary": "Essendon's new coach will be tasked with picking up the pieces from the worst season in the AFL club's long history after a calamitous campaign ended with a 10-point defeat to Port Adelaide.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705630_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T05:39:23Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49696687/afl-round-24-news-report-georgiades-shines-port-adelaide-power-hand-essendon-bombers-wooden-spoon"
-    },
-    {
       "story_id": "49698229",
       "headline": "LAFC vs. Portland Timbers - Game Highlights",
       "summary": "Watch the Game Highlights from LAFC vs. Portland Timbers, 08/22/2026",
@@ -7564,28 +7574,16 @@
       "link": "https://www.espn.com/video/clip/_/id/49698229/lafc-vs-portland-timbers-game-highlights"
     },
     {
-      "story_id": "48305211",
-      "headline": "2026 MLB ABS challenge system tracker: Team, player rankings",
-      "summary": "The ABS challenge system leaderboard ranks batters, catchers, teams and umpires throughout the MLB season.",
-      "image": "https://a.espncdn.com/photo/2026/0330/r1635936_608x342_16-9.jpg",
-      "published_utc": "2026-08-23T03:45:32Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
+      "story_id": "49690052",
+      "headline": "Dangerfield extends Geelong's lead against the Tigers",
+      "summary": "Patrick Dangerfield doesn't give up on the play and slots it home after a timely intercept.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Dangerfield_extends_Geelongs_lead_against_the_Tigers_20260822_AUS_ONLY/dm_260822_AFL_Highlight_Dangerfield_extends_Geelongs_lead_against_the_Tigers_20260822_AUS_ONLY.jpg",
+      "published_utc": "2026-08-22T12:07:57Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/48305211/2026-mlb-abs-challenge-system-tracker-team-player-rankings"
-    },
-    {
-      "story_id": "49610287",
-      "headline": "Lando Norris 'optimistic' he can defend title, jokes Mercedes need to make 'same mistakes' as McLaren",
-      "summary": "Lando Norris' pole position at the Dutch Grand Prix appeared to reignite his belief that he can defend his drivers' title this year.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705370_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T18:23:23Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Laurence Edmondson",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49610287/lando-norris-optimistic-defend-title-jokes-mercedes-need-make-same-mistakes-mclaren-dutch-grand-prix-formula-1-zandvoort"
+      "link": "https://www.espn.com/video/clip/_/id/49690052/dangerfield-extends-geelong-lead-tigers"
     },
     {
       "story_id": "49639942",
@@ -7624,16 +7622,40 @@
       "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
     },
     {
-      "story_id": "49634298",
-      "headline": "NRL Round 25: Teams, line-ups, tips, odds, everything you need to know for the weekend",
-      "summary": "The NRL season has hit the home straight with just three rounds remaining. Positions in the Top 4 and finals berths are still up for grabs with several teams needing to win this weekend.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0820/Int_260820_NRL_Highlight_Too_notches_100th_try_in_hat_trick_hero_performance_2026821_AUS_ONLY/Int_260820_NRL_Highlight_Too_notches_100th_try_in_hat_trick_hero_performance_2026821_AUS_ONLY.jpg",
+      "story_id": "49696716",
+      "headline": "Sharks rally to beat Titans, stay in NRL top-four race",
+      "summary": "Cronulla have snapped a shocking two-game losing streak to revive their NRL top-four finals hopes with a potentially season-saving 30-22 win over the lowly Gold Coast.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705638_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49634298/nrl-round-25-teams-line-ups-tips-odds-everything-need-know-weekend"
+      "link": "https://www.espn.com/nrl/story/_/id/49696716/nrl-round-25-news-report-sharks-rally-beat-titans-stay-nrl-top-four-race"
+    },
+    {
+      "story_id": "49699493",
+      "headline": "Padres take on the Twins on home winning streak",
+      "summary": "Minnesota Twins (63-67, third in the AL Central) vs. San Diego Padres (70-60, second in the NL West)",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816653.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-23T08:02:58Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/preview?gameId=401816653"
+    },
+    {
+      "story_id": "49409520",
+      "headline": "Dutch Grand Prix 2026: Race start time, how to watch, full schedule, predictions",
+      "summary": "Formula 1 is back and it's taking place in the sand dunes of Zandvoort at the Dutch Grand Prix.",
+      "image": "https://a.espncdn.com/photo/2026/0726/r1693932_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T06:29:43Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49409520/dutch-grand-prix-2026-circuit-zandvoort-race-f1-start-s-how-watch-schedule-usa-tv-channel-live-stream-predictions-results"
     },
     {
       "story_id": "49681961",
@@ -7684,18 +7706,6 @@
       "link": "http://www.espn.com/wnba/preview?gameId=401857171"
     },
     {
-      "story_id": "49690052",
-      "headline": "Dangerfield extends Geelong's lead against the Tigers",
-      "summary": "Patrick Dangerfield doesn't give up on the play and slots it home after a timely intercept.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Dangerfield_extends_Geelongs_lead_against_the_Tigers_20260822_AUS_ONLY/dm_260822_AFL_Highlight_Dangerfield_extends_Geelongs_lead_against_the_Tigers_20260822_AUS_ONLY.jpg",
-      "published_utc": "2026-08-22T12:07:57Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49690052/dangerfield-extends-geelong-lead-tigers"
-    },
-    {
       "story_id": "47978642",
       "headline": "Messi tracker: Goals, assists, key moments in 2026",
       "summary": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
@@ -7708,28 +7718,16 @@
       "link": "https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats"
     },
     {
-      "story_id": "49697680",
-      "headline": "Padres rally behind Cronenworth, France in 7th inning to beat Twins 7-5",
-      "summary": "\u2014 Jake Cronenworth raced home with the tying run on an error and Ty France singled in the go-ahead run during a four-run rally in the seventh inning that gave the San Diego Padres a 7-5 win against the Minnesota Twins on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816638.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-23T03:41:30Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
+      "story_id": "49689559",
+      "headline": "Rankine makes it look easy from the pocket",
+      "summary": "Izak Rankine scores a brilliant goal in a high scoring first quarter from the Adelaide Crows",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_AFL_Highlight_Rankine_makes_it_look_easy_from_the_pocket_2026822_AUS_ONLY/dm_260822_AFL_Highlight_Rankine_makes_it_look_easy_from_the_pocket_2026822_AUS_ONLY.jpg",
+      "published_utc": "2026-08-22T11:17:20Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816638"
-    },
-    {
-      "story_id": "49610336",
-      "headline": "George Russell on title fight with teammate Kimi Antonelli: 'The pressure's off, it's mine to gain'",
-      "summary": "George Russell has said he no longer feels like he is in a title battle and has attributed his strong performance at this weekend's Dutch Grand Prix to feeling less pressure as the second half of the season gets underway.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705376_1296x729_16-9.jpg",
-      "published_utc": "2026-08-22T18:16:28Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Laurence Edmondson",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49610336/george-russell-title-fight-teammate-kimi-antonelli-pressures-gain-dutch-grand-prix-formula-1-zandvoort"
+      "link": "https://www.espn.com/video/clip/_/id/49689559/rankine-makes-look-easy-pocket"
     },
     {
       "story_id": "48377855",
@@ -7768,16 +7766,16 @@
       "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
     },
     {
-      "story_id": "49695700",
-      "headline": "Bulldogs hit by COVID before finals-saving win",
-      "summary": "The Bulldogs overcame a five-player COVID outbreak and an overnight hospital stay for Jacob Preston to keep their season alive with a commanding 44-14 victory over St George Illawarra.",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705192_1296x729_16-9.jpg",
+      "story_id": "49634298",
+      "headline": "NRL Round 25: Teams, line-ups, tips, odds, everything you need to know for the weekend",
+      "summary": "The NRL season has hit the home straight with just three rounds remaining. Positions in the Top 4 and finals berths are still up for grabs with several teams needing to win this weekend.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0820/Int_260820_NRL_Highlight_Too_notches_100th_try_in_hat_trick_hero_performance_2026821_AUS_ONLY/Int_260820_NRL_Highlight_Too_notches_100th_try_in_hat_trick_hero_performance_2026821_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49695700/nrl-round-25-news-report-bulldogs-hit-covid-finals-saving-win"
+      "link": "https://www.espn.com/nrl/story/_/id/49634298/nrl-round-25-teams-line-ups-tips-odds-everything-need-know-weekend"
     }
   ],
   "shows": [
