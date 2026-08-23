@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-23T22:59:58.044738+00:00",
+  "generated_utc": "2026-08-23T23:30:52.621949+00:00",
   "events": [
     {
       "event_id": "espn:australian-football:1133686",
@@ -4527,7 +4527,7 @@
       "venue": "Chase Field",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "WejqO7E90HU",
       "replay_url": "https://ok.ru/videoembed/15901328149164",
       "replay_candidates": [
         {
@@ -4721,7 +4721,7 @@
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "wM9bvAVwcq0",
       "replay_url": "https://ok.ru/videoembed/15901490809516",
       "replay_candidates": [
         {
@@ -6377,7 +6377,7 @@
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "P3gO8JcSZDc",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -6389,7 +6389,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-23T20:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:136",
         "name": "Seattle Mariners",
@@ -6420,10 +6420,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "T-Mobile Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6467,7 +6466,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
@@ -6483,7 +6482,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-23T20:15:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:109",
         "name": "Arizona Diamondbacks",
@@ -6514,10 +6513,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Chase Field",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6575,7 +6573,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:18418",
         "name": "Atlanta United FC",
@@ -6603,9 +6601,10 @@
         "color": "a7c6ed"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Mercedes-Benz Stadium",
-      "detail": "Sun, August 23rd at 7:00 PM EDT",
+      "detail": "18'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6619,7 +6618,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:19",
         "name": "Chicago Sky",
@@ -6649,9 +6648,10 @@
         "color": "002d62"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Wintrust Arena",
-      "detail": "Sun, August 23rd at 7:00 PM EDT",
+      "detail": "3:41 - 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6665,7 +6665,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:132052",
         "name": "Portland Fire",
@@ -6695,9 +6695,10 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/End of Period",
       "venue": "Moda Center",
-      "detail": "Sun, August 23rd at 7:00 PM EDT",
+      "detail": "End of 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6711,7 +6712,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:131935",
         "name": "Toronto Tempo",
@@ -6741,9 +6742,10 @@
         "color": "a7a8aa"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Rogers Arena",
-      "detail": "Sun, August 23rd at 7:00 PM EDT",
+      "detail": "7:26 - 2nd Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6787,7 +6789,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Journey Bank Ballpark",
       "detail": "",
       "has_live_source": true,
@@ -7611,16 +7613,28 @@
   ],
   "stories": [
     {
-      "story_id": "49705987",
-      "headline": "Cleveland Guardians vs. Colorado Rockies: Game Highlights",
-      "summary": "Cleveland Guardians vs. Colorado Rockies: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/481fa9b5-d1ad-4f8f-9f84-572a2daa8126/481fa9b5-d1ad-4f8f-9f84-572a2daa8126.jpg",
-      "published_utc": "2026-08-23T22:48:03Z",
+      "story_id": "49706250",
+      "headline": "Ildemaro Vargas' 2-run triple highlights rally that pushes the Diamondbacks past Reds 5-3",
+      "summary": "\u2014 Ildemaro Vargas hit a go-ahead, two-run triple in a decisive four-run seventh inning and the Arizona Diamondbacks rallied for a 5-3 victory over the Cincinnati Reds on Sunday to win the series and keep pace in the National League playoff race.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816652.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-23T23:19:32Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49705987/game-highlights"
+      "link": "http://www.espn.com/mlb/recap?gameId=401816652"
+    },
+    {
+      "story_id": "49705923",
+      "headline": "New England Revolution vs. New York City FC - Game Highlights",
+      "summary": "Watch the Game Highlights from New England Revolution vs. New York City FC, 08/23/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/e7484b6b-737a-4742-b792-75971139364b/e7484b6b-737a-4742-b792-75971139364b.jpg",
+      "published_utc": "2026-08-23T22:58:48Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49705923/new-england-revolution-vs-new-york-city-fc-game-highlights"
     },
     {
       "story_id": "49705650",
@@ -7647,11 +7661,23 @@
       "link": "http://www.espn.com/wnba/recap?gameId=401857167"
     },
     {
+      "story_id": "49705583",
+      "headline": "Swans prepare for finals as investigation continues",
+      "summary": "Sydney will prepare for their AFL finals campaign while bracing for more fall-out from the sexual assault allegations that have rocked the club.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705651_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T21:55:58Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49705583/afl-sydeny-swans-prepare-finals-investigation-continues"
+    },
+    {
       "story_id": "49705193",
       "headline": "Despite back-to-back wins, Norris says his F1 title form is a mirage",
       "summary": "Lando Norris won his second straight race on Sunday in the Netherlands, so surely he's ready to mount a title challenge, right? He doesn't think so.",
       "image": "https://a.espncdn.com/photo/2026/0823/r1705943_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T21:25:10Z",
+      "published_utc": "2026-08-23T21:49:22Z",
       "competition_id": "f1",
       "competition_name": "Formula 1",
       "byline": "Laurence Edmondson",
@@ -7683,18 +7709,6 @@
       "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
     },
     {
-      "story_id": "49696707",
-      "headline": "Watson takes jaw-dropping mark as Hawks crush Eagles",
-      "summary": "Jack Gunston kicked five goals in his 300-game milestone and Nick Watson took a spectacular mark of the year contender as Hawthorn's bid to snare third spot fell just short in a 62-point win over West Coast in Perth.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705665_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T12:22:17Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49696707/afl-round-24-news-report-nick-watson-mark-year-jack-gunston-300th-hawthorn-hawks-beat-west-coast-eagles-finish-top-four"
-    },
-    {
       "story_id": "49668967",
       "headline": "Champions League 2026-27 draw: How to watch in UK, start time, how does it work, when are fixtures?",
       "summary": "The Champions League returns for another season. Here's everything you need to know about the league phase draw.",
@@ -7705,18 +7719,6 @@
       "byline": "ESPN",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49668967/champions-league-2026-27-draw-football-how-watch-uk-start-how-does-work-teams-in"
-    },
-    {
-      "story_id": "49698229",
-      "headline": "LAFC vs. Portland Timbers - Game Highlights",
-      "summary": "Watch the Game Highlights from LAFC vs. Portland Timbers, 08/22/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/a8bab24e-f3fc-4516-b59a-7b3bfec163ed/a8bab24e-f3fc-4516-b59a-7b3bfec163ed.jpg",
-      "published_utc": "2026-08-23T04:44:30Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49698229/lafc-vs-portland-timbers-game-highlights"
     },
     {
       "story_id": "49639942",
@@ -7755,16 +7757,28 @@
       "link": "https://www.espn.com/nrl/story/_/id/49696744/nrl-round-25-news-report-tigers-stun-roosters-blow-nrl-top-four-race-wide-open"
     },
     {
-      "story_id": "49705929",
-      "headline": "Pittsburgh Pirates vs. Los Angeles Dodgers: Game Highlights",
-      "summary": "Pittsburgh Pirates vs. Los Angeles Dodgers: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/c157c1cf-876d-4035-90af-2df87555f4cf/c157c1cf-876d-4035-90af-2df87555f4cf.jpg",
-      "published_utc": "2026-08-23T22:46:19Z",
+      "story_id": "49706191",
+      "headline": "Tatis homers twice, drives in 4 runs to lead Padres to 8-1 win, 3-game sweep of Twins",
+      "summary": "\u2014 Fernando Tatis Jr. hit two homers and drove in four runs for the red-hot San Diego Padres, who beat the Minnesota Twins 8-1 Sunday for a three-game sweep in a showdown of teams pushing for wild-card spots.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816653.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-23T23:07:43Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49705929/game-highlights"
+      "link": "http://www.espn.com/mlb/recap?gameId=401816653"
+    },
+    {
+      "story_id": "49698229",
+      "headline": "LAFC vs. Portland Timbers - Game Highlights",
+      "summary": "Watch the Game Highlights from LAFC vs. Portland Timbers, 08/22/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/a8bab24e-f3fc-4516-b59a-7b3bfec163ed/a8bab24e-f3fc-4516-b59a-7b3bfec163ed.jpg",
+      "published_utc": "2026-08-23T04:44:30Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49698229/lafc-vs-portland-timbers-game-highlights"
     },
     {
       "story_id": "49705433",
@@ -7789,6 +7803,18 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49705599/dallas-wings-vs-seattle-storm-game-highlights"
+    },
+    {
+      "story_id": "49696707",
+      "headline": "Watson takes jaw-dropping mark as Hawks crush Eagles",
+      "summary": "Jack Gunston kicked five goals in his 300-game milestone and Nick Watson took a spectacular mark of the year contender as Hawthorn's bid to snare third spot fell just short in a 62-point win over West Coast in Perth.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705665_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T12:22:17Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49696707/afl-round-24-news-report-nick-watson-mark-year-jack-gunston-300th-hawthorn-hawks-beat-west-coast-eagles-finish-top-four"
     },
     {
       "story_id": "49679190",
@@ -7827,18 +7853,6 @@
       "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
     },
     {
-      "story_id": "47923681",
-      "headline": "Coleman Medal leaderboard for 2026 - who has kicked the most goals in the AFL?",
-      "summary": "The Coleman Medal is awarded to the player who kicks the most goals throughout the AFL home and away season. Who is on track to win the award in 2026?",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705650_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T11:55:07Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/47923681/coleman-medal-leaderboard-season-2026-kicked-most-goals-afl"
-    },
-    {
       "story_id": "49681961",
       "headline": "Shakhtar Donetsk to play home Champions League matches at Chelsea's Stamford Bridge",
       "summary": "Ukrainian club Shakhtar Donetsk said on Friday they have agreement to play home Champions League games at Chelsea, which for nearly 20 years was owned by Russian oligarch Roman Abramovich.",
@@ -7849,18 +7863,6 @@
       "byline": "ESPN News Services",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/49681961/shakhtar-donetsk-home-champions-league-matches-chelsea-stamford-bridge"
-    },
-    {
-      "story_id": "47978642",
-      "headline": "Messi tracker: Goals, assists, key moments in 2026",
-      "summary": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
-      "image": "https://a.espncdn.com/photo/2026/0617/r1674593_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T03:03:10Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats"
     },
     {
       "story_id": "48377855",
