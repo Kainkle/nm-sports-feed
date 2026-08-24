@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T19:18:00.392792+00:00",
+  "generated_utc": "2026-08-24T19:50:27.220948+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603435",
@@ -6224,7 +6224,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-24T17:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:97",
         "name": "Osasuna",
@@ -6250,10 +6250,9 @@
         "color": "C8142F"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "El Sadar",
-      "detail": "89'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6293,9 +6292,9 @@
         "color": "4c1d84"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Olimpico",
-      "detail": "30'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6336,9 +6335,9 @@
         "color": "144992"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Craven Cottage",
-      "detail": "16'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6353,7 +6352,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-24T19:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:99",
         "name": "M\u00e1laga",
@@ -6379,9 +6378,10 @@
         "color": "3366CC"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "La Rosaleda",
-      "detail": "Mon, August 24th at 3:30 PM EDT",
+      "detail": "18'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6517,7 +6517,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Nationals Park",
       "detail": "",
       "game_number": 1,
@@ -6564,7 +6564,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Rate Field",
       "detail": "",
       "game_number": 1,
@@ -7934,6 +7934,42 @@
   ],
   "stories": [
     {
+      "story_id": "49662528",
+      "headline": "Premier League live updates: Chelsea reclaim the lead at Fulham",
+      "summary": "Enjoy all the updates from Monday's Premier League match as Fulham hosts Chelsea in the last game of Matchday 1.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706394_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:43:02Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49662528/premier-league-live-updates-chelsea-kick-their-season-fulham"
+    },
+    {
+      "story_id": "49682780",
+      "headline": "2026 Las Vegas Raiders: Projecting final 53-man roster",
+      "summary": "Coach Klint Kubiak and GM John Spytek have difficult decisions to make at quarterback, wide receiver and cornerback.",
+      "image": "https://a.espncdn.com/photo/2026/0821/r1704927_608x342_16-9.jpg",
+      "published_utc": "2026-08-24T19:41:07Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Ryan McFadden",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49682780/2026-nfl-season-las-vegas-raiders-final-roster-projection-depth-chart"
+    },
+    {
+      "story_id": "49713360",
+      "headline": "Mercury buy out DeWanna Bonner, who will seek title chance",
+      "summary": "The Mercury and DeWanna Bonner have reached an agreement to buy out her contract. Once she clears waivers, the six-time All-Star will look for a chance to sign as a free agent with a playoff team.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706337_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:18:04Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Kareem Copeland",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49713360/mercury-buy-dewanna-bonner-seek-title-chance"
+    },
+    {
       "story_id": "49714324",
       "headline": "Rembering Kobe's 'Mamba Mentality'",
       "summary": "Rembering Kobe's 'Mamba Mentality'",
@@ -7944,42 +7980,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49714324/rembering-kobe-mamba-mentality"
-    },
-    {
-      "story_id": "48713412",
-      "headline": "Fantasy women's hoops: Set your lineups for the fantasy finals with these players",
-      "summary": "Congratulations on making it to the fantasy women's basketball finals. Now it's time to set a winning lineup!",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706390_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T19:10:35Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN Fantasy",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players"
-    },
-    {
-      "story_id": "49714288",
-      "headline": "Sources: Patriots trading Boutte to Texans for Reed, draft pick",
-      "summary": "The Patriots have agreed to a trade that will send wide receiver Kayshon Boutte to the Houston Texans, sources confirmed to ESPN on Monday.",
-      "image": "https://a.espncdn.com/photo/2026/0603/r1667656_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T19:08:47Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49714288/patriots-trading-boutte-texans-reed-draft-pick"
-    },
-    {
-      "story_id": "49662528",
-      "headline": "Premier League live updates: Chelsea kick off their season against Fulham",
-      "summary": "Enjoy all the updates from Monday's Premier League match as Fulham hosts Chelsea in the last game of Matchday 1.",
-      "image": "https://a.espncdn.com/photo/2026/0819/r1704032_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T19:01:39Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49662528/premier-league-live-updates-chelsea-kick-their-season-fulham"
     },
     {
       "story_id": "46793185",
@@ -8078,6 +8078,42 @@
       "link": "https://www.espn.com/nrl/story/_/id/49709624/nrl-adam-reynolds-return-shelved-sad-end-nrl-career"
     },
     {
+      "story_id": "49714065",
+      "headline": "Manchester City agree \u20ac40M deal for Allan Elias - sources",
+      "summary": "Manchester City have agreed a deal with Palmeiras for winger Allan Elias, sources have told ESPN.",
+      "image": "https://a.espncdn.com/photo/2026/0820/r1704419_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:12:21Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "Rob Dawson",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49714065/manchester-city-agree-40m-deal-allan-elias-sources"
+    },
+    {
+      "story_id": "49714288",
+      "headline": "Sources: Patriots trading Boutte to Texans for Reed, draft pick",
+      "summary": "The Patriots have agreed to a trade that will send wide receiver Kayshon Boutte to the Houston Texans, sources confirmed to ESPN on Monday.",
+      "image": "https://a.espncdn.com/photo/2026/0603/r1667656_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:34:07Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "DJ Bien-Aime",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49714288/patriots-trading-boutte-texans-reed-draft-pick"
+    },
+    {
+      "story_id": "48713412",
+      "headline": "Fantasy women's hoops: Set your lineups for the fantasy finals with these players",
+      "summary": "Congratulations on making it to the fantasy women's basketball finals. Now it's time to set a winning lineup!",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706390_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:10:35Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN Fantasy",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players"
+    },
+    {
       "story_id": "49671088",
       "headline": "Los Angeles Lakers offseason recap, early 2026-27 season preview",
       "summary": "The LeBron James era in Los Angeles is officially over; what's next for the Lakers? We're looking at the offseason and previewing the 2026-27 season.",
@@ -8088,42 +8124,6 @@
       "byline": "NBA insiders",
       "source": "ESPN",
       "link": "https://www.espn.com/nba/story/_/id/49671088/los-angeles-lakers-offseason-recap-2026-27-season-preview-stats-roster-depth-chart"
-    },
-    {
-      "story_id": "49713360",
-      "headline": "Mercury buy out DeWanna Bonner, who will seek title chance",
-      "summary": "The Mercury and DeWanna Bonner have reached an agreement to buy out her contract. Once she clears waivers, the six-time All-Star will look for a chance to sign as a free agent with a playoff team.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706337_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T17:52:05Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Kareem Copeland",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49713360/mercury-buy-dewanna-bonner-seek-title-chance"
-    },
-    {
-      "story_id": "49427703",
-      "headline": "2026 New England Patriots training camp: Latest intel, updates",
-      "summary": "Catch up on our daily updates from Patriots training camp, including intel on QBs, position battles and potential breakouts.",
-      "image": "https://a.espncdn.com/photo/2026/0813/r1701288_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T18:58:52Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Mike Reiss",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49427703/new-england-patriots-training-camp-2026-intel-updates"
-    },
-    {
-      "story_id": "49713656",
-      "headline": "Enzo Fern\u00e1ndez named on Chelsea bench for Fulham clash",
-      "summary": "Enzo Fern\u00e1ndez has been named on the bench for Chelsea's Premier League opener against Fulham amid uncertainty around his future at the club.",
-      "image": "https://a.espncdn.com/photo/2026/0807/r1662564_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T18:35:13Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "Shubi Arun",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49713656/enzo-fernandez-chelsea-bench-fulham-clash"
     },
     {
       "story_id": "48350446",
