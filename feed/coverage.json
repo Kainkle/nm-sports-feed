@@ -1,20 +1,20 @@
 {
-  "generated_utc": "2026-08-23T23:53:21.598569+00:00",
+  "generated_utc": "2026-08-24T01:04:57.981438+00:00",
   "window_days": 2,
-  "total_events": 158,
+  "total_events": 164,
   "competitions": [
     {
       "competition": "afl",
       "name": "AFL",
       "sport": "australian-football",
-      "events": 9,
+      "events": 8,
       "date_range": [
-        "2026-08-20",
+        "2026-08-21",
         "2026-08-23"
       ],
-      "explicit_status": 9,
+      "explicit_status": 8,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 8,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -91,8 +91,8 @@
       "sport": "soccer",
       "events": 10,
       "date_range": [
-        "2026-08-20",
-        "2026-08-24"
+        "2026-08-21",
+        "2026-08-25"
       ],
       "explicit_status": 10,
       "status_coverage_pct": 100,
@@ -162,14 +162,14 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 64,
+      "events": 70,
       "date_range": [
-        "2026-08-20",
-        "2026-08-25"
+        "2026-08-21",
+        "2026-08-26"
       ],
-      "explicit_status": 64,
+      "explicit_status": 70,
       "status_coverage_pct": 100,
-      "both_logos": 64,
+      "both_logos": 70,
       "logo_coverage_pct": 100,
       "live_now": 1
     },
@@ -257,16 +257,16 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 16,
+      "events": 14,
       "date_range": [
         "2026-08-21",
         "2026-08-24"
       ],
-      "explicit_status": 16,
+      "explicit_status": 14,
       "status_coverage_pct": 100,
-      "both_logos": 16,
+      "both_logos": 14,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "nhl",
@@ -285,14 +285,14 @@
       "competition": "rugby-league",
       "name": "Rugby League",
       "sport": "rugby-league",
-      "events": 8,
+      "events": 7,
       "date_range": [
-        "2026-08-20",
+        "2026-08-21",
         "2026-08-23"
       ],
-      "explicit_status": 8,
+      "explicit_status": 7,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 7,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -326,14 +326,14 @@
       "competition": "ufc",
       "name": "UFC",
       "sport": "mma",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-08-22",
-        "2026-08-22"
+        "2026-08-25"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 1,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -382,25 +382,19 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 12,
+      "events": 15,
       "date_range": [
         "2026-08-21",
-        "2026-08-25"
+        "2026-08-26"
       ],
-      "explicit_status": 12,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 12,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 3
+      "live_now": 2
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/wnba",
-      "date": "2026-08-20",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260820: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
@@ -411,13 +405,13 @@
     "carried": 5
   },
   "replay_items": {
-    "total": 104,
+    "total": 86,
     "by_sport": {
       "australian-football": 3,
-      "baseball": 68,
+      "baseball": 56,
       "mma": 1,
-      "motor-sports": 2,
-      "rugby": 30
+      "motor-sports": 1,
+      "rugby": 25
     }
   },
   "stories": {
