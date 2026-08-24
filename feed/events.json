@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T18:38:38.943672+00:00",
+  "generated_utc": "2026-08-24T19:18:00.392792+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603435",
@@ -6252,7 +6252,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "El Sadar",
-      "detail": "49'",
+      "detail": "89'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6267,7 +6267,7 @@
       "competition_id": "ita.1",
       "competition_name": "Serie A",
       "start_utc": "2026-08-24T18:45Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:104",
         "name": "AS Roma",
@@ -6293,9 +6293,10 @@
         "color": "4c1d84"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Olimpico",
-      "detail": "Mon, August 24th at 2:45 PM EDT",
+      "detail": "30'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6309,7 +6310,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-24T19:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:370",
         "name": "Fulham",
@@ -6335,9 +6336,10 @@
         "color": "144992"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Craven Cottage",
-      "detail": "Mon, August 24th at 3:00 PM EDT",
+      "detail": "16'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6423,7 +6425,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Comerica Park",
       "detail": "",
       "game_number": 1,
@@ -6469,7 +6471,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "loanDepot park",
       "detail": "",
       "game_number": 1,
@@ -7932,23 +7934,47 @@
   ],
   "stories": [
     {
-      "story_id": "49377273",
-      "headline": "2026 Carolina Panthers training camp: Latest intel, updates",
-      "summary": "Catch up on our updates from Panthers training camp, including intel on QBs, position battles and potential breakouts.",
-      "image": "https://a.espncdn.com/photo/2026/0813/r1701309_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T18:24:35Z",
+      "story_id": "49714324",
+      "headline": "Rembering Kobe's 'Mamba Mentality'",
+      "summary": "Rembering Kobe's 'Mamba Mentality'",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/ss_20260824_150620479_3635147/ss_20260824_150620479_3635147.jpg",
+      "published_utc": "2026-08-24T19:13:34Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49714324/rembering-kobe-mamba-mentality"
+    },
+    {
+      "story_id": "48713412",
+      "headline": "Fantasy women's hoops: Set your lineups for the fantasy finals with these players",
+      "summary": "Congratulations on making it to the fantasy women's basketball finals. Now it's time to set a winning lineup!",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706390_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:10:35Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN Fantasy",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players"
+    },
+    {
+      "story_id": "49714288",
+      "headline": "Sources: Patriots trading Boutte to Texans for Reed, draft pick",
+      "summary": "The Patriots have agreed to a trade that will send wide receiver Kayshon Boutte to the Houston Texans, sources confirmed to ESPN on Monday.",
+      "image": "https://a.espncdn.com/photo/2026/0603/r1667656_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T19:08:47Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Mike Kaye",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49377273/carolina-panthers-training-camp-2026-intel-updates"
+      "link": "https://www.espn.com/nfl/story/_/id/49714288/patriots-trading-boutte-texans-reed-draft-pick"
     },
     {
       "story_id": "49662528",
       "headline": "Premier League live updates: Chelsea kick off their season against Fulham",
       "summary": "Enjoy all the updates from Monday's Premier League match as Fulham hosts Chelsea in the last game of Matchday 1.",
       "image": "https://a.espncdn.com/photo/2026/0819/r1704032_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T18:02:28Z",
+      "published_utc": "2026-08-24T19:01:39Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "ESPN",
@@ -7956,28 +7982,28 @@
       "link": "https://www.espn.com/soccer/story/_/id/49662528/premier-league-live-updates-chelsea-kick-their-season-fulham"
     },
     {
-      "story_id": "49713360",
-      "headline": "Mercury buy out DeWanna Bonner, who will seek title chance",
-      "summary": "The Mercury and DeWanna Bonner have reached an agreement to buy out her contract. Once she clears waivers, the six-time All-Star will look for a chance to sign as a free agent with a playoff team.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706337_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T17:52:05Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Kareem Copeland",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49713360/mercury-buy-dewanna-bonner-seek-title-chance"
-    },
-    {
-      "story_id": "49682411",
-      "headline": "Fantasy Baseball Forecaster Week 21: Aug. 24-30",
-      "summary": "Set your lineups for the weeks ahead in fantasy baseball with our preview featuring pitcher rankings, hitter ratings and schedule observations.",
-      "image": "https://a.espncdn.com/photo/2026/0821/r1704923_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T16:04:35Z",
+      "story_id": "46793185",
+      "headline": "Every team's odds to win the World Series: Dodgers remain clear favorites",
+      "summary": "Every MLB team's odds to win the 2026 World Series, led by the Dodgers. Milwaukee and Tampa Bay continue to see odds improvement.",
+      "image": "https://a.espncdn.com/photo/2025/1102/r1569497_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T17:46:35Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "Tristan H. Cockcroft",
+      "byline": "Doug Greenberg",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/baseball/story/_/id/49682411/fantasy-baseball-forecaster-espn-2026-mlb-starting-pitcher-hitter-ranks-week-21-august-24-30"
+      "link": "https://www.espn.com/espn/betting/story/_/id/46793185/espn-mlb-betting-odds-futures-bets-world-series-american-national-league"
+    },
+    {
+      "story_id": "49679229",
+      "headline": "Mercedes' Kimi Antonelli to take grid penalty at Italian Grand Prix for new engine",
+      "summary": "Mercedes has confirmed championship leader Kimi Antonelli will be hit with a grid penalty for taking an all-new power unit at his home grand prix at Monza.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706177_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T14:43:28Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Laurence Edmondson",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49679229/mercedes-kimi-antonelli-take-grid-penalty-italian-grand-prix-new-engine"
     },
     {
       "story_id": "49708776",
@@ -8002,30 +8028,6 @@
       "byline": "AAP",
       "source": "ESPN",
       "link": "https://www.espn.com/afl/story/_/id/49709751/afl-mark-mcveigh-new-essendon-bombers-coach"
-    },
-    {
-      "story_id": "49679230",
-      "headline": "Toto Wolff: Mercedes don't have development money to match nearing rivals McLaren",
-      "summary": "Toto Wolff has said Mercedes does not have the money available to immediately match the surge of upgrades which has seen McLaren's Lando Norris record back-to-back Formula 1 victories.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706149_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T12:49:25Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Nate Saunders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49679230/toto-wolff-mercedes-development-money-match-nearing-rivals-mclaren-formula-1"
-    },
-    {
-      "story_id": "49671088",
-      "headline": "Los Angeles Lakers offseason recap, early 2026-27 season preview",
-      "summary": "The LeBron James era in Los Angeles is officially over; what's next for the Lakers? We're looking at the offseason and previewing the 2026-27 season.",
-      "image": "https://a.espncdn.com/photo/2026/0820/r1704457_608x342_16-9.jpg",
-      "published_utc": "2026-08-24T11:15:13Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "NBA insiders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49671088/los-angeles-lakers-offseason-recap-2026-27-season-preview-stats-roster-depth-chart"
     },
     {
       "story_id": "49709745",
@@ -8076,52 +8078,76 @@
       "link": "https://www.espn.com/nrl/story/_/id/49709624/nrl-adam-reynolds-return-shelved-sad-end-nrl-career"
     },
     {
-      "story_id": "49713714",
-      "headline": "Bengals release offensive lineman Cody Ford after three seasons",
-      "summary": "The Bengals released offensive lineman Cody Ford on Monday.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706360_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T18:24:03Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Ben Baby",
+      "story_id": "49671088",
+      "headline": "Los Angeles Lakers offseason recap, early 2026-27 season preview",
+      "summary": "The LeBron James era in Los Angeles is officially over; what's next for the Lakers? We're looking at the offseason and previewing the 2026-27 season.",
+      "image": "https://a.espncdn.com/photo/2026/0820/r1704457_608x342_16-9.jpg",
+      "published_utc": "2026-08-24T11:15:13Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "NBA insiders",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49713714/bengals-release-offensive-lineman-cody-ford-three-seasons"
+      "link": "https://www.espn.com/nba/story/_/id/49671088/los-angeles-lakers-offseason-recap-2026-27-season-preview-stats-roster-depth-chart"
     },
     {
-      "story_id": "49713105",
-      "headline": "\u00c9derson on failed Man United move: 'I honestly don't know what happened'",
-      "summary": "Midfielder \u00c9derson insists he does not know what happened with his failed move to Manchester United.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706323_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T17:21:24Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN News Services",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49713105/ederson-failed-man-united-move-honestly-dont-know-happened"
-    },
-    {
-      "story_id": "49695774",
-      "headline": "Will Napheesa Collier's midseason return boost Lynx's WNBA title chances?",
-      "summary": "After a long road back from multiple injuries, Napheesa Collier could help Minnesota peak in the WNBA playoffs.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705823_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T11:59:04Z",
+      "story_id": "49713360",
+      "headline": "Mercury buy out DeWanna Bonner, who will seek title chance",
+      "summary": "The Mercury and DeWanna Bonner have reached an agreement to buy out her contract. Once she clears waivers, the six-time All-Star will look for a chance to sign as a free agent with a playoff team.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706337_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T17:52:05Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
-      "byline": "Kendra Andrews",
+      "byline": "Kareem Copeland",
       "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49695774/wnba-2026-minnesota-lynx-napheesa-collier-return-boost-playoff-run-championship"
+      "link": "https://www.espn.com/wnba/story/_/id/49713360/mercury-buy-dewanna-bonner-seek-title-chance"
     },
     {
-      "story_id": "31165089",
-      "headline": "Fantasy baseball forecaster: Team hitting ratings",
-      "summary": "Stay ahead of the game and optimize your fantasy baseball hitters with our forecaster, which provides a rolling 10-day outlook of every team's hitting matchups as well as the potential for stolen bases.",
-      "image": "https://a.espncdn.com/photo/2022/0406/r996173_576x324_16-9.jpg",
-      "published_utc": "2026-08-24T15:54:36Z",
+      "story_id": "49427703",
+      "headline": "2026 New England Patriots training camp: Latest intel, updates",
+      "summary": "Catch up on our daily updates from Patriots training camp, including intel on QBs, position battles and potential breakouts.",
+      "image": "https://a.espncdn.com/photo/2026/0813/r1701288_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T18:58:52Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Mike Reiss",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49427703/new-england-patriots-training-camp-2026-intel-updates"
+    },
+    {
+      "story_id": "49713656",
+      "headline": "Enzo Fern\u00e1ndez named on Chelsea bench for Fulham clash",
+      "summary": "Enzo Fern\u00e1ndez has been named on the bench for Chelsea's Premier League opener against Fulham amid uncertainty around his future at the club.",
+      "image": "https://a.espncdn.com/photo/2026/0807/r1662564_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T18:35:13Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "Shubi Arun",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49713656/enzo-fernandez-chelsea-bench-fulham-clash"
+    },
+    {
+      "story_id": "48350446",
+      "headline": "2026 MLB awards tracker: Odds for MVP, Cy Young, Rookie of the Year",
+      "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Cy Young and Rookie of the Year in the AL and NL.",
+      "image": "https://a.espncdn.com/photo/2026/0615/r1673768_608x342_16-9.jpg",
+      "published_utc": "2026-08-24T17:40:49Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "Tristan H. Cockcroft",
+      "byline": "Doug Greenberg",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/baseball/story/_/id/31165089/fantasy-baseball-forecaster-team-hitting-stolen-base-ratings-platoon-matchups-daily-weekly-leagues"
+      "link": "https://www.espn.com/espn/betting/story/_/id/48350446/2026-mlb-awards-sports-betting-odds-tracker-mvp-cy-young-rookie-year"
+    },
+    {
+      "story_id": "49679230",
+      "headline": "Toto Wolff: Mercedes don't have development money to match nearing rivals McLaren",
+      "summary": "Toto Wolff has said Mercedes does not have the money available to immediately match the surge of upgrades which has seen McLaren's Lando Norris record back-to-back Formula 1 victories.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706149_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T12:49:25Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49679230/toto-wolff-mercedes-development-money-match-nearing-rivals-mclaren-formula-1"
     },
     {
       "story_id": "49705923",
@@ -8146,30 +8172,6 @@
       "byline": "AAP",
       "source": "ESPN",
       "link": "https://www.espn.com/afl/story/_/id/49710167/afl-western-bulldogs-ed-richards-no-qualms-mcg-wildcard-clash-vs-collingwood"
-    },
-    {
-      "story_id": "49535006",
-      "headline": "Formula 1 start times: When does each 2026 race begin?",
-      "summary": "The first half of the Formula 1 2026 season has been full of ups and downs for teams and drivers across the grid.",
-      "image": "https://a.espncdn.com/photo/2026/0614/r1673012_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T11:38:43Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49535006/formula-1-start-s-does-2026-race-begin"
-    },
-    {
-      "story_id": "49641350",
-      "headline": "NBA Summer Forecast 2026-27: Projections for East and West standings",
-      "summary": "The top five seeds, the play-in group and the bottom five: NBA experts predict where all 30 teams will land in the standings for the 2026-27 season.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0820/ss_20260820_001840296_3629899/ss_20260820_001840296_3629899.jpg",
-      "published_utc": "2026-08-24T10:40:28Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "NBA insiders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49641350/nba-predictions-2026-27-forecast-knicks-76ers-heat-thunder-spurs-lakers-east-west-standings"
     },
     {
       "story_id": "49681961",
