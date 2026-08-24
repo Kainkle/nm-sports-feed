@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T20:54:59.480329+00:00",
+  "generated_utc": "2026-08-24T21:31:06.867862+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603435",
@@ -6308,7 +6308,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-24T19:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:370",
         "name": "Fulham",
@@ -6334,10 +6334,9 @@
         "color": "144992"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Craven Cottage",
-      "detail": "90'+5'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6351,7 +6350,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-24T19:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:99",
         "name": "M\u00e1laga",
@@ -6377,10 +6376,9 @@
         "color": "3366CC"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "La Rosaleda",
-      "detail": "64'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6830,7 +6828,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Sutter Health Park",
       "detail": "",
       "game_number": 1,
@@ -6876,7 +6874,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "T-Mobile Park",
       "detail": "",
       "game_number": 1,
@@ -7933,6 +7931,42 @@
   ],
   "stories": [
     {
+      "story_id": "49713990",
+      "headline": "Sources: Kanter Freedom not WNBA-eligible; arena ban TBD",
+      "summary": "The WNBA has not announced any plans to ban Enes Kanter Freedom from attending future games but, according to multiple sources, the ex-NBA player will not be eligible to play in the league.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0824/35e3cd2c-39d9-413b-8ff8-f058335d2387/35e3cd2c-39d9-413b-8ff8-f058335d2387.jpg",
+      "published_utc": "2026-08-24T21:22:58Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Kareem Copeland",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49713990/kanter-freedom-not-wnba-eligible-arena-ban-tbd"
+    },
+    {
+      "story_id": "49715422",
+      "headline": "Harbaugh: 'Reasonable to assume' Nabers will be ready for opener",
+      "summary": "Giants wide receiver Malik Nabers shed the red no-contact jersey and took part in live drills Monday for the first time with Week 1 in sight.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706454_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T21:16:57Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Jordan Raanan",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49715422/harbaugh-reasonable-assume-nabers-ready-opener"
+    },
+    {
+      "story_id": "49662528",
+      "headline": "Premier League recap: Chelsea beat Fulham in five-goal thriller",
+      "summary": "Chelsea scored in the opening minute and didn't look back in a fun, end-to-end 3-2 win at Fulham to open their 2026-27 Premier League campaign.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706435_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T20:59:31Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49662528/premier-league-live-updates-chelsea-kick-their-season-fulham"
+    },
+    {
       "story_id": "49713195",
       "headline": "Fantasy baseball lineup advice for Tuesday: Nola, Kay among top streamers",
       "summary": "Everything you need to know to set your fantasy baseball lineups for Tuesday's MLB action.",
@@ -7943,42 +7977,6 @@
       "byline": "ESPN Fantasy",
       "source": "ESPN",
       "link": "https://www.espn.com/fantasy/baseball/story/_/id/49713195/fantasy-baseball-pitcher-rankings-lineup-advice-tips-mlb-daily-notes-august-25-games"
-    },
-    {
-      "story_id": "49662528",
-      "headline": "Premier League live updates: Chelsea lead Fulham in five-goal thriller",
-      "summary": "Enjoy all the updates from Monday's Premier League match as Fulham hosts Chelsea in the last game of Matchday 1.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706421_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T20:37:55Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49662528/premier-league-live-updates-chelsea-kick-their-season-fulham"
-    },
-    {
-      "story_id": "49715232",
-      "headline": "Why Dan Orlovsky loves Kayshon Boutte's trade to Texans",
-      "summary": "Why Dan Orlovsky loves Kayshon Boutte's trade to Texans",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/ss_20260824_163302738_3635210/ss_20260824_163302738_3635210.jpg",
-      "published_utc": "2026-08-24T20:36:55Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49715232/why-dan-orlovsky-loves-kayshon-boutte-trade-texans"
-    },
-    {
-      "story_id": "48417601",
-      "headline": "2026 WNBA championship odds: Lynx now odds-on title favorites; Four others shorter than 10-1",
-      "summary": "The Lynx remain favorites to win the WNBA championship, while the Fever are making a move on the oddsboard.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706429_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T20:17:54Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Doug Greenberg",
-      "source": "ESPN",
-      "link": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp"
     },
     {
       "story_id": "49714324",
@@ -8077,16 +8075,28 @@
       "link": "https://www.espn.com/nrl/story/_/id/49709624/nrl-adam-reynolds-return-shelved-sad-end-nrl-career"
     },
     {
-      "story_id": "46793185",
-      "headline": "Every team's odds to win the World Series: Dodgers remain clear favorites",
-      "summary": "Every MLB team's odds to win the 2026 World Series, led by the Dodgers. Milwaukee and Tampa Bay continue to see odds improvement.",
-      "image": "https://a.espncdn.com/photo/2025/1102/r1569497_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T17:46:35Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
+      "story_id": "48417601",
+      "headline": "2026 WNBA championship odds: Lynx now odds-on title favorites; Four others shorter than 10-1",
+      "summary": "The Lynx remain favorites to win the WNBA championship, while the Fever are making a move on the oddsboard.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706429_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T20:17:54Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
       "byline": "Doug Greenberg",
       "source": "ESPN",
-      "link": "https://www.espn.com/espn/betting/story/_/id/46793185/espn-mlb-betting-odds-futures-bets-world-series-american-national-league"
+      "link": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp"
+    },
+    {
+      "story_id": "49376941",
+      "headline": "2026 Green Bay Packers training camp: Latest intel, updates",
+      "summary": "Catch up on our daily updates from Packers training camp, including intel on QBs, position battles and potential breakouts.",
+      "image": "https://a.espncdn.com/photo/2026/0816/r1702728_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T21:12:11Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Rob Demovsky",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49376941/green-bay-packers-training-camp-2026-intel-updates"
     },
     {
       "story_id": "49714065",
@@ -8101,28 +8111,16 @@
       "link": "https://www.espn.com/soccer/story/_/id/49714065/manchester-city-agree-40m-deal-allan-elias-sources"
     },
     {
-      "story_id": "48915601",
-      "headline": "2026 NFL offseason trade grades: Kayshon Boutte, Myles Garrett",
-      "summary": "We're sizing up post-June 1 deals, including the blockbuster A.J. Brown and Myles Garrett trades along with Kayshon Boutte going to Houston.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706399_608x342_16-9.jpg",
-      "published_utc": "2026-08-24T20:22:03Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Seth Walder",
+      "story_id": "46793185",
+      "headline": "Every team's odds to win the World Series: Dodgers remain clear favorites",
+      "summary": "Every MLB team's odds to win the 2026 World Series, led by the Dodgers. Milwaukee and Tampa Bay continue to see odds improvement.",
+      "image": "https://a.espncdn.com/photo/2025/1102/r1569497_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T17:46:35Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Doug Greenberg",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/48915601/2026-nfl-offseason-trade-grades-best-worst-moves-training-camp-preseason"
-    },
-    {
-      "story_id": "49713360",
-      "headline": "Mercury buy out DeWanna Bonner, who will seek title chance",
-      "summary": "The Mercury and DeWanna Bonner have reached an agreement to buy out her contract. Once she clears waivers, the six-time All-Star will look for a chance to sign as a free agent with a playoff team.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706337_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T19:18:04Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Kareem Copeland",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49713360/mercury-buy-dewanna-bonner-seek-title-chance"
+      "link": "https://www.espn.com/espn/betting/story/_/id/46793185/espn-mlb-betting-odds-futures-bets-world-series-american-national-league"
     },
     {
       "story_id": "49671088",
