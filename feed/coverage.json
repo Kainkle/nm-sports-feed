@@ -1,8 +1,23 @@
 {
-  "generated_utc": "2026-08-24T01:04:57.981438+00:00",
+  "generated_utc": "2026-08-24T02:13:38.653430+00:00",
   "window_days": 2,
-  "total_events": 164,
+  "total_events": 168,
   "competitions": [
+    {
+      "competition": "aew",
+      "name": "AEW",
+      "sport": "wrestling",
+      "events": 1,
+      "date_range": [
+        "2026-08-23",
+        "2026-08-23"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0
+    },
     {
       "competition": "afl",
       "name": "AFL",
@@ -310,6 +325,19 @@
       "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
+      "competition": "tna",
+      "name": "TNA",
+      "sport": "wrestling",
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+    },
+    {
       "competition": "uefa.champions",
       "name": "Champions League",
       "sport": "soccer",
@@ -363,7 +391,7 @@
       "status_coverage_pct": 100,
       "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "volleyball",
@@ -391,7 +419,22 @@
       "status_coverage_pct": 100,
       "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 0
+    },
+    {
+      "competition": "wwe",
+      "name": "WWE",
+      "sport": "wrestling",
+      "events": 3,
+      "date_range": [
+        "2026-08-22",
+        "2026-08-26"
+      ],
+      "explicit_status": 3,
+      "status_coverage_pct": 100,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0
     }
   ],
   "problems": [],
@@ -401,8 +444,8 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 5,
-    "carried": 5
+    "live_events": 2,
+    "carried": 2
   },
   "replay_items": {
     "total": 86,

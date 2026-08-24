@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T01:04:57.970696+00:00",
+  "generated_utc": "2026-08-24T02:13:38.619410+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603435",
@@ -830,6 +830,42 @@
       ],
       "replay_poster": "https://mlblive.net/_pu/105/28456096.jpg",
       "card": ""
+    },
+    {
+      "event_id": "tvmaze:803:s27e34",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-08-22T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:803",
+        "name": "WWE Friday Night SmackDown",
+        "abbrev": "SD",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE Friday Night SmackDown"
     },
     {
       "event_id": "mlb:824072",
@@ -3638,6 +3674,42 @@
       "card": ""
     },
     {
+      "event_id": "tvmaze:68778:s4e37",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-08-23T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
+    },
+    {
       "event_id": "mlb:825044",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -5724,7 +5796,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:18418",
         "name": "Atlanta United FC",
@@ -5752,10 +5824,9 @@
         "color": "a7c6ed"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/In Progress",
+      "source_status": "post/Full Time",
       "venue": "Mercedes-Benz Stadium",
-      "detail": "90'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5769,7 +5840,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:19",
         "name": "Chicago Sky",
@@ -5799,10 +5870,9 @@
         "color": "002d62"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Wintrust Arena",
-      "detail": "5:01 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5816,7 +5886,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-23T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:132052",
         "name": "Portland Fire",
@@ -5846,12 +5916,11 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Moda Center",
-      "detail": "1:42 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "tQOX78bHQGQ",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5939,7 +6008,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Live/Manager challenge",
       "venue": "Journey Bank Ballpark",
       "detail": "",
       "has_live_source": true,
@@ -5988,7 +6057,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Nissan Stadium",
-      "detail": "12:32 - 2nd Quarter",
+      "detail": "6:07 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6391,6 +6460,42 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "tvmaze:802:s33e34",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-08-25T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:802",
+        "name": "WWE Monday Night RAW",
+        "abbrev": "RAW",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE Monday Night RAW"
     },
     {
       "event_id": "espn:basketball:401857171",
@@ -7309,6 +7414,42 @@
       "card": ""
     },
     {
+      "event_id": "tvmaze:2266:s20e34",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-08-26T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:2266",
+        "name": "WWE NXT",
+        "abbrev": "NXT",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE NXT"
+    },
+    {
       "event_id": "espn:basketball:401857174",
       "sport": "basketball",
       "competition_id": "wnba",
@@ -7680,16 +7821,28 @@
   ],
   "stories": [
     {
-      "story_id": "49706394",
-      "headline": "Kyle Schwarber's walk-off HR caps Phillies' comeback vs. Cards",
-      "summary": "Kyle Schwarber's major-league-leading 39th home run punctuated Philadelphia's unlikely rally from a four-run deficit in the bottom of the ninth inning Sunday and secured the Phillies' ninth straight win.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0823/f763c0b61b2a490d93a6ffb47e114dd7997/f763c0b61b2a490d93a6ffb47e114dd7997.jpg",
-      "published_utc": "2026-08-24T00:37:45Z",
+      "story_id": "49707438",
+      "headline": "Mariners crushed again in Bryce Miller start, lose 19-2 to Cubs",
+      "summary": "Mariners starter Bryce Miller lost his second straight start by at least 17 runs after the Cubs crushed Seattle 19-2, days after the M's lost 22-0 to Milwaukee.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/67765f4f-26a4-4e0f-8b6f-fa10c9deff79/67765f4f-26a4-4e0f-8b6f-fa10c9deff79.jpg",
+      "published_utc": "2026-08-24T02:11:50Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49706394/kyle-schwarber-walk-home-run-caps-phillies-comeback-vs-cardinals-9th-straight-win"
+      "link": "https://www.espn.com/mlb/story/_/id/49707438/mariners-crushed-again-bryce-miller-start-lose-19-2-cubs"
+    },
+    {
+      "story_id": "49707455",
+      "headline": "Kanter Freedom ejected after confrontation with Sky's Cloud",
+      "summary": "Ex-NBA player Enes Kanter Freedom was ejected from Sunday's game between the Fever and Sky after a verbal altercation with Chicago's Natasha Cloud.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0824/35e3cd2c-39d9-413b-8ff8-f058335d2387/35e3cd2c-39d9-413b-8ff8-f058335d2387.jpg",
+      "published_utc": "2026-08-24T02:03:16Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Kareem Copeland",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49707455/kanter-freedom-ejected-confrontation-sky-cloud"
     },
     {
       "story_id": "49706703",
@@ -7728,6 +7881,18 @@
       "link": "https://www.espn.com/video/clip/_/id/49706417/isak-expected-tough-atmosphere-st-james-park"
     },
     {
+      "story_id": "49706226",
+      "headline": "'Congratulations to Mark': Hird concedes Dons coaching race to McVeigh",
+      "summary": "Mark McVeigh appears set to be unveiled as Essendon's next senior coach, with fellow applicant James Hird congratulating his former teammate on the impending appointment.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705653_1296x729_16-9.jpg",
+      "published_utc": "2026-08-23T23:18:29Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49706226/afl-round-24-news-report-georgiades-shines-port-adelaide-power-hand-essendon-bombers-wooden-spoon"
+    },
+    {
       "story_id": "49705923",
       "headline": "New England Revolution vs. New York City FC - Game Highlights",
       "summary": "Watch the Game Highlights from New England Revolution vs. New York City FC, 08/23/2026",
@@ -7738,30 +7903,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49705923/new-england-revolution-vs-new-york-city-fc-game-highlights"
-    },
-    {
-      "story_id": "49705651",
-      "headline": "Paige Bueckers scores 18 of her 32 in 1st quarter, Wings beat Storm 92-70",
-      "summary": "\u2014 Paige Bueckers scored 18 of her 32 points in the first quarter, Jessica Shepard had 11 points and 11 rebounds, and the Dallas Wings beat the Seattle Storm 92-70 on Sunday to tie the franchise's single-season wins record.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857167.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-23T22:37:29Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/recap?gameId=401857167"
-    },
-    {
-      "story_id": "49705583",
-      "headline": "Swans prepare for finals as investigation continues",
-      "summary": "Sydney will prepare for their AFL finals campaign while bracing for more fall-out from the sexual assault allegations that have rocked the club.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705651_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T21:55:58Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49705583/afl-sydeny-swans-prepare-finals-investigation-continues"
     },
     {
       "story_id": "49705193",
@@ -7812,16 +7953,16 @@
       "link": "https://www.espn.com/nhl/story/_/id/49685092/pwhl-walter-cup-championship-trophy-missing-league-says"
     },
     {
-      "story_id": "49696744",
-      "headline": "Tigers stun Roosters, blow NRL top-four race wide open",
-      "summary": "The Sydney Roosters have slipped on a Wests Tigers-shaped banana skin in a shock 25-24 loss that could prove fatal in their pursuit of the NRL's minor premiership.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705652_1296x729_16-9.jpg",
+      "story_id": "49706249",
+      "headline": "PNG Chiefs bring Joey Manu back to NRL on two-year deal",
+      "summary": "Joey Manu has been unveiled as the much-hyped PNG Chief 007, with the two-time premiership winner to return to the NRL in 2028.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0823/dm_260823_NRL_Highlight_Madden_sinks_the_Roosters_with_game_winning_field_goal_20260823_AUS_ONLY/dm_260823_NRL_Highlight_Madden_sinks_the_Roosters_with_game_winning_field_goal_20260823_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49696744/nrl-round-25-news-report-tigers-stun-roosters-blow-nrl-top-four-race-wide-open"
+      "link": "https://www.espn.com/nrl/story/_/id/49706249/png-chiefs-bring-joey-manu-back-nrl-two-year-deal"
     },
     {
       "story_id": "49706595",
@@ -7834,6 +7975,18 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/mlb/story/_/id/49706595/astros-manager-joe-espada-misses-game-due-family-emergency"
+    },
+    {
+      "story_id": "49707463",
+      "headline": "Austin scores career-high 31, Mystics rally from 14-point deficit and beat Fire 105-100",
+      "summary": "\u2014 Shakira Austin had a career-high 31 points and 10 rebounds and Georgia Amoore hit two free throws with 4.2 seconds left to help the Washington Mystics rally from a 14-point deficit and beat the Portland Fire 105-100 on Sunday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857169.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-24T01:46:30Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/wnba/recap?gameId=401857169"
     },
     {
       "story_id": "49639942",
@@ -7872,6 +8025,18 @@
       "link": "https://www.espn.com/video/clip/_/id/49706381/maresca-explains-guehi-midfield-role-bournemouth-win"
     },
     {
+      "story_id": "49667094",
+      "headline": "Stocks up, stocks down: Is this unheralded Blue the best small forward in the comp?!",
+      "summary": "Logan Morris booted eight in front of a massive crowd at the MCG, but the Pies have some injury concers. Plus, has this Blue been the best small forward in the second half of the year? Here's whose stocks are up and down after Round 24.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705951_1296x729_16-9.png",
+      "published_utc": "2026-08-23T23:06:36Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "ESPN staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/page/POINTSBET20241/afl-footy-review-news-analysis-round-24-stocks-francis-evans-logan-morris-scott-pendlebury-nick-watson"
+    },
+    {
       "story_id": "49698229",
       "headline": "LAFC vs. Portland Timbers - Game Highlights",
       "summary": "Watch the Game Highlights from LAFC vs. Portland Timbers, 08/22/2026",
@@ -7882,30 +8047,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49698229/lafc-vs-portland-timbers-game-highlights"
-    },
-    {
-      "story_id": "49705599",
-      "headline": "Dallas Wings vs. Seattle Storm - Game Highlights",
-      "summary": "Watch the Game Highlights from Dallas Wings vs. Seattle Storm, 08/23/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0823/21db8484-8448-49b3-9bb7-03fdec51e022/21db8484-8448-49b3-9bb7-03fdec51e022.jpg",
-      "published_utc": "2026-08-23T21:57:27Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49705599/dallas-wings-vs-seattle-storm-game-highlights"
-    },
-    {
-      "story_id": "49696707",
-      "headline": "Watson takes jaw-dropping mark as Hawks crush Eagles",
-      "summary": "Jack Gunston kicked five goals in his 300-game milestone and Nick Watson took a spectacular mark of the year contender as Hawthorn's bid to snare third spot fell just short in a 62-point win over West Coast in Perth.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705665_1296x729_16-9.jpg",
-      "published_utc": "2026-08-23T12:22:17Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49696707/afl-round-24-news-report-nick-watson-mark-year-jack-gunston-300th-hawthorn-hawks-beat-west-coast-eagles-finish-top-four"
     },
     {
       "story_id": "49679190",
@@ -7956,16 +8097,16 @@
       "link": "https://www.espn.com/nhl/story/_/id/49675714/new-york-islanders-fan-designed-third-jersey-navy-lighthouse"
     },
     {
-      "story_id": "49696716",
-      "headline": "Sharks rally to beat Titans, stay in NRL top-four race",
-      "summary": "Not looking back, Cronulla are focusing only on what's next after snapping a shocking two-game losing streak to revive their NRL top-four hopes with a potentially season-saving 30-22 win over the lowly Gold Coast.",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705638_1296x729_16-9.jpg",
+      "story_id": "49696744",
+      "headline": "Tigers stun Roosters, blow NRL top-four race wide open",
+      "summary": "The Sydney Roosters have slipped on a Wests Tigers-shaped banana skin in a shock 25-24 loss that could prove fatal in their pursuit of the NRL's minor premiership.",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705652_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49696716/nrl-round-25-news-report-sharks-rally-beat-titans-stay-nrl-top-four-race"
+      "link": "https://www.espn.com/nrl/story/_/id/49696744/nrl-round-25-news-report-tigers-stun-roosters-blow-nrl-top-four-race-wide-open"
     }
   ],
   "shows": [
@@ -7973,30 +8114,48 @@
       "id": "ww:tna-lockdown-8-23-26-august-23-2026",
       "title": "TNA Lockdown 8/23/26 \u2013 August 23, 2026",
       "date": "2026-08-23",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/1",
+      "replay_url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/2/1",
       "replay_candidates": [
         {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 51)",
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/2/1",
+          "label": "OK.ru FHD \u2014 Full Show",
           "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/3/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/3/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/3/3",
+          "label": "Other Hosts \u2014 NetU (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/1",
+          "label": "Dailymotion FHD \u2014 Part 1",
+          "part": true,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Mstream (Thunder) \u2014 Live SD (CH 52)",
-          "part": false,
+          "label": "Dailymotion FHD \u2014 Part 2",
+          "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 53)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live SD (CH 54)",
-          "part": false,
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-23-2026/select-post-1/1/3",
+          "label": "Dailymotion FHD \u2014 Part 3",
+          "part": true,
           "live": false
         }
       ],
