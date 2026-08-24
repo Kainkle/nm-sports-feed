@@ -28,8 +28,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import highlights, mut, news, replays
-from .adapters import ADAPTERS, SourceError
+from . import highlights, mut, news, replays, wrestling
+from .adapters import ADAPTERS, SourceError, TVMAZE_RUNTIMES
 from .model import Event, Status
 
 REPO = Path(__file__).resolve().parent.parent
@@ -214,6 +214,15 @@ def main() -> int:
     else:
         print(f"  mut intersection: {intersection[0]} of {intersection[1]} live events carried")
 
+    # Wrestling status, AFTER the mut intersection and for the same reason the intersection exists:
+    # these rows have no "vs", so `mut.Entry` rejects them and `mark_live` would otherwise leave a
+    # LIVE wrestling event looking uncarried. The pass marks carried itself (see
+    # sportsdata/wrestling.py for why its LIVE is clock-bracketed but provider-confirmed).
+    wrest = wrestling.mark(events, TVMAZE_RUNTIMES)
+    if wrest is not None:
+        n_sched, n_live, n_final, n_unknown = wrest
+        print(f"  wrestling: {n_sched} scheduled / {n_live} live / {n_final} final / {n_unknown} unknown")
+
     # Editorial, fetched alongside the fixtures and published in the same file.
     #
     # One file rather than two: the box already polls this URL every ten seconds, and a second request on
@@ -222,9 +231,10 @@ def main() -> int:
     print(f"  stories: {len(stories)} across "
           f"{len({s.competition_id for s in stories})} competitions")
 
-    # Weekly wrestling shows: replay items with no fixture representation (no feed event will
-    # ever carry them), so they are collected rather than matched. Same one-file rule as stories.
-    # A 6-day window holds exactly one episode per weekly show.
+    # Weekly wrestling shows as REPLAYS: collected rather than matched, same one-file rule as
+    # stories. A 6-day window holds exactly one episode per weekly show. The shows now also exist
+    # as fixtures (the TVmaze adapters), but that is the schedule surface — this is the replay
+    # surface, and the matcher's watch-wrestling scope stays UFC cards, so the two never couple.
     try:
         shows = replays.collect_ww_shows(
             (datetime.now(timezone.utc).date() - timedelta(days=6)).isoformat())

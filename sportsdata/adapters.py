@@ -406,6 +406,135 @@ class MotoGpAdapter(Adapter):
         return out
 
 
+# Runtime in minutes per wrestling event_id, filled by the adapter as it emits. The status pass
+# (`sportsdata/wrestling.py`) needs it for the live window but the Event schema has no runtime
+# field — a fixture's length is not data the app renders — so it hands off in-process instead of
+# widening the schema for one consumer.
+TVMAZE_RUNTIMES: dict[str, int] = {}
+
+
+def _et_utc(day: str, hhmm: str) -> str:
+    """
+    A US Eastern wall-clock slot on `day`, as UTC — DST-aware with no `zoneinfo` dependency.
+
+    The transition dates are computed rather than hardcoded because the build must run identically
+    on CI (which has a tz database) and on a Windows dev box (which does not — `ZoneInfo` raises
+    there without the `tzdata` package). The 02:00 switch-over instant is irrelevant to 20:00/21:00
+    slots, so a date-level rule is exact for every slot this module uses.
+    """
+    from datetime import date, datetime, timedelta, timezone
+
+    y, m, d = map(int, day.split("-"))
+    dd = date(y, m, d)
+
+    def nth_weekday(month: int, weekday: int, n: int) -> date:
+        first = date(y, month, 1)
+        return date(y, month, 1 + (weekday - first.weekday()) % 7 + 7 * (n - 1))
+
+    # US DST: 2nd Sunday of March .. day before 1st Sunday of November. Sunday is weekday() 6.
+    edt = nth_weekday(3, 6, 2) <= dd < nth_weekday(11, 6, 1)
+    hh, mm = map(int, hhmm.split(":"))
+    local = datetime(y, m, d, hh, mm, tzinfo=timezone(timedelta(hours=-4 if edt else -5)))
+    return local.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+class TvmazeAdapter(Adapter):
+    """
+    Pro wrestling's weekly shows — `api.tvmaze.com`. Free, keyless, bare request.
+
+    **Why TVmaze:** it is the only accurate tracker found for WWE/AEW/TNA (2026-08-23 hunt:
+    SofaScore carries no wrestling at all, ESPN's taxonomy rejects `wrestling/wwe` with a 400,
+    TheSportsDB returns null). TVmaze models these shows as *episodic TV*, which is exactly what
+    they are — network-published airdates weeks ahead, per-episode runtime, updated daily.
+
+    **Why fixed ET slots and not `airstamp`:** measured 2026-08-23, the stamp's *date* is right but
+    its time-of-day is only right for the network-carried shows (20:00 ET → 00:00Z next day).
+    Netflix-carried Raw has no `airtime` and is stamped `T12:00:00+00:00` — a placeholder, 12 hours
+    early for an 8pm ET premiere. So the episode list supplies the calendar and the per-show slot
+    below supplies the clock. PLE specials (Royal Rumble, SummerSlam) do not exist on TVmaze and
+    stay replay-side via `replays.collect_ww_shows`.
+
+    One `/shows/{id}/episodes` GET per show per process, cached class-wide — `fetch` runs per date
+    and Raw alone has 1,700+ episodes, so re-fetching per date would be 1,700 rows of waste per day
+    of window.
+    """
+
+    sport = "wrestling"
+    URL_SHOW = "https://api.tvmaze.com/shows/{sid}"
+    URL_EPISODES = "https://api.tvmaze.com/shows/{sid}/episodes"
+
+    # show_id -> (show, episodes), shared by every instance: the promotions partition the shows,
+    # so no cross-instance duplication is possible even before the cache makes it moot.
+    _cache: dict[int, tuple[dict, list[dict]]] = {}
+
+    def __init__(self, competition_id: str, competition_name: str,
+                 shows: list[tuple[int, str, str]]) -> None:
+        self.key = f"tvmaze:{competition_id}"
+        self.competition_id = competition_id
+        self.competition_name = competition_name
+        self._shows = shows  # (tvmaze show id, badge abbrev, ET slot "HH:MM")
+
+    def _show_episodes(self, sid: int) -> tuple[dict, list[dict]]:
+        if sid not in TvmazeAdapter._cache:
+            TvmazeAdapter._cache[sid] = (
+                _get(self.URL_SHOW.format(sid=sid)),
+                _get(self.URL_EPISODES.format(sid=sid)),
+            )
+        return TvmazeAdapter._cache[sid]
+
+    def fetch(self, date: str) -> list[Event]:
+        out: list[Event] = []
+        for sid, abbrev, slot in self._shows:
+            show, episodes = self._show_episodes(sid)
+            image = (show.get("image") or {}).get("original")
+            for e in episodes:
+                if e.get("airdate") != date:
+                    continue
+                event_id = f"tvmaze:{sid}:s{e.get('season') or 0}e{e.get('number') or 0}"
+                # home = the show (badge artwork), away = the promotion (text badge). The card
+                # carries the show's full name: it is what surfaces display — see the app's
+                # `SportsEvent.matchup`, which prefers `card` — and it is the status pass's match
+                # key against mut's row titles (sportsdata/wrestling.py).
+                out.append(Event(
+                    event_id=event_id,
+                    sport=self.sport,
+                    competition_id=self.competition_id,
+                    competition_name=self.competition_name,
+                    start_utc=_et_utc(date, slot),
+                    # A calendar, not a live feed — same honesty as MotoGP. The status pass
+                    # (sportsdata/wrestling.py) owns every wrestling transition.
+                    status=Status.UNKNOWN,
+                    home=Team(id=f"tvmaze:{sid}", name=show.get("name") or abbrev,
+                              abbrev=abbrev, logo=image),
+                    away=Team(id=f"wrestling:{self.competition_id}",
+                              name=self.competition_name, abbrev=self.competition_name),
+                    source=self.key,
+                    source_status="calendar",
+                    card=show.get("name") or abbrev,
+                ))
+                TVMAZE_RUNTIMES[event_id] = e.get("runtime") or 0
+        return out
+
+
+# (competition_id, name, [(tvmaze show id, badge abbrev, ET slot)]). Show ids verified Running with
+# current episodes 2026-08-23; slots verified against TVmaze's own `schedule.time` except Raw,
+# whose slot is its known 8pm ET premiere (see the adapter docstring for why its stamp is unusable).
+WRESTLING = [
+    ("wwe", "WWE", [
+        (802, "RAW", "20:00"),
+        (803, "SD", "20:00"),
+        (2266, "NXT", "20:00"),
+    ]),
+    ("aew", "AEW", [
+        (42189, "DYN", "20:00"),
+        (68778, "COL", "20:00"),
+    ]),
+    ("tna", "TNA", [
+        (1349, "IMP", "21:00"),
+    ]),
+]
+
+
 # Every competition verified in docs/SPORTS_SOURCES_VERIFIED.md. Adding one is a line here.
 ESPN_COMPETITIONS = [
     ("football", "nfl", "nfl", "NFL"),
@@ -434,6 +563,8 @@ ESPN_COMPETITIONS = [
 ]
 
 ADAPTERS = [MlbAdapter(), NhlAdapter(), MotoGpAdapter()] + [
+    TvmazeAdapter(cid, name, shows) for cid, name, shows in WRESTLING
+] + [
     EspnAdapter(sport, league, cid, name) for sport, league, cid, name in ESPN_COMPETITIONS
 ]
 
