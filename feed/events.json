@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-24T21:57:53.934793+00:00",
+  "generated_utc": "2026-08-24T22:36:17.888337+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603435",
@@ -6392,7 +6392,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-24T22:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:116",
         "name": "Detroit Tigers",
@@ -6422,9 +6422,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Comerica Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6438,7 +6439,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-24T22:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:146",
         "name": "Miami Marlins",
@@ -6468,9 +6469,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "loanDepot park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6484,7 +6486,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-24T22:45:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:120",
         "name": "Washington Nationals",
@@ -6514,9 +6516,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Nationals Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6690,7 +6693,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Angel Stadium",
       "detail": "",
       "game_number": 1,
@@ -6784,7 +6787,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
@@ -7931,16 +7934,28 @@
   ],
   "stories": [
     {
-      "story_id": "49715273",
-      "headline": "Cowboys OL Shiyazh Pete, Schottenheimer reflect on viral postgame speech",
-      "summary": "Shiyazh Pete, a member of the Navajo Nation, said the reaction from fans during the Cowboys game against the Cardinals was overwhelming to him.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706445_608x342_16-9.jpg",
-      "published_utc": "2026-08-24T21:47:49Z",
+      "story_id": "49376941",
+      "headline": "2026 Green Bay Packers training camp: Latest intel, updates",
+      "summary": "Catch up on our daily updates from Packers training camp, including intel on QBs, position battles and potential breakouts.",
+      "image": "https://a.espncdn.com/photo/2026/0816/r1702728_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T22:32:01Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Todd Archer",
+      "byline": "Rob Demovsky",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49715273/dallas-cowboys-shiyazh-pete-brian-schottenheimer-postgame-speech"
+      "link": "https://www.espn.com/nfl/story/_/id/49376941/green-bay-packers-training-camp-2026-intel-updates"
+    },
+    {
+      "story_id": "49715961",
+      "headline": "\u00c1lvaro Arbeloa: Fulham showed the right energy in defeat to Chelsea",
+      "summary": "Fulham manager \u00c1lvaro Arbeloa took heart from his side's performance in the 3-2 defeat to Chelsea and said it typified the character he wants to see from his players this season.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706486_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T22:24:57Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "Shubi Arun",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49715961/alvaro-arbeloa-fulham-showed-right-energy-chelsea-defeat"
     },
     {
       "story_id": "49715231",
@@ -7953,18 +7968,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/nba/story/_/id/49715231/sources-blazers-sharpe-miss-6-months-meniscus-tear"
-    },
-    {
-      "story_id": "49715242",
-      "headline": "Chelsea's Premier League opener under Xabi Alonso hints at fun season to come",
-      "summary": "Chelsea's 2026-27 Premier League season looks like it'll be fun if Monday's rollercoaster win at Fulham is any indication.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706465_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T21:29:21Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "Tom Hamilton",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49715242/chelsea-premier-league-opener-xabi-alonso-hints-fun-season-come"
     },
     {
       "story_id": "49713990",
@@ -8079,12 +8082,24 @@
       "headline": "LSU's Lane Kiffin defends pursuit of NFL players returning to college",
       "summary": "LSU's Lane Kiffin defended his decision to pursue NFL rookies seeking a fifth year of playing college football, saying he's just one of many coaches trying to do so.",
       "image": "https://a.espncdn.com/photo/2026/0810/r1699949_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T21:45:44Z",
+      "published_utc": "2026-08-24T22:26:18Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Max Olson",
       "source": "ESPN",
       "link": "https://www.espn.com/college-football/story/_/id/49715699/lsu-lane-kiffin-defends-pursuit-nfl-players-returning-college"
+    },
+    {
+      "story_id": "49715794",
+      "headline": "Nottingham Forest eye move for Chelsea's Liam Delap - sources",
+      "summary": "Nottingham Forest are keen on bringing in striker Liam Delap from Chelsea, sources have told ESPN.",
+      "image": "https://a.espncdn.com/photo/2026/0815/r1702169_1296x729_16-9.jpg",
+      "published_utc": "2026-08-24T22:17:07Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "Tom Hamilton",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49715794/nottingham-forest-eye-move-chelsea-liam-delap-football-premier-league-transfers"
     },
     {
       "story_id": "49714324",
@@ -8097,18 +8112,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49714324/rembering-kobe-mamba-mentality"
-    },
-    {
-      "story_id": "49662528",
-      "headline": "Premier League recap: Chelsea beat Fulham in five-goal thriller",
-      "summary": "Chelsea scored in the opening minute and didn't look back in a fun, end-to-end 3-2 win at Fulham to open their 2026-27 Premier League campaign.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706435_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T20:59:31Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49662528/premier-league-live-updates-chelsea-kick-their-season-fulham"
     },
     {
       "story_id": "48417601",
@@ -8279,6 +8282,18 @@
           "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live SD (CH 32)",
           "part": false,
           "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/08-24-2026/select-post-1/4/1",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/08-24-2026/select-post-1/5/1",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
         }
       ],
       "source_url": "https://watch-wrestling.eu/wwe-raw-2k26-live-full-show/"
