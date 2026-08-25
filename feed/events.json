@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-25T03:29:32.786191+00:00",
+  "generated_utc": "2026-08-25T04:19:20.713783+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057441",
@@ -5328,7 +5328,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-25T01:38:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:108",
         "name": "Los Angeles Angels",
@@ -5359,10 +5359,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Angel Stadium",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5564,7 +5563,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-25T01:45:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:137",
         "name": "San Francisco Giants",
@@ -5594,10 +5593,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Oracle Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5611,7 +5609,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-25T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6",
         "name": "Los Angeles Sparks",
@@ -5641,10 +5639,9 @@
         "color": "e31837"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "crypto.com Arena",
-      "detail": "4:00 - 3rd Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7472,16 +7469,28 @@
   ],
   "stories": [
     {
-      "story_id": "49717675",
-      "headline": "Anthony Seigler hits go-ahead triple in 9th and Red Sox beat Marlins 4-2",
-      "summary": "\u2014 Anthony Seigler hit a go-ahead triple in the ninth inning, and the Boston Red Sox beat the Miami Marlins 4-2 on Monday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816655.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-25T03:19:28Z",
+      "story_id": "49640698",
+      "headline": "WNBA playoffs 2026: Which teams have clinched berths",
+      "summary": "Minnesota, Las Vegas, Golden State, Indiana, Atlanta, New York and Washington will play in the 2026 WNBA playoffs.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706584_1296x729_16-9.jpg",
+      "published_utc": "2026-08-25T04:11:58Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49640698/wnba-playoffs-2026-which-teams-clinched-postseason-berth"
+    },
+    {
+      "story_id": "49718126",
+      "headline": "Corey Seager sparks offense as Rangers rout White Sox 11-2 to grab AL West lead",
+      "summary": "\u2014 Corey Seager had three hits and three RBI, and Jake Burger and Wyatt Langford homered to lead the Texas Rangers to an 11-2 victory over the Chicago White Sox on Monday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816658.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-25T03:32:45Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816655"
+      "link": "http://www.espn.com/mlb/recap?gameId=401816658"
     },
     {
       "story_id": "49717471",
@@ -7506,18 +7515,6 @@
       "byline": "Heather Dinich",
       "source": "ESPN",
       "link": "https://www.espn.com/college-football/story/_/id/49716985/pro-athletes-not-return-college-competition"
-    },
-    {
-      "story_id": "49640698",
-      "headline": "WNBA playoffs 2026: Which teams have clinched berths",
-      "summary": "Minnesota, Las Vegas, Golden State, Indiana, Atlanta, New York and Washington will play in the 2026 WNBA playoffs.",
-      "image": "https://a.espncdn.com/photo/2026/0818/r1703251_1296x729_16-9.jpg",
-      "published_utc": "2026-08-25T02:18:06Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49640698/wnba-playoffs-2026-which-teams-clinched-postseason-berth"
     },
     {
       "story_id": "49710805",
@@ -7604,28 +7601,40 @@
       "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
     },
     {
-      "story_id": "49709624",
-      "headline": "Reynolds' return shelved in sad end to NRL career",
-      "summary": "Adam Reynolds' NRL career is officially over after Brisbane's medical staff pulled the pin on his planned return from a calf injury for the final two matches of the Broncos' season.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_NRL_Highlight_Burton_scores_a_brace_against_the_Dragons_20260822_AUS_ONLY/dm_260822_NRL_Highlight_Burton_scores_a_brace_against_the_Dragons_20260822_AUS_ONLY.jpg",
+      "story_id": "49717346",
+      "headline": "Rabbitoh Jai Arrow set to play 100th Souths game",
+      "summary": "Jai Arrow will make cameo appearances in the final two rounds of the regular season in order to reach 100 games for South Sydney.",
+      "image": "https://a.espncdn.com/photo/2026/0611/r1671607_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49709624/nrl-adam-reynolds-return-shelved-sad-end-nrl-career"
+      "link": "https://www.espn.com/nrl/story/_/id/49717346/nrl-rabbitoh-jai-arrow-set-play-100th-souths-game"
     },
     {
-      "story_id": "49718007",
-      "headline": "Texas Rangers vs. Chicago White Sox: Game Highlights",
-      "summary": "Texas Rangers vs. Chicago White Sox: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0825/3d2d5c51-8b32-4d03-bda7-c1775c0f7033/3d2d5c51-8b32-4d03-bda7-c1775c0f7033.jpg",
-      "published_utc": "2026-08-25T03:08:25Z",
+      "story_id": "49717700",
+      "headline": "Minnesota Lynx vs. Golden State Valkyries - Game Highlights",
+      "summary": "Watch the Game Highlights from Minnesota Lynx vs. Golden State Valkyries, 08/24/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0825/f7d287d8-7914-414a-8a2d-d3fdde17b105/f7d287d8-7914-414a-8a2d-d3fdde17b105.jpg",
+      "published_utc": "2026-08-25T02:15:28Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49717700/minnesota-lynx-vs-golden-state-valkyries-game-highlights"
+    },
+    {
+      "story_id": "49717675",
+      "headline": "Anthony Seigler hits go-ahead triple in 9th and Red Sox beat Marlins 4-2",
+      "summary": "\u2014 Anthony Seigler hit a go-ahead triple in the ninth inning, and the Boston Red Sox beat the Miami Marlins 4-2 on Monday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816655.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-25T03:19:28Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49718007/game-highlights"
+      "link": "http://www.espn.com/mlb/recap?gameId=401816655"
     },
     {
       "story_id": "49715231",
@@ -7650,18 +7659,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49717034/why-liz-loza-avoiding-joe-burrow-fantasy-drafts"
-    },
-    {
-      "story_id": "49717700",
-      "headline": "Minnesota Lynx vs. Golden State Valkyries - Game Highlights",
-      "summary": "Watch the Game Highlights from Minnesota Lynx vs. Golden State Valkyries, 08/24/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0825/f7d287d8-7914-414a-8a2d-d3fdde17b105/f7d287d8-7914-414a-8a2d-d3fdde17b105.jpg",
-      "published_utc": "2026-08-25T02:15:28Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49717700/minnesota-lynx-vs-golden-state-valkyries-game-highlights"
     },
     {
       "story_id": "49716466",
@@ -7748,16 +7745,16 @@
       "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class"
     },
     {
-      "story_id": "49708759",
-      "headline": "COVID runs through Bulldogs ahead of vital clash",
-      "summary": "With Canterbury's finals hopes on the line, 10 players have missed training with COVID-19 ahead of a must-win clash with Penrith.",
+      "story_id": "49709624",
+      "headline": "Reynolds' return shelved in sad end to NRL career",
+      "summary": "Adam Reynolds' NRL career is officially over after Brisbane's medical staff pulled the pin on his planned return from a calf injury for the final two matches of the Broncos' season.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0822/dm_260822_NRL_Highlight_Burton_scores_a_brace_against_the_Dragons_20260822_AUS_ONLY/dm_260822_NRL_Highlight_Burton_scores_a_brace_against_the_Dragons_20260822_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49708759/covid-19-runs-canterbury-bankstown-bulldogs-ahead-vital-clash"
+      "link": "https://www.espn.com/nrl/story/_/id/49709624/nrl-adam-reynolds-return-shelved-sad-end-nrl-career"
     }
   ],
   "shows": [
