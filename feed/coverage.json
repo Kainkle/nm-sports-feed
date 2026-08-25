@@ -1,18 +1,18 @@
 {
-  "generated_utc": "2026-08-24T23:54:09.148498+00:00",
+  "generated_utc": "2026-08-25T01:10:32.593531+00:00",
   "window_days": 2,
-  "total_events": 168,
+  "total_events": 160,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-08-23",
-        "2026-08-23"
+        "2026-08-27"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
@@ -22,14 +22,14 @@
       "competition": "afl",
       "name": "AFL",
       "sport": "australian-football",
-      "events": 8,
+      "events": 7,
       "date_range": [
-        "2026-08-21",
+        "2026-08-22",
         "2026-08-23"
       ],
-      "explicit_status": 8,
+      "explicit_status": 7,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 7,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -89,14 +89,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 10,
+      "events": 9,
       "date_range": [
-        "2026-08-21",
+        "2026-08-22",
         "2026-08-24"
       ],
-      "explicit_status": 10,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -106,8 +106,8 @@
       "sport": "soccer",
       "events": 10,
       "date_range": [
-        "2026-08-21",
-        "2026-08-25"
+        "2026-08-22",
+        "2026-08-26"
       ],
       "explicit_status": 10,
       "status_coverage_pct": 100,
@@ -179,8 +179,8 @@
       "sport": "baseball",
       "events": 70,
       "date_range": [
-        "2026-08-21",
-        "2026-08-26"
+        "2026-08-22",
+        "2026-08-27"
       ],
       "explicit_status": 70,
       "status_coverage_pct": 100,
@@ -272,14 +272,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 14,
+      "events": 11,
       "date_range": [
-        "2026-08-21",
+        "2026-08-22",
         "2026-08-24"
       ],
-      "explicit_status": 14,
+      "explicit_status": 11,
       "status_coverage_pct": 100,
-      "both_logos": 14,
+      "both_logos": 11,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -300,14 +300,14 @@
       "competition": "rugby-league",
       "name": "Rugby League",
       "sport": "rugby-league",
-      "events": 7,
+      "events": 5,
       "date_range": [
-        "2026-08-21",
+        "2026-08-22",
         "2026-08-23"
       ],
-      "explicit_status": 7,
+      "explicit_status": 5,
       "status_coverage_pct": 100,
-      "both_logos": 7,
+      "both_logos": 5,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -410,31 +410,31 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 15,
+      "events": 14,
       "date_range": [
-        "2026-08-21",
-        "2026-08-26"
+        "2026-08-22",
+        "2026-08-27"
       ],
-      "explicit_status": 15,
+      "explicit_status": 14,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 14,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 3,
+      "events": 2,
       "date_range": [
-        "2026-08-22",
+        "2026-08-25",
         "2026-08-26"
       ],
-      "explicit_status": 3,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 1
     }
   ],
   "problems": [],
@@ -444,14 +444,14 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 4,
-    "carried": 4
+    "live_events": 5,
+    "carried": 5
   },
   "replay_items": {
-    "total": 100,
+    "total": 88,
     "by_sport": {
       "australian-football": 3,
-      "baseball": 67,
+      "baseball": 55,
       "mma": 1,
       "motor-sports": 3,
       "rugby": 26
