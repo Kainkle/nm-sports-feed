@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-26T02:59:25.030820+00:00",
+  "generated_utc": "2026-08-26T04:00:22.512793+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057441",
@@ -3240,7 +3240,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-25T23:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:145",
         "name": "Chicago White Sox",
@@ -3271,10 +3271,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Rate Field",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3699,7 +3698,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-08-26T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:11",
         "name": "Phoenix Mercury",
@@ -3729,10 +3728,9 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/Halftime",
+      "source_status": "post/Final",
       "venue": "Mortgage Matchup Center",
-      "detail": "Halftime",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5373,16 +5371,28 @@
   ],
   "stories": [
     {
-      "story_id": "49727859",
-      "headline": "Pete Alonso homers and drives in 4 before leaving game as Orioles rout Cardinals 13-1",
-      "summary": "\u2014 Pete Alonso had four hits, including a three-run homer, and drove in four runs before leaving the game in the fifth inning, and the Baltimore Orioles routed the swooning St. Louis Cardinals 13-1 on Tuesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816672.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-26T02:53:29Z",
+      "story_id": "49727875",
+      "headline": "Francisco Lindor leads resurgent Mets to 3-2 victory over MLB-best Brewers in 10 innings",
+      "summary": "\u2014 Francisco Lindor made a diving catch at shortstop with the bases loaded in the ninth inning and scored the winning run on a throwing error in the 10th to lead the New York Mets past the Milwaukee Brewers 3-2 on Tuesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816670.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-08-26T03:35:29Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816672"
+      "link": "http://www.espn.com/mlb/recap?gameId=401816670"
+    },
+    {
+      "story_id": "49427703",
+      "headline": "2026 New England Patriots training camp: Latest intel, updates",
+      "summary": "Catch up on our daily updates from Patriots training camp, including intel on QBs, position battles and potential breakouts.",
+      "image": "https://a.espncdn.com/photo/2026/0813/r1701288_1296x729_16-9.jpg",
+      "published_utc": "2026-08-26T02:59:31Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Mike Reiss",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49427703/new-england-patriots-training-camp-2026-intel-updates"
     },
     {
       "story_id": "49727487",
@@ -5395,30 +5405,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "http://www.espn.com/wnba/recap?gameId=401857174"
-    },
-    {
-      "story_id": "48915793",
-      "headline": "2026 NFL offseason trade tracker: Updates on preseason deals",
-      "summary": "We're following trades right through the kickoff of the 2026 NFL season, including Kayshon Boutte going to the Texans.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706383_608x342_16-9.jpg",
-      "published_utc": "2026-08-26T01:01:37Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "ESPN Staff",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/48915793/2026-nfl-offseason-trade-tracker-updates-news-contracts-training-camp-preseason"
-    },
-    {
-      "story_id": "49699188",
-      "headline": "AFL overreactions: Max Gawn's nine All-Australians won't be beaten",
-      "summary": "Max Gawn now holds the outright record for most All-Australian blazers with nine. But is it a mark that'll stand forever? Let's get to this week's big talking point.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706907_1296x729_16-9.png",
-      "published_utc": "2026-08-25T23:28:29Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49699188/afl-news-talking-points-reactions-review-analysis-max-gawn-all-australian-demons-ruck-aa"
     },
     {
       "story_id": "49726306",
@@ -5493,6 +5479,18 @@
       "link": "https://www.espn.com/f1/story/_/id/49439341/verstappen-race-how-watch-disney+-how-works-taking-part"
     },
     {
+      "story_id": "49720221",
+      "headline": "Gawn named in record ninth All-Australian team",
+      "summary": "Melbourne colossus Max Gawn has underlined his status as the greatest ruckman of the modern era, awarded an unprecedented ninth All-Australian blazer after another brilliant individual season.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY.jpg",
+      "published_utc": "2026-08-25T12:19:53Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49720221/afl-all-australian-team-max-gawn-fremantle-dockers-brisbane-lions"
+    },
+    {
       "story_id": "49716165",
       "headline": "Missing PWHL championship trophy found, returned to Victoire",
       "summary": "The Montreal Victoire's missing Walter Cup championship trophy has been found after being lost during shipment and reunited with the team, the PWHL announced Monday.",
@@ -5517,16 +5515,28 @@
       "link": "https://www.espn.com/nrl/story/_/id/49720040/nrl-jacob-preston-stay-canterbury-bankstown-bulldogs"
     },
     {
-      "story_id": "49727766",
-      "headline": "Baltimore Orioles vs. St. Louis Cardinals: Game Highlights",
-      "summary": "Baltimore Orioles vs. St. Louis Cardinals: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/81ff74c0-060f-4151-80cb-c3dcb069581f/81ff74c0-060f-4151-80cb-c3dcb069581f.jpg",
-      "published_utc": "2026-08-26T02:44:45Z",
+      "story_id": "49728028",
+      "headline": "Texas Rangers vs. Chicago White Sox: Game Highlights",
+      "summary": "Texas Rangers vs. Chicago White Sox: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/9a992bd7-418e-499b-a8b6-bd692994f43f/9a992bd7-418e-499b-a8b6-bd692994f43f.jpg",
+      "published_utc": "2026-08-26T03:29:31Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49727766/game-highlights"
+      "link": "https://www.espn.com/video/clip/_/id/49728028/game-highlights"
+    },
+    {
+      "story_id": "48915793",
+      "headline": "2026 NFL offseason trade tracker: Updates on preseason deals",
+      "summary": "We're following trades right through the kickoff of the 2026 NFL season, including Kayshon Boutte going to the Texans.",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706383_608x342_16-9.jpg",
+      "published_utc": "2026-08-26T01:01:37Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "ESPN Staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/48915793/2026-nfl-offseason-trade-tracker-updates-news-contracts-training-camp-preseason"
     },
     {
       "story_id": "49727436",
@@ -5539,30 +5549,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/49727436/dallas-wings-vs-fire-game-highlights"
-    },
-    {
-      "story_id": "49725989",
-      "headline": "Ann Michael Maye grants Patriots fan's baking Make-a-Wish",
-      "summary": "Ann Michael granted a Make-A-Wish on Friday at Gillette Stadium for Skylar, a 16-year-old from Massachusetts diagnosed with a brain tumor.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706909_608x342_16-9.jpg",
-      "published_utc": "2026-08-26T00:56:04Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Mike Reiss",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49725989/ann-michael-maye-new-england-patriots-make-wish"
-    },
-    {
-      "story_id": "49720221",
-      "headline": "Gawn named in record ninth All-Australian team",
-      "summary": "Melbourne colossus Max Gawn has underlined his status as the greatest ruckman of the modern era, awarded an unprecedented ninth All-Australian blazer after another brilliant individual season.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY.jpg",
-      "published_utc": "2026-08-25T12:19:53Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49720221/afl-all-australian-team-max-gawn-fremantle-dockers-brisbane-lions"
     },
     {
       "story_id": "49725897",
@@ -5635,6 +5621,18 @@
       "byline": "ESPN",
       "source": "ESPN",
       "link": "https://www.espn.com/f1/story/_/id/49439303/max-verstappen-disney+-silverstone-karting-live"
+    },
+    {
+      "story_id": "49721186",
+      "headline": "Crows skipper lauded for season after family tragedy",
+      "summary": "Adelaide captain Jordan Dawson has opened up on his personal \"struggle\" throughout the AFL season after winning his third All-Australian blazer.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY.jpg",
+      "published_utc": "2026-08-25T12:05:19Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49721186/afl-all-australian-team-adelaide-crows-skipper-jordan-dawson-lauded"
     },
     {
       "story_id": "49685092",
