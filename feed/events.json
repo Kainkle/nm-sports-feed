@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-26T04:51:24.912854+00:00",
+  "generated_utc": "2026-08-26T05:26:21.617773+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057441",
@@ -3415,7 +3415,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-26T01:38:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:108",
         "name": "Los Angeles Angels",
@@ -3446,10 +3446,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Angel Stadium",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5366,40 +5365,64 @@
   ],
   "stories": [
     {
-      "story_id": "48677635",
-      "headline": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis",
-      "summary": "Your one-stop shop as you prep for draft season, including rankings, projections and analysis.",
-      "image": "https://a.espncdn.com/photo/2026/0615/fan_football_draft_guide_cr_16x9.jpg",
-      "published_utc": "2026-08-26T04:34:36Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Fantasy staff",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFDraftGuide26-48677635/2026-fantasy-football-rankings-mock-draft-cheat-sheets-sleepers"
-    },
-    {
-      "story_id": "49728293",
-      "headline": "Dallas Wings secure final WNBA playoff berth with 23rd win",
-      "summary": "The Dallas Wings claimed the eighth and final WNBA playoff spot Tuesday with their 96-78 victory over the Portland Fire at College Park Center, sending star guard Paige Bueckers, the 2025 No. 1 pick, to the postseason for the first time.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/33711b0f-6af8-4dc7-923f-9c28bd41c33b/33711b0f-6af8-4dc7-923f-9c28bd41c33b.jpg",
-      "published_utc": "2026-08-26T04:21:21Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Michael Voepel",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49728293/dallas-wings-secure-final-wnba-playoff-berth-23rd-win"
-    },
-    {
-      "story_id": "49728513",
-      "headline": "Minnesota Twins vs. Athletics: Game Highlights",
-      "summary": "Minnesota Twins vs. Athletics: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/ff83efda-de8f-4da3-83f6-ed5bd301d0fe/ff83efda-de8f-4da3-83f6-ed5bd301d0fe.jpg",
-      "published_utc": "2026-08-26T04:18:10Z",
+      "story_id": "49728892",
+      "headline": "Cleveland Guardians vs. Los Angeles Angels: Game Highlights",
+      "summary": "Cleveland Guardians vs. Los Angeles Angels: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/22cbca35-134a-458c-a4d8-40e25daee61c/22cbca35-134a-458c-a4d8-40e25daee61c.jpg",
+      "published_utc": "2026-08-26T05:14:46Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49728513/game-highlights"
+      "link": "https://www.espn.com/video/clip/_/id/49728892/game-highlights"
+    },
+    {
+      "story_id": "49640698",
+      "headline": "WNBA playoffs 2026: Which teams have clinched berths",
+      "summary": "Minnesota, Las Vegas, Golden State, Indiana, Atlanta, New York, Washington and Dallas are headed to the playoffs.",
+      "image": "https://a.espncdn.com/photo/2026/0826/r1707011_3_1296x729_16-9.jpg",
+      "published_utc": "2026-08-26T05:07:08Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49640698/wnba-playoffs-2026-which-teams-clinched-postseason-berth"
+    },
+    {
+      "story_id": "49728677",
+      "headline": "Le\u00f3n vs. Real Salt Lake - Game Highlights",
+      "summary": "Watch the Game Highlights from Le\u00f3n vs. Real Salt Lake, 08/25/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/8ca9116d-6a23-47de-881f-a0aa8c444ee6/8ca9116d-6a23-47de-881f-a0aa8c444ee6.jpg",
+      "published_utc": "2026-08-26T05:05:45Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49728677/leon-vs-real-salt-lake-game-highlights"
+    },
+    {
+      "story_id": "49711682",
+      "headline": "Fantasy Football Marathon mock draft: RBs taken in 13 of first 20 picks",
+      "summary": "The annual event concluded with a 10-team mock, during which top backs went early and most waited on QBs.",
+      "image": "https://a.espncdn.com/photo/2026/0826/r1706925_1296x729_16-9.jpg",
+      "published_utc": "2026-08-26T05:00:49Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "ESPN Fantasy",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/football/story/_/page/FFMockDraft26-49711682/2026-fantasy-football-marathon-mock-draft-ppr"
+    },
+    {
+      "story_id": "49699188",
+      "headline": "AFL overreactions: Max Gawn's nine All-Australians won't be beaten",
+      "summary": "Max Gawn now holds the outright record for most All-Australian blazers with nine. But is it a mark that'll stand forever? Let's get to this week's big talking point.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706907_1296x729_16-9.png",
+      "published_utc": "2026-08-25T23:28:29Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49699188/afl-news-talking-points-reactions-review-analysis-max-gawn-all-australian-demons-ruck-aa"
     },
     {
       "story_id": "49726306",
@@ -5438,18 +5461,6 @@
       "link": "https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason"
     },
     {
-      "story_id": "49724516",
-      "headline": "Switzerland's Embolo: People in Europe 'shocked' at MLS move",
-      "summary": "New Atlanta United striker Breel Embolo said he's excited about \"a new start in my life,\" even as people in Europe are \"shocked\" at his decision to move to MLS.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706837_1296x729_16-9.jpg",
-      "published_utc": "2026-08-25T20:13:33Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "Jeff Carlisle",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49724516/atlanta-united-breel-embolo-transfer-mls-europe"
-    },
-    {
       "story_id": "48113442",
       "headline": "'Right now, I could be UFC champion': Bella Mir is the future face of fighting",
       "summary": "With Dana White as her mentor, the daughter of heavyweight champ Frank grapples for an NCAA title this weekend.",
@@ -5474,18 +5485,6 @@
       "link": "https://www.espn.com/f1/story/_/id/49439341/verstappen-race-how-watch-disney+-how-works-taking-part"
     },
     {
-      "story_id": "49720221",
-      "headline": "Gawn named in record ninth All-Australian team",
-      "summary": "Melbourne colossus Max Gawn has underlined his status as the greatest ruckman of the modern era, awarded an unprecedented ninth All-Australian blazer after another brilliant individual season.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY.jpg",
-      "published_utc": "2026-08-25T12:19:53Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49720221/afl-all-australian-team-max-gawn-fremantle-dockers-brisbane-lions"
-    },
-    {
       "story_id": "49716165",
       "headline": "Missing PWHL championship trophy found, returned to Victoire",
       "summary": "The Montreal Victoire's missing Walter Cup championship trophy has been found after being lost during shipment and reunited with the team, the PWHL announced Monday.",
@@ -5498,28 +5497,28 @@
       "link": "https://www.espn.com/nhl/story/_/id/49716165/missing-pwhl-championship-trophy-found-returned-victoire"
     },
     {
-      "story_id": "49720040",
-      "headline": "Bulldogs breakthrough, lock in star forward",
-      "summary": "Canterbury have ended months of speculation around Jacob Preston's future, taking the star second-rower off the market and extending him until the end of 2031.",
+      "story_id": "49727211",
+      "headline": "Dragon set for Super League move despite coach drama",
+      "summary": "Damien Cook has vowed to honour his Super League contract with Castleford, despite the mysterious exit of Australian coach Ryan Carr.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49720040/nrl-jacob-preston-stay-canterbury-bankstown-bulldogs"
+      "link": "https://www.espn.com/nrl/story/_/id/49727211/nrl-dragon-damien-cook-committed-england-super-league-move-coach-drama"
     },
     {
-      "story_id": "49711682",
-      "headline": "Fantasy Football Marathon mock draft: RBs go with 13 of first 20 picks",
-      "summary": "The annual event concluded with a 10-team mock, during which top backs went early and most waited at QB.",
-      "image": "https://a.espncdn.com/photo/2026/0826/r1706925_1296x729_16-9.jpg",
-      "published_utc": "2026-08-26T04:30:49Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "ESPN Fantasy",
+      "story_id": "48305211",
+      "headline": "2026 MLB ABS challenge system tracker: Team, player rankings",
+      "summary": "The ABS challenge system leaderboard ranks batters, catchers, teams and umpires throughout the MLB season.",
+      "image": "https://a.espncdn.com/photo/2026/0330/r1635936_608x342_16-9.jpg",
+      "published_utc": "2026-08-26T05:13:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFMockDraft26-49711682/2026-fantasy-football-marathon-mock-draft-ppr"
+      "link": "https://www.espn.com/mlb/story/_/id/48305211/2026-mlb-abs-challenge-system-tracker-team-player-rankings"
     },
     {
       "story_id": "49728504",
@@ -5534,16 +5533,40 @@
       "link": "http://www.espn.com/wnba/recap?gameId=401857175"
     },
     {
-      "story_id": "49728506",
-      "headline": "Oneil Cruz homers off Mason Miller in 9th, sending Pirates to a 1-0 win over Padres",
-      "summary": "\u2014 Oneil Cruz hit the first homer allowed by Mason Miller in over a year with two outs in the ninth Tuesday night, sending the Pittsburgh Pirates to a 1-0 victory over the San Diego Padres.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816679.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-26T04:14:29Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
+      "story_id": "49727817",
+      "headline": "Monterrey vs. Chicago Fire FC - Game Highlights",
+      "summary": "Watch the Game Highlights from Monterrey vs. Chicago Fire FC, 08/25/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0826/b5938796-47fc-4f92-8bf4-0f0f94f3bf2d/b5938796-47fc-4f92-8bf4-0f0f94f3bf2d.jpg",
+      "published_utc": "2026-08-26T04:38:40Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816679"
+      "link": "https://www.espn.com/video/clip/_/id/49727817/monterrey-vs-chicago-fire-fc-game-highlights"
+    },
+    {
+      "story_id": "48677635",
+      "headline": "2026 Fantasy Football Draft Guide: Rankings, mock drafts and analysis",
+      "summary": "Your one-stop shop as you prep for draft season, including rankings, projections and analysis.",
+      "image": "https://a.espncdn.com/photo/2026/0615/fan_football_draft_guide_cr_16x9.jpg",
+      "published_utc": "2026-08-26T04:34:36Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Fantasy staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/football/story/_/page/FFDraftGuide26-48677635/2026-fantasy-football-rankings-mock-draft-cheat-sheets-sleepers"
+    },
+    {
+      "story_id": "49720221",
+      "headline": "Gawn named in record ninth All-Australian team",
+      "summary": "Melbourne colossus Max Gawn has underlined his status as the greatest ruckman of the modern era, awarded an unprecedented ninth All-Australian blazer after another brilliant individual season.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY.jpg",
+      "published_utc": "2026-08-25T12:19:53Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49720221/afl-all-australian-team-max-gawn-fremantle-dockers-brisbane-lions"
     },
     {
       "story_id": "49725897",
@@ -5582,18 +5605,6 @@
       "link": "https://www.espn.com/nba/story/_/id/49725327/klay-thompson-says-chose-heat-opportunity-win-again"
     },
     {
-      "story_id": "49720294",
-      "headline": "Gomez: MLS teams have figured out Inter Miami",
-      "summary": "Gomez: MLS teams have figured out Inter Miami",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0825/dm_260825_COM_SOC_Analysis_Gomez_MLS_teams_have_figured_out_Inter_Miami_20260825_GLOBAL/dm_260825_COM_SOC_Analysis_Gomez_MLS_teams_have_figured_out_Inter_Miami_20260825_GLOBAL.jpg",
-      "published_utc": "2026-08-25T09:54:15Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49720294/mls-teams-figured-inter-miami"
-    },
-    {
       "story_id": "21807736",
       "headline": "Gregory Rodrigues stands his ground, enters middleweight top 10",
       "summary": "Here's a look at every weight class to determine the best of the best in UFC, PFL and beyond.",
@@ -5618,18 +5629,6 @@
       "link": "https://www.espn.com/f1/story/_/id/49439303/max-verstappen-disney+-silverstone-karting-live"
     },
     {
-      "story_id": "49721186",
-      "headline": "Crows skipper lauded for season after family tragedy",
-      "summary": "Adelaide captain Jordan Dawson has opened up on his personal \"struggle\" throughout the AFL season after winning his third All-Australian blazer.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY/dm_260824_AFL_Interview_Port_Adelaide_star_Zak_Butters_to_leave_the_club_20260824_AUS_ONLY.jpg",
-      "published_utc": "2026-08-25T12:05:19Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49721186/afl-all-australian-team-adelaide-crows-skipper-jordan-dawson-lauded"
-    },
-    {
       "story_id": "49685092",
       "headline": "Replica of PWHL's championship trophy missing, league says",
       "summary": "A replica of the Walter Cup, the trophy that belongs to the Professional Women's Hockey League champion Montreal Victoire, is missing, the league told The Associated Press on Friday.",
@@ -5642,16 +5641,16 @@
       "link": "https://www.espn.com/nhl/story/_/id/49685092/pwhl-walter-cup-championship-trophy-missing-league-says"
     },
     {
-      "story_id": "49706781",
-      "headline": "NRL Round 26 tipping, expert tips, best tips, sure thing, upset chance",
-      "summary": "The old \"sure thing\" curse struck again on the weekend, with the Roosters losing the absolutely unlosable game against the struggling Tigers.  Let see if I can find something surer this week.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0825/dm_260825_NRL_Highlight_Plays_of_the_Week_Issue_with_rushing_wingers_20260825_AUS_ONLY/dm_260825_NRL_Highlight_Plays_of_the_Week_Issue_with_rushing_wingers_20260825_AUS_ONLY.jpg",
+      "story_id": "49720040",
+      "headline": "Bulldogs breakthrough, lock in star forward",
+      "summary": "Canterbury have ended months of speculation around Jacob Preston's future, taking the star second-rower off the market and extending him until the end of 2031.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49706781/nrl-round-26-tipping-expert-tips-best-tips-sure-thing-upset-chance"
+      "link": "https://www.espn.com/nrl/story/_/id/49720040/nrl-jacob-preston-stay-canterbury-bankstown-bulldogs"
     }
   ],
   "shows": [
