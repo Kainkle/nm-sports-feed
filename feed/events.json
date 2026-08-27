@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-27T10:39:09.694154+00:00",
+  "generated_utc": "2026-08-27T20:47:17.446100+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874927",
@@ -2105,9 +2105,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15942369872556",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15942369872556",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/106/16691353.jpg",
       "card": ""
     },
     {
@@ -2564,9 +2571,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "L0wI51R0iRA",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15943771753132",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15943771753132",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/106/87853995.jpg",
       "card": ""
     },
     {
@@ -2665,9 +2679,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "tmQWneNSaFY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15943924845228",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15943924845228",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/106/62845722.jpg",
       "card": ""
     },
     {
@@ -2711,9 +2732,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "E3GRxl2QZFA",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15943925369516",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15943925369516",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/106/11048570.jpg",
       "card": ""
     },
     {
@@ -2855,7 +2883,7 @@
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "start_utc": "2026-08-27T09:50Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:289195",
         "name": "Broncos",
@@ -2881,15 +2909,21 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "in/First Half",
+      "source_status": "post/Final",
       "venue": "Suncorp Stadium",
-      "detail": "40'",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15562515024596",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15562515024596",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://rugby24.net/_pu/68/96720031.jpg",
       "card": ""
     },
     {
@@ -2898,7 +2932,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-27T17:05:00Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "mlb:120",
         "name": "Washington Nationals",
@@ -2928,7 +2962,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Final/Final",
       "venue": "Nationals Park",
       "detail": "",
       "game_number": 1,
@@ -2944,7 +2978,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-27T18:15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:138",
         "name": "St. Louis Cardinals",
@@ -2974,9 +3008,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Live/In Progress",
       "venue": "Busch Stadium",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2990,7 +3025,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-27T18:30Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:85",
         "name": "Celta Vigo",
@@ -3016,9 +3051,9 @@
         "color": "cd0000"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Full Time",
       "venue": "Balaidos",
-      "detail": "Thu, August 27th at 2:30 PM EDT",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3032,7 +3067,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-27T19:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:83",
         "name": "Barcelona",
@@ -3059,9 +3094,10 @@
         "color": "C8142F"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/Second Half",
       "venue": "Spotify Camp Nou",
-      "detail": "Thu, August 27th at 3:00 PM EDT",
+      "detail": "78'",
+      "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3152,7 +3188,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 1,
@@ -3198,7 +3234,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Rogers Centre",
       "detail": "",
       "game_number": 1,
@@ -3245,7 +3281,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -3292,7 +3328,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Truist Park",
       "detail": "",
       "game_number": 1,
@@ -5371,40 +5407,112 @@
   ],
   "stories": [
     {
-      "story_id": "49731659",
-      "headline": "Cowboys' leadership council is taking pressure off Prescott",
-      "summary": "While Prescott is the de facto leader, players such as Quinnen Williams and Javonte Williams are stepping up.",
-      "image": "https://a.espncdn.com/photo/2026/0826/r1707263_608x342_16-9.jpg",
-      "published_utc": "2026-08-27T10:00:14Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Todd Archer",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49731659/nfl-dallas-cowboys-dak-prescott-quinnen-williams-kennyu-clark-rashan-gary"
-    },
-    {
-      "story_id": "48990955",
-      "headline": "Summer transfer window: Grading big signings in men's soccer",
-      "summary": "The 2026 summer transfer window is open. Here is how we rated the biggest deals.",
-      "image": "https://a.espncdn.com/photo/2026/0731/r1695938_1296x729_16-9.jpg",
-      "published_utc": "2026-08-27T09:58:37Z",
+      "story_id": "49739360",
+      "headline": "Transfer rumors, news: Arsenal eye move for Marseille's Paix\u00e3o",
+      "summary": "Arsenal are reportedly keen on signing Marseille winger Igor Paix\u00e3o. Transfer Talk has the latest.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707803_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T20:32:42Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "Sam Tighe",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer"
+      "link": "https://www.espn.com/soccer/story/_/id/49739360/transfer-rumors-news-arsenal-man-city-fight-everton-winger-ndiaye"
     },
     {
-      "story_id": "49740055",
-      "headline": "Fenerbah\u00e7e's Matteo Guendouzi involved in huge brawl after Lyon playoff win",
-      "summary": "Fenerbah\u00e7e's Matt\u00e9o Guendouzi was at the centre of a mass brawl following his team's 2-1 victory against Lyon in Wednesday's Champions League play-offs second leg.",
-      "image": "https://a.espncdn.com/photo/2026/0827/r1707527_1296x729_16-9.jpg",
-      "published_utc": "2026-08-27T09:40:47Z",
+      "story_id": "49745245",
+      "headline": "Packers star RB Josh Jacobs charged with two misdemeanors",
+      "summary": "Packers running back Josh Jacobs has been charged with misdemeanor battery and misdemeanor criminal damage to property, according to Wisconsin court records.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707794_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T20:11:57Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Rob Demovsky",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49745245/packers-star-rb-josh-jacobs-charged-two-misdemeanors"
+    },
+    {
+      "story_id": "49744854",
+      "headline": "Jets star goalie Connor Hellebuyck confirms trade request",
+      "summary": "Three-time Vezina Trophy-winning goaltender Connor Hellebuyck publicly confirmed Thursday that he asked the Winnipeg Jets to trade him.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0410/c7442cdc-9bfe-47f7-a64c-d46668402841/c7442cdc-9bfe-47f7-a64c-d46668402841.jpg",
+      "published_utc": "2026-08-27T19:56:16Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/49744854/jets-star-goalie-connor-hellebuyck-confirms-trade-request"
+    },
+    {
+      "story_id": "49745237",
+      "headline": "MLB pitches free-agent frenzy period similar to NFL, NBA",
+      "summary": "MLB has proposed limiting free-agent signings to several weeks in December and then from early February on each offseason along with a ban on trades during the gap in between.",
+      "image": "https://a.espncdn.com/photo/2024/0916/r1387578_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T19:55:12Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49745237/mlb-pitches-free-agent-frenzy-period-similar-nfl-nba"
+    },
+    {
+      "story_id": "48377855",
+      "headline": "2026 NBA buzz: Latest free agency and trade updates",
+      "summary": "We're tracking deals, trades and buzz across the NBA, including the latest on Jonathan Kuminga.",
+      "image": "https://a.espncdn.com/photo/2026/0826/r1707368_576x324_16-9.jpg",
+      "published_utc": "2026-08-27T19:54:00Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason"
+    },
+    {
+      "story_id": "49740823",
+      "headline": "Champions League draw: Good games for Liverpool, bad for Barcelona",
+      "summary": "The Champions League is back! So let's unpack all the must-see games, winners and losers, and talking points from Thursday's draw for the 2026-27 league phase.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707753_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T19:21:36Z",
       "competition_id": "uefa.champions",
       "competition_name": "Champions League",
-      "byline": "Adriana Garc\u00eda",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49740055/fenerbahce-matteo-guendouzi-involved-huge-brawl-lyon-playoff-win"
+      "link": "https://www.espn.com/soccer/story/_/id/49740823/uefa-champions-league-draw-reaction-analysis-liverpool-barcelona-psg-man-city-arsenal-real-madrid"
+    },
+    {
+      "story_id": "49743667",
+      "headline": "Caitlin Clark debuts Taylor Swift friendship bracelet-inspired Caitlin 1s",
+      "summary": "The Indiana Fever star is a longtime fan of the superstar artist, with her new Caitlin 1 sneakers paying homage to her friendship bracelet from Swift's Eras Tour.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707669_608x342_16-9.jpg",
+      "published_utc": "2026-08-27T18:50:16Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Kalan Hooks",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49743667/nike-caitlin-clark-1-taylor-swift-new-sneakers-friendship-bracelet-indiana-fever"
+    },
+    {
+      "story_id": "49743980",
+      "headline": "Player development key for Real Salt Lake despite departure of Zavier Gozo",
+      "summary": "Real Salt Lake sporting director Kurt Schmid said the club won't be changing its emphasis on player development, even in the wake of securing a $15 million transfer fee from Crystal Palace for winger Zavier Gozo.",
+      "image": "https://a.espncdn.com/photo/2024/0723/r1362185_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T17:53:26Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "Jeff Carlisle",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49743980/player-development-key-real-salt-lake-departure-zavier-gozo"
+    },
+    {
+      "story_id": "49739853",
+      "headline": "Red Bull still won't be granted engine upgrade opportunities, rivals Mercedes and Ferrari will",
+      "summary": "Red Bull Powertrains will continue into the second half of the season as the only Formula 1 engine manufacturer that has not been granted an upgrade opportunity for its power unit.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707524_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T11:37:18Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Laurence Edmondson",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49739853/aduo-red-bull-granted-engine-upgrade-opportunities-rivals-mercedes-ferrari-will"
     },
     {
       "story_id": "49700850",
@@ -5419,64 +5527,52 @@
       "link": "https://www.espn.com/afl/story/_/id/49700850/afl-teams-wildcard-finals-2026-ins-outs-selection-whispers-injuries-news-fixtures-tips-odds-scores"
     },
     {
-      "story_id": "49739666",
-      "headline": "Braves look to keep home win streak alive, host the Dodgers",
-      "summary": "Los Angeles Dodgers (80-53, first in the NL West) vs. Atlanta Braves (78-55, first in the NL East)",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816698.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-27T08:02:43Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
+      "story_id": "24067525",
+      "headline": "Cris Cyborg is still going strong as a force in women's P4P top 10",
+      "summary": "At age 41, PFL women's featherweight champion continues win streak to secure spot in ESPN P4P top 10.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706696_608x342_16-9.jpg",
+      "published_utc": "2026-08-26T14:12:48Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/preview?gameId=401816698"
+      "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
     },
     {
-      "story_id": "49739574",
-      "headline": "Washington Mystics star Kiki Iriafen credits Nigerian mindset for rapid WNBA rise",
-      "summary": "Washington Mystics star Kiki Iriafen says her Nigerian roots have helped make her the player she is, crediting the mentality she inherited from her parents with pushing her through a rapid rise in the WNBA.",
-      "image": "https://a.espncdn.com/photo/2025/0707/r1515915_1296x729_16-9.jpg",
-      "published_utc": "2026-08-27T07:54:31Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Colin Udoh",
-      "source": "ESPN",
-      "link": "https://www.espn.com/espn/story/_/id/49739574/washington-mystics-star-kiki-iriafen-credits-nigerian-mindset-rapid-wnba-rise"
-    },
-    {
-      "story_id": "49439356",
-      "headline": "What makes Max\u00a0Verstappen so good? Career, background and F1 records",
-      "summary": "Max Verstappen is returning to his racing roots and is facing 100 drivers in a unique event called Max vs. 100 where the Formula 1 star will attempt to overtake 100 challengers, starting from the back of the grid.",
-      "image": "https://a.espncdn.com/photo/2026/0727/r1694213_1296x729_16-9.jpg",
-      "published_utc": "2026-08-27T06:36:47Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49439356/what-makes-max\u00a0verstappen-good-career-background-f1-records"
-    },
-    {
-      "story_id": "49737877",
-      "headline": "Toluca vs. Austin FC - Game Highlights",
-      "summary": "Watch the Game Highlights from Toluca vs. Austin FC, 08/26/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0827/78fe45d3-8216-4400-9dc5-78c6458aa558/78fe45d3-8216-4400-9dc5-78c6458aa558.jpg",
-      "published_utc": "2026-08-27T05:07:31Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
+      "story_id": "49737966",
+      "headline": "Miserable Broncos humbled by Storm at Suncorp",
+      "summary": "The heat on Michael Maguire has reached boiling point after Brisbane were humbled 46-20 by Melbourne at Suncorp Stadium.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707546_1296x729_16-9.jpg",
+      "published_utc": "",
+      "competition_id": "rugby-league",
+      "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49737877/toluca-vs-austin-fc-game-highlights"
+      "link": "https://www.espn.com/nrl/story/_/id/49737966/nrl-news-report-miserable-broncos-humbled-storm-suncorp"
     },
     {
-      "story_id": "49737162",
-      "headline": "Blake Griffin to host new late night sports talk show",
-      "summary": "The weekly talk show will debut Oct. 20, opening day of the NBA regular season, and was recorded in front of a live studio audience.",
-      "image": "https://a.espncdn.com/photo/2026/0827/r1707421_608x342_16-9.jpg",
-      "published_utc": "2026-08-27T01:58:14Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Anthony Gharib",
+      "story_id": "49744624",
+      "headline": "Chelsea set to sign Emiliano Mart\u00ednez from Aston Villa - sources",
+      "summary": "Chelsea have agreed to a deal to sign Argentina goalkeeper Emiliano Mart\u00ednez from Aston Villa for a fee of \u00a37.5 million (10.2m), sources confirmed to ESPN's James Olley.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707759_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T19:17:31Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN News Services",
       "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49737162/blake-griffin-sports-talk-show-late-night-stepback"
+      "link": "https://www.espn.com/soccer/story/_/id/49744624/chelsea-transfer-emiliano-martinez-aston-villa-argentina"
+    },
+    {
+      "story_id": "48915601",
+      "headline": "2026 NFL offseason trade grades: Tutu Atwell, Kayshon Boutte",
+      "summary": "We're making sense of a few big preseason deals, including the Tutu Atwell to the Rams and Kayshon Boutte to the Texans.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707754_3_608x342_16-9.jpg",
+      "published_utc": "2026-08-27T20:10:03Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Seth Walder",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/48915601/2026-nfl-offseason-trade-grades-best-worst-moves-training-camp-preseason"
     },
     {
       "story_id": "49731635",
@@ -5491,64 +5587,76 @@
       "link": "https://www.espn.com/nhl/story/_/id/49731635/nhl-espn-schedule-where-watch-2026-27-games"
     },
     {
-      "story_id": "24067525",
-      "headline": "Cris Cyborg is still going strong as a force in women's P4P top 10",
-      "summary": "At age 41, PFL women's featherweight champion continues win streak to secure spot in ESPN P4P top 10.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706696_608x342_16-9.jpg",
-      "published_utc": "2026-08-26T14:12:48Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
+      "story_id": "49743444",
+      "headline": "Chicago White Sox give team-themed papal miter to Pope Leo",
+      "summary": "The team had previously given away White Sox-themed pope hats during their Aug. 11 game against the Cincinnati Reds.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707655_2_1234x695_16-9.png",
+      "published_utc": "2026-08-27T17:51:25Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN Staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49743444/chicago-white-sox-pope-leo-xiv-hat-miter"
+    },
+    {
+      "story_id": "49743440",
+      "headline": "Raptors making Kyle Lowry's 7 their second retired number",
+      "summary": "The Raptors will retire the No. 7 jersey of Kyle Lowry on Jan. 10 after they face the 76ers.",
+      "image": "https://a.espncdn.com/photo/2021/0211/r813555_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T17:42:25Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings"
+      "link": "https://www.espn.com/nba/story/_/id/49743440/raptors-making-kyle-lowry-7-their-second-retired-number"
     },
     {
-      "story_id": "49717876",
-      "headline": "NRL Midweek Mail R26: Benji's backing for 'true first-grade player'",
-      "summary": "Lachlan Galvin can't wait for the \"pretty cool\" clash with Nathan Cleary, but the Bulldogs playmaker says his team know they will face a different Panthers team to the one they stunned earlier this year.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY.jpg",
-      "published_utc": "",
-      "competition_id": "rugby-league",
-      "competition_name": "Rugby League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49717876/nrl-news-round-26-lachlan-galvin-relishing-nathan-cleary-rematch"
-    },
-    {
-      "story_id": "49737112",
-      "headline": "Panthers' waiver wire watch: 3 biggest areas of need",
-      "summary": "With the cut-down deadline Sunday, Carolina could look to make claims for potential upgrades at the bottom of the roster.",
-      "image": "https://a.espncdn.com/photo/2026/0827/r1707426_608x342_16-9.jpg",
-      "published_utc": "2026-08-27T10:00:11Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Mike Kaye",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49737112/carolina-panthers-2026-waiver-wire-claims-trade-watch-cutdown-3-biggest-areas-need"
-    },
-    {
-      "story_id": "49739360",
-      "headline": "Transfer rumors, news: Arsenal, Man City to fight for Everton winger Ndiaye",
-      "summary": "Manchester City are keen on Everton winger Iliman Ndiaye but could face competition from Arsenal. Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/0729/r1695138_1296x729_16-9.jpg",
-      "published_utc": "2026-08-27T09:56:16Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49739360/transfer-rumors-news-arsenal-man-city-fight-everton-winger-ndiaye"
-    },
-    {
-      "story_id": "49722687",
-      "headline": "When is the Champions League league phase draw? Date, how it works, more",
-      "summary": "The draw for the Champions League league phase is upon us! Here's when it takes place and how it works.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706844_1296x729_16-9.jpg",
-      "published_utc": "2026-08-27T08:18:45Z",
+      "story_id": "49725713",
+      "headline": "Champions League draw recap: Arsenal-Madrid, PSG-Bar\u00e7a among notable matches",
+      "summary": "Enjoy all the updates from Monaco for the league phase draw of the 2026-27 UEFA Champions League.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707631_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T19:01:37Z",
       "competition_id": "uefa.champions",
       "competition_name": "Champions League",
-      "byline": "Nicholas Som",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49722687/2026-27-champions-league-league-phase-draw-date-how-works-explainer"
+      "link": "https://www.espn.com/soccer/story/_/id/49725713/live-updates-2026-27-uefa-champions-league-league-phase-draw"
+    },
+    {
+      "story_id": "49659438",
+      "headline": "WNBA player rankings: The top 50 players in the league",
+      "summary": "A'ja Wilson remains No. 1, but where are Caitlin Clark, Napheesa Collier and Angel Reese as the World Cup break nears?",
+      "image": "https://a.espncdn.com/photo/2026/0818/wnba_rank-top-50_16x9.jpg",
+      "published_utc": "2026-08-27T11:36:13Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Michael Voepel and Kendra Andrews and Kareem Copeland and Alexa Philippou",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49659438/wnba-2026-top-50-player-rankings-wilson-clark-stewart-miles-bueckers"
+    },
+    {
+      "story_id": "49742361",
+      "headline": "Julian Hall signs new four-year deal with New York Red Bulls",
+      "summary": "The New York Red Bulls announced that striker Julian Hall has signed a new four-year contract with the club.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706819_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T15:33:33Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "Jeff Carlisle",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49742361/julian-hall-signs-new-four-year-deal-new-york-red-bulls"
+    },
+    {
+      "story_id": "49740685",
+      "headline": "Franco Colapinto signs new contract to stay at Alpine for 2027",
+      "summary": "Franco Colapinto will continue with Alpine in Formula 1 for the 2027 season, the team confirmed on Thursday.",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707541_1296x729_16-9.jpg",
+      "published_utc": "2026-08-27T11:28:13Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/49740685/franco-colapinto-signs-new-contract-stay-alpine-2027-formula-1"
     },
     {
       "story_id": "49739575",
@@ -5563,78 +5671,6 @@
       "link": "https://www.espn.com/afl/story/_/id/49739575/afl-news-commission-chair-craig-drummond-respect-women-footy-sydney-swans"
     },
     {
-      "story_id": "49739665",
-      "headline": "Rockies bring 2-1 series advantage over Nationals into game 4",
-      "summary": "Colorado Rockies (52-81, fifth in the NL West) vs. Washington Nationals (62-73, fourth in the NL East)",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816695.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-27T08:02:40Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/preview?gameId=401816695"
-    },
-    {
-      "story_id": "49739107",
-      "headline": "Connecticut visits Indiana following Clark's 37-point outing",
-      "summary": "Connecticut Sun (10-28, 3-13 Eastern Conference) at Indiana Fever (25-14, 12-5 Eastern Conference)",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857181.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-08-27T06:10:33Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/preview?gameId=401857181"
-    },
-    {
-      "story_id": "49439341",
-      "headline": "Max vs 100: When is Verstappen race, how to watch on Disney+, how it works, who's taking part?",
-      "summary": "Four-time Formula 1 world champion Max Verstappen is taking on his next challenge -- which could be his most entertaining yet.",
-      "image": "https://a.espncdn.com/photo/2026/0501/r1652101_1296x729_16-9.jpg",
-      "published_utc": "2026-08-25T15:53:06Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/49439341/verstappen-race-how-watch-disney+-how-works-taking-part"
-    },
-    {
-      "story_id": "49738767",
-      "headline": "Am\u00e9rica vs. Columbus Crew SC - Game Highlights",
-      "summary": "Watch the Game Highlights from Am\u00e9rica vs. Columbus Crew SC, 08/26/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0827/8a4f7234-873a-4e72-a613-8dee3192a7f8/8a4f7234-873a-4e72-a613-8dee3192a7f8.jpg",
-      "published_utc": "2026-08-27T05:06:40Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49738767/america-vs-columbus-crew-sc-game-highlights"
-    },
-    {
-      "story_id": "49736217",
-      "headline": "Jeanie Buss asks court to block siblings' vote to sell Lakers shares",
-      "summary": "In a petition filed in L.A. Superior Court, Jeanie Buss is challenging the legality of her siblings' vote to sell the family's remaining Lakers shares.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0818/ss_20260818_084909900_3627967531/ss_20260818_084909900_3627967531.jpg",
-      "published_utc": "2026-08-27T01:27:31Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Ramona Shelburne",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49736217/jeanie-buss-asks-court-block-siblings-vote-sell-lakers-shares"
-    },
-    {
-      "story_id": "49716165",
-      "headline": "Missing PWHL championship trophy found, returned to Victoire",
-      "summary": "The Montreal Victoire's missing Walter Cup championship trophy has been found after being lost during shipment and reunited with the team, the PWHL announced Monday.",
-      "image": "https://a.espncdn.com/photo/2026/0824/r1706497_1296x729_16-9.jpg",
-      "published_utc": "2026-08-24T23:20:30Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/49716165/missing-pwhl-championship-trophy-found-returned-victoire"
-    },
-    {
       "story_id": "48113442",
       "headline": "'Right now, I could be UFC champion': Bella Mir is the future face of fighting",
       "summary": "With Dana White as her mentor, the daughter of heavyweight champ Frank grapples for an NCAA title this weekend.",
@@ -5647,19 +5683,40 @@
       "link": "https://www.espn.com/mma/story/_/id/48113442/bella-mir-daughter-ufc-champion-frank-mir-ncaa-women-college-wrestling"
     },
     {
-      "story_id": "49736678",
-      "headline": "Almost every game in play as NRL heads to thrilling season finale",
-      "summary": "With just the two rounds remaining, there's an almighty battle looming for the NRL minor premiership, as well as for the final two seats at the finals table.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0825/dm_260825_NRL_Highlight_Plays_of_the_Week_Beautiful_right_edge_attack_from_Penrith_20260825_AUS_ONLY/dm_260825_NRL_Highlight_Plays_of_the_Week_Beautiful_right_edge_attack_from_Penrith_20260825_AUS_ONLY.jpg",
+      "story_id": "49717876",
+      "headline": "NRL Midweek Mail R26: Benji's backing for 'true first-grade player'",
+      "summary": "Lachlan Galvin can't wait for the \"pretty cool\" clash with Nathan Cleary, but the Bulldogs playmaker says his team know they will face a different Panthers team to the one they stunned earlier this year.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0824/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY/dm_260824_NRL_Highlight_Reynolds_wants_to_see_Mitchell_in_the_Kangaroos_side_20260824_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49736678/nrl-ladder-race-2026-finals-minor-premiership-explained"
+      "link": "https://www.espn.com/nrl/story/_/id/49717876/nrl-news-round-26-lachlan-galvin-relishing-nathan-cleary-rematch"
     }
   ],
   "shows": [
+    {
+      "id": "ww:watch-tna-wrestling-000",
+      "title": "TNA Wrestling 8/27/26 \u2013 August 27, 2026",
+      "date": "2026-08-27",
+      "replay_url": "https://dailywrestling.cc/embed/gniltserwant/08-27-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-27-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 51)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwant/08-27-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (Thunder) \u2014 Live SD (CH 52)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "source_url": "https://watch-wrestling.eu/watch-tna-wrestling-000/"
+    },
     {
       "id": "ww:c01225ce2e3dd2319993d72502192630",
       "title": "ROH HonorClub TV 8/27/2026",
@@ -6746,6 +6803,42 @@
   ],
   "replays": [
     {
+      "id": "r24:6870",
+      "title": "Brisbane Broncos v Melbourne Storm - Full Match Replay - NRL - 27 August 2026",
+      "date": "2026-08-27",
+      "sport": "rugby",
+      "competition": "NRL",
+      "replay_url": "https://ok.ru/videoembed/15562515024596",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15562515024596",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/96720031.jpg",
+      "source_url": "https://rugby24.net/brisbane-broncos-v-melbourne-storm-full-match-replay-nrl-27-august-2026"
+    },
+    {
+      "id": "r24:6869",
+      "title": "Southland v Hawke's Bay - Full Match Replay - Hilux NPC - 27 August 2026",
+      "date": "2026-08-27",
+      "sport": "rugby",
+      "competition": "Hilux NPC",
+      "replay_url": "https://ok.ru/videoembed/15562514893524",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15562514893524",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/56843178.jpg",
+      "source_url": "https://rugby24.net/southland-v-hawkes-bay-full-match-replay-hilux-npc-27-august-2026"
+    },
+    {
       "id": "mlblive:10645",
       "title": "Minnesota Twins @ Athletics - MLB Full Game Replay - August 26, 2026",
       "date": "2026-08-26",
@@ -6762,6 +6855,42 @@
       ],
       "poster": "https://mlblive.net/_pu/106/92285609.jpg",
       "source_url": "https://mlblive.net/minnesota-twins-athletics-mlb-full-game-replay-august-26-2026"
+    },
+    {
+      "id": "mlblive:10653",
+      "title": "Baltimore Orioles @ St. Louis Cardinals - MLB Full Game Replay - August 26, 2026",
+      "date": "2026-08-26",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/15943925369516",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15943925369516",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/106/11048570.jpg",
+      "source_url": "https://mlblive.net/baltimore-orioles-st-louis-cardinals-mlb-full-game-replay-august-26-2026"
+    },
+    {
+      "id": "mlblive:10652",
+      "title": "Texas Rangers @ Chicago White Sox - MLB Full Game Replay - August 26, 2026",
+      "date": "2026-08-26",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/15943924845228",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15943924845228",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/106/62845722.jpg",
+      "source_url": "https://mlblive.net/texas-rangers-chicago-white-sox-mlb-full-game-replay-august-26-2026"
     },
     {
       "id": "mlblive:10644",
@@ -6798,6 +6927,24 @@
       ],
       "poster": "https://mlblive.net/_pu/106/02646582.jpg",
       "source_url": "https://mlblive.net/houston-astros-new-york-yankees-mlb-full-game-replay-august-26-2026"
+    },
+    {
+      "id": "mlblive:10651",
+      "title": "Milwaukee Brewers @ New York Mets - MLB Full Game Replay - August 26, 2026",
+      "date": "2026-08-26",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/15943771753132",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15943771753132",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/106/87853995.jpg",
+      "source_url": "https://mlblive.net/milwaukee-brewers-new-york-mets-mlb-full-game-replay-august-26-2026"
     },
     {
       "id": "mlblive:10641",
@@ -6906,6 +7053,24 @@
       ],
       "poster": "https://mlblive.net/_pu/106/69739224.jpg",
       "source_url": "https://mlblive.net/cleveland-guardians-los-angeles-angels-mlb-full-game-replay-august-26-2026"
+    },
+    {
+      "id": "mlblive:10650",
+      "title": "Cincinnati Reds @ San Francisco Giants - MLB Full Game Replay - August 26, 2026",
+      "date": "2026-08-26",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/15942369872556",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15942369872556",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/106/16691353.jpg",
+      "source_url": "https://mlblive.net/cincinnati-reds-san-francisco-giants-mlb-full-game-replay-august-26-2026"
     },
     {
       "id": "mlblive:10639",
@@ -8328,78 +8493,6 @@
       ],
       "poster": "https://mlblive.net/_pu/105/24562383.jpg",
       "source_url": "https://mlblive.net/chicago-cubs-seattle-mariners-mlb-full-game-replay-august-21-2026"
-    },
-    {
-      "id": "mlblive:10575",
-      "title": "Minnesota Twins @ San Diego Padres - MLB Full Game Replay - August 21, 2026",
-      "date": "2026-08-21",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/15888749103788",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15888749103788",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/105/91050110.jpg",
-      "source_url": "https://mlblive.net/minnesota-twins-san-diego-padres-mlb-full-game-replay-august-21-2026"
-    },
-    {
-      "id": "mlblive:10583",
-      "title": "Cincinnati Reds @ Arizona Diamondbacks - MLB Full Game Replay - August 21, 2026",
-      "date": "2026-08-21",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/15889515481772",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15889515481772",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/105/03746027.jpg",
-      "source_url": "https://mlblive.net/cincinnati-reds-arizona-diamondbacks-mlb-full-game-replay-august-21-2026"
-    },
-    {
-      "id": "mlblive:10581",
-      "title": "Cleveland Guardians @ Colorado Rockies - MLB Full Game Replay - August 21, 2026",
-      "date": "2026-08-21",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/15889514039980",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15889514039980",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/105/36889701.jpg",
-      "source_url": "https://mlblive.net/cleveland-guardians-colorado-rockies-mlb-full-game-replay-august-21-2026"
-    },
-    {
-      "id": "mlblive:10582",
-      "title": "Los Angeles Angels @ Texas Rangers - MLB Full Game Replay - August 21, 2026",
-      "date": "2026-08-21",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/15889514957484",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15889514957484",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/105/56732061.jpg",
-      "source_url": "https://mlblive.net/los-angeles-angels-texas-rangers-mlb-full-game-replay-august-21-2026"
     },
     {
       "id": "r24:6849",
