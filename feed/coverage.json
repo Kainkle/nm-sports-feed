@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-29T13:26:49.082030+00:00",
+  "generated_utc": "2026-08-29T17:21:41.369763+00:00",
   "window_days": 2,
-  "total_events": 175,
+  "total_events": 176,
   "competitions": [
     {
       "competition": "aew",
@@ -113,7 +113,7 @@
       "status_coverage_pct": 100,
       "both_logos": 11,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "f1",
@@ -141,20 +141,22 @@
       "status_coverage_pct": 100,
       "both_logos": 9,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "indycar",
       "name": "IndyCar Series",
       "sport": "racing",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 1,
+      "date_range": [
+        "2026-08-29",
+        "2026-08-29"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "ita.1",
@@ -169,7 +171,7 @@
       "status_coverage_pct": 100,
       "both_logos": 8,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 3
     },
     {
       "competition": "mlb",
@@ -184,7 +186,7 @@
       "status_coverage_pct": 100,
       "both_logos": 68,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 2
     },
     {
       "competition": "mma-sofa",
@@ -255,7 +257,7 @@
       "status_coverage_pct": 100,
       "both_logos": 8,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "ncaam",
@@ -283,7 +285,7 @@
       "status_coverage_pct": 100,
       "both_logos": 16,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "nhl",
@@ -423,7 +425,7 @@
       "status_coverage_pct": 100,
       "both_logos": 14,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "wwe",
@@ -448,17 +450,17 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 1,
-    "carried": 1
+    "live_events": 11,
+    "carried": 11
   },
   "replay_items": {
-    "total": 83,
+    "total": 99,
     "by_sport": {
       "australian-football": 3,
-      "baseball": 47,
+      "baseball": 56,
       "mma": 2,
       "motor-sports": 3,
-      "rugby": 28
+      "rugby": 35
     }
   },
   "stories": {
