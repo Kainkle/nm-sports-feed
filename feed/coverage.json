@@ -1,22 +1,22 @@
 {
-  "generated_utc": "2026-08-29T22:10:03.618896+00:00",
+  "generated_utc": "2026-08-30T00:21:45.064823+00:00",
   "window_days": 2,
-  "total_events": 177,
+  "total_events": 176,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 2,
+      "events": 1,
       "date_range": [
-        "2026-08-27",
+        "2026-08-30",
         "2026-08-30"
       ],
-      "explicit_status": 2,
+      "explicit_status": 1,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "afl",
@@ -89,14 +89,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 9,
+      "events": 10,
       "date_range": [
         "2026-08-28",
-        "2026-08-30"
+        "2026-08-31"
       ],
-      "explicit_status": 9,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -104,14 +104,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 11,
+      "events": 12,
       "date_range": [
-        "2026-08-26",
-        "2026-08-30"
+        "2026-08-27",
+        "2026-08-31"
       ],
-      "explicit_status": 11,
+      "explicit_status": 12,
       "status_coverage_pct": 100,
-      "both_logos": 11,
+      "both_logos": 12,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -156,20 +156,20 @@
       "status_coverage_pct": 100,
       "both_logos": 2,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 8,
+      "events": 10,
       "date_range": [
         "2026-08-28",
-        "2026-08-30"
+        "2026-08-31"
       ],
-      "explicit_status": 8,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -177,16 +177,16 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 68,
+      "events": 65,
       "date_range": [
-        "2026-08-26",
-        "2026-08-30"
+        "2026-08-27",
+        "2026-09-01"
       ],
-      "explicit_status": 68,
+      "explicit_status": 65,
       "status_coverage_pct": 100,
-      "both_logos": 68,
+      "both_logos": 65,
       "logo_coverage_pct": 100,
-      "live_now": 7
+      "live_now": 2
     },
     {
       "competition": "mma-sofa",
@@ -229,7 +229,7 @@
       "status_coverage_pct": 100,
       "both_logos": 1,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "nba",
@@ -257,7 +257,7 @@
       "status_coverage_pct": 100,
       "both_logos": 8,
       "logo_coverage_pct": 100,
-      "live_now": 3
+      "live_now": 4
     },
     {
       "competition": "ncaam",
@@ -397,7 +397,7 @@
       "status_coverage_pct": 100,
       "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 5
     },
     {
       "competition": "volleyball",
@@ -416,14 +416,14 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 14,
+      "events": 12,
       "date_range": [
-        "2026-08-26",
+        "2026-08-28",
         "2026-08-31"
       ],
-      "explicit_status": 14,
+      "explicit_status": 12,
       "status_coverage_pct": 100,
-      "both_logos": 14,
+      "both_logos": 12,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -431,12 +431,12 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-08-29",
-        "2026-08-29"
+        "2026-09-01"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
@@ -449,14 +449,18 @@
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
+  "live_intersection": {
+    "live_events": 13,
+    "carried": 11
+  },
   "replay_items": {
-    "total": 100,
+    "total": 79,
     "by_sport": {
-      "australian-football": 3,
-      "baseball": 56,
+      "australian-football": 2,
+      "baseball": 45,
       "mma": 1,
       "motor-sports": 3,
-      "rugby": 37
+      "rugby": 28
     }
   },
   "stories": {
