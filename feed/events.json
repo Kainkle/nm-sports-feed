@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-30T15:03:28.933592+00:00",
+  "generated_utc": "2026-08-30T18:36:08.566195+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603442",
@@ -5820,9 +5820,16 @@
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15593129511636",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593129511636",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://rugby24.net/_pu/68/93456200.jpg",
       "card": ""
     },
     {
@@ -5862,9 +5869,16 @@
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "hAsVzWZDAok",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/15593129773780",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593129773780",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://rugby24.net/_pu/68/79318185.jpg",
       "card": ""
     },
     {
@@ -6001,7 +6015,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-08-30T13:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:126",
         "name": "SC Freiburg",
@@ -6029,10 +6043,9 @@
         "color": "03915c"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Europa-Park Stadion",
-      "detail": "74'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6046,7 +6059,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-30T15:00Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:86",
         "name": "Real Madrid",
@@ -6072,9 +6085,9 @@
         "color": "b9e8f0"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Full Time",
       "venue": "Santiago Bernab\u00e9u",
-      "detail": "Sun, August 30th at 11:00 AM EDT",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6088,7 +6101,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-08-30T15:30Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:360",
         "name": "Manchester United",
@@ -6116,9 +6129,9 @@
         "color": "0000fa"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Full Time",
       "venue": "Old Trafford",
-      "detail": "Sun, August 30th at 11:30 AM EDT",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6132,7 +6145,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-08-30T15:30Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:3841",
         "name": "FC Augsburg",
@@ -6160,9 +6173,9 @@
         "color": "0000dd"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Full Time",
       "venue": "WWK Arena",
-      "detail": "Sun, August 30th at 11:30 AM EDT",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6176,7 +6189,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T16:15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:120",
         "name": "Washington Nationals",
@@ -6206,9 +6219,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Nationals Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6222,7 +6236,7 @@
       "competition_id": "ita.1",
       "competition_name": "Serie A",
       "start_utc": "2026-08-30T16:30Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:114",
         "name": "Napoli",
@@ -6248,9 +6262,9 @@
         "color": "4169E1"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Full Time",
       "venue": "Stadio Diego Armando Maradona",
-      "detail": "Sun, August 30th at 12:30 PM EDT",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6264,15 +6278,15 @@
       "competition_id": "indycar",
       "competition_name": "IndyCar Series",
       "start_utc": "2026-08-30T17:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "Pato O'Ward",
+        "name": "Will Power",
         "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "logo_dark": null,
         "aliases": [
-          "Pato O'Ward"
+          "Will Power"
         ],
         "color": null
       },
@@ -6288,9 +6302,10 @@
         "color": null
       },
       "source": "espn:racing/irl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "",
-      "detail": "Sun, August 30th at 1:00 PM EDT",
+      "detail": "In Progress",
+      "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6304,7 +6319,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-08-30T17:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:90",
         "name": "Deportivo",
@@ -6330,9 +6345,10 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/Halftime",
       "venue": "Riazor",
-      "detail": "Sun, August 30th at 1:30 PM EDT",
+      "detail": "HT",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6346,7 +6362,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T17:35:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:144",
         "name": "Atlanta Braves",
@@ -6376,9 +6392,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Truist Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6392,7 +6409,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T17:35:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:147",
         "name": "New York Yankees",
@@ -6423,9 +6440,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Yankee Stadium",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6439,7 +6457,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T17:37:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:141",
         "name": "Toronto Blue Jays",
@@ -6469,9 +6487,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Rogers Centre",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6485,7 +6504,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T17:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:114",
         "name": "Cleveland Guardians",
@@ -6515,9 +6534,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Progressive Field",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6531,7 +6551,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T17:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:116",
         "name": "Detroit Tigers",
@@ -6562,9 +6582,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Comerica Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6578,7 +6599,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T17:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:139",
         "name": "Tampa Bay Rays",
@@ -6608,9 +6629,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Tropicana Field",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6624,7 +6646,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T18:10:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:142",
         "name": "Minnesota Twins",
@@ -6655,9 +6677,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Target Field",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6671,7 +6694,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T18:10:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:158",
         "name": "Milwaukee Brewers",
@@ -6701,9 +6724,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Live/In Progress",
       "venue": "American Family Field",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6717,7 +6741,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-30T18:15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:138",
         "name": "St. Louis Cardinals",
@@ -6747,9 +6771,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Live/In Progress",
       "venue": "Busch Stadium",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6925,7 +6950,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -7012,7 +7037,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Sutter Health Park",
       "detail": "",
       "game_number": 1,
@@ -7059,7 +7084,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Angel Stadium",
       "detail": "",
       "game_number": 1,
@@ -8148,40 +8173,40 @@
   ],
   "stories": [
     {
-      "story_id": "49771035",
-      "headline": "Roman Anthony, Trevor Story rejoin Red Sox for finale vs. Yankees",
-      "summary": "Roman Anthony and Trevor Story have rejoined the Red Sox after lengthy injury absences.",
-      "image": "https://a.espncdn.com/photo/2026/0830/r1708896_1296x729_16-9.jpg",
-      "published_utc": "2026-08-30T15:01:40Z",
+      "story_id": "49679696",
+      "headline": "2026 NFL roster updates: Live tracking 53-man cut-down news",
+      "summary": "Today is the cut-down deadline (6 p.m. ET)! We're following releases, trades, signings, practice squad additions for 32 NFL teams.",
+      "image": "https://a.espncdn.com/photo/2024/1021/r1403752_1296x729_16-9.jpg",
+      "published_utc": "2026-08-30T18:34:52Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "ESPN staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49679696/2026-nfl-roster-cuts-live-updates-trades-signings-moves"
+    },
+    {
+      "story_id": "49774267",
+      "headline": "Man United hit Ipswich Town for five, as Bruno Fernandes scores hat trick",
+      "summary": "Manchester United captain Bruno Fernandes was on fire against Ipswich Town, as he inspired his team to come from behind to thrash Gary O'Neil's side 5-2.",
+      "image": "https://a.espncdn.com/photo/2026/0830/r1709065_1296x729_16-9.jpg",
+      "published_utc": "2026-08-30T18:30:02Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "Hannah Ryan",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49774267/man-united-ipswich-town-bruno-fernandes-premier-league-transfers"
+    },
+    {
+      "story_id": "49774263",
+      "headline": "Twins put OF Byron Buxton on 10-day IL with hip impingement",
+      "summary": "The Twins have placed outfielder Byron Buxton on the 10-day injured list with a right hip impingement.",
+      "image": "https://a.espncdn.com/photo/2026/0624/r1678513_1296x729_16-9.jpg",
+      "published_utc": "2026-08-30T18:28:24Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49771035/roman-anthony-trevor-story-rejoin-red-sox-finale-vs-yankees"
-    },
-    {
-      "story_id": "48915601",
-      "headline": "2026 NFL offseason trade grades: Gervon Dexter, Broderick Jones",
-      "summary": "We're making sense of seven big preseason deals, including Broderick Jones to the Cowboys.",
-      "image": "https://a.espncdn.com/photo/2025/1014/r1559876_608x342_16-9.jpg",
-      "published_utc": "2026-08-30T14:48:53Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Seth Walder and Ben Solak",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/48915601/2026-nfl-offseason-trade-grades-best-worst-moves-training-camp-preseason"
-    },
-    {
-      "story_id": "49735720",
-      "headline": "European soccer live updates: Chelsea host Brighton & Hove Albion",
-      "summary": "Emiliano Mart\u00ednez makes his debut in goal for Chelsea against Brighton & Hove Albion but Enzo Fern\u00e1ndez has been left out of the squad.",
-      "image": "https://a.espncdn.com/photo/2026/0830/r1708975_1296x729_16-9.jpg",
-      "published_utc": "2026-08-30T14:48:10Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49735720/european-soccer-live-updates-chelsea-host-brighton-hove-albion"
+      "link": "https://www.espn.com/mlb/story/_/id/49774263/twins-put-byron-buxton-10-day-il-hip-impingement"
     },
     {
       "story_id": "49770739",
@@ -8292,40 +8317,40 @@
       "link": "https://www.espn.com/nrl/story/_/id/49767500/nrl-news-report-sharks-squander-top-four-hopes-shock-loss-eels"
     },
     {
-      "story_id": "49768633",
-      "headline": "MLB betting tips for Sunday: McGonigle looks to stay hot after walk-off winner",
-      "summary": "All of the odds, recommended prop bets and trends in baseball for Sunday, August 30.",
-      "image": "https://a.espncdn.com/photo/2026/0830/r1708926_1296x729_16-9.jpg",
-      "published_utc": "2026-08-30T13:06:57Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Derek Carty",
-      "source": "ESPN",
-      "link": "https://www.espn.com/espn/betting/story/_/id/49768633/mlb-betting-tips-odds-lines-2026-sunday-august-30"
-    },
-    {
-      "story_id": "49772519",
-      "headline": "Source: Bucs tab undrafted rookie Jalon Daniels as backup QB",
-      "summary": "The Buccaneers have decided that Jalon Daniels, an undrafted rookie free agent, will be their backup quarterback to start the season, a source told NFL Network.",
-      "image": "https://a.espncdn.com/photo/2026/0830/r1708963_1296x729_16-9.jpg",
-      "published_utc": "2026-08-30T14:43:02Z",
+      "story_id": "49774343",
+      "headline": "Sources: Packers acquire Kaleb Johnson in trade with Steelers",
+      "summary": "The Packers added some depth at running back by trading for former third-round pick Kaleb Johnson on Sunday ahead of final roster cuts",
+      "image": "https://a.espncdn.com/photo/2026/0830/r1709069_1296x729_16-9.jpg",
+      "published_utc": "2026-08-30T18:22:35Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "",
+      "byline": "Rob Demovsky",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49772519/source-bucs-tab-undrafted-rookie-jalon-daniels-backup-qb"
+      "link": "https://www.espn.com/nfl/story/_/id/49774343/sources-packers-acquire-kaleb-johnson-trade-steelers"
     },
     {
-      "story_id": "49771534",
-      "headline": "Liverpool captain Virgil van Dijk urges club to keep a hold of Cody Gakpo",
-      "summary": "Virgil van Dijk has urged Liverpool to keep Cody Gakpo at the club amid interest from Manchester City.",
-      "image": "https://a.espncdn.com/photo/2026/0830/r1708911_1296x729_16-9.jpg",
-      "published_utc": "2026-08-30T12:07:52Z",
+      "story_id": "49774357",
+      "headline": "Alonso: Emi Martinez has 'aura to influence' at Chelsea",
+      "summary": "Alonso: Emi Martinez has 'aura to influence' at Chelsea",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0830/dm_260830_COM_SOC_Analysis_Alonso_Emi_Martinez_has_aura_to_influence_at_Chelsea_20260830_GLOBAL/dm_260830_COM_SOC_Analysis_Alonso_Emi_Martinez_has_aura_to_influence_at_Chelsea_20260830_GLOBAL.jpg",
+      "published_utc": "2026-08-30T18:11:09Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "Beth Lindop",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49771534/liverpool-cody-gakpo-man-city-premier-league-transfers-virgil-van-dijk"
+      "link": "https://www.espn.com/video/clip/_/id/49774357/emi-martinez-aura-influence-chelsea"
+    },
+    {
+      "story_id": "49774009",
+      "headline": "Yankees rookie SS George Lombard Jr. avoids knee damage",
+      "summary": "George Lombard Jr. does not have any structural damage in his right knee, but the Yankees rookie shortstop could still end up on the injured list.",
+      "image": "https://a.espncdn.com/photo/2026/0828/r1707994_1296x729_16-9.jpg",
+      "published_utc": "2026-08-30T18:23:17Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Jorge Castillo",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49774009/yankees-rookie-ss-george-lombard-jr-avoids-knee-damage"
     },
     {
       "story_id": "49769131",
@@ -8445,66 +8470,159 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 YT (Kickoff only) \u2014 Live FHD (CH 20)",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 17)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 18)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/1/3",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 19)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 17)",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 11)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live HD (CH 18)",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live HD (CH 12)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Mstream (Zeta) \u2014 Live SD (CH 19)",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live SD (CH 13)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 11)",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 14)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 Mstream (Thunder) \u2014 Live HD (CH 12)",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live HD (CH 15)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 Mstream (Thunder) \u2014 Live SD (CH 13)",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live SD (CH 16)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/4/1",
-          "label": "Source 4 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 14)",
-          "part": false,
-          "live": false
+          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
         },
         {
           "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/4/2",
-          "label": "Source 4 \u2013 Mstream (Alpha) \u2014 Live HD (CH 15)",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 2",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/4/3",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 3",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/5/1",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/5/2",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/5/3",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
+          "part": true,
+          "live": true
+        }
+      ],
+      "source_url": "https://watch-wrestling.eu/aew-all-in-london-2026-live-full-show/"
+    },
+    {
+      "id": "ww:wwe-nxt-heatwave-8-30-26-august-30-2026",
+      "title": "WWE NXT Heatwave 8/30/26 \u2013 August 30, 2026",
+      "date": "2026-08-30",
+      "replay_url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 NF (Zeta) \u2014 Live FHD (CH 4)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/wea/08-30-2026/select-post-1/4/3",
-          "label": "Source 4 \u2013 Mstream (Alpha) \u2014 Live SD (CH 16)",
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 NF (Zeta) \u2014 Live HD (CH 5)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/1/3",
+          "label": "Source 1 \u2013 NF (Zeta) \u2014 Live SD (CH 6)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/2/1",
+          "label": "Source 2 \u2013 NF (Thunder) \u2014 Live FHD (CH 1)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/2/2",
+          "label": "Source 2 \u2013 NF (Thunder) \u2014 Live HD (CH 2)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/2/3",
+          "label": "Source 2 \u2013 NF (Thunder) \u2014 Live SD (CH 3)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/3/1",
+          "label": "Source 3 \u2013 NF (Alpha) \u2014 Live FHD (CH 30)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/3/2",
+          "label": "Source 3 \u2013 NF (Alpha) \u2014 Live HD (CH 31)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/08-30-2026/select-post-1/3/3",
+          "label": "Source 3 \u2013 NF (Alpha) \u2014 Live SD (CH 32)",
           "part": false,
           "live": false
         }
       ],
-      "source_url": "https://watch-wrestling.eu/aew-all-in-london-2026-live-full-show/"
+      "source_url": "https://watch-wrestling.eu/wwe-nxt-heatwave-8-30-26-august-30-2026/"
     },
     {
       "id": "ww:2159bfed4208922c8bea2abdb076b651",
@@ -9501,6 +9619,96 @@
     }
   ],
   "replays": [
+    {
+      "id": "r24:6896",
+      "title": "Boland Kavaliers v Griquas - Full Match Replay - Currie Cup - 30 August 2026",
+      "date": "2026-08-30",
+      "sport": "rugby",
+      "competition": "Currie Cup",
+      "replay_url": "https://ok.ru/videoembed/15593951005396",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593951005396",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/43909236.jpg",
+      "source_url": "https://rugby24.net/boland-kavaliers-v-griquas-full-match-replay-currie-cup-30-august-2026"
+    },
+    {
+      "id": "r24:6895",
+      "title": "Parramatta Eels v Cronulla Sharks - Full Match Replay - NRL - 30 August 2026",
+      "date": "2026-08-30",
+      "sport": "rugby",
+      "competition": "NRL",
+      "replay_url": "https://ok.ru/videoembed/15593129773780",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593129773780",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/79318185.jpg",
+      "source_url": "https://rugby24.net/parramatta-eels-v-cronulla-sharks-full-match-replay-nrl-30-august-2026"
+    },
+    {
+      "id": "r24:6894",
+      "title": "New Zealand Warriors v Newcastle Knights - Full Match Replay - NRL - 30 August 2026",
+      "date": "2026-08-30",
+      "sport": "rugby",
+      "competition": "NRL",
+      "replay_url": "https://ok.ru/videoembed/15593129511636",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593129511636",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/93456200.jpg",
+      "source_url": "https://rugby24.net/new-zealand-warriors-v-newcastle-knights-full-match-replay-nrl-30-august-2026"
+    },
+    {
+      "id": "r24:6893",
+      "title": "Northland v Tasman - Full Match Replay - Hilux NPC - 30 August 2026",
+      "date": "2026-08-30",
+      "sport": "rugby",
+      "competition": "Hilux NPC",
+      "replay_url": "https://ok.ru/videoembed/15593129642708",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593129642708",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/49227311.jpg",
+      "source_url": "https://rugby24.net/northland-v-tasman-full-match-replay-hilux-npc-30-august-2026"
+    },
+    {
+      "id": "r24:6892",
+      "title": "Wellington Lions v Counties Manukau - Full Match Replay - Hilux NPC - 30 August 2026",
+      "date": "2026-08-30",
+      "sport": "rugby",
+      "competition": "Hilux NPC",
+      "replay_url": "https://ok.ru/videoembed/15593129577172",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15593129577172",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/68/93698778.jpg",
+      "source_url": "https://rugby24.net/wellington-lions-v-counties-manukau-full-match-replay-hilux-npc-30-august-2026"
+    },
     {
       "id": "mlblive:10687",
       "title": "Philadelphia Phillies @ Los Angeles Angels - MLB Full Game Replay - August 29, 2026",
