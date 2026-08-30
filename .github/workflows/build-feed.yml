@@ -1,11 +1,13 @@
 name: build-feed
 
 on:
+  repository_dispatch:
+    # The chain worker (feed-ticker.yml) arms a tick every 10 min — the trigger of
+    # record since 2026-08-30, when the */5 cron below executed only ~6 times a day.
+    types: [feed-tick]
   schedule:
-    # Every 5 minutes is the FLOOR GitHub Actions allows, and scheduled runs are best-effort — they are
-    # routinely late under load. So feed freshness is roughly 5-15 minutes, not 5. The app polls the
-    # published file every 10s, which controls how fast a change reaches the screen once it is published,
-    # not how fast it is produced. Minute-accurate live status needs a different runner; see docs.
+    # Kept as a free redundant trigger; the chain sets the real cadence. Best-effort —
+    # measured 2026-08-30: gaps of 3-5 h with every status page green.
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
@@ -43,4 +45,7 @@ jobs:
           if [ "$COUNT" -eq 0 ]; then echo "empty feed - refusing to commit"; exit 0; fi
           git add feed/
           git diff --staged --quiet || git commit -m "feed: $COUNT events [skip ci]"
-          git push
+          # The chain (feed-ticker.yml) arms a build every 10 min and the */5 cron still fires
+          # occasionally, so two builds can overlap. The concurrency group QUEUES them; the second
+          # push then loses the race. Rebase and push again instead of failing a green build.
+          git push || (git pull --rebase origin main && git push)

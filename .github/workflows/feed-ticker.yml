@@ -1,0 +1,56 @@
+name: feed-ticker
+
+# THE TRIGGER OF RECORD (2026-08-30). The build's own cron is */5 by design — the live
+# row needs minute-scale freshness — but GitHub executed it ~6 times on 2026-08-30
+# (gaps of 3-5 h) while every status page was green. Same disease the nm-now-feed cron
+# had. Same cure: a self-arming chain. Each run sleeps the gap, then dispatches the
+# next build tick AND the next ticker run with the run-scoped GITHUB_TOKEN.
+# GITHUB_TOKEN-made events start no workflows — repository_dispatch is the one
+# documented exception, which is exactly what this rides. Pattern proven live on
+# Kainkle/nm-now-feed (feed-ticker.yml there; TRIGGER.md documents the design).
+on:
+  repository_dispatch:
+    types: [tick-chain]
+  schedule:
+    # RE-SEED ONLY. If a chain run dies, this starts a new one within 30 min. Minutes
+    # offset from the nm-now-feed re-seed (3,33) so the two repos don't correlate.
+    - cron: "13,43 * * * *"
+
+permissions:
+  contents: write  # the repository_dispatch POST requires it
+
+concurrency:
+  # Exactly one ticker alive. A re-seed CANCELS the sleeping run (it has dispatched
+  # nothing yet) and carries the chain itself — no second chain can fork off.
+  group: feed-ticker
+  cancel-in-progress: true
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Gap, then arm the next build tick and the next ticker
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          # 10 min: the build takes 1-2 min, the repo is public (scheduled minutes are
+          # free), and a finished game must not sit in the live row for hours — the
+          # 2026-08-30 Revolution-Crew wedge sat there 2h+ because the cron never ran.
+          GAP_S: "600"
+        run: |
+          sleep "$GAP_S"
+          for EV in feed-tick tick-chain; do
+            code=$(curl -sS -o /dev/null -w "%{http_code}" -X POST \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/$REPO/dispatches" \
+              -d "{\"event_type\":\"$EV\"}")
+            echo "dispatch $EV -> HTTP $code"
+            if [ "$code" != "204" ]; then
+              echo "chain link FAILED for $EV"
+              exit 1
+            fi
+          done
+          echo "chain link OK"
