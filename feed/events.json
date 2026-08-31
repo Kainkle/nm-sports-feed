@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-31T22:16:03.523066+00:00",
+  "generated_utc": "2026-08-31T22:26:14.440346+00:00",
   "events": [
     {
       "event_id": "motogp:86abdbde-5e3d-45b1-a1f0-f74044a90eb3",
@@ -6889,7 +6889,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-31T22:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:113",
         "name": "Cincinnati Reds",
@@ -6919,9 +6919,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Great American Ball Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6982,7 +6983,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-31T22:45:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:111",
         "name": "Boston Red Sox",
@@ -7012,9 +7013,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Fenway Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7028,7 +7030,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-08-31T22:45:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:120",
         "name": "Washington Nationals",
@@ -7058,9 +7060,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Nationals Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7419,7 +7422,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Chase Field",
       "detail": "",
       "game_number": 1,
