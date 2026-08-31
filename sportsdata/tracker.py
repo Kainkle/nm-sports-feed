@@ -12,8 +12,23 @@ today, never a half-entry and never a build failure:
                     "form": ["W", "W", "W"]}],
      "recent":    [{"event_id": "...", "start_utc": "...", "status": "ended",
                     "home_id": "44", "home": "Arsenal", "home_score": 2,
-                    "away_id": "17", "away": "Man City", "away_score": 0}],
-     "upcoming":  [ same shape, scores 0, status "notstarted" ]}
+                    "away_id": "17", "away": "Man City", "away_score": 0,
+                    // v3, first 6 finished games only, each piece only when it served:
+                    "incidents":  [{"minute": 63, "type": "goal", "team_id": "44",
+                                    "player": "E. Haaland", "detail": "Goal", "is_home": false}],
+                    "statistics": [{"group": "Shots", "name": "Total shots",
+                                    "home": "20", "away": "4"}],
+                    "lineups": {"home_players": [{"name": "D. Raya", "num": 1, "pos": "G",
+                                                  "rating": "7.0"}],
+                                "away_players": [ same ]}}],
+     "upcoming":  [ same shape, scores 0, status "notstarted", never any detail ],
+     // v3, whole keys absent when this season serves nothing:
+     "stats":     [{"category": "Top goals", "rows": [{"name": "C. Palmer", "team": "Chelsea",
+                                                       "logo": "https://...", "value": "18"}]}],
+     "playoffs":  {"rounds": [{"name": "Quarter-finals", "matches": [
+                     {"home": "...", "home_id": "...", "home_logo": "...", "home_score": 2,
+                      "away": "...", "away_id": "...", "away_logo": "...", "away_score": 1,
+                      "winner": "home", "status": "ended"}]}]}}
 
 ## Why SofaScore
 
@@ -65,11 +80,36 @@ per-team form routes that once served it are 404. So form is derived from the sa
 list this module already fetched: newest-first, up to [FORM_DEPTH] results per team, from
 `winnerCode` (1 home win, 2 away win, anything else a draw). Early season a team may have fewer
 than five — the array is simply shorter, which is the true state.
+
+## v3 — stats leaders, playoffs, per-game detail (measured 2026-08-31)
+
+Player leaderboards: `/top-players` is 404 platform-wide; `/top-players/overall` is the live
+spelling. It serves only for seasons with played games behind them (eng.1 26/26-style August
+football: yes; NFL/NBA/NHL 26/27 with zero games and MLB mid-season: no — the absence is the
+source's, recorded, not retried). The league `/statistics` route answers 200 everywhere but is
+a paginated player roster with NO stat values in the body — not a leaderboard, deliberately
+unused.
+
+Playoffs: `/cups`, `/draw` and their `/total` and season-less variants all 404, on current
+seasons AND on completed bracket seasons (UCL 24/25, NHL 25/26) — the route family died with
+the 2026-08-31 migration. The bracket is therefore derived from what IS on the wire: knockout
+games carry `roundInfo.name` ("Wild Card Round", "Super Bowl", "Round of 16" …) while
+regular-season games carry a round number and NO name. Grouping the season's recent events by
+that name reproduces SofaScore's own bracket. Cups/draw stay probed first (one GET each) so the
+day the source reanimates them, the authoritative route wins again.
+
+Per-game detail: `/event/{id}/statistics` serves for every sport that played, including UFC
+(per-round fighting stats); `/incidents` and `/lineups` serve for football-shaped sports and
+404 for UFC/baseball-incidents. Lineups' `coach` node is null on this surface (measured
+football + rugby) — the coach keys are carried for the day it populates, absent until then.
+Incident `injuryTime` rows are skipped on purpose: they are a display artifact of the source's
+UI (a length, no player, no score) and would render as junk timeline rows.
 """
 
 from __future__ import annotations
 
 import json
+import pathlib
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -99,9 +139,41 @@ CROSSWALK: dict[str, int] = {
 }
 
 BASE = "https://api.sofascore.com/api/v1"
-# The fixtures' badge host, reused so a standings row's crest and a fixture's crest come from the
-# same place and Coil's memory cache sees one URL per team.
-LOGO = "https://api.sofascore.app/api/v1/team/{id}/image"
+# Team crests follow the logos.py doctrine: SofaScore's image host 403s the app's plain
+# HTTP client (wire-measured — only TLS-impersonated clients pass), so the tracker never
+# emits the source URL. The bytes are mirrored into this repo's raw CDN (img/t/{id},
+# WRITE IF MISSING — a crest is identity, not data) and the mirrored URL is what the JSON
+# carries. A fetch that fails yields "" and the app's monogram fallback: honest, and it
+# heals on the next home-machine seed because the file is still missing.
+_TEAM_IMG_SRC = "https://api.sofascore.app/api/v1/team/{id}/image"
+_TEAM_CDN = "https://raw.githubusercontent.com/Kainkle/nm-sports-feed/main/img/t"
+_TEAM_IMG_DIR = pathlib.Path(__file__).resolve().parent.parent / "img" / "t"
+_team_img_failed: set[str] = set()
+
+
+def _logo(team_id) -> str:
+    """The team-crest URL the app can actually load, or "". Mirror-on-demand, cached on
+    disk; a failed fetch is remembered for this process so one bad id costs one request."""
+    tid = str(team_id)
+    if tid in _team_img_failed:
+        return ""
+    for ext in ("png", "webp"):
+        if (_TEAM_IMG_DIR / f"{tid}.{ext}").is_file():
+            return f"{_TEAM_CDN}/{tid}.{ext}"
+    try:
+        r = cffi.get(_TEAM_IMG_SRC.format(id=tid), impersonate="chrome", timeout=20)
+        data = r.content or b""
+        # Same gate as logos.py: the .app host answers a bad id with 200 + ~0 bytes —
+        # without the size floor, write-if-missing would enshrine an empty file forever.
+        if r.status_code == 200 and len(data) >= 100:
+            ext = "webp" if data[:4] == b"RIFF" and data[8:12] == b"WEBP" else "png"
+            _TEAM_IMG_DIR.mkdir(parents=True, exist_ok=True)
+            (_TEAM_IMG_DIR / f"{tid}.{ext}").write_bytes(data)
+            return f"{_TEAM_CDN}/{tid}.{ext}"
+    except Exception:
+        pass
+    _team_img_failed.add(tid)
+    return ""
 
 # Caps. Standings 20 because a TV column stops being readable past that and the app's own drill-in
 # paginates anyway; recent 15 / upcoming 10 because they feed carousels, not archives.
@@ -109,6 +181,18 @@ STANDINGS_CAP = 20
 RECENT_CAP = 15
 UPCOMING_CAP = 10
 FORM_DEPTH = 5
+# v3 caps. Detail rides on the first 6 finished games only — the tracker feeds a drill-in, not an
+# archive, and 6 games x 3 routes is already 18 requests per league per build. Stats 4 x 5 is the
+# screen's grid. Lineups 12 covers a starting eleven plus a spare; playoff caps bound the worst
+# case (an NBA-style 4x7 post-season) without truncating any real round.
+DETAIL_CAP = 6
+STAT_CATEGORIES = 4
+STAT_ROWS = 5
+LINEUP_CAP = 12
+PLAYOFF_ROUND_CAP = 8
+PLAYOFF_MATCH_CAP = 16
+PLAYOFF_PAGES = 3
+INCIDENT_CAP = 40
 
 
 def _get(url: str) -> dict | None:
@@ -198,7 +282,7 @@ def _standings(ut: int, sid: int) -> list[dict]:
             # a fallback from the name when the key is missing (carried tables predating this
             # field have no code).
             "name_code": team.get("nameCode") or "",
-            "logo": LOGO.format(id=tid),
+            "logo": _logo(tid),
             "played": r.get("matches") or 0,
             "win": r.get("wins") or 0,
             "draw": r.get("draws") or 0,
@@ -271,6 +355,248 @@ def _with_form(standings: list[dict], recent: list[dict]) -> list[dict]:
     return standings
 
 
+# --- v3: stats leaders, playoffs, per-game detail ---
+
+def _safe(fn, *args):
+    """Absence doctrine for the v3 mappers: a malformed 200 body degrades to 'not carried',
+    exactly like a 404 does. A detail outage must never bubble into the feed build."""
+    try:
+        return fn(*args)
+    except Exception:
+        return None
+
+
+# The categories a viewer expects first when the source carries them. Anything not listed arrives
+# in the source's own order (each sport's most-viewed stat first), so non-football leagues pick
+# sensibly without a per-sport table to maintain.
+_STAT_PREFERENCE = ("goals", "assists", "rating")
+
+_STAT_LABELS = {
+    "rating": "Rating",
+    "goals": "Top goals",
+    "assists": "Top assists",
+    "expectedGoals": "Expected goals",
+    "expectedAssists": "Expected assists",
+    "goalsAssistsSum": "Goals + assists",
+    "topSpeed": "Top speed",
+    "penaltyGoals": "Penalty goals",
+}
+
+
+def _display(v) -> str:
+    """A stat value as its display string: ints bare, floats at 2dp, a lone trailing zero kept
+    (7.0 is how the source shows a whole rating, not a formatting accident)."""
+    if isinstance(v, str):
+        return v
+    if isinstance(v, float):
+        return f"{v:.1f}" if not v % 1 else f"{v:.2f}".rstrip("0").rstrip(".")
+    return str(v)
+
+
+def _stats(ut: int, sid: int) -> list[dict]:
+    """Up to [STAT_CATEGORIES] leaderboard categories x [STAT_ROWS] rows, or [] when the source
+    carries no player stats for this season (a week-old 26/27 season serves nothing — that
+    absence is the source's, and it is honest to carry no stats key at all)."""
+    data = (_get(f"{BASE}/unique-tournament/{ut}/season/{sid}/top-players/overall")
+            or _get(f"{BASE}/unique-tournament/{ut}/season/{sid}/top-players") or {})
+    top = data.get("topPlayers") or {}
+    order = [k for k in _STAT_PREFERENCE if top.get(k)]
+    order += [k for k in top if k not in order and top.get(k)]
+    out: list[dict] = []
+    for key in order[:STAT_CATEGORIES]:
+        rows: list[dict] = []
+        for r in top.get(key) or []:
+            st, player, team = r.get("statistics") or {}, r.get("player") or {}, r.get("team") or {}
+            value = st.get(key)
+            if value is None or not player.get("shortName") or not team.get("name"):
+                continue
+            # Team crest, not a player headshot: it shares the standings' crest cache and the
+            # row's secondary text is the team anyway.
+            rows.append({
+                "name": player.get("shortName"),
+                "team": team.get("name"),
+                "logo": _logo(team.get("id")),
+                "value": _display(value),
+            })
+            if len(rows) >= STAT_ROWS:
+                break
+        if rows:
+            out.append({"category": _STAT_LABELS.get(key, key[:1].upper() + key[1:]), "rows": rows})
+    return out
+
+
+# incidentClass -> the detail line the match page shows. The raw enum ("regular") would leak the
+# source's vocabulary onto a TV screen; unknown classes pass through as-is rather than guessed.
+_GOAL_CLASSES = {"regular": "Goal", "penalty": "Penalty", "own": "Own goal"}
+_CARD_CLASSES = {"yellow": "Yellow card", "yellowRed": "Second yellow", "red": "Red card"}
+
+
+def _incidents(ev_id: int, home_id: str, away_id: str) -> list[dict]:
+    """Timeline rows for one finished game, newest-first as the source returns them. Empty for
+    sports that carry no incidents (UFC, MLB) — the match page then hides the tab."""
+    data = _get(f"{BASE}/event/{ev_id}/incidents") or {}
+    out: list[dict] = []
+    for i in data.get("incidents") or []:
+        t = i.get("incidentType") or ""
+        if t == "injuryTime":
+            continue  # a display artifact of the source UI: a length, no player, no score
+        row: dict = {"minute": i.get("time") or 0, "type": t}
+        if i.get("isHome") is not None:
+            row["team_id"] = home_id if i.get("isHome") else away_id
+            row["is_home"] = bool(i.get("isHome"))
+        player = (i.get("player") or {}).get("shortName") or ""
+        detail = ""
+        if t == "goal":
+            detail = _GOAL_CLASSES.get(i.get("incidentClass") or "", i.get("incidentClass") or "")
+        elif t == "card":
+            detail = _CARD_CLASSES.get(i.get("incidentClass") or "", i.get("incidentClass") or "")
+        elif t == "substitution":
+            player = (i.get("playerIn") or {}).get("shortName") or ""
+            out_name = (i.get("playerOut") or {}).get("shortName") or ""
+            detail = f"for {out_name}" if out_name else ""
+        else:  # period and anything the source invents later: its own text is the best we have
+            detail = i.get("text") or ""
+        if player:
+            row["player"] = player
+        if detail:
+            row["detail"] = detail
+        out.append(row)
+        if len(out) >= INCIDENT_CAP:
+            break
+    return out
+
+
+def _game_stats(ev_id: int) -> list[dict]:
+    """The full-match comparison flattened to group/name/home/away rows. Only the 'ALL' period is
+    taken — per-period splits double the bytes for a screen the design never breaks down."""
+    data = _get(f"{BASE}/event/{ev_id}/statistics") or {}
+    periods = data.get("statistics") or []
+    whole = next((p for p in periods if p.get("period") == "ALL"), periods[0] if periods else None)
+    out: list[dict] = []
+    for g in (whole or {}).get("groups") or []:
+        for it in g.get("statisticsItems") or []:
+            if it.get("name") is None or it.get("home") is None or it.get("away") is None:
+                continue
+            out.append({"group": g.get("groupName") or "", "name": it.get("name"),
+                        "home": it.get("home"), "away": it.get("away")})
+    return out
+
+
+def _lineups(ev_id: int) -> dict:
+    """Both sides' starters, capped at [LINEUP_CAP]. Coach is carried when the source populates
+    it (null on this surface today — measured in the module docstring), rating per player when
+    the game has one. An empty lineup on both sides is not a lineup — returns {} so the key is
+    omitted entirely."""
+    data = _get(f"{BASE}/event/{ev_id}/lineups") or {}
+    out: dict = {}
+    for prefix, side in (("home", data.get("home") or {}), ("away", data.get("away") or {})):
+        coach = side.get("coach") or {}
+        cname = coach.get("shortName") or coach.get("name") or ""
+        if cname:
+            out[f"{prefix}_coach"] = cname
+        players: list[dict] = []
+        for p in side.get("players") or []:
+            if p.get("substitute"):
+                continue  # starters only: the design renders one XI column, not the bench
+            pl, st = p.get("player") or {}, p.get("statistics") or {}
+            if not pl.get("shortName"):
+                continue
+            row: dict = {"name": pl.get("shortName")}
+            if p.get("shirtNumber") is not None:
+                row["num"] = p.get("shirtNumber")
+            if p.get("position"):
+                row["pos"] = p.get("position")
+            if st.get("rating") is not None:
+                row["rating"] = _display(st.get("rating"))
+            players.append(row)
+            if len(players) >= LINEUP_CAP:
+                break
+        if players:
+            out[f"{prefix}_players"] = players
+    return out if out.get("home_players") or out.get("away_players") else {}
+
+
+def _with_detail(recent: list[dict]) -> list[dict]:
+    """Attach incidents/statistics/lineups to the first [DETAIL_CAP] finished games — the games a
+    viewer is most likely to open. Each piece attaches only when it actually served; older games
+    and the whole `upcoming` list carry nothing by design."""
+    attached = 0
+    for ev in recent:
+        if attached >= DETAIL_CAP:
+            break
+        if ev.get("status") != "ended":
+            continue
+        try:
+            ev_id = int(str(ev.get("event_id") or "").rsplit(":", 1)[1])
+        except (IndexError, ValueError):
+            continue
+        incs = _safe(_incidents, ev_id, ev.get("home_id") or "", ev.get("away_id") or "") or []
+        if incs:
+            ev["incidents"] = incs
+        gstats = _safe(_game_stats, ev_id) or []
+        if gstats:
+            ev["statistics"] = gstats
+        lineups = _safe(_lineups, ev_id) or {}
+        if lineups:
+            ev["lineups"] = lineups
+        attached += 1
+    return recent
+
+
+def _playoff_match(e: dict) -> dict | None:
+    """One bracket tie in the feed's shape, winner from the source's winnerCode with the score as
+    the fallback (legs of two-legged ties end level: winner stays 'none' for them honestly)."""
+    home, away = e.get("homeTeam") or {}, e.get("awayTeam") or {}
+    hid, aid = home.get("id"), away.get("id")
+    if not hid or not aid or not home.get("name") or not away.get("name"):
+        return None
+    hs = (e.get("homeScore") or {}).get("current") or 0
+    as_ = (e.get("awayScore") or {}).get("current") or 0
+    wc = e.get("winnerCode")
+    winner = "none"
+    if wc == 1 or (wc is None and hs > as_):
+        winner = "home"
+    elif wc == 2 or (wc is None and as_ > hs):
+        winner = "away"
+    return {
+        "home": home.get("name"), "home_id": str(hid), "home_logo": _logo(hid), "home_score": hs,
+        "away": away.get("name"), "away_id": str(aid), "away_logo": _logo(aid), "away_score": as_,
+        "winner": winner, "status": _status(e),
+    }
+
+
+def _playoffs(ut: int, sid: int) -> dict | None:
+    """The season's bracket derived from its events: knockout games are the only ones whose
+    roundInfo carries a NAME ("Wild Card Round", "Round of 16"); regular-season games get a bare
+    week number. Page 0 having no named round means the season has no bracket yet — one request,
+    the common case for 30 of 35 weeks a year. Rounds order chronologically by earliest game."""
+    base = f"{BASE}/unique-tournament/{ut}/season/{sid}"
+    data = _get(f"{base}/events/last/0") or {}
+    named0 = [e for e in data.get("events") or [] if ((e.get("roundInfo") or {}).get("name") or "")]
+    if not named0:
+        return None
+    # (ts, row) so a two-legged tie's legs can be sorted into play order inside the round.
+    by_round: dict[str, list[tuple[int, dict]]] = {}
+    events = list(named0)
+    for page in range(1, PLAYOFF_PAGES):  # page 0 already in hand
+        nxt = _get(f"{base}/events/last/{page}") or {}
+        evs = nxt.get("events") or []
+        if not evs:
+            break  # source ran out of history before the page cap
+        events += [e for e in evs if ((e.get("roundInfo") or {}).get("name") or "")]
+    for e in events:
+        name = (e.get("roundInfo") or {}).get("name")
+        m = _safe(_playoff_match, e)
+        if name and m:
+            by_round.setdefault(name, []).append((e.get("startTimestamp") or 0, m))
+    if not by_round:
+        return None
+    rounds = [{"name": n,
+               "matches": [m for _, m in sorted(by_round[n], key=lambda t: t[0])][:PLAYOFF_MATCH_CAP]}
+              for n in sorted(by_round, key=lambda n: min(ts for ts, _ in by_round[n]))]
+    return {"rounds": rounds[:PLAYOFF_ROUND_CAP]}
+
+
 def _league(league_id: str, ut: int) -> dict | None:
     """One tracker entry, or None when the league produced nothing. Every failure path inside
     degrades to a smaller entry or to None — a league's outage must not empty the array."""
@@ -284,13 +610,23 @@ def _league(league_id: str, ut: int) -> dict | None:
     upcoming = _events(ut, sid, "next", UPCOMING_CAP)
     if not (standings or recent or upcoming):
         return None
-    return {
+    entry = {
         "league_id": league_id,
         "season": year,
         "standings": _with_form(standings, recent),
-        "recent": recent,
+        "recent": _with_detail(recent),
         "upcoming": upcoming,
     }
+    # v3 keys attach only when the source actually served something for THIS season — absent
+    # keys are how the app knows to show the quiet empty tab rather than fake numbers.
+    if sid is not None:
+        stats = _safe(_stats, ut, sid) or []
+        if stats:
+            entry["stats"] = stats
+        playoffs = _safe(_playoffs, ut, sid)
+        if playoffs:
+            entry["playoffs"] = playoffs
+    return entry
 
 
 def collect() -> list[dict]:
