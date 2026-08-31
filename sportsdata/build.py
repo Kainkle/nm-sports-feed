@@ -28,7 +28,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import highlights, mut, news, replays, wrestling
+from . import highlights, logos, mut, news, replays, tracker, wrestling
 from .adapters import ADAPTERS, SourceError, TVMAZE_RUNTIMES
 from .model import Event, Status
 
@@ -242,12 +242,29 @@ def main() -> int:
         shows = []
     print(f"  shows: {len(shows)}")
 
+    # League Tracker tables (see sportsdata/tracker.py). Same one-file rule as stories, and for the
+    # same reason: the box polls one URL. collect() degrades per-league internally, but a total
+    # failure here must still not take the feed down — an empty `trackers` array is the app's
+    # documented "no trackers" state, not a broken feed.
+    try:
+        trackers = tracker.collect()
+    except Exception as e:  # noqa: BLE001 — the tracker is additive, never load-bearing
+        print(f"  trackers: FAILED ({type(e).__name__}: {e}) — shipping without")
+        trackers = []
+    print(f"  trackers: {len(trackers)} league(s)")
+
+    # Crest mirror, write-if-missing (see sportsdata/logos.py): heals a lost or new crest on the
+    # next run, never re-downloads one that exists. No bytes in the feed JSON — the app reads the
+    # mirrored files from this repo's raw CDN directly.
+    logos.collect()
+
     feed = {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "events": [e.to_json() for e in events],
         "stories": [s.to_json() for s in stories],
         "shows": shows,
         "replays": replay_items,
+        "trackers": trackers,
     }
     (out / "events.json").write_text(json.dumps(feed, indent=2))
 
