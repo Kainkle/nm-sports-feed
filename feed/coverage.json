@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-31T09:02:05.162345+00:00",
+  "generated_utc": "2026-08-31T09:12:17.251767+00:00",
   "window_days": 2,
-  "total_events": 168,
+  "total_events": 176,
   "competitions": [
     {
       "competition": "aew",
@@ -235,14 +235,16 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 8,
+      "date_range": [
+        "2026-08-29",
+        "2026-08-30"
+      ],
+      "explicit_status": 8,
+      "status_coverage_pct": 100,
+      "both_logos": 8,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "ncaam",
@@ -426,18 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:football/college-football",
-      "date": "2026-08-29",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20260829: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    },
-    {
-      "source": "espn:football/college-football",
-      "date": "2026-08-30",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20260830: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
