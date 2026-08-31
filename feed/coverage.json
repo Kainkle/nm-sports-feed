@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-31T03:02:29.283525+00:00",
+  "generated_utc": "2026-08-31T03:03:43.126473+00:00",
   "window_days": 2,
-  "total_events": 174,
+  "total_events": 176,
   "competitions": [
     {
       "competition": "aew",
@@ -373,14 +373,14 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 13,
+      "events": 15,
       "date_range": [
         "2026-08-29",
         "2026-08-30"
       ],
-      "explicit_status": 13,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 13,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -428,23 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:soccer/ger.1",
-      "date": "2026-08-31",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260831: <urlopen error [Errno 104] Connection reset by peer>"
-    },
-    {
-      "source": "espn:soccer/usa.1",
-      "date": "2026-08-30",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20260830: <urlopen error [Errno 104] Connection reset by peer>"
-    },
-    {
-      "source": "espn:soccer/uefa.champions",
-      "date": "2026-09-01",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20260901: <urlopen error [Errno 104] Connection reset by peer>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
