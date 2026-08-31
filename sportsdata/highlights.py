@@ -77,7 +77,7 @@ CHANNELS: dict[str, str] = {
     "epl_sky": "UCNAf1k0yIjyGu3k9BwAg3lg",      # "Sky Sports Premier League"
     "cbs_golazo": "UCET00YnetHT7tOpu12v8jxg",   # "CBS Sports Golazo"
     "laliga": "UCTv-XvfzLNe4i4IGWAm4sbmA",      # "LALIGA EA SPORTS"
-    "seriea": "UCJeMCIeLQos7wacox4hmLQ",        # "Serie A"
+    "seriea": "UCBJeMCIeLQos7wacox4hmLQ",       # "Serie A"
     "bundesliga": "UC6UL29enLNe4mqwTfAyeNuw",    # "Bundesliga"
     "mls": "UCSZbXT5TLLW_i-5W8FZpFsg",          # "Major League Soccer"
 }
