@@ -49,6 +49,49 @@ REPO = Path(__file__).resolve().parent.parent
 # same worker pool. Fixtures are keyed by event_id, so overlapping windows de-duplicate for free.
 BACKFILL_DAYS = 3
 
+# How long a carried-forward tracker table may live without a refresh, in hours.
+#
+# SofaScore serves GitHub runner egress NOTHING — wire-measured 2026-08-31: every SofaScoreAdapter
+# competition (darts, snooker, cricket, volleyball, mma) is silently zero on CI the same hour a home
+# build pulled 515 volleyball fixtures, with zero recorded source errors. The tracker collector rides
+# the same API, so a CI-side collect() returns [] and the app would fall back to sample data on every
+# box. The cure is the phoenix-stream doctrine: CI carries the last known tables forward; a build from
+# a served egress (a home machine — see sportsdata/seed_trackers.py) refreshes them. Standings move
+# daily at most, so 48h of carry is honest data, and the stamp (`collected_utc`) makes age inspectable.
+TRACKER_CARRY_HOURS = 48
+
+
+def _previous_trackers(out: Path) -> list[dict]:
+    """The published feed's trackers, if any — the carry-over source."""
+    p = out / "events.json"
+    if not p.exists():
+        return []
+    try:
+        return json.loads(p.read_text(encoding="utf-8")).get("trackers") or []
+    except Exception:  # unreadable previous feed is not a build failure
+        return []
+
+
+def _merge_trackers(fresh: list[dict], prev: list[dict]) -> list[dict]:
+    """Union by league_id: a fresh collect wins per league, the previous table fills the gaps,
+    a carried entry dies at TRACKER_CARRY_HOURS. Fresh entries carry today's stamp."""
+    now = datetime.now(timezone.utc)
+    by_id: dict[str, dict] = {}
+    for t in prev:
+        ts = t.get("collected_utc")
+        if ts:
+            try:
+                if (now - datetime.fromisoformat(ts)).total_seconds() / 3600 > TRACKER_CARRY_HOURS:
+                    continue
+            except ValueError:
+                pass  # malformed stamp: keep the table, trust the next fresh collect to replace it
+        by_id[t["league_id"]] = t
+    for t in fresh:
+        e = dict(t)
+        e["collected_utc"] = now.isoformat()
+        by_id[e["league_id"]] = e
+    return list(by_id.values())
+
 
 def collect(days: int) -> tuple[list[Event], list[dict]]:
     """
@@ -244,14 +287,17 @@ def main() -> int:
 
     # League Tracker tables (see sportsdata/tracker.py). Same one-file rule as stories, and for the
     # same reason: the box polls one URL. collect() degrades per-league internally, but a total
-    # failure here must still not take the feed down — an empty `trackers` array is the app's
-    # documented "no trackers" state, not a broken feed.
+    # failure here must still not take the feed down — on runner egress it returns [] and the
+    # carry-over (see TRACKER_CARRY_HOURS) ships the last known tables instead.
     try:
-        trackers = tracker.collect()
+        fresh = tracker.collect()
     except Exception as e:  # noqa: BLE001 — the tracker is additive, never load-bearing
-        print(f"  trackers: FAILED ({type(e).__name__}: {e}) — shipping without")
-        trackers = []
-    print(f"  trackers: {len(trackers)} league(s)")
+        print(f"  trackers: FAILED ({type(e).__name__}: {e}) — carrying previous")
+        fresh = []
+    prev_trackers = _previous_trackers(out)
+    trackers = _merge_trackers(fresh, prev_trackers)
+    carried = sum(1 for t in trackers if t.get("league_id") not in {f["league_id"] for f in fresh})
+    print(f"  trackers: {len(fresh)} fresh + {carried} carried = {len(trackers)} league(s)")
 
     # Crest mirror, write-if-missing (see sportsdata/logos.py): heals a lost or new crest on the
     # next run, never re-downloads one that exists. No bytes in the feed JSON — the app reads the
