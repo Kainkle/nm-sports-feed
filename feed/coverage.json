@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-30T23:51:50.727887+00:00",
+  "generated_utc": "2026-08-31T00:01:11.387073+00:00",
   "window_days": 2,
   "total_events": 176,
   "competitions": [
@@ -104,14 +104,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 12,
+      "events": 10,
       "date_range": [
-        "2026-08-27",
+        "2026-08-28",
         "2026-08-31"
       ],
-      "explicit_status": 12,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 12,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -177,14 +177,14 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 65,
+      "events": 73,
       "date_range": [
-        "2026-08-27",
-        "2026-09-01"
+        "2026-08-28",
+        "2026-09-02"
       ],
-      "explicit_status": 65,
+      "explicit_status": 73,
       "status_coverage_pct": 100,
-      "both_logos": 65,
+      "both_logos": 73,
       "logo_coverage_pct": 100,
       "live_now": 1
     },
@@ -276,14 +276,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 16,
+      "events": 12,
       "date_range": [
-        "2026-08-27",
+        "2026-08-28",
         "2026-08-29"
       ],
-      "explicit_status": 16,
+      "explicit_status": 12,
       "status_coverage_pct": 100,
-      "both_logos": 16,
+      "both_logos": 12,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -304,14 +304,14 @@
       "competition": "rugby-league",
       "name": "Rugby League",
       "sport": "rugby-league",
-      "events": 8,
+      "events": 7,
       "date_range": [
-        "2026-08-27",
+        "2026-08-28",
         "2026-08-30"
       ],
-      "explicit_status": 8,
+      "explicit_status": 7,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 7,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -332,16 +332,14 @@
       "competition": "tna",
       "name": "TNA",
       "sport": "wrestling",
-      "events": 1,
-      "date_range": [
-        "2026-08-28",
-        "2026-08-28"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "uefa.champions",
@@ -360,14 +358,14 @@
       "competition": "ufc",
       "name": "UFC",
       "sport": "mma",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-08-29",
-        "2026-08-29"
+        "2026-09-01"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 1,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -416,14 +414,14 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 12,
+      "events": 10,
       "date_range": [
         "2026-08-28",
         "2026-08-31"
       ],
-      "explicit_status": 12,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 12,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 1
     },
@@ -431,12 +429,12 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 2,
+      "events": 3,
       "date_range": [
         "2026-08-29",
-        "2026-09-01"
+        "2026-09-02"
       ],
-      "explicit_status": 2,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
@@ -454,13 +452,13 @@
     "carried": 3
   },
   "replay_items": {
-    "total": 97,
+    "total": 75,
     "by_sport": {
-      "australian-football": 2,
-      "baseball": 55,
+      "australian-football": 1,
+      "baseball": 44,
       "mma": 1,
-      "motor-sports": 4,
-      "rugby": 35
+      "motor-sports": 1,
+      "rugby": 28
     }
   },
   "stories": {
