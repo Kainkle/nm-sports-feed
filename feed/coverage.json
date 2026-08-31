@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-08-31T02:53:37.677907+00:00",
+  "generated_utc": "2026-08-31T03:02:29.283525+00:00",
   "window_days": 2,
-  "total_events": 176,
+  "total_events": 174,
   "competitions": [
     {
       "competition": "aew",
@@ -32,19 +32,6 @@
       "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
-    },
-    {
-      "competition": "boxing",
-      "name": "Boxing",
-      "sport": "boxing",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "cricket",
@@ -386,14 +373,14 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 15,
+      "events": 13,
       "date_range": [
         "2026-08-29",
         "2026-08-30"
       ],
-      "explicit_status": 15,
+      "explicit_status": 13,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 13,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -441,7 +428,23 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-08-31",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260831: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/usa.1",
+      "date": "2026-08-30",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20260830: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/uefa.champions",
+      "date": "2026-09-01",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20260901: <urlopen error [Errno 104] Connection reset by peer>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
