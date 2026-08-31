@@ -64,9 +64,12 @@ CHANNELS: dict[str, str] = {
     "wnba": "UCO9a_ryN_l7DIDS-VIt-zmw",
     "afl": "UCui2LJ0N-Zi7Uw_sHyE5kgQ",
     "nrl": "UCME0EifJ3Xm3mGmLdBz1Kyw",
-    # CORRECTED. The id previously here was wrong and would have matched nothing forever while looking
-    # perfectly plausible in the config - the failure mode of hardcoding an id you never verified.
-    "ufc": "UCPQDDlGe7lbgmEJ0ge7a_JA",
+    # CORRECTED TWICE, and the second correction is the lesson. The 2026-08-30 sweep "verified" an id
+    # that actually resolves to "UFC FIGHT PASS" - the streaming service's channel, which posts regional
+    # promos (BFL, Shooto Brazil, Fury FC) and PRIDE classics, never main-card highlights. An id you have
+    # not read back through the RSS <title> THIS session is unverified, full stop. This one's <title>
+    # reads "UFC", resolved from @UFC's own page three ways before fetching.
+    "ufc": "UCvgfXK4nTYKudb0rFR6noLA",
     # REPLACED 2026-08-30: the old id resolved to "NHL Europe". This one's RSS <title> reads "NHL" —
     # the main channel. Out of season at the swap; in-season shape ("EXTENDED HIGHLIGHTS") rides the
     # default gate, and coverage.json's highlight counts will say if it does not.
@@ -163,6 +166,12 @@ _SEP_DASH = [_DASH, _VS_WORDS]
 DEFAULT_GATE = (["highlight"], _SEP_VS, [])
 
 CHANNEL_GATES: dict[str, tuple[list[str], list[str], list[str]]] = {
+    # Verified on the real UFC window 2026-08-31: the main-card video is "Song Yadong vs Umar Nurmagomedov
+    # | UFC Shanghai" - NO keyword. Around it, shorts spam ("OH MY GOD SONG YADONG #ufcshanghai") carries
+    # no vs and dies on the separator; the pre-event "Hooker vs Parnasse | Fight Promo" and the
+    # "Full Fight Marathon" compilations name both men too, so they are excluded by word.
+    "ufc": ([], _SEP_VS,
+            ["press conference", "interview", "promo", "watch along", "marathon"]),
     # Verified: NFL recap titles carry no keyword; versus + both teams is precise enough (single-team
     # "Best Plays vs Titans" content dies on the both-teams rule).
     "nfl": ([], _SEP_VS, []),
