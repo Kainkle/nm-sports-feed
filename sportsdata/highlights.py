@@ -29,6 +29,7 @@ from __future__ import annotations
 import json
 import re
 import ssl
+import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -41,6 +42,22 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128.0.
 # Official league channels. Resolved by searching YouTube and reading the channel off real results rather
 # than guessing ids — an earlier guess resolved to "NHL Europe" instead of the main NHL channel, which
 # would have produced a feed of the wrong region's clips.
+#
+# THE 2026-08-30 SWEEP resolved every id below by fetching the channel page and then reading the RSS's
+# own <title> — the channel's name in its own words, which is the only proof that cannot be stale. What
+# the sweep also established, and why most channels here are new:
+#
+#   - The OFFICIAL Premier League channel posts NO per-game highlights anymore. Four days of its window
+#     across a full matchweek held shorts, single-goal clips and compilations — zero game highlights.
+#     Sky Sports PL posts every game ("Man Utd 5-2 Ipswich | Premier League Highlights"); that is the
+#     channel a fixture can actually be matched against.
+#   - NBC Sports (US PL rights) also posts none — two days of window with MLB highlights present and
+#     zero PL ones. The per-game PL gap is real, not a window artifact.
+#   - CBS Sports Golazo is the widest US-facing soccer source: uniform English titles ("Lazio vs. Genoa:
+#     Extended Highlights | Serie A") for Serie A (every game), marquee PL recaps, and the UCL in season.
+#   - A search-engine id for "UEFA Champions League" served a DEAD channel (entries a year old, shorts
+#     spam) and a handle guess for Sky resolved to a 3-video impostor ("TRS SkySports"). Both are the
+#     hardcoding trap in action: plausible-looking ids that would have matched nothing forever.
 CHANNELS: dict[str, str] = {
     "mlb": "UCoLrcjPV5PbUrUyXq5mjc_A",
     "nba": "UCWJ2lWNubArHWmf3FIHbfcQ",
@@ -50,16 +67,33 @@ CHANNELS: dict[str, str] = {
     # CORRECTED. The id previously here was wrong and would have matched nothing forever while looking
     # perfectly plausible in the config - the failure mode of hardcoding an id you never verified.
     "ufc": "UCPQDDlGe7lbgmEJ0ge7a_JA",
-    # RESOLVES TO "NHL Europe", NOT THE MAIN NHL CHANNEL.
-    #
-    # Confirmed by reading the RSS feed's own <title>: resolving @NHL from here returns the European
-    # variant. It is left in because it does post highlights and NHL is out of season anyway, but the
-    # regional channel may carry a different slate. Re-resolve from a US egress before the season starts.
-    "nhl": "UCK3CHl-6e3hq4gQaz_TOyoQ",
+    # REPLACED 2026-08-30: the old id resolved to "NHL Europe". This one's RSS <title> reads "NHL" —
+    # the main channel. Out of season at the swap; in-season shape ("EXTENDED HIGHLIGHTS") rides the
+    # default gate, and coverage.json's highlight counts will say if it does not.
+    "nhl": "UCqFMzb-4AUf6WAIbl132QKA",
+    # New 2026-08-30, every id verified against its RSS title the same day:
+    "nfl": "UCDVYQ4Zhbm3S2dlz7P1GBDg",          # "NFL"
+    "ncaaf": "UCzRWWsFjqHk1an4OnVPsl9g",        # "ESPN College Football"
+    "epl_sky": "UCNAf1k0yIjyGu3k9BwAg3lg",      # "Sky Sports Premier League"
+    "cbs_golazo": "UCET00YnetHT7tOpu12v8jxg",   # "CBS Sports Golazo"
+    "laliga": "UCTv-XvfzLNe4i4IGWAm4sbmA",      # "LALIGA EA SPORTS"
+    "seriea": "UCJeMCIeLQos7wacox4hmLQ",        # "Serie A"
+    "bundesliga": "UC6UL29enLNe4mqwTfAyeNuw",    # "Bundesliga"
+    "mls": "UCSZbXT5TLLW_i-5W8FZpFsg",          # "Major League Soccer"
 }
 
 # Competitions each channel is allowed to satisfy. A channel must never be matched against a sport it does
 # not cover, or an MLB highlight could be linked to a hockey fixture on a name collision.
+#
+# uefa.champions rides cbs_golazo alone: the league phase starts mid-September, CBS posts every game in
+# the same "X vs. Y: Extended Highlights | UEFA Champions League" shape as its Serie A uploads, and the
+# official @UEFA channel's titles are free-form headlines ("HIGHLIGHTS: LASK's comeback against Celtic")
+# that no rigid gate should be trusted on unverified.
+#
+# Channel order in CHANNELS is load-bearing where two channels cover one competition: dict order decides
+# which video wins (first match claims the event). epl_sky precedes cbs_golazo because Sky posts every
+# game against CBS's marquee-only recaps; cbs_golazo precedes seriea because the extended cut is the
+# longer watch.
 CHANNEL_COMPETITIONS: dict[str, set[str]] = {
     "mlb": {"mlb"},
     "nba": {"nba"},
@@ -68,21 +102,23 @@ CHANNEL_COMPETITIONS: dict[str, set[str]] = {
     "afl": {"afl"},
     "nrl": {"rugby-league"},
     "ufc": {"ufc", "mma-sofa"},
-    # MLS and LaLiga deliberately absent: their handles did not resolve to a channel id, and soccer
-    # highlight rights are fragmented and geo-restricted per competition. An unverified id here would
-    # silently match nothing while looking configured.
+    "nfl": {"nfl"},
+    "ncaaf": {"ncaaf"},
+    "epl_sky": {"eng.1"},
+    "cbs_golazo": {"ita.1", "uefa.champions", "eng.1"},
+    "laliga": {"esp.1"},
+    "seriea": {"ita.1"},
+    "bundesliga": {"ger.1"},
+    "mls": {"usa.1"},
+    # Deliberately absent: Ligue 1 (ESPN's fra.1 unverified from this egress AND no verified channel —
+    # two blockers, revisit when either clears), WWE (a weekly show, not a two-sided fixture — the
+    # shows/replays rows already serve it), motor (race titles carry no team pair to match on).
 }
 
-# The shape gate. Both must be present or the upload is not a game highlight.
-_HIGHLIGHT = re.compile(r"highlight", re.I)
-# EVERY separator the leagues actually use, read off their live feeds rather than assumed. The four
-# formats differ in separator, in date shape, and in whether a date appears at all — matching only MLB's
-# was why every other channel scored zero while looking correctly configured.
-#
-# A bare `v` is the Australian convention (AFL, NRL) and matching it is what unblocked both. It is anchored
-# on word boundaries precisely BECAUSE it is a single letter: unanchored it would fire inside any word
-# containing a v and match essentially everything.
-_VERSUS = re.compile(r"\b(?:vs\.?|v|at|@)\b", re.I)
+# The shape gate now lives per-channel (see CHANNEL_GATES below). One load-bearing detail survives from
+# the original single gate: a bare `v` is the Australian convention (AFL, NRL), and it is word-boundary
+# anchored precisely BECAUSE it is a single letter — unanchored it would fire inside any word containing
+# a v and match essentially everything.
 
 _MONTHS_RE = (
     "January|February|March|April|May|June|July|August|September|October|November|December"
@@ -99,6 +135,80 @@ _MONTHS = {m: i + 1 for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july",
      "august", "september", "october", "november", "december"])}
 
+# ── The shape gate, per channel ─────────────────────────────────────────────────────────────────────
+#
+# One gate stopped fitting at eight leagues. Reading the leagues' real windows (2026-08-30) showed four
+# title dialects where the original code assumed one:
+#
+#   - NFL game recaps carry NO keyword at all — "Chicago Bears vs Tennessee Titans | 2026 Preseason
+#     Week 3" is the whole title. Versus + both teams + the date window IS the gate there.
+#   - LaLiga writes Spanish: "REAL MADRID 4 - 0 MÁLAGA CF | RESUMEN LALIGA EA SPORTS" — a SCORE as the
+#     separator, RESUMEN as the keyword — and posts RUEDA DE PRENSA pressers and PREVIA previews that
+#     also name both teams, which is why the channel carries exclusions.
+#   - Serie A and the Bundesliga put a bare dash between the clubs: "CAGLIARI-INTER | HIGHLIGHTS",
+#     "SV ELVERSBERG - BAYER 04 LEVERKUSEN | Highlights".
+#   - Sky's PL titles carry a score ("Man Utd 5-2 Ipswich | Premier League Highlights") inside a river
+#     of podcasts, interviews and reaction videos that name both teams too — excluded by word.
+#
+# The config is (keywords, separators, excludes), each read off a real title; an empty keyword list means
+# no keyword is required. The default below is the ORIGINAL rule, so the seven channels that were already
+# matching keep matching exactly as they did.
+_VS_WORDS = re.compile(r"\b(?:vs\.?|v|at|@|against)\b", re.I)
+_DASH = re.compile(r"[-–]")
+_SCORE = re.compile(r"\d\s*[-–:]\s*\d")
+_SEP_VS = [_VS_WORDS]
+_SEP_SCORE = [_SCORE, _VS_WORDS]
+_SEP_DASH = [_DASH, _VS_WORDS]
+
+DEFAULT_GATE = (["highlight"], _SEP_VS, [])
+
+CHANNEL_GATES: dict[str, tuple[list[str], list[str], list[str]]] = {
+    # Verified: NFL recap titles carry no keyword; versus + both teams is precise enough (single-team
+    # "Best Plays vs Titans" content dies on the both-teams rule).
+    "nfl": ([], _SEP_VS, []),
+    "ncaaf": (["highlight"], _SEP_VS, []),
+    "nhl": (["highlight"], _SEP_VS, []),
+    # Sky: score OR versus separates the clubs; the studio river around the games is excluded by word.
+    # Out-of-season "FULL REPLAY" classics hold no "highlight" keyword and die on the keyword gate.
+    "epl_sky": (["highlight"], _SEP_SCORE,
+                ["podcast", "interview", "reaction", "analyse", "analysis",
+                 "post-match", "full-time"]),
+    "cbs_golazo": (["extended highlights", "match recap", "highlights"], _SEP_VS,
+                   ["podcast", "scoreline", "preview", "predicting", "ranking"]),
+    "laliga": (["resumen", "goles", "highlight"], [_SCORE, _DASH, _VS_WORDS],
+               ["rueda de prensa", "previa"]),
+    "seriea": (["highlight"], _SEP_DASH, []),
+    "bundesliga": (["highlight"], _SEP_DASH, []),
+    # MLS floods its own window with reserve-league uploads; first-team fixtures never contain them.
+    "mls": (["highlight"], _SEP_VS, ["next pro"]),
+}
+
+# ── Team-name short forms ───────────────────────────────────────────────────────────────────────────
+#
+# Broadcast titles use short forms ESPN's own name fields never contain — Sky writes "Man Utd", headlines
+# write "Spurs", CBS writes "Inter". Both sides of a fixture must land in the title, so one missing short
+# form silently drops that club's every game. Keyed by _norm of a name the team already carries; the
+# values are appended at match time. Grown from what live verification actually showed missing.
+EXTRA_ALIASES: dict[str, list[str]] = {
+    "manchesterunited": ["Man Utd"],
+    "tottenhamhotspur": ["Spurs"],
+    "wolverhamptonwanderers": ["Wolves"],
+    "brightonandhovealbion": ["Brighton"],
+    "newcastleunited": ["Newcastle"],
+    "westhamunited": ["West Ham"],
+    "leedsunited": ["Leeds"],
+    "intermilan": ["Inter"],
+    "internazionale": ["Inter"],
+    "acmilan": ["Milan"],
+    "asroma": ["Roma"],
+    "hellasverona": ["Verona"],
+    "atalantabc": ["Atalanta"],
+    "athleticbilbao": ["Athletic"],
+    "deportivolacoruna": ["Deportivo"],
+    "bayernmunich": ["Bayern"],
+    "bayernmunchen": ["Bayern"],
+}
+
 
 def _get(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -108,10 +218,19 @@ def _get(url: str) -> str:
 
 def _entries(channel_id: str) -> list[dict]:
     """Recent uploads as (video_id, title, published). RSS holds only the latest 15."""
-    try:
-        xml = _get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
-    except Exception:
-        return []
+    xml = None
+    # YouTube's RSS 404s transiently under load — measured 2026-08-31: two channels that had served
+    # full windows minutes earlier returned 404 in the same sweep. One retry closes most of it; a
+    # channel that still fails yields an empty list and the next build's store-accumulate heals the
+    # rest (a fixture is never lost, only late).
+    for attempt in (0, 1):
+        try:
+            xml = _get(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
+            break
+        except Exception:
+            if attempt:
+                return []
+            time.sleep(2)
     out = []
     for block in xml.split("<entry>")[1:]:
         vid = re.search(r"<yt:videoId>(.*?)</yt:videoId>", block)
@@ -169,10 +288,18 @@ def match(events: list[Event], today: str) -> dict[str, dict]:
         candidates = [e for c in comps for e in by_comp.get(c, [])]
         if not candidates:
             continue
+        kws, seps, excs = CHANNEL_GATES.get(channel, DEFAULT_GATE)
+        kw_re = re.compile("|".join(kws), re.I) if kws else None
+        exc_re = re.compile("|".join(excs), re.I) if excs else None
         for entry in feeds.get(channel, []):
             title = entry["title"]
             # Shape gate first: this is what discards the ~half of uploads that are not game highlights.
-            if not (_HIGHLIGHT.search(title) and _VERSUS.search(title)):
+            # Per-channel since 2026-08-30 — the dialect table at CHANNEL_GATES has the evidence.
+            if exc_re and exc_re.search(title):
+                continue
+            if kw_re and not kw_re.search(title):
+                continue
+            if not any(r.search(title) for r in seps):
                 continue
             tdate = _title_date(title, year)
             norm_title = _norm(title)
@@ -204,6 +331,7 @@ def _matches_both(norm_title: str, ev: Event) -> bool:
     """Every alias set is tried; both sides must land."""
     def side(team) -> bool:
         names = [team.name, team.abbrev, *team.aliases]
+        names += EXTRA_ALIASES.get(_norm(team.name), [])
         return any(len(n) >= 3 and _norm(n) in norm_title for n in names if n)
     return side(ev.home) and side(ev.away)
 
