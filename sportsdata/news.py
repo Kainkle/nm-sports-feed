@@ -33,6 +33,7 @@ multi-sport home screen exists not to be.
 from __future__ import annotations
 
 import json
+import re
 import ssl
 import urllib.error
 import urllib.request
@@ -66,6 +67,13 @@ NEWS_SOURCES: list[tuple[str, str, str, str]] = [
 
 NEWS_URL = "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/news?limit={limit}"
 
+# The keyless clip API. A `Media` story's link is the clip PAGE (espn.com/video/clip/_/id/<n>) — a full
+# website whose player gates the video behind a preroll ad decision and refuses to start under any ad
+# filtering (measured on the bench: the ad stack retries forever, the <video> never gets a source). This
+# endpoint instead hands over the clip's own master HLS manifest, no page, no ads, no auth. Undocumented,
+# so a clip whose resolution fails simply ships without `stream_url` and the app opens the reader instead.
+CLIP_API = "https://api.espn.com/v1/video/clips/{clip_id}"
+
 # Fetched per league, before the caps below are applied. Higher than [PER_COMPETITION] so that discarding
 # premium and art-less articles still leaves a full quota.
 FETCH_LIMIT = 12
@@ -95,9 +103,28 @@ class Story:
     byline: str
     source: str
     link: str
+    # The master HLS manifest for a clip story, resolved from [CLIP_API] at build time. Empty for text
+    # stories and for clips whose resolution failed — the app treats empty as "open the reader", so the
+    # field is an upgrade, never a dependency.
+    stream_url: str = ""
 
     def to_json(self) -> dict[str, Any]:
         return asdict(self)
+
+
+def _resolve_stream(story: Story) -> Story:
+    """Attach the clip's HLS manifest, feed-side, for stories whose link is a clip page."""
+    m = re.search(r"/video/clip/_/id/(\d+)", story.link)
+    if not m:
+        return story
+    try:
+        d = _get(CLIP_API.format(clip_id=m.group(1)))
+        source = (((d.get("videos") or [{}])[0].get("links") or {}).get("source")) or {}
+        story.stream_url = ((source.get("HLS") or {}).get("href")) or source.get("href") or ""
+    except Exception:
+        # A clip that cannot be resolved is a story that opens as text — never a failed build.
+        pass
+    return story
 
 
 def _get(url: str) -> dict:
@@ -209,4 +236,10 @@ def collect() -> list[Story]:
         for lane in lanes:
             if depth < len(lane):
                 out.append(lane[depth])
-    return out[:TOTAL]
+    out = out[:TOTAL]
+
+    # Stream resolution runs on the FINAL selection, not on every fetched article — the boxes read
+    # static JSON, so this is the only place a sports API is called for clip playback.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        out = list(pool.map(_resolve_stream, out))
+    return out
