@@ -32,6 +32,7 @@ multi-sport home screen exists not to be.
 
 from __future__ import annotations
 
+import html
 import json
 import re
 import ssl
@@ -74,6 +75,13 @@ NEWS_URL = "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/news?
 # so a clip whose resolution fails simply ships without `stream_url` and the app opens the reader instead.
 CLIP_API = "https://api.espn.com/v1/video/clips/{clip_id}"
 
+# The per-article content API. The LIST endpoint ships a 13-field stub per article — headline, art,
+# description, no body — so full text is a second, per-story fetch. This URL is the `links.api.self.href`
+# every list article already carries (measured 144/144 across all twelve leagues); it is league-agnostic,
+# keyed by story id alone. Undocumented, exactly like [CLIP_API] — and governed by the same rule: a fetch
+# that fails ships an empty `body` and the reader falls back to `summary`.
+STORY_API = "https://content.core.api.espn.com/v1/sports/news/{article_id}"
+
 # Fetched per league, before the caps below are applied. Higher than [PER_COMPETITION] so that discarding
 # premium and art-less articles still leaves a full quota.
 FETCH_LIMIT = 12
@@ -107,6 +115,11 @@ class Story:
     # stories and for clips whose resolution failed — the app treats empty as "open the reader", so the
     # field is an upgrade, never a dependency.
     stream_url: str = ""
+    # Full article text, plain: paragraphs separated by a blank line, soft breaks by a single newline.
+    # Empty for CLIP stories (measured: their detail response has no `story` field, only the video
+    # description `summary` already holds) and for any fetch that failed — the reader treats empty as
+    # "show the summary", so the field is an upgrade, never a dependency.
+    body: str = ""
 
     def to_json(self) -> dict[str, Any]:
         return asdict(self)
@@ -123,6 +136,40 @@ def _resolve_stream(story: Story) -> Story:
         story.stream_url = ((source.get("HLS") or {}).get("href")) or source.get("href") or ""
     except Exception:
         # A clip that cannot be resolved is a story that opens as text — never a failed build.
+        pass
+    return story
+
+
+def _plain_body(story_html: str) -> str:
+    """
+    ESPN's `story` is HTML, but only just: real paragraphs as <p>...</p>, placeholder tags
+    (<inline1>, <photo1>, <video1>) where embedded media sat, <br> line breaks — and on game
+    previews no tags at all, just blank-line-delimited text. So: paragraph ends become blank lines,
+    <br> becomes a soft newline, every other tag is deleted with an EMPTY replacement (a space here
+    measurably rips punctuation off its word — "Texans '" for "Texans'"), entities are unescaped,
+    and ESPN's literal nbsp becomes a space. What survives is the article as clean readable text.
+    """
+    s = story_html.replace("</p>", "\n\n").replace("<br>", "\n")
+    s = re.sub(r"<[^>]+>", "", s)
+    s = html.unescape(s)
+    s = s.replace("\xa0", " ")
+    s = re.sub(r"[ \t]+", " ", s)
+    s = re.sub(r" ?\n ?", "\n", s)
+    s = re.sub(r"\n{3,}", "\n\n", s)
+    return s.strip()
+
+
+def _fill_body(story: Story) -> Story:
+    """Attach the full article text, feed-side, for stories that have one."""
+    # Clips never carry a story (measured) — skip the request rather than pay for a known empty.
+    if not story.story_id or re.search(r"/video/clip/_/id/\d+", story.link):
+        return story
+    try:
+        d = _get(STORY_API.format(article_id=story.story_id))
+        h = (d.get("headlines") or [{}])[0]
+        story.body = _plain_body(h.get("story") or "")
+    except Exception:
+        # A body that cannot be fetched is a story that reads as its summary — never a failed build.
         pass
     return story
 
@@ -242,4 +289,11 @@ def collect() -> list[Story]:
     # static JSON, so this is the only place a sports API is called for clip playback.
     with ThreadPoolExecutor(max_workers=8) as pool:
         out = list(pool.map(_resolve_stream, out))
+
+    # Bodies fetch on the FINAL selection too, for the same reason: the boxes read static JSON, so
+    # ~20 requests here is the entire cost of full-text reading, paid once per build instead of once
+    # per box per view. Kept a separate pass from stream resolution on purpose — that path is
+    # bench-verified and does not deserve to be perturbed.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        out = list(pool.map(_fill_body, out))
     return out
