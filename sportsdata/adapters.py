@@ -667,6 +667,12 @@ class SofaScoreAdapter(Adapter):
                 ev = self._event(e, comp_id, comp_name, sport)
                 if not ev or ev.event_id in seen:
                     continue
+                # A combat card is one event named for its tournament ("MVP: Serrano vs Manzur",
+                # "PFL Tampa: Cyborg vs. Vieira") — the competitors the API lists are one bout of
+                # many. `card` carries that name so replay matching and the app's card surfaces
+                # speak it, the same contract ESPN's UFC adapter already has.
+                if self._split is not None:
+                    ev.card = (e.get("tournament") or {}).get("name") or ""
                 # DATE GUARD. `/events/live` is not scoped to a date and returned MMA fixtures dated 2024
                 # and 2025 into a feed built for today — stale rows that would have rendered as current
                 # cards. Anything outside a day either side of the requested date is dropped.

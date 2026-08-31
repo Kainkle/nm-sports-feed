@@ -98,6 +98,24 @@ qualifying/practice/sprint entries never match; MotoGP's dateless titles and WRC
 parser-floor drops; F2/F3/WRC have no fixture source (stored unmatched if they carried dates).
 IndyCar was registered (ESPN `irl`, one line) for this source.
 
+## fullfightreplays.com (boxing), characterised by probe (ffr/, 2026-08-30)
+
+Sixth uCoz sibling — same engine, same `entryID` split, same H3+poster card markup (the poster div
+is literally the same class as mlblive's, so the shared walker regexes needed no variant). Given by
+the user 2026-08-30 as the boxing source the replay system never had; "another variation of the
+other sources that work the same" held exactly.
+
+- **Scope: the `/boxing` category listing only.** The site also catalogs UFC, PFL, ONE, Bellator,
+  KSW and K-1, but UFC replays are already owned by watch-wrestling (matching two pools to the
+  same fixtures would double-cover them), and the mma-sofa competitions have no per-bout replay
+  story yet. Boxing is the gap this source exists to close.
+- Titles carry the card's own date and both main-event fighters: "Moses Itauma vs. Filip Hrgovic -
+  Full Fight Replay - August 29, 2026 boxing". The matcher therefore needs no card variant — the
+  both-names rule (`_match_league`) fits directly, because SofaScore's per-bout events carry the
+  two fighters as home/away and the main-event bout IS the post's name pair. Undercard bouts
+  correctly match nothing (their fighters are not in the title).
+- Posters come from the listing (`/_pu/...`), same as every uCoz sibling.
+
 ## watch-wrestling.eu (UFC cards + WWE/AEW shows), characterised by probe (ww/, 2026-08-19)
 
 WordPress (not uCoz), ~44s TTFB from the dev box like the whole family; CI expected fast. The
@@ -188,6 +206,12 @@ FR_BASE = "https://fullraces.com"
 # practice per series), so a week spans more pages than the old 5-day store window did.
 FR_MAX_PAGES = 5
 
+# fullfightreplays — sixth uCoz sibling, /boxing category only (see the source block above).
+FFR_BASE = "https://fullfightreplays.com"
+# Boxing cards are weekly-ish and one post per card, so 3 pages comfortably spans the 7-day
+# item window; the page stop exists for the same reason as every sibling's.
+FFR_MAX_PAGES = 3
+
 # watch-wrestling.eu — WordPress, not uCoz, and unlike every source above it needs **no entry-page
 # fetch at all**: the site publishes a documented embed API addressed by (category, date, post,
 # source, button), so the category listing IS the whole scrape. Category tags for the API are the
@@ -229,6 +253,8 @@ WW_SHOW_CATEGORIES = {
 # that number their sections) and button = the button's index within its section. Every
 # address returns the same dailywrestling JS-shell family the app already plays.
 _WW_CAT = re.compile(r'data-secondary-catname="([^"]*)"')
+# The post's featured image (og:image), used as the show card's poster.
+_WW_OG = re.compile(r'<meta property="og:image" content="([^"]+)"')
 _WW_SELECT_POST = re.compile(r'data-select-post="(\d+)"')
 _WW_SRC_SPLIT = '<div class="src-name">'
 _WW_SECTION_LABEL = re.compile(r'^([^<]+)</div>')
@@ -444,6 +470,31 @@ def _parse_fr_title(title: str) -> dict | None:
     }
 
 
+def _parse_ffr_title(title: str) -> dict | None:
+    """
+    fullfightreplays /boxing: "Moses Itauma vs. Filip Hrgovic - Full Fight Replay - August 29,
+    2026 boxing" → `{away, home, game, date}`. The pool is boxing-only by scope (the /boxing
+    category listing is what gets walked), so no comp segment needs parsing or gating.
+
+    Fighters are still split out so a dated-but-fighterless entry (a hub or an index post) parses
+    to empty sides and can never satisfy the both-names rule — the same floor the other combat
+    parsers rely on.
+    """
+    title = title.replace("\xa0", " ").replace("&#39;", "'")
+    d = _BBV_DATE.search(title)
+    if not d:
+        return None
+    month = _MONTHS.get(d.group("month").lower())
+    if not month:
+        return None
+    m = re.match(r"(.+?)\s+vs\.?\s+(.+?)\s+-", title)
+    away, home = (m.group(1).strip(), m.group(2).strip()) if m else ("", "")
+    return {
+        "away": away, "home": home, "game": 1,
+        "date": f"{int(d.group('year')):04d}-{month:02d}-{int(d.group('day')):02d}",
+    }
+
+
 def _walk_ucoz(listing_url: str, base: str, tag: str, parse, pages: int, min_date: str) -> list[dict]:
     """
     The shared uCoz listing walk (mlblive and basketball-video use the same engine and card
@@ -531,6 +582,11 @@ def r24_listing(min_date: str) -> list[dict]:
 def fr_listing(min_date: str) -> list[dict]:
     """fullraces listing: the mixed-series home feed (`/?pageN`), newest first, fr parser."""
     return _walk_ucoz(FR_BASE + "/", FR_BASE, "fr", _parse_fr_title, FR_MAX_PAGES, min_date)
+
+
+def ffr_listing(min_date: str) -> list[dict]:
+    """fullfightreplays listing: the /boxing category only — the scope decision above."""
+    return _walk_ucoz(FFR_BASE + "/boxing", FFR_BASE, "ffr", _parse_ffr_title, FFR_MAX_PAGES, min_date)
 
 
 def _walk_sites(sites: list[tuple[str, str]], tag: str, min_date: str, pages: int) -> list[dict]:
@@ -699,6 +755,13 @@ def _ww_home(min_date: str) -> list[dict]:
             cat = _WW_CAT.search(html)
             p["category"] = unescape(cat.group(1)).strip() if cat else ""
             p["candidates"] = _ww_post_options(html, p["date"])
+            # The post's own artwork (og:image: the site's featured image, a real show poster in
+            # every post probed). Extracted here because the page is already fetched — the shows
+            # array and UFC-card matches then carry a poster like every uCoz source does, instead
+            # of rendering on the app's bare title floor.
+            og = _WW_OG.search(html)
+            if og:
+                p["poster"] = og.group(1)
 
         with ThreadPoolExecutor(max_workers=6) as pool:
             list(pool.map(load, posts))
@@ -721,6 +784,7 @@ def collect_ww(min_date: str) -> list[dict]:
             "page_url": p["page_url"],
             "embed_url": p["candidates"][0]["url"],
             "candidates": p["candidates"],
+            "poster": p.get("poster", ""),
         })
     return out
 
@@ -745,6 +809,7 @@ def collect_ww_shows(min_date: str) -> list[dict]:
             "date": p["date"],
             "replay_url": p["candidates"][0]["url"],
             "replay_candidates": p["candidates"],
+            "poster": p.get("poster", ""),
             "source_url": p["page_url"],
         })
     out.sort(key=lambda s: s["date"], reverse=True)
@@ -851,6 +916,16 @@ def collect_r24(min_date: str) -> list[dict]:
 def collect_fr(min_date: str) -> list[dict]:
     """fullraces: listing, then concurrent embed extraction."""
     entries = fr_listing(min_date=min_date)
+    if not entries:
+        return []
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        got = list(pool.map(_okru_embed, entries))
+    return [g for g in got if g]
+
+
+def collect_ffr(min_date: str) -> list[dict]:
+    """fullfightreplays /boxing: listing, then concurrent embed extraction."""
+    entries = ffr_listing(min_date=min_date)
     if not entries:
         return []
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -1026,6 +1101,12 @@ def match(events: list[Event], replays: list[dict]) -> dict[str, dict]:
     found.update(_match_cards(
         [e for e in events if e.competition_id == "ufc"],
         by_prefix.get("ww", [])))
+    # fullfightreplays /boxing: both-names + date. The pool is boxing-only by scope, so no comp
+    # gate; SofaScore's main-event bout carries the post's name pair as home/away (see the source
+    # block). game_guard is off — there is no game-number concept on a fight card.
+    found.update(_match_league(
+        [e for e in events if e.competition_id == "boxing"],
+        by_prefix.get("ffr", []), game_guard=False))
     # fullraces: series + weekend window, race sessions only (see `_match_races`).
     found.update(_match_races(
         [e for e in events if e.competition_id in ("f1", "nascar", "motogp", "indycar")],
@@ -1076,7 +1157,8 @@ def apply(events: list[Event], today: str, store_path: Path, backfill_days: int 
     weekly = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
     fresh_replays: list[dict] = []
     for collector, floor in ((collect, daily), (collect_bbv, daily), (collect_nfl, daily),
-                             (collect_ww, weekly), (collect_r24, weekly), (collect_fr, weekly)):
+                             (collect_ww, weekly), (collect_r24, weekly), (collect_fr, weekly),
+                             (collect_ffr, weekly)):
         try:
             fresh_replays.extend(collector(floor))
         except Exception:
@@ -1113,6 +1195,7 @@ _ITEM_DEFAULTS = {
     "nflv": ("american-football", "NFL"),
     "fr": ("motor-sports", "Motorsports"),
     "ww": ("mma", "UFC"),
+    "ffr": ("boxing", "Boxing"),
 }
 
 
