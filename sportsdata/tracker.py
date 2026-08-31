@@ -192,6 +192,12 @@ def _standings(ut: int, sid: int) -> list[dict]:
             "pos": r.get("position") or 0,
             "team_id": str(tid),
             "team": team.get("name") or "",
+            # SofaScore's 3-letter code (MCI, LAL). The app's standings chart is one pillar per
+            # team, and a full name above a ~90dp column is an ellipsis; the code is what the
+            # source itself shows in exactly that constraint. Absent-tolerant: the app derives
+            # a fallback from the name when the key is missing (carried tables predating this
+            # field have no code).
+            "name_code": team.get("nameCode") or "",
             "logo": LOGO.format(id=tid),
             "played": r.get("matches") or 0,
             "win": r.get("wins") or 0,
@@ -200,6 +206,18 @@ def _standings(ut: int, sid: int) -> list[dict]:
             "points": r.get("points") or 0,
         })
     return rows[:STANDINGS_CAP]
+
+
+def _periods(score: dict) -> list[int]:
+    """The per-period points SofaScore carries (period1..N), in order — quarters, halves, innings
+    and periods all live in the same numbered keys, so one reader serves every league. The app's
+    match page draws the breakdown card from this; an unfinished or unstarted game has none."""
+    out: list[int] = []
+    for i in range(1, 10):
+        v = score.get(f"period{i}")
+        if v is not None:
+            out.append(v)
+    return out
 
 
 def _events(ut: int, sid: int | None, which: str, cap: int) -> list[dict]:
@@ -224,9 +242,11 @@ def _events(ut: int, sid: int | None, which: str, cap: int) -> list[dict]:
             "home_id": str(hid),
             "home": home.get("name") or "",
             "home_score": hs.get("current") if hs.get("current") is not None else (hs.get("display") or 0),
+            "home_periods": _periods(hs),
             "away_id": str(aid),
             "away": away.get("name") or "",
             "away_score": as_.get("current") if as_.get("current") is not None else (as_.get("display") or 0),
+            "away_periods": _periods(as_),
         })
     out.sort(key=lambda x: x["start_utc"], reverse=(which == "last"))
     return out[:cap]
