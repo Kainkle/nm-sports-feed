@@ -12,6 +12,7 @@ Every endpoint below was verified by direct probe — see `docs/SPORTS_SOURCES_V
 from __future__ import annotations
 
 import json
+import re
 import ssl
 import urllib.error
 import urllib.request
@@ -599,12 +600,35 @@ class SofaScoreAdapter(Adapter):
     # Badges come from a sibling host and are keyed by team id.
     LOGO = "https://api.sofascore.app/api/v1/team/{id}/image"
 
-    def __init__(self, slug: str, competition_id: str, competition_name: str, sport: str) -> None:
+    def __init__(self, slug: str, competition_id: str, competition_name: str, sport: str,
+                 split=None) -> None:
         self._slug = slug
         self.key = f"sofascore:{slug}"
         self.sport = sport
         self.competition_id = competition_id
         self.competition_name = competition_name
+        # Optional per-event classifier (see _combat_split): returns a (comp_id, comp_name, sport)
+        # tuple to re-route an event, an empty tuple to keep this adapter's own competition, or
+        # None to drop the event entirely.
+        self._split = split
+        self._cats: list[int] | None = None
+
+    def _category_ids(self) -> list[int]:
+        """
+        ROUTE MIGRATION, measured 2026-08-31: `/sport/{slug}/scheduled-events/{date}` 404s for
+        EVERY sport — football included — while `/sport/{slug}/events/live` still answers. SofaScore
+        moved the day schedule behind the category tree; the templates in their own site bundle
+        (`/category/${e}/scheduled-events/${t}`) name the live shape. Verified against category
+        1708 ("World", combat): 53 events for 2026-08-29 where the old route returns 404. Cached
+        per instance so a multi-date build resolves the tree once.
+        """
+        if self._cats is None:
+            try:
+                data = self._fetch_json(f"{self.BASE}/sport/{self._slug}/categories")
+                self._cats = sorted({c["id"] for c in data.get("categories") or [] if c.get("id")})
+            except SourceError:
+                self._cats = []
+        return self._cats
 
     def _fetch_json(self, url: str) -> dict:
         try:
@@ -625,7 +649,7 @@ class SofaScoreAdapter(Adapter):
         # Scheduled for the day, then live. Live is fetched separately because a match that started
         # yesterday and is still running does not appear under today's scheduled list.
         for url in (
-            f"{self.BASE}/sport/{self._slug}/scheduled-events/{date}",
+            *[f"{self.BASE}/category/{cid}/scheduled-events/{date}" for cid in self._category_ids()],
             f"{self.BASE}/sport/{self._slug}/events/live",
         ):
             try:
@@ -633,7 +657,14 @@ class SofaScoreAdapter(Adapter):
             except SourceError:
                 continue
             for e in data.get("events", []) or []:
-                ev = self._event(e)
+                comp_id = comp_name = sport = None
+                if self._split is not None:
+                    verdict = self._split(e)
+                    if verdict is None:
+                        continue
+                    if verdict:
+                        comp_id, comp_name, sport = verdict
+                ev = self._event(e, comp_id, comp_name, sport)
                 if not ev or ev.event_id in seen:
                     continue
                 # DATE GUARD. `/events/live` is not scoped to a date and returned MMA fixtures dated 2024
@@ -654,7 +685,8 @@ class SofaScoreAdapter(Adapter):
             return False
         return abs((d1 - d0).days) <= days
 
-    def _event(self, e: dict) -> Event | None:
+    def _event(self, e: dict, comp_id: str | None = None, comp_name: str | None = None,
+               sport: str | None = None) -> Event | None:
         home, away = e.get("homeTeam") or {}, e.get("awayTeam") or {}
         if not home.get("name") or not away.get("name"):
             return None
@@ -666,9 +698,9 @@ class SofaScoreAdapter(Adapter):
         tour = e.get("tournament") or {}
         return Event(
             event_id=f"sofa:{e.get('id')}",
-            sport=self.sport,
-            competition_id=self.competition_id,
-            competition_name=self.competition_name,
+            sport=sport or self.sport,
+            competition_id=comp_id or self.competition_id,
+            competition_name=comp_name or self.competition_name,
             start_utc=start,
             status=self._status(st),
             home=self._team(home),
@@ -713,7 +745,35 @@ class SofaScoreAdapter(Adapter):
         )
 
 
+# SofaScore folded boxing into the MMA category tree (2026-08): every `/sport/boxing/*` route 404s
+# and boxing cards surface under category 1708 as tournaments named "Boxing Azteca", "MVPW 06 -
+# Mayer vs Cameron", "QB: Itauna vs. Hrgovic" (Queensberry). The sport field on every event says
+# mma, so the split is by card name — grown from the real schedule vocabulary of 2026-08-26..09-01,
+# the same doctrine as EXTRA_ALIASES in highlights.py. UFC and its Contender Series are DROPPED
+# because ESPN already owns those fixtures (different event ids would double-list every card);
+# WR:/FS- freestyle and collegiate wrestling is nobody's pipeline here.
+_COMBAT_UFC = re.compile(r"\bufc\b|contender series", re.I)
+_COMBAT_WR = re.compile(r"^wr:|^fs[- ]|wrestl", re.I)
+_COMBAT_BOX = re.compile(
+    r"\bboxing\b|\bbox\b|\bmvpw?\b|^qb:|top rank|matchroom|queensberry|\bpbc\b|golden boy"
+    r"|dazn|salita|knockout",
+    re.I,
+)
+
+
+def _combat_split(e: dict):
+    """None drops the event; () keeps the adapter's own competition; a tuple re-routes it."""
+    name = ((e.get("tournament") or {}).get("name")) or ""
+    if _COMBAT_UFC.search(name) or _COMBAT_WR.search(name):
+        return None
+    if _COMBAT_BOX.search(name):
+        return ("boxing", "Boxing", "boxing")
+    return ()
+
+
 # The categories ESPN's taxonomy does not contain at all. This is the whole reason SofaScore is here.
+# The old ("boxing", ...) row is gone with the sport: SofaScore deleted it; boxing arrives through
+# the mma slug and _combat_split above.
 SOFA_SPORTS = [
     ("darts", "darts", "Darts", "darts"),
     ("snooker", "snooker", "Snooker", "snooker"),
@@ -721,11 +781,13 @@ SOFA_SPORTS = [
     ("cycling", "cycling", "Cycling", "cycling"),
     ("volleyball", "volleyball", "Volleyball", "volleyball"),
     ("mma", "mma-sofa", "MMA", "mma"),
-    ("boxing", "boxing", "Boxing", "boxing"),
     # Table tennis deliberately NOT included: it is not one of the app's 23 categories. It was added
     # speculatively, returned 22 live fixtures, and would have shipped a sport nobody asked for.
 ]
 
-ADAPTERS = ADAPTERS + [
-    SofaScoreAdapter(slug, cid, name, sport) for slug, cid, name, sport in SOFA_SPORTS
+_sofa_adapters = [
+    SofaScoreAdapter(slug, cid, name, sport, split=(_combat_split if slug == "mma" else None))
+    for slug, cid, name, sport in SOFA_SPORTS
 ]
+
+ADAPTERS = ADAPTERS + _sofa_adapters

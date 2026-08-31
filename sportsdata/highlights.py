@@ -83,6 +83,13 @@ CHANNELS: dict[str, str] = {
     "seriea": "UCBJeMCIeLQos7wacox4hmLQ",       # "Serie A"
     "bundesliga": "UC6UL29enLNe4mqwTfAyeNuw",    # "Bundesliga"
     "mls": "UCSZbXT5TLLW_i-5W8FZpFsg",          # "Major League Soccer"
+    # New 2026-08-31 (the WWE/boxing commission), every id resolved from the channel's own page
+    # (three patterns against the page, then the RSS <title> read back):
+    "wwe": "UCJ5v_MCY6GNUBTO8-D3XoAg",          # "WWE"
+    "aew": "UCFN4JkGP_bVhAdBsoV9xftA",          # "All Elite Wrestling"
+    "pbc": "UCWXYAGB9SadlL6p5Bb66wWw",          # "Premier Boxing Champions"
+    "toprank_boxing": "UCbzRzJNHx7ZLlJML9BjZQVQ",   # "Top Rank Boxing"
+    "dazn_boxing": "UCurvRE5fGcdUgCYWgh-BDsg",  # "DAZN Boxing"
 }
 
 # Competitions each channel is allowed to satisfy. A channel must never be matched against a sport it does
@@ -113,9 +120,18 @@ CHANNEL_COMPETITIONS: dict[str, set[str]] = {
     "seriea": {"ita.1"},
     "bundesliga": {"ger.1"},
     "mls": {"usa.1"},
+    # The 2026-08-31 commission: "every league we do should be in here." WWE/AEW fixtures are
+    # show-vs-promotion events (the TVmaze pipeline), boxing fixtures come out of the SofaScore
+    # combat category via adapters._combat_split — the matcher's both-sides rule works unchanged
+    # for both shapes.
+    "wwe": {"wwe"},
+    "aew": {"aew"},
+    "pbc": {"boxing"},
+    "toprank_boxing": {"boxing"},
+    "dazn_boxing": {"boxing"},
     # Deliberately absent: Ligue 1 (ESPN's fra.1 unverified from this egress AND no verified channel —
-    # two blockers, revisit when either clears), WWE (a weekly show, not a two-sided fixture — the
-    # shows/replays rows already serve it), motor (race titles carry no team pair to match on).
+    # two blockers, revisit when either clears), motor (race titles carry no team pair to match on),
+    # TNA (no verified channel yet and no fixture in the current window).
 }
 
 # The shape gate now lives per-channel (see CHANNEL_GATES below). One load-bearing detail survives from
@@ -123,20 +139,27 @@ CHANNEL_COMPETITIONS: dict[str, set[str]] = {
 # anchored precisely BECAUSE it is a single letter — unanchored it would fire inside any word containing
 # a v and match essentially everything.
 
+# Full names AND 3-letter abbreviations (WWE/AEW write "Aug. 29" — the abbreviated form with a
+# period is their house style, and without it every one of their titles silently fell through to
+# the +/- 2 day window instead of the exact-date rule). `Sept` gets its own branch because it is
+# the only 4-letter abbreviation in use.
 _MONTHS_RE = (
-    "January|February|March|April|May|June|July|August|September|October|November|December"
+    "Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?"
+    "|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?"
 )
 
 # Two shapes: MLB parenthesises the date and omits the year, WNBA writes it plainly with one. The leading
 # paren is optional so both match. Titles carrying no date at all — AFL and NRL give a round number
 # instead — fall through to the +/- 2 day window against the fixture list.
 _TITLE_DATE = re.compile(
-    r"\(?\b(?P<month>" + _MONTHS_RE + r")\s+(?P<day>\d{1,2})\b",
+    r"\(?\b(?P<month>" + _MONTHS_RE + r")\.?\s+(?P<day>\d{1,2})\b",
     re.I,
 )
 _MONTHS = {m: i + 1 for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july",
      "august", "september", "october", "november", "december"])}
+_MONTHS.update({m[:3]: n for m, n in _MONTHS.items()})   # jan feb … dec
+_MONTHS["sept"] = 9
 
 # ── The shape gate, per channel ─────────────────────────────────────────────────────────────────────
 #
@@ -190,6 +213,24 @@ CHANNEL_GATES: dict[str, tuple[list[str], list[str], list[str]]] = {
     "bundesliga": (["highlight"], _SEP_DASH, []),
     # MLS floods its own window with reserve-league uploads; first-team fixtures never contain them.
     "mls": (["highlight"], _SEP_VS, ["next pro"]),
+    # ── Wrestling and boxing, 2026-08-31 ─────────────────────────────────────────────────────────
+    # WWE/AEW fixtures are show-vs-promotion, and a show's highlight reel carries NO separator —
+    # "WWE SmackDown highlights: Aug. 29, 2026" is the whole title. Their separator lists are empty
+    # (match() skips the check) and the BOTH-SIDES rule does the discriminating: home side must name
+    # the show, away side the promotion. PLE videos self-exclude the same way — "Full NXT Heatwave
+    # 2026 highlights" names no promotion, so no weekly-show fixture can claim it.
+    "wwe": (["highlight"], [], ["top 10", "press conference", "preview", "promo"]),
+    "aew": (["highlight"], [], ["press conference", "media scrum", "preview", "promo"]),
+    # Boxing, read off live windows 2026-08-31. PBC posts exactly the fixture shape ("PBC FIGHT
+    # HIGHLIGHTS: Brown vs Wiggins | August 22, 2026" — keyword, vs, date, all three). Top Rank's
+    # window is classics, marathons and sparring around the live uploads — keyword-gated
+    # conservative, the date agreement rule is what keeps an old "FULL FIGHT" off a current
+    # fixture. DAZN's window is a river of pressers, workouts and reaction clips the keyword gate
+    # alone kills; the excludes are the second line.
+    "pbc": (["highlight"], _SEP_VS, ["preview"]),
+    "toprank_boxing": (["highlight"], _SEP_VS, ["marathon", "livestream", "sparring"]),
+    "dazn_boxing": (["highlight"], _SEP_VS,
+                    ["press conference", "open workout", "livestream", "react"]),
 }
 
 # ── Team-name short forms ───────────────────────────────────────────────────────────────────────────
@@ -216,6 +257,14 @@ EXTRA_ALIASES: dict[str, list[str]] = {
     "deportivolacoruna": ["Deportivo"],
     "bayernmunich": ["Bayern"],
     "bayernmunchen": ["Bayern"],
+    # Wrestling shows: broadcast titles say "SmackDown"/"WWE Raw"/"Dynamite"; the TVmaze names are
+    # long-form ("WWE Friday Night SmackDown"). One missing short form drops that show's every
+    # episode — the same failure mode as the soccer clubs above.
+    "wwefridaynightsmackdown": ["SmackDown"],
+    "wwemondaynightraw": ["WWE Raw", "Monday Night Raw"],
+    "wwenxt": ["NXT"],
+    "aewdynamite": ["AEW Dynamite", "Dynamite"],
+    "aewcollision": ["AEW Collision", "Collision"],
 }
 
 
@@ -308,7 +357,9 @@ def match(events: list[Event], today: str) -> dict[str, dict]:
                 continue
             if kw_re and not kw_re.search(title):
                 continue
-            if not any(r.search(title) for r in seps):
+            if seps and not any(r.search(title) for r in seps):
+                # An empty separator list is a configured dialect (wwe/aew): show-reel titles
+                # carry no vs/dash/score, so there is nothing to require here.
                 continue
             tdate = _title_date(title, year)
             norm_title = _norm(title)
@@ -336,10 +387,20 @@ def _within_days(start_utc: str, today: str, days: int) -> bool:
     return abs((a - b).days) <= days
 
 
+# Show "abbreviations" are 3-letter TV codes — RAW, COL — that sit inside ordinary words ("drawn",
+# "column") as substrings. For these competitions the sides match on names + aliases only; the
+# short forms that DO identify a show arrive through EXTRA_ALIASES, which is word-shaped by
+# construction ("WWE Raw", "Collision").
+ABBREV_OFF = frozenset({"wwe", "aew"})
+
+
 def _matches_both(norm_title: str, ev: Event) -> bool:
     """Every alias set is tried; both sides must land."""
     def side(team) -> bool:
-        names = [team.name, team.abbrev, *team.aliases]
+        names = [team.name]
+        if ev.competition_id not in ABBREV_OFF and team.abbrev:
+            names.append(team.abbrev)
+        names += list(team.aliases or [])
         names += EXTRA_ALIASES.get(_norm(team.name), [])
         return any(len(n) >= 3 and _norm(n) in norm_title for n in names if n)
     return side(ev.home) and side(ev.away)
