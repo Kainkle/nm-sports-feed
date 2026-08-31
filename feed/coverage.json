@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-31T09:52:25.707746+00:00",
+  "generated_utc": "2026-08-31T10:03:20.532296+00:00",
   "window_days": 2,
   "total_events": 176,
   "competitions": [
@@ -428,7 +428,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "nhl",
+      "date": "2026-08-31",
+      "error": "URLError for https://api-web.nhle.com/v1/schedule/2026-08-31: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
@@ -439,10 +445,10 @@
     "carried": 0
   },
   "replay_items": {
-    "total": 76,
+    "total": 88,
     "by_sport": {
       "australian-football": 1,
-      "baseball": 42,
+      "baseball": 54,
       "boxing": 3,
       "mma": 1,
       "motor-sports": 1,
