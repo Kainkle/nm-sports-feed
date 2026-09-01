@@ -111,6 +111,7 @@ from __future__ import annotations
 import json
 import pathlib
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -194,6 +195,8 @@ PLAYOFF_ROUND_CAP = 8
 PLAYOFF_MATCH_CAP = 16
 PLAYOFF_PAGES = 3
 INCIDENT_CAP = 40
+# Seconds to wait before the single retry of a refused request. See [_get].
+RETRY_PAUSE_S = 3.0
 
 
 # ── THE PROBE ─────────────────────────────────────────────────────────────────────────────────
@@ -211,7 +214,22 @@ INCIDENT_CAP = 40
 # So this build MEASURES both and writes what it saw to `feed/_probe.json`, which the workflow already
 # commits. The next run publishes the answer; the parser is then written against an observed shape
 # rather than a remembered one. Nothing here changes what the feed serves — it only records.
-PROBE: dict = {"incident_shape": None, "pbp_candidates": {}, "stats": {}}
+PROBE: dict = {"http": {}, "incident_shape": None, "pbp_candidates": {}, "stats": {}}
+
+
+def _tally(code) -> None:
+    """Every response this build saw, by status.
+
+    Without it a collector that returns nothing is indistinguishable from a source that carries
+    nothing -- and those need opposite fixes. The build of 2026-09-01T03:22 produced `0 fresh + 15
+    carried` with no error line and no exception: every league silently returned None. That reads as
+    "the source has no data" and almost certainly means "the source refused this runner", but the
+    feed had no way to say which, so the previous run's conclusions were drawn from ten-hour-old
+    carried tables that predate the fix being tested.
+    """
+    k = str(code)
+    with _PROBE_LOCK:
+        PROBE["http"][k] = PROBE["http"].get(k, 0) + 1
 _PROBE_LOCK = threading.Lock()
 
 # Ranked by how likely each is to be the surface the source's own site reads for a play list. Every
@@ -227,7 +245,9 @@ def _get_status(url: str) -> tuple[int, dict | None]:
     try:
         r = cffi.get(url, impersonate="chrome", timeout=25)
     except Exception:
+        _tally("exception")
         return (0, None)
+    _tally(r.status_code)
     if r.status_code != 200 or not r.content:
         return (r.status_code, None)
     try:
@@ -307,10 +327,22 @@ def _get(url: str) -> dict | None:
     'this piece of the league is absent', which is exactly what a 404 means on this API."""
     if cffi is None:
         raise RuntimeError("curl_cffi is required for the tracker; pip install curl_cffi")
-    try:
-        r = cffi.get(url, impersonate="chrome", timeout=25)
-    except Exception:
-        return None
+    for attempt in range(2):
+        try:
+            r = cffi.get(url, impersonate="chrome", timeout=25)
+        except Exception:
+            _tally("exception")
+            return None
+        _tally(r.status_code)
+        # ONE retry on a refusal, and only on a refusal. 403 and 429 from this source are a
+        # throttle on the caller, not a statement about the URL -- a 404 means the piece genuinely
+        # is not there and retrying it is just load. The pause is deliberate and short: this runs
+        # across eight threads and fifteen leagues, and a long backoff on every refusal would push
+        # the build past the cron interval, which is its own outage.
+        if r.status_code in (403, 429) and attempt == 0:
+            time.sleep(RETRY_PAUSE_S)
+            continue
+        break
     if r.status_code != 200 or not r.content:
         return None
     try:

@@ -303,6 +303,9 @@ def main() -> int:
     # out with the feed because the workflow commits this whole directory. It is a diagnostic, never
     # an input: nothing in the app reads it.
     (out / "_probe.json").write_text(json.dumps(tracker.PROBE, indent=2), encoding="utf-8")
+    http = tracker.PROBE.get("http") or {}
+    if http:
+        print("  tracker http: " + ", ".join(f"{k}x{v}" for k, v in sorted(http.items())))
 
     # Crest mirror, write-if-missing (see sportsdata/logos.py): heals a lost or new crest on the
     # next run, never re-downloads one that exists. No bytes in the feed JSON — the app reads the
