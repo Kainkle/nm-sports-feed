@@ -298,6 +298,11 @@ def main() -> int:
     trackers = _merge_trackers(fresh, prev_trackers)
     carried = sum(1 for t in trackers if t.get("league_id") not in {f["league_id"] for f in fresh})
     print(f"  trackers: {len(fresh)} fresh + {carried} carried = {len(trackers)} league(s)")
+    # The probe (see sportsdata/tracker.py). It records what the source ACTUALLY answered for the two
+    # questions that cannot be measured from the development machine — SofaScore 403s it — and rides
+    # out with the feed because the workflow commits this whole directory. It is a diagnostic, never
+    # an input: nothing in the app reads it.
+    (out / "_probe.json").write_text(json.dumps(tracker.PROBE, indent=2), encoding="utf-8")
 
     # Crest mirror, write-if-missing (see sportsdata/logos.py): heals a lost or new crest on the
     # next run, never re-downloads one that exists. No bytes in the feed JSON — the app reads the

@@ -110,6 +110,7 @@ from __future__ import annotations
 
 import json
 import pathlib
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
@@ -193,6 +194,112 @@ PLAYOFF_ROUND_CAP = 8
 PLAYOFF_MATCH_CAP = 16
 PLAYOFF_PAGES = 3
 INCIDENT_CAP = 40
+
+
+# ── THE PROBE ─────────────────────────────────────────────────────────────────────────────────
+#
+# SofaScore answers this repo's CI and refuses the development machine (403 to both api hosts, with a
+# full browser header set — measured). So the source's actual response shapes cannot be read where the
+# code is written, and two questions were about to be answered by guessing:
+#
+#   1. What are the score fields on an incident actually CALLED? `home_score`/`away_score` came back
+#      absent on every one of 153 events after a fix that assumed `homeScore`/`awayScore`. Either the
+#      names are wrong or the fields are not served. A second guess is not an answer.
+#   2. Which surface carries play-by-play for the sports where `/incidents` is empty — MLB, NBA, NFL,
+#      NHL all return nothing, and the user can see the plays on the source's own site.
+#
+# So this build MEASURES both and writes what it saw to `feed/_probe.json`, which the workflow already
+# commits. The next run publishes the answer; the parser is then written against an observed shape
+# rather than a remembered one. Nothing here changes what the feed serves — it only records.
+PROBE: dict = {"incident_shape": None, "pbp_candidates": {}, "stats": {}}
+_PROBE_LOCK = threading.Lock()
+
+# Ranked by how likely each is to be the surface the source's own site reads for a play list. Every
+# one of them is a GUESS, which is the entire point: the build reports which guesses answered.
+_PBP_CANDIDATES = ("incidents", "comments", "innings", "play-by-play", "graph", "highlights", "odds/all")
+
+
+def _get_status(url: str) -> tuple[int, dict | None]:
+    """[_get], but it reports the status code. The probe needs to distinguish 'this surface does not
+    exist' from 'this surface exists and served nothing', which [_get] flattens into None."""
+    if cffi is None:
+        return (0, None)
+    try:
+        r = cffi.get(url, impersonate="chrome", timeout=25)
+    except Exception:
+        return (0, None)
+    if r.status_code != 200 or not r.content:
+        return (r.status_code, None)
+    try:
+        return (200, r.json())
+    except Exception:
+        return (200, None)
+
+
+def _shrink(v, depth: int = 0):
+    """A value small enough to read in a diff. Keys are the answer here, not values."""
+    if depth > 3:
+        return "..."
+    if isinstance(v, dict):
+        return {k: _shrink(x, depth + 1) for k, x in list(v.items())[:14]}
+    if isinstance(v, list):
+        return [_shrink(x, depth + 1) for x in v[:2]]
+    if isinstance(v, str):
+        return v[:60]
+    return v
+
+
+def _probe_incident_shape(ev_id: int) -> None:
+    """One football event's RAW incident objects. Answers question 1 outright: whatever the score
+    fields are called, they are in here under their real names."""
+    with _PROBE_LOCK:
+        if PROBE["incident_shape"] is not None:
+            return
+        PROBE["incident_shape"] = {"event_id": ev_id, "pending": True}
+    code, data = _get_status(f"{BASE}/event/{ev_id}/incidents")
+    rows = (data or {}).get("incidents") or []
+    # Prefer a SCORING incident: a substitution would not carry a score under any name.
+    goals = [r for r in rows if (r.get("incidentType") or "") == "goal"][:2]
+    with _PROBE_LOCK:
+        PROBE["incident_shape"] = {
+            "event_id": ev_id,
+            "status": code,
+            "row_count": len(rows),
+            "top_level_keys": sorted((data or {}).keys()),
+            "goal_rows_raw": [_shrink(g) for g in goals],
+            "any_row_raw": _shrink(rows[0]) if rows else None,
+        }
+
+
+def _probe_pbp(ev_id: int, league_id: str) -> None:
+    """For a league whose `/incidents` served nothing: what DOES answer for this event, and what
+    shape does it have. One event per league, so the probe costs fifteen extra requests a build."""
+    with _PROBE_LOCK:
+        if league_id in PROBE["pbp_candidates"]:
+            return
+        PROBE["pbp_candidates"][league_id] = {"pending": True}
+    ev_code, ev = _get_status(f"{BASE}/event/{ev_id}")
+    sport = ((((ev or {}).get("event") or {}).get("tournament") or {}).get("category") or {}).get("sport") or {}
+    found = {}
+    for path in _PBP_CANDIDATES:
+        code, data = _get_status(f"{BASE}/event/{ev_id}/{path}")
+        entry = {"status": code}
+        if data:
+            entry["keys"] = sorted(data.keys())
+            # The first non-empty list under any key, shrunk — that is where a play list lives.
+            for k, v in data.items():
+                if isinstance(v, list) and v:
+                    entry["sample_key"] = k
+                    entry["sample"] = _shrink(v[0])
+                    break
+        found[path] = entry
+    with _PROBE_LOCK:
+        PROBE["pbp_candidates"][league_id] = {
+            "event_id": ev_id,
+            "event_status": ev_code,
+            "sport": sport.get("slug") or sport.get("name"),
+            "surfaces": found,
+        }
 
 
 def _get(url: str) -> dict | None:
@@ -403,6 +510,7 @@ def _stats(ut: int, sid: int) -> list[dict]:
         return d.get("topPlayers") or {}
 
     top = _fetch(sid)
+    tried: list[dict] = [{"season": sid, "answered": bool(top)}]
     if not top:
         # THE SEASON PICKER OPTIMISES FOR THE WRONG THING HERE.
         #
@@ -422,8 +530,23 @@ def _stats(ut: int, sid: int) -> list[dict]:
             start = 0
         for prev in ids[start:start + 3]:
             top = _fetch(prev)
+            tried.append({"season": prev, "answered": bool(top)})
             if top:
                 break
+        if not top:
+            # Nothing in three seasons. Record the raw envelope so the reason is visible next build
+            # rather than inferred: a 404 on the path is a different problem from a 200 with an
+            # empty `topPlayers`, and the tab looks identical either way.
+            code, raw = _get_status(f"{BASE}/unique-tournament/{ut}/season/{sid}/top-players/overall")
+            with _PROBE_LOCK:
+                PROBE["stats"][str(ut)] = {
+                    "season": sid,
+                    "tried": tried,
+                    "overall_status": code,
+                    "overall_keys": sorted((raw or {}).keys()),
+                    "top_players_keys": sorted(((raw or {}).get("topPlayers") or {}).keys()),
+                    "seasons_seen": ids[:6],
+                }
     order = [k for k in _STAT_PREFERENCE if top.get(k)]
     order += [k for k in top if k not in order and top.get(k)]
     out: list[dict] = []
@@ -551,7 +674,7 @@ def _lineups(ev_id: int) -> dict:
     return out if out.get("home_players") or out.get("away_players") else {}
 
 
-def _with_detail(recent: list[dict]) -> list[dict]:
+def _with_detail(recent: list[dict], league_id: str = "") -> list[dict]:
     """Attach incidents/statistics/lineups to the first [DETAIL_CAP] finished games — the games a
     viewer is most likely to open. Each piece attaches only when it actually served; older games
     and the whole `upcoming` list carry nothing by design."""
@@ -568,6 +691,12 @@ def _with_detail(recent: list[dict]) -> list[dict]:
         incs = _safe(_incidents, ev_id, ev.get("home_id") or "", ev.get("away_id") or "") or []
         if incs:
             ev["incidents"] = incs
+            # A game that HAS incidents answers what the score fields are called.
+            if any(i.get("type") == "goal" for i in incs):
+                _safe(_probe_incident_shape, ev_id)
+        elif league_id:
+            # A game that has none answers which other surface carries its plays.
+            _safe(_probe_pbp, ev_id, league_id)
         gstats = _safe(_game_stats, ev_id) or []
         if gstats:
             ev["statistics"] = gstats
@@ -649,7 +778,7 @@ def _league(league_id: str, ut: int) -> dict | None:
         "league_id": league_id,
         "season": year,
         "standings": _with_form(standings, recent),
-        "recent": _with_detail(recent),
+        "recent": _with_detail(recent, league_id),
         "upcoming": upcoming,
     }
     # v3 keys attach only when the source actually served something for THIS season — absent
