@@ -109,6 +109,7 @@ UI (a length, no player, no score) and would render as junk timeline rows.
 from __future__ import annotations
 
 import json
+import re
 import pathlib
 import threading
 import time
@@ -508,7 +509,16 @@ def _safe(fn, *args):
 # The categories a viewer expects first when the source carries them. Anything not listed arrives
 # in the source's own order (each sport's most-viewed stat first), so non-football leagues pick
 # sensibly without a per-sport table to maintain.
-_STAT_PREFERENCE = ("goals", "assists", "rating")
+# Which leaderboard leads, per sport family. The source returns a dict whose key order is its own,
+# and the first four are what the tab shows -- so without a preference a basketball league led with
+# "assistTurnoverRatio" and a baseball one with "battingAtBats". The headline stat of each sport
+# goes first; anything not named here still appears, just after these.
+_STAT_PREFERENCE = (
+    "goals", "assists", "rating",                                   # football
+    "points", "rebounds", "steals", "blocks",                       # basketball
+    "battingHomeRuns", "battingAvg", "battingHits", "pitchingWins",  # baseball
+    "passingYards", "rushingYards", "receivingYards", "defensiveSacks",  # gridiron
+)
 
 _STAT_LABELS = {
     "rating": "Rating",
@@ -519,7 +529,32 @@ _STAT_LABELS = {
     "goalsAssistsSum": "Goals + assists",
     "topSpeed": "Top speed",
     "penaltyGoals": "Penalty goals",
+    # The source's own camelCase is not a label. "BattingHomeRuns" over a leaderboard on a
+    # television is a field name that escaped, and the fallback title-cases it into exactly that.
+    "points": "Points", "rebounds": "Rebounds", "steals": "Steals", "blocks": "Blocks",
+    "defensiveRebounds": "Defensive rebounds", "offensiveRebounds": "Offensive rebounds",
+    "assistTurnoverRatio": "Assist / turnover", "doubleDoubles": "Double-doubles",
+    "battingHomeRuns": "Home runs", "battingAvg": "Batting average", "battingHits": "Hits",
+    "battingAtBats": "At bats", "battingOnBasePercentage": "On-base %", "pitchingWins": "Wins",
+    "passingYards": "Passing yards", "rushingYards": "Rushing yards",
+    "receivingYards": "Receiving yards", "defensiveSacks": "Sacks",
+    "defensiveInterceptions": "Interceptions", "defensiveTotalTackles": "Tackles",
+    "passingCompletionPercentage": "Completion %", "kickingFgMade": "Field goals",
+    "saves": "Saves", "savePercentage": "Save %", "faceOffPercentage": "Face-off %",
+    "blocked": "Blocked shots", "evenSavePercentage": "Even-strength save %",
 }
+
+
+def _humanise(key: str) -> str:
+    """A source key as a label, for the ones [_STAT_LABELS] does not name.
+
+    The old fallback upper-cased the first letter and stopped, so `passingTouchdowns` reached a
+    television as "PassingTouchdowns". Splitting on the capitals is not a guess about the sport --
+    it is just undoing camelCase, and it degrades to the same string for a single-word key."""
+    words = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", key).split()
+    if not words:
+        return key
+    return " ".join([words[0].capitalize()] + [w.lower() for w in words[1:]])
 
 
 def _display(v) -> str:
@@ -532,14 +567,25 @@ def _display(v) -> str:
     return str(v)
 
 
-def _stats(ut: int, sid: int) -> list[dict]:
+def _stats(ut: int, sid: int, names: dict[str, str] | None = None) -> list[dict]:
     """Up to [STAT_CATEGORIES] leaderboard categories x [STAT_ROWS] rows, or [] when the source
     carries no player stats for this season (a week-old 26/27 season serves nothing — that
     absence is the source's, and it is honest to carry no stats key at all)."""
     def _fetch(season_id: int) -> dict:
-        d = (_get(f"{BASE}/unique-tournament/{ut}/season/{season_id}/top-players/overall")
-             or _get(f"{BASE}/unique-tournament/{ut}/season/{season_id}/top-players") or {})
-        return d.get("topPlayers") or {}
+        # TWO SPELLINGS, and which one serves is decided by the sport, not by the season.
+        #
+        # Measured 2026-09-01 against the live API: `top-players/overall` is 404 for NBA, WNBA, NFL,
+        # NHL and MLB on EVERY season back to 2022 — the walk-back could never have helped them,
+        # because the route does not exist for those sports at all. `top-players/regularSeason`
+        # answers 200 for all five with real leaderboards (nba: assists/blocks/…; nfl:
+        # passingCompletionPercentage/defensiveSacks/…; mlb: battingAvg/battingHomeRuns/…).
+        # Football keeps `overall`. Trying both costs one 404 on the sports that want the other.
+        for suffix in ("top-players/overall", "top-players/regularSeason"):
+            d = _get(f"{BASE}/unique-tournament/{ut}/season/{season_id}/{suffix}") or {}
+            top = d.get("topPlayers") or {}
+            if top:
+                return top
+        return {}
 
     top = _fetch(sid)
     tried: list[dict] = [{"season": sid, "answered": bool(top)}]
@@ -585,28 +631,42 @@ def _stats(ut: int, sid: int) -> list[dict]:
     for key in order[:STAT_CATEGORIES]:
         rows: list[dict] = []
         for r in top.get(key) or []:
-            st, player, team = r.get("statistics") or {}, r.get("player") or {}, r.get("team") or {}
+            st, player = r.get("statistics") or {}, r.get("player") or {}
+            team = r.get("team") or {}
+            # TWO SHAPES for the player's club, and requiring the first one silently dropped an
+            # entire sport. Football's rows carry a `team` node; MLB's carry `teamIds: [123]` and no
+            # team at all, so `team.get("name")` was None on every row and the whole leaderboard was
+            # discarded as malformed. The id resolves against the standings this league already
+            # fetched — no extra request, and no row invented for a club we cannot name.
+            team_id = str(team.get("id") or (r.get("teamIds") or [""])[0] or "")
+            team_name = team.get("name") or (names or {}).get(team_id) or ""
             value = st.get(key)
-            if value is None or not player.get("shortName") or not team.get("name"):
+            if value is None or not player.get("shortName") or not team_name:
                 continue
             # Team crest, not a player headshot: it shares the standings' crest cache and the
             # row's secondary text is the team anyway.
             rows.append({
                 "name": player.get("shortName"),
-                "team": team.get("name"),
-                "logo": _logo(team.get("id")),
+                "team": team_name,
+                "logo": _logo(team_id),
                 "value": _display(value),
             })
             if len(rows) >= STAT_ROWS:
                 break
         if rows:
-            out.append({"category": _STAT_LABELS.get(key, key[:1].upper() + key[1:]), "rows": rows})
+            out.append({"category": _STAT_LABELS.get(key) or _humanise(key), "rows": rows})
     return out
 
 
 # incidentClass -> the detail line the match page shows. The raw enum ("regular") would leak the
 # source's vocabulary onto a TV screen; unknown classes pass through as-is rather than guessed.
-_GOAL_CLASSES = {"regular": "Goal", "penalty": "Penalty", "own": "Own goal"}
+_GOAL_CLASSES = {
+    "regular": "Goal", "penalty": "Penalty", "own": "Own goal",
+    # Gridiron uses the same `goal` incidentType with its own classes. "fieldGoal" on a TV screen is
+    # the source's enum leaking; measured on NCAAF 2026-09-01.
+    "fieldGoal": "Field goal", "touchdown": "Touchdown", "safety": "Safety",
+    "extraPoint": "Extra point", "twoPoint": "Two-point conversion",
+}
 _CARD_CLASSES = {"yellow": "Yellow card", "yellowRed": "Second yellow", "red": "Red card"}
 
 
@@ -620,6 +680,10 @@ def _incidents(ev_id: int, home_id: str, away_id: str) -> list[dict]:
         if t == "injuryTime":
             continue  # a display artifact of the source UI: a length, no player, no score
         row: dict = {"minute": i.get("time") or 0, "type": t}
+        # A sport measured in innings or quarters has no minute. When the source names the period,
+        # carry it: the app shows this string in the clock readout instead of a minute count.
+        if i.get("periodName"):
+            row["clock"] = i.get("periodName")
         # THE SCORE AT THIS MOMENT, straight from the source.
         #
         # The app was deriving a running score by counting goals and adding one each time, because
@@ -653,6 +717,102 @@ def _incidents(ev_id: int, home_id: str, away_id: str) -> list[dict]:
         out.append(row)
         if len(out) >= INCIDENT_CAP:
             break
+    return out
+
+
+# Comment rows that are chrome rather than play: the source's own scene-setting lines.
+_COMMENT_SKIP = {"baseballInningHalfPitcher", "baseballInningHalf", "matchStarted", "periodStart"}
+
+
+def _comments(ev_id: int, home_id: str, away_id: str) -> list[dict]:
+    """Play-by-play from `/event/{id}/comments` — the surface for the sports `/incidents` refuses.
+
+    Measured 2026-09-01: `/incidents` is 404 for baseball and UFC and serves for football-shaped
+    sports; `/comments` serves 200 with 110 rows for an MLB game and 209 for an NCAAF one. It is
+    where the source's own site reads its play list from, and nothing in this repo was asking for it.
+
+    Two shapes come back and both are handled by asking each row what it carries rather than by
+    branching on the sport:
+
+      - baseball: `type: atBat`, a `player` node, `homeScore`/`awayScore` on the row, and
+        `periodName: "1ST"` for the inning.
+      - gridiron: `type` per play, no player node, the narration in `text`, `periodName: "4TH"`.
+
+    ORDER IS NOT CONSISTENT between them — the MLB payload arrived oldest-first and the NCAAF one
+    newest-first — so it is normalised here against the scores rather than assumed. The app wants
+    newest-first, the same as `/incidents`.
+    """
+    data = _get(f"{BASE}/event/{ev_id}/comments") or {}
+    rows = [c for c in (data.get("comments") or []) if (c.get("type") or "") not in _COMMENT_SKIP]
+    if not rows:
+        return []
+
+    # NORMALISE TO OLDEST-FIRST, and do the whole walk in that direction.
+    #
+    # This is not tidiness. A scoring play is the row on which the score CHANGED, and walking
+    # newest-first marks the row after it instead — you keep the ground-out that follows the home
+    # run and drop the home run. The list is reversed at the end, because the app wants newest-first
+    # exactly as `/incidents` serves it.
+    #
+    # Which end is which is asked, not assumed: the two payloads measured 2026-09-01 disagreed —
+    # MLB arrived oldest-first, NCAAF newest-first. The end carrying the larger total is the newest.
+    scored = [c for c in rows if c.get("homeScore") is not None and c.get("awayScore") is not None]
+    if len(scored) >= 2:
+        first = (scored[0].get("homeScore") or 0) + (scored[0].get("awayScore") or 0)
+        last = (scored[-1].get("homeScore") or 0) + (scored[-1].get("awayScore") or 0)
+        if last < first:
+            rows = list(reversed(rows))
+
+    def _row(c: dict) -> dict:
+        r: dict = {"minute": 0, "type": "play", "detail": c.get("text") or ""}
+        if c.get("periodName"):
+            r["clock"] = c["periodName"]
+        if c.get("isHome") is not None:
+            r["team_id"] = home_id if c.get("isHome") else away_id
+            r["is_home"] = bool(c.get("isHome"))
+        name = (c.get("player") or {}).get("shortName") or ""
+        if name:
+            r["player"] = name
+        if c.get("homeScore") is not None:
+            r["home_score"] = c["homeScore"]
+        if c.get("awayScore") is not None:
+            r["away_score"] = c["awayScore"]
+        return r
+
+    # SCORING PLAYS AND PERIOD MARKS, not every pitch. Ninety-two at-bats is a spreadsheet, and a
+    # timeline on a television has to be readable from a sofa. A play is kept when the source says
+    # it scored, or — for the sports that carry no such flag — when the score moved on it.
+    out: list[dict] = []
+    seen_period = ""
+    prev: tuple | None = None
+    for c in rows:
+        period = c.get("periodName") or ""
+        if period and period != seen_period:
+            seen_period = period
+            out.append({"minute": 0, "type": "period", "detail": period, "clock": period})
+        hs, as_ = c.get("homeScore"), c.get("awayScore")
+        pair = (hs, as_) if hs is not None and as_ is not None else None
+        moved = pair is not None and prev is not None and pair != prev
+        if pair is not None:
+            prev = pair
+        if moved or c.get("isScoringPlay") or c.get("isGoal"):
+            out.append(_row(c))
+        if len(out) >= INCIDENT_CAP:
+            break
+
+    # A game whose plays carry no score at all — gridiron narration keeps it inside `text` — comes
+    # back as nothing but period marks. Carrying the narration is better than carrying a skeleton.
+    if sum(1 for r in out if r["type"] == "play") < 3:
+        out = []
+        seen_period = ""
+        for c in rows[-INCIDENT_CAP:]:
+            period = c.get("periodName") or ""
+            if period and period != seen_period:
+                seen_period = period
+                out.append({"minute": 0, "type": "period", "detail": period, "clock": period})
+            out.append(_row(c))
+
+    out.reverse()
     return out
 
 
@@ -720,15 +880,14 @@ def _with_detail(recent: list[dict], league_id: str = "") -> list[dict]:
             ev_id = int(str(ev.get("event_id") or "").rsplit(":", 1)[1])
         except (IndexError, ValueError):
             continue
-        incs = _safe(_incidents, ev_id, ev.get("home_id") or "", ev.get("away_id") or "") or []
+        home_id, away_id = ev.get("home_id") or "", ev.get("away_id") or ""
+        incs = _safe(_incidents, ev_id, home_id, away_id) or []
+        if not incs:
+            # `/incidents` 404s for baseball and UFC. `/comments` is where the source's own site
+            # reads its play list, and it serves for both of the shapes this feed carries.
+            incs = _safe(_comments, ev_id, home_id, away_id) or []
         if incs:
             ev["incidents"] = incs
-            # A game that HAS incidents answers what the score fields are called.
-            if any(i.get("type") == "goal" for i in incs):
-                _safe(_probe_incident_shape, ev_id)
-        elif league_id:
-            # A game that has none answers which other surface carries its plays.
-            _safe(_probe_pbp, ev_id, league_id)
         gstats = _safe(_game_stats, ev_id) or []
         if gstats:
             ev["statistics"] = gstats
@@ -816,7 +975,8 @@ def _league(league_id: str, ut: int) -> dict | None:
     # v3 keys attach only when the source actually served something for THIS season — absent
     # keys are how the app knows to show the quiet empty tab rather than fake numbers.
     if sid is not None:
-        stats = _safe(_stats, ut, sid) or []
+        # The standings double as the team-name book for the leaderboards (see [_stats]).
+        stats = _safe(_stats, ut, sid, {s["team_id"]: s["team"] for s in standings if s.get("team_id")}) or []
         if stats:
             entry["stats"] = stats
         playoffs = _safe(_playoffs, ut, sid)
