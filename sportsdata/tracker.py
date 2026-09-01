@@ -397,9 +397,33 @@ def _stats(ut: int, sid: int) -> list[dict]:
     """Up to [STAT_CATEGORIES] leaderboard categories x [STAT_ROWS] rows, or [] when the source
     carries no player stats for this season (a week-old 26/27 season serves nothing — that
     absence is the source's, and it is honest to carry no stats key at all)."""
-    data = (_get(f"{BASE}/unique-tournament/{ut}/season/{sid}/top-players/overall")
-            or _get(f"{BASE}/unique-tournament/{ut}/season/{sid}/top-players") or {})
-    top = data.get("topPlayers") or {}
+    def _fetch(season_id: int) -> dict:
+        d = (_get(f"{BASE}/unique-tournament/{ut}/season/{season_id}/top-players/overall")
+             or _get(f"{BASE}/unique-tournament/{ut}/season/{season_id}/top-players") or {})
+        return d.get("topPlayers") or {}
+
+    top = _fetch(sid)
+    if not top:
+        # THE SEASON PICKER OPTIMISES FOR THE WRONG THING HERE.
+        #
+        # `_pick_season` takes the newest season carrying ANY signal, and an unstarted season with
+        # nothing but upcoming fixtures qualifies. That is right for standings and fixtures -- it is
+        # the season the tracker reports -- but player leaderboards only exist once games have been
+        # PLAYED, so on WNBA/NBA/NFL the picked 26/27 season served nothing and the tab sat empty
+        # while the previous season's leaderboards were sitting right there.
+        #
+        # So: walk back through the seasons and take the newest one that actually answers. Bounded
+        # to a few, because a league with no stats in three seasons genuinely has none.
+        seasons = (_get(f"{BASE}/unique-tournament/{ut}/seasons") or {}).get("seasons") or []
+        ids = [x.get("id") for x in seasons if x.get("id")]
+        try:
+            start = ids.index(sid) + 1
+        except ValueError:
+            start = 0
+        for prev in ids[start:start + 3]:
+            top = _fetch(prev)
+            if top:
+                break
     order = [k for k in _STAT_PREFERENCE if top.get(k)]
     order += [k for k in top if k not in order and top.get(k)]
     out: list[dict] = []
@@ -441,6 +465,17 @@ def _incidents(ev_id: int, home_id: str, away_id: str) -> list[dict]:
         if t == "injuryTime":
             continue  # a display artifact of the source UI: a length, no player, no score
         row: dict = {"minute": i.get("time") or 0, "type": t}
+        # THE SCORE AT THIS MOMENT, straight from the source.
+        #
+        # The app was deriving a running score by counting goals and adding one each time, because
+        # this was dropped here. That is right for football and WRONG for every sport where a score
+        # moves by more than one: a basketball three-pointer read as "+1". SofaScore already carries
+        # the pair on the incident, so the app never has to infer anything -- and the points earned
+        # become a subtraction between consecutive rows rather than an assumption about the sport.
+        if i.get("homeScore") is not None:
+            row["home_score"] = i.get("homeScore")
+        if i.get("awayScore") is not None:
+            row["away_score"] = i.get("awayScore")
         if i.get("isHome") is not None:
             row["team_id"] = home_id if i.get("isHome") else away_id
             row["is_home"] = bool(i.get("isHome"))
