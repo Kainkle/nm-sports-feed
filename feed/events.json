@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-01T01:04:12.192204+00:00",
+  "generated_utc": "2026-09-01T01:14:28.518687+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603445",
@@ -5554,7 +5554,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-01T01:38:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:108",
         "name": "Los Angeles Angels",
@@ -5586,9 +5586,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Angel Stadium",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
