@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-02T01:23:19.955694+00:00",
+  "generated_utc": "2026-09-02T01:33:36.682420+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603448",
@@ -2543,7 +2543,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-01T22:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:113",
         "name": "Cincinnati Reds",
@@ -2573,10 +2573,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Great American Ball Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2777,7 +2776,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-01T22:45:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:120",
         "name": "Washington Nationals",
@@ -2807,10 +2806,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Nationals Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3232,7 +3230,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-02T01:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:109",
         "name": "Arizona Diamondbacks",
@@ -3263,9 +3261,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Chase Field",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
