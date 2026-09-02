@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-02T01:13:01.131325+00:00",
+  "generated_utc": "2026-09-02T01:16:00.559582+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603448",
@@ -2714,7 +2714,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Progressive Field",
       "detail": "",
       "game_number": 1,
@@ -3184,7 +3184,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-02T01:38:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:108",
         "name": "Los Angeles Angels",
@@ -3216,9 +3216,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Angel Stadium",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5503,19 +5504,19 @@
         },
         {
           "url": "https://dailywrestling.cc/embed/txneww/09-01-2026/select-post-1/2/1",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
+          "label": "Source 2 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/txneww/09-01-2026/select-post-1/2/2",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
+          "label": "Source 2 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/txneww/09-01-2026/select-post-1/2/3",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
+          "label": "Source 2 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
           "part": false,
           "live": false
         },
