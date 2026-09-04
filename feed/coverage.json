@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-04T00:14:10.265646+00:00",
+  "generated_utc": "2026-09-04T00:23:34.209628+00:00",
   "window_days": 2,
   "total_events": 214,
   "competitions": [
@@ -238,7 +238,7 @@
       "status_coverage_pct": 100,
       "both_logos": 87,
       "logo_coverage_pct": 100,
-      "live_now": 6
+      "live_now": 7
     },
     {
       "competition": "ncaam",
@@ -420,15 +420,21 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/wnba",
+      "date": "2026-09-03",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260903: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 10,
-    "carried": 10
+    "live_events": 11,
+    "carried": 11
   },
   "replay_items": {
     "total": 85,
