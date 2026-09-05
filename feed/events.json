@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-05T23:16:28.979570+00:00",
+  "generated_utc": "2026-09-05T23:26:49.926961+00:00",
   "events": [
     {
       "event_id": "mlb:824470",
@@ -5631,59 +5631,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858433",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-05T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2483",
-        "name": "Oregon Ducks",
-        "abbrev": "ORE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-        "logo_dark": null,
-        "aliases": [
-          "Ducks",
-          "ORE",
-          "Oregon",
-          "Oregon Ducks"
-        ],
-        "color": "00934b"
-      },
-      "away": {
-        "id": "espn:68",
-        "name": "Boise State Broncos",
-        "abbrev": "BOIS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-        "logo_dark": null,
-        "aliases": [
-          "BOIS",
-          "Boise St",
-          "Boise State",
-          "Boise State Broncos",
-          "Broncos"
-        ],
-        "color": "0033a0"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Autzen Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856636",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-05T19:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2",
         "name": "Auburn Tigers",
@@ -5713,55 +5666,8 @@
         "color": "154734"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Mercedes-Benz Stadium",
-      "detail": "0:09 - 4th Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856777",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-05T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2132",
-        "name": "Cincinnati Bearcats",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bearcats",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bearcats"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:103",
-        "name": "Boston College Eagles",
-        "abbrev": "BC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-        "logo_dark": null,
-        "aliases": [
-          "BC",
-          "Boston College",
-          "Boston College Eagles",
-          "Eagles"
-        ],
-        "color": "8c2232"
-      },
-      "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "Nippert Stadium",
+      "venue": "Mercedes-Benz Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5808,7 +5714,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Wallace Wade Stadium",
-      "detail": "4:54 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -5855,7 +5761,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Jerry Richardson Stadium",
-      "detail": "End of 3rd Quarter",
+      "detail": "11:26 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -5865,43 +5771,44 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862700",
+      "event_id": "espn:football:401858433",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-05T19:30Z",
       "status": "final",
       "home": {
-        "id": "espn:2636",
-        "name": "UTSA Roadrunners",
-        "abbrev": "UTSA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+        "id": "espn:2483",
+        "name": "Oregon Ducks",
+        "abbrev": "ORE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
         "logo_dark": null,
         "aliases": [
-          "Roadrunners",
-          "UTSA",
-          "UTSA Roadrunners"
+          "Ducks",
+          "ORE",
+          "Oregon",
+          "Oregon Ducks"
         ],
-        "color": "0c2340"
+        "color": "00934b"
       },
       "away": {
-        "id": "espn:292",
-        "name": "UT Rio Grande Valley Vaqueros",
-        "abbrev": "RGV",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
+        "id": "espn:68",
+        "name": "Boise State Broncos",
+        "abbrev": "BOIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
         "logo_dark": null,
         "aliases": [
-          "RGV",
-          "UT Rio Grande",
-          "UT Rio Grande Valley",
-          "UT Rio Grande Valley Vaqueros",
-          "Vaqueros"
+          "BOIS",
+          "Boise St",
+          "Boise State",
+          "Boise State Broncos",
+          "Broncos"
         ],
-        "color": null
+        "color": "0033a0"
       },
       "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "Alamodome",
+      "venue": "Autzen Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6050,6 +5957,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856777",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-05T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2132",
+        "name": "Cincinnati Bearcats",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearcats",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bearcats"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:103",
+        "name": "Boston College Eagles",
+        "abbrev": "BC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+        "logo_dark": null,
+        "aliases": [
+          "BC",
+          "Boston College",
+          "Boston College Eagles",
+          "Eagles"
+        ],
+        "color": "8c2232"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Nippert Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "hBUmSOL-y6M",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401862696",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6087,6 +6040,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Navy-Marine Corps Memorial Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862700",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-05T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2636",
+        "name": "UTSA Roadrunners",
+        "abbrev": "UTSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+        "logo_dark": null,
+        "aliases": [
+          "Roadrunners",
+          "UTSA",
+          "UTSA Roadrunners"
+        ],
+        "color": "0c2340"
+      },
+      "away": {
+        "id": "espn:292",
+        "name": "UT Rio Grande Valley Vaqueros",
+        "abbrev": "RGV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/292.png",
+        "logo_dark": null,
+        "aliases": [
+          "RGV",
+          "UT Rio Grande",
+          "UT Rio Grande Valley",
+          "UT Rio Grande Valley Vaqueros",
+          "Vaqueros"
+        ],
+        "color": null
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Alamodome",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6336,7 +6335,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-05T20:15Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2294",
         "name": "Iowa Hawkeyes",
@@ -6367,10 +6366,9 @@
         "color": "c8102e"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Kinnick Stadium",
-      "detail": "4:32 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "wcasYk_pF2A",
       "replay_url": "",
@@ -6416,7 +6414,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Donald W. Reynolds Razorback Stadium",
-      "detail": "10:24 - 4th Quarter",
+      "detail": "5:49 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6464,7 +6462,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "M. M. Roberts Stadium",
-      "detail": "8:06 - 3rd Quarter",
+      "detail": "3:29 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6512,7 +6510,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Canvas Stadium",
-      "detail": "4:32 - 2nd Quarter",
+      "detail": "1:55 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6560,7 +6558,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "S.B. Ballard Stadium",
-      "detail": "3:15 - 2nd Quarter",
+      "detail": "End of 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6759,6 +6757,102 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856668",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-05T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:245",
+        "name": "Texas A&M Aggies",
+        "abbrev": "TA&M",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "TA&M",
+          "Texas A&M",
+          "Texas A&M Aggies"
+        ],
+        "color": "500000"
+      },
+      "away": {
+        "id": "espn:2623",
+        "name": "Missouri State Bears",
+        "abbrev": "MOST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "MOST",
+          "Missouri St",
+          "Missouri State",
+          "Missouri State Bears"
+        ],
+        "color": "5e0009"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Kyle Field",
+      "detail": "9:07 - 1st Quarter",
+      "has_live_source": true,
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856770",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-05T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "away": {
+        "id": "espn:2000",
+        "name": "Abilene Christian Wildcats",
+        "abbrev": "ACU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+        "logo_dark": null,
+        "aliases": [
+          "ACU",
+          "Abilene Christian",
+          "Abilene Christian Wildcats",
+          "Abilene Chrstn",
+          "Wildcats"
+        ],
+        "color": "592d82"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Galaxy Stadium",
+      "detail": "5:04 - 1st Quarter",
+      "has_live_source": true,
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401856669",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6796,7 +6890,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "FirstBank Stadium",
-      "detail": "8:58 - 1st Quarter",
+      "detail": "6:50 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6844,7 +6938,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bill Snyder Family Stadium",
-      "detail": "11:03 - 1st Quarter",
+      "detail": "6:53 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6892,7 +6986,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Maverik Stadium",
-      "detail": "9:04 - 1st Quarter",
+      "detail": "5:52 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -6940,8 +7034,56 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Simmons Bank Liberty Stadium",
-      "detail": "9:25 - 1st Quarter",
+      "detail": "4:39 - 1st Quarter",
       "has_live_source": true,
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862697",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-05T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:242",
+        "name": "Rice Owls",
+        "abbrev": "RICE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+        "logo_dark": null,
+        "aliases": [
+          "Owls",
+          "RICE",
+          "Rice",
+          "Rice Owls"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:2277",
+        "name": "Houston Christian Huskies",
+        "abbrev": "HCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+        "logo_dark": null,
+        "aliases": [
+          "HCU",
+          "Hou Christian",
+          "Houston Christian",
+          "Houston Christian Huskies",
+          "Huskies"
+        ],
+        "color": "00539c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Rice Stadium",
+      "detail": "11:41 - 1st Quarter",
+      "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7036,7 +7178,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "AmFirst Stadium",
-      "detail": "11:02 - 1st Quarter",
+      "detail": "6:20 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7085,7 +7227,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allen E. Paulson Stadium",
-      "detail": "8:51 - 1st Quarter",
+      "detail": "6:58 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7132,7 +7274,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hancock Whitney Stadium",
-      "detail": "11:31 - 1st Quarter",
+      "detail": "6:00 - 1st Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7179,151 +7321,8 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Veterans Memorial Stadium (AL)",
-      "detail": "11:17 - 1st Quarter",
+      "detail": "7:47 - 1st Quarter",
       "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856668",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-05T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:245",
-        "name": "Texas A&M Aggies",
-        "abbrev": "TA&M",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-        "logo_dark": null,
-        "aliases": [
-          "Aggies",
-          "TA&M",
-          "Texas A&M",
-          "Texas A&M Aggies"
-        ],
-        "color": "500000"
-      },
-      "away": {
-        "id": "espn:2623",
-        "name": "Missouri State Bears",
-        "abbrev": "MOST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "MOST",
-          "Missouri St",
-          "Missouri State",
-          "Missouri State Bears"
-        ],
-        "color": "5e0009"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Kyle Field",
-      "detail": "10:45 - 1st Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856770",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-05T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2641",
-        "name": "Texas Tech Red Raiders",
-        "abbrev": "TTU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-        "logo_dark": null,
-        "aliases": [
-          "Red Raiders",
-          "TTU",
-          "Texas Tech",
-          "Texas Tech Red Raiders"
-        ],
-        "color": "da291c"
-      },
-      "away": {
-        "id": "espn:2000",
-        "name": "Abilene Christian Wildcats",
-        "abbrev": "ACU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
-        "logo_dark": null,
-        "aliases": [
-          "ACU",
-          "Abilene Christian",
-          "Abilene Christian Wildcats",
-          "Abilene Chrstn",
-          "Wildcats"
-        ],
-        "color": "592d82"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Galaxy Stadium",
-      "detail": "11:28 - 1st Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862697",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-05T23:00Z",
-      "status": "suspended",
-      "home": {
-        "id": "espn:242",
-        "name": "Rice Owls",
-        "abbrev": "RICE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-        "logo_dark": null,
-        "aliases": [
-          "Owls",
-          "RICE",
-          "Rice",
-          "Rice Owls"
-        ],
-        "color": "00205b"
-      },
-      "away": {
-        "id": "espn:2277",
-        "name": "Houston Christian Huskies",
-        "abbrev": "HCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
-        "logo_dark": null,
-        "aliases": [
-          "HCU",
-          "Hou Christian",
-          "Houston Christian",
-          "Houston Christian Huskies",
-          "Huskies"
-        ],
-        "color": "00539c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/Delayed",
-      "venue": "Rice Stadium",
-      "detail": "Delayed",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7604,7 +7603,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Daikin Park",
       "detail": "",
       "has_live_source": true,
@@ -10760,32 +10759,32 @@
   ],
   "stories": [
     {
-      "story_id": "49839774",
-      "headline": "Los Angeles Dodgers hold Shohei Ohtani out of lineup again",
-      "summary": "Shohei Ohtani, who expressed soreness in his neck and along his right arm in Wednesday's 8-6 loss to the St. Louis Cardinals, is out of the Los Angeles Dodgers' lineup for a third straight game Saturday, but he has not yet been placed on the injured list.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0830/dm_260830_ohtani_pitching_rotation/dm_260830_ohtani_pitching_rotation.jpg",
-      "published_utc": "2026-09-05T23:07:32Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49839774/los-angeles-dodgers-hold-shohei-ohtani-lineup-again",
-      "stream_url": "",
-      "body": "Shohei Ohtani is out of the Los Angeles Dodgers' lineup for a third straight game Saturday, but the team has not placed him on the injured list.\n\nBefore the Dodgers took on the Washington Nationals, Los Angeles manager Dave Roberts told reporters that Ohtani was scheduled to hit in the cage. How the team assesses the results of his session will help to determine if Ohtani is headed to the IL on Sunday.\n\nOn Friday, Roberts said Ohtani, who expressed soreness in his neck and along his right arm late in Wednesday's 8-6 loss to the St. Louis Cardinals, is still day-to-day, though he softened his stance about a potential stint on the IL.\n\n\"Hopeful,\" Roberts said when asked about Ohtani avoiding the IL, \"but I wouldn't say confident. Hopeful. We'll see.\"\n\nAfter Friday's 5-3 series-opening win over the Nationals, Roberts said he didn't expect Ohtani in the lineup Saturday, though he was prepared to make a final determination after the superstar was to be reevaluated by the training staff.\n\nIf the discomfort lingers after he hits in the cage, the Dodgers might have to temporarily shut him down, something they have avoided as he has battled small ailments throughout the season.\n\nLos Angeles began Saturday at 84-57, in first place in the National League West, and tied with the Atlanta Braves and Tampa Bay Rays with the second-best record in the majors, behind the Milwaukee Brewers."
-    },
-    {
-      "story_id": "49840530",
-      "headline": "Mikel Arteta confident that Bukayo Saka can take his game to 'different level' at Arsenal",
-      "summary": "Mikel Arteta has praised Bukayo Saka's determination to take his game to a new level during Arsenal's Premier League title defence.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0905/dm_260905_Robson_I_cannot_see_Chelsea_beating_Arsenal_this_early_in_the_season/dm_260905_Robson_I_cannot_see_Chelsea_beating_Arsenal_this_early_in_the_season.jpg",
-      "published_utc": "2026-09-05T22:42:28Z",
+      "story_id": "49839417",
+      "headline": "Haaland outpaces Ronaldo, Mbapp\u00e9 to 300 club goals",
+      "summary": "Erling Haaland scored the 300th goal of his club career as Man City extended their 100% start by beating Coventry 1-0 to stay at the top of the Premier League.",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711982_1296x729_16-9.jpg",
+      "published_utc": "2026-09-05T21:58:59Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "PA",
+      "byline": "ESPN News Services",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49840530/mikel-arteta-confident-bukayo-saka-take-game-different-level-arsenal",
+      "link": "https://www.espn.com/soccer/story/_/id/49839417/erling-haaland-cristiano-ronaldo-kylian-mbappe-300-club-goals",
       "stream_url": "",
-      "body": "Mikel Arteta has praised Bukayo Saka's determination to take his game to a new level during Arsenal's Premier League title defence.\n\nSaka was affected by an Achilles injury last season that also lingered into England's World Cup campaign, limiting him to only three starts in their eight games.\n\nThe 25-year-old winger cut short his summer break to report early for club duty and that intent has been rewarded with goals against Coventry and Aston Villa -- the first time he has scored in consecutive league matches since November 2024.\n\nEven with Saka not firing on all cylinders in the 2025-26 campaign, the Gunners won 7% more games if he was involved and his contribution becomes even more important after the club was unable to recruit an elite level forward during the transfer window.\n\nReferencing the hunger being shown by Saka, boss Arteta said: \"I noticed that straight away.\n\n\"The fact that he wanted to come in early was already a great sign and there was the way he prepared during the summer.\n\n\"Things happen in your career and then you need certain motivation, or a little pinch sometimes, to take it to a different level.\n\n\"And there are really good signs that Bukayo is giving to think that is going to be the case.\"\n\nSaka gets the opportunity to continue his scoring streak against Chelsea at Emirates Stadium on Sunday in a clash between London rivals who have won both of their opening games.\n\nEven at this early stage it is shaping up to be a title showdown and Arteta believes Chelsea will be a force following the arrival of new manager Xabi Alonso, who can focus on the Premier League due to the absence of European action.\n\n\"I think they have every ingredient to be in the highest part of the table,\" Arteta said.\n\n\"Knowing him [Alonso], knowing the history of the club, the quality of their squad, the schedule that they are going to face in relation to other teams, it's very, very possible that is going to be the case.\"\n\n- Enzo Maresca: Man City spending spree necessary to compete with Arsenal\n\n- Mikel Arteta happy with Arsenal 'intention' in transfer market despite Vin\u00edcius J\u00fanior, Juli\u00e1n \u00c1lvarez snubs\n\n- Weekend predictions: Arsenal take on Chelsea in a London derby\n\nArteta has been joined in the Premier League season by fellow Spanish managers Alonso and Liverpool's Andoni Iraola and the trio have been friends since lining up together as eight-year-olds for a small club in San Sebastian.\n\nArteta believes growing up in the Basque region has developed resilience in all three of them.\n\n\"We have tough skin,\" he said. \"We have obviously dealt with a lot, inside the country as well. That has reinforced us, it has made us different. Not better, but different in a sense.\n\n\"We have used that education and those values to be probably more prepared when we have to face difficult moments and challenges, to go for it.\""
+      "body": "A new-look Manchester City. Same old Erling Haaland.\n\nThe Norway striker scored the 300th goal of his club career as City extended their 100% start by beating Coventry 1-0 to stay at the top of the Premier League on Saturday.\n\nHaaland's 300 goals have come across spells at Molde, Red Bull Salzburg and Borussia Dortmund, as well as City. It has taken him just 384 appearances to reach that milestone, slightly slower than Argentina great Lionel Messi (365) but outpacing both Kylian Mbapp\u00e9 (398) and Cristiano Ronaldo (499).\n\n- Maresca: City spending needed to match Arsenal\n\n- Dawson: Man City have given Maresca everything he needs to challenge this season\n\nCity have spent more than \u00a3450 million ($609m) revamping their squad under new manager Enzo Maresca, but Haaland remains their prize asset.\n\nHis 26th-minute header at the Etihad Stadium provided the decisive moment against newly promoted Coventry and maintained Maresca's perfect start since taking on the daunting task of following in Pep Guardiola's footsteps.\n\nThe 26-year-old told ESPN afterward that he should have made life easier for his team.\n\n\"I should have scored more goals to finish the game off but I didn't so I made it difficult for the team and managed to keep Coventry in the game until the end,\" he told Renato Senise. \"In the Premier League if you don't execute it will be difficult.\"\n\nMaresca's job will be made a lot easier if Haaland can maintain his scoring form, with the forward hitting his third goal in two games.\n\n\"It's an important win, different from the first two,\" Maresca said. \"I'm very happy. I know the players day-by-day, we know each other. It means we will get better and better.\"\n\nCity's lavish spending in the post-Guardiola era carried on right up until deadline day with the signings of Enzo Fern\u00e1ndez and Iliman Ndiaye. Both started against Coventry, as did another big-money summer arrival, Elliot Anderson.\n\n\"I think we brought in plenty of players who know the level,\" Haaland said. \"Enzo Fern\u00e1ndez knows how it is to win things and play in the Premier League. He will go straight into the team, same with Elliot, he played in the Premier League for a long time and he played for England with the national team so he knows how it is to play for a top team.\n\n\"We have to try to build something and we have to try to make them feel as welcome as possible -- as they did when I arrived to City. I came straight in and I delivered and that's what you expect from good players.\"\n\nCity are three points clear of defending champions Arsenal, who will play Chelsea on Sunday.\n\n\"[We] started with a win, so it couldn't get any better,\" Ndiaye said.\n\nInformation from ESPN Research and The Associated Press contributed to this report."
+    },
+    {
+      "story_id": "49807087",
+      "headline": "Fantasy baseball lineup advice for Sunday: Seymour offers strong strikeout potential",
+      "summary": "Everything you need to know to set your fantasy baseball lineups for Sunday's MLB action.",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711897_608x342_16-9.jpg",
+      "published_utc": "2026-09-05T18:56:44Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN Fantasy",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/baseball/story/_/id/49807087/fantasy-baseball-pitcher-rankings-lineup-advice-tips-mlb-daily-notes-september-6-games",
+      "stream_url": "",
+      "body": "Check out all of our starting pitcher rankings and other lineup selection tools here to help you make smart fantasy baseball lineup decisions. All fantasy advice is geared toward ESPN 10-team leagues with standard scoring.\n\nNote: All information is accurate as of the time of publication. For updates, as well as any breaking news that might impact today's MLB slate, be sure to check out the latest fantasy baseball buzz.\n\nOther resources: RP depth chart | 2026 Rankings\n\nESPN's 2026 Player Rater | Betting notes for Sunday\n\nPitchers to stream on Sunday\n\nIan Seymour is coming off one of his best starts in an overall solid season. Next up is a road affair with the Tampa Bay Rays, wrapping up a series in Arlington against the Texas Rangers. The lefty faces an offense that exhibits power against left-handed pitching but also fans at an above-average clip.\nPeter Lambert has hit a speed bump over his last three outings, as his control has escaped him. Next up is a home date with the Arizona Diamondbacks, whose lineup has exhibited below-average patience over the second half, helping fuel a below-average wOBA against right-handers.\nAfter a three-game stretch where Clay Holmes recorded only five strikeouts over 16 innings, he punched out 13 over his last 13 innings, walking just four and allowing no runs. The Chicago Cubs are spending the weekend in South Beach for a series with the Miami Marlins. Both clubs have something on the line, with the Cubs vying for the top wild card in the National League and the Marlins still in contention for the final wild card. It won't be a cakewalk, but Holmes' recent success warrants streaming consideration.\nGage Jump's home and road splits aren't as stark as some of his teammates, but he is better on the road and is enjoying a significant park upgrade with the Athletics visiting the Seattle Mariners. Along with taking the hill in an extreme pitcher's park, Jump faces a lineup sporting the third-highest strikeout rate facing left-handers over the past month.\n\nHitters to stream on Sunday\n\nBrett Bateman has yet to hit his first major league home run, but he's batting .330 and has scored 11 runs over his last nine games as the Toronto Blue Jays' leadoff hitter. He lines up for another productive afternoon on the road against Randy Dobnak and the Kansas City Royals. Bateman holds the platoon edge on a right-hander with a modest 40 strikeouts and a generous 23 walks in 57 2/3 innings.\nJonny DeLuca has been playing regularly for the Rays, and he has been batting cleanup when facing left-handers. On Sunday, he'll enjoy the platoon edge with the Rangers sending MacKenzie Gore to the hill in Arlington.\nMickey Moniak has had a quiet homestand, but for the season he still sports a strong .941 OPS at Coors Field. The outfielder has one more game at Coors Field before the Colorado Rockies head out on the road. The St. Louis Cardinals wrap up a road series with Kyle Leahy getting the nod. Moniak enjoys the platoon edge batting from the two-hole."
     },
     {
       "story_id": "49827748",
@@ -10928,32 +10927,32 @@
       "body": "North Queensland co-captain Reuben Cotter faces a nervous wait ahead of finals after being sensationally sin-binned and put on report just 15 seconds into their shocking 50-30 loss to Canberra.\n\nSaturday's match in Townsville was highlighted by a stunning NRL debut by record-breaking Raiders halfback Coby Black, whose sublime kicking gave the Cowboys' back five nightmares in the most accomplished first-up game in premiership history.\n\nThe 20-year-old scored 26 points from two tries and nine goals from nine attempts, the most in 118 years of the premiership by a player on debut.\n\nCotter collected retiring veteran Josh Papalii high from the first hit-up of the match and was sin-binned for what referee Nick Pelgrave called a reckless shot to the head with force.\n\n\"It doesn't help getting sin-binned, but I thought it was head-on-head and I didn't feel like there was much in that,\" Cotter said of the incident.\n\nThe 27-year-old has already been charged three times, all grade one, by the Match Review Committee (MRC) this year, but has no extra loading on his record ahead of playing Cronulla in next week's elimination final.\n\nTwo of the charges have fallen off his record given they were more than 10 weeks ago and he successfully challenged a high-shot charge on Gold Coast's Jayden Campbell in round 23.\n\nA grade two charge will see him suspended for the Sharks clash.\n\nPapalii, playing in his 342nd and final NRL match for Canberra, went off for a HIA but returned to take his place in the front row and celebrate a farewell to remember.\n\nRaiders coach Ricky Stuart said the team had two goals this week -- to prove they were a better side than their 10th position on the ladder indicates and to show Papalii what he means to them.\n\n\"I thought Matt Timoko had a great game tonight and I said to him that he did all the little things well. He said to me, 'that was for Josh',\" Stuart said.\n\n\"We talk about their mateship and camaraderie and it is for real.\"\n\nThere was nothing hanging on the result for North Queensland who already had their opening final against the Sharks locked in.\n\nInjuries and suspensions were what Cowboys coach Todd Payten didn't want from the match so the fate of Queensland star Cotter will be a huge concern.\n\nVeteran forward Jason Taumalolo was also put on report for a dangerous tackle in a shocking display by a side that will be fodder in the finals if they play like this.\n\nCanberra scored first through winger Xavier Savage, while Cotter was off the field, and added two more in quick succession.\n\nFullback Kaeo Weekes sliced over and then Black, released at the end of last year by Brisbane, scored a cracker to give the visitors an 18-0 lead.\n\nThe Cowboys found their groove with Jake Clifford and John Bateman crossing.\n\nPapalii, in a fitting end to a stellar career, scored his first try of the year with a powerhouse burrowing effort.\n\nIt came after a soaring and dipping torpedo kick by Black totally bamboozled fullback Scott Drinkwater.\n\nBlack and Weekes combined to put Savage over for his second on the cusp of halftime.\n\nDrinkwater scored after the break but Black asserted himself soon afterwards with his second. Savage raced away to notch his hat trick and Black laid on another with a sublime grubber for halves partner Ethan Strange.\n\nWith the Broncos not settled on their halfback for 2027 after releasing Black, the Brisbane hierarchy will have plenty of regrets that he is now entrenched in the nation's capital."
     },
     {
-      "story_id": "49807087",
-      "headline": "Fantasy baseball lineup advice for Sunday: Seymour offers strong strikeout potential",
-      "summary": "Everything you need to know to set your fantasy baseball lineups for Sunday's MLB action.",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711897_608x342_16-9.jpg",
-      "published_utc": "2026-09-05T18:56:44Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN Fantasy",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/baseball/story/_/id/49807087/fantasy-baseball-pitcher-rankings-lineup-advice-tips-mlb-daily-notes-september-6-games",
-      "stream_url": "",
-      "body": "Check out all of our starting pitcher rankings and other lineup selection tools here to help you make smart fantasy baseball lineup decisions. All fantasy advice is geared toward ESPN 10-team leagues with standard scoring.\n\nNote: All information is accurate as of the time of publication. For updates, as well as any breaking news that might impact today's MLB slate, be sure to check out the latest fantasy baseball buzz.\n\nOther resources: RP depth chart | 2026 Rankings\n\nESPN's 2026 Player Rater | Betting notes for Sunday\n\nPitchers to stream on Sunday\n\nIan Seymour is coming off one of his best starts in an overall solid season. Next up is a road affair with the Tampa Bay Rays, wrapping up a series in Arlington against the Texas Rangers. The lefty faces an offense that exhibits power against left-handed pitching but also fans at an above-average clip.\nPeter Lambert has hit a speed bump over his last three outings, as his control has escaped him. Next up is a home date with the Arizona Diamondbacks, whose lineup has exhibited below-average patience over the second half, helping fuel a below-average wOBA against right-handers.\nAfter a three-game stretch where Clay Holmes recorded only five strikeouts over 16 innings, he punched out 13 over his last 13 innings, walking just four and allowing no runs. The Chicago Cubs are spending the weekend in South Beach for a series with the Miami Marlins. Both clubs have something on the line, with the Cubs vying for the top wild card in the National League and the Marlins still in contention for the final wild card. It won't be a cakewalk, but Holmes' recent success warrants streaming consideration.\nGage Jump's home and road splits aren't as stark as some of his teammates, but he is better on the road and is enjoying a significant park upgrade with the Athletics visiting the Seattle Mariners. Along with taking the hill in an extreme pitcher's park, Jump faces a lineup sporting the third-highest strikeout rate facing left-handers over the past month.\n\nHitters to stream on Sunday\n\nBrett Bateman has yet to hit his first major league home run, but he's batting .330 and has scored 11 runs over his last nine games as the Toronto Blue Jays' leadoff hitter. He lines up for another productive afternoon on the road against Randy Dobnak and the Kansas City Royals. Bateman holds the platoon edge on a right-hander with a modest 40 strikeouts and a generous 23 walks in 57 2/3 innings.\nJonny DeLuca has been playing regularly for the Rays, and he has been batting cleanup when facing left-handers. On Sunday, he'll enjoy the platoon edge with the Rangers sending MacKenzie Gore to the hill in Arlington.\nMickey Moniak has had a quiet homestand, but for the season he still sports a strong .941 OPS at Coors Field. The outfielder has one more game at Coors Field before the Colorado Rockies head out on the road. The St. Louis Cardinals wrap up a road series with Kyle Leahy getting the nod. Moniak enjoys the platoon edge batting from the two-hole."
-    },
-    {
-      "story_id": "49839417",
-      "headline": "Haaland outpaces Ronaldo, Mbapp\u00e9 to 300 club goals",
-      "summary": "Erling Haaland scored the 300th goal of his club career as Man City extended their 100% start by beating Coventry 1-0 to stay at the top of the Premier League.",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711982_1296x729_16-9.jpg",
-      "published_utc": "2026-09-05T21:58:59Z",
+      "story_id": "49837387",
+      "headline": "Carrick: Man United 'can compete' with Premier League rivals despite spending less",
+      "summary": "Michael Carrick insists Manchester United can compete with their Premier League rivals this season despite being out-spent in the transfer market.",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711860_1296x729_16-9.jpg",
+      "published_utc": "2026-09-05T21:30:17Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "ESPN News Services",
+      "byline": "Rob Dawson",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49839417/erling-haaland-cristiano-ronaldo-kylian-mbappe-300-club-goals",
+      "link": "https://www.espn.com/soccer/story/_/id/49837387/michael-carrick-manchester-united-compete-premier-league-outspent",
       "stream_url": "",
-      "body": "A new-look Manchester City. Same old Erling Haaland.\n\nThe Norway striker scored the 300th goal of his club career as City extended their 100% start by beating Coventry 1-0 to stay at the top of the Premier League on Saturday.\n\nHaaland's 300 goals have come across spells at Molde, Red Bull Salzburg and Borussia Dortmund, as well as City. It has taken him just 384 appearances to reach that milestone, slightly slower than Argentina great Lionel Messi (365) but outpacing both Kylian Mbapp\u00e9 (398) and Cristiano Ronaldo (499).\n\n- Maresca: City spending needed to match Arsenal\n\n- Dawson: Man City have given Maresca everything he needs to challenge this season\n\nCity have spent more than \u00a3450 million ($609m) revamping their squad under new manager Enzo Maresca, but Haaland remains their prize asset.\n\nHis 26th-minute header at the Etihad Stadium provided the decisive moment against newly promoted Coventry and maintained Maresca's perfect start since taking on the daunting task of following in Pep Guardiola's footsteps.\n\nThe 26-year-old told ESPN afterward that he should have made life easier for his team.\n\n\"I should have scored more goals to finish the game off but I didn't so I made it difficult for the team and managed to keep Coventry in the game until the end,\" he told Renato Senise. \"In the Premier League if you don't execute it will be difficult.\"\n\nMaresca's job will be made a lot easier if Haaland can maintain his scoring form, with the forward hitting his third goal in two games.\n\n\"It's an important win, different from the first two,\" Maresca said. \"I'm very happy. I know the players day-by-day, we know each other. It means we will get better and better.\"\n\nCity's lavish spending in the post-Guardiola era carried on right up until deadline day with the signings of Enzo Fern\u00e1ndez and Iliman Ndiaye. Both started against Coventry, as did another big-money summer arrival, Elliot Anderson.\n\n\"I think we brought in plenty of players who know the level,\" Haaland said. \"Enzo Fern\u00e1ndez knows how it is to win things and play in the Premier League. He will go straight into the team, same with Elliot, he played in the Premier League for a long time and he played for England with the national team so he knows how it is to play for a top team.\n\n\"We have to try to build something and we have to try to make them feel as welcome as possible -- as they did when I arrived to City. I came straight in and I delivered and that's what you expect from good players.\"\n\nCity are three points clear of defending champions Arsenal, who will play Chelsea on Sunday.\n\n\"[We] started with a win, so it couldn't get any better,\" Ndiaye said.\n\nInformation from ESPN Research and The Associated Press contributed to this report."
+      "body": "Michael Carrick insists Manchester United can compete with their Premier League rivals this season despite being out-spent in the transfer market.\n\nUnited brought in three midfielders over the summer at a cost of around \u00a3150 million ($202m).\n\nArsenal, Manchester City, Chelsea, Liverpool and Tottenham all invested more in transfer fees. But Carrick believes that despite the gulf his team can still match the traditional top six on the pitch.\n\n\"I certainly feel we can compete,\" Carrick told a news conference ahead of United's trip to Everton on Sunday.\n\n\"I think the challenge is just getting the right dynamics, getting the right balance, getting the right group together, getting the best players in the group to enhance the rest of the group.\n\n\"The actual amount of money in the end, I understand it can be a big thing. It doesn't always have to be the answer, but it can be.\"\n\nCarrick said he's \"largely happy\" with his squad after the transfer deadline passed on Tuesday.\n\nHe said United \"made the most\" of the resources they had available to bring in Andrey Santos, Youri Tielemans and Carlos Baleba and suggested there is more to winning matches than just the cost of a team.\n\n\"Money is one thing, what you do with it is another thing, how you make the most of it is another thing,\" the United boss added.\n\n\"It's about what happens on the pitch at the end of the day, and we just keep giving what we can, giving our best, you know, and keep trying to win.\"\n\nUnited spent most of their transfer budget in 2025 bringing in three forwards. The midfield has been revamped this summer with speculation already that the focus in 2027 will be strengthening the defence.\n\n- Man United 'made the most' of money available with transfers - Michael Carrick\n\n- Liverpool sporting director Richard Hughes steps down\n\n- Ranked: Top 50 most expensive Premier League transfers this summer, by true cost\n\nCarrick stopped short of revealing the club's transfer plans, but said there was a \"clear idea\" of what the squad will look like in the future.\n\n\"I think there is the evolution of trying to improve things all the time, and how the season goes, form, injuries, who's looking good, what the future looks like,\" he said.\n\n\"There's obviously a lot that goes into it, and step by step we're trying to improve.\n\n\"We'll see how the season goes and what we need to develop, but we've obviously got a clear idea what we want to look like coming through this summer to then a little bit further down the line.\""
+    },
+    {
+      "story_id": "49837289",
+      "headline": "Cardinals manager ejected after rookie told to straighten hat",
+      "summary": "Cardinals manager Oliver Marmol was ejected from Friday's win shortly after St. Louis rookie reliever Hancel Rincon, who was making his major league debut, was told to straighten his hat.",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711848_1296x729_16-9.jpg",
+      "published_utc": "2026-09-05T18:35:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49837289/cardinals-manager-ejected-rhp-told-straighten-hat",
+      "stream_url": "",
+      "body": "St. Louis Cardinals manager Oliver Marmol blew his top after things went a little sideways for reliever Hancel Rincon in his major league debut.\n\nThe 24-year-old right-hander entered Friday night's game against the Colorado Rockies in the sixth inning and was asked by plate umpire Doug Eddings to adjust his hat, which Rincon had been wearing tilted to his left-hand side.\n\nRincon straightened his hat then got the first batter he faced to line out. However, that was followed by Rincon giving up a triple, throwing a wild pitch that scored that runner, allowing an inside-the-park home run and yielding another single before he was pulled.\n\nDuring the pitching change, Marmol confronted Eddings.\n\n\"I had an issue with Doug,\" Marmol said after the game. \"Just Doug. He took it upon himself to tell our rookie pitcher the kid's 'not going to wear his hat on my field that way.' You got [former pitchers] Dontrelle Willis, CC Sabathia, Pedro Strop -- plenty of guys that have worn it way more tilted. I have an issue with that. That's just a power-hungry move, in my opinion.\"\n\nEddings ultimately assessed a pitch clock violation to the Cardinals due to Marmol's continued protest before the St. Louis manager was ejected.\n\nEddings said he told Rincon to adjust his hat after the first batter of the inning, Rockies catcher Hunter Goodman, asked the umpire if Rincon was allowed to wear his hat tilted.\n\n\"I really didn't know, but it was really, really crooked,\" Eddings said. \"I asked the [Cardinals] catcher to tell him to straighten his hat out, and the pitcher did. Nobody said anything until he gave up a couple runs.\"\n\nEddings characterized the situation as an \"unwritten rule.\"\n\n\"It's not [a rule],\" Eddings said. \"I guess it's a little unwritten rule. They can't wear [their cap] backwards like a catcher. If it's a distraction, like anything on the field, like a glove or something, and someone makes you aware of it, then you kind of address that.\"\n\nSaid Rincon through an interpreter: \"I had no idea why he told me to do it. It's fine.\"\n\nThe Cardinals went on to win 7-6 for their third victory in four games. They are 3\u00bd games back of the National League's final wild card spot."
     },
     {
       "story_id": "49826985",
