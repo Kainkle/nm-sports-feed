@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-05T23:37:00.750233+00:00",
+  "generated_utc": "2026-09-05T23:46:56.195154+00:00",
   "window_days": 2,
-  "total_events": 230,
+  "total_events": 231,
   "competitions": [
     {
       "competition": "aew",
@@ -207,14 +207,16 @@
       "competition": "nascar",
       "name": "NASCAR Cup Series",
       "sport": "racing",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 1,
+      "date_range": [
+        "2026-09-06",
+        "2026-09-06"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "nba",
@@ -242,7 +244,7 @@
       "status_coverage_pct": 100,
       "both_logos": 90,
       "logo_coverage_pct": 100,
-      "live_now": 19
+      "live_now": 22
     },
     {
       "competition": "ncaam",
@@ -380,7 +382,7 @@
       "status_coverage_pct": 100,
       "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 5
     },
     {
       "competition": "volleyball",
@@ -431,8 +433,8 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 29,
-    "carried": 26
+    "live_events": 37,
+    "carried": 33
   },
   "replay_items": {
     "total": 113,
