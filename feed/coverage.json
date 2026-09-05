@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-05T21:33:58.677707+00:00",
+  "generated_utc": "2026-09-05T21:44:05.431559+00:00",
   "window_days": 2,
   "total_events": 229,
   "competitions": [
@@ -173,7 +173,7 @@
       "status_coverage_pct": 100,
       "both_logos": 70,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 3
     },
     {
       "competition": "mma-sofa",
@@ -422,35 +422,24 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:football/nfl",
-      "date": "2026-09-04",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260904: <urlopen error [Errno 104] Connection reset by peer>"
-    },
-    {
-      "source": "espn:football/nfl",
-      "date": "2026-09-05",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260905: <urlopen error [Errno 104] Connection reset by peer>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 20,
-    "carried": 17
+    "live_events": 21,
+    "carried": 18
   },
   "replay_items": {
-    "total": 106,
+    "total": 110,
     "by_sport": {
       "baseball": 69,
       "boxing": 2,
       "mma": 1,
       "motor-sports": 1,
-      "rugby": 33
+      "rugby": 37
     }
   },
   "stories": {
