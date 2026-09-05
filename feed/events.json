@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-05T01:01:25.210557+00:00",
+  "generated_utc": "2026-09-05T01:11:46.264212+00:00",
   "events": [
     {
       "event_id": "mlb:824470",
@@ -2464,7 +2464,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rynearson Stadium",
-      "detail": "2:06 - 3rd Quarter",
+      "detail": "0:17 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -2607,7 +2607,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Ross-Ade Stadium",
-      "detail": "10:50 - 3rd Quarter",
+      "detail": "8:28 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -2656,7 +2656,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Center Parc Stadium",
-      "detail": "13:30 - 3rd Quarter",
+      "detail": "10:32 - 3rd Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -2889,9 +2889,9 @@
         "color": "ece83a"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "in/In Progress",
       "venue": "Yankee Stadium",
-      "detail": "62'",
+      "detail": "72'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3022,7 +3022,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Norman, OK)",
-      "detail": "6:29 - 2nd Quarter",
+      "detail": "3:25 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3070,7 +3070,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "David Booth Kansas Memorial Stadium",
-      "detail": "9:55 - 2nd Quarter",
+      "detail": "8:09 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3118,7 +3118,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Spartan Stadium",
-      "detail": "11:37 - 2nd Quarter",
+      "detail": "7:42 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3322,7 +3322,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-05T01:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:24",
         "name": "Stanford Cardinal",
@@ -3352,9 +3352,10 @@
         "color": "f47423"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Stanford Stadium",
-      "detail": "Fri, September 4th at 9:00 PM EDT",
+      "detail": "13:04 - 1st Quarter",
+      "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3368,7 +3369,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-05T01:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:30",
         "name": "USC Trojans",
@@ -3398,9 +3399,10 @@
         "color": "b1102b"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "Fri, September 4th at 9:00 PM EDT",
+      "detail": "11:53 - 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10988,6 +10990,12 @@
           "live": true
         },
         {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-04-2026/select-post-1/4/4",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-04-2026/select-post-1/5/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
@@ -11002,6 +11010,12 @@
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-04-2026/select-post-1/5/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-04-2026/select-post-1/5/4",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         }
