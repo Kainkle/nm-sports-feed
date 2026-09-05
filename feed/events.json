@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-05T02:25:27.822130+00:00",
+  "generated_utc": "2026-09-05T02:35:30.552517+00:00",
   "events": [
     {
       "event_id": "mlb:824470",
@@ -2285,7 +2285,7 @@
       "venue": "Stadio Luigi Ferraris",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "2ngiMbmAsfc",
+      "highlight_video_id": "SfWOnljn6AY",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -2565,6 +2565,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858435",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-04T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2509",
+        "name": "Purdue Boilermakers",
+        "abbrev": "PUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+        "logo_dark": null,
+        "aliases": [
+          "Boilermakers",
+          "PUR",
+          "Purdue",
+          "Purdue Boilermakers"
+        ],
+        "color": "ceb888"
+      },
+      "away": {
+        "id": "espn:282",
+        "name": "Indiana State Sycamores",
+        "abbrev": "INST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
+        "logo_dark": null,
+        "aliases": [
+          "INST",
+          "Indiana St",
+          "Indiana State",
+          "Indiana State Sycamores",
+          "Sycamores"
+        ],
+        "color": "00669a"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Ross-Ade Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401866623",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -2604,53 +2651,6 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Center Parc Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858435",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-04T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2509",
-        "name": "Purdue Boilermakers",
-        "abbrev": "PUR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-        "logo_dark": null,
-        "aliases": [
-          "Boilermakers",
-          "PUR",
-          "Purdue",
-          "Purdue Boilermakers"
-        ],
-        "color": "ceb888"
-      },
-      "away": {
-        "id": "espn:282",
-        "name": "Indiana State Sycamores",
-        "abbrev": "INST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
-        "logo_dark": null,
-        "aliases": [
-          "INST",
-          "Indiana St",
-          "Indiana State",
-          "Indiana State Sycamores",
-          "Sycamores"
-        ],
-        "color": "00669a"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Ross-Ade Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -3009,9 +3009,9 @@
         "color": "ff8200"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Memorial Stadium (Norman, OK)",
-      "detail": "3:20 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3057,9 +3057,9 @@
         "color": null
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "David Booth Kansas Memorial Stadium",
-      "detail": "4:11 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3107,7 +3107,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Spartan Stadium",
-      "detail": "2:06 - 3rd Quarter",
+      "detail": "13:47 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3217,7 +3217,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-05T00:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:118",
         "name": "Kansas City Royals",
@@ -3247,10 +3247,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Kauffman Stadium",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3343,7 +3342,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Stanford Stadium",
-      "detail": "2:00 - 2nd Quarter",
+      "detail": "0:37 - 2nd Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3388,9 +3387,9 @@
         "color": "b1102b"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "2:00 - 2nd Quarter",
+      "detail": "Halftime",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -10550,18 +10549,18 @@
   ],
   "stories": [
     {
-      "story_id": "49830622",
-      "headline": "Minnesota Twins vs. Chicago White Sox: Game Highlights",
-      "summary": "Minnesota Twins vs. Chicago White Sox: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0905/291bed89-5b35-4d21-bb3c-debce552c1c0/291bed89-5b35-4d21-bb3c-debce552c1c0.jpg",
-      "published_utc": "2026-09-05T02:15:11Z",
+      "story_id": "49830741",
+      "headline": "Alvarez hits 2 homers and Mets go deep 5 times to back McLean in 10-6 win over Giants",
+      "summary": "\u2014 Francisco Alvarez hit two of New York's five home runs Friday night, leading Nolan McLean and the Mets to a 10-6 win over the San Francisco Giants.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816803.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-05T02:26:31Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49830622/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0905/291bed89-5b35-4d21-bb3c-debce552c1c0/291bed89-5b35-4d21-bb3c-debce552c1c0/playlist.m3u8",
-      "body": ""
+      "link": "http://www.espn.com/mlb/recap?gameId=401816803",
+      "stream_url": "",
+      "body": "NEW YORK -- \u2014 Francisco Alvarez hit two of New York's five home runs Friday night, leading Nolan McLean and the Mets to a 10-6 win over the San Francisco Giants.\n\n\r\nMark Vientos, Bo Bichette and Francisco Lindor also went deep for the Mets, who scored 10 runs for the second consecutive game and matched their season high for homers. New York also connected five times May 14 against Detroit and Aug. 22 at the Chicago White Sox.\n\n\r\nRafael Devers homered and drove in five runs for the Giants in a series opener between disappointing teams.\n\n\r\nThe two-homer game was the third this season for Alvarez and the eighth of his career. Alvarez\u2019s first drive in the second inning was his first homer since Aug. 9. He batted just .125 (7 for 56) with two doubles in between.\n\n\r\nVientos\u2019 three-run shot off rookie Matt Wilkinson (0-3) in the first was his second homer in four games since he returned from a nearly two-month stint on the injured list due to a broken right hand.\n\n\r\nBichette homered to cap a four-run outburst in the second. He is batting .309 with 10 homers and 40 RBI in his last 78 games.\n\n\r\nLindor had two hits \u2014 his first multihit game since Aug. 25.\n\n\r\nMcLean (11-8) gave up two runs and six hits with seven strikeouts and four walks. He threw a career-high 105 pitches over six innings.\n\n\r\nThe rookie right-hander is 9-4 with a 2.24 ERA in his past 17 starts.\n\n\r\nDevers hit a two-run double off McLean and a three-run homer off reliever Austin Warren. The slugger's 33 homers are the most by a Giants player since Barry Bonds had 45 in 2004.\n\n\r\nTurner Hill added an RBI single for San Francisco.\n\n\r\nWilkinson allowed seven runs (four earned) and five hits in three innings.\n\n\r\nUp next\r\nGiants RHP Anthony Molina (2-0, 3.77 ERA) faces Mets LHP Zac Thornton (3-4, 2.93) in the middle game of the series Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "49830480",
@@ -10718,18 +10717,18 @@
       "body": "Damien Cook has told St George Illawarra players a premiership can be on the horizon, as he prepares to hand over the mantle to the Dragons' young brigade.\n\nCook will play his 263rd and final NRL game against Parramatta at WIN Stadium on Sunday, with his exit fittingly coming at the same ground he regularly attended as a child.\n\nThe Dragons have endured a difficult season on the way to the club's first wooden spoon, but the green shoots are clearly there.\n\nHamish Stewart and the Couchman twins headline the rising talent at the club, with Dylan Egan and Loko Pasifiki Tonga offer plenty of promise in the pack.\n\nThe joint venture have also recruited the best of any side for next season, with Scott Drinkwater, Luke Metcalf, Kodi Nikorima, Keaon Kolomotangi and Phil Sami bound for the club.\n\n\"I've told some of the young guys, if you get it right over over the next bit I don't see why there can't be a premiership here in the next three-to-five years,\" Cook told AAP.\n\n\"I'll definitely be watching closely next year and I've got no doubt they're going to have success next year because I just see the standard that they've got.\n\n\"Just with the style of footy that they've got, the young talent that they have in the forwards and some good signings coming in.\"\n\nA fairytale grand-final win aside, Cook considers playing his final game in Wollongong as a perfect end to his NRL career before moving to the Super League.\n\nThe dummy-half grew up playing for Helensburgh in the Illawarra competition, and regularly sat on the WIN Stadium hill as a kid.\n\nHis journey since then has also been unique. Cook bounced around the Dragons, Penrith and Canterbury before really getting a proper chance in the NRL.\n\nHe became a regular NRL player as a 25-year-old at South Sydney in 2016, while he only became their first-choice No.9 two seasons later.\n\nWithin months he had won the NSW No.9 jersey, become the best running hooker in the NRL.\n\nBut after earning four Test caps for Australia and going within a whisker of a premiership with the Rabbitohs in 2021, his NRL career will finish back in Wollongong.\n\n\"It's special that it worked out that way,\" the Dragons co-captain said.\n\n\"As a kid there were a couple of times you'd get on the field at halftime, with the old-school club relay we used to do.\n\n\"But even being on the hill, or a lot of the time we'd try to sneak around the stadium and find the good seats to get as close as we could to the players.\n\n\"I've got a lot of good memories of WIN Stadium and just footy in general along the coast here, with some time at the (Thirroul) Butchers as well. It's pretty cool.\""
     },
     {
-      "story_id": "49830626",
-      "headline": "Imanaga pitches 6 sharp innings, Crow-Armstrong doubles, steals 33rd base as Cubs beat Marlins 6-1",
-      "summary": "\u2014 Shota Imanaga allowed three hits and one run in six innings and Pete Crow-Armstrong doubled and stole his 33rd base as the Chicago Cubs beat the Miami Marlins 6-1 on Friday.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816800.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-05T02:11:36Z",
+      "story_id": "49830723",
+      "headline": "Pratt drives in 4 runs in the Brewers' 10-7 win over the Reds",
+      "summary": "\u2014 Cooper Pratt drove in a season-high four runs with a bases-loaded triple and a groundout, Brice Turang had a two-run double and the Milwaukee Brewers beat the Cincinnati Reds 10-7 on Friday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816802.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-05T02:24:30Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816800",
+      "link": "http://www.espn.com/mlb/recap?gameId=401816802",
       "stream_url": "",
-      "body": "MIAMI -- \u2014 Shota Imanaga allowed three hits and one run in six innings and Pete Crow-Armstrong doubled and stole his 33rd base as the Chicago Cubs beat the Miami Marlins 6-1 on Friday.\n\n\r\nImanaga (9-10) struck out four and improved to 4-2 in nine starts since the All-Star break. Aaron Civale pitched the final three innings for his second save.\n\n\r\nArmstrong continued to bolster his case for NL MVP, drawing a four-pitch walk, scoring twice and making a leaping grab at the center-field wall to rob Miami\u2019s Heriberto Hern\u00e1ndez of a potential extra-base hit in the sixth.\n\n\r\nAlex Bregman singled twice and walked, stretching his hitting streak to eight games, dating to Aug 28. Nico Hoerner also had three hits and an RBI. Pedro Ram\u00edrez drove in two runs.\n\n\r\nMarlins starter Janson Junk (6-9) struck out five and limited the Cubs to one run on three hits through five innings. Chicago then scored three in the sixth against relievers Jack Ralston and Josh Ekness.\n\n\r\nCrow-Armstrong led off the sixth with a walk against Ralston, who then allowed one-out walks to Michael Busch and Bregman. Ekness entered, walked in a run and allowed an RBI single to Hoerner before Ram\u00edrez's sacrifice fly, making it 4-0.\n\n\r\nThe Marlins broke up the shutout bid in the seventh when Griffin Conine scored on Esteury Ruiz's groundout. Conine singled twice, and Deyvison De Los Santos doubled.\n\n\r\nBusch hit a solo home run against Bradley Blalock in the ninth, driving the right-hander's sweeper 427 feet to right-center for his 18th homer of the season.\n\n\r\nThe Cubs took a 1-0 lead in the second when Ian Happ scored on Ram\u00edrez's fielder's choice.\n\n\r\nUp next\r\n\r\nMarlins RHP Ryan Gusto (1-3, 3.86 ERA) will start the second game of the series. The Cubs have not announced a starter.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+      "body": "CINCINNATI -- \u2014 Cooper Pratt drove in a season-high four runs with a bases-loaded triple and a groundout, Brice Turang had a two-run double and the Milwaukee Brewers beat the Cincinnati Reds 10-7 on Friday night.\n\n\r\nRhett Lowder was the victim of an error that led to the Brewers' decisive five-run fifth inning.\n\n\r\nLowder (6-9) gave up a leadoff single to Jackson Chourio and walked Christian Yelich. William Contreras hit what appeared to be a double-play ground ball to shortstop, but Elly De La Cruz bobbled it to load the bases. Pratt tripled inside the first base bag to clear the bases off Sam Moll. He scored on a wild pitch.\n\n\r\nThe Reds led 6-4 in the third after Eugenio Suarez\u2019s three-run home run off Shane Drohan. Suarez returned from becoming a U.S. citizen, and his walk-up song was Lee Greenwood\u2019s \u201cGod Bless the U.S.A.\u201d It was his 21st home run of the season and tied him with Ken Griffey Jr. for ninth on the team\u2019s home run list with 210.\n\n\r\nDrohan pitched four innings, six runs on five hits, including Matt McLain's 14th home run.\n\n\r\nChad Patrick (8-4) pitched two scoreless innings for the victory. Trevor Megill picked up his 26th save in 28 chances.\n\n\r\nThe Brewers have 88 wins. They need 10 wins in the remaining 20 games to set a franchise record for wins.\n\n\r\nUp next\r\nBrewers RHP Dustin May (6-9, 4.69 ERA) was set to face LHP Andrew Abbott (6-10, 4.49) on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "49825369",
