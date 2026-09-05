@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-05T14:02:59.106672+00:00",
+  "generated_utc": "2026-09-05T14:13:21.516650+00:00",
   "window_days": 2,
-  "total_events": 229,
+  "total_events": 211,
   "competitions": [
     {
       "competition": "aew",
@@ -76,29 +76,29 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 10,
-      "date_range": [
-        "2026-09-04",
-        "2026-09-06"
-      ],
-      "explicit_status": 10,
-      "status_coverage_pct": 100,
-      "both_logos": 10,
-      "logo_coverage_pct": 100,
-      "live_now": 3
-    },
-    {
-      "competition": "esp.1",
-      "name": "La Liga",
-      "sport": "soccer",
       "events": 9,
       "date_range": [
-        "2026-09-03",
+        "2026-09-05",
         "2026-09-06"
       ],
       "explicit_status": 9,
       "status_coverage_pct": 100,
       "both_logos": 9,
+      "logo_coverage_pct": 100,
+      "live_now": 5
+    },
+    {
+      "competition": "esp.1",
+      "name": "La Liga",
+      "sport": "soccer",
+      "events": 1,
+      "date_range": [
+        "2026-09-04",
+        "2026-09-04"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -121,14 +121,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 9,
+      "events": 8,
       "date_range": [
-        "2026-09-04",
+        "2026-09-05",
         "2026-09-06"
       ],
-      "explicit_status": 9,
+      "explicit_status": 8,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 8,
       "logo_coverage_pct": 100,
       "live_now": 5
     },
@@ -149,16 +149,14 @@
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 8,
-      "date_range": [
-        "2026-09-04",
-        "2026-09-06"
-      ],
-      "explicit_status": 8,
-      "status_coverage_pct": 100,
-      "both_logos": 8,
-      "logo_coverage_pct": 100,
-      "live_now": 1
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "mlb",
@@ -422,15 +420,61 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:soccer/eng.1",
+      "date": "2026-09-04",
+      "error": "RemoteDisconnected for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20260904: Remote end closed connection without response"
+    },
+    {
+      "source": "espn:soccer/esp.1",
+      "date": "2026-09-03",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260903: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/esp.1",
+      "date": "2026-09-05",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260905: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/esp.1",
+      "date": "2026-09-06",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260906: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/ita.1",
+      "date": "2026-09-04",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20260904: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/ita.1",
+      "date": "2026-09-05",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20260905: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/ita.1",
+      "date": "2026-09-06",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20260906: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-09-02",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260902: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-09-04",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260904: <urlopen error [Errno 104] Connection reset by peer>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 9,
-    "carried": 9
+    "live_events": 10,
+    "carried": 10
   },
   "replay_items": {
     "total": 98,
