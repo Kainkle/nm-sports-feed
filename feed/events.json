@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-05T04:07:29.764286+00:00",
+  "generated_utc": "2026-09-05T04:17:09.063789+00:00",
   "events": [
     {
       "event_id": "mlb:824470",
@@ -3334,7 +3334,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Stanford Stadium",
-      "detail": "6:27 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3349,7 +3349,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-05T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:30",
         "name": "USC Trojans",
@@ -3379,10 +3379,9 @@
         "color": "b1102b"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "1:21 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3396,7 +3395,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-05T01:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:135",
         "name": "San Diego Padres",
@@ -3427,10 +3426,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Petco Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
