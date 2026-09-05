@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-05T21:23:55.313468+00:00",
+  "generated_utc": "2026-09-05T21:33:58.677707+00:00",
   "window_days": 2,
   "total_events": 229,
   "competitions": [
@@ -422,7 +422,18 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-09-04",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260904: <urlopen error [Errno 104] Connection reset by peer>"
+    },
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-09-05",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260905: <urlopen error [Errno 104] Connection reset by peer>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
