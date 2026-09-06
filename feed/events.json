@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-06T17:21:33.702526+00:00",
+  "generated_utc": "2026-09-06T17:31:27.466697+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603450",
@@ -8915,7 +8915,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-09-06T15:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:359",
         "name": "Arsenal",
@@ -8941,10 +8941,9 @@
         "color": "144992"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Emirates Stadium",
-      "detail": "88'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8958,7 +8957,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-09-06T15:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:125",
         "name": "Eintracht Frankfurt",
@@ -8986,10 +8985,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Deutsche Bank Park",
-      "detail": "90'+2'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9031,7 +9029,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Renato Dall'Ara",
-      "detail": "61'",
+      "detail": "71'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9119,9 +9117,9 @@
         "color": "cd0000"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Mendizorrotza",
-      "detail": "45'+3'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9162,9 +9160,9 @@
         "color": "C8142F"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "La Rosaleda",
-      "detail": "45'+5'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9368,7 +9366,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-06T17:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:121",
         "name": "New York Mets",
@@ -9399,9 +9397,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Citi Field",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9415,7 +9414,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-06T17:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:146",
         "name": "Miami Marlins",
@@ -9446,9 +9445,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "loanDepot park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
