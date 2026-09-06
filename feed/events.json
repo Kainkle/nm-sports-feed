@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-06T12:54:46.617543+00:00",
+  "generated_utc": "2026-09-06T13:04:59.511510+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603450",
@@ -8167,9 +8167,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/16057620892332",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16057620892332",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/107/17302734.jpg",
       "card": ""
     },
     {
@@ -8675,7 +8682,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-09-06T13:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:368",
         "name": "Everton",
@@ -8702,9 +8709,10 @@
         "color": "da020e"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Hill Dickinson Stadium",
-      "detail": "Sun, September 6th at 9:00 AM EDT",
+      "detail": "3'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8760,7 +8768,7 @@
       "competition_id": "ita.1",
       "competition_name": "Serie A",
       "start_utc": "2026-09-06T13:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:115",
         "name": "Parma",
@@ -8786,9 +8794,10 @@
         "color": "C8142F"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Ennio Tardini",
-      "detail": "Sun, September 6th at 9:00 AM EDT",
+      "detail": "3'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12182,6 +12191,24 @@
   ],
   "replays": [
     {
+      "id": "mlblive:10788",
+      "title": "Athletics @ Seattle Mariners - MLB Full Game Replay - September 5, 2026",
+      "date": "2026-09-05",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/16057620892332",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16057620892332",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/107/17302734.jpg",
+      "source_url": "https://mlblive.net/athletics-seattle-mariners-mlb-full-game-replay-september-5-2026"
+    },
+    {
       "id": "mlblive:10778",
       "title": "Washington Nationals @ Los Angeles Dodgers - MLB Full Game Replay - September 5, 2026",
       "date": "2026-09-05",
@@ -13974,24 +14001,6 @@
       ],
       "poster": "https://mlblive.net/_pu/107/50104823.jpg",
       "source_url": "https://mlblive.net/new-york-yankees-los-angeles-angels-mlb-full-game-replay-august-31-2026"
-    },
-    {
-      "id": "mlblive:10718",
-      "title": "Baltimore Orioles @ Colorado Rockies - MLB Full Game Replay - August 31, 2026",
-      "date": "2026-08-31",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16000518916780",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16000518916780",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/107/95086543.jpg",
-      "source_url": "https://mlblive.net/baltimore-orioles-colorado-rockies-mlb-full-game-replay-august-31-2026"
     },
     {
       "id": "r24:6896",
