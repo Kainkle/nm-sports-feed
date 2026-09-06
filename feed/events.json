@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-06T05:29:46.737396+00:00",
+  "generated_utc": "2026-09-06T05:39:25.762948+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603450",
@@ -8146,7 +8146,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-06T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:62",
         "name": "Hawai'i Rainbow Warriors",
@@ -8175,56 +8175,8 @@
         "color": "cf0a2c"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Clarence T.C. Ching Athletics Complex",
-      "detail": "3:22 - 4th Quarter",
-      "has_live_source": false,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864498",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-06T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:167",
-        "name": "New Mexico Lobos",
-        "abbrev": "UNM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
-        "logo_dark": null,
-        "aliases": [
-          "Lobos",
-          "New Mexico",
-          "New Mexico Lobos",
-          "UNM"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:2117",
-        "name": "Central Michigan Chippewas",
-        "abbrev": "CMU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
-        "logo_dark": null,
-        "aliases": [
-          "C Michigan",
-          "CMU",
-          "Central Michigan",
-          "Central Michigan Chippewas",
-          "Chippewas"
-        ],
-        "color": "4c0027"
-      },
-      "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "University Stadium (NM)",
+      "venue": "Clarence T.C. Ching Athletics Complex",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -8239,7 +8191,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-06T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:16",
         "name": "Sacramento State Hornets",
@@ -8271,10 +8223,9 @@
         "color": "005328"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Hornet Stadium",
-      "detail": "2:00 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8331,6 +8282,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401864498",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-06T02:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:167",
+        "name": "New Mexico Lobos",
+        "abbrev": "UNM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lobos",
+          "New Mexico",
+          "New Mexico Lobos",
+          "UNM"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:2117",
+        "name": "Central Michigan Chippewas",
+        "abbrev": "CMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+        "logo_dark": null,
+        "aliases": [
+          "C Michigan",
+          "CMU",
+          "Central Michigan",
+          "Central Michigan Chippewas",
+          "Chippewas"
+        ],
+        "color": "4c0027"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "University Stadium (NM)",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401858210",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -8365,9 +8363,9 @@
         "color": "2774ae"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "California Memorial Stadium",
-      "detail": "End of 3rd Quarter",
+      "detail": "11:10 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -8415,7 +8413,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mackay Stadium",
-      "detail": "9:44 - 4th Quarter",
+      "detail": "7:34 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -8546,7 +8544,7 @@
       "source": "espn:rugby-league/3",
       "source_status": "in/Second Half",
       "venue": "WIN Stadium",
-      "detail": "59'",
+      "detail": "68'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -10782,18 +10780,18 @@
   ],
   "stories": [
     {
-      "story_id": "48305211",
-      "headline": "2026 MLB ABS challenge system tracker: Team, player rankings",
-      "summary": "The ABS challenge system leaderboard ranks batters, catchers, teams and umpires throughout the MLB season.",
-      "image": "https://a.espncdn.com/photo/2026/0330/r1635936_608x342_16-9.jpg",
-      "published_utc": "2026-09-06T04:30:03Z",
+      "story_id": "49845188",
+      "headline": "Minnesota Twins vs Chicago White Sox: Game Highlightss",
+      "summary": "Minnesota Twins vs Chicago White Sox: Game Highlightss",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0906/a6782ae8-1b14-4133-b58c-0c8bdd7eafc8/a6782ae8-1b14-4133-b58c-0c8bdd7eafc8.jpg",
+      "published_utc": "2026-09-06T04:51:53Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "ESPN",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/48305211/2026-mlb-abs-challenge-system-tracker-team-player-rankings",
-      "stream_url": "",
-      "body": "Major League Baseball implemented the ABS challenge system for the 2026 season, which allows players to challenge a ball or strike call made by the plate umpire. Each team receives two challenges to start the game, and only batters, pitchers and catchers can challenge a call. If a team wins a challenge, it can keep challenging. If a team challenges incorrectly twice, it loses its challenges for the rest of the game.\n\nHere are the ABS challenge system rankings for batters, catchers, teams and umpires for the 2026 MLB season.\n\nData updated through Saturday, September 5."
+      "link": "https://www.espn.com/video/clip/_/id/49845188/game-highlightss",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0906/a6782ae8-1b14-4133-b58c-0c8bdd7eafc8/a6782ae8-1b14-4133-b58c-0c8bdd7eafc8/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49843980",
@@ -10950,18 +10948,18 @@
       "body": "When Wayne Bennett dropped Dolphins half Isaiya Katoa for the crucial final round match of their 2024 season the rising star was accepting.\n\nLooking back two years later, as the third-placed Dolphins prepare to play in their first finals series, Katoa regards his axing as a turning point in his career.\n\nThe 22-year-old Dolphins co-captain will enter the finals as one of the game's best young halves and the linchpin of the side.\n\nIn 2024, the Dolphins were on the cusp of finals and Katoa, who had started in 21 games straight, was not playing his best when Bennett relegated him to the bench ahead of the penultimate round against Brisbane, won 40-6 by the Dolphins.\n\nThen in a complete shock to outsiders, Bennett dropped Katoa altogether for the team to play Newcastle away when the Dolphins needed to just win to make the playoffs. They lost 14-6.\n\n\"That was a massive lesson. I remember us having a conversation throughout the week and honestly it was the right move by Wayne,\" Katoa told AAP of Bennett's call.\n\n\"I wasn't playing good footy at the time and I was making a lot of uncharacteristic errors. It was one of the biggest lessons I have learned, because you want to be in those big games and fighting for a top eight spot.\n\n\"If Wayne didn't do that I wouldn't have developed as much as I have.\"\n\nKatoa is wise beyond his years and revealed his long-term thinking when, while a teenager at Penrith, he decided to join the Dolphins.\n\n\"It was a little bit weird because I had a Zoom meeting due to COVID with Wayne, our CEO Terry Reader and Peter O'Sullivan who was the recruitment manager at the time,\" he said.\n\n\"The conversation was about how Wayne would look after me and make sure he would develop me as a first grader.\n\n\"He always had this plan where he said, 'I don't want you to be the best player right now. I want you to be the best player in four or five years time' and continue on that upward trajectory.\n\n\"That is what gave me so much confidence and it gave my family and my dad confidence to take that leap and come over to the Dolphins.\"\n\nUnder his current Dolphins and Tonga coach Kristian Woolf he has taken massive strides forward with a mentor who has given him one of the most vital ingredients.\n\n\"Confidence,\" Katoa said.\n\n\"If there is one word to sum up how much Woolfy has done for me it is definitely to show the confidence in me to go out and be myself, take control and play exactly what I see.\n\n\"Making me co-captain was a big part of that too. I think that naturally happens when you are halfback of a team but it was a sign to me that Woolfy has complete confidence in me.\"\n\nKatoa's gratitude is summed up in his actions and taking the Dolphins to a maiden title is now his aim.\n\n\"I couldn't be more proud to be a Dolphin and obviously an inaugural Dolphin as well,\" he said.\n\n\"They took a chance with me when I first came out of high school so for me it is about paying the Dolphins back and making sure I do everything I possibly can to bring a premiership to this club.\n\n\"It is very special we get to go to our first finals series and we are very excited. One thing for sure is that we are not going to take that for granted.\""
     },
     {
-      "story_id": "49844816",
-      "headline": "Dodgers take Game 2 vs. the Nats 6-5",
-      "summary": "Dodgers take Game 2 vs. the Nats 6-5",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0906/a38a9a61-c645-4ca0-adcf-59698b1dbadd/a38a9a61-c645-4ca0-adcf-59698b1dbadd.jpg",
-      "published_utc": "2026-09-06T04:18:10Z",
+      "story_id": "49845053",
+      "headline": "Tommy Edman and Teoscar Hern\u00e1ndez lead Dodgers past Nationals 6-5 in Shohei Ohtani's absence",
+      "summary": "\u2014 Tommy Edman and Teoscar Hern\u00e1ndez provided key hits in Shohei Ohtani's absence as the Los Angeles Dodgers rallied for a 6-5 victory over the Washington...",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816826.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-06T04:49:29Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49844816/dodgers-take-game-2-vs-nats-6-5",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0906/a38a9a61-c645-4ca0-adcf-59698b1dbadd/a38a9a61-c645-4ca0-adcf-59698b1dbadd/playlist.m3u8",
-      "body": ""
+      "link": "http://www.espn.com/mlb/recap?gameId=401816826",
+      "stream_url": "",
+      "body": "LOS ANGELES -- \u2014 Tommy Edman and Teoscar Hern\u00e1ndez provided key hits in Shohei Ohtani's absence as the Los Angeles Dodgers rallied for a 6-5 victory over the Washington Nationals on Saturday night.\n\n\r\nEdman put the Dodgers ahead with a three-run homer in the seventh inning out of Ohtani\u2019s regular leadoff spot, and Hern\u00e1ndez had an RBI single in the first while replacing the two-way superstar at designated hitter.\n\n\r\nOhtani remains uncertain to play in Sunday\u2019s series finale, with a move to the injured list possible.\n\n\r\nDylan Crews and Daylen Lile each had an RBI double for the Nationals, and Cade Cavalli pitched six strong innings following a rocky start. Cavalli allowed two runs and four hits with eight strikeouts, retiring 15 of the last 16 batters he faced.\n\n\r\nKeibert Ruiz had a run-scoring single against his former team but Washington lost its third consecutive game.\n\n\r\nLos Angeles jumped on Cavalli early. Freddie Freeman was hit by a pitch with one out in the first and Mookie Betts singled. Hern\u00e1ndez singled with two outs for a 1-0 lead, and Hunter Feduccia followed with an RBI single for a two-run advantage.\n\n\r\nThe Nationals cut the deficit in half in the second when CJ Abrams scored on a sacrifice fly from Jos\u00e9 Tena.\n\n\r\nWashington went up 3-2 in the fourth on an RBI single by Ruiz and a run-scoring double from Crews. Ruiz was playing for the first time since Wednesday when he was hit in his catcher\u2019s mask by a foul ball.\n\n\r\nLile\u2019s run-scoring double in the seventh against Alex Vesia (2-1) gave Washington a 4-2 lead.\n\n\r\nThe Dodgers rallied against right-hander Clayton Beeter (5-5) by putting two aboard with two outs in the bottom half. Edman drove a 2-1 slider into the right-field seats for his sixth homer of the season.\n\n\r\nLos Angeles added a run in the eighth when Alex Call was hit by a pitch with the bases loaded.\n\n\r\nTanner Scott gave up an RBI single to Lile in the ninth before finishing off his 21st save.\n\n\r\nUp next\r\nNationals LHP Andrew Alvarez (2-6, 3.47 ERA) faces Dodgers LHP Justin Wrobleski (11-5, 3.65) on Sunday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "49842819",
