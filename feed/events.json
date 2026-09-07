@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T23:32:07.753926+00:00",
+  "generated_utc": "2026-09-07T23:41:44.663650+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603451",
@@ -9582,7 +9582,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-07T21:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:135",
         "name": "San Diego Padres",
@@ -9612,10 +9612,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Petco Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9629,7 +9628,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-07T23:30Z",
-      "status": "scheduled",
+      "status": "suspended",
       "home": {
         "id": "espn:52",
         "name": "Florida State Seminoles",
@@ -9659,9 +9658,9 @@
         "color": "a80000"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/Delayed",
       "venue": "Doak Campbell Stadium",
-      "detail": "Mon, September 7th at 7:30 PM EDT",
+      "detail": "Delayed",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
