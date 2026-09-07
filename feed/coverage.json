@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T20:47:53.835373+00:00",
+  "generated_utc": "2026-09-07T20:57:59.898448+00:00",
   "window_days": 2,
   "total_events": 231,
   "competitions": [
@@ -426,13 +426,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/nba",
-      "date": "2026-09-07",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260907: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
