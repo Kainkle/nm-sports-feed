@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-07T03:02:32.393811+00:00",
+  "generated_utc": "2026-09-07T03:12:25.921542+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:603451",
@@ -8832,53 +8832,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858438",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-06T23:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:87",
-        "name": "Notre Dame Fighting Irish",
-        "abbrev": "ND",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Irish",
-          "ND",
-          "Notre Dame",
-          "Notre Dame Fighting Irish"
-        ],
-        "color": "062340"
-      },
-      "away": {
-        "id": "espn:275",
-        "name": "Wisconsin Badgers",
-        "abbrev": "WIS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-        "logo_dark": null,
-        "aliases": [
-          "Badgers",
-          "WIS",
-          "Wisconsin",
-          "Wisconsin Badgers"
-        ],
-        "color": "a00000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Lambeau Field",
-      "detail": "1:51 - 4th Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856661",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -8916,8 +8869,54 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Nissan Stadium",
-      "detail": "6:43 - 4th Quarter",
+      "detail": "4:42 - 4th Quarter",
       "has_live_source": true,
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858438",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-06T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "away": {
+        "id": "espn:275",
+        "name": "Wisconsin Badgers",
+        "abbrev": "WIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+        "logo_dark": null,
+        "aliases": [
+          "Badgers",
+          "WIS",
+          "Wisconsin",
+          "Wisconsin Badgers"
+        ],
+        "color": "a00000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Lambeau Field",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
