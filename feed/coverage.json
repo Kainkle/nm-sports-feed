@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-08T09:27:40.017826+00:00",
+  "generated_utc": "2026-09-08T09:36:09.829306+00:00",
   "window_days": 2,
-  "total_events": 234,
+  "total_events": 235,
   "competitions": [
     {
       "competition": "aew",
@@ -291,14 +291,14 @@
       "competition": "rugby-league",
       "name": "Rugby League",
       "sport": "rugby-league",
-      "events": 4,
+      "events": 5,
       "date_range": [
         "2026-09-05",
         "2026-09-06"
       ],
-      "explicit_status": 4,
+      "explicit_status": 5,
       "status_coverage_pct": 100,
-      "both_logos": 4,
+      "both_logos": 5,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -428,18 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:rugby-league/3",
-      "date": "2026-09-06",
-      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/rugby-league/3/scoreboard?dates=20260906: The read operation timed out"
-    },
-    {
-      "source": "espn:mma/ufc",
-      "date": "2026-09-06",
-      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/mma/ufc/scoreboard?dates=20260906: The read operation timed out"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
