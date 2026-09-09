@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T01:35:39.112821+00:00",
+  "generated_utc": "2026-09-09T01:45:56.413137+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057442",
@@ -2785,7 +2785,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-08T22:35:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:110",
         "name": "Baltimore Orioles",
@@ -2815,10 +2815,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Oriole Park at Camden Yards",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2878,7 +2877,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-08T22:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:143",
         "name": "Philadelphia Phillies",
@@ -2908,10 +2907,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Citizens Bank Park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3282,7 +3280,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Manager challenge",
+      "source_status": "Live/In Progress",
       "venue": "American Family Field",
       "detail": "",
       "has_live_source": true,
@@ -3366,7 +3364,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Petco Park",
       "detail": "",
       "has_live_source": true,
@@ -3413,7 +3411,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "T-Mobile Park",
       "detail": "",
       "has_live_source": true,
@@ -3458,7 +3456,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Sutter Health Park",
       "detail": "",
       "has_live_source": true,
@@ -3505,7 +3503,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Oracle Park",
       "detail": "",
       "has_live_source": true,
@@ -3522,7 +3520,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-09T02:10:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:119",
         "name": "Los Angeles Dodgers",
@@ -3553,9 +3551,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6245,6 +6244,12 @@
         {
           "url": "https://dailywrestling.cc/embed/txneww/09-08-2026/select-post-1/4/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/09-08-2026/select-post-1/4/5",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         }
