@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T19:52:01.756381+00:00",
+  "generated_utc": "2026-09-09T20:01:32.685441+00:00",
   "window_days": 2,
   "total_events": 126,
   "competitions": [
@@ -428,13 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/mens-college-basketball",
-      "date": "2026-09-09",
-      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20260909: The read operation timed out"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
