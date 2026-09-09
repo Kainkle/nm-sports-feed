@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T19:09:39.040128+00:00",
+  "generated_utc": "2026-09-09T19:19:41.911938+00:00",
   "window_days": 2,
   "total_events": 126,
   "competitions": [
@@ -173,7 +173,7 @@
       "status_coverage_pct": 100,
       "both_logos": 61,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 3
     },
     {
       "competition": "mma-sofa",
@@ -428,15 +428,21 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:rugby/270557",
+      "date": "2026-09-09",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby/270557/scoreboard?dates=20260909: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 6,
-    "carried": 6
+    "live_events": 7,
+    "carried": 7
   },
   "replay_items": {
     "total": 110,
