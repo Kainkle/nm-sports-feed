@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-09T17:38:32.336485+00:00",
+  "generated_utc": "2026-09-09T17:48:53.531517+00:00",
   "window_days": 2,
   "total_events": 126,
   "competitions": [
@@ -428,13 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:racing/f1",
-      "date": "2026-09-10",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard?dates=20260910: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
