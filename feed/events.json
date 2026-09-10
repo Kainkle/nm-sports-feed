@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-10T15:51:23.636597+00:00",
+  "generated_utc": "2026-09-10T16:01:29.424287+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874943",
@@ -3711,7 +3711,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-10T16:15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:144",
         "name": "Atlanta Braves",
@@ -3741,9 +3741,10 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Truist Park",
       "detail": "",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
