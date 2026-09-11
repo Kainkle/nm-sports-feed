@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-11T01:50:14.074978+00:00",
+  "generated_utc": "2026-09-11T02:00:38.799044+00:00",
   "window_days": 2,
   "total_events": 233,
   "competitions": [
@@ -320,11 +320,11 @@
         "2026-09-11",
         "2026-09-11"
       ],
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "uefa.champions",
@@ -431,6 +431,10 @@
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
+  },
+  "live_intersection": {
+    "live_events": 4,
+    "carried": 4
   },
   "replay_items": {
     "total": 97,
