@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-11T07:07:52.089844+00:00",
+  "generated_utc": "2026-09-11T07:18:06.523629+00:00",
   "window_days": 2,
   "total_events": 233,
   "competitions": [
@@ -426,13 +426,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:racing/nascar-premier",
-      "date": "2026-09-10",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard?dates=20260910: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
@@ -443,13 +437,13 @@
     "carried": 0
   },
   "replay_items": {
-    "total": 97,
+    "total": 98,
     "by_sport": {
       "baseball": 57,
       "boxing": 1,
       "mma": 1,
       "motor-sports": 4,
-      "rugby": 34
+      "rugby": 35
     }
   },
   "stories": {
