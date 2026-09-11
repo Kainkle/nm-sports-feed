@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-11T20:56:32.849807+00:00",
+  "generated_utc": "2026-09-11T21:06:53.397016+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915452",
@@ -3686,7 +3686,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-11T18:20:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:112",
         "name": "Chicago Cubs",
@@ -3717,10 +3717,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Wrigley Field",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3766,7 +3765,7 @@
       "venue": "Stadion An der Alten F\u00f6rsterei",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "jc7yZJThVnU",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3820,7 +3819,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-09-11T19:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:243",
         "name": "Sevilla",
@@ -3846,10 +3845,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
-      "detail": "89'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6059,52 +6057,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401868187",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-12T16:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2335",
-        "name": "Liberty Flames",
-        "abbrev": "LIB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-        "logo_dark": null,
-        "aliases": [
-          "Flames",
-          "LIB",
-          "Liberty",
-          "Liberty Flames"
-        ],
-        "color": "0a254e"
-      },
-      "away": {
-        "id": "espn:2241",
-        "name": "Gardner-Webb Runnin' Bulldogs",
-        "abbrev": "GWEB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
-        "logo_dark": null,
-        "aliases": [
-          "GWEB",
-          "Gardner-Webb",
-          "Gardner-Webb Runnin' Bulldogs",
-          "Runnin' Bulldogs"
-        ],
-        "color": "c12535"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Williams Stadium (VA)",
-      "detail": "Sat, September 12th at 12:00 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401867929",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6142,6 +6094,52 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Bridgeforth Stadium",
+      "detail": "Sat, September 12th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401868187",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-12T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2335",
+        "name": "Liberty Flames",
+        "abbrev": "LIB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+        "logo_dark": null,
+        "aliases": [
+          "Flames",
+          "LIB",
+          "Liberty",
+          "Liberty Flames"
+        ],
+        "color": "0a254e"
+      },
+      "away": {
+        "id": "espn:2241",
+        "name": "Gardner-Webb Runnin' Bulldogs",
+        "abbrev": "GWEB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
+        "logo_dark": null,
+        "aliases": [
+          "GWEB",
+          "Gardner-Webb",
+          "Gardner-Webb Runnin' Bulldogs",
+          "Runnin' Bulldogs"
+        ],
+        "color": "c12535"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Williams Stadium (VA)",
       "detail": "Sat, September 12th at 12:00 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
@@ -10765,20 +10763,6 @@
   ],
   "stories": [
     {
-      "story_id": "49906905",
-      "headline": "Pirates' Esmerlyn Valdez exits with apparent left leg injury",
-      "summary": "Pittsburgh rookie outfielder Esmerlyn Valdez left Friday's game against the Cubs after injuring himself while running to first base on a grounder in the sixth inning.",
-      "image": "https://a.espncdn.com/photo/2026/0911/r1715069_1296x729_16-9.jpg",
-      "published_utc": "2026-09-11T20:53:01Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49906905/pirates-esmerlyn-valdez-exits-apparent-left-leg-injury",
-      "stream_url": "",
-      "body": "CHICAGO -- Pittsburgh Pirates rookie outfielder Esmerlyn Valdez left Friday's game against the Cubs after injuring himself while running to first base on a grounder in the sixth inning.\n\nValdez grabbed the back of his left leg and limped off the field with his arms draped around the shoulders of training staff after shortstop Nico Hoerner threw him out.\n\nHe was replaced in right field by Billy Cook, who misjudged Seiya Suzuki's fly ball on the first play in the bottom half of the inning and allowed it to fall for a triple.\n\nValdez entered batting .235 with 17 homers and 47 RBIs in 71 games. The 22-year-old made his major league debut on May 22 at Toronto.\n\nThe Pirates on Thursday placed All-Star right-hander Braxton Ashcraft (14-6), one of the majors' best breakout pitchers this season, on the 15-day injured list with arm discomfort.\n\nPittsburgh also activated infielder/outfielder Ryan O'Hearn from the 10-day injured list on Friday after he recovered from a strained left quad suffered on July 31.\n\nThe Associated Press contributed to this report."
-    },
-    {
       "story_id": "49906739",
       "headline": "Eagles LB Jonathan Greenard out Week 1 due to pec injury",
       "summary": "The Eagles have ruled out edge rusher Jonathan Greenard for Week 1 due to a pec injury. Greenard missed all of training camp but was a limited participant in practice this week.",
@@ -10805,6 +10789,20 @@
       "link": "https://www.espn.com/nba/story/_/id/49904356/sources-suns-mark-williams-miss-shoulder-surgery",
       "stream_url": "",
       "body": "Phoenix Suns center Mark Williams had surgery Thursday to repair a torn labrum in his left shoulder and will miss several months, the team announced Friday.\n\nThe 7-foot-1 Williams, 24, who signed a fully guaranteed three-year, $38 million deal to return to the Suns in free agency, suffered the injury during a recent offseason workout.\n\nHe was coming off the healthiest season of his four-year NBA career, appearing in 60 games after a previous high of 44. He averaged 11.7 points, 8.0 rebounds and 0.9 blocks in 23.6 minutes per game.\n\nWilliams arrived in Phoenix in a 2025 draft night deal from Charlotte, after the Hornets' first attempt to trade him was rescinded shortly at that year's trade deadline. Williams took over as the Suns' starting center and was part of a group that helped Phoenix beat preseason expectations in earning a playoff berth.\n\nHe has career averages of 12 points, 8.5 rebounds and one block per game.\n\nWithout Williams, the Suns will likely lean on Oso Ighodaro and Khaman Maluach to play the bulk of the minutes at center this season.\n\nThe Associated Press contributed to this report."
+    },
+    {
+      "story_id": "49902505",
+      "headline": "Fantasy Baseball Forecaster Playoff Round 2, Week 1: Sept. 14-20",
+      "summary": "Set your lineups for the week ahead in fantasy baseball with our preview featuring pitcher rankings, hitter ratings and schedule observations.",
+      "image": "https://a.espncdn.com/photo/2026/0911/r1714862_576x324_16-9.jpg",
+      "published_utc": "2026-09-11T20:14:08Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Tristan H. Cockcroft",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/baseball/story/_/id/49902505/fantasy-baseball-forecaster-espn-2026-mlb-starting-pitcher-hitter-ranks-week-24-sept-14-20",
+      "stream_url": "",
+      "body": "If you've made it this far, congratulations! You've either advanced to the championship round in ESPN head-to-head leagues, or you're still in contention in your categories or total points league.\n\nFantasy baseball's Week 24 is the penultimate week in the 2026 MLB regular (and fantasy) season, and it represents the first of the two-week championship round in standard head-to-head leagues. The two teams that won the two-week, Aug. 31-Sept. 13 semifinal matchups will now square off from Sept. 14-27.\n\nWe're certain to see our first significant postseason berths clinched -- putting aside, for a moment, that the Tampa Bay Rays and Milwaukee Brewers are virtual locks to assure themselves of (at the very least) playoff berths during the Sept. 11-13 weekend -- as several teams are within reach during the upcoming week. The Brewers (magic number of 5) and Los Angeles Dodgers (6) can clinch their respective divisions, and the New York Yankees (4), Dodgers (5), Atlanta Braves (8) and Boston Red Sox (9) can clinch wild-card spots -- all of which seems likely to occur during Week 24.\n\nFrom a player motivation standpoint, fantasy managers should prefer players from games with something on the line, and it's not uncommon for a team clinching some type of postseason berth or seeding to rest veteran players afterward, often in the game immediately following that happening.\n\nProjected starting pitchers for the next 10 days\nHitter matchup ratings for the next 10 days\n\nLineup lock times\n\nScheduling quirks\n\nStarting pitcher ranks\n\nHitter ratings"
     },
     {
       "story_id": "49905657",
@@ -10933,20 +10931,6 @@
       "body": "The Newcastle Knights have beaten South Sydney at Allianz Stadium, advancing to the second week of the finals, sending the Rabbitohs crashing out of what was a promising season.\n\nHere are three things we learned from the game:\n\nKnights never stop fighting\n\nSuspensions, injuries, away from home - don't worry about any of it. Very few gave Newcastle a shot in this one but right from the jump they were more physical, more enthusiastic and took their chances. It wasn't a typical Knights showing because while they did score a long-range try, they had a mountain of ball in territory and won this via attrition rather than dazzling football.\n\nBoth first half tries came off kicks, but it was being in good attacking positions to end their sets which allowed that to happen. All week, a lot of people, including me, thought if they'd win it would be by throwing a few counter punches and defending gamely. They didn't really need to.\n\nThey were meant to be the team on the back foot, with a forward pack devoid of stars They dominated in yardage, robbed Souths of good ball, and suffocated their way to victory. It's so against type for them it's hard to really believe, but as hard-earned a win as the Knights have got all year. Bring on week two.\n\nBennett's selection puzzlers finally catch up\n\nThe loudest cheer from the Souths fans at the Sydney Football Stadium didn't come at kick off, or even when Campbell Graham scored - rather, it was Jye Gray being subbed on to the field in the second half that got the punters up and about.\n\nGray is beloved by Rabbitohs supporters and with good reason; he was one of the few bright sparks in an awful 2025 season and has made stuff happen every time he's on the field in 2026.\n\nHowever, a few weeks' ago, coach Wayne Bennett made the decision to bench Gray in favour of Matt Dufty, who's return to the NRL after several years in the wilderness has been a great story in its own right - but it's a decision that's puzzled plenty, including me. Dufty was poor in kick defence for each of the opening two tries and threw a late intercept to stop any hopes of a comeback. It was a selection misfire.\n\nSimilarly, after Ashton Ward was ruled out for the season it was assumed that Jamie Humphreys would be the halfback the rest of the way. Instead it was Bud Sullivan who Bennett went with, and his decision making on Friday night was pretty rough for the most part.\n\nStill, both Sullivan and Dufty have had great moments at times. The other and much more puzzling situation has been the refusal to play hooker Peter Mamouzelos, the most creative nine at the club and best foil to Brandon Smith. Every single Souths fan I've spoken to is baffled as to why Mamouzelos can't get into the team, particularly when the players who are getting minutes at hooker instead of him aren't hookers by trade. It makes no sense.\n\nAll of this is largely moot though because without Cody Walker, Souths weren't going to make any real impact on the finals series, even if they had stolen this one late on. Maybe next year.\n\nBack-row brilliance from Newcastle\n\nTake a bow, Jermaine McEwen and Francis Manuleleua. McEwen especially was superb with his two tries, but it was the edge integrity that allowed the Knights to stay on top in this one. Souths are so deadly on both sides but particularly their left, but for the most part those sweeping raids to the flanks were shut down with ease and that begins with the backrowers.\n\nAgain, this wasn't a position where you looked at Newcastle as having an advantage, but they were just better on the night.\n\nWe all know about the stars that the Knights have in other areas of the field, many of whom were great tonight. But if they can get this level of production from less-heralded guys, who knows how far they can go?"
     },
     {
-      "story_id": "49902505",
-      "headline": "Fantasy Baseball Forecaster Playoff Round 2, Week 1: Sept. 14-20",
-      "summary": "Set your lineups for the week ahead in fantasy baseball with our preview featuring pitcher rankings, hitter ratings and schedule observations.",
-      "image": "https://a.espncdn.com/photo/2026/0911/r1714862_576x324_16-9.jpg",
-      "published_utc": "2026-09-11T20:14:08Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Tristan H. Cockcroft",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/baseball/story/_/id/49902505/fantasy-baseball-forecaster-espn-2026-mlb-starting-pitcher-hitter-ranks-week-24-sept-14-20",
-      "stream_url": "",
-      "body": "If you've made it this far, congratulations! You've either advanced to the championship round in ESPN head-to-head leagues, or you're still in contention in your categories or total points league.\n\nFantasy baseball's Week 24 is the penultimate week in the 2026 MLB regular (and fantasy) season, and it represents the first of the two-week championship round in standard head-to-head leagues. The two teams that won the two-week, Aug. 31-Sept. 13 semifinal matchups will now square off from Sept. 14-27.\n\nWe're certain to see our first significant postseason berths clinched -- putting aside, for a moment, that the Tampa Bay Rays and Milwaukee Brewers are virtual locks to assure themselves of (at the very least) playoff berths during the Sept. 11-13 weekend -- as several teams are within reach during the upcoming week. The Brewers (magic number of 5) and Los Angeles Dodgers (6) can clinch their respective divisions, and the New York Yankees (4), Dodgers (5), Atlanta Braves (8) and Boston Red Sox (9) can clinch wild-card spots -- all of which seems likely to occur during Week 24.\n\nFrom a player motivation standpoint, fantasy managers should prefer players from games with something on the line, and it's not uncommon for a team clinching some type of postseason berth or seeding to rest veteran players afterward, often in the game immediately following that happening.\n\nProjected starting pitchers for the next 10 days\nHitter matchup ratings for the next 10 days\n\nLineup lock times\n\nScheduling quirks\n\nStarting pitcher ranks\n\nHitter ratings"
-    },
-    {
       "story_id": "49647166",
       "headline": "Fantasy football Week 1 inactives: Status for Jeanty, Love, Odunze and others",
       "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
@@ -10958,7 +10942,7 @@
       "source": "ESPN",
       "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-49647166/fantasy-football-injuries-nfl-week-1-inactive-active",
       "stream_url": "",
-      "body": "Whom should you start? Whom should you sit? To help you set your fantasy football lineups and avoid starting an offensive player who won't be in the lineup, we'll post fantasy-relevant updates and analysis here as NFL teams release their official inactives lists.\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 1 Buzz\n\nWeek 1 Rankings | Matchup rankings for Week 1\n\nBiggest concerns heading into Week 1\n\nAshton Jeanty, RB, LV (ankle): After dealing with this injury for most of the preseason, Jeanty practiced in full this week and will play in Week 1 against the Dolphins. Jeanty is a fantasy RB1 with the potential to be one of top RB scorers for the week. Last season, Miami ranked in the top eight in terms of most rushing and receiving yards allowed to backs. Mike Washington Jr. is a flex option with big-play upside in this matchup.\nJeremiyah Love, RB, ARI (ankle): Love is another back dealing with a preseason ankle issue. The rookie got in limited practices on Wednesday and Thursday. He was also listed as the RB2 on the Cardinals' depth chart. Love is expected to play and, even if he is on limited touches, he should see enough involvement to be started in fantasy. He is an explosive runner and reliable pass catcher, so he brings RB1 upside even if Arizona plays it a bit safe with him in Week 1. Tyler Allgeier is also in play as a deeper-league flex option. He will likely operate as the team's goal-line back.\nMalik Nabers, WR, NYG (knee): Nabers is returning from a torn ACL and practiced in full this week. He told reporters it will be his decision whether he suits up, but the expectation is that he will play. If he suits up for the Giants, he should start in all fantasy leagues. While it is a new-look Cowboys defense, they did allow the most yards, touchdowns and fantasy points to receivers last season. Nabers got them for 167 yards and two touchdowns in last season's Week 2.\nEmeka Egbuka, WR, TB (toe): While the sophomore receiver dealt with a toe injury this preseason, he returned to full practice this week and will play in Week 1. Egbuka showed WR1 upside early last season before injuries took their toll on both him and QB Baker Mayfield. Egbuka brings that same upside this week in what could be a high-scoring game against the Bengals.\nRome Odunze, WR, CHI (calf): Odunze suffered his injury late last week in practice and has been limited all week. However, he stated on Friday that he will be suiting up in Week 1. While there is added risk due to the calf, Odunze remains in play as a high-upside WR3/flex option. The Panthers were stingy against receivers last season, but the Bears offense should be good enough to overcome the matchup.\nJa'Marr Chase, WR, CIN (knee): Chase may have only learned on Thursday that the Bengals play the Buccaneers at 1 p.m. ET, but the good news is he will be playing. Chase brings overall WR1 upside in what could be a high-scoring game between two strong offenses.\n\n-->\n\nRuled out before Sunday\n\nBrock Bowers, TE, LV (knee): Bowers underwent meniscus surgery on Wednesday. He will miss Week 1 and likely more time than that. For those managers looking for a replacement, Juwan Johnson -- who will likely be the No. 2 two target for the Saints in a game they will have to throw often -- is my favorite waiver wire option. If not, Michael Mayer and Dalton Schultz are alternative choices to nab as a \"plug and play\" for Week 1.\nTua Tagovailoa, QB, ATL (oblique): Atlanta's quarterback has been ruled out after getting added to the injury report due to an injury that he suffered Thursday at practice. Cooper Rush will be the next man up since Michael Penix Jr. (knee) is already out. Rush should not be started in fantasy, even in superflex leagues. However, managers with Bijan Robinson, Drake London and Kyle Pitts Sr. should keep those Falcons in their lineups.\n\nWho we'll be monitoring on Sunday\nPlayers with early starts\n\nTy Johnson, RB. BUF (leg): Buffalo's passing-down back has not practiced this week and is questionable. His absence would likely lead to more passing-down opportunities for James Cook III. Cook is a must-play option despite the tough matchup.\n\nJonathon Brooks, RB, CAR (groin): Brooks missed time late this preseason but has returned to practice this week in limited fashion. Brooks is up in the air to play in Week 1. There's a lot of excitement surrounding Brooks and his massive upside. However, he was limited to just 12 touches in his first two NFL seasons due to injury and we do not know how the work will be distributed between Brooks and Chuba Hubbard in Week 1 and beyond. Despite the good matchup, take a wait-and-see approach, if you can.\n\nAlec Pierce, WR, IND (ankle/heel): The highest-paid free agent receiver in NFL history has started his season limited in practice. The expectation is that he will suit up for the Colts in Week 1. For fantasy, he is a high-ceiling play due to his field-stretching ability. He does bring some risk, though, given he has been dealing with multiple injuries this preseason.\n\nJakobi Meyers, WR, JAX (thumb): The receiver has been limited at practice, but said that he would be playing in Week 1. If true, he is a flex option that is more of a \"safe floor\" than an upside play.\n\nLeQuint Allen Jr., RB, JAX (hip): Jacksonville's passing-down back did not practice on Wednesday and saw only limited action on Thursday and Friday. Liam Coen said Allen would be a game-time decision. While he is not himself fantasy-relevant, his absence would likely lead to more passing-down snaps for Bhayshul Tuten, increasing his value.\n\nAlvin Kamara, RB, NO (knee): Kamara has been limited in practice this week. While he could be in flex consideration in deep PPR leagues, he is likely to be left on benches in the majority of leagues. His presence more impacts Travis Etienne Jr., as Kamara can play on the valuable passing-down snaps. Etienne is still a strong start, but it is worth monitoring the usage.\n\nJalen McMillan, WR, TB (knee): The receiver is doubtful to suit up in Week 1. As stated earlier, Emeka Egbuka is a must-play option -- and he may well see an uptick in volume. Chris Godwin Jr. also could see a slight volume boost and is in play as a WR3/flex option.\n\nSean Tucker, RB, TB (hamstring): Tampa Bay's RB3 is doubtful to suit up. Last season, Tucker handled a good chunk of the Buccaneers' goal-line looks. Without him, those looks should go to either Bucky Irving or Kenny Gainwell. Irving is a strong start, while Gainwell is a flex option in what could be a high-scoring game.\n\nPlayers with late starts\n\nChris Bell, WR. MIA (knee): Bell had first-round NFL draft hype before tearing his ACL in college. That injury caused him to miss much of the preseason, but the Dolphins announced this week that Bell will start alongside Caleb Douglas. More importantly, he will not be on a snap count. Bell is worth grabbing if he is on your league's waiver wire.\n\nJacory Croskey-Merritt, RB, WAS (groin): He has been limited in practice this week. While he is on track to suit up, given both the uncertain usage split between him and Rachaad White and a tough matchup, it would be wise to sit him if you can. I would rather play backs like Tony Pollard, Jordan Mason, J.K. Dobbins or Kenny Gainwell.\n\nPlayers going on Sunday night\n\nMalik Davis, RB. DAL (hip): The Cowboys' RB2 was carted off the practice field on Friday. The only other backup RB on the Cowboys roster is Emari Demercado. Expect Javonte Williams to handle a lot of work in Week 1. He has RB1 upside against the Giants."
+      "body": "Whom should you start? Whom should you sit? To help you set your fantasy football lineups and avoid starting an offensive player who won't be in the lineup, we'll post fantasy-relevant updates and analysis here as NFL teams release their official inactives lists.\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 1 Buzz\n\nWeek 1 Rankings | Matchup rankings for Week 1\n\nBiggest concerns heading into Week 1\n\nAshton Jeanty, RB, LV (ankle): After dealing with this injury for most of the preseason, Jeanty practiced in full this week and will play in Week 1 against the Dolphins. Jeanty is a fantasy RB1 with the potential to be one of top RB scorers for the week. Last season, Miami ranked in the top eight in terms of most rushing and receiving yards allowed to backs. Mike Washington Jr. is a flex option with big-play upside in this matchup.\nJeremiyah Love, RB, ARI (ankle): Love is another back dealing with a preseason ankle issue. The rookie got in limited practices on Wednesday and Thursday. He was also listed as the RB2 on the Cardinals' depth chart. Love is expected to play and, even if he is on limited touches, he should see enough involvement to be started in fantasy. He is an explosive runner and reliable pass catcher, so he brings RB1 upside even if Arizona plays it a bit safe with him in Week 1. Tyler Allgeier is also in play as a deeper-league flex option. He will likely operate as the team's goal-line back.\nMalik Nabers, WR, NYG (knee): Nabers is returning from a torn ACL and practiced in full this week. He told reporters it will be his decision whether he suits up, but the expectation is that he will play. If he suits up for the Giants, he should start in all fantasy leagues. Although the Cowboys have a new-look defense, they did allow the most yards, touchdowns and fantasy points to receivers last season. Nabers got them for 167 yards and two touchdowns in last season's Week 2.\nEmeka Egbuka, WR, TB (toe): Although the sophomore receiver dealt with a toe injury this preseason, he returned to full practice this week and will play in Week 1. Egbuka showed WR1 upside early last season before injuries took their toll on both him and QB Baker Mayfield. Egbuka brings that same upside this week in what could be a high-scoring game against the Bengals.\nRome Odunze, WR, CHI (calf): Odunze suffered his injury late last week in practice and has been limited all week. However, he stated on Friday that he will be suiting up in Week 1. While there is added risk due to the calf, Odunze remains in play as a high-upside WR3/flex option. The Panthers were stingy against receivers last season, but the Bears' offense should be good enough to overcome the matchup.\nJa'Marr Chase, WR, CIN (knee): Chase only learned on Thursday that the Bengals play the Buccaneers at 1 p.m. ET, but the good news is he will be playing. Chase brings overall WR1 upside in what could be a high-scoring game between two strong offenses.\n\n-->\n\nRuled out before Sunday\n\nBrock Bowers, TE, LV (knee): Bowers underwent meniscus surgery on Wednesday. He will miss Week 1 and likely more time than that. For those managers looking for a replacement, Juwan Johnson -- who will likely be the No. 2 two target for the Saints in a game in which they will have to throw often -- is my favorite waiver wire option. If not, Michael Mayer and Dalton Schultz are alternative choices to nab as a \"plug and play\" for Week 1.\nTua Tagovailoa, QB, ATL (oblique): Atlanta's quarterback has been ruled out after getting added to the injury report due to an injury that he suffered Thursday at practice. Cooper Rush will be the next man up since Michael Penix Jr. (knee) is already out. Rush should not be started in fantasy, even in superflex leagues. However, managers with Bijan Robinson, Drake London and Kyle Pitts Sr. should keep those Falcons in their lineups.\n\nWho we'll be monitoring on Sunday\nPlayers with early starts\n\nTy Johnson, RB. BUF (leg): Buffalo's passing-down back has not practiced this week and is questionable. His absence would likely lead to more passing-down opportunities for James Cook III. Cook is a must-play option despite the tough matchup.\n\nJonathon Brooks, RB, CAR (groin): Brooks missed time late this preseason but has returned to practice this week in limited fashion. Brooks is up in the air to play in Week 1. There's a lot of excitement surrounding Brooks and his massive upside. However, he was limited to just 12 touches in his first two NFL seasons due to injury and we do not know how the work will be distributed between Brooks and Chuba Hubbard in Week 1 and beyond. Despite the good matchup, take a wait-and-see approach, if you can.\n\nAlec Pierce, WR, IND (ankle/heel): The highest-paid free agent receiver in NFL history has started his season limited in practice. The expectation is that he will suit up for the Colts in Week 1. For fantasy, he is a high-ceiling play due to his field-stretching ability. He does bring some risk, though, given he has been dealing with multiple injuries this preseason.\n\nJakobi Meyers, WR, JAX (thumb): The receiver has been limited at practice but said that he would be playing in Week 1. If true, he is a flex option who is more of a \"safe floor\" than an upside play.\n\nLeQuint Allen Jr., RB, JAX (hip): Jacksonville's passing-down back did not practice on Wednesday and saw only limited action on Thursday and Friday. Liam Coen said Allen would be a game-time decision. While he is not himself fantasy-relevant, his absence would likely lead to more passing-down snaps for Bhayshul Tuten, increasing his value.\n\nAlvin Kamara, RB, NO (knee): Kamara has been limited in practice this week. While he could be in flex consideration in deep PPR leagues, he is likely to be left on benches in the majority of leagues. His presence impacts Travis Etienne Jr., as Kamara can play on the valuable passing-down snaps. Etienne is still a strong start, but it is worth monitoring the usage.\n\nJalen McMillan, WR, TB (knee): The receiver is doubtful to suit up in Week 1. As stated earlier, Emeka Egbuka is a must-play option -- and he might well see an uptick in volume. Chris Godwin Jr. also could see a slight volume boost and is in play as a WR3/flex option.\n\nSean Tucker, RB, TB (hamstring): Tampa Bay's RB3 is doubtful to suit up. Last season, Tucker handled a good chunk of the Buccaneers' goal-line looks. Without him, those looks should go to either Bucky Irving or Kenny Gainwell. Irving is a strong start, while Gainwell is a flex option in what could be a high-scoring game.\n\nPlayers with late starts\n\nChris Bell, WR, MIA (knee): Bell had first-round NFL draft hype before tearing an ACL in college. That injury caused him to miss much of the preseason, but the Dolphins announced this week that Bell will start alongside Caleb Douglas. More importantly, he will not be on a snap count. Bell is worth grabbing if he is on your league's waiver wire.\n\nJacory Croskey-Merritt, RB, WAS (groin): He has been limited in practice this week. While he is on track to suit up, given both the uncertain usage split between him and Rachaad White and a tough matchup, it would be wise to sit him if you can. I would rather play backs such as Tony Pollard, Jordan Mason, J.K. Dobbins or Kenny Gainwell.\n\nPlayers going on Sunday night\n\nMalik Davis, RB. DAL (hip): The Cowboys' RB2 was carted off the practice field Friday. The only other backup RB on their roster is Emari Demercado. Expect Javonte Williams to handle a lot of work in Week 1. He has RB1 upside against the Giants."
     },
     {
       "story_id": "47168192",
@@ -10973,6 +10957,20 @@
       "link": "https://www.espn.com/nba/story/_/id/47168192/the-hoop-collective-latest-episodes-brian-windhorst-nba-podcast-archive-best-quotes",
       "stream_url": "",
       "body": "\"The Hoop Collective\" podcast, hosted by ESPN's Brian Windhorst, releases episodes every Monday, Wednesday and Friday during the NBA season and Tuesday and Friday during the offseason. Windhorst and his guests break down what's happening on and off the court, evaluating the trends you need to know and examining the latest news from across the NBA.\n\nListen to 'The Hoop Collective':\n\nESPN | Spotify | YouTube | Apple | Amazon | iHeartMedia | TuneIn\n\nLatest episodes:\n\nSept. 8 | Sept. 3 | Sept. 1 |Aug. 28 | Aug. 25\n\nQuick links:\n\nSchedule | Standings | Stats | Transactions\n\n'The Hoop Collective' episodes\n\nSept. 11: Why the future of NBA Europe is uncertain\n\nBrian is joined by Aris Barkas, the publishing director of Eurohoops, to discuss the future plans for the NBA in Europe, including if it's actually feasible, how it could possibly work out and the current state of European basketball.\n\nTopics:\n\n2:39: Windy Storytime: Team USA's historic World Cup defeat\n\n5:03: Explaining the current setup of European basketball\n\n9:24: What is the future for NBA Europe proposals?\n\n17:37: What is possible to occur with NBA Europe?\n\n30:19: What is the end goal for NBA Europe?\n\n44:50: What do we think happens with NBA Europe?\n\nSept. 8: What history may tell us about Clippers' future + key signings in the West\nBrian is joined by ESPN's Tim MacMahon to cover the latest fallout from the LA Clippers' punishment after the NBA announced its punishments for the franchise's off-the-court dealings with Kawhi Leonard. They discuss what league history could tell us about what's ahead for the Clippers and how LA got into this situation. They then close on key deals in the West, including Ben Simmons signing with the Sacramento Kings and Amen Thompson's extension with the Houston Rockets.\n\nTopics:\n\n0:27: Updates on the fallout from Clippers' punishment\n\n6:37: Past may be an indicator of the future in LA\n\n12:36: What did Kawhi know about these deals?\n\n14:49: How LA got here trying to take over the city\n\n23:28: Amen Thompson signs extension with Rockets\n\n32:09: Ben Simmons signs with the Kings\n\n40:19: Brian's soccer trip through London\n\nWindhorst on the league's reaction to the Clippers' punishment: \"I think Steve Balmer had support of his peers in this, even though these was pretty severe accusations.\n\n\"I'm not saying everybody again, but I think people wanted to believe him, his peers. I'm not talking about the other GMs. I'm not talking about the agents. ...\n\n\"So the word that was said to me by a very influential person was that the other owners, some of the other owners were aghast when they read this report. That was the word that was used to me, aghast. And regardless of what Steve says, the support that he had is no longer there.\"\n\nWindhorst on the Clippers' best course of action now: \"When the Wolves were found guilty, Glen Taylor said words that were not, \"I'm guilty.\" Kevin McHale, who was the vice president of basketball operations, said, 'I didn't even know this existed.' You know, he pled ignorance.\n\n\"[Then] They thought about it. They ended up negotiating with the league office and they pled guilty. And two days after basically they raised the white flag in December, David Stern gave him back a pick and a year later he gave him back the second pick. Now he gave them back -- he took away five years of picks [previously] -- he gave them back Year 3 at first and then Year 5. It wasn't like he gave him back immediately. But I think the Clippers should study that.\"\n\nMacMahon on why Houston extended Thompson now: \"I've been telling you for a while just how much the Rockets value Thompson. If there's one untradeable player on the roster, it is him.\n\n\"According to their metrics, they think he's one of the top 10 -- and I might be inflating that number -- most valuable players in the league. Now, we can argue and we can debate and you can say that's ridiculous. I'm just telling you the way that they view him. And so for them to get a player they value that much on this deal is great value for them.\n\n\"And for Amen Thompson, $208 million fully guaranteed and there's no options either way in the deal, he's set for life. He wants to be in Houston. He's going to be in Houston.\"\n\nSept. 3: EMERGENCY POD: NBA announces Clippers' punishments after Kawhi probe\nBrian is joined by ESPN's Tim MacMahon to react to the hefty punishments handed down to the LA Clippers by the NBA after the investigation into Kawhi Leonard's off-court dealings. They break down what this means for the future of the Clippers, if the punishment makes sense and if this will impact Leonard's pending trade to the Toronto Raptors.\n\nTopics:\n\n1:25: NBA punishes Clippers after Kawhi probe\n\n7:04 :The Clippers' argument against the NBA in this\n\n10:36: What sticks out about the NBA's findings\n\n16:47: What comes next for the Clippers?\n\n30:21: How will this punishment impact Kawhi?\n\n32:56: Who was most impacted by this punishment?\n\n43:56: Final thoughts on this punishment decision\n\nMacMahon on why the penalty was so large for the Clippers: \"The simple fact of the matter is this ain't the first time Steve Balmer's pulled this shady stuff. That did not help his case.\n\n\"They gave him a little slap on the wrist for the DeAndre Jordan stuff in 2015. $250,000 fine. It was 'Oh, whoops. We didn't know.' And then, there's the investigation for the Kawhi signing because, guess what? It's not like Uncle Dennis only asked the Clippers for a whole bunch of under-the-table stuff. He was asking everybody for under-the-table stuff. 'Oh, geez. You know, we were asked, but we didn't, you know, didn't give him anything' and and now this. So, in a way they're three-time losers.\"\n\nWindhorst on the Clippers' best course of action following the ruling: \"If they could get an agreement, if they could plead guilty, get an agreement and and say, 'We're not going to challenge any of these penalties.' And they get an agreement that there'll be no further penalties -- basically, they'll say that these five first-round picks are all-encompassing, they cover everything. It's a blanket agreement and [then] they keep their nose clean, and they do the Kawhi trade, they might be able to come out of this without four broken limbs. They may be able to come out of this with less damage.\"\n\nMacMahon on one of the winners of the investigation: \"I do think Adam Silver in a way is a winner of this because straight up, he had been soft on crime as the commissioner since, ironically, he booted the previous Clippers owner, which was completely different circumstances.\"\n\nSept. 1: How Steph Curry can decide Warriors' future and major questions for Pistons\nBrian is joined by ESPN's Tim MacMahon and Anthony Slater to discuss Stephen Curry's future with the Golden State Warriors, including how a potential extension could determine the franchise's outlook. They then move on to the Jalen Duren-Detroit Pistons situation, as his restricted free agency continues. Will this cause major issues for the Pistons' season? They close on the recent dramatic FIBA World Cup qualifiers, including a matchup between Victor Wembanyama and Nikola Jokic.\n\nTopics:\n\n2:09: Latest on Steph Curry's future in Golden State\n\n8:31: How Steph could help the Warriors' chances\n\n20:16: Jalen Duren and Pistons still stuck in negotiations\n\n26:13: What is the worst-case scenario for Detroit?\n\n40:40: Windy Storytime: Cavs contract standoff\n\n46:06: Headlines from FIBA World Cup qualifiers\n\n46:48: Epic battle between Wembanyama and Jokic\n\n49:39: Other NBA stars making an impact in FIBA\n\nSlater on the potential Curry extension in Golden State and why he could wait: \"One of the things in discussions I've been having with people is this idea of, let's say he's like, '[Taking less money for the team is] something I'd think about.' I would be surprised if he locked into a number now because, as you just saw with Draymond Green, the Warriors and their legendary figures are willing to trust each other in business.\n\n\"Draymond Green willingly gave up $27 million and went into unrestricted free agency where he couldn't have got $27 million back, [but] under the understanding if business didn't work out, he would get that money back. If you're Steph, you say, 'OK, you know what? I'll give y'all a crack at going and trying to find some stuff, but if you don't, at the end of the day, if I come back and say, give me the full max, I get the full max.'\n\n\"So, to answer your question, he doesn't have to necessarily lock into it now because they can't really execute [upgrading the roster]. Even if they could say, 'Hey, here's a theory of what we could do. Here's another theory of what we could do,' he could just say, 'All right, well, I'll hold off for now and see if you can do it, but at the end of the day, if I want the max, give me the max.'\"\n\nMacMahon on the Duren-Detroit situation: \"He just averaged 19 [points] and 11 [rebounds]. He's a big physical force with some skill. Unfortunately, and this is part of the complications here, is he also just had a really disappointing playoff performance. I would say in terms of individual playoff performances coming off of that All-NBA season, Jalen Duren might have been the most disappointing in the league.\n\n\" ... I've talked to just executives from other teams around the league just kind of taking people's temperature and a lot of what I got is like, 'I can definitely see both sides of this,' because for the Pistons this is not an anti-Jalen Duren thing. This is a, 'We want to keep this core together.' By the way, they're also in the process of attempting to negotiate an extension with Ausar Thompson.\"\n\nMacMahon on the Wembanyama-Jokic rivalry: \"As much as Denver's summer was frankly a disaster, you can't just dismiss the Nuggets.\n\n\"Let me say this, Victor Wembanyama might be the most dominant defensive player in the history of the game. One guy he does not bother much is Nikola Jokic. Do you know what Joker's stats against Wemby are in seven games in the NBA? 37.3 points per game, 10.9 rebounds, 9.1 assists.\"\n\nAug. 28: Kuminga's move to Minnesota and NBA awards predictions\n\nBrian is joined by ESPN's Tim MacMahon to discuss Jonathan Kuminga's move to the Minnesota Timberwolves and how he'll fit with their new-look roster. They then move on to Bennedict Mathurin's deal with the New Orleans Pelicans and Shaedon Sharpe's recent injury in Portland before closing on ESPN's NBA Summer Forecast.\n\nTopics:\n\n01:28: Kuminga lands with the Timberwolves\n\n08:19: Is this a good move for Anthony Edwards?\n\n12:15: How does Kuminga fit with Minnesota?\n\n16:32: Mathurin signs with the Pelicans\n\n22:19: Shaedon Sharpe injury update in Portland\n\n26:44: NBA responding to CBA criticism\n\n31:03: NBA Summer Forecast 2026-27 reaction\n\n32:18: Predicting the NBA MVP for this season\n\n48:01: Predicting the NBA's Rookie of the Year\n\n52:53: Picking the NBA scoring champion for this season\n\n57:00: Who will be the most disappointing team?\n\n01:02:12: LeBron and PGA Tour collab in Akron\n\nWindhorst on the Timberwolves' offseason and Kuminga's deal: \"[Coach] Chris Finch definitely played a role [in signing Kuminga]. Obviously, I'm sure there were other Wolves that were involved as well, but obviously Ant, from what I understand, Ant was very excited. Ant, from what I am told, is very pleased by the Wolves' offseason. Going to get LaMelo [Ball], making this deal happen for Kuminga.\n\n\"I don't think Ant's a guy who stews and is angry, [but] the last time we saw Ant he was congratulating the other team with five minutes on the clock or whatever it was. I don't think he was thrilled with that situation.\"\n\nMacMahon on what Minnesota needs from Kuminga: \"I think a lot of this comes down to Kuminga's willingness to adapt his game to try to be a complementary player to try to fit in. There's going to be spacing concerns.\n\n\"He's not a great shooter. Jaden McDaniels' 3-point shot has kind of been up and down over the years. I think that's going to be critical. Now, Ant's a hell of a shooter. LaMelo Ball,you're going to guard him and you're going to guard him out to 30-plus feet because he'll launch it. And the percentages aren't awesome, but he's a threat, for sure. But with [Rudy] Gobert and Kuminga, you know Finch is going to have to figure out some spacing issues, but Kuminga's got to be a finisher. He's got to get off this idea that he's a ball-in-hand creator.\""
+    },
+    {
+      "story_id": "31165089",
+      "headline": "Fantasy baseball forecaster: Team hitting ratings",
+      "summary": "Stay ahead of the game and optimize your fantasy baseball hitters with our forecaster, which provides a rolling 10-day outlook of every team's hitting matchups as well as the potential for stolen bases.",
+      "image": "https://a.espncdn.com/photo/2022/0406/r996173_576x324_16-9.jpg",
+      "published_utc": "2026-09-11T20:12:07Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Tristan H. Cockcroft",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/baseball/story/_/id/31165089/fantasy-baseball-forecaster-team-hitting-stolen-base-ratings-platoon-matchups-daily-weekly-leagues",
+      "stream_url": "",
+      "body": "Plan ahead in fantasy baseball with help from our forecaster projections. Each day, we will provide an updated preview of the next 10 days for every team, projecting the matchup quality for hitters (overall and by handedness) as well as for base stealers.\n\nThis page will be updated daily throughout the season, so be sure to check back often for the latest 10-day outlook.\n\nFor our 10-day projections for each team's pitching matchups, click here."
     },
     {
       "story_id": "49904941",
