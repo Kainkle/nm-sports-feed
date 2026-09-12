@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T09:27:54.908152+00:00",
+  "generated_utc": "2026-09-12T09:37:56.344235+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915424",
@@ -2597,9 +2597,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "a-6V709EOd8",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/16121870027436",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16121870027436",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/108/92179981.jpg",
       "card": ""
     },
     {
@@ -3164,9 +3171,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "G6bsnM7X6VY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/16121984322220",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16121984322220",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/108/38127988.jpg",
       "card": ""
     },
     {
@@ -3264,9 +3278,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "ziuq6JjIpNM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/16626711530040",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16626711530040",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/108/29088719.jpg",
       "card": ""
     },
     {
@@ -3742,7 +3763,7 @@
       "competition_id": "afl",
       "competition_name": "AFL",
       "start_utc": "2026-09-12T09:35Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:11",
         "name": "Brisbane Lions",
@@ -3768,9 +3789,10 @@
         "color": "002a6f"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Gabba",
-      "detail": "Sat, September 11th at 2:35 AM EDT",
+      "detail": "0:00 - 1st Quarter",
+      "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13414,6 +13436,24 @@
       "source_url": "https://mlblive.net/chicago-white-sox-st-louis-cardinals-mlb-full-game-replay-september-11-2026"
     },
     {
+      "id": "mlblive:10859",
+      "title": "Philadelphia Phillies @ Atlanta Braves - MLB Full Game Replay - September 11, 2026",
+      "date": "2026-09-11",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/16626711530040",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16626711530040",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/108/29088719.jpg",
+      "source_url": "https://mlblive.net/philadelphia-phillies-atlanta-braves-mlb-full-game-replay-september-11-2026"
+    },
+    {
       "id": "mlblive:10851",
       "title": "Los Angeles Dodgers @ Miami Marlins - MLB Full Game Replay - September 11, 2026",
       "date": "2026-09-11",
@@ -13486,6 +13526,24 @@
       "source_url": "https://mlblive.net/kansas-city-royals-boston-red-sox-mlb-full-game-replay-september-11-2026"
     },
     {
+      "id": "mlblive:10861",
+      "title": "Houston Astros @ Tampa Bay Rays - MLB Full Game Replay - September 11, 2026",
+      "date": "2026-09-11",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/16121984322220",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16121984322220",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/108/38127988.jpg",
+      "source_url": "https://mlblive.net/houston-astros-tampa-bay-rays-mlb-full-game-replay-september-11-2026"
+    },
+    {
       "id": "mlblive:10853",
       "title": "Baltimore Orioles @ Toronto Blue Jays - MLB Full Game Replay - September 11, 2026",
       "date": "2026-09-11",
@@ -13502,6 +13560,24 @@
       ],
       "poster": "https://mlblive.net/_pu/108/92900184.jpg",
       "source_url": "https://mlblive.net/baltimore-orioles-toronto-blue-jays-mlb-full-game-replay-september-11-2026"
+    },
+    {
+      "id": "mlblive:10858",
+      "title": "Pittsburgh Pirates @ Chicago Cubs - MLB Full Game Replay - September 11, 2026",
+      "date": "2026-09-11",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/16121870027436",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16121870027436",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/108/92179981.jpg",
+      "source_url": "https://mlblive.net/pittsburgh-pirates-chicago-cubs-mlb-full-game-replay-september-11-2026"
     },
     {
       "id": "r24:6939",
@@ -14438,78 +14514,6 @@
       ],
       "poster": "https://mlblive.net/_pu/107/67854091.jpg",
       "source_url": "https://mlblive.net/minnesota-twins-chicago-white-sox-mlb-full-game-replay-september-6-2026"
-    },
-    {
-      "id": "mlblive:10794",
-      "title": "New York Yankees @ San Diego Padres - MLB Full Game Replay - September 6, 2026",
-      "date": "2026-09-06",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16067111815852",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16067111815852",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/107/35413079.jpg",
-      "source_url": "https://mlblive.net/new-york-yankees-san-diego-padres-mlb-full-game-replay-september-6-2026"
-    },
-    {
-      "id": "mlblive:10802",
-      "title": "Athletics @ Seattle Mariners - MLB Full Game Replay - September 6, 2026",
-      "date": "2026-09-06",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16067916597932",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16067916597932",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/108/72974931.jpg",
-      "source_url": "https://mlblive.net/athletics-seattle-mariners-mlb-full-game-replay-september-6-2026"
-    },
-    {
-      "id": "mlblive:10803",
-      "title": "St. Louis Cardinals @ Colorado Rockies - MLB Full Game Replay - September 6, 2026",
-      "date": "2026-09-06",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/15407587723923",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15407587723923",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/108/00002690.jpg",
-      "source_url": "https://mlblive.net/st-louis-cardinals-colorado-rockies-mlb-full-game-replay-september-6-2026"
-    },
-    {
-      "id": "mlblive:10800",
-      "title": "Tampa Bay Rays @ Texas Rangers - MLB Full Game Replay - September 6, 2026",
-      "date": "2026-09-06",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/15407478409875",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15407478409875",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/108/74194932.jpg",
-      "source_url": "https://mlblive.net/tampa-bay-rays-texas-rangers-mlb-full-game-replay-september-6-2026"
     },
     {
       "id": "r24:6930",
