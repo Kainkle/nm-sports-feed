@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T02:30:18.692754+00:00",
+  "generated_utc": "2026-09-12T02:40:02.438520+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915424",
@@ -2824,6 +2824,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858222",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-11T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:152",
+        "name": "NC State Wolfpack",
+        "abbrev": "NCSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+        "logo_dark": null,
+        "aliases": [
+          "NC State",
+          "NC State Wolfpack",
+          "NCSU",
+          "Wolfpack"
+        ],
+        "color": "cc0000"
+      },
+      "away": {
+        "id": "espn:257",
+        "name": "Richmond Spiders",
+        "abbrev": "RICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+        "logo_dark": null,
+        "aliases": [
+          "RICH",
+          "Richmond",
+          "Richmond Spiders",
+          "Spiders"
+        ],
+        "color": "9e0712"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Carter-Finley Stadium",
+      "detail": "7:01 - 3rd Quarter",
+      "has_live_source": true,
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401858215",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -2862,53 +2909,6 @@
       "source_status": "post/Final",
       "venue": "L&N Federal Credit Union Stadium",
       "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858222",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-11T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:152",
-        "name": "NC State Wolfpack",
-        "abbrev": "NCSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-        "logo_dark": null,
-        "aliases": [
-          "NC State",
-          "NC State Wolfpack",
-          "NCSU",
-          "Wolfpack"
-        ],
-        "color": "cc0000"
-      },
-      "away": {
-        "id": "espn:257",
-        "name": "Richmond Spiders",
-        "abbrev": "RICH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
-        "logo_dark": null,
-        "aliases": [
-          "RICH",
-          "Richmond",
-          "Richmond Spiders",
-          "Spiders"
-        ],
-        "color": "9e0712"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Carter-Finley Stadium",
-      "detail": "9:04 - 3rd Quarter",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3279,9 +3279,9 @@
         "color": "ce0e2d"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Alumni Stadium (Chestnut Hill, MA)",
-      "detail": "End of 3rd Quarter",
+      "detail": "9:27 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3411,7 +3411,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "David Booth Kansas Memorial Stadium",
-      "detail": "10:52 - 3rd Quarter",
+      "detail": "8:34 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -11907,31 +11907,31 @@
   ],
   "stories": [
     {
-      "story_id": "49909137",
-      "headline": "Nationals score 3 in the 8th, rally for a 4-3 win over the Angels to snap their 7-game skid",
-      "summary": "\u2014 Jorbit Vivas hit a tiebreaking two-run double in the eighth inning to lift Washington to a 4-3 victory over the Los Angeles Angels that snapped the Nationals' seven-game losing streak Friday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816888.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-12T01:40:30Z",
+      "story_id": "49909626",
+      "headline": "Los Angeles Angels vs Washington Nationals: Game Highlights",
+      "summary": "Los Angeles Angels vs Washington Nationals: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0912/e5e59370-690a-437a-9d96-e1af169230be/e5e59370-690a-437a-9d96-e1af169230be.jpg",
+      "published_utc": "2026-09-12T02:31:03Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816888",
-      "stream_url": "",
-      "body": "WASHINGTON -- \u2014 Jorbit Vivas hit a tiebreaking two-run double in the eighth inning to lift Washington to a 4-3 victory over the Los Angeles Angels that snapped the Nationals' seven-game losing streak Friday night.\n\n\r\nThe Angels led 2-1 before pinch-hitter Andrew Pinckney tied it with a sacrifice fly off Samy Natera Jr. (1-2) in the eighth. Then Vivas hit a flyball that dropped into the corner in right field to make it 4-2.\n\n\r\nClayton Beeter (6-5) won in relief, and Erik Tolman worked the ninth for his second save. Tolman allowed an RBI double by Christian Moore that very nearly cleared the wall in right-center for a tying homer, but it stayed in the park and the left-hander retired pinch-hitter Kyren Paris on a flyball to end it.\n\n\r\nMike Trout homered for the first time in over a month for Los Angeles.\n\n\r\nTrout hadn't gone deep since Aug. 10 against Texas, but after 27 consecutive homerless games, he connected off Cade Cavalli in the first inning to put the Angels up 1-0.\n\n\r\nAfter a pair of walks in the fourth put men on first and second, James Wood delivered a two-out single that tied the game at 1.\n\n\r\nIt stayed that way until the seventh, when Cavalli walked the first two hitters and Moore followed with an RBI single to left, chasing the Washington starter. Cavalli allowed two runs, three hits and two walks in six-plus innings, striking out nine.\n\n\r\nAfter Washington started its half of the eighth with a walk and a single, Crews ended up with a bunt single when Natera fielded the ball but turned toward third, where he had no play.\n\n\r\nYohandy Morales followed with a grounder to short, but rather than concede the tying run and try for a double play up the middle, Zach Neto threw home for the force. Pinckney, who was recalled from Triple-A Rochester when the Nationals put infielder Nasim Nu\u00f1ez on the bereavement list, hit a flyball deep enough to score the tying run.\n\n\r\nUp next\r\nAngels RHP Walbert Ure\u00f1a (9-10, 2.74 ERA) starts Saturday against LHP Andrew Alvarez (2-6, 3.60) of the Nationals.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+      "link": "https://www.espn.com/video/clip/_/id/49909626/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0912/e5e59370-690a-437a-9d96-e1af169230be/e5e59370-690a-437a-9d96-e1af169230be/playlist.m3u8",
+      "body": ""
     },
     {
-      "story_id": "49908929",
-      "headline": "AFL goal umpire signals a field goal in a nod to NFL refs",
-      "summary": "An AFL goal umpire returns the favour, signalling a field goal in the semifinal clash between Fremantle and Geelong after the NFL refs signalled a goal in the 49ers-Rams clash.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY.jpg",
-      "published_utc": "2026-09-12T01:14:28Z",
+      "story_id": "49908962",
+      "headline": "Luke Jackson sets up Patrick Voss for a stunning goal",
+      "summary": "Freo ruck Luke Jackson follows up his own good work and hits Patrick Voss with the perfect handball, who nails an important goal in Freo's semifinal win over Geelong.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY.jpg",
+      "published_utc": "2026-09-12T01:18:52Z",
       "competition_id": "afl",
       "competition_name": "AFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49908929/afl-goal-umpire-signals-field-goal-nod-nfl-refs",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/playlist.m3u8",
+      "link": "https://www.espn.com/video/clip/_/id/49908962/luke-jackson-sets-patrick-voss-stunning-goal",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY/playlist.m3u8",
       "body": ""
     },
     {
@@ -12075,32 +12075,32 @@
       "body": "The Newcastle Knights have beaten South Sydney at Allianz Stadium, advancing to the second week of the finals, sending the Rabbitohs crashing out of what was a promising season.\n\nHere are three things we learned from the game:\n\nKnights never stop fighting\n\nSuspensions, injuries, away from home - don't worry about any of it. Very few gave Newcastle a shot in this one but right from the jump they were more physical, more enthusiastic and took their chances. It wasn't a typical Knights showing because while they did score a long-range try, they had a mountain of ball in territory and won this via attrition rather than dazzling football.\n\nBoth first half tries came off kicks, but it was being in good attacking positions to end their sets which allowed that to happen. All week, a lot of people, including me, thought if they'd win it would be by throwing a few counter punches and defending gamely. They didn't really need to.\n\nThey were meant to be the team on the back foot, with a forward pack devoid of stars They dominated in yardage, robbed Souths of good ball, and suffocated their way to victory. It's so against type for them it's hard to really believe, but as hard-earned a win as the Knights have got all year. Bring on week two.\n\nBennett's selection puzzlers finally catch up\n\nThe loudest cheer from the Souths fans at the Sydney Football Stadium didn't come at kick off, or even when Campbell Graham scored - rather, it was Jye Gray being subbed on to the field in the second half that got the punters up and about.\n\nGray is beloved by Rabbitohs supporters and with good reason; he was one of the few bright sparks in an awful 2025 season and has made stuff happen every time he's on the field in 2026.\n\nHowever, a few weeks' ago, coach Wayne Bennett made the decision to bench Gray in favour of Matt Dufty, who's return to the NRL after several years in the wilderness has been a great story in its own right - but it's a decision that's puzzled plenty, including me. Dufty was poor in kick defence for each of the opening two tries and threw a late intercept to stop any hopes of a comeback. It was a selection misfire.\n\nSimilarly, after Ashton Ward was ruled out for the season it was assumed that Jamie Humphreys would be the halfback the rest of the way. Instead it was Bud Sullivan who Bennett went with, and his decision making on Friday night was pretty rough for the most part.\n\nStill, both Sullivan and Dufty have had great moments at times. The other and much more puzzling situation has been the refusal to play hooker Peter Mamouzelos, the most creative nine at the club and best foil to Brandon Smith. Every single Souths fan I've spoken to is baffled as to why Mamouzelos can't get into the team, particularly when the players who are getting minutes at hooker instead of him aren't hookers by trade. It makes no sense.\n\nAll of this is largely moot though because without Cody Walker, Souths weren't going to make any real impact on the finals series, even if they had stolen this one late on. Maybe next year.\n\nBack-row brilliance from Newcastle\n\nTake a bow, Jermaine McEwen and Francis Manuleleua. McEwen especially was superb with his two tries, but it was the edge integrity that allowed the Knights to stay on top in this one. Souths are so deadly on both sides but particularly their left, but for the most part those sweeping raids to the flanks were shut down with ease and that begins with the backrowers.\n\nAgain, this wasn't a position where you looked at Newcastle as having an advantage, but they were just better on the night.\n\nWe all know about the stars that the Knights have in other areas of the field, many of whom were great tonight. But if they can get this level of production from less-heralded guys, who knows how far they can go?"
     },
     {
-      "story_id": "49908813",
-      "headline": "Jeter reunites with 9/11 victim's daughter as Yanks pay tribute in ceremony",
-      "summary": "Derek Jeter was among the members of the 2001 Yankees on hand to honor 9/11 victims Friday night in a pregame ceremony, which concluded with first pitches from Brielle Saracini and Sean McGuire, a married couple whose fathers died on Sept. 11, 2001.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0911/f0b7b99d-da4a-434e-9a85-5e7f545266c3/f0b7b99d-da4a-434e-9a85-5e7f545266c3.jpg",
-      "published_utc": "2026-09-12T01:32:00Z",
+      "story_id": "49909509",
+      "headline": "Colorado Rockies vs. Detroit Tigers: Game Highlights",
+      "summary": "Colorado Rockies vs. Detroit Tigers: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0912/a5a3dee4-4ae1-4d14-ba9a-f9171869df2b/a5a3dee4-4ae1-4d14-ba9a-f9171869df2b.jpg",
+      "published_utc": "2026-09-12T02:22:29Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "Jorge Castillo",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49908813/jeter-reunites-9-11-victim-daughter-yanks-pay-tribute-ceremony",
-      "stream_url": "",
-      "body": "NEW YORK -- Derek Jeter, Mariano Rivera and Joe Torre were among the members of the 2001 New York Yankees on hand Friday at Yankee Stadium for a pregame ceremony to mark the 25th anniversary of 9/11.\n\nThe ceremony, held before the Yankees hosted the New York Mets to open a three-game series, honored 9/11 victims and concluded with first pitches from Brielle Saracini and Sean McGuire, a married couple whose fathers died on Sept. 11, 2001.\n\nVictor Saracini was the captain on United Flight 175, which struck the South Tower of the World Trade Center. Patrick McGuire was working on the 84th floor of the tower that morning. Brielle Saracini and Sean McGuire were both 10 when their fathers died.\n\nThree days after the tragedy, Saracini wrote a letter to Jeter, telling him that her father would want her to one day realize her dream of meeting him. Jeter responded by inviting Saracini and her family to Yankee Stadium for a game, beginning a friendship that continues 25 years later.\n\n\"The odds were stacked against me that day,\" Saracini said during a news conference Friday alongside Jeter. \"But I remember just taking a minute and just having normal conversations and just feeling like a kid.\"\n\nTwo years after the tragedy, Saracini and McGuire met at Camp Better Days, which was established to provide support for children who lost a parent on 9/11. They were married on Sept. 9, 2017.\n\n\"For us, we live our lives every day,\" Saracini said. \"It's not just remembered on this day. It's every day we miss our fathers. And every day, it's just another day. And this is the day that it's brought up the most. But this year, heading into 25 years, I guess I'm just looking back from a more adult perspective, and that's just shaken me a little bit.\n\n\"Having the Yankees continuously show kindness, it feels like I'm in the right place today. I never know what I want to do on each anniversary. I never know the proper way to honor my father. This feels really special. I know he'd be so proud of me.\"\n\nSaracini said Jeter, her favorite player growing up, has helped navigate the grief. The two have remained in touch over the years. She detailed going through a cancer diagnosis with support from Jeter, who sent her a personal voicemail wishing her well and imploring her to stay positive. She said she played the voicemail in the hospital over and over, uplifted by having someone like Jeter in her corner.\n\n\"It's more than just they did something nice a couple days after because they got a letter and just said, 'What do we do?'\" Saracini said. \"It's a lifelong thing to now, still, 25 years later. The kindness does not stop, and I'm taken aback about it consistently through the last 25 years.\"\n\nYankees manager Aaron Boone said taking the field Friday against the Mets was a \"huge honor.\" A player on the Cincinnati Reds in 2001, he recalled the role baseball -- and sports across the board -- played in providing a sense of normalcy once the games resumed. The Yankees and Mets were at the forefront, with the Yankees delivering memorable moments miles from ground zero into November.\n\nA quarter century later, Saracini and Jeter were together again.\n\n\"As an athlete, it was the first time that I said to myself, 'Why am I even playing?'\" said Jeter, who earned the nickname \"Mr. November\" for his heroics against the Arizona Diamondbacks in the World Series that fall, which the Yankees lost in seven games. \"Because obviously the games got canceled. And my initial thought was, we're not going to come back and play. What does baseball mean? And then you had a chance to meet a lot of family members who lost loved ones and Brielle's right at the top of the list because I got the chance to know her.\n\n\"And then you realize, from the stories that they've shared -- she said it in her letter. The memories that they have at Yankee Stadium, her and her dad, going to games, being a Yankee fan. And then that's when you realize that our job was to at least try to give people something to cheer for a few hours a day.\""
+      "link": "https://www.espn.com/video/clip/_/id/49909509/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0912/a5a3dee4-4ae1-4d14-ba9a-f9171869df2b/a5a3dee4-4ae1-4d14-ba9a-f9171869df2b/playlist.m3u8",
+      "body": ""
     },
     {
-      "story_id": "49908665",
-      "headline": "Scott sees the punch line in ARC's controversial call",
-      "summary": "Geelong coach Chris Scott has tried his best to downplay his reaction to Oliver Dempsey's controversial non-goal during Friday night's 14-point semifinal loss to Fremantle, saying sometimes he punches walls when he's happy.",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715150_1296x729_16-9.jpg",
-      "published_utc": "2026-09-12T00:38:26Z",
+      "story_id": "49908929",
+      "headline": "AFL goal umpire signals a field goal in a nod to NFL refs",
+      "summary": "An AFL goal umpire returns the favour, signalling a field goal in the semifinal clash between Fremantle and Geelong after the NFL refs signalled a goal in the 49ers-Rams clash.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY.jpg",
+      "published_utc": "2026-09-12T01:14:28Z",
       "competition_id": "afl",
       "competition_name": "AFL",
-      "byline": "AAP",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49908665/afl-news-chris-scott-defends-reaction-arc-controversial-call-dempsey-goal-geelong-fremantle",
-      "stream_url": "",
-      "body": "Geelong coach Chris Scott has tried his best to downplay his reaction to Oliver Dempsey's controversial non-goal during Friday night's 14-point semifinal loss to Fremantle, saying sometimes he punches walls when he's happy.\n\nScott threw his arms up in the air in disbelief before giving the wall of the Optus Stadium coaching box a light punch when Dempsey's spectacular effort in the goalsquare was ruled to be a behind.\n\nInstead of trying to mark Bailey Smith's rushed kick forward, Dempsey unleashed a bicycle-style kick over his shoulder while under the close attention of Matthew Johnson to volley through what looked to be a spectacular goal.\n\nThe goal umpire thought it had been touched, so it went to the AFL Review Centre for the final call.\n\nReplays appeared to show the ball had hit Johnson's bicep before Dempsey's boot deflected the ball in, but the ARC declared the evidence wasn't sufficient, meaning the goal umpire's initial call of touch had to stand.\n\n\"I was surprised it was taking so long. It looked pretty clear to me,\" Scott said.\n\n\"But it's not for me to judge. From what I'm told, everyone has the same opinion that Ollie did.\"\n\nWhen asked about his punch of the wall, Scott gave an unexpected answer.\n\n\"Sometimes I punch the wall when I'm happy. Sometimes I punch the wall when I'm annoyed,\" he said.\n\n\"There were a few moments where we had momentum and for one reason or another we couldn't capitalise on it. That was probably one of them.\n\n\"There's some strange things in the game at the moment that are better off being spoken about in the cold light of day, probably in November, rather than September.\"\n\nHad Dempsey's effort been paid a goal, Geelong would have closed the margin to eight points early in the final quarter.\n\nThe Cats still managed to kick four of the next five goals after that incident to snatch an eight-point lead, before the Luke Jackson-inspired Dockers hit back to secure the 18.12 (120) to 16.10 (106) win and book a spot in the preliminary final against Sydney."
+      "link": "https://www.espn.com/video/clip/_/id/49908929/afl-goal-umpire-signals-field-goal-nod-nfl-refs",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49907761",
