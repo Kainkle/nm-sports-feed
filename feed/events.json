@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T11:39:50.986288+00:00",
+  "generated_utc": "2026-09-12T11:49:56.083314+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915424",
@@ -3817,9 +3817,9 @@
         "color": "002a6f"
       },
       "source": "espn:australian-football/afl",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Gabba",
-      "detail": "End of 3rd Quarter",
+      "detail": "3:27 - 4th Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3834,7 +3834,7 @@
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "start_utc": "2026-09-12T09:50Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:289203",
         "name": "Sharks",
@@ -3860,10 +3860,9 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "in/Second Half",
+      "source_status": "post/Final",
       "venue": "Allianz Stadium",
-      "detail": "75'",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13428,6 +13427,60 @@
     }
   ],
   "replays": [
+    {
+      "id": "r24:6946",
+      "title": "New Zealand Warriors v Dolphins - Full Match Replay - NRL Finals - 12 September 2026",
+      "date": "2026-09-12",
+      "sport": "rugby",
+      "competition": "NRL Finals",
+      "replay_url": "https://ok.ru/videoembed/15731304958676",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15731304958676",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/69/85300325.jpg",
+      "source_url": "https://rugby24.net/new-zealand-warriors-v-dolphins-full-match-replay-nrl-finals-12-september-2026"
+    },
+    {
+      "id": "r24:6945",
+      "title": "Canterbury v Wellington Lions - Full Match Replay - Hilux NPC - 12 September 2026",
+      "date": "2026-09-12",
+      "sport": "rugby",
+      "competition": "Hilux NPC",
+      "replay_url": "https://ok.ru/videoembed/15731646597844",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15731646597844",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/69/91018505.jpg",
+      "source_url": "https://rugby24.net/canterbury-v-wellington-lions-full-match-replay-hilux-npc-12-september-2026"
+    },
+    {
+      "id": "r24:6944",
+      "title": "Northland v Waikato - Full Match Replay - Hilux NPC - 12 September 2026",
+      "date": "2026-09-12",
+      "sport": "rugby",
+      "competition": "Hilux NPC",
+      "replay_url": "https://ok.ru/videoembed/15731646532308",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15731646532308",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/69/73290853.jpg",
+      "source_url": "https://rugby24.net/northland-v-waikato-full-match-replay-hilux-npc-12-september-2026"
+    },
     {
       "id": "r24:6943",
       "title": "Auckland v Counties Manukau - Full Match Replay - Hilux NPC - 12 September 2026",
