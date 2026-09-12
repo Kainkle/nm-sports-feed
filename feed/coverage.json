@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-12T07:03:32.830021+00:00",
+  "generated_utc": "2026-09-12T07:13:52.637122+00:00",
   "window_days": 2,
-  "total_events": 254,
+  "total_events": 261,
   "competitions": [
     {
       "competition": "aew",
@@ -276,14 +276,16 @@
       "competition": "nhl",
       "name": "NHL",
       "sport": "hockey",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 7,
+      "date_range": [
+        "2026-09-19",
+        "2026-09-20"
+      ],
+      "explicit_status": 7,
+      "status_coverage_pct": 100,
+      "both_logos": 7,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "rugby-league",
@@ -428,13 +430,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "nhl",
-      "date": "2026-09-13",
-      "error": "URLError for https://api-web.nhle.com/v1/schedule/2026-09-13: <urlopen error [Errno 104] Connection reset by peer>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
@@ -445,10 +441,11 @@
     "carried": 1
   },
   "replay_items": {
-    "total": 84,
+    "total": 85,
     "by_sport": {
       "baseball": 46,
       "boxing": 1,
+      "mma": 1,
       "motor-sports": 4,
       "rugby": 33
     }
