@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-12T02:09:28.890602+00:00",
+  "generated_utc": "2026-09-12T02:19:59.850632+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915424",
@@ -2861,7 +2861,54 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "L&N Federal Credit Union Stadium",
-      "detail": "6:18 - 4th Quarter",
+      "detail": "0:33 - 4th Quarter",
+      "has_live_source": true,
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858222",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-11T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:152",
+        "name": "NC State Wolfpack",
+        "abbrev": "NCSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+        "logo_dark": null,
+        "aliases": [
+          "NC State",
+          "NC State Wolfpack",
+          "NCSU",
+          "Wolfpack"
+        ],
+        "color": "cc0000"
+      },
+      "away": {
+        "id": "espn:257",
+        "name": "Richmond Spiders",
+        "abbrev": "RICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+        "logo_dark": null,
+        "aliases": [
+          "RICH",
+          "Richmond",
+          "Richmond Spiders",
+          "Spiders"
+        ],
+        "color": "9e0712"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/Halftime",
+      "venue": "Carter-Finley Stadium",
+      "detail": "Halftime",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -2918,53 +2965,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858222",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-11T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:152",
-        "name": "NC State Wolfpack",
-        "abbrev": "NCSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-        "logo_dark": null,
-        "aliases": [
-          "NC State",
-          "NC State Wolfpack",
-          "NCSU",
-          "Wolfpack"
-        ],
-        "color": "cc0000"
-      },
-      "away": {
-        "id": "espn:257",
-        "name": "Richmond Spiders",
-        "abbrev": "RICH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
-        "logo_dark": null,
-        "aliases": [
-          "RICH",
-          "Richmond",
-          "Richmond Spiders",
-          "Spiders"
-        ],
-        "color": "9e0712"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Carter-Finley Stadium",
-      "detail": "0:46 - 2nd Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "mlb:823498",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -3002,7 +3002,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 1,
@@ -3048,7 +3048,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Rogers Centre",
       "detail": "",
       "game_number": 1,
@@ -3282,7 +3282,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Alumni Stadium (Chestnut Hill, MA)",
-      "detail": "4:43 - 3rd Quarter",
+      "detail": "1:45 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3297,7 +3297,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-11T23:45:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:158",
         "name": "Milwaukee Brewers",
@@ -3327,10 +3327,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "American Family Field",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3413,7 +3412,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "David Booth Kansas Memorial Stadium",
-      "detail": "14:50 - 3rd Quarter",
+      "detail": "12:17 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -3646,7 +3645,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Oracle Park",
       "detail": "",
       "has_live_source": true,
@@ -11909,18 +11908,32 @@
   ],
   "stories": [
     {
-      "story_id": "49909402",
-      "headline": "Carter Jensen has a 2-run double in the Royals' 3-2 victory over the Red Sox",
-      "summary": "\u2014 Carter Jenson had a two-run double, Salvador Perez added an RBI and the Kansas City Royals beat the Boston Red Sox 3-2 on Friday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816892.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-12T02:03:31Z",
+      "story_id": "49752366",
+      "headline": "MLB playoff tracker 2026: Clinching scenarios, bracket, schedule",
+      "summary": "From current playoff matchups to league races to the postseason schedule, we have everything you need to know.",
+      "image": "https://a.espncdn.com/photo/2026/0821/mbl_probs_608x342.jpg",
+      "published_utc": "2026-09-12T02:17:51Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49752366/mlb-2026-playoff-tracker-clinch-scenarios-postseason-bracket-schedule",
+      "stream_url": "",
+      "body": "During the final month of the MLB regular season, some teams are already thinking about October while others gear up for the pennant races ahead.\n\nThe Tampa Bay Rays became the first team to clinch their spot in October with a win over the Houston Astros on Friday; the Milwaukee Brewers followed shortly after with a 20-0 rout against the Reds that sealed Milwaukee's slot.\n\nThe Los Angeles Dodgers and Atlanta Braves also have comfortable division leads in the National League, while the New York Yankees and Boston Red Sox are well on their way to playoff appearances in the American League.\n\nBeyond those top teams, there are many storylines to watch down the stretch: Where do current playoff matchups stand? What games should you be watching each day leading up to October? Who will clinch the first postseason berth? And what does the playoff schedule look like?\n\nHere's everything you need to know for the homestretch.\n\nKey links: Standings | Wild-card standings | Strength of schedule\n\nJump to: Bracket | Next to clinch | AL odds | NL odds | Key games\n\nWhat are the current MLB playoff matchups?\nAmerican League\n\nWild-card round: (6) Guardians at (3) Astros, (5) Red Sox at (4) Yankees\n\nALDS: Guardians/Astros vs. (2) White Sox, Red Sox/Yankees vs. (1) Rays\n\nNational League\n\nWild-card round: (6) Padres at (3) Braves, (5) Cubs at (4) Phillies\n\nNLDS: Padres/Braves vs. (2) Dodgers, Cubs/Phillies vs. (1) Brewers\n\nWho can clinch a playoff spot next?\n\nThe Dodgers and Yankees could clinch spots this weekend. The Braves, Cubs, Phillies, and Red Sox all have at least a 99% chance of making the playoffs.\n\nBreaking down the AL race\nThe Rays, Yankees and Red Sox are battling for the AL East crown, and while the Rays have sealed their spot, all three are very likely to be playing in October. The Chicago White Sox are trying to hold off the Cleveland Guardians in the AL Central, and the Houston Astros and Texas Rangers are part of a muddled AL West and wild-card picture.\n\nAnd what about when these teams get to the postseason? Here's what their chances are for every round:\n\nBreaking down the NL race\n\nThe Brewers, Dodgers and Braves all have comfortable division leads, so the NL intrigue will likely come in the wild-card races. The Cubs and Philadelphia Phillies have separated themselves there, with the San Diego Padres and Arizona Diamondbacks battling for the other spot.\n\nAnd what about when these teams get to the playoffs? Here's what their chances are for every round:\n\nGames to watch\n\nLooking for something to watch today? Here are the playoff implications of every MLB matchup\n\nPlayoff schedule\n\nHere's the 2026 MLB postseason schedule, from the wild-card round through the World Series.\n\nWild-card series\n\nBest of three\n\nTuesday, Sept. 29\n\nALWC A, Game 1\n\nALWC B, Game 1\n\nNLWC A, Game 1\n\nNLWC B, Game 1\n\nWednesday, Sept. 30\n\nALWC A, Game 2\n\nALWC B, Game 2\n\nNLWC A, Game 2\n\nNLWC B, Game 2\n\nThursday, Oct. 1\n\nALWC A, Game 3 *\n\nALWC B, Game 3 *\n\nNLWC A, Game 3 *\n\nNLWC B, Game 3 *\n\n* If necessary\n\nDivision series\n\n\u200bBest of five\n\nSaturday, Oct. 3\n\nALDS A, Game 1\n\nALDS B, Game 1\n\nNLDS A, Game 1\n\nNLDS B, Game 1\n\nSunday, Oct. 4\n\nNLDS A, Game 2\n\nNLDS B, Game 2\n\nMonday, Oct. 5\n\nALDS A, Game 2\n\nALDS B, Game 2\n\nTuesday, Oct. 6\n\nNLDS A, Game 3\n\nNLDS B, Game 3\n\nWednesday, Oct. 7\n\nALDS A, Game 3\n\nALDS B, Game 3\n\nNLDS A, Game 4*\n\nNLDS B, Game 4*\n\nThursday, Oct. 8\n\nALDS A, Game 4*\n\nALDS B, Game 4*\n\nFriday, Oct. 9\n\nNLDS A, Game 5*\n\nNLDS B, Game 5*\n\nSaturday, Oct. 10\n\nALDS A, Game 5*\n\nALDS B, Game 5*\n\n* If necessary\n\nLeague championship series\n\nBest of seven\n\nSunday, Oct. 11\n\nNLCS Game 1\n\nMonday, Oct. 12\n\nALCS Game 1\n\nNLCS Game 2\n\nTuesday, Oct. 13\n\nALCS Game 2\n\nWednesday, Oct. 14\n\nNLCS Game 3\n\nThursday, Oct. 15\n\nALCS Game 3\n\nNLCS Game 4\n\nFriday, Oct. 16\n\nALCS Game 4\n\nNLCS Game 5*\n\nSaturday, Oct. 17\n\nALCS Game 5*\n\nSunday, Oct. 18\n\nNLCS Game 6*\n\nMonday, Oct. 19\n\nALCS Game 6*\n\nNLCS Game 7*\n\nTuesday, Oct. 20\n\nALCS Game 7*\n\n* If necessary\n\nWorld Series\n\nBest of seven\n\nGame 1: Friday, Oct. 23\n\nGame 2: Saturday, Oct. 24\n\nGame 3: Monday, Oct. 26\n\nGame 4: Tuesday, Oct. 27\n\nGame 5: Wednesday, Oct. 28*\n\nGame 6: Friday, Oct. 30*\n\nGame 7: Saturday, Oct. 31*\n\n* If necessary"
+    },
+    {
+      "story_id": "49908962",
+      "headline": "Luke Jackson sets up Patrick Voss for a stunning goal",
+      "summary": "Freo ruck Luke Jackson follows up his own good work and hits Patrick Voss with the perfect handball, who nails an important goal in Freo's semifinal win over Geelong.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY.jpg",
+      "published_utc": "2026-09-12T01:18:52Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816892",
-      "stream_url": "",
-      "body": "BOSTON -- \u2014 Carter Jenson had a two-run double, Salvador Perez added an RBI and the Kansas City Royals beat the Boston Red Sox 3-2 on Friday night.\n\n\r\nIt was the second straight win for the Royals, who\u2019d lost four of their previous five. Jensen, a rookie catcher, extended his on-base streak to 15 games.\n\n\r\nKansas City\u2019s Seth Lugo (7-8) pitched five innings and allowed two runs off seven hits, striking out seven to earn his first career victory in five starts against Boston. Steven Cruz pitched a scoreless ninth for his seventh save.\n\n\r\nBoston has lost three straight after winning five in a row.\n\n\r\nBoston\u2019s Sonny Gray (17-5) was pulled after six innings, yielding three runs off six hits with two walks and five strikeouts\n\n\r\nThe Royals led 3-0 before Red Sox closed the gap to 3-2 in the fifth via a solo homer by Mickey Gasper and Wilyer Abreu RBI double off the Green Monster.\n\n\r\nThat remained the score in the eighth when Trevor Story got doubled off reliever Nate Pearson, and moved to third after Nick Sogard flied out to right. But Caleb Durbin struck out to end the threat.\n\n\r\nUp next\r\nRoyals RHP Randy Dobnak (3-3, 2.54 ERA) was set to start opposite LHP Ranger Suarez (6-4, 3.44) on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+      "link": "https://www.espn.com/video/clip/_/id/49908962/luke-jackson-sets-patrick-voss-stunning-goal",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY/dm_260911_AFL_Highlight_Luke_Jackson_sets_up_Patrick_Voss_for_a_stunning_goal_20260912_AUS_ONLY/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49908801",
@@ -11935,20 +11948,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49908801/three-questions-facing-panthers-week-1",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/dm_260911_Watchfolder_Panthers_9x163/dm_260911_Watchfolder_Panthers_9x163/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "49908665",
-      "headline": "Scott sees the punch line in ARC's controversial call",
-      "summary": "Geelong coach Chris Scott has tried his best to downplay his reaction to Oliver Dempsey's controversial non-goal during Friday night's 14-point semifinal loss to Fremantle, saying sometimes he punches walls when he's happy.",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715150_1296x729_16-9.jpg",
-      "published_utc": "2026-09-12T00:38:26Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49908665/afl-news-chris-scott-defends-reaction-arc-controversial-call-dempsey-goal-geelong-fremantle",
-      "stream_url": "",
-      "body": "Geelong coach Chris Scott has tried his best to downplay his reaction to Oliver Dempsey's controversial non-goal during Friday night's 14-point semifinal loss to Fremantle, saying sometimes he punches walls when he's happy.\n\nScott threw his arms up in the air in disbelief before giving the wall of the Optus Stadium coaching box a light punch when Dempsey's spectacular effort in the goalsquare was ruled to be a behind.\n\nInstead of trying to mark Bailey Smith's rushed kick forward, Dempsey unleashed a bicycle-style kick over his shoulder while under the close attention of Matthew Johnson to volley through what looked to be a spectacular goal.\n\nThe goal umpire thought it had been touched, so it went to the AFL Review Centre for the final call.\n\nReplays appeared to show the ball had hit Johnson's bicep before Dempsey's boot deflected the ball in, but the ARC declared the evidence wasn't sufficient, meaning the goal umpire's initial call of touch had to stand.\n\n\"I was surprised it was taking so long. It looked pretty clear to me,\" Scott said.\n\n\"But it's not for me to judge. From what I'm told, everyone has the same opinion that Ollie did.\"\n\nWhen asked about his punch of the wall, Scott gave an unexpected answer.\n\n\"Sometimes I punch the wall when I'm happy. Sometimes I punch the wall when I'm annoyed,\" he said.\n\n\"There were a few moments where we had momentum and for one reason or another we couldn't capitalise on it. That was probably one of them.\n\n\"There's some strange things in the game at the moment that are better off being spoken about in the cold light of day, probably in November, rather than September.\"\n\nHad Dempsey's effort been paid a goal, Geelong would have closed the margin to eight points early in the final quarter.\n\nThe Cats still managed to kick four of the next five goals after that incident to snatch an eight-point lead, before the Luke Jackson-inspired Dockers hit back to secure the 18.12 (120) to 16.10 (106) win and book a spot in the preliminary final against Sydney."
     },
     {
       "story_id": "49907509",
@@ -12077,18 +12076,32 @@
       "body": "The Newcastle Knights have beaten South Sydney at Allianz Stadium, advancing to the second week of the finals, sending the Rabbitohs crashing out of what was a promising season.\n\nHere are three things we learned from the game:\n\nKnights never stop fighting\n\nSuspensions, injuries, away from home - don't worry about any of it. Very few gave Newcastle a shot in this one but right from the jump they were more physical, more enthusiastic and took their chances. It wasn't a typical Knights showing because while they did score a long-range try, they had a mountain of ball in territory and won this via attrition rather than dazzling football.\n\nBoth first half tries came off kicks, but it was being in good attacking positions to end their sets which allowed that to happen. All week, a lot of people, including me, thought if they'd win it would be by throwing a few counter punches and defending gamely. They didn't really need to.\n\nThey were meant to be the team on the back foot, with a forward pack devoid of stars They dominated in yardage, robbed Souths of good ball, and suffocated their way to victory. It's so against type for them it's hard to really believe, but as hard-earned a win as the Knights have got all year. Bring on week two.\n\nBennett's selection puzzlers finally catch up\n\nThe loudest cheer from the Souths fans at the Sydney Football Stadium didn't come at kick off, or even when Campbell Graham scored - rather, it was Jye Gray being subbed on to the field in the second half that got the punters up and about.\n\nGray is beloved by Rabbitohs supporters and with good reason; he was one of the few bright sparks in an awful 2025 season and has made stuff happen every time he's on the field in 2026.\n\nHowever, a few weeks' ago, coach Wayne Bennett made the decision to bench Gray in favour of Matt Dufty, who's return to the NRL after several years in the wilderness has been a great story in its own right - but it's a decision that's puzzled plenty, including me. Dufty was poor in kick defence for each of the opening two tries and threw a late intercept to stop any hopes of a comeback. It was a selection misfire.\n\nSimilarly, after Ashton Ward was ruled out for the season it was assumed that Jamie Humphreys would be the halfback the rest of the way. Instead it was Bud Sullivan who Bennett went with, and his decision making on Friday night was pretty rough for the most part.\n\nStill, both Sullivan and Dufty have had great moments at times. The other and much more puzzling situation has been the refusal to play hooker Peter Mamouzelos, the most creative nine at the club and best foil to Brandon Smith. Every single Souths fan I've spoken to is baffled as to why Mamouzelos can't get into the team, particularly when the players who are getting minutes at hooker instead of him aren't hookers by trade. It makes no sense.\n\nAll of this is largely moot though because without Cody Walker, Souths weren't going to make any real impact on the finals series, even if they had stolen this one late on. Maybe next year.\n\nBack-row brilliance from Newcastle\n\nTake a bow, Jermaine McEwen and Francis Manuleleua. McEwen especially was superb with his two tries, but it was the edge integrity that allowed the Knights to stay on top in this one. Souths are so deadly on both sides but particularly their left, but for the most part those sweeping raids to the flanks were shut down with ease and that begins with the backrowers.\n\nAgain, this wasn't a position where you looked at Newcastle as having an advantage, but they were just better on the night.\n\nWe all know about the stars that the Knights have in other areas of the field, many of whom were great tonight. But if they can get this level of production from less-heralded guys, who knows how far they can go?"
     },
     {
-      "story_id": "49752366",
-      "headline": "MLB playoff tracker 2026: Clinching scenarios, bracket, schedule",
-      "summary": "From current playoff matchups to league races to the postseason schedule, we have everything you need to know.",
-      "image": "https://a.espncdn.com/photo/2026/0821/mbl_probs_608x342.jpg",
-      "published_utc": "2026-09-12T01:56:21Z",
+      "story_id": "49909503",
+      "headline": "New York Mets vs. New York Yankees: Game Highlights",
+      "summary": "New York Mets vs. New York Yankees: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0912/f178958f-4fd7-4e9e-8419-1d8b179b1945/f178958f-4fd7-4e9e-8419-1d8b179b1945.jpg",
+      "published_utc": "2026-09-12T02:16:40Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "ESPN",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49752366/mlb-2026-playoff-tracker-clinch-scenarios-postseason-bracket-schedule",
-      "stream_url": "",
-      "body": "During the final month of the MLB regular season, some teams are already thinking about October while others gear up for the pennant races ahead.\n\nThe Tampa Bay Rays became the first team to clinch their spot in October with a win over the Houston Astros on Friday.\n\nThe Milwaukee Brewers, Los Angeles Dodgers and Atlanta Braves all have comfortable division leads in the National League. Likewise, the New York Yankees and Boston Red Sox are well on their way to playoff appearances in the American League.\n\nBeyond those top teams, there are many storylines to watch down the stretch: Where do current playoff matchups stand? What games should you be watching each day leading up to October? Who will clinch the first postseason berth? And what does the playoff schedule look like?\n\nHere's everything you need to know for the homestretch.\n\nKey links: Standings | Wild-card standings | Strength of schedule\n\nJump to: Bracket | Next to clinch | AL odds | NL odds | Key games\n\nWhat are the current MLB playoff matchups?\nAmerican League\n\nWild-card round: (6) Guardians at (3) Astros, (5) Red Sox at (4) Yankees\n\nALDS: Guardians/Astros vs. (2) White Sox, Red Sox/Yankees vs. (1) Rays\n\nNational League\n\nWild-card round: (6) Padres at (3) Braves, (5) Cubs at (4) Phillies\n\nNLDS: Padres/Braves vs. (2) Dodgers, Cubs/Phillies vs. (1) Brewers\n\nWho can clinch a playoff spot next?\n\nThe Brewers can clinch a postseason spot next. The Dodgers, Braves, Cubs. Phillies, Yankees and Red Sox all have at least a 99% chance of making the playoffs.\n\nBreaking down the AL race\nThe Rays, Yankees and Red Sox are battling for the AL East crown, and while the Rays have sealed their spot, all three are very likely to be playing in October. The Chicago White Sox are trying to hold off the Cleveland Guardians in the AL Central, and the Houston Astros and Texas Rangers are part of a muddled AL West and wild-card picture.\n\nAnd what about when these teams get to the postseason? Here's what their chances are for every round:\n\nBreaking down the NL race\n\nThe Brewers, Dodgers and Braves all have comfortable division leads, so the NL intrigue will likely come in the wild-card races. The Cubs and Philadelphia Phillies have separated themselves there, with the San Diego Padres and Arizona Diamondbacks battling for the other spot.\n\nAnd what about when these teams get to the playoffs? Here's what their chances are for every round:\n\nGames to watch\n\nLooking for something to watch today? Here are the playoff implications of every MLB matchup\n\nPlayoff schedule\n\nHere's the 2026 MLB postseason schedule, from the wild-card round through the World Series.\n\nWild-card series\n\nBest of three\n\nTuesday, Sept. 29\n\nALWC A, Game 1\n\nALWC B, Game 1\n\nNLWC A, Game 1\n\nNLWC B, Game 1\n\nWednesday, Sept. 30\n\nALWC A, Game 2\n\nALWC B, Game 2\n\nNLWC A, Game 2\n\nNLWC B, Game 2\n\nThursday, Oct. 1\n\nALWC A, Game 3 *\n\nALWC B, Game 3 *\n\nNLWC A, Game 3 *\n\nNLWC B, Game 3 *\n\n* If necessary\n\nDivision series\n\n\u200bBest of five\n\nSaturday, Oct. 3\n\nALDS A, Game 1\n\nALDS B, Game 1\n\nNLDS A, Game 1\n\nNLDS B, Game 1\n\nSunday, Oct. 4\n\nNLDS A, Game 2\n\nNLDS B, Game 2\n\nMonday, Oct. 5\n\nALDS A, Game 2\n\nALDS B, Game 2\n\nTuesday, Oct. 6\n\nNLDS A, Game 3\n\nNLDS B, Game 3\n\nWednesday, Oct. 7\n\nALDS A, Game 3\n\nALDS B, Game 3\n\nNLDS A, Game 4*\n\nNLDS B, Game 4*\n\nThursday, Oct. 8\n\nALDS A, Game 4*\n\nALDS B, Game 4*\n\nFriday, Oct. 9\n\nNLDS A, Game 5*\n\nNLDS B, Game 5*\n\nSaturday, Oct. 10\n\nALDS A, Game 5*\n\nALDS B, Game 5*\n\n* If necessary\n\nLeague championship series\n\nBest of seven\n\nSunday, Oct. 11\n\nNLCS Game 1\n\nMonday, Oct. 12\n\nALCS Game 1\n\nNLCS Game 2\n\nTuesday, Oct. 13\n\nALCS Game 2\n\nWednesday, Oct. 14\n\nNLCS Game 3\n\nThursday, Oct. 15\n\nALCS Game 3\n\nNLCS Game 4\n\nFriday, Oct. 16\n\nALCS Game 4\n\nNLCS Game 5*\n\nSaturday, Oct. 17\n\nALCS Game 5*\n\nSunday, Oct. 18\n\nNLCS Game 6*\n\nMonday, Oct. 19\n\nALCS Game 6*\n\nNLCS Game 7*\n\nTuesday, Oct. 20\n\nALCS Game 7*\n\n* If necessary\n\nWorld Series\n\nBest of seven\n\nGame 1: Friday, Oct. 23\n\nGame 2: Saturday, Oct. 24\n\nGame 3: Monday, Oct. 26\n\nGame 4: Tuesday, Oct. 27\n\nGame 5: Wednesday, Oct. 28*\n\nGame 6: Friday, Oct. 30*\n\nGame 7: Saturday, Oct. 31*\n\n* If necessary"
+      "link": "https://www.espn.com/video/clip/_/id/49909503/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0912/f178958f-4fd7-4e9e-8419-1d8b179b1945/f178958f-4fd7-4e9e-8419-1d8b179b1945/playlist.m3u8",
+      "body": ""
+    },
+    {
+      "story_id": "49908929",
+      "headline": "AFL goal umpire signals a field goal in a nod to NFL refs",
+      "summary": "An AFL goal umpire returns the favour, signalling a field goal in the semifinal clash between Fremantle and Geelong after the NFL refs signalled a goal in the 49ers-Rams clash.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY.jpg",
+      "published_utc": "2026-09-12T01:14:28Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49908929/afl-goal-umpire-signals-field-goal-nod-nfl-refs",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/dm_260911_AFL_Highlight_AFL_goal_umpire_signals_a_field_goal_in_a_nod_to_NFL_refs_20260912_AUS_ONLY/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49907761",
@@ -12103,20 +12116,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49907761/tua-ruled-week-1-vs-steelers",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0911/ss_20260911_184728750_3655791/ss_20260911_184728750_3655791/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "49864001",
-      "headline": "AFL player movement tracker: trade requests, free agency latest, who's on the move?",
-      "summary": "The offseason is upon us which means AFL trades, free agency, and player movement is about to take off. Here's the latest news, whispers, and confirmed deals.",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713042_1296x729_16-9.jpg",
-      "published_utc": "2026-09-12T00:05:28Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49864001/afl-trades-free-agency-tracker-player-movement-the-move-new-clubs-draft-picks-more",
-      "stream_url": "",
-      "body": "It's AFL player movement season, with trades and free agency set to dominate the month of October. So who is going where? Keep track with our player movement guide here.\n\nWhen is the AFL trade and free agency window?\nThe 2026 AFL trade period commences on Monday, October 5 and closes in the evening of Wednesday, October 14.\n\nThe free agency window opens and closes a little ealier; it runs from Friday, October 2 until Friday, October 9.\n\nSaturday, Sept. 12\nZak Butters makes huge free agency call\nThe year's hottest restricted free agent Zak Butters has made a huge call on his future, nominating the Western Bulldogs as his preferred destination.\n\nAfter a year of speculation, with Geelong thought to be the front-runner for the Power star's signature, Butters made the call on Saturday, first reported by AFL.com.au's Callum Twomey.\n\nThe deal is reportedly for nine years.\n\nThursday, Sept. 10\nHogan set to join Pies\nGWS and Collingwood have both confirmed that 2024 Coleman Medal winner Jesse Hogan has chosen the Magpies at his next home.\n\nSet to be a four-club player, Hogan is 31 and coming off a 12-goal season from just nine appearances.\n\nIt's a big boost for the Magpies if Hogan can recapture his form; key forward has been an area of concern for a number of years.\n\nTuesday, Sept. 8\nBailey set to be Lion for life\nBrisbane's Zac Bailey has ended months of 'will he, won't he' speculation to sign with the Lions for eight years, taking him through the 2034 season, the the club confirmed on Tuesday.\n\nBailey, a free agent, had been a big target for the Crows, who had reportedly tabled a more lucrative offer.\n\n\"I'm absolutely rapt to be staying at the Brisbane Lions,\" Bailey said in a statement.\n\n\"I love the environment here, the players, coaches and staff who all make it a great place to be and I feel like this Club continues to bring the best out of me.\n\n\"This Club means so much to me - I came here as a young player and have grown up here and to know I will be here long-term is something I'm really proud of.\n\n\"I would like to thank the club, my partner Em, my family and my management for being so supportive throughout this process.\n\n\"I love what we as a club have achieved during my time here and I am super excited about what we can continue to achieve together.\"\n\nRowan Marshall requests trade\nSt Kilda ruck Rowan Marshall looks set to be on the move, with the Saints confirming the big man had requested a trade for the second straight season.\n\nWhile Marshall hasn't requested a specific club, it's likely to be Geelong after he failed to secure a trade to the Cats last year. He played 21 games for the Saints this seaosn, juggling ruck duties with Tom De Koning, who came in from Carlton last offseason.\n\n\"Rowan is a highly valued member of the St Kilda Football Club and remains contracted until the end of 2027,\" the Saints said in a statement.\n\n\"Marshall has not nominated a preferred destination at this stage, with the club making clear that any trade will need to be in the best interests of the St Kilda Football Club.\"\n\nZane Duursma wants to go to Melbourne\nThe No. 4 pick in the 2023 AFL draft Zane Duursma has requested a trade out of North Melbourne, with Melbourne in his sights.\n\nThe news comes a week after coach Alastair Clarkson was sacked by the club. North won nine games in 2026, their best return since 2019.\n\nEd Allan re-signs with the Pies\nAfter speculation about his future at the Magpies, mdifielder Ed Allan has put pen to paper, signing a four year extension to remain at Collingwood.\n\n2026 was a breakout season for Allan, who played 19 games and averaged a career-high 16.5 disposals per game.\n\nMonday, Sept. 7\nPair of in-demand Dogs re-sign\nAccording to afl.com.au, both Arty Jones and Buku Khamis will remain at the Kennel this offseason.\n\nJones will sign a three-year deal, while Khamis has a five-year contract in front of him.\n\nEssendon and Brisbane had interest in livewire forward Jones, who had a standout performance against Collingwood in the wildcard final win, while the Blues were heavily linked to Khamis for a second straight offseason.\n\nCooper Hodge nomintes Hawthorn\nA big boost for the Hawks, with club champion Luke Hodge's son Cooper choosing to join the Melbourne-based team as a father-son at this year's draft.\n\nHe had the option of going to Brisbane as a Lions academy member."
     },
     {
       "story_id": "49907512",
