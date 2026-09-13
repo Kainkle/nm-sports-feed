@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T20:39:02.278911+00:00",
+  "generated_utc": "2026-09-13T20:49:38.227961+00:00",
   "events": [
     {
       "event_id": "mlb:824872",
@@ -811,6 +811,12 @@
       "replay_candidates": [
         {
           "url": "https://ok.ru/videoembed/16137939651244",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://ok.ru/videoembed/16139819354796",
           "label": "OK.ru",
           "part": false,
           "live": false
@@ -8684,99 +8690,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872923",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-13T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:8",
-        "name": "Detroit Lions",
-        "abbrev": "DET",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Lions",
-          "Lions"
-        ],
-        "color": "0076b6"
-      },
-      "away": {
-        "id": "espn:18",
-        "name": "New Orleans Saints",
-        "abbrev": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-        "logo_dark": null,
-        "aliases": [
-          "NO",
-          "New Orleans",
-          "New Orleans Saints",
-          "Saints"
-        ],
-        "color": "d3bc8d"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Ford Field",
-      "detail": "2:16 - OT",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "gH8Bm0wVGwo",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872661",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-13T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:29",
-        "name": "Carolina Panthers",
-        "abbrev": "CAR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAR",
-          "Carolina",
-          "Carolina Panthers",
-          "Panthers"
-        ],
-        "color": "0085ca"
-      },
-      "away": {
-        "id": "espn:3",
-        "name": "Chicago Bears",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "CHI",
-          "Chicago",
-          "Chicago Bears"
-        ],
-        "color": "0b1c3a"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Bank of America Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401872925",
       "sport": "football",
       "competition_id": "nfl",
@@ -8817,6 +8730,52 @@
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "6Jc-OI39Qng",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872923",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-13T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:8",
+        "name": "Detroit Lions",
+        "abbrev": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Lions",
+          "Lions"
+        ],
+        "color": "0076b6"
+      },
+      "away": {
+        "id": "espn:18",
+        "name": "New Orleans Saints",
+        "abbrev": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+        "logo_dark": null,
+        "aliases": [
+          "NO",
+          "New Orleans",
+          "New Orleans Saints",
+          "Saints"
+        ],
+        "color": "d3bc8d"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Ford Field",
+      "detail": "Final/OT",
+      "game_number": 1,
+      "highlight_video_id": "gH8Bm0wVGwo",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -8955,6 +8914,52 @@
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "TQcletbGnAk",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872661",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-13T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:29",
+        "name": "Carolina Panthers",
+        "abbrev": "CAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Panthers",
+          "Panthers"
+        ],
+        "color": "0085ca"
+      },
+      "away": {
+        "id": "espn:3",
+        "name": "Chicago Bears",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "CHI",
+          "Chicago",
+          "Chicago Bears"
+        ],
+        "color": "0b1c3a"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Bank of America Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -9135,7 +9140,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Truist Park",
       "detail": "",
       "game_number": 1,
@@ -9229,7 +9234,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Rogers Centre",
       "detail": "",
       "game_number": 1,
@@ -9291,7 +9296,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-13T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:146",
         "name": "Miami Marlins",
@@ -9322,10 +9327,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "loanDepot park",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9386,7 +9390,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-13T18:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:158",
         "name": "Milwaukee Brewers",
@@ -9416,10 +9420,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "American Family Field",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9433,7 +9436,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-13T18:15:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:138",
         "name": "St. Louis Cardinals",
@@ -9464,10 +9467,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Busch Stadium",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9600,7 +9602,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "Reale Arena",
-      "detail": "77'",
+      "detail": "88'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9618,23 +9620,23 @@
       "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "Erik Jones",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-        "logo_dark": null,
-        "aliases": [
-          "Erik Jones"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "espn:None",
         "name": "Ross Chastain",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
           "Ross Chastain"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Kyle Larson",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kyle Larson"
         ],
         "color": null
       },
@@ -9828,7 +9830,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "7:48 - 1st Quarter",
+      "detail": "1:33 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9875,7 +9877,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "U.S. Bank Stadium",
-      "detail": "12:00 - 1st Quarter",
+      "detail": "7:54 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "KzBmZO8G8dQ",
@@ -9922,7 +9924,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Lincoln Financial Field",
-      "detail": "9:23 - 1st Quarter",
+      "detail": "4:15 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9969,7 +9971,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "8:49 - 1st Quarter",
+      "detail": "4:22 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -11612,32 +11614,32 @@
   ],
   "stories": [
     {
-      "story_id": "49932027",
-      "headline": "Bengals force 4 turnovers, Burrow throws for TD in 33-27 win over the Buccaneers",
-      "summary": "\u2014 The Bengals' new-look defense forced four turnovers \u2014 including its first fumble recovery for a TD since 2022 \u2014 Joe Burrow passed for 254 yards and a touchdown and Cincinnati defeated the Tampa Bay Buccaneers 33-27 Sunday.",
-      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872925.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-13T20:34:35Z",
+      "story_id": "49871987",
+      "headline": "NFL Week 1: Takeaways, questions, fantasy spin for Sunday games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 1.",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1716088_608x342_16-9.jpg",
+      "published_utc": "2026-09-13T20:42:02Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "",
+      "byline": "NFL Nation",
       "source": "ESPN",
-      "link": "http://www.espn.com/nfl/recap?gameId=401872925",
+      "link": "https://www.espn.com/nfl/story/_/id/49871987/week-1-sunday-games-takeaways-questions-2026",
       "stream_url": "",
-      "body": "CINCINNATI -- \u2014 The Bengals' new-look defense forced four turnovers \u2014 including its first fumble recovery for a TD since 2022 \u2014 Joe Burrow passed for 254 yards and a touchdown and Cincinnati defeated the Tampa Bay Buccaneers 33-27 Sunday.\n\n\r\nEvan McPherson had three field goals, including from 55 yards and 58 yards, as the Bengals won their opener for the second straight year.\n\n\r\nLinebacker Boye Mafe and safety Bryan Cook, both signed in free agency, had big games. Both had forced fumbles and recoveries while Mafe also one of Cincinnati's four sacks.\n\n\r\nBurrow completed 25 of 35 passes. After a three-and-out on the opening series, the seventh-year franchise quarterback directed the Bengals to points on six of their next seven drives. The only hiccup was a pick-6 by Tampa Bay rookie linebacker Jeremiah Trotter.\n\n\r\nCincinnati scored 24 points off Tampa Bay's mistakes. Three were committed by quarterback Baker Mayfield, who signed a $165 million, three-year extension earlier in the week.\n\n\r\nMayfield was 23 of 28 passing for 216 yards. Two of the fumbles came while he was sacked and another on a scramble when the Buccaneers were on the verge of scoring.\n\n\r\nMayfield's 9-yard scramble TD pulled the Buccaneers within six with 3:19 remaining, but Cincinnati ran out the clock. Burrow's 18-yard completion to Tee Higgins to the Bucs 26 on second-and-10 put it out of reach.\n\n\r\nIt is the first time Mayfield has lost an opener in his four seasons with Tampa Bay.\n\n\r\nBucs' early fumbles play critical role \r\nTampa Bay scored on its first possession when Chase McLaughlin made a 34-yard field goal, but the Buccaneers turned it over on their next three possessions. Cincinnati converted all three fumbles into touchdowns.\n\n\r\nMayfield rolled right when he was sacked by Myles Murphy and Barrett Carter at the Buccaneers 26. Demetrius Knight picked up the loose ball at the 27 and went up the sideline for his first NFL touchdown.\n\n\r\nIt was the Bengals first scoop and score since Sam Hubbard's 99-yard touchdown in a 2022 wild-card round game against Baltimore. It also marked the third time that Cincinnati's first touchdown of the season has been supplied by the defense.\n\n\r\nBurrow's 2-yard TD pass to tight end Mike Gesicki came seven plays after Boye Mafe recovered Bucky Irving's fumble at the Bucs 33.\n\n\r\nCincinnati extended its lead to 21-3 midway through the second quarter on Chase Brown's 5-yard run. The Bengals got the ball on their 20 after Cook recovered Mayfield's fumble in the end zone after linebacker Carter stripped the ball out of Mayfield's hands at the Bengals 4 as the nine-year veteran was trying to stretch for extra yards.\n\n\r\nTrotter's impressive debut\r\nTrotter became the first player with a sack and pick-6 in his first game since sacks became an official statistic in 1982.\n\n\r\nBoth plays came in the third quarter. The second-round pick brought down Burrow for a 9-yard loss before jumping the route on a pass intended for Andrei Iosivas and ran it back 38 yards to get the Buccaneers within 27-20 with 2:16 remaining in the quarter.\n\n\r\nInjuries\r\nBuccaneers: CB Jacob Parrish tweaked his back during the second quarter and did not return.\n\n\r\nUp next\r\nBuccaneers: Host Cleveland next Sunday.\n\n\r\nBengals: At Houston next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+      "body": "The 2026 NFL season is already off to an exciting start. On Wednesday, the Seahawks defeated the Patriots again in a Super Bowl LX rematch -- this time without quarterback Sam Darnold. And a day later on the other side of the planet, the 49ers stunned the Rams in Melbourne, Australia.\n\nIn the early window Sunday, the Jaguars easily handled the Browns in Deshaun Watson's first regular-season game since October 2024. The Bengals' revamped defense looked good in a win over the Bucs, forcing four fumbles. And coach Robert Saleh couldn't get revenge against the Jets in his debut with the Titans.\n\nOur NFL Nation reporters reacted to all the action, answering lingering questions coming out of each game and detailing everything else you need to know for every team. Fantasy football analysts Matt Bowen and Tristan Cockcroft also have fantasy takeaways from every matchup. Let's get to it.\n\nJump to:\n\nNYJ-TEN | TB-CIN | CLE-JAX\n\nCatch up on weekday games:\n\nSF-LAR | NE-SEA\n\nN.Y. Jets 23, Tennessee 10\nCatch up on the action: Box score | Recap\n\nJets\nHow optimistic should the Jets be? This is rarefied air for coach Aaron Glenn, who needed eight games last season to record a victory. Unlike last season, he now has a balanced offense. Consider: By the first drive of the third quarter, the wide receivers already had 148 receiving yards -- more than any game in 2025. Garrett Wilson and Adonai Mitchell delivered explosive plays while Breece Hall (102 yards) and Braelon Allen (40 yards) spearheaded a 152-yard rushing attack. QB Geno Smith, with terrific protection, played a clean game -- no turnovers, a bugaboo from last year in Las Vegas. If the Jets can stick to this formula, they could be a surprise team.\n\nStat to know: The defense has gone 571 pass attempts without an interception, dating to the 2024 finale -- a historic drought. Despite no picks against second-year QB Cam Ward, the defense played fantastic, making three sacks and holding the Titans to 195 total yards. They did it without safety Minkah Fitzpatrick, who left with a groin injury after six snaps. -- Rich Cimini\n\nNext game: vs. Packers (Sunday, 1 p.m. ET)\n\nTitans\nWill it be this hard for the Titans to reach the end zone? The first-team offense scored one touchdown on six drives in the preseason. They managed to do worse against the Jets with 10 points on nine drives. The only touchdown came in garbage time with the Jets up by 20 points. Carnell Tate's 14-yard catch in the fourth quarter was the longest offensive play of the day. New Titans offensive coordinator Brian Daboll stressed taking what the defense gives them, but that won't work if Cam Ward keeps missing easy throws. It could be worse next week when Tennessee hosts the Eagles.\n\nWhat to make of the QB performance: Saying Ward's 2026 debut was bad is an understatement. Ward missed easy throws to RB Tyjae Spears and WR Wan'Dale Robinson near the line of scrimmage, and he failed to connect with Tate on a pass across the middle that would have been a big gain. Ward finished with 140 passing yards, though 55 came on the final drive. -- Turron Davenport\n\nNext game: vs. Eagles (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Hall, who worked through a groin injury in camp, saw a team-high 22 carries and finished with 118 total yards and a score (19.8 points) for the Jets. He will remain a high-end RB2 next week. -- Bowen\n\nCincinnati 33, Tampa Bay 27\nCatch up on the action: Box score | Recap\n\nBengals\nIs the Bengals' defense as good as it appeared against Tampa Bay? It's not a mirage. There are still some aspects that need to be shored up, but the defensive line was as good as advertised. Cincinnati forced and recovered four fumbles, including a scoop and score by second-year LB Demetrius Knight Jr. for the team's first TD of the season. Cincinnati got key contributions from nearly all of its offseason signings. It was the exact impact the Bengals hoped for from a revamped defense.\n\nWhat to make of the QB performance: Joe Burrow took what the defense gave him Sunday. He did a good job finding the tight ends, particularly Mike Gesicki, and working the underneath routes to move the ball down the field. The pick-six he threw in the third quarter didn't prove to be disastrous, and Burrow typically gets better the deeper he gets into a season. -- Ben Baby\n\nNext game: at Texans (Sunday, 1 p.m. ET)\n\nBuccaneers\nWhat do we make of the Bucs' four fumbles that led to 24 points? Quarterback Baker Mayfield's first fumble came while moving laterally to try to find an open receiver. The second fumble was from running back Bucky Irving, who left the ball exposed when he collided with Boye Mafe and Myles Murphy. (It's unclear if his offseason shoulder surgery played into this at all.) The third came from Mayfield while he was spinning his way out of a sack, scrambling and desperately trying to reach the end zone while in a 14-3 hole -- trying to do too much. The fourth was simply the result of Mayfield holding on to the ball too long; Mafe hit him from behind to jar it loose.\n\nStat to know: Rookie linebacker Josiah Trotter is the first NFL rookie with a pick-six and a sack in his NFL debut since sacks became an official stat in 1982, according to the Elias Sports Bureau. He is also the ninth player in NFL history with a sack and interception in his NFL debut since 1982. -- Jenna Laine\n\nNext game: vs. Browns (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Don't panic, Ja'Marr Chase managers: The star wide receiver had 3.2 fantasy points, but he is no stranger to slow starts. Two of his worst games have come in the past two Week 1s. And over his career, he has averaged 5.5 fewer points in September than the rest of the season. -- Cockcroft\n\nJacksonville 34, Cleveland 10\nCatch up on the action: Box score | Recap\n\nJaguars\nIs the Jaguars' Week 1 dominance sustainable? The Jaguars controlled the entirety of their season opener against the Browns, led by four touchdown passes from quarterback Trevor Lawrence. But it's the next five games that will tell us if they are actually as good as this win suggested. Four of the Jaguars' next five games are against 2025 playoff teams, beginning at the Broncos next week, Patriots at home in Week 3, at the Bengals in Week 4, and then back-to-back games in London against the Eagles and Texans. Thrive in that stretch and the Jaguars could enter their Week 7 bye as one of the best in the AFC. Time will tell.\n\nTrend to watch: Lawrence targeted 10 players -- nine had at least one catch -- and four different players caught TDs (Parker Washington, Josh Cameron, Brenton Strange and Jakobi Meyers). Not only that, but Lawrence targeted all areas of the field. He had two TD passes of 20 or more yards, which is one shy of what he had in 2025. Having that many options in the pass game could make this offense hard to stop. -- Mike DiRocco\n\nNext game: at Broncos (Sunday, 4:05 p.m. ET)\n\nBrowns\nWas this just a bad game or a bad sign for the Browns? Todd Monken's first game as an NFL head coach was a worst-case outcome for a team with major question marks. Deshaun Watson looked every bit the quarterback who hadn't played a regular-season game in 693 days, while the defense looked like a unit missing edge rusher Myles Garrett and ex-defensive coordinator Jim Schwartz. Jacksonville was a tough Week 1 draw, but Sunday highlighted fundamental issues that might not be solved in a week.\n\nWhat to make of the QB performance: Concerns over Watson's training camp -- inconsistent at best -- and preseason performance will only grow after this outing. In his first regular-season game since October 2024, Watson looked tentative and inaccurate throughout the game. (He went 16-of-22 with five sacks and an INT). Those are issues that predated the Achilles injury that sidelined him for all of the 2025 season. -- Daniel Oyefusi\n\nNext game: at Buccaneers (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: The Browns, who scored 10 points and saw the opposing Jaguars D/ST score 14 fantasy points, reaffirmed their status as a top-shelf D/ST streaming target. The Buccaneers (Week 2), Panthers (Week 3) and Jets (Week 5) -- all widely available defenses -- are three of their next four opponents. -- Cockcroft"
     },
     {
-      "story_id": "49931348",
-      "headline": "Giants slugger Devers' season ends early due to core muscle injury",
-      "summary": "San Francisco's Rafael Devers' season is over, and he may have surgery for a core muscle injury.",
-      "image": "https://a.espncdn.com/photo/2026/0624/r1678512_1296x729_16-9.jpg",
-      "published_utc": "2026-09-13T20:25:34Z",
+      "story_id": "49932090",
+      "headline": "Alec Bohm hits tie-breaking, 2-run double in 7-run 8th as Phillies beat Braves 9-4 and avoid sweep",
+      "summary": "\u2014 Alec Bohm hit a tie-breaking, two-run double in a seven-run eighth inning and the Philadelphia Phillies beat the Atlanta Braves 9-4 on Sunday to avoid being swept in the key NL...",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816925.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-13T20:39:34Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49931348/giants-slugger-devers-season-ends-early-due-core-muscle-injury",
+      "link": "http://www.espn.com/mlb/recap?gameId=401816925",
       "stream_url": "",
-      "body": "SAN FRANCISCO -- Giants slugger Rafael Devers' season is over, and he may have surgery for a core muscle injury.\n\nThe Giants placed the first baseman/designated hitter on the 60-day injured list Sunday, ending his season.\n\nDevers, who leads the team with 37 homers and 98 RBIs, is to meet Monday in Philadelphia with Dr. William Meyers. If a procedure is recommended, Devers would have the operation on Tuesday.\n\nSan Francisco said Devers played with the injury for much of this season.\n\nDevers homered in his last two games and had eight home runs with 20 RBIs in his final 11 games.\n\nIn the third season of a $313.5 million, 10-year contract, Devers was acquired from Boston in June 2025. He was batting .207 with two homers through April but has raised his average to .258.\n\nDevers has a .274 and 272 home runs in 10 major league seasons.\n\nSan Francisco selected the contract of outfielder Scott Bandura from Triple-A Sacramento."
+      "body": "ATLANTA -- \u2014 Alec Bohm hit a tie-breaking, two-run double in a seven-run eighth inning and the Philadelphia Phillies beat the Atlanta Braves 9-4 on Sunday to avoid being swept in the key NL East series.\n\n\r\nJ.T. Realmuto drove in three runs on three hits, including a two-run homer.\n\n\r\nBohm's double to center field off Dylan Lee (6-1) drove in Trea Turner and Bryce Harper, who reached on his second double of the game. Bryson Stott and Realmuto had run-scoring singles and Kyle Schwarber's single off Victor Mederos drove in two more runs in the big inning.\n\n\r\nMatt Olson hit a two-run homer off Tanner Banks, who was activated off the 60-day injured list before the game, in the ninth.\n\n\r\nDespite avoiding the sweep, the Phillies lost ground to the first-place Braves in the series. After trailing by four games at the start of the series, the Phillies left Atlanta five games out of first place. The Braves won the opener 6-5 in 11 innings on Friday night before rolling to a 12-2 win on Saturday night.\n\n\r\nPhillies right-hander Andrew Painter gave up one run six hits and four walks. He pitched out of a bases-loaded jam in the fourth. After walking Austin Riley and Ha-Seong Kim and giving up a single to Michael Harris II, Painter coaxed a popup from Ronald Acu\u00f1a Jr. and ended the inning on Olson's grounder to first base.\n\n\r\nHarris, who had three hits, led off the seventh with a single off left-hander Jos\u00e9 Alvarado (4-3) and moved to second on a wild pitch before scoring on Olson's single to left field for a 2-2 tie.\n\n\r\nUp next\r\nPhillies: Following an off day on Monday, LHP Cristopher S\u00e1nchez (17-5, 2.79 ERA) is scheduled to start in Tuesday night's opener of a series at Washington.\n\n\r\nBraves: RHP Reynaldo L\u00f3pez (4-4, 4.13) is scheduled to start on Monday night at the Chicago Cubs.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "49930265",
@@ -11780,18 +11782,18 @@
       "body": "A defiant Ivan Cleary insists his superstar son Nathan should not face a ban for dangerous contact, after the Penrith star went from villain to hero in the Panthers' 19-12 finals win over the Sydney Roosters.\n\nIn a cracking Sunday afternoon qualifying final, Cleary was sin-binned for collecting Hugo Savala's leg before breaking a 12-12 deadlock with a late field goal at CommBank Stadium.\n\nAdding to the drama, the Penrith No.7 also injured his foot in the process of landing the dropkick, seeking the attention of trainers before opting out of taking the conversion attempt after Brian To'o's late try.\n\nThe result means the Roosters will host Cronulla in a do-or-die semi-final on Saturday night, while Penrith are one win away from their sixth grand final in seven years.\n\nBut all eyes will be on the NRL's charge sheet on Monday, with Cleary anxiously awaiting what sanction he will face for crashing into Savala's leg after the Roosters player kicked in the first half.\n\nThe Panthers star immediately gave a worried look, before referee Gerard Sutton told him his action had \"force\", was \"very dangerous\" and \"carried a high risk of injury\".\n\n\"He's just trying to make a play. He's probably thinking the right thing there,\" coach Ivan Cleary said.\n\n\"The angle was wrong and under the current rules it's probably the right call.\n\n\"The same thing happened to him down the other end under the posts early in the game, but anyway.\"\n\nIf Nathan Cleary was to receive a grade-two dangerous contact charge on Monday, the game's best player would be facing a ban from the preliminary final with an early plea.\n\nShould he elect to challenge the charge, he would risk being rubbed out of the grand final if found guilty.\n\nA grade-one charge would only attract a fine for Cleary, and prove a massive boost in Penrith's bid for a fifth premiership of their dynasty.\n\nAsked if he felt the halfback deserved a ban over the contact, Ivan Cleary said: \"God no. Of course not.\n\n\"He just got the wrong angle. It's one of those rules that has come in over the past couple of years and sometimes in the heat of the battle you forget.\n\n\"He's not injured. It's just a black-and-white thing they have brought in.\"\n\nManly's Josh Aloiai and South Sydney's Jacob Host were handed grade-two charges by the match review committee for collecting the outstretched legs of kickers in 2024.\n\nBut Melbourne's Harry Grant did manage to have a grade-one charge for contact on Dan Atkinson overturned that year.\n\nThe Roosters failed to make use of Cleary's sin binning. Savala missed the ensuing penalty goal and was denied a try for a double movement after the break.\n\nThat was one of the few chances during a scoreless opening 32 minutes of the second half, before Cleary stepped up as the game's ultimate ice man.\n\nSat in the attacking line after a searching Moses Leota run, Cleary was able to slot over the one-pointer with no pressure from Roosters defenders.\n\n\"I would have liked to have put more pressure on him,\" Roosters coach James Tedesco said.\n\n\"But it was just a quick play-the-ball and a quick ruck.\"\n\nDaly Cherry-Evans attempted to reciprocate moments later, but sprayed a shot from 20 metres out to the right before To'o's sealer under the posts.\n\nCleary's boot also wreaked havoc early on Sunday, with the Roosters unable to handle three of his bombs and Liam Martin leaping to score off one of his shallow cross-field kicks.\n\nCleary also changed the point of attack and went back inside to Dylan Edwards for the Panthers' second try, with the fullback swerving his way over to make it 12-12 after 38 minutes.\n\nMark Nawaqanitawase's freakish ability had kept the Roosters in the match in the first half, with two key intercepts either side of a Robert Toia try.\n\nThe Roosters winger first helped deny a Penrith try when he reached out and held onto an Isaiah Papali'i ball in the third minute.\n\nHe then gave the Roosters a 12-6 lead when he stretched out to stop a Penrith break, juggled the ball three time as he fell, got up and ran 45 metres to score."
     },
     {
-      "story_id": "49871987",
-      "headline": "NFL Week 1: Takeaways, questions, fantasy spin for Sunday games",
-      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 1.",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1716088_608x342_16-9.jpg",
-      "published_utc": "2026-09-13T20:33:56Z",
+      "story_id": "49932122",
+      "headline": "Josh Allen connects with Joshua Palmer for a late TD and Bills beat Texans 36-31 in wild opener",
+      "summary": "\u2014 Josh Allen threw a 34-yard touchdown pass to Joshua Palmer with 1:36 remaining to lift the Buffalo Bills to a 36-31 win over the Houston Texans in a back-and-forth season opener on Sunday.",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872660.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-13T20:41:32Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "NFL Nation",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49871987/week-1-sunday-games-takeaways-questions-2026",
+      "link": "http://www.espn.com/nfl/recap?gameId=401872660",
       "stream_url": "",
-      "body": "The 2026 NFL season is already off to an exciting start. On Wednesday, the Seahawks defeated the Patriots again in a Super Bowl LX rematch -- this time without quarterback Sam Darnold. And a day later on the other side of the planet, the 49ers stunned the Rams in Melbourne, Australia.\n\nIn the early window Sunday, the Jaguars easily handled the Browns in Deshaun Watson's first regular-season game since October 2024. The Bengals' revamped defense looked good in a win over the Bucs, forcing four fumbles. And coach Robert Saleh couldn't get revenge against the Jets in his debut with the Titans.\n\nOur NFL Nation reporters reacted to all the action, answering lingering questions coming out of each game and detailing everything else you need to know for every team. Fantasy football analysts Matt Bowen and Tristan Cockcroft also have fantasy takeaways from every matchup. Let's get to it.\n\nJump to:\n\nNYJ-TEN | TB-CIN | CLE-JAX\n\nCatch up on weekday games:\n\nSF-LAR | NE-SEA\n\nN.Y. Jets 23, Tennessee 10\nCatch up on the action: Box score | Recap\n\nJets\nHow optimistic should the Jets be? This is rarefied air for coach Aaron Glenn, who needed eight games last season to record a victory. Unlike last season, he now has a balanced offense. Consider: By the first drive of the third quarter, the wide receivers already had 148 receiving yards -- more than any game in 2025. Garrett Wilson and Adonai Mitchell delivered explosive plays while Breece Hall (102 yards) and Braelon Allen (40 yards) spearheaded a 152-yard rushing attack. QB Geno Smith, with terrific protection, played a clean game -- no turnovers, a bugaboo from last year in Las Vegas. If the Jets can stick to this formula, they could be a surprise team.\n\nStat to know: The defense has gone 571 pass attempts without an interception, dating to the 2024 finale -- a historic drought. Despite no picks against second-year QB Cam Ward, the defense played fantastic, making three sacks and holding the Titans to 195 total yards. They did it without safety Minkah Fitzpatrick, who left with a groin injury after six snaps. -- Rich Cimini\n\nNext game: vs. Packers (Sunday, 1 p.m. ET)\n\nTitans\nWill it be this hard for the Titans to reach the end zone? The first-team offense scored one touchdown on six drives in the preseason. They managed to do worse against the Jets with 10 points on nine drives. The only touchdown came in garbage time with the Jets up by 20 points. Carnell Tate's 14-yard catch in the fourth quarter was the longest offensive play of the day. New offensive coordinator Brian Daboll stressed taking what the defense gives them, but that won't work if Ward keeps missing easy throws. It could be worse next week when Tennessee hosts the Eagles.\n\nWhat to make of the QB performance: Saying Ward's 2026 debut was bad is an understatement. Ward missed easy throws to RB Tyjae Spears and WR Wan'Dale Robinson near the line of scrimmage, and he failed to connect with Tate on a pass across the middle that would have been a big gain. Ward finished with 140 passing yards, though 55 came on the final drive. -- Turron Davenport\n\nNext game: vs. Eagles (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Hall, who worked through a groin injury in camp, saw a team-high 22 carries and finished with 118 total yards and a score (19.8 points) for the Jets. He will remain a high-end RB2 next week. -- Bowen\n\nCincinnati 33, Tampa Bay 27\nCatch up on the action: Box score | Recap\n\nBengals\nIs the Bengals' defense as good as they showed against Tampa Bay? It's not a mirage. There are still some aspects that need to be shored up, but the defensive line was as good as advertised. Cincinnati forced and recovered four fumbles, including a scoop-and-score by second-year LB Demetrius Knight Jr. the first TD of the season. Cincinnati got key contributions from nearly all of its offseason signings. It was the exact impact the Bengals hoped for from a revamped defense.\n\nWhat to make of the QB performance: Joe Burrow took what the defense gave him Sunday. He did a good job of finding the tight ends, particularly Mike Gesicki, and working the underneath routes to move the ball down the field. The pick-six didn't prove to be disastrous, and Burrow typically gets better the deeper he gets into a season. -- Ben Baby\n\nNext game: at Texans (Sunday, 1 p.m. ET)\n\nBuccaneers\nWhat do we make of the Bucs' four fumbles that led to 24 points? Quarterback Baker Mayfield's first fumble came while moving laterally to try and find an open receiver. The second fumble was from running back Bucky Irving leaving the ball exposed when colliding with Boye Mafe and Myles Murphy. (It's unclear if his offseason shoulder surgery played into this at all.) The third was Mayfield spinning his way out of a sack, scrambling and desperately trying to reach the end zone while being in a 14-3 hole -- trying to do too much. The fourth was simply Mayfield holding onto the ball too long, and Mafe hitting him from behind.\n\nStat to know: Rookie linebacker Josiah Trotter is the first NFL rookie with a pick-six and a sack in his NFL debut since sacks became an official stat in 1982, according to Elias Sports Bureau. He is also the ninth player in NFL history with a sack and interception in his NFL debut since 1982. -- Jenna Laine\n\nNext game: vs. Browns (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Don't panic, Ja'Marr Chase managers: The star wide receiver is no stranger to slow starts. With his 3.2 fantasy points, two of his worst games have come in the past two Week 1s. And over his career, he has averaged 5.5 fewer points in September than the rest of the season. -- Cockcroft\n\nJacksonville 34, Cleveland 10\nCatch up on the action: Box score | Recap\n\nJaguars\nIs the Jaguars' Week 1 dominance sustainable? The Jaguars controlled the entirety of their season-opener against the Browns, led by four touchdown passes from quarterback Trevor Lawrence. But it's the next five games that will tell us if they are actually as good as this win suggested. Four of the Jaguars' next five games are against playoff teams, beginning at the Broncos next week, Patriots at home in Week 3, at the Bengals in Week 4, and then back-to-back games in London against the Eagles and Texans. Thrive in that stretch and the Jaguars could enter their Week 7 bye as one of the best in the AFC. Time will tell.\n\nTrend to watch: Lawrence targeted 10 players -- nine had at least one catch -- and four different players caught TDs (Parker Washington, Josh Cameron, Brenton Strange and Jakobi Meyers). Not only that, but Lawrence targeted all areas of the field. He had two TD passes of 20 or more yards, which is one shy of what he had in 2025. Having that many options in the pass game could make this offense hard to stop. -- Mike DiRocco\n\nNext game: at Broncos (Sunday, 4:05 p.m. ET)\n\nBrowns\nWas this just a bad game or a bad sign for the Browns? Todd Monken's first game as an NFL head coach was a worst-case outcome for a team with major question marks. Deshaun Watson looked every bit the quarterback who hadn't played a regular-season game in 693 days, while the defense looked like a unit missing edge rusher Myles Garrett and ex-defensive coordinator Jim Schwartz. Jacksonville was a tough Week 1 draw, but Sunday highlighted fundamental issues that might not be solved in a week.\n\nWhat to make of the QB performance: Concerns over Watson's training camp -- inconsistent at best -- and preseason performance will only grow after this outing. In his first regular-season game since October 2024, Watson looked tentative and inaccurate throughout the game (went 16 for 22 with five sacks and an INT). Those are issues that predated the Achilles injury that sidelined him for all of the 2025 season. -- Daniel Oyefusi\n\nNext game: at Buccaneers (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: The Browns, who scored 10 points and saw the opposing Jaguars D/ST score 14 fantasy points, reaffirmed their status as a top-shelf D/ST streaming target. The Buccaneers (Week 2), Panthers (Week 3) and Jets (Week 5) -- all widely available defenses -- are three of their next four opponents. -- Cockcroft"
+      "body": "HOUSTON -- \u2014 Josh Allen threw a 34-yard touchdown pass to Joshua Palmer with 1:36 remaining to lift the Buffalo Bills to a 36-31 win over the Houston Texans in a back-and-forth season opener on Sunday.\n\n\r\nAllen had 334 yards passing with two touchdowns and ran for two more scores to get his first win in Houston after losing his previous four games at Reliant Stadium.\n\n\r\nThe Texans led 31-30 when Allen split two defenders to find Palmer. The 2-point conversion failed.\n\n\r\nOne play earlier, Houston's Kamari Lassiter got his hands on a pass from Allen in the end zone but couldn\u2019t grab the interception.\n\n\r\nThe Texans had a chance to win in the closing seconds, but Greg Rousseau had his second strip sack of the day, taking down C.J. Stroud at the Buffalo 28. Terrel Bernard recovered to seal the victory.\n\n\r\nDalton Kincaid had five receptions for 130 yards and DJ Moore had five catches for 100 yards and a touchdown in his Buffalo debut after a trade from Chicago.\n\n\r\nBuffalo's Joe Brady started his head coaching career with a win after he was promoted from offensive coordinator following Sean McDermott\u2019s firing after nine seasons.\n\n\r\nDavid Montgomery, who was traded from Detroit this offseason, had a three-TD day in his Houston debut. He had scoring runs of 1 and 18 yards in the first half and his 7-yard touchdown reception put Houston up 28-27 early in the fourth.\n\n\r\nStroud threw for 274 yards and two touchdowns but lost two fumbles.\n\n\r\nTyler Bass' 33-yard field goal made it 30-28 Buffalo with 10 1/2 minutes to go.\n\n\r\nKa\u02bbimi Fairbairn\u2019s 58-yard field goal put Houston back ahead with about seven minutes remaining before Allen\u2019s game-winning drive.\n\n\r\nBuffalo went up 10-7 when Allen scrambled for a 21-yard touchdown early in the second quarter.\n\n\r\nMontgomery\u2019s second score came when he scampered 18 yards untouched to make it 14-10 with about five minutes left in the first half.\n\n\r\nLassiter was flagged for pass interference on Moore in the end zone to give the Bills the ball on the 1 on their next drive. Allen\u2019s scoring dive two plays later put Buffalo up 17-14.\n\n\r\nMoore grabbed a ball in front of a diving Reed Blankenship and dashed 43 yards to the end zone later in the second to push the lead to 24-14.\n\n\r\nA 12-yard touchdown reception by Nico Collins cut the lead to three at halftime.\n\n\r\nRousseau sacked Stroud on Houston\u2019s first drive, causing a fumble that Ed Oliver recovered on the Houston 32. That led to Bass' 46-yard field goal.\n\n\r\nA 1-yard run by Montgomery put the Texans up 7-3 near the end of the first quarter. The score was set up by a 25-yard reception by Collins three plays earlier.\n\n\r\nInjuries\r\nHouston LB Jake Hummel left in the second half with an abdominal injury.\n\n\r\nUp next\r\nBills: Host Detroit on Thursday night in their first game at their new stadium.\n\n\r\nTexans: Host Cincinnati next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "49931888",
@@ -13105,6 +13107,12 @@
       "replay_candidates": [
         {
           "url": "https://ok.ru/videoembed/16137939651244",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://ok.ru/videoembed/16139819354796",
           "label": "OK.ru",
           "part": false,
           "live": false
