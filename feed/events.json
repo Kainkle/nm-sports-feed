@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T03:27:44.523055+00:00",
+  "generated_utc": "2026-09-13T03:37:18.408825+00:00",
   "events": [
     {
       "event_id": "mlb:824872",
@@ -5702,53 +5702,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856680",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-12T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2579",
-        "name": "South Carolina Gamecocks",
-        "abbrev": "SC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
-        "logo_dark": null,
-        "aliases": [
-          "Gamecocks",
-          "SC",
-          "South Carolina",
-          "South Carolina Gamecocks"
-        ],
-        "color": "73000a"
-      },
-      "away": {
-        "id": "espn:119",
-        "name": "Towson Tigers",
-        "abbrev": "TOW",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png",
-        "logo_dark": null,
-        "aliases": [
-          "TOW",
-          "Tigers",
-          "Towson",
-          "Towson Tigers"
-        ],
-        "color": "FFC229"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Williams-Brice Stadium",
-      "detail": "1:35 - 4th Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856681",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5832,6 +5785,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "TDECU Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856680",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-12T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2579",
+        "name": "South Carolina Gamecocks",
+        "abbrev": "SC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "SC",
+          "South Carolina",
+          "South Carolina Gamecocks"
+        ],
+        "color": "73000a"
+      },
+      "away": {
+        "id": "espn:119",
+        "name": "Towson Tigers",
+        "abbrev": "TOW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png",
+        "logo_dark": null,
+        "aliases": [
+          "TOW",
+          "Tigers",
+          "Towson",
+          "Towson Tigers"
+        ],
+        "color": "FFC229"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Williams-Brice Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6541,99 +6540,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856783",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-12T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:204",
-        "name": "Oregon State Beavers",
-        "abbrev": "ORST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-        "logo_dark": null,
-        "aliases": [
-          "Beavers",
-          "ORST",
-          "Oregon St",
-          "Oregon State",
-          "Oregon State Beavers"
-        ],
-        "color": "dc4405"
-      },
-      "away": {
-        "id": "espn:2641",
-        "name": "Texas Tech Red Raiders",
-        "abbrev": "TTU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-        "logo_dark": null,
-        "aliases": [
-          "Red Raiders",
-          "TTU",
-          "Texas Tech",
-          "Texas Tech Red Raiders"
-        ],
-        "color": "da291c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Reser Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862703",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-12T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2226",
-        "name": "Florida Atlantic Owls",
-        "abbrev": "FAU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
-        "logo_dark": null,
-        "aliases": [
-          "FAU",
-          "Florida Atlantic",
-          "Florida Atlantic Owls",
-          "Owls"
-        ],
-        "color": "003366"
-      },
-      "away": {
-        "id": "espn:2426",
-        "name": "Navy Midshipmen",
-        "abbrev": "NAVY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-        "logo_dark": null,
-        "aliases": [
-          "Midshipmen",
-          "NAVY",
-          "Navy",
-          "Navy Midshipmen"
-        ],
-        "color": "00225b"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Flagler Credit Union Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856682",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6725,6 +6631,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856783",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-12T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:204",
+        "name": "Oregon State Beavers",
+        "abbrev": "ORST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+        "logo_dark": null,
+        "aliases": [
+          "Beavers",
+          "ORST",
+          "Oregon St",
+          "Oregon State",
+          "Oregon State Beavers"
+        ],
+        "color": "dc4405"
+      },
+      "away": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Reser Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401856788",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6762,6 +6715,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Kinnick Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862703",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-12T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2226",
+        "name": "Florida Atlantic Owls",
+        "abbrev": "FAU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+        "logo_dark": null,
+        "aliases": [
+          "FAU",
+          "Florida Atlantic",
+          "Florida Atlantic Owls",
+          "Owls"
+        ],
+        "color": "003366"
+      },
+      "away": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Flagler Credit Union Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -7202,7 +7201,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "McLane Stadium",
-      "detail": "4:43 - 4th Quarter",
+      "detail": "0:13 - 4th Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7426,7 +7425,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Jordan-Hare Stadium",
-      "detail": "3:26 - 3rd Quarter",
+      "detail": "0:09 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7474,7 +7473,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "14:22 - 4th Quarter",
+      "detail": "11:47 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7520,7 +7519,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Sun Bowl",
-      "detail": "8:38 - 3rd Quarter",
+      "detail": "6:28 - 3rd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7583,7 +7582,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-13T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:184",
         "name": "Colorado Rapids",
@@ -7610,10 +7609,9 @@
         "color": "003da6"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "87'",
-      "has_live_source": true,
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7655,9 +7653,9 @@
         "color": "9fd2ff"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "in/In Progress",
       "venue": "America First Field",
-      "detail": "85'",
+      "detail": "90'+5'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7750,7 +7748,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Falcon Stadium",
-      "detail": "3:22 - 2nd Quarter",
+      "detail": "0:48 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7797,7 +7795,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rice-Eccles Stadium",
-      "detail": "9:23 - 2nd Quarter",
+      "detail": "5:55 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7846,7 +7844,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "14:11 - 2nd Quarter",
+      "detail": "11:58 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7894,7 +7892,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mackay Stadium",
-      "detail": "14:52 - 2nd Quarter",
+      "detail": "9:31 - 2nd Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7936,9 +7934,9 @@
         "color": "2dc84d"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Dignity Health Sports Park",
-      "detail": "45'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -7981,9 +7979,9 @@
         "color": "ff6b00"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "PayPal Park",
-      "detail": "45'+1'",
+      "detail": "HT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -8029,7 +8027,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "4:48 - 1st Quarter",
+      "detail": "0:20 - 1st Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -11472,25 +11470,53 @@
   ],
   "stories": [
     {
-      "story_id": "49923058",
-      "headline": "Grichuk hits a 9th inning HR to help White Sox beat Cardinals 6-5",
-      "summary": "\u2014 Randal Grichuk hit a two-run, two-out homer in the ninth inning as the Chicago White Sox snapped a four-game losing streak with a 6-5 win over the St. Louis Cardinals on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816911.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-13T03:02:43Z",
+      "story_id": "49923154",
+      "headline": "Rangers use a 6-run 5th inning to beat Diamondbacks 6-2, stay in AL playoff race",
+      "summary": "\u2014 Ezequiel Duran had a two-run single and Wyatt Langford hit a solo homer during a six-run fifth inning to lead the Texas Rangers over the Arizona Diamondbacks 6-2 on Saturday night to even the three-game series.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816917.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-13T03:14:30Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816911",
+      "link": "http://www.espn.com/mlb/recap?gameId=401816917",
       "stream_url": "",
-      "body": "ST. LOUIS -- \u2014 Randal Grichuk hit a two-run, two-out homer in the ninth inning as the Chicago White Sox snapped a four-game losing streak with a 6-5 win over the St. Louis Cardinals on Saturday night.\n\n\r\nGrichuk, who entered the game as a pinch hitter in the fourth inning, hit his 13th home run of the season off Riley O\u2019Brien (3-8).\n\n\r\nBryan Hudson pitched a perfect ninth inning to earn his eighth save after Jordan Hicks (3-2) recorded the final out of the eighth inning for Chicago, which has a 1 1/2 game lead over the Cleveland Guardians in the AL Central.\n\n\r\nCardinals rookie Leo Bernal hit his third homer of the season to right field in the eighth inning off Grant Taylor to give St. Louis a 5-4 lead.\n\n\r\nChicago scored three runs to tie the game at 4-all in the fifth inning when Luis Gastelum entered the game after Cooper Hjerpe walked Munetaka Murakami with the bases loaded and nobody out in the fifth inning. He induced Grichuk to ground into a run-scoring double play before Nathan Church threw out Tristan Peters at second base after he hit an RBI single.\n\n\r\nHjerpe allowed four runs on two hits and four walks and hit a pair of batters in one-plus inning after tossing four perfect innings in his major league debut Sunday.\n\n\r\nChurch had three hits and an RBI for St. Louis to extend his career-best hitting streak to 11 games.\n\n\r\nCardinals starter Kyle Leahy allowed two hits and struck out four in three scoreless innings.\n\n\r\nWhite Sox opener Sean Newcomb allowed one run and had four strikeouts in 1 1/3 innings.\n\n\r\nUp next\r\nRHP Michael McGreevy (6-9, 3.92 ERA) will start for the Cardinals against the White Sox, who have not named a starter for Sunday\u2019s series finale.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+      "body": "PHOENIX -- \u2014 Ezequiel Duran had a two-run single and Wyatt Langford hit a solo homer during a six-run fifth inning to lead the Texas Rangers over the Arizona Diamondbacks 6-2 on Saturday night to even the three-game series.\n\n\r\nThe Rangers improved to 73-76 and are just two games back of the final American League wild card despite a sub-.500 record.\n\n\r\nArizona fell to 79-70 and is 1 1/2 games behind the San Diego Padres for the final National League wild card.\n\n\r\nThe Rangers took advantage of a close replay call that went in their favor during the decisive fifth.\n\n\r\nThe D-backs thought they were out of the jam with the score tied at 1-all after turning an inning-ending double play, but first base umpire Bill Miller ruled Corey Seager safe at first, signaling that pitcher Brandon Pfaadt's foot was off the bag. Arizona challenged the call, but the video review proved inconclusive and Miller's call was upheld.\n\n\r\nThe Rangers would go on to score five more runs after the review. Duran's two-run single was among the clutch hits.\n\n\r\nPfaadt (7-3) gave up six runs on 10 hits over 6 2/3 innings, striking out seven.\n\n\r\nRangers right-hander Kumar Rocker gave up one run on two hits and two walks over four innings. He struck out five. Langford's solo homer to lead off the fifth was his 17th long ball of the season.\n\n\r\nTwo-time All-Star Nathan Eovaldi (elbow) returned from the injured list for the Rangers, pitching in relief for the first time since 2019. He threw 2 2/3 innings, giving up one run on four hits while striking out two.\n\n\r\nUp next\r\nThe D-backs send LHP Eduardo Rodriguez (15-5, 2.55 ERA) to the mound Sunday. The Rangers hadn't announced a starter.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
+      "story_id": "49921983",
+      "headline": "Messi scores, but Nashville strikes late to deny Miami win",
+      "summary": "Lionel Messi scored a second-half goal but Nashville SC struck back in stoppage time to earn a 2-2 draw at Inter Miami and maintain its nine-point lead at the top of the Eastern Conference.",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1715698_1296x729_16-9.jpg",
+      "published_utc": "2026-09-13T03:13:13Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "ESPN News Services",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/49921983/lionel-messi-goal-inter-miami-vs-nashville-mls-supporters-shield",
+      "stream_url": "",
+      "body": "Lionel Messi scored a second-half goal, but Nashville SC struck back in stoppage time to earn a 2-2 draw at Inter Miami and maintain its nine-point lead at the top of the Eastern Conference.\n\nMessi looked to have given Miami the win when he exchanged passes with longtime Argentina teammate Rodrigo De Paul before picking out the side of the net with a precise left-footed finish from 20 yards out in the 62nd minute.\n\nTwice Messi came close to extending Miami's lead and scoring what would have been his 100th for the MLS club in all competitions. But he was denied first by a Brian Schwake save onto the post and then by a last-ditch headed clearance by Nashville defender Jeisson Palacios.\n\nMiami was then hit by a sucker punch in the first minute of added time when Sam Surridge fired Nashville level. Surridge had earlier put Nashville in front after just four minutes in South Florida.\n\nMiami has now dropped 11 points from winning positions at home in MLS this season, second behind New York City FC and CF Montr\u00e9al.\n\n\"Obviously, there's frustration -- feeling like we were the better side only to have the three points snatched away in the final moments,\" Miami defender Facundo Mura said. \"But there's also the feeling that the team did manage to keep possession and create scoring chances.\n\n\"We need to improve so that we don't always have to score so many goals just to get the win; we need to feel a bit more secure at the back and stop conceding, so that the goals we do score are enough.\"\n\nSaturday's dropped points could prove particularly costly, leaving Miami trailing Nashville by nine points in the battle for both the Eastern Conference's No. 1 seed and the Supporters' Shield with nine games remaining.\n\nNashville, which joined MLS as an expansion team alongside Miami in 2020, is now in prime position to claim its first Supporters' Shield.\n\nMiami, which is still waiting for Cristian \"Kily\" Gonz\u00e1lez to formally take over as coach, has won just once in its past nine games in all competitions.\n\nThe team, and Messi, had plenty of chances to add to that win total Saturday.\n\nMessi had a big hand in bringing Miami level in the 19th minute, when his in-swinging corner forced an own goal after it deflected into the net off the head of Nashville defender Reed Baker-Whiting.\n\nMessi then had a shot blocked from outside the box in the 27th minute and sent a free kick wide shortly afterward before breaking through in the second half with his MLS-leading 19th goal of the season.\n\nBut the 39-year-old couldn't add to that total as he hit the crossbar as well as the post in the second half. Even after Nashville leveled in added time, De Paul was inches away from giving Miami the win when his shot hit the outside of the post.\n\nNashville is now unbeaten in four matches against Miami this season. In addition to winning 4-1 in the teams' previous MLS meeting on Aug. 15, Nashville also eliminated Miami from the Concacaf Champions Cup earlier this season.\n\nAfter having also been eliminated from the Leagues Cup this summer, Miami will attempt to win its first trophy of the season when it takes on Cruz Azul on Wednesday in a battle between the reigning champions of MLS and Liga MX for the Campeones Cup.\n\n\"We have great players, and we have to compete for every trophy we play for,\" Mura added. \"Unfortunately, things haven't gone our way in the Concacaf Champions Cup or the Leagues Cup. We haven't gotten the results we wanted; we're well aware of that. But ultimately, we're here to keep working and keep growing.\n\n\"We're starting a new phase with a new coach, and we all know we need to give more to help the team improve and reach a higher level -- especially since we have a final coming up in just four days that we really want to win.\"\n\nESPN's Lizzy Becherano, ESPN Research and The Associated Press contributed to this report."
+    },
+    {
+      "story_id": "24067525",
+      "headline": "Cris Cyborg is still going strong as a force in women's P4P top 10",
+      "summary": "At age 41, PFL women's featherweight champion continues win streak to secure spot in ESPN P4P top 10.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706696_608x342_16-9.jpg",
+      "published_utc": "2026-09-13T03:11:55Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings",
+      "stream_url": "",
+      "body": "Cris Cyborg is an MMA legend. Period. End of story.\n\nActually, the Cyborg story continues, even with her being 41 years old and having spent 21 years in the sport. A champion in an unprecedented five fight promotions, she has long been a fixture in the ESPN pound-for-pound women's rankings. And by posting her 30th career victory -- the most ever by a woman in MMA -- at PFL Tampa on Saturday to retain the women's featherweight championship, Cyborg solidified her hold on the No. 3 spot.\n\nIt wasn't easy, not like so many past Cyborg fights in which she aggressively bowled over opponents to score quick knockouts. Ketlen Vieira put up a fight, bloodying Cyborg's face and achieving controlling positions on the canvas several times. But Cyborg persevered, nearly doubling Vieira's strike output and earning a unanimous decision win. As a result, the ESPN voting panel kept her right where she was in the top three.\n\nFor the ESPN divisional MMA rankings, click here.\n\nNote: Results are current; rankings are as of Aug. 26. To be eligible for the rankings, a fighter must have competed over the past 12 months or must have an upcoming fight booked. Fighters who have been dropped for inactivity can be reinstated only after they compete.\n\nWomen's pound-for-pound rankings\n\n1. Valentina Shevchenko\n\nUFC flyweight\n\nRecord: 26-4-1\n\nLast: W (UD) vs. Zhang Weili, Nov. 15, 2025\n\nNext: TBA\n\nShevchenko's dominance came under question in 2022 and 2023, when she went 1-1-1 in a trilogy with Alexa Grasso. Boy, does that feel like a long time ago now. Shevchenko has more than reasserted herself as the best flyweight in the world, and now she's established herself as the No. 1 woman in the world, period. It wasn't surprising that she beat Zhang, but it was surprising how easy she made it look. Shevchenko is out injured, however, so she has vacated her UFC title, which will be up for grabs when Natalia Silva meets Wang Cong on Oct. 3.\n\n2. Zhang Weili\n\nUFC flyweight / strawweight\n\nRecord: 26-4\n\nLast: L (UD) vs. Valentina Shevchenko, Nov. 15, 2025\n\nNext: TBA\n\nIt's hard to move up in weight, especially at the highest level. That sounds like it should be obvious, but Zhang had been dominant at 115 pounds for so long, some of us might have taken for granted how big of a challenge moving to 125 would be. UFC 322 was a bad night for Zhang, but she doesn't have many. And if she decides to stay at flyweight, it certainly seems reasonable to believe she'll fare better in the future.\n\n3. Cris Cyborg\n\nPFL featherweight champion\n\nRecord: 30-2, 1 NC\n\nLast: W (UD) vs. Ketlen Vieira, Aug. 22\n\nNext: TBA\n\nIt had been a while since Cyborg had fought an elite opponent in MMA until she met Larissa Pacheco in 2024. That was a legitimate matchup -- and many within the industry were predicting Cyborg's downfall. Instead, she took out the PFL's two-weight champion, upending all of Pacheco's momentum. One of the original pioneers of women's MMA is once again a champion after getting her second career submission at PFL Lyon in December. The PFL promoted her fight with Vieira as a retirement bout, but after her win Cyborg did not sound like someone who is done fighting.\n\n4. Mackenzie Dern\n\nUFC strawweight champion\n\nRecord: 17-5\n\nLast: W (UD) vs. Gillian Robertson, Aug. 15\n\nNext: TBA\n\nDern's rise to the 115-pound throne was truly a changing of the guard. She is the division's first first-time champion since 2019, because the previous three champs -- Zhang Weili, Carla Esparza and Rose Namajunas -- all were in their second reigns. Dern, nearly a decade into her MMA career after multiple jiu-jitsu world championships, has won four fights in a row, including a dominant performance against a fellow grappling-heavy fighter, Robertson, in her first title defense.\n\n5. Natalia Silva\n\nUFC flyweight\n\nPrevious ranking: Tied for 4\n\nRecord: 20-5-1\n\nLast: W (UD) vs. Rose Namajunas, Jan. 24\n\nNext: Oct. 3 vs. Wang Cong\n\nSilva is looking every bit the part of a future UFC champion following a dominant display against Alexa Grasso at UFC 315 and a victory over Namajunas at UFC 324. Silva's stick-and-move style has frustrated even the highest level of opponent, and she's got youth on her side as she won't turn 30 until 2027. With an injured Valentina Shevchenko having vacated the title, Silva will fight Wang for the belt at UFC 332.\n\n6. Manon Fiorot\n\nUFC flyweight\n\nRecord: 13-3\n\nLast: L (UD) vs. Alexa Grasso, Sept. 12\n\nNext: TBA\n\nFiorot had handled everyone the UFC put in front of her -- except the champion, Valentina Shevchenko, who defeated the Frenchwoman at UFC 315 in May 2025. But then, with another title shot within her grasp, Fiorot ran into Grasso, a former champion, at Noche UFC and lost a competitive fight.\n\n7. Dakota Ditcheva\n\nPFL flyweight\n\nRecord: 16-0\n\nLast: W (UD) vs. Denise Kielholtz, July 31\n\nNext: TBA\n\nNot only did Ditcheva win the PFL's flyweight season in 2024, but she did so in spectacular fashion -- a TKO finish over Taila Santos, who once challenged for a UFC title. Ditcheva fought only once in 2025, dominating Sumiko Inaba in the co-main event of the first PFL Champions Series card in Cape Town, South Africa. She then spent over a year on the sideline, healing injuries to both hands, before returning at PFL New York with a dominant win over Kielholtz.\n\n8. Erin Blanchfield\n\nUFC flyweight\n\nRecord: 14-2\n\nLast: W (Sub2) vs. Tracy Cortez, Nov. 15, 2025\n\nNext: Oct. 17 vs. Jasmine Jasudavicius\n\nHer rise toward the top of the division was derailed by a March 2024 loss to Manon Fiorot, but Blanchfield bounced back with two straight wins, including one over two-time former strawweight champion Rose Namajunas in November 2024. If she wins her October bout with Jasudavicius, a fellow top-10 flyweight contender, Blanchfield would inch ever closer to a title shot.\n\n9. Tatiana Suarez\n\nUFC strawweight\n\nRecord: 12-1\n\nLast: W (Sub2) vs. Loopy God\u00ednez, April 11\n\nNext: TBA\n\nIf Suarez is still feeling the effects of last year's humbling defeat to Zhang Weili in a title challenge, she certainly didn't show it at UFC 327, overcoming early adversity to thrash Godinez, a fellow top-10 strawweight. Suarez is going to be a tough out for anyone at 115 pounds.\n\n10. Alexa Grasso\n\nUFC flyweight\n\nRecord: 18-5-1\n\nLast: W (UD) vs. Manon Fiorot, Sept. 12\n\nNext: TBA\n\nGrasso went nearly three years without winning a fight, but her 2023 win right before the skid was a huge one, a submission of Valentina Shevchenko for the UFC title. What followed were two more fights with Shevchenko -- a draw, then a loss -- and then a loss to Natalia Silva. But she reasserted herself with a finish of Maycee Barber a must-win, then got the best of Fiorot, a fellow title contender, at Noche UFC to put herself in position for another title shot.\n\nOther fighter receiving votes: Virna Jandiroba.\n\nHow our panel voted\nBrett Okamoto: 1. Valentina Shevchenko; 2. Zhang Weili; 3. Mackenzie Dern; 4. Cris Cyborg; 5. Manon Fiorot; 6. Dakota Ditcheva; 7. Natalia Silva; 8. Erin Blanchfield; 9. Tatiana Suarez; 10. Virna Jandiroba.\n\nCarlos Contreras Legaspi: 1. Shevchenko; 2. Cyborg; 3. Zhang; 4. Ditcheva; 5. Dern; 6. Silva; 7. Alexa Grasso; 8. Suarez; 9. Fiorot; 10. Blanchfield.\n\nAndrew Davis: 1. Shevchenko; 2. Zhang; 3. Cyborg; 4. Dern; 5. Silva; 6. Fiorot; 7. Blanchfield; 8. Ditcheva; 9. Suarez; 10. Jandiroba.\n\nDre Waters: 1. Shevchenko; 2. Zhang; 3. Cyborg; 4. Silva; 5. Dern; 6. Fiorot; 7. Ditcheva; 8. Blanchfield; 9. Suarez; 10. Grasso.\n\nJeff Wagenheim: 1. Shevchenko; 2. Zhang; 3. Cyborg; 4. Fiorot; 5. Silva; 6. Dern; 7. Blanchfield; 8. Suarez; 9. Ditcheva; 10. Grasso.\n\nMen's pound-for-pound rankings\n\n1. Islam Makhachev\n\nUFC welterweight champion\n\nRecord: 29-1\n\nLast: W (UD) vs. Ian Machado Garry, Aug. 15\n\nNext: TBA\n\nMakhachev vacated the UFC lightweight championship to go for a second title at welterweight. By winning that belt last November with a thrashing of Jack Della Maddalena, Makhachev staked his place among MMA's greatest -- not just in today's sport but of all time. His win over Machado Garry at UFC 330 was his 17th straight, breaking the UFC record for consecutive wins. Makhachev is piling up unprecedented achievements.\n\n2. Petr Yan\n\nUFC bantamweight champion\n\nRecord: 20-5\n\nLast: W (UD) vs. Merab Dvalishvili, Dec. 6, 2025\n\nNext: Oct. 24 vs. Dvalishvili\n\nWhat a return to the top it's been for Yan. He began his career with 15 consecutive wins before going on a 1-4 run from 2021 to 2023. That almost doesn't feel real now, after watching him reclaim his throne against Dvalishvili, who once handed him the worst loss of his career. Yan took a major detour, but this was the destination we felt he was capable of before the skid. He once again looks like one of the best fighters on the planet. He can prove it by beating Dvalishvili again.\n\n3. Merab Dvalishvili\n\nUFC bantamweight\n\nRecord: 21-5\n\nLast: L (UD) vs. Petr Yan, Dec. 6, 2025\n\nNext: Oct. 24 vs. Yan\n\nDvalishvili was on one of the most impressive runs through the UFC's bantamweight division ever. Not only did he defeat Sean O'Malley for the second time in nine months at UFC 316, but he showcased a new part of his game, finishing O'Malley with a guillotine. Starting in August 2022, Dvalishvili beat Jos\u00e9 Aldo, Yan, Henry Cejudo, O'Malley (twice), Umar Nurmagomedov and Cory Sandhagen. But at UFC 323, in an attempt to become the first champion in UFC history to successfully defend a title four times in a calendar year, Dvalishvili lost a rematch with Yan. They will fight for a third time at UFC 333.\n\n4. Tom Aspinall\n\nUFC heavyweight champion\n\nRecord: 15-3, 1 NC\n\nLast: NC1 vs. Ciryl Gane, Oct. 25, 2025\n\nNext: TBA\n\nYou can make a case that Aspinall is the most dynamic, skillful, talented heavyweight the sport has seen. He is dominating opponents in a way that is unmatched. No one can last a round with him. He had hoped to prove his supremacy against Jon Jones, but Jones opted to retire, elevating Aspinall from interim champion. His first defense of the undisputed belt ended anticlimactically, as an eye poke resulted in his UFC 321 fight with Gane being declared a no-contest. Where does Aspinall go from here?\n\n5. Ilia Topuria\n\nUFC lightweight\n\nRecord: 17-1\n\nLast: L (TKO4) vs. Justin Gaethje, June 14\n\nNext: TBA\n\nTopuria was an undefeated two-division champion when he ran into Gaethje at UFC Freedom 250 and was brutalized in a stoppage loss. How will that affect the immediate future of Topuria? His knockout wins over two of the greatest featherweights, Alexander Volkanovski and Max Holloway, gave him an intimidating aura. Can the former champion get that back?\n\n6. Justin Gaethje\n\nUFC lightweight champion\n\nRecord: 28-5\n\nLast: W (TKO4) vs. Ilia Topuria, June 14\n\nNext: TBA\n\nGaethje has spent his 15-year career thrilling MMA fans, but before the title bout on the White House lawn, all he had to show for it -- aside from 15 bonus checks in 15 UFC appearances -- were two missed opportunities to be an undisputed champion. His fourth-round TKO of Topuria got Gaethje over the hump. It was a resilient performance in a back-and-forth battle that is a prime candidate for fight of the year. More important for Gaethje: At age 37, he is finally sitting at the top of the mountain.\n\n7. Alexander Volkanovski\n\nUFC featherweight champion\n\nRecord: 28-4\n\nLast: W (UD) vs. Diego Lopes, Jan. 31\n\nNext: Oct. 24 vs. Movsar Evloev\n\nIt felt as if the sport had started to write Volkanovski's eulogy following his knockout loss to Ilia Topuria in February 2024. Volkanovski noticed and made a point of proving to everyone he still has plenty left by recapturing the featherweight belt at UFC 314, the first of two consecutive wins over Lopes. His age (37) will likely continue to be a prefight topic, which is fine because Volkanovski enjoys proving people wrong. Can he hand Evloev his first loss at UFC 333?\n\n8. Alexandre Pantoja\n\nUFC flyweight\n\nRecord: 30-6\n\nLast: L (TKO1) vs. Joshua Van, Dec. 6, 2025\n\nNext: Sept. 19 vs. Joshua Van\n\nPantoja became the UFC's unquestioned flyweight king by racking up four title defenses, including two in pay-per-view main events in 2024. He built his winning streak to eight in his UFC 317 win over Kai Kara-France, whom he had already defeated before, like other challengers. But he lost his belt in a gruesome way, injuring his elbow in the opening seconds of a UFC 323 fight with Van. Pantoja gets his rematch with Van at UFC 331.\n\n9. Ciryl Gane\n\nUFC heavyweight interim champion\n\nRecord: 14-2, 1 NC\n\nLast: W (TKO2) vs. Alex Pereira, June 14\n\nNext: TBA\n\nGane is unique in that he is the first -- and could very well go down as the only -- heavyweight to face the division's four biggest names in Francis Ngannou, Jon Jones, Tom Aspinall and Pereira. None of those four have fought each other, yet all four have have fought the Frenchman. Gane was 0-2 with a no-contest against that group before he knocked out Pereira in the second round of their interim title fight. Gane was heralded as the future of the generation when he broke onto the scene, but endured growing pains in losses to Ngannou and Jones. He looks formidable now, and no one will be counting him out if he faces Aspinall in a title unification bout.\n\n10. Alex Pereira\n\nUFC heavyweight / light heavyweight\n\nRecord: 13-4\n\nLast: L (TKO2) vs. Ciryl Gane, June 14\n\nNext: TBA\n\nHe was on the verge of making history when the opportunity fell apart. Pereira was a UFC champion at middleweight, then light heavyweight, but his unprecedented pursuit of a belt in a third weight class did not go well for the Brazilian, who lost an interim heavyweight title fight to Gane on the White House card. At 39 years old, Pereira does not have much time left to recapture the magic.\n\nOther fighters receiving votes: Joshua Van and Arman Tsarukyan.\n\nHow our panel voted\nBrett Okamoto: 1. Islam Makhachev; 2. Petr Yan; 3. Merab Dvalishvili; 4. Ilia Topuria; 5. Alexander Volkanovski; 6. Ciryl Gane; 7. Tom Aspinall; 8. Arman Tsarukyan; 9. Alex Pereira; 10. Alexandre Pantoja.\n\nCarlos Contreras Legaspi: 1. Makhachev; 2. Volkanovski; 3. Justin Gaethje; 4. Topuria; 5. Pereira; 6. Dvalishvili; 7. Gane; 8. Joshua Van; 9. Yan; 10. Pantoja.\n\nAndrew Davis: 1. Makhachev; 2. Aspinall; 3. Yan; 4. Dvalishvili; 5. Pantoja; 6. Gaethje; 7. Topuria; 8. Volkanovski; 9. Gane; 10. Pereira.\n\nDre Waters: 1. Makhachev; 2. Aspinall; 3. Yan; 4. Dvalishvili; 5. Pantoja; 6. Gaethje; 7. Volkanovski; 8. Topuria; 9. Gane; 10. Van.\n\nJeff Wagenheim: 1. Makhachev; 2. Aspinall; 3. Pantoja; 4. Yan; 5. Gaethje; 6. Dvalishvili; 7. Topuria; 8. Gane; 9. Pereira; 10. Volkanovski."
     },
     {
       "story_id": "49918015",
       "headline": "2026 FIBA Women's World Cup: USA-France gold medal game preview",
       "summary": "It's the World Cup finale fans wanted to see: Team USA and France will meet in a rematch of the Olympic gold medal game.",
       "image": "https://a.espncdn.com/photo/2026/0912/r1715546_1296x729_16-9.jpg",
-      "published_utc": "2026-09-13T02:35:57Z",
+      "published_utc": "2026-09-13T02:37:42Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "byline": "Michael Voepel and Alexa Philippou",
@@ -11498,20 +11524,6 @@
       "link": "https://www.espn.com/wnba/story/_/id/49918015/2026-fiba-womens-world-cup-gold-medal-game-team-usa-france-preview",
       "stream_url": "",
       "body": "It's the matchup everyone has been waiting to see.\n\nThe U.S. women's basketball team's mastery of international play was tested two years ago in Paris, during a one-point win over France in the Olympic final. In Sunday's FIBA Women's World Cup gold medal match (2 p.m. ET), the French hope to get their revenge.\n\nTeam USA beat Spain 76-66 on Saturday after France defeated host Germany 86-64 in Berlin. That leaves the top two teams to meet in the final. Since 1996, the United States has won every Olympic and World Cup gold except one: in the 2006 World Cup, when the Americans lost to Russia in the semifinals and took bronze.\n\nFrance has been building as a national power, with 13 French players in the WNBA this season, including the Golden State Valkyries' Gabby Williams, who has dual citizenship and is a crucial player for Team France. She had 22 points and five rebounds Saturday.\n\nThe U.S. women had a slow start Saturday and led 39-36 at halftime. The score was tied 58-58 after three quarters. But Team USA took control in the fourth quarter, outscoring Spain 18-8. New York Liberty forward Breanna Stewart had 16 points to lead the Americans, who had a big edge at the free throw line, going 27-of-35 to Spain's 10-of-11.\n\nCan Team USA finish the job for its fifth consecutive and 12th overall World Cup gold medal? Or will France win its first? Here's how they match up and how each could win.\n\nHow France advanced\n\nVoepel: Williams led four French players who scored in double figures and was also a big part of the defensive effort that forced Germany into 25 turnovers while France committed just six.\n\nGermany trailed 25-23 after the first quarter. But France built its lead to seven at halftime, and with so many turnovers, Germany couldn't build a sustained comeback in the second half.\n\nWilliams' Golden State teammate Janelle Salaun had 14 points and 11 rebounds. Liberty guard Marine Johannes had 13 points, and Phoenix Mercury forward Valeriane Ayayi had 10. The French were outrebounded 41-31, but their huge turnover advantage overrode that.\n\nThe French have won their five World Cup games by an average of 35.6 points, with Saturday's 22-point margin the closest.\n\nPhilippou: I can't overstate how good France has looked this tournament. Though their group was not particularly strong, in the knockout rounds, the French crushed China and mostly had their way against Germany. They've had the best offense in Berlin, scoring 96.2 points per game, shooting 51.6% from the field and converting 44.2% of their shots from the 3-point arc -- hence Stewart's postgame comment that France is \"shooting the s--- out of the ball.\" Those are numbers we are used to seeing from Team USA! And, of course, France's defensive identity is its foundation. Williams has been exceptional this tournament and looks determined to will her team to a historic gold Sunday.\n\nHow the USA advanced\n\nVoepel: As was the case in Team USA's 55-52 victory over Italy in group play, the veterans took over to close out the win over Spain. Along with Stewart, Mercury guard Kahleah Copper (13 points) and Las Vegas Aces guard Jackie Young (12) scored in double figures.\n\nThe U.S. reserves contributed, though, with how they helped the Americans catch up after Spain's hot start. Indiana Fever center Aliyah Boston and Dallas Wings guard Paige Bueckers led the bench with six points each.\n\nBut with tensions high and the score tied going into the fourth quarter, the Americans relied on their players who have the most international experience to stay calm and make key plays in crunch time. Team USA had 15 turnovers in the game, but only one in the final quarter.\n\nThe Americans shot 40% from the field (23 of 58) and just 17% (3 of 18) from behind the arc. But their advantage at the line and their ability to hold Spain to 38% from the field (25 of 66) were enough to pull out the victory.\n\nPhilippou: The U.S. women finally found a semblance of rhythm in the fourth quarter, and it isn't a coincidence that was when they played their best defense of the game, holding Spain to just eight points. The execution on that end seemed to carry over offensively.\n\nU.S. coach Kara Lawson primarily leaned on her vets late, though she gave Caitlin Clark a good run in that frame, and Boston played all 10 minutes.\n\n\"We had certain things we wanted to attack, and I thought we got to those in the fourth to score,\" Lawson said. \"I thought defensively, it was the best we had played, from guarding the ball to guarding the ball screen to boxing out and limiting to one shot. Just every phase of defense, we were precise, and we were locked in.\n\n\"And so when we get all that going together, then we feel like we can create some separation. But our execution late, our shotmaking late, our understanding of mismatches late was all at a high level.\"\n\nHow do France-USA match up? What can we take away from the Olympic meeting?\n\nVoepel: The French have not had a close game in this World Cup, and the Americans have had two. Based on how each team's five games in Berlin have played out so far, France has looked better. A possible advantage for the U.S. women is that they've had to dig deep and execute in crucial moments during their wins over Italy and Spain. So, perhaps that will help in what's expected to be a close matchup with the French.\n\nIt has seemed as though Team USA's offense has been feast (94 points vs. China, 105 vs. Czechia and 108 vs. Hungary), famine (55 vs. Italy) or frustrating (76 points vs. Spain, with USA taking too many bad shots and missing too many good ones). But the U.S. women are still where they expected to be against the foe they expected to face. Which Team USA offense will show up Sunday?\n\nLooking back at the 2024 gold medal game in Paris, Las Vegas Aces center A'ja Wilson, who is dealing with a back issue and isn't playing in the World Cup, led the Americans with 21 points and 13 rebounds. Copper and Kelsey Plum (also out of this tournament because of a leg injury) had 12 points in that game.\n\nWilliams led France with 19 points, seven rebounds and three steals -- and almost sent the game to overtime. She made a shot at the buzzer, but her foot was touching the 3-point line. That was the difference between playing an extra period for gold in Paris and leaving with a silver. It kept alive the United States' streak of eight consecutive Olympic gold medals.\n\nPhilippou: Lawson has said the sign of a good team is one that can win even when it's not making the shots it normally does. Still, the U.S.'s offense, at best, hasn't been consistent this tournament, and it feels more than likely Sunday could be another tough day for the unit against Les Bleues' defensive pressure.\n\n\"[The French] have great depth, they have great athleticism, and they found their style,\" said Olaf Lange, German national team coach and current associate head coach for the Toronto Tempo. \"They're pretty much trying to jump every team with their pressure. ... We know from the Paris Olympics that this is also not easy to handle for USA. They probably have the tools, but they have way less chemistry than most international or European nations.\"\n\nWhat could be Sunday's X factor?\n\nPhilippou: I'm fascinated to see how the psychological element of a gold medal game plays out and to observe how pressure impacts both teams. Marine Johannes said that France feels as though it has nothing to lose, but I'm not sure I buy that. There's clearly a desire to avenge the Olympic loss, and even some pressure to finally get French basketball on top.\n\n\"All we care about is winning,\" Dom Malonga said after the quarterfinal. \"The French national team has been known for years for like second place or semifinals, never all the way, even in EuroBasket, until now. I feel like we have to do it. We have to make it happen.\"\n\nFrance also doesn't have as much experience in these moments as the United States. At the same time, the U.S. has six players who haven't played at the World Cup or Olympics. And yet, the pressure the players face is to avoid being the team that ends the Americans' run, while also, as Stewart noted, keeping emotions in check.\n\n\"[The pressure] is constant,\" Stewart told ESPN. \"Team USA, we haven't lost a World Cup game since '06. The same with the Olympics, however many gold medals in a row. It's not bad pressure. It's just the standard of what we do here. But it's like, we have to know what we're protecting and know what we're chasing.\n\n\"You can't shy away from it. You just have to embrace it. Like, this is the standard. This is the standard that those before me put into place, and now, we make it the standard, and we just continue to keep it.\"\n\nVoepel: The Americans could help themselves if they can hit more 3-pointers. They struggled there Saturday, and it impacted their offensive effectiveness. The United States made 12 3-pointers vs. China and Hungary, one vs. Italy, seven vs. Czechia and three against Spain.\n\nBy contrast, France has been much better from behind the arc, making at least 10 3-pointers in every game with a high of 22 (on 40 shots) in its 111-56 win over Nigeria on Monday. The Americans will need to slow down France from long range while also shooting better.\n\nWNBA players on each roster\n\nFrance WNBA players:\n\nG Pauline Astier, New York Liberty\n\nF Valeriane Ayayi, Phoenix Mercury\n\nG Marine Johannes, New York Liberty\n\nG Leila Lacan, Connecticut Sun\n\nG Carla Leite, Portland Fire\n\nC Dominique Malonga, Seattle Storm\n\nF Janelle Salaun, Golden State Valkyries\n\nG Gabby Williams, Golden State Valkyries\n\nUSA WNBA players:\n\nF/C Aliyah Boston, Indiana Fever\n\nG Paige Bueckers, Dallas Wings\n\nG Sonia Citron, Washington Mystics\n\nG Caitlin Clark, Indiana Fever\n\nF Napheesa Collier, Minnesota Lynx\n\nF/G Kahleah Copper, Phoenix Mercury\n\nG Chelsea Gray, Las Vegas Aces\n\nG Rhyne Howard, Atlanta Dream\n\nF Kiki Iriafen, Washington Mystics\n\nF Angel Reese, Atlanta Dream\n\nF Breanna Stewart, New York Liberty\n\nG Jackie Young, Las Vegas Aces"
-    },
-    {
-      "story_id": "49922185",
-      "headline": "Sean Johnson has 2 saves for DC United in 0-0 tie with Atlanta",
-      "summary": "Sean Johnson had two saves Saturday night for D.C. United in a 0-0 tie with Atlanta United.",
-      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/761803.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-13T02:24:12Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/soccer/report/_/gameId/761803",
-      "stream_url": "",
-      "body": "WASHINGTON -- Sean Johnson had two saves Saturday night for D.C. United in a 0-0 tie with Atlanta United.\n\nThe 37-year-old Johnson has six shutouts this season for D.C. United (6-7-11), which beat Columbus 2-1 on Wednesday night to snap a five-game winless streak.\n\nAtlanta (6-14-5) is winless in four straight following a season-high three wins in a row.\n\nAtlanta had 62% possession and outshot D.C. 18-4, 3-0 on target. D.C. had just one shot in the second half.\n\nThe teams also played to a scoreless tie March 21 in Atlanta."
     },
     {
       "story_id": "49921825",
@@ -11526,20 +11538,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49921825/belloumi-double-leads-hull-city-draw-chelsea",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0912/dm_260912_EPL_Highlight_Belloumis_double_leads_Hull_City_in_draw_against_Chelsea__20260913_AUS_ONLY/dm_260912_EPL_Highlight_Belloumis_double_leads_Hull_City_in_draw_against_Chelsea__20260913_AUS_ONLY/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "21807736",
-      "headline": "Song Yadong rises in divisional rankings after shocking KO",
-      "summary": "Here's a look at every weight class to determine the best of the best in UFC, PFL and beyond.",
-      "image": "https://a.espncdn.com/photo/2026/0831/r1709592_608x342_16-9.jpg",
-      "published_utc": "2026-09-13T00:46:46Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "Brett Okamoto",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class",
-      "stream_url": "",
-      "body": "Song Yadong scored the biggest victory of his career on Saturday at UFC Fight Night in Shanghai, knocking out onetime men's bantamweight title challenger Umar Nurmagomedov. The stunning second-round finish as a nearly 5-1 underdog propelled Song up three spots into the top four in the ESPN divisional rankings.\n\nNurmagomedov, who previously owned the No. 4 position at 135-pounds, slips down one spot, as do the other two fighters who had been ranked ahead of Song, Mario Bautista and Cory Sandhagen.\n\nThat was this week's only movement in the divisional rankings.\n\nHere are the ESPN pound-for-pound MMA rankings and a list of current UFC champions in all weight classes.\n\nResults are current; rankings as of Sept. 1. To be eligible for the rankings, a fighter must have competed over the past 12 months or must have an upcoming fight booked. Fighters who have been dropped for inactivity can be reinstated only after they compete.\n\nHEAVYWEIGHT (up to 265 pounds)\n\nLIGHT HEAVYWEIGHT (up to 205 pounds)\n\nMIDDLEWEIGHT (up to 185 pounds)\n\nWELTERWEIGHT (up to 170 pounds)\n\nLIGHTWEIGHT (up to 155 pounds)\n\nFEATHERWEIGHT (up to 145 pounds)\n\nMEN'S BANTAMWEIGHT (up to 135 pounds)\n\nMEN'S FLYWEIGHT (up to 125 pounds)\n\nWOMEN'S BANTAMWEIGHT (up to 135 pounds)\n\nWOMEN'S FLYWEIGHT (up to 125 pounds)\n\nSTRAWWEIGHT (up to 115 pounds)"
     },
     {
       "story_id": "49852219",
@@ -11640,18 +11638,46 @@
       "body": "Braydon Trindall has revealed how playing through a similar shoulder injury in the finals two years ago has given him the confidence to help lead Cronulla's title tilt.\n\nTrindall's return from a dislocated shoulder was a triumph in Saturday night's 26-16 elimination final win over North Queensland, with the five-eighth terrorising the Cowboys' back three with his big boot.\n\nReturning just four weeks after suffering the injury against Canberra, and putting off surgery, Trindall did not take a pain-killing injection before the game.\n\nThe 27-year-old also had deal with the discomfort of strapping and a brace, making it difficult to move his right arm at times and carrying it awkwardly.\n\nBut the Cronulla five-eighth is well accustomed to the situation, after also carrying a shoulder injury as he played arguably the best football of his career in late 2024.\n\n\"So it's nothing new to me,\" Trindall said.\n\n\"That was two years ago. It was the same sort of thing and very similar (pain level).\n\n\"It's going to be a bit sore at times. It's more of a mentality thing ... I knew what was coming through the week.\n\n\"I just got my mentality right knowing I would have to get through it and tough it out. I had plenty of confidence after I made a few tackles.\"\n\nTrindall did cop some burner pain to his shoulder after making a tackle in the last minute of the win, but pulled up fine afterwards.\n\nThe Indigenous All Star was back running at training just two days after the dislocation and had Sharks players charging at him before round 27.\n\nCrucially, he had minimal tackling to do at Allianz Stadium, with second-rower Teig Wilton preventing the Cowboys from getting at him.\n\nBeyond his big boot, Trindall's helped free up Nicho Hynes as the Cronulla No.7 ran the ball 10 times, bust seven tackles and scored a late try.\n\nCronulla are confident their attack will be better for the run, with Trindall the heartbeat of their side and leading the NRL for try assists this year.\n\n\"It was good to get a bit of rust out,\" Trindall said.\n\n\"There were a few opportunities I could have iced, but go look at the video and get ready for next week.\n\n\"We always talk about the best player in the team is the team. I thought everyone played well and did their part. Heaps of confidence going into next week.\"\n\nTrindall was not the only Shark playing through injury, with winger Ronaldo Mulitalo also battling ligament and bone damage on his right thumb.\n\nMulitalo was able to train through the week and did not require a needle.\n\n\"Craig doesn't like people who sit out for finger issues. Especially if you're a winger,\" Mulitalo quipped.\n\n\"The ligament has ripped off and it took some bone off.\n\n\"I did it last week. It happens, that's footy. Everyone is carrying injuries this time of year and I am sure there are guys with worse injuries than me.\""
     },
     {
-      "story_id": "49922661",
-      "headline": "Braves cruise against Phillies 12-2",
-      "summary": "Braves cruise against Phillies 12-2",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/aec78a3d-9e07-485a-9300-1e2bdcddeb1e/aec78a3d-9e07-485a-9300-1e2bdcddeb1e.jpg",
-      "published_utc": "2026-09-13T02:24:53Z",
+      "story_id": "49923058",
+      "headline": "Grichuk hits a 9th inning HR to help White Sox beat Cardinals 6-5",
+      "summary": "\u2014 Randal Grichuk hit a two-run, two-out homer in the ninth inning as the Chicago White Sox snapped a four-game losing streak with a 6-5 win over the St. Louis Cardinals on Saturday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816911.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-13T03:02:43Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49922661/braves-cruise-phillies-12-2",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0913/aec78a3d-9e07-485a-9300-1e2bdcddeb1e/aec78a3d-9e07-485a-9300-1e2bdcddeb1e/playlist.m3u8",
-      "body": ""
+      "link": "http://www.espn.com/mlb/recap?gameId=401816911",
+      "stream_url": "",
+      "body": "ST. LOUIS -- \u2014 Randal Grichuk hit a two-run, two-out homer in the ninth inning as the Chicago White Sox snapped a four-game losing streak with a 6-5 win over the St. Louis Cardinals on Saturday night.\n\n\r\nGrichuk, who entered the game as a pinch hitter in the fourth inning, hit his 13th home run of the season off Riley O\u2019Brien (3-8).\n\n\r\nBryan Hudson pitched a perfect ninth inning to earn his eighth save after Jordan Hicks (3-2) recorded the final out of the eighth inning for Chicago, which has a 1 1/2 game lead over the Cleveland Guardians in the AL Central.\n\n\r\nCardinals rookie Leo Bernal hit his third homer of the season to right field in the eighth inning off Grant Taylor to give St. Louis a 5-4 lead.\n\n\r\nChicago scored three runs to tie the game at 4-all in the fifth inning when Luis Gastelum entered the game after Cooper Hjerpe walked Munetaka Murakami with the bases loaded and nobody out in the fifth inning. He induced Grichuk to ground into a run-scoring double play before Nathan Church threw out Tristan Peters at second base after he hit an RBI single.\n\n\r\nHjerpe allowed four runs on two hits and four walks and hit a pair of batters in one-plus inning after tossing four perfect innings in his major league debut Sunday.\n\n\r\nChurch had three hits and an RBI for St. Louis to extend his career-best hitting streak to 11 games.\n\n\r\nCardinals starter Kyle Leahy allowed two hits and struck out four in three scoreless innings.\n\n\r\nWhite Sox opener Sean Newcomb allowed one run and had four strikeouts in 1 1/3 innings.\n\n\r\nUp next\r\nRHP Michael McGreevy (6-9, 3.92 ERA) will start for the Cardinals against the White Sox, who have not named a starter for Sunday\u2019s series finale.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
+      "story_id": "49923053",
+      "headline": "Andr\u00e9 Luiz, Taylor Calheira help Sporting KC stun LAFC 3-1 to end long winless streak",
+      "summary": "Andr\u00e9 Luiz and Taylor Calheira scored first-half goals and Sporting Kansas City shocked Los Angeles FC with a 3-1 victory on Saturday night that ended a seven-match winless streak.",
+      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/761806.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-13T03:02:59Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/soccer/report/_/gameId/761806",
+      "stream_url": "",
+      "body": "KANSAS CITY, Kan. -- Andr\u00e9 Luiz and Taylor Calheira scored first-half goals and Sporting Kansas City shocked Los Angeles FC with a 3-1 victory on Saturday night that ended a seven-match winless streak.\n\nSporting KC (5-16-3) had lost six of seven matches during a skid that began with a 4-0 loss to LAFC (11-8-7) on the road.\n\nSporting KC jumped in front in the 18th minute when Luiz used assists from defenders Justin Reynolds and Mois\u00e9s Mosquera to score his first goal in his third MLS appearance. Reynolds' assist was his second and Mosquera notched his first in his seventh league appearance.\n\nCalheira, a first-year forward, scored unassisted in the 31st minute for a 2-0 lead that carried through halftime. Calheira scored for the third time in his eighth start and 16th appearance.\n\nDenis Bouanga cut it to 2-1 two minutes into the second half with his 13th goal this season. Jacob Shaffelburg tied his career high with his fourth assist this season and Son Heung-min collected his 12th - tied with two others for second most in the league.\n\nSporting KC regained a two-goal lead in the 71st minute on an unassisted goal by Jacob Bartlett - his second netter this season after not scoring last year in his first 30 appearances in the league.\n\nStefan Cleveland saved six shots for Sporting KC, which began the day with the fewest points in the league.\n\nHugo Lloris had five saves for LAFC, which began the day in third place in the Western Conference.\n\nUp next Los Angeles: At San Jose Earthquakes on Saturday.\n\nKansas City: Hosts Philadelphia Union on Saturday."
+    },
+    {
+      "story_id": "21807736",
+      "headline": "Song Yadong rises in divisional rankings after shocking KO",
+      "summary": "Here's a look at every weight class to determine the best of the best in UFC, PFL and beyond.",
+      "image": "https://a.espncdn.com/photo/2026/0831/r1709592_608x342_16-9.jpg",
+      "published_utc": "2026-09-13T00:46:46Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "Brett Okamoto",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mma/story/_/id/21807736/mma-divisional-rankings-ufc-pfl-rankings-weight-class",
+      "stream_url": "",
+      "body": "Song Yadong scored the biggest victory of his career on Saturday at UFC Fight Night in Shanghai, knocking out onetime men's bantamweight title challenger Umar Nurmagomedov. The stunning second-round finish as a nearly 5-1 underdog propelled Song up three spots into the top four in the ESPN divisional rankings.\n\nNurmagomedov, who previously owned the No. 4 position at 135-pounds, slips down one spot, as do the other two fighters who had been ranked ahead of Song, Mario Bautista and Cory Sandhagen.\n\nThat was this week's only movement in the divisional rankings.\n\nHere are the ESPN pound-for-pound MMA rankings and a list of current UFC champions in all weight classes.\n\nResults are current; rankings as of Sept. 1. To be eligible for the rankings, a fighter must have competed over the past 12 months or must have an upcoming fight booked. Fighters who have been dropped for inactivity can be reinstated only after they compete.\n\nHEAVYWEIGHT (up to 265 pounds)\n\nLIGHT HEAVYWEIGHT (up to 205 pounds)\n\nMIDDLEWEIGHT (up to 185 pounds)\n\nWELTERWEIGHT (up to 170 pounds)\n\nLIGHTWEIGHT (up to 155 pounds)\n\nFEATHERWEIGHT (up to 145 pounds)\n\nMEN'S BANTAMWEIGHT (up to 135 pounds)\n\nMEN'S FLYWEIGHT (up to 125 pounds)\n\nWOMEN'S BANTAMWEIGHT (up to 135 pounds)\n\nWOMEN'S FLYWEIGHT (up to 125 pounds)\n\nSTRAWWEIGHT (up to 115 pounds)"
     },
     {
       "story_id": "49915010",
@@ -11668,20 +11694,6 @@
       "body": "BERLIN -- Gabby Williams led France to the final of the women's FIBA World Cup with an 86-64 win over host Germany on Saturday.\n\nWilliams scored 22 points and had five rebounds to put France in touching distance of the title after a dogged performance from the host, which refused to give up in front of a partisan crowd at Berlin Arena.\n\n\"A tricky game,\" France coach Jean-Aime Toupane said.\n\nJanelle Salaun had a double-double with 14 points and 11 rebounds, while Marine Johannes, who contributed three 3-pointers among her 13 points, slowed the game down in the final quarter.\n\n\"It was really a fight tonight. I think we were ready for that,\" Johannes said.\n\nIt was the first semifinal appearance for both teams since the stage was introduced in 1986.\n\nFrance will play Spain or the United States, the four-time defending champion and tournament favorite, in Sunday's final. Their semifinal was later Saturday.\n\nThere was an air of nervous anticipation around the arena before tipoff as Germany, already further than ever before in its second tournament appearance, would need another major upset to make the final. Germany coach Olaf Lange spoke of \"German basketball's best day\" after the quarterfinal win over European champion Belgium.\n\nGermany rued 25 turnovers on an evening when French pressure took its toll.\n\n\"When you have 25 of them and 10, 12 in my personal opinion were unnecessary or careless, it's very, very difficult to stay in a game against France,\" Lange said.\n\nGermany, which recovered impressively since losing its opening game to Spain by 30 points, kept France below 90 points for the first time in the tournament and can look forward to the possibility of a bronze medal on Sunday.\n\n\"It's our third back-to-back [game] this tournament, which is insane. Honestly, it's crazy in that kind of tournament, a World Cup, to have three back-to-backs,\" forward Leonie Fiebich said. \"We know what to do. We had a really tough game in the first game. We turned around and played really well the next game. So that's our plan, and everything's positive from now on.\""
     },
     {
-      "story_id": "49922354",
-      "headline": "Donkor goals sees Red Bulls beat Crew to end winless streak at 6",
-      "summary": "Ronald Donkor scored in the 89th minute and Ethan Horvath made three saves to help the New York Red Bulls end a six-match winless streak with a 1-0 victory over the Columbus Crew on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/761804.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-13T02:23:12Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/soccer/report/_/gameId/761804",
-      "stream_url": "",
-      "body": "COLUMBUS, Ohio -- Ronald Donkor scored in the 89th minute and Ethan Horvath made three saves to help the New York Red Bulls end a six-match winless streak with a 1-0 victory over the Columbus Crew on Saturday night.\n\nIt was the second goal this season for the 21-year-old midfielder in 23 appearances - all starts. Donkor did not score through his first 40 appearances with 20 starts.\n\nCameron Harper and defender Dylan Nealis both notched their second assists of the campaign on the winner.\n\nHorvath earned his third clean sheet in 25 starts with the Red Bulls (8-11-6), who began the day in 12th place in the Eastern Conference.\n\nPatrick Schulte totaled four saves for the Crew (7-12-6), who were 13th in the East entering play.\n\nNew York ended a 0-4-2 stretch with its first victory since beating Orlando City 3-2 to begin August. The Red Bulls beat Columbus 3-2 at home in mid-May.\n\nThe Crew have gone 1-6-1 since the start of August.\n\nUp next New York: At New York City FC on Friday.\n\nColumbus: At CF Montreal on Saturday.\n\n------\n\nSee AP's full soccer coverage here"
-    },
-    {
       "story_id": "49921087",
       "headline": "Guimar\u00e3es' stunner headlines Arsenal's 2-0 win",
       "summary": "Bruno Guimar\u00e3es scores a marvellous long-range goal for the Gunners as Arsenal maintain their perfect start to the season with a win over Sunderland.",
@@ -11694,20 +11706,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49921087/guimaraes-stunner-headlines-arsenal-2-0-win",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0912/dm_260912_EPL_Highlight_Guimaraes_stunner_headlines_Arsenals_20_win_20260913_AUS_ONLY/dm_260912_EPL_Highlight_Guimaraes_stunner_headlines_Arsenals_20_win_20260913_AUS_ONLY/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "24067525",
-      "headline": "Cris Cyborg is still going strong as a force in women's P4P top 10",
-      "summary": "At age 41, PFL women's featherweight champion continues win streak to secure spot in ESPN P4P top 10.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706696_608x342_16-9.jpg",
-      "published_utc": "2026-09-08T14:58:31Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mma/story/_/id/24067525/mma-pound-pound-rankings",
-      "stream_url": "",
-      "body": "Cris Cyborg is an MMA legend. Period. End of story.\n\nActually, the Cyborg story continues, even with her being 41 years old and having spent 21 years in the sport. A champion in an unprecedented five fight promotions, she has long been a fixture in the ESPN pound-for-pound women's rankings. And by posting her 30th career victory -- the most ever by a woman in MMA -- at PFL Tampa on Saturday to retain the women's featherweight championship, Cyborg solidified her hold on the No. 3 spot.\n\nIt wasn't easy, not like so many past Cyborg fights in which she aggressively bowled over opponents to score quick knockouts. Ketlen Vieira put up a fight, bloodying Cyborg's face and achieving controlling positions on the canvas several times. But Cyborg persevered, nearly doubling Vieira's strike output and earning a unanimous decision win. As a result, the ESPN voting panel kept her right where she was in the top three.\n\nFor the ESPN divisional MMA rankings, click here.\n\nNote: Results are current; rankings are as of Aug. 26. To be eligible for the rankings, a fighter must have competed over the past 12 months or must have an upcoming fight booked. Fighters who have been dropped for inactivity can be reinstated only after they compete.\n\nWomen's pound-for-pound rankings\n\n1. Valentina Shevchenko\n\nUFC flyweight\n\nRecord: 26-4-1\n\nLast: W (UD) vs. Zhang Weili, Nov. 15, 2025\n\nNext: TBA\n\nShevchenko's dominance came under question in 2022 and 2023, when she went 1-1-1 in a trilogy with Alexa Grasso. Boy, does that feel like a long time ago now. Shevchenko has more than reasserted herself as the best flyweight in the world, and now she's established herself as the No. 1 woman in the world, period. It wasn't surprising that she beat Zhang, but it was surprising how easy she made it look. Shevchenko is out injured, however, so she has vacated her UFC title, which will be up for grabs when Natalia Silva meets Wang Cong on Oct. 3.\n\n2. Zhang Weili\n\nUFC flyweight / strawweight\n\nRecord: 26-4\n\nLast: L (UD) vs. Valentina Shevchenko, Nov. 15, 2025\n\nNext: TBA\n\nIt's hard to move up in weight, especially at the highest level. That sounds like it should be obvious, but Zhang had been dominant at 115 pounds for so long, some of us might have taken for granted how big of a challenge moving to 125 would be. UFC 322 was a bad night for Zhang, but she doesn't have many. And if she decides to stay at flyweight, it certainly seems reasonable to believe she'll fare better in the future.\n\n3. Cris Cyborg\n\nPFL featherweight champion\n\nRecord: 30-2, 1 NC\n\nLast: W (UD) vs. Ketlen Vieira, Aug. 22\n\nNext: TBA\n\nIt had been a while since Cyborg had fought an elite opponent in MMA until she met Larissa Pacheco in 2024. That was a legitimate matchup -- and many within the industry were predicting Cyborg's downfall. Instead, she took out the PFL's two-weight champion, upending all of Pacheco's momentum. One of the original pioneers of women's MMA is once again a champion after getting her second career submission at PFL Lyon in December. The PFL promoted her fight with Vieira as a retirement bout, but after her win Cyborg did not sound like someone who is done fighting.\n\n4. Mackenzie Dern\n\nUFC strawweight champion\n\nRecord: 17-5\n\nLast: W (UD) vs. Gillian Robertson, Aug. 15\n\nNext: TBA\n\nDern's rise to the 115-pound throne was truly a changing of the guard. She is the division's first first-time champion since 2019, because the previous three champs -- Zhang Weili, Carla Esparza and Rose Namajunas -- all were in their second reigns. Dern, nearly a decade into her MMA career after multiple jiu-jitsu world championships, has won four fights in a row, including a dominant performance against a fellow grappling-heavy fighter, Robertson, in her first title defense.\n\n5. Natalia Silva\n\nUFC flyweight\n\nPrevious ranking: Tied for 4\n\nRecord: 20-5-1\n\nLast: W (UD) vs. Rose Namajunas, Jan. 24\n\nNext: Oct. 3 vs. Wang Cong\n\nSilva is looking every bit the part of a future UFC champion following a dominant display against Alexa Grasso at UFC 315 and a victory over Namajunas at UFC 324. Silva's stick-and-move style has frustrated even the highest level of opponent, and she's got youth on her side as she won't turn 30 until 2027. With an injured Valentina Shevchenko having vacated the title, Silva will fight Wang for the belt at UFC 332.\n\n6. Manon Fiorot\n\nUFC flyweight\n\nRecord: 13-3\n\nLast: L (UD) vs. Alexa Grasso, Sept. 12\n\nNext: TBA\n\nFiorot had handled everyone the UFC put in front of her -- except the champion, Valentina Shevchenko, who defeated the Frenchwoman at UFC 315 in May 2025. But then, with another title shot within her grasp, Fiorot ran into Grasso, a former champion, at Noche UFC and lost a competitive fight.\n\n7. Dakota Ditcheva\n\nPFL flyweight\n\nRecord: 16-0\n\nLast: W (UD) vs. Denise Kielholtz, July 31\n\nNext: TBA\n\nNot only did Ditcheva win the PFL's flyweight season in 2024, but she did so in spectacular fashion -- a TKO finish over Taila Santos, who once challenged for a UFC title. Ditcheva fought only once in 2025, dominating Sumiko Inaba in the co-main event of the first PFL Champions Series card in Cape Town, South Africa. She then spent over a year on the sideline, healing injuries to both hands, before returning at PFL New York with a dominant win over Kielholtz.\n\n8. Erin Blanchfield\n\nUFC flyweight\n\nRecord: 14-2\n\nLast: W (Sub2) vs. Tracy Cortez, Nov. 15, 2025\n\nNext: Oct. 17 vs. Jasmine Jasudavicius\n\nHer rise toward the top of the division was derailed by a March 2024 loss to Manon Fiorot, but Blanchfield bounced back with two straight wins, including one over two-time former strawweight champion Rose Namajunas in November 2024. If she wins her October bout with Jasudavicius, a fellow top-10 flyweight contender, Blanchfield would inch ever closer to a title shot.\n\n9. Tatiana Suarez\n\nUFC strawweight\n\nRecord: 12-1\n\nLast: W (Sub2) vs. Loopy God\u00ednez, April 11\n\nNext: TBA\n\nIf Suarez is still feeling the effects of last year's humbling defeat to Zhang Weili in a title challenge, she certainly didn't show it at UFC 327, overcoming early adversity to thrash Godinez, a fellow top-10 strawweight. Suarez is going to be a tough out for anyone at 115 pounds.\n\n10. Alexa Grasso\n\nUFC flyweight\n\nRecord: 18-5-1\n\nLast: W (UD) vs. Manon Fiorot, Sept. 12\n\nNext: TBA\n\nGrasso went nearly three years without winning a fight, but her 2023 win right before the skid was a huge one, a submission of Valentina Shevchenko for the UFC title. What followed were two more fights with Shevchenko -- a draw, then a loss -- and then a loss to Natalia Silva. But she reasserted herself with a finish of Maycee Barber a must-win, then got the best of Fiorot, a fellow title contender, at Noche UFC to put herself in position for another title shot.\n\nOther fighter receiving votes: Virna Jandiroba.\n\nHow our panel voted\nBrett Okamoto: 1. Valentina Shevchenko; 2. Zhang Weili; 3. Mackenzie Dern; 4. Cris Cyborg; 5. Manon Fiorot; 6. Dakota Ditcheva; 7. Natalia Silva; 8. Erin Blanchfield; 9. Tatiana Suarez; 10. Virna Jandiroba.\n\nCarlos Contreras Legaspi: 1. Shevchenko; 2. Cyborg; 3. Zhang; 4. Ditcheva; 5. Dern; 6. Silva; 7. Alexa Grasso; 8. Suarez; 9. Fiorot; 10. Blanchfield.\n\nAndrew Davis: 1. Shevchenko; 2. Zhang; 3. Cyborg; 4. Dern; 5. Silva; 6. Fiorot; 7. Blanchfield; 8. Ditcheva; 9. Suarez; 10. Jandiroba.\n\nDre Waters: 1. Shevchenko; 2. Zhang; 3. Cyborg; 4. Silva; 5. Dern; 6. Fiorot; 7. Ditcheva; 8. Blanchfield; 9. Suarez; 10. Grasso.\n\nJeff Wagenheim: 1. Shevchenko; 2. Zhang; 3. Cyborg; 4. Fiorot; 5. Silva; 6. Dern; 7. Blanchfield; 8. Suarez; 9. Ditcheva; 10. Grasso.\n\nMen's pound-for-pound rankings\n\n1. Islam Makhachev\n\nUFC welterweight champion\n\nRecord: 29-1\n\nLast: W (UD) vs. Ian Machado Garry, Aug. 15\n\nNext: TBA\n\nMakhachev vacated the UFC lightweight championship to go for a second title at welterweight. By winning that belt last November with a thrashing of Jack Della Maddalena, Makhachev staked his place among MMA's greatest -- not just in today's sport but of all time. His win over Machado Garry at UFC 330 was his 17th straight, breaking the UFC record for consecutive wins. Makhachev is piling up unprecedented achievements.\n\n2. Petr Yan\n\nUFC bantamweight champion\n\nRecord: 20-5\n\nLast: W (UD) vs. Merab Dvalishvili, Dec. 6, 2025\n\nNext: Oct. 24 vs. Dvalishvili\n\nWhat a return to the top it's been for Yan. He began his career with 15 consecutive wins before going on a 1-4 run from 2021 to 2023. That almost doesn't feel real now, after watching him reclaim his throne against Dvalishvili, who once handed him the worst loss of his career. Yan took a major detour, but this was the destination we felt he was capable of before the skid. He once again looks like one of the best fighters on the planet. He can prove it by beating Dvalishvili again.\n\n3. Merab Dvalishvili\n\nUFC bantamweight\n\nRecord: 21-5\n\nLast: L (UD) vs. Petr Yan, Dec. 6, 2025\n\nNext: Oct. 24 vs. Yan\n\nDvalishvili was on one of the most impressive runs through the UFC's bantamweight division ever. Not only did he defeat Sean O'Malley for the second time in nine months at UFC 316, but he showcased a new part of his game, finishing O'Malley with a guillotine. Starting in August 2022, Dvalishvili beat Jos\u00e9 Aldo, Yan, Henry Cejudo, O'Malley (twice), Umar Nurmagomedov and Cory Sandhagen. But at UFC 323, in an attempt to become the first champion in UFC history to successfully defend a title four times in a calendar year, Dvalishvili lost a rematch with Yan. They will fight for a third time at UFC 333.\n\n4. Tom Aspinall\n\nUFC heavyweight champion\n\nRecord: 15-3, 1 NC\n\nLast: NC1 vs. Ciryl Gane, Oct. 25, 2025\n\nNext: TBA\n\nYou can make a case that Aspinall is the most dynamic, skillful, talented heavyweight the sport has seen. He is dominating opponents in a way that is unmatched. No one can last a round with him. He had hoped to prove his supremacy against Jon Jones, but Jones opted to retire, elevating Aspinall from interim champion. His first defense of the undisputed belt ended anticlimactically, as an eye poke resulted in his UFC 321 fight with Gane being declared a no-contest. Where does Aspinall go from here?\n\n5. Ilia Topuria\n\nUFC lightweight\n\nRecord: 17-1\n\nLast: L (TKO4) vs. Justin Gaethje, June 14\n\nNext: TBA\n\nTopuria was an undefeated two-division champion when he ran into Gaethje at UFC Freedom 250 and was brutalized in a stoppage loss. How will that affect the immediate future of Topuria? His knockout wins over two of the greatest featherweights, Alexander Volkanovski and Max Holloway, gave him an intimidating aura. Can the former champion get that back?\n\n6. Justin Gaethje\n\nUFC lightweight champion\n\nRecord: 28-5\n\nLast: W (TKO4) vs. Ilia Topuria, June 14\n\nNext: TBA\n\nGaethje has spent his 15-year career thrilling MMA fans, but before the title bout on the White House lawn, all he had to show for it -- aside from 15 bonus checks in 15 UFC appearances -- were two missed opportunities to be an undisputed champion. His fourth-round TKO of Topuria got Gaethje over the hump. It was a resilient performance in a back-and-forth battle that is a prime candidate for fight of the year. More important for Gaethje: At age 37, he is finally sitting at the top of the mountain.\n\n7. Alexander Volkanovski\n\nUFC featherweight champion\n\nRecord: 28-4\n\nLast: W (UD) vs. Diego Lopes, Jan. 31\n\nNext: Oct. 24 vs. Movsar Evloev\n\nIt felt as if the sport had started to write Volkanovski's eulogy following his knockout loss to Ilia Topuria in February 2024. Volkanovski noticed and made a point of proving to everyone he still has plenty left by recapturing the featherweight belt at UFC 314, the first of two consecutive wins over Lopes. His age (37) will likely continue to be a prefight topic, which is fine because Volkanovski enjoys proving people wrong. Can he hand Evloev his first loss at UFC 333?\n\n8. Alexandre Pantoja\n\nUFC flyweight\n\nRecord: 30-6\n\nLast: L (TKO1) vs. Joshua Van, Dec. 6, 2025\n\nNext: Sept. 19 vs. Joshua Van\n\nPantoja became the UFC's unquestioned flyweight king by racking up four title defenses, including two in pay-per-view main events in 2024. He built his winning streak to eight in his UFC 317 win over Kai Kara-France, whom he had already defeated before, like other challengers. But he lost his belt in a gruesome way, injuring his elbow in the opening seconds of a UFC 323 fight with Van. Pantoja gets his rematch with Van at UFC 331.\n\n9. Ciryl Gane\n\nUFC heavyweight interim champion\n\nRecord: 14-2, 1 NC\n\nLast: W (TKO2) vs. Alex Pereira, June 14\n\nNext: TBA\n\nGane is unique in that he is the first -- and could very well go down as the only -- heavyweight to face the division's four biggest names in Francis Ngannou, Jon Jones, Tom Aspinall and Pereira. None of those four have fought each other, yet all four have have fought the Frenchman. Gane was 0-2 with a no-contest against that group before he knocked out Pereira in the second round of their interim title fight. Gane was heralded as the future of the generation when he broke onto the scene, but endured growing pains in losses to Ngannou and Jones. He looks formidable now, and no one will be counting him out if he faces Aspinall in a title unification bout.\n\n10. Alex Pereira\n\nUFC heavyweight / light heavyweight\n\nRecord: 13-4\n\nLast: L (TKO2) vs. Ciryl Gane, June 14\n\nNext: TBA\n\nHe was on the verge of making history when the opportunity fell apart. Pereira was a UFC champion at middleweight, then light heavyweight, but his unprecedented pursuit of a belt in a third weight class did not go well for the Brazilian, who lost an interim heavyweight title fight to Gane on the White House card. At 39 years old, Pereira does not have much time left to recapture the magic.\n\nOther fighters receiving votes: Joshua Van and Arman Tsarukyan.\n\nHow our panel voted\nBrett Okamoto: 1. Islam Makhachev; 2. Petr Yan; 3. Merab Dvalishvili; 4. Ilia Topuria; 5. Alexander Volkanovski; 6. Ciryl Gane; 7. Tom Aspinall; 8. Arman Tsarukyan; 9. Alex Pereira; 10. Alexandre Pantoja.\n\nCarlos Contreras Legaspi: 1. Makhachev; 2. Volkanovski; 3. Justin Gaethje; 4. Topuria; 5. Pereira; 6. Dvalishvili; 7. Gane; 8. Joshua Van; 9. Yan; 10. Pantoja.\n\nAndrew Davis: 1. Makhachev; 2. Aspinall; 3. Yan; 4. Dvalishvili; 5. Pantoja; 6. Gaethje; 7. Topuria; 8. Volkanovski; 9. Gane; 10. Pereira.\n\nDre Waters: 1. Makhachev; 2. Aspinall; 3. Yan; 4. Dvalishvili; 5. Pantoja; 6. Gaethje; 7. Volkanovski; 8. Topuria; 9. Gane; 10. Van.\n\nJeff Wagenheim: 1. Makhachev; 2. Aspinall; 3. Pantoja; 4. Yan; 5. Gaethje; 6. Dvalishvili; 7. Topuria; 8. Gane; 9. Pereira; 10. Volkanovski."
     },
     {
       "story_id": "49920927",
