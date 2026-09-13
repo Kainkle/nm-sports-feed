@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T06:06:23.173430+00:00",
+  "generated_utc": "2026-09-13T06:16:43.237572+00:00",
   "events": [
     {
       "event_id": "mlb:824872",
@@ -7983,7 +7983,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-13T03:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:30",
         "name": "USC Trojans",
@@ -8012,10 +8012,9 @@
         "color": "ce181e"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "2:38 - 4th Quarter",
-      "has_live_source": true,
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8062,7 +8061,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Clarence T.C. Ching Athletics Complex",
-      "detail": "13:15 - 3rd Quarter",
+      "detail": "9:44 - 3rd Quarter",
       "has_live_source": false,
       "game_number": 1,
       "highlight_video_id": "",
@@ -8077,7 +8076,7 @@
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "start_utc": "2026-09-13T06:05Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:289199",
         "name": "Panthers",
@@ -8103,9 +8102,10 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "CommBank Stadium",
-      "detail": "Sun, September 12th at 2:05 AM EDT",
+      "detail": "7'",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
