@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T02:06:26.436651+00:00",
+  "generated_utc": "2026-09-13T02:17:32.084651+00:00",
   "window_days": 2,
   "total_events": 249,
   "competitions": [
@@ -173,7 +173,7 @@
       "status_coverage_pct": 100,
       "both_logos": 60,
       "logo_coverage_pct": 100,
-      "live_now": 4
+      "live_now": 3
     },
     {
       "competition": "mma-sofa",
@@ -244,7 +244,7 @@
       "status_coverage_pct": 100,
       "both_logos": 86,
       "logo_coverage_pct": 100,
-      "live_now": 25
+      "live_now": 23
     },
     {
       "competition": "ncaam",
@@ -432,15 +432,21 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:racing/nascar-premier",
+      "date": "2026-09-11",
+      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard?dates=20260911: The read operation timed out"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 34,
-    "carried": 31
+    "live_events": 31,
+    "carried": 28
   },
   "replay_items": {
     "total": 77,
