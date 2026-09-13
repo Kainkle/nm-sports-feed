@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-13T20:18:50.082103+00:00",
+  "generated_utc": "2026-09-13T20:28:54.975485+00:00",
   "events": [
     {
       "event_id": "mlb:824872",
@@ -8721,7 +8721,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Ford Field",
-      "detail": "0:06 - 4th Quarter",
+      "detail": "7:34 - OT",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "gH8Bm0wVGwo",
@@ -8768,57 +8768,10 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Bank of America Stadium",
-      "detail": "4:38 - 4th Quarter",
+      "detail": "3:40 - 4th Quarter",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872660",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-13T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:34",
-        "name": "Houston Texans",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Texans",
-          "Texans"
-        ],
-        "color": "021018"
-      },
-      "away": {
-        "id": "espn:2",
-        "name": "Buffalo Bills",
-        "abbrev": "BUF",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-        "logo_dark": null,
-        "aliases": [
-          "BUF",
-          "Bills",
-          "Buffalo",
-          "Buffalo Bills"
-        ],
-        "color": "00338d"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Reliant Stadium",
-      "detail": "0:16 - 4th Quarter",
-      "has_live_source": true,
-      "game_number": 1,
-      "highlight_video_id": "oSjI8WszpuI",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -9055,6 +9008,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401872660",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-13T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:34",
+        "name": "Houston Texans",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Texans",
+          "Texans"
+        ],
+        "color": "021018"
+      },
+      "away": {
+        "id": "espn:2",
+        "name": "Buffalo Bills",
+        "abbrev": "BUF",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUF",
+          "Bills",
+          "Buffalo",
+          "Buffalo Bills"
+        ],
+        "color": "00338d"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Reliant Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "oSjI8WszpuI",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "mlb:822682",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -9091,7 +9090,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Nationals Park",
       "detail": "",
       "game_number": 1,
@@ -9154,7 +9153,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-13T17:35:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:147",
         "name": "New York Yankees",
@@ -9186,10 +9185,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Yankee Stadium",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9250,7 +9248,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-13T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:139",
         "name": "Tampa Bay Rays",
@@ -9280,10 +9278,9 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Tropicana Field",
       "detail": "",
-      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9563,7 +9560,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Mapei Stadium",
-      "detail": "76'",
+      "detail": "86'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "H0BQm0yKkjY",
@@ -9607,7 +9604,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "Reale Arena",
-      "detail": "57'",
+      "detail": "67'",
       "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
@@ -9625,23 +9622,23 @@
       "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "John Hunter Nemechek",
+        "name": "Erik Jones",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
-          "John Hunter Nemechek"
+          "Erik Jones"
         ],
         "color": null
       },
       "away": {
         "id": "espn:None",
-        "name": "Brad Keselowski",
+        "name": "Ross Chastain",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
-          "Brad Keselowski"
+          "Ross Chastain"
         ],
         "color": null
       },
@@ -9802,7 +9799,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-13T20:25Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:13",
         "name": "Las Vegas Raiders",
@@ -9832,9 +9829,10 @@
         "color": "008e97"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "Sun, September 13th at 4:25 PM EDT",
+      "detail": "14:51 - 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9848,7 +9846,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-13T20:25Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:16",
         "name": "Minnesota Vikings",
@@ -9878,9 +9876,10 @@
         "color": "204e32"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "U.S. Bank Stadium",
-      "detail": "Sun, September 13th at 4:25 PM EDT",
+      "detail": "15:00 - 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "KzBmZO8G8dQ",
       "replay_url": "",
@@ -9894,7 +9893,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-13T20:25Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:21",
         "name": "Philadelphia Eagles",
@@ -9924,9 +9923,10 @@
         "color": "5a1414"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Lincoln Financial Field",
-      "detail": "Sun, September 13th at 4:25 PM EDT",
+      "detail": "14:10 - 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9940,7 +9940,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-13T20:25Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:24",
         "name": "Los Angeles Chargers",
@@ -9970,9 +9970,10 @@
         "color": "a40227"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "Sun, September 13th at 4:25 PM EDT",
+      "detail": "14:18 - 1st Quarter",
+      "has_live_source": true,
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11614,32 +11615,32 @@
   ],
   "stories": [
     {
-      "story_id": "49931127",
-      "headline": "Zay Flowers, Ja'Kobi Lane leave Ravens' win with injuries",
-      "summary": "The Ravens lost receivers Zay Flowers and Ja'Kobi Lane to injuries in Sunday's season-opening 41-23 win over the Colts.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/462db421-6b38-4f5e-9ef1-90f1bed983b8/462db421-6b38-4f5e-9ef1-90f1bed983b8.jpg",
-      "published_utc": "2026-09-13T20:15:24Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Jamison Hensley",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49931127/jakobi-lane-zay-flowers-questionable-ravens",
-      "stream_url": "",
-      "body": "INDIANAPOLIS -- The Baltimore Ravens lost receivers Zay Flowers and Ja'Kobi Lane to injuries in Sunday's season-opening 41-23 win over the Colts.\n\nFlowers left with a hamstring injury and was ruled out early in the fourth quarter. Before the injury, he was on his way to a career day, catching five passes for 150 yards and a touchdown.\n\nLane, a promising rookie, left with a wrist injury in the first half. He had one catch for 11 yards in his NFL debut before exiting.\n\nThe injuries left Baltimore without its No. 1 wide receiver (Flowers) and its No. 3 (Lane).\n\nThe Ravens' only healthy active wide receivers are: Rashod Bateman, LaJohntay Wester, who is primarily a punt returner, and Chris Moore, who was elevated from the practice squad. Baltimore had two wide receivers who were inactive: rookie fourth-round pick Elijah Sarratt and Devontez Walker, who has been dealing with a groin injury.\n\nIt's unknown when Lane injured his wrist in the first half. Flowers aggravated a left hamstring injury with about 5\u00bd minutes left in the first half, grabbing the hamstring after he was tackled by Sauce Gardner following a 12-yard catch.\n\nFlowers had recently missed two weeks with a hamstring injury before returning to practice last week. He was a full participant in Friday's practice and didn't receive an injury designation for the Week 1 game.\n\nA month ago, Flowers signed a four-year, $140 million contract extension with Baltimore."
-    },
-    {
       "story_id": "49931348",
       "headline": "Giants slugger Devers' season ends early due to core muscle injury",
       "summary": "San Francisco's Rafael Devers' season is over, and he may have surgery for a core muscle injury.",
       "image": "https://a.espncdn.com/photo/2026/0624/r1678512_1296x729_16-9.jpg",
-      "published_utc": "2026-09-13T19:59:32Z",
+      "published_utc": "2026-09-13T20:25:34Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/mlb/story/_/id/49931348/giants-slugger-devers-season-ends-early-due-core-muscle-injury",
       "stream_url": "",
-      "body": "SAN FRANCISCO -- Giants slugger Rafael Devers' season is over, and he may have surgery for a core muscle injury.\n\nThe Giants placed the first baseman/designated hitter and designated hitter on the 60-day injured list Sunday, ending his season.\n\nDevers, who leads the team with 37 homers and 98 RBIs, is to meet Monday in Philadelphia with Dr. William Meyers. If a procedure is recommended, Devers would have the operation on Tuesday.\n\nSan Francisco said Devers played with the injury for much of this season.\n\nDevers homered in his last two games and had eight home runs with 20 RBIs in his final 11 games.\n\nIn the third season of a $313.5 million, 10-year contract, Devers was acquired from Boston in June 2025. He was batting .207 with two homers through April but has raised his average to .258.\n\nDevers has a .274 and 272 home runs in 10 major league seasons.\n\nSan Francisco selected the contract of outfielder Scott Bandura from Triple-A Sacramento."
+      "body": "SAN FRANCISCO -- Giants slugger Rafael Devers' season is over, and he may have surgery for a core muscle injury.\n\nThe Giants placed the first baseman/designated hitter on the 60-day injured list Sunday, ending his season.\n\nDevers, who leads the team with 37 homers and 98 RBIs, is to meet Monday in Philadelphia with Dr. William Meyers. If a procedure is recommended, Devers would have the operation on Tuesday.\n\nSan Francisco said Devers played with the injury for much of this season.\n\nDevers homered in his last two games and had eight home runs with 20 RBIs in his final 11 games.\n\nIn the third season of a $313.5 million, 10-year contract, Devers was acquired from Boston in June 2025. He was batting .207 with two homers through April but has raised his average to .258.\n\nDevers has a .274 and 272 home runs in 10 major league seasons.\n\nSan Francisco selected the contract of outfielder Scott Bandura from Triple-A Sacramento."
+    },
+    {
+      "story_id": "49931827",
+      "headline": "Tampa Bay Buccaneers vs. Cincinnati Bengals: Game Highlights",
+      "summary": "",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/c041f616-16cb-4bee-9723-030c02e46848/c041f616-16cb-4bee-9723-030c02e46848.jpg",
+      "published_utc": "2026-09-13T20:21:46Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49931827/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0913/c041f616-16cb-4bee-9723-030c02e46848/c041f616-16cb-4bee-9723-030c02e46848/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49930265",
@@ -11782,6 +11783,20 @@
       "body": "A defiant Ivan Cleary insists his superstar son Nathan should not face a ban for dangerous contact, after the Penrith star went from villain to hero in the Panthers' 19-12 finals win over the Sydney Roosters.\n\nIn a cracking Sunday afternoon qualifying final, Cleary was sin-binned for collecting Hugo Savala's leg before breaking a 12-12 deadlock with a late field goal at CommBank Stadium.\n\nAdding to the drama, the Penrith No.7 also injured his foot in the process of landing the dropkick, seeking the attention of trainers before opting out of taking the conversion attempt after Brian To'o's late try.\n\nThe result means the Roosters will host Cronulla in a do-or-die semi-final on Saturday night, while Penrith are one win away from their sixth grand final in seven years.\n\nBut all eyes will be on the NRL's charge sheet on Monday, with Cleary anxiously awaiting what sanction he will face for crashing into Savala's leg after the Roosters player kicked in the first half.\n\nThe Panthers star immediately gave a worried look, before referee Gerard Sutton told him his action had \"force\", was \"very dangerous\" and \"carried a high risk of injury\".\n\n\"He's just trying to make a play. He's probably thinking the right thing there,\" coach Ivan Cleary said.\n\n\"The angle was wrong and under the current rules it's probably the right call.\n\n\"The same thing happened to him down the other end under the posts early in the game, but anyway.\"\n\nIf Nathan Cleary was to receive a grade-two dangerous contact charge on Monday, the game's best player would be facing a ban from the preliminary final with an early plea.\n\nShould he elect to challenge the charge, he would risk being rubbed out of the grand final if found guilty.\n\nA grade-one charge would only attract a fine for Cleary, and prove a massive boost in Penrith's bid for a fifth premiership of their dynasty.\n\nAsked if he felt the halfback deserved a ban over the contact, Ivan Cleary said: \"God no. Of course not.\n\n\"He just got the wrong angle. It's one of those rules that has come in over the past couple of years and sometimes in the heat of the battle you forget.\n\n\"He's not injured. It's just a black-and-white thing they have brought in.\"\n\nManly's Josh Aloiai and South Sydney's Jacob Host were handed grade-two charges by the match review committee for collecting the outstretched legs of kickers in 2024.\n\nBut Melbourne's Harry Grant did manage to have a grade-one charge for contact on Dan Atkinson overturned that year.\n\nThe Roosters failed to make use of Cleary's sin binning. Savala missed the ensuing penalty goal and was denied a try for a double movement after the break.\n\nThat was one of the few chances during a scoreless opening 32 minutes of the second half, before Cleary stepped up as the game's ultimate ice man.\n\nSat in the attacking line after a searching Moses Leota run, Cleary was able to slot over the one-pointer with no pressure from Roosters defenders.\n\n\"I would have liked to have put more pressure on him,\" Roosters coach James Tedesco said.\n\n\"But it was just a quick play-the-ball and a quick ruck.\"\n\nDaly Cherry-Evans attempted to reciprocate moments later, but sprayed a shot from 20 metres out to the right before To'o's sealer under the posts.\n\nCleary's boot also wreaked havoc early on Sunday, with the Roosters unable to handle three of his bombs and Liam Martin leaping to score off one of his shallow cross-field kicks.\n\nCleary also changed the point of attack and went back inside to Dylan Edwards for the Panthers' second try, with the fullback swerving his way over to make it 12-12 after 38 minutes.\n\nMark Nawaqanitawase's freakish ability had kept the Roosters in the match in the first half, with two key intercepts either side of a Robert Toia try.\n\nThe Roosters winger first helped deny a Penrith try when he reached out and held onto an Isaiah Papali'i ball in the third minute.\n\nHe then gave the Roosters a 12-6 lead when he stretched out to stop a Penrith break, juggled the ball three time as he fell, got up and ran 45 metres to score."
     },
     {
+      "story_id": "49931888",
+      "headline": "Houston Astros vs. Tampa Bay Rays: Game Highlights",
+      "summary": "Houston Astros vs. Tampa Bay Rays: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/5400953a-0dc4-4d27-aad3-532d1d109391/5400953a-0dc4-4d27-aad3-532d1d109391.jpg",
+      "published_utc": "2026-09-13T20:24:09Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49931888/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0913/5400953a-0dc4-4d27-aad3-532d1d109391/5400953a-0dc4-4d27-aad3-532d1d109391/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "49881465",
       "headline": "Week 1 NFL highlights: Best plays, moments, touchdowns, more",
       "summary": "Check out the best of the best from Week 1 around the NFL, including highlight-reel touchdowns and must-see plays.",
@@ -11794,20 +11809,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/49881465/week-1-highlights-best-plays-touchdowns-2026",
       "stream_url": "",
       "body": "There are 16 teams in action during Sunday's early window in Week 1 of the 2026 NFL season, and we have the best highlights, touchdowns and moments from all of them.\n\nIn Pittsburgh, Aaron Rodgers embarks on his final season in the NFL and will reunite with coach Mike McCarthy as the Steelers host the Atlanta Falcons. Two playoff teams from last year meet in Houston, as the Buffalo Bills take on the Texans, and will Deshaun Watson put an end to the QB battle in Cleveland when the Browns visit the Jacksonville Jaguars?\n\nHere are the top plays from Sunday, and be sure to keep checking back once the afternoon games and \"Sunday Night Football\" kick off.\n\nWeek 1 highlights"
-    },
-    {
-      "story_id": "49931001",
-      "headline": "Jobe strikes out career-high 8, Tigers extend Rockies' slide to 7 games with 8-1 win",
-      "summary": "\u2014 Jackson Jobe struck out eight a career-high over 6 1/3 innings while pitching into the seventh inning for the first time, and the Detroit Tigers beat the Colorado Rockies 8-1 on Sunday to complete a three-game sweep that extended their winning...",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401816920.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-13T19:24:30Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401816920",
-      "stream_url": "",
-      "body": "DETROIT -- \u2014 Jackson Jobe struck out eight a career-high over 6 1/3 innings while pitching into the seventh inning for the first time, and the Detroit Tigers beat the Colorado Rockies 8-1 on Sunday to complete a three-game sweep that extended their winning streak to four.\n\n\r\nColorado matched its longest losing streak this season at seven games, completing a winless six-game trip and dropping to 5-20 since Aug. 16. The Rockies (50-94) have lost 94 or more games in five straight seasons.\n\n\r\nRiley Greene and Spencer Torkelson homered for Detroit (70-79).\n\n\r\nJobe (2-2) got 16 swings and misses. He allowed Adael Amador's first-inning homer and just two more hits while walking one. The 24-year-old right-hander has allowed two runs or fewer in five of seven starts since returning from Tommy John surgery in August.\n\n\r\nGreene reached 20 homers for the third straight season when he hit a two-run drive in the first off Gabriel Hughes (0-8), who allowed five runs and five hits in two innings.\n\n\r\nDetroit opened a 5-1 lead in the second on John Peck's RBI single and Kevin McGonigle's two-run triple off the wall in right-center, a 397-foot drive that would have been a home run in 24 of the 30 major league ballparks.\n\n\r\nTorkelson hit a solo homer in the fifth off Nick Frasso.\n\n\r\nUp next\r\nRockies: RHP Tomoyuki Sugano (12-9, 5.30 ERA) starts Monday night against San Diego.\n\n\r\nTigers: RHP Troy Melton (8-4, 2.42 ERA) starts Monday night at Toronto, which goes with RHP Jos\u00e9 Soriano.\n\n\r\n------\n\n\r\n\r\nSee AP's full MLB coverage here"
     },
     {
       "story_id": "49931033",
