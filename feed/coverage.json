@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-15T22:47:22.120102+00:00",
+  "generated_utc": "2026-09-15T23:06:27.394224+00:00",
   "window_days": 2,
-  "total_events": 266,
+  "total_events": 260,
   "competitions": [
     {
       "competition": "aew",
@@ -121,14 +121,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 8,
+      "events": 2,
       "date_range": [
-        "2026-09-12",
+        "2026-09-13",
         "2026-09-13"
       ],
-      "explicit_status": 8,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -173,7 +173,7 @@
       "status_coverage_pct": 100,
       "both_logos": 70,
       "logo_coverage_pct": 100,
-      "live_now": 5
+      "live_now": 7
     },
     {
       "competition": "mma-sofa",
@@ -426,15 +426,21 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-09-12",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260912: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "live_intersection": {
-    "live_events": 5,
-    "carried": 5
+    "live_events": 7,
+    "carried": 7
   },
   "replay_items": {
     "total": 102,
