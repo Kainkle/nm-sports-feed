@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-16T15:38:56.455164+00:00",
+  "generated_utc": "2026-09-16T15:49:17.201874+00:00",
   "window_days": 2,
   "total_events": 157,
   "competitions": [
@@ -428,7 +428,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/college-football",
+      "date": "2026-09-13",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20260913: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
