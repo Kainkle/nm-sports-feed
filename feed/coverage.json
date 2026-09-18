@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-18T10:13:40.434763+00:00",
+  "generated_utc": "2026-09-18T10:23:40.950720+00:00",
   "window_days": 2,
   "total_events": 262,
   "competitions": [
@@ -428,7 +428,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "nhl",
+      "date": "2026-09-17",
+      "error": "URLError for https://api-web.nhle.com/v1/schedule/2026-09-17: <urlopen error [Errno 104] Connection reset by peer>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
