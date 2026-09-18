@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-18T10:54:14.276010+00:00",
+  "generated_utc": "2026-09-18T11:04:13.302270+00:00",
   "window_days": 2,
   "total_events": 262,
   "competitions": [
@@ -428,13 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:racing/irl",
-      "date": "2026-09-17",
-      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/racing/irl/scoreboard?dates=20260917: The read operation timed out"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
