@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-18T23:14:17.316379+00:00",
+  "generated_utc": "2026-09-18T23:22:18.746656+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401882868",
@@ -3412,7 +3412,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -3610,7 +3610,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-18T23:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:145",
         "name": "Chicago White Sox",
@@ -3641,7 +3641,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "Rate Field",
       "detail": "",
       "game_number": 1,
@@ -8200,6 +8200,46 @@
       "card": ""
     },
     {
+      "event_id": "espn:racing:202609190016",
+      "sport": "racing",
+      "competition_id": "nascar",
+      "competition_name": "NASCAR Cup Series",
+      "start_utc": "2026-09-19T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:None",
+        "name": "Joey Logano",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Joey Logano"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Kyle Larson",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kyle Larson"
+        ],
+        "color": null
+      },
+      "source": "espn:racing/nascar-premier",
+      "source_status": "pre/Scheduled",
+      "venue": "",
+      "detail": "Sat, September 19th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "NASCAR Cup Series at Bristol"
+    },
+    {
       "event_id": "espn:football:401858453",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -12173,6 +12213,34 @@
   ],
   "stories": [
     {
+      "story_id": "49975360",
+      "headline": "Sources: Pistons, Ausar Thompson reach 5-year, $155M extension",
+      "summary": "Pistons All-Defensive forward Ausar Thompson has agreed to a five-year, $155 million rookie-scale contract extension, sources told ESPN.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0918/89be1084-c0a7-4c8e-a009-b34df89eafb3/89be1084-c0a7-4c8e-a009-b34df89eafb3.jpg",
+      "published_utc": "2026-09-18T23:15:17Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Shams Charania",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/49975360/detroit-pistons-ausar-thompson-reach-5-year-155-million-rookie-scale-contract-extension",
+      "stream_url": "",
+      "body": "Detroit Pistons All-Defensive forward Ausar Thompson has agreed to a five-year, $155 million rookie-scale contract extension with the franchise, sources told ESPN.\n\nThompson lands the fully guaranteed extension after making first-team All-Defense and finishing third in Defensive Player of the Year voting last season. The 23-year-old averaged 9.9 points, 5.7 rebounds, 3.1 assists and 0.9 blocks in 2025-26 while leading the NBA in steals per game (2.0).\n\nOverall, Thompson had the third-most steals and blocks last season at 215 and is one of three players with at least 300 steals and 150 blocks since entering the league as the No. 5 pick in the 2023 draft.\n\nIn 14 playoff games during Detroit's run to the Eastern Conference semifinals, Thompson averaged 8.2 points, 7.9 rebounds, 3.1 assists, 2 steals and 1.8 blocks, becoming the first player with at least 25 steals and 25 blocks in a postseason since Anthony Davis in 2020.\n\nThompson and his twin, Amen Thompson of the Houston Rockets, are now the first brothers to each receive a $100 million NBA deal. Amen Thompson signed a five-year, $208 million rookie extension with the Rockets recently, giving both a combined $363 million this offseason.\n\nPistons president of basketball operations Trajan Langdon has held concurrent negotiations with two priority players in restricted free agent Jalen Duren and Ausar Thompson. The Pistons have remained engaged in talks with Duren since June, offering a contract in the range of more than $190 million, and thus far the sides have been dug in, with Detroit believing it has made fair offers and Duren wanting more.\n\nThompson's sophomore season was cut short when he was diagnosed with a blood clot in March 2024. Eight months later, Thompson was cleared by the NBA's fitness-to-play panel and successfully returned to action.\n\nESPN Research contributed to this report."
+    },
+    {
+      "story_id": "49975442",
+      "headline": "Rams' Donald plans to play vs. Giants; Nacua (hip) misses practice",
+      "summary": "Rams DT Aaron Donald said Friday \"the plan\" is to play Monday night against the Giants, while WR Puka Nacua did not practice on Friday with a hip issue.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0918/ss_20260918_190740345_3665001/ss_20260918_190740345_3665001.jpg",
+      "published_utc": "2026-09-18T23:14:57Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Sarah Barshop",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49975442/rams-donald-plans-play-vs-giants-nacua-hip-misses-practice",
+      "stream_url": "",
+      "body": "Los Angeles Rams defensive tackle Aaron Donald said Friday that he expects to play on Monday night against the New York Giants.\n\n\"That's the plan,\" Donald said when asked if he will play in Week 2. \"Practice today, have another practice tomorrow and then we'll see, but feeling good.\"\n\nDonald, who initially retired in March 2024, came out of retirement Aug. 30. He did not travel to the Rams' Week 1 loss against the San Francisco 49ers in Melbourne, Australia.\n\nOn Friday, wide receiver Puka Nacua did not practice with a hip injury. Nacua, who had five catches for 74 yards in Week 1, was not on the injury report on Thursday.\n\nOn Thursday, Rams coach Sean McVay said Donald would go through the week of practice but that he was hopeful the defensive tackle would be able to play on \"Monday Night Football.\" Donald said Friday that he was able to take part in team drills on back-to-back days and that he feels like himself.\n\n\"We can have a conversation, figure it out, but I'm feeling really good,\" Donald said. \"I feel a lot better now that I got more practice under my belt instead of one.\"\n\nDonald said he didn't know what his snap count would look like when he does play but said he thinks the coaching staff has a \"good game plan.\"\n\n\"It's a long year, long season,\" Donald said. \"Like I said, we got a lot of good football players out here. So however my game plan, however it's going to be, I'm going to go out there and play hard. And then when I need a break, tap out, let the next guy go out there, eat and I'll be right back. ... Whatever that role is, I'm ready for it. I'm excited about it.\"\n\nIf Donald plays Monday against the Giants, it will have been 981 days since he last played in an NFL game."
+    },
+    {
       "story_id": "49975410",
       "headline": "Xabi Alonso says Chelsea were 'out of control' in Brentford loss",
       "summary": "Xabi Alonso said his Chelsea team lost control against Brentford in their 3-0 defeat on Friday evening and agreed with Levi Colwill that his side were bullied in set pieces.",
@@ -12199,34 +12267,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49975325/yankees-flux-aaron-judge-back-il-calf-strain",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0918/ss_20260918_181834949_3664967/ss_20260918_181834949_3664967/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "49975177",
-      "headline": "Heat, Pelle Larsson agree to 4-year, $60M extension",
-      "summary": "The Heat and guard Pelle Larsson have reached agreement on a four-year, $60 million extension, his agents told ESPN's Shams Charania.",
-      "image": "https://a.espncdn.com/photo/2024/0723/r1361967_1296x729_16-9.jpg",
-      "published_utc": "2026-09-18T22:35:19Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Shams Charania",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/49975177/heat-pelle-larsson-agree-4-year-60m-extension",
-      "stream_url": "",
-      "body": "Miami Heat guard Pelle Larsson has agreed to a new four-year, $60 million contract extension, with a mutual option for the 2030-31 season, Austin Brown and Steven Heumann of CAA Sports told ESPN on Friday.\n\nA second-round find in the 2024 draft, the 6-foot-5 guard avoids restricted free agency next summer and locks in a new deal with a mutual option that fully guarantees $60 million while allowing either side to opt in on 2030.\n\nLarsson has become a foundation player for the Heat amid their offseason overhaul. He is set to have a major rotation role after averaging 11.4 points per game last season, up nearly seven points per game from his rookie season. Larsson also ranked fourth best in offensive efficiency in Miami, per ESPN Research, and fifth in minutes played.\n\nLarsson started 54 of the 70 games he played last season and ranked in the top 10 in charges drawn last season, according to ESPN Research.\n\nMiami's biggest offseason splash was the acquisition of Giannis Antetokounmpo in a trade that saw a package headlined by Tyler Herro and Jaime Jaquez Jr. going back to Milwaukee. The Heat also signed free agent Klay Thompson after he cleared waivers following a buyout agreement with the Dallas Mavericks.\n\nMiami looks to return to the postseason after missing the playoffs last season for the first time in seven seasons."
-    },
-    {
-      "story_id": "49975015",
-      "headline": "FBI case against fake 49ers player adds more alleged victims",
-      "summary": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, bringing the total number of alleged victims in a case that included Love impersonating as a 49ers player to more than 60.",
-      "image": "https://a.espncdn.com/photo/2026/0831/r1709333_1296x729_16-9.jpg",
-      "published_utc": "2026-09-18T22:10:01Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Kalyn Kahler",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49975015/fbi-case-fake-49ers-player-adds-more-alleged-victims",
-      "stream_url": "",
-      "body": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, the agency said Friday, bringing the total number of alleged victims in a case that included Love impersonating as a San Francisco 49ers player to more than 60.\n\nPortland FBI Special Agent in Charge Doug Olson said the agency is working to verify that the 35 women are victims of Love and Chan.\n\n\"We were surprised how many people were victimized in such a short period of time and then to have that many more come forward,\" Olson said at a news conference. \"It's a large volume for just a couple of subjects. Our concern is that this fraud could be replicated by other individuals that are out there victimizing other people in similar schemes.\"\n\nOlson said the FBI believes there are more victims of Love and Chan who have yet to come forward. He encouraged anyone with information on the two men to contact the Portland FBI.\n\n\"We don't want anyone to be fearful of coming forward,\" Olson said, \"certainly not for fear of embarrassment or anything like that, because we want to help them and we want to make sure that this doesn't happen to anybody else.\"\n\nThe FBI opened its investigation into Love and Chan on Sept. 30, 2024, over allegations that date from February 2022 to Aug. 24, 2026, the day the two men were arrested at the Boise, Idaho, airport. They have been charged with wire fraud and conspiracy to commit wire fraud.\n\nAccording to the criminal complaint, Love and Chan stole more than $1.3 million from 26 known victims in at least four states. The complaint alleges that Love, 35, used social media and dating apps to build fake identities, including posing as a 49ers player and a wealthy Swiss real estate investor, and persuade women to send him money. It says Chan, 18, sometimes posed as his financial adviser and assisted Love in convincing the women that Love would invest their money with Chan.\n\n\"The victims in this case were targeted precisely because they were trusting, responsible people who they believed were building genuine relationships and legitimate financial futures,\" Olson said. \"... They were deliberately manipulated through an extremely sophisticated scheme that blended fake personas, fabricated investment accounts, staged video calls and AI-reinforced false identities.\"\n\nOlson said the fraud scheme was \"bespoke\" to each victim. Not every woman got the Niners player persona, but Olson said Love often relied on the professional athlete character to reinforce his income level.\n\n\"He was either a player, former player, a player on injured reserve, and whatever name he was using, he'd put enough stuff into the media searches so it was the first thing that came up on people's [Google] page,\" Olson said. \"And it was not just the first thing that came up; it was like there were multiple things in there that would confirm whatever he was telling those folks.. ... The sports thing was always like a big part of it because you have to have some source of initial income to be an investor.\"\n\nA Niners team source told ESPN that the club was not aware of Love and had not received any reports about him before it was contacted by the FBI in August.\n\n\"They were completely cooperative,\" Olson said of the 49ers. \"They were very helpful in doing things that most people think are probably pretty simple, but it's not always that easy to confirm. Like, this person was, like, never an employee, never a player, not even ever in the NFL. They were able to help with a lot of that stuff.\""
     },
     {
       "story_id": "49944682",
@@ -12341,6 +12381,34 @@
       "body": "Test forward Angus Crichton is set to turbo-charge the Sydney Roosters' forward pack as Trent Robinson confirmed the back-rower had received the green light to take on Cronulla.\n\nCrichton, who will move to rugby union whenever the Roosters' season ends, hasn't played since round 15 as a result of a foot injury.\n\nThe 30-year-old was a late scratching in last week's qualifying final loss to Penrith.\n\nBut Robinson, who provided a glimmer of hope surrounding the fitness of halfback Sam Walker, confirmed 17-time State of Origin star Crichton had been cleared to face the Sharks in Saturday's semi-final at Allianz Stadium.\n\n\"(He's) ready to go,\" Robinson said on Friday.\n\n\"I don't think the standard of the game changes when it comes to Angus.\n\n\"He'll get on the field but he has played enough of these sort of quality games to get ready to go back in.\n\n\"He wasn't ready to go last week, that was the truth of it. He still had some issues last week and he hasn't had them this week, so ready to go.\"\n\nYoung tyro Salesi Foketi would likely make way for Crichton if Robinson chooses to start his experienced edge forward.\n\n\"He could start or come off the bench. Gus is ready to go, he'll be in the mix. He's going to hunt,\" Robinson said.\n\nVictory against the Sharks would send the Roosters into a preliminary final against the Dolphins and Robinson is hopeful Walker will be ready to feature, should his side get past a Cronulla team led by his former protege Craig Fitzgibbon.\n\nWalker underwent ankle surgery three weeks ago but has been back running in a positive sign for Easts' hopes of winning the premiership.\n\n\"It's good (Walker had) another good progression this week,\" Robinson said.\n\n\"(He needs to) keep going. There's a little bit less weight on that ankle compared to other guys in our game, so he's progressing well.\n\n\"He's a chance (to play next week).\n\n\"Most of those guys end up doing running, straight line running, and all of that, whereas he's back into some free movement and into some training, so that's a real positive.\"\n\nRobinson's side enter Saturday's meeting with Cronulla off a six-day turnaround from the Penrith game and they face the same shortened period of rest if they get past the Sharks to face the Dolphins.\n\nThe NRL's finals draw has been complicated by the Warriors making the top four and the flow-on effect of scheduling games at times which suit both Australian and New Zealand broadcasters.\n\nBy contrast Newcastle, who face the Warriors on Sunday, will be given a nine-day break between their week-one finals win over Souths.\n\nBut Robinson refused to call foul over his side's shortened lead-in to the most important games of the Roosters' season.\n\n\"I think we'll do whatever it takes to play finals,\" Robinson said. \"That's as simple as it is.\n\n\"I think it's a real fair question around how it's scheduled and why we schedule them in this way, but they're the cards we're dealt and we're ready to play on six days, five days, four days, whatever it takes.\""
     },
     {
+      "story_id": "49975177",
+      "headline": "Heat, Pelle Larsson agree to 4-year, $60M extension",
+      "summary": "The Heat and guard Pelle Larsson have reached agreement on a four-year, $60 million extension, his agents told ESPN's Shams Charania.",
+      "image": "https://a.espncdn.com/photo/2024/0723/r1361967_1296x729_16-9.jpg",
+      "published_utc": "2026-09-18T22:35:19Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Shams Charania",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/49975177/heat-pelle-larsson-agree-4-year-60m-extension",
+      "stream_url": "",
+      "body": "Miami Heat guard Pelle Larsson has agreed to a new four-year, $60 million contract extension, with a mutual option for the 2030-31 season, Austin Brown and Steven Heumann of CAA Sports told ESPN on Friday.\n\nA second-round find in the 2024 draft, the 6-foot-5 guard avoids restricted free agency next summer and locks in a new deal with a mutual option that fully guarantees $60 million while allowing either side to opt in on 2030.\n\nLarsson has become a foundation player for the Heat amid their offseason overhaul. He is set to have a major rotation role after averaging 11.4 points per game last season, up nearly seven points per game from his rookie season. Larsson also ranked fourth best in offensive efficiency in Miami, per ESPN Research, and fifth in minutes played.\n\nLarsson started 54 of the 70 games he played last season and ranked in the top 10 in charges drawn last season, according to ESPN Research.\n\nMiami's biggest offseason splash was the acquisition of Giannis Antetokounmpo in a trade that saw a package headlined by Tyler Herro and Jaime Jaquez Jr. going back to Milwaukee. The Heat also signed free agent Klay Thompson after he cleared waivers following a buyout agreement with the Dallas Mavericks.\n\nMiami looks to return to the postseason after missing the playoffs last season for the first time in seven seasons."
+    },
+    {
+      "story_id": "49975513",
+      "headline": "Aaron Donald plans to play in Week 2",
+      "summary": "Aaron Donald plans to play in Week 2",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0918/ss_20260918_190740345_3665001/ss_20260918_190740345_3665001.jpg",
+      "published_utc": "2026-09-18T23:12:38Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49975513/aaron-donald-plans-play-week-2",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0918/ss_20260918_190740345_3665001/ss_20260918_190740345_3665001/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "49975446",
       "headline": "Arsenal, Mikel Arteta open to Max Dowman loan move",
       "summary": "Arsenal are \"open\" to allowing teen sensation Max Dowman to leave the club on loan if he does not play enough matches.",
@@ -12367,34 +12435,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/49975146/yankees-aaron-judge-returns-injured-list-calf-strain",
       "stream_url": "",
       "body": "Three-time AL MVP Aaron Judge will miss most or all of the rest of the regular season after the New York Yankees announced Friday they are placing him on the 10-day injured list because of a right calf strain.\n\nNew York said it will make the roster move Saturday. The placement could be backdated to Thursday, meaning it is possible Judge could return for New York's regular-season finale on Sept. 27.\n\nJudge was pulled from Wednesday's loss to the Twins because of tightness in his lower right leg. An inning earlier, he had to run to the gap to track down a ball in the outfield, but he didn't show any sign of discomfort or slowness and later said he first felt tightness during the first inning.\n\nJudge was 4-for-26 with 13 strikeouts and one extra-base hit in seven games since returning last week from a broken rib, which kept him out of the lineup for more than three months.\n\nThe Yankees, who have clinched at least a wild-card spot, trail the first-place Tampa Bay Rays by five games in the American League East entering Friday.\n\nJudge is hitting .241 with 18 home runs and 41 RBIs in 66 games this season.\n\nThe Associated Press contributed to this report."
-    },
-    {
-      "story_id": "49974509",
-      "headline": "Shams: Keyonte George signs 5-year extension with the Jazz",
-      "summary": "Shams: Keyonte George signs 5-year extension with the Jazz",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0918/ss_20260918_151723433_3664708/ss_20260918_151723433_3664708.jpg",
-      "published_utc": "2026-09-18T19:21:14Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49974509/keyonte-george-signs-5-year-extension-jazz",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0918/ss_20260918_151723433_3664708/ss_20260918_151723433_3664708/playlist.m3u8",
-      "body": ""
-    },
-    {
-      "story_id": "49975029",
-      "headline": "Bills to take time with Ed Oliver, DJ Moore injuries",
-      "summary": "A long week will give more time for Bills defensive lineman Ed Oliver (hip) and wide receiver DJ Moore (shoulder) to get healthy following Thursday's injuries.",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718373_1296x729_16-9.jpg",
-      "published_utc": "2026-09-18T21:46:34Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Nick Suss",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49975029/bills-take-ed-oliver-dj-moore-injuries",
-      "stream_url": "",
-      "body": "Call it a not-so-mad scramble.\n\nThe Buffalo Bills lost defensive lineman Ed Oliver and wide receiver DJ Moore to injury before and during their 41-31 win over the Detroit Lions on Thursday night. As coach Joe Brady told reporters Friday, the team will slow-play the evaluation process with both Oliver and Moore.\n\nThe Bills don't return to the practice field until Sept. 23, and as such Brady said he's holding off on rushing judgments or prognoses on the two starters until the team can see what rest does for them.\n\nMoore is considered day-to-day with a shoulder injury sustained in the second quarter of the win over Detroit that's not considered serious, sources told ESPN's Adam Schefter.\n\nOliver, meanwhile, didn't play against Detroit. He sustained the hip injury just minutes before the pregame deadline for players to be ruled inactive. Brady said Friday that Oliver was in the training room getting evaluated about three minutes before the deadline came, which forced the Bills to make a quick choice about one of their cornerstone defensive linemen.\n\n\"If it was normal maybe you'd have an hour or so to run some tests and see what happens,\" Brady said. \"We didn't have that time. We just had to make the decisions.\"\n\nBills defensive coordinator Jim Leonhard described Oliver -- who has logged 30 sacks and 57 tackles for loss across eight seasons in Buffalo but missed 14 games last year with injuries -- as a player you build a game plan around. Removing his presence from the game plan barely an hour before kickoff creates a scramble, but not one Leonhard would describe as \"frantic.\"\n\nLeonhard said the minutes following Oliver's deactivation consisted of meetings with defensive position coaches to strategize not just who would replace Oliver in certain packages but also conversations about what the domino effect in the rotations would be and which packages needed to be eliminated entirely.\n\n\"It's not necessarily just one chess piece away,\" Leonhard said. \"It's a couple moves away that we'd have some deviations. Just trying to go through all the scenarios of what can happen and make sure all the depth and the rotations are going to be in a situation to allow you to play 45 snaps or 85 snaps. That's the uncertainty; you never know how the game is going to play out.\"\n\nThe Bills return to action in Week 3 with a home game against the Los Angeles Chargers on Sept. 27."
     },
     {
       "story_id": "49972544",
