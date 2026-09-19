@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T16:09:08.400814+00:00",
+  "generated_utc": "2026-09-19T16:19:27.340209+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401882875",
@@ -3723,7 +3723,7 @@
       "venue": "Weserstadion",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "IP2yua_ilfQ",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3865,7 +3865,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-09-19T14:15Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:93",
         "name": "Athletic Club",
@@ -3892,9 +3892,9 @@
         "color": "0000ff"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "San Mam\u00e9s",
-      "detail": "90'+5'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3941,7 +3941,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Delaware Stadium",
-      "detail": "1:32 - 1st Quarter",
+      "detail": "12:38 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3984,9 +3984,101 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/First Half",
       "venue": "Olimpico",
-      "detail": "5'",
+      "detail": "15'",
       "game_number": 1,
       "highlight_video_id": "TZQFQpVGjk8",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856686",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:8",
+        "name": "Arkansas Razorbacks",
+        "abbrev": "ARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARK",
+          "Arkansas",
+          "Arkansas Razorbacks",
+          "Razorbacks"
+        ],
+        "color": "a32136"
+      },
+      "away": {
+        "id": "espn:61",
+        "name": "Georgia Bulldogs",
+        "abbrev": "UGA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "Georgia",
+          "Georgia Bulldogs",
+          "UGA"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Donald W. Reynolds Razorback Stadium",
+      "detail": "10:37 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858454",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:2309",
+        "name": "Kent State Golden Flashes",
+        "abbrev": "KENT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Flashes",
+          "KENT",
+          "Kent State",
+          "Kent State Golden Flashes"
+        ],
+        "color": "002664"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Ohio Stadium",
+      "detail": "12:07 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -4030,7 +4122,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Beaver Stadium",
-      "detail": "11:53 - 1st Quarter",
+      "detail": "10:33 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4077,191 +4169,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bill Snyder Family Stadium",
-      "detail": "12:33 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858228",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:59",
-        "name": "Georgia Tech Yellow Jackets",
-        "abbrev": "GT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-        "logo_dark": null,
-        "aliases": [
-          "GT",
-          "Georgia Tech",
-          "Georgia Tech Yellow Jackets",
-          "Yellow Jackets"
-        ],
-        "color": "b3a369"
-      },
-      "away": {
-        "id": "espn:2382",
-        "name": "Mercer Bears",
-        "abbrev": "MER",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "MER",
-          "Mercer",
-          "Mercer Bears"
-        ],
-        "color": "ff7f29"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Bobby Dodd Stadium",
-      "detail": "12:05 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858451",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:135",
-        "name": "Minnesota Golden Gophers",
-        "abbrev": "MINN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Gophers",
-          "MINN",
-          "Minnesota",
-          "Minnesota Golden Gophers"
-        ],
-        "color": "5e0a2f"
-      },
-      "away": {
-        "id": "espn:2006",
-        "name": "Akron Zips",
-        "abbrev": "AKR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
-        "logo_dark": null,
-        "aliases": [
-          "AKR",
-          "Akron",
-          "Akron Zips",
-          "Zips"
-        ],
-        "color": "041e42"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Huntington Bank Stadium",
-      "detail": "12:14 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856686",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:8",
-        "name": "Arkansas Razorbacks",
-        "abbrev": "ARK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARK",
-          "Arkansas",
-          "Arkansas Razorbacks",
-          "Razorbacks"
-        ],
-        "color": "a32136"
-      },
-      "away": {
-        "id": "espn:61",
-        "name": "Georgia Bulldogs",
-        "abbrev": "UGA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulldogs",
-          "Georgia",
-          "Georgia Bulldogs",
-          "UGA"
-        ],
-        "color": "ba0c2f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Donald W. Reynolds Razorback Stadium",
-      "detail": "15:00 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858454",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T16:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:194",
-        "name": "Ohio State Buckeyes",
-        "abbrev": "OSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buckeyes",
-          "OSU",
-          "Ohio State",
-          "Ohio State Buckeyes"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:2309",
-        "name": "Kent State Golden Flashes",
-        "abbrev": "KENT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Flashes",
-          "KENT",
-          "Kent State",
-          "Kent State Golden Flashes"
-        ],
-        "color": "002664"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Ohio Stadium",
-      "detail": "Sat, September 19th at 12:00 PM EDT",
+      "detail": "9:01 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4307,7 +4215,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Jack Trice Stadium",
-      "detail": "14:55 - 1st Quarter",
+      "detail": "10:24 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4321,7 +4229,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T16:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2305",
         "name": "Kansas Jayhawks",
@@ -4352,9 +4260,55 @@
         "color": "ffc627"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Wembley Stadium",
-      "detail": "Sat, September 19th at 12:00 PM EDT",
+      "detail": "12:37 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858228",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:59",
+        "name": "Georgia Tech Yellow Jackets",
+        "abbrev": "GT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+        "logo_dark": null,
+        "aliases": [
+          "GT",
+          "Georgia Tech",
+          "Georgia Tech Yellow Jackets",
+          "Yellow Jackets"
+        ],
+        "color": "b3a369"
+      },
+      "away": {
+        "id": "espn:2382",
+        "name": "Mercer Bears",
+        "abbrev": "MER",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "MER",
+          "Mercer",
+          "Mercer Bears"
+        ],
+        "color": "ff7f29"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Bobby Dodd Stadium",
+      "detail": "8:32 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4368,7 +4322,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T16:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:228",
         "name": "Clemson Tigers",
@@ -4398,9 +4352,55 @@
         "color": "7bafd4"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Clemson, SC)",
-      "detail": "Sat, September 19th at 12:00 PM EDT",
+      "detail": "10:50 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858451",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:135",
+        "name": "Minnesota Golden Gophers",
+        "abbrev": "MINN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Gophers",
+          "MINN",
+          "Minnesota",
+          "Minnesota Golden Gophers"
+        ],
+        "color": "5e0a2f"
+      },
+      "away": {
+        "id": "espn:2006",
+        "name": "Akron Zips",
+        "abbrev": "AKR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+        "logo_dark": null,
+        "aliases": [
+          "AKR",
+          "Akron",
+          "Akron Zips",
+          "Zips"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Huntington Bank Stadium",
+      "detail": "9:27 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4414,7 +4414,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T16:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:326",
         "name": "Texas State Bobcats",
@@ -4445,9 +4445,9 @@
         "color": "068f33"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "UFCU Stadium",
-      "detail": "Sat, September 19th at 12:00 PM EDT",
+      "detail": "10:53 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -14341,18 +14341,18 @@
   ],
   "stories": [
     {
-      "story_id": "49968469",
-      "headline": "Arsenal battered by brilliant Brighton to end perfect start",
-      "summary": "Arsenal's 100% start to their Premier League title defence ended in emphatic fashion as Brighton secured a stunning 3-0 win against Mikel Arteta's dumbstruck side.",
-      "image": "https://a.espncdn.com/photo/2026/0919/r1718979_1296x729_16-9.jpg",
-      "published_utc": "2026-09-19T16:06:40Z",
+      "story_id": "49980158",
+      "headline": "Brighton rout Arsenal to end Premier League champions' 100% record",
+      "summary": "Premier League champions Arsenal lost their 100% record for the season in dramatic fashion as they were routed 3-0 at Brighton and Hove Albion.",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718990_1296x729_16-9.jpg",
+      "published_utc": "2026-09-19T15:56:32Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "PA",
+      "byline": "Jamie Barton",
       "source": "ESPN",
-      "link": "http://www.espn.com/soccer/report/_/gameId/401879274",
+      "link": "https://www.espn.com/soccer/story/_/id/49980158/brighton-rout-arsenal-end-premier-league-champions-100-percent-record",
       "stream_url": "",
-      "body": "Arsenal's 100% start to their Premier League title defence ended in emphatic fashion as Brighton secured a stunning 3-0 win against Mikel Arteta's dumbstruck side.\n\nArsenal arrived at the Amex Stadium with ambitions of equalling a 123-year club record of eight straight victories to start a season, but that piece of history looked in doubt right from the kick-off, with a rampant Brighton side delivering a masterclass against the champions.\n\nPascal Gross blasted Brighton ahead after 31 minutes before Charalampos Kostoulas doubled the hosts' lead on the stroke of half-time.\n\nArteta sprinted down the tunnel in the hope of masterminding a half-time speech which would revive his side's fortunes.\n\nBut Brighton remained on top after the interval and they served Arsenal a dose of their own medicine when Chema Andr\u00e9s headed home from a corner shortly before the hour mark.\n\nA disjointed Arsenal were never at the races and Arteta will now have 21 days to stew over a shock result, which will abruptly end any suggestion of his side cantering to a second league title in as many seasons.\n\nFor Brighton, surely the best result of manager Fabian Hurzeler's career - just days after a brilliant Carabao Cup comeback win at Manchester United - catapults them up to third in the table, just two points off the Gunners.\n\nArteta might have rotated his side for their win at Ipswich earlier in the week, but here he fielded his strongest side - one that simply could not live with their inspired opponents.\n\nAfter just seven minutes Bruno Guimaraes, making his first Premier League start for his new employers, gave the ball away, and Kostoulas tried his luck from range.\n\nDavid Raya got fingertips to the Brighton man's shot, but it was a sign of things to come.\n\nArsenal were pegged in by the relentless Seagulls and the hosts' deserved breakthrough arrived.\n\nGabriel and Riccardo Calafiori allowed Gross far too much time to shoot and his fine 20-yard strike pinged in off Raya's near post.\n\nA case could be made for Raya being Arsenal's MVP last season, but the Spaniard should have done better to divert Gross' long-range strike away from danger.\n\nThe largely anonymous Bukayo Saka fluffed his lines when he failed to get any meaningful contact on a fine Arsenal counter-attack and Brighton raced straight up the other end to increase their advantage.\n\nCalafiori was out of position and, when the ball fell to Kostoulas, the visitors failed to put any pressure on the Greece forward. He unleashed an unstoppable low strike from 22 yards and Raya was beaten again.\n\nIt was virtually the last kick of the first half and Arteta sprinted for the dressing room ahead of a pivotal team-talk, with Arsenal's 100% record hanging in the balance, and then some.\n\nAnd Andres all but ended any hope of a comeback when he leapt unmarked from a corner to head a third for Brighton with 57 minutes on the clock.\n\nBrighton went in search of a fourth and they nearly had it when Pascal Struijk's header, again from a corner, dropped just wide of Raya's post with the goalkeeper swinging at fresh air.\n\nKai Havertz might have landed a consolation for Arsenal in the closing stages, but Bart Verbruggen was equal to the one-on-one -- the keeper's only real test of the match -- while substitute Matt O'Riley could have marked a match to celebrate Brighton's 125-year anniversary with a fourth, but Raya was on hand to spare any further embarrassment."
+      "body": "Premier League champions Arsenal lost their 100% record for the season in dramatic fashion as they were routed 3-0 at Brighton and Hove Albion.\n\nFirst-half strikes from Pascal Gross and Charalampos Kostoulas put the home side in control at the break, before summer signing Chema Andr\u00e9s added a third from a corner on his full home debut.\n\nThe Spaniard's header meant that Arsenal -- which had been defensively excellent this season -- conceded as many goals on Saturday as they had done in the rest of the season combined.\n\nAfter a cagey opening on the south coast, the game sparked into life on the half-hour mark when the in-form Gross found himself with time and space on the edge of the box.\n\nArsenal center backs Gabriel and Ezri Konsa failed to close him down and the German took full advantage, seeing his driven effort crash off David Raya's near post and into the net for Gross' fourth goal in the last five games.\n\nGabriel and Konsa, normally so solid, made the same mistake again on the stroke of halftime as Kostoulas collected a pass from Diego G\u00f3mez, found himself in a similar amount of space and hit a low driven shot between the Arsenal center backs and into the bottom left corner.\n\nJust under 10 minutes into the second half, and just as Arsenal looked like they might be able to mount an unlikely comeback, Brighton put the result beyond all doubt.\n\nGross was involved again, sending a corner to the back post where Andr\u00e9s jumped highest to head the ball beyond his compatriot Raya and spark further celebrations at the Amex Stadium.\n\nArsenal turned to their bench as Mikel Arteta sent on the likes of Eberechi Eze and Viktor Gy\u00f6keres, but it was Kai Havertz who had the best chance to grab a consolation when he raced clean through on goal only to see his low effort saved by the feet of Bart Verbruggen.\n\n- Brighton vs Arsenal LIVE: Premier League updates as hosts run riot against lackluster Gunners\n\n- Transfer rumors, news: Arsenal's Madueke eyed by Premier League rivals\n\n- Arsenal, Mikel Arteta open to Max Dowman loan move\n\nIt meant that Arsenal lost by three or more goals for the first time since May 2023, when they were beaten 3-0 by none other than Brighton.\n\nBrighton's best win of an already impressive season sees them rise to third in the Premier League table, while Manchester City can go three points clear of Arsenal at the top if they beat Sunderland on Sunday."
     },
     {
       "story_id": "48297021",
@@ -14408,7 +14408,7 @@
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/49951327/week-2-predictions-upsets-fantasy-sleepers-stats-2026",
       "stream_url": "",
-      "body": "Week 2 of the 2026 NFL season is off to an exciting start, as the Bills defeated the Lions 41-31 in the first game at Highmark Stadium. But what will happen in the remaining 15 games? We have 15 predictions from our NFL experts.\n\nFirst, betting analyst Pamela Maldonado picks two underdogs who could win outright. Then, analytics writer Seth Walder projected out stat lines for three players. Fantasy football writer Eric Moody gives three sleepers, and analyst Matt Bowen suggests three players who will find the end zone. Finally, analyst Ben Solak lays out four wild-card predictions.\n\nCould the Bengals upset the Texans? Will we see big receiving days for the Dolphins' Malik Washington and Caleb Douglas? Can Eagles running back Saquon Barkley find the end zone? And is it finally time for the Jets to snag an interception? Let's make 15 big predictions for all of Sunday and Monday's action.\n\nJump to:\n\nUpset picks | Projected stat lines\n\nFantasy sleepers, surprises\n\nTD scorers | Other predictions\n\nMaldonado predicts two upsets\n\nJacksonville Jaguars +2.5 at Denver Broncos (+124)\n\nDenver's offense hasn't shown enough to justify laying points. The Broncos produced only 176 yards and 3.7 yards per play in their Week 1 loss to the Chiefs, with quarterback Bo Nix turning it over twice. Jacksonville is bringing a pass rush that generated five sacks against Cleveland, while QB Trevor Lawrence threw four touchdown passes. Defense makes the Broncos the favorite, but the Jaguars have the more trustworthy offense to win outright.\n\nCincinnati Bengals +2.5 at Houston Texans (+120)\n\nThe Bengals' biggest weakness looked better against the Bucs, as quarterback Joe Burrow was sacked only once. If that holds, he gets a Houston defense that just allowed 10.4 yards per pass to Buffalo in Week 1. Houston can obviously pressure Burrow, but if Cincinnati's offensive line continues to improve, it should have enough through the air with Ja'Marr Chase and Tee Higgins.\n\nWalder predicts three stat lines\n\nRhamondre Stevenson, RB, New England Patriots: 16 carries, 63 rushing yards; 5 receptions, 42 receiving yards, 1 receiving touchdown\n\nSince 2023, running backs catch passes on 8% of dropbacks against man coverage but 15% against zone coverage. Why does that matter here? Because in Week 1 against the Falcons, the Steelers ran zone coverage 89% of the time under new defensive coordinator Patrick Graham. So I expect Stevenson to have a big day in the receiving game.\n\nAnd while I don't expect the Patriots will be as run-heavy as they were in Week 1 -- which certainly didn't work out for them! -- New England should be ahead by enough early to run the ball late in the game. All in all, it should be a healthy workload for Stevenson.\n\nRiq Woolen, CB, Philadelphia Eagles: 34 coverage snaps, 1 reception allowed for 7 yards on four targets, 1 interception\n\nWoolen had a strong Week 1 against the Commanders, allowing just one reception for 1 yard. Granted, that one reception was a touchdown to WR Stefon Diggs, but I'm not sure that play was entirely on him. Either way, it was a strong game for Woolen, who also scored highly in my cornerback metric. Now, he gets to face second-year Titans QB Cam Ward, who struggled against the Jets in Week 1. Woolen should have the advantage against Carnell Tate, Calvin Ridley or Elic Ayomanor.\n\nMalik Washington, WR, Miami Dolphins: 7 receptions, 77 receiving yards, 1 touchdown\n\nWashington ran a route on 84% of Miami's dropbacks in Week 1, the highest rate on the Dolphins. He was also targeted eight times but had just three receptions. His 99 incomplete air yards was tied for second among all players, a number that indicates some positive regression could be coming in Week 2.\n\nThe Dolphins threw a little more than expected versus the Raiders, and they'll have to pass plenty against the 49ers since this looks likely to be a blowout loss. Washington, who frequently plays out of the slot, historically runs shorter routes and could be an option underneath in garbage time.\n\nMoody predicts three fantasy sleepers\n\nJordan Love, QB, Green Bay Packers (rostered in 43.9% of ESPN leagues)\n\nLove threw for 387 yards in Week 1 against the Vikings, the second-highest total of his career, and scored 19.4 fantasy points on 42 pass attempts. Green Bay struggled to run the ball without Josh Jacobs, and its offensive line will still be banged up in Week 2 against the Jets. But with Christian Watson and Matthew Golden combining for 48.2 fantasy points last week, Love should be an appealing streaming option.\n\nCaleb Douglas, WR, Miami Dolphins (34.9%)\n\nDouglas caught five of seven targets for 94 yards, scoring 14.4 fantasy points in his NFL debut against the Raiders. He played more than 90% of Miami's offensive snaps and led all rookies in targets, receptions and receiving yards. The Dolphins enter Week 2 as double-digit underdogs against the 49ers, so Douglas could benefit from a pass-heavy game script.\n\nMack Hollins, WR, New England Patriots (5.2%)\n\nHollins outsnapped Romeo Doubs in the first half against the Seahawks in Week 1, and he led the Patriots receivers in snaps after A.J. Brown exited with an ankle injury. Hollins should continue to see significant playing time against Pittsburgh now that Brown is on injured reserve.\n\nHolins received at least six targets in four games last season, averaging 12.8 fantasy points in those contests. He finished with five targets and 9.1 fantasy points in Week 1.\n\nBowen predicts three touchdown scorers\n\nDerrick Henry, RB, Baltimore Ravens\n\nHenry rushed for three touchdowns in the Ravens' Week 1 win over the Colts -- including two on carries inside the 5-yard line. Under new coordinator Declan Doyle, the Ravens used schemed zone concepts and creative tight end movement to put Henry on a north/south track. That should work versus a Saints defense that allowed two rushing scores in New Orleans' Week 1 loss to the Lions.\n\nGeorge Pickens, WR, Dallas Cowboys\n\nPickens caught just three of six targets for 28 yards in the Cowboys' Week 1 loss to the Giants, including two drops. But that doesn't mean quarterback Dak Prescott will stop going to Pickens for big plays. The vertical pass game is a key element of Dallas' offense, and it could lead Pickens into the end zone.\n\nSaquon Barkley, RB, Philadelphia Eagles\n\nBarkley did have 15 carries in the Week 1 win over the Commanders, with two goal-to-go attempts, so we can bet on him seeing the ball in scoring position. Plus, he has home run ability to score from outside the red zone. Yes, the Eagles need more up front to create consistent daylight for Barkley, but he gets a matchup against a Titans defense that gave up just 152 rushing yards to the Jets.\n\nSolak makes four more predictions\n\nRaiders RB Ashton Jeanty will lead the league in scrimmage yards\n\nJeanty led the Raiders in both rushing yards (102) and receiving yards (45) last week in the Raiders' win over the Dolphins. Without Brock Bowers (meniscus trim) for another week and facing another light box defense from the Chargers, I expect Jeanty to once again thrive on the ground and in the air. Jeanty was seventh last week with 147 scrimmage yards, but his longest play was only 15 yards. With a couple home run plays on Sunday, he could knock on the door for 200.\n\nThe Jets will get their first interception\n\nThe last Jets pick was on Jan. 5, 2025 -- 623 days from their matchup with the Packers on Sunday. Green Bay's pass protection is a glaring issue, and while quarterback Jordan Love is around league-average in his interception rate, the 16 hits he took in Week 1 could have him looking to get rid of the ball faster in Week 2. I'm banking on safety Minkah Fitzpatrick to track down a deep heave and end the drought.\n\nDid I predict the Jets to break the drought last week? Yes. Will I do it again next week if they fail again? Who's to say?\n\nFalcons QB Jack Strand will score a touchdown\n\nWho? Strand is an undrafted free agent out of Minnesota State-Moorhead, a Division II school just opposite Fargo on the border of North Dakota and Minnesota. He was the QB4 on the roster during training camp, but with Michael Penix Jr. and Tua Tagovailoa still hurt, Strand is the QB2 and might be QB1 after Cooper Rush's rough Week 1 showing.\n\nEven if Rush gets the Week 2 start, Strand is an enormous player (6-foot-5, 240 pounds) who should get short-yardage usage as a QB sneak expert. If the Falcons get inside the 2-yard line against the Panthers, they should feed Strand.\n\nThere will be another weird forward pass/fumble ruling\n\nEarly doors, but it feels like the forward-pass-or-fumble line will be blurry this season. Lions quarterback Jared Goff had a fumble that was called an incomplete pass in Week 1 for the simple intention to throw the ball forward. Bo Nix had another one on \"Monday Night Football\" that was at least a little closer to the gray area.\n\nThere's always one refereeing decision that gets the spotlight every season -- complete pass, offensive tackle false starts and illegal forward motions are recent examples -- and this particular plane is ready to take off. One bad call in a key moment, and then it's conspiracy theory time."
+      "body": "Week 2 of the 2026 NFL season is off to an exciting start, as the Bills defeated the Lions 41-31 in the first game at Highmark Stadium. But what will happen in the remaining 15 games? We have 15 predictions from our NFL experts.\n\nFirst, betting analyst Pamela Maldonado picks two underdogs who could win outright. Then, analytics writer Seth Walder projected out stat lines for three players. Fantasy football writer Eric Moody gives three sleepers, and analyst Matt Bowen suggests three players who will find the end zone. Finally, analyst Ben Solak lays out four wild-card predictions.\n\nCould the Bengals upset the Texans? Will we see big receiving days for the Dolphins' Malik Washington and Caleb Douglas? Can Eagles running back Saquon Barkley find the end zone? And is it finally time for the Jets to snag an interception? Let's make 15 big predictions for all of Sunday and Monday's action.\n\nJump to:\n\nUpset picks | Projected stat lines\n\nFantasy sleepers, surprises\n\nTD scorers | Other predictions\n\nMaldonado predicts two upsets\n\nJacksonville Jaguars +2.5 at Denver Broncos (+124)\n\nDenver's offense hasn't shown enough to justify laying points. The Broncos produced only 176 yards and 3.7 yards per play in their Week 1 loss to the Chiefs, with quarterback Bo Nix turning it over twice. Jacksonville is bringing a pass rush that generated five sacks against Cleveland, while QB Trevor Lawrence threw four touchdown passes. Defense makes the Broncos the favorite, but the Jaguars have the more trustworthy offense to win outright.\n\nCincinnati Bengals +2.5 at Houston Texans (+120)\n\nThe Bengals' biggest weakness looked better against the Bucs, as quarterback Joe Burrow was sacked only once. If that holds, he gets a Houston defense that just allowed 10.4 yards per pass to Buffalo in Week 1. Houston can obviously pressure Burrow, but if Cincinnati's offensive line continues to improve, it should have enough through the air with Ja'Marr Chase and Tee Higgins.\n\nWalder predicts three stat lines\n\nRhamondre Stevenson, RB, New England Patriots: 16 carries, 63 rushing yards; 5 receptions, 42 receiving yards, 1 receiving touchdown\n\nSince 2023, running backs catch passes on 8% of dropbacks against man coverage but 15% against zone coverage. Why does that matter here? Because in Week 1 against the Falcons, the Steelers ran zone coverage 89% of the time under new defensive coordinator Patrick Graham. So I expect Stevenson to have a big day in the receiving game.\n\nAnd while I don't expect the Patriots will be as run-heavy as they were in Week 1 -- which certainly didn't work out for them! -- New England should be ahead by enough early to run the ball late in the game. All in all, it should be a healthy workload for Stevenson.\n\nRiq Woolen, CB, Philadelphia Eagles: 34 coverage snaps, 1 reception allowed for 7 yards on four targets, 1 interception\n\nWoolen had a strong Week 1 against the Commanders, allowing just one reception for 1 yard. Granted, that one reception was a touchdown to WR Stefon Diggs, but I'm not sure that play was entirely on him. Either way, it was a strong game for Woolen, who also scored highly in my cornerback metric. Now, he gets to face second-year Titans QB Cam Ward, who struggled against the Jets in Week 1. Woolen should have the advantage against Carnell Tate, Calvin Ridley or Elic Ayomanor.\n\nMalik Washington, WR, Miami Dolphins: 7 receptions, 77 receiving yards, 1 touchdown\n\nWashington ran a route on 84% of Miami's dropbacks in Week 1, the highest rate on the Dolphins. He was also targeted eight times but had just three receptions. His 99 incomplete air yards was tied for second among all players, a number that indicates some positive regression could be coming in Week 2.\n\nThe Dolphins threw a little more than expected versus the Raiders, and they'll have to pass plenty against the 49ers since this looks likely to be a blowout loss. Washington, who frequently plays out of the slot, historically runs shorter routes and could be an option underneath in garbage time.\n\nMoody predicts three fantasy sleepers\n\nJordan Love, QB, Green Bay Packers (rostered in 43.9% of ESPN leagues)\n\nLove threw for 387 yards in Week 1 against the Vikings, the second-highest total of his career, and scored 19.4 fantasy points on 42 pass attempts. Green Bay struggled to run the ball without Josh Jacobs, and its offensive line will still be banged up in Week 2 against the Jets. But with Christian Watson and Matthew Golden combining for 48.2 fantasy points last week, Love should be an appealing streaming option.\n\nCaleb Douglas, WR, Miami Dolphins (34.9%)\n\nDouglas caught five of seven targets for 94 yards, scoring 14.4 fantasy points in his NFL debut against the Raiders. He played more than 90% of Miami's offensive snaps and led all rookies in targets, receptions and receiving yards. The Dolphins enter Week 2 as double-digit underdogs against the 49ers, so Douglas could benefit from a pass-heavy game script.\n\nMack Hollins, WR, New England Patriots (5.2%)\n\nHollins outsnapped Romeo Doubs in the first half against the Seahawks in Week 1, and he led the Patriots receivers in snaps after A.J. Brown exited with an ankle injury. Hollins should continue to see significant playing time against Pittsburgh now that Brown is on injured reserve.\n\nHolins received at least six targets in four games last season, averaging 12.8 fantasy points in those contests. He finished with five targets and 9.1 fantasy points in Week 1.\n\nBowen predicts three touchdown scorers\n\nDerrick Henry, RB, Baltimore Ravens\n\nHenry rushed for three touchdowns in the Ravens' Week 1 win over the Colts -- including two on carries inside the 5-yard line. Under new coordinator Declan Doyle, the Ravens used schemed zone concepts and creative tight end movement to put Henry on a north/south track. That should work versus a Saints defense that allowed two rushing scores in New Orleans' Week 1 loss to the Lions.\n\nGeorge Pickens, WR, Dallas Cowboys\n\nPickens caught just three of six targets for 28 yards in the Cowboys' Week 1 loss to the Giants, including two drops. But that doesn't mean quarterback Dak Prescott will stop going to Pickens for big plays. The vertical pass game is a key element of Dallas' offense, and it could lead Pickens into the end zone.\n\nSaquon Barkley, RB, Philadelphia Eagles\n\nBarkley did have 15 carries in the Week 1 win over the Commanders, with two goal-to-go attempts, so we can bet on him seeing the ball in scoring position. Plus, he has home run ability to score from outside the red zone. Yes, the Eagles need more up front to create consistent daylight for Barkley, but he gets a matchup against a Titans defense that gave up just 152 rushing yards to the Jets.\n\nSolak makes four more predictions\n\nRaiders RB Ashton Jeanty will lead the league in scrimmage yards\n\nJeanty led the Raiders in both rushing yards (102) and receiving yards (45) last week in the Raiders' win over the Dolphins. Without Brock Bowers (meniscus trim) for another week and facing another light box defense from the Chargers, I expect Jeanty to once again thrive on the ground and in the air. Jeanty was seventh last week with 147 scrimmage yards, but his longest play was only 15 yards. With a couple home run plays on Sunday, he could knock on the door for 200.\n\nThe Jets will get their first interception\n\nThe last Jets pick was on Jan. 5, 2025 -- 623 days from their matchup with the Packers on Sunday. Green Bay's pass protection is a glaring issue, and while quarterback Jordan Love is around league-average in his interception rate, the 16 hits he took in Week 1 could have him looking to get rid of the ball faster in Week 2. I'm banking on safety Minkah Fitzpatrick to track down a deep heave and end the drought.\n\nDid I predict the Jets to break the drought last week? Yes. Will I do it again next week if they fail again? Who's to say?\n\nFalcons QB Jack Strand will score a touchdown\n\nWho? Strand is an undrafted free agent out of Minnesota State-Moorhead, a Division II school just opposite Fargo on the border of North Dakota and Minnesota. He was the QB4 on the roster during training camp, but with Michael Penix Jr. and Tua Tagovailoa still hurt, Strand is the QB2 behind Cooper Rush, who had a rough Week 1 showing.\n\nEven with Rush getting the Week 2 start, Strand is an enormous player (6-foot-5, 240 pounds) who should get short-yardage usage as a QB sneak expert. If the Falcons get inside the 2-yard line against the Panthers, they should feed Strand.\n\nThere will be another weird forward pass/fumble ruling\n\nEarly doors, but it feels like the forward-pass-or-fumble line will be blurry this season. Lions quarterback Jared Goff had a fumble that was called an incomplete pass in Week 1 for the simple intention to throw the ball forward. Bo Nix had another one on \"Monday Night Football\" that was at least a little closer to the gray area.\n\nThere's always one refereeing decision that gets the spotlight every season -- complete pass, offensive tackle false starts and illegal forward motions are recent examples -- and this particular plane is ready to take off. One bad call in a key moment, and then it's conspiracy theory time."
     },
     {
       "story_id": "49977370",
@@ -14509,18 +14509,18 @@
       "body": "The Roosters booked their place through to the preliminary finals and a date with the Dolphins after they punished a depleted Sharks side who lost star Nico Hynes in the opening minutes.\n\nHere are three things we learned from the game:\n\nThe Roosters are tough with a capital T\n\nWhy were we giving up on this team? Can someone explain to me the reasoning behind throwing in the towel on the Eastern Suburbs team? They may have escaped into a prelim final but it wasn't the processional event that they expected.\n\nHow else do you explain a team which rolled into Parramatta Stadium a week ago and got handled? What other reason is there to apply to a squad which got embarrassed than 'they just wanted it more'? It doesn't matter how any potential opponents of either the Roosters or Panthers approached a game like this, they emerged victorious. This is a Roosters team which has really struggled to get on top of any opposition packs in big games this year, but had no such woes on Saturday night.\n\nI have no clue which team is going to win the title this year - but what I do know is that there are multiple teams who have their hands thrown up in the air with no regard for the rest of us.\n\nEveryone involved with the Sharks should be embarrassed\n\nThis is not a team which I would associate with winning regularly, or even with taking care of business with a nod to the future. Instead, it was a meek season end with very little opposition thrown up.\n\nThis was meant to be the culmination of a team whose reputation was far greater than the reputation which we thought preceded it. Instead, absolute garbage. The Sharks,for the sixth straight year, lined up with absolute garbage. A meek and weak performance with the world watching. Why even bother? What does this team do in 2027? Who cares.\n\nThere is genuinely no reason why you should care about what this Cronulla team might do in 2027. It just doesn't matter. It's a waste of everyone's time to try and assume otherwise. They've had their chance to win it all and that is gone now.\n\nA forward pack can hold its own if given the chance\n\nEvery year there are a few Roosters forwards sticking their hands on their heads, it's a game where a club which is desperate for premierships finds some young forwards who want to show the rest of the club that there's no reason to give up.\n\nFahu Whyte only played the opening 25 minutes but he was superb. Siua Wong gave the Roosters 80 minutes of superb footy. Angus Crichton and Nat Butcher came off the bench to make real differences for the Roosters as well. Whatever happens next week and possibly the week after, Trent Robinson's men are ready for it."
     },
     {
-      "story_id": "49980158",
-      "headline": "Brighton rout Arsenal to end Premier League champions' 100% record",
-      "summary": "Premier League champions Arsenal lost their 100% record for the season in dramatic fashion as they were routed 3-0 at Brighton and Hove Albion.",
-      "image": "https://a.espncdn.com/photo/2026/0919/r1718990_1296x729_16-9.jpg",
-      "published_utc": "2026-09-19T15:56:32Z",
+      "story_id": "49944459",
+      "headline": "European soccer live updates: Brighton humble Premier League champs Arsenal",
+      "summary": "Another weekend of European soccer action continues with Brighton & Hove Albion hosting Premier League leaders and defending champions Arsenal.",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718991_1296x729_16-9.jpg",
+      "published_utc": "2026-09-19T15:55:58Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "Jamie Barton",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49980158/brighton-rout-arsenal-end-premier-league-champions-100-percent-record",
+      "link": "https://www.espn.com/soccer/story/_/id/49944459/european-soccer-live-updates-tottenham-aston-villa-brighton-arsenal-inter-roma-sevilla-barcelona",
       "stream_url": "",
-      "body": "Premier League champions Arsenal lost their 100% record for the season in dramatic fashion as they were routed 3-0 at Brighton and Hove Albion.\n\nFirst-half strikes from Pascal Gross and Charalampos Kostoulas put the home side in control at the break, before summer signing Chema Andr\u00e9s added a third from a corner on his full home debut.\n\nThe Spaniard's header meant that Arsenal -- who had been defensively excellent this season -- conceded as many goals on Saturday as they had done in the rest of the season combined.\n\nAfter a cagey opening on the south coast, the game sparked into life on the half-hour mark when the in-form Gross found himself with time and space on the edge of the box.\n\nArsenal centre-backs Gabriel and Ezri Konsa failed to close him down and the German took full advantage, seeing his driven effort crash off David Raya's near post and into the net for Gross' fourth goal in the last five games.\n\nGabriel and Konsa, normally so solid, made the same mistake again on the stroke of halftime as Kostoulas collected a pass from Diego G\u00f3mez, found himself in a similar amount of space and hit a low driven shot between the Arsenal centre-backs and into the bottom left corner.\n\nJust under 10 minutes into the second half, and just as Arsenal looked like they might be able to mount an unlikely comeback, Brighton put the result beyond all doubt.\n\nGross was involved again, sending a corner to the back post where Andr\u00e9s jumped highest to head the ball beyond his compatriot Raya and spark further celebrations at the Amex Stadium.\n\nArsenal turned to their bench as Mikel Arteta sent on the likes of Eberechi Eze and Viktor Gy\u00f6keres, but it was Kai Havertz who had the best chance to grab a consolation when he raced clean through on goal only to see his low effort saved by the feet of Bart Verbruggen.\n\n- Brighton vs Arsenal LIVE: Premier League updates as hosts run riot against lackluster Gunners\n\n- Transfer rumors, news: Arsenal's Madueke eyed by Premier League rivals\n\n- Arsenal, Mikel Arteta open to Max Dowman loan move\n\nIt meant that Arsenal lost by three or more goals for the first time since May 2023, when they were beaten 3-0 by none other than Brighton.\n\nBrighton's best win of an already impressive season sees them rise to third in the Premier League table, while Manchester City can go three points clear of Arsenal at the top if they beat Sunderland on Sunday."
+      "body": "It's another weekend of European soccer and the final one before the international break!\n\nIn the Premier League, Saturday's action began with Aston Villa beating Tottenham Hotspur 3-2 in London. Both teams were chasing their first league victory of the season and, while Spurs are still winless and in the bottom three, they did score their first goals on the campaign.\n\nNext up, Brighton & Hove Albion welcomed league leaders Arsenal to England's south coast, and promptly dispatched the defending champions 3-0. Finally, Nottingham Forest host a Coventry City side still searching for their first win and goal of the season.\n\nElsewhere, AS Roma host Inter Milan in a huge clash between Serie A's current top two. In the Bundesliga, Stuttgart take on Borussia Dortmund, while in LaLiga, Sevilla host league leaders Barcelona.\n\nEnjoy all the updates from Saturday's matches."
     },
     {
       "story_id": "49979779",
