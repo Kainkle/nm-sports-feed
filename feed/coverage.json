@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-19T13:14:03.635210+00:00",
+  "generated_utc": "2026-09-19T13:23:42.845180+00:00",
   "window_days": 2,
-  "total_events": 305,
+  "total_events": 310,
   "competitions": [
     {
       "competition": "aew",
@@ -91,16 +91,16 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 11,
+      "events": 15,
       "date_range": [
         "2026-09-16",
         "2026-09-20"
       ],
-      "explicit_status": 11,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 11,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "f1",
@@ -119,14 +119,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 8,
+      "events": 9,
       "date_range": [
-        "2026-09-19",
+        "2026-09-18",
         "2026-09-20"
       ],
-      "explicit_status": 8,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -430,18 +430,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:soccer/esp.1",
-      "date": "2026-09-19",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260919: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:soccer/ger.1",
-      "date": "2026-09-18",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260918: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
