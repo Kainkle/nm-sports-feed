@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T01:28:24.530302+00:00",
+  "generated_utc": "2026-09-19T01:46:50.072165+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401882875",
@@ -2149,7 +2149,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-18T22:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:113",
         "name": "Cincinnati Reds",
@@ -2180,7 +2180,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Umpire review",
+      "source_status": "Final/Game Over",
       "venue": "Great American Ball Park",
       "detail": "",
       "game_number": 1,
@@ -2226,7 +2226,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "PNC Park",
       "detail": "",
       "game_number": 1,
@@ -2457,7 +2457,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allegacy Federal Credit Union Stadium",
-      "detail": "15:00 - 3rd Quarter",
+      "detail": "7:42 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2471,7 +2471,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-18T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:17606",
         "name": "New York City FC",
@@ -2499,9 +2499,9 @@
         "color": "ba0c2f"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Yankee Stadium",
-      "detail": "86'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2547,7 +2547,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Coca-Cola Coliseum",
-      "detail": "6:45 - 4th Quarter",
+      "detail": "15.4 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2561,7 +2561,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-09-18T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:8",
         "name": "Minnesota Lynx",
@@ -2591,9 +2591,9 @@
         "color": "86cebc"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Target Center",
-      "detail": "3:12 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2720,9 +2720,9 @@
         "color": "c8102e"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Galaxy Stadium",
-      "detail": "2:00 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2951,7 +2951,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Angel Stadium",
       "detail": "",
       "game_number": 1,
@@ -2967,7 +2967,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-19T01:40:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:135",
         "name": "San Diego Padres",
@@ -2997,7 +2997,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/In Progress",
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
@@ -3045,7 +3045,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Chase Field",
       "detail": "",
       "game_number": 1,
@@ -3107,7 +3107,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-19T02:15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "mlb:119",
         "name": "Los Angeles Dodgers",
@@ -3138,7 +3138,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Pre-Game",
+      "source_status": "Live/Warmup",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "game_number": 1,
@@ -14680,6 +14680,12 @@
           "live": true
         },
         {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/4/5",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 5",
+          "part": true,
+          "live": true
+        },
+        {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/5/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
@@ -14700,6 +14706,12 @@
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/5/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/5/5",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         }
