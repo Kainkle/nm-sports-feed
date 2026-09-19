@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-19T13:03:31.511562+00:00",
+  "generated_utc": "2026-09-19T13:14:03.635210+00:00",
   "window_days": 2,
-  "total_events": 310,
+  "total_events": 305,
   "competitions": [
     {
       "competition": "aew",
@@ -91,16 +91,16 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 15,
+      "events": 11,
       "date_range": [
         "2026-09-16",
         "2026-09-20"
       ],
-      "explicit_status": 15,
+      "explicit_status": 11,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 11,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "f1",
@@ -119,14 +119,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 9,
+      "events": 8,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-20"
       ],
-      "explicit_status": 9,
+      "explicit_status": 8,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 8,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -156,7 +156,7 @@
       "status_coverage_pct": 100,
       "both_logos": 10,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 2
     },
     {
       "competition": "mlb",
@@ -430,7 +430,18 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:soccer/esp.1",
+      "date": "2026-09-19",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260919: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-09-18",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260918: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
