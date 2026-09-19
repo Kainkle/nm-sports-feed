@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T23:11:17.038789+00:00",
+  "generated_utc": "2026-09-19T23:21:39.187148+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401882875",
@@ -5079,7 +5079,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "SHI Stadium",
-      "detail": "4:22 - 4th Quarter",
+      "detail": "0:52 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5093,7 +5093,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T19:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:97",
         "name": "Louisville Cardinals",
@@ -5122,9 +5122,9 @@
         "color": "a80000"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "L&N Federal Credit Union Stadium",
-      "detail": "1:51 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5495,7 +5495,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "6:22 - 4th Quarter",
+      "detail": "0:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5541,7 +5541,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kinnick Stadium",
-      "detail": "9:10 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5555,7 +5555,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T20:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:150",
         "name": "Duke Blue Devils",
@@ -5585,55 +5585,9 @@
         "color": "8c1515"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Wallace Wade Stadium",
-      "detail": "2:00 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866422",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T20:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2335",
-        "name": "Liberty Flames",
-        "abbrev": "LIB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-        "logo_dark": null,
-        "aliases": [
-          "Flames",
-          "LIB",
-          "Liberty",
-          "Liberty Flames"
-        ],
-        "color": "0a254e"
-      },
-      "away": {
-        "id": "espn:2050",
-        "name": "Ball State Cardinals",
-        "abbrev": "BALL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
-        "logo_dark": null,
-        "aliases": [
-          "BALL",
-          "Ball State",
-          "Ball State Cardinals",
-          "Cardinals"
-        ],
-        "color": "ba0c2f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Williams Stadium (VA)",
-      "detail": "1:51 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5679,7 +5633,53 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "McLane Stadium",
-      "detail": "4:59 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866422",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T20:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2335",
+        "name": "Liberty Flames",
+        "abbrev": "LIB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+        "logo_dark": null,
+        "aliases": [
+          "Flames",
+          "LIB",
+          "Liberty",
+          "Liberty Flames"
+        ],
+        "color": "0a254e"
+      },
+      "away": {
+        "id": "espn:2050",
+        "name": "Ball State Cardinals",
+        "abbrev": "BALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+        "logo_dark": null,
+        "aliases": [
+          "BALL",
+          "Ball State",
+          "Ball State Cardinals",
+          "Cardinals"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Williams Stadium (VA)",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5773,7 +5773,7 @@
       "venue": "Tropicana Field",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "-hUyX9AsVj0",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5864,7 +5864,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Malone Stadium",
-      "detail": "14:03 - 4th Quarter",
+      "detail": "10:16 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5951,7 +5951,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bryant-Denny Stadium",
-      "detail": "1:37 - 2nd Quarter",
+      "detail": "0:34 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6044,7 +6044,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "S.B. Ballard Stadium",
-      "detail": "9:17 - 2nd Quarter",
+      "detail": "6:02 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6090,7 +6090,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Flagler Credit Union Stadium",
-      "detail": "4:32 - 2nd Quarter",
+      "detail": "1:39 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6227,7 +6227,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Robert W. Plaster Stadium",
-      "detail": "1:33 - 1st Quarter",
+      "detail": "14:55 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6504,7 +6504,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium",
-      "detail": "12:25 - 1st Quarter",
+      "detail": "6:52 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6550,7 +6550,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Jordan-Hare Stadium",
-      "detail": "13:29 - 1st Quarter",
+      "detail": "11:35 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6596,7 +6596,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Acrisure Bounce House",
-      "detail": "12:06 - 1st Quarter",
+      "detail": "9:36 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6644,7 +6644,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Boone Pickens Stadium",
-      "detail": "12:08 - 1st Quarter",
+      "detail": "7:11 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6690,7 +6690,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "M. M. Roberts Stadium",
-      "detail": "10:11 - 1st Quarter",
+      "detail": "7:50 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6736,7 +6736,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Simmons Bank Liberty Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "7:32 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6783,193 +6783,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rice Stadium",
-      "detail": "11:41 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864443",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2393",
-        "name": "Middle Tennessee Blue Raiders",
-        "abbrev": "MTSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Raiders",
-          "MTSU",
-          "Middle Tennessee",
-          "Middle Tennessee Blue Raiders"
-        ],
-        "color": "036eb7"
-      },
-      "away": {
-        "id": "espn:2440",
-        "name": "Nevada Wolf Pack",
-        "abbrev": "NEV",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-        "logo_dark": null,
-        "aliases": [
-          "NEV",
-          "Nevada",
-          "Nevada Wolf Pack",
-          "Wolf Pack"
-        ],
-        "color": "041e42"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Johnny \"Red\" Floyd Stadium",
-      "detail": "11:36 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866423",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:6",
-        "name": "South Alabama Jaguars",
-        "abbrev": "USA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jaguars",
-          "South Alabama",
-          "South Alabama Jaguars",
-          "USA"
-        ],
-        "color": "00205b"
-      },
-      "away": {
-        "id": "espn:195",
-        "name": "Ohio Bobcats",
-        "abbrev": "OHIO",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bobcats",
-          "OHIO",
-          "Ohio",
-          "Ohio Bobcats"
-        ],
-        "color": "154734"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Hancock Whitney Stadium",
-      "detail": "12:07 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401869948",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:55",
-        "name": "Jacksonville State Gamecocks",
-        "abbrev": "JXST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-        "logo_dark": null,
-        "aliases": [
-          "Gamecocks",
-          "JXST",
-          "Jacksonville State",
-          "Jacksonville State Gamecocks",
-          "Jax State"
-        ],
-        "color": "cc0000"
-      },
-      "away": {
-        "id": "espn:290",
-        "name": "Georgia Southern Eagles",
-        "abbrev": "GASO",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-        "logo_dark": null,
-        "aliases": [
-          "Eagles",
-          "GA Southern",
-          "GASO",
-          "Georgia Southern",
-          "Georgia Southern Eagles"
-        ],
-        "color": "041e42"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "AmFirst Stadium",
-      "detail": "8:43 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401870764",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2534",
-        "name": "Sam Houston Bearkats",
-        "abbrev": "SHSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bearkats",
-          "SHSU",
-          "Sam Houston",
-          "Sam Houston Bearkats"
-        ],
-        "color": "f56423"
-      },
-      "away": {
-        "id": "espn:2447",
-        "name": "Nicholls Colonels",
-        "abbrev": "NICH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
-        "logo_dark": null,
-        "aliases": [
-          "Colonels",
-          "NICH",
-          "Nicholls",
-          "Nicholls Colonels"
-        ],
-        "color": "C41230"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Elliott T. Bowers Stadium",
-      "detail": "12:21 - 1st Quarter",
+      "detail": "8:06 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7025,6 +6839,192 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401864443",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2393",
+        "name": "Middle Tennessee Blue Raiders",
+        "abbrev": "MTSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Raiders",
+          "MTSU",
+          "Middle Tennessee",
+          "Middle Tennessee Blue Raiders"
+        ],
+        "color": "036eb7"
+      },
+      "away": {
+        "id": "espn:2440",
+        "name": "Nevada Wolf Pack",
+        "abbrev": "NEV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+        "logo_dark": null,
+        "aliases": [
+          "NEV",
+          "Nevada",
+          "Nevada Wolf Pack",
+          "Wolf Pack"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Johnny \"Red\" Floyd Stadium",
+      "detail": "5:28 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866423",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:6",
+        "name": "South Alabama Jaguars",
+        "abbrev": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jaguars",
+          "South Alabama",
+          "South Alabama Jaguars",
+          "USA"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:195",
+        "name": "Ohio Bobcats",
+        "abbrev": "OHIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "OHIO",
+          "Ohio",
+          "Ohio Bobcats"
+        ],
+        "color": "154734"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Hancock Whitney Stadium",
+      "detail": "7:35 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869948",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:55",
+        "name": "Jacksonville State Gamecocks",
+        "abbrev": "JXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "JXST",
+          "Jacksonville State",
+          "Jacksonville State Gamecocks",
+          "Jax State"
+        ],
+        "color": "cc0000"
+      },
+      "away": {
+        "id": "espn:290",
+        "name": "Georgia Southern Eagles",
+        "abbrev": "GASO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "GA Southern",
+          "GASO",
+          "Georgia Southern",
+          "Georgia Southern Eagles"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "AmFirst Stadium",
+      "detail": "4:48 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401870764",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2534",
+        "name": "Sam Houston Bearkats",
+        "abbrev": "SHSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearkats",
+          "SHSU",
+          "Sam Houston",
+          "Sam Houston Bearkats"
+        ],
+        "color": "f56423"
+      },
+      "away": {
+        "id": "espn:2447",
+        "name": "Nicholls Colonels",
+        "abbrev": "NICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+        "logo_dark": null,
+        "aliases": [
+          "Colonels",
+          "NICH",
+          "Nicholls",
+          "Nicholls Colonels"
+        ],
+        "color": "C41230"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Elliott T. Bowers Stadium",
+      "detail": "10:24 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401857199",
       "sport": "basketball",
       "competition_id": "wnba",
@@ -7062,7 +7062,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "7:00 - 1st Quarter",
+      "detail": "2:30 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7198,7 +7198,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Busch Stadium",
       "detail": "",
       "game_number": 1,
@@ -7214,7 +7214,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T23:15Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:158",
         "name": "Nebraska Cornhuskers",
@@ -7244,9 +7244,9 @@
         "color": "00A26B"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Lincoln, NE)",
-      "detail": "Sat, September 19th at 7:15 PM EDT",
+      "detail": "12:46 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7260,7 +7260,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T23:15Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:264",
         "name": "Washington Huskies",
@@ -7291,9 +7291,9 @@
         "color": "a10022"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Husky Stadium",
-      "detail": "Sat, September 19th at 7:15 PM EDT",
+      "detail": "12:02 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -14355,20 +14355,6 @@
       "body": ""
     },
     {
-      "story_id": "49953092",
-      "headline": "UFC 331: Live results and analysis for Van vs. Pantoja 2",
-      "summary": "Follow as Alexandre Pantoja attempts to reclaim the flyweight title against Joshua Van at UFC 331.",
-      "image": "https://a.espncdn.com/photo/2026/0917/r1718144_1296x729_16-9.jpg",
-      "published_utc": "2026-09-19T23:03:20Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "ESPN Staff Profile",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mma/story/_/id/49953092/ufc-331-live-results-analysis-joshua-van-vs-alexandre-pantoja-2",
-      "stream_url": "",
-      "body": "The men's flyweight division takes center stage Saturday night. Former champion Alexandre Pantoja returns from a nine-month layoff to challenge champion Joshua Van in a main event rematch at UFC 331 at Crypto.com Arena in Los Angeles. The main card begins at 9 p.m. ET.\n\nPantoja, ESPN's No. 8-ranked pound-for-pound fighter, suffered a dislocated elbow in the opening seconds of his first fight against Van at UFC 323 in December, giving Van the TKO win and the men's flyweight title. While Pantoja recovered from injury, Van defended the belt against Tatsuro Taira, earning a fifth-round knockout at UFC 328 in May.\n\nTop-10 lightweights Arman Tsarukyan and Mauricio Ruffy meet in the co-main event. Tsarukyan hasn't been in the Octagon since November 2025, but don't expect him to be rusty. One of the promotion's best grapplers has stayed sharp in competitive wrestling matches with RAF and has become a fan favorite on social media. Ruffy, meanwhile, has made a career out of knocking opponents out. Thirteen of his 14 career wins have come via KO, including his two 2026 fights against Rafael Fiziev and Michael Chandler.\n\nBrett Okamoto, Jeff Wagenheim and Dre Waters break down all the action from Los Angeles."
-    },
-    {
       "story_id": "49954179",
       "headline": "NFL Week 2 uniforms: Rams debut 'Classic Sol,' Ravens go all-white",
       "summary": "Here's a look at what each NFL team is wearing in Week 2, led by a new alternate look from the Los Angeles Rams.",
@@ -14395,6 +14381,20 @@
       "link": "https://www.espn.com/video/clip/_/id/49982774/arsenal-lost-one-game-there-no-need-panic",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0919/dm_260919_Hislop_Arsenal_have_lost_one_game_theres_no_need_to_panic/dm_260919_Hislop_Arsenal_have_lost_one_game_theres_no_need_to_panic/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49953092",
+      "headline": "UFC 331: Live results and analysis for Van vs. Pantoja 2",
+      "summary": "Follow as Alexandre Pantoja attempts to reclaim the flyweight title against Joshua Van at UFC 331.",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1718144_1296x729_16-9.jpg",
+      "published_utc": "2026-09-19T20:34:23Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "ESPN Staff Profile",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mma/story/_/id/49953092/ufc-331-live-results-analysis-joshua-van-vs-alexandre-pantoja-2",
+      "stream_url": "",
+      "body": "The men's flyweight division takes center stage Saturday night. Former champion Alexandre Pantoja returns from a nine-month layoff to challenge champion Joshua Van in a main event rematch at UFC 331 at Crypto.com Arena in Los Angeles. The main card begins at 9 p.m. ET.\n\nPantoja, ESPN's No. 8-ranked pound-for-pound fighter, suffered a dislocated elbow in the opening seconds of his first fight against Van at UFC 323 in December, giving Van the TKO win and the men's flyweight title. While Pantoja recovered from injury, Van defended the belt against Tatsuro Taira, earning a fifth-round knockout at UFC 328 in May.\n\nTop-10 lightweights Arman Tsarukyan and Mauricio Ruffy meet in the co-main event. Tsarukyan hasn't been in the Octagon since November 2025, but don't expect him to be rusty. One of the promotion's best grapplers has stayed sharp in competitive wrestling matches with RAF and has become a fan favorite on social media. Ruffy, meanwhile, has made a career out of knocking opponents out. Thirteen of his 14 career wins have come via KO, including his two 2026 fights against Rafael Fiziev and Michael Chandler.\n\nBrett Okamoto, Jeff Wagenheim and Dre Waters break down all the action from Los Angeles."
     },
     {
       "story_id": "49981834",
@@ -14523,20 +14523,6 @@
       "body": ""
     },
     {
-      "story_id": "49973843",
-      "headline": "Conor McGregor expected to fight in bare-knuckle once UFC deal expires",
-      "summary": "David Feldman, founder of the Bare Knuckle Fighting Championship (BKFC), told ESPN he would \"bet everything\" that Conor McGregor fights for the promotion once his UFC contract expires.",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718645_1296x729_16-9.jpg",
-      "published_utc": "2026-09-18T17:27:35Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "James Regan",
-      "source": "ESPN",
-      "link": "https://www.espn.com/ufc/story/_/id/49973843/conor-mcgregor-bkfc-fight-bare-knuckle-ufc-deal-expires",
-      "stream_url": "",
-      "body": "Bare Knuckle Fighting Championship (BKFC) founder David Feldman told ESPN he would \"bet everything\" that Conor McGregor fights for the promotion once his UFC contract expires.\n\nMcGregor returned to the Octagon in July following a five-year hiatus from the sport, losing to Max Holloway in the first round after sustaining a knee injury in the opening seconds of the fight.\n\nThe former two-weight world champion is also a partner in BKFC, which was founded by Feldman in 2018, and has one fight left on his UFC contract.\n\nMcGregor, 38, became a part owner of the bare-knuckle promotion in 2024 and is now expected to compete in the sport once his deal with the UFC expires.\n\n\"He has one fight left with UFC, when that fight is done I would bet everything that he will be fighting for BKFC,\" Feldman told ESPN.\n\n\"I'm definitely enthused by his enthusiasm. I didn't think we were going to get this out of him. I didn't think he was going to fall in love with the sport as much as he did.\n\n\"He's one of the biggest fans in BKFC, not just a partner. He says some really critical things that help us promote the fighters and do different things.\"\n\nIn the days after his short-lived return to UFC, McGregor confirmed he would have surgery on his ACL but hinted he could fight again in summer 2027.\n\nFeldman said the Irishman is heavily involved with the business side of BKFC and expects his focus to shift to the sport fully once his UFC career is done.\n\n\"We listen to a lot of the different suggestions he has in building stars but he's been fantastic, he's jumping on board now since he started to recover from his injury,\" Feldman said.\n\n\"Obviously he's going to take another hiatus when he trains for his next UFC fight and then it's all BKFC.\"\n\nBKFC will host its next event in Manchester, England, on Sept. 26, with Darren Till facing fellow former UFC star Yoel Romero."
-    },
-    {
       "story_id": "49965274",
       "headline": "Fantasy football Week 2 inactives: Collins ruled out, Flowers doubtful, Burrow and Nacua questionable",
       "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
@@ -14563,6 +14549,20 @@
       "link": "https://www.espn.com/video/clip/_/id/49982914/tottenham-ownership-need",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0919/dm_260919_Keller_Tottenham_dont_have_the_ownership_they_need/dm_260919_Keller_Tottenham_dont_have_the_ownership_they_need/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49973843",
+      "headline": "Conor McGregor expected to fight in bare-knuckle once UFC deal expires",
+      "summary": "David Feldman, founder of the Bare Knuckle Fighting Championship (BKFC), told ESPN he would \"bet everything\" that Conor McGregor fights for the promotion once his UFC contract expires.",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718645_1296x729_16-9.jpg",
+      "published_utc": "2026-09-18T17:27:35Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "James Regan",
+      "source": "ESPN",
+      "link": "https://www.espn.com/ufc/story/_/id/49973843/conor-mcgregor-bkfc-fight-bare-knuckle-ufc-deal-expires",
+      "stream_url": "",
+      "body": "Bare Knuckle Fighting Championship (BKFC) founder David Feldman told ESPN he would \"bet everything\" that Conor McGregor fights for the promotion once his UFC contract expires.\n\nMcGregor returned to the Octagon in July following a five-year hiatus from the sport, losing to Max Holloway in the first round after sustaining a knee injury in the opening seconds of the fight.\n\nThe former two-weight world champion is also a partner in BKFC, which was founded by Feldman in 2018, and has one fight left on his UFC contract.\n\nMcGregor, 38, became a part owner of the bare-knuckle promotion in 2024 and is now expected to compete in the sport once his deal with the UFC expires.\n\n\"He has one fight left with UFC, when that fight is done I would bet everything that he will be fighting for BKFC,\" Feldman told ESPN.\n\n\"I'm definitely enthused by his enthusiasm. I didn't think we were going to get this out of him. I didn't think he was going to fall in love with the sport as much as he did.\n\n\"He's one of the biggest fans in BKFC, not just a partner. He says some really critical things that help us promote the fighters and do different things.\"\n\nIn the days after his short-lived return to UFC, McGregor confirmed he would have surgery on his ACL but hinted he could fight again in summer 2027.\n\nFeldman said the Irishman is heavily involved with the business side of BKFC and expects his focus to shift to the sport fully once his UFC career is done.\n\n\"We listen to a lot of the different suggestions he has in building stars but he's been fantastic, he's jumping on board now since he started to recover from his injury,\" Feldman said.\n\n\"Obviously he's going to take another hiatus when he trains for his next UFC fight and then it's all BKFC.\"\n\nBKFC will host its next event in Manchester, England, on Sept. 26, with Darren Till facing fellow former UFC star Yoel Romero."
     },
     {
       "story_id": "41247761",
