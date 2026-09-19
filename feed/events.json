@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T09:50:22.678922+00:00",
+  "generated_utc": "2026-09-19T10:00:53.174399+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401882875",
@@ -3005,9 +3005,16 @@
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://ok.ru/videoembed/16203177790124",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16203177790124",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://mlblive.net/_pu/109/29979834.jpg",
       "card": ""
     },
     {
@@ -3299,7 +3306,7 @@
       "source": "espn:australian-football/afl",
       "source_status": "in/In Progress",
       "venue": "MCG",
-      "detail": "21:19 - 4th Quarter",
+      "detail": "32:16 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3313,7 +3320,7 @@
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "start_utc": "2026-09-19T09:50Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:289204",
         "name": "Roosters",
@@ -3339,9 +3346,9 @@
         "color": null
       },
       "source": "espn:rugby-league/3",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Allianz Stadium",
-      "detail": "Sat, September 19th at 5:50 AM EDT",
+      "detail": "7'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -15962,6 +15969,24 @@
       "source_url": "https://mlblive.net/miami-marlins-san-diego-padres-mlb-full-game-replay-september-18-2026"
     },
     {
+      "id": "mlblive:10956",
+      "title": "Minnesota Twins @ Los Angeles Angels - MLB Full Game Replay - September 18, 2026",
+      "date": "2026-09-18",
+      "sport": "baseball",
+      "competition": "MLB",
+      "replay_url": "https://ok.ru/videoembed/16203177790124",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/16203177790124",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://mlblive.net/_pu/109/29979834.jpg",
+      "source_url": "https://mlblive.net/minnesota-twins-los-angeles-angels-mlb-full-game-replay-september-18-2026"
+    },
+    {
       "id": "mlblive:10954",
       "title": "Atlanta Braves @ Houston Astros - MLB Full Game Replay - September 18, 2026",
       "date": "2026-09-18",
@@ -17256,24 +17281,6 @@
       ],
       "poster": "https://mlblive.net/_pu/108/59987925.jpg",
       "source_url": "https://mlblive.net/baltimore-orioles-toronto-blue-jays-mlb-full-game-replay-september-13-2026"
-    },
-    {
-      "id": "mlblive:10883",
-      "title": "Los Angeles Angels @ Washington Nationals - MLB Full Game Replay - September 13, 2026",
-      "date": "2026-09-13",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16145717070508",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16145717070508",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/108/09763738.jpg",
-      "source_url": "https://mlblive.net/los-angeles-angels-washington-nationals-mlb-full-game-replay-september-13-2026"
     },
     {
       "id": "r24:6959",
