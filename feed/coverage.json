@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-19T11:42:37.791200+00:00",
+  "generated_utc": "2026-09-19T11:53:20.191801+00:00",
   "window_days": 2,
   "total_events": 310,
   "competitions": [
@@ -300,7 +300,7 @@
       "status_coverage_pct": 100,
       "both_logos": 2,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "snooker",
@@ -430,7 +430,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:rugby/270557",
+      "date": "2026-09-16",
+      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/rugby/270557/scoreboard?dates=20260916: The read operation timed out"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
