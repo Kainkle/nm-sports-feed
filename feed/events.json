@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T20:45:12.300584+00:00",
+  "generated_utc": "2026-09-20T20:55:24.665987+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -9214,52 +9214,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872936",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-20T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:20",
-        "name": "New York Jets",
-        "abbrev": "NYJ",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jets",
-          "NYJ",
-          "New York",
-          "New York Jets"
-        ],
-        "color": "115740"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "Green Bay Packers",
-        "abbrev": "GB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-        "logo_dark": null,
-        "aliases": [
-          "GB",
-          "Green Bay",
-          "Green Bay Packers",
-          "Packers"
-        ],
-        "color": "204e32"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "MetLife Stadium",
-      "detail": "Final/OT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401872935",
       "sport": "football",
       "competition_id": "nfl",
@@ -9490,6 +9444,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401872936",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-20T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:20",
+        "name": "New York Jets",
+        "abbrev": "NYJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jets",
+          "NYJ",
+          "New York",
+          "New York Jets"
+        ],
+        "color": "115740"
+      },
+      "away": {
+        "id": "espn:9",
+        "name": "Green Bay Packers",
+        "abbrev": "GB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+        "logo_dark": null,
+        "aliases": [
+          "GB",
+          "Green Bay",
+          "Green Bay Packers",
+          "Packers"
+        ],
+        "color": "204e32"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "MetLife Stadium",
+      "detail": "Final/OT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401872938",
       "sport": "football",
       "competition_id": "nfl",
@@ -9664,7 +9664,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Citi Field",
       "detail": "",
       "game_number": 1,
@@ -9754,7 +9754,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "PNC Park",
       "detail": "",
       "game_number": 1,
@@ -9805,7 +9805,7 @@
       "venue": "Great American Ball Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "Xb2YAOXXmus",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -10000,7 +10000,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-20T18:15:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:138",
         "name": "St. Louis Cardinals",
@@ -10030,7 +10030,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Busch Stadium",
       "detail": "",
       "game_number": 1,
@@ -10163,7 +10163,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "Mestalla Stadium",
-      "detail": "84'",
+      "detail": "90'+4'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10207,9 +10207,9 @@
         "color": "86cebc"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Coca-Cola Coliseum",
-      "detail": "End of 3rd Quarter",
+      "detail": "6:42 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10345,9 +10345,9 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "3:41 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10393,7 +10393,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Empower Field at Mile High",
-      "detail": "15:00 - 2nd Quarter",
+      "detail": "11:08 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10439,7 +10439,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "15:00 - 2nd Quarter",
+      "detail": "12:19 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10673,7 +10673,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "AT&T Stadium",
-      "detail": "5:52 - 1st Quarter",
+      "detail": "2:42 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "1CZiBWyBEl4",
       "replay_url": "",
@@ -10719,7 +10719,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "State Farm Stadium",
-      "detail": "6:16 - 1st Quarter",
+      "detail": "2:13 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10765,7 +10765,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Levi's Stadium",
-      "detail": "4:17 - 1st Quarter",
+      "detail": "15:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13892,46 +13892,32 @@
   ],
   "stories": [
     {
-      "story_id": "49992207",
-      "headline": "S\u00e1nchez earns 18th win to take over major league lead as the Phillies beat the Mets 7-2",
-      "summary": "\u2014 Cristopher S\u00e1nchez earned his major league-leading 18th win Sunday, leading the Philadelphia Phillies to a 7-2 victory over the New York Mets.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817017.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-20T20:40:44Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817017",
-      "stream_url": "",
-      "body": "NEW YORK -- \u2014 Cristopher S\u00e1nchez earned his major league-leading 18th win Sunday, leading the Philadelphia Phillies to a 7-2 victory over the New York Mets.\n\n\r\nThe Phillies (86-70), who salvaged a split of the four-game series, entered Sunday in the third National League wild-card spot, one game behind the Chicago Cubs and San Diego Padres and four games clear of the Arizona Diamondbacks.\n\n\r\nS\u00e1nchez surrendered six hits \u2014 including Bo Bichette\u2019s sixth-inning homer \u2014 and struck out six over 6 1/3 innings as he snapped a tie with the Boston Red Sox\u2019s Sonny Gray for the big league lead in wins.\n\n\r\nThe last Phillies pitcher to lead the majors in wins was Steve Carlton with 23 in 1982.\n\n\r\nJustin Crawford had a three-run triple and Luis Arraez finished with two RBI. Alec Bohm and Trea Turner each had run-scoring hits. Kyle Schwarber tied a career high with four walks.\n\n\r\nRookie Jonah Tong (2-2) gave up four runs and struck out five in 4 2/3 innings for the last-place Mets, who finished 36-45 at home \u2014 their worst record at Citi Field since the 2013 team went 33-48.\n\n\r\nThe Mets drew 2,712,120 fans this season, a drop of 5,870 fans per game from last season \u2014 the steepest decline in the majors.\n\n\r\nBrett Baty added a pinch-hit RBI single.\n\n\r\nDespite a rainy forecast and the postponement of a ceremony honoring retiring Mets radio broadcaster Howie Rose, the game began on time and wasn\u2019t interrupted. The crowd of 33,611 cheered and chanted Rose\u2019s name after \u201cHello, Goodbye\u201d by The Beatles played in the eighth.\n\n\r\nUp next\r\nPhillies: Open their final homestand Tuesday, when RHP Zack Wheeler (13-5, 2.99 ERA) starts against the NL Central champion Milwaukee Brewers, who haven\u2019t announced a starter.\n\n\r\nMets: LHP Sean Manaea (5-7, 4.74 ERA) starts Tuesday against the Texas Rangers, who haven\u2019t announced a starter.\n\n\r\n------\n\n\r\nAP MLB: https://apnews.com/hub/mlb"
-    },
-    {
-      "story_id": "49990917",
-      "headline": "Olivia Miles breaks Caitlin Clark's WNBA rookie points record",
-      "summary": "Olivia Miles broke Caitlin Clark's WNBA record for points by a rookie in a season during the Lynx's game against the Sun.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719610_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T20:35:18Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/49990917/olivia-miles-breaks-caitlin-clark-wnba-rookie-points-record",
-      "stream_url": "",
-      "body": "UNCASVILLE, Conn. -- Olivia Miles broke Caitlin Clark's WNBA record for points by a rookie in a season on Sunday in the Minnesota Lynx's 101-89 victory over the Connecticut Sun.\n\nMiles, who finished with 21 points, was tied with Clark at 769 points coming into the game and moved atop the list when she made a free throw in the second quarter. The Lynx rookie came into the game averaging 19.7 points, 6.0 assists and 4.7 rebounds, and was a big reason the team had the best record in the WNBA.\n\n\"It's special, but it means we're more so working well as a team. I have great teammates around me, great vets who allow me to be me out there,\" Miles said. \"It wouldn't be possible without one, a coach that believes in you and then two, having teammates that have my back. So it's really special to obviously be able to accomplish that with such a great team and on a win as well.\"\n\nMiles was 7-of-10 from the field and made all six of her free-throw attempts. The All-Star guard, who was selected second in the draft after playing her college ball at Notre Dame and TCU, got off to a slow start against the Sun, going scoreless in the first quarter. Her record-breaking free throw came 29 seconds into the second quarter.\n\nMiles and Clark both accomplished their feats in 40 games.\n\nThe Lynx star already had broken a couple of rookie records held by Clark. She hit eight 3-pointers in a win over Golden State on June 4 to set the league record for most by a rookie in a game. That was one more than Clark's best. Miles also became the fastest rookie to reach 350 points, 100 rebounds and 100 assists in her career, doing it in 21 games -- one quicker than Clark and former Charlotte Sting guard Andrea Stinson."
-    },
-    {
-      "story_id": "49992172",
-      "headline": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
-      "summary": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/15f55373-7502-4d18-9839-33722600f8ba/15f55373-7502-4d18-9839-33722600f8ba.jpg",
-      "published_utc": "2026-09-20T20:33:30Z",
+      "story_id": "49992260",
+      "headline": "Minnesota Vikings vs. Chicago Bears: Game Highlights",
+      "summary": "Minnesota Vikings vs. Chicago Bears: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/654a2d93-9bcf-418a-b762-49dde81d9493/654a2d93-9bcf-418a-b762-49dde81d9493.jpg",
+      "published_utc": "2026-09-20T20:50:45Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49992172/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/15f55373-7502-4d18-9839-33722600f8ba/15f55373-7502-4d18-9839-33722600f8ba/playlist.m3u8",
+      "link": "https://www.espn.com/video/clip/_/id/49992260/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/654a2d93-9bcf-418a-b762-49dde81d9493/654a2d93-9bcf-418a-b762-49dde81d9493/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49992049",
+      "headline": "Griffin Jax tosses 5 shutout innings as Rays near AL East title with a 5-1 victory over the Red Sox",
+      "summary": "\u2014 Griffin Jax tossed five shutout innings and the Tampa Bay Rays crept closer to the AL East title with a 5-1 victory over the Boston Red Sox on Sunday.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817013.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T20:22:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/recap?gameId=401817013",
+      "stream_url": "",
+      "body": "ST. PETERSBURG, Fla. -- \u2014 Griffin Jax tossed five shutout innings and the Tampa Bay Rays crept closer to the AL East title with a 5-1 victory over the Boston Red Sox on Sunday.\n\n\r\nThe Rays will have an opportunity to clinch the franchise\u2019s fifth division title during Tuesday\u2019s doubleheader at the New York Yankees.\n\n\r\nBoston would have clinched a playoff spot with a victory. The Red Sox, who were 32-46 and 15 1/2 games back in the AL East on June 24, have since gone 52-25. They could still wrap up a spot Sunday with a Houston loss.\n\n\r\nJax (8-10) allowed three singles and worked out of a bases-loaded jam in the fifth inning by striking out Roman Anthony. Cole Sulser, Brody Hopkins and Steven Matz each pitched an inning of scoreless relief.\n\n\r\nBoston\u2019s Trevor Story spoiled the shutout in the ninth with a one-out home run off right-hander Ty Johnson.\n\n\r\nThe Rays scored four first-inning runs off left-hander Patrick Sandoval (1-7). Jonny DeLuca smashed a two-run, bases-loaded double down the left-field line and Chandler Simpson followed with a two-run single. Sandoval began the inning by walking Yandy Diaz and Ryan Vilade, then surrendering a single to Junior Caminero.\n\n\r\nSandoval then retired 21 of his next 23 batters and worked through the seventh inning, allowing only a first-inning walk and a fourth-inning homer, both to Victor Mesa Jr.\n\n\r\nUp next\r\nAfter a day off Monday, Boston will start LHP Payton Tolle (9-6, 3.02) at home against the Cleveland Guardians. Right-hander Nick Martinez (15-4, 2.94) is set to start the opener of the doubleheader in New York, while right-hander Drew Rasmussen (15-5, 2.72) to pitch Game 2.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "49991578",
@@ -13946,6 +13932,20 @@
       "link": "https://www.espn.com/video/clip/_/id/49991578/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/1ec6636e-2869-4f35-8966-eb142e08011d/1ec6636e-2869-4f35-8966-eb142e08011d/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49991440",
+      "headline": "Surging Lynx close in on top seed in playoffs by beating the Sun 101-89",
+      "summary": "\u2014 Napheesa Collier scored 23 points, Olivia Miles added 21 and the Minnesota Lynx beat the Connecticut Sun 101-89 on Sunday to get closer to clinching the top seed in the WNBA playoffs.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857201.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T19:34:29Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/wnba/recap?gameId=401857201",
+      "stream_url": "",
+      "body": "UNCASVILLE, Conn. -- \u2014 Napheesa Collier scored 23 points, Olivia Miles added 21 and the Minnesota Lynx beat the Connecticut Sun 101-89 on Sunday to get closer to clinching the top seed in the WNBA playoffs.\n\n\r\nThe Lynx (32-10) moved within one win or Golden State loss from earning home-court advantage throughout the postseason. Minnesota closes with a home-and-home set against Indiana.\n\n\r\nA big reason for the Lynx's success this season has been the play of Miles. She broke the WNBA rookie record for points in a season that was held by Caitlin Clark. Miles got her 770th point on a free throw with 9:31 left in the second quarter. Clark finished with 769 points for Indiana in 2024.\n\n\r\nThe Lynx, who had lost three straight games, jumped out to an 11-2 lead in the first 3:30 as Collier had the game's first four points. Courtney Williams, who starred for the Sun for five seasons, had five points during the opening spurt. Minnesota led 27-12 after the first quarter, when Collier had 10 points.\n\n\r\nCollier helped extend the advantage to 45-26 on a layup with 3:44 left in the half before the Sun used a 15-4 spurt to get within eight. Collier had a 3-point play with 25.2 seconds left to restore the double-digit advantage.\n\n\r\nThe Sun hung around behind hot 3-point shooting. They made 12 of their first 19 from behind the arc and were down only seven points early in the fourth quarter. Connecticut finished 15 for 28 on 3s.\n\n\r\nThe team honored former coach Mike Thibault before the game, its second-to-last in Connecticut before relocating to Houston next season. He led the franchise from its inception in 2003 until 2012.\n\n\r\nIt was a fitting game to honor him, given his son, Eric Thibault, is an assistant coach with Minnesota along with Lindsay Whalen. She played in the WNBA Finals in 2004 under Mike Thibault. The Sun had many other former players and coaches in attendance, including Tina Charles, Bria Hartley, Taj McWilliams Franklin and Nicki Collen.\n\n\r\nThe Sun (10-32) have lost five games in a row. Connecticut, which has been plagued by injuries all season, lost Saniya Rivers to one in the first quarter. She didn't return.\n\n\r\nUp next\r\nLynx: Visit Indiana on Tuesday.\n\n\r\nSun: Visit Mystics on Tuesday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
     },
     {
       "story_id": "49991430",
@@ -14060,46 +14060,32 @@
       "body": "AUCKLAND, New Zealand -- The Newcastle Knights have silenced a sold-out Eden Park and kept their remarkable NRL finals run alive with a gripping 12-10 victory over the New Zealand Warriors.\n\nLeka Halasima crossed twice for the hosts, but tries to Fletcher Sharpe and Dominic Young -- both converted by Sandon Smith -- proved enough for Newcastle to book a preliminary final showdown with the Penrith Panthers.\n\nHere are three things we learned from Sunday's semifinal.\n\nNewcastle's kids are made for September\nThe Knights arrived in Auckland with the youngest halves combination remaining in the competition and a forward pack missing several established names.\n\nNone of that mattered.\n\nFletcher Sharpe and Sandon Smith looked anything but overwhelmed by the occasion, calmly guiding Newcastle through a hostile afternoon in front of a deafening Eden Park crowd.\n\nSharpe's first-half try captured exactly what he offers this side. After Bradman Best stepped, fended and burst into the backfield, the five-eighth remained alive in support, juggled the pass and finished the movement to level the scores.\n\nSmith was similarly composed. His two conversions ultimately provided the difference between the sides, with the young halfback refusing to allow the occasion -- or the noise surrounding him -- to alter his process.\n\nThe Knights' youngsters were just as impressive without the ball.\n\nNewcastle repeatedly scrambled to survive Warriors raids, with Greg Marzhew producing two crucial interventions in the first half - knocking down a pass with a try looming before bundling Dallin Watene-Zelezniak into touch moments later.\n\nTheir defensive resolve became even more important as fatigue arrived and the Warriors threw everything at them late. The hosts enjoyed multiple attacking opportunities but Newcastle continually found a way to shut the door.\n\nKalyn Ponga did not need to manufacture every decisive moment himself. His early linebreaks and constant movement kept the Warriors' defensive line occupied, creating opportunities for Best, Sharpe and Newcastle's outside backs.\n\nThat might be the most encouraging sign of all for Justin Holbrook.\n\nThe Halasima gamble almost saved the Warriors' season\n\nLeka Halasima entered the weekend under an injury cloud and was only confirmed in the Warriors' starting side shortly before kick-off.\n\nHe then came within inches of dragging their season into another week.\n\nUsed in the centres, the powerful youngster was comfortably New Zealand's most dangerous attacking player. His combination of footwork, strength and acceleration caused Newcastle problems from the opening exchanges.\n\nHalasima struck first after 14 minutes, crashing through a retreating defensive line after a set restart had given the Warriors momentum.\n\nHe continued to torment Newcastle's right edge throughout the opening half, producing a brutal fend on Sandon Smith before breaking into space. Only a forward pass on the final exchange prevented the Warriors from turning the opportunity into more points.\n\nWith New Zealand's season rapidly slipping away, Halasima delivered again in the 70th minute, surging over for his second try and reducing Newcastle's lead to two.\n\nThe conversion attempt sailed wide, leaving the Warriors needing another score, but Halasima's performance offered a glimpse of what their attack could increasingly be built around.\n\nHe had spent much of the season establishing himself as one of the competition's most destructive young forwards. On Sunday, despite the hamstring concern and a positional switch, he showed he can be equally damaging when given room on an edge.\n\nThe concern for Andrew Webster will be how isolated that threat often appeared.\n\nOutside of Halasima's individual power, the Warriors struggled to consistently create space or manipulate Newcastle's defensive line. Their other apparent second-half try, to Ali Leiataua, was correctly overturned for an obstruction.\n\nHalasima nearly carried them across the line, but in a sudden-death final, nearly was not enough.\n\nThe Warriors saved their errors for the biggest moments\nFinals football rarely demands perfection. It does, however, punish carelessness.\n\nThe Warriors learned that lesson in brutal fashion.\n\nThey had chances to take control of this contest but repeatedly released the pressure through an error, a mistimed pass or a poor decision.\n\nThe most costly arrived immediately after half-time.\n\nWith the scores locked at 6-6, Watene-Zelezniak attempted an offload under pressure and instead passed the ball directly to Bradman Best. Newcastle capitalised just a couple of plays later, shifting right for Dominic Young to score the try that ultimately decided the match.\n\nIt was far from the Warriors' only missed opportunity.\n\nA promising first-half break from Halasima ended with a forward pass. Kurt Capewell followed a superb tackle on Young and a powerful carry with an error. Leiataua's second-half effort was erased by an obstruction, while several attacking sets close to Newcastle's line ended without the composure required to convert pressure into points.\n\nIndividually, none of those moments had to be fatal. Together, they told the story of a side that tightened up when its season was on the line.\n\nIt continued a worrying trend from the previous week. The Warriors had led the Dolphins 16-8 after an hour before conceding 18 unanswered points. Given a second opportunity at home, they again failed to close out a match they had every chance to win.\n\nThat makes this exit particularly painful.\n\nNew Zealand finished second and earned two home finals, yet their season ends with consecutive defeats and the sense that their best football deserted them at precisely the wrong time.\n\nThe Warriors' rise under Webster remains significant, while players such as Halasima provide ample reason for optimism. But the next stage of their development must be learning how to regain control when a finals match becomes frantic.\n\nThe premiership contenders still standing know how to make those moments feel routine.\n\nFor the second straight week, the Warriors made them feel overwhelming."
     },
     {
-      "story_id": "49992170",
-      "headline": "Chicago Cubs vs. Cincinnati Reds: Game Highlights",
-      "summary": "Chicago Cubs vs. Cincinnati Reds: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/6d727230-670d-4ecb-aea3-4d4aa7837b28/6d727230-670d-4ecb-aea3-4d4aa7837b28.jpg",
-      "published_utc": "2026-09-20T20:34:39Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49992170/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/6d727230-670d-4ecb-aea3-4d4aa7837b28/6d727230-670d-4ecb-aea3-4d4aa7837b28/playlist.m3u8",
-      "body": ""
-    },
-    {
-      "story_id": "49991440",
-      "headline": "Surging Lynx close in on top seed in playoffs by beating the Sun 101-89",
-      "summary": "\u2014 Napheesa Collier scored 23 points, Olivia Miles added 21 and the Minnesota Lynx beat the Connecticut Sun 101-89 on Sunday to get closer to clinching the top seed in the WNBA playoffs.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401857201.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-20T19:34:29Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/recap?gameId=401857201",
-      "stream_url": "",
-      "body": "UNCASVILLE, Conn. -- \u2014 Napheesa Collier scored 23 points, Olivia Miles added 21 and the Minnesota Lynx beat the Connecticut Sun 101-89 on Sunday to get closer to clinching the top seed in the WNBA playoffs.\n\n\r\nThe Lynx (32-10) moved within one win or Golden State loss from earning home-court advantage throughout the postseason. Minnesota closes with a home-and-home set against Indiana.\n\n\r\nA big reason for the Lynx's success this season has been the play of Miles. She broke the WNBA rookie record for points in a season that was held by Caitlin Clark. Miles got her 770th point on a free throw with 9:31 left in the second quarter. Clark finished with 769 points for Indiana in 2024.\n\n\r\nThe Lynx, who had lost three straight games, jumped out to an 11-2 lead in the first 3:30 as Collier had the game's first four points. Courtney Williams, who starred for the Sun for five seasons, had five points during the opening spurt. Minnesota led 27-12 after the first quarter, when Collier had 10 points.\n\n\r\nCollier helped extend the advantage to 45-26 on a layup with 3:44 left in the half before the Sun used a 15-4 spurt to get within eight. Collier had a 3-point play with 25.2 seconds left to restore the double-digit advantage.\n\n\r\nThe Sun hung around behind hot 3-point shooting. They made 12 of their first 19 from behind the arc and were down only seven points early in the fourth quarter. Connecticut finished 15 for 28 on 3s.\n\n\r\nThe team honored former coach Mike Thibault before the game, its second-to-last in Connecticut before relocating to Houston next season. He led the franchise from its inception in 2003 until 2012.\n\n\r\nIt was a fitting game to honor him, given his son, Eric Thibault, is an assistant coach with Minnesota along with Lindsay Whalen. She played in the WNBA Finals in 2004 under Mike Thibault. The Sun had many other former players and coaches in attendance, including Tina Charles, Bria Hartley, Taj McWilliams Franklin and Nicki Collen.\n\n\r\nThe Sun (10-32) have lost five games in a row. Connecticut, which has been plagued by injuries all season, lost Saniya Rivers to one in the first quarter. She didn't return.\n\n\r\nUp next\r\nLynx: Visit Indiana on Tuesday.\n\n\r\nSun: Visit Mystics on Tuesday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
-    },
-    {
-      "story_id": "49992174",
-      "headline": "Ja'Marr Chase scores 2 TDs on passes from Joe Burrow to lead the Bengals past the Texans 20-6",
-      "summary": "\u2014 Joe Burrow threw two touchdown passes to Ja\u2019Marr Chase to lead the Cincinnati Bengals to a 20-6 win over the Houston Texans on Sunday.",
-      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872934.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-20T20:32:40Z",
+      "story_id": "49992225",
+      "headline": "Cincinnati Bengals vs. Houston Texans: Game Highlights",
+      "summary": "Cincinnati Bengals vs. Houston Texans: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/623b6828-39c4-4f43-be89-403d2ddd4830/623b6828-39c4-4f43-be89-403d2ddd4830.jpg",
+      "published_utc": "2026-09-20T20:45:48Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nfl/recap?gameId=401872934",
+      "link": "https://www.espn.com/video/clip/_/id/49992225/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/623b6828-39c4-4f43-be89-403d2ddd4830/623b6828-39c4-4f43-be89-403d2ddd4830/playlist.m3u8",
+      "body": ""
+    },
+    {
+      "story_id": "49991378",
+      "headline": "Cubs' Alex Bregman hit in face by foul ball in on-deck circle",
+      "summary": "Cubs third baseman Alex Bregman left Sunday's game against the Cincinnati Reds after being struck in the face by a foul ball while standing in the on-deck circle.",
+      "image": "https://a.espncdn.com/photo/2026/0629/r1681800_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T20:21:43Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49991378/cubs-bregman-hit-face-foul-ball-leaves-game",
       "stream_url": "",
-      "body": "HOUSTON -- \u2014 Joe Burrow threw two touchdown passes to Ja\u2019Marr Chase to lead the Cincinnati Bengals to a 20-6 win over the Houston Texans on Sunday.\n\n\r\nThe big day by Chase came a week after the five-time Pro Bowler had just two receptions for 12 yards in a win over Tampa Bay. That prompted Burrow, coach Zac Taylor and offensive coordinator Dan Pitcher to say that getting him the ball more had to be a priority against the Texans.\n\n\r\nThey showed they meant that early as Chase eclipsed last week\u2019s performance with 14 yards receiving on Cincinnati\u2019s first drive and didn\u2019t slow down after that.\n\n\r\nHe put the Bengals (2-0) on top 7-0 when he managed to drag his toe inbounds on a spectacular 32-yard TD catch over Derek Stingley with about 3 1/2 minutes left in the first half.\n\n\r\nThe Bengals were up by 7 when Burrow found Chase again. This time, he grabbed an 18-yard pass in the end zone in front of a diving Reed Blankenship to make it 17-3 with about three minutes left in the third.\n\n\r\nChase had seven receptions for 75 yards and Burrow was 20 of 31 for 207 yards despite dealing with back tightness that caused him to miss practice time this week. Tee Higgins added five receptions for 95 yards.\n\n\r\nIt was another disappointing game for the Texans, who are 0-2 after losing to Buffalo 36-31 in the opener. They\u2019ll need to get back on track next week to avoid starting 0-3 for a second year in a row.\n\n\r\nC.J. Stroud was 30 of 55 for 353 yards passing on a day the Texans had trouble running the ball. Their backs finished with just 18 yards rushing. They failed to score a touchdown while playing without star receiver Nico Collins after scoring 31 points last week.\n\n\r\nKa\u02bbimi Fairbairn\u2019s 45-yard field goal got the Texans within 17-6 near the end of the third.\n\n\r\nEvan McPherson\u2019s 57-yard field goal pushed the lead to 20-6 early in the fourth.\n\n\r\nThe Texans were driving on the next possession when Stroud was flagged for intentional grounding to force a punt.\n\n\r\nA 37-yard field goal by Fairbairn cut the lead to 7-3 with just over a minute until halftime.\n\n\r\nMcPherson\u2019s 51-yard field goal made it 10-3 early in the third.\n\n\r\nThe Texans had some miscues in the first half that put them in bad spots. They fumbled the snap on a punt early in the second quarter and failed to convert on fourth-and-inches from the Cincinnati 18 when Dexter Lawrence stuffed David Montgomery on their next drive.\n\n\r\nUp next\r\nBengals: Host the Steelers next Sunday.\n\n\r\nTexans: Visit the Colts next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+      "body": "CINCINNATI -- - Chicago Cubs third baseman Alex Bregman was hospitalized after leaving Sunday's 9-1 win over the Cincinnati Reds when he was struck in the face by a foul ball while standing in the on-deck circle.\n\nManager Craig Counsell said Bregman was hit under his left eye, had a cut and some swelling, and was sent to the hospital to undergo testing.\n\nIn the fourth inning, left-handed batting Michael Busch fouled off a pitch from Reds right-hander Luis Mey that struck Bregman, who immediately jogged toward the Cubs' dugout with a hand over his left eye.\n\nBregman was escorted by an athletic trainer down the dugout steps and into the clubhouse, with blood visible on his face. Matt Shaw pinch hit for Bregman.\n\nBregman is batting .260 with 26 home runs and 88 RBIs in 152 games. He signed a $175 million, five-year free agent deal in January.\n\nThe Cubs could clinch a postseason berth later Sunday with a Diamondbacks loss to the Yankees.\n\nThe Associated Press contributed to this report."
     },
     {
       "story_id": "49986177",
@@ -14114,6 +14100,20 @@
       "link": "https://www.espn.com/video/clip/_/id/49986177/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49990917",
+      "headline": "Olivia Miles breaks Caitlin Clark's WNBA rookie points record",
+      "summary": "Olivia Miles broke Caitlin Clark's WNBA record for points by a rookie in a season during the Lynx's game against the Sun.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719610_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T19:16:35Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/49990917/olivia-miles-breaks-caitlin-clark-wnba-rookie-points-record",
+      "stream_url": "",
+      "body": "UNCASVILLE, Conn. -- Olivia Miles broke Caitlin Clark's WNBA record for points by a rookie in a season on Sunday in the Minnesota Lynx's 101-89 victory over the Connecticut Sun.\n\nMiles, who finished with 21 points, was tied with Clark at 769 points coming into the game and moved atop the list when she made a free throw in the second quarter. The Lynx rookie came into the game averaging 19.7 points, 6.0 assists and 4.7 rebounds, and was a big reason the team had the best record in the WNBA.\n\n\"It's special, but it means we're more so working well as a team. I have great teammates around me, great vets who allow me to be me out there,\" Miles said. \"It wouldn't be possible without one, a coach that believes in you and then two, having teammates that have my back. So it's really special to obviously be able to accomplish that with such a great team and on a win as well.\"\n\nMiles was 7-of-10 from the field and made all six of her free-throw attempts. The All-Star guard, who was selected second in the draft after playing her college ball at Notre Dame and TCU, got off to a slow start against the Sun, going scoreless in the first quarter. Her record-breaking free throw came 29 seconds into the second quarter.\n\nMiles and Clark both accomplished their feats in 40 games.\n\nThe Lynx star already had broken a couple of rookie records held by Clark. She hit eight 3-pointers in a win over Golden State on June 4 to set the league record for most by a rookie in a game. That was one more than Clark's best. Miles also became the fastest rookie to reach 350 points, 100 rebounds and 100 assists in her career, doing it in 21 games -- one quicker than Clark and former Charlotte Sting guard Andrea Stinson."
     },
     {
       "story_id": "49991106",
@@ -15984,6 +15984,24 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2026/09/UFC-331-Live-Full-Show.webp",
       "source_url": "https://watch-wrestling.eu/ufc-331-van-vs-pantoja-2-9-19-2026/"
+    },
+    {
+      "id": "r24:6984",
+      "title": "France v Australia - Women's WXV - Full Match Replay - 19 September 2026",
+      "date": "2026-09-19",
+      "sport": "rugby",
+      "competition": "Women&#39;s WXV",
+      "replay_url": "https://ok.ru/videoembed/15828140231380",
+      "replay_candidates": [
+        {
+          "url": "https://ok.ru/videoembed/15828140231380",
+          "label": "OK.ru",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://rugby24.net/_pu/69/79731157.png",
+      "source_url": "https://rugby24.net/france-v-australia-womens-wxv-full-match-replay-19-september-2026"
     },
     {
       "id": "r24:6983",
