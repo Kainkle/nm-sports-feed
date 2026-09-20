@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T20:14:50.526656+00:00",
+  "generated_utc": "2026-09-20T20:24:59.813557+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -9249,9 +9249,9 @@
         "color": "204e32"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "MetLife Stadium",
-      "detail": "1:15 - 4th Quarter",
+      "detail": "End of 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9300,52 +9300,6 @@
       "detail": "Delayed",
       "game_number": 1,
       "highlight_video_id": "PHwQO_Y6YTY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872934",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-20T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:34",
-        "name": "Houston Texans",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Texans",
-          "Texans"
-        ],
-        "color": "021018"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Cincinnati Bengals",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bengals",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bengals"
-        ],
-        "color": "fb4f14"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Reliant Stadium",
-      "detail": "1:01 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -9483,7 +9437,7 @@
       "venue": "Nissan Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "Pdru3R20Gt4",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -9576,6 +9530,52 @@
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "6SfhcStGcmw",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872934",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-20T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:34",
+        "name": "Houston Texans",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Texans",
+          "Texans"
+        ],
+        "color": "021018"
+      },
+      "away": {
+        "id": "espn:4",
+        "name": "Cincinnati Bengals",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bengals",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bengals"
+        ],
+        "color": "fb4f14"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Reliant Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -9801,7 +9801,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Great American Ball Park",
       "detail": "",
       "game_number": 1,
@@ -10121,7 +10121,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "San Siro",
-      "detail": "68'",
+      "detail": "78'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10163,7 +10163,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "Mestalla Stadium",
-      "detail": "54'",
+      "detail": "64'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10207,9 +10207,9 @@
         "color": "86cebc"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Coca-Cola Coliseum",
-      "detail": "Halftime",
+      "detail": "6:28 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10345,9 +10345,9 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "4:22 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10393,7 +10393,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Empower Field at Mile High",
-      "detail": "11:03 - 1st Quarter",
+      "detail": "7:10 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10439,7 +10439,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "11:39 - 1st Quarter",
+      "detail": "6:27 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11083,7 +11083,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Oriole Park at Camden Yards",
       "detail": "",
       "game_number": 1,
@@ -13892,18 +13892,46 @@
   ],
   "stories": [
     {
-      "story_id": "49984903",
-      "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check out top Week 2 plays, with Jalen Hurts, Drake Maye, Aaron Rodgers, Caleb Williams and more in action.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719591_608x342_16-9.jpg",
-      "published_utc": "2026-09-20T20:06:50Z",
+      "story_id": "49991378",
+      "headline": "Cubs' Alex Bregman hit in face by foul ball in on-deck circle",
+      "summary": "Cubs third baseman Alex Bregman left Sunday's game against the Cincinnati Reds after being struck in the face by a foul ball while standing in the on-deck circle.",
+      "image": "https://a.espncdn.com/photo/2026/0629/r1681800_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T20:21:43Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49991378/cubs-bregman-hit-face-foul-ball-leaves-game",
+      "stream_url": "",
+      "body": "CINCINNATI -- - Chicago Cubs third baseman Alex Bregman left Sunday's 9-1 win over the Cincinnati Reds after being struck in the face by a foul ball while standing in the on-deck circle.\n\nIn the fourth inning, left-handed batting Michael Busch fouled off a pitch from Reds right-hander Luis Mey that struck Bregman, who immediately jogged toward the Cubs' dugout with a hand over his left eye.\n\nBregman was escorted by a trainer down the dugout steps and into the clubhouse, with blood visible on his face. Matt Shaw pinch hit for Bregman.\n\nBregman is batting .260 with 26 home runs and 88 RBIs in 152 games. He signed a $175 million, five-year free agent deal in January.\n\nThe Cubs could clinch a postseason berth with a win Sunday and a Diamondbacks loss.\n\nThe Associated Press contributed to this report."
+    },
+    {
+      "story_id": "49992029",
+      "headline": "Jalen Hurts hits Darius Cooper for TD with 9 seconds left to lift the Eagles past the Titans 24-20",
+      "summary": "\u2014 Jalen Hurts threw a 3-yard touchdown pass to Darius Cooper with 9 seconds left, and the",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872939.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T20:18:34Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "NFL Nation",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
+      "link": "http://www.espn.com/nfl/recap?gameId=401872939",
       "stream_url": "",
-      "body": "Eight games made up Sunday's early window in Week 2 of the 2026 NFL season, and we have the best highlights, touchdowns and moments from all of them.\n\nIn a matchup of divisional rivalries, the Carolina Panthers dominated host and NFC South foe Atlanta Falcons, 34-3. And in a matchup of NFC North supremacy, the Minnesota Vikings held off the Chicago Bears, 9-3.\n\nIn the afternoon slate of five games, follow along as the Jacksonville Jaguars play at the Denver Broncos and the Las Vegas Raiders aim to take down AFC West rival Los Angeles Chargers.\n\nBe sure to check here for the top plays from Sunday, as well as stay tuned for the \"Sunday Night Football\" matchup between the Indianapolis Colts and the Kansas City Chiefs.\n\nWeek 2 highlights"
+      "body": "NASHVILLE, Tenn. -- \u2014 Jalen Hurts threw a 3-yard touchdown pass to Darius Cooper with 9 seconds left, and the Philadelphia Eagles beat the Tennessee Titans 24-20 on a hot and steamy Sunday.\n\n\r\nThe Eagles (2-0) appeared ready to dominate Tennessee. They opened the game by stringing together three straight drives of at least 11 plays.\n\n\r\nThe Titans (0-2) sacked Hurts three times and picked him off twice, turning those into 10 points. The second interception set up Joey Slye's 33-yard field goal with 1:56 left, putting Tennessee up 20-17.\n\n\r\nHurts had 1:56 to drive the Eagles 65 yards for the win. He finished with 264 yards passing and two TDs. DeVonta Smith had 10 catches for 117 yards, Tank Bigsby ran for a TD, and Jake Elliott kicked a 58-yard field goal.\n\n\r\nCam Ward got the Titans (0-2) to midfield, but his final pass under pressure hit the turf harmlessly as time expired.\n\n\r\nPhiladelphia improved to 15-4 in September since 2021 and remained tied with Buffalo for the most wins in the NFL's opening month in that span. The Eagles had plenty of fans in the stands, making it feel more like a home game.\n\n\r\nThe temperature reached 98 degrees Fahrenheit (37 Celsius) in the fourth quarter and felt like 106 degrees. It measured at least 150 degrees on the artificial surface at Nissan Stadium, so hot the Titans squirted water on players\u2019 cleats on the sideline to cool them off.\n\n\r\nThe Titans hadn't started a season with back-to-back home games since 2010. It didn't help new coach Robert Saleh as Tennessee lost its first two for a third straight season.\n\n\r\nWard threw for 183 yards and ran for a pair of 1-yard TDs.\n\n\r\nThree-time Pro Bowl running back Saquon Barkley suffered a stinger in his left arm on the opening play, though he returned to start the third quarter. He finished 9 yards on four carries, his fourth career game held under 10 yards rushing.\n\n\r\nPhiladelphia seemed ready to run the Titans off their own field, starting the game with a 15-play drive. But Hooker picked off Hurts\u2019 pass to Smith in the end zone and set up Ward\u2019s 1-yard TD run for the lead.\n\n\r\nThe Eagles led 14-10 at halftime despite holding the ball for nearly 22 minutes. Slye pulled the Titans closer with a 37-yard field goal as the second quarter expired.\n\n\r\nInjuries\r\nEagles TE Dallas Goedert hurt a knee midway through the second quarter.\n\n\r\nUp next\r\nThe Eagles visit Chicago on Monday, Sept. 28.\n\n\r\nThe Titans visit the New York Giants next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+    },
+    {
+      "story_id": "49991578",
+      "headline": "New York Islanders vs. New Jersey Devils: Game Highlights",
+      "summary": "New York Islanders vs. New Jersey Devils: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/1ec6636e-2869-4f35-8966-eb142e08011d/1ec6636e-2869-4f35-8966-eb142e08011d.jpg",
+      "published_utc": "2026-09-20T19:44:15Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49991578/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/1ec6636e-2869-4f35-8966-eb142e08011d/1ec6636e-2869-4f35-8966-eb142e08011d/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49991440",
@@ -13932,20 +13960,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49991430/carrick-encouraged-man-united-late-draw-vs-fulham",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0920/dm_260920_COM_SOC_Presser_Carrick_encouraged_by_Man_Uniteds_late_draw_vs_Fulham__20260920_GLOBAL/dm_260920_COM_SOC_Presser_Carrick_encouraged_by_Man_Uniteds_late_draw_vs_Fulham__20260920_GLOBAL/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "49991236",
-      "headline": "Blue Jays ace Dylan Cease undergoes MRI, won't make next start",
-      "summary": "The Blue Jays have scratched Dylan Cease from his next start as they await the results of an MRI on his pitching shoulder to determine if and when the right-hander will pitch again this season.",
-      "image": "https://a.espncdn.com/photo/2026/0525/r1663440_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T19:18:38Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49991236/blue-jays-ace-dylan-cease-headed-mri-make-next-start",
-      "stream_url": "",
-      "body": "The Toronto Blue Jays have scratched Dylan Cease from his next start as they await the results of an MRI on his pitching shoulder to determine if and when the right-hander will pitch again this season.\n\nToronto manager John Schneider told reporters that Cease has been dealing with a shoulder issue for the past few weeks that includes a decrease in velocity.\n\n\"Just wanted to see, with the [velocity drop] and if there's anything tied to that,\" Schneider said. \"Not expecting anything crazy.\"\n\nCease had been scheduled to start Wednesday against the Baltimore Orioles. Depending on the MRI results, Schneider said Cease could still be an option for the Blue Jays' final regular-season series against the Cincinnati Reds.\n\nThe Blue Jays (76-79) entered Sunday three games behind the Chicago White Sox (79-76) for the final wild card in the American League. Toronto has a 4.7% chance of making the postseason, according to ESPN's playoff probabilities."
     },
     {
       "story_id": "49983952",
@@ -14004,20 +14018,6 @@
       "body": ""
     },
     {
-      "story_id": "49986177",
-      "headline": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
-      "summary": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4.jpg",
-      "published_utc": "2026-09-20T03:57:51Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49986177/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4/playlist.m3u8",
-      "body": ""
-    },
-    {
       "story_id": "49963170",
       "headline": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions",
       "summary": "Formula 1 is heading to the streets of Baku for this year's Azerbaijan Grand Prix as we roll into the business end of the season.",
@@ -14060,18 +14060,46 @@
       "body": "AUCKLAND, New Zealand -- The Newcastle Knights have silenced a sold-out Eden Park and kept their remarkable NRL finals run alive with a gripping 12-10 victory over the New Zealand Warriors.\n\nLeka Halasima crossed twice for the hosts, but tries to Fletcher Sharpe and Dominic Young -- both converted by Sandon Smith -- proved enough for Newcastle to book a preliminary final showdown with the Penrith Panthers.\n\nHere are three things we learned from Sunday's semifinal.\n\nNewcastle's kids are made for September\nThe Knights arrived in Auckland with the youngest halves combination remaining in the competition and a forward pack missing several established names.\n\nNone of that mattered.\n\nFletcher Sharpe and Sandon Smith looked anything but overwhelmed by the occasion, calmly guiding Newcastle through a hostile afternoon in front of a deafening Eden Park crowd.\n\nSharpe's first-half try captured exactly what he offers this side. After Bradman Best stepped, fended and burst into the backfield, the five-eighth remained alive in support, juggled the pass and finished the movement to level the scores.\n\nSmith was similarly composed. His two conversions ultimately provided the difference between the sides, with the young halfback refusing to allow the occasion -- or the noise surrounding him -- to alter his process.\n\nThe Knights' youngsters were just as impressive without the ball.\n\nNewcastle repeatedly scrambled to survive Warriors raids, with Greg Marzhew producing two crucial interventions in the first half - knocking down a pass with a try looming before bundling Dallin Watene-Zelezniak into touch moments later.\n\nTheir defensive resolve became even more important as fatigue arrived and the Warriors threw everything at them late. The hosts enjoyed multiple attacking opportunities but Newcastle continually found a way to shut the door.\n\nKalyn Ponga did not need to manufacture every decisive moment himself. His early linebreaks and constant movement kept the Warriors' defensive line occupied, creating opportunities for Best, Sharpe and Newcastle's outside backs.\n\nThat might be the most encouraging sign of all for Justin Holbrook.\n\nThe Halasima gamble almost saved the Warriors' season\n\nLeka Halasima entered the weekend under an injury cloud and was only confirmed in the Warriors' starting side shortly before kick-off.\n\nHe then came within inches of dragging their season into another week.\n\nUsed in the centres, the powerful youngster was comfortably New Zealand's most dangerous attacking player. His combination of footwork, strength and acceleration caused Newcastle problems from the opening exchanges.\n\nHalasima struck first after 14 minutes, crashing through a retreating defensive line after a set restart had given the Warriors momentum.\n\nHe continued to torment Newcastle's right edge throughout the opening half, producing a brutal fend on Sandon Smith before breaking into space. Only a forward pass on the final exchange prevented the Warriors from turning the opportunity into more points.\n\nWith New Zealand's season rapidly slipping away, Halasima delivered again in the 70th minute, surging over for his second try and reducing Newcastle's lead to two.\n\nThe conversion attempt sailed wide, leaving the Warriors needing another score, but Halasima's performance offered a glimpse of what their attack could increasingly be built around.\n\nHe had spent much of the season establishing himself as one of the competition's most destructive young forwards. On Sunday, despite the hamstring concern and a positional switch, he showed he can be equally damaging when given room on an edge.\n\nThe concern for Andrew Webster will be how isolated that threat often appeared.\n\nOutside of Halasima's individual power, the Warriors struggled to consistently create space or manipulate Newcastle's defensive line. Their other apparent second-half try, to Ali Leiataua, was correctly overturned for an obstruction.\n\nHalasima nearly carried them across the line, but in a sudden-death final, nearly was not enough.\n\nThe Warriors saved their errors for the biggest moments\nFinals football rarely demands perfection. It does, however, punish carelessness.\n\nThe Warriors learned that lesson in brutal fashion.\n\nThey had chances to take control of this contest but repeatedly released the pressure through an error, a mistimed pass or a poor decision.\n\nThe most costly arrived immediately after half-time.\n\nWith the scores locked at 6-6, Watene-Zelezniak attempted an offload under pressure and instead passed the ball directly to Bradman Best. Newcastle capitalised just a couple of plays later, shifting right for Dominic Young to score the try that ultimately decided the match.\n\nIt was far from the Warriors' only missed opportunity.\n\nA promising first-half break from Halasima ended with a forward pass. Kurt Capewell followed a superb tackle on Young and a powerful carry with an error. Leiataua's second-half effort was erased by an obstruction, while several attacking sets close to Newcastle's line ended without the composure required to convert pressure into points.\n\nIndividually, none of those moments had to be fatal. Together, they told the story of a side that tightened up when its season was on the line.\n\nIt continued a worrying trend from the previous week. The Warriors had led the Dolphins 16-8 after an hour before conceding 18 unanswered points. Given a second opportunity at home, they again failed to close out a match they had every chance to win.\n\nThat makes this exit particularly painful.\n\nNew Zealand finished second and earned two home finals, yet their season ends with consecutive defeats and the sense that their best football deserted them at precisely the wrong time.\n\nThe Warriors' rise under Webster remains significant, while players such as Halasima provide ample reason for optimism. But the next stage of their development must be learning how to regain control when a finals match becomes frantic.\n\nThe premiership contenders still standing know how to make those moments feel routine.\n\nFor the second straight week, the Warriors made them feel overwhelming."
     },
     {
-      "story_id": "49991729",
-      "headline": "Bears' Caleb Williams leaves on cart after falling on scramble",
-      "summary": "Bears quarterback Caleb Williams exited Sunday's game against the Minnesota Vikings with a right hamstring injury.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719644_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T20:05:24Z",
+      "story_id": "49992031",
+      "headline": "Crow-Armstrong hits 45th homer as Cubs beat Reds 9-1, edge closer to playoff berth",
+      "summary": "\u2014 Pete Crow-Armstrong hit his 45th home run as the Chicago Cubs moved closer to clinching a postseason berth with a 9-1 victory over the Cincinnati Reds on Sunday.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817014.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T20:18:39Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/recap?gameId=401817014",
+      "stream_url": "",
+      "body": "CINCINNATI -- \u2014 Pete Crow-Armstrong hit his 45th home run as the Chicago Cubs moved closer to clinching a postseason berth with a 9-1 victory over the Cincinnati Reds on Sunday.\n\n\r\nChicago (87-69) reduced its magic number to one and could wrap up a berth if the Diamondbacks lose to the Yankees later Sunday.\n\n\r\nThe Cubs began the day tied with the Padres and one game ahead of the Phillies for the top NL wild-card spot which would earn them home-field advantage in the wild-card round. The Cubs own the tiebreakers over the Diamondbacks, Padres, and Phillies.\n\n\r\nCubs third baseman Alex Bregman left Sunday's game in the fourth inning after being struck in the face by a foul ball off the bat of Michael Busch while standing near the on-deck circle.\n\n\r\nCubs left-hander David Peterson (9-8) allowed a run on three hits in seven innings with one walk and seven strikeouts.\n\n\r\nThe Cubs loaded the bases with one out in the third. Ian Happ singled in a run and Nico Hoerner walked to force in another to extend Chicago's lead to 3-0. Pedro Ramirez's two-run single made the score 5-0.\n\n\r\nReds right-hander Rhett Lowder (6-12) allowed five earned runs on six hits with three walks and three strikeouts.\n\n\r\nMichael Conforto's 15th home run made the score 6-1 in the fifth. Three batters later, Crow-Armstrong's two-run home run made it 8-1.\n\n\r\nSeiya Suzuki hit his 25th homer of the season in the eighth.\n\n\r\nJJ Bleday hit his 23rd home run of the season for Cincinnati. Reds right-hander Carson Spiers allowed four runs and three homers in four innings. He also struck out five.\n\n\r\nUp next\r\nCubs: Have not announced a starter for Tuesday's series opener against the Marlins.\n\n\r\nReds: LHP Andrew Abbott (6-11, 4.70) is scheduled to start Tuesday in Atlanta.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
+      "story_id": "49992023",
+      "headline": "Young throws 3 TD passes, including 2 to Waller, as Panthers dominate short-handed Falcons 34-3",
+      "summary": "\u2014 Bryce Young threw for 287 yards and three touchdowns, including two to Darren Waller, Carolina's Devin Lloyd returned one of his two interceptions for a touchdown and the...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872933.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T20:16:33Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Courtney Cronin",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49991729/bears-caleb-williams-leaves-cart-falling-scramble",
+      "link": "http://www.espn.com/nfl/recap?gameId=401872933",
       "stream_url": "",
-      "body": "CHICAGO -- Bears quarterback Caleb Williams exited Sunday's 9-3 loss to the Minnesota Vikings with a right hamstring injury midway through the fourth quarter.\n\nAfter running back Kyle Monangai converted a fourth down inside the red zone, Williams took off and ran to his left with a clear path to the end zone. His right leg appeared to give way as he was running, and he fell awkwardly to the ground.\n\nThe quarterback tried twice to get himself to his feet but could not stand without the assistance of trainers. Williams was helped to the injury tent, where he stayed for several minutes before being carted back to the locker room.\n\nWilliams sat on the cart with a towel over his head and was visibly in pain when he uncovered his face. He raised his right fist in the air and gave the crowd at Soldier Field a thumbs up before disappearing into the tunnel.\n\nTyson Bagent replaced Williams at quarterback. The Bears failed to score a touchdown despite running two plays inside Minnesota's 6-yard line. Cairo Santos' 23-yard field goal attempt was then blocked.\n\nThe entirety of Sunday's game was played under a steady downpour."
+      "body": "ATLANTA -- \u2014 Bryce Young threw for 287 yards and three touchdowns, including two to Darren Waller, Carolina's Devin Lloyd returned one of his two interceptions for a touchdown and the Panthers routed the short-handed Atlanta Falcons 34-3 on Sunday.\n\n\r\nThe Panthers (1-1) earned their fourth straight win in the NFC South rivalry. Young completed 23 of 36 passes as he improved to 5-1 against the Falcons. He set a franchise record with 448 yards passing in a 30-27 overtime win to cap last season's sweep.\n\n\r\nWith fill-in starter Cooper Rush at quarterback, the Falcons (0-2) had more offensive woes following their 20-13 opening loss at Pittsburgh last week. Michael Penix Jr. (knee) and Tua Tagovailoa (oblique) again were inactive.\n\n\r\nRush completed 10 of 17 passes for 86 yards with two interceptions and also lost a fumble.\n\n\r\nRush's struggles from his very first snap were so dramatic that some Falcons fans were booing six minutes into the game. He lost a fumble on a 9-yard run to open the game. Atlanta\u2019s second possession ended when Rush\u2019s pass intended for Bijan Robinson was intercepted by linebacker Bobby Okereke.\n\n\r\nRush was replaced by undrafted rookie Jack Strand late in the third quarter, prompting an ovation from Falcons fans. Strand's first possession ended badly as his pass for Jahan Dotson was intercepted by Lloyd and returned 16 yards for a touchdown. Strand lost a fumbled snap on his final possession.\n\n\r\nOne week after a 59-37 loss to Chicago left Carolina's defense with franchise records for points and rushing touchdowns (six) allowed, the Panthers gave up only 286 yards, including 72 rushing yards by Robinson. The Falcons' only points came on Nick Folk's 41-yard field goal.\n\n\r\nYoung ended the first half with a 7-yard touchdown pass to Waller for a 20-3 halftime lead.\n\n\r\nUp next\r\nPanthers: at Cleveland next Sunday.\n\n\r\nFalcons: at Green Bay on Thursday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+    },
+    {
+      "story_id": "49986177",
+      "headline": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
+      "summary": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4.jpg",
+      "published_utc": "2026-09-20T03:57:51Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49986177/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49990917",
@@ -14100,20 +14128,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/49991106/carrick-squashes-notion-manchester-united-shape",
       "stream_url": "",
       "body": "Michael Carrick played down concerns that Manchester United's poor start to the season has been caused by a lack of fitness within the squad.\n\nUnited needed an 89th minute equaliser from Matheus Cunha to salvage a 1-1 draw with Fulham at Craven Cottage on Sunday after Lisandro Mart\u00ednez knocked the ball into his own net to stake the hosts with a lead.\n\nAfterwards, Cunha said Fulham's players \"put in more energy\" at the start of the second half before taking the lead.\n\nBut Carrick insisted fitness is not an issue, despite data from the game showing that Fulham's players covered an extra 6km.\n\n\"It didn't look like that to me,\" Carrick said after being asked about Cunha's assessment. \"I was quite happy with the way we finished the game. I thought we finished the game really strongly actually and we kept pushing.\n\n\"So I don't think that's an issue, no.\"\n\nThe draw at Fulham leaves United on five points after five games -- their worst start to a Premier League season since 2014 -- and in 12th place in the standings.\n\nCarrick admitted the start to the campaign is \"not ideal,\" but praised his players for finding a way back at Craven Cottage when it looked like United would suffer a third damaging defeat in a week after exiting the Carabao Cup at the hands of Brighton on Wednesday.\n\n\"That's a big thing, without getting carried away with it, because we've taken a point and we wanted to win, but it's part of learning as a group,\" said Carrick. \"How we respond, what it looks like moving forward, what our reaction is, all that. That's part of growing as a group.\n\n\"Definitely today it could have gone in a different direction -- 100% it could have. I was really pleased with the response and I think that'll help us a lot moving forward.\"\n\nUnited not head into an extended break for the FIFA international window and do not play again until a home match against Tottenham Hotspur on Oct. 10."
-    },
-    {
-      "story_id": "49990766",
-      "headline": "Rangers place pitcher Cal Quantrill on 15-day injured list",
-      "summary": "The Rangers put versatile right-hander Cal Quantrill on the 15-day injured list Sunday, a day after he exited following four batters and 12 pitches because of right lat tightness.",
-      "image": "https://a.espncdn.com/photo/2026/0813/r1701090_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T18:50:00Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49990766/rangers-place-pitcher-quantrill-15-day-injured-list",
-      "stream_url": "",
-      "body": "ARLINGTON, Texas -- The American League West-leading Texas Rangers put versatile right-hander Cal Quantrill on the 15-day injured list Sunday, a day after he exited following four batters and 12 pitches because of right lat tightness.\n\nHard-throwing right-hander Winston Santos was recalled from Triple-A Round Rock and joined the Rangers before the finale of their three-game series against the Toronto Blue Jays.\n\nAbout an hour before the game, the Rangers said right fielder Brandon Nimmo was being scratched from the starting lineup because of illness.\n\nBefore the IL move was announced, manager Skip Schumaker said the Rangers knew going into Saturday night's game that Quantrill's velocity was lower.\n\nQuantrill (9-5) was showing no signs of pain when Schumaker, pitching coach Jordan Tiegs and head trainer Matt Lucero went to the mound in the second inning and he came out of the game. Quantrill has a 2.86 ERA in 32 games (15 starts) after going to spring training with the Rangers on a minor league deal.\n\nHe left his previous start after six innings and 70 pitches at Arizona last Sunday with back soreness.\n\nQuantrill, 31, has a 1.75 ERA (11 earned runs in 56\u2154 innings) over his past 11 appearances (10 starts). Cam Schlittler of the New York Yankees at 1.64 is the only qualified pitcher with a better ERA over that span.\n\nSantos is beginning his third stint with the Rangers, though his only appearance in the first two was his big league debut July 1 at Cleveland, where he allowed two runs in two innings. He has 103 strikeouts in 83\u2153 innings in the minor leagues this season."
     },
     {
       "story_id": "49978453",
@@ -14170,20 +14184,6 @@
       "link": "http://www.espn.com/soccer/report/_/gameId/761815",
       "stream_url": "",
       "body": "NEW YORK -- Julian Hall scored early in the second half and keeper Ethan Horvath was never tested for the New York Red Bulls in a 1-0 victory over New York City FC on Friday night at Yankee Stadium.\n\nHall scored unassisted in the 57th minute for his 10th goal this season. The 18-year-old forward scored three times in his first 38 appearances.\n\nHorvath did not have to make a save for the Red Bulls (9-11-6). It was his fourth clean sheet in 26 starts in his first season in the league.\n\nMatt Freese totaled four saves for NYCFC (8-10-8), which falls to 4-6-4 at home. He had the lone save in the scoreless first half.\n\nThe Red Bulls have won two straight following a six-match winless streak, improving to 5-6-3 away from home after a four-match trip.\n\nNYCFC was coming off a 2-0 road win over Real Salt Lake that snapped a seven-match winless stretch.\n\nThe two clubs played to a 1-1 draw at Red Bull Arena in May.\n\nThe Red Bulls lead the all-time series in all competitions 17-13-5 and they are 2-1-1 in their last four trips to Yankee Stadium.\n\nUp next New York: Hosts St. Louis City on Sept. 26.\n\nNew York City: At Atlanta United on Sept. 26."
-    },
-    {
-      "story_id": "49985767",
-      "headline": "Chicago Blackhawks vs. Minnesota Wild: Game Highlights",
-      "summary": "Chicago Blackhawks vs. Minnesota Wild: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400.jpg",
-      "published_utc": "2026-09-20T03:15:55Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49985767/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "49867154",
