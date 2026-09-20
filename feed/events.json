@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T03:36:08.303321+00:00",
+  "generated_utc": "2026-09-20T03:46:25.216966+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -6188,7 +6188,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Busch Stadium",
       "detail": "",
       "game_number": 1,
@@ -6332,51 +6332,6 @@
       "card": "NASCAR Cup Series at Bristol"
     },
     {
-      "event_id": "espn:football:401856688",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:145",
-        "name": "Ole Miss Rebels",
-        "abbrev": "MISS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-        "logo_dark": null,
-        "aliases": [
-          "MISS",
-          "Ole Miss",
-          "Ole Miss Rebels",
-          "Rebels"
-        ],
-        "color": "13294b"
-      },
-      "away": {
-        "id": "espn:99",
-        "name": "LSU Tigers",
-        "abbrev": "LSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-        "logo_dark": null,
-        "aliases": [
-          "LSU",
-          "LSU Tigers",
-          "Tigers"
-        ],
-        "color": "461d76"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Vaught-Hemingway Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858453",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6415,6 +6370,51 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Notre Dame Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856688",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:145",
+        "name": "Ole Miss Rebels",
+        "abbrev": "MISS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+        "logo_dark": null,
+        "aliases": [
+          "MISS",
+          "Ole Miss",
+          "Ole Miss Rebels",
+          "Rebels"
+        ],
+        "color": "13294b"
+      },
+      "away": {
+        "id": "espn:99",
+        "name": "LSU Tigers",
+        "abbrev": "LSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+        "logo_dark": null,
+        "aliases": [
+          "LSU",
+          "LSU Tigers",
+          "Tigers"
+        ],
+        "color": "461d76"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Vaught-Hemingway Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -7220,7 +7220,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Chase Field",
       "detail": "",
       "game_number": 1,
@@ -7593,7 +7593,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-20T01:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:55",
         "name": "Seattle Kraken",
@@ -7623,7 +7623,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Climate Pledge Arena",
       "detail": "",
       "game_number": 1,
@@ -7764,7 +7764,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kidd Brewer Stadium",
-      "detail": "4:56 - 3rd Quarter",
+      "detail": "2:07 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7808,7 +7808,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "46'",
+      "detail": "56'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7866,7 +7866,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:4771",
         "name": "Real Salt Lake",
@@ -7894,9 +7894,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "America First Field",
-      "detail": "90'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7990,7 +7990,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "0:31 - 2nd Quarter",
+      "detail": "7:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8037,7 +8037,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Snapdragon Stadium",
-      "detail": "1:55 - 2nd Quarter",
+      "detail": "0:30 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8084,7 +8084,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Casino Del Sol Stadium",
-      "detail": "7:40 - 2nd Quarter",
+      "detail": "3:54 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8132,7 +8132,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hornet Stadium",
-      "detail": "11:24 - 2nd Quarter",
+      "detail": "6:56 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8221,7 +8221,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rose Bowl",
-      "detail": "4:34 - 1st Quarter",
+      "detail": "15:00 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8268,7 +8268,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "3:00 - 1st Quarter",
+      "detail": "14:33 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8316,7 +8316,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "1:36 - 1st Quarter",
+      "detail": "14:40 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13843,18 +13843,18 @@
       "body": "For most clubs, failure or success can be defined in points, trophies and medals. Manchester United are the same, but they can also define it in days. More specifically, it can be summed up in 712 days.\n\nThat's how long viral United fan Frank Ilett, also known as The United Strand, has gone without a haircut as he waits for the team to win five games in a row.\n\nAfter finishing last season with wins over Nottingham Forest and Brighton, Michael Carrick's side could have completed the job with wins over newly promoted Hull City and Ipswich Town before finishing with a win away at Everton. As it turned out, that's not at all what happened.\n\nAn embarrassing 2-0 away defeat to Hull meant going back to square one. A 5-2 win over Ipswich might have promoted hopes that the season opener was just an unwanted blip, but a draw to Everton and a controversial defeat to 10-man Manchester City poured further cold water.\n\nHow could it get worse? Well, a 2-0 lead inside the first 10 minutes against Brighton in the Carabao Cup ended in a surprise 3-2 defeat.\n\nLeft watching on, his hair growing ever longer, is Ilett. His challenge will now officially reach the two-year mark -- his last haircut was on Oct. 5, 2024 -- and his hair is now almost 14 inches at its longest point.\n\nIn the meantime, Ilett continues to raise money for the Little Princess Trust, which creates wigs for children with cancer.\n\nThe only thing that can happen now before Ilett soars past two years is for United to win away to Fulham in their last game before the international break."
     },
     {
-      "story_id": "49984320",
-      "headline": "Sharks dismiss rebuild theory amid fresh finals pain",
-      "summary": "Cronulla are adamant they will be in the fight for the NRL premiership in 2027 despite undergoing an off-season roster overhaul.",
+      "story_id": "49985353",
+      "headline": "'Memory of a goldfish': Roosters veteran's finals key",
+      "summary": "Daly Cherry-Evans applied a key message from fictional soccer coach Ted Lasso before helping spearhead the Sydney Roosters' 46-10 finals win over Cronulla.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_NRL_Highlight_Tupou_scores_a_beauty_for_the_Roosters_20260919_AUS_ONLY/dm_260919_NRL_Highlight_Tupou_scores_a_beauty_for_the_Roosters_20260919_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49984320/nrl-results-news-cronulla-sharks-dismiss-rebuild-theory-amid-fresh-finals-pain",
+      "link": "https://www.espn.com/nrl/story/_/id/49985353/nrl-results-news-sydney-roosters-veteran-daly-cherry-evans-finals-key",
       "stream_url": "",
-      "body": "Craig Fitzgibbon insists Cronulla won't be entering a rebuild phase as the Sharks prepare to undergo one of the most significant off-season shake-ups of the coach's tenure.\n\nAfter Nicho Hynes was concussed in the opening stages of Saturday's semi-final to the Sydney Roosters, the Sharks fought on bravely before being overrun in a 46-10 defeat.\n\nCronulla have made the finals every year since Fitzgibbon took charge in 2022 but have yet to make the grand final.\n\n\"There's only been two teams that have won the comp in the last five years,\" Fitzgibbon said.\n\n\"We're not that far off, but we haven't got there.\n\n\"So that's a fair criticism and it's frustrating, but we haven't got there.\n\n\"We've got to work out how and what we do with what we've got to get there.\"\n\nSeven players will move to new clubs over the off-season, including a quartet who have been ever present under Fitzgibbon -- lock Cameron McInnes (York), Siosifa Talakai (Perth) and the North Queensland-bound duo of Sione Katoa and Jesse Ramien.\n\n\"We've been up for five years now with the same group of guys, and a portion of those are leaving, and we'll be forever grateful for their service,\" Fitzgibbon said.\n\n\"We've punched above our weight for a long time now.\n\n\"It won't be hard to replace them. Everyone thinks we'll need a reset, rebuild but no, we'll just keep going.\n\n\"We've got some guys ready to go, we won't be going anywhere.\"\n\nHynes' exclusion after failing his head injury assessment set the wheels in motion for another finals defeat for the Sharks, who now boast a 4-7 post-season record under Fitzgibbon.\n\nHalfback Hynes has frequently been the target for criticism when Cronulla have fallen short in September.\n\nBut the No.7 was quick to apologise to his teammates after he got his head on the wrong side in a tackle on Salesi Foketi.\n\n\"He went out there and went head first for the first collision he could get and the timing was wrong, but it's just a sign of how much he wanted it,\" Fitzgibbon added.\n\n\"It cost him dearly but he just apologised. He knows that he had a moment that he had an opportunity for tonight which was important to him and us.\n\n\"It went wrong, but you can handle that when you go in head first and you're committed for the team.\""
+      "body": "Daly Cherry-Evans says heeding the advice of Ted Lasso helped turn around his NRL finals campaign, as the Sydney Roosters veteran prepares to reunite with halves partner Sam Walker.\n\nWalker remains on track to return for the Roosters in Friday night's preliminary final against the Dolphins, less than a month after tearing his syndesmosis.\n\nThe Roosters No.7 was back training and kicking last week, with coach Trent Robinson declaring on Saturday night he was \"pretty confident\" Walker would play.\n\nCherry-Evans was also briefly under a cloud following Friday night's 46-10 sem-final win over Cronulla, before he escaped with a $1000 fine for a trip on Shark Teig Wilton.\n\nFriday night's clash will be Cherry-Evans' 378th NRL match and also the last if the Roosters are beaten, with the former Manly star the second-most capped player in the game's history.\n\nIt is fitting that Cherry-Evans will face the Dolphins, given his father Troy played hooker for Redcliffe.\n\nNot that the 37-year-old is interested in any discussion about his looming NRL swan song after 16 seasons.\n\n\"I completely understand the sentiment, but they are just storylines,\" Cherry-Evans said of the Redcliffe link.\n\n\"At the end of the day we're playing a prelim.\n\n\"We actually don't care where we had to play it. We just wanted to give ourselves an opportunity and we have created that opportunity.\"\n\nCherry-Evans' finals form is also a storyline.\n\nHis game came under scrutiny in the Roosters' 19-12 week-one qualifying final loss to Penrith, which included him missing a field goal from right in front that would have made it 13-13.\n\nHe rebounded with a try and three assists in Saturday night's win.\n\n\"I have been pretty consistent on this message throughout my career. You won't find anyone harder on my own game than myself,\" Cherry-Evans said.\n\n\"It's as simple as that.\n\n\"But if I carry my divots, I'm then not only putting myself out but my team out.\n\n\"From the words of the great Ted Lasso, memory of a goldfish.\"\n\nWalker's return will to push Cherry-Evans back to No.6, while Hugo Savala could be squeezed onto the bench after filling in at five-eighth and centre.\n\nWalker has been a proven big-game player this year, being Queensland's best in his first two State of Origins during this year's series.\n\nHe could also hold the key to the Roosters' premiership hopes, after they walked away from Saturday's second-half domination confident they can challenge for the title.\n\n\"He's just been relentless in his recovery. It's been so great to watch him and to be honest it hasn't been surprising,\" Cherry-Evans said.\n\n\"He's an extremely competitive person.\n\n\"The team means a lot to him, the opportunity to play deep into finals means a lot to him. There's no surprise he is putting himself in the frame to play next weekend.\"\n\nFiit-again backrower Angus Crichton, who spent time in the casualty ward with Walker, also backed the half to make a big return.\n\n\"He's been great. I am so happy for him. He looks like he is in less pain than I am,\" Crichton said.\n\n\"He is running, kicking and doing everything at training. It's pretty impressive. He is a big part of this team and worked so hard like all of us have.\n\n\"He deserves it, so hopefully he can keep pushing it and come back.\""
     },
     {
       "story_id": "49985778",
@@ -14011,18 +14011,18 @@
       "body": "Borussia Dortmund have said 18-year-old midfielder Konstantinos Karetsas is back in training just over a week after he slumped to the ground in an alarming medical incident on his Champions League debut.\n\nKaretsas passed the ball to a teammate then signaled his distress to the referee before sitting on the grass during Dortmund's 3-2 win over Villarreal on Sept. 8.\n\nHe was in tears as he was stretchered off with suspected circulatory problems and was then taken to a hospital, where he stayed for much of last week.\n\n\"Konstantinos Karetsas is back in team training as of Wednesday after doing individual sessions at the start of the week,\" Dortmund said. \"It was his first joint session with his teammates after he was taken off with circulatory problems in the game against Villarreal.\"\n\nDortmund hasn't specified the nature of any diagnosis for Karetsas, who was signed from Genk for a reported fee of $34.6 million last month, and didn't indicate whether he would be able to play Saturday against Stuttgart in the Bundesliga.\n\nKaretsas plays internationally for Greece but was born in Belgium, where local media have reported that dehydration was suspected as a factor.\n\n\"I'm doing really well,\" he said in a video recorded during a visit to his old club Genk and published Monday on X. \"We tested everything and everything is fine. I just need to adjust a bit to the intensity but that will come with time.\"\n\n\"I went out with him but in that moment, he wasn't able to speak,\" Book said.\n\n- Borussia Dortmund teenager Karetsas hospitalised after slumping to turf in Champions League\n\nKaretsas was able to cheer on his teammates from the stands in Saturday's 3-0 win over Paderborn.\n\nManaging director Lars Ricken said there had been \"no warning signs\" of any circulatory problems prior to the incident."
     },
     {
-      "story_id": "49962025",
-      "headline": "What We Learned: The Roosters are tough with a capital T",
-      "summary": "The Roosters savaged a depleted Sharks side ravaged by injury. Here's what we learned from the game.",
-      "image": "https://a.espncdn.com/photo/2026/0919/r1718911_1296x729_16-9.jpg",
+      "story_id": "49984320",
+      "headline": "Sharks dismiss rebuild theory amid fresh finals pain",
+      "summary": "Cronulla are adamant they will be in the fight for the NRL premiership in 2027 despite undergoing an off-season roster overhaul.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_NRL_Highlight_Tupou_scores_a_beauty_for_the_Roosters_20260919_AUS_ONLY/dm_260919_NRL_Highlight_Tupou_scores_a_beauty_for_the_Roosters_20260919_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/49962025/nrl-roosters-punish-injury-ravaged-sharks-semifinal-premilinary-final-learned",
+      "link": "https://www.espn.com/nrl/story/_/id/49984320/nrl-results-news-cronulla-sharks-dismiss-rebuild-theory-amid-fresh-finals-pain",
       "stream_url": "",
-      "body": "The Roosters booked their place through to the preliminary finals and a date with the Dolphins after they punished a depleted Sharks side who lost star Nico Hynes in the opening minutes.\n\nHere are three things we learned from the game:\n\nThe Roosters are tough with a capital T\n\nWhy were we giving up on this team? Can someone explain to me the reasoning behind throwing in the towel on the Eastern Suburbs team? They may have escaped into a prelim final but it wasn't the processional event that they expected.\n\nHow else do you explain a team which rolled into Parramatta Stadium a week ago and got handled? What other reason is there to apply to a squad which got embarrassed than 'they just wanted it more'? It doesn't matter how any potential opponents of either the Roosters or Panthers approached a game like this, they emerged victorious. This is a Roosters team which has really struggled to get on top of any opposition packs in big games this year, but had no such woes on Saturday night.\n\nI have no clue which team is going to win the title this year - but what I do know is that there are multiple teams who have their hands thrown up in the air with no regard for the rest of us.\n\nEveryone involved with the Sharks should be embarrassed\n\nThis is not a team which I would associate with winning regularly, or even with taking care of business with a nod to the future. Instead, it was a meek season end with very little opposition thrown up.\n\nThis was meant to be the culmination of a team whose reputation was far greater than the reputation which we thought preceded it. Instead, absolute garbage. The Sharks,for the sixth straight year, lined up with absolute garbage. A meek and weak performance with the world watching. Why even bother? What does this team do in 2027? Who cares.\n\nThere is genuinely no reason why you should care about what this Cronulla team might do in 2027. It just doesn't matter. It's a waste of everyone's time to try and assume otherwise. They've had their chance to win it all and that is gone now.\n\nA forward pack can hold its own if given the chance\n\nEvery year there are a few Roosters forwards sticking their hands on their heads, it's a game where a club which is desperate for premierships finds some young forwards who want to show the rest of the club that there's no reason to give up.\n\nFahu Whyte only played the opening 25 minutes but he was superb. Siua Wong gave the Roosters 80 minutes of superb footy. Angus Crichton and Nat Butcher came off the bench to make real differences for the Roosters as well. Whatever happens next week and possibly the week after, Trent Robinson's men are ready for it."
+      "body": "Craig Fitzgibbon insists Cronulla won't be entering a rebuild phase as the Sharks prepare to undergo one of the most significant off-season shake-ups of the coach's tenure.\n\nAfter Nicho Hynes was concussed in the opening stages of Saturday's semi-final to the Sydney Roosters, the Sharks fought on bravely before being overrun in a 46-10 defeat.\n\nCronulla have made the finals every year since Fitzgibbon took charge in 2022 but have yet to make the grand final.\n\n\"There's only been two teams that have won the comp in the last five years,\" Fitzgibbon said.\n\n\"We're not that far off, but we haven't got there.\n\n\"So that's a fair criticism and it's frustrating, but we haven't got there.\n\n\"We've got to work out how and what we do with what we've got to get there.\"\n\nSeven players will move to new clubs over the off-season, including a quartet who have been ever present under Fitzgibbon -- lock Cameron McInnes (York), Siosifa Talakai (Perth) and the North Queensland-bound duo of Sione Katoa and Jesse Ramien.\n\n\"We've been up for five years now with the same group of guys, and a portion of those are leaving, and we'll be forever grateful for their service,\" Fitzgibbon said.\n\n\"We've punched above our weight for a long time now.\n\n\"It won't be hard to replace them. Everyone thinks we'll need a reset, rebuild but no, we'll just keep going.\n\n\"We've got some guys ready to go, we won't be going anywhere.\"\n\nHynes' exclusion after failing his head injury assessment set the wheels in motion for another finals defeat for the Sharks, who now boast a 4-7 post-season record under Fitzgibbon.\n\nHalfback Hynes has frequently been the target for criticism when Cronulla have fallen short in September.\n\nBut the No.7 was quick to apologise to his teammates after he got his head on the wrong side in a tackle on Salesi Foketi.\n\n\"He went out there and went head first for the first collision he could get and the timing was wrong, but it's just a sign of how much he wanted it,\" Fitzgibbon added.\n\n\"It cost him dearly but he just apologised. He knows that he had a moment that he had an opportunity for tonight which was important to him and us.\n\n\"It went wrong, but you can handle that when you go in head first and you're committed for the team.\""
     }
   ],
   "shows": [
