@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T02:35:34.797058+00:00",
+  "generated_utc": "2026-09-20T02:45:39.122198+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -5462,7 +5462,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2",
         "name": "Auburn Tigers",
@@ -5492,54 +5492,8 @@
         "color": "0021a5"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Jordan-Hare Stadium",
-      "detail": "0:24 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856800",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2116",
-        "name": "UCF Knights",
-        "abbrev": "UCF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knights",
-          "UCF",
-          "UCF Knights"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:2247",
-        "name": "Georgia State Panthers",
-        "abbrev": "GAST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
-        "logo_dark": null,
-        "aliases": [
-          "GAST",
-          "Georgia St",
-          "Georgia State",
-          "Georgia State Panthers",
-          "Panthers"
-        ],
-        "color": "0039a6"
-      },
-      "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "Acrisure Bounce House",
+      "venue": "Jordan-Hare Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5587,7 +5541,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Raymond James Stadium",
-      "detail": "8:56 - 4th Quarter",
+      "detail": "6:49 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5601,7 +5555,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6",
         "name": "South Alabama Jaguars",
@@ -5631,55 +5585,9 @@
         "color": "154734"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Hancock Whitney Stadium",
-      "detail": "End of 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401870764",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2534",
-        "name": "Sam Houston Bearkats",
-        "abbrev": "SHSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bearkats",
-          "SHSU",
-          "Sam Houston",
-          "Sam Houston Bearkats"
-        ],
-        "color": "f56423"
-      },
-      "away": {
-        "id": "espn:2447",
-        "name": "Nicholls Colonels",
-        "abbrev": "NICH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
-        "logo_dark": null,
-        "aliases": [
-          "Colonels",
-          "NICH",
-          "Nicholls",
-          "Nicholls Colonels"
-        ],
-        "color": "C41230"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Elliott T. Bowers Stadium",
-      "detail": "0:16 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5725,6 +5633,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Memorial Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856800",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2116",
+        "name": "UCF Knights",
+        "abbrev": "UCF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knights",
+          "UCF",
+          "UCF Knights"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:2247",
+        "name": "Georgia State Panthers",
+        "abbrev": "GAST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+        "logo_dark": null,
+        "aliases": [
+          "GAST",
+          "Georgia St",
+          "Georgia State",
+          "Georgia State Panthers",
+          "Panthers"
+        ],
+        "color": "0039a6"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Acrisure Bounce House",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6015,6 +5969,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401870764",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2534",
+        "name": "Sam Houston Bearkats",
+        "abbrev": "SHSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearkats",
+          "SHSU",
+          "Sam Houston",
+          "Sam Houston Bearkats"
+        ],
+        "color": "f56423"
+      },
+      "away": {
+        "id": "espn:2447",
+        "name": "Nicholls Colonels",
+        "abbrev": "NICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
+        "logo_dark": null,
+        "aliases": [
+          "Colonels",
+          "NICH",
+          "Nicholls",
+          "Nicholls Colonels"
+        ],
+        "color": "C41230"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Elliott T. Bowers Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401857199",
       "sport": "basketball",
       "competition_id": "wnba",
@@ -6199,53 +6199,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858459",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T23:15Z",
-      "status": "live",
-      "home": {
-        "id": "espn:264",
-        "name": "Washington Huskies",
-        "abbrev": "WASH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-        "logo_dark": null,
-        "aliases": [
-          "Huskies",
-          "WASH",
-          "Washington",
-          "Washington Huskies"
-        ],
-        "color": "33006f"
-      },
-      "away": {
-        "id": "espn:331",
-        "name": "Eastern Washington Eagles",
-        "abbrev": "EWU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
-        "logo_dark": null,
-        "aliases": [
-          "E Washington",
-          "EWU",
-          "Eagles",
-          "Eastern Washington",
-          "Eastern Washington Eagles"
-        ],
-        "color": "a10022"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Husky Stadium",
-      "detail": "0:12 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858452",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6292,6 +6245,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858459",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-19T23:15Z",
+      "status": "final",
+      "home": {
+        "id": "espn:264",
+        "name": "Washington Huskies",
+        "abbrev": "WASH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "WASH",
+          "Washington",
+          "Washington Huskies"
+        ],
+        "color": "33006f"
+      },
+      "away": {
+        "id": "espn:331",
+        "name": "Eastern Washington Eagles",
+        "abbrev": "EWU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Washington",
+          "EWU",
+          "Eagles",
+          "Eastern Washington",
+          "Eastern Washington Eagles"
+        ],
+        "color": "a10022"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Husky Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:racing:202609190016",
       "sport": "racing",
       "competition_id": "nascar",
@@ -6300,12 +6300,12 @@
       "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "Ryan Blaney",
+        "name": "Carson Hocevar",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
-          "Ryan Blaney"
+          "Carson Hocevar"
         ],
         "color": null
       },
@@ -6337,7 +6337,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:87",
         "name": "Notre Dame Fighting Irish",
@@ -6368,9 +6368,9 @@
         "color": "173f35"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Notre Dame Stadium",
-      "detail": "4:50 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6413,9 +6413,9 @@
         "color": "461d76"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Vaught-Hemingway Stadium",
-      "detail": "End of 3rd Quarter",
+      "detail": "11:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6429,7 +6429,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-19T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:201",
         "name": "Oklahoma Sooners",
@@ -6459,9 +6459,9 @@
         "color": "ba0c2f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Memorial Stadium (Norman, OK)",
-      "detail": "2:53 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6507,7 +6507,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bank of America Stadium",
-      "detail": "3:50 - 4th Quarter",
+      "detail": "0:58 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6553,7 +6553,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Northwestern Medicine Field at Martin Stadium",
-      "detail": "4:11 - 4th Quarter",
+      "detail": "1:43 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6599,7 +6599,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "SECU Stadium",
-      "detail": "12:36 - 4th Quarter",
+      "detail": "8:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6818,7 +6818,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Neyland Stadium",
-      "detail": "10:25 - 4th Quarter",
+      "detail": "8:50 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6832,7 +6832,7 @@
       "competition_id": "aew",
       "competition_name": "AEW",
       "start_utc": "2026-09-20T00:00:00Z",
-      "status": "unknown",
+      "status": "final",
       "home": {
         "id": "tvmaze:68778",
         "name": "AEW: Collision",
@@ -6914,7 +6914,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-20T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:30",
         "name": "Minnesota Wild",
@@ -6944,7 +6944,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Grand Casino Arena",
       "detail": "",
       "game_number": 1,
@@ -6989,9 +6989,9 @@
         "color": "0c2340"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "DKR-Texas Memorial Stadium",
-      "detail": "End of 3rd Quarter",
+      "detail": "12:45 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7037,7 +7037,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Amon G. Carter Stadium",
-      "detail": "13:20 - 4th Quarter",
+      "detail": "9:39 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7081,9 +7081,9 @@
         "color": "000000"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "H. A. Chapman Stadium",
-      "detail": "End of 3rd Quarter",
+      "detail": "11:09 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7128,7 +7128,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Our Lady of Lourdes Stadium",
-      "detail": "12:50 - 4th Quarter",
+      "detail": "10:15 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7268,7 +7268,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Canvas Stadium",
-      "detail": "3:50 - 3rd Quarter",
+      "detail": "0:35 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7282,7 +7282,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:185",
         "name": "FC Dallas",
@@ -7310,9 +7310,9 @@
         "color": "00b140"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Toyota Stadium",
-      "detail": "90'+1'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7326,7 +7326,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6077",
         "name": "Houston Dynamo FC",
@@ -7354,9 +7354,9 @@
         "color": "003087"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Shell Energy Stadium",
-      "detail": "90'+2'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7370,7 +7370,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:17362",
         "name": "Minnesota United FC",
@@ -7397,9 +7397,9 @@
         "color": "00235d"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Allianz Field",
-      "detail": "90'+1'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7413,7 +7413,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:186",
         "name": "Sporting Kansas City",
@@ -7441,9 +7441,9 @@
         "color": "051f31"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Sporting Park",
-      "detail": "90'+1'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7457,7 +7457,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:21812",
         "name": "St. Louis CITY SC",
@@ -7485,9 +7485,9 @@
         "color": "aa182c"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/In Progress",
+      "source_status": "post/Full Time",
       "venue": "Energizer Park",
-      "detail": "90'+3'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7671,7 +7671,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "8:50 - 4th Quarter",
+      "detail": "4:53 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7764,7 +7764,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kidd Brewer Stadium",
-      "detail": "4:34 - 2nd Quarter",
+      "detail": "2:06 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7808,7 +7808,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "4'",
+      "detail": "14'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7850,9 +7850,9 @@
         "color": "7ccdef"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "GEODIS Park",
-      "detail": "HT",
+      "detail": "46'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7894,9 +7894,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "America First Field",
-      "detail": "45'+4'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7990,7 +7990,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "5:17 - 1st Quarter",
+      "detail": "1:53 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8037,7 +8037,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Snapdragon Stadium",
-      "detail": "7:45 - 1st Quarter",
+      "detail": "3:59 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8098,7 +8098,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-20T02:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:16",
         "name": "Sacramento State Hornets",
@@ -8130,9 +8130,9 @@
         "color": "01402A"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Hornet Stadium",
-      "detail": "Sat, September 19th at 10:30 PM EDT",
+      "detail": "14:19 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8146,7 +8146,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T02:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:9723",
         "name": "Portland Timbers",
@@ -8174,9 +8174,9 @@
         "color": "9d2235"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Providence Park",
-      "detail": "Sat, September 19th at 10:30 PM EDT",
+      "detail": "4'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13689,18 +13689,32 @@
   ],
   "stories": [
     {
-      "story_id": "49985223",
-      "headline": "Rangers take sole possession of AL West lead, Quantrill leaves with injury in 6-3 win over Blue Jays",
-      "summary": "\u2014 Five relievers held Toronto to six hits after Cal Quantrill left 12 pitches in because of right lat tightness, and the Rangers moved into sole possession of the AL West lead for the first time since late August with a 6-2 win over the Blue Jays on...",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817005.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-20T02:19:29Z",
+      "story_id": "49985297",
+      "headline": "Acu\u00f1a grand slam leads Braves to 6-3 win, dropping Astros from AL West lead",
+      "summary": "\u2014 Ronald Acu\u00f1a Jr. hit a go-ahead grand slam in the seventh inning, and the Atlanta Braves beat Houston 6-3 Saturday night to drop the Astros out of the AL West lead.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817003.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T02:26:31Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817005",
+      "link": "http://www.espn.com/mlb/recap?gameId=401817003",
       "stream_url": "",
-      "body": "ARLINGTON, Texas -- \u2014 Five relievers held Toronto to six hits after Cal Quantrill left 12 pitches in because of right lat tightness, and the Rangers moved into sole possession of the AL West lead for the first time since late August with a 6-2 win over the Blue Jays on Saturday night.\n\n\r\nTexas (78-77) has won six of seven and moved a half-game ahead of Houston (77-78), which holds the tiebreaker. The Rangers have a winning record for the first time since before play on Aug. 11.\n\n\r\nJordan Montgomery (1-0) got his first win since Aug. 14, 2024, pitching 3 2/3 hitless innings. He returned from Tommy John surgery this past Aug. 9.\n\n\r\nDavis Schneider hit a pinch-homer for the AL champion Blue Jays (76-79), who have lost eight of 12. They trail the Chicago White Sox by three games for the AL\u2019s final wild card.\n\n\r\nQuantrill a, son former Toronto All-Star Paul Quantrill, retired George Springer on a groundout opening the second inning and didn\u2019t appear to exhibit any pain but didn\u2019t face another batter. The 31-year-old right-hander left his previous start on Sept. 13 at Arizona after 70 pitches because of a sore back.\n\n\r\nRangers manager Skip Schumaker said after the game he had no update on Quantrill, who is to have an MRI on Sunday.\n\n\r\nQuantrill was followed by Montgomery, and Nathan Eovaldi, Robert Garcia, Chase Silseth and Jacob Latz pitched one inning each.\n\n\r\nTexas scored twice in the second off Jos\u00e9 Soriano (12-8) without a base hit, helped by a walk, hit batter, infield throwing error and a wild pitch.\n\n\r\nTexas\u2019 three-run sixth featured an RBI double by Wyatt Langford when left fielder Myles Straw pulled up as the ball land between him and the wall.\n\n\r\nSoriano allowed six runs \u2014 five earned \u2014 pitching three batters into the sixth.\n\n\r\nUP NEXT\n\n\r\nRangers RHP Jacob deGrom (11-9, 3.79), who is 8-2 at home this season with a .183 opponents batting average, starts Sunday while the Blue Jays employ a bullpen game.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+      "body": "HOUSTON -- \u2014 Ronald Acu\u00f1a Jr. hit a go-ahead grand slam in the seventh inning, and the Atlanta Braves beat Houston 6-3 Saturday night to drop the Astros out of the AL West lead.\n\n\r\nHouston (77-78) fell one game behind Texas (78-77) and trails the Chicago White Sox (79-76) by two games for the last AL wild card. The Astros had held at least a share of the division lead each day since Aug. 25.\n\n\r\nAtlanta assured its eighth playoff berth in nine seasons on Friday and is in position to clinch its first NL East title since 2023 on Sunday.\n\n\r\nTrailing 2-1, Atlanta loaded the bases against AJ Blubaugh (5-3) and Acu\u00f1a homered off Bryan Abreu for his second grand slam this season and the fifth of his big league career.\n\n\r\nAcu\u00f1a singled and walked twice in his first three plate appearances. He has homered in three of his last four games.\n\n\r\nMike Yastrzemski added a solo homer in the eighth inning.\n\n\r\nGrant Holmes (10-5) allowed two runs and eight hits over six innings.\n\n\r\nYainer Diaz hit an RBI double in the eighth off Dylan Lee, who struck out pinch-hitter Nelson Vel\u00e1zquez to end the inning.\n\n\r\nRaisel Iglesias pitched a perfect ninth inning for his 34th save in 37 chances.\n\n\r\nJose Altuve had three hits for Houston, while Isaac Paredes was 2 for 3 with a home run, walk and two RBI.\n\n\r\nChristian Walker had two hits after entering the game hitless in his previous 23 at-bats.\n\n\r\nHayden Wesneski allowed one run on four hits over 5 1/3 innings.\n\n\r\nUp next\r\nAstros RHP Hunter Brown (6-3, 3.43 ERA) and Braves LHP Mart\u00edn P\u00e9rez (9-9, 3.07 ERA) start Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
+      "story_id": "49985288",
+      "headline": "Montreal Canadiens vs. Toronto Maple Leafs: Game Highlights",
+      "summary": "Montreal Canadiens vs. Toronto Maple Leafs: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/97d05667-4783-4a21-86fa-d275462dc165/97d05667-4783-4a21-86fa-d275462dc165.jpg",
+      "published_utc": "2026-09-20T02:24:50Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49985288/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/97d05667-4783-4a21-86fa-d275462dc165/97d05667-4783-4a21-86fa-d275462dc165/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49953092",
@@ -13801,20 +13815,6 @@
       "body": "NEW YORK -- Julian Hall scored early in the second half and keeper Ethan Horvath was never tested for the New York Red Bulls in a 1-0 victory over New York City FC on Friday night at Yankee Stadium.\n\nHall scored unassisted in the 57th minute for his 10th goal this season. The 18-year-old forward scored three times in his first 38 appearances.\n\nHorvath did not have to make a save for the Red Bulls (9-11-6). It was his fourth clean sheet in 26 starts in his first season in the league.\n\nMatt Freese totaled four saves for NYCFC (8-10-8), which falls to 4-6-4 at home. He had the lone save in the scoreless first half.\n\nThe Red Bulls have won two straight following a six-match winless streak, improving to 5-6-3 away from home after a four-match trip.\n\nNYCFC was coming off a 2-0 road win over Real Salt Lake that snapped a seven-match winless stretch.\n\nThe two clubs played to a 1-1 draw at Red Bull Arena in May.\n\nThe Red Bulls lead the all-time series in all competitions 17-13-5 and they are 2-1-1 in their last four trips to Yankee Stadium.\n\nUp next New York: Hosts St. Louis City on Sept. 26.\n\nNew York City: At Atlanta United on Sept. 26."
     },
     {
-      "story_id": "49974287",
-      "headline": "Evgeni Malkin, in 21st season, will let health decide on future",
-      "summary": "Evgeni Malkin remains as passionate as ever about hockey as his 21st season with the Penguins begins. Whether it's his last, be it in Pittsburgh or anywhere else, only his body knows.",
-      "image": "https://a.espncdn.com/photo/2026/0525/r1663643_1296x729_16-9.jpg",
-      "published_utc": "2026-09-18T18:34:30Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/49974287/evgeni-malkin-21st-season-let-health-decide-future",
-      "stream_url": "",
-      "body": "CRANBERRY TOWNSHIP, Pa. -- Evgeni Malkin remains as passionate as ever about hockey as his 21st season with the Pittsburgh Penguins begins.\n\nWhether it's his last, be it in Pittsburgh or anywhere else, only his body knows. And right now, it's not telling the 40-year-old Russian star anything.\n\n\"I mean, it's a hard question,\" Malkin said Friday. \"We see what's going on during the season, you know. And right now I won't say yes.\"\n\nHe also won't say no, though he has one clear metric that will play a massive role in whatever happens beyond this season.\n\n\"If I not feel hundred percent, I'm not playing,\" Malkin said, adding that if he is not helping the team to win, \"I'm retired.\"\n\nMalkin was able to turn the clock back a bit last season, posting 19 goals to go with 42 assists despite missing time with injuries. He averaged over a point per game for the first time since 2019-20 and seemed fueled by the desire to prove to Penguins general manager Kyle Dubas that he was still worth the investment.\n\nDubas played his cards close to the vest until after Pittsburgh's first-round playoff exit to Philadelphia. He praised Malkin's effort, and about a month later, negotiations that appeared a little tense outwardly resulted with Malkin signing a one-year deal to remain with the club where he has won three Stanley Cups, two scoring titles and an MVP during a career that will almost certainly end in the Hall of Fame.\n\nThe deal also extended the partnership between Malkin, captain Sidney Crosby and defenseman Kris Letang to 21 years and counting, the longest three teammates have ever played together in major North American professional sports history.\n\nMalkin believes it's production, not nostalgia, that has kept them together.\n\n\"It's not we're just here because we win three Cups, you know,\" he said. \"I hope we're here because we still play good.\"\n\nThe Penguins are banking on it. Pittsburgh largely kept together the roster that finished a surprising second behind Carolina in the Metropolitan Division, including re-signing forward Egor Chinakhov, a Russian who blossomed while playing alongside Malkin after being acquired in a trade with the Columbus Blue Jackets.\n\nThere are now four Russians on the team, allowing Malkin the chance to serve as a mentor in the same way former Penguins defenseman Sergei Gonchar did for him two decades ago.\n\n\"Any advice, any like, 'go to dinner,' you know, we just do it,\" Malkin said. \"I'm the old guy here, and I just have the experience.\"\n\nMalkin begins the season with 1,407 career points, 14 shy of surpassing Hall of Fame center Adam Oates to climb into the top 20 on the NHL's all-time list.\n\nHe's done it while serving as the emotional 'yin' to Crosby's more reserved 'yang.' If Malkin had ended up somewhere else, maybe he would had been the face of the franchise. He's long made peace with the trade-off.\n\nIf this is his final season, it's been a great ride. But he's not quite ready to head off into the sunset just yet.\n\n\"I think last year I showed my good games, and I am excited to be here,\" he said. \"And again, like, I'm here to win.\""
-    },
-    {
       "story_id": "49963170",
       "headline": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions",
       "summary": "Formula 1 is heading to the streets of Baku for this year's Azerbaijan Grand Prix as we roll into the business end of the season.",
@@ -13857,18 +13857,32 @@
       "body": "Craig Fitzgibbon insists Cronulla won't be entering a rebuild phase as the Sharks prepare to undergo one of the most significant off-season shake-ups of the coach's tenure.\n\nAfter Nicho Hynes was concussed in the opening stages of Saturday's semi-final to the Sydney Roosters, the Sharks fought on bravely before being overrun in a 46-10 defeat.\n\nCronulla have made the finals every year since Fitzgibbon took charge in 2022 but have yet to make the grand final.\n\n\"There's only been two teams that have won the comp in the last five years,\" Fitzgibbon said.\n\n\"We're not that far off, but we haven't got there.\n\n\"So that's a fair criticism and it's frustrating, but we haven't got there.\n\n\"We've got to work out how and what we do with what we've got to get there.\"\n\nSeven players will move to new clubs over the off-season, including a quartet who have been ever present under Fitzgibbon -- lock Cameron McInnes (York), Siosifa Talakai (Perth) and the North Queensland-bound duo of Sione Katoa and Jesse Ramien.\n\n\"We've been up for five years now with the same group of guys, and a portion of those are leaving, and we'll be forever grateful for their service,\" Fitzgibbon said.\n\n\"We've punched above our weight for a long time now.\n\n\"It won't be hard to replace them. Everyone thinks we'll need a reset, rebuild but no, we'll just keep going.\n\n\"We've got some guys ready to go, we won't be going anywhere.\"\n\nHynes' exclusion after failing his head injury assessment set the wheels in motion for another finals defeat for the Sharks, who now boast a 4-7 post-season record under Fitzgibbon.\n\nHalfback Hynes has frequently been the target for criticism when Cronulla have fallen short in September.\n\nBut the No.7 was quick to apologise to his teammates after he got his head on the wrong side in a tackle on Salesi Foketi.\n\n\"He went out there and went head first for the first collision he could get and the timing was wrong, but it's just a sign of how much he wanted it,\" Fitzgibbon added.\n\n\"It cost him dearly but he just apologised. He knows that he had a moment that he had an opportunity for tonight which was important to him and us.\n\n\"It went wrong, but you can handle that when you go in head first and you're committed for the team.\""
     },
     {
-      "story_id": "49985233",
-      "headline": "Atlanta Braves vs. Houston Astros: Game Highlights",
-      "summary": "Atlanta Braves vs. Houston Astros: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/a589f078-83ba-429f-a546-cdefd1dde5f9/a589f078-83ba-429f-a546-cdefd1dde5f9.jpg",
-      "published_utc": "2026-09-20T02:13:57Z",
+      "story_id": "49985223",
+      "headline": "Rangers take sole possession of AL West lead, Quantrill leaves with injury in 6-3 win over Blue Jays",
+      "summary": "\u2014 Five relievers held Toronto to six hits after Cal Quantrill left 12 pitches in because of right lat tightness, and the Rangers moved into sole possession of the AL West lead for the first time since late August with a 6-2 win over the Blue Jays on...",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817005.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T02:19:29Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49985233/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/a589f078-83ba-429f-a546-cdefd1dde5f9/a589f078-83ba-429f-a546-cdefd1dde5f9/playlist.m3u8",
-      "body": ""
+      "link": "http://www.espn.com/mlb/recap?gameId=401817005",
+      "stream_url": "",
+      "body": "ARLINGTON, Texas -- \u2014 Five relievers held Toronto to six hits after Cal Quantrill left 12 pitches in because of right lat tightness, and the Rangers moved into sole possession of the AL West lead for the first time since late August with a 6-2 win over the Blue Jays on Saturday night.\n\n\r\nTexas (78-77) has won six of seven and moved a half-game ahead of Houston (77-78), which holds the tiebreaker. The Rangers have a winning record for the first time since before play on Aug. 11.\n\n\r\nJordan Montgomery (1-0) got his first win since Aug. 14, 2024, pitching 3 2/3 hitless innings. He returned from Tommy John surgery this past Aug. 9.\n\n\r\nDavis Schneider hit a pinch-homer for the AL champion Blue Jays (76-79), who have lost eight of 12. They trail the Chicago White Sox by three games for the AL\u2019s final wild card.\n\n\r\nQuantrill a, son former Toronto All-Star Paul Quantrill, retired George Springer on a groundout opening the second inning and didn\u2019t appear to exhibit any pain but didn\u2019t face another batter. The 31-year-old right-hander left his previous start on Sept. 13 at Arizona after 70 pitches because of a sore back.\n\n\r\nRangers manager Skip Schumaker said after the game he had no update on Quantrill, who is to have an MRI on Sunday.\n\n\r\nQuantrill was followed by Montgomery, and Nathan Eovaldi, Robert Garcia, Chase Silseth and Jacob Latz pitched one inning each.\n\n\r\nTexas scored twice in the second off Jos\u00e9 Soriano (12-8) without a base hit, helped by a walk, hit batter, infield throwing error and a wild pitch.\n\n\r\nTexas\u2019 three-run sixth featured an RBI double by Wyatt Langford when left fielder Myles Straw pulled up as the ball land between him and the wall.\n\n\r\nSoriano allowed six runs \u2014 five earned \u2014 pitching three batters into the sixth.\n\n\r\nUP NEXT\n\n\r\nRangers RHP Jacob deGrom (11-9, 3.79), who is 8-2 at home this season with a .183 opponents batting average, starts Sunday while the Blue Jays employ a bullpen game.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
+      "story_id": "49974287",
+      "headline": "Evgeni Malkin, in 21st season, will let health decide on future",
+      "summary": "Evgeni Malkin remains as passionate as ever about hockey as his 21st season with the Penguins begins. Whether it's his last, be it in Pittsburgh or anywhere else, only his body knows.",
+      "image": "https://a.espncdn.com/photo/2026/0525/r1663643_1296x729_16-9.jpg",
+      "published_utc": "2026-09-18T18:34:30Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/49974287/evgeni-malkin-21st-season-let-health-decide-future",
+      "stream_url": "",
+      "body": "CRANBERRY TOWNSHIP, Pa. -- Evgeni Malkin remains as passionate as ever about hockey as his 21st season with the Pittsburgh Penguins begins.\n\nWhether it's his last, be it in Pittsburgh or anywhere else, only his body knows. And right now, it's not telling the 40-year-old Russian star anything.\n\n\"I mean, it's a hard question,\" Malkin said Friday. \"We see what's going on during the season, you know. And right now I won't say yes.\"\n\nHe also won't say no, though he has one clear metric that will play a massive role in whatever happens beyond this season.\n\n\"If I not feel hundred percent, I'm not playing,\" Malkin said, adding that if he is not helping the team to win, \"I'm retired.\"\n\nMalkin was able to turn the clock back a bit last season, posting 19 goals to go with 42 assists despite missing time with injuries. He averaged over a point per game for the first time since 2019-20 and seemed fueled by the desire to prove to Penguins general manager Kyle Dubas that he was still worth the investment.\n\nDubas played his cards close to the vest until after Pittsburgh's first-round playoff exit to Philadelphia. He praised Malkin's effort, and about a month later, negotiations that appeared a little tense outwardly resulted with Malkin signing a one-year deal to remain with the club where he has won three Stanley Cups, two scoring titles and an MVP during a career that will almost certainly end in the Hall of Fame.\n\nThe deal also extended the partnership between Malkin, captain Sidney Crosby and defenseman Kris Letang to 21 years and counting, the longest three teammates have ever played together in major North American professional sports history.\n\nMalkin believes it's production, not nostalgia, that has kept them together.\n\n\"It's not we're just here because we win three Cups, you know,\" he said. \"I hope we're here because we still play good.\"\n\nThe Penguins are banking on it. Pittsburgh largely kept together the roster that finished a surprising second behind Carolina in the Metropolitan Division, including re-signing forward Egor Chinakhov, a Russian who blossomed while playing alongside Malkin after being acquired in a trade with the Columbus Blue Jackets.\n\nThere are now four Russians on the team, allowing Malkin the chance to serve as a mentor in the same way former Penguins defenseman Sergei Gonchar did for him two decades ago.\n\n\"Any advice, any like, 'go to dinner,' you know, we just do it,\" Malkin said. \"I'm the old guy here, and I just have the experience.\"\n\nMalkin begins the season with 1,407 career points, 14 shy of surpassing Hall of Fame center Adam Oates to climb into the top 20 on the NHL's all-time list.\n\nHe's done it while serving as the emotional 'yin' to Crosby's more reserved 'yang.' If Malkin had ended up somewhere else, maybe he would had been the face of the franchise. He's long made peace with the trade-off.\n\nIf this is his final season, it's been a great ride. But he's not quite ready to head off into the sunset just yet.\n\n\"I think last year I showed my good games, and I am excited to be here,\" he said. \"And again, like, I'm here to win.\""
     },
     {
       "story_id": "49973843",
@@ -13969,20 +13983,6 @@
       "body": ""
     },
     {
-      "story_id": "49973965",
-      "headline": "Fantasy hockey sleepers and busts: Players to draft or avoid at current draft spot",
-      "summary": "Who are the players going too high, or too low, compared to their expected fantasy hockey production?",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718657_1296x729_16-9.jpg",
-      "published_utc": "2026-09-18T17:02:46Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Victoria Matiash",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/hockey/story/_/id/49973965/espn-nhl-fantasy-hockey-sleepers-busts-draft-picks",
-      "stream_url": "",
-      "body": "Overachievers. In fantasy competition, to identify and secure them is to love them. There's no better complement to our unsurprising stars and other reliable contributors than a player (or more) who blows our too-modest preseason expectations right out of the rink. Whether of the breakout, bounce-back, or other variety, sleepers -- grabbed in late stages of a draft or even once play is underway -- go a long way in helping any competitive manager contend for a championship.\n\nFor this exercise, we're focusing on skaters who have been around the block a bit, as opposed to rookies or other breakout candidates like Jimmy Snuggerud, Jackson Blake, and Will Smith. We're tackling those similarly coveted fantasy performers elsewhere in our department. Also, you might notice a trend of fresh faces in new places applying to many of the following sleeper candidates. That's no coincidence. These potentially underrated fantasy skaters were not only actively pursued by their new teams, but acquired to fill a prominent position, which offers them an improved opportunity to make a bigger splash than otherwise.\n\nOf course, you also want to avoid using too high of a draft pick in selecting players belonging on the other end of the meeting-expectations spectrum. So we're also including a few possible busts to steer clear of overly early on.\n\nRanking position provided by the preseason top 250, as of Sept. 16. N/A means the player currently ranks below that mark.\n\nMore: Sign up for free | Rankings | Projections | League types\n\nSleepers\n\nPatrick Kane, F, Chicago Blackhawks (RW30)\n\nThey don't call him \"Showtime\" for nothing. Mark it, the 37-year-old is going to put on a sparkling display in his return to Chicago. If healthy enough, Kane's going to produce. It's as simple as that. The future Hall-of-Famer hasn't averaged more than a point/game for his 19-year career by happenstance. As for the winger's current physical condition, according to the Chicago Sun-Times, head coach Jeff Blashill believes his veteran star is feeling fit.\n\n\"He feels as good as he has in a long time. He's skating well, he's moving well,\" Blashill said. \"Guys that play with their brain first seem to last a long time in this league, and he certainly has.\"\n\nThen consider the eventual top-line and power-play assignment alongside burgeoning superstar Connor Bedard, who's due to return from a shoulder injury in early November. (Kane will make do well enough with gifted rookie center Anton Frondell or whoever else in the meanwhile.) All promising stuff. If the vet can carve out upwards of 70 games this campaign, he's well worth rostering in most leagues.\n\nMats Zuccarello, F, Los Angeles Kings (RW36)\n\nSure, he'll miss playing with winger Kirill Kaprizov in Minnesota. Who wouldn't? But there are much worse fates than landing on a top unit and power play with Artemi Panarin. Perennially underrated as a fantasy asset, all Zuccarello does is produce regularly. Averaging 0.92 points/game this past season, the 39-year-old is hardly slowing down with age. Durability remains the only concern here, as the veteran hasn't banged out anything near a complete season since 2022-23. But that's why you have IR spots. Draft Zuccarello late as a potential gem in his new Los Angeles digs.\n\nValeri Nichushkin, F, Columbus Blue Jackets (LW24)\n\nWhen healthy and active -- admittedly an issue over the years in Dallas and Colorado -- the power forward is capable of putting up fantasy numbers with the best of them. He shoots, hits, scores and contributes frequently on the power play. After a modest year by his standards, the ex-Avalanche is now set to enjoy a fresh start as a more prominent player in Columbus. No longer in the company of Nathan MacKinnon, Martin Necas, Gabriel Landeskog and others, Nichushkin can sink his teeth into a larger role on a top line and power play with Jackets star and countryman Kirill Marchenko. The 31-year-old played 72 contests this past regular season, more than he has in a long while. At his best, Nichushkin is capable of averaging 2.0 points/game in ESPN standard leagues.\n\nGabriel Landeskog, F, Colorado Avalanche (N/A)\n\nRanking-wise, MacKinnon is cream of the fantasy crop in ESPN standard competition. Reasonably enough, Necas sits several notches below at 31st overall. Then we need to scroll all the way down to realize Landeskog isn't even included in the top 250. Bit odd, considering the Avalanche captain is slated to play with the aforementioned pair on Colorado's top line and power play. Or that he collected 11 points in 13 playoff games after his first full-ish season following what essentially amounted to a three-year absence from the game. Healthy and fit, which he is now, the still-only 33-year-old is capable of putting up 70 points alongside MacKinnon and Necas. No question, he's worth grabbing in deeper leagues.\n\nESPN Fantasy Hockey is the fun, free way to get inside the game. Draft your players, set your lineups and earn points when the pros do. Sign up today!\n\nMason Marchment, F, San Jose Sharks (N/A)\n\nAfter showing flashes of potential in Florida and Dallas and Seattle and Columbus, the too-well traveled veteran now gets to play with Macklin Celebrini in San Jose. If he manages to keep a grip on that assignment, the 31-year-old is going to score 30 goals and 35-plus assists this season. A gig on San Jose's top power play, again alongside Celebrini, isn't out of the question either.\n\nJiri Kulich, F, Buffalo Sabres (N/A)\n\nMore specifically qualifying as a breakout candidate, Kulich still very comfortably fits the broader \"sleeper\" mold heading into 2026-27. After suffering a devastating -- and potentially career-ending -- blood clot last November, the 22-year-old underwent successful surgery and is ready to resume play. Selected 28th overall in 2022, he's expected to be offered the ripe opportunity to make a profound impression on a top line with Tage Thompson and fellow breakout candidate Zach Benson. If that's how it indeed shakes out in Buffalo, draft Kulich late in deeper leagues or off the wire before regular play gets underway. Before your fellow managers become more familiar with the kid who scored 15 goals in 62 games as a rookie two years ago.\n\nAdam Fox, D, New York Rangers (D27)\n\nD27? So we should draft 26 other NHL defenders before the guy who won the Norris five years ago? Who, at 28 years old, still enjoys top-pair minutes and competes on New York's No. 1 power play? That guy? I get that Fox may have fallen off some fantasy radars after losing a chunk of time to injury last season, but he still collected 53 points, including 24 with the extra skater, in 55 games. And the top-15 fantasy defenseman is once again healthy.\n\nStuart Skinner, G, Winnipeg Jets (G32)\n\nSo now camp no-show Connor Hellebuyck is suspended by the Jets. Hmm. Does this action further inspire management and hasten the goalie's exit out of Winnipeg, or do matters become even messier? Regardless, Skinner remains in place and is revving to go. The recent two-time Stanley Cup Finalist is presently the undisputed No. 1 for a solid-enough Jets team that's ready to put last year's debacle behind it. While this situation remains fluid -- GM Kevin Cheveldayoff could/should acquire a quality netminder as part of a package in return for Hellebuyck -- Skinner is still worth a flyer in all but the shallowest of fantasy leagues.\n\nSee also:\n\nSeth Jones, D, Florida Panthers (N/A)\nJacob Markstrom , G, Florida Panthers (G30)\n\nMade it this far? Create your own league with your own rules and play against your friends today.\n\nBusts\n\nSteven Stamkos, F, Nashville Predators (C14)\n\nHe isn't likely to score 40-plus again this season. According to Evolving Hockey, Stamkos should have netted approximately 34 goals (34.33 ixG) in 2025-26, not 42. His unsustainable 20.4% shooting percentage supports such evaluation. Projected to average around 17 minutes/game on Nashville's second line and the top power play, Stamkos sports a realistic ceiling of 30-35 goals and 25 assists, with a solid number of points counting with the man-advantage. Decent numbers indeed, but not near top-30. There are about 25 other NHL forwards who I would draft before the 36-year-old veteran.\n\nAlex Ovechkin, F, Washington Capitals (LW11)\n\nIt's all relative, right? As a fantasy performer, this isn't your mother's Ovechkin. At 41 years old, the greatest goal-scorer of all time is back for another kick at the Stanley Cup can. If contributions from supporting castmates, including a host of newbies like Alex Tuch, Jordan Kyrou and Boone Jenner, help him get there, personal stats be darned. Sure, he'll flirt with 30 goals on a pile of shots in a full, healthy season (tougher ask this round with no elongated Olympic break), and many of them will count on the power play. But, again, there are too many other options around the league with greater fantasy potential. Especially if Ovechkin drops down the Caps lineup, as anticipated.\n\nMorgan Geekie, F, Boston Bruins (C34)\n\nReceiving positive attention in this space as a sleeper candidate last season, the Bruins winger didn't disappoint those willing to take the early plunge. At least until Christmas. Less notably, after scoring 25 goals in his first 36 games, Geekie only managed another 14 in his final 45. Which leaves us less optimistic about the 28-year-old's prospects this campaign, even if he remains on David Pastrnak's wing.\n\nBrent Burns, D, Colorado Avalanche (D45)\n\nUnless your preferred team is facing him in the Final, who wouldn't want to see Burns hoist the Stanley Cup? We all love the 41-year-old defender. But his finest fantasy days are behind him. Pegged to play on the third pair in Colorado and unlikely to enjoy any significant time with the extra skater, Burns projects to put up 30 or so even-strength points and not enough blocked shots to compensate otherwise. According to Evolving Hockey, he was supposed to score only six goals (6.62 ixG), yet he potted 12. The fourth-ranked fantasy defender on his own team behind Cale Makar, Devon Toews and Sam Malinski, Burns should only be rostered in deeper ESPN conventional leagues. His durability isn't enough.\n\nDan Vladar, G, Philadelphia Flyers (G18)\n\nJoseph Woll is a good goalie. Better than Samuel Ersson. If the former Maple Leaf remains healthy, he'll eat into Vladar's playing time. Then there's the incumbent's small sample size. As impressed as we all are with how the ex-Flame conducted himself in his first year as Philly's go-to, it was just the one season. Plus, are the Flyers a playoff team again? In the Metropolitan Division, the Capitals are better, no one would be surprised to see the Devils and Rangers improve on their respective records, and Carolina remains Carolina. There's another crowd of netminders I'm chasing before Vladar as my second fantasy goalie in deeper leagues.\n\nSee also:\n\nJohn Gibson, G, Detroit Red Wings (G16)\n\nDownload the ESPN Fantasy Sports app and have every player right at your fingertips. Available on the App Store and Google Play."
-    },
-    {
       "story_id": "49867154",
       "headline": "Lewis Hamilton shuts down asking Ferrari to make changes: 'Never asked for anyone to be replaced'",
       "summary": "Lewis Hamilton denied he has called for replacements at Ferrari after he admitted his bid for a record eight world championship is over.",
@@ -14062,34 +14062,70 @@
       "id": "ww:40cbf10195f73632ac722c711764dcfa",
       "title": "AEW Collision 9/19/2026",
       "date": "2026-09-19",
-      "replay_url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/1",
+      "replay_url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/2/1",
       "replay_candidates": [
         {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/2/1",
+          "label": "OK.ru FHD@50fps MyAEW \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/3/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/3/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/3/3",
+          "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
           "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/1",
+          "label": "Dailymotion FHD@50fps MyAEW \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/2",
+          "label": "Dailymotion FHD@50fps MyAEW \u2014 Part 2",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/2",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/3",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/4",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/5",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/5",
           "label": "Dailymotion FHD (Live replay) \u2014 last part",
           "part": true,
           "live": true
