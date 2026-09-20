@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T20:04:29.998278+00:00",
+  "generated_utc": "2026-09-20T20:14:50.526656+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -9214,12 +9214,150 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872933",
+      "event_id": "espn:football:401872936",
       "sport": "football",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-20T17:00Z",
       "status": "live",
+      "home": {
+        "id": "espn:20",
+        "name": "New York Jets",
+        "abbrev": "NYJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jets",
+          "NYJ",
+          "New York",
+          "New York Jets"
+        ],
+        "color": "115740"
+      },
+      "away": {
+        "id": "espn:9",
+        "name": "Green Bay Packers",
+        "abbrev": "GB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+        "logo_dark": null,
+        "aliases": [
+          "GB",
+          "Green Bay",
+          "Green Bay Packers",
+          "Packers"
+        ],
+        "color": "204e32"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "MetLife Stadium",
+      "detail": "1:15 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872935",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-20T17:00Z",
+      "status": "suspended",
+      "home": {
+        "id": "espn:27",
+        "name": "Tampa Bay Buccaneers",
+        "abbrev": "TB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buccaneers",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Buccaneers"
+        ],
+        "color": "bd1c36"
+      },
+      "away": {
+        "id": "espn:5",
+        "name": "Cleveland Browns",
+        "abbrev": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+        "logo_dark": null,
+        "aliases": [
+          "Browns",
+          "CLE",
+          "Cleveland",
+          "Cleveland Browns"
+        ],
+        "color": "472a08"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/Delayed",
+      "venue": "Raymond James Stadium",
+      "detail": "Delayed",
+      "game_number": 1,
+      "highlight_video_id": "PHwQO_Y6YTY",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872934",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-20T17:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:34",
+        "name": "Houston Texans",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Texans",
+          "Texans"
+        ],
+        "color": "021018"
+      },
+      "away": {
+        "id": "espn:4",
+        "name": "Cincinnati Bengals",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bengals",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bengals"
+        ],
+        "color": "fb4f14"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "Reliant Stadium",
+      "detail": "1:01 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872933",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-20T17:00Z",
+      "status": "final",
       "home": {
         "id": "espn:1",
         "name": "Atlanta Falcons",
@@ -9249,9 +9387,9 @@
         "color": "0085ca"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mercedes-Benz Stadium",
-      "detail": "1:49 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9311,7 +9449,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-20T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:10",
         "name": "Tennessee Titans",
@@ -9341,9 +9479,9 @@
         "color": "06424d"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Nissan Stadium",
-      "detail": "0:04 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9398,98 +9536,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872936",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-20T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:20",
-        "name": "New York Jets",
-        "abbrev": "NYJ",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jets",
-          "NYJ",
-          "New York",
-          "New York Jets"
-        ],
-        "color": "115740"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "Green Bay Packers",
-        "abbrev": "GB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-        "logo_dark": null,
-        "aliases": [
-          "GB",
-          "Green Bay",
-          "Green Bay Packers",
-          "Packers"
-        ],
-        "color": "204e32"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "MetLife Stadium",
-      "detail": "3:51 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872935",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-20T17:00Z",
-      "status": "suspended",
-      "home": {
-        "id": "espn:27",
-        "name": "Tampa Bay Buccaneers",
-        "abbrev": "TB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buccaneers",
-          "TB",
-          "Tampa Bay",
-          "Tampa Bay Buccaneers"
-        ],
-        "color": "bd1c36"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "Cleveland Browns",
-        "abbrev": "CLE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-        "logo_dark": null,
-        "aliases": [
-          "Browns",
-          "CLE",
-          "Cleveland",
-          "Cleveland Browns"
-        ],
-        "color": "472a08"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/Delayed",
-      "venue": "Raymond James Stadium",
-      "detail": "Delayed",
-      "game_number": 1,
-      "highlight_video_id": "PHwQO_Y6YTY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401872938",
       "sport": "football",
       "competition_id": "nfl",
@@ -9529,53 +9575,7 @@
       "venue": "M&T Bank Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872934",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-20T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:34",
-        "name": "Houston Texans",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Texans",
-          "Texans"
-        ],
-        "color": "021018"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Cincinnati Bengals",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bengals",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bengals"
-        ],
-        "color": "fb4f14"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Reliant Stadium",
-      "detail": "3:04 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "6SfhcStGcmw",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -9770,7 +9770,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-20T17:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:113",
         "name": "Cincinnati Reds",
@@ -9801,7 +9801,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Great American Ball Park",
       "detail": "",
       "game_number": 1,
@@ -9891,7 +9891,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Tropicana Field",
       "detail": "",
       "game_number": 1,
@@ -10121,7 +10121,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "San Siro",
-      "detail": "58'",
+      "detail": "68'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10161,9 +10161,9 @@
         "color": "3366CC"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "Mestalla Stadium",
-      "detail": "HT",
+      "detail": "54'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10269,7 +10269,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-20T20:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:24",
         "name": "Anaheim Ducks",
@@ -10299,7 +10299,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Honda Center",
       "detail": "",
       "game_number": 1,
@@ -10347,7 +10347,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "9:43 - 1st Quarter",
+      "detail": "4:22 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10361,7 +10361,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-20T20:05Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:7",
         "name": "Denver Broncos",
@@ -10391,9 +10391,9 @@
         "color": "007487"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Empower Field at Mile High",
-      "detail": "Sun, September 20th at 4:05 PM EDT",
+      "detail": "11:03 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10407,7 +10407,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-20T20:05Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:24",
         "name": "Los Angeles Chargers",
@@ -10437,9 +10437,9 @@
         "color": "000000"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "Sun, September 20th at 4:05 PM EDT",
+      "detail": "11:39 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10484,7 +10484,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Angel Stadium",
       "detail": "",
       "game_number": 1,
@@ -10531,7 +10531,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "game_number": 1,
@@ -10577,7 +10577,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
@@ -10625,7 +10625,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/Warmup",
+      "source_status": "Live/In Progress",
       "venue": "Chase Field",
       "detail": "",
       "game_number": 1,
@@ -13892,46 +13892,18 @@
   ],
   "stories": [
     {
-      "story_id": "49991369",
-      "headline": "Dodgers juggle rotation, hope for Ohtani return this week",
-      "summary": "Los Angeles recalled Emmet Sheehan and placed Tarik Skubal on the bereavement list as part of a series of roster moves Sunday, with manager Dave Roberts also expressing hope that Shohei Ohtani will be back in the lineup soon.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/2fcf63e0-7f95-4703-b852-4489083ca00b/2fcf63e0-7f95-4703-b852-4489083ca00b.jpg",
-      "published_utc": "2026-09-20T19:54:03Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49991369/dodgers-juggle-rotation-hope-ohtani-return-week",
-      "stream_url": "",
-      "body": "LOS ANGELES -- The Dodgers recalled pitcher Emmet Sheehan as part of a series of roster moves Sunday, with the right-hander set to handle the bulk of their series finale against the San Francisco Giants.\n\nAll four transactions involved Dodgers pitchers. They also recalled Kyle Hurt, placed Tarik Skubal on the bereavement list and optioned Seth Halvorsen to Triple-A Oklahoma City.\n\nJack Dreyer will start as the Dodgers go for the sweep against their Bay Area rivals before giving way to Sheehan, who is 5-8 with a 4.79 ERA in 22 games this season.\n\n\"Kind of piecing through the available options today,\" manager Dave Roberts said. \"I think it's just more of what gives Emmet, in our opinion, the best chance.\"\n\nRight fielder Kyle Tucker won't be in the lineup after coming out of Saturday's 10-4 victory because of a fouled pitch that went off his right knee. The early exit was described as precautionary, and Roberts felt it was worth giving him a day off, particularly with Tucker finding his stride after an erratic first season in Los Angeles. He is batting .429 with five homers, eight extra-base hits and 11 RBIs in his past 10 games.\n\nThe Dodgers expect to see Shohei Ohtani back soon after his first stint on the injured list since joining the team in 2024. It could come during a three-game series against the San Diego Padres that starts Tuesday night.\n\n\"Still up in the air, but that's our hope,\" Roberts said.\n\nOhtani is on the 15-day IL because of right biceps inflammation. He also has been dealing with left knee soreness for months.\n\nRoberts believes Ohtani will be pain-free going into the last week of the regular season, with the Dodgers pushing to secure a bye to avoid the wild-card round.\n\n\"I think there's a difference between discomfort and pain,\" Roberts said. \"Is it 100%? Probably not. Is it better than it was a week ago? Yes. Honestly, I think that's just a better question for Shohei to give specifics. But I do think that when he's activated, it's going to be the best physical place he's been in in quite some time.\""
-    },
-    {
-      "story_id": "49991729",
-      "headline": "Bears' Caleb Williams leaves on cart after falling on scramble",
-      "summary": "Bears quarterback Caleb Williams exited Sunday's game against the Minnesota Vikings with a right leg injury.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719644_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T19:52:54Z",
+      "story_id": "49984903",
+      "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check out top Week 2 plays, with Jalen Hurts, Drake Maye, Aaron Rodgers, Caleb Williams and more in action.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719591_608x342_16-9.jpg",
+      "published_utc": "2026-09-20T20:06:50Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Courtney Cronin",
+      "byline": "NFL Nation",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49991729/bears-caleb-williams-leaves-cart-falling-scramble",
+      "link": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
       "stream_url": "",
-      "body": "CHICAGO -- Bears quarterback Caleb Williams exited Sunday's 9-3 loss to the Minnesota Vikings with a right hamstring injury midway through the fourth quarter.\n\nAfter running back Kyle Monangai converted a fourth down inside the red zone, Williams took off and ran to his left with a clear path to the end zone. His right leg appeared to give way as he was running, and he fell awkwardly to the ground.\n\nThe quarterback tried twice to get himself to his feet but could not stand without the assistance of trainers. Williams was helped to the injury tent where he stayed for several minutes before being carted back to the locker room.\n\nWilliams sat on the cart with a towel over his head and was visibly in pain when he uncovered his face. He raised his right fist in the air and gave the crowd at Soldier Field a thumbs up before disappearing into the tunnel.\n\nTyson Bagent replaced Williams at quarterback. The Bears failed to score a touchdown despite running two plays inside Minnesota's 6-yard line. Cairo Santos' 23-yard field goal attempt was then blocked.\n\nThe entirety of Sunday's game was played under a steady downpour."
-    },
-    {
-      "story_id": "49991578",
-      "headline": "New York Islanders vs. New Jersey Devils: Game Highlights",
-      "summary": "New York Islanders vs. New Jersey Devils: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/1ec6636e-2869-4f35-8966-eb142e08011d/1ec6636e-2869-4f35-8966-eb142e08011d.jpg",
-      "published_utc": "2026-09-20T19:44:15Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49991578/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/1ec6636e-2869-4f35-8966-eb142e08011d/1ec6636e-2869-4f35-8966-eb142e08011d/playlist.m3u8",
-      "body": ""
+      "body": "Eight games made up Sunday's early window in Week 2 of the 2026 NFL season, and we have the best highlights, touchdowns and moments from all of them.\n\nIn a matchup of divisional rivalries, the Carolina Panthers dominated host and NFC South foe Atlanta Falcons, 34-3. And in a matchup of NFC North supremacy, the Minnesota Vikings held off the Chicago Bears, 9-3.\n\nIn the afternoon slate of five games, follow along as the Jacksonville Jaguars play at the Denver Broncos and the Las Vegas Raiders aim to take down AFC West rival Los Angeles Chargers.\n\nBe sure to check here for the top plays from Sunday, as well as stay tuned for the \"Sunday Night Football\" matchup between the Indianapolis Colts and the Kansas City Chiefs.\n\nWeek 2 highlights"
     },
     {
       "story_id": "49991440",
@@ -13960,6 +13932,20 @@
       "link": "https://www.espn.com/video/clip/_/id/49991430/carrick-encouraged-man-united-late-draw-vs-fulham",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0920/dm_260920_COM_SOC_Presser_Carrick_encouraged_by_Man_Uniteds_late_draw_vs_Fulham__20260920_GLOBAL/dm_260920_COM_SOC_Presser_Carrick_encouraged_by_Man_Uniteds_late_draw_vs_Fulham__20260920_GLOBAL/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49991236",
+      "headline": "Blue Jays ace Dylan Cease undergoes MRI, won't make next start",
+      "summary": "The Blue Jays have scratched Dylan Cease from his next start as they await the results of an MRI on his pitching shoulder to determine if and when the right-hander will pitch again this season.",
+      "image": "https://a.espncdn.com/photo/2026/0525/r1663440_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T19:18:38Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49991236/blue-jays-ace-dylan-cease-headed-mri-make-next-start",
+      "stream_url": "",
+      "body": "The Toronto Blue Jays have scratched Dylan Cease from his next start as they await the results of an MRI on his pitching shoulder to determine if and when the right-hander will pitch again this season.\n\nToronto manager John Schneider told reporters that Cease has been dealing with a shoulder issue for the past few weeks that includes a decrease in velocity.\n\n\"Just wanted to see, with the [velocity drop] and if there's anything tied to that,\" Schneider said. \"Not expecting anything crazy.\"\n\nCease had been scheduled to start Wednesday against the Baltimore Orioles. Depending on the MRI results, Schneider said Cease could still be an option for the Blue Jays' final regular-season series against the Cincinnati Reds.\n\nThe Blue Jays (76-79) entered Sunday three games behind the Chicago White Sox (79-76) for the final wild card in the American League. Toronto has a 4.7% chance of making the postseason, according to ESPN's playoff probabilities."
     },
     {
       "story_id": "49983952",
@@ -14018,6 +14004,20 @@
       "body": ""
     },
     {
+      "story_id": "49986177",
+      "headline": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
+      "summary": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4.jpg",
+      "published_utc": "2026-09-20T03:57:51Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49986177/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "49963170",
       "headline": "Azerbaijan Grand Prix 2026: Race start time in Baku, how to watch, full schedule, predictions",
       "summary": "Formula 1 is heading to the streets of Baku for this year's Azerbaijan Grand Prix as we roll into the business end of the season.",
@@ -14060,46 +14060,18 @@
       "body": "AUCKLAND, New Zealand -- The Newcastle Knights have silenced a sold-out Eden Park and kept their remarkable NRL finals run alive with a gripping 12-10 victory over the New Zealand Warriors.\n\nLeka Halasima crossed twice for the hosts, but tries to Fletcher Sharpe and Dominic Young -- both converted by Sandon Smith -- proved enough for Newcastle to book a preliminary final showdown with the Penrith Panthers.\n\nHere are three things we learned from Sunday's semifinal.\n\nNewcastle's kids are made for September\nThe Knights arrived in Auckland with the youngest halves combination remaining in the competition and a forward pack missing several established names.\n\nNone of that mattered.\n\nFletcher Sharpe and Sandon Smith looked anything but overwhelmed by the occasion, calmly guiding Newcastle through a hostile afternoon in front of a deafening Eden Park crowd.\n\nSharpe's first-half try captured exactly what he offers this side. After Bradman Best stepped, fended and burst into the backfield, the five-eighth remained alive in support, juggled the pass and finished the movement to level the scores.\n\nSmith was similarly composed. His two conversions ultimately provided the difference between the sides, with the young halfback refusing to allow the occasion -- or the noise surrounding him -- to alter his process.\n\nThe Knights' youngsters were just as impressive without the ball.\n\nNewcastle repeatedly scrambled to survive Warriors raids, with Greg Marzhew producing two crucial interventions in the first half - knocking down a pass with a try looming before bundling Dallin Watene-Zelezniak into touch moments later.\n\nTheir defensive resolve became even more important as fatigue arrived and the Warriors threw everything at them late. The hosts enjoyed multiple attacking opportunities but Newcastle continually found a way to shut the door.\n\nKalyn Ponga did not need to manufacture every decisive moment himself. His early linebreaks and constant movement kept the Warriors' defensive line occupied, creating opportunities for Best, Sharpe and Newcastle's outside backs.\n\nThat might be the most encouraging sign of all for Justin Holbrook.\n\nThe Halasima gamble almost saved the Warriors' season\n\nLeka Halasima entered the weekend under an injury cloud and was only confirmed in the Warriors' starting side shortly before kick-off.\n\nHe then came within inches of dragging their season into another week.\n\nUsed in the centres, the powerful youngster was comfortably New Zealand's most dangerous attacking player. His combination of footwork, strength and acceleration caused Newcastle problems from the opening exchanges.\n\nHalasima struck first after 14 minutes, crashing through a retreating defensive line after a set restart had given the Warriors momentum.\n\nHe continued to torment Newcastle's right edge throughout the opening half, producing a brutal fend on Sandon Smith before breaking into space. Only a forward pass on the final exchange prevented the Warriors from turning the opportunity into more points.\n\nWith New Zealand's season rapidly slipping away, Halasima delivered again in the 70th minute, surging over for his second try and reducing Newcastle's lead to two.\n\nThe conversion attempt sailed wide, leaving the Warriors needing another score, but Halasima's performance offered a glimpse of what their attack could increasingly be built around.\n\nHe had spent much of the season establishing himself as one of the competition's most destructive young forwards. On Sunday, despite the hamstring concern and a positional switch, he showed he can be equally damaging when given room on an edge.\n\nThe concern for Andrew Webster will be how isolated that threat often appeared.\n\nOutside of Halasima's individual power, the Warriors struggled to consistently create space or manipulate Newcastle's defensive line. Their other apparent second-half try, to Ali Leiataua, was correctly overturned for an obstruction.\n\nHalasima nearly carried them across the line, but in a sudden-death final, nearly was not enough.\n\nThe Warriors saved their errors for the biggest moments\nFinals football rarely demands perfection. It does, however, punish carelessness.\n\nThe Warriors learned that lesson in brutal fashion.\n\nThey had chances to take control of this contest but repeatedly released the pressure through an error, a mistimed pass or a poor decision.\n\nThe most costly arrived immediately after half-time.\n\nWith the scores locked at 6-6, Watene-Zelezniak attempted an offload under pressure and instead passed the ball directly to Bradman Best. Newcastle capitalised just a couple of plays later, shifting right for Dominic Young to score the try that ultimately decided the match.\n\nIt was far from the Warriors' only missed opportunity.\n\nA promising first-half break from Halasima ended with a forward pass. Kurt Capewell followed a superb tackle on Young and a powerful carry with an error. Leiataua's second-half effort was erased by an obstruction, while several attacking sets close to Newcastle's line ended without the composure required to convert pressure into points.\n\nIndividually, none of those moments had to be fatal. Together, they told the story of a side that tightened up when its season was on the line.\n\nIt continued a worrying trend from the previous week. The Warriors had led the Dolphins 16-8 after an hour before conceding 18 unanswered points. Given a second opportunity at home, they again failed to close out a match they had every chance to win.\n\nThat makes this exit particularly painful.\n\nNew Zealand finished second and earned two home finals, yet their season ends with consecutive defeats and the sense that their best football deserted them at precisely the wrong time.\n\nThe Warriors' rise under Webster remains significant, while players such as Halasima provide ample reason for optimism. But the next stage of their development must be learning how to regain control when a finals match becomes frantic.\n\nThe premiership contenders still standing know how to make those moments feel routine.\n\nFor the second straight week, the Warriors made them feel overwhelming."
     },
     {
-      "story_id": "49991378",
-      "headline": "Bregman leaves game after being hit in face by foul ball in on-deck circle",
-      "summary": "Cubs third baseman Alex Bregman left Sunday's game against the Cincinnati Reds after being struck in the face by a foul ball while standing in the on-deck circle.",
-      "image": "https://a.espncdn.com/photo/2026/0629/r1681800_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T19:51:40Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/49991378/cubs-bregman-hit-face-foul-ball-leaves-game",
-      "stream_url": "",
-      "body": "CINCINNATI -- - Chicago Cubs third baseman Alex Bregman left Sunday's game against the Cincinnati Reds after being struck in the face by a foul ball while standing in the on-deck circle.\n\nIn the fourth inning, left-handed batting Michael Busch fouled off a pitch from Reds right-hander Luis Mey that struck Bregman, who immediately jogged toward the Cubs' dugout with a hand over his left eye.\n\nBregman was escorted by a trainer down the dugout steps and into the clubhouse, with blood visible on his face. Matt Shaw pinch hit for Bregman.\n\nBregman is batting .260 with 26 home runs and 88 RBIs in 152 games. He signed a $175 million, five-year free agent deal in January.\n\nThe Cubs could clinch a postseason berth with a win Sunday and a Diamondbacks loss."
-    },
-    {
-      "story_id": "49984903",
-      "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
-      "summary": "Check out top Week 2 plays, with Jalen Hurts, Drake Maye, Aaron Rodgers, Caleb Williams and more in action.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719591_608x342_16-9.jpg",
-      "published_utc": "2026-09-20T19:51:29Z",
+      "story_id": "49991729",
+      "headline": "Bears' Caleb Williams leaves on cart after falling on scramble",
+      "summary": "Bears quarterback Caleb Williams exited Sunday's game against the Minnesota Vikings with a right hamstring injury.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719644_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T20:05:24Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "NFL Nation",
+      "byline": "Courtney Cronin",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
+      "link": "https://www.espn.com/nfl/story/_/id/49991729/bears-caleb-williams-leaves-cart-falling-scramble",
       "stream_url": "",
-      "body": "There are eight games during Sunday's early window in Week 2 of the 2026 NFL season, and we have the best highlights, touchdowns and moments from all of them.\n\nSunday's slate includes two key divisional games: From the NFC North, the Minnesota Vikings, with Carson Wentz starting under center, visit the unbeaten Chicago Bears, and in the NFC South, the Carolina Panthers play at the Atlanta Falcons, who will have Cooper Rush at QB again. Elsewhere, QB Joe Burrow will be managing back tightness as his Cincinnati Bengals go up against one of the NFL's best defenses in the Houston Texans.\n\nBe sure to check here for the top plays from Sunday, and keep this file bookmarked for when the slate of five afternoon games and the \"Sunday Night Football\" matchup between the Indianapolis Colts and the Kansas City Chiefs kicks off.\n\nWeek 2 highlights"
-    },
-    {
-      "story_id": "49986177",
-      "headline": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
-      "summary": "Vancouver Canucks vs. Seattle Kraken: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4.jpg",
-      "published_utc": "2026-09-20T03:57:51Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49986177/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/15911d2f-1b2c-4b47-8131-97765194e9b4/15911d2f-1b2c-4b47-8131-97765194e9b4/playlist.m3u8",
-      "body": ""
+      "body": "CHICAGO -- Bears quarterback Caleb Williams exited Sunday's 9-3 loss to the Minnesota Vikings with a right hamstring injury midway through the fourth quarter.\n\nAfter running back Kyle Monangai converted a fourth down inside the red zone, Williams took off and ran to his left with a clear path to the end zone. His right leg appeared to give way as he was running, and he fell awkwardly to the ground.\n\nThe quarterback tried twice to get himself to his feet but could not stand without the assistance of trainers. Williams was helped to the injury tent, where he stayed for several minutes before being carted back to the locker room.\n\nWilliams sat on the cart with a towel over his head and was visibly in pain when he uncovered his face. He raised his right fist in the air and gave the crowd at Soldier Field a thumbs up before disappearing into the tunnel.\n\nTyson Bagent replaced Williams at quarterback. The Bears failed to score a touchdown despite running two plays inside Minnesota's 6-yard line. Cairo Santos' 23-yard field goal attempt was then blocked.\n\nThe entirety of Sunday's game was played under a steady downpour."
     },
     {
       "story_id": "49990917",
@@ -14128,6 +14100,20 @@
       "link": "https://www.espn.com/soccer/story/_/id/49991106/carrick-squashes-notion-manchester-united-shape",
       "stream_url": "",
       "body": "Michael Carrick played down concerns that Manchester United's poor start to the season has been caused by a lack of fitness within the squad.\n\nUnited needed an 89th minute equaliser from Matheus Cunha to salvage a 1-1 draw with Fulham at Craven Cottage on Sunday after Lisandro Mart\u00ednez knocked the ball into his own net to stake the hosts with a lead.\n\nAfterwards, Cunha said Fulham's players \"put in more energy\" at the start of the second half before taking the lead.\n\nBut Carrick insisted fitness is not an issue, despite data from the game showing that Fulham's players covered an extra 6km.\n\n\"It didn't look like that to me,\" Carrick said after being asked about Cunha's assessment. \"I was quite happy with the way we finished the game. I thought we finished the game really strongly actually and we kept pushing.\n\n\"So I don't think that's an issue, no.\"\n\nThe draw at Fulham leaves United on five points after five games -- their worst start to a Premier League season since 2014 -- and in 12th place in the standings.\n\nCarrick admitted the start to the campaign is \"not ideal,\" but praised his players for finding a way back at Craven Cottage when it looked like United would suffer a third damaging defeat in a week after exiting the Carabao Cup at the hands of Brighton on Wednesday.\n\n\"That's a big thing, without getting carried away with it, because we've taken a point and we wanted to win, but it's part of learning as a group,\" said Carrick. \"How we respond, what it looks like moving forward, what our reaction is, all that. That's part of growing as a group.\n\n\"Definitely today it could have gone in a different direction -- 100% it could have. I was really pleased with the response and I think that'll help us a lot moving forward.\"\n\nUnited not head into an extended break for the FIFA international window and do not play again until a home match against Tottenham Hotspur on Oct. 10."
+    },
+    {
+      "story_id": "49990766",
+      "headline": "Rangers place pitcher Cal Quantrill on 15-day injured list",
+      "summary": "The Rangers put versatile right-hander Cal Quantrill on the 15-day injured list Sunday, a day after he exited following four batters and 12 pitches because of right lat tightness.",
+      "image": "https://a.espncdn.com/photo/2026/0813/r1701090_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T18:50:00Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/49990766/rangers-place-pitcher-quantrill-15-day-injured-list",
+      "stream_url": "",
+      "body": "ARLINGTON, Texas -- The American League West-leading Texas Rangers put versatile right-hander Cal Quantrill on the 15-day injured list Sunday, a day after he exited following four batters and 12 pitches because of right lat tightness.\n\nHard-throwing right-hander Winston Santos was recalled from Triple-A Round Rock and joined the Rangers before the finale of their three-game series against the Toronto Blue Jays.\n\nAbout an hour before the game, the Rangers said right fielder Brandon Nimmo was being scratched from the starting lineup because of illness.\n\nBefore the IL move was announced, manager Skip Schumaker said the Rangers knew going into Saturday night's game that Quantrill's velocity was lower.\n\nQuantrill (9-5) was showing no signs of pain when Schumaker, pitching coach Jordan Tiegs and head trainer Matt Lucero went to the mound in the second inning and he came out of the game. Quantrill has a 2.86 ERA in 32 games (15 starts) after going to spring training with the Rangers on a minor league deal.\n\nHe left his previous start after six innings and 70 pitches at Arizona last Sunday with back soreness.\n\nQuantrill, 31, has a 1.75 ERA (11 earned runs in 56\u2154 innings) over his past 11 appearances (10 starts). Cam Schlittler of the New York Yankees at 1.64 is the only qualified pitcher with a better ERA over that span.\n\nSantos is beginning his third stint with the Rangers, though his only appearance in the first two was his big league debut July 1 at Cleveland, where he allowed two runs in two innings. He has 103 strikeouts in 83\u2153 innings in the minor leagues this season."
     },
     {
       "story_id": "49978453",
@@ -14184,6 +14170,20 @@
       "link": "http://www.espn.com/soccer/report/_/gameId/761815",
       "stream_url": "",
       "body": "NEW YORK -- Julian Hall scored early in the second half and keeper Ethan Horvath was never tested for the New York Red Bulls in a 1-0 victory over New York City FC on Friday night at Yankee Stadium.\n\nHall scored unassisted in the 57th minute for his 10th goal this season. The 18-year-old forward scored three times in his first 38 appearances.\n\nHorvath did not have to make a save for the Red Bulls (9-11-6). It was his fourth clean sheet in 26 starts in his first season in the league.\n\nMatt Freese totaled four saves for NYCFC (8-10-8), which falls to 4-6-4 at home. He had the lone save in the scoreless first half.\n\nThe Red Bulls have won two straight following a six-match winless streak, improving to 5-6-3 away from home after a four-match trip.\n\nNYCFC was coming off a 2-0 road win over Real Salt Lake that snapped a seven-match winless stretch.\n\nThe two clubs played to a 1-1 draw at Red Bull Arena in May.\n\nThe Red Bulls lead the all-time series in all competitions 17-13-5 and they are 2-1-1 in their last four trips to Yankee Stadium.\n\nUp next New York: Hosts St. Louis City on Sept. 26.\n\nNew York City: At Atlanta United on Sept. 26."
+    },
+    {
+      "story_id": "49985767",
+      "headline": "Chicago Blackhawks vs. Minnesota Wild: Game Highlights",
+      "summary": "Chicago Blackhawks vs. Minnesota Wild: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400.jpg",
+      "published_utc": "2026-09-20T03:15:55Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49985767/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400/eced2ed5-a0a9-4ca0-b818-0dc7d2e3c400/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "49867154",
