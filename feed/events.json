@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T04:26:57.959014+00:00",
+  "generated_utc": "2026-09-20T04:37:03.420604+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -7622,7 +7622,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-20T00:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:135",
         "name": "San Diego Padres",
@@ -7652,7 +7652,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
@@ -7853,7 +7853,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-20T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2026",
         "name": "App State Mountaineers",
@@ -7883,9 +7883,9 @@
         "color": "005035"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Kidd Brewer Stadium",
-      "detail": "2:05 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7899,7 +7899,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-09-20T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:184",
         "name": "Colorado Rapids",
@@ -7927,9 +7927,9 @@
         "color": "2dc84d"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "90'+7'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8111,7 +8111,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "2:49 - 3rd Quarter",
+      "detail": "15:00 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8158,7 +8158,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Snapdragon Stadium",
-      "detail": "8:59 - 3rd Quarter",
+      "detail": "4:39 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8205,7 +8205,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Casino Del Sol Stadium",
-      "detail": "14:25 - 3rd Quarter",
+      "detail": "9:01 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8297,7 +8297,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Providence Park",
-      "detail": "84'",
+      "detail": "90'+5'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8342,7 +8342,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rose Bowl",
-      "detail": "2:05 - 2nd Quarter",
+      "detail": "0:12 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8389,7 +8389,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "1:48 - 2nd Quarter",
+      "detail": "0:10 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8437,7 +8437,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "2:05 - 2nd Quarter",
+      "detail": "0:50 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13810,6 +13810,20 @@
   ],
   "stories": [
     {
+      "story_id": "49953092",
+      "headline": "UFC 331 results: Van dominates Pantoja to retain men's flyweight title",
+      "summary": "Joshua Van and Arman Tsarukyan earned big wins in contender for fight card of the year. Here are the UFC 331 highlights.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719300_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T04:20:07Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "ESPN Staff Profile",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mma/story/_/id/49953092/ufc-331-live-results-analysis-joshua-van-vs-alexandre-pantoja-2",
+      "stream_url": "",
+      "body": "If there were any doubts about Joshua Van's championship mettle, those were put to bed after his dominant victory over Alexandre Pantoja in the UFC 331 main event at Crypto.com Arena in Los Angeles on Saturday night.\n\nVan outstruck Pantoja and successfully defended double-digit takedown attempts and even dropped Pantoja in Round 5 en route to a unanimous decision win to retain the UFC men's flyweight title over the former champion.\n\nPantoja put up a good fight, as he held his own on the feet and racked up nearly 10 minutes of control time. His best showings were in Rounds 1 and 4, where he managed to get a hold of Van and successfully take the fight to the mat. But it was Van who did enough to get a win on the judges' scorecards. He has now defended his title twice.\n\nIn the co-main event, Arman Tsarukyan earned what could be the biggest win of his career, putting knockout artist Mauricio Ruffy to sleep with an elbow in Round 1. The win likely cements Tsarukyan as the top contender for UFC lightweight champion Justin Gaethje.\n\nAlso on the main card, heavyweight Sean Sharaf pulled off an all-time UFC upset, knocking out top prospect Gable Steveson in just 12 seconds.\n\nBrett Okamoto, Jeff Wagenheim and Dre Waters break down all the action from Los Angeles."
+    },
+    {
       "story_id": "49986060",
       "headline": "Nashville SC vs. Chicago Fire FC - Game Highlights",
       "summary": "Watch the Game Highlights from Nashville SC vs. Chicago Fire FC, 09/19/2026",
@@ -13836,20 +13850,6 @@
       "link": "http://www.espn.com/mlb/recap?gameId=401817011",
       "stream_url": "",
       "body": "LOS ANGELES -- \u2014 Mookie Betts went 4 for 4 with three doubles, Will Smith added three hits including a home run, and the Los Angeles Dodgers beat the San Francisco Giants 10-4 on Saturday night.\n\n\r\nTommy Edman's two-run, two-out single off reliever Philip Abner snapped a 4-all tie in the fifth. Pinch-hitter Miguel Rojas followed with an RBI single for a 7-4 lead, with Edman thrown out at home to end the inning.\n\n\r\nEvery Dodger had at least one hit, except for struggling Freddie Freeman who was 0 for 5. Betts tied his season high for hits and the team outslugged the Giants, 15-8. The former AL MVP was hitting .249 a week ago, and has since raised his average to .261.\n\n\r\nThe Dodgers scored runs in six straight innings to start a game for the first time in 10 years. They've scored 15 runs in their last seven offensive innings, including a four-homer eighth off Abner in Friday's series opener.\n\n\r\nThe NL West champions (95-60) won their 95th game to move a season-high 35 games above .500.\n\n\r\nBetts' third double led off the sixth and he scored on Smith's RBI single off reliever Joel Kuhnel. Rookie Josue De Paula added a two-run RBI single, extending the lead to 10-4.\n\n\r\nThree times the Giants rallied to tie the game only to see the Dodgers retake the lead, highlighted by Victor Bericoto's game-tying, 425-foot two-run homer in the third.\n\n\r\nDodgers starter Tarik Skubal (11-7) wasn't particularly sharp, allowing four runs and eight hits in five innings. The left-hander struck out three and walked two, with the Dodgers winning each of his last six outings.\n\n\r\nReliever Edwin D\u00edaz pitched a scoreless eighth in his second straight appearance since coming off the injured list Friday.\n\n\r\nGiants starter Yunior Marte (0-1) gave up six runs and eight hits in 4 2/3 innings with two strikeouts.\n\n\r\nDodgers right fielder Kyle Tucker fouled a ball off his knee and was replaced by Alex Call in the seventh.\n\n\r\nUp next \r\nNeither team had announced their starters for the series finale Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
-    },
-    {
-      "story_id": "49953092",
-      "headline": "UFC 331: Live results and analysis for Van vs. Pantoja 2",
-      "summary": "Follow as Alexandre Pantoja attempts to reclaim the flyweight title against Joshua Van at UFC 331.",
-      "image": "https://a.espncdn.com/photo/2026/0917/r1718144_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T04:02:29Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "ESPN Staff Profile",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mma/story/_/id/49953092/ufc-331-live-results-analysis-joshua-van-vs-alexandre-pantoja-2",
-      "stream_url": "",
-      "body": "If there were any doubts about Joshua Van's championship mettle, those were put to bed after his dominant victory over Alexandre Pantoja in the UFC 331 main event at Crypto.com Arena in Los Angeles on Saturday night.\n\nVan outstruck Pantoja and successfully defended double-digit takedown attempts and even dropped Pantoja in Round 5 en route to a unanimous decision win to retain the UFC men's flyweight title over the former champion.\n\nPantoja put up a good fight, as he held his own on the feet and racked up nearly 10 minutes of control time. His best showings were in Rounds 1 and 4, where he managed to get a hold of Van and successfully take the fight to the mat. But it was Van who did enough to get a win on the judges' scorecards. He has now defended his title twice.\n\nIn the co-main event, Arman Tsarukyan earned what could be the biggest win of his career, putting knockout artist Mauricio Ruffy to sleep with an elbow in Round 1. The win likely cements Tsarukyan as the top contender for UFC lightweight champion Justin Gaethje.\n\nAlso on the main card, heavyweight Sean Sharaf pulled off an all-time UFC upset, knocking out top prospect Gable Steveson in just 12 seconds.\n\nBrett Okamoto, Jeff Wagenheim and Dre Waters break down all the action from Los Angeles."
     },
     {
       "story_id": "49986177",
@@ -13978,6 +13978,20 @@
       "body": "There are just the three weekends remaining in the 2026 NRL season. Six teams are left to battle it out for the premiership, with two more sudden-death games this weekend. With the Panthers and Dolphins waiting for their Preliminary Final opponents, who will make it through?\n\nGood luck with your tips.\n\nSaturday, September 19\nSydney Roosters vs. Cronulla Sutherland Sharks\nAllianz Stadium, 7:50pm (AEST)\nRoosters: 1. James Tedesco 2. Daniel Tupou 3. Billy Smith 4. Robert Toia 5. Mark Nawaqanitawase 6. Hugo Savala 7. Daly Cherry-Evans 8. Naufahu Whyte 9. Reece Robson 10. Lindsay Collins 11. Salesi Foketi 12. Siua Wong 13. Victor Radley Bench: 14. Connor Watson 15. Spencer Leniu 16. Nat Butcher 17. Angus Crichton 18. Cody Ramsey 19. Tommy Talau Reserves: 20. Taylor Losalu 21. Benaiah Ioelu 22. Toby Rodwell\n\n- Enter your NRL Tipping Competition tips today with footytips.com.au\n\nSharks: 1. William Kennedy 2. Sione Katoa 3. Riley Jones 4. KL Iro 5. Ronaldo Mulitalo 6. Braydon Trindall 7. Nicho Hynes 8. Addin Fonua-Blake 9. Blayke Brailey 10. Jesse Colquhoun 11. Briton Nikora 12. Teig Wilton 13. Cameron McInnes Bench: 14. Siosifa Talakai 15. Billy Burns 16. Oregon Kaufusi 17. Thomas Hazelton 18. Jayden Berrell 19. Toby Rudolf Reserves: 20. Niwhai Puru 21. Samuel Stonestreet 22. Mawene Hiroti\n\nOfficials\n\nReferee: Adam Gee Touchies: Matt Noyen, Daniel Luttringer\n\nBunker: Wyatt Raymond\n\nPrediction: The Roosters were right in their clash with the Panthers last week despite missing Sam Walker. Daly Cherry-Evans may not have played his best game, but the Roosters have enough weapons across the park to make up for some missing creativity at half. Captain James Tedesco was once again in everything, Mark Nawaqanitawase was at his brilliant best on the wing and Robert Toia continues to impress in the centres. In the engine room Lindsay Collins and Naufahu Whyte were at their destructive best, as Victor Radley made a welcome return to the pack. Locked at 12-12 for most of the second half it took a wobbly old field goal from Nathan Cleary to split the teams before a Brian To'o intercept try wrapped it up.\n\nThe Sharks were too good for the hapless Cowboys, who proved once again to be their own worst enemy, making way too many errors with the ball and in defence. Braydon Trindall was a welcome return for the Sharks, his kicking and organisational skills key to any Sharks success, but his shoulder did look very tender. Nicho Hynes looks a better player with Trindall alongside him and the whole Sharks machine runs much smoother. Addin Fonua-Blake proved his worth in the engine room and Siosifa Talakai was explosive when called on from the bench. Still, it was a performance that might not have troubled any other team in the Top 8.\n\nThis week they meet a much more formidable opponent in the Roosters. Coach Trent Robinson will have his big men on assignment to test Trindall's shoulder at every opportunity. There will be absolutely nowhere for the Sharks five-eighth to hide and you can expect Cherry-Evans to bounce back and make a meaningful contribution to the Roosters cause. The clash of the forward packs will be well worth watching, with the Roosters set to win that battle as well.\n\nThe Dolphins await the winner at Suncorp Stadium, and it is hard to see how the Sharks can spring an upset in this one.\n\nTip: Roosters by 20\n\nPointsBet odds: Roosters $1.42 (-7.5 $1.90) Sharks $2.80 (+7.5 $1.90)\n\nSunday, September 20\nNew Zealand Warriors vs. Newcastle Knights\nEden Park, 4:05pm (AEST)\nWarriors: 1. Taine Tuaupiki 2. Charnze Nicoll-Klokstad 3. Ali Leiataua 4. Adam Pompey 5. Alofiana Khan-Pereira 6. Chanel Harris-Tavita 7. Te Maire Martin 8. James Fisher-Harris 9. Wayde Egan 10. Mitchell Barnett 11. Kurt Capewell 12. Jacob Laban 13. Erin Clark Bench: 14. Samuel Healey 15. Tanner Stowers-Smith 16. Demitric Vaimauga 17. Eddie Ieremia-Toeava 20. Morgan Gannon 22. Leka Halasima Reserves: 23. Dallin Watene-Zelezniak\n\nKnights: 1. Kalyn Ponga 2. Dominic Young 3. Dane Gagai 4. Bradman Best 5. Greg Marzhew 6. Fletcher Sharpe 7. Sandon Smith 8. Tyson Frizell 9. Phoenix Crossland 10. Cody Hopwood 11. Jermaine McEwen 12. Francis Manuleleua 13. Mathew Croker Bench: 14. Harrison Graham 15. Lachlan Crouch 16. Pasami Saulo 17. Thomas Cant 18. Fletcher Hunt 22. Dylan Lucas Reserves: 20. Kyle McCarthy\n\nOfficials\n\nReferee: Ashley Klein Touchies: Tyson Brough, Phil Henderson\n\nBunker: Chris Butler\n\nPrediction: The Warriors looked to be in control, holding a 10-2 lead after 20 minutes, in their clash with the Dolphins last week. But a closer examination showed that despite a mountain of possession, they had only crossed for one try and were inching their way up the scoreboard thanks to penalty goals. Into the second half the Warriors faded and the Dolphins came screaming home as they often do. The Warriors did lose centre Leka Halasima in the warmup, which would not have helped their preparations, but they just seemed to lack some of the spark that we have seen from them this season. The Dolphins waited for the inevitable holes to open up in the tiring Warriors defence before sending their attacking weapons through from a distance.\n\nThere has only been one team in the league better at scoring long distance tries this season and that is the Knights. Newcastle proved to be too good for the Cody Walker-less Rabbitohs last week. Dominic Young and Dane Gagai were at their best, causing havoc for the Rabbitohs defence, while second row forward Jermaine McEwen cashed in with a double. Kalyn Ponga had a mixed game, but he is always lurking, setting off alarm bells in any defensive line.\n\nDespite the Warriors' previous two grand final appearances, this game looms as one of the biggest in the club's history. They are moving this clash to the much more spacious Eden Park, the spiritual home of New Zealand sport. They expect a full house to be cheering them on to another preliminary final. They really must produce the goods, and they simply have to tighten up their defence, or the Knights could shred them from anywhere on the field. I think the atmosphere might carry the Warriors to victory, but I'm not real confident.\n\nTip: Warriors by 10\n\nPointsBet odds: Warriors $1.44 (-5.5 $1.83) Knights $2.75 (+5.5 $2)\n\nAll odds correct at time of publication. Check pointsbet.com.au for the latest."
     },
     {
+      "story_id": "49986178",
+      "headline": "Arman Tsarukyan brutally knocks out Mauricio Ruffy",
+      "summary": "Arman Tsarukyan hits a clean elbow right to Mauricio Ruffy's face in a nasty first round knockout at UFC 331.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY.jpg",
+      "published_utc": "2026-09-20T03:57:50Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49986178/arman-tsarukyan-brutally-knocks-mauricio-ruffy",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0919/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "49976245",
       "headline": "Teenager Julian Hall scores lone goal in Red Bulls' victory over NYCFC",
       "summary": "Julian Hall scored early in the second half and keeper Ethan Horvath was never tested for the New York Red Bulls in a 1-0 victory over New York City FC on Friday night at Yankee Stadium.",
@@ -14004,20 +14018,6 @@
       "link": "http://www.espn.com/mlb/recap?gameId=401817006",
       "stream_url": "",
       "body": "ST. LOUIS -- \u2014 Washington successfully challenged for catcher\u2019s interference with the bases loaded in a four-run 11th inning in the Nationals' 8-5 victory over the St. Louis Cardinals on Saturday night.\n\n\r\nAfter Washington took the lead on the interference call, Jose Tena had a two-run double and Dylan Crews followed with an RBI sacrifice fly.\n\n\r\nJ.J. Wetherholt led off the bottom of the 11th with an RBI single, and St. Louis loaded the bases with no outs, but did not score again. Washington reliever Will Dion got the final out for his first career save.\n\n\r\nRiley Cornelio (3-2) was the winner. Gordon Graceffo (8-2) took the loss.\n\n\r\nThe Nationals (73-82) have won six of their last seven following a seven-game losing streak. The Cardinals (75-80) have lost four straight games.\n\n\r\nJorbit Vivas had a career-high four hits and added an RBI and a run for Washington. James Wood had two hits and scored a run. Daylen Lile blasted a two-run home run to center field in the first inning, the 22nd of the season for the 23-year-old left fielder.\n\n\r\nNathan Church led off the bottom of the ninth with an infield hit that bounced off the second base bag for a double. Pedro Pages followed with an RBI single to left, his first RBI since June 18, to tie it at 3.\n\n\r\nVivas hit a two-out RBI single in the 10th inning to give the Nationals a 4-3 lead, only for Mason Wynn to it with an RBI single in the bottom of the inning.\n\n\r\nUp next\r\nCardinals LHP Quinn Mathews (2-3, 3.62) was set to face Nationals RHP Jake Irvin (2-9, 5.51) on Sunday in the series finale.\n\n\r\n------ See AP\u2019s full MLB coverage here"
-    },
-    {
-      "story_id": "49986178",
-      "headline": "Arman Tsarukyan brutally knocks out Mauricio Ruffy",
-      "summary": "Arman Tsarukyan hits a clean elbow right to Mauricio Ruffy's face in a nasty first round knockout at UFC 331.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY.jpg",
-      "published_utc": "2026-09-20T03:57:50Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/49986178/arman-tsarukyan-brutally-knocks-mauricio-ruffy",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0919/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY/dm_260919_UFC_Highlight_Arman_Tsarukyan_brutally_knocks_out_Mauricio_Ruffy_20260920_AUS_ONLY/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "49985767",
@@ -14183,70 +14183,76 @@
       "id": "ww:40cbf10195f73632ac722c711764dcfa",
       "title": "AEW Collision 9/19/2026",
       "date": "2026-09-19",
-      "replay_url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/2/1",
+      "replay_url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/1",
       "replay_candidates": [
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/2/1",
-          "label": "OK.ru FHD@50fps MyAEW \u2014 Full Show",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/1",
+          "label": "VidFrame FHD@50fps MyAEW \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/3/1",
+          "label": "OK.ru FHD@50fps MyAEW \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/1",
           "label": "Other Hosts \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/3/2",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/2",
           "label": "Other Hosts \u2014 StreamW (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/3/3",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/3",
           "label": "Other Hosts \u2014 VOE.sx (SD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/1",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/2/1",
           "label": "Dailymotion FHD@50fps MyAEW \u2014 Part 1",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/1/2",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/2/2",
           "label": "Dailymotion FHD@50fps MyAEW \u2014 Part 2",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/1",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/5/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/2",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/5/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/3",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/5/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/4",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/5/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/4/5",
+          "url": "https://dailywrestling.cc/embed/noisilloc/09-19-2026/select-post-1/5/5",
           "label": "Dailymotion FHD (Live replay) \u2014 last part",
           "part": true,
           "live": true
