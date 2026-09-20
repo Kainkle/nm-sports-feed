@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-20T23:04:33.993792+00:00",
+  "generated_utc": "2026-09-20T23:14:55.681881+00:00",
   "events": [
     {
       "event_id": "mlb:823334",
@@ -9483,7 +9483,7 @@
       "venue": "Raymond James Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "Q5PgGZKMUqk",
+      "highlight_video_id": "upE3gMwXkYo",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -10356,6 +10356,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401872941",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-20T20:05Z",
+      "status": "final",
+      "home": {
+        "id": "espn:24",
+        "name": "Los Angeles Chargers",
+        "abbrev": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Chargers",
+          "LAC",
+          "Los Angeles",
+          "Los Angeles Chargers"
+        ],
+        "color": "0080c6"
+      },
+      "away": {
+        "id": "espn:13",
+        "name": "Las Vegas Raiders",
+        "abbrev": "LV",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+        "logo_dark": null,
+        "aliases": [
+          "LV",
+          "Las Vegas",
+          "Las Vegas Raiders",
+          "Raiders"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "SoFi Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401872940",
       "sport": "football",
       "competition_id": "nfl",
@@ -10394,52 +10440,6 @@
       "source_status": "post/Final",
       "venue": "Empower Field at Mile High",
       "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872941",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-20T20:05Z",
-      "status": "live",
-      "home": {
-        "id": "espn:24",
-        "name": "Los Angeles Chargers",
-        "abbrev": "LAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
-        "logo_dark": null,
-        "aliases": [
-          "Chargers",
-          "LAC",
-          "Los Angeles",
-          "Los Angeles Chargers"
-        ],
-        "color": "0080c6"
-      },
-      "away": {
-        "id": "espn:13",
-        "name": "Las Vegas Raiders",
-        "abbrev": "LV",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-        "logo_dark": null,
-        "aliases": [
-          "LV",
-          "Las Vegas",
-          "Las Vegas Raiders",
-          "Raiders"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "SoFi Stadium",
-      "detail": "2:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10673,7 +10673,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "AT&T Stadium",
-      "detail": "12:07 - 4th Quarter",
+      "detail": "8:16 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "1CZiBWyBEl4",
       "replay_url": "",
@@ -10719,7 +10719,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "State Farm Stadium",
-      "detail": "7:03 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10733,7 +10733,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-20T20:25Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:25",
         "name": "San Francisco 49ers",
@@ -10763,9 +10763,9 @@
         "color": "008e97"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Levi's Stadium",
-      "detail": "4:03 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10871,7 +10871,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-20T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:13",
         "name": "Florida Panthers",
@@ -10901,7 +10901,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Amerant Bank Arena",
       "detail": "",
       "game_number": 1,
@@ -10917,7 +10917,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-20T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:21",
         "name": "Colorado Avalanche",
@@ -10947,7 +10947,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Ball Arena",
       "detail": "",
       "game_number": 1,
@@ -11007,7 +11007,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-09-20T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:6",
         "name": "Los Angeles Sparks",
@@ -11037,9 +11037,9 @@
         "color": "cee5eb"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "Sun, September 20th at 7:00 PM EDT",
+      "detail": "7:05 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13892,11 +13892,25 @@
   ],
   "stories": [
     {
+      "story_id": "49993826",
+      "headline": "New York Yankees vs. Arizona Diamondbacks: Game Highlights",
+      "summary": "New York Yankees vs. Arizona Diamondbacks: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/540a077c-502d-4842-9872-fe7c9486e51d/540a077c-502d-4842-9872-fe7c9486e51d.jpg",
+      "published_utc": "2026-09-20T23:11:05Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/49993826/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/540a077c-502d-4842-9872-fe7c9486e51d/540a077c-502d-4842-9872-fe7c9486e51d/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "49993771",
       "headline": "Hurts taunts Titans after Eagles win: Finished what you started",
       "summary": "Tennessee Titans defensive tackle Jeffery Simmons approached Jalen Hurts for a post-game dap-up following Philadelphia's 24-20 come-from-behind win Sunday and the Eagles quarterback was ready for him.",
       "image": "https://a.espncdn.com/photo/2026/0920/r1719769_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T23:01:31Z",
+      "published_utc": "2026-09-20T23:10:07Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Tim McManus",
@@ -13906,25 +13920,11 @@
       "body": "NASHVILLE - Tennessee Titans defensive tackle Jeffery Simmons approached Jalen Hurts for a post-game dap-up following Philadelphia's 24-20 come-from-behind win Sunday and the Eagles quarterback was ready for him.\n\n\"You started that s---,\" Hurts said with a smile, taking a break from his postgame interview to address Simmons. \"I had to finish it.\"\n\nThe two exchanged words after that but Hurts made it clear that he had heard Simmons' comments to reporters earlier in the week, when Simmons told reporters: \"We just need to make Jalen Hurts be a QB. Stop his runs, make sure Hurts doesn't get out of the pocket and make plays.\"\n\nHurts got the last word, engineering a nine-play, 65-yard drive in the closing minutes and hitting receiver Darius Cooper for a three-yard touchdown pass with nine seconds remaining to lift the Eagles to a 2-0 record.\n\n\"I love our guys so of course my natural instinct is, 'Oh, I want to fight,'\" said coach Nick Sirianni after the game. \"But when you get wrapped into the battle of words or revenge or whatever it is, anger, that s--- lasts about two minutes in a game. It does. At the end of the day, the fundamentals take over, the situational awareness takes over, you playing together as a team, your toughness takes over, because that all fades.\"\n\nSimmons added further context to his original comments postgame.\n\n\"He's a Super Bowl MVP,\" Simmons said. \"That wasn't no shot at Jalen. The thing was if we could keep him in the pocket and eliminate him from scrambling and running, making him go sideways, we could be successful especially getting them to third down.\n\n\"We saw Jalen would try to make something happen downfield and take off running. You see it all over his tape. That was my point of making Jalen Hurts stay in the pocket and just be a quarterback. It wasn't, 'Oh he can't be a quarterback in the pocket.'\"\n\nHurts and the offense were not having the best day at the office. The Eagles QB had thrown two interceptions, the operation looked sluggish at times minus running back Saquon Barkley (stinger) and tight end Dallas Goedert (knee) and behind a reconfigured offensive line working without left guard Landon Dickerson (knee). Tennessee went ahead by three on a field goal with six minutes remaining.\n\n\"Hey, let's finish. We've got them right where we want them,\" Hurts said before taking the field, according to Cooper.\n\nHurts went 5-of-7 on the final drive, including a 19-yarder to DeVonta Smith down the left sideline on 3rd-and-6 with 20 seconds remaining that put Philadelphia on the doorstep.\n\n\"He didn't flinch,\" Smith said of Hurts.\n\nThe next play was supposed to go to Smith as well, but the receiver lost his footing. Hurts' attention turned to Cooper, whose job was to run a pick for Smith on the play. He instead turned into the target and was able to haul in a high pass from Hurts in the back of the end zone. It was Cooper's first NFL touchdown and Hurts' first career go-ahead passing TD in the final minute of regulation or overtime.\n\nEagles left tackle Jordan Mailata said Hurts balled out on the game-winning drive, adding: \"Jalen really got in his bag today and started dialing everything up, hitting everyone. That was a beautiful thing to see, man...\n\n\"[In critical moments] it's a sense of belief,\" Mailata said. \"It's more like a knowing. I know he's going to go down and lead us, I know he's going to make the right reads, I know he's going to make the right throws.\n\n\"He's going to do the right things and ball out, and that's what he did.\"\n\nHurts ended 26-of-37 for 264 yards with two touchdowns and two interceptions and ran for 16 yards on five carries. He improved to 59-25 as a starter in the regular season.\n\n\"I heard it,\" Hurts told reporters postgame of Simmons' comments.\n\nHurts was then asked how he thought he responded.\n\n\"I'm happy we won,\" Hurts said.\n\nTitans reporter Turron Davenport contributed to this story."
     },
     {
-      "story_id": "49993651",
-      "headline": "Cronenworth homers twice, Padres beat Marlins 7-3 to lower wild-card magic number to 2",
-      "summary": "Jake Cronenworth hit a pair of two-run homers and drove in five runs for the San Diego Padres, who beat the Miami Marlins 7-3 on Sunday to move closer to clinching their third straight postseason berth.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817023.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-20T22:44:34Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817023",
-      "stream_url": "",
-      "body": "Jake Cronenworth hit a pair of two-run homers and drove in five runs for the San Diego Padres, who beat the Miami Marlins 7-3 on Sunday to move closer to clinching their third straight postseason berth.\n\n\r\nFernando Tatis Jr. hit his 25th homer for the Padres, who won for the 13th time in 14 games and swept the Marlins for the second time this season.\n\n\r\nSan Diego reduced its magic number to two for earning a wild-card spot.\n\n\r\nThe Padres and Cubs remain tied at 87-69 for the top wild-card spot with six games to go, although Chicago holds the tiebreaker. Philadelphia stayed one game back.\n\n\r\nThe top wild-card team will host a best-of-three opening series. The Cubs beat the Padres 2-1 in the wild-card round last year in Chicago.\n\n\r\nCronenworth lofted a two-run shot into the home run porch in the right-field corner off Sandy Alcantara (13-11) with two outs in the second.\n\n\r\nHe connected again to right off Bradley Blalock with two outs in the eighth, his seventh. It was his second career multihomer game.\n\n\r\nWalker Buehler took a one-hitter and a 4-0 lead into the seventh before allowing Javier Sanoja's three-run homer to left with two outs, his 10th.\n\n\r\nThat was it for Buehler (9-6), who allowed three runs and three hits while striking out six and walking two in a season-high 6 2/3 innings. He retired 11 straight at one point.\n\n\r\nTatis homered into the Padres bullpen in left-center off Blalock leading off the seventh. It's his fourth career 25-homer season.\n\n\r\nCronenworth and Samad Taylor hit consecutive RBI singles in the fourth.\n\n\r\nAlcantara allowed four runs and eight hits in six innings, struck out three and walked one.\n\n\r\nUp next\r\nMarlins RHP Janson Junk (6-9, 4.50 ERA) is scheduled to start Tuesday night in the opener of a three-game series at the Chicago Cubs.\n\n\r\nThe Padres haven't named a starter for Tuesday night's series opener at the Los Angeles Dodgers.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
-    },
-    {
       "story_id": "49991564",
       "headline": "Sources: Higuain at center of refs union beef with MLS NEXT Pro",
-      "summary": "The union that represents MLS and USL referees, launched a scathing critique of MLS NEXT Pro over its handling of an incident in which a coach committed what it described as \"two deliberate acts of physical abuse and sexism towards a female referee.\"",
+      "summary": "The union that represents MLS and USL referees launched a scathing critique of MLS NEXT Pro over its handling of an incident in which a coach committed what it described as \"two deliberate acts of physical abuse and sexism towards a female referee.\"",
       "image": "https://a.espncdn.com/photo/2026/0920/r1719648_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T22:33:49Z",
+      "published_utc": "2026-09-20T23:04:55Z",
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "byline": "Jeff Carlisle",
@@ -13946,6 +13946,20 @@
       "link": "http://www.espn.com/wnba/recap?gameId=401857203",
       "stream_url": "",
       "body": "INDIANAPOLIS -- \u2014 Kiki Iriafen scored 21 points and grabbed 14 rebounds to help the Washington Mystics beat Indiana 93-77 and pull within a game of the fifth-place Fever.\n\n\r\nShakira Austin added 20 points with 10 boards for the Mystics (26-16), who are one of three teams just a game behind Indiana (27-15) with two regular-season games remaining. The Fever finish with a home-and-home series on Tuesday and Thursday against the Minnesota Lynx, owners of the WNBA\u2019s best record at 32-10.\n\n\r\nSonia Citron scored 16 points and just missed a double-double with nine assists. Georgia Amoore had 11 points with three 3-pointers.\n\n\r\nThe Mystics jumped out to a 34-19 lead at thge end of the first quarter. They led by as many as 26 before closing the half with a 51-30 advantage. Washington was up 77-61 entering the fourth and never were threatened.\n\n\r\nCaitlin Clark scored 25 with five assists and Kelsey Mitchell had 22 points for the Fever. But the All-WNBA backcourt shot a combined 14 of 40 from the floor, including making just 6-of-20 3-pointers.\n\n\r\nFever All-Star center Aliyah Boston encountered foul trouble and scored just seven points on eight shots. And Indiana's bench didn't contribute a point until Raven Johnson's jumper with 4:35 remaining in the third quarter.\n\n\r\nUP NEXT\n\n\r\nMystics: Host Connecticut on Tuesday.\n\n\r\nFever: Host Minnesota on Tuesday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
+    },
+    {
+      "story_id": "49961748",
+      "headline": "Stocks up, stocks down: Hayden Young goes down in folklore; why Neale needs to get off",
+      "summary": "It was an epic prelim final weekend, with Hayden Young writing himself into Fremantle folklore and Will Ashcroft putting the Dockers on notice. But James Sicily deserves his fine. Here's whose stocks are up and down.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719715_1296x729_16-9.png",
+      "published_utc": "2026-09-20T22:10:28Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "ESPN staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49961748/afl-footy-review-news-analysis-finals-stocks-lachie-neale-james-sicily-hayden-young-fremantle-freo-brisbane-lions",
+      "stream_url": "",
+      "body": "We just witnessed one of the greatest AFL preliminary final weekends of all time, with Fremantle coming from behind to beat Sydney and Brisbane snatching victory over Hawthorn in an all-time classic. Here's whose stocks are up and down.\n\nOur footy experts cast their eye over the week's action to find out whose stocks are up -- whether it's a coaching masterstroke or a player having a blinder -- and whose are down.\n\nBrisbane\nStocks up: Could Will Ashcroft be a three-time Norm Smith Medal winner in a few days' time? It's absolutely crazy to think the 22-year-old could have three flags and three Norms in his first four seasons in the AFL. Just let that sink in for a moment. He's a (late) September specialist, picking up 28 disposals, kicking a goal, gathering eight clearances, and tallying more than 500 metres gained. His final act was a beauty, too. With his side up by three points and just a handful of second left on the clock, he won the decisive centre bounce, strolled out of the middle and hit Kai Lohmann to put the result beyond doubt. And how about the celebration too? He kept sprinting past Lohmann, a very Papley-esque razz-up of the crowd and his teammates as they made a fourth successive Grand Final berth. A staggering effort from the Lions.\n\nStocks down: The Lions could be without two-time Brownlow Medallist and star midfielder Lachie Neale after he was banned for one week for his stupid, unneccessary gut punch on Hawthorn's Jack Ginnivan on Saturday. The Lions have already said they'll challenge at the tribunal, but it'll be difficult to overturn given the AFL specifically said it would be cracking down on unnecessary hits off the ball; according to Jon Ralph, six players have been given a week off for similar incidents. Will the tribunal cave under the pressure of it being a Grand Final this week? Is it too harsh to miss a premiership decider for something so -- comparatively -- minor? People will argue that if it's a suspension in Round 10 it should be this week as week, but perhaps the bar to miss a Grand Final needs to be higher. Many questions are yet to be answered, and we're not sure the answers will be popular with everyone...\n\nFremantle\n\nStocks up: It took one quarter for the Dockers to claim their epic prelim final win and there were two genuine X-factors that helped provide the necessary spark that has carried them into a first Grand Final appearance since 2013. Well, for Hayden Young, it began after the three-quarter time siren, the classy left-footer nailing the goal of the night with a brutally-difficult set shot from the left boundary line on the 50 in a moment that in hindsight changed the game entirely. Then up stepped Shai Bolton. After just one disposal in the premiership quarter, he kicked two goals from eight touches in the final stanza, and had a direct goal assist as well. It's the class of these stars that set the two teams apart at the SCG.\n\nStocks down: Did it matter on the night? Probably not, but only because of the above names who dragged them over the line. Freo's key forward trio of Josh Treacy, Jye Amiss, and Patrick Voss were quiet again, registering just eight disposals between them in the first half on Friday night. By the end of the match they combined for two goals (two very good ones, it must be said), but they've just got to do more next week. By the way, the Dockers have won just three total quarters (out of 12) this entire finals series. They deserve to be where they are, but how well are they really going?\n\nHawthorn\nStocks up: Was that one of Josh Ward's best games as a Hawk? In a game dominated by, yes, the Wizard kicking six goals and looking like an absolute star, it's only fair to show some love to one of the more underappreciated Hawks. Ironically he'd possibly be one of the players to lose midfield rotations in favour of Zach Merrett should he make the move to Hawthorn, but Ward was wonderful on Saturday evening; 25 disposals, four direct goal assists, a game-high 16 contested possessions. And Watson, six goals in a preliminary final is a herculean effort. What's his ceiling? Is it crazy to say best small forward of all time?\n\nStocks down: For two leaders of the club, James Sicily and Tom Barrass acted embarrassingly on Saturday night after the heartbreaking loss to the Lions. After the siren sounded to bring curtains down on Hawthorn's season, Sicily and Barrass were seen verbally accosting umpire Hayden Meyer, who made the late controversial decision to penalise Jarman Impey for holding the ball in the Hawks' back 50, leading to the Lions' winning goal. The optics were terrible for club leaders, made to look worse when Hawthorn fans threw bottles and cans onto the MCG in protest for the controversial -- yet correct -- decision. It's fitting Sicily was fined $10,000 and Barrass $5,000; it's unacceptable behaviour that filters to lower levels and cannot be excused.\n\nSydney\nStocks up: Errol Gulden really couldn't have done much more for the Swans since he returned from injury. His final seven games? 41, 34, 39, 47, 41, 34, and 35 disposals. In a team that was understrength, he constantly used his elite endurance and run and carry to lift his side to a prelim and agonisingly short of another Grand Final. Logan McDonald was another who thrived as a deep forward target throughout September, leaving no doubt he can partner Charlie Curnow in 2027 to become one of the league's best key forward duos. McDonald, after kicking six against Harris Andrews and the Lions in a qualifying final, was Sydney's highest-rated player on the ground against the Dockers, kicking three goals and taking four marks to go with 14 disposals and seven score involvements.\n\nStocks down: It was a valiant effort from the Swans on Friday night. Despite having the week off, they were undermanned and seemed to just run out of gas in the last quarter as the Dockers forced a late onslaught of inside 50s and threatening attacks. You must wonder where that leaves members of the 'Pullman Five' within the playing group. Would the additions of Isaac Heeney, Chad Warner, and Nick Blakey (at the very least) have been the difference? Maybe. But who is to say if they had played, the Swans would have lost by more. It's speculation, but leaving 'what ifs' on the table really hurts -- just look at the emotions spilling out of stand-in skipper Dane Rampe, whose career may have come to an end with that loss."
     },
     {
       "story_id": "49991578",
@@ -13988,20 +14002,6 @@
       "link": "https://www.espn.com/nba/story/_/id/49983952/kyle-lowry-block-party-toronto-raptors-statue",
       "stream_url": "",
       "body": "With a sea of red, white and black Kyle Lowry jerseys filling the streets of Toronto for an honorary block party, the guard's legacy will forever be stamped in the city's lore with an exclusive commemorative figure.\n\nOn Saturday, the Toronto Raptors honored Lowry's career with a block party outside of Scotiabank Arena, unveiling a golden raptor statue. The sculpture features Lowry's No. 7 jersey while dribbling a basketball and stands on a nameplate that reads \"The Greatest Raptor of All Time. Kyle Lowry | 2012-2021, 2026.\"\n\nThe statue unveiling follows the franchise's August announcement that it would retire Lowry's jersey number during the upcoming 2026-27 season. It will be raised to the rafters at the conclusion of Toronto's home matchup against the Philadelphia 76ers on Jan. 10.\n\nAlong with the statue, the six-time All-Star received a key to the city.\n\n\"I've been looking forward to this moment for years. I always said that Toronto is home, and that I'd retire a Raptor, and to see my No. 7 go up in that building is going to mean everything to me,\" Lowry said. \"We built something special here -- my teammates, the organization, the city and the fans, and all of Canada. We became champions together, and to be able to share this night with all of them, and with my family, is going to mean a lot to me.\"\n\nLowry, who spent nine of his 20 seasons in Toronto, helped bring the Raptors their only NBA championship in the 2019 NBA Finals. He will also join Basketball Hall of Famer Vince Carter as the only Raptors to have their numbers retired -- Carter's was retired in November 2024.\n\nThe 40-year-old Lowry announced his retirement in July after signing a one-day contract with Toronto to retire as a member of the franchise.\n\nHe averaged 13.8 points, 4.2 rebounds and six assists in his 20 seasons."
-    },
-    {
-      "story_id": "49986557",
-      "headline": "Lions to challenge Lachie Neale's AFL Grand Final ban",
-      "summary": "Brisbane will challenge Lachie Neale's one-match ban at the AFL tribunal in a bid to free the star midfielder to play in the Grand Final against Fremantle.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719307_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T07:20:49Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49986557/afl-grand-final-brisbane-lions-lachie-neale-miss-one-game-ban-jack-ginnivan-gut-punch",
-      "stream_url": "",
-      "body": "Brisbane Lions superstar Lachie Neale may attempt to lean on the \"exemplary record\" clause to clear himself for the AFL Grand Final against Fremantle after he was handed a one-match suspension.\n\nNeale was offered the ban over the gut punch that floored Hawthorn's Jack Ginnivan behind play during the Lions' nine-point win in an epic preliminary final on Saturday night.\n\nThe incident was graded intentional conduct, medium impact and body contact.\n\nWithin minutes of the AFL releasing the match review findings on Sunday, Brisbane confirmed they will challenge the ban.\n\nVision shows Ginnivan wrestling with Brisbane forward Eric Hipwood, before Neale jogs over and hits the Hawthorn player with a left-handed punch to the stomach.\n\nAdelaide forward Riley Thilthorpe and Hawks pair James Sicily and Dylan Moore have all been suspended over similar incidents this season.\n\nThose bans came after former Lions CEO Greg Swann - in his new role as AFL football boss - brought in a minimum one-match penalty for gut punches.\n\nNew match review guidelines state intentional strikes to the stomach are automatically graded as medium impact rather than low, resulting in one-match bans.\n\nBut Brisbane are almost certain to try their luck at the tribunal as doubt over Neale's availability dominates headlines entering Grand Final week.\n\nNeale has never been suspended in his 320-game career and could use the same clause that helped games record-holder Scott Pendlebury escape suspension for his bump on Adelaide's Josh Worrell this season.\n\nUnder AFL regulations, \"a player with an exemplary record may argue that their good record constitutes exceptional and compelling circumstances\".\n\nPlayers can no longer use the so-called \"good bloke\" defence that helped Brisbane's Charlie Cameron overturn a ban in 2024.\n\nNeale's other option is to attempt to have the impact grading reduced, though that route would be unlikely to be successful.\n\nIf Neale's ban stands, it would mean he not only misses the premiership decider against his former club, but could also have played his last game for the Lions.\n\nThe 33-year-old two-time flag star is widely expected to join Collingwood as a free agent in the off-season.\n\nNeale is no stranger to Grand Final week drama, after his calf injury was the major talking point ahead of last year's decider against Geelong.\n\nThe brilliant midfielder ultimately played as the substitute - under a system that has since been thrown out - and starred with 17 disposals and one goal to help the Lions secure back-to-back flags.\n\nNeale wasn't the only player under match review scrutiny after Saturday's preliminary final.\n\nHawthorn defenders Sicily ($10,000) and Tom Barrass ($5000) were handed massive fines for misconduct after they had angry words with umpire Hayden Meyer immediately after the final siren.\n\nIt followed a controversial finish, in which a holding-the-ball free paid against Hawthorn's Jarman Impey gifted Brisbane's Hugh McCluggage the go-ahead goal in the dying stages.\n\nThe league determined the fixed financial sanction for abusive language towards an umpire was inadequate, and so charged Sicily and Barrass under the \"other misconduct'' provision.\n\nHawks midfielder Jai Newcombe was cleared over his first-quarter contact with Neale in a collision that involved opponents pushing the two players into each other."
     },
     {
       "story_id": "49965679",
@@ -14060,32 +14060,32 @@
       "body": "Kalyn Ponga insists now is not the time for nostalgia as Newcastle's captain aims to move a step closer to completing one of the great NRL revivals by taking the Knights to the grand final.\n\nAfter Sunday's drama-charged 12-10 win over the Warriors in Auckland, Newcastle's Cinderella finals run will extend into another week with Justin Holbrook's set to face Penrith in a preliminary final at Accor Stadium.\n\nFullback Ponga will feature after he passed the head injury assessment which left him watching the dying stages of the win over the Warriors from the dressing room.\n\nVictory over the Panthers this Sunday would count as the Knights' biggest scalp to date and would cap the club's remarkable turnaround from wooden spooners to grand finalists in the space of 12 months.\n\nThe Roosters were the last side to finish last (2009) and reach the decider the following year.\n\nBut captain Ponga claims he has no desire to look back on the Knights' rapid progress under first-year Newcastle coach Holbrook as he believes there are more chapters to write.\n\n\"It's kind of hard right now because you're obviously grateful for the win but then you don't want to sit in that for too long,\" Ponga said.\n\n\"You want to get your mind to the next game, and that's been our strength this year.\n\n\"I think when it's all said and done, when we're sitting at home in the off season, I'll look back and be pretty proud of this season.\n\n\"But it's kind of hard right now because we're not done.\n\n\"All I do know is I'm really proud of this group for the efforts that they've put in throughout the whole year. I don't want to reflect too much just yet.\"\n\nThe Knights had the luxury of giving representative forward Dylan Lucas a cameo in the final 20 minutes of the win in Auckland and his return from injury will be a major boost for a side that has stumbled into September without a handful of big hitters.\n\nNewcastle have survived into week three without their first-choice front-row duo of Jacob Saifiti and Trey Mooney and have thrived in attack despite the absence of injured star playmaker Dylan Brown.\n\n\"The belief sort of comes from the year. You go into these games relying on what you've done throughout the year,\" Ponga said.\n\n\"So many times we've had injuries, had to overcome adversity and challenges, and as a playing group, we've handled that pretty well. No doubt it'll be the same next week.\""
     },
     {
-      "story_id": "49991137",
-      "headline": "Week 2 winners and losers: Tyler Shough, DeVonta Smith shine; Bijan Robinson struggles",
-      "summary": "Tyler Shough and DeVonta Smith came up big in Week 2, while Bijan Robinson and Justin Jefferson had very quiet days.",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719728_1296x729_16-9.jpg",
-      "published_utc": "2026-09-20T22:59:46Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Matt Bowen and Tristan H. Cockcroft",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-49991137/nfl-week-2-fantasy-football-winners-losers-injuries-rankings-more",
-      "stream_url": "",
-      "body": "Week 2 of the 2026 fantasy football season wasn't the high-scoring bonanza of last week, but DeVonta Smith, Ja'Marr Chase and Tyler Shough all came up big. On the flip side, fantasy stars Bijan Robinson, Justin Jefferson and Drake London all had disappointing games.\n\nWho were the big winners and losers around the league during the opening week of the fantasy football season?\n\nMatt Bowen and Tristan H. Cockcroft offer their analysis.\n\nJump to a topic:\n\nRanking winners | Ranking losers\n\nBiggest injuries and what's next\n\nRanking fantasy winners of Week 2\n\n1. DeVonta Smith, WR, Philadelphia Eagles\nIf he's destined for a breakout, fantasy WR1-caliber year, this might well be the starting-point game his managers refer to. Smith scored 27.7 fantasy points, his sixth most in 82 career games, and he had a 38% target share. He's in prime position to shine, with A.J. Brown now in New England, and he'll get a fantastic Week 3 matchup in which to potentially repeat the effort versus the Chicago Bears. -- Cockcroft\n\n2. Tyler Shough, QB, and Chris Olave, WR, New Orleans Saints\nThe Shough-Olave combination produced high-end numbers again in the Week 2 win over the Ravens. Shough (22.38 points) threw for 252 yards and a touchdown, while he rushed for 23 yards and another score on nine carries. That's two straight games for Shough with at least 22 points. Olave caught 8 of a team-high 10 targets for 86 yards and a touchdown, which was good for 22.6 points -- after dropping 28.2 points on the Lions in Week 1. Olave will remain a midtier WR1 for me in the ranks for the Week 3 matchup versus the Raiders, while Shough should be viewed as a fringe QB1. -- Bowen\n\n3. Ja'Marr Chase, WR, Cincinnati Bengals\nChase, who had a slow Week 1 start (3.2 points), bounced back in Sunday's win over the Texans, dropping 26.5 points on one of the league's best defenses. Chase caught 7 of 9 targets for 75 yards and added two touchdowns, one on a ridiculous snag that highlighted his hands, body control and focus. This is another reminder to trust your top picks after a tough ballgame. Talent wins. -- Bowen\n\n4. Dalton Schultz, TE, Houston Texans\nWith Texans No. 1 wide receiver Nico Collins out with a hamstring injury, Schultz was the priority target for quarterback C.J. Stroud in Sunday's loss to the Bengals. Schultz totaled career highs in receptions (12), targets (14) and receiving yards (140). Schultz, who finished with 26.0 points (second most in his career), will be in the TE1 mix for the Week 3 game at Indianapolis if Collins is down again. Can't ignore that receiving usage. -- Bowen\n\n5. Bryce Young, QB, and Darren Waller, TE, Carolina Panthers\nThis is the first time in Young's four-year NFL career that he has scored at least 20 fantasy points in back-to-back games, and his 31.44 points in Week 1 and 24.08 on Sunday are his third- and fifth-best outputs. Young is making great use of his deeper set of receivers, including Waller, who caught both of his end zone targets for scores and finished with 18.3 fantasy points. We're used to Young showing signs late in the year, but his hot start now elevates him into the solid-streamer tier for fantasy. -- Cockcroft\n\n6. Rashod Bateman, WR, Baltimore Ravens\nBateman saw a bump in volume Sunday in the loss to the Saints with Zay Flowers (hamstring) down for the game. Bateman caught 7 of a team-high 9 targets, finishing with 88 yards and a touchdown (21.8 points). And the touchdown grab went as designed by new offensive coordinator Declan Doyle. Reduced split. One-on-one route -- with the void in the middle of the field. If Flowers is out again for next week's matchup at Dallas, Bateman can be started as a WR2/Flex option. -- Bowen\n\n7. Denzel Boston, WR, Cleveland Browns\nBoston is an emerging target -- with big play juice -- who should be a priority waiver pickup this week. Rostered in only 26.4% of ESPN leagues, Boston scored 20.5 points in Sunday's win over the Bucs, catching five of seven targets for 95 yards and a touchdown. Boston has now posted a touchdown reception, and at least 13 points, in back-to-back games to start his pro career. -- Bowen\n\nRanking fantasy losers of Week 2\n\n1. Bijan Robinson, RB, Atlanta Falcons\nThe Falcons' offensive struggles with both Tua Tagovailoa (oblique) and Michael Penix Jr. (knee) on the sidelines continued, but what changed this week was Robinson's inability to replicate Week 1's solid receiving production (23 of his 31.13 fantasy points). The star running back managed only 11.1 points this time, despite facing a Panthers defense that surrendered 52.8 points combined to D'Andre Swift and Kyle Monangai in Week 1. In fairness, Robinson was lifted early in what was a 34-3 blowout, so the only thing to sweat for fantasy is whether Penix (more likely to play) or Tagovailoa is ready to play on \"Thursday Night Football\" for Week 3. Even then, Robinson remains a must-start, and in a closer game, probably would've given you a better score. -- Cockcroft\n\n2. Caleb Williams, Chicago Bears offense\nThe Bears lacked answers -- in both the run and pass game -- versus the Vikings and coordinator Brian Flores' pressure-heavy system. Williams, who left the game late with a hamstring injury (more on that below), had only 7.72 points (after posting 37.26 points in Week 1), both D'Andre Swift and Kyle Monangai failed to top the 50-yard rushing mark, and Colston Loveland was absent for the second straight game (one reception, 3 yards). It was an ugly game for Ben Johnson's unit, featuring empty red zone trips, turnovers and penalties. And this offense will have limitations if Williams is out for an extended period of time. -- Bowen\n\n3. Justin Jefferson, WR, Minnesota Vikings\nI really liked the matchup for Jefferson versus the Bears' secondary, especially after he scored 31.2 points in Week 1 versus the Packers. However, Jefferson caught just 3 of 6 targets for 55 yards (8.5 yards). Concern here? I don't see it. Bad weather game in Chicago. Jefferson also had an opportunity on an end zone throw from Carson Wentz that could have changed the narrative here. Jefferson will look to rebound in Week 3 at Tampa, and we could see Kyler Murray back under center. -- Bowen\n\n4. Drake Maye, QB, New England Patriots\nAfter another interception Sunday, he's already halfway (4) to his entire 2025 interception total (8). Repeating last year's stellar accuracy metrics -- he was the youngest player since the merger to lead the league in completion percentage (72%) -- was an unrealistic ask, but this much regression raises red flags. The Patriots face one of the league's toughest schedules, especially after their Week 11 bye. This isn't to say Maye is a cut in fantasy, but you need a start-worthy partner quarterback if you have him. -- Cockcroft\n\n5. Drake London, WR, Atlanta Falcons\nHe now has 10 targets, two rushing attempts and only 14.4 fantasy points across two weeks working with fill-in quarterbacks Cooper Rush and Jack Strand. The Falcons' passing game has struggled mightily with the aforementioned Tagovailoa and Penix absent, but there's realistic hope that one or both will be ready to play Thursday. London's fantasy managers are certainly hoping so, as it's the difference between his approaching a top-10 positional ranking and being a ho-hum WR2/3. -- Cockcroft\n\n6. Travis Etienne Jr., RB, New Orleans Saints\nHe might struggle to approach last year's 296 touches or 253.9 fantasy points, at least based on his usage these first two weeks. After losing goal-line carries to Kendre Miller in Week 1, Etienne was out-carried and out-touched by Alvin Kamara, though he did play a larger percentage of offensive snaps (53%-30%). Tyler Shough also handled the winning touchdown sneak, further signaling that Kellen Moore's offense is more role reliant than centered on a single running back. Etienne might be locked into low-end RB2 status. -- Cockcroft\n\n7. DK Metcalf, WR, Pittsburgh Steelers\nAaron Rodgers continued to heavily target Metcalf -- he led the team for the second straight week -- but the eighth-year wide receiver again posted a sub-10-point fantasy score (6.7 this time). The matchup contributed, as star New England Patriots cornerback Christian Gonzalez covered Metcalf on 85% of his routes. Metcalf badly needs a big game in Week 3, against a much softer matchup in the Cincinnati Bengals, if he's to remain a weekly consideration in the WR2/flex class. -- Cockcroft\n\n8. David Montgomery, RB, Houston Texans\nMontgomery saw just eight touches in the Week 2 loss to the Bengals, rushing for 10 yards on six carries, while he caught two passes for 14 yards (4.4 points). As we saw in Week 1, when Montgomery had 28.9 points versus the Bills, he is a touchdown-dependent back who needs positive game flow and red zone touches. Didn't happen in this one. With the Colts up next, Montgomery fits as a Flex option. -- Bowen\n\nInjury impact\n\nCaleb Williams, QB, Chicago Bears\n\nWhat we know: Williams went down with a hamstring injury late in the fourth quarter on a scramble attempt. Williams was quickly ruled out, and he left on a cart.\n\nWhat's next: With Williams expected to miss time, backup Tyson Bagent will take over as the No. 1 in Ben Johnson's offense. Bagent is a capable No. 2, who will have some value in deeper, 2QB Superflex formats. However, I would expect a run-heavy game plan for the Week 3 matchup versus the Eagles, which will reduce the value of Luther Burden II, Rome Odunze and Colston Loveland in this Bears passing attack. -- Bowen\n\nSaquon Barkley, RB, Philadelphia Eagles\n\nWhat we know: He suffered a stinger on his first carry of the day, and while he did return for a portion of the second half, he managed only four rushing attempts and two targets in that time before ultimately being shut down for the day. Barkley is scheduled for an MRI, and his status for Week 3 is unclear.\n\nWhat's next: Tank Bigsby and Will Shipley shared carries after Barkley's departure, though Bigsby got the bulk of the work initially as well as the important red zone opportunities, a signal that he's the Barkley insurance policy to have. Prioritize Bigsby among your Week 3 pickups. -- Cockcroft\n\nDallas Goedert, TE, Philadelphia Eagles\n\nWhat we know: He suffered a right knee injury on a run-blocking play during the second quarter and was unable to return. Goedert's day finished with him seeing two targets and scoring 1.4 fantasy points.\n\nWhat's next: Goedert's injury history raises questions about his ability to recover in time for Week 3. If he can't play, Johnny Mundt, who ran 19 routes and had two catches for 8 yards, would be next up on the depth chart. -- Cockcroft"
-    },
-    {
-      "story_id": "49993373",
-      "headline": "Anderson tosses 7 shutout innings, Mariners beat Rockies 2-1 to avoid elimination",
-      "summary": "\u2014 Rookie Kade Anderson tossed seven shutout innings, Dominic Canzone drove in two runs, and the Seattle Mariners beat the Colorado Rockies 2-1 on Sunday to stave off elimination from playoff contention.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817022.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-20T22:16:32Z",
+      "story_id": "49993903",
+      "headline": "Arenado hits grand slam in the Diamondbacks' 8-4 victory over the Yankees",
+      "summary": "\u2014 Nolan Arenado hit his third grand slam of the season top help the Arizona Diamondbacks beat the New York Yankees 8-4 on Sunday.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817025.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-20T23:09:31Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817022",
+      "link": "http://www.espn.com/mlb/recap?gameId=401817025",
       "stream_url": "",
-      "body": "DENVER -- \u2014 Rookie Kade Anderson tossed seven shutout innings, Dominic Canzone drove in two runs, and the Seattle Mariners beat the Colorado Rockies 2-1 on Sunday to stave off elimination from playoff contention.\n\n\r\nAnderson (2-2), in the longest of his six starts since making his major league debut Aug. 22 at the Chicago Cubs, followed his worst outing with his best. He gave up three hits, struck out a career-high seven and didn\u2019t walk a batter.\n\n\r\nHis performance kept Seattle\u2019s slim postseason hopes alive. The Mariners (73-83) gained a game on Texas in the AL West and avoided, temporarily, being eliminated from the AL wild-card race.\n\n\r\nMariners closer Andr\u00e9s Mu\u00f1oz left the game after walking TJ Rumfield with one out in the ninth. Mu\u00f1oz bent over flexing his right arm after missing on a 98 mph fastball, bringing out the trainer. Manager Dan Wilson said Munoz\u2019s issue was with his right knee He was replaced by Eduard Bazardo, who got the final two outs around a walk for his first save.\n\n\r\nColorado catcher Hunter Goodman hit his 39th homer off Mu\u00f1oz.\n\n\r\nRockies starter Tomoyuki Sugano, who entered Sunday with a 7.41 ERA in three September starts, set down the first 10 batters before running into trouble in the fourth. He walked Randy Arozarena, and he scored from first on Canzone\u2019s single to center.\n\n\r\nCanzone gave Seattle a 2-0 lead with an RBI double in the sixth off of Ryan Feltner.\n\n\r\nColorado\u2019s best scoring opportunity against Anderson was in the sixth inning when Jake McCarthy tripled with one out. Anderson got Connor Norby looking for the second out and struck out Goodman to end the inning.\n\n\r\nRockies third baseman Kyle Karros was a late scratch with back spasms.\n\n\r\nUp next\r\nMariners: RHP Logan Gilbert (12-10, 3.69 ERA) faces the Astros on Tuesday night to open the season-ending homestand.\n\n\r\nRockies: LHP Kyle Freeland (4-10, 6.38) opens the final home series against the Diamondbacks on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+      "body": "PHOENIX -- \u2014 Nolan Arenado hit his third grand slam of the season top help the Arizona Diamondbacks beat the New York Yankees 8-4 on Sunday.\n\n\r\nArenado connected off reliever Brent Headrick (7-4) in the fifth inning. The Diamondbacks loaded the bases against Yankee starter Will Warren when Headrick entered. He struck out Geraldo Perdomo for the second out but walked Corbin Carroll to force in a run before Arenado homered on a 2-1 pitch. He tied Houston\u2019s Yordan Alvarez for the major league lead this season, and it was Arenado\u2019s ninth career slam.\n\n\r\nThe Diamondbacks had their MLB-best 47th comeback win of the season and kept pace with Philadelphia in the chase for the National League\u2019s final wild-card berth, but trail the Phillies by four games with six to play.\n\n\r\nNew York still has a slim chance to win the American League East, but must win out and get help. The Yankees open a four-game series Tuesday against the division-leading Rays in New York.\n\n\r\nPerdomo had a run-scoring single in the first and an RBI triple in the seventh.\n\n\r\nHeliot Ramos, George Lombard Jr. and Spencer Jones homered for New York, all in the third inning, off Arizona starter Corbin Burnes.\n\n\r\nJustin Martinez (3-0) was one of five Arizona relievers to hold the Yankees to three hits in the final 6 1/3 innings.\n\n\r\nThe Yankees finished their road season 47-34 (.580), second only to the Dodgers (46-32, .590). Arizona finished its home season 45-36 (.556), its best mark since 2017 (52-29, .642).\n\n\r\nUp next\r\nYankees: Off Monday. Doubleheader at home against Tampa Bay on Tuesday with LHPs Carlos Rod\u00f3n (6-3, 2.95 ERA) and Max Fried (5-4. 2.63) set to start for New York against RHPs Nick Martinez (15-4, 2.94) and Drew Rasmussen (15-5, 2.72).\n\n\r\nDiamondbacks: Off Monday. RHP Michael Soroka (8-5, 3.45) was scheduled to start Tuesday at Colorado against LHP Kyle Freeland (4-10, 6.38).\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
+      "story_id": "49984903",
+      "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check out top Week 2 plays, with Dak Prescott, Jacoby Brissett and Justin Herbert in action.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719765_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T23:09:23Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "NFL Nation",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
+      "stream_url": "",
+      "body": "Eight games made up Sunday's early window in Week 2 of the 2026 NFL season, and we have the best highlights, touchdowns and moments from all of them.\n\nIn a matchup of divisional rivalries, the Carolina Panthers dominated host and NFC South foe Atlanta Falcons, 34-3. And in a matchup of NFC North supremacy, the Minnesota Vikings held off the Chicago Bears, 9-3.\n\nIn the afternoon slate of games, the Denver Broncos defeated the Jacksonville Jaguars 20-13 and the Raiders took down AFC West rival Los Angeles Chargers.\n\nBe sure to check here for the top plays from Sunday, as well as stay tuned for the \"Sunday Night Football\" matchup between the Indianapolis Colts and the Kansas City Chiefs.\n\nWeek 2 highlights"
     },
     {
       "story_id": "49986060",
@@ -14114,6 +14114,20 @@
       "link": "https://www.espn.com/video/clip/_/id/49993306/indiana-fever-vs-washington-mystics-game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0920/78b4797e-e39f-45f7-9ad5-243e725e3594/78b4797e-e39f-45f7-9ad5-243e725e3594/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "49986557",
+      "headline": "Lions to challenge Lachie Neale's AFL Grand Final ban",
+      "summary": "Brisbane will challenge Lachie Neale's one-match ban at the AFL tribunal in a bid to free the star midfielder to play in the Grand Final against Fremantle.",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719307_1296x729_16-9.jpg",
+      "published_utc": "2026-09-20T07:20:49Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "AAP",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49986557/afl-grand-final-brisbane-lions-lachie-neale-miss-one-game-ban-jack-ginnivan-gut-punch",
+      "stream_url": "",
+      "body": "Brisbane Lions superstar Lachie Neale may attempt to lean on the \"exemplary record\" clause to clear himself for the AFL Grand Final against Fremantle after he was handed a one-match suspension.\n\nNeale was offered the ban over the gut punch that floored Hawthorn's Jack Ginnivan behind play during the Lions' nine-point win in an epic preliminary final on Saturday night.\n\nThe incident was graded intentional conduct, medium impact and body contact.\n\nWithin minutes of the AFL releasing the match review findings on Sunday, Brisbane confirmed they will challenge the ban.\n\nVision shows Ginnivan wrestling with Brisbane forward Eric Hipwood, before Neale jogs over and hits the Hawthorn player with a left-handed punch to the stomach.\n\nAdelaide forward Riley Thilthorpe and Hawks pair James Sicily and Dylan Moore have all been suspended over similar incidents this season.\n\nThose bans came after former Lions CEO Greg Swann - in his new role as AFL football boss - brought in a minimum one-match penalty for gut punches.\n\nNew match review guidelines state intentional strikes to the stomach are automatically graded as medium impact rather than low, resulting in one-match bans.\n\nBut Brisbane are almost certain to try their luck at the tribunal as doubt over Neale's availability dominates headlines entering Grand Final week.\n\nNeale has never been suspended in his 320-game career and could use the same clause that helped games record-holder Scott Pendlebury escape suspension for his bump on Adelaide's Josh Worrell this season.\n\nUnder AFL regulations, \"a player with an exemplary record may argue that their good record constitutes exceptional and compelling circumstances\".\n\nPlayers can no longer use the so-called \"good bloke\" defence that helped Brisbane's Charlie Cameron overturn a ban in 2024.\n\nNeale's other option is to attempt to have the impact grading reduced, though that route would be unlikely to be successful.\n\nIf Neale's ban stands, it would mean he not only misses the premiership decider against his former club, but could also have played his last game for the Lions.\n\nThe 33-year-old two-time flag star is widely expected to join Collingwood as a free agent in the off-season.\n\nNeale is no stranger to Grand Final week drama, after his calf injury was the major talking point ahead of last year's decider against Geelong.\n\nThe brilliant midfielder ultimately played as the substitute - under a system that has since been thrown out - and starred with 17 disposals and one goal to help the Lions secure back-to-back flags.\n\nNeale wasn't the only player under match review scrutiny after Saturday's preliminary final.\n\nHawthorn defenders Sicily ($10,000) and Tom Barrass ($5000) were handed massive fines for misconduct after they had angry words with umpire Hayden Meyer immediately after the final siren.\n\nIt followed a controversial finish, in which a holding-the-ball free paid against Hawthorn's Jarman Impey gifted Brisbane's Hugh McCluggage the go-ahead goal in the dying stages.\n\nThe league determined the fixed financial sanction for abusive language towards an umpire was inadequate, and so charged Sicily and Barrass under the \"other misconduct'' provision.\n\nHawks midfielder Jai Newcombe was cleared over his first-quarter contact with Neale in a collision that involved opponents pushing the two players into each other."
     },
     {
       "story_id": "49986177",
@@ -14156,20 +14170,6 @@
       "link": "https://www.espn.com/video/clip/_/id/49978453/ingles-back-melbourne-united",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0919/dm_260919_BASKETBALL_Highlight_2_Ingles_back_for_Melbourne_United_20260919_PAC_RIM/dm_260919_BASKETBALL_Highlight_2_Ingles_back_for_Melbourne_United_20260919_PAC_RIM/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "49986450",
-      "headline": "AFL bans loom for bottle-throwing Hawthorn fans",
-      "summary": "Hawthorn fans who threw bottles at umpires after a controversial finals exit face lengthy bans if identified by the AFL and Victoria Police.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_AFL_Highlight_2_McKenna_slots_excellent_goal_for_Brisbane_20260919_AUS_ONLY/dm_260919_AFL_Highlight_2_McKenna_slots_excellent_goal_for_Brisbane_20260919_AUS_ONLY.jpg",
-      "published_utc": "2026-09-20T04:21:11Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49986450/afl-news-report-preliminary-final-afl-bans-loom-bottle-throwing-hawthorn-fans",
-      "stream_url": "",
-      "body": "The AFL has condemned the behaviour of irate Hawthorn fans and warned they face minimum five-year bans if identified, after they \"crossed the line\" throwing bottles at umpires.\n\nHawks players James Sicily, Tom Barrass and Jack Ginnivan had angry words with whistleblowers immediately after their nine-point loss to Brisbane on Saturday night.\n\nThe officials then had bottles thrown at them from the stands as they walked off the MCG playing arena.\n\n\"The AFL and MCC security will work with Vic Pol to identify the bottle throwers directed at the umpires last night,\" the league said in a statement on Sunday.\n\n\"If identified they will be banned from games and the stadium for a minimum five years.\n\n\"The passion for footy is unmatched in Australian sport, however, what transpired last night by a number of individuals was dangerous and crossed the line.\"\n\nAt the heart of Hawthorn's collective rage was a holding-the-ball free paid against Jarman Impey in the last minute of an epic contest.\n\nIt was the most controversial of a succession of contentious umpiring calls during the game.\n\nBrisbane's Hugh McCluggage then kicked the match-clinching goal - the ninth lead change of the game and the fourth in the last few frenetic minutes.\n\nHawks coach Sam Mitchell said he did not know about Sicily, Barrass and Ginnivan going to the umpires, but he was aware of the bottles being thrown onto the ground.\n\n\"At the end of the game, part of me wanted to break down in tears, part of me wanted to scream with rage, part of me wanted to throw chairs, you don't know how to react,\" Mitchell said post-match.\n\n\"So when you're in the stand, you need to continue to be feeling that emotion, because that's why we love it, but how it manifests itself - we shouldn't be throwing things on the field and doing those types of things.\n\n\"But the passion in the stand and the passion of the game is why we love it so much, so I hope that for the vast majority it was felt responsibly.\"\n\nOn Sunday, Premier Ben Carroll condemned the behaviour, telling reporters that it isn't the \"Victorian way\".\n\n\"I think these people should be made an example of,\" he said.\n\n\"This could have had catastrophic injuries if one of those bottles or cans hit an umpire on the head. You've always got to respect the umpire's decision.\"\n\nAFL Fans Association president Ron Issko said he understood the passion, disappointment and frustration of Hawthorn supporters, but denounced their throwing of objects at the umpires.\n\n\"It is never, ever an excuse to throw bottles or cans on to the ground or at the umpires. What we saw was an ugly look for our game,\" he said.\n\n\"There is an even more serious concern when objects are thrown towards people. A bottle or can could cause a serious injury to a player, umpire, security staff, ground staff or another spectator.\n\n\"When a bottle is thrown towards an umpire and comes close to hitting them, that crosses an even more serious line. No one should have to fear being struck by a projectile simply because they are doing their job.\""
     },
     {
       "story_id": "49953092",
