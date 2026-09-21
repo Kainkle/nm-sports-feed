@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-21T01:26:04.516880+00:00",
+  "generated_utc": "2026-09-21T01:36:00.154083+00:00",
   "events": [
     {
       "event_id": "motogp:1d659e29-247a-402c-ba1e-33fa14670cbe",
@@ -9978,7 +9978,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Amerant Bank Arena",
       "detail": "",
       "game_number": 1,
@@ -9994,7 +9994,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-20T23:00:00Z",
-      "status": "live",
+      "status": "unknown",
       "home": {
         "id": "nhl:21",
         "name": "Colorado Avalanche",
@@ -10024,7 +10024,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "OVER/OK",
       "venue": "Ball Arena",
       "detail": "",
       "game_number": 1,
@@ -10084,7 +10084,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-09-20T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6",
         "name": "Los Angeles Sparks",
@@ -10114,9 +10114,9 @@
         "color": "cee5eb"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "crypto.com Arena",
-      "detail": "1:45 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10254,7 +10254,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Arrowhead Stadium",
-      "detail": "5:51 - 2nd Quarter",
+      "detail": "2:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10300,7 +10300,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "5:43 - 1st Quarter",
+      "detail": "34.3 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
