@@ -1,18 +1,18 @@
 {
-  "generated_utc": "2026-09-21T23:56:16.464208+00:00",
+  "generated_utc": "2026-09-22T00:06:05.197467+00:00",
   "window_days": 2,
-  "total_events": 302,
+  "total_events": 298,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 1,
+      "events": 3,
       "date_range": [
         "2026-09-20",
-        "2026-09-20"
+        "2026-09-24"
       ],
-      "explicit_status": 1,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
@@ -22,14 +22,14 @@
       "competition": "afl",
       "name": "AFL",
       "sport": "australian-football",
-      "events": 2,
+      "events": 1,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-19"
       ],
-      "explicit_status": 2,
+      "explicit_status": 1,
       "status_coverage_pct": 100,
-      "both_logos": 2,
+      "both_logos": 1,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -76,14 +76,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 10,
+      "events": 9,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-20"
       ],
-      "explicit_status": 10,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -91,14 +91,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 10,
+      "events": 9,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-20"
       ],
-      "explicit_status": 10,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -119,14 +119,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 9,
+      "events": 8,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-20"
       ],
-      "explicit_status": 9,
+      "explicit_status": 8,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 8,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -147,14 +147,14 @@
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 10,
+      "events": 9,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-20"
       ],
-      "explicit_status": 10,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -164,8 +164,8 @@
       "sport": "baseball",
       "events": 64,
       "date_range": [
-        "2026-09-18",
-        "2026-09-23"
+        "2026-09-19",
+        "2026-09-24"
       ],
       "explicit_status": 64,
       "status_coverage_pct": 100,
@@ -190,16 +190,14 @@
       "competition": "motogp",
       "name": "MotoGP",
       "sport": "motorsport",
-      "events": 1,
-      "date_range": [
-        "2026-09-18",
-        "2026-09-18"
-      ],
+      "events": 0,
+      "date_range": null,
       "explicit_status": 0,
       "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "nascar",
@@ -233,14 +231,14 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 74,
+      "events": 71,
       "date_range": [
-        "2026-09-18",
+        "2026-09-19",
         "2026-09-20"
       ],
-      "explicit_status": 74,
+      "explicit_status": 71,
       "status_coverage_pct": 100,
-      "both_logos": 74,
+      "both_logos": 71,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -276,14 +274,14 @@
       "competition": "nhl",
       "name": "NHL",
       "sport": "hockey",
-      "events": 65,
+      "events": 70,
       "date_range": [
         "2026-09-19",
-        "2026-09-27"
+        "2026-09-30"
       ],
-      "explicit_status": 65,
+      "explicit_status": 70,
       "status_coverage_pct": 100,
-      "both_logos": 65,
+      "both_logos": 70,
       "logo_coverage_pct": 100,
       "live_now": 5
     },
@@ -375,8 +373,8 @@
       "sport": "soccer",
       "events": 15,
       "date_range": [
-        "2026-09-18",
-        "2026-09-20"
+        "2026-09-19",
+        "2026-09-24"
       ],
       "explicit_status": 15,
       "status_coverage_pct": 100,
@@ -401,14 +399,14 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 18,
+      "events": 17,
       "date_range": [
-        "2026-09-18",
-        "2026-09-23"
+        "2026-09-19",
+        "2026-09-24"
       ],
-      "explicit_status": 18,
+      "explicit_status": 17,
       "status_coverage_pct": 100,
-      "both_logos": 18,
+      "both_logos": 17,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -416,13 +414,13 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 3,
+      "events": 2,
       "date_range": [
-        "2026-09-19",
+        "2026-09-22",
         "2026-09-23"
       ],
-      "explicit_status": 3,
-      "status_coverage_pct": 100,
+      "explicit_status": 1,
+      "status_coverage_pct": 50,
       "both_logos": 0,
       "logo_coverage_pct": 0,
       "live_now": 0
@@ -435,10 +433,10 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "replay_items": {
-    "total": 103,
+    "total": 91,
     "by_sport": {
       "australian-football": 1,
-      "baseball": 72,
+      "baseball": 60,
       "boxing": 2,
       "mma": 1,
       "motor-sports": 1,

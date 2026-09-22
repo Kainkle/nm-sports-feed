@@ -1,1418 +1,6 @@
 {
-  "generated_utc": "2026-09-21T23:56:16.446753+00:00",
+  "generated_utc": "2026-09-22T00:06:05.166722+00:00",
   "events": [
-    {
-      "event_id": "motogp:1d659e29-247a-402c-ba1e-33fa14670cbe",
-      "sport": "motorsport",
-      "competition_id": "motogp",
-      "competition_name": "MotoGP",
-      "start_utc": "2026-09-18T08:00:00+02:00",
-      "status": "unknown",
-      "home": {
-        "id": "motogp:1d659e29-247a-402c-ba1e-33fa14670cbe",
-        "name": "QATAR AIRWAYS GRAND PRIX OF AUSTRIA ",
-        "abbrev": "",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "motogp:circuit",
-        "name": "Red Bull Ring - Spielberg",
-        "abbrev": "",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "motogp",
-      "source_status": "calendar",
-      "venue": "Red Bull Ring - Spielberg",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:australian-football:1133710",
-      "sport": "australian-football",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "start_utc": "2026-09-18T09:40Z",
-      "status": "final",
-      "home": {
-        "id": "espn:4",
-        "name": "Sydney Swans",
-        "abbrev": "SYD",
-        "logo": "https://a.espncdn.com/i/teamlogos/afl/500/syd.png",
-        "logo_dark": null,
-        "aliases": [
-          "SYD",
-          "Sydney Swans"
-        ],
-        "color": "b61300"
-      },
-      "away": {
-        "id": "espn:1",
-        "name": "Fremantle",
-        "abbrev": "FRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/afl/500/fre.png",
-        "logo_dark": null,
-        "aliases": [
-          "FRE",
-          "Fremantle"
-        ],
-        "color": "5d368f"
-      },
-      "source": "espn:australian-football/afl",
-      "source_status": "post/Final",
-      "venue": "SCG",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/15801643633364",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15801643633364",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://rugby24.net/_pu/69/16800189.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401884790",
-      "sport": "soccer",
-      "competition_id": "ger.1",
-      "competition_name": "Bundesliga",
-      "start_utc": "2026-09-18T18:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:132",
-        "name": "Bayern Munich",
-        "abbrev": "MUN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bayern",
-          "Bayern Munich",
-          "MUN"
-        ],
-        "color": "dc052d"
-      },
-      "away": {
-        "id": "espn:598",
-        "name": "1. FC Union Berlin",
-        "abbrev": "FCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
-        "logo_dark": null,
-        "aliases": [
-          "1. FC Union Berlin",
-          "FCU",
-          "Union Berlin"
-        ],
-        "color": "DA0308"
-      },
-      "source": "espn:soccer/ger.1",
-      "source_status": "post/Full Time",
-      "venue": "Allianz Arena",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "v_7N6u8DvtU",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874756",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-09-18T18:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:4007",
-        "name": "Monza",
-        "abbrev": "MON",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-        "logo_dark": null,
-        "aliases": [
-          "MON",
-          "Monza"
-        ],
-        "color": "C8142F"
-      },
-      "away": {
-        "id": "espn:3997",
-        "name": "Sassuolo",
-        "abbrev": "SAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-        "logo_dark": null,
-        "aliases": [
-          "SAS",
-          "Sassuolo"
-        ],
-        "color": "0fa653"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "U-Power Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "KBBTKF9ytl4",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401879275",
-      "sport": "soccer",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "start_utc": "2026-09-18T19:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:337",
-        "name": "Brentford",
-        "abbrev": "BRE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-        "logo_dark": null,
-        "aliases": [
-          "BRE",
-          "Brentford"
-        ],
-        "color": "f42727"
-      },
-      "away": {
-        "id": "espn:363",
-        "name": "Chelsea",
-        "abbrev": "CHE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-        "logo_dark": null,
-        "aliases": [
-          "CHE",
-          "Chelsea"
-        ],
-        "color": "144992"
-      },
-      "source": "espn:soccer/eng.1",
-      "source_status": "post/Full Time",
-      "venue": "Gtech Community Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "OLYDJetQioU",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882862",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-09-18T19:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:88",
-        "name": "Espanyol",
-        "abbrev": "ESP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-        "logo_dark": null,
-        "aliases": [
-          "ESP",
-          "Espanyol"
-        ],
-        "color": "3366CC"
-      },
-      "away": {
-        "id": "espn:3751",
-        "name": "Elche",
-        "abbrev": "ELC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-        "logo_dark": null,
-        "aliases": [
-          "ELC",
-          "Elche"
-        ],
-        "color": "288A00"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "RCDE Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824463",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T22:40:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:113",
-        "name": "Cincinnati Reds",
-        "abbrev": "CIN",
-        "logo": "https://www.mlbstatic.com/team-logos/113.svg",
-        "logo_dark": null,
-        "aliases": [
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Reds",
-          "Reds"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:112",
-        "name": "Chicago Cubs",
-        "abbrev": "CHC",
-        "logo": "https://www.mlbstatic.com/team-logos/112.svg",
-        "logo_dark": null,
-        "aliases": [
-          "CHC",
-          "Chi Cubs",
-          "Chicago",
-          "Chicago Cubs",
-          "Cubs"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Great American Ball Park",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/16202628991660",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16202628991660",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/39479420.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823331",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T22:40:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:134",
-        "name": "Pittsburgh Pirates",
-        "abbrev": "PIT",
-        "logo": "https://www.mlbstatic.com/team-logos/134.svg",
-        "logo_dark": null,
-        "aliases": [
-          "PIT",
-          "Pirates",
-          "Pittsburgh",
-          "Pittsburgh Pirates"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:118",
-        "name": "Kansas City Royals",
-        "abbrev": "KC",
-        "logo": "https://www.mlbstatic.com/team-logos/118.svg",
-        "logo_dark": null,
-        "aliases": [
-          "KC",
-          "Kansas City",
-          "Kansas City Royals",
-          "Royals"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "PNC Park",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/16203500423852",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203500423852",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/26532300.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824790",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T23:05:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:110",
-        "name": "Baltimore Orioles",
-        "abbrev": "BAL",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "logo_dark": null,
-        "aliases": [
-          "BAL",
-          "Baltimore",
-          "Baltimore Orioles",
-          "Orioles"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:158",
-        "name": "Milwaukee Brewers",
-        "abbrev": "MIL",
-        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Brewers",
-          "MIL",
-          "Milwaukee",
-          "Milwaukee Brewers"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Oriole Park at Camden Yards",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "Mzj66zE0AHk",
-      "replay_url": "https://ok.ru/videoembed/16712844839480",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16712844839480",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/19709501.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824383",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T23:10:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:114",
-        "name": "Cleveland Guardians",
-        "abbrev": "CLE",
-        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
-        "logo_dark": null,
-        "aliases": [
-          "CLE",
-          "Cleveland",
-          "Cleveland Guardians",
-          "Guardians"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:133",
-        "name": "Athletics",
-        "abbrev": "ATH",
-        "logo": "https://www.mlbstatic.com/team-logos/133.svg",
-        "logo_dark": null,
-        "aliases": [
-          "ATH",
-          "Athletics"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Progressive Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/16203009886892",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203009886892",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/77120374.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:822923",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T23:10:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:139",
-        "name": "Tampa Bay Rays",
-        "abbrev": "TB",
-        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Rays",
-          "TB",
-          "Tampa Bay",
-          "Tampa Bay Rays"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:111",
-        "name": "Boston Red Sox",
-        "abbrev": "BOS",
-        "logo": "https://www.mlbstatic.com/team-logos/111.svg",
-        "logo_dark": null,
-        "aliases": [
-          "BOS",
-          "Boston",
-          "Boston Red Sox",
-          "Red Sox"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Tropicana Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/16712198654520",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16712198654520",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/53836167.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823572",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T23:15:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:121",
-        "name": "New York Mets",
-        "abbrev": "NYM",
-        "logo": "https://www.mlbstatic.com/team-logos/121.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Mets",
-          "NY Mets",
-          "NYM",
-          "New York",
-          "New York Mets"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:143",
-        "name": "Philadelphia Phillies",
-        "abbrev": "PHI",
-        "logo": "https://www.mlbstatic.com/team-logos/143.svg",
-        "logo_dark": null,
-        "aliases": [
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Phillies",
-          "Phillies"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Citi Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/16712133904952",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16712133904952",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/86867989.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858226",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-18T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:154",
-        "name": "Wake Forest Demon Deacons",
-        "abbrev": "WAKE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
-        "logo_dark": null,
-        "aliases": [
-          "Demon Deacons",
-          "WAKE",
-          "Wake Forest",
-          "Wake Forest Demon Deacons"
-        ],
-        "color": "ceb888"
-      },
-      "away": {
-        "id": "espn:2390",
-        "name": "Miami Hurricanes",
-        "abbrev": "MIA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hurricanes",
-          "MIA",
-          "Miami",
-          "Miami Hurricanes"
-        ],
-        "color": "f47423"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Allegacy Federal Credit Union Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "sG_B1vmBQiM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:761815",
-      "sport": "soccer",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "start_utc": "2026-09-18T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:17606",
-        "name": "New York City FC",
-        "abbrev": "NYC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
-        "logo_dark": null,
-        "aliases": [
-          "NYC",
-          "NYCFC",
-          "New York City FC"
-        ],
-        "color": "9fd2ff"
-      },
-      "away": {
-        "id": "espn:190",
-        "name": "Red Bull New York",
-        "abbrev": "RBNY",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
-        "logo_dark": null,
-        "aliases": [
-          "RBNY",
-          "Red Bull NY",
-          "Red Bull New York"
-        ],
-        "color": "ba0c2f"
-      },
-      "source": "espn:soccer/usa.1",
-      "source_status": "post/Full Time",
-      "venue": "Yankee Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401857195",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-09-18T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:131935",
-        "name": "Toronto Tempo",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png",
-        "logo_dark": null,
-        "aliases": [
-          "TOR",
-          "Tempo",
-          "Toronto",
-          "Toronto Tempo"
-        ],
-        "color": "33476D"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "Indiana Fever",
-        "abbrev": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fever",
-          "IND",
-          "Indiana",
-          "Indiana Fever"
-        ],
-        "color": "002d62"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Coca-Cola Coliseum",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "3ncxZOQBJBU",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401857196",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-09-18T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:8",
-        "name": "Minnesota Lynx",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "Lynx",
-          "MIN",
-          "Minnesota",
-          "Minnesota Lynx"
-        ],
-        "color": "266092"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "New York Liberty",
-        "abbrev": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
-        "logo_dark": null,
-        "aliases": [
-          "Liberty",
-          "NY",
-          "New York",
-          "New York Liberty"
-        ],
-        "color": "86cebc"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Target Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "nTuRiF42hDk",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824547",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-18T23:40:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:145",
-        "name": "Chicago White Sox",
-        "abbrev": "CWS",
-        "logo": "https://www.mlbstatic.com/team-logos/145.svg",
-        "logo_dark": null,
-        "aliases": [
-          "CWS",
-          "Chi White Sox",
-          "Chicago",
-          "Chicago White Sox",
-          "White Sox"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:116",
-        "name": "Detroit Tigers",
-        "abbrev": "DET",
-        "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Tigers",
-          "Tigers"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Rate Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "https://ok.ru/videoembed/16877466815062",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16877466815062",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/24510383.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "tvmaze:803:s27e38",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-09-19T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:803",
-        "name": "WWE Friday Night SmackDown",
-        "abbrev": "SD",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Friday Night SmackDown"
-    },
-    {
-      "event_id": "espn:football:401856811",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2641",
-        "name": "Texas Tech Red Raiders",
-        "abbrev": "TTU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-        "logo_dark": null,
-        "aliases": [
-          "Red Raiders",
-          "TTU",
-          "Texas Tech",
-          "Texas Tech Red Raiders"
-        ],
-        "color": "da291c"
-      },
-      "away": {
-        "id": "espn:248",
-        "name": "Houston Cougars",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cougars",
-          "HOU",
-          "Houston",
-          "Houston Cougars"
-        ],
-        "color": "c8102e"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Galaxy Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "fm54BiXoR98",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:822847",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T00:05:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:140",
-        "name": "Texas Rangers",
-        "abbrev": "TEX",
-        "logo": "https://www.mlbstatic.com/team-logos/140.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Rangers",
-          "TEX",
-          "Texas",
-          "Texas Rangers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:141",
-        "name": "Toronto Blue Jays",
-        "abbrev": "TOR",
-        "logo": "https://www.mlbstatic.com/team-logos/141.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Jays",
-          "TOR",
-          "Toronto",
-          "Toronto Blue Jays"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Globe Life Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "HmLzBX6YOPE",
-      "replay_url": "https://ok.ru/videoembed/16202833857196",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16202833857196",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/63268781.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824303",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T00:10:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:115",
-        "name": "Colorado Rockies",
-        "abbrev": "COL",
-        "logo": "https://www.mlbstatic.com/team-logos/115.svg",
-        "logo_dark": null,
-        "aliases": [
-          "COL",
-          "Colorado",
-          "Colorado Rockies",
-          "Rockies"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:136",
-        "name": "Seattle Mariners",
-        "abbrev": "SEA",
-        "logo": "https://www.mlbstatic.com/team-logos/136.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Mariners",
-          "SEA",
-          "Seattle",
-          "Seattle Mariners"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Coors Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "Ych0B6SaJAI",
-      "replay_url": "https://ok.ru/videoembed/16203501275820",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203501275820",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/09603726.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824138",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T00:10:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:117",
-        "name": "Houston Astros",
-        "abbrev": "HOU",
-        "logo": "https://www.mlbstatic.com/team-logos/117.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Astros",
-          "HOU",
-          "Houston",
-          "Houston Astros"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:144",
-        "name": "Atlanta Braves",
-        "abbrev": "ATL",
-        "logo": "https://www.mlbstatic.com/team-logos/144.svg",
-        "logo_dark": null,
-        "aliases": [
-          "ATL",
-          "Atlanta",
-          "Atlanta Braves",
-          "Braves"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Daikin Park",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "SdH2jxvYaZ4",
-      "replay_url": "https://ok.ru/videoembed/16712301152824",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16712301152824",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/65322367.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823005",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T00:15:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:138",
-        "name": "St. Louis Cardinals",
-        "abbrev": "STL",
-        "logo": "https://www.mlbstatic.com/team-logos/138.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinals",
-          "STL",
-          "St. Louis",
-          "St. Louis Cardinals"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:120",
-        "name": "Washington Nationals",
-        "abbrev": "WSH",
-        "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Nationals",
-          "WSH",
-          "Washington",
-          "Washington Nationals"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Busch Stadium",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "lttidtl08aA",
-      "replay_url": "https://ok.ru/videoembed/16203829480108",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203829480108",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/70146602.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823977",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T01:38:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:108",
-        "name": "Los Angeles Angels",
-        "abbrev": "LAA",
-        "logo": "https://www.mlbstatic.com/team-logos/108.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Angels",
-          "LA Angels",
-          "LAA",
-          "Los Angeles",
-          "Los Angeles Angels"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:142",
-        "name": "Minnesota Twins",
-        "abbrev": "MIN",
-        "logo": "https://www.mlbstatic.com/team-logos/142.svg",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Twins",
-          "Twins"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Angel Stadium",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "1nNqyCwlR-Y",
-      "replay_url": "https://ok.ru/videoembed/16203177790124",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203177790124",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/29979834.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823252",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T01:40:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:135",
-        "name": "San Diego Padres",
-        "abbrev": "SD",
-        "logo": "https://www.mlbstatic.com/team-logos/135.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Padres",
-          "SD",
-          "San Diego",
-          "San Diego Padres"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:146",
-        "name": "Miami Marlins",
-        "abbrev": "MIA",
-        "logo": "https://www.mlbstatic.com/team-logos/146.svg",
-        "logo_dark": null,
-        "aliases": [
-          "MIA",
-          "Marlins",
-          "Miami",
-          "Miami Marlins"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Petco Park",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "rF5QCzeTS6k",
-      "replay_url": "https://ok.ru/videoembed/16203177396908",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203177396908",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/72952506.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:825032",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T01:40:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:109",
-        "name": "Arizona Diamondbacks",
-        "abbrev": "AZ",
-        "logo": "https://www.mlbstatic.com/team-logos/109.svg",
-        "logo_dark": null,
-        "aliases": [
-          "AZ",
-          "Arizona",
-          "Arizona Diamondbacks",
-          "D-backs",
-          "Diamondbacks"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:147",
-        "name": "New York Yankees",
-        "abbrev": "NYY",
-        "logo": "https://www.mlbstatic.com/team-logos/147.svg",
-        "logo_dark": null,
-        "aliases": [
-          "NY Yankees",
-          "NYY",
-          "New York",
-          "New York Yankees",
-          "Yankees"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Chase Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "IoDg5gFIFKI",
-      "replay_url": "https://ok.ru/videoembed/16203061988012",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203061988012",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/90239438.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401857197",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-09-19T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:129689",
-        "name": "Golden State Valkyries",
-        "abbrev": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png",
-        "logo_dark": null,
-        "aliases": [
-          "GS",
-          "Golden State",
-          "Golden State Valkyries",
-          "Valkyries"
-        ],
-        "color": "b38fcf"
-      },
-      "away": {
-        "id": "espn:132052",
-        "name": "Portland Fire",
-        "abbrev": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fire",
-          "POR",
-          "Portland",
-          "Portland Fire"
-        ],
-        "color": "cee5eb"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Chase Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823898",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-19T02:15:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:119",
-        "name": "Los Angeles Dodgers",
-        "abbrev": "LAD",
-        "logo": "https://www.mlbstatic.com/team-logos/119.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Dodgers",
-          "LA Dodgers",
-          "LAD",
-          "Los Angeles",
-          "Los Angeles Dodgers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:137",
-        "name": "San Francisco Giants",
-        "abbrev": "SF",
-        "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "SF",
-          "San Francisco",
-          "San Francisco Giants"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "UNIQLO Field at Dodger Stadium",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "d9uJzUlfKDI",
-      "replay_url": "https://ok.ru/videoembed/16202734963372",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16202734963372",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/55118989.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858455",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-19T02:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2483",
-        "name": "Oregon Ducks",
-        "abbrev": "ORE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-        "logo_dark": null,
-        "aliases": [
-          "Ducks",
-          "ORE",
-          "Oregon",
-          "Oregon Ducks"
-        ],
-        "color": "00934b"
-      },
-      "away": {
-        "id": "espn:2502",
-        "name": "Portland State Vikings",
-        "abbrev": "PRST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-        "logo_dark": null,
-        "aliases": [
-          "PRST",
-          "Portland St",
-          "Portland State",
-          "Portland State Vikings",
-          "Vikings"
-        ],
-        "color": "00311e"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Autzen Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "espn:australian-football:1133709",
       "sport": "australian-football",
@@ -10879,7 +9467,7 @@
       "competition_id": "wwe",
       "competition_name": "WWE",
       "start_utc": "2026-09-22T00:00:00Z",
-      "status": "scheduled",
+      "status": "unknown",
       "home": {
         "id": "tvmaze:802",
         "name": "WWE Monday Night RAW",
@@ -12602,6 +11190,236 @@
       "card": ""
     },
     {
+      "event_id": "mlb:824223",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T17:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:116",
+        "name": "Detroit Tigers",
+        "abbrev": "DET",
+        "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Tigers",
+          "Tigers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:120",
+        "name": "Washington Nationals",
+        "abbrev": "WSH",
+        "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Nationals",
+          "WSH",
+          "Washington",
+          "Washington Nationals"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Comerica Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823168",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T19:45:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:137",
+        "name": "San Francisco Giants",
+        "abbrev": "SF",
+        "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Giants",
+          "SF",
+          "San Francisco",
+          "San Francisco Giants"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:142",
+        "name": "Minnesota Twins",
+        "abbrev": "MIN",
+        "logo": "https://www.mlbstatic.com/team-logos/142.svg",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Twins",
+          "Twins"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Oracle Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824784",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T22:35:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:110",
+        "name": "Baltimore Orioles",
+        "abbrev": "BAL",
+        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
+        "logo_dark": null,
+        "aliases": [
+          "BAL",
+          "Baltimore",
+          "Baltimore Orioles",
+          "Orioles"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:141",
+        "name": "Toronto Blue Jays",
+        "abbrev": "TOR",
+        "logo": "https://www.mlbstatic.com/team-logos/141.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Jays",
+          "TOR",
+          "Toronto",
+          "Toronto Blue Jays"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Oriole Park at Camden Yards",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823327",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T22:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:134",
+        "name": "Pittsburgh Pirates",
+        "abbrev": "PIT",
+        "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+        "logo_dark": null,
+        "aliases": [
+          "PIT",
+          "Pirates",
+          "Pittsburgh",
+          "Pittsburgh Pirates"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:138",
+        "name": "St. Louis Cardinals",
+        "abbrev": "STL",
+        "logo": "https://www.mlbstatic.com/team-logos/138.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "STL",
+          "St. Louis",
+          "St. Louis Cardinals"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "PNC Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823410",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T22:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:143",
+        "name": "Philadelphia Phillies",
+        "abbrev": "PHI",
+        "logo": "https://www.mlbstatic.com/team-logos/143.svg",
+        "logo_dark": null,
+        "aliases": [
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Phillies",
+          "Phillies"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:158",
+        "name": "Milwaukee Brewers",
+        "abbrev": "MIL",
+        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Brewers",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Brewers"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Citizens Bank Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026010035",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -12694,6 +11512,311 @@
       "card": ""
     },
     {
+      "event_id": "mlb:823492",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T23:05:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:147",
+        "name": "New York Yankees",
+        "abbrev": "NYY",
+        "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+        "logo_dark": null,
+        "aliases": [
+          "NY Yankees",
+          "NYY",
+          "New York",
+          "New York Yankees",
+          "Yankees"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:139",
+        "name": "Tampa Bay Rays",
+        "abbrev": "TB",
+        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rays",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Rays"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Yankee Stadium",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824710",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T23:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:111",
+        "name": "Boston Red Sox",
+        "abbrev": "BOS",
+        "logo": "https://www.mlbstatic.com/team-logos/111.svg",
+        "logo_dark": null,
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Red Sox",
+          "Red Sox"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:114",
+        "name": "Cleveland Guardians",
+        "abbrev": "CLE",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cleveland",
+          "Cleveland Guardians",
+          "Guardians"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Fenway Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824868",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T23:15:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:144",
+        "name": "Atlanta Braves",
+        "abbrev": "ATL",
+        "logo": "https://www.mlbstatic.com/team-logos/144.svg",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta Braves",
+          "Braves"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:113",
+        "name": "Cincinnati Reds",
+        "abbrev": "CIN",
+        "logo": "https://www.mlbstatic.com/team-logos/113.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Reds",
+          "Reds"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Truist Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824060",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T23:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:118",
+        "name": "Kansas City Royals",
+        "abbrev": "KC",
+        "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+        "logo_dark": null,
+        "aliases": [
+          "KC",
+          "Kansas City",
+          "Kansas City Royals",
+          "Royals"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:145",
+        "name": "Chicago White Sox",
+        "abbrev": "CWS",
+        "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CWS",
+          "Chi White Sox",
+          "Chicago",
+          "Chicago White Sox",
+          "White Sox"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Kauffman Stadium",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824625",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-23T23:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:112",
+        "name": "Chicago Cubs",
+        "abbrev": "CHC",
+        "logo": "https://www.mlbstatic.com/team-logos/112.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CHC",
+          "Chi Cubs",
+          "Chicago",
+          "Chicago Cubs",
+          "Cubs"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:146",
+        "name": "Miami Marlins",
+        "abbrev": "MIA",
+        "logo": "https://www.mlbstatic.com/team-logos/146.svg",
+        "logo_dark": null,
+        "aliases": [
+          "MIA",
+          "Marlins",
+          "Miami",
+          "Miami Marlins"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Wrigley Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:42189:s8e38",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-09-24T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:42189",
+        "name": "All Elite Wrestling: Dynamite",
+        "abbrev": "DYN",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "All Elite Wrestling: Dynamite"
+    },
+    {
+      "event_id": "tvmaze:68778:s4e42",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-09-24T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
+    },
+    {
       "event_id": "nhl:2026010034",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -12740,6 +11863,235 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401857213",
+      "sport": "basketball",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "start_utc": "2026-09-24T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9",
+        "name": "New York Liberty",
+        "abbrev": "NY",
+        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
+        "logo_dark": null,
+        "aliases": [
+          "Liberty",
+          "NY",
+          "New York",
+          "New York Liberty"
+        ],
+        "color": "86cebc"
+      },
+      "away": {
+        "id": "espn:20",
+        "name": "Atlanta Dream",
+        "abbrev": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta Dream",
+          "Dream"
+        ],
+        "color": "e31837"
+      },
+      "source": "espn:basketball/wnba",
+      "source_status": "pre/Scheduled",
+      "venue": "Barclays Center",
+      "detail": "Wed, September 23rd at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:822841",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-24T00:05:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:140",
+        "name": "Texas Rangers",
+        "abbrev": "TEX",
+        "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rangers",
+          "TEX",
+          "Texas",
+          "Texas Rangers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:121",
+        "name": "New York Mets",
+        "abbrev": "NYM",
+        "logo": "https://www.mlbstatic.com/team-logos/121.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Mets",
+          "NY Mets",
+          "NYM",
+          "New York",
+          "New York Mets"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Globe Life Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824301",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-24T00:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:115",
+        "name": "Colorado Rockies",
+        "abbrev": "COL",
+        "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+        "logo_dark": null,
+        "aliases": [
+          "COL",
+          "Colorado",
+          "Colorado Rockies",
+          "Rockies"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:109",
+        "name": "Arizona Diamondbacks",
+        "abbrev": "AZ",
+        "logo": "https://www.mlbstatic.com/team-logos/109.svg",
+        "logo_dark": null,
+        "aliases": [
+          "AZ",
+          "Arizona",
+          "Arizona Diamondbacks",
+          "D-backs",
+          "Diamondbacks"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Coors Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761543",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-24T01:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9726",
+        "name": "Seattle Sounders FC",
+        "abbrev": "SEA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+        "logo_dark": null,
+        "aliases": [
+          "SEA",
+          "Seattle",
+          "Seattle Sounders FC"
+        ],
+        "color": "2dc84d"
+      },
+      "away": {
+        "id": "espn:4771",
+        "name": "Real Salt Lake",
+        "abbrev": "RSL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+        "logo_dark": null,
+        "aliases": [
+          "RSL",
+          "Real Salt Lake",
+          "Salt Lake"
+        ],
+        "color": "a32035"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Lumen Field",
+      "detail": "Wed, September 23rd at 9:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824951",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-24T01:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:133",
+        "name": "Athletics",
+        "abbrev": "ATH",
+        "logo": "https://www.mlbstatic.com/team-logos/133.svg",
+        "logo_dark": null,
+        "aliases": [
+          "ATH",
+          "Athletics"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:108",
+        "name": "Los Angeles Angels",
+        "abbrev": "LAA",
+        "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Angels",
+          "LA Angels",
+          "LAA",
+          "Los Angeles",
+          "Los Angeles Angels"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Sutter Health Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026010033",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -12777,6 +12129,145 @@
       "source": "nhl",
       "source_status": "FUT/OK",
       "venue": "Honda Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401857214",
+      "sport": "basketball",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "start_utc": "2026-09-24T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:14",
+        "name": "Seattle Storm",
+        "abbrev": "SEA",
+        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png",
+        "logo_dark": null,
+        "aliases": [
+          "SEA",
+          "Seattle",
+          "Seattle Storm",
+          "Storm"
+        ],
+        "color": "2c5235"
+      },
+      "away": {
+        "id": "espn:3",
+        "name": "Dallas Wings",
+        "abbrev": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
+        "logo_dark": null,
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Wings",
+          "Wings"
+        ],
+        "color": "002b5c"
+      },
+      "source": "espn:basketball/wnba",
+      "source_status": "pre/Scheduled",
+      "venue": "Climate Pledge Arena",
+      "detail": "Wed, September 23rd at 10:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823894",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-24T02:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:119",
+        "name": "Los Angeles Dodgers",
+        "abbrev": "LAD",
+        "logo": "https://www.mlbstatic.com/team-logos/119.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Dodgers",
+          "LA Dodgers",
+          "LAD",
+          "Los Angeles",
+          "Los Angeles Dodgers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:135",
+        "name": "San Diego Padres",
+        "abbrev": "SD",
+        "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Padres",
+          "SD",
+          "San Diego",
+          "San Diego Padres"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823086",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-24T02:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:136",
+        "name": "Seattle Mariners",
+        "abbrev": "SEA",
+        "logo": "https://www.mlbstatic.com/team-logos/136.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Mariners",
+          "SEA",
+          "Seattle",
+          "Seattle Mariners"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:117",
+        "name": "Houston Astros",
+        "abbrev": "HOU",
+        "logo": "https://www.mlbstatic.com/team-logos/117.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Astros",
+          "HOU",
+          "Houston",
+          "Houston Astros"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "T-Mobile Park",
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "",
@@ -14118,36 +13609,280 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020001",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-09-29T21:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:12",
+        "name": "Carolina Hurricanes",
+        "abbrev": "CAR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Hurricanes",
+          "Hurricanes"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:13",
+        "name": "Florida Panthers",
+        "abbrev": "FLA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Panthers",
+          "Panthers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Lenovo Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020002",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-09-29T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:10",
+        "name": "Toronto Maple Leafs",
+        "abbrev": "TOR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+        "aliases": [
+          "Maple Leafs",
+          "TOR",
+          "Toronto",
+          "Toronto Maple Leafs"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:8",
+        "name": "Montr\u00e9al Canadiens",
+        "abbrev": "MTL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
+        "aliases": [
+          "Canadiens",
+          "MTL",
+          "Montr\u00e9al",
+          "Montr\u00e9al Canadiens"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Scotiabank Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020003",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-09-30T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:6",
+        "name": "Boston Bruins",
+        "abbrev": "BOS",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Bruins",
+          "Bruins"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:3",
+        "name": "New York Rangers",
+        "abbrev": "NYR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+        "aliases": [
+          "NYR",
+          "New York",
+          "New York Rangers",
+          "Rangers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "TD Garden",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020004",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-09-30T02:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:22",
+        "name": "Edmonton Oilers",
+        "abbrev": "EDM",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
+        "aliases": [
+          "EDM",
+          "Edmonton",
+          "Edmonton Oilers",
+          "Oilers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:23",
+        "name": "Vancouver Canucks",
+        "abbrev": "VAN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
+        "aliases": [
+          "Canucks",
+          "VAN",
+          "Vancouver",
+          "Vancouver Canucks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Rogers Place",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020005",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-09-30T02:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:54",
+        "name": "Vegas Golden Knights",
+        "abbrev": "VGK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+        "aliases": [
+          "Golden Knights",
+          "VGK",
+          "Vegas",
+          "Vegas Golden Knights"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:16",
+        "name": "Chicago Blackhawks",
+        "abbrev": "CHI",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
+        "aliases": [
+          "Blackhawks",
+          "CHI",
+          "Chicago",
+          "Chicago Blackhawks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "T-Mobile Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
     {
-      "story_id": "50001094",
-      "headline": "Rams WR Puka Nacua (hip) inactive for MNF vs. Giants",
-      "summary": "Los Angeles Rams wide receiver Puka Nacua will not be active for Monday night's game against the New York Giants.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0915/dm_260915_mnf_promo_giants_rams/dm_260915_mnf_promo_giants_rams.jpg",
-      "published_utc": "2026-09-21T23:49:40Z",
+      "story_id": "40699880",
+      "headline": "Fantasy football buzz: Six replacement options for Puka Nacua on 'Monday Night Football'",
+      "summary": "With Puka Nacua ruled out for the game against the New York Giants on Monday night, here are some potential last-minute replacements.",
+      "image": "https://a.espncdn.com/photo/2026/0921/r1720203_1296x729_16-9.jpg",
+      "published_utc": "2026-09-22T00:01:40Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Sarah Barshop",
+      "byline": "ESPN Fantasy",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50001094/rams-wr-puka-nacua-hip-inactive-mnf-vs-giants",
+      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
       "stream_url": "",
-      "body": "INGLEWOOD, Calif. -- Los Angeles Rams wide receiver Puka Nacua will not be active for Monday night's game against the New York Giants.\n\nNacua was added to the Rams' injury report Friday because of a hip injury. On Saturday, McVay said Nacua was dealing with \"a little bit of soreness\" in his groin and would not practice that day.\n\nMcVay said the Rams were \"being smart\" with Nacua because he is a skill player. The head coach also said Nacua's injury wasn't related to the psoas injury that caused him to miss time during training camp.\n\nMcVay said that day that though Nacua practiced Thursday, he \"didn't feel totally like himself [with] his ability to be able to kind of open up and really hit full speed.\"\n\nIn the Rams' season opener, Nacua led the Rams with five catches for 74 yards on nine targets.\n\nRams wide receiver Jordan Whittington, who was added to the injury report Friday because of a quad injury, is also inactive."
+      "body": "Everything that happens in the NFL has additional context when viewed from a fantasy football perspective. From position battles to injuries and so much more, the news cycle will constantly affect player values in fantasy football.\n\nOur fantasy football buzz file, with contributions from our ESPN fantasy writers and our NFL Nation reporters, aims to provide fantasy managers with the intel they need as news breaks around the league.\n\nSept. 21: Nacua ruled out for 'Monday Night Football'\nBy Michael F. Florio\n\nRams superstar wide receiver Puka Nacua has been ruled out for \"Monday Night Football\" because of a hip injury. That leaves Davante Adams as the top target for Matthew Stafford against the New York Giants.\n\nFor those fantasy managers who rolled the dice on Nacua's availability, replacement options are Malachi Fields, Tutu Atwell, Konata Mumpfield and Darnell Mooney. For those who left him in the flex spot, Terrance Ferguson is an upside option whom I would use over all those receivers except Fields. If you have Blake Corum available to plug in as your flex, he is the top option.\n\nSept. 21: Kyler Murray clears protocol, will start Week 3\n\nBy Michael F. Florio\n\nKyler Murray has cleared the concussion protocol and will start in Week 3 against the Tampa Bay Buccaneers. We have not seen much of Murray in a Vikings uniform, but he brings QB1 upside due to his rushing ability and the matchup.\n\nThe Bucs have allowed 234 passing yards per game, which ranks 11th highest in the NFL. That is after allowing the sixth-most passing yards in the NFL in 2025. Last week they allowed 19.72 fantasy points to Deshaun Watson, 11th-best among QBs through Sunday.\n\nMurray was a fantasy target of mine this summer due to him being in the best system of his career, with great pass catchers around him. He has been top 12 in fantasy points per game among QBs in every year but one of his career. That is largely due to his rushing ability and highlights the safe floor he brings.\n\nSome QBs I would start him over in Week 3 are Drake Maye, Matthew Stafford, Baker Mayfield and Jordan Love.\n\nWhich Commanders should you start with Daniels out?\n\nMarcus Mariota is expected to start Week 3 for the Washington Commanders as Jayden Daniels continues to seek opinions on his dislocated left elbow. Daniels does not have a timetable as of now.\n\nMariota started eight games for the Commanders last season, averaging 200 passing yards and 32 rushing yards per game. He threw 10 touchdowns and added another with his legs.\n\nMariota is not someone fantasy managers should be looking to force into their lineups. He is more an option for those in superflex leagues who now find themselves in a pinch. He brings a safer floor than you might expect, thanks to the rushing numbers, but falls far short of Daniels' ceiling.\n\nWashington faces the Seattle Seahawks in Week 3, so even those in superflex leagues should look in another direction to help replace Daniels in their starting lineup. I would also recommend trying to avoid the Commanders' pass catchers in this one. Terry McLaurin and Stefon Diggs remain the team's top options, but they are more \"boom-or-bust\" WR3 or flex plays.\n\nMariota did throw four times each to McLaurin and Dyami Brown in Week 2. He threw three times to Diggs, but the duo did connect for a touchdown.\n\nDallas Goedert to miss time\n\nGoedert suffered a sprained MCL and is expected to miss a few weeks, per Adam Schefter and Ian Rapoport. Goedert exited early in Week 2, playing only 26% of the snaps.\n\nGoedert was the go-to receiving option in the red zone for the Eagles, evident by his two Week 1 touchdowns. The Philadelphia tight ends room is very thin at the moment with rookie Eli Stowers on injured reserve. That likely leads to an uptick in targets for the Eagles' receivers. Dontayvion Wicks should be added off waivers. Makai Lemon remains an upside stash.\n\nDalton Schultz, Juwan Johnson, Darren Waller and Oronde Gadsden are tight ends fantasy managers in need can look to add off the waiver wire.\n\nSept. 21: Who got the ball Sunday?\n\nBy Eric Moody\n\nThe box score doesn't tell you everything. Here are the roles and usage trends from Sunday that stood out to me.\n\nCarolina Panthers at Atlanta Falcons\n\nChuba Hubbard led the Panthers' backfield in snaps, routes and touches (14), finishing with 14.4 fantasy points. Carolina used more of a committee approach with Jonathon Brooks before he left in the fourth quarter with a groin injury and didn't return. If Brooks is ruled out, Hubbard can be viewed as a midrange RB2 against the Browns.\n\nKyle Pitts Sr. remains in a tight end rotation with Austin Hooper and Charlie Woerner. Pitts saw just three targets and finished with 2.5 fantasy points, although the Falcons did pull their starters for the final 13 plays. Pitts' reduced playing time, particularly in 11 personnel, remains a concern. Cooper Rush's struggles also limited the entire offense. Pitts moves back into TE1 consideration if Michael Penix Jr. returns in Week 3 but is difficult to trust if Rush starts again.\n\nMinnesota Vikings at Chicago Bears\n\nAaron Jones Sr. led the Vikings' backfield in snaps and carries (23), rushing for 105 yards against the Bears. With Jordan Mason on injured reserve and wet, windy conditions limiting the passing game, Minnesota leaned heavily on Jones. He wasn't targeted but recorded his first 100-yard rushing performance since 2024. Jones suffered a knee injury in the second half but played through it. His health is worth monitoring, but he's firmly on the RB2 radar against the Buccaneers in Week 3 if active.\n\nRome Odunze led the Bears' receivers in snaps (62) and routes (38), while Luther Burden III played 42 snaps and ran 30 routes. Colston Loveland played 64 snaps but ran just 29 routes as he was asked to pass block more often. Burden's playing time remains a concern, while Loveland's limited route participation hurts his upside. Caleb Williams' hamstring injury could further limit all three players if Tyson Bagent starts against the Eagles in Week 3.\n\nD'Andre Swift led the Bears' backfield in snaps and touches (21), finishing with 12.9 fantasy points against the Vikings. Kyle Monangai played fewer snaps and had 12 touches, rushing for a team-high 47 yards. Swift also lost a costly fumble at the goal line. The backfield remains a committee, but Swift has the edge in playing time and receiving opportunities, leading the way in snaps, routes and targets. Both backs could see more work in Week 3 if Williams misses time with his hamstring injury.\n\nPhiladelphia Eagles at Tennessee Titans\n\nSaquon Barkley missed significant time after suffering a stinger in the first quarter but returned for the second half. Tank Bigsby handled most of the early-down work in his absence, while Will Shipley took on more passing down snaps. Bigsby finished with 15 touches and 11.8 fantasy points. He's the Eagles' insurance back to roster and would have league-winning upside in this offense if Barkley misses extended time.\n\nPittsburgh Steelers at New England Patriots\n\nJaylen Warren played a career-high number of snaps against the Patriots and dominated the Steelers' backfield after Rico Dowdle left with a toe injury in the second quarter. Warren has averaged 4.7 yards per carry and 7.3 yards per reception in his career but has rarely had the backfield to himself. In six career games with at least a 60% snap share, he has averaged 13.0 fantasy points. He has also averaged 14.4 fantasy points in 19 games with at least 15 touches. Warren's fantasy upside increases significantly if Dowdle misses time.\n\nDK Metcalf led the Steelers' skill-position players in snaps, routes and targets against the Patriots, but he caught just four passes and finished with 8.0 fantasy points. He also had two drops. His 19 targets and 44.7% share of Pittsburgh's air yards this season are encouraging, but his 42.1% catch rate needs to improve. Metcalf has scored just 14.7 fantasy points through two games, far from the start fantasy managers were hoping for. He's best viewed as a low-end flex option heading into Week 3.\n\nHunter Henry, Romeo Doubs and Mack Hollins led the Patriots in routes but combined for just 10 targets, with Henry and Doubs seeing four apiece. Drake Maye and the passing game continue to struggle through two games. Doubs finished with 12.6 fantasy points and remains the Patriots receiver to roster with A.J. Brown on injured reserve, even as Maye continues to spread the targets around. Doubs is still best viewed as a flex option in deeper leagues.\n\nTreVeyon Henderson led the Patriots' backfield in snaps, routes run and carries (16), finishing with 13.6 fantasy points thanks in part to a 39-yard touchdown run. He capitalized on an early fumble by Rhamondre Stevenson and now has five rushing touchdowns of at least 30 yards since the start of last season, the most in the league. Henderson can be viewed as a low-end RB2 against the Jaguars in Week 3.\n\nGreen Bay Packers at New York Jets\n\nThe Packers used a three-man backfield with Josh Jacobs still out. Kaleb Johnson led the team with eight carries, while MarShawn Lloyd and Chris Brooks split the remaining work. Brooks dominated passing situations, while Lloyd led the way with 8.6 fantasy points but lost a fumble in the fourth quarter. All three remain difficult to trust in fantasy lineups.\n\nTucker Kraft played nearly every snap against the Jets and appears to have no playing time restrictions. He ran nearly as many routes as Christian Watson and Matthew Golden but saw just three targets. If Jayden Reed misses Week 3 due to injury, Watson, Golden and Kraft should see additional targets in Green Bay's passing game.\n\nCleveland Browns at Tampa Bay Buccaneers\n\nBucky Irving led the Buccaneers' backfield in early down, third down and short-yardage snaps, finishing with 21 touches and 13.0 fantasy points. Kenny Gainwell managed just five touches and 4.5 fantasy points. Irving has taken control of this backfield and is firmly on the RB2 radar. Gainwell is merely an insurance back with little standalone fantasy value.\n\nQuinshon Judkins led the Browns' backfield in snaps, routes and touches (17) following Dylan Sampson's placement on injured reserve. Judkins finished with 9.8 fantasy points as Cleveland's running game struggled, managing just 44 yards at 1.9 yards per carry. Despite the poor production, Judkins' workload keeps him firmly on the RB2 radar.\n\nNew Orleans Saints at Baltimore Ravens\n\nAlvin Kamara finished with 14 touches but managed just 22 yards against the Ravens. Travis Etienne Jr. led the backfield in snaps, while CJ Donaldson maintained his third-down role. Kamara dominated the touches early, but Etienne saw more work in the second half. The committee approach and lack of production make both backs difficult to trust. Kamara is a desperation flex option against the Raiders in Week 3, while Etienne is a low-end RB2.\n\nJuwan Johnson caught all four of his targets for 66 yards against the Ravens, but his playing time raises concerns. With Oscar Delp returning, the Saints used more of a tight end rotation involving Johnson and Noah Fant. Johnson's route participation dropped significantly from Week 1 to Week 2, making his production difficult to sustain. He's best viewed as a TE2 against the Raiders in Week 3.\n\nCincinnati Bengals at Houston Texans\n\nDavid Montgomery and Woody Marks split snaps fairly evenly in the Texans' backfield against the Bengals. Montgomery managed just 4.4 fantasy points on eight touches after scoring 28.9 fantasy points in Week 1. Marks finished with 8.5 fantasy points on 13 touches, including five receptions. Houston continues to rotate backs by drive, limiting both players' fantasy ceilings. Montgomery remains on the RB2 radar against the Colts in Week 3, while Marks is a flex option.\n\nJacksonville Jaguars at Denver Broncos\n\nJ.K. Dobbins suffered a hamstring injury late in the third quarter and didn't return, opening the door for Jonah Coleman with RJ Harvey already sidelined. Coleman led the Broncos' backfield in snaps and touches (13), finishing with 14.8 fantasy points. He handled early downs after Dobbins exited, while Tyler Badie took passing-down work. Coleman is a priority waiver wire pickup and could have RB2 upside against the Rams if Dobbins and Harvey are out.\n\nBhayshul Tuten led the Jaguars' backfield in snaps, routes and touches (15), finishing with 14.2 fantasy points. His usage compared with Chris Rodriguez Jr. was notable. We'll see if that trend continues in Week 3. Tuten is firmly on the RB2 radar against the Patriots in Week 3.\n\nWashington Commanders at Dallas Cowboys\n\nJake Ferguson caught all four targets for 43 yards and two touchdowns against the Commanders, but his usage is concerning. He played just 60% of snaps and ranked fourth in routes and targets behind CeeDee Lamb, George Pickens and Ryan Flournoy. Reduced playing time and increased target competition make Ferguson more touchdown-dependent. He's a TE2 against the Ravens in Week 3, and now is a good time to explore his trade value.\n\nLas Vegas Raiders at Los Angeles Chargers\n\nOmarion Hampton led the Chargers' backfield in snaps and touches (25), finishing with 17.5 fantasy points against the Raiders. Keaton Mitchell saw six touches, while Kimani Vidal became more involved on third downs. Despite the three-man rotation, Hampton continues to dominate the workload, but his second lost fumble in two games is concerning. He remains firmly on the RB2 radar against the Bills in Week 3.\n\nSeattle Seahawks at Arizona Cardinals\n\nMarvin Harrison Jr. played the third-most snaps and tied Trey McBride for the second-most routes among Cardinals pass catchers, but he finished without a catch on one target. He has just four targets and one reception through two games. His snap share has also declined, with Michael Wilson seeing more work in single receiver sets. McBride continues to dominate targets, leaving Harrison difficult to trust. He's a boom-or-bust flex option against the 49ers in Week 3.\n\nMiami Dolphins at San Francisco 49ers\n\nGeorge Kittle caught all four of his targets for 80 yards and a touchdown against the Dolphins. He's still working his way back from an Achilles injury, but his route participation increased from Week 1 to Week 2 as the 49ers used him more in passing situations. Kittle's playing time remains limited as he continues to split snaps with Luke Farrell and Brayden Willis, but his increased involvement in the passing game is encouraging. He remains on the TE1 radar against the Cardinals in Week 3.\n\nIndianapolis Colts at Kansas City Chiefs\n\nRashee Rice caught four of six targets for 83 yards against the Colts, but his role in Kansas City's offense has changed. He's spending less time in the slot, while Xavier Worthy is earning targets at a higher rate. Travis Kelce (17) and Kenneth Walker III (16) lead the team in targets through two games, with Walker seeing more opportunities on shorter passes. Rice remains on the WR2 radar with Patrick Mahomes under center, but his changing usage and increased target competition are concerning.\n\nSept. 20: Week 2's scoring leaders through Sunday Night Football\n\nJaxon Smith-Njigba, WR, Seattle Seahawks - 42.5\nJosh Allen, QB, Buffalo Bills - 40.82\nCeeDee Lamb, WR, Dallas Cowboys - 35.3\nAmon-Ra St. Brown, WR, Detroit Lions - 35.2\nJared Goff, QB, Detroit Lions - 29.8\nDak Prescott, QB, Dallas Cowboys - 29.76\nJonathan Taylor, RB, Indianapolis Colts - 29.2\nPatrick Mahomes, QB, Kansas City Chiefs - 29.98\nBrock Purdy, QB, San Francisco 49ers - 28.48\nDeVonta Smith, WR, Philadelphia Eagles - 27.7\n\nCheck out the complete list of scoring leaders here.\n\nSept. 18: Josh Allen puts league on notice with 40-point night\nby Adam Rank\n\nWe had one of the highest-scoring Week 1s in NFL history last week. There was no way we could possibly top that, yeah? Well, I've got news for you, the Buffalo Bills and Detroit Lions accepted the challenge and put up massive numbers on Thursday night.\n\nJosh Allen led the way with more than 40 points to get your week started. We went into the draft season saying Allen was in his own tier and he's proving it early on. Allen had over 300 total yards and five total touchdowns. Allen is the third player in NFL history with nine total touchdowns and no turnovers in his team's first two games of the season. The other two were Patrick Mahomes in 2018 and Peyton Manning in 2013. Both went on to win MVP. Manning's Broncos also set the NFL record for most points in the season.\n\nThe Bills are the first team to record 35 points and more than 400 yards of offense in both of their first two games of the season since the Packers in 2020. The Bills have also scored five touchdowns in five red zone drives.\nMy guy Tristan H. Cockcroft pointed out during our in-game group chat that Allen broke the record for most fantasy points scored in the first two weeks of the season. Breaking the record of ... Ryan Fitzpatrick, the Tampa Bay Buccaneers version (as noted by Field Yates, who knew the answer to Tristan's trivia question).\nOur group chat also had an interesting conversation about James Cook III. Is he a trade-high candidate because it's Josh Allen's offense, including goal-line carries -- or do you try to get more shares of Cook, if possible? Put me in the convo for more shares. I want as much of this Bills offense as possible. Especially if D.J. Moore is going to miss time. (Note: Moore is considered day-to-day)\nKeon Coleman and Khalil Shakir both had six targets. Joshua Palmer had a 43-yard TD reception on his lone target.\nDalton Kincaid had seven receptions for 95 yards and one receiving touchdown. He now has 225 receiving yards this season -- the first Bills player to do that since Stefon Diggs in 2022. Maybe those Travis Kelce comparisons Kincaid had coming into the league might finally be happening.\nI thought Jared Goff's preseason ranking was way too low, with him going in the teens. He has put up huge numbers in the first two games of the season. He might have to continue this pace when you consider the condition of the Lions' defense.\nI had Amon-Ra St. Brown as my WR2 heading into the season. Did I have him too low? Nine receptions for 142 and a pair of touchdowns. His sixth career game with 100-plus receiving yards and two touchdowns. It's wild.\nJahmyr Gibbs had 100-plus scrimmage yards, six receptions and a touchdown. And yet, it feels like not enough when you look at some of the other gaudy numbers being thrown around on Thursday night."
     },
     {
-      "story_id": "50001083",
-      "headline": "Hislop: Manchester United's criticism isn't unwarranted",
-      "summary": "Hislop: Manchester United's criticism isn't unwarranted",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0921/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted.jpg",
-      "published_utc": "2026-09-21T22:30:35Z",
+      "story_id": "49996901",
+      "headline": "Transfer rumors, news: Mesloub to replace Gabriel at Man United?",
+      "summary": "Could Lens winger Mezian Mesloub be Manchester United's latest teenage signing? Transfer Talk has the latest.",
+      "image": "https://a.espncdn.com/photo/2026/0921/r1720167_1296x729_16-9.jpg",
+      "published_utc": "2026-09-21T23:40:29Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50001083/manchester-united-criticism-unwarranted",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0921/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted/playlist.m3u8",
-      "body": ""
+      "link": "https://www.espn.com/soccer/story/_/id/49996901/transfer-rumors-news-arsenal-eye-versatile-dortmund-forward-beier",
+      "stream_url": "",
+      "body": "Manchester United have lined up 16-year-old Lens winger Mezian Mesloub to replace JJ Gabriel, while Borussia Dortmund forward Maximilian Beier is on the radar of Arsenal. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Manchester United have lined up Lens winger Mezian Mesloub as a potential long-term target, TEAMtalk reports. Scouts from United, Arsenal, Chelsea, Paris Saint-Germain, and Monaco have tracked the 16-year-old, while Red Devils executives Omar Berrada and Jason Wilcox continue efforts to convince JJ Gabriel to stay.\n\n- Arsenal are monitoring Borussia Dortmund forward Maximilian Beier as a potential attacking reinforcement, TEAMtalk has revealed. Gunners scouts have been impressed by the 23-year-old's versatility across the frontline during their visits to monitor Ethan Nwaneri's loan spell at the German club.\n\n- Real Madrid are assessing a move for Manchester United youngster Gabriel, according to Diario AS. Sources have told ESPN that the 15-year-old has indicated his desire to leave Old Trafford, prompting contact from Real Madrid while they evaluate eligibility requirements, with Barcelona and Bayern Munich also competing for his signature.\n\n- Tottenham Hotspur could renew their pursuit of Nottingham Forest midfielder Morgan Gibbs-White in January, according to Football Insider. Spurs remain interested in the 26-year-old after attempting to sign him in the summer of 2025, with potential reinforcements being assessed following a difficult start to the season, but could face paying a fee of \u00a3125 million. By contrast, the England international has started the campaign strongly, registering three goal involvements in five Premier League outings.\n\n- Atl\u00e9tico Madrid are set to revive their pursuit of Bayer Leverkusen midfielder Ibrahim Maza, according to Goal. The 20-year-old Algeria international's transfer could command a fee of around \u20ac70 million, though Leverkusen remain determined to retain him and are working on a contract extension with a pay rise.\n\nOther rumors\n- Liverpool could revive their interest in Brighton & Hove Albion winger Yankuba Minteh in January after seeing a \u20ac60 million bid rejected over the summer. (Sport Witness)\n\n- The Reds have also held talks with Monaco midfielder Lamine Camara, 22, over a move. (Caught Offside)\n\n- Bayern Munich are considering a summer move for Newcastle United striker Nick Woltemade, with the Magpies prepared to listen to permanent offers. (Football Insider)\n\n- Newcastle and Barcelona are in the race to land Norway midfielder Bo Hegland, 22, from Swedish side Djurg\u00e5rdens IF. (Football Insider)\n\n- Arsenal manager Mikel Arteta intends to block loan offers to sign winger Noni Madueke amid interest from Juventus and Atl\u00e9tico Madrid. (Football Insider)\n\n- England captain Harry Kane is prioritizing his future at Bayern Munich despite ongoing interest and monitoring from Manchester United. (Football Insider)\n\n- Juventus are considering signing a free-agent goalkeeper following an injury to Kamil Grabara, with Neto and Sergio Rico offering themselves to the club. (Gazzetta dello Sport)\n\n- Marseille intervened late in the summer window to prevent winger Igor Paix\u00e3o from completing a \u20ac30 million transfer to Sunderland. (Le Journal du Dimanche)\n\n- Tottenham Hotspur, Aston Villa, Juventus, and AC Milan are tracking the situation of Bayern Munich defender Kim Min-jae. (Ekrem Konur)"
+    },
+    {
+      "story_id": "49993772",
+      "headline": "Expert tips, best tips for the AFL Grand Final",
+      "summary": "Who should you be tipping in the Grand Final? Our footy experts have put their heads together to help you out. So open your ESPNfootytips app, take notes, and get ahead of the game!",
+      "image": "https://a.espncdn.com/photo/2026/0921/r1720201_1296x729_16-9.png",
+      "published_utc": "2026-09-21T23:17:53Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/49993772/afl-tipping-experts-tips-tip-2026-afl-grand-final",
+      "stream_url": "",
+      "body": "Who should you be tipping in the 2026 AFL Grand Final? Our footy experts have put their heads together to help you out. So open your ESPNfootytips app, take notes, and get ahead of the game!\n\nOur experts share all of their wisdom with you to help guide your tipping.\n\nEXPERT TIPS:\nJake Michaels\n\nLast week: 1\n\nSeason total: 154\n\nTips for the week:\n\nFremantle vs. Brisbane\n\nReasoning: Brisbane by 46 points. The Lions are the September specialists and come roaring into this Grand Final. On the other hand the Dockers are spluttering along, having only won three of 12 quarters this finals series. This could get ugly. I hope not...\n\nMatt Walsh\nLast week: 1\n\nSeason total: 148\n\nTips for the week:\n\nFremantle vs. Brisbane\n\nReasoning: Brisbane by 60 points. I can't see Fremantle matching the firepower the Lions have in attack. They say defence wins premierships, but I think the Lions will be too powerful.\n\nJarryd Barca\nLast week: 1\n\nSeason total: 157\n\nTips for the week:\n\nFremantle vs. Brisbane\n\nReasoning: Brisbane 24 points The Lions enter the game with far more experience on the big stage, and we know they'll look to score heavily. Freo can match that, but it's not their MO, and winning just three of 12 finals quarters tells its own story.\n\nChristian Joly (Champion Data)\n\nLast week: 2\n\nSeason total: 152\n\nTips for the week:\n\nFremantle vs. Brisbane\n\nReasoning: Brisbane by 35. Unfortunately close Grand Finals are a rare occurrence. Brisbane has embraced their defensive issues and turned to all out scoring. That firepower should be too much for the Dockers."
     },
     {
       "story_id": "50000561",
@@ -14162,20 +13897,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50000561/sources-cubs-bregman-suffered-facial-fractures-foul-ball",
       "stream_url": "",
       "body": "Chicago Cubs star Alex Bregman suffered multiple facial fractures after being struck by a foul ball while standing in the on-deck circle Sunday, sources told ESPN's Jeff Passan.\n\nBregman will not undergo surgery and is hopeful to return in the postseason.\n\nIn the fourth inning of the Cubs' 9-1 win over the Reds in Cincinnati, left-handed batting Michael Busch checked his swing and fouled off a pitch from right-hander Luis Mey that struck Bregman, who immediately jogged toward Chicago's dugout with a hand covering the left side of his face.\n\nBregman was escorted by an athletic trainer down the dugout steps and into the clubhouse, with blood visible on his face.\n\n\"He got hit in the left cheekbone essentially, under the eye,\" Cubs manager Craig Counsell said after the game. \"He was bleeding from his nose a little. There's some swelling. It's a terrible, terrible accident. We hope he's OK.\"\n\nBregman was hospitalized in the Cincinnati area to undergo tests, but posted on Instagram earlier Monday that he was back in Chicago."
-    },
-    {
-      "story_id": "50000728",
-      "headline": "AFL set to deny Fremantle's Wharfie Time GF pitch",
-      "summary": "Fremantle legend Shaun McManus sees no reason why 'Wharfie Time' shouldn't be allowed in the grand final, but the AFL are set to knock back the request.",
-      "image": "https://a.espncdn.com/photo/2026/0921/r1720171_1296x729_16-9.jpg",
-      "published_utc": "2026-09-21T21:43:04Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/50000728/afl-grand-final-league-set-deny-fremantle-dockers-wharfie-pitch",
-      "stream_url": "",
-      "body": "Fremantle's bid to play 'Wharfie Time' during the Grand Final is set to be knocked on its head, with the AFL to play the role of party poopers for the cult-hit crowd activation.\n\nDockers icon Shaun McManus was among the many big names to throw his weight behind calls for Wharfie Time to light up Saturday's Grand Final against Brisbane, saying the MCG would \"erupt\" in a sea of purple.\n\nThe Dockers applied to incorporate the in-game activation before Monday's deadline for requests, but it's understood the AFL will say no.\n\nWharfie Time has previously only been used at Optus Stadium and has been a rare occurrence, with Fremantle keen to maintain a sense of mystique around it.\n\nThe button was famously pushed to inspire a come-from-behind win over Hawthorn in May and again in a close finish to the semi-final against Geelong this month.\n\n\"It's captured the nation,\" McManus told AAP before the AFL's decision had been made.\n\n\"If you're a Dockers supporter or a neutral you'll be up and about.\n\n\"The Brisbane Lions people wouldn't like to hear it because they know it has a big effect on the way the players go.\"\n\nMcManus likened the use of Wharfie Time to players regularly being allowed goal celebration songs, including in recent Grand Finals.\n\nMost notable among them is Brisbane's star forward Charlie Cameron, whose choice of John Denver's 'Take Me Home Country Roads' is a huge hit with Lions fans.\n\n\"If it's good enough for them, they why not Fremantle?\" McManus said at the launch of a PointsBet-sponsored bus that will take Fremantle fans on a 3000km pilgrimage across the Nullarbor for the Grand Final.\n\n\"Wharfie Time has been incredible. If they play that at the MCG, it will erupt.\"\n\nSongs will again be permitted after goals during Saturday's Grand Final, but the lack of Wharfie Time is a blow to Dockers fans, many of whom have forked out thousands of dollars to attend the game.\n\nMcManus expects a huge number of Fremantle fans to make the trip to Melbourne.\n\nHow Nick Daicos fared on Brownlow night vs. ESPN's predictor\n\nThe 228-game club legend and former captain believes the Dockers are the sentimental favourites among neutrals as they aim to secure the first premiership in the club's 32-year history.\n\n\"I know people say it's a neutral ground but it won't be on Saturday,\" McManus said.\n\n\"I can guarantee there'll be more Fremantle people than Brisbane Lions fans and there'll be more Melbourne people going for the Dockers.\n\n\"Being a lifelong Fremantle person, to see the boys get recognised for the way they've played this year, and the club, it's outstanding.\n\n\"And not only that, everyone's enjoying watching them play. They've had such a big year.\""
     },
     {
       "story_id": "50000438",
@@ -14290,32 +14011,46 @@
       "body": "The NRL has been urged to come down hard on supporters who peppered referee Ashley Klein with projectiles as the league's integrity unit investigates the ugly aftermath of Newcastle's semifinal win over the Warriors.\n\nVision from Eden Park after fulltime in the Knights' 12-10 victory showed Klein being hit with a raft of bottles, cups and rubbish as he walked from the field.\n\nThe footage shows Klein having to be protected by security, as fans abused the veteran referee and projectiles rained down on him.\n\nThe NRL immediately launched an investigation into potential breaches of their spectators' code of conduct. An Integrity Unit investigator had been at the ground.\n\n\"If found guilty, they will be banned for a period of time from attending NRL games,\" ARL Commission chairman Peter V'landys told AAP.\n\nV'landys' no-nonsense stance was welcomed by the referee's union, Professional Rugby League Match Officials (PRLMO), who called on the NRL to come down hard on the Warriors supporters.\n\n\"The safety of all referees and match officials is paramount, and they should be allowed to perform their duties without being placed in harm's way,\" PRLMO chair John Choueifate told AAP.\n\n\"To say I was disappointed is an understatement and call on the NRL to investigate the incident which detracted from an enthralling match.\n\n\"They need to send a very clear message to those responsible and to others in future that this rubbish must be stamped out of the game.\"\n\nNew Zealand Police confirmed no arrests were made, with \"no issues to note\" other than two pitch invaders.\n\nThe Warriors did not respond to AAP requests for comment.\n\nSunday's crowd of 48,511 marked the biggest ever for a rugby league match in New Zealand, after the NRL made the call to move the game from the Warriors' traditional Mt Smart Stadium home.\n\nThe NRL's investigation came as they admitted Klein had erred with a crucial decision not to penalise Newcastle prop Tyson Frizell for an escort in the dying minutes.\n\nHad it been awarded, the Warriors could have levelled at 12-12 and sent the game to extra time. It's understood Klein will be dropped for the preliminary finals.\n\nRegardless, Warriors great Shaun Johnson hit out at fans, labelling their behaviour as \"embarrassing\" and said a missed call was no excuse for that reaction.\n\n\"Ashley Klein is a human being in the middle of a park doing one of the toughest jobs there is,\" Johnson said on his Instagram.\n\n\"In what world do we think that is okay? You guys are so quick to point out that athletes and ex-athletes are role models for your kids.\n\n\"Well you're not setting the bar very high if that's what they've got to look up to. Be better man.\n\n\"It's such a s--- way to finish a season. Not just from a result standpoint. But leaving such a sour taste from a fan base. A fan base I deeply care about.\"\n\nWarriors coach Andrew Webster had vented his frustration in the postmatch press conference, highlighting a bunker strip call on Te Maire Martin and the decision not to penalise Frizell for a possible escort on Leka Halasima.\n\nThe incident comes after AFL umpires also had cans thrown at them while leaving the MCG after Hawthorn's tight loss to Brisbane in Saturday night's preliminary final.\n\nThe AFL has also condemned the behaviour and warned of minimum five-year bans for any fans found responsible."
     },
     {
-      "story_id": "40699880",
-      "headline": "Fantasy football buzz: Six replacement options for Puka Nacua on Monday Night Football",
-      "summary": "With Puka Nacua ruled out for the game against the New York Giants on Monday night, here are some potential last-minute replacements.",
-      "image": "https://a.espncdn.com/photo/2026/0921/r1720203_1296x729_16-9.jpg",
-      "published_utc": "2026-09-21T23:22:37Z",
+      "story_id": "50001287",
+      "headline": "Seahawks plan to have Sam Darnold back at practice Wednesday",
+      "summary": "Coach Mike Macdonald also said \"there is a chance\" that quarterback Sam Darnold will play this week at Washington.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/f58f3860-a5af-4002-807f-3e293b28dc92/f58f3860-a5af-4002-807f-3e293b28dc92.jpg",
+      "published_utc": "2026-09-22T00:01:05Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "ESPN Fantasy",
+      "byline": "Brady Henderson",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+      "link": "https://www.espn.com/nfl/story/_/id/50001287/seahawks-plan-sam-darnold-back-practice-wednesday",
       "stream_url": "",
-      "body": "Everything that happens in the NFL has additional context when viewed from a fantasy football perspective. From position battles to injuries and so much more, the news cycle will constantly affect player values in fantasy football.\n\nOur fantasy football buzz file, with contributions from our ESPN fantasy writers and our NFL Nation reporters, aims to provide fantasy managers with the intel they need as news breaks around the league.\n\nSept. 21: Nacua ruled out for Monday Night Football\nBy Michael F. Florio\n\nRams' superstar wide receiver Puka Nacua has been ruled out for Monday Night Football due to a hip injury. That leaves Davante Adams as the top target for Matthew Stafford against the New York Giants.\n\nFor those fantasy managers that rolled the dice on Nacua's availability, replacement options are Malachi Fields, Tutu Atwell, Konata Mumpfield and Darnell Mooney. For those who left him in the flex spot, Terrance Ferguson is an upside option that I would use over all those receivers except Fields. If you have Blake Corum that you can plug in as your flex, he is the top option.\n\nSept. 21: Kyler Murray clears protocol, will start Week 3\n\nBy Michael F. Florio\n\nKyler Murray has cleared the concussion protocol and will start in Week 3 against the Tampa Bay Buccaneers. We have not seen much of Murray in a Vikings uniform, but he brings QB1 upside due to his rushing ability and the matchup.\n\nThe Bucs have allowed 234 passing yards per game, which ranks 11th highest in the NFL. That is after allowing the sixth-most passing yards in the NFL in 2025. Last week they allowed 19.72 fantasy points to Deshaun Watson, 11th-best among QBs through Sunday.\n\nMurray was a fantasy target of mine this summer due to him being in the best system of his career, with great pass catchers around him. He has been top 12 in fantasy points per game among QBs in every year but one of his career. That is largely due to his rushing ability and highlights the safe floor he brings.\n\nSome QBs I would start him over in Week 3 are Drake Maye, Matthew Stafford, Baker Mayfield and Jordan Love.\n\nWhich Commanders should you start with Daniels out?\n\nMarcus Mariota is expected to start Week 3 for the Washington Commanders as Jayden Daniels continues to seek opinions on his dislocated left elbow. Daniels does not have a timetable as of now.\n\nMariota started eight games for the Commanders last season, averaging 200 passing yards and 32 rushing yards per game. He threw 10 touchdowns and added another with his legs.\n\nMariota is not someone fantasy managers should be looking to force into their lineups. He is more an option for those in superflex leagues who now find themselves in a pinch. He brings a safer floor than you might expect, thanks to the rushing numbers, but falls far short of Daniels' ceiling.\n\nWashington faces the Seattle Seahawks in Week 3, so even those in superflex leagues should look in another direction to help replace Daniels in their starting lineup. I would also recommend trying to avoid the Commanders' pass catchers in this one. Terry McLaurin and Stefon Diggs remain the team's top options, but they are more \"boom-or-bust\" WR3 or flex plays.\n\nMariota did throw four times each to McLaurin and Dyami Brown in Week 2. He threw three times to Diggs, but the duo did connect for a touchdown.\n\nDallas Goedert to miss time\n\nGoedert suffered a sprained MCL and is expected to miss a few weeks, per Adam Schefter and Ian Rapoport. Goedert exited early in Week 2, playing only 26% of the snaps.\n\nGoedert was the go-to receiving option in the red zone for the Eagles, evident by his two Week 1 touchdowns. The Philadelphia tight ends room is very thin at the moment with rookie Eli Stowers on injured reserve. That likely leads to an uptick in targets for the Eagles' receivers. Dontayvion Wicks should be added off waivers. Makai Lemon remains an upside stash.\n\nDalton Schultz, Juwan Johnson, Darren Waller and Oronde Gadsden are tight ends fantasy managers in need can look to add off the waiver wire.\n\nSept. 21: Who got the ball Sunday?\n\nBy Eric Moody\n\nThe box score doesn't tell you everything. Here are the roles and usage trends from Sunday that stood out to me.\n\nCarolina Panthers at Atlanta Falcons\n\nChuba Hubbard led the Panthers' backfield in snaps, routes and touches (14), finishing with 14.4 fantasy points. Carolina used more of a committee approach with Jonathon Brooks before he left in the fourth quarter with a groin injury and didn't return. If Brooks is ruled out, Hubbard can be viewed as a midrange RB2 against the Browns.\n\nKyle Pitts Sr. remains in a tight end rotation with Austin Hooper and Charlie Woerner. Pitts saw just three targets and finished with 2.5 fantasy points, although the Falcons did pull their starters for the final 13 plays. Pitts' reduced playing time, particularly in 11 personnel, remains a concern. Cooper Rush's struggles also limited the entire offense. Pitts moves back into TE1 consideration if Michael Penix Jr. returns in Week 3 but is difficult to trust if Rush starts again.\n\nMinnesota Vikings at Chicago Bears\n\nAaron Jones Sr. led the Vikings' backfield in snaps and carries (23), rushing for 105 yards against the Bears. With Jordan Mason on injured reserve and wet, windy conditions limiting the passing game, Minnesota leaned heavily on Jones. He wasn't targeted but recorded his first 100-yard rushing performance since 2024. Jones suffered a knee injury in the second half but played through it. His health is worth monitoring, but he's firmly on the RB2 radar against the Buccaneers in Week 3 if active.\n\nRome Odunze led the Bears' receivers in snaps (62) and routes (38), while Luther Burden III played 42 snaps and ran 30 routes. Colston Loveland played 64 snaps but ran just 29 routes as he was asked to pass block more often. Burden's playing time remains a concern, while Loveland's limited route participation hurts his upside. Caleb Williams' hamstring injury could further limit all three players if Tyson Bagent starts against the Eagles in Week 3.\n\nD'Andre Swift led the Bears' backfield in snaps and touches (21), finishing with 12.9 fantasy points against the Vikings. Kyle Monangai played fewer snaps and had 12 touches, rushing for a team-high 47 yards. Swift also lost a costly fumble at the goal line. The backfield remains a committee, but Swift has the edge in playing time and receiving opportunities, leading the way in snaps, routes and targets. Both backs could see more work in Week 3 if Williams misses time with his hamstring injury.\n\nPhiladelphia Eagles at Tennessee Titans\n\nSaquon Barkley missed significant time after suffering a stinger in the first quarter but returned for the second half. Tank Bigsby handled most of the early-down work in his absence, while Will Shipley took on more passing down snaps. Bigsby finished with 15 touches and 11.8 fantasy points. He's the Eagles' insurance back to roster and would have league-winning upside in this offense if Barkley misses extended time.\n\nPittsburgh Steelers at New England Patriots\n\nJaylen Warren played a career-high number of snaps against the Patriots and dominated the Steelers' backfield after Rico Dowdle left with a toe injury in the second quarter. Warren has averaged 4.7 yards per carry and 7.3 yards per reception in his career but has rarely had the backfield to himself. In six career games with at least a 60% snap share, he has averaged 13.0 fantasy points. He has also averaged 14.4 fantasy points in 19 games with at least 15 touches. Warren's fantasy upside increases significantly if Dowdle misses time.\n\nDK Metcalf led the Steelers' skill-position players in snaps, routes and targets against the Patriots, but he caught just four passes and finished with 8.0 fantasy points. He also had two drops. His 19 targets and 44.7% share of Pittsburgh's air yards this season are encouraging, but his 42.1% catch rate needs to improve. Metcalf has scored just 14.7 fantasy points through two games, far from the start fantasy managers were hoping for. He's best viewed as a low-end flex option heading into Week 3.\n\nHunter Henry, Romeo Doubs and Mack Hollins led the Patriots in routes but combined for just 10 targets, with Henry and Doubs seeing four apiece. Drake Maye and the passing game continue to struggle through two games. Doubs finished with 12.6 fantasy points and remains the Patriots receiver to roster with A.J. Brown on injured reserve, even as Maye continues to spread the targets around. Doubs is still best viewed as a flex option in deeper leagues.\n\nTreVeyon Henderson led the Patriots' backfield in snaps, routes run and carries (16), finishing with 13.6 fantasy points thanks in part to a 39-yard touchdown run. He capitalized on an early fumble by Rhamondre Stevenson and now has five rushing touchdowns of at least 30 yards since the start of last season, the most in the league. Henderson can be viewed as a low-end RB2 against the Jaguars in Week 3.\n\nGreen Bay Packers at New York Jets\n\nThe Packers used a three-man backfield with Josh Jacobs still out. Kaleb Johnson led the team with eight carries, while MarShawn Lloyd and Chris Brooks split the remaining work. Brooks dominated passing situations, while Lloyd led the way with 8.6 fantasy points but lost a fumble in the fourth quarter. All three remain difficult to trust in fantasy lineups.\n\nTucker Kraft played nearly every snap against the Jets and appears to have no playing time restrictions. He ran nearly as many routes as Christian Watson and Matthew Golden but saw just three targets. If Jayden Reed misses Week 3 due to injury, Watson, Golden and Kraft should see additional targets in Green Bay's passing game.\n\nCleveland Browns at Tampa Bay Buccaneers\n\nBucky Irving led the Buccaneers' backfield in early down, third down and short-yardage snaps, finishing with 21 touches and 13.0 fantasy points. Kenny Gainwell managed just five touches and 4.5 fantasy points. Irving has taken control of this backfield and is firmly on the RB2 radar. Gainwell is merely an insurance back with little standalone fantasy value.\n\nQuinshon Judkins led the Browns' backfield in snaps, routes and touches (17) following Dylan Sampson's placement on injured reserve. Judkins finished with 9.8 fantasy points as Cleveland's running game struggled, managing just 44 yards at 1.9 yards per carry. Despite the poor production, Judkins' workload keeps him firmly on the RB2 radar.\n\nNew Orleans Saints at Baltimore Ravens\n\nAlvin Kamara finished with 14 touches but managed just 22 yards against the Ravens. Travis Etienne Jr. led the backfield in snaps, while CJ Donaldson maintained his third-down role. Kamara dominated the touches early, but Etienne saw more work in the second half. The committee approach and lack of production make both backs difficult to trust. Kamara is a desperation flex option against the Raiders in Week 3, while Etienne is a low-end RB2.\n\nJuwan Johnson caught all four of his targets for 66 yards against the Ravens, but his playing time raises concerns. With Oscar Delp returning, the Saints used more of a tight end rotation involving Johnson and Noah Fant. Johnson's route participation dropped significantly from Week 1 to Week 2, making his production difficult to sustain. He's best viewed as a TE2 against the Raiders in Week 3.\n\nCincinnati Bengals at Houston Texans\n\nDavid Montgomery and Woody Marks split snaps fairly evenly in the Texans' backfield against the Bengals. Montgomery managed just 4.4 fantasy points on eight touches after scoring 28.9 fantasy points in Week 1. Marks finished with 8.5 fantasy points on 13 touches, including five receptions. Houston continues to rotate backs by drive, limiting both players' fantasy ceilings. Montgomery remains on the RB2 radar against the Colts in Week 3, while Marks is a flex option.\n\nJacksonville Jaguars at Denver Broncos\n\nJ.K. Dobbins suffered a hamstring injury late in the third quarter and didn't return, opening the door for Jonah Coleman with RJ Harvey already sidelined. Coleman led the Broncos' backfield in snaps and touches (13), finishing with 14.8 fantasy points. He handled early downs after Dobbins exited, while Tyler Badie took passing-down work. Coleman is a priority waiver wire pickup and could have RB2 upside against the Rams if Dobbins and Harvey are out.\n\nBhayshul Tuten led the Jaguars' backfield in snaps, routes and touches (15), finishing with 14.2 fantasy points. His usage compared with Chris Rodriguez Jr. was notable. We'll see if that trend continues in Week 3. Tuten is firmly on the RB2 radar against the Patriots in Week 3.\n\nWashington Commanders at Dallas Cowboys\n\nJake Ferguson caught all four targets for 43 yards and two touchdowns against the Commanders, but his usage is concerning. He played just 60% of snaps and ranked fourth in routes and targets behind CeeDee Lamb, George Pickens and Ryan Flournoy. Reduced playing time and increased target competition make Ferguson more touchdown-dependent. He's a TE2 against the Ravens in Week 3, and now is a good time to explore his trade value.\n\nLas Vegas Raiders at Los Angeles Chargers\n\nOmarion Hampton led the Chargers' backfield in snaps and touches (25), finishing with 17.5 fantasy points against the Raiders. Keaton Mitchell saw six touches, while Kimani Vidal became more involved on third downs. Despite the three-man rotation, Hampton continues to dominate the workload, but his second lost fumble in two games is concerning. He remains firmly on the RB2 radar against the Bills in Week 3.\n\nSeattle Seahawks at Arizona Cardinals\n\nMarvin Harrison Jr. played the third-most snaps and tied Trey McBride for the second-most routes among Cardinals pass catchers, but he finished without a catch on one target. He has just four targets and one reception through two games. His snap share has also declined, with Michael Wilson seeing more work in single receiver sets. McBride continues to dominate targets, leaving Harrison difficult to trust. He's a boom-or-bust flex option against the 49ers in Week 3.\n\nMiami Dolphins at San Francisco 49ers\n\nGeorge Kittle caught all four of his targets for 80 yards and a touchdown against the Dolphins. He's still working his way back from an Achilles injury, but his route participation increased from Week 1 to Week 2 as the 49ers used him more in passing situations. Kittle's playing time remains limited as he continues to split snaps with Luke Farrell and Brayden Willis, but his increased involvement in the passing game is encouraging. He remains on the TE1 radar against the Cardinals in Week 3.\n\nIndianapolis Colts at Kansas City Chiefs\n\nRashee Rice caught four of six targets for 83 yards against the Colts, but his role in Kansas City's offense has changed. He's spending less time in the slot, while Xavier Worthy is earning targets at a higher rate. Travis Kelce (17) and Kenneth Walker III (16) lead the team in targets through two games, with Walker seeing more opportunities on shorter passes. Rice remains on the WR2 radar with Patrick Mahomes under center, but his changing usage and increased target competition are concerning.\n\nSept. 20: Week 2's scoring leaders through Sunday Night Football\n\nJaxon Smith-Njigba, WR, Seattle Seahawks - 42.5\nJosh Allen, QB, Buffalo Bills - 40.82\nCeeDee Lamb, WR, Dallas Cowboys - 35.3\nAmon-Ra St. Brown, WR, Detroit Lions - 35.2\nJared Goff, QB, Detroit Lions - 29.8\nDak Prescott, QB, Dallas Cowboys - 29.76\nJonathan Taylor, RB, Indianapolis Colts - 29.2\nPatrick Mahomes, QB, Kansas City Chiefs - 29.98\nBrock Purdy, QB, San Francisco 49ers - 28.48\nDeVonta Smith, WR, Philadelphia Eagles - 27.7\n\nCheck out the complete list of scoring leaders here.\n\nSept. 18: Josh Allen puts league on notice with 40-point night\nby Adam Rank\n\nWe had one of the highest-scoring Week 1s in NFL history last week. There was no way we could possibly top that, yeah? Well, I've got news for you, the Buffalo Bills and Detroit Lions accepted the challenge and put up massive numbers on Thursday night.\n\nJosh Allen led the way with more than 40 points to get your week started. We went into the draft season saying Allen was in his own tier and he's proving it early on. Allen had over 300 total yards and five total touchdowns. Allen is the third player in NFL history with nine total touchdowns and no turnovers in his team's first two games of the season. The other two were Patrick Mahomes in 2018 and Peyton Manning in 2013. Both went on to win MVP. Manning's Broncos also set the NFL record for most points in the season.\n\nThe Bills are the first team to record 35 points and more than 400 yards of offense in both of their first two games of the season since the Packers in 2020. The Bills have also scored five touchdowns in five red zone drives.\nMy guy Tristan H. Cockcroft pointed out during our in-game group chat that Allen broke the record for most fantasy points scored in the first two weeks of the season. Breaking the record of ... Ryan Fitzpatrick, the Tampa Bay Buccaneers version (as noted by Field Yates, who knew the answer to Tristan's trivia question).\nOur group chat also had an interesting conversation about James Cook III. Is he a trade-high candidate because it's Josh Allen's offense, including goal-line carries -- or do you try to get more shares of Cook, if possible? Put me in the convo for more shares. I want as much of this Bills offense as possible. Especially if D.J. Moore is going to miss time. (Note: Moore is considered day-to-day)\nKeon Coleman and Khalil Shakir both had six targets. Joshua Palmer had a 43-yard TD reception on his lone target.\nDalton Kincaid had seven receptions for 95 yards and one receiving touchdown. He now has 225 receiving yards this season -- the first Bills player to do that since Stefon Diggs in 2022. Maybe those Travis Kelce comparisons Kincaid had coming into the league might finally be happening.\nI thought Jared Goff's preseason ranking was way too low, with him going in the teens. He has put up huge numbers in the first two games of the season. He might have to continue this pace when you consider the condition of the Lions' defense.\nI had Amon-Ra St. Brown as my WR2 heading into the season. Did I have him too low? Nine receptions for 142 and a pair of touchdowns. His sixth career game with 100-plus receiving yards and two touchdowns. It's wild.\nJahmyr Gibbs had 100-plus scrimmage yards, six receptions and a touchdown. And yet, it feels like not enough when you look at some of the other gaudy numbers being thrown around on Thursday night."
+      "body": "SCOTTSDALE, Ariz. -- Seattle Seahawks quarterback Sam Darnold is set to return to practice Wednesday after missing most of the team's first two games because of a glute injury, coach Mike Macdonald said Monday.\n\n\"Right now, the plan is for him to be out there in some capacity, and we'll go from there,\" Macdonald said. \"How much, we'll see from here to Wednesday on what that number is. But right now, that's the goal.\"\n\nEarlier Monday, on his Seattle Sports 710-AM radio show, Macdonald said \"there is a chance\" that Darnold will play this week against the Washington Commanders at Northwest Stadium.\n\nDarnold went down on the fifth play of the Seahawks' Sept. 9 opener and did not practice last week. After the Seahawks improved to 2-0 with a 31-7 win Sunday over the Arizona Cardinals, Macdonald said Darnold is ahead of schedule and that his timetable for returning has \"shifted quite drastically\" for the better.\n\nSince replacing Darnold, backup Drew Lock has completed nearly 73% of his passes while throwing four touchdown passes with zero turnovers. Lock's Total QBR of 86.4 is fourth best among all quarterbacks through two weeks.\n\nAsked about Lock's play, Macdonald indicated that it won't factor into the team's decision on whether Darnold starts Sunday, saying, \"If Sam can play, he's going to play.\"\n\nIn other Seahawks injury news, Macdonald said rookie running back Jadarian Price's shoulder injury does not appear to be serious. The team's first-round pick left late in the third quarter Sunday and did not return.\n\n\"It's something we'll monitor throughout the week,\" Macdonald said. \"Shouldn't be a long-term thing.\"\n\nPrice started each of the first two games while Zach Charbonnet -- Seattle's co-starter last season -- continues to work his way back from February ACL surgery. Charbonnet has to miss at least the next two games while on the physically unable to perform list, but a new PUP rule this year would allow the Seahawks to open his 21-day practice window Wednesday. Macdonald said they are still working through that possibility."
     },
     {
-      "story_id": "49996901",
-      "headline": "Transfer rumors, news: Mesloub to replace Gabriel at Man United?",
-      "summary": "Could Lens winger Mezian Mesloub be Manchester United's latest teenage signing? Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/0921/r1720167_1296x729_16-9.jpg",
-      "published_utc": "2026-09-21T21:34:00Z",
+      "story_id": "50001083",
+      "headline": "Hislop: Manchester United's criticism isn't unwarranted",
+      "summary": "Hislop: Manchester United's criticism isn't unwarranted",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0921/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted.jpg",
+      "published_utc": "2026-09-21T22:30:35Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50001083/manchester-united-criticism-unwarranted",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0921/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted/dm_260921_Hislop_Manchester_Uniteds_criticism_isnt_unwarranted/playlist.m3u8",
+      "body": ""
+    },
+    {
+      "story_id": "49994480",
+      "headline": "AFL Grand Final: Ins and outs, fixtures, games, tips, odds -- everything you need to know",
+      "summary": "It's finally here, the 2026 AFL Grand Final is set to take place at the MCG this Saturday at 2:30pm, with the Fremantle Dockers facing the Brisbane Lions. Here's everything you need to know.",
+      "image": "https://a.espncdn.com/photo/2026/0530/r1665656_1296x729_16-9.jpg",
+      "published_utc": "2026-09-21T22:42:44Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
       "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/49996901/transfer-rumors-news-arsenal-eye-versatile-dortmund-forward-beier",
+      "link": "https://www.espn.com/afl/story/_/id/49994480/afl-teams-grand-final-2026-ins-outs-selection-whispers-injuries-news-fixtures-tips-odds-scores-fremantle-dockers-brisbane-lions",
       "stream_url": "",
-      "body": "Manchester United have lined up 16-year-old Lens winger Mezian Mesloub to replace JJ Gabriel, while Borussia Dortmund forward Maximilian Beier is on the radar of Arsenal. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Manchester United have lined up Lens winger Mezian Mesloub as a potential long-term target, TEAMtalk reports. Scouts from United, Arsenal, Chelsea, Paris Saint-Germain, and Monaco have tracked the 16-year-old, while Red Devils executives Omar Berrada and Jason Wilcox continue efforts to convince JJ Gabriel to stay.\n\n- Arsenal are monitoring Borussia Dortmund forward Maximilian Beier as a potential attacking reinforcement, TEAMtalk has revealed. Gunners scouts have been impressed by the 23-year-old's versatility across the frontline during their visits to monitor Ethan Nwaneri's loan spell at the German club.\n\n- Real Madrid are assessing a move for Manchester United youngster Gabriel, according to Diario AS. Sources have told ESPN that the 15-year-old has indicated his desire to leave Old Trafford, prompting contact from Real Madrid while they evaluate eligibility requirements, with Barcelona and Bayern Munich also competing for his signature.\n\n- Tottenham Hotspur could renew their pursuit of Nottingham Forest midfielder Morgan Gibbs-White in January, according to Football Insider. Spurs remain interested in the 26-year-old after attempting to sign him in the summer of 2025, with potential reinforcements being assessed following a difficult start to the season, but could face paying a fee of \u00a3125 million. By contrast, the England international has started the campaign strongly, registering three goal involvements in five Premier League outings.\n\n- Atl\u00e9tico Madrid are set to revive their pursuit of Bayer Leverkusen midfielder Ibrahim Maza, according to Goal. The 20-year-old Algeria international's transfer could command a fee of around \u20ac70 million, though Leverkusen remain determined to retain him and are working on a contract extension with a pay rise.\n\nOther rumors\n- Liverpool could revive their interest in Brighton & Hove Albion winger Yankuba Minteh in January after seeing a \u20ac60 million bid rejected over the summer. (Sport Witness)\n\n- The Reds have also held talks with Monaco midfielder Lamine Camara, 22, over a move. (Caught Offside)\n\n- Bayern Munich are considering a summer move for Newcastle United striker Nick Woltemade, with the Magpies prepared to listen to permanent offers. (Football Insider)\n\n- Newcastle and Barcelona are in the race to land Norway midfielder Bo Hegland, 22, from Swedish side Djurg\u00e5rdens IF. (Football Insider)\n\n- Arsenal manager Mikel Arteta intends to block loan offers to sign winger Noni Madueke amid interest from Juventus and Atl\u00e9tico Madrid. (Football Insider)\n\n- England captain Harry Kane is prioritizing his future at Bayern Munich despite ongoing interest and monitoring from Manchester United. (Football Insider)\n\n- Juventus are considering signing a free-agent goalkeeper following an injury to Kamil Grabara, with Neto and Sergio Rico offering themselves to the club. (Gazzetta dello Sport)\n\n- Marseille intervened late in the summer window to prevent winger Igor Paix\u00e3o from completing a \u20ac30 million transfer to Sunderland. (Le Journal du Dimanche)\n\n- Tottenham Hotspur, Aston Villa, Juventus, and AC Milan are tracking the situation of Bayern Munich defender Kim Min-jae. (Ekrem Konur)"
+      "body": "It's finally here, the 2026 AFL Grand Final is set to take place at the MCG this Saturday at 2:30pm, with the Fremantle Dockers hoping to win their first every premiership, and the Brisbane Lions looking to secure a three-peat.\n\nKeep up to date with all of the fixtures, games, ins and outs, team news, tips, odds, results, reaction, and video as they come to hand.\n\nSATURDAY, SEPTEMBER 26\n\nFremantle vs. Brisbane\nMCG, 7:40pm [AEST]\n\nTeam news: Brisbane may be boosted by the return of handy defender Noah Answerth, who has missed both the semifinal and preliminary final with an ankle injury. But who would miss out? It could be Oscar Allen, Ty Gallop, or perhaps Darcy Fort as the backup ruck. Then the question is whether Lachie Neale is allowed to play by the tribunal. We'll kee an eye on things as they progress through the week. For the Dockers, Brennan Cox is fit to return after being held out of the WAFL Grand Final last week. It could be Oscar McDonald who is the unlucky omission.\n\nESPN tip: Lions by 25 points\n\nPointsbet odds: Dockers $2.25, Lions $1.66\n\nGet your tips in now on the ESPNfootytips app!"
     },
     {
       "story_id": "50000242",
@@ -14330,20 +14065,6 @@
       "link": "https://www.espn.com/fantasy/baseball/story/_/id/50000242/fantasy-baseball-pitcher-rankings-lineup-advice-tips-mlb-daily-notes-september-22-games",
       "stream_url": "",
       "body": "Check out all of our starting pitcher rankings and other lineup selection tools here to help you make smart fantasy baseball lineup decisions. All fantasy advice is geared toward ESPN 10-team leagues with standard scoring.\n\nNote: All information is accurate as of the time of publication. For updates, as well as any breaking news that might impact today's MLB slate, be sure to check out the latest fantasy baseball buzz.\n\nOther resources: RP depth chart | 2026 Rankings\n\nESPN's 2026 Player Rater | Betting notes for Tuesday\n\nPitchers to stream on Tuesday\n\nIncluding a handful of minor league appearances, Jared Jones is at 109 1/3 innings for the season, with one, possibly two, starts remaining. He should compile ample innings to pitch next season with minimal workload restrictions. The 25-year-old right-hander has been dominant for the Pittsburgh Pirates down the stretch, posting a 2.56 ERA and 1.17 WHIP with 44 strikeouts over 31 2/3 innings, spanning six starts. Next up is a home date with the stumbling St. Louis Cardinals and a lineup with the fourth-lowest wOBA versus righties over the last month.\nDustin May could be pitching for a spot in the Milwaukee Brewers rotation. Furthermore, the game is important, with the club trying to secure the best record in the National League. He's fanned an impressive 19 over his last 16 1/3 innings, but an above-average walk rate combined with one of the highest foul ball rates (foul balls per swing) is driving up his pitch count. May is facing a Philadelphia Phillies lineup with a below-average wOBA versus righties, in part due to an impatient approach.\nIf possible, it's best to trust pitchers in meaningful games. Cristian Javier and the Houston Astros are still in the thick of the AL West race. They're on the road against the disappointing Seattle, who are playing out the string. Javier punched out 31 over his previous 28 2/3 innings, and the Mariners sport the seventh-highest strikeout rate facing righties.\n\nHitters to stream on Tuesday\n\nThere's a twin bill in Yankee Stadium with the New York Yankees set to start a pair of left-handers, and the Tampa Bay Rays will counter with two righties. The AL East is still on the line, so both teams may use their best players in both games, then rest them later in the week. Spencer Jones, Anthony Volpe, George Lombard Jr. and Heliot Ramos are the top targets for the home team, with Jonny DeLuca the main option for the visiting Rays.\nThe Colorado Rockies are home to begin the week with lefty Kyle Freeland taking the hill on Tuesday. Look for a pair of right-handed Arizona Diamondbacks bats to take advantage, namely Nolan Arenado and Jordan Lawlar.\nAthletics rookie outfielder Henry Bolte is in a favorable spot facing Los Angeles Angels lefty Yusei Kikuchi. Bolte won't win the AL Rookie of the Year, but he'll receive consideration.\nHeriberto Hernandez sports a barrel rate, average exit velocity and hard-hit rate all at least 83rd percentile. He's someone to keep in mind for next season, as well as the final week of this year. On Tuesday, he enjoys the platoon edge on Chicago Cubs pitcher Shota Imanaga, a lefty with occasional issues with the long ball.\nGleyber Torres has been leading off when the Detroit Tigers face a left-hander. That's where he'll be when the Washington Nationals send vulnerable lefty Jackson Kent to the Comerica Park mound."
-    },
-    {
-      "story_id": "49997262",
-      "headline": "'A relief': Collingwood star Nick Daicos wins 2026 Brownlow Medal",
-      "summary": "Collingwood superstar Nick Daicos has finally claimed his first Brownlow Medal in a runaway victory with a record-breaking 47 votes.",
-      "image": "https://a.espncdn.com/photo/2026/0718/r1690772_1296x729_16-9.jpg",
-      "published_utc": "2026-09-21T21:19:04Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "AAP",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/49997262/afl-nick-daicos-wins-brownlow-medal-collingwood-magpies-2026",
-      "stream_url": "",
-      "body": "Collingwood superstar Nick Daicos has finally claimed his first Brownlow Medal with a record-breaking 47 votes sealing a runaway victory, and relief for the brilliant Magpie.\n\nThe 23-year-old surged to a perfect nine votes from his first three games, led from round 11, then registered six consecutive best-on-ground performances between rounds 15 and 20 to seal victory by round 21.\n\nDaicos won the AFL's greatest individual honour from Geelong star Bailey Smith (36) and Western Bulldogs champion Marcus Bontempelli (34).\n\nThe Magpie had 13 three-vote performances and beat the previous votes record of 45 set by Carlton champion Patrick Cripps in 2024.\n\nDaicos, the son of Magpies great Peter Daicos, conceded he was relieved, having finally prevailed after runner-up finishes in the past two seasons, a third placing in 2023 and an eighth place in his debut year of 2022.\n\n\"I've just learned not to trust the the betting markets, to be honest,\" Daicos said at Monday night's vote count.\n\n\"But no, there is (relief).\n\n\"It's a massive award, and I'm so privileged to be up here. I can't believe I'm a Brownlow medallist, to be honest.\"\n\nThe dynamic midfielder had already snared the AFL Players Association and AFL Coaches Association player-of-the-year awards.\n\nIt was the fourth consecutive year that Daicos was favourite, and with the umpires able to consult statistics for the first time, the star Magpie was irresistible.\n\nDaicos averaged 34.9 disposals, 5.7 clearances, 6.7 inside-50s and 1.1 goals.\n\nThe brilliant playmaker was edged out by Gold Coast's Matt Rowell last year and Cripps the year before, when Daicos polled 38 votes.\n\nDaicos, the Collingwood vice-captain widely expected to be named skipper next season, is the club's 10th Brownlow medallist and first since Dane Swan in 2011.\n\nThe 23-year-old, an \"absolute nuffy\" turned Collingwood prodigy, conceded he had struggled with expectation and scrutiny, as the son of a Collingwood great and younger brother of fellow Magpie Josh.\n\n\"Pretty quickly, it did get a little bit overwhelming playing for Collingwood and having Dad play, Josh play, and being in the spotlight all the time,\" Daicos said.\n\n\"And it's probably something I feel I've pushed away as the years have gone on and shied away from.\n\n\"And I wouldn't say struggled with, but I've definitely battled with it at times, and deleted social media, tried to stay off that stuff, and just give myself a little break where I can.\n\n\"But at the same time, I'm so bloody privileged to be in the position I'm in.\"\n\nHow Daicos fared on the night vs. ESPN's predictor\n\nMelbourne skipper Max Gawn (28) was fourth with three players tied for fifth: Brisbane star Will Ashcroft (27), Carlton's two-time winner Patrick Cripps (27) and North Melbourne's Harry Sheezel (27).\n\nSheezel wasn't even in the 40-man All-Australian squad.\n\nPort Adelaide superstar Zak Butters, set to join Bontempelli at the Bulldogs next season, was among the contenders before his late-season ankle injury ended his campaign early. He finished on 26.\n\nPatrick Dangerfield drew level with Gary Ablett Jnr on 262 career votes, the most ever.\n\nSydney stars Isaac Heeney and Chad Warner weren't in the room as they polled 26 and 12 votes respectively.\n\nThe pair were among five Swans stood down by Sydney for breaching club standards and weren't invited to the Brownlow function at Crown Palladium, but remained eligible for the award.\n\nSeparately, a police investigation into sexual assault allegations related to what allegedly took place in a room at East Melbourne's Pullman Hotel in August is ongoing.\n\nBrisbane's Conor McKenna won goal of the year while Hawthorn dynamo Nick Watson was awarded mark of the year.\n\nBROWNLOW MEDAL LEADERBOARD\n\n1. Nick Daicos (Collingwood) - 47 votes\n\n2. Bailey Smith (Geelong) - 36 votes\n\n3. Marcus Bontempelli (Western Bulldogs) - 34 votes\n\n4. Max Gawn (Melbourne) - 28 votes\n\n=5. Will Ashcroft (Brisbane), Patrick Cripps (Carlton), Harry Sheezel (North Melbourne) - 27 votes"
     },
     {
       "story_id": "48377855",
@@ -15654,192 +15375,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-NOAH-Pro-wrestling-Full-Show-Online.jpg",
       "source_url": "https://watch-wrestling.eu/noah-line-yahoo-presents-n-1victory-2026-9-16-2026/47322e81c515f558b5d19848876ce7ca"
-    },
-    {
-      "id": "ww:wwe-nxt-live-1k",
-      "title": "WWE NxT 9/15/26 \u2013 September 15, 2026",
-      "date": "2026-09-15",
-      "replay_url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/3/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/4/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/4/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/4/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/2/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/2/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/3",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/4",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/5",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/6",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 6",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/09-15-2026/select-post-1/5/7",
-          "label": "Dailymotion FHD (Live replay) \u2014 last part",
-          "part": true,
-          "live": true
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-WWE-NxT-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-nxt-live-1k/"
-    },
-    {
-      "id": "ww:faf160b6abadba34a231d2189859b598",
-      "title": "TJPW HYPER MISAO PRODUCED EVENT \u201cHYPE!4\u201d 9/15/2026",
-      "date": "2026-09-15",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-15-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-TJPW-Wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/tjpw-hyper-misao-produced-event-hype4-9-15-2026/faf160b6abadba34a231d2189859b598"
-    },
-    {
-      "id": "ww:b86523792281064b4e747a9edd326ab0",
-      "title": "NOAH LINE Yahoo presents N-1VICTORY 2026 9/15/2026",
-      "date": "2026-09-15",
-      "replay_url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-15-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-NOAH-Pro-wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/noah-line-yahoo-presents-n-1victory-2026-9-15-2026/b86523792281064b4e747a9edd326ab0"
     }
   ],
   "replays": [
@@ -17600,222 +17135,6 @@
       ],
       "poster": "https://mlblive.net/_pu/109/66658337.jpg",
       "source_url": "https://mlblive.net/atlanta-braves-chicago-cubs-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10929",
-      "title": "Baltimore Orioles @ New York Mets - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16849686563414",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16849686563414",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/51553304.jpg",
-      "source_url": "https://mlblive.net/baltimore-orioles-new-york-mets-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10925",
-      "title": "Los Angeles Dodgers @ Cincinnati Reds - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16685549685304",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16685549685304",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/41933934.jpg",
-      "source_url": "https://mlblive.net/los-angeles-dodgers-cincinnati-reds-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10928",
-      "title": "Philadelphia Phillies @ Washington Nationals - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16179268487852",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16179268487852",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/32146941.jpg",
-      "source_url": "https://mlblive.net/philadelphia-phillies-washington-nationals-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10927",
-      "title": "Athletics @ Tampa Bay Rays - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16179385141932",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16179385141932",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/58762471.jpg",
-      "source_url": "https://mlblive.net/athletics-tampa-bay-rays-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10923",
-      "title": "New York Yankees @ Minnesota Twins - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16685893880376",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16685893880376",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/48260507.jpg",
-      "source_url": "https://mlblive.net/new-york-yankees-minnesota-twins-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10926",
-      "title": "Milwaukee Brewers @ Pittsburgh Pirates - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16179371838124",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16179371838124",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/93280289.jpg",
-      "source_url": "https://mlblive.net/milwaukee-brewers-pittsburgh-pirates-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10924",
-      "title": "Detroit Tigers @ Toronto Blue Jays - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16685548571192",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16685548571192",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/25071827.jpg",
-      "source_url": "https://mlblive.net/detroit-tigers-toronto-blue-jays-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10922",
-      "title": "San Francisco Giants @ St. Louis Cardinals - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16685189761592",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16685189761592",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/31667425.jpg",
-      "source_url": "https://mlblive.net/san-francisco-giants-st-louis-cardinals-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10921",
-      "title": "Chicago White Sox @ Cleveland Guardians - MLB Full Game Replay - September 16, 2026",
-      "date": "2026-09-16",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16849747511894",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16849747511894",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/96543290.jpg",
-      "source_url": "https://mlblive.net/chicago-white-sox-cleveland-guardians-mlb-full-game-replay-september-16-2026"
-    },
-    {
-      "id": "mlblive:10920",
-      "title": "Miami Marlins @ Arizona Diamondbacks - MLB Full Game Replay - September 15, 2026",
-      "date": "2026-09-15",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16167319767724",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16167319767724",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/21959531.jpg",
-      "source_url": "https://mlblive.net/miami-marlins-arizona-diamondbacks-mlb-full-game-replay-september-15-2026"
-    },
-    {
-      "id": "mlblive:10919",
-      "title": "Seattle Mariners @ Los Angeles Angels - MLB Full Game Replay - September 15, 2026",
-      "date": "2026-09-15",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16167987055276",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16167987055276",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/43022002.jpg",
-      "source_url": "https://mlblive.net/seattle-mariners-los-angeles-angels-mlb-full-game-replay-september-15-2026"
-    },
-    {
-      "id": "mlblive:10918",
-      "title": "San Diego Padres @ Colorado Rockies - MLB Full Game Replay - September 15, 2026",
-      "date": "2026-09-15",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16167583877804",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16167583877804",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/11411404.jpg",
-      "source_url": "https://mlblive.net/san-diego-padres-colorado-rockies-mlb-full-game-replay-september-15-2026"
     }
   ],
   "trackers": []
