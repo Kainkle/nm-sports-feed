@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-23T05:15:08.577941+00:00",
+  "generated_utc": "2026-09-23T05:21:22.076765+00:00",
   "window_days": 2,
   "total_events": 189,
   "competitions": [
@@ -424,7 +424,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "motogp",
+      "date": "2026-09-22",
+      "error": "URLError for https://api.motogp.pulselive.com/motogp/v1/events?seasonYear=2026: <urlopen error [Errno 104] Connection reset by peer>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
