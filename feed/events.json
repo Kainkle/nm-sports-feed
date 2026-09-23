@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-23T03:11:44.052164+00:00",
+  "generated_utc": "2026-09-23T03:21:52.432711+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:604757",
@@ -4518,7 +4518,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-23T00:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:115",
         "name": "Colorado Rockies",
@@ -4549,7 +4549,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Coors Field",
       "detail": "",
       "game_number": 1,
@@ -4870,9 +4870,9 @@
         "color": "552583"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "Halftime",
+      "detail": "5:30 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4916,9 +4916,9 @@
         "color": "b38fcf"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Moda Center",
-      "detail": "Halftime",
+      "detail": "7:36 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8727,6 +8727,20 @@
   ],
   "stories": [
     {
+      "story_id": "50010466",
+      "headline": "Drew Rasmussen shuts down Yankees to help Rays clinch AL East",
+      "summary": "Drew Rasmussen took a no-hit bid into the seventh inning as the Rays beat the Yankees 6-1 on Tuesday to clinch their fifth AL East title.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0922/7dcd3451c4c14fea869b4d63ac63b8a91378/7dcd3451c4c14fea869b4d63ac63b8a91378.jpg",
+      "published_utc": "2026-09-23T03:05:34Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50010466/drew-rasmussen-shuts-yankees-help-rays-clinch-al-east",
+      "stream_url": "",
+      "body": "NEW YORK -- Drew Rasmussen allowed his only hit in the seventh inning and struck out 11 as the Tampa Bay Rays beat the New York Yankees 6-1 on Tuesday in the second game of a day-night doubleheader to clinch their fifth American League East title.\n\nThe Rays (96-61) secured home-field advantage throughout the AL playoffs and took their first division crown since 2021, when they won 100 games. Tampa Bay also earned AL East titles in the pandemic-shortened 2020 season as well as in 2010 and 2008, when the team had its first winning season after entering the league as an expansion franchise in 1998.\n\nTampa Bay's Yandy Diaz hit two-run single off reliever John Schreiber in the seventh and had another two-run single in the ninth for his AL-leading 175th hit. The Rays opened a six-game lead over the second-place Yankees (90-67) with five to play. Tampa Bay is two games behind the Milwaukee Brewers for the best record in the majors and home-field advantage throughout the postseason.\n\nThe Rays have led the AL East since June 27 and spent 128 days in first place ahead of the Yankees, who had Aaron Judge for only 66 games due to a fractured right rib and a sore right calf that likely will keep the slugger out of next week's best-of-three wild-card series at home.\n\nAfter closer Bryan Baker retired Yankees rookie George Lombard Jr. for the final out, the Rays shook hands on the field and exchanged hugs near the dugout to start their celebration.\n\nRasmussen held the Yankees hitless until Heliot Ramos started the seventh with a double to left field. The right-hander exited after walking Jazz Chisholm Jr., but Kevin Kelly retired Austin Wells after allowing Lombard's run-scoring single.\n\nAfter finishing with three hits during a 2-0 loss in the opener, the Rays locked up the division title with a three-run seventh. Taylor Walls had a bunt single, and Diaz lined a single to center field for a 4-0 lead. Diaz added another two-run single in the ninth.\n\nIn the opener, Carlos Rodon allowed three hits in eight sharp innings as New York delayed Tampa Bay's division celebration with a 2-0 victory.\n\nWalls started the three-run seventh with a bunt single against Max Fried (5-5) when first base was left uncovered. Ryan Vilade hit an RBI groundout in the third after Diaz's fly ball moved runners to second and third.\n\nRasmussen (16-5) was nine outs from joining Matt Garza as Tampa Bay pitchers with a no-hitter when he gave up a leadoff double to Heliot Ramos on his 97th pitch. Garza held the Detroit Tigers hitless at Tropicana Field on July 26, 2010.\n\nAfter allowing Ramos' hit to left field, Rasmussen got the next two outs before walking Jazz Chisholm Jr. on a full count. Kevin Kelly entered and permitted rookie George Lombard Jr.'s RBI single before retiring Austin Wells on a groundout.\n\nRasmussen threw a career-high 114 pitches, 72 for strikes. He threw first-pitch strikes to 17 of 24 hitters and notched his fourth career double-digit strikeout game.\n\nRasmussen allowed one hit for the fourth time this year. He also yielded just one hit in six innings against the Yankees on April 12.\n\nCam Booser and Bryan Baker pitched an inning apiece to finish the three-hitter.\n\nFried allowed four runs and six hits in 6\u2154 innings.\n\nThe Yankees were held to three hits or fewer for the 13th time this year.\n\nThe Associated Press contributed to this story."
+    },
+    {
       "story_id": "50010381",
       "headline": "Caitlin Clark and Kelsey Mitchell help Fever keep home-court hope alive with 96-77 win over Lynx",
       "summary": "\u2014 Caitlin Clark had 27 points, nine assists and seven rebounds, and Kelsey Mitchell added 20 points to her WNBA single-season scoring...",
@@ -8753,20 +8767,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50010614/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0923/f45bccf8-5ed4-49ff-bfe3-21b224c2d03f/f45bccf8-5ed4-49ff-bfe3-21b224c2d03f/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50010466",
-      "headline": "Drew Rasmussen shuts down Yankees to help Rays clinch AL East",
-      "summary": "Drew Rasmussen took a no-hit bid into the seventh inning as the Rays beat the Yankees 6-1 on Tuesday to clinch their fifth AL East title.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0923/7dcd3451-c4c1-4fea-869b-4d63ac63b8a9/7dcd3451-c4c1-4fea-869b-4d63ac63b8a9.jpg",
-      "published_utc": "2026-09-23T02:51:48Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50010466/drew-rasmussen-shuts-yankees-help-rays-clinch-al-east",
-      "stream_url": "",
-      "body": "NEW YORK -- Drew Rasmussen allowed his only hit in the seventh inning and struck out 11 as the Tampa Bay Rays beat the New York Yankees 6-1 on Tuesday in the second game of a day-night doubleheader to clinch their fifth American League East title.\n\nThe Rays (96-61) secured home-field advantage throughout the American League playoffs and took their first division crown since 2021, when they won 100 games. Tampa Bay also earned AL East championships in the pandemic-shortened 2020 season along with 2010 and 2008, when the team had its first winning season after entering the league as an expansion franchise in 1998.\n\nYandy Diaz hit two-run single off reliever John Schreiber in the seventh and had another two-run single in the ninth for his AL-leading 175th hit. Tampa Bay opened a six-game lead over the second-place Yankees (90-67) with five to play. The team is two games behind the Milwaukee Brewers for the best record in the majors and home-field advantage throughout the postseason.\n\nThe Rays have led the division since June 27 and spent 128 days in first place ahead of the Yankees, who only had Aaron Judge for 66 games due to a fractured right rib and a sore right calf that likely will keep the slugger out of next week's best-of-three Wild Card Series at home.\n\nAfter closer Bryan Baker retired Yankees rookie George Lombard Jr. for the final out, the Rays shook hands on the field and exchanged hugs near the dugout to start their celebration.\n\nRasmussen held the Yankees hitless until Heliot Ramos started the seventh with a double to left field. The right-hander exited after walking Jazz Chisholm Jr., but Kevin Kelly retired Austin Wells after allowing Lombard's run-scoring single.\n\nAfter finishing with three hits during a 2-0 loss in the opener, the Rays locked up the division title with a three-run seventh. Taylor Walls had a bunt single and D\u00edaz lined a single to center field for a 4-0 lead. D\u00edaz added another two-run single in the ninth.\n\nIn the opener, Carlos Rodon allowed three hits in eight sharp innings as New York delayed Tampa Bay's division celebration with a 2-0 victory.\n\nTaylor Walls started the three-run seventh with a bunt single against Max Fried (5-5) when first base was left uncovered. Ryan Vilade hit an RBI groundout in the third after Diaz's flyball moved runners to second and third.\n\nRasmussen (16-5) was nine outs from joining Matt Garza as Tampa Bay pitchers with a no-hitter when he gave up a leadoff double to Heliot Ramos on his 97th pitch. Garza held the Detroit Tigers hitless at Tropicana Field on July 26, 2010.\n\nAfter allowing Ramos' hit to left field, Rasmussen got the next two outs before walking Jazz Chisholm Jr. on a full count. Kevin Kelly entered and permitted rookie George Lombard Jr.'s RBI single before retiring Austin Wells on a groundout.\n\nRasmussen threw a career-high 114 pitches, 72 for strikes. He threw first-pitch strikes to 17 of 24 hitters and notched his fourth career double-digit strikeout game.\n\nRasmussen allowed one hit for the fourth time this year. He also yielded just one hit in six innings against the Yankees on April 12.\n\nCam Booser and Bryan Baker pitched an inning apiece to finish the three-hitter.\n\nFried allowed four runs and six hits in 6\u2154 innings.\n\nThe Yankees were held to three hits or fewer for the 13th time this year.\n\nThe Associated Press contributed to this story."
     },
     {
       "story_id": "50010406",
@@ -8895,6 +8895,20 @@
       "body": "This is it, the weekend when we decide the two teams that will battle it out for the 2026 NRL premiership, and we have been presented with two cracking games to determine the grand finalists. On Friday night we have an attacking masterpiece when the Dolphins host the Roosters, before Sunday sees the giant-killing Knights facing the biggest giant of them all.\n\nGood luck with your tips.\n\nFriday, September 25\nDolphins vs. Sydney Roosters\nSuncorp Stadium, 7:50pm (AEST)\n\nDolphins: 1. Hamiso Tabuai-Fidow 2. Jamayne Isaako 3. Jack Bostock 4. Herbie Farnworth 5. Selwyn Cobbo 6. Kodi Nikorima 7. Isaiya Katoa 8. Thomas Flegler 9. Jeremy Marshall-King 10. Tom Gilbert 11. Max Plath 12. Kulikefu Finefeuiaki 13. Morgan Knowles Bench: 14. Kurt Donoghoe 15. Ray Stone 16. Francis Molo 17. Connelly Lemuelu 18. Felise Kaufusi 19. Brad Schneider Reserves: 20. Jake Averillo 21. Brian Pouniu 22. Tevita Naufahu\n\n- Enter your NRL Tipping Competition tips today with footytips.com.au\n\nRoosters: 1. James Tedesco 2. Daniel Tupou 3. Billy Smith 4. Robert Toia 5. Mark Nawaqanitawase 6. Daly Cherry-Evans 7. Sam Walker 8. Naufahu Whyte 9. Reece Robson 10. Lindsay Collins 11. Salesi Foketi 12. Siua Wong 13. Victor Radley Bench:14. Connor Watson 15. Angus Crichton 16. Nat Butcher 17. Spencer Leniu 18. Hugo Savala 19. Cody Ramsey Reserves: 20. Egan Butcher 21. Tommy Talau 22. Benaiah Ioelu\n\nOfficials\n\nReferee: Adam Gee Touchies: Phil Henderson, Tyson Brough\n\nBunker: Ashley Klein\n\nPrediction: The Dolphins were very impressive two weeks ago against the Warriors, restricting them to one try, before unleashing their signature attacking blitz after the break. Previously this season they have allowed teams to get away to big head starts before mounting their fightback, a ploy which just won't stand up in the finals. They appear to have taken note and their defensive work in New Zealand was outstanding. They will need to be at their very best once more against the Roosters, who have the attacking flair to cause them plenty of problems.\n\nThe Roosters were simply too good for the Sharks last week, after going very close to beating the Panthers the week before. They have plenty of experience across the park, with Daly Cherry-Evans putting in a much better performance against the Sharks in combination with the hard running Hugo Savala. Outside those two, the Roosters backline bristles with attacking weapons, with Robert Toia and Mark Nawaqanitawase in unstoppable form, James Tedesco always lurking, and Sam Walker returning at halfback.\n\nBut, as we all know, the backs don't win the big games, they just determine the score, and the Roosters have a pack that is the match of any in the league. Naufahu Whyte, Lindsay Collins and Siua Wong were at their destructive best against the Sharks. Add the menace of Victor Radley and Spencer Leniu, plus the returning Angus Crichton, and there isn't a weakness across the middle or on the edges.\n\nThe Dolphins will have to match the Roosters forwards, with Thomas Flegler, Tom Gilbert, Max Plath, Kulikefu Finefeuiaki, Ray Stone and Francis Molo all in for a big night. If they can negate the Roosters pack, we all know how devastating the Dolphins halves and backs can be.\n\nOn paper this is very difficult to pick. It is one of those games that might come down to a key error, a moment of madness, the luck of the bounce or the whims of the referee's six again calls. Whoever wins, we are sure to be treated to an entertaining clash.\n\nTip: Dolphins by 10\n\nPointsBet odds: Dolphins $1.74 (-2.5 $2) Roosters $2.10 (+2.5 $1.83)\n\nSunday, September 27\nPenrith Panthers vs. Newcastle Knights\nAccor Stadium, 4pm (AEST)\nPanthers: 1. Dylan Edwards 2. Thomas Jenkins 3. Blaize Talagi 4. Casey McLean 5. Brian To'o 6. Jack Cole 7. Nathan Cleary 8. Moses Leota 9. Mitch Kenny 10. Lindsay Smith 11. Isaiah Papali'i 12. Liam Martin 13. Isaah Yeo Bench: 14. Jack Cogger 15. Scott Sorensen 16. Liam Henry 17. Billy Phillips 18. Luke Garner 19. Billy Scott Reserves: 20. Luron Patea 21. Freddy Lussick 22. Izack Tago\n\nKnights: 1. Kalyn Ponga 2. Dominic Young 3. Dane Gagai 4. Bradman Best 5. Greg Marzhew 6. Fletcher Sharpe 7. Sandon Smith 8. Tyson Frizell 9. Phoenix Crossland 10. Cody Hopwood 11. Jermaine McEwen 12. Francis Manuleleua 13. Mathew Croker Bench: 14. Harrison Graham 15. Lachlan Crouch 16. Pasami Saulo 17. Dylan Lucas 18. Fletcher Hunt 19. Thomas Cant Reserves: 20. Kyle McCarthy 21. Elijah Leaumoana 22. Toby Winter\n\nOfficials\n\nReferee: Gerard Sutton Touchies: Matt Noyen, Daniel Luttringer\n\nBunker: Chris Butler\n\nPrediction: The best team of the 2026 season meets the hottest team of the 2026 finals in what should be another great game in front of a large crowd in Homebush.\n\nThe Panthers didn't have it all their way two weeks ago when defeating the Roosters, they were well-matched and needed a wobbly Nathan Cleary field goal to break a late deadlock. Cleary has been the focus ever since, as first he avoided suspension for a dangerous contact charge, and then set about rehabilitating an injured foot. The Panthers have proven they can win games without Cleary, but his coolness under pressure is invaluable in the biggest games.\n\nThe Knights are playing with the casino's money at this stage. After finishing last in 2025, making the finals surpassed anyone's expectations. To be playing in the Preliminary Final is an incredible achievement for coach Justin Holbrook and his team, especially considering they are without star half Dylan Brown. They simply have to keep playing the way they have been playing. Fast moving defence, free flowing ball movement from anywhere on the field, and total belief in their ability to beat anyone. Phoenix Crossland, Fletcher Sharpe, Kalyn Ponga, Bradman Best, Dan Gagai, Dom Young, the Knights have weapons across the field. Without Jacob Saifiti, they are a little light on up front, but veteran Tyson Frizell has stepped up in the middle and the Knights back-row ranks, strengthened now by the surprise return of Dylan Lucas, have been simply brilliant.\n\nThe big question is; can the Knights execute their attacking style against the best defence in the business? They played just the once this season, with the Panthers winning 44-12. We know how good the Panthers are. We have seen them dominate the big games for years. Cleary and Dylan Edwards orchestrating the attack, Isaah Yeo and Liam Martin leading the defence. The Panthers are the best team in the competition for good reason and they stand between the other three teams and the premiership title. I think they'll return to the big dance this year.\n\nTip: Panthers by 14\n\nPointsBet odds: Panthers $1.26 (-10.5 $1.95) Knights $3.80 (+10.5 $1.87)\n\nAll odds correct at time of publication. Check pointsbet.com.au for the latest."
     },
     {
+      "story_id": "50010444",
+      "headline": "White Sox beat Royals in 14-11 run fest",
+      "summary": "White Sox beat Royals in 14-11 run fest",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0923/708d4267-ad85-4ff6-bc0f-8581248a0f85/708d4267-ad85-4ff6-bc0f-8581248a0f85.jpg",
+      "published_utc": "2026-09-23T02:36:38Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50010444/white-sox-beat-royals-14-11-run-fest",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0923/708d4267-ad85-4ff6-bc0f-8581248a0f85/708d4267-ad85-4ff6-bc0f-8581248a0f85/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50010329",
       "headline": "Fever knock off the Lynx at home",
       "summary": "Fever knock off the Lynx at home",
@@ -8920,20 +8934,6 @@
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/50010474/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0923/ec8a94cf-e664-4005-895c-4c71c5ba126d/ec8a94cf-e664-4005-895c-4c71c5ba126d/playlist.m3u8",
-      "body": ""
-    },
-    {
-      "story_id": "50010444",
-      "headline": "White Sox beat Royals in 14-11 run fest",
-      "summary": "White Sox beat Royals in 14-11 run fest",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0923/708d4267-ad85-4ff6-bc0f-8581248a0f85/708d4267-ad85-4ff6-bc0f-8581248a0f85.jpg",
-      "published_utc": "2026-09-23T02:36:38Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50010444/white-sox-beat-royals-14-11-run-fest",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0923/708d4267-ad85-4ff6-bc0f-8581248a0f85/708d4267-ad85-4ff6-bc0f-8581248a0f85/playlist.m3u8",
       "body": ""
     },
     {
