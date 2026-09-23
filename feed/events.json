@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-23T01:00:00.342567+00:00",
+  "generated_utc": "2026-09-23T01:10:00.371617+00:00",
   "events": [
     {
       "event_id": "espn:rugby-league:604757",
@@ -4143,7 +4143,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "CareFirst Arena",
-      "detail": "3:00 - 3rd Quarter",
+      "detail": "7:58 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4455,9 +4455,9 @@
         "color": "33476D"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Wintrust Arena",
-      "detail": "Halftime",
+      "detail": "7:10 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4565,7 +4565,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-23T01:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:20",
         "name": "Calgary Flames",
@@ -4595,7 +4595,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Scotiabank Saddledome",
       "detail": "",
       "game_number": 1,
@@ -9065,6 +9065,40 @@
   ],
   "shows": [
     {
+      "id": "ww:4c4bc7cdfc9a8dfa7845d5f2964c4479",
+      "title": "NJPW 20260923 NJPW BATTLE LINE HOKKAIDO Road to DESTRUCTION Hokkaido Kitagas Arena Sapporo 46 9/23/2026",
+      "date": "2026-09-23",
+      "replay_url": "https://dailywrestling.cc/embed/wpjn/09-23-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/09-23-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream (English) \u2014 Live HD (CH 31)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/09-23-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (English) \u2014 Live SD (CH 32)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/09-23-2026/select-post-1/2/1",
+          "label": "Source 2 \u2013 Mstream (Japanese) \u2014 Live HD (CH 33)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/09-23-2026/select-post-1/2/2",
+          "label": "Source 2 \u2013 Mstream (Japanese) \u2014 Live SD (CH 34)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "",
+      "source_url": "https://watch-wrestling.eu/njpw-20260923-njpw-battle-line-hokkaido-road-to-destruction-hokkaido-kitagas-arena-sapporo-46-9-23-2026/4c4bc7cdfc9a8dfa7845d5f2964c4479"
+    },
+    {
       "id": "ww:f1338fdbae94a969fd5b676a2aa70a9e",
       "title": "STARDOM SILVER WEEK TOUR 2026 in SHIMONOSEKI 9/23/2026",
       "date": "2026-09-23",
@@ -9181,6 +9215,12 @@
         {
           "url": "https://dailywrestling.cc/embed/txneww/09-22-2026/select-post-1/4/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/09-22-2026/select-post-1/4/3",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         }
