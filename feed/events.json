@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-24T03:06:48.836861+00:00",
+  "generated_utc": "2026-09-24T03:16:54.898383+00:00",
   "events": [
     {
       "event_id": "mlb:824787",
@@ -3080,7 +3080,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-24T00:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:115",
         "name": "Colorado Rockies",
@@ -3111,7 +3111,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Coors Field",
       "detail": "",
       "game_number": 1,
@@ -3157,7 +3157,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Lumen Field",
-      "detail": "68'",
+      "detail": "78'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7947,6 +7947,12 @@
         {
           "url": "https://dailywrestling.cc/embed/etimanyd/09-23-2026/select-post-1/4/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/etimanyd/09-23-2026/select-post-1/4/2",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         }
