@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-24T20:30:56.504586+00:00",
+  "generated_utc": "2026-09-24T20:40:55.240782+00:00",
   "window_days": 2,
-  "total_events": 162,
+  "total_events": 164,
   "competitions": [
     {
       "competition": "aew",
@@ -408,45 +408,19 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 1,
+      "events": 3,
       "date_range": [
         "2026-09-22",
-        "2026-09-22"
+        "2026-09-26"
       ],
-      "explicit_status": 1,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "tvmaze:wwe",
-      "date": "2026-09-22",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/802/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:wwe",
-      "date": "2026-09-24",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/802/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:wwe",
-      "date": "2026-09-25",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/802/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-09-21",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/42189/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-09-22",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/42189/episodes: The read operation timed out"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
