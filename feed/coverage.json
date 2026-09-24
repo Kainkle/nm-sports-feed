@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-24T16:16:57.086567+00:00",
+  "generated_utc": "2026-09-24T16:27:10.683188+00:00",
   "window_days": 2,
   "total_events": 164,
   "competitions": [
@@ -420,13 +420,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:soccer/eng.1",
-      "date": "2026-09-22",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20260922: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
