@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-25T04:54:19.569894+00:00",
+  "generated_utc": "2026-09-25T05:04:11.981551+00:00",
   "window_days": 2,
   "total_events": 256,
   "competitions": [
@@ -165,7 +165,7 @@
       "status_coverage_pct": 100,
       "both_logos": 74,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "mma-sofa",
@@ -428,6 +428,10 @@
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
+  "live_intersection": {
+    "live_events": 0,
+    "carried": 0
+  },
   "replay_items": {
     "total": 77,
     "by_sport": {
@@ -445,9 +449,9 @@
       "afl": 2,
       "eng.1": 2,
       "f1": 2,
-      "mlb": 2,
+      "mlb": 3,
       "nba": 2,
-      "nfl": 3,
+      "nfl": 2,
       "nhl": 2,
       "rugby-league": 2,
       "uefa.champions": 2,
