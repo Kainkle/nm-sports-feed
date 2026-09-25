@@ -1,707 +1,6 @@
 {
-  "generated_utc": "2026-09-24T23:53:51.404338+00:00",
+  "generated_utc": "2026-09-25T00:03:48.929632+00:00",
   "events": [
-    {
-      "event_id": "mlb:824787",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-21T22:35:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:110",
-        "name": "Baltimore Orioles",
-        "abbrev": "BAL",
-        "logo": "https://www.mlbstatic.com/team-logos/110.svg",
-        "logo_dark": null,
-        "aliases": [
-          "BAL",
-          "Baltimore",
-          "Baltimore Orioles",
-          "Orioles"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:141",
-        "name": "Toronto Blue Jays",
-        "abbrev": "TOR",
-        "logo": "https://www.mlbstatic.com/team-logos/141.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Jays",
-          "TOR",
-          "Toronto",
-          "Toronto Blue Jays"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Oriole Park at Camden Yards",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "p7CWj6QLcHM",
-      "replay_url": "https://ok.ru/videoembed/16238064831148",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16238064831148",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/75879341.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:824221",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-21T22:40:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:116",
-        "name": "Detroit Tigers",
-        "abbrev": "DET",
-        "logo": "https://www.mlbstatic.com/team-logos/116.svg",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Tigers",
-          "Tigers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:120",
-        "name": "Washington Nationals",
-        "abbrev": "WSH",
-        "logo": "https://www.mlbstatic.com/team-logos/120.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Nationals",
-          "WSH",
-          "Washington",
-          "Washington Nationals"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Comerica Park",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "IzdsBphpsXg",
-      "replay_url": "https://ok.ru/videoembed/16237345114796",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16237345114796",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/57606383.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010016",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-21T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:5",
-        "name": "Pittsburgh Penguins",
-        "abbrev": "PIT",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
-        "aliases": [
-          "PIT",
-          "Penguins",
-          "Pittsburgh",
-          "Pittsburgh Penguins"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:7",
-        "name": "Buffalo Sabres",
-        "abbrev": "BUF",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
-        "aliases": [
-          "BUF",
-          "Buffalo",
-          "Buffalo Sabres",
-          "Sabres"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "PPG Paints Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "ByzMDRzSM4c",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010017",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-21T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:29",
-        "name": "Columbus Blue Jackets",
-        "abbrev": "CBJ",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
-        "aliases": [
-          "Blue Jackets",
-          "CBJ",
-          "Columbus",
-          "Columbus Blue Jackets"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:17",
-        "name": "Detroit Red Wings",
-        "abbrev": "DET",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Red Wings",
-          "Red Wings"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "Nationwide Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010019",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-21T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:1",
-        "name": "New Jersey Devils",
-        "abbrev": "NJD",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
-        "aliases": [
-          "Devils",
-          "NJD",
-          "New Jersey",
-          "New Jersey Devils"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:3",
-        "name": "New York Rangers",
-        "abbrev": "NYR",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
-        "aliases": [
-          "NYR",
-          "New York",
-          "New York Rangers",
-          "Rangers"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "Prudential Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "CBp_JhYjGNg",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010020",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-21T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:15",
-        "name": "Washington Capitals",
-        "abbrev": "WSH",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
-        "aliases": [
-          "Capitals",
-          "WSH",
-          "Washington",
-          "Washington Capitals"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:4",
-        "name": "Philadelphia Flyers",
-        "abbrev": "PHI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
-        "aliases": [
-          "Flyers",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Flyers"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "GIANT Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "I4i0SLplUT0",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010022",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-21T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:8",
-        "name": "Montr\u00e9al Canadiens",
-        "abbrev": "MTL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
-        "aliases": [
-          "Canadiens",
-          "MTL",
-          "Montr\u00e9al",
-          "Montr\u00e9al Canadiens"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:9",
-        "name": "Ottawa Senators",
-        "abbrev": "OTT",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
-        "aliases": [
-          "OTT",
-          "Ottawa",
-          "Ottawa Senators",
-          "Senators"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "Colis\u00e9e Vid\u00e9otron",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "_77j_9aVRL4",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010015",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-22T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:52",
-        "name": "Winnipeg Jets",
-        "abbrev": "WPG",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
-        "aliases": [
-          "Jets",
-          "WPG",
-          "Winnipeg",
-          "Winnipeg Jets"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:21",
-        "name": "Colorado Avalanche",
-        "abbrev": "COL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
-        "aliases": [
-          "Avalanche",
-          "COL",
-          "Colorado",
-          "Colorado Avalanche"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "Canada Life Centre",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010018",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-22T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:16",
-        "name": "Chicago Blackhawks",
-        "abbrev": "CHI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
-        "aliases": [
-          "Blackhawks",
-          "CHI",
-          "Chicago",
-          "Chicago Blackhawks"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:30",
-        "name": "Minnesota Wild",
-        "abbrev": "MIN",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Wild",
-          "Wild"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "United Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026010021",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-09-22T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:25",
-        "name": "Dallas Stars",
-        "abbrev": "DAL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Stars",
-          "Stars"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:19",
-        "name": "St. Louis Blues",
-        "abbrev": "STL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
-        "aliases": [
-          "Blues",
-          "STL",
-          "St. Louis",
-          "St. Louis Blues"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "FINAL/OK",
-      "venue": "American Airlines Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "tvmaze:802:s33e38",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-09-22T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:802",
-        "name": "WWE Monday Night RAW",
-        "abbrev": "RAW",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Monday Night RAW"
-    },
-    {
-      "event_id": "espn:basketball:401857206",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-09-22T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:9",
-        "name": "New York Liberty",
-        "abbrev": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png",
-        "logo_dark": null,
-        "aliases": [
-          "Liberty",
-          "NY",
-          "New York",
-          "New York Liberty"
-        ],
-        "color": "86cebc"
-      },
-      "away": {
-        "id": "espn:20",
-        "name": "Atlanta Dream",
-        "abbrev": "ATL",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
-        "logo_dark": null,
-        "aliases": [
-          "ATL",
-          "Atlanta",
-          "Atlanta Dream",
-          "Dream"
-        ],
-        "color": "e31837"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Barclays Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872947",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-22T00:15Z",
-      "status": "final",
-      "home": {
-        "id": "espn:14",
-        "name": "Los Angeles Rams",
-        "abbrev": "LAR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-        "logo_dark": null,
-        "aliases": [
-          "LAR",
-          "Los Angeles",
-          "Los Angeles Rams",
-          "Rams"
-        ],
-        "color": "003594"
-      },
-      "away": {
-        "id": "espn:19",
-        "name": "New York Giants",
-        "abbrev": "NYG",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "NYG",
-          "New York",
-          "New York Giants"
-        ],
-        "color": "003c7f"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "SoFi Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "qg9GZqmTRto",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:823169",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-09-22T01:45:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:137",
-        "name": "San Francisco Giants",
-        "abbrev": "SF",
-        "logo": "https://www.mlbstatic.com/team-logos/137.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "SF",
-          "San Francisco",
-          "San Francisco Giants"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:142",
-        "name": "Minnesota Twins",
-        "abbrev": "MIN",
-        "logo": "https://www.mlbstatic.com/team-logos/142.svg",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Twins",
-          "Twins"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "Oracle Park",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "WxZtfepcDVI",
-      "replay_url": "https://ok.ru/videoembed/16237959842476",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16237959842476",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://mlblive.net/_pu/109/96160305.jpg",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401857207",
-      "sport": "basketball",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "start_utc": "2026-09-22T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:11",
-        "name": "Phoenix Mercury",
-        "abbrev": "PHX",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mercury",
-          "PHX",
-          "Phoenix",
-          "Phoenix Mercury"
-        ],
-        "color": "3c286e"
-      },
-      "away": {
-        "id": "espn:3",
-        "name": "Dallas Wings",
-        "abbrev": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
-        "logo_dark": null,
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Wings",
-          "Wings"
-        ],
-        "color": "002b5c"
-      },
-      "source": "espn:basketball/wnba",
-      "source_status": "post/Final",
-      "venue": "Mortgage Matchup Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "mlb:823543",
       "sport": "baseball",
@@ -4178,9 +3477,9 @@
         "color": "33476D"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Mohegan Sun Arena",
-      "detail": "1:54 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4320,7 +3619,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Brooks Stadium (SC)",
-      "detail": "9:35 - 1st Quarter",
+      "detail": "5:55 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4364,9 +3663,9 @@
         "color": "5091cd"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Capital One Arena",
-      "detail": "End of 1st Quarter",
+      "detail": "6:31 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6369,6 +5668,1043 @@
       "card": ""
     },
     {
+      "event_id": "espn:australian-football:1133711",
+      "sport": "australian-football",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "start_utc": "2026-09-26T04:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:1",
+        "name": "Fremantle",
+        "abbrev": "FRE",
+        "logo": "https://a.espncdn.com/i/teamlogos/afl/500/fre.png",
+        "logo_dark": null,
+        "aliases": [
+          "FRE",
+          "Fremantle"
+        ],
+        "color": "5d368f"
+      },
+      "away": {
+        "id": "espn:11",
+        "name": "Brisbane Lions",
+        "abbrev": "BL",
+        "logo": "https://a.espncdn.com/i/teamlogos/afl/500/bl.png",
+        "logo_dark": null,
+        "aliases": [
+          "BL",
+          "Brisbane Lions"
+        ],
+        "color": "6d144a"
+      },
+      "source": "espn:australian-football/afl",
+      "source_status": "pre/Scheduled",
+      "venue": "MCG",
+      "detail": "Fri, September 25th at 9:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604035",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-09-26T11:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25958",
+        "name": "Lions",
+        "abbrev": "LIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25958.png",
+        "logo_dark": null,
+        "aliases": [
+          "LIO",
+          "Lions"
+        ],
+        "color": "CC0000"
+      },
+      "away": {
+        "id": "espn:25924",
+        "name": "Leinster",
+        "abbrev": "LEI",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25924.png",
+        "logo_dark": null,
+        "aliases": [
+          "LEI",
+          "Leinster"
+        ],
+        "color": "0000FF"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Ellis Park",
+      "detail": "Sat, September 26th at 7:30 AM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604036",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-09-26T14:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25961",
+        "name": "Sharks",
+        "abbrev": "SHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25961.png",
+        "logo_dark": null,
+        "aliases": [
+          "SHA",
+          "Sharks"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:25968",
+        "name": "Ospreys",
+        "abbrev": "OSP",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25968.png",
+        "logo_dark": null,
+        "aliases": [
+          "OSP",
+          "Ospreys"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Hollywoodbets Kings Park",
+      "detail": "Sat, September 26th at 10:00 AM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856704",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2633",
+        "name": "Tennessee Volunteers",
+        "abbrev": "TENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+        "logo_dark": null,
+        "aliases": [
+          "TENN",
+          "Tennessee",
+          "Tennessee Volunteers",
+          "Volunteers"
+        ],
+        "color": "ff8200"
+      },
+      "away": {
+        "id": "espn:251",
+        "name": "Texas Longhorns",
+        "abbrev": "TEX",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+        "logo_dark": null,
+        "aliases": [
+          "Longhorns",
+          "TEX",
+          "Texas",
+          "Texas Longhorns"
+        ],
+        "color": "af5c37"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Neyland Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858465",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:356",
+        "name": "Illinois Fighting Illini",
+        "abbrev": "ILL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Illini",
+          "ILL",
+          "Illinois",
+          "Illinois Fighting Illini"
+        ],
+        "color": "ff5f05"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Ohio Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856805",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "away": {
+        "id": "espn:2534",
+        "name": "Sam Houston Bearkats",
+        "abbrev": "SHSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearkats",
+          "SHSU",
+          "Sam Houston",
+          "Sam Houston Bearkats"
+        ],
+        "color": "f56423"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Galaxy Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858243",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "away": {
+        "id": "espn:154",
+        "name": "Wake Forest Demon Deacons",
+        "abbrev": "WAKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+        "logo_dark": null,
+        "aliases": [
+          "Demon Deacons",
+          "WAKE",
+          "Wake Forest",
+          "Wake Forest Demon Deacons"
+        ],
+        "color": "ceb888"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "L&N Federal Credit Union Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856813",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:239",
+        "name": "Baylor Bears",
+        "abbrev": "BAY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAY",
+          "Baylor",
+          "Baylor Bears",
+          "Bears"
+        ],
+        "color": "154734"
+      },
+      "away": {
+        "id": "espn:38",
+        "name": "Colorado Buffaloes",
+        "abbrev": "COLO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buffaloes",
+          "COLO",
+          "Colorado",
+          "Colorado Buffaloes"
+        ],
+        "color": "cfb87c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "McLane Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858236",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:221",
+        "name": "Pittsburgh Panthers",
+        "abbrev": "PITT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+        "logo_dark": null,
+        "aliases": [
+          "PITT",
+          "Panthers",
+          "Pitt",
+          "Pittsburgh",
+          "Pittsburgh Panthers"
+        ],
+        "color": "003594"
+      },
+      "away": {
+        "id": "espn:2083",
+        "name": "Bucknell Bison",
+        "abbrev": "BUCK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUCK",
+          "Bison",
+          "Bucknell",
+          "Bucknell Bison"
+        ],
+        "color": "000060"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Acrisure Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858242",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:103",
+        "name": "Boston College Eagles",
+        "abbrev": "BC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+        "logo_dark": null,
+        "aliases": [
+          "BC",
+          "Boston College",
+          "Boston College Eagles",
+          "Eagles"
+        ],
+        "color": "8c2232"
+      },
+      "away": {
+        "id": "espn:259",
+        "name": "Virginia Tech Hokies",
+        "abbrev": "VT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hokies",
+          "VT",
+          "Virginia Tech",
+          "Virginia Tech Hokies"
+        ],
+        "color": "6a2c3e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Alumni Stadium (Chestnut Hill, MA)",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860893",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2649",
+        "name": "Toledo Rockets",
+        "abbrev": "TOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rockets",
+          "TOL",
+          "Toledo",
+          "Toledo Rockets"
+        ],
+        "color": "0b2240"
+      },
+      "away": {
+        "id": "espn:21",
+        "name": "San Diego State Aztecs",
+        "abbrev": "SDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aztecs",
+          "SDSU",
+          "San Diego St",
+          "San Diego State",
+          "San Diego State Aztecs"
+        ],
+        "color": "a6192e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Glass Bowl",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860896",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2636",
+        "name": "UTSA Roadrunners",
+        "abbrev": "UTSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+        "logo_dark": null,
+        "aliases": [
+          "Roadrunners",
+          "UTSA",
+          "UTSA Roadrunners"
+        ],
+        "color": "0c2340"
+      },
+      "away": {
+        "id": "espn:36",
+        "name": "Colorado State Rams",
+        "abbrev": "CSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+        "logo_dark": null,
+        "aliases": [
+          "CSU",
+          "Colorado St",
+          "Colorado State",
+          "Colorado State Rams",
+          "Rams"
+        ],
+        "color": "004c23"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Alamodome",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864512",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2006",
+        "name": "Akron Zips",
+        "abbrev": "AKR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+        "logo_dark": null,
+        "aliases": [
+          "AKR",
+          "Akron",
+          "Akron Zips",
+          "Zips"
+        ],
+        "color": "041e42"
+      },
+      "away": {
+        "id": "espn:2439",
+        "name": "UNLV Rebels",
+        "abbrev": "UNLV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rebels",
+          "UNLV",
+          "UNLV Rebels"
+        ],
+        "color": "cf0a2c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "InfoCision Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866425",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2309",
+        "name": "Kent State Golden Flashes",
+        "abbrev": "KENT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Flashes",
+          "KENT",
+          "Kent State",
+          "Kent State Golden Flashes"
+        ],
+        "color": "002664"
+      },
+      "away": {
+        "id": "espn:2050",
+        "name": "Ball State Cardinals",
+        "abbrev": "BALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+        "logo_dark": null,
+        "aliases": [
+          "BALL",
+          "Ball State",
+          "Ball State Cardinals",
+          "Cardinals"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Zoeller Field at Dix Stadium",
+      "detail": "Sat, September 26th at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604037",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-09-26T16:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25925",
+        "name": "Munster",
+        "abbrev": "MUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25925.png",
+        "logo_dark": null,
+        "aliases": [
+          "MUN",
+          "Munster"
+        ],
+        "color": "FF0000"
+      },
+      "away": {
+        "id": "espn:25952",
+        "name": "Glasgow Warriors",
+        "abbrev": "GLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25952.png",
+        "logo_dark": null,
+        "aliases": [
+          "GLA",
+          "Glasgow Warriors"
+        ],
+        "color": "000033"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Thomond Park",
+      "detail": "Sat, September 26th at 12:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604038",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-09-26T16:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:167124",
+        "name": "Zebre",
+        "abbrev": "ZEB",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/167124.png",
+        "logo_dark": null,
+        "aliases": [
+          "ZEB",
+          "Zebre"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:25953",
+        "name": "Bulls",
+        "abbrev": "BUL",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25953.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUL",
+          "Bulls"
+        ],
+        "color": "003366"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Stadio Sergio Lanfranchi",
+      "detail": "Sat, September 26th at 12:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864576",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T16:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:96",
+        "name": "Kentucky Wildcats",
+        "abbrev": "UK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kentucky",
+          "Kentucky Wildcats",
+          "UK",
+          "Wildcats"
+        ],
+        "color": "0033a0"
+      },
+      "away": {
+        "id": "espn:6",
+        "name": "South Alabama Jaguars",
+        "abbrev": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jaguars",
+          "South Alabama",
+          "South Alabama Jaguars",
+          "USA"
+        ],
+        "color": "00205b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Kroger Field",
+      "detail": "Sat, September 26th at 12:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866427",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T17:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2199",
+        "name": "Eastern Michigan Eagles",
+        "abbrev": "EMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Michigan",
+          "EMU",
+          "Eagles",
+          "Eastern Michigan",
+          "Eastern Michigan Eagles"
+        ],
+        "color": "006938"
+      },
+      "away": {
+        "id": "espn:2815",
+        "name": "Lindenwood Lions",
+        "abbrev": "LIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
+        "logo_dark": null,
+        "aliases": [
+          "LIN",
+          "Lindenwood",
+          "Lindenwood Lions",
+          "Lions"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Rynearson Stadium",
+      "detail": "Sat, September 26th at 1:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824219",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T17:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:116",
+        "name": "Detroit Tigers",
+        "abbrev": "DET",
+        "logo": "https://www.mlbstatic.com/team-logos/116.svg",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Tigers",
+          "Tigers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:134",
+        "name": "Pittsburgh Pirates",
+        "abbrev": "PIT",
+        "logo": "https://www.mlbstatic.com/team-logos/134.svg",
+        "logo_dark": null,
+        "aliases": [
+          "PIT",
+          "Pirates",
+          "Pittsburgh",
+          "Pittsburgh Pirates"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Comerica Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858462",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T17:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:120",
+        "name": "Maryland Terrapins",
+        "abbrev": "MD",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+        "logo_dark": null,
+        "aliases": [
+          "MD",
+          "Maryland",
+          "Maryland Terrapins",
+          "Terrapins"
+        ],
+        "color": "ce1126"
+      },
+      "away": {
+        "id": "espn:26",
+        "name": "UCLA Bruins",
+        "abbrev": "UCLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bruins",
+          "UCLA",
+          "UCLA Bruins"
+        ],
+        "color": "2774ae"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "SECU Stadium",
+      "detail": "Sat, September 26th at 1:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858467",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T18:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2509",
+        "name": "Purdue Boilermakers",
+        "abbrev": "PUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+        "logo_dark": null,
+        "aliases": [
+          "Boilermakers",
+          "PUR",
+          "Purdue",
+          "Purdue Boilermakers"
+        ],
+        "color": "ceb888"
+      },
+      "away": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Ross-Ade Stadium",
+      "detail": "Sat, September 26th at 2:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864511",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T18:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2247",
+        "name": "Georgia State Panthers",
+        "abbrev": "GAST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+        "logo_dark": null,
+        "aliases": [
+          "GAST",
+          "Georgia St",
+          "Georgia State",
+          "Georgia State Panthers",
+          "Panthers"
+        ],
+        "color": "0039a6"
+      },
+      "away": {
+        "id": "espn:2459",
+        "name": "Northern Illinois Huskies",
+        "abbrev": "NIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "N Illinois",
+          "NIU",
+          "Northern Illinois",
+          "Northern Illinois Huskies"
+        ],
+        "color": "c8102e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Center Parc Stadium",
+      "detail": "Sat, September 26th at 2:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604039",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-09-26T18:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25966",
+        "name": "Scarlets",
+        "abbrev": "SCA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25966.png",
+        "logo_dark": null,
+        "aliases": [
+          "SCA",
+          "Scarlets"
+        ],
+        "color": "CC0000"
+      },
+      "away": {
+        "id": "espn:25965",
+        "name": "Cardiff Blues",
+        "abbrev": "CAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25965.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAR",
+          "Cardiff Blues"
+        ],
+        "color": "0000FF"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Parc y Scarlets",
+      "detail": "Sat, September 26th at 2:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026010053",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6461,6 +6797,700 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858237",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:52",
+        "name": "Florida State Seminoles",
+        "abbrev": "FSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+        "logo_dark": null,
+        "aliases": [
+          "FSU",
+          "Florida St",
+          "Florida State",
+          "Florida State Seminoles",
+          "Seminoles"
+        ],
+        "color": "782f40"
+      },
+      "away": {
+        "id": "espn:2110",
+        "name": "Central Arkansas Bears",
+        "abbrev": "CARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "C Arkansas",
+          "CARK",
+          "Central Arkansas",
+          "Central Arkansas Bears"
+        ],
+        "color": "a7a9ac"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Doak Campbell Stadium",
+      "detail": "Sat, September 26th at 3:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864510",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2751",
+        "name": "Wyoming Cowboys",
+        "abbrev": "WYO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "WYO",
+          "Wyoming",
+          "Wyoming Cowboys"
+        ],
+        "color": "492f24"
+      },
+      "away": {
+        "id": "espn:62",
+        "name": "Hawai'i Rainbow Warriors",
+        "abbrev": "HAW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+        "logo_dark": null,
+        "aliases": [
+          "HAW",
+          "Hawai'i",
+          "Hawai'i Rainbow Warriors",
+          "Rainbow Warriors"
+        ],
+        "color": "005737"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "War Memorial Stadium",
+      "detail": "Sat, September 26th at 3:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:822759",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T19:07:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:141",
+        "name": "Toronto Blue Jays",
+        "abbrev": "TOR",
+        "logo": "https://www.mlbstatic.com/team-logos/141.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Jays",
+          "TOR",
+          "Toronto",
+          "Toronto Blue Jays"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:113",
+        "name": "Cincinnati Reds",
+        "abbrev": "CIN",
+        "logo": "https://www.mlbstatic.com/team-logos/113.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Reds",
+          "Reds"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Rogers Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856700",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:61",
+        "name": "Georgia Bulldogs",
+        "abbrev": "UGA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "Georgia",
+          "Georgia Bulldogs",
+          "UGA"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:201",
+        "name": "Oklahoma Sooners",
+        "abbrev": "OU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+        "logo_dark": null,
+        "aliases": [
+          "OU",
+          "Oklahoma",
+          "Oklahoma Sooners",
+          "Sooners"
+        ],
+        "color": "990000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Sanford Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856699",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "away": {
+        "id": "espn:145",
+        "name": "Ole Miss Rebels",
+        "abbrev": "MISS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+        "logo_dark": null,
+        "aliases": [
+          "MISS",
+          "Ole Miss",
+          "Ole Miss Rebels",
+          "Rebels"
+        ],
+        "color": "13294b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Ben Hill Griffin Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856816",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:66",
+        "name": "Iowa State Cyclones",
+        "abbrev": "ISU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cyclones",
+          "ISU",
+          "Iowa State",
+          "Iowa State Cyclones"
+        ],
+        "color": "ae192d"
+      },
+      "away": {
+        "id": "espn:254",
+        "name": "Utah Utes",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+        "logo_dark": null,
+        "aliases": [
+          "UTAH",
+          "Utah",
+          "Utah Utes",
+          "Utes"
+        ],
+        "color": "be0000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Jack Trice Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858463",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:130",
+        "name": "Michigan Wolverines",
+        "abbrev": "MICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+        "logo_dark": null,
+        "aliases": [
+          "MICH",
+          "Michigan",
+          "Michigan Wolverines",
+          "Wolverines"
+        ],
+        "color": "00274c"
+      },
+      "away": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Michigan Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856815",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2116",
+        "name": "UCF Knights",
+        "abbrev": "UCF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knights",
+          "UCF",
+          "UCF Knights"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:2628",
+        "name": "TCU Horned Frogs",
+        "abbrev": "TCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+        "logo_dark": null,
+        "aliases": [
+          "Horned Frogs",
+          "TCU",
+          "TCU Horned Frogs"
+        ],
+        "color": "4d1979"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Acrisure Bounce House",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858244",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:150",
+        "name": "Duke Blue Devils",
+        "abbrev": "DUKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Devils",
+          "DUKE",
+          "Duke",
+          "Duke Blue Devils"
+        ],
+        "color": "00539b"
+      },
+      "away": {
+        "id": "espn:2729",
+        "name": "William & Mary Tribe",
+        "abbrev": "W&M",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png",
+        "logo_dark": null,
+        "aliases": [
+          "Tribe",
+          "W&M",
+          "William & Mary",
+          "William & Mary Tribe"
+        ],
+        "color": "115740"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Wallace Wade Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860897",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2711",
+        "name": "Western Michigan Broncos",
+        "abbrev": "WMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+        "logo_dark": null,
+        "aliases": [
+          "Broncos",
+          "W Michigan",
+          "WMU",
+          "Western Michigan",
+          "Western Michigan Broncos"
+        ],
+        "color": "532e1f"
+      },
+      "away": {
+        "id": "espn:68",
+        "name": "Boise State Broncos",
+        "abbrev": "BOIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOIS",
+          "Boise St",
+          "Boise State",
+          "Boise State Broncos",
+          "Broncos"
+        ],
+        "color": "0033a0"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Waldo Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401861970",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:193",
+        "name": "Miami (OH) RedHawks",
+        "abbrev": "M-OH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "M-OH",
+          "Miami (OH)",
+          "Miami (OH) RedHawks",
+          "Miami OH",
+          "RedHawks"
+        ],
+        "color": "c41230"
+      },
+      "away": {
+        "id": "espn:41",
+        "name": "UConn Huskies",
+        "abbrev": "CONN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+        "logo_dark": null,
+        "aliases": [
+          "CONN",
+          "Huskies",
+          "UConn",
+          "UConn Huskies"
+        ],
+        "color": "0c2340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Yager Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864579",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:166",
+        "name": "New Mexico State Aggies",
+        "abbrev": "NMSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "NMSU",
+          "New Mexico St",
+          "New Mexico State",
+          "New Mexico State Aggies"
+        ],
+        "color": "7e141b"
+      },
+      "away": {
+        "id": "espn:167",
+        "name": "New Mexico Lobos",
+        "abbrev": "UNM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lobos",
+          "New Mexico",
+          "New Mexico Lobos",
+          "UNM"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Aggie Memorial Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866426",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2084",
+        "name": "Buffalo Bulls",
+        "abbrev": "BUFF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUFF",
+          "Buffalo",
+          "Buffalo Bulls",
+          "Bulls"
+        ],
+        "color": "005bbb"
+      },
+      "away": {
+        "id": "espn:2523",
+        "name": "Robert Morris Colonials",
+        "abbrev": "RMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
+        "logo_dark": null,
+        "aliases": [
+          "Colonials",
+          "RMU",
+          "Robert Morris",
+          "Robert Morris Colonials"
+        ],
+        "color": "00214D"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Broadview Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866428",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:195",
+        "name": "Ohio Bobcats",
+        "abbrev": "OHIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "OHIO",
+          "Ohio",
+          "Ohio Bobcats"
+        ],
+        "color": "154734"
+      },
+      "away": {
+        "id": "espn:284",
+        "name": "Stonehill Skyhawks",
+        "abbrev": "STO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/284.png",
+        "logo_dark": null,
+        "aliases": [
+          "STO",
+          "Skyhawks",
+          "Stonehill",
+          "Stonehill Skyhawks"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Peden Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401868188",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:276",
+        "name": "Marshall Thundering Herd",
+        "abbrev": "MRSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+        "logo_dark": null,
+        "aliases": [
+          "MRSH",
+          "Marshall",
+          "Marshall Thundering Herd",
+          "Thundering Herd"
+        ],
+        "color": "00b140"
+      },
+      "away": {
+        "id": "espn:2241",
+        "name": "Gardner-Webb Runnin' Bulldogs",
+        "abbrev": "GWEB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
+        "logo_dark": null,
+        "aliases": [
+          "GWEB",
+          "Gardner-Webb",
+          "Gardner-Webb Runnin' Bulldogs",
+          "Runnin' Bulldogs"
+        ],
+        "color": "c12535"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Joan C. Edwards Stadium",
+      "detail": "Sat, September 26th at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026010052",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6499,6 +7529,332 @@
       "source_status": "FUT/OK",
       "venue": "Crypto.com Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856806",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:290",
+        "name": "Georgia Southern Eagles",
+        "abbrev": "GASO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "GA Southern",
+          "GASO",
+          "Georgia Southern",
+          "Georgia Southern Eagles"
+        ],
+        "color": "041e42"
+      },
+      "away": {
+        "id": "espn:248",
+        "name": "Houston Cougars",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "HOU",
+          "Houston",
+          "Houston Cougars"
+        ],
+        "color": "c8102e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Allen E. Paulson Stadium",
+      "detail": "Sat, September 26th at 4:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862781",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:151",
+        "name": "East Carolina Pirates",
+        "abbrev": "ECU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+        "logo_dark": null,
+        "aliases": [
+          "ECU",
+          "East Carolina",
+          "East Carolina Pirates",
+          "Pirates"
+        ],
+        "color": "582c83"
+      },
+      "away": {
+        "id": "espn:2428",
+        "name": "North Carolina Central Eagles",
+        "abbrev": "NCCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "NC Central",
+          "NCCU",
+          "North Carolina Central",
+          "North Carolina Central Eagles"
+        ],
+        "color": "880023"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Dowdy-Ficklen Stadium",
+      "detail": "Sat, September 26th at 4:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:822678",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T20:05:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:120",
+        "name": "Washington Nationals",
+        "abbrev": "WSH",
+        "logo": "https://www.mlbstatic.com/team-logos/120.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Nationals",
+          "WSH",
+          "Washington",
+          "Washington Nationals"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:121",
+        "name": "New York Mets",
+        "abbrev": "NYM",
+        "logo": "https://www.mlbstatic.com/team-logos/121.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Mets",
+          "NY Mets",
+          "NYM",
+          "New York",
+          "New York Mets"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Nationals Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823165",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T20:05:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:137",
+        "name": "San Francisco Giants",
+        "abbrev": "SF",
+        "logo": "https://www.mlbstatic.com/team-logos/137.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Giants",
+          "SF",
+          "San Francisco",
+          "San Francisco Giants"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:119",
+        "name": "Los Angeles Dodgers",
+        "abbrev": "LAD",
+        "logo": "https://www.mlbstatic.com/team-logos/119.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Dodgers",
+          "LA Dodgers",
+          "LAD",
+          "Los Angeles",
+          "Los Angeles Dodgers"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Oracle Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823653",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T20:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:142",
+        "name": "Minnesota Twins",
+        "abbrev": "MIN",
+        "logo": "https://www.mlbstatic.com/team-logos/142.svg",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Twins",
+          "Twins"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:140",
+        "name": "Texas Rangers",
+        "abbrev": "TEX",
+        "logo": "https://www.mlbstatic.com/team-logos/140.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rangers",
+          "TEX",
+          "Texas",
+          "Texas Rangers"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Target Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823813",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T20:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:146",
+        "name": "Miami Marlins",
+        "abbrev": "MIA",
+        "logo": "https://www.mlbstatic.com/team-logos/146.svg",
+        "logo_dark": null,
+        "aliases": [
+          "MIA",
+          "Marlins",
+          "Miami",
+          "Miami Marlins"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:144",
+        "name": "Atlanta Braves",
+        "abbrev": "ATL",
+        "logo": "https://www.mlbstatic.com/team-logos/144.svg",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta Braves",
+          "Braves"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "loanDepot park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856698",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T20:15Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2",
+        "name": "Auburn Tigers",
+        "abbrev": "AUB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+        "logo_dark": null,
+        "aliases": [
+          "AUB",
+          "Auburn",
+          "Auburn Tigers",
+          "Tigers"
+        ],
+        "color": "002b5c"
+      },
+      "away": {
+        "id": "espn:238",
+        "name": "Vanderbilt Commodores",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+        "logo_dark": null,
+        "aliases": [
+          "Commodores",
+          "VAN",
+          "Vanderbilt",
+          "Vanderbilt Commodores"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Jordan-Hare Stadium",
+      "detail": "Sat, September 26th at 4:15 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6599,6 +7955,185 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858466",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T21:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:213",
+        "name": "Penn State Nittany Lions",
+        "abbrev": "PSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+        "logo_dark": null,
+        "aliases": [
+          "Nittany Lions",
+          "PSU",
+          "Penn State",
+          "Penn State Nittany Lions"
+        ],
+        "color": "061440"
+      },
+      "away": {
+        "id": "espn:275",
+        "name": "Wisconsin Badgers",
+        "abbrev": "WIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+        "logo_dark": null,
+        "aliases": [
+          "Badgers",
+          "WIS",
+          "Wisconsin",
+          "Wisconsin Badgers"
+        ],
+        "color": "a00000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Beaver Stadium",
+      "detail": "Sat, September 26th at 5:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858464",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T21:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:127",
+        "name": "Michigan State Spartans",
+        "abbrev": "MSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+        "logo_dark": null,
+        "aliases": [
+          "MSU",
+          "Michigan St",
+          "Michigan State",
+          "Michigan State Spartans",
+          "Spartans"
+        ],
+        "color": "173f35"
+      },
+      "away": {
+        "id": "espn:158",
+        "name": "Nebraska Cornhuskers",
+        "abbrev": "NEB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cornhuskers",
+          "NEB",
+          "Nebraska",
+          "Nebraska Cornhuskers"
+        ],
+        "color": "e31937"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Spartan Stadium",
+      "detail": "Sat, September 26th at 5:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862785",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T21:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:189",
+        "name": "Bowling Green Falcons",
+        "abbrev": "BGSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+        "logo_dark": null,
+        "aliases": [
+          "BGSU",
+          "Bowling Green",
+          "Bowling Green Falcons",
+          "Falcons"
+        ],
+        "color": "fd5000"
+      },
+      "away": {
+        "id": "espn:58",
+        "name": "South Florida Bulls",
+        "abbrev": "USF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "South Florida",
+          "South Florida Bulls",
+          "USF"
+        ],
+        "color": "006747"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Doyt L. Perry Stadium",
+      "detail": "Sat, September 26th at 5:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:mma:600061266",
+      "sport": "mma",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "start_utc": "2026-09-26T21:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:None",
+        "name": "Yazmin Jauregui",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+        "logo_dark": null,
+        "aliases": [
+          "Yazmin Jauregui"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Vanessa Demopoulos",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Vanessa Demopoulos"
+        ],
+        "color": null
+      },
+      "source": "espn:mma/ufc",
+      "source_status": "pre/Scheduled",
+      "venue": "Meta APEX",
+      "detail": "Scheduled",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "UFC Fight Night: Rosas Jr. vs. Barcelos"
+    },
+    {
       "event_id": "nhl:2026010059",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6637,6 +8172,285 @@
       "source_status": "FUT/OK",
       "venue": "Amerant Bank Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858239",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:258",
+        "name": "Virginia Cavaliers",
+        "abbrev": "UVA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cavaliers",
+          "UVA",
+          "Virginia",
+          "Virginia Cavaliers"
+        ],
+        "color": "232d4b"
+      },
+      "away": {
+        "id": "espn:48",
+        "name": "Delaware Blue Hens",
+        "abbrev": "DEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Hens",
+          "DEL",
+          "Delaware",
+          "Delaware Blue Hens"
+        ],
+        "color": "00539f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Scott Stadium",
+      "detail": "Sat, September 26th at 6:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860892",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:326",
+        "name": "Texas State Bobcats",
+        "abbrev": "TXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "TXST",
+          "Texas St",
+          "Texas State",
+          "Texas State Bobcats"
+        ],
+        "color": "501214"
+      },
+      "away": {
+        "id": "espn:2916",
+        "name": "Incarnate Word Cardinals",
+        "abbrev": "UIW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "Incarnate Word",
+          "Incarnate Word Cardinals",
+          "UIW"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "UFCU Stadium",
+      "detail": "Sat, September 26th at 6:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401867909",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2229",
+        "name": "Florida International Panthers",
+        "abbrev": "FIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+        "logo_dark": null,
+        "aliases": [
+          "FIU",
+          "Florida International",
+          "Florida International Panthers",
+          "Panthers"
+        ],
+        "color": "091f3f"
+      },
+      "away": {
+        "id": "espn:2341",
+        "name": "Long Island University Sharks",
+        "abbrev": "LIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2341.png",
+        "logo_dark": null,
+        "aliases": [
+          "LIU",
+          "Long Island",
+          "Long Island University",
+          "Long Island University Sharks",
+          "Sharks"
+        ],
+        "color": null
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Pitbull Stadium",
+      "detail": "Sat, September 26th at 6:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869961",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:295",
+        "name": "Old Dominion Monarchs",
+        "abbrev": "ODU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+        "logo_dark": null,
+        "aliases": [
+          "Monarchs",
+          "ODU",
+          "Old Dominion",
+          "Old Dominion Monarchs"
+        ],
+        "color": "003768"
+      },
+      "away": {
+        "id": "espn:256",
+        "name": "James Madison Dukes",
+        "abbrev": "JMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+        "logo_dark": null,
+        "aliases": [
+          "Dukes",
+          "JMU",
+          "James Madison",
+          "James Madison Dukes"
+        ],
+        "color": "450084"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "S.B. Ballard Stadium",
+      "detail": "Sat, September 26th at 6:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858238",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T22:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2390",
+        "name": "Miami Hurricanes",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hurricanes",
+          "MIA",
+          "Miami",
+          "Miami Hurricanes"
+        ],
+        "color": "f47423"
+      },
+      "away": {
+        "id": "espn:2117",
+        "name": "Central Michigan Chippewas",
+        "abbrev": "CMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+        "logo_dark": null,
+        "aliases": [
+          "C Michigan",
+          "CMU",
+          "Central Michigan",
+          "Central Michigan Chippewas",
+          "Chippewas"
+        ],
+        "color": "4c0027"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Hard Rock Stadium",
+      "detail": "Sat, September 26th at 6:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862780",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T22:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2429",
+        "name": "Charlotte 49ers",
+        "abbrev": "CLT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+        "logo_dark": null,
+        "aliases": [
+          "49ers",
+          "CLT",
+          "Charlotte",
+          "Charlotte 49ers"
+        ],
+        "color": "005035"
+      },
+      "away": {
+        "id": "espn:309",
+        "name": "Louisiana Ragin' Cajuns",
+        "abbrev": "UL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+        "logo_dark": null,
+        "aliases": [
+          "Louisiana",
+          "Louisiana Ragin' Cajuns",
+          "Ragin' Cajuns",
+          "UL"
+        ],
+        "color": "ce181e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Jerry Richardson Stadium",
+      "detail": "Sat, September 26th at 6:30 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6875,6 +8689,566 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856696",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:333",
+        "name": "Alabama Crimson Tide",
+        "abbrev": "ALA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+        "logo_dark": null,
+        "aliases": [
+          "ALA",
+          "Alabama",
+          "Alabama Crimson Tide",
+          "Crimson Tide"
+        ],
+        "color": "9e1b32"
+      },
+      "away": {
+        "id": "espn:2579",
+        "name": "South Carolina Gamecocks",
+        "abbrev": "SC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "SC",
+          "South Carolina",
+          "South Carolina Gamecocks"
+        ],
+        "color": "73000a"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Bryant-Denny Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856814",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2132",
+        "name": "Cincinnati Bearcats",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearcats",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bearcats"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:2306",
+        "name": "Kansas State Wildcats",
+        "abbrev": "KSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+        "logo_dark": null,
+        "aliases": [
+          "KSU",
+          "Kansas St",
+          "Kansas State",
+          "Kansas State Wildcats",
+          "Wildcats"
+        ],
+        "color": "330a57"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Nippert Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856881",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:277",
+        "name": "West Virginia Mountaineers",
+        "abbrev": "WVU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mountaineers",
+          "WVU",
+          "West Virginia",
+          "West Virginia Mountaineers"
+        ],
+        "color": "eaaa00"
+      },
+      "away": {
+        "id": "espn:197",
+        "name": "Oklahoma State Cowboys",
+        "abbrev": "OKST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "OKST",
+          "Oklahoma St",
+          "Oklahoma State",
+          "Oklahoma State Cowboys"
+        ],
+        "color": "fe5c00"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Milan Puskar Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862784",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2655",
+        "name": "Tulane Green Wave",
+        "abbrev": "TULN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+        "logo_dark": null,
+        "aliases": [
+          "Green Wave",
+          "TULN",
+          "Tulane",
+          "Tulane Green Wave"
+        ],
+        "color": "006747"
+      },
+      "away": {
+        "id": "espn:2572",
+        "name": "Southern Miss Golden Eagles",
+        "abbrev": "USM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Eagles",
+          "Southern Miss",
+          "Southern Miss Golden Eagles",
+          "USM"
+        ],
+        "color": "ffc72c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Yulman Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869931",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2032",
+        "name": "Arkansas State Red Wolves",
+        "abbrev": "ARST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARST",
+          "Arkansas St",
+          "Arkansas State",
+          "Arkansas State Red Wolves",
+          "Red Wolves"
+        ],
+        "color": "cc092f"
+      },
+      "away": {
+        "id": "espn:338",
+        "name": "Kennesaw State Owls",
+        "abbrev": "KENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+        "logo_dark": null,
+        "aliases": [
+          "KENN",
+          "Kennesaw St",
+          "Kennesaw State",
+          "Kennesaw State Owls",
+          "Owls"
+        ],
+        "color": "fdbb30"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Centennial Bank Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401870745",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:98",
+        "name": "Western Kentucky Hilltoppers",
+        "abbrev": "WKU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hilltoppers",
+          "WKU",
+          "Western KY",
+          "Western Kentucky",
+          "Western Kentucky Hilltoppers"
+        ],
+        "color": "e13a3e"
+      },
+      "away": {
+        "id": "espn:2385",
+        "name": "Mercyhurst Lakers",
+        "abbrev": "MERC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lakers",
+          "MERC",
+          "Mercyhurst",
+          "Mercyhurst Lakers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Houchens Industries-L.T. Smith Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871048",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:55",
+        "name": "Jacksonville State Gamecocks",
+        "abbrev": "JXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "JXST",
+          "Jacksonville State",
+          "Jacksonville State Gamecocks",
+          "Jax State"
+        ],
+        "color": "cc0000"
+      },
+      "away": {
+        "id": "espn:2393",
+        "name": "Middle Tennessee Blue Raiders",
+        "abbrev": "MTSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Raiders",
+          "MTSU",
+          "Middle Tennessee",
+          "Middle Tennessee Blue Raiders"
+        ],
+        "color": "036eb7"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "AmFirst Stadium",
+      "detail": "Sat, September 26th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824057",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T23:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:118",
+        "name": "Kansas City Royals",
+        "abbrev": "KC",
+        "logo": "https://www.mlbstatic.com/team-logos/118.svg",
+        "logo_dark": null,
+        "aliases": [
+          "KC",
+          "Kansas City",
+          "Kansas City Royals",
+          "Royals"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:114",
+        "name": "Cleveland Guardians",
+        "abbrev": "CLE",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cleveland",
+          "Cleveland Guardians",
+          "Guardians"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Kauffman Stadium",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824543",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T23:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:145",
+        "name": "Chicago White Sox",
+        "abbrev": "CWS",
+        "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CWS",
+          "Chi White Sox",
+          "Chicago",
+          "Chicago White Sox",
+          "White Sox"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:115",
+        "name": "Colorado Rockies",
+        "abbrev": "COL",
+        "logo": "https://www.mlbstatic.com/team-logos/115.svg",
+        "logo_dark": null,
+        "aliases": [
+          "COL",
+          "Colorado",
+          "Colorado Rockies",
+          "Rockies"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Rate Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823733",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T23:10:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:158",
+        "name": "Milwaukee Brewers",
+        "abbrev": "MIL",
+        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Brewers",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Brewers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:138",
+        "name": "St. Louis Cardinals",
+        "abbrev": "STL",
+        "logo": "https://www.mlbstatic.com/team-logos/138.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "STL",
+          "St. Louis",
+          "St. Louis Cardinals"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "American Family Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824705",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T23:15:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:111",
+        "name": "Boston Red Sox",
+        "abbrev": "BOS",
+        "logo": "https://www.mlbstatic.com/team-logos/111.svg",
+        "logo_dark": null,
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Red Sox",
+          "Red Sox"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:112",
+        "name": "Chicago Cubs",
+        "abbrev": "CHC",
+        "logo": "https://www.mlbstatic.com/team-logos/112.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CHC",
+          "Chi Cubs",
+          "Chicago",
+          "Chicago Cubs",
+          "Cubs"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Fenway Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823407",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-26T23:15:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:143",
+        "name": "Philadelphia Phillies",
+        "abbrev": "PHI",
+        "logo": "https://www.mlbstatic.com/team-logos/143.svg",
+        "logo_dark": null,
+        "aliases": [
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Phillies",
+          "Phillies"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:139",
+        "name": "Tampa Bay Rays",
+        "abbrev": "TB",
+        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rays",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Rays"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Citizens Bank Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026010062",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6912,6 +9286,941 @@
       "source": "nhl",
       "source_status": "FUT/OK",
       "venue": "UBS Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856702",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:99",
+        "name": "LSU Tigers",
+        "abbrev": "LSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+        "logo_dark": null,
+        "aliases": [
+          "LSU",
+          "LSU Tigers",
+          "Tigers"
+        ],
+        "color": "461d76"
+      },
+      "away": {
+        "id": "espn:245",
+        "name": "Texas A&M Aggies",
+        "abbrev": "TA&M",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "TA&M",
+          "Texas A&M",
+          "Texas A&M Aggies"
+        ],
+        "color": "500000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Tiger Stadium (LA)",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858469",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:30",
+        "name": "USC Trojans",
+        "abbrev": "USC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+        "logo_dark": null,
+        "aliases": [
+          "Trojans",
+          "USC",
+          "USC Trojans"
+        ],
+        "color": "9d2235"
+      },
+      "away": {
+        "id": "espn:2483",
+        "name": "Oregon Ducks",
+        "abbrev": "ORE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+        "logo_dark": null,
+        "aliases": [
+          "Ducks",
+          "ORE",
+          "Oregon",
+          "Oregon Ducks"
+        ],
+        "color": "00934b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Los Angeles Memorial Coliseum",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856804",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:265",
+        "name": "Washington State Cougars",
+        "abbrev": "WSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "WSU",
+          "Washington St",
+          "Washington State",
+          "Washington State Cougars"
+        ],
+        "color": "a60f2d"
+      },
+      "away": {
+        "id": "espn:12",
+        "name": "Arizona Wildcats",
+        "abbrev": "ARIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARIZ",
+          "Arizona",
+          "Arizona Wildcats",
+          "Wildcats"
+        ],
+        "color": "cc0033"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Martin Stadium",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860894",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:328",
+        "name": "Utah State Aggies",
+        "abbrev": "USU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "USU",
+          "Utah State",
+          "Utah State Aggies"
+        ],
+        "color": "0f2439"
+      },
+      "away": {
+        "id": "espn:2653",
+        "name": "Troy Trojans",
+        "abbrev": "TROY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+        "logo_dark": null,
+        "aliases": [
+          "TROY",
+          "Trojans",
+          "Troy",
+          "Troy Trojans"
+        ],
+        "color": "862633"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Maverik Stadium",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862783",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:249",
+        "name": "North Texas Mean Green",
+        "abbrev": "UNT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mean Green",
+          "North Texas",
+          "North Texas Mean Green",
+          "UNT"
+        ],
+        "color": "068f33"
+      },
+      "away": {
+        "id": "espn:2277",
+        "name": "Houston Christian Huskies",
+        "abbrev": "HCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+        "logo_dark": null,
+        "aliases": [
+          "HCU",
+          "Hou Christian",
+          "Houston Christian",
+          "Houston Christian Huskies",
+          "Huskies"
+        ],
+        "color": "00539c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "DATCU Stadium",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864572",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:152",
+        "name": "NC State Wolfpack",
+        "abbrev": "NCSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+        "logo_dark": null,
+        "aliases": [
+          "NC State",
+          "NC State Wolfpack",
+          "NCSU",
+          "Wolfpack"
+        ],
+        "color": "cc0000"
+      },
+      "away": {
+        "id": "espn:2026",
+        "name": "App State Mountaineers",
+        "abbrev": "APP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+        "logo_dark": null,
+        "aliases": [
+          "APP",
+          "App State",
+          "App State Mountaineers",
+          "Mountaineers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Carter-Finley Stadium",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761830",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:18418",
+        "name": "Atlanta United FC",
+        "abbrev": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta United FC"
+        ],
+        "color": "9d2235"
+      },
+      "away": {
+        "id": "espn:17606",
+        "name": "New York City FC",
+        "abbrev": "NYC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+        "logo_dark": null,
+        "aliases": [
+          "NYC",
+          "NYCFC",
+          "New York City FC"
+        ],
+        "color": "9fd2ff"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Mercedes-Benz Stadium",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761831",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9720",
+        "name": "CF Montr\u00e9al",
+        "abbrev": "MTL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+        "logo_dark": null,
+        "aliases": [
+          "CF Montr\u00e9al",
+          "MTL"
+        ],
+        "color": "003da6"
+      },
+      "away": {
+        "id": "espn:18267",
+        "name": "FC Cincinnati",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "logo_dark": null,
+        "aliases": [
+          "CIN",
+          "Cincinnati",
+          "FC Cincinnati"
+        ],
+        "color": "003087"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Stade Saputo",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761832",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:21300",
+        "name": "Charlotte FC",
+        "abbrev": "CLT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLT",
+          "Charlotte",
+          "Charlotte FC"
+        ],
+        "color": "0085ca"
+      },
+      "away": {
+        "id": "espn:182",
+        "name": "Chicago Fire FC",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHI",
+          "Chicago",
+          "Chicago Fire FC"
+        ],
+        "color": "7ccdef"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Bank of America Stadium",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761834",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:10739",
+        "name": "Philadelphia Union",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+        "logo_dark": null,
+        "aliases": [
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Union"
+        ],
+        "color": "051f31"
+      },
+      "away": {
+        "id": "espn:12011",
+        "name": "Orlando City SC",
+        "abbrev": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+        "logo_dark": null,
+        "aliases": [
+          "ORL",
+          "Orlando",
+          "Orlando City SC"
+        ],
+        "color": "60269e"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Subaru Park",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761833",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:190",
+        "name": "Red Bull New York",
+        "abbrev": "RBNY",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+        "logo_dark": null,
+        "aliases": [
+          "RBNY",
+          "Red Bull NY",
+          "Red Bull New York"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:21812",
+        "name": "St. Louis CITY SC",
+        "abbrev": "STL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "logo_dark": null,
+        "aliases": [
+          "STL",
+          "St. Louis",
+          "St. Louis CITY SC"
+        ],
+        "color": "ec1458"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Red Bull Arena",
+      "detail": "Sat, September 26th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856703",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:344",
+        "name": "Mississippi State Bulldogs",
+        "abbrev": "MSST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "MSST",
+          "Mississippi St",
+          "Mississippi State",
+          "Mississippi State Bulldogs"
+        ],
+        "color": "5d1725"
+      },
+      "away": {
+        "id": "espn:142",
+        "name": "Missouri Tigers",
+        "abbrev": "MIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIZ",
+          "Missouri",
+          "Missouri Tigers",
+          "Tigers"
+        ],
+        "color": "f1b82d"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Davis Wade Stadium",
+      "detail": "Sat, September 26th at 7:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:68778:s4e43",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-09-27T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
+    },
+    {
+      "event_id": "espn:football:401856697",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:8",
+        "name": "Arkansas Razorbacks",
+        "abbrev": "ARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARK",
+          "Arkansas",
+          "Arkansas Razorbacks",
+          "Razorbacks"
+        ],
+        "color": "a32136"
+      },
+      "away": {
+        "id": "espn:202",
+        "name": "Tulsa Golden Hurricane",
+        "abbrev": "TLSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Hurricane",
+          "TLSA",
+          "Tulsa",
+          "Tulsa Golden Hurricane"
+        ],
+        "color": "003595"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Donald W. Reynolds Razorback Stadium",
+      "detail": "Sat, September 26th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862782",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2433",
+        "name": "UL Monroe Warhawks",
+        "abbrev": "ULM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+        "logo_dark": null,
+        "aliases": [
+          "UL Monroe",
+          "UL Monroe Warhawks",
+          "ULM",
+          "Warhawks"
+        ],
+        "color": "840029"
+      },
+      "away": {
+        "id": "espn:2226",
+        "name": "Florida Atlantic Owls",
+        "abbrev": "FAU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+        "logo_dark": null,
+        "aliases": [
+          "FAU",
+          "Florida Atlantic",
+          "Florida Atlantic Owls",
+          "Owls"
+        ],
+        "color": "003366"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Malone Stadium",
+      "detail": "Sat, September 26th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761839",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:20906",
+        "name": "Austin FC",
+        "abbrev": "ATX",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATX",
+          "Austin",
+          "Austin FC"
+        ],
+        "color": "00b140"
+      },
+      "away": {
+        "id": "espn:22529",
+        "name": "San Diego FC",
+        "abbrev": "SD",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+        "logo_dark": null,
+        "aliases": [
+          "SD",
+          "San Diego",
+          "San Diego FC"
+        ],
+        "color": "697a7C"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Q2 Stadium",
+      "detail": "Sat, September 26th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761835",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:185",
+        "name": "FC Dallas",
+        "abbrev": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+        "logo_dark": null,
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "FC Dallas"
+        ],
+        "color": "c6093b"
+      },
+      "away": {
+        "id": "espn:18966",
+        "name": "LAFC",
+        "abbrev": "LAFC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+        "logo_dark": null,
+        "aliases": [
+          "LAFC"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Toyota Stadium",
+      "detail": "Sat, September 26th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761836",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:6077",
+        "name": "Houston Dynamo FC",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Dynamo FC"
+        ],
+        "color": "ff6b00"
+      },
+      "away": {
+        "id": "espn:186",
+        "name": "Sporting Kansas City",
+        "abbrev": "SKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kansas City",
+          "SKC",
+          "Sporting Kansas City"
+        ],
+        "color": "a7c6ed"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Shell Energy Stadium",
+      "detail": "Sat, September 26th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761838",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:18986",
+        "name": "Nashville SC",
+        "abbrev": "NSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+        "logo_dark": null,
+        "aliases": [
+          "NSH",
+          "Nashville",
+          "Nashville SC"
+        ],
+        "color": "ece83a"
+      },
+      "away": {
+        "id": "espn:7318",
+        "name": "Toronto FC",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+        "logo_dark": null,
+        "aliases": [
+          "TOR",
+          "Toronto",
+          "Toronto FC"
+        ],
+        "color": "aa182c"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "GEODIS Park",
+      "detail": "Sat, September 26th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761837",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9726",
+        "name": "Seattle Sounders FC",
+        "abbrev": "SEA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+        "logo_dark": null,
+        "aliases": [
+          "SEA",
+          "Seattle",
+          "Seattle Sounders FC"
+        ],
+        "color": "2dc84d"
+      },
+      "away": {
+        "id": "espn:17362",
+        "name": "Minnesota United FC",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota United FC"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Lumen Field",
+      "detail": "Sat, September 26th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823245",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-27T00:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:135",
+        "name": "San Diego Padres",
+        "abbrev": "SD",
+        "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Padres",
+          "SD",
+          "San Diego",
+          "San Diego Padres"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:109",
+        "name": "Arizona Diamondbacks",
+        "abbrev": "AZ",
+        "logo": "https://www.mlbstatic.com/team-logos/109.svg",
+        "logo_dark": null,
+        "aliases": [
+          "AZ",
+          "Arizona",
+          "Arizona Diamondbacks",
+          "D-backs",
+          "Diamondbacks"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Petco Park",
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6967,6 +10276,281 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858241",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2567",
+        "name": "SMU Mustangs",
+        "abbrev": "SMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mustangs",
+          "SMU",
+          "SMU Mustangs"
+        ],
+        "color": "a80000"
+      },
+      "away": {
+        "id": "espn:2623",
+        "name": "Missouri State Bears",
+        "abbrev": "MOST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "MOST",
+          "Missouri St",
+          "Missouri State",
+          "Missouri State Bears"
+        ],
+        "color": "5e0009"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Gerald J. Ford Stadium",
+      "detail": "Sat, September 26th at 9:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860895",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2638",
+        "name": "UTEP Miners",
+        "abbrev": "UTEP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+        "logo_dark": null,
+        "aliases": [
+          "Miners",
+          "UTEP",
+          "UTEP Miners"
+        ],
+        "color": "ff8200"
+      },
+      "away": {
+        "id": "espn:204",
+        "name": "Oregon State Beavers",
+        "abbrev": "ORST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+        "logo_dark": null,
+        "aliases": [
+          "Beavers",
+          "ORST",
+          "Oregon St",
+          "Oregon State",
+          "Oregon State Beavers"
+        ],
+        "color": "dc4405"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Sun Bowl",
+      "detail": "Sat, September 26th at 9:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866429",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:16",
+        "name": "Sacramento State Hornets",
+        "abbrev": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hornets",
+          "SAC",
+          "Sacramento St",
+          "Sacramento State",
+          "Sacramento State Hornets"
+        ],
+        "color": "00573C"
+      },
+      "away": {
+        "id": "espn:113",
+        "name": "Massachusetts Minutemen",
+        "abbrev": "MASS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+        "logo_dark": null,
+        "aliases": [
+          "MASS",
+          "Massachusetts",
+          "Massachusetts Minutemen",
+          "Minutemen",
+          "UMass"
+        ],
+        "color": "881c1c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Hornet Stadium",
+      "detail": "Sat, September 26th at 9:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761840",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T01:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:4771",
+        "name": "Real Salt Lake",
+        "abbrev": "RSL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+        "logo_dark": null,
+        "aliases": [
+          "RSL",
+          "Real Salt Lake",
+          "Salt Lake"
+        ],
+        "color": "a32035"
+      },
+      "away": {
+        "id": "espn:189",
+        "name": "New England Revolution",
+        "abbrev": "NE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+        "logo_dark": null,
+        "aliases": [
+          "NE",
+          "New England",
+          "New England Revolution"
+        ],
+        "color": "022166"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "America First Field",
+      "detail": "Sat, September 26th at 9:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:824949",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-27T01:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:133",
+        "name": "Athletics",
+        "abbrev": "ATH",
+        "logo": "https://www.mlbstatic.com/team-logos/133.svg",
+        "logo_dark": null,
+        "aliases": [
+          "ATH",
+          "Athletics"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:117",
+        "name": "Houston Astros",
+        "abbrev": "HOU",
+        "logo": "https://www.mlbstatic.com/team-logos/117.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Astros",
+          "HOU",
+          "Houston",
+          "Houston Astros"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Sutter Health Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:823083",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-09-27T01:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:136",
+        "name": "Seattle Mariners",
+        "abbrev": "SEA",
+        "logo": "https://www.mlbstatic.com/team-logos/136.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Mariners",
+          "SEA",
+          "Seattle",
+          "Seattle Mariners"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:108",
+        "name": "Los Angeles Angels",
+        "abbrev": "LAA",
+        "logo": "https://www.mlbstatic.com/team-logos/108.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Angels",
+          "LA Angels",
+          "LAA",
+          "Los Angeles",
+          "Los Angeles Angels"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "T-Mobile Park",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026010063",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -7005,6 +10589,321 @@
       "source_status": "FUT/OK",
       "venue": "T-Mobile Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860891",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:278",
+        "name": "Fresno State Bulldogs",
+        "abbrev": "FRES",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "FRES",
+          "Fresno St",
+          "Fresno State",
+          "Fresno State Bulldogs"
+        ],
+        "color": "b1102b"
+      },
+      "away": {
+        "id": "espn:242",
+        "name": "Rice Owls",
+        "abbrev": "RICE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+        "logo_dark": null,
+        "aliases": [
+          "Owls",
+          "RICE",
+          "Rice",
+          "Rice Owls"
+        ],
+        "color": "00205b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Valley Children's Stadium",
+      "detail": "Sat, September 26th at 10:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858240",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:24",
+        "name": "Stanford Cardinal",
+        "abbrev": "STAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinal",
+          "STAN",
+          "Stanford",
+          "Stanford Cardinal"
+        ],
+        "color": "8c1515"
+      },
+      "away": {
+        "id": "espn:59",
+        "name": "Georgia Tech Yellow Jackets",
+        "abbrev": "GT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+        "logo_dark": null,
+        "aliases": [
+          "GT",
+          "Georgia Tech",
+          "Georgia Tech Yellow Jackets",
+          "Yellow Jackets"
+        ],
+        "color": "b3a369"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Stanford Stadium",
+      "detail": "Sat, September 26th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864509",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2440",
+        "name": "Nevada Wolf Pack",
+        "abbrev": "NEV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+        "logo_dark": null,
+        "aliases": [
+          "NEV",
+          "Nevada",
+          "Nevada Wolf Pack",
+          "Wolf Pack"
+        ],
+        "color": "041e42"
+      },
+      "away": {
+        "id": "espn:2005",
+        "name": "Air Force Falcons",
+        "abbrev": "AFA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+        "logo_dark": null,
+        "aliases": [
+          "AFA",
+          "Air Force",
+          "Air Force Falcons",
+          "Falcons"
+        ],
+        "color": "003594"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Mackay Stadium",
+      "detail": "Sat, September 26th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761841",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:187",
+        "name": "LA Galaxy",
+        "abbrev": "LA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
+        "logo_dark": null,
+        "aliases": [
+          "LA",
+          "LA Galaxy"
+        ],
+        "color": "00235d"
+      },
+      "away": {
+        "id": "espn:184",
+        "name": "Colorado Rapids",
+        "abbrev": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+        "logo_dark": null,
+        "aliases": [
+          "COL",
+          "Colorado",
+          "Colorado Rapids"
+        ],
+        "color": "8a2432"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Dignity Health Sports Park",
+      "detail": "Sat, September 26th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761843",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:191",
+        "name": "San Jose Earthquakes",
+        "abbrev": "SJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "logo_dark": null,
+        "aliases": [
+          "SJ",
+          "San Jose",
+          "San Jose Earthquakes"
+        ],
+        "color": "003da6"
+      },
+      "away": {
+        "id": "espn:9723",
+        "name": "Portland Timbers",
+        "abbrev": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+        "logo_dark": null,
+        "aliases": [
+          "POR",
+          "Portland",
+          "Portland Timbers"
+        ],
+        "color": "2c5234"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "PayPal Park",
+      "detail": "Sat, September 26th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761842",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-09-27T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9727",
+        "name": "Vancouver Whitecaps",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+        "logo_dark": null,
+        "aliases": [
+          "VAN",
+          "Vancouver",
+          "Vancouver Whitecaps"
+        ],
+        "color": "ffffff"
+      },
+      "away": {
+        "id": "espn:193",
+        "name": "D.C. United",
+        "abbrev": "DC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "D.C. United",
+          "DC"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "BC Place",
+      "detail": "Sat, September 26th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858470",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-27T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:264",
+        "name": "Washington Huskies",
+        "abbrev": "WASH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "WASH",
+          "Washington",
+          "Washington Huskies"
+        ],
+        "color": "33006f"
+      },
+      "away": {
+        "id": "espn:135",
+        "name": "Minnesota Golden Gophers",
+        "abbrev": "MINN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Gophers",
+          "MINN",
+          "Minnesota",
+          "Minnesota Golden Gophers"
+        ],
+        "color": "5e0a2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Husky Stadium",
+      "detail": "Sat, September 26th at 11:00 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7740,6 +11639,236 @@
       "source": "nhl",
       "source_status": "FUT/OK",
       "venue": "SAP Center at San Jose",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020017",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-02T22:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:17",
+        "name": "Detroit Red Wings",
+        "abbrev": "DET",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Red Wings",
+          "Red Wings"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:3",
+        "name": "New York Rangers",
+        "abbrev": "NYR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+        "aliases": [
+          "NYR",
+          "New York",
+          "New York Rangers",
+          "Rangers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Little Caesars Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020018",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-02T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:12",
+        "name": "Carolina Hurricanes",
+        "abbrev": "CAR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Hurricanes",
+          "Hurricanes"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:15",
+        "name": "Washington Capitals",
+        "abbrev": "WSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
+        "aliases": [
+          "Capitals",
+          "WSH",
+          "Washington",
+          "Washington Capitals"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Lenovo Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020019",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-03T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:52",
+        "name": "Winnipeg Jets",
+        "abbrev": "WPG",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+        "aliases": [
+          "Jets",
+          "WPG",
+          "Winnipeg",
+          "Winnipeg Jets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:6",
+        "name": "Boston Bruins",
+        "abbrev": "BOS",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Bruins",
+          "Bruins"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canada Life Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020020",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-03T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:25",
+        "name": "Dallas Stars",
+        "abbrev": "DAL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Stars",
+          "Stars"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:19",
+        "name": "St. Louis Blues",
+        "abbrev": "STL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
+        "aliases": [
+          "Blues",
+          "STL",
+          "St. Louis",
+          "St. Louis Blues"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "American Airlines Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020021",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-03T02:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:54",
+        "name": "Vegas Golden Knights",
+        "abbrev": "VGK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+        "aliases": [
+          "Golden Knights",
+          "VGK",
+          "Vegas",
+          "Vegas Golden Knights"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:24",
+        "name": "Anaheim Ducks",
+        "abbrev": "ANA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
+        "aliases": [
+          "ANA",
+          "Anaheim",
+          "Anaheim Ducks",
+          "Ducks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "T-Mobile Arena",
       "detail": "",
       "game_number": 1,
       "highlight_video_id": "",
@@ -9317,274 +13446,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/10/Watch-NJPW-Full-Show-Online.jpg",
       "source_url": "https://watch-wrestling.eu/njpw-battle-line-hokkaido-road-to-destruction-hokkaido-kuribayashi-shokai-arena-irie-sports-park-gymnasium-9-19-2026/4aa530985b088d76b2c2ce90394a8fd5"
-    },
-    {
-      "id": "ww:d8c758b69787baa598472783fa7b4c77",
-      "title": "SENJO Sendai Girls Pro Wrestling in Sendai PIT 2026 09 18 9/18/2026",
-      "date": "2026-09-18",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-18-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-18-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-18-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-18-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-18-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "",
-      "source_url": "https://watch-wrestling.eu/senjo-sendai-girls-pro-wrestling-in-sendai-pit-2026-09-18-9-18-2026/d8c758b69787baa598472783fa7b4c77"
-    },
-    {
-      "id": "ww:6a863eeb7ca2ca3273b3bb04db02caa8",
-      "title": "CMLL 93 Aniversario 9/18/2026",
-      "date": "2026-09-18",
-      "replay_url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/1/1",
-          "label": "VidFrame HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/3/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/4/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/4/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/4/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/2/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-18-2026/select-post-1/2/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2025/03/CMLL.jpg",
-      "source_url": "https://watch-wrestling.eu/cmll-93-aniversario-9-18-2026/6a863eeb7ca2ca3273b3bb04db02caa8"
-    },
-    {
-      "id": "ww:wwe-smackdown-may-23k-live",
-      "title": "WWE Smackdown 9/18/26 \u2013 September 18, 2026",
-      "date": "2026-09-18",
-      "replay_url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/2/1",
-          "label": "VidFrame SD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/4/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/5/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/5/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/5/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/3/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/3/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/6/1",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/6/2",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/6/3",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 3",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/6/4",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 4",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/6/5",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 5",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/6/6",
-          "label": "VidFrame FHD (Live replay) \u2014 last part",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/7/1",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/7/2",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/7/3",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/7/4",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/7/5",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-18-2026/select-post-1/7/6",
-          "label": "Dailymotion FHD (Live replay) \u2014 last part",
-          "part": true,
-          "live": true
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/09/WWE-Smackdown-2024-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-smackdown-may-23k-live/"
-    },
-    {
-      "id": "ww:58de5888632e8054167dd36d1ed1e06a",
-      "title": "MPX Who Runs the World 4 9/18/2026",
-      "date": "2026-09-18",
-      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/1/1",
-          "label": "VidFrame HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/3/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/4/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/4/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/4/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/2/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-18-2026/select-post-1/2/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2026/09/MPX-Who-Runs-the-World-4.webp",
-      "source_url": "https://watch-wrestling.eu/mpx-who-runs-the-world-4-9-18-2026/58de5888632e8054167dd36d1ed1e06a"
     }
   ],
   "replays": [
@@ -10435,24 +14296,6 @@
       "source_url": "https://mlblive.net/kansas-city-royals-pittsburgh-pirates-mlb-full-game-replay-september-20-2026"
     },
     {
-      "id": "mlblive:10975",
-      "title": "Philadelphia Phillies @ New York Mets - MLB Full Game Replay - September 20, 2026",
-      "date": "2026-09-20",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16229052910252",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16229052910252",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/56634674.jpg",
-      "source_url": "https://mlblive.net/philadelphia-phillies-new-york-mets-mlb-full-game-replay-september-20-2026"
-    },
-    {
       "id": "r24:6990",
       "title": "Bordeaux Begles v Stade Francais - Top 14 Rugby - Full Match Replay - 20 September 2026",
       "date": "2026-09-20",
@@ -10523,276 +14366,6 @@
       ],
       "poster": "https://rugby24.net/_pu/69/66774900.jpg",
       "source_url": "https://rugby24.net/north-harbour-v-canterbury-full-match-replay-hilux-npc-20-september-2026"
-    },
-    {
-      "id": "mlblive:10974",
-      "title": "Minnesota Twins @ Los Angeles Angels - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16727848585784",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16727848585784",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/78266898.jpg",
-      "source_url": "https://mlblive.net/minnesota-twins-los-angeles-angels-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10973",
-      "title": "San Francisco Giants @ Los Angeles Dodgers - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16215782460076",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16215782460076",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/57865894.jpg",
-      "source_url": "https://mlblive.net/san-francisco-giants-los-angeles-dodgers-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10972",
-      "title": "Miami Marlins @ San Diego Padres - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16727764306488",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16727764306488",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/44818556.jpg",
-      "source_url": "https://mlblive.net/miami-marlins-san-diego-padres-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10971",
-      "title": "New York Yankees @ Arizona Diamondbacks - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16215171074732",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16215171074732",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/61088928.jpg",
-      "source_url": "https://mlblive.net/new-york-yankees-arizona-diamondbacks-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10970",
-      "title": "Seattle Mariners @ Colorado Rockies - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16217668586156",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16217668586156",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/71452435.jpg",
-      "source_url": "https://mlblive.net/seattle-mariners-colorado-rockies-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10969",
-      "title": "Washington Nationals @ St. Louis Cardinals - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16727604857400",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16727604857400",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/61871275.jpg",
-      "source_url": "https://mlblive.net/washington-nationals-st-louis-cardinals-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10968",
-      "title": "Atlanta Braves @ Houston Astros - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16217432722092",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16217432722092",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/86153494.jpg",
-      "source_url": "https://mlblive.net/atlanta-braves-houston-astros-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10967",
-      "title": "Toronto Blue Jays @ Texas Rangers - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16726777072184",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16726777072184",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/96654525.jpg",
-      "source_url": "https://mlblive.net/toronto-blue-jays-texas-rangers-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10966",
-      "title": "Chicago Cubs @ Cincinnati Reds - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16726777924152",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16726777924152",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/56142547.jpg",
-      "source_url": "https://mlblive.net/chicago-cubs-cincinnati-reds-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10965",
-      "title": "Kansas City Royals @ Pittsburgh Pirates - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16727335242296",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16727335242296",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/84703152.jpg",
-      "source_url": "https://mlblive.net/kansas-city-royals-pittsburgh-pirates-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10964",
-      "title": "Athletics @ Cleveland Guardians - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16727334193720",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16727334193720",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/75240188.jpg",
-      "source_url": "https://mlblive.net/athletics-cleveland-guardians-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10963",
-      "title": "Boston Red Sox @ Tampa Bay Rays - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16725729413688",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16725729413688",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/49429291.jpg",
-      "source_url": "https://mlblive.net/boston-red-sox-tampa-bay-rays-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10962",
-      "title": "Philadelphia Phillies @ New York Mets - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16725796457016",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16725796457016",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/79348108.jpg",
-      "source_url": "https://mlblive.net/philadelphia-phillies-new-york-mets-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10961",
-      "title": "Milwaukee Brewers @ Baltimore Orioles - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16216711957164",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16216711957164",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/33750886.jpg",
-      "source_url": "https://mlblive.net/milwaukee-brewers-baltimore-orioles-mlb-full-game-replay-september-19-2026"
-    },
-    {
-      "id": "mlblive:10960",
-      "title": "Detroit Tigers @ Chicago White Sox - MLB Full Game Replay - September 19, 2026",
-      "date": "2026-09-19",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16216711170732",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16216711170732",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/28854525.jpg",
-      "source_url": "https://mlblive.net/detroit-tigers-chicago-white-sox-mlb-full-game-replay-september-19-2026"
     },
     {
       "id": "ww:ufc-331-van-vs-pantoja-2-9-19-2026",
@@ -11311,150 +14884,6 @@
       "source_url": "https://fullfightreplays.com/john-hedges-vs-pat-brown-full-fight-replay-september-19-2026-boxing"
     },
     {
-      "id": "mlblive:10959",
-      "title": "San Francisco Giants @ Los Angeles Dodgers - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16202734963372",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16202734963372",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/55118989.jpg",
-      "source_url": "https://mlblive.net/san-francisco-giants-los-angeles-dodgers-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10958",
-      "title": "New York Yankees @ Arizona Diamondbacks - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16203061988012",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203061988012",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/90239438.jpg",
-      "source_url": "https://mlblive.net/new-york-yankees-arizona-diamondbacks-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10957",
-      "title": "Miami Marlins @ San Diego Padres - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16203177396908",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203177396908",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/72952506.jpg",
-      "source_url": "https://mlblive.net/miami-marlins-san-diego-padres-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10956",
-      "title": "Minnesota Twins @ Los Angeles Angels - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16203177790124",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203177790124",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/29979834.jpg",
-      "source_url": "https://mlblive.net/minnesota-twins-los-angeles-angels-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10955",
-      "title": "Washington Nationals @ St. Louis Cardinals - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16203829480108",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203829480108",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/70146602.jpg",
-      "source_url": "https://mlblive.net/washington-nationals-st-louis-cardinals-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10954",
-      "title": "Atlanta Braves @ Houston Astros - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16712301152824",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16712301152824",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/65322367.jpg",
-      "source_url": "https://mlblive.net/atlanta-braves-houston-astros-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10953",
-      "title": "Seattle Mariners @ Colorado Rockies - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16203501275820",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16203501275820",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/09603726.jpg",
-      "source_url": "https://mlblive.net/seattle-mariners-colorado-rockies-mlb-full-game-replay-september-18-2026"
-    },
-    {
-      "id": "mlblive:10952",
-      "title": "Toronto Blue Jays @ Texas Rangers - MLB Full Game Replay - September 18, 2026",
-      "date": "2026-09-18",
-      "sport": "baseball",
-      "competition": "MLB",
-      "replay_url": "https://ok.ru/videoembed/16202833857196",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16202833857196",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://mlblive.net/_pu/109/63268781.jpg",
-      "source_url": "https://mlblive.net/toronto-blue-jays-texas-rangers-mlb-full-game-replay-september-18-2026"
-    },
-    {
       "id": "r24:6982",
       "title": "Wales v South Africa - Women's WXV - Full Match Replay - 18 September 2026",
       "date": "2026-09-18",
@@ -11525,24 +14954,6 @@
       ],
       "poster": "https://rugby24.net/_pu/69/45057011.jpg",
       "source_url": "https://rugby24.net/tasman-v-auckland-full-match-replay-hilux-npc-18-september-2026"
-    },
-    {
-      "id": "r24:6962",
-      "title": "Counties Manukau v Otago - Full Match Replay - Hilux NPC - 17 September 2026",
-      "date": "2026-09-17",
-      "sport": "rugby",
-      "competition": "Hilux NPC",
-      "replay_url": "https://ok.ru/videoembed/15787474422484",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/15787474422484",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://rugby24.net/_pu/69/53995855.jpg",
-      "source_url": "https://rugby24.net/counties-manukau-v-otago-full-match-replay-hilux-npc-17-september-2026"
     }
   ],
   "trackers": []
