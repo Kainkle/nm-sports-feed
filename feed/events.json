@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-26T03:29:54.218244+00:00",
+  "generated_utc": "2026-09-26T03:40:03.849107+00:00",
   "events": [
     {
       "event_id": "mlb:824223",
@@ -3607,7 +3607,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-25T23:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:118",
         "name": "Kansas City Royals",
@@ -3637,7 +3637,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Kauffman Stadium",
       "detail": "",
       "game_number": 1,
@@ -3828,7 +3828,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-26T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:84",
         "name": "Indiana Hoosiers",
@@ -3858,9 +3858,9 @@
         "color": "492f92"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "1:20 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4183,7 +4183,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "California Memorial Stadium",
-      "detail": "14:45 - 2nd Quarter",
+      "detail": "9:35 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
