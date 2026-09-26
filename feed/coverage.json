@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-26T17:26:06.424954+00:00",
+  "generated_utc": "2026-09-26T17:36:56.467627+00:00",
   "window_days": 2,
-  "total_events": 271,
+  "total_events": 272,
   "competitions": [
     {
       "competition": "aew",
@@ -197,14 +197,16 @@
       "competition": "nascar",
       "name": "NASCAR Cup Series",
       "sport": "racing",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 1,
+      "date_range": [
+        "2026-09-27",
+        "2026-09-27"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "nba",
@@ -232,7 +234,7 @@
       "status_coverage_pct": 100,
       "both_logos": 71,
       "logo_coverage_pct": 100,
-      "live_now": 13
+      "live_now": 14
     },
     {
       "competition": "ncaam",
