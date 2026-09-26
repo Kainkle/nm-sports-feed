@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-26T02:29:14.645155+00:00",
+  "generated_utc": "2026-09-26T02:39:18.242736+00:00",
   "events": [
     {
       "event_id": "mlb:824223",
@@ -3130,7 +3130,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 2,
@@ -3366,52 +3366,7 @@
       "venue": "Capital One Arena",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862778",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-25T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:5",
-        "name": "UAB Blazers",
-        "abbrev": "UAB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blazers",
-          "UAB",
-          "UAB Blazers"
-        ],
-        "color": "1a5632"
-      },
-      "away": {
-        "id": "espn:2426",
-        "name": "Navy Midshipmen",
-        "abbrev": "NAVY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-        "logo_dark": null,
-        "aliases": [
-          "Midshipmen",
-          "NAVY",
-          "Navy",
-          "Navy Midshipmen"
-        ],
-        "color": "00225b"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Protective Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "1LU7XKSBI8o",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3455,6 +3410,51 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "SHI Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862778",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-25T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:5",
+        "name": "UAB Blazers",
+        "abbrev": "UAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blazers",
+          "UAB",
+          "UAB Blazers"
+        ],
+        "color": "1a5632"
+      },
+      "away": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Protective Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -3595,7 +3595,7 @@
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "9NdX6if4s4U",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3700,7 +3700,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-25T23:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:158",
         "name": "Milwaukee Brewers",
@@ -3730,7 +3730,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "American Family Field",
       "detail": "",
       "game_number": 1,
@@ -3746,7 +3746,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-26T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:30",
         "name": "Minnesota Wild",
@@ -3776,7 +3776,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Grand Casino Arena",
       "detail": "",
       "game_number": 1,
@@ -3860,7 +3860,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "2:06 - 3rd Quarter",
+      "detail": "14:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4151,7 +4151,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-09-26T02:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:25",
         "name": "California Golden Bears",
@@ -4181,9 +4181,9 @@
         "color": "f56600"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "California Memorial Stadium",
-      "detail": "Fri, September 25th at 10:30 PM EDT",
+      "detail": "13:09 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12564,6 +12564,34 @@
   ],
   "stories": [
     {
+      "story_id": "50030670",
+      "headline": "Sources: Warriors, Curry reach 2-year extension worth $116 million",
+      "summary": "Warriors star Stephen Curry has agreed on a two-year, $116 million contract extension with the franchise, with a player option in 2028-29, sources told ESPN's Shams Charania.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0812/701a50de-3e14-4b33-a4f9-3549be35f066/701a50de-3e14-4b33-a4f9-3549be35f066.jpg",
+      "published_utc": "2026-09-26T02:36:50Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50030670/sources-warriors-curry-reach-2-year-extension-worth-116-million",
+      "stream_url": "",
+      "body": "Golden State Warriors star Stephen Curry has agreed on a two-year, $116 million contract extension with the franchise, with a player option in 2028-29, sources told ESPN's Shams Charania.\n\nOn Aug. 29, Curry became eligible for an extension of up to two years and $136.7 million off his current one-year, $62.6 million expiring deal. The Warriors immediately presented him with a menu of options, team sources told ESPN, including max money, slightly smaller pay cuts or the ability to wait and decide later, depending on what the front office could eventually generate with extra flexibility.\n\nCurry, 38, had contemplated the choices for nearly a month and told ESPN on Wednesday that he wanted \"no drama\" with the team entering the season.\n\nThe Warriors begin practice next week in Hawaii and open the regular season on Oct. 21 in Los Angeles against the Lakers.\n\nCurry, who is entering his 18th NBA season, was limited to 43 games last season because of persistent pain and swelling in his right knee but still averaged 26.6 points on 46.8% from the field to go with 4.7 assists and 3.6 rebounds per game. He was in San Diego this week at a team function organized by teammate Jimmy Butler and said his body is ready for the start of training camp.\n\n\"The idea of getting back to work is exciting,\" Curry said Wednesday. \"I feel like I've taken advantage of the offseason. I feel like there's no hesitation about where I'm at physically going in. ... But I'm excited about getting back to work.\""
+    },
+    {
+      "story_id": "50030690",
+      "headline": "Munetaka Murakami homers twice as playoff-bound White Sox top Rockies 6-1",
+      "summary": "\u2014 Munetaka Murakami homered twice to increase his season total to 35, and the playoff-bound Chicago White Sox beat the Colorado Rockies 6-1 on Friday night as they tried to gain ground in the AL Central.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401832928.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-26T02:33:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/recap?gameId=401832928",
+      "stream_url": "",
+      "body": "CHICAGO -- \u2014 Munetaka Murakami homered twice to increase his season total to 35, and the playoff-bound Chicago White Sox beat the Colorado Rockies 6-1 on Friday night as they tried to gain ground in the AL Central.\n\n\r\nAlready assured at least a wild card, Chicago (83-77) has won five of six. The White Sox entered one game behind division-leading Cleveland (83-76), which played at Kansas City. Chicago has the tiebreaker.\n\n\r\nSean Burke (11-7) allowed one run and four hits in in 5 1/3 innings, and three relievers completed a four-hitter.\n\n\r\nChicago's Colson Montgomery set the season record for strikeouts with 224 when he was set down looking in the fifth inning by Tomoyuki Sugano. Montgomery topped Mark Reynolds\u2019 223 in 2009.\n\n\r\nColorado has lost 17 of 20 and dropped to a major league-worst 57-103, matching 2023 for the second-most losses in club history behind 119 last year The Rockies are the first team with four straight 100-loss seasons since the 1962-65 New York Mets.\n\n\r\nMurakami has the third multi-homer game of his rookie season .Kyle Teel drove in two runs and Sam Antonacci lined three hits for the White Sox.\n\n\r\nTJ Rumfield homered for the Rockies.\n\n\r\nSugano (12-12) lost his seventh straight decision, allowing four runs and six hits in 6 2/3 innings.\n\n\r\nUp next\r\nColorado LHP Jos\u00e9 Quintana (2-3, 5.44 ERA) faces one of his former teams Saturday night. The White Sox start RHP Davis Martin (9-7, 3.84).\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+    },
+    {
       "story_id": "50030661",
       "headline": "New York Rangers vs. New York Islanders: Game Highlights",
       "summary": "New York Rangers vs. New York Islanders: Game Highlights",
@@ -12576,34 +12604,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50030661/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/c43b9208-af82-4e46-83d5-cb2d4f53678a/c43b9208-af82-4e46-83d5-cb2d4f53678a/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50030614",
-      "headline": "Tampa Bay Rays vs. Philadelphia Phillies: Game Highlights",
-      "summary": "Tampa Bay Rays vs. Philadelphia Phillies: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2.jpg",
-      "published_utc": "2026-09-26T02:22:07Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50030614/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2/playlist.m3u8",
-      "body": ""
-    },
-    {
-      "story_id": "50029817",
-      "headline": "Altman: Cavs built for 'sustainable run' despite missing on LeBron",
-      "summary": "Cavs president of basketball operations Koby Altman said he wasn't fazed when LeBron James chose to sign with the Sixers, saying, \"We're built for a sustainable run here regardless of one outcome.\"",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0924/ss_20260924_183306184_36729371123/ss_20260924_183306184_36729371123.jpg",
-      "published_utc": "2026-09-26T01:05:56Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50029817/altman-cavs-built-sustainable-run-missing-lebron",
-      "stream_url": "",
-      "body": "INDEPENDENCE, Ohio -- Koby Altman would have loved for LeBron James to return for a third stint with the Cleveland Cavaliers.\n\nWhen the most popular player in franchise history decided to sign with the Philadelphia 76ers after eight seasons with the Los Angeles Lakers, the Cavaliers' president of basketball operations wasn't fazed.\n\n\"We can't be reliant on one outcome. I think we have too much of a good thing going in terms of our infrastructure, our foundation to worry about one outcome,\" Altman said at a news conference Friday before the Cavaliers begin training camp next week. \"I'm not downplaying the enormity and magnitude of the decision. I just think the way we're built as an organization is we have a great foundation and a great sort of ecosystem in terms of talent, coaching staff, our performance staff and we're built for a sustainable run here regardless of one outcome.\"\n\nJames' agent, Rich Paul, said on his podcast in July that the Cavaliers were the only team to meet with James, while the Miami Heat and Golden State Warriors were the other finalists.\n\nAltman has been able to build a contending roster since James' second departure in 2018 after he led the Cavs to four straight trips to the NBA Finals and the franchise's first championship in 2016.\n\nCleveland has won at least 50 games the past two years and reached the Eastern Conference finals last season for the first time since 2018. The team was swept in four games by the eventual NBA champion New York Knicks.\n\nThe Cavs quickly pivoted after James' decision and addressed their need for a wing player, acquiring Peyton Watson in a five-team trade and signing him to a four-year, $88 million contract. On the first day of free agency, Donovan Mitchell signed a four-year, $273 million contract extension.\n\nJames Harden, who was acquired near the trade deadline, signed a three-year, $97 million extension that gave the Cavaliers some flexibility under the salary cap by going below both aprons.\n\n\"You go through the list and zoom out and say, 'OK, was this offseason a success? Were we able to get better? Did we look at the future? Did we get more financial flexibility, more sustainability with the roster?' All of those things lead me to say this was a really good offseason in spite of that one decision,\" Altman said.\n\nWhile the 37-year-old Harden and 30-year-old Mitchell are the team leaders, the 24-year-old Watson gives the Cavs another young player who can mesh with Evan Mobley (25), Jarrett Allen (28) and Jaylon Tyson (23).\n\nWatson started a career-high 40 games last season with the Denver Nuggets and averaged career bests in points (14.6), rebounds (4.9) and assists (2.1).\n\n\"What I've been seeing in the gym is the defense, first of all. And then he shot 41% from 3 last year. It's a one-year sample, but there's a lot of room for growth in his offensive game, especially the way we play,\" coach Kenny Atkinson said.\n\nAtkinson also lauded Harden for arriving three weeks before the start of training camp and helping to organize workouts.\n\nEven though the Cavaliers were one of the final four teams left standing in the postseason, they haven't attracted much attention this offseason. The Knicks' title defense, Jaylen Brown and James heading to Philadelphia, Giannis Antetokounmpo's trade to Miami and Indiana getting healthier with the return of Tyrese Haliburton have left Cleveland under the radar.\n\nAltman said he doesn't think the Cavs are being slighted.\n\n\"I'd be more worried if I was worried about talent, our process or some of the more day-to-day things,\" he said. \"I think a lot of teams got better to chase us. When you're a final four team, teams need to improve to get to that level. And we're on that level. We want more.\""
     },
     {
       "story_id": "50029379",
@@ -12732,6 +12732,34 @@
       "body": "Connor Watson could still feature in the NRL grand final for the Sydney Roosters, with the Tri-colours set to kick off the process of clearing concussion protocols for the decider.\n\nThe Roosters were breathing a sigh of relief on Saturday morning, with Victor Radley avoiding a suspension for his hip-drop tackle on Herbie Farnworth in the 36-20 preliminary-final win over the Dolphins.\n\nRadley can enter an early guilty plea and pay a $2000 fine, which would clear him to play in next Sunday's decider against Penrith or Newcastle.\n\nBut the bigger headache for the Roosters may be Watson.\n\nThe super sub had been on the field for just 60 seconds when his head collided with Dolphins forward Kulikefu Finefeuiaki's hip in the 31st minute at Suncorp Stadium on Friday.\n\nThe knock was originally ruled as a category two by the Roosters, before that was overruled by the independent doctor, who deemed it a category one.\n\nThat ruled Watson out of the game and triggered an 11-day stand-down that would keep him out of next Sunday's decider in Sydney.\n\nBut Trent Robinson said post-game Watson was undergoing more tests, with the coach refusing to rule out seeking an exemption for the NSW Origin utility.\n\n\"That was a hard one; he came out as a category two, they changed it to a one after a couple of minutes,\" Robinson said.\n\n\"That's still 'watch this space' on Connor. It depends on how his tests go (if the Roosters appeal), so we'll see how that goes.\"\n\nWatson is the first player at risk of missing an NRL grand final under the 11-day stand-down run, which was introduced in 2023.\n\nPenrith had faced the potential of a similar situation last year, when Scott Sorensen suffered a head knock in their preliminary final loss to Brisbane.\n\nSorensen was also deemed to be a category two by club medical staff, before the NRL's independent doctor classed it as a category one.\n\nHad Penrith won the match, it is understood they would have appealed to have Sorensen play in the grand final.\n\nThere have been multiple instances this year of players challenging category one concussions and being able to play the next week.\n\nHowever Watson would still need to prove he was wrongly classified and be asymptomatic from Saturday morning, among several other requirements.\n\nIn more positive news for the Roosters, Sam Walker emerged unscathed after a record-equalling 27-day comeback from a syndesmosis injury.\n\nThe halfback left the field early with the match decided, but not before delivering a masterclass in orchestrating his backline.\n\nThe Roosters have not lost a grand final under Robinson, who will now be angling for his fourth premiership as a coach in the club's first decider since 2019.\n\n\"It's mostly internal, you want to get the most out of it,\" he said of the pressure to return to the big stage.\n\n\"I know what my role is ... it's not about getting into a grand final, it's about winning it.\n\n\"That's pretty simple and that's what I'm here to do.\""
     },
     {
+      "story_id": "50029817",
+      "headline": "Altman: Cavs built for 'sustainable run' despite missing on LeBron",
+      "summary": "Cavs president of basketball operations Koby Altman said he wasn't fazed when LeBron James chose to sign with the Sixers, saying, \"We're built for a sustainable run here regardless of one outcome.\"",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0924/ss_20260924_183306184_36729371123/ss_20260924_183306184_36729371123.jpg",
+      "published_utc": "2026-09-26T01:05:56Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50029817/altman-cavs-built-sustainable-run-missing-lebron",
+      "stream_url": "",
+      "body": "INDEPENDENCE, Ohio -- Koby Altman would have loved for LeBron James to return for a third stint with the Cleveland Cavaliers.\n\nWhen the most popular player in franchise history decided to sign with the Philadelphia 76ers after eight seasons with the Los Angeles Lakers, the Cavaliers' president of basketball operations wasn't fazed.\n\n\"We can't be reliant on one outcome. I think we have too much of a good thing going in terms of our infrastructure, our foundation to worry about one outcome,\" Altman said at a news conference Friday before the Cavaliers begin training camp next week. \"I'm not downplaying the enormity and magnitude of the decision. I just think the way we're built as an organization is we have a great foundation and a great sort of ecosystem in terms of talent, coaching staff, our performance staff and we're built for a sustainable run here regardless of one outcome.\"\n\nJames' agent, Rich Paul, said on his podcast in July that the Cavaliers were the only team to meet with James, while the Miami Heat and Golden State Warriors were the other finalists.\n\nAltman has been able to build a contending roster since James' second departure in 2018 after he led the Cavs to four straight trips to the NBA Finals and the franchise's first championship in 2016.\n\nCleveland has won at least 50 games the past two years and reached the Eastern Conference finals last season for the first time since 2018. The team was swept in four games by the eventual NBA champion New York Knicks.\n\nThe Cavs quickly pivoted after James' decision and addressed their need for a wing player, acquiring Peyton Watson in a five-team trade and signing him to a four-year, $88 million contract. On the first day of free agency, Donovan Mitchell signed a four-year, $273 million contract extension.\n\nJames Harden, who was acquired near the trade deadline, signed a three-year, $97 million extension that gave the Cavaliers some flexibility under the salary cap by going below both aprons.\n\n\"You go through the list and zoom out and say, 'OK, was this offseason a success? Were we able to get better? Did we look at the future? Did we get more financial flexibility, more sustainability with the roster?' All of those things lead me to say this was a really good offseason in spite of that one decision,\" Altman said.\n\nWhile the 37-year-old Harden and 30-year-old Mitchell are the team leaders, the 24-year-old Watson gives the Cavs another young player who can mesh with Evan Mobley (25), Jarrett Allen (28) and Jaylon Tyson (23).\n\nWatson started a career-high 40 games last season with the Denver Nuggets and averaged career bests in points (14.6), rebounds (4.9) and assists (2.1).\n\n\"What I've been seeing in the gym is the defense, first of all. And then he shot 41% from 3 last year. It's a one-year sample, but there's a lot of room for growth in his offensive game, especially the way we play,\" coach Kenny Atkinson said.\n\nAtkinson also lauded Harden for arriving three weeks before the start of training camp and helping to organize workouts.\n\nEven though the Cavaliers were one of the final four teams left standing in the postseason, they haven't attracted much attention this offseason. The Knicks' title defense, Jaylen Brown and James heading to Philadelphia, Giannis Antetokounmpo's trade to Miami and Indiana getting healthier with the return of Tyrese Haliburton have left Cleveland under the radar.\n\nAltman said he doesn't think the Cavs are being slighted.\n\n\"I'd be more worried if I was worried about talent, our process or some of the more day-to-day things,\" he said. \"I think a lot of teams got better to chase us. When you're a final four team, teams need to improve to get to that level. And we're on that level. We want more.\""
+    },
+    {
+      "story_id": "50030681",
+      "headline": "Baltimore Orioles vs. New York Yankees: Game Highlights",
+      "summary": "Baltimore Orioles vs. New York Yankees: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/712b1b3a-dbf7-45c1-aaee-1f1fed4e142d/712b1b3a-dbf7-45c1-aaee-1f1fed4e142d.jpg",
+      "published_utc": "2026-09-26T02:32:57Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50030681/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/712b1b3a-dbf7-45c1-aaee-1f1fed4e142d/712b1b3a-dbf7-45c1-aaee-1f1fed4e142d/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50030495",
       "headline": "Boston Bruins vs. Washington Capitals: Game Highlights",
       "summary": "Boston Bruins vs. Washington Capitals: Game Highlights",
@@ -12744,34 +12772,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50030495/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50030615",
-      "headline": "Torkelson narrowly misses cycle as Tigers hang on to beat Pirates, 8-7",
-      "summary": "\u2014 Spencer Torkelson finished a single short of the cycle, Jackson Jobe allowed two runs in 5 1/3 innings and the Detroit Tigers beat the Pittsburgh Pirates 8-7 on Friday night after nearly wasting a six-run lead.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817077.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-26T02:17:30Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817077",
-      "stream_url": "",
-      "body": "DETROIT -- \u2014 Spencer Torkelson finished a single short of the cycle, Jackson Jobe allowed two runs in 5 1/3 innings and the Detroit Tigers beat the Pittsburgh Pirates 8-7 on Friday night after nearly wasting a six-run lead.\n\n\r\nDetroit led 8-2 after seven innings, but RBI singles by Nick Gonzales and Ryan O\u2019Hearn and a three-run homer by Rafael Flores Jr. pulled the Pirates within one run in the eighth.\n\n\r\nTorkelson got some help from the Pirates defense -- his second-inning triple was a sinking liner to right that evaded a diving Jake Mangum, and his double was a routine fly ball to shallow right-center that fell untouched among three fielders. He hit his 26th homer in the seventh and was on deck when the Tigers made the final out of the eighth.\n\n\r\nPittsburgh (81-79) needs one win for its first winning season since 2018.\n\n\r\nJobe (3-3) allowed three hits and two walks while striking out eight. He returned in August from Tommy John surgery and finished with a 3.91 ERA and 51 strikeouts in 46 innings.\n\n\r\nKenley Jansen pitched the ninth for his 498th save, his 22nd in 28 chances this season.\n\n\r\nBubba Chandler (9-9) gave up six runs, four hits and four walks in 2 2/3 innings.\n\n\r\nDillon Dingler had a two-run single, raising his career-high RBI total to 91.\n\n\r\nThe game started 30 minutes late because of lengthy ceremonies honoring Justin Verlander on the eve of his final MLB start.\n\n\r\nUp next\r\nVerlander (0-1, 12.27) makes his first start at Comerica Park since Aug. 20, 2017, when he beat the Los Angeles Dodgers 6-1.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
-    },
-    {
-      "story_id": "50029086",
-      "headline": "Grizzlies waive veteran point guard D'Angelo Russell",
-      "summary": "The Memphis Grizzlies waived veteran D'Angelo Russell and signed undrafted guard Brendan Hausen.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/1120/347b48f5-f41f-4bbd-9e62-2eefde2d1474/347b48f5-f41f-4bbd-9e62-2eefde2d1474.jpg",
-      "published_utc": "2026-09-25T21:13:10Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50029086/grizzlies-waive-veteran-point-guard-dangelo-russell",
-      "stream_url": "",
-      "body": "The Memphis Grizzlies have waived veteran point guard D'Angelo Russell, making him a free agent one month before the start of the season.\n\nRussell, 30, began last season with the Dallas Mavericks but has since been traded twice, first to Washington as part of the Anthony Davis trade in February and then to Memphis as part of a six-team deal over the summer. He never ended up playing a game for the Wizards or Grizzlies.\n\nRussell averaged 10.2 points and 4.0 assists in 26 games for Dallas last year. His last strong year came in 2023-24 for the Los Angeles Lakers, when he averaged 18 points and five assists, and he's been traded several times since.\n\nIn a corresponding roster move Friday, the Grizzlies signed undrafted guard Brendan Hausen, who played four seasons at Kansas State and Iowa."
     },
     {
       "story_id": "50029190",
