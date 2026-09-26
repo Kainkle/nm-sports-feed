@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-26T02:19:16.177287+00:00",
+  "generated_utc": "2026-09-26T02:29:14.645155+00:00",
   "events": [
     {
       "event_id": "mlb:824223",
@@ -3099,7 +3099,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-25T20:10:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:147",
         "name": "New York Yankees",
@@ -3130,7 +3130,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Game Over",
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 2,
@@ -3227,7 +3227,7 @@
       "venue": "Comerica Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "7zjCtUZiEm4",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3320,7 +3320,7 @@
       "venue": "Nationals Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "gAtwZkAuSEQ",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3365,6 +3365,51 @@
       "source_status": "FINAL/OK",
       "venue": "Capital One Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862778",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-25T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:5",
+        "name": "UAB Blazers",
+        "abbrev": "UAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blazers",
+          "UAB",
+          "UAB Blazers"
+        ],
+        "color": "1a5632"
+      },
+      "away": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Protective Stadium",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3419,51 +3464,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862778",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-25T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:5",
-        "name": "UAB Blazers",
-        "abbrev": "UAB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blazers",
-          "UAB",
-          "UAB Blazers"
-        ],
-        "color": "1a5632"
-      },
-      "away": {
-        "id": "espn:2426",
-        "name": "Navy Midshipmen",
-        "abbrev": "NAVY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-        "logo_dark": null,
-        "aliases": [
-          "Midshipmen",
-          "NAVY",
-          "Navy",
-          "Navy Midshipmen"
-        ],
-        "color": "00225b"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Protective Stadium",
-      "detail": "0:42 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "mlb:822760",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -3503,7 +3503,7 @@
       "venue": "Rogers Centre",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "T0CPRFh4JJs",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3684,7 +3684,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Rate Field",
       "detail": "",
       "game_number": 1,
@@ -3860,7 +3860,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "6:34 - 3rd Quarter",
+      "detail": "2:06 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12564,31 +12564,31 @@
   ],
   "stories": [
     {
-      "story_id": "50030536",
-      "headline": "New York Mets vs. Washington Nationals: Game Highlights",
-      "summary": "New York Mets vs. Washington Nationals: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/6b4c1971-e316-4db0-8e35-7ae9416bff74/6b4c1971-e316-4db0-8e35-7ae9416bff74.jpg",
-      "published_utc": "2026-09-26T02:10:04Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50030536/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/6b4c1971-e316-4db0-8e35-7ae9416bff74/6b4c1971-e316-4db0-8e35-7ae9416bff74/playlist.m3u8",
-      "body": ""
-    },
-    {
-      "story_id": "50030495",
-      "headline": "Boston Bruins vs. Washington Capitals: Game Highlights",
-      "summary": "Boston Bruins vs. Washington Capitals: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083.jpg",
-      "published_utc": "2026-09-26T02:00:23Z",
+      "story_id": "50030661",
+      "headline": "New York Rangers vs. New York Islanders: Game Highlights",
+      "summary": "New York Rangers vs. New York Islanders: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/c43b9208-af82-4e46-83d5-cb2d4f53678a/c43b9208-af82-4e46-83d5-cb2d4f53678a.jpg",
+      "published_utc": "2026-09-26T02:26:11Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50030495/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083/playlist.m3u8",
+      "link": "https://www.espn.com/video/clip/_/id/50030661/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/c43b9208-af82-4e46-83d5-cb2d4f53678a/c43b9208-af82-4e46-83d5-cb2d4f53678a/playlist.m3u8",
+      "body": ""
+    },
+    {
+      "story_id": "50030614",
+      "headline": "Tampa Bay Rays vs. Philadelphia Phillies: Game Highlights",
+      "summary": "Tampa Bay Rays vs. Philadelphia Phillies: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2.jpg",
+      "published_utc": "2026-09-26T02:22:07Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50030614/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2/ead8ad2b-892b-4aa7-9bcd-5eb148861ad2/playlist.m3u8",
       "body": ""
     },
     {
@@ -12718,46 +12718,46 @@
       "body": "For most clubs, failure or success can be defined in points, trophies and medals. Manchester United are the same, but they can also define it in days. More specifically, it can be summed up in 712 days.\n\nThat's how long viral United fan Frank Ilett, also known as The United Strand, has gone without a haircut as he waits for the team to win five games in a row.\n\nAfter finishing last season with wins over Nottingham Forest and Brighton, Michael Carrick's side could have completed the job with wins over newly promoted Hull City and Ipswich Town before finishing with a win away at Everton. As it turned out, that's not at all what happened.\n\nAn embarrassing 2-0 away defeat to Hull meant going back to square one. A 5-2 win over Ipswich might have promoted hopes that the season opener was just an unwanted blip, but a draw to Everton and a controversial defeat to 10-man Manchester City poured further cold water.\n\nHow could it get worse? Well, a 2-0 lead inside the first 10 minutes against Brighton in the Carabao Cup ended in a surprise 3-2 defeat.\n\nLeft watching on, his hair growing ever longer, is Ilett. His challenge will now officially reach the two-year mark -- his last haircut was on Oct. 5, 2024 -- and his hair is now almost 14 inches at its longest point.\n\nIn the meantime, Ilett continues to raise money for the Little Princess Trust, which creates wigs for children with cancer.\n\nThe only thing that can happen now before Ilett soars past two years is for United to win away to Fulham in their last game before the international break."
     },
     {
-      "story_id": "50030267",
-      "headline": "NRL: Nathan Cleary will play against Knights, but injury 'could get worse'",
-      "summary": "Penrith have admitted Nathan Cleary is at risk of doing more damage to his injured foot, but insist the superstar halfback will be right to go against Newcastle in their NRL preliminary final.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0908/dm_260908_NRL_Analysis_Boom_Rookies_build_the_NRL_Theme_Park_20240908_ESPN/dm_260908_NRL_Analysis_Boom_Rookies_build_the_NRL_Theme_Park_20240908_ESPN.jpg",
+      "story_id": "50030457",
+      "headline": "Victor Radley cleared, Roosters sweating on Connor Watson",
+      "summary": "Victor Radley has learnt his grand final fate after a hip-drop tackle, while Connor Watson is hoping to be cleared to play for the Sydney Roosters.",
+      "image": "https://a.espncdn.com/photo/2026/0926/r1721886_1296x729_16-9.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/50030267/nrl-nathan-cleary-play-knights-injury-get-worse",
+      "link": "https://www.espn.com/nrl/story/_/id/50030457/nrl-grand-final-roosters-victor-radley-cleared-roosters-sweating-connor-watson",
       "stream_url": "",
-      "body": "Penrith have admitted Nathan Cleary is at risk of doing more damage to his injured foot, but insist the superstar halfback will be right to go against Newcastle in their NRL preliminary final.\n\nCleary walked freely into Panthers headquarters on Saturday morning, moments after his father Ivan declared him fit to play in Sunday's clash at Accor Stadium.\n\nThe playmaker's right foot has been the talking point of the finals series, ever since he hobbled through the final 10 minutes of Penrith's week-one win over the Sydney Roosters.\n\nThe Panthers have remained tight-lipped on the specifics of the injury, other than to confirm the two-time Clive Churchill Medal winner has a \"stress-related bone issue\".\n\n\"There's enough on (the scans) that there's something wrong with it,\" coach Ivan Cleary said on Saturday.\n\n\"They're not always conclusive as well, so you've got to go by clinical (diagnosis). Where it's: 'How's that feel? Can you walk?'.\n\n\"It basically worked out enough that it's an injury that could get worse for sure.\n\n\"So it's been a period of trying to manage it the best we can so we can get him to play.\"\n\nPenrith have a remarkable record of getting injured players to perform in big games, including nursing Dylan Edwards through a stress fracture in his foot for the 2021 premiership.\n\nIf the Panthers were to win through to face the Sydney Roosters in next Sunday's Grand Final, a similar challenge would again likely await their halfback.\n\nThe Panthers No.7 did complete a session under lights on Friday night, and was also spotted doing some light duties earlier in the week.\n\nAfter requiring a moon boot on his kicking foot for most of last week, Ivan had suggested early on that his son would need to rely on heavily mental visualisation to prepare.\n\nAnd while the Panthers coach stopped short of confirming the halfback would be able to kick freely on Sunday, he was adamant he would be able to \"play how he plays\".\n\n\"He'll be ready. He's done a bit of everything,\" Cleary said.\n\n\"He's actually living with us at the moment, so I've actually seen it firsthand how much he's actually done.\n\n\"It's crazy. He's left no stone unturned.\n\n\"This is what the players dream about. It's why they go through all the hard work in preseason and all the way through the year is to get themselves in this arena.\n\n\"They're all true competitors and they find ways to get out there and perform.\"\n\nThe other big call for coach Cleary is whether he keeps Jack Cole at No.6, after naming him there earlier this week.\n\nJack Cogger is back from suspension and on the interchange bench, and is generally regarded to have a stronger kicking game that could aid the injured halfback if required.\n\n\"Coley's just done his job,\" coach Cleary said.\n\n\"He's waited in the wings for a long time. He started last year when Jarome (Luai) left and didn't quite nail it and then sort of went back and worked on a few things.\n\n\"Ultimately, he's come in at a big time of year and he's done his job for the team and that's the sort of kid he is.\n\n\"He's tough. He plays well and I feel like he's got more confidence over the last few weeks as well.\""
+      "body": "Connor Watson could still feature in the NRL grand final for the Sydney Roosters, with the Tri-colours set to kick off the process of clearing concussion protocols for the decider.\n\nThe Roosters were breathing a sigh of relief on Saturday morning, with Victor Radley avoiding a suspension for his hip-drop tackle on Herbie Farnworth in the 36-20 preliminary-final win over the Dolphins.\n\nRadley can enter an early guilty plea and pay a $2000 fine, which would clear him to play in next Sunday's decider against Penrith or Newcastle.\n\nBut the bigger headache for the Roosters may be Watson.\n\nThe super sub had been on the field for just 60 seconds when his head collided with Dolphins forward Kulikefu Finefeuiaki's hip in the 31st minute at Suncorp Stadium on Friday.\n\nThe knock was originally ruled as a category two by the Roosters, before that was overruled by the independent doctor, who deemed it a category one.\n\nThat ruled Watson out of the game and triggered an 11-day stand-down that would keep him out of next Sunday's decider in Sydney.\n\nBut Trent Robinson said post-game Watson was undergoing more tests, with the coach refusing to rule out seeking an exemption for the NSW Origin utility.\n\n\"That was a hard one; he came out as a category two, they changed it to a one after a couple of minutes,\" Robinson said.\n\n\"That's still 'watch this space' on Connor. It depends on how his tests go (if the Roosters appeal), so we'll see how that goes.\"\n\nWatson is the first player at risk of missing an NRL grand final under the 11-day stand-down run, which was introduced in 2023.\n\nPenrith had faced the potential of a similar situation last year, when Scott Sorensen suffered a head knock in their preliminary final loss to Brisbane.\n\nSorensen was also deemed to be a category two by club medical staff, before the NRL's independent doctor classed it as a category one.\n\nHad Penrith won the match, it is understood they would have appealed to have Sorensen play in the grand final.\n\nThere have been multiple instances this year of players challenging category one concussions and being able to play the next week.\n\nHowever Watson would still need to prove he was wrongly classified and be asymptomatic from Saturday morning, among several other requirements.\n\nIn more positive news for the Roosters, Sam Walker emerged unscathed after a record-equalling 27-day comeback from a syndesmosis injury.\n\nThe halfback left the field early with the match decided, but not before delivering a masterclass in orchestrating his backline.\n\nThe Roosters have not lost a grand final under Robinson, who will now be angling for his fourth premiership as a coach in the club's first decider since 2019.\n\n\"It's mostly internal, you want to get the most out of it,\" he said of the pressure to return to the big stage.\n\n\"I know what my role is ... it's not about getting into a grand final, it's about winning it.\n\n\"That's pretty simple and that's what I'm here to do.\""
     },
     {
-      "story_id": "50030550",
-      "headline": "Lukes has go-ahead hit in four-run seventh, Okamoto drives in three as Blue Jays beat Reds 6-5",
-      "summary": "\u2014 Nathan Lukes hit a go-ahead single in a four-run seventh inning, Kazuma Okamoto had two hits and three RBI, and the Toronto Blue Jays rallied to beat the Cincinnati Reds 6-5 on Friday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817075.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-26T02:09:30Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817075",
-      "stream_url": "",
-      "body": "TORONTO -- \u2014 Nathan Lukes hit a go-ahead single in a four-run seventh inning, Kazuma Okamoto had two hits and three RBI, and the Toronto Blue Jays rallied to beat the Cincinnati Reds 6-5 on Friday night.\n\n\r\nCincinnati\u2019s Elly De La Cruz stole third base in the third inning to become the fourth player in Reds history with at least 30 home runs and 30 stolen bases in the same season.\n\n\r\nDe La Cruz, who started at DH on Friday, hit his 30th home run in Thursday\u2019s 7-6 win at Atlanta.\n\n\r\nMason Fluharty (7-1) got two outs for the win and Louis Varland worked a 1-2-3 ninth against the top of the lineup for his 35th save in 37 chances.\n\n\r\nAlejandro Kirk and Okamoto hit RBI doubles off Nick Lodolo in the first. Cincinnati\u2019s Eugenio Su\u00e1rez hit a home run in the second to make it 2-1.\n\n\r\nThe Reds chased Jos\u00e9 Soriano with a four-run third. De La Cruz hit a two-run double, stole third and scored on Sal Stewart\u2019s single. H\u00e9ctor Rodr\u00edguez drove in the fourth run with a fielder\u2019s choice.\n\n\r\nSoriano allowed five runs and eight hits.\n\n\r\nToronto's seventh began with back-to-back walks issued by Luis Mey (0-2).\n\n\r\nVladimir Guerrero Jr. followed with an RBI single, a hit that was redirected when the bouncing ball was struck by a flying piece of Guerrero\u2019s broken bat.\n\n\r\nAfter George Springer reached on Oswaldo Cabrera\u2019s fielding error, Pierce Johnson replaced Mey. Okamoto greeted Johnson with a tying double to center and Lukes followed with his RBI single.\n\n\r\nBefore the game, Guerrero apologized for recent comments about his 14-year, $500 million contract. He finished 1 for 5.\n\n\r\nUp next\r\nBlue Jays RHP Trey Yesavage (5-5, 3.67 ERA) is scheduled to start Saturday against Reds RHP Rhett Lowder (6-12, 6.01).\n\n\r\n----\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
-    },
-    {
-      "story_id": "50028512",
-      "headline": "Macklin Celebrini, 20, becomes youngest Sharks captain",
-      "summary": "Macklin Celebrini, 20, has been selected as the Sharks captain, making him the youngest in team history to fill that role.",
-      "image": "https://a.espncdn.com/photo/2026/0418/r1645688_1296x729_16-9.jpg",
-      "published_utc": "2026-09-25T20:58:25Z",
+      "story_id": "50030495",
+      "headline": "Boston Bruins vs. Washington Capitals: Game Highlights",
+      "summary": "Boston Bruins vs. Washington Capitals: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083.jpg",
+      "published_utc": "2026-09-26T02:00:23Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50028512/macklin-celebrini-20-becomes-youngest-ever-sharks-captain",
+      "link": "https://www.espn.com/video/clip/_/id/50030495/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083/playlist.m3u8",
+      "body": ""
+    },
+    {
+      "story_id": "50030615",
+      "headline": "Torkelson narrowly misses cycle as Tigers hang on to beat Pirates, 8-7",
+      "summary": "\u2014 Spencer Torkelson finished a single short of the cycle, Jackson Jobe allowed two runs in 5 1/3 innings and the Detroit Tigers beat the Pittsburgh Pirates 8-7 on Friday night after nearly wasting a six-run lead.",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817077.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-26T02:17:30Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/mlb/recap?gameId=401817077",
       "stream_url": "",
-      "body": "SAN JOSE, Calif. -- Macklin Celebrini has been picked as the Sharks captain, becoming the youngest player ever to fill that role for the team at the age of 20.\n\nCelebrini was presented the captain's jersey at a team meeting by former captain Joe Thornton before practice Friday.\n\n\"It's a huge honor,\" Celebrini said. \"It's just something that I can't really take lightly. Obviously, there's a responsibility that comes with that. But at the same time, I'm not really going to change who I am or what I do. Just a huge honor first and foremost, and with that comes some responsibility.\"\n\nCelebrini takes over the spot that had been vacant since Logan Couture went down with a career-ending injury and is the 11th full-time captain in Sharks history.\n\nCouture was given that role for the 2019-20 season and held it through 2024-25 even though he didn't play a single game that season because of a chronic injury to his groin and pelvic area that ended his career.\n\nCelebrini was one of five players who rotated as alternate captains last season. He is the youngest player to fill the leadership role for the Sharks, with Patrick Marleau previously holding that mark when he was named captain at age 24 in 2004. He is also the youngest current captain in the NHL, edging out 21-year-old Connor Bedard, who was named captain in Chicago earlier this month.\n\n\"He's earned it through the way he works and competes and the way he's played on the ice and the way he's handled himself off the ice,\" general manager Mike Grier said. \"I don't know if anyone drafts someone at 18 and thinks by the time they're 20 they're going to be leading your team and be your captain. But there are those rare special players who do it, and Macklin is one of them.\"\n\nCelebrini has become the face of the franchise since being drafted first overall in 2024 and quickly developing into one of the game's biggest stars. He signed a five-year, $94 million extension this summer and is under contract through the 2031-32 season.\n\nCelebrini, who turned 20 in June, has 178 career points for the fifth-most ever for a teenager. His 70 career goals are seventh best for a player before turning 20.\n\n\"We've seen it since day one, the type of player he is, but also the type of person he is,\" coach Ryan Warsofsky said. \"The way he leads our group on and off the ice. The guys gravitate towards him.\"\n\nCelebrini had 45 goals and 70 assists last season, with his 115 points breaking Thornton's franchise record of 114 set in 2006-07 and trailing only Wayne Gretzky (137 in 1979-80) and Sidney Crosby (120 in 2006-07) for the most in a season for a player before turning 20.\n\nHe had the 10th-most points for a player who missed the postseason, recording a point on 46.2% of San Jose's goals -- the second-best rate in the NHL behind Connor McDavid (48.9%) and the best ever for a teenager.\n\nCelebrini also was the leading goal scorer in the Olympics, with five goals to help Canada win the silver medal. He served as captain of Team Canada for the World Cup in the spring.\n\nDespite Celebrini's exploits, the Sharks still missed the playoffs for the seventh straight season. They improved by 34 points for the 10th-best single-season jump in the past 30 years but landed four points out of the playoffs.\n\n\"It definitely starts with his work ethic,\" teammate Tyler Toffoli said. \"It's not always the things he says. Obviously, he's very vocal in the sense of he's still a young kid and he enjoys coming to the rink and cracking jokes and having fun. But at the same time, when it comes to work and in the middle of a period in a game, he can be serious. It's one of those things when whenever he talks, you listen.\"\n\nCelebrini is part of a strong young core in San Jose alongside fellow promising players like Michael Misa, Will Smith, Igor Chernyshov and Sam Dickinson. The Sharks added even more young talent this offseason with three first-round picks headlined by Swedish left winger Ivar Stenberg at No. 2 overall.\n\nGrier also brought in veteran reinforcements at the start of the offseason, trading for defenseman Darnell Nurse and signing defenseman Jacob Trouba and forward Mason Marchment.\n\nNow with those veterans and Celebrini leading the way, the Sharks are hoping to get back to the postseason.\n\n\"When you get a special player, it changes, you know, the trajectory of things that you're on,\" Grier said. \"He gives the group a certain level of belief that things are possible. We were fortunate to win the lottery and be able to select Mac.\""
+      "body": "DETROIT -- \u2014 Spencer Torkelson finished a single short of the cycle, Jackson Jobe allowed two runs in 5 1/3 innings and the Detroit Tigers beat the Pittsburgh Pirates 8-7 on Friday night after nearly wasting a six-run lead.\n\n\r\nDetroit led 8-2 after seven innings, but RBI singles by Nick Gonzales and Ryan O\u2019Hearn and a three-run homer by Rafael Flores Jr. pulled the Pirates within one run in the eighth.\n\n\r\nTorkelson got some help from the Pirates defense -- his second-inning triple was a sinking liner to right that evaded a diving Jake Mangum, and his double was a routine fly ball to shallow right-center that fell untouched among three fielders. He hit his 26th homer in the seventh and was on deck when the Tigers made the final out of the eighth.\n\n\r\nPittsburgh (81-79) needs one win for its first winning season since 2018.\n\n\r\nJobe (3-3) allowed three hits and two walks while striking out eight. He returned in August from Tommy John surgery and finished with a 3.91 ERA and 51 strikeouts in 46 innings.\n\n\r\nKenley Jansen pitched the ninth for his 498th save, his 22nd in 28 chances this season.\n\n\r\nBubba Chandler (9-9) gave up six runs, four hits and four walks in 2 2/3 innings.\n\n\r\nDillon Dingler had a two-run single, raising his career-high RBI total to 91.\n\n\r\nThe game started 30 minutes late because of lengthy ceremonies honoring Justin Verlander on the eve of his final MLB start.\n\n\r\nUp next\r\nVerlander (0-1, 12.27) makes his first start at Comerica Park since Aug. 20, 2017, when he beat the Los Angeles Dodgers 6-1.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "50029086",
@@ -12886,21 +12886,37 @@
       "body": "Borussia Dortmund have said 18-year-old midfielder Konstantinos Karetsas is back in training just over a week after he slumped to the ground in an alarming medical incident on his Champions League debut.\n\nKaretsas passed the ball to a teammate then signaled his distress to the referee before sitting on the grass during Dortmund's 3-2 win over Villarreal on Sept. 8.\n\nHe was in tears as he was stretchered off with suspected circulatory problems and was then taken to a hospital, where he stayed for much of last week.\n\n\"Konstantinos Karetsas is back in team training as of Wednesday after doing individual sessions at the start of the week,\" Dortmund said. \"It was his first joint session with his teammates after he was taken off with circulatory problems in the game against Villarreal.\"\n\nDortmund hasn't specified the nature of any diagnosis for Karetsas, who was signed from Genk for a reported fee of $34.6 million last month, and didn't indicate whether he would be able to play Saturday against Stuttgart in the Bundesliga.\n\nKaretsas plays internationally for Greece but was born in Belgium, where local media have reported that dehydration was suspected as a factor.\n\n\"I'm doing really well,\" he said in a video recorded during a visit to his old club Genk and published Monday on X. \"We tested everything and everything is fine. I just need to adjust a bit to the intensity but that will come with time.\"\n\n\"I went out with him but in that moment, he wasn't able to speak,\" Book said.\n\n- Borussia Dortmund teenager Karetsas hospitalised after slumping to turf in Champions League\n\nKaretsas was able to cheer on his teammates from the stands in Saturday's 3-0 win over Paderborn.\n\nManaging director Lars Ricken said there had been \"no warning signs\" of any circulatory problems prior to the incident."
     },
     {
-      "story_id": "50024451",
-      "headline": "What We Learned: Roosters game plan comes out on top; how does the league keep Marky Mark?",
-      "summary": "The Roosters game plan paid off against the Dolphins, there was a clear winner in the heavyweight centre clash, and the rugby league community need to find a way to keep a superstar in the sport.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0925/dm_260925_NRL_Highlight_Nawaqanitawase_seals_Roosters_victory_with_a_double_20260925_AUS_ONLY/dm_260925_NRL_Highlight_Nawaqanitawase_seals_Roosters_victory_with_a_double_20260925_AUS_ONLY.jpg",
+      "story_id": "50030267",
+      "headline": "NRL: Nathan Cleary will play against Knights, but injury 'could get worse'",
+      "summary": "Penrith have admitted Nathan Cleary is at risk of doing more damage to his injured foot, but insist the superstar halfback will be right to go against Newcastle in their NRL preliminary final.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0908/dm_260908_NRL_Analysis_Boom_Rookies_build_the_NRL_Theme_Park_20240908_ESPN/dm_260908_NRL_Analysis_Boom_Rookies_build_the_NRL_Theme_Park_20240908_ESPN.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/50024451/nrl-dolphins-vs-roosters-mark-nawaqanitawase-sam-walker-bunker",
+      "link": "https://www.espn.com/nrl/story/_/id/50030267/nrl-nathan-cleary-play-knights-injury-get-worse",
       "stream_url": "",
-      "body": "The Sydney Roosters are through to their first NRL grand final in seven years after dishing up a 36-20 demolition of the Dolphins.\n\nThe Roosters dazzled in front of a sold-out crowd at Suncorp Stadium with Mark Nawaqanitawase leading the charge.\n\nHere are three things we learned from Friday's preliminary final.\n\nRoosters direct game plan plays off\n\nFrom the outset it was clear that the Roosters had a plan in mind to attack the Dolphins though the middle of the field -- a healthy diet of offloads, late passes into the line and a boatload of support runners was the clear direction from Trent Robinson, and we saw it from the opening set.\n\nThe Dolphins are a team who've been able to weather the storm of other teams' middles all year, and then throw counter punches with diminutive players like Jeremy Marshall-King, Kurt Donoghue and Max Plath. But there wasn't any of that tonight, it was a dominant performance from the Roosters from the first minute, and it never really shifted.\n\nThere was some pretty justifiable logic that the Roosters would jump out to an early lead but the Dolphins, notoriously slow starters that they are, would find a way back into the contest. And while that did happen when it was 16-10, those points came from an extremely dubious Bunker decision and James Tedesco dropping a bomb. There was no period of sustained dominance for the Phins, and instead it was the Roosters who went right back on with the job after their 16-point lead was cut to just six.\n\nAt no stage in the night did the forward battle ever look like going any way other than a dominant victory for the Tricolours. A superb platform that their talented backline worked off superbly, and through to the Grand Final they go.\n\nRobert Toia wins heavyweight clash in style\n\nThe one-on-one matchup that most of us were truly excited for heading into Friday was the centre battle between Robert Toia and Herbie Farnworth -- and it was won by the Roosters young gun in style.\n\nFarnworth has been the best centre in the game for a couple of years now, but it was Toia who came out on top in almost all of their skirmishes. Even ignoring his powerful try, Toia was a handful every time he carried the ball up, contained his opposite man defensively and looked every bit the superstar he's grown into this year.\n\nThere needs to be some sort of collective effort from the entire rugby league community to keep Mark Nawaqanitawase\n\nI understand that he came from rugby union originally, but how are we letting Mark Nawaqanitawase leave this sport? No player that I've ever watched does as many cool things in a single game as he does, and it's truly remarkable that the feats of athleticism he treats us to are so routine now that it isn't even shocking -- it sure is fun to watch though.\n\nFrom the intercept to the absurd flick pass to the raw power for his game-sealing try (and what a pass from Victor Radley, by the way) it is a privilege to watch this guy play footy every week.\n\nI didn't want to dedicate much column space to complaining about the Bunker, so I'll just mention it here. He was probably out when he threw that pass and it DEFINITELY went forward, but it's far easier to not fire up about that when just a few minutes earlier, Jamayne Isaako put the ball on the sideline and that was given the all clear as well. What's doing?"
+      "body": "Penrith have admitted Nathan Cleary is at risk of doing more damage to his injured foot, but insist the superstar halfback will be right to go against Newcastle in their NRL preliminary final.\n\nCleary walked freely into Panthers headquarters on Saturday morning, moments after his father Ivan declared him fit to play in Sunday's clash at Accor Stadium.\n\nThe playmaker's right foot has been the talking point of the finals series, ever since he hobbled through the final 10 minutes of Penrith's week-one win over the Sydney Roosters.\n\nThe Panthers have remained tight-lipped on the specifics of the injury, other than to confirm the two-time Clive Churchill Medal winner has a \"stress-related bone issue\".\n\n\"There's enough on (the scans) that there's something wrong with it,\" coach Ivan Cleary said on Saturday.\n\n\"They're not always conclusive as well, so you've got to go by clinical (diagnosis). Where it's: 'How's that feel? Can you walk?'.\n\n\"It basically worked out enough that it's an injury that could get worse for sure.\n\n\"So it's been a period of trying to manage it the best we can so we can get him to play.\"\n\nPenrith have a remarkable record of getting injured players to perform in big games, including nursing Dylan Edwards through a stress fracture in his foot for the 2021 premiership.\n\nIf the Panthers were to win through to face the Sydney Roosters in next Sunday's Grand Final, a similar challenge would again likely await their halfback.\n\nThe Panthers No.7 did complete a session under lights on Friday night, and was also spotted doing some light duties earlier in the week.\n\nAfter requiring a moon boot on his kicking foot for most of last week, Ivan had suggested early on that his son would need to rely on heavily mental visualisation to prepare.\n\nAnd while the Panthers coach stopped short of confirming the halfback would be able to kick freely on Sunday, he was adamant he would be able to \"play how he plays\".\n\n\"He'll be ready. He's done a bit of everything,\" Cleary said.\n\n\"He's actually living with us at the moment, so I've actually seen it firsthand how much he's actually done.\n\n\"It's crazy. He's left no stone unturned.\n\n\"This is what the players dream about. It's why they go through all the hard work in preseason and all the way through the year is to get themselves in this arena.\n\n\"They're all true competitors and they find ways to get out there and perform.\"\n\nThe other big call for coach Cleary is whether he keeps Jack Cole at No.6, after naming him there earlier this week.\n\nJack Cogger is back from suspension and on the interchange bench, and is generally regarded to have a stronger kicking game that could aid the injured halfback if required.\n\n\"Coley's just done his job,\" coach Cleary said.\n\n\"He's waited in the wings for a long time. He started last year when Jarome (Luai) left and didn't quite nail it and then sort of went back and worked on a few things.\n\n\"Ultimately, he's come in at a big time of year and he's done his job for the team and that's the sort of kid he is.\n\n\"He's tough. He plays well and I feel like he's got more confidence over the last few weeks as well.\""
     }
   ],
   "shows": [
+    {
+      "id": "ww:20ba7600fc620e9562917001be742de4",
+      "title": "STARDOM SILVER WEEK TOUR 2026 in OSAKA 9/26/2026",
+      "date": "2026-09-26",
+      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-26-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/09-26-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream \u2014 Live HD (CH 101)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "",
+      "source_url": "https://watch-wrestling.eu/stardom-silver-week-tour-2026-in-osaka-9-26-2026/20ba7600fc620e9562917001be742de4"
+    },
     {
       "id": "ww:818ae60457bdc4435ee30192e7ea16f1",
       "title": "NOAH LINE Yahoo presents N-1VICTORY 2026 9/26/2026",
@@ -12930,109 +12946,115 @@
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/1",
-          "label": "OK.ru FHD \u2014 Full Show",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/1",
+          "label": "VidFrame SD \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/4/1",
+          "label": "OK.ru FHD \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/1",
           "label": "Other Hosts \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/4/2",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/2",
           "label": "Other Hosts \u2014 StreamW (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/4/3",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/3",
           "label": "Other Hosts \u2014 VOE.sx (SD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/1",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/1",
           "label": "Dailymotion FHD \u2014 Part 1",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/2",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/2",
           "label": "Dailymotion FHD \u2014 Part 2",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/1",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/1",
           "label": "VidFrame FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/2",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/2",
           "label": "VidFrame FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/3",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/3",
           "label": "VidFrame FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/4",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/4",
           "label": "VidFrame FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/5",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/5",
           "label": "VidFrame FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/6",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/6",
           "label": "VidFrame FHD (Live replay) \u2014 last part",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/1",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/2",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/3",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/4",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/5",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/5",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/6",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/6",
           "label": "Dailymotion FHD (Live replay) \u2014 last part",
           "part": true,
           "live": true
