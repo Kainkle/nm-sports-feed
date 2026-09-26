@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-26T01:55:06.602403+00:00",
+  "generated_utc": "2026-09-26T02:09:05.528264+00:00",
   "events": [
     {
       "event_id": "mlb:824223",
@@ -3087,7 +3087,7 @@
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "xReeqz59hJM",
+      "highlight_video_id": "biODOYSD8Xk",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3193,7 +3193,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-25T22:40:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:116",
         "name": "Detroit Tigers",
@@ -3223,7 +3223,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Comerica Park",
       "detail": "",
       "game_number": 1,
@@ -3316,7 +3316,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "Nationals Park",
       "detail": "",
       "game_number": 1,
@@ -3410,7 +3410,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "SHI Stadium",
-      "detail": "12:50 - 4th Quarter",
+      "detail": "3:45 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3455,7 +3455,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Protective Stadium",
-      "detail": "9:52 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3469,7 +3469,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-25T23:07:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:141",
         "name": "Toronto Blue Jays",
@@ -3499,7 +3499,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Rogers Centre",
       "detail": "",
       "game_number": 1,
@@ -3561,7 +3561,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-25T23:30:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:2",
         "name": "New York Islanders",
@@ -3591,7 +3591,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
@@ -3858,9 +3858,9 @@
         "color": "492f92"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "Halftime",
+      "detail": "11:24 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12564,6 +12564,20 @@
   ],
   "stories": [
     {
+      "story_id": "50030495",
+      "headline": "Boston Bruins vs. Washington Capitals: Game Highlights",
+      "summary": "Boston Bruins vs. Washington Capitals: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083.jpg",
+      "published_utc": "2026-09-26T02:00:23Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50030495/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/0926/b9950703-345a-4279-be82-47e92d5ea083/b9950703-345a-4279-be82-47e92d5ea083/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50030388",
       "headline": "Eury Perez throws seventh 1-hit shutout n Miami history for 3-0 win",
       "summary": "Eury Perez throws seventh 1-hit shutout n Miami history for 3-0 win",
@@ -12618,20 +12632,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50029608/what-sanctions-premier-league-enforce-man-city",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/0925/dm_260925_COM_SOC_Analysis_What_sanctions_should_the_Premier_League_enforce_on_Man_City3F_GLOBAL_2026-09-25/dm_260925_COM_SOC_Analysis_What_sanctions_should_the_Premier_League_enforce_on_Man_City3F_GLOBAL_2026-09-25/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50028512",
-      "headline": "Macklin Celebrini, 20, becomes youngest Sharks captain",
-      "summary": "Macklin Celebrini, 20, has been selected as the Sharks captain, making him the youngest in team history to fill that role.",
-      "image": "https://a.espncdn.com/photo/2026/0418/r1645688_1296x729_16-9.jpg",
-      "published_utc": "2026-09-25T20:58:25Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50028512/macklin-celebrini-20-becomes-youngest-ever-sharks-captain",
-      "stream_url": "",
-      "body": "SAN JOSE, Calif. -- Macklin Celebrini has been picked as the Sharks captain, becoming the youngest player ever to fill that role for the team at the age of 20.\n\nCelebrini was presented the captain's jersey at a team meeting by former captain Joe Thornton before practice Friday.\n\n\"It's a huge honor,\" Celebrini said. \"It's just something that I can't really take lightly. Obviously, there's a responsibility that comes with that. But at the same time, I'm not really going to change who I am or what I do. Just a huge honor first and foremost, and with that comes some responsibility.\"\n\nCelebrini takes over the spot that had been vacant since Logan Couture went down with a career-ending injury and is the 11th full-time captain in Sharks history.\n\nCouture was given that role for the 2019-20 season and held it through 2024-25 even though he didn't play a single game that season because of a chronic injury to his groin and pelvic area that ended his career.\n\nCelebrini was one of five players who rotated as alternate captains last season. He is the youngest player to fill the leadership role for the Sharks, with Patrick Marleau previously holding that mark when he was named captain at age 24 in 2004. He is also the youngest current captain in the NHL, edging out 21-year-old Connor Bedard, who was named captain in Chicago earlier this month.\n\n\"He's earned it through the way he works and competes and the way he's played on the ice and the way he's handled himself off the ice,\" general manager Mike Grier said. \"I don't know if anyone drafts someone at 18 and thinks by the time they're 20 they're going to be leading your team and be your captain. But there are those rare special players who do it, and Macklin is one of them.\"\n\nCelebrini has become the face of the franchise since being drafted first overall in 2024 and quickly developing into one of the game's biggest stars. He signed a five-year, $94 million extension this summer and is under contract through the 2031-32 season.\n\nCelebrini, who turned 20 in June, has 178 career points for the fifth-most ever for a teenager. His 70 career goals are seventh best for a player before turning 20.\n\n\"We've seen it since day one, the type of player he is, but also the type of person he is,\" coach Ryan Warsofsky said. \"The way he leads our group on and off the ice. The guys gravitate towards him.\"\n\nCelebrini had 45 goals and 70 assists last season, with his 115 points breaking Thornton's franchise record of 114 set in 2006-07 and trailing only Wayne Gretzky (137 in 1979-80) and Sidney Crosby (120 in 2006-07) for the most in a season for a player before turning 20.\n\nHe had the 10th-most points for a player who missed the postseason, recording a point on 46.2% of San Jose's goals -- the second-best rate in the NHL behind Connor McDavid (48.9%) and the best ever for a teenager.\n\nCelebrini also was the leading goal scorer in the Olympics, with five goals to help Canada win the silver medal. He served as captain of Team Canada for the World Cup in the spring.\n\nDespite Celebrini's exploits, the Sharks still missed the playoffs for the seventh straight season. They improved by 34 points for the 10th-best single-season jump in the past 30 years but landed four points out of the playoffs.\n\n\"It definitely starts with his work ethic,\" teammate Tyler Toffoli said. \"It's not always the things he says. Obviously, he's very vocal in the sense of he's still a young kid and he enjoys coming to the rink and cracking jokes and having fun. But at the same time, when it comes to work and in the middle of a period in a game, he can be serious. It's one of those things when whenever he talks, you listen.\"\n\nCelebrini is part of a strong young core in San Jose alongside fellow promising players like Michael Misa, Will Smith, Igor Chernyshov and Sam Dickinson. The Sharks added even more young talent this offseason with three first-round picks headlined by Swedish left winger Ivar Stenberg at No. 2 overall.\n\nGrier also brought in veteran reinforcements at the start of the offseason, trading for defenseman Darnell Nurse and signing defenseman Jacob Trouba and forward Mason Marchment.\n\nNow with those veterans and Celebrini leading the way, the Sharks are hoping to get back to the postseason.\n\n\"When you get a special player, it changes, you know, the trajectory of things that you're on,\" Grier said. \"He gives the group a certain level of belief that things are possible. We were fortunate to win the lottery and be able to select Mac.\""
     },
     {
       "story_id": "50028147",
@@ -12732,6 +12732,20 @@
       "body": "The Sydney Roosters are through to their first NRL grand final in seven years after dishing up a 36-20 demolition of the Dolphins.\n\nThe Roosters dazzled in front of a sold-out crowd at Suncorp Stadium with Mark Nawaqanitawase leading the charge.\n\nHere are three things we learned from Friday's preliminary final.\n\nRoosters direct game plan plays off\n\nFrom the outset it was clear that the Roosters had a plan in mind to attack the Dolphins though the middle of the field -- a healthy diet of offloads, late passes into the line and a boatload of support runners was the clear direction from Trent Robinson, and we saw it from the opening set.\n\nThe Dolphins are a team who've been able to weather the storm of other teams' middles all year, and then throw counter punches with diminutive players like Jeremy Marshall-King, Kurt Donoghue and Max Plath. But there wasn't any of that tonight, it was a dominant performance from the Roosters from the first minute, and it never really shifted.\n\nThere was some pretty justifiable logic that the Roosters would jump out to an early lead but the Dolphins, notoriously slow starters that they are, would find a way back into the contest. And while that did happen when it was 16-10, those points came from an extremely dubious Bunker decision and James Tedesco dropping a bomb. There was no period of sustained dominance for the Phins, and instead it was the Roosters who went right back on with the job after their 16-point lead was cut to just six.\n\nAt no stage in the night did the forward battle ever look like going any way other than a dominant victory for the Tricolours. A superb platform that their talented backline worked off superbly, and through to the Grand Final they go.\n\nRobert Toia wins heavyweight clash in style\n\nThe one-on-one matchup that most of us were truly excited for heading into Friday was the centre battle between Robert Toia and Herbie Farnworth -- and it was won by the Roosters young gun in style.\n\nFarnworth has been the best centre in the game for a couple of years now, but it was Toia who came out on top in almost all of their skirmishes. Even ignoring his powerful try, Toia was a handful every time he carried the ball up, contained his opposite man defensively and looked every bit the superstar he's grown into this year.\n\nThere needs to be some sort of collective effort from the entire rugby league community to keep Mark Nawaqanitawase\n\nI understand that he came from rugby union originally, but how are we letting Mark Nawaqanitawase leave this sport? No player that I've ever watched does as many cool things in a single game as he does, and it's truly remarkable that the feats of athleticism he treats us to are so routine now that it isn't even shocking -- it sure is fun to watch though.\n\nFrom the intercept to the absurd flick pass to the raw power for his game-sealing try (and what a pass from Victor Radley, by the way) it is a privilege to watch this guy play footy every week.\n\nI didn't want to dedicate much column space to complaining about the Bunker, so I'll just mention it here. He was probably out when he threw that pass and it DEFINITELY went forward, but it's far easier to not fire up about that when just a few minutes earlier, Jamayne Isaako put the ball on the sideline and that was given the all clear as well. What's doing?"
     },
     {
+      "story_id": "50028512",
+      "headline": "Macklin Celebrini, 20, becomes youngest Sharks captain",
+      "summary": "Macklin Celebrini, 20, has been selected as the Sharks captain, making him the youngest in team history to fill that role.",
+      "image": "https://a.espncdn.com/photo/2026/0418/r1645688_1296x729_16-9.jpg",
+      "published_utc": "2026-09-25T20:58:25Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50028512/macklin-celebrini-20-becomes-youngest-ever-sharks-captain",
+      "stream_url": "",
+      "body": "SAN JOSE, Calif. -- Macklin Celebrini has been picked as the Sharks captain, becoming the youngest player ever to fill that role for the team at the age of 20.\n\nCelebrini was presented the captain's jersey at a team meeting by former captain Joe Thornton before practice Friday.\n\n\"It's a huge honor,\" Celebrini said. \"It's just something that I can't really take lightly. Obviously, there's a responsibility that comes with that. But at the same time, I'm not really going to change who I am or what I do. Just a huge honor first and foremost, and with that comes some responsibility.\"\n\nCelebrini takes over the spot that had been vacant since Logan Couture went down with a career-ending injury and is the 11th full-time captain in Sharks history.\n\nCouture was given that role for the 2019-20 season and held it through 2024-25 even though he didn't play a single game that season because of a chronic injury to his groin and pelvic area that ended his career.\n\nCelebrini was one of five players who rotated as alternate captains last season. He is the youngest player to fill the leadership role for the Sharks, with Patrick Marleau previously holding that mark when he was named captain at age 24 in 2004. He is also the youngest current captain in the NHL, edging out 21-year-old Connor Bedard, who was named captain in Chicago earlier this month.\n\n\"He's earned it through the way he works and competes and the way he's played on the ice and the way he's handled himself off the ice,\" general manager Mike Grier said. \"I don't know if anyone drafts someone at 18 and thinks by the time they're 20 they're going to be leading your team and be your captain. But there are those rare special players who do it, and Macklin is one of them.\"\n\nCelebrini has become the face of the franchise since being drafted first overall in 2024 and quickly developing into one of the game's biggest stars. He signed a five-year, $94 million extension this summer and is under contract through the 2031-32 season.\n\nCelebrini, who turned 20 in June, has 178 career points for the fifth-most ever for a teenager. His 70 career goals are seventh best for a player before turning 20.\n\n\"We've seen it since day one, the type of player he is, but also the type of person he is,\" coach Ryan Warsofsky said. \"The way he leads our group on and off the ice. The guys gravitate towards him.\"\n\nCelebrini had 45 goals and 70 assists last season, with his 115 points breaking Thornton's franchise record of 114 set in 2006-07 and trailing only Wayne Gretzky (137 in 1979-80) and Sidney Crosby (120 in 2006-07) for the most in a season for a player before turning 20.\n\nHe had the 10th-most points for a player who missed the postseason, recording a point on 46.2% of San Jose's goals -- the second-best rate in the NHL behind Connor McDavid (48.9%) and the best ever for a teenager.\n\nCelebrini also was the leading goal scorer in the Olympics, with five goals to help Canada win the silver medal. He served as captain of Team Canada for the World Cup in the spring.\n\nDespite Celebrini's exploits, the Sharks still missed the playoffs for the seventh straight season. They improved by 34 points for the 10th-best single-season jump in the past 30 years but landed four points out of the playoffs.\n\n\"It definitely starts with his work ethic,\" teammate Tyler Toffoli said. \"It's not always the things he says. Obviously, he's very vocal in the sense of he's still a young kid and he enjoys coming to the rink and cracking jokes and having fun. But at the same time, when it comes to work and in the middle of a period in a game, he can be serious. It's one of those things when whenever he talks, you listen.\"\n\nCelebrini is part of a strong young core in San Jose alongside fellow promising players like Michael Misa, Will Smith, Igor Chernyshov and Sam Dickinson. The Sharks added even more young talent this offseason with three first-round picks headlined by Swedish left winger Ivar Stenberg at No. 2 overall.\n\nGrier also brought in veteran reinforcements at the start of the offseason, trading for defenseman Darnell Nurse and signing defenseman Jacob Trouba and forward Mason Marchment.\n\nNow with those veterans and Celebrini leading the way, the Sharks are hoping to get back to the postseason.\n\n\"When you get a special player, it changes, you know, the trajectory of things that you're on,\" Grier said. \"He gives the group a certain level of belief that things are possible. We were fortunate to win the lottery and be able to select Mac.\""
+    },
+    {
       "story_id": "50030414",
       "headline": "P\u00e9rez throws 1-hitter for just 11th MLB complete-game shutout this year as Marlins beat Braves 3-0",
       "summary": "\u2014 Eury P\u00e9rez pitched a one-hitter for just the 11th complete-game shutout in the major leagues this season, and the Miami Marlins beat the playoff-bound Atlanta Braves 3-0 on Friday night.",
@@ -12786,20 +12800,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50025646/bayern-eye-barcelona-world-cup-winner-olmo",
       "stream_url": "",
       "body": "Manchester United are keeping tabs on Club Brugge left back Joaquin Seys, while Barcelona attacking midfielder Dani Olmo is on the radar of Bayern Munich. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n-Manchester United are keeping tabs on Club Brugge left back Joaquin Seys, as reported by TEAMtalk. United scouts recently watched the 21-year-old provide two assists in a 3-0 win over Genk as they evaluate defensive cover for 31-year-old Luke Shaw, after missing out on primary summer targets Nathaniel Brown (who joined Bayern Munich) and Newcastle United's Lewis Hall (who signed a new contract.)\n\n-Bayern Munich are lining up a January move for Barcelona attacking midfielder Dani Olmo, according to Sky Sports. The German giants are preparing contingency plans amid growing interest from rival clubs in Jamal Musiala and Michael Olise, and have maintained a long-term interest in the 28-year-old that dates back to his time at RB Leipzig. Olmo, who won the World Cup with Spain this summer, has a transfer valuation estimated at \u20ac70 million and could be offloaded as Barcelona look to build funds to sign Juli\u00e1n \u00c1lvarez from Atl\u00e9tico Madrid.\n\n- Chelsea lead the race to sign AFC Bournemouth midfielder Alex Scott if he becomes available during the January window, reports the Daily Mail. The 23-year-old's strong performances for the Cherries have earned him a call-up to Thomas Tuchel's England squad for the UEFA Nations League, boosting his profile following summer transfer speculation. However, Bournemouth are reported to be looking for a fee of at least \u00a3100 million.\n\n- Liverpool are among seven Premier League clubs monitoring Lyon midfielder Tyler Morton, according to TEAMtalk. The 23-year-old Liverpool academy product, who joined Lyon permanently in the summer of 2025, is being tracked for a potential return to Anfield. But there is also interest from Nottingham Forest, Crystal Palace, Brighton & Hove Albion, Newcastle United, Sunderland, and Everton.\n\n- Chelsea's failed \u20ac55 million move for Monaco midfielder Lamine Camara on deadline day won't stop the two clubs doing business in the future, says The Daily Mail. Camara, 21, saw a deal fall through in the final hours of the window as Monaco opted to keep him, but if the Blues return in January then they are expected to negotiate better terms. The Senegal international is now also being tracked by Liverpool.\n\nOther rumors\n- Four Premier League clubs, including Chelsea, are looking to sign Manchester City defender Abdukodir Khusanov, 22. (Caught Offside)\n\n- Internazionale are closely monitoring Roma midfielder Alessandro Romano, who is currently impressing on loan at Cagliari. (Gazzetta dello Sport)\n\n- Formal contract extension talks between Liverpool and goalkeeper Alisson Becker are unlikely to begin until later this year, leaving open the possibility of him departing for Juventus on a free transfer. (TEAMtalk)\n\n- Giorgio Scalvini's contract extension at Atalanta until 2031 will not stop interest in the 22-year-old center back from Manchester City, Manchester United, Newcastle United, Tottenham Hotspur, and Chelsea (TEAMtalk)\n\n- Alejandro Garnacho's loan deal from Chelsea to Aston Villa does not contain an early recall or exit clause. (Telegraph)\n\n- Juventus are scouting Sassuolo midfielder Darryl Bakola alongside four Brazilian targets to reinforce their midfield. (Corriere dello Sport)\n\n- Free agent goalkeeper Neto is set to complete his move to Juventus, signing a contract through June 2027. (Nicol\u00f2 Schira)\n\n- Manchester United are finalizing the signing of 16-year-old winger Isaac Konde from Liverpool's academy setup. (Fabrizio Romano)\n\n- Bologna are working on a contract extension for winger Federico Bernardeschi. (Nicol\u00f2 Schira)"
-    },
-    {
-      "story_id": "50028073",
-      "headline": "Hurricanes sign goalie Pyotr Kochetkov to 2-year extension",
-      "summary": "The Carolina Hurricanes have signed goaltender Pyotr Kochetkov to a two-year extension running through the 2028-29 season with an average annual value of $3.95 million.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/1221/3a8e3f12-7f66-47bb-b1cf-ca171da866d9/3a8e3f12-7f66-47bb-b1cf-ca171da866d9.jpg",
-      "published_utc": "2026-09-25T17:30:27Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50028073/hurricanes-sign-goalie-pyotr-kochetkov-2-year-extension",
-      "stream_url": "",
-      "body": "RALEIGH, N.C. -- The Carolina Hurricanes have signed goaltender Pyotr Kochetkov to a two-year extension running through the 2028-29 season with an average annual value of $3.95 million.\n\nThe reigning Stanley Cup champions announced the deal Friday, coming as the 27-year-old netminder will make $2 million this year and was due to become an unrestricted free agent. The deal will pay $2.4 million with a $1.5 million signing bonus for the 2027-28 season, then $3 million with a $1 million signing bonus for 2028-29.\n\n\"Pyotr is an incredibly talented goalie whose aggressive style fits our team very well,\" general manager Eric Tulsky said in a statement. \"We believe in his ability to win games for this organization and are thrilled he wants to continue helping us pursue championships in Carolina.\"\n\nKochetkov missed most of last year with a lower-body injury, going 6-2 with a 2.33 goals-against average and .899 save percentage in nine appearances with Carolina. The 2019 second-round pick is set to form a tandem this year with Brandon Bussi, last year's waiver wire wonder who won 31 regular-season games and posted a shutout in Game 6 against Vegas to clinch the franchise's second Cup title."
     },
     {
       "story_id": "50028180",
@@ -12925,109 +12925,73 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live FHD (CH 1)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live HD (CH 2)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live SD (CH 3)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live FHD (CH 30)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live HD (CH 31)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live SD (CH 32)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/4/1",
-          "label": "Source 4 \u2013 Backup (USA Network) \u2014 Live FHD (CH 10)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/1",
           "label": "VidFrame FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/2",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/2",
           "label": "VidFrame FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/3",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/3",
           "label": "VidFrame FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/4",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/4",
           "label": "VidFrame FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/1",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/5",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 5",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/6",
+          "label": "VidFrame FHD (Live replay) \u2014 last part",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/2",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/3",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/4",
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/5",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/6",
+          "label": "Dailymotion FHD (Live replay) \u2014 last part",
           "part": true,
           "live": true
         }
