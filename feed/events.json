@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-27T03:36:11.390417+00:00",
+  "generated_utc": "2026-09-27T03:46:08.868258+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057444",
@@ -6631,53 +6631,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856804",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-26T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:265",
-        "name": "Washington State Cougars",
-        "abbrev": "WSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cougars",
-          "WSU",
-          "Washington St",
-          "Washington State",
-          "Washington State Cougars"
-        ],
-        "color": "a60f2d"
-      },
-      "away": {
-        "id": "espn:12",
-        "name": "Arizona Wildcats",
-        "abbrev": "ARIZ",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARIZ",
-          "Arizona",
-          "Arizona Wildcats",
-          "Wildcats"
-        ],
-        "color": "cc0033"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Martin Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856702",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6759,6 +6712,53 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Los Angeles Memorial Coliseum",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856804",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:265",
+        "name": "Washington State Cougars",
+        "abbrev": "WSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "WSU",
+          "Washington St",
+          "Washington State",
+          "Washington State Cougars"
+        ],
+        "color": "a60f2d"
+      },
+      "away": {
+        "id": "espn:12",
+        "name": "Arizona Wildcats",
+        "abbrev": "ARIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARIZ",
+          "Arizona",
+          "Arizona Wildcats",
+          "Wildcats"
+        ],
+        "color": "cc0033"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Martin Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -7571,7 +7571,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-09-27T01:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:22",
         "name": "Edmonton Oilers",
@@ -7601,7 +7601,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -7649,7 +7649,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Gerald J. Ford Stadium",
-      "detail": "14:23 - 4th Quarter",
+      "detail": "12:02 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7695,7 +7695,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Sun Bowl",
-      "detail": "13:13 - 4th Quarter",
+      "detail": "8:24 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7743,7 +7743,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hornet Stadium",
-      "detail": "0:43 - 3rd Quarter",
+      "detail": "12:07 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7969,9 +7969,9 @@
         "color": "00205b"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Valley Children's Stadium",
-      "detail": "0:13 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8017,7 +8017,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Stanford Stadium",
-      "detail": "7:31 - 2nd Quarter",
+      "detail": "4:17 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8063,7 +8063,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mackay Stadium",
-      "detail": "7:35 - 2nd Quarter",
+      "detail": "1:58 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8104,9 +8104,9 @@
         "color": "8a2432"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "Dignity Health Sports Park",
-      "detail": "HT",
+      "detail": "47'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8239,7 +8239,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Husky Stadium",
-      "detail": "5:32 - 1st Quarter",
+      "detail": "0:51 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11775,6 +11775,20 @@
   ],
   "stories": [
     {
+      "story_id": "50029075",
+      "headline": "2026 WNBA playoffs: Experts pick the first round, WNBA champion",
+      "summary": "We're picking every series in the WNBA playoffs' first round -- and our champions and Finals MVP. Who gets the edge?",
+      "image": "https://a.espncdn.com/photo/2026/0711/r1687818_1296x729_16-9.jpg",
+      "published_utc": "2026-09-27T03:36:17Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50029075/2026-wnba-playoffs-experts-pick-first-round-wnba-champion-finals-mvp",
+      "stream_url": "",
+      "body": "The WNBA playoffs are here! With all four first-round series tipping off Sunday (first game starts at 2 p.m. ET), it's time to find out what the experts think about some of the best matchups of the 2026 postseason.\n\nWill Napheesa Collier and Olivia Miles of the Minnesota Lynx take down the New York Liberty in a 2024 WNBA Finals rematch? Can Caitlin Clark's Indiana Fever slow down A'ja Wilson and the defending champion Las Vegas Aces? Will the upstart Golden State Valkyries win their first postseason game after being swept last year? Will the Atlanta Dream's Angel Reese impress against the Washington Mystics in her first postseason game?\n\nThere's plenty to watch, and we asked our WNBA analysts to break it all down.\n\nCheck out which teams our experts picked for every first-round series, as well as the Finals matchup, winner and MVP.\n\nWho wins each best-of-three first-round series?\n\n(1) Minnesota Lynx vs. (8) New York Liberty\n\nKendra Andrews: Lynx in 3\n\nKareem Copeland: Lynx in 3\n\nMyron Medcalf: Lynx in 3\n\nEric Moody: Lynx in 2\n\nNeil Paine: Lynx in 3\n\nAlexa Philippou: Lynx in 3\n\nAndre Snellings: Lynx in 2\n\nMichael Voepel: Lynx in 3\n\n(2)\n\nGolden State Valkyries vs. (7) Dallas Wings\n\nAndrews: Valkyries in 2\n\nCopeland: Valkyries in 3\n\nMedcalf: Valkyries in 3\n\nMoody: Valkyries in 2\n\nPaine: Valkyries in 2\n\nPhilippou: Valkyries in 2\n\nSnellings: Valkyries in 3\n\nVoepel: Valkyries in 2\n\n(3) Las Vegas Aces vs. (6) Indiana Fever\n\nAndrews: Aces in 3\n\nCopeland: Aces in 3\n\nMedcalf: Fever in 3\n\nMoody: Aces in 3\n\nPaine: Fever in 3\n\nPhilippou: Aces in 3\n\nSnellings: Aces in 3\n\nVoepel: Aces in 3\n\n(4) Atlanta Dream vs. (5) Washington Mystics\n\nAndrews: Dream in 2\n\nCopeland: Dream in 3\n\nMedcalf: Dream in 3\n\nMoody: Dream in 2\n\nPaine: Dream in 2\n\nPhilippou: Dream in 3\n\nSnellings: Dream in 2\n\nVoepel: Dream in 3\n\nWhich teams will meet in the WNBA Finals?\n\nAndrews: Aces vs. Dream\n\nCopeland: Lynx vs. Aces\n\nMedcalf: Lynx vs. Fever\n\nMoody: Lynx vs. Aces\n\nPaine: Lynx vs. Valkyries\n\nPhilippou: Lynx vs. Aces\n\nSnellings: Aces vs. Dream\n\nVoepel: Lynx vs. Aces\n\nWhich team will win the championship?\n\nAndrews: Aces in 7\n\nCopeland: Aces in 7\n\nMedcalf: Lynx in 7\n\nMoody: Lynx in 7\n\nPaine: Lynx in 6\n\nPhilippou: Lynx in 7\n\nSnellings: Aces in 7\n\nVoepel: Aces in 6\n\nWhich player will be Finals MVP?\n\nAndrews: A'ja Wilson, Las Vegas Aces\n\nCopeland: A'ja Wilson, Las Vegas Aces\n\nMedcalf: Olivia Miles, Minnesota Lynx\n\nMoody: Olivia Miles, Minnesota Lynx\n\nPaine: Napheesa Collier, Minnesota Lynx\n\nPhilippou: Olivia Miles, Minnesota Lynx\n\nSnellings: A'ja Wilson, Las Vegas Aces\n\nVoepel: A'ja Wilson, Las Vegas Aces"
+    },
+    {
       "story_id": "50039516",
       "headline": "Tampa Bay Rays vs. Philadelphia Phillies: Game Highlights",
       "summary": "Tampa Bay Rays vs. Philadelphia Phillies: Game Highlights",
@@ -11901,20 +11915,6 @@
       "body": ""
     },
     {
-      "story_id": "50029075",
-      "headline": "2026 WNBA playoffs: Experts pick the first round, WNBA champion",
-      "summary": "We're picking every series in the WNBA playoffs' first round -- and our champions and Finals MVP. Who gets the edge?",
-      "image": "https://a.espncdn.com/photo/2026/0925/wnba_playoff-predictions_16x9.jpg",
-      "published_utc": "2026-09-26T10:53:18Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50029075/2026-wnba-playoffs-experts-pick-first-round-wnba-champion-finals-mvp",
-      "stream_url": "",
-      "body": "The WNBA playoffs are here! With all four first-round series tipping off Sunday (first game starts at 2 p.m. ET), it's time to find out what the experts think about some of the best matchups of the 2026 postseason.\n\nWill Napheesa Collier and Olivia Miles of the Minnesota Lynx take down the New York Liberty in a 2024 WNBA Finals rematch? Can Caitlin Clark's Indiana Fever slow down A'ja Wilson and the defending champion Las Vegas Aces? Will the upstart Golden State Valkyries win their first postseason game after being swept last year? Will the Atlanta Dream's Angel Reese impress against the Washington Mystics in her first postseason game?\n\nThere's plenty to watch, and we asked our WNBA analysts to break it all down.\n\nCheck out which teams our experts picked for every first-round series, as well as the Finals matchup, winner and MVP.\n\nWho wins each best-of-three first-round series?\n\n(1) Minnesota Lynx vs. (8) New York Liberty\n\nKendra Andrews: Lynx in 3\n\nKareem Copeland: Lynx in 3\n\nMyron Medcalf: Lynx in 3\n\nEric Moody: Lynx in 2\n\nNeil Paine: Lynx in 3\n\nAlexa Philippou: Lynx in 3\n\nAndre Snellings: Lynx in 2\n\nMichael Voepel: Lynx in 3\n\n(2)\n\nGolden State Valkyries vs. (7) Dallas Wings\n\nAndrews: Valkyries in 2\n\nCopeland: Valkyries in 3\n\nMedcalf: Valkyries in 3\n\nMoody: Valkyries in 2\n\nPaine: Valkyries in 2\n\nPhilippou: Valkyries in 2\n\nSnellings: Valkyries in 3\n\nVoepel: Valkyries in 2\n\n(3) Las Vegas Aces vs. (6) Indiana Fever\n\nAndrews: Aces in 3\n\nCopeland: Aces in 3\n\nMedcalf: Fever in 3\n\nMoody: Aces in 3\n\nPaine: Fever in 3\n\nPhilippou: Aces in 3\n\nSnellings: Aces in 3\n\nVoepel: Aces in 3\n\n(4) Atlanta Dream vs. (5) Washington Mystics\n\nAndrews: Dream in 2\n\nCopeland: Dream in 3\n\nMedcalf: Dream in 3\n\nMoody: Dream in 2\n\nPaine: Dream in 2\n\nPhilippou: Dream in 3\n\nSnellings: Dream in 2\n\nVoepel: Dream in 3\n\nWhich teams will meet in the WNBA Finals?\n\nAndrews: Aces vs. Dream\n\nCopeland: Lynx vs. Aces\n\nMedcalf: Lynx vs. Fever\n\nMoody: Lynx vs. Aces\n\nPaine: Lynx vs. Valkyries\n\nPhilippou: Lynx vs. Aces\n\nSnellings: Aces vs. Dream\n\nVoepel: Lynx vs. Aces\n\nWhich team will win the championship?\n\nAndrews: Aces in 7\n\nCopeland: Aces in 7\n\nMedcalf: Lynx in 7\n\nMoody: Lynx in 7\n\nPaine: Lynx in 6\n\nPhilippou: Lynx in 7\n\nSnellings: Aces in 7\n\nVoepel: Aces in 6\n\nWhich player will be Finals MVP?\n\nAndrews: A'ja Wilson, Las Vegas Aces\n\nCopeland: A'ja Wilson, Las Vegas Aces\n\nMedcalf: Olivia Miles, Minnesota Lynx\n\nMoody: Olivia Miles, Minnesota Lynx\n\nPaine: Napheesa Collier, Minnesota Lynx\n\nPhilippou: Olivia Miles, Minnesota Lynx\n\nSnellings: A'ja Wilson, Las Vegas Aces\n\nVoepel: A'ja Wilson, Las Vegas Aces"
-    },
-    {
       "story_id": "24067525",
       "headline": "The performance bonuses for Van, Tsarukyan? Spots in P4P top 10",
       "summary": "Former UFC champion puts elite status of women's flyweight division on display in ESPN's P4P top 10.",
@@ -11941,6 +11941,20 @@
       "link": "https://www.espn.com/nrl/story/_/id/50038962/nrl-sydney-roosters-sam-walker-unpacks-miracle-return-contract-talks",
       "stream_url": "",
       "body": "Sam Walker says he wants to re-sign at the Sydney Roosters and his inspirational actions to return with a bang from injury in record-equalling time showcased the intent.\n\nThe 24-year-old halfback has parked contract extension talks until the end of the season and will play in his first NRL grand final after a masterclass performance dismantled the Dolphins 36-20 in Friday night's preliminary final.\n\nWalker returned in 27 days after suffering a syndesmosis injury against the Dolphins in round 26, the equal fastest recovery in NRL history from such an injury - alongside former Broncos playmaker Tristan Sailor.\n\nHe left nothing to chance.\n\n\"Hyperbaric chamber helped a fair bit,\" Walker said.\n\n\"Every time I was at home, I was icing and compressing as much as I could.\n\n\"Every day off I was in the club and making sure I got treatment to give myself the best possibility ... and saunas, ice baths, everything I could do.\"\n\nWalker, having never previously suffered a syndesmosis injury, immediately targeted the preliminary final as his return date after the setback.\n\n\"I was pretty clear and focused,\" the Queensland star said.\n\n\"The boys worked so hard the last month without me there and I'm just really happy.\n\n\"I'm really grateful for the staff and the medical team at the Roosters.\n\n\"It's obviously a massive risk for them as well.\"\n\nWalker's focus is solely on the grand final after he agreed mutually with the club to put off extension talks. He is a free agent from November 1.\n\n\"There's not a glimmer of thought about that,\" he said.\n\n\"It's about winning next Sunday.\n\n\"For sure, my preference is obviously to stay at the Roosters, but for now ... my job's to go out there and perform and play football and the rest will take care of itself.\"\n\nWalker was a Roosters fan growing up and his fondest first grand final to watch was in 2013, when current winger Daniel Tupou scored a spectacular leaping try in a 26-18 win over Manly.\n\nIt is a 'pinch yourself' moment for Walker, who laid on a try for Tupou against the Dolphins with a bomb.\n\n\"He's unbelievable. He was doing it in 2013 and he is still doing it now,\" Walker said.\n\n\"You just have to put the ball in the right spot, and he'll do the rest.\"\n\nNow Walker gets to fulfil a lifelong dream on Sunday.\n\n\"I can't wait,\" he said.\n\n\"It's going to be an exciting week, but none of that matters, unless we go out there and perform for 80 minutes.\"\n\nWalker will line up with 37-year-old half Daly Cherry-Evans in the veteran's final game in the NRL before joining Hull FC.\n\n\"It's been an absolute honour to play alongside Sam Walker. I hope I have passed on some knowledge to him, but he'd be surprised at how much he's teaching me,\" Cherry-Evans said.\n\nIt only took 12 months for Cherry-Evans to \"fall in love\" with the club.\n\n\"If Sammy feels the same thing, then he'll stay. But those things have been put on the back burner until the season's done,\" he said.\n\n\"When the time's right, he will sort that out.\"\n\nWalker wants to make sure Cherry-Evans gets a fairytale send-off.\n\n\"His impact on the club's been enormous,\" Walker said.\n\n\"The person he is, the energy he brings around the club is just infectious.\n\n\"We want to do him proud and send him off the right way.\""
+    },
+    {
+      "story_id": "50031344",
+      "headline": "Lynx open playoffs against the Liberty",
+      "summary": "New York Liberty (26-18, 13-7 Eastern Conference) at Minnesota Lynx (33-11, 20-3 Western Conference)",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918014.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-26T06:10:39Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/wnba/preview?gameId=401918014",
+      "stream_url": "",
+      "body": "New York Liberty (26-18, 13-7 Eastern Conference) at Minnesota Lynx (33-11, 20-3 Western Conference)\n\nMinneapolis; Sunday, 2 p.m. EDT\n\nLINE: Lynx -6.5; over/under is 173.5\n\nWNBA PLAYOFFS FIRST ROUND: Lynx host first series matchup\n\nBOTTOM LINE: The Minnesota Lynx host the New York Liberty to start the first round of the WNBA playoffs. New York went 2-1 against Minnesota during the regular season. The Liberty won the last regular season meeting 93-81 on Sept. 18. Breanna Stewart led the Liberty with 24 points, and Olivia Miles led the Lynx with 20 points.\n\nThe Lynx are 15-7 in home games. Minnesota is second in the Western Conference scoring 90.8 points while shooting 47.7% from the field.\n\nThe Liberty have gone 12-10 away from home. New York ranks seventh in the WNBA with 20.8 assists per game led by Pauline Astier averaging 3.3.\n\nMinnesota makes 47.7% of its shots from the field this season, which is 2.9 percentage points higher than New York has allowed to its opponents (44.8%). New York averages 10.2 made 3-pointers per game this season, 0.9 more makes per game than Minnesota allows.\n\nTOP PERFORMERS: Natasha Howard is averaging 14.8 points, 7.6 rebounds, 3.3 assists and 1.6 steals for the Lynx. Miles is averaging 19.8 points and six assists over the last 10 games.\n\nStewart is averaging 20.8 points, 8.3 rebounds and 3.3 assists for the Liberty. Rebecca Allen is averaging 7.8 points over the last 10 games.\n\nLAST 10 GAMES: Lynx: 6-4, averaging 84.0 points, 33.3 rebounds, 20.9 assists, 7.4 steals and 3.9 blocks per game while shooting 44.8% from the field. Their opponents have averaged 83.1 points per game.\n\nLiberty: 6-4, averaging 85.5 points, 36.9 rebounds, 20.3 assists, 5.9 steals and 4.0 blocks per game while shooting 44.3% from the field. Their opponents have averaged 82.4 points.\n\nINJURIES: Lynx: Anastasiia Olairi Kosu: day to day (foot), Olivia Miles: day to day (calf), Emma Cechova: out for season (knee).\n\nLiberty: Breanna Stewart: day to day (knee), Jonquel Jones: day to day (ankle), Satou Sabally: out for season (head).\n\n------\n\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
     },
     {
       "story_id": "50039517",
@@ -12067,20 +12081,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50032611/man-city-verdict-leave-stain-stench-premier-league-era",
       "stream_url": "",
       "body": "It was one of the Premier League's most iconic moments: May 2014 and Steven Gerrard, Liverpool's heroic captain, finally lifts the Premier League trophy alongside manager Brendan Rodgers, who ended the club's quarter-century wait to become champions of England once again. What a story.\n\nEngland's fallen giants were back on their perch, and Gerrard, the greatest player never to win a title medal, was able to put the seal on a glorious career with the one major honor missing from his collection. Except it didn't happen. Just like Jose Mourinho winning his fourth Premier League title with Manchester United didn't happen four years later.\n\nPerhaps in a parallel universe Liverpool are listed as 2013-14 Premier League champions and United in 2017-18, but in the real world, Manchester City came out on top on both occasions and on many more. But did they really?\n\nThe news that City are expected to be found guilty of 114 of the 115 charges related to breaching Premier League financial regulations between 2009 and 2018 -- neither City nor the Premier League deny the verdict of the independent panel -- means that everything they achieved during that period is now in question. City have consistently denied all the charges and are expected to appeal the verdict.\n\nForget the asterisks next to those title wins and cup triumphs -- those moments that have been imprinted forever on the fabric of English football. The imprints are still there -- they will never go away -- but neither will the stain and the stench of being found guilty of breaking the rules -- cheating -- to claim their own glorious moments and, just as importantly, deny others from experiencing them.\n\nSo next time you see a replay of Sergio Aguero's famous title-winning goal in the final seconds of the 3-2 win against Queen's Park Rangers on the final day of the 2011-12 season, ask yourself whether it is valid. Or more likely, the footage becomes nothing more than the Premier League's version of Ben Johnson sprinting to gold in the 1988 Olympics 100-meter final or any of the seven consecutive Tour de France wins by Lance Armstrong between 1999 and 2005.\n\nJohnson and Armstrong were both unmasked as drug cheats and stripped of their titles. That may yet happen to City when the Premier League rolls out its sanctions for the industrial scale breaches that the club has been found guilty of -- massive fines and points deductions which could lead to relegation are likely -- but the problem is that nobody really remembers who came second in an unfair race.\n\nWho did Armstrong beat into second place in those seven successive wins? Good luck answering that without using Wikipedia. But for those like Gerrard, Rodgers and Mourinho, finishing second to City had its costs and real-life consequences.\n\nGerrard would retire without ever having won the Premier League, and he has since admitted that his slip in a 2-0 home defeat against Chelsea, which tilted the title race in City's favour, still haunts him every day. Mourinho was fired by United months after finishing second to City in 2018 -- a feat he described at the time as his \"greatest achievement\" due to the power of his opponent -- while Rodgers never recovered from Liverpool's failure to win the title and was gone from Anfield just over a year later.\n\nFormer United defender Rio Ferdinand, part of the team that missed out on the title by goal difference to City in 2012, reacted to news of the 114 charges by saying, \"Another Premier League medal to be added to the cabinet,\" while former teammate David de Gea, who finished second in 2012 and 2018, posted on X, \"So...Let's talk. How many Premier League titles have I won then?\"\n\nBut it goes deeper than clubs, players and managers who narrowly missed out in second place because City spent beyond their means, paying higher wages and transfer fees because of inflated sponsorship deals and off-the-books payments.\n\nArsenal arguably took a decade to recover from having their squad repeatedly raided by City in the early years of Abu Dhabi ownership, while United have never been the same powerhouse since Carlos Tevez left Old Trafford for City in the summer of 2009, sparking the club's rise to dominance.\n\nFormer Arsenal manager Arsene Wenger once used the phrase \"financial doping\" to describe Chelsea's lavish spending under Russian owner Roman Abramovich -- Mourinho benefited more than most with those millions building his back-to-back title-winning team at Stamford Bridge -- but City took it to a different level.\n\nArsenal were victims of the early spending spree at City, described at the time by then-CEO Garry Cook as the club's \"accelerated acquisition strategy,\" with a succession of players being lured away from the Emirates for huge fees and salaries.\n\nKolo Toure, Emmanuel Adebayor, Bacary Sagna, Gael Clichy and Samir Nasri all made the move from Arsenal to City during the 2009-2018 period investigated by the Premier League.\n\nArsenal needed the money after borrowing funds to build the Emirates, but City -- a team that had not won a trophy since 1976 and had been in the third tier as recently as 1999 -- suddenly became a dream destination for players and, bankrolled by Sheikh Mansour bin Zayed al Nahyan, they ruthlessly raided Wenger's team time and again to build their own empire and diminish Arsenal's.\n\nArsenal have since recovered, becoming champions again last season under manager Mikel Arteta, who once worked as an assistant coach to Guardiola at City. However, even though the period between 2018 and the present day is not covered by the Premier League investigation, the power and prestige gained by City during that period -- they are the only English club with an unbroken Champions League qualification record since first playing in the competition in 2011 -- made them such a formidable rival for Arteta's team to overcome.\n\nWould Guardiola, Erling Haaland, Rodri, Kevin De Bruyne, Aguero and so many more star names have chosen City over other clubs without the rule-breaking that allowed them to become the most successful team in the country? In a sport where money rules, the answer is an easy one to find.\n\nMoney has ruled, and City have prospered, but when the expected guilty verdict is made, their achievements will officially have been made by breaking the rules. The price on their ticket will now be a very heavy one.\n\nIt could mean a massive points deduction that could lead to relegation, huge fines that could financially ruin the club, sponsors deserting due to reputational damage, players wanting to leave, and those who don't might have to go anyway, their salaries no longer affordable.\n\nCity are likely to face legal action from rival clubs for loss of earnings, titles, European qualification and commercial revenue; the ramifications are endless. In 2024, Arsenal, Liverpool, United and Tottenham served legal notices on City, reserving the right to seek compensation if the club were found guilty of serious charges.\n\nCity's Abu Dhabi hierarchy may also be driven out of the game for overseeing the prolonged rule-breaking, which makes them unfit for office. If buying City in 2008 really was an Abu Dhabi sportswashing project, designed to polish the Gulf state's global brand, the end result was incalculable damage.\n\nYet even if Gerrard, Rodgers, Mourinho, Ferdinand, De Gea and the rest suddenly wake up one morning to the delivery of an overdue winners' medal, it won't make up for what happened at the time.\n\nBut if you never see Aguero's title-winning goal replayed on TV again, you now know why."
-    },
-    {
-      "story_id": "50031344",
-      "headline": "Lynx open playoffs against the Liberty",
-      "summary": "New York Liberty (26-18, 13-7 Eastern Conference) at Minnesota Lynx (33-11, 20-3 Western Conference)",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918014.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-26T06:10:39Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/preview?gameId=401918014",
-      "stream_url": "",
-      "body": "New York Liberty (26-18, 13-7 Eastern Conference) at Minnesota Lynx (33-11, 20-3 Western Conference)\n\nMinneapolis; Sunday, 2 p.m. EDT\n\nLINE: Lynx -6.5; over/under is 173.5\n\nWNBA PLAYOFFS FIRST ROUND: Lynx host first series matchup\n\nBOTTOM LINE: The Minnesota Lynx host the New York Liberty to start the first round of the WNBA playoffs. New York went 2-1 against Minnesota during the regular season. The Liberty won the last regular season meeting 93-81 on Sept. 18. Breanna Stewart led the Liberty with 24 points, and Olivia Miles led the Lynx with 20 points.\n\nThe Lynx are 15-7 in home games. Minnesota is second in the Western Conference scoring 90.8 points while shooting 47.7% from the field.\n\nThe Liberty have gone 12-10 away from home. New York ranks seventh in the WNBA with 20.8 assists per game led by Pauline Astier averaging 3.3.\n\nMinnesota makes 47.7% of its shots from the field this season, which is 2.9 percentage points higher than New York has allowed to its opponents (44.8%). New York averages 10.2 made 3-pointers per game this season, 0.9 more makes per game than Minnesota allows.\n\nTOP PERFORMERS: Natasha Howard is averaging 14.8 points, 7.6 rebounds, 3.3 assists and 1.6 steals for the Lynx. Miles is averaging 19.8 points and six assists over the last 10 games.\n\nStewart is averaging 20.8 points, 8.3 rebounds and 3.3 assists for the Liberty. Rebecca Allen is averaging 7.8 points over the last 10 games.\n\nLAST 10 GAMES: Lynx: 6-4, averaging 84.0 points, 33.3 rebounds, 20.9 assists, 7.4 steals and 3.9 blocks per game while shooting 44.8% from the field. Their opponents have averaged 83.1 points per game.\n\nLiberty: 6-4, averaging 85.5 points, 36.9 rebounds, 20.3 assists, 5.9 steals and 4.0 blocks per game while shooting 44.3% from the field. Their opponents have averaged 82.4 points.\n\nINJURIES: Lynx: Anastasiia Olairi Kosu: day to day (foot), Olivia Miles: day to day (calf), Emma Cechova: out for season (knee).\n\nLiberty: Breanna Stewart: day to day (knee), Jonquel Jones: day to day (ankle), Satou Sabally: out for season (head).\n\n------\n\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
     },
     {
       "story_id": "21807736",
@@ -12287,6 +12287,12 @@
           "live": true
         },
         {
+          "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/4/8",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 8",
+          "part": true,
+          "live": true
+        },
+        {
           "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/5/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
@@ -12325,6 +12331,12 @@
         {
           "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/5/7",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 7",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/5/8",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 8",
           "part": true,
           "live": true
         }
@@ -12394,16 +12406,46 @@
       "id": "ww:d6071c4d2604f6e3eca204f1b81155ce",
       "title": "Primos Pro Wrestling: Slave to the Deathmatch XVII, Night 1 9/26/2026",
       "date": "2026-09-26",
-      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/1/1",
+      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/2/1",
       "replay_candidates": [
         {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/1/1",
-          "label": "Source 1 \u2013 Mstream \u2014 Live HD (CH 92)",
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/2/1",
+          "label": "OK.ru HD \u2014 Full Show",
           "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/3/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/3/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/3/3",
+          "label": "Other Hosts \u2014 NetU (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/1/1",
+          "label": "Dailymotion HD \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-4/1/2",
+          "label": "Dailymotion HD \u2014 Part 2",
+          "part": true,
           "live": false
         }
       ],
-      "poster": "",
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2026/03/Primos-Pro-Wrestling.webp",
       "source_url": "https://watch-wrestling.eu/primos-pro-wrestling-slave-to-the-deathmatch-xvii-night-1-9-26-2026/d6071c4d2604f6e3eca204f1b81155ce"
     },
     {
