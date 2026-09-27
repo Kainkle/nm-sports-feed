@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-27T20:05:23.076378+00:00",
+  "generated_utc": "2026-09-27T20:15:24.438517+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057444",
@@ -8203,7 +8203,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-27T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2",
         "name": "Buffalo Bills",
@@ -8233,9 +8233,9 @@
         "color": "0080c6"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Highmark Stadium",
-      "detail": "1:59 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8281,7 +8281,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Huntington Bank Field",
-      "detail": "2:29 - 4th Quarter",
+      "detail": "1:44 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "W7Q_IXClz48",
       "replay_url": "",
@@ -8295,7 +8295,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-27T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:11",
         "name": "Indianapolis Colts",
@@ -8325,9 +8325,147 @@
         "color": "021018"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Lucas Oil Stadium",
-      "detail": "0:16 - 4th Quarter",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872950",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-27T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:23",
+        "name": "Pittsburgh Steelers",
+        "abbrev": "PIT",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+        "logo_dark": null,
+        "aliases": [
+          "PIT",
+          "Pittsburgh",
+          "Pittsburgh Steelers",
+          "Steelers"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:4",
+        "name": "Cincinnati Bengals",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bengals",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bengals"
+        ],
+        "color": "fb4f14"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Acrisure Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872955",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-27T17:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:28",
+        "name": "Washington Commanders",
+        "abbrev": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+        "logo_dark": null,
+        "aliases": [
+          "Commanders",
+          "WSH",
+          "Washington",
+          "Washington Commanders"
+        ],
+        "color": "5a1414"
+      },
+      "away": {
+        "id": "espn:26",
+        "name": "Seattle Seahawks",
+        "abbrev": "SEA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+        "logo_dark": null,
+        "aliases": [
+          "SEA",
+          "Seahawks",
+          "Seattle",
+          "Seattle Seahawks"
+        ],
+        "color": "002a5c"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "Northwest Stadium",
+      "detail": "2:58 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872954",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-09-27T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:8",
+        "name": "Detroit Lions",
+        "abbrev": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Lions",
+          "Lions"
+        ],
+        "color": "0076b6"
+      },
+      "away": {
+        "id": "espn:20",
+        "name": "New York Jets",
+        "abbrev": "NYJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jets",
+          "NYJ",
+          "New York",
+          "New York Jets"
+        ],
+        "color": "115740"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Ford Field",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8428,98 +8566,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872950",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-27T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:23",
-        "name": "Pittsburgh Steelers",
-        "abbrev": "PIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-        "logo_dark": null,
-        "aliases": [
-          "PIT",
-          "Pittsburgh",
-          "Pittsburgh Steelers",
-          "Steelers"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Cincinnati Bengals",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bengals",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bengals"
-        ],
-        "color": "fb4f14"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Acrisure Stadium",
-      "detail": "2:00 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872955",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-27T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:28",
-        "name": "Washington Commanders",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "Commanders",
-          "WSH",
-          "Washington",
-          "Washington Commanders"
-        ],
-        "color": "5a1414"
-      },
-      "away": {
-        "id": "espn:26",
-        "name": "Seattle Seahawks",
-        "abbrev": "SEA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-        "logo_dark": null,
-        "aliases": [
-          "SEA",
-          "Seahawks",
-          "Seattle",
-          "Seattle Seahawks"
-        ],
-        "color": "002a5c"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Northwest Stadium",
-      "detail": "4:34 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401872957",
       "sport": "football",
       "competition_id": "nfl",
@@ -8557,52 +8603,6 @@
       "source": "espn:football/nfl",
       "source_status": "post/Final",
       "venue": "EverBank Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872954",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-27T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:8",
-        "name": "Detroit Lions",
-        "abbrev": "DET",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Lions",
-          "Lions"
-        ],
-        "color": "0076b6"
-      },
-      "away": {
-        "id": "espn:20",
-        "name": "New York Jets",
-        "abbrev": "NYJ",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jets",
-          "NYJ",
-          "New York",
-          "New York Jets"
-        ],
-        "color": "115740"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Ford Field",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -8664,7 +8664,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-09-27T17:05:00Z",
-      "status": "suspended",
+      "status": "cancelled",
       "home": {
         "id": "mlb:147",
         "name": "New York Yankees",
@@ -8695,7 +8695,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Delayed Start",
+      "source_status": "Final/Cancelled",
       "venue": "Yankee Stadium",
       "detail": "",
       "game_number": 1,
@@ -8711,7 +8711,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-09-27T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:8",
         "name": "Minnesota Lynx",
@@ -8741,9 +8741,9 @@
         "color": "86cebc"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Target Center",
-      "detail": "1:05 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9398,7 +9398,7 @@
       "competition_id": "wnba",
       "competition_name": "WNBA",
       "start_utc": "2026-09-27T20:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:17",
         "name": "Las Vegas Aces",
@@ -9428,9 +9428,9 @@
         "color": "002d62"
       },
       "source": "espn:basketball/wnba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "Sun, September 27th at 4:00 PM EDT",
+      "detail": "8:33 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9444,7 +9444,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-27T20:05Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:25",
         "name": "San Francisco 49ers",
@@ -9474,9 +9474,9 @@
         "color": "a40227"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Levi's Stadium",
-      "detail": "Sun, September 27th at 4:05 PM EDT",
+      "detail": "10:04 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9490,7 +9490,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-09-27T20:05Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:27",
         "name": "Tampa Bay Buccaneers",
@@ -9520,9 +9520,9 @@
         "color": "4f2683"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Raymond James Stadium",
-      "detail": "Sun, September 27th at 4:05 PM EDT",
+      "detail": "10:20 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11683,25 +11683,25 @@
   ],
   "stories": [
     {
-      "story_id": "50023585",
-      "headline": "NFL Week 3's best arrivals, led by Lamar Jackson in Rio",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "image": "https://a.espncdn.com/photo/2026/0927/r1722562_608x342_16-9.png",
-      "published_utc": "2026-09-27T19:46:39Z",
+      "story_id": "50045051",
+      "headline": "Lawrence throws 3 TD passes as Jaguars rout Patriots and raise more questions about Maye",
+      "summary": "\u2014 Trevor Lawrence threw three touchdown passes, including one on which Parker Washington made a fingertip catch in the end zone, and the Jacksonville Jaguars bounced back from their...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872957.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-09-27T20:12:30Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Cameron Wolfe",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50023585/nfl-week-3-fashionable-arrivals",
+      "link": "http://www.espn.com/nfl/recap?gameId=401872957",
       "stream_url": "",
-      "body": "The official start of fall means it's fit season, when players start dominating the gameday tunnels with eye-popping jackets, sweaters and pants.\n\nLast week, the Philadelphia Eagles played a blazing hot game in Nashville that had players' cleats melting with with temperatures of up to 157 degrees Fahrenheit on the turf.\n\nHopefully this week is the start of a heat decline with more cloudier 50-to-75 degree days ahead to allow players to comfortably show off their fits.\n\nTo kick off Week 3, Green Bay Packers quarterbacks Jordan Love and Tyrod Taylor rocked my two favorite outfits of the Thursday primetime slate.\n\nLove came in shining -- literally -- with a Public School New York x KAY jewelry collaboration jacket: the definition of a statement piece.\n\nMeanwhile, Taylor's Dries Van Noten sweater is the perfect kickoff to fall -- warm but fashion-forward. There are so many fabric design details within this one piece, showing the value of layers.\n\nAs always, Sunday is where the big show begins. Here are Week 3 fits that caught our eye:\n\nSunday's best\nThe Baltimore Ravens and Dallas Cowboys brought their contrasting styles to Maracan\u00e3 Stadium for the NFL's first game in Rio de Janeiro. Lamar Jackson donned a graphic tee paying homage to the late rapper DMX, while George Pickens' fit featured Brazil's national colors in a nod to the host country.\n\nFrom Stefon Diggs' black jacket covered in NBA throwback logo patches, to Malik Nabers' custom \"H1M\" pendant, players brought plenty of style and personality ahead of the early slate.\n\nThursday night fashion\nThe Green Bay Packers host the Atlanta Falcons to kick off Week 3's slate, and quarterback Jordan Love entered the home opener in style, pairing an oversize studded leather pullover with black trousers, a crisp white shirt and black tie. He completed the look with dark sunglasses and a checkered duffel bag."
+      "body": "JACKSONVILLE, Fla. -- \u2014 Trevor Lawrence threw three touchdown passes, including one on which Parker Washington made a fingertip catch in the end zone, and the Jacksonville Jaguars bounced back from their worst offensive performance in nearly a year to dominate New England 35-6 on Sunday.\n\n\r\nLawrence also strangely gave himself up at the 1-yard line with nearly 9 minutes to play. It created countless laughs on the sideline. Bhayshul Tuten scored on the next play, which surely will cause angst in the fantasy football world.\n\n\r\nRegardless, the Jaguars (2-1) won their sixth consecutive regular-season game at home and raised more questions about Drake Maye\u2019s regression for the Patriots.\n\n\r\nMaye fumbled twice, losing one, and threw two more interceptions before getting pulled in the fourth quarter with the game out of reach. He now has one TD pass and six INTs in three games. He threw 31 touchdowns and eight picks last season for the AFC champion Patriots (1-2).\n\n\r\nMaye\u2019s performance in this one was more alarming than his three-interception fourth quarter in the season opener at Seattle. The ball slipped out of his right hand with no one around him during one play. He threw into coverage on a third-and-goal play, resulting in Travis Hunter\u2019s first career interception. He also threw a pass directly to cornerback Jarrian Jones that set up another score for Jacksonville.\n\n\r\nNew England had other issues, too: Andy Borregales missed a 38-yard field goal; Kyle Williams mistakenly stepped out of bounds on a kickoff return, giving the Pats the ball at their 9-yard line; and Mack Hollins was flagged for taunting at the end of a 9-yard reception, turning a fourth-and-1 play into a field-goal situation.\n\n\r\nThe Jaguars were much cleaner all afternoon.\n\n\r\nLawrence completed 19 of 29 passes for 182 yards, with an interception on a tipped pass. He connected with Jakobi Meyers and Josh Cameron for TDs. Cameron got significant snaps in place of Brian Thomas Jr., who dropped two passes in last week\u2019s 20-13 loss at Denver.\n\n\r\nTuten finished with 73 yards rushing.\n\n\r\nPatriots pull off a crazy play\r\nFacing a first-and-30 play after back-to-back penalties, the Patriots dialed up some trickiness in Jacksonville territory. And it worked despite a lot of adversity.\n\n\r\nMaye threw a backward pass to Elton Chism III, who had to elude Jones\u2019 tackle near the sideline. Chism stayed on his feet and completed a pass to Mack Hollins that was tipped by cornerback Travis Hunter. It was far from pretty but resulted in a 16-yard gain that led to a field goal.\n\n\r\nLittle nearly hit an NFL record field goal\r\nJacksonville\u2019s Cam Little just missed making a 70-yard field goal, which would have broken his NFL record. Little attempted the long kick at the end of the first half and pushed it just a couple feet right.\n\n\r\nLittle had the distance, which was no surprise considering he made a 70-yard in a preseason game against Pittsburgh in 2025. He set the real NFL mark later that year with a 68-yarder at Las Vegas in early November.\n\n\r\nKey injuries\r\nPatriots: RG Greg Van Roten left in the first half with a thigh injury and did not return. DT Christian Barmore (shoulder) and CB Carlton Davis III also missed snaps but later returned.\n\n\r\nJaguars: DT DaVon Hamilton stayed on the ground in pain after sacking Maye but was able to return a few plays later.\n\n\r\nUp next\r\nPatriots: Play at Buffalo next Sunday.\n\n\r\nJaguars: Play at Cincinnati next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50044091",
-      "headline": "Schlittler to start Yankees' wild-card opener against Boston",
+      "headline": "Yankees give Schlittler Game 1 start against Red Sox",
       "summary": "American League Cy Young Award favorite Cam Schlittler will start for the New York Yankees in Game 1 of the best-of-three wild-card series Tuesday against the Boston Red Sox.",
       "image": "https://a.espncdn.com/photo/2026/0620/r1676491_1296x729_16-9.jpg",
-      "published_utc": "2026-09-27T19:11:11Z",
+      "published_utc": "2026-09-27T19:44:35Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "Jorge Castillo",
@@ -11851,18 +11851,18 @@
       "body": "Accor Stadium, SYDNEY -- From wooden spooners to Grand Finalists.\n\nThe Newcastle Knights have completed one of the most remarkable turnarounds in NRL history, stunning minor premiers Penrith 20-14 despite playing the final 44 minutes with 12 men.\n\nPhoenix Crossland was sent off for the hip-drop tackle which left Nathan Cleary with a serious leg injury, but the Knights overturned an eight-point half-time deficit to reach their first Grand Final since 2001.\n\nThey will now face the Sydney Roosters, setting up an extraordinary reunion for former Tricolours halfback Sandon Smith.\n\nHere are three things we learned from Sunday's preliminary final.\n\nNEWCASTLE'S FAIRYTALE IS NOW SO MUCH MORE\n\nThis is no longer a fairytale.\n\nNewcastle's place in the Grand Final was earned through courage, resilience and sheer defiance.\n\nThe Knights had every reason to fall apart after Crossland's dismissal in the 36th minute. Their hooker was gone, Penrith had an extra man and Blaize Talagi's ensuing penalty goal handed the Panthers the lead.\n\nWhen Lindsay Smith crashed over shortly before halftime, Penrith led 14-6 and appeared ready to clinically dismantle another challenger.\n\nInstead, the Knights produced a second half that will live permanently in the club's history.\n\nDominic Young finished one of the tries of the season just three minutes after the restart, handling twice in a sweeping movement that began inside Newcastle's half and also involved Sandon Smith, Dane Gagai and Francis Manuleleua.\n\nIt was a statement of intent. The Knights were not going to spend the remainder of the contest desperately protecting their line and waiting for Penrith to finish them.\n\nEven when they were forced into survival mode, their scramble was extraordinary.\n\nKalyn Ponga and Manuleleua held Casey McLean up by millimetres. Greg Marzhew rushed in to pressure a pass intended for an unmarked Brian To'o. Dylan Lucas followed an error with a shot that forced Lindsay Smith to spill the ball, while Ponga folded Moses Leota with one of the defining tackles of the afternoon.\n\nNewcastle defended their two-point advantage for more than 20 minutes despite playing a man down, then sealed the result through Smith at the death.\n\nThis was not a fortunate side falling into a Grand Final.\n\nThe Knights eliminated South Sydney, survived a sold-out Eden Park and then conquered the minor premiers with 12 men.\n\nJustin Holbrook inherited the wooden spooners less than 12 months ago. He now has Newcastle 80 minutes from a premiership.\n\nSANDON SMITH HAS EARNED THE ULTIMATE REUNION\n\nOf all the possible Grand Final storylines, Sandon Smith facing his former club might be the most compelling.\n\nSmith left the Roosters at the end of last season in search of the opportunity to control his own side. On Sunday, he proved he is capable of controlling the biggest games.\n\nWith Newcastle trailing 14-10 after an hour, Penrith conceded a penalty for high contact on Fletcher Sharpe.\n\nAs Billy Phillips and Moses Leota turned their backs and waited for the kick to touch, Smith saw something nobody else did.\n\nHe tapped the ball, accelerated through a vacant defensive line and raced 50 metres untouched to score beneath the posts.\n\nPenrith were furious. Newcastle were level. Smith calmly converted his own try to put the Knights ahead.\n\nIt was a moment of audacity from a halfback who refused to allow the occasion, or his side's numerical disadvantage, to make him conservative.\n\nSmith then produced the decisive play in the dying moments, securing possession and racing away for the try which finally ended Penrith's resistance.\n\nHis impact extended beyond the scoreboard.\n\nWith Crossland dismissed and Fletcher Sharpe enduring some untidy moments, Smith became Newcastle's organiser, primary kicker and calming presence. He repeatedly drove Penrith into their own corners and trusted his depleted defensive line to keep turning the Panthers away.\n\nThe 23-year-old will now enter a grand final against the club where his NRL career began.\n\nThe Roosters know better than anyone what Smith can do.\n\nThey will now have to stop him from completing one of rugby league's great revenge stories.\n\nPENRITH'S LOSS FEELS SECONDARY TO CLEARY'S INJURY\n\nNathan Cleary entered the contest under an injury cloud and began the match on the bench as Penrith attempted to manage a stress-related issue in his foot.\n\nHe entered after 26 minutes.\n\nTen minutes later, Penrith's season, and potentially the immediate future of their champion halfback, was turned upside down.\n\nCleary became trapped in a tackle involving Crossland and Manuleleua, with Crossland's weight falling across the playmaker's lower leg.\n\nThe reaction was immediate. Cleary remained on the turf in severe distress as medical staff rushed onto the field, before he was taken from Accor Stadium on a medicab and transported to hospital.\n\nEarly reports indicated a suspected compound fracture, while Crossland was sent off for the hip-drop tackle.\n\nThe confronting incident left players from both teams visibly shaken and stripped the preliminary final of much of its celebratory atmosphere.\n\nPenrith's injury toll worsened in the 67th minute when Talagi went down without contact and was assisted from the field with a suspected Achilles injury.\n\nThe Panthers still had enough opportunities to win.\n\nMcLean was held up centimetres short. Jack Cogger dropped the ball at second receiver with Penrith attacking. Luke Garner's pass to an unmarked To'o was called forward, and several other promising sets ended with basic errors.\n\nThose moments will frustrate Ivan Cleary. Penrith played more than half the match with an extra man and failed to score a single point after the break.\n\nFor so long, their defining quality has been an ability to remain composed while opponents unravel around them. On Sunday, confronted by injuries, a desperate defensive line and a Knights side with nothing to lose, Penrith became the frantic team.\n\nTheir second consecutive preliminary-final defeat confirms that the seemingly automatic march to grand final day is over.\n\nFor now, however, the end of Penrith's season is not the greatest concern.\n\nThe health of their champion halfback is."
     },
     {
-      "story_id": "50044229",
-      "headline": "Dolphins RB De'Von Achane suffers knee injury vs. Chiefs",
-      "summary": "Dolphins running back De'Von Achane suffered a knee injury against the Chiefs and was ruled out.",
-      "image": "https://a.espncdn.com/photo/2026/0927/r1722529_1296x729_16-9.jpg",
-      "published_utc": "2026-09-27T19:24:33Z",
+      "story_id": "50034932",
+      "headline": "Week 3 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Sunday of Week 3 will feature 14 games, including an international game in Rio de Janeiro between the Ravens and Cowboys.",
+      "image": "https://a.espncdn.com/photo/2026/0927/r1722481_1296x729_16-9.jpg",
+      "published_utc": "2026-09-27T20:10:23Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Marcel Louis-Jacques",
+      "byline": "NFL Nation",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50044229/dolphins-rb-devon-achane-suffers-knee-injury-vs-chiefs",
+      "link": "https://www.espn.com/nfl/story/_/id/50034932/best-plays-moments-touchdowns-more",
       "stream_url": "",
-      "body": "MIAMI GARDENS, Fla. -- Dolphins running back De'Von Achane didn't return to Miami's 24-10 loss to the Chiefs after suffering a knee injury on their opening drive Sunday.\n\nAchane took his third rushing attempt of the game 11 yards around the left end but was tackled awkwardly by Chiefs safety Alohi Gilman. He was slow to leave the field after the tackle but was eventually escorted to the blue medical tent under his own power. The Pro Bowler left the tent after a few minutes and was taken to the locker room for additional testing.\n\nHe did not return in the first half but was seen on the Dolphins' sideline after halftime without his shoulder pads or helmet on and was later ruled out.\n\nThe 2023 third-round pick missed five games with a knee injury as a rookie but has otherwise been durable for a player listed at 5-foot-9, 195 pounds, especially considering his workload. He missed two games over the previous two seasons combined, despite having 586 total touches in that span.\n\nHe is coming off the best season of his career in 2025, when he recorded 1,838 yards from scrimmage and 12 total touchdowns en route to his first Pro Bowl.\n\nAchane's 2026 season has started slowly, with 159 scrimmage yards on 38 touches through two weeks. Dolphins coach Jeff Hafley joked during the offseason that Achane could get 40 or more touches each week, but the running back said he hasn't raised any issues about his workload this season.\n\n\"I've never been that type [to complain about touches],\" Achane said this week. \"Me and Haf already had a conversation. He always wants me to -- if I see something, come up to him and tell us something, but I've never been that type of player to go to somebody and tell them what to do or say, 'Oh, I need the ball more.' I mean, I've never been that type of player, so I'm not going to start now.\"\n\nWith running back Jaylen Wright inactive Sunday with a stinger, the Dolphins activated only two running backs this week: Achane and second-year back Ollie Gordon II, who punched in his first touchdown of the season following Achane's injury."
+      "body": "Week 3 of the 2026 NFL season continued Sunday with 14 games, including nine in the early window, and we'll have the best highlights, touchdowns and moments from all of them.\n\nIn the early window, New York Jets coach Aaron Glenn returned to face his former team in the Detroit Lions, and Tennessee Titans offensive coordinator Brian Daboll is facing off against the team that fired him during the season last year, the New York Giants.\n\nThe Baltimore Ravens and Dallas Cowboys will take their talents to Rio de Janeiro in one of four games in the second window before the Denver Broncos host the Los Angeles Rams in primetime to cap off the day.\n\nHere are the top plays from Sunday, and be sure to keep checking back once the afternoon games and \"Sunday Night Football\" kick off.\n\nWeek 3 highlights"
     },
     {
       "story_id": "50015050",
