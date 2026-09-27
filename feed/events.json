@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-09-27T02:45:28.651994+00:00",
+  "generated_utc": "2026-09-27T02:55:35.096552+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057444",
@@ -5385,7 +5385,7 @@
       "competition_id": "ufc",
       "competition_name": "UFC",
       "start_utc": "2026-09-26T21:00Z",
-      "status": "final",
+      "status": "scheduled",
       "home": {
         "id": "espn:None",
         "name": "Yazmin Jauregui",
@@ -5409,111 +5409,14 @@
         "color": null
       },
       "source": "espn:mma/ufc",
-      "source_status": "post/Final",
+      "source_status": "pre/Scheduled",
       "venue": "Meta APEX",
-      "detail": "Final",
+      "detail": "Scheduled",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 24)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 25)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 26)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/4",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live Backup",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 21)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live HD (CH 22)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live SD (CH 23)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 21)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live HD (CH 22)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live SD (CH 23)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/4/1",
-          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/6/1",
-          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/7/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/7/2",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD (Prelims) \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "replay_poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
       "card": "UFC Fight Night: Rosas Jr. vs. Barcelos"
     },
     {
@@ -6119,52 +6022,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862784",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-26T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2655",
-        "name": "Tulane Green Wave",
-        "abbrev": "TULN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-        "logo_dark": null,
-        "aliases": [
-          "Green Wave",
-          "TULN",
-          "Tulane",
-          "Tulane Green Wave"
-        ],
-        "color": "006747"
-      },
-      "away": {
-        "id": "espn:2572",
-        "name": "Southern Miss Golden Eagles",
-        "abbrev": "USM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Eagles",
-          "Southern Miss",
-          "Southern Miss Golden Eagles",
-          "USM"
-        ],
-        "color": "ffc72c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Yulman Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856881",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6203,6 +6060,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Milan Puskar Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862784",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2655",
+        "name": "Tulane Green Wave",
+        "abbrev": "TULN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+        "logo_dark": null,
+        "aliases": [
+          "Green Wave",
+          "TULN",
+          "Tulane",
+          "Tulane Green Wave"
+        ],
+        "color": "006747"
+      },
+      "away": {
+        "id": "espn:2572",
+        "name": "Southern Miss Golden Eagles",
+        "abbrev": "USM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Eagles",
+          "Southern Miss",
+          "Southern Miss Golden Eagles",
+          "USM"
+        ],
+        "color": "ffc72c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Yulman Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6667,7 +6570,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Tiger Stadium (LA)",
-      "detail": "9:17 - 4th Quarter",
+      "detail": "4:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6712,7 +6615,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "7:19 - 4th Quarter",
+      "detail": "2:49 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6759,100 +6662,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Martin Stadium",
-      "detail": "12:15 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401860894",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-26T23:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:328",
-        "name": "Utah State Aggies",
-        "abbrev": "USU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
-        "logo_dark": null,
-        "aliases": [
-          "Aggies",
-          "USU",
-          "Utah State",
-          "Utah State Aggies"
-        ],
-        "color": "0f2439"
-      },
-      "away": {
-        "id": "espn:2653",
-        "name": "Troy Trojans",
-        "abbrev": "TROY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-        "logo_dark": null,
-        "aliases": [
-          "TROY",
-          "Trojans",
-          "Troy",
-          "Troy Trojans"
-        ],
-        "color": "862633"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Maverik Stadium",
-      "detail": "1:57 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862783",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-09-26T23:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:249",
-        "name": "North Texas Mean Green",
-        "abbrev": "UNT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mean Green",
-          "North Texas",
-          "North Texas Mean Green",
-          "UNT"
-        ],
-        "color": "068f33"
-      },
-      "away": {
-        "id": "espn:2277",
-        "name": "Houston Christian Huskies",
-        "abbrev": "HCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
-        "logo_dark": null,
-        "aliases": [
-          "HCU",
-          "Hou Christian",
-          "Houston Christian",
-          "Houston Christian Huskies",
-          "Huskies"
-        ],
-        "color": "00539c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "DATCU Stadium",
-      "detail": "1:54 - 4th Quarter",
+      "detail": "8:39 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6898,7 +6708,100 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Carter-Finley Stadium",
-      "detail": "2:11 - 4th Quarter",
+      "detail": "1:13 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860894",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:328",
+        "name": "Utah State Aggies",
+        "abbrev": "USU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "USU",
+          "Utah State",
+          "Utah State Aggies"
+        ],
+        "color": "0f2439"
+      },
+      "away": {
+        "id": "espn:2653",
+        "name": "Troy Trojans",
+        "abbrev": "TROY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+        "logo_dark": null,
+        "aliases": [
+          "TROY",
+          "Trojans",
+          "Troy",
+          "Troy Trojans"
+        ],
+        "color": "862633"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Maverik Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862783",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-09-26T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:249",
+        "name": "North Texas Mean Green",
+        "abbrev": "UNT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mean Green",
+          "North Texas",
+          "North Texas Mean Green",
+          "UNT"
+        ],
+        "color": "068f33"
+      },
+      "away": {
+        "id": "espn:2277",
+        "name": "Houston Christian Huskies",
+        "abbrev": "HCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+        "logo_dark": null,
+        "aliases": [
+          "HCU",
+          "Hou Christian",
+          "Houston Christian",
+          "Houston Christian Huskies",
+          "Huskies"
+        ],
+        "color": "00539c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "DATCU Stadium",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7164,7 +7067,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Davis Wade Stadium",
-      "detail": "12:08 - 4th Quarter",
+      "detail": "7:09 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7246,7 +7149,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Donald W. Reynolds Razorback Stadium",
-      "detail": "11:37 - 4th Quarter",
+      "detail": "5:44 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7292,7 +7195,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Malone Stadium",
-      "detail": "12:17 - 4th Quarter",
+      "detail": "10:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7647,9 +7550,9 @@
         "color": "5e0009"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Gerald J. Ford Stadium",
-      "detail": "Halftime",
+      "detail": "15:00 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7693,9 +7596,9 @@
         "color": "dc4405"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Sun Bowl",
-      "detail": "Halftime",
+      "detail": "11:35 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7787,7 +7690,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "America First Field",
-      "detail": "47'",
+      "detail": "57'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7971,7 +7874,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "End of 1st Quarter",
+      "detail": "12:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8017,7 +7920,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Stanford Stadium",
-      "detail": "9:55 - 1st Quarter",
+      "detail": "6:57 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8063,7 +7966,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mackay Stadium",
-      "detail": "9:41 - 1st Quarter",
+      "detail": "7:39 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8106,7 +8009,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Dignity Health Sports Park",
-      "detail": "1'",
+      "detail": "14'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8150,7 +8053,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "PayPal Park",
-      "detail": "4'",
+      "detail": "14'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8193,7 +8096,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "BC Place",
-      "detail": "4'",
+      "detail": "14'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11775,18 +11678,18 @@
   ],
   "stories": [
     {
-      "story_id": "50039098",
-      "headline": "Guardians clinch their 3rd straight AL Central crown with an 11-5 win over the Royals",
-      "summary": "\u2014 Once again, the Cleveland Guardians are division champs.",
-      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401817094.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-09-27T02:39:29Z",
+      "story_id": "50039190",
+      "headline": "Rangers' quest for AL West title, .500 record down to last day",
+      "summary": "The Texas Rangers' quest for an AL West title -- and a .500 record -- will go down to the final day of the regular season.",
+      "image": "https://a.espncdn.com/photo/2026/0927/r1722300_1296x729_16-9.jpg",
+      "published_utc": "2026-09-27T02:52:57Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "",
+      "byline": "Associated Press",
       "source": "ESPN",
-      "link": "http://www.espn.com/mlb/recap?gameId=401817094",
+      "link": "https://www.espn.com/mlb/story/_/id/50039190/rangers-quest-al-west-title-500-record-last-day",
       "stream_url": "",
-      "body": "KANSAS CITY, Mo. -- \u2014 Once again, the Cleveland Guardians are division champs.\n\n\r\nPatrick Bailey and Brayan Rocchio each hit two of Cleveland's five home runs as the Guardians beat the Kansas City Royals 11-5 on Saturday night to clinch their third straight AL Central title.\n\n\r\nCleveland's victory coupled with Chicago's 9-6 loss to Colorado gave the Guardians (85-76) a two-game lead over the second-place White Sox (83-78) with one game remaining in the regular season.\n\n\r\nJos\u00e9 Ram\u00edrez and the Guardians are assured the No. 2 seed in the American League playoffs and a first-round bye into a best-of-five Division Series. They will have five days off and then home-field advantage against the winner of a best-of-three Wild Card Series between the No. 6 seed White Sox and either Houston or Texas \u2014 whichever one wins the AL West on Sunday.\n\n\r\nIt is Cleveland's seventh division crown in the past 11 seasons.\n\n\r\nKansas City jumped on Tanner Bibee for three first-inning runs, highlighted by doubles from Carter Jensen and Jac Caglianone. But then Bibee shut out Kansas City as Cleveland quickly mounted a comeback.\n\n\r\nA fielding error by Bobby Witt Jr. at shortstop opened the Guardians\u2019 four-run second inning. Bailey hooked a two-run homer off the right-field foul pole, and Cleveland grabbed a 4-3 lead when Steven Kwan\u2019s slicing liner eluded diving left fielder Isaac Collins for an RBI triple \u2014 one of four extra-base hits in the inning.\n\n\r\nAfter missing four games with a right wrist sprain, Chase DeLauter lined Michael Wacha\u2019s second pitch of the third into the right-field seats for his 16th home run.\n\n\r\nTravis Bazzana tripled and scored on Nathaniel Lowe\u2019s sacrifice fly in the sixth, and Rocchio hit his 14th homer in the seventh. Bailey and Rocchio connected for back-to-back homers to highlight a four-run ninth.\n\n\r\nNine of the Guardians\u2019 14 hits went for extra bases.\n\n\r\nBibee (7-15) allowed three runs and seven hits in six innings, striking out six. Cleveland has won nine of 10 games and five straight series.\n\n\r\nWacha (9-10) worked 6 1/3 innings, permitting six runs \u2014 two earned \u2014 and six hits.\n\n\r\nThe last-place Royals (68-93) have dropped 11 of 13 and 18 of 24. Kansas City lost eight straight series to finish the season, its longest such skid since losing eight in a row from April 10 to May 7, 2023.\n\n\r\nUp next\r\nThe Guardians were undecided on the mound for their regular-season finale Sunday against LHP Daniel Lynch (6-6, 4.13 ERA) and the Royals.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
+      "body": "MINNEAPOLIS -- The Texas Rangers' quest for an AL West title -- and a .500 record -- will go down to the final day of the regular season.\n\nDanny Jansen homered and drove in two runs, and Jake Burger also went deep in 6-2 victory over the Minnesota Twins on Saturday.\n\nTexas is 80-81 heading into Sunday's regular-season finale. Houston was 79-81 pending its game at Sacramento later Saturday and holds the tiebreaker because the Astros won their season series against the Rangers.\n\n\"We're here, and it's a chance, and we're excited for it,\" Jansen said. \"I've never been a part of a game like this, but it's going to be a lot of fun to go out there and leave it all on the field and control what we can.\"\n\nLeft-hander MacKenzie Gore (8-11, 4.59 ERA) starts for the Rangers on Sunday and right-hander Dean Kremer (4-5, 4.97) for the Twins. The AL West winner will have the lowest winning percentage for a postseason team in a non-shortened season, below the .506 (82-80) for the 2005 San Diego Padres.\n\n\"I always say, you worry about tomorrow tomorrow. You have to win today,\" Rangers manager Skip Schumaker said. \"Tomorrow's pretty important, too.\"\n\nMaking his first start since Aug. 7, Rangers right-hander Nathan Eovaldi went 4 1/3 innings and allowed a first-inning run. Left-hander Robert Garcia earned the win with 1 2/3 scoreless innings of relief.\n\nBrandon Nimmo had an RBI double and made a diving backhand catch for the final out of the third inning as he tumbled over in right field to deny Kody Clemens, saving two runs. Nimmo played despite cramping.\n\nNicky Lopez, who hit a two-out double in the second and scored the Rangers' first run, was removed in the middle of the fourth after injuring his left leg while stepping awkwardly on first base.\n\nThe bottom three batters in Texas' starting lineup went 6 for 11 with four RBI and four runs.\n\n\"Today was a big win. Tomorrow's an even bigger one,\" Lopez said. \"We didn't want to think about tomorrow until we finished today. I think we did a good job.\""
     },
     {
       "story_id": "50038953",
@@ -12113,6 +12016,22 @@
   ],
   "shows": [
     {
+      "id": "ww:03d7cf78ac54fbf918251a51d6bf8727",
+      "title": "NOAH LINE Yahoo presents N-1VICTORY 2026 9/27/2026",
+      "date": "2026-09-27",
+      "replay_url": "https://dailywrestling.cc/embed/userorup/09-27-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/09-27-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream \u2014 Live HD (CH 82)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "",
+      "source_url": "https://watch-wrestling.eu/noah-line-yahoo-presents-n-1victory-2026-9-27-2026/03d7cf78ac54fbf918251a51d6bf8727"
+    },
+    {
       "id": "ww:efaef583cc8fd22efeec10c5532be6d8",
       "title": "NJPW DESTRUCTION in KOBE Hyogo Kobe World Memorial Hall 9/27/2026",
       "date": "2026-09-27",
@@ -12259,6 +12178,12 @@
           "live": true
         },
         {
+          "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/4/6",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 6",
+          "part": true,
+          "live": true
+        },
+        {
           "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/5/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
@@ -12285,6 +12210,12 @@
         {
           "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/5/5",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wea/09-26-2026/select-post-1/5/6",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 6",
           "part": true,
           "live": true
         }
@@ -12370,16 +12301,46 @@
       "id": "ww:5e9b9c7348e4471c2e98af98fae9e5f1",
       "title": "GCW: The Score 2026 9/26/2026",
       "date": "2026-09-26",
-      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/1/1",
+      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/2/1",
       "replay_candidates": [
         {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/1/1",
-          "label": "Source 1 \u2013 Mstream \u2014 Live HD (CH 91)",
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/2/1",
+          "label": "OK.ru HD \u2014 Full Show",
           "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/3/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/3/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/3/3",
+          "label": "Other Hosts \u2014 NetU (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/1/1",
+          "label": "Dailymotion HD \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/swohsydni/09-26-2026/select-post-3/1/2",
+          "label": "Dailymotion HD \u2014 Part 2",
+          "part": true,
           "live": false
         }
       ],
-      "poster": "",
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-GCW-Wrestling-Full-Show-Online.jpg",
       "source_url": "https://watch-wrestling.eu/gcw-the-score-2026-9-26-2026/5e9b9c7348e4471c2e98af98fae9e5f1"
     },
     {
@@ -13759,115 +13720,6 @@
       "source_url": "https://watch-wrestling.eu/ddt-dramatic-infinity-2026-pro-wrestling-in-autumn-9-21-2026/1eb72771062cfeee4c56eaac86d1edc0"
     }
   ],
-  "replays": [
-    {
-      "id": "ww:ufc-fight-night-rosas-jr-vs-barcelos-9-26-2026",
-      "title": "UFC Fight Night: Rosas Jr. vs Barcelos 9/26/2026",
-      "date": "2026-09-26",
-      "sport": "mma",
-      "competition": "UFC",
-      "replay_url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 24)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 25)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 26)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/1/4",
-          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live Backup",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 21)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live HD (CH 22)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live SD (CH 23)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 21)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live HD (CH 22)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live SD (CH 23)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/4/1",
-          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/6/1",
-          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/7/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/7/2",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD (Prelims) \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/09-26-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
-      "source_url": "https://watch-wrestling.eu/ufc-fight-night-rosas-jr-vs-barcelos-9-26-2026/"
-    }
-  ],
+  "replays": [],
   "trackers": []
 }
