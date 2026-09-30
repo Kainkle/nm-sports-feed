@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-09-30T00:55:41.411512+00:00",
+  "generated_utc": "2026-09-30T01:06:27.544825+00:00",
   "window_days": 2,
-  "total_events": 120,
+  "total_events": 104,
   "competitions": [
     {
       "competition": "aew",
@@ -249,14 +249,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 16,
+      "events": 2,
       "date_range": [
-        "2026-09-27",
+        "2026-09-29",
         "2026-10-02"
       ],
-      "explicit_status": 16,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 16,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -391,16 +391,16 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 10,
+      "events": 8,
       "date_range": [
         "2026-09-27",
         "2026-10-02"
       ],
-      "explicit_status": 10,
+      "explicit_status": 8,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 8,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "wwe",
@@ -418,7 +418,48 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-09-27",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260927: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-09-29",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260929: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-09-28",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260928: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-09-29",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260929: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:basketball/wnba",
+      "date": "2026-09-29",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260929: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:basketball/mens-college-basketball",
+      "date": "2026-09-30",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20260930: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/esp.1",
+      "date": "2026-09-29",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260929: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-09-27",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20260927: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
