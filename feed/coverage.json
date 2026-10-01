@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-01T05:01:50.511247+00:00",
+  "generated_utc": "2026-10-01T05:11:26.488123+00:00",
   "window_days": 2,
-  "total_events": 100,
+  "total_events": 99,
   "competitions": [
     {
       "competition": "aew",
@@ -152,16 +152,16 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 10,
+      "events": 9,
       "date_range": [
         "2026-09-29",
         "2026-10-02"
       ],
-      "explicit_status": 10,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "mma-sofa",
@@ -423,6 +423,10 @@
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
+  },
+  "live_intersection": {
+    "live_events": 0,
+    "carried": 0
   },
   "replay_items": {
     "total": 3,
