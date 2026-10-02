@@ -1,88 +1,6 @@
 {
-  "generated_utc": "2026-10-01T23:54:08.937009+00:00",
+  "generated_utc": "2026-10-02T00:04:10.627929+00:00",
   "events": [
-    {
-      "event_id": "tvmaze:802:s33e39",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-09-29T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:802",
-        "name": "WWE Monday Night RAW",
-        "abbrev": "RAW",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Monday Night RAW"
-    },
-    {
-      "event_id": "espn:football:401872963",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-09-29T00:15Z",
-      "status": "final",
-      "home": {
-        "id": "espn:3",
-        "name": "Chicago Bears",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "CHI",
-          "Chicago",
-          "Chicago Bears"
-        ],
-        "color": "0b1c3a"
-      },
-      "away": {
-        "id": "espn:21",
-        "name": "Philadelphia Eagles",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Eagles",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Eagles"
-        ],
-        "color": "06424d"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Soldier Field",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "KScULet1ves",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "mlb:849845",
       "sport": "baseball",
@@ -755,7 +673,7 @@
       "venue": "Daikin Park",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "HwWp7A7tElg",
+      "highlight_video_id": "cIoFO4rWOKc",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -2459,6 +2377,2011 @@
       "card": ""
     },
     {
+      "event_id": "espn:rugby:604043",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-10-03T11:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25958",
+        "name": "Lions",
+        "abbrev": "LIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25958.png",
+        "logo_dark": null,
+        "aliases": [
+          "LIO",
+          "Lions"
+        ],
+        "color": "CC0000"
+      },
+      "away": {
+        "id": "espn:25968",
+        "name": "Ospreys",
+        "abbrev": "OSP",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25968.png",
+        "logo_dark": null,
+        "aliases": [
+          "OSP",
+          "Ospreys"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Ellis Park",
+      "detail": "Sat, October 3rd at 7:45 AM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604044",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-10-03T14:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25967",
+        "name": "Dragons",
+        "abbrev": "DRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25967.png",
+        "logo_dark": null,
+        "aliases": [
+          "DRA",
+          "Dragons"
+        ],
+        "color": "CC0000"
+      },
+      "away": {
+        "id": "espn:25966",
+        "name": "Scarlets",
+        "abbrev": "SCA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25966.png",
+        "logo_dark": null,
+        "aliases": [
+          "SCA",
+          "Scarlets"
+        ],
+        "color": "CC0000"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Rodney Parade",
+      "detail": "Sat, October 3rd at 10:00 AM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862787",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T15:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2429",
+        "name": "Charlotte 49ers",
+        "abbrev": "CLT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+        "logo_dark": null,
+        "aliases": [
+          "49ers",
+          "CLT",
+          "Charlotte",
+          "Charlotte 49ers"
+        ],
+        "color": "005035"
+      },
+      "away": {
+        "id": "espn:235",
+        "name": "Memphis Tigers",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+        "logo_dark": null,
+        "aliases": [
+          "MEM",
+          "Memphis",
+          "Memphis Tigers",
+          "Tigers"
+        ],
+        "color": "004991"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Jerry Richardson Stadium",
+      "detail": "Sat, October 3rd at 11:00 AM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858250",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:153",
+        "name": "North Carolina Tar Heels",
+        "abbrev": "UNC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+        "logo_dark": null,
+        "aliases": [
+          "North Carolina",
+          "North Carolina Tar Heels",
+          "Tar Heels",
+          "UNC"
+        ],
+        "color": "7bafd4"
+      },
+      "away": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Kenan Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856707",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:344",
+        "name": "Mississippi State Bulldogs",
+        "abbrev": "MSST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "MSST",
+          "Mississippi St",
+          "Mississippi State",
+          "Mississippi State Bulldogs"
+        ],
+        "color": "5d1725"
+      },
+      "away": {
+        "id": "espn:333",
+        "name": "Alabama Crimson Tide",
+        "abbrev": "ALA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+        "logo_dark": null,
+        "aliases": [
+          "ALA",
+          "Alabama",
+          "Alabama Crimson Tide",
+          "Crimson Tide"
+        ],
+        "color": "9e1b32"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Davis Wade Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856819",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:248",
+        "name": "Houston Cougars",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "HOU",
+          "Houston",
+          "Houston Cougars"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:2116",
+        "name": "UCF Knights",
+        "abbrev": "UCF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knights",
+          "UCF",
+          "UCF Knights"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "TDECU Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858246",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2567",
+        "name": "SMU Mustangs",
+        "abbrev": "SMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mustangs",
+          "SMU",
+          "SMU Mustangs"
+        ],
+        "color": "a80000"
+      },
+      "away": {
+        "id": "espn:103",
+        "name": "Boston College Eagles",
+        "abbrev": "BC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+        "logo_dark": null,
+        "aliases": [
+          "BC",
+          "Boston College",
+          "Boston College Eagles",
+          "Eagles"
+        ],
+        "color": "8c2232"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Gerald J. Ford Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856807",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "away": {
+        "id": "espn:2393",
+        "name": "Middle Tennessee Blue Raiders",
+        "abbrev": "MTSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Raiders",
+          "MTSU",
+          "Middle Tennessee",
+          "Middle Tennessee Blue Raiders"
+        ],
+        "color": "036eb7"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "David Booth Kansas Memorial Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856822",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:66",
+        "name": "Iowa State Cyclones",
+        "abbrev": "ISU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cyclones",
+          "ISU",
+          "Iowa State",
+          "Iowa State Cyclones"
+        ],
+        "color": "ae192d"
+      },
+      "away": {
+        "id": "espn:277",
+        "name": "West Virginia Mountaineers",
+        "abbrev": "WVU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mountaineers",
+          "WVU",
+          "West Virginia",
+          "West Virginia Mountaineers"
+        ],
+        "color": "eaaa00"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Jack Trice Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858251",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:154",
+        "name": "Wake Forest Demon Deacons",
+        "abbrev": "WAKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+        "logo_dark": null,
+        "aliases": [
+          "Demon Deacons",
+          "WAKE",
+          "Wake Forest",
+          "Wake Forest Demon Deacons"
+        ],
+        "color": "ceb888"
+      },
+      "away": {
+        "id": "espn:24",
+        "name": "Stanford Cardinal",
+        "abbrev": "STAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinal",
+          "STAN",
+          "Stanford",
+          "Stanford Cardinal"
+        ],
+        "color": "8c1515"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Allegacy Federal Credit Union Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858252",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:41",
+        "name": "UConn Huskies",
+        "abbrev": "CONN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+        "logo_dark": null,
+        "aliases": [
+          "CONN",
+          "Huskies",
+          "UConn",
+          "UConn Huskies"
+        ],
+        "color": "0c2340"
+      },
+      "away": {
+        "id": "espn:183",
+        "name": "Syracuse Orange",
+        "abbrev": "SYR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+        "logo_dark": null,
+        "aliases": [
+          "Orange",
+          "SYR",
+          "Syracuse",
+          "Syracuse Orange"
+        ],
+        "color": "000e54"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Pratt & Whitney Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858474",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:135",
+        "name": "Minnesota Golden Gophers",
+        "abbrev": "MINN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Gophers",
+          "MINN",
+          "Minnesota",
+          "Minnesota Golden Gophers"
+        ],
+        "color": "5e0a2f"
+      },
+      "away": {
+        "id": "espn:130",
+        "name": "Michigan Wolverines",
+        "abbrev": "MICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+        "logo_dark": null,
+        "aliases": [
+          "MICH",
+          "Michigan",
+          "Michigan Wolverines",
+          "Wolverines"
+        ],
+        "color": "00274c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Huntington Bank Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862791",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2005",
+        "name": "Air Force Falcons",
+        "abbrev": "AFA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+        "logo_dark": null,
+        "aliases": [
+          "AFA",
+          "Air Force",
+          "Air Force Falcons",
+          "Falcons"
+        ],
+        "color": "003594"
+      },
+      "away": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Falcon Stadium",
+      "detail": "Sat, October 3rd at 12:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858479",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:275",
+        "name": "Wisconsin Badgers",
+        "abbrev": "WIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+        "logo_dark": null,
+        "aliases": [
+          "Badgers",
+          "WIS",
+          "Wisconsin",
+          "Wisconsin Badgers"
+        ],
+        "color": "a00000"
+      },
+      "away": {
+        "id": "espn:127",
+        "name": "Michigan State Spartans",
+        "abbrev": "MSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+        "logo_dark": null,
+        "aliases": [
+          "MSU",
+          "Michigan St",
+          "Michigan State",
+          "Michigan State Spartans",
+          "Spartans"
+        ],
+        "color": "173f35"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Camp Randall Stadium",
+      "detail": "Sat, October 3rd at 12:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604045",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-10-03T16:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25961",
+        "name": "Sharks",
+        "abbrev": "SHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25961.png",
+        "logo_dark": null,
+        "aliases": [
+          "SHA",
+          "Sharks"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:25924",
+        "name": "Leinster",
+        "abbrev": "LEI",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25924.png",
+        "logo_dark": null,
+        "aliases": [
+          "LEI",
+          "Leinster"
+        ],
+        "color": "0000FF"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Hollywoodbets Kings Park",
+      "detail": "Sat, October 3rd at 12:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604047",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-10-03T16:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25952",
+        "name": "Glasgow Warriors",
+        "abbrev": "GLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25952.png",
+        "logo_dark": null,
+        "aliases": [
+          "GLA",
+          "Glasgow Warriors"
+        ],
+        "color": "000033"
+      },
+      "away": {
+        "id": "espn:25926",
+        "name": "Ulster",
+        "abbrev": "ULS",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25926.png",
+        "logo_dark": null,
+        "aliases": [
+          "ULS",
+          "Ulster"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Scotstoun Stadium",
+      "detail": "Sat, October 3rd at 12:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856705",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T16:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:61",
+        "name": "Georgia Bulldogs",
+        "abbrev": "UGA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "Georgia",
+          "Georgia Bulldogs",
+          "UGA"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:238",
+        "name": "Vanderbilt Commodores",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+        "logo_dark": null,
+        "aliases": [
+          "Commodores",
+          "VAN",
+          "Vanderbilt",
+          "Vanderbilt Commodores"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Sanford Stadium",
+      "detail": "Sat, October 3rd at 12:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:849829",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-03T17:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:114",
+        "name": "Cleveland Guardians",
+        "abbrev": "CLE",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cleveland",
+          "Cleveland Guardians",
+          "Guardians"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:145",
+        "name": "Chicago White Sox",
+        "abbrev": "CWS",
+        "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CWS",
+          "Chi White Sox",
+          "Chicago",
+          "Chicago White Sox",
+          "White Sox"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Progressive Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866432",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T17:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2084",
+        "name": "Buffalo Bulls",
+        "abbrev": "BUFF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUFF",
+          "Buffalo",
+          "Buffalo Bulls",
+          "Bulls"
+        ],
+        "color": "005bbb"
+      },
+      "away": {
+        "id": "espn:2711",
+        "name": "Western Michigan Broncos",
+        "abbrev": "WMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+        "logo_dark": null,
+        "aliases": [
+          "Broncos",
+          "W Michigan",
+          "WMU",
+          "Western Michigan",
+          "Western Michigan Broncos"
+        ],
+        "color": "532e1f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Broadview Stadium",
+      "detail": "Sat, October 3rd at 1:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866431",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T18:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2050",
+        "name": "Ball State Cardinals",
+        "abbrev": "BALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+        "logo_dark": null,
+        "aliases": [
+          "BALL",
+          "Ball State",
+          "Ball State Cardinals",
+          "Cardinals"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:2649",
+        "name": "Toledo Rockets",
+        "abbrev": "TOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rockets",
+          "TOL",
+          "Toledo",
+          "Toledo Rockets"
+        ],
+        "color": "0b2240"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Scheumann Stadium",
+      "detail": "Sat, October 3rd at 2:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:rugby:604046",
+      "sport": "rugby",
+      "competition_id": "urc",
+      "competition_name": "United Rugby Championship",
+      "start_utc": "2026-10-03T18:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25925",
+        "name": "Munster",
+        "abbrev": "MUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25925.png",
+        "logo_dark": null,
+        "aliases": [
+          "MUN",
+          "Munster"
+        ],
+        "color": "FF0000"
+      },
+      "away": {
+        "id": "espn:25953",
+        "name": "Bulls",
+        "abbrev": "BUL",
+        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25953.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUL",
+          "Bulls"
+        ],
+        "color": "003366"
+      },
+      "source": "espn:rugby/270557",
+      "source_status": "pre/Scheduled",
+      "venue": "Thomond Park",
+      "detail": "Sat, October 3rd at 2:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858473",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "away": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Kinnick Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856708",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:142",
+        "name": "Missouri Tigers",
+        "abbrev": "MIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIZ",
+          "Missouri",
+          "Missouri Tigers",
+          "Tigers"
+        ],
+        "color": "f1b82d"
+      },
+      "away": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Memorial Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856710",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2633",
+        "name": "Tennessee Volunteers",
+        "abbrev": "TENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+        "logo_dark": null,
+        "aliases": [
+          "TENN",
+          "Tennessee",
+          "Tennessee Volunteers",
+          "Volunteers"
+        ],
+        "color": "ff8200"
+      },
+      "away": {
+        "id": "espn:2",
+        "name": "Auburn Tigers",
+        "abbrev": "AUB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+        "logo_dark": null,
+        "aliases": [
+          "AUB",
+          "Auburn",
+          "Auburn Tigers",
+          "Tigers"
+        ],
+        "color": "002b5c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Neyland Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858247",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2439",
+        "name": "UNLV Rebels",
+        "abbrev": "UNLV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rebels",
+          "UNLV",
+          "UNLV Rebels"
+        ],
+        "color": "cf0a2c"
+      },
+      "away": {
+        "id": "espn:25",
+        "name": "California Golden Bears",
+        "abbrev": "CAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAL",
+          "California",
+          "California Golden Bears",
+          "Golden Bears"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Allegiant Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858248",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:152",
+        "name": "NC State Wolfpack",
+        "abbrev": "NCSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+        "logo_dark": null,
+        "aliases": [
+          "NC State",
+          "NC State Wolfpack",
+          "NCSU",
+          "Wolfpack"
+        ],
+        "color": "cc0000"
+      },
+      "away": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Carter-Finley Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858253",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:52",
+        "name": "Florida State Seminoles",
+        "abbrev": "FSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+        "logo_dark": null,
+        "aliases": [
+          "FSU",
+          "Florida St",
+          "Florida State",
+          "Florida State Seminoles",
+          "Seminoles"
+        ],
+        "color": "782f40"
+      },
+      "away": {
+        "id": "espn:258",
+        "name": "Virginia Cavaliers",
+        "abbrev": "UVA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cavaliers",
+          "UVA",
+          "Virginia",
+          "Virginia Cavaliers"
+        ],
+        "color": "232d4b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Doak Campbell Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862793",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:5",
+        "name": "UAB Blazers",
+        "abbrev": "UAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blazers",
+          "UAB",
+          "UAB Blazers"
+        ],
+        "color": "1a5632"
+      },
+      "away": {
+        "id": "espn:2535",
+        "name": "Samford Bulldogs",
+        "abbrev": "SAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "SAM",
+          "Samford",
+          "Samford Bulldogs"
+        ],
+        "color": "005485"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Protective Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864515",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2449",
+        "name": "North Dakota State Bison",
+        "abbrev": "NDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bison",
+          "N Dakota St",
+          "NDSU",
+          "North Dakota State",
+          "North Dakota State Bison"
+        ],
+        "color": "01402A"
+      },
+      "away": {
+        "id": "espn:2751",
+        "name": "Wyoming Cowboys",
+        "abbrev": "WYO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "WYO",
+          "Wyoming",
+          "Wyoming Cowboys"
+        ],
+        "color": "492f24"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Fargodome",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866430",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2117",
+        "name": "Central Michigan Chippewas",
+        "abbrev": "CMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+        "logo_dark": null,
+        "aliases": [
+          "C Michigan",
+          "CMU",
+          "Central Michigan",
+          "Central Michigan Chippewas",
+          "Chippewas"
+        ],
+        "color": "4c0027"
+      },
+      "away": {
+        "id": "espn:2006",
+        "name": "Akron Zips",
+        "abbrev": "AKR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+        "logo_dark": null,
+        "aliases": [
+          "AKR",
+          "Akron",
+          "Akron Zips",
+          "Zips"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Kelly/Shorts Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866433",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:113",
+        "name": "Massachusetts Minutemen",
+        "abbrev": "MASS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+        "logo_dark": null,
+        "aliases": [
+          "MASS",
+          "Massachusetts",
+          "Massachusetts Minutemen",
+          "Minutemen",
+          "UMass"
+        ],
+        "color": "881c1c"
+      },
+      "away": {
+        "id": "espn:2199",
+        "name": "Eastern Michigan Eagles",
+        "abbrev": "EMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Michigan",
+          "EMU",
+          "Eagles",
+          "Eastern Michigan",
+          "Eastern Michigan Eagles"
+        ],
+        "color": "006938"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Warren McGuirk Alumni Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866434",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2309",
+        "name": "Kent State Golden Flashes",
+        "abbrev": "KENT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Flashes",
+          "KENT",
+          "Kent State",
+          "Kent State Golden Flashes"
+        ],
+        "color": "002664"
+      },
+      "away": {
+        "id": "espn:195",
+        "name": "Ohio Bobcats",
+        "abbrev": "OHIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "OHIO",
+          "Ohio",
+          "Ohio Bobcats"
+        ],
+        "color": "154734"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Zoeller Field at Dix Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866477",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:193",
+        "name": "Miami (OH) RedHawks",
+        "abbrev": "M-OH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "M-OH",
+          "Miami (OH)",
+          "Miami (OH) RedHawks",
+          "Miami OH",
+          "RedHawks"
+        ],
+        "color": "c41230"
+      },
+      "away": {
+        "id": "espn:189",
+        "name": "Bowling Green Falcons",
+        "abbrev": "BGSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+        "logo_dark": null,
+        "aliases": [
+          "BGSU",
+          "Bowling Green",
+          "Bowling Green Falcons",
+          "Falcons"
+        ],
+        "color": "fd5000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Yager Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869956",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2247",
+        "name": "Georgia State Panthers",
+        "abbrev": "GAST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+        "logo_dark": null,
+        "aliases": [
+          "GAST",
+          "Georgia St",
+          "Georgia State",
+          "Georgia State Panthers",
+          "Panthers"
+        ],
+        "color": "0039a6"
+      },
+      "away": {
+        "id": "espn:295",
+        "name": "Old Dominion Monarchs",
+        "abbrev": "ODU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+        "logo_dark": null,
+        "aliases": [
+          "Monarchs",
+          "ODU",
+          "Old Dominion",
+          "Old Dominion Monarchs"
+        ],
+        "color": "003768"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Center Parc Stadium",
+      "detail": "Sat, October 3rd at 3:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869962",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:256",
+        "name": "James Madison Dukes",
+        "abbrev": "JMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+        "logo_dark": null,
+        "aliases": [
+          "Dukes",
+          "JMU",
+          "James Madison",
+          "James Madison Dukes"
+        ],
+        "color": "450084"
+      },
+      "away": {
+        "id": "espn:276",
+        "name": "Marshall Thundering Herd",
+        "abbrev": "MRSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+        "logo_dark": null,
+        "aliases": [
+          "MRSH",
+          "Marshall",
+          "Marshall Thundering Herd",
+          "Thundering Herd"
+        ],
+        "color": "00b140"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Bridgeforth Stadium",
+      "detail": "Sat, October 3rd at 3:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:849828",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-03T20:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:119",
+        "name": "Los Angeles Dodgers",
+        "abbrev": "LAD",
+        "logo": "https://www.mlbstatic.com/team-logos/119.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Dodgers",
+          "LA Dodgers",
+          "LAD",
+          "Los Angeles",
+          "Los Angeles Dodgers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:5532",
+        "name": "ATL/PHI",
+        "abbrev": "",
+        "logo": "https://www.mlbstatic.com/team-logos/5532.svg",
+        "logo_dark": null,
+        "aliases": [
+          "ATL/PHI"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858475",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:158",
+        "name": "Nebraska Cornhuskers",
+        "abbrev": "NEB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cornhuskers",
+          "NEB",
+          "Nebraska",
+          "Nebraska Cornhuskers"
+        ],
+        "color": "e31937"
+      },
+      "away": {
+        "id": "espn:120",
+        "name": "Maryland Terrapins",
+        "abbrev": "MD",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+        "logo_dark": null,
+        "aliases": [
+          "MD",
+          "Maryland",
+          "Maryland Terrapins",
+          "Terrapins"
+        ],
+        "color": "ce1126"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Memorial Stadium (Lincoln, NE)",
+      "detail": "Sat, October 3rd at 4:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864514",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:167",
+        "name": "New Mexico Lobos",
+        "abbrev": "UNM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lobos",
+          "New Mexico",
+          "New Mexico Lobos",
+          "UNM"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:2638",
+        "name": "UTEP Miners",
+        "abbrev": "UTEP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+        "logo_dark": null,
+        "aliases": [
+          "Miners",
+          "UTEP",
+          "UTEP Miners"
+        ],
+        "color": "ff8200"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "University Stadium (NM)",
+      "detail": "Sat, October 3rd at 4:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:mma:600061182",
+      "sport": "mma",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "start_utc": "2026-10-03T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:None",
+        "name": "Eric Nolan",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eric Nolan"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Court McGee",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Court McGee"
+        ],
+        "color": null
+      },
+      "source": "espn:mma/ufc",
+      "source_status": "pre/Scheduled",
+      "venue": "Delta Center",
+      "detail": "Scheduled",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "UFC 332: Silva vs. Wang"
+    },
+    {
+      "event_id": "espn:football:401856709",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T20:15Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2579",
+        "name": "South Carolina Gamecocks",
+        "abbrev": "SC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "SC",
+          "South Carolina",
+          "South Carolina Gamecocks"
+        ],
+        "color": "73000a"
+      },
+      "away": {
+        "id": "espn:96",
+        "name": "Kentucky Wildcats",
+        "abbrev": "UK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kentucky",
+          "Kentucky Wildcats",
+          "UK",
+          "Wildcats"
+        ],
+        "color": "0033a0"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Williams-Brice Stadium",
+      "detail": "Sat, October 3rd at 4:15 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858472",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T20:15Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:356",
+        "name": "Illinois Fighting Illini",
+        "abbrev": "ILL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Illini",
+          "ILL",
+          "Illinois",
+          "Illinois Fighting Illini"
+        ],
+        "color": "ff5f05"
+      },
+      "away": {
+        "id": "espn:2509",
+        "name": "Purdue Boilermakers",
+        "abbrev": "PUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+        "logo_dark": null,
+        "aliases": [
+          "Boilermakers",
+          "PUR",
+          "Purdue",
+          "Purdue Boilermakers"
+        ],
+        "color": "ceb888"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Gies Memorial Stadium",
+      "detail": "Sat, October 3rd at 4:15 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860899",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:36",
+        "name": "Colorado State Rams",
+        "abbrev": "CSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+        "logo_dark": null,
+        "aliases": [
+          "CSU",
+          "Colorado St",
+          "Colorado State",
+          "Colorado State Rams",
+          "Rams"
+        ],
+        "color": "004c23"
+      },
+      "away": {
+        "id": "espn:204",
+        "name": "Oregon State Beavers",
+        "abbrev": "ORST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+        "logo_dark": null,
+        "aliases": [
+          "Beavers",
+          "ORST",
+          "Oregon St",
+          "Oregon State",
+          "Oregon State Beavers"
+        ],
+        "color": "dc4405"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Canvas Stadium",
+      "detail": "Sat, October 3rd at 6:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862790",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2226",
+        "name": "Florida Atlantic Owls",
+        "abbrev": "FAU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+        "logo_dark": null,
+        "aliases": [
+          "FAU",
+          "Florida Atlantic",
+          "Florida Atlantic Owls",
+          "Owls"
+        ],
+        "color": "003366"
+      },
+      "away": {
+        "id": "espn:2640",
+        "name": "Texas Southern Tigers",
+        "abbrev": "TXSO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+        "logo_dark": null,
+        "aliases": [
+          "TXSO",
+          "Texas Southern",
+          "Texas Southern Tigers",
+          "Tigers"
+        ],
+        "color": "860038"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Flagler Credit Union Stadium",
+      "detail": "Sat, October 3rd at 6:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:849835",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-03T22:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:139",
+        "name": "Tampa Bay Rays",
+        "abbrev": "TB",
+        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rays",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Rays"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:147",
+        "name": "New York Yankees",
+        "abbrev": "NYY",
+        "logo": "https://www.mlbstatic.com/team-logos/147.svg",
+        "logo_dark": null,
+        "aliases": [
+          "NY Yankees",
+          "NYY",
+          "New York",
+          "New York Yankees",
+          "Yankees"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Tropicana Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020022",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -2781,6 +4704,281 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401902644",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:28",
+        "name": "Toronto Raptors",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "logo_dark": null,
+        "aliases": [
+          "Raptors",
+          "TOR",
+          "Toronto",
+          "Toronto Raptors"
+        ],
+        "color": "d91244"
+      },
+      "away": {
+        "id": "espn:14",
+        "name": "Miami Heat",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "logo_dark": null,
+        "aliases": [
+          "Heat",
+          "MIA",
+          "Miami",
+          "Miami Heat"
+        ],
+        "color": "98002e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Videotron Centre",
+      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856818",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2628",
+        "name": "TCU Horned Frogs",
+        "abbrev": "TCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+        "logo_dark": null,
+        "aliases": [
+          "Horned Frogs",
+          "TCU",
+          "TCU Horned Frogs"
+        ],
+        "color": "4d1979"
+      },
+      "away": {
+        "id": "espn:252",
+        "name": "BYU Cougars",
+        "abbrev": "BYU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+        "logo_dark": null,
+        "aliases": [
+          "BYU",
+          "BYU Cougars",
+          "Cougars"
+        ],
+        "color": "0047ba"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Amon G. Carter Stadium",
+      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856711",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:245",
+        "name": "Texas A&M Aggies",
+        "abbrev": "TA&M",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "TA&M",
+          "Texas A&M",
+          "Texas A&M Aggies"
+        ],
+        "color": "500000"
+      },
+      "away": {
+        "id": "espn:8",
+        "name": "Arkansas Razorbacks",
+        "abbrev": "ARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARK",
+          "Arkansas",
+          "Arkansas Razorbacks",
+          "Razorbacks"
+        ],
+        "color": "a32136"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Kyle Field",
+      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862788",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:242",
+        "name": "Rice Owls",
+        "abbrev": "RICE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+        "logo_dark": null,
+        "aliases": [
+          "Owls",
+          "RICE",
+          "Rice",
+          "Rice Owls"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:2636",
+        "name": "UTSA Roadrunners",
+        "abbrev": "UTSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+        "logo_dark": null,
+        "aliases": [
+          "Roadrunners",
+          "UTSA",
+          "UTSA Roadrunners"
+        ],
+        "color": "0c2340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "First Community Stadium",
+      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869942",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:324",
+        "name": "Coastal Carolina Chanticleers",
+        "abbrev": "CCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+        "logo_dark": null,
+        "aliases": [
+          "CCU",
+          "Chanticleers",
+          "Coastal",
+          "Coastal Carolina",
+          "Coastal Carolina Chanticleers"
+        ],
+        "color": "006f71"
+      },
+      "away": {
+        "id": "espn:290",
+        "name": "Georgia Southern Eagles",
+        "abbrev": "GASO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "GA Southern",
+          "GASO",
+          "Georgia Southern",
+          "Georgia Southern Eagles"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Brooks Stadium (SC)",
+      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871089",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:6",
+        "name": "South Alabama Jaguars",
+        "abbrev": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jaguars",
+          "South Alabama",
+          "South Alabama Jaguars",
+          "USA"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:2433",
+        "name": "UL Monroe Warhawks",
+        "abbrev": "ULM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+        "logo_dark": null,
+        "aliases": [
+          "UL Monroe",
+          "UL Monroe Warhawks",
+          "ULM",
+          "Warhawks"
+        ],
+        "color": "840029"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Hancock Whitney Stadium",
+      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020029",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -2825,6 +5023,363 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "espn:football:401858249",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:228",
+        "name": "Clemson Tigers",
+        "abbrev": "CLEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLEM",
+          "Clemson",
+          "Clemson Tigers",
+          "Tigers"
+        ],
+        "color": "f56600"
+      },
+      "away": {
+        "id": "espn:2390",
+        "name": "Miami Hurricanes",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hurricanes",
+          "MIA",
+          "Miami",
+          "Miami Hurricanes"
+        ],
+        "color": "f47423"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Memorial Stadium (Clemson, SC)",
+      "detail": "Sat, October 3rd at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856821",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:38",
+        "name": "Colorado Buffaloes",
+        "abbrev": "COLO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buffaloes",
+          "COLO",
+          "Colorado",
+          "Colorado Buffaloes"
+        ],
+        "color": "cfb87c"
+      },
+      "away": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Folsom Field",
+      "detail": "Sat, October 3rd at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858478",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:30",
+        "name": "USC Trojans",
+        "abbrev": "USC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+        "logo_dark": null,
+        "aliases": [
+          "Trojans",
+          "USC",
+          "USC Trojans"
+        ],
+        "color": "9d2235"
+      },
+      "away": {
+        "id": "espn:264",
+        "name": "Washington Huskies",
+        "abbrev": "WASH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "WASH",
+          "Washington",
+          "Washington Huskies"
+        ],
+        "color": "33006f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Los Angeles Memorial Coliseum",
+      "detail": "Sat, October 3rd at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860898",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:68",
+        "name": "Boise State Broncos",
+        "abbrev": "BOIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOIS",
+          "Boise St",
+          "Boise State",
+          "Boise State Broncos",
+          "Broncos"
+        ],
+        "color": "0033a0"
+      },
+      "away": {
+        "id": "espn:328",
+        "name": "Utah State Aggies",
+        "abbrev": "USU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "USU",
+          "Utah State",
+          "Utah State Aggies"
+        ],
+        "color": "0f2439"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Albertsons Stadium",
+      "detail": "Sat, October 3rd at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862792",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:58",
+        "name": "South Florida Bulls",
+        "abbrev": "USF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "South Florida",
+          "South Florida Bulls",
+          "USF"
+        ],
+        "color": "006747"
+      },
+      "away": {
+        "id": "espn:218",
+        "name": "Temple Owls",
+        "abbrev": "TEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+        "logo_dark": null,
+        "aliases": [
+          "Owls",
+          "TEM",
+          "Temple",
+          "Temple Owls"
+        ],
+        "color": "a41e35"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Raymond James Stadium",
+      "detail": "Sat, October 3rd at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869842",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2348",
+        "name": "Louisiana Tech Bulldogs",
+        "abbrev": "LT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "LT",
+          "Louisiana Tech",
+          "Louisiana Tech Bulldogs"
+        ],
+        "color": "003087"
+      },
+      "away": {
+        "id": "espn:349",
+        "name": "Army Black Knights",
+        "abbrev": "ARMY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARMY",
+          "Army",
+          "Army Black Knights",
+          "Black Knights"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Joe Aillet Stadium",
+      "detail": "Sat, October 3rd at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856706",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:99",
+        "name": "LSU Tigers",
+        "abbrev": "LSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+        "logo_dark": null,
+        "aliases": [
+          "LSU",
+          "LSU Tigers",
+          "Tigers"
+        ],
+        "color": "461d76"
+      },
+      "away": {
+        "id": "espn:2377",
+        "name": "McNeese Cowboys",
+        "abbrev": "MCN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "MCN",
+          "McNeese",
+          "McNeese Cowboys"
+        ],
+        "color": "00529C"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Tiger Stadium (LA)",
+      "detail": "Sat, October 3rd at 7:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:68778:s4e44",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-10-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
     },
     {
       "event_id": "nhl:2026020030",
@@ -2919,6 +5474,145 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858477",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:164",
+        "name": "Rutgers Scarlet Knights",
+        "abbrev": "RUTG",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+        "logo_dark": null,
+        "aliases": [
+          "RUTG",
+          "Rutgers",
+          "Rutgers Scarlet Knights",
+          "Scarlet Knights"
+        ],
+        "color": "ce0e2d"
+      },
+      "away": {
+        "id": "espn:84",
+        "name": "Indiana Hoosiers",
+        "abbrev": "IU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hoosiers",
+          "IU",
+          "Indiana",
+          "Indiana Hoosiers"
+        ],
+        "color": "970310"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "SHI Stadium",
+      "detail": "Sat, October 3rd at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869932",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:309",
+        "name": "Louisiana Ragin' Cajuns",
+        "abbrev": "UL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+        "logo_dark": null,
+        "aliases": [
+          "Louisiana",
+          "Louisiana Ragin' Cajuns",
+          "Ragin' Cajuns",
+          "UL"
+        ],
+        "color": "ce181e"
+      },
+      "away": {
+        "id": "espn:2032",
+        "name": "Arkansas State Red Wolves",
+        "abbrev": "ARST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARST",
+          "Arkansas St",
+          "Arkansas State",
+          "Arkansas State Red Wolves",
+          "Red Wolves"
+        ],
+        "color": "cc092f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Our Lady of Lourdes Stadium",
+      "detail": "Sat, October 3rd at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:849830",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-04T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:158",
+        "name": "Milwaukee Brewers",
+        "abbrev": "MIL",
+        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Brewers",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Brewers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:135",
+        "name": "San Diego Padres",
+        "abbrev": "SD",
+        "logo": "https://www.mlbstatic.com/team-logos/135.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Padres",
+          "SD",
+          "San Diego",
+          "San Diego Padres"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "American Family Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020032",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -2957,6 +5651,54 @@
       "source_status": "FUT/OK",
       "venue": "Ball Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860921",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T01:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:265",
+        "name": "Washington State Cougars",
+        "abbrev": "WSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "WSU",
+          "Washington St",
+          "Washington State",
+          "Washington State Cougars"
+        ],
+        "color": "a60f2d"
+      },
+      "away": {
+        "id": "espn:278",
+        "name": "Fresno State Bulldogs",
+        "abbrev": "FRES",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "FRES",
+          "Fresno St",
+          "Fresno State",
+          "Fresno State Bulldogs"
+        ],
+        "color": "b1102b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Martin Stadium",
+      "detail": "Sat, October 3rd at 9:30 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3049,6 +5791,194 @@
       "source_status": "FUT/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856817",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9",
+        "name": "Arizona State Sun Devils",
+        "abbrev": "ASU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+        "logo_dark": null,
+        "aliases": [
+          "ASU",
+          "Arizona St",
+          "Arizona State",
+          "Arizona State Sun Devils",
+          "Sun Devils"
+        ],
+        "color": "ffc627"
+      },
+      "away": {
+        "id": "espn:239",
+        "name": "Baylor Bears",
+        "abbrev": "BAY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAY",
+          "Baylor",
+          "Baylor Bears",
+          "Bears"
+        ],
+        "color": "154734"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Mountain America Stadium",
+      "detail": "Sat, October 3rd at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860900",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:21",
+        "name": "San Diego State Aztecs",
+        "abbrev": "SDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aztecs",
+          "SDSU",
+          "San Diego St",
+          "San Diego State",
+          "San Diego State Aztecs"
+        ],
+        "color": "a6192e"
+      },
+      "away": {
+        "id": "espn:326",
+        "name": "Texas State Bobcats",
+        "abbrev": "TXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "TXST",
+          "Texas St",
+          "Texas State",
+          "Texas State Bobcats"
+        ],
+        "color": "501214"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Snapdragon Stadium",
+      "detail": "Sat, October 3rd at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856820",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:12",
+        "name": "Arizona Wildcats",
+        "abbrev": "ARIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARIZ",
+          "Arizona",
+          "Arizona Wildcats",
+          "Wildcats"
+        ],
+        "color": "cc0033"
+      },
+      "away": {
+        "id": "espn:2132",
+        "name": "Cincinnati Bearcats",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearcats",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bearcats"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Casino Del Sol Stadium",
+      "detail": "Sat, October 3rd at 11:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864513",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T03:59Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:62",
+        "name": "Hawai'i Rainbow Warriors",
+        "abbrev": "HAW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+        "logo_dark": null,
+        "aliases": [
+          "HAW",
+          "Hawai'i",
+          "Hawai'i Rainbow Warriors",
+          "Rainbow Warriors"
+        ],
+        "color": "005737"
+      },
+      "away": {
+        "id": "espn:23",
+        "name": "San Jos\u00e9 State Spartans",
+        "abbrev": "SJSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+        "logo_dark": null,
+        "aliases": [
+          "SJSU",
+          "San Jos\u00e9 St",
+          "San Jos\u00e9 State",
+          "San Jos\u00e9 State Spartans",
+          "Spartans"
+        ],
+        "color": "0038a8"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Clarence T.C. Ching Athletics Complex",
+      "detail": "Sat, October 3rd at 11:59 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4481,22 +7411,234 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020066",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-09T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:17",
+        "name": "Detroit Red Wings",
+        "abbrev": "DET",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Red Wings",
+          "Red Wings"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:55",
+        "name": "Seattle Kraken",
+        "abbrev": "SEA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+        "aliases": [
+          "Kraken",
+          "SEA",
+          "Seattle",
+          "Seattle Kraken"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Little Caesars Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020067",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-09T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:15",
+        "name": "Washington Capitals",
+        "abbrev": "WSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
+        "aliases": [
+          "Capitals",
+          "WSH",
+          "Washington",
+          "Washington Capitals"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:3",
+        "name": "New York Rangers",
+        "abbrev": "NYR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+        "aliases": [
+          "NYR",
+          "New York",
+          "New York Rangers",
+          "Rangers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Capital One Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020068",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-09T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:29",
+        "name": "Columbus Blue Jackets",
+        "abbrev": "CBJ",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
+        "aliases": [
+          "Blue Jackets",
+          "CBJ",
+          "Columbus",
+          "Columbus Blue Jackets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:5",
+        "name": "Pittsburgh Penguins",
+        "abbrev": "PIT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
+        "aliases": [
+          "PIT",
+          "Penguins",
+          "Pittsburgh",
+          "Pittsburgh Penguins"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Nationwide Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020069",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-10T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:52",
+        "name": "Winnipeg Jets",
+        "abbrev": "WPG",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+        "aliases": [
+          "Jets",
+          "WPG",
+          "Winnipeg",
+          "Winnipeg Jets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:24",
+        "name": "Anaheim Ducks",
+        "abbrev": "ANA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
+        "aliases": [
+          "ANA",
+          "Anaheim",
+          "Anaheim Ducks",
+          "Ducks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canada Life Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
     {
-      "story_id": "50078973",
-      "headline": "Steelers-Browns on TNF Week 4: Highlights, key plays",
-      "summary": "Check out the biggest touchdowns and highlight-reel plays from the Pittsburgh at Cleveland game.",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724695_608x342_16-9.jpg",
-      "published_utc": "2026-10-01T23:50:06Z",
+      "story_id": "50046007",
+      "headline": "2026 MLB wild-card series Day 3: Live updates, lineups, analysis",
+      "summary": "One spot in the division series remains. Will the Braves or Phillies keep their season alive?",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723468_1296x729_16-9.jpg",
+      "published_utc": "2026-10-02T00:02:05Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50046007/mlb-playoffs-2026-wild-card-game-3-live-updates-analysis-takeaways-phillies-braves",
+      "stream_url": "",
+      "body": "Three wild-card series were settled in two games -- but one will go the distance.\n\nAfter the Chicago White Sox, New York Yankees and San Diego Padres all finished their series in sweeps, the NL East showdown between the Philadelphia Phillies and Atlanta Braves will be the only game on wild-card Day 3. And after two dramatic finishes in the first two games -- the Phillies' Game 2 win coming in extra innings -- who knows what's in store for Thursday?\n\nWe've got you covered with the sights and sounds from Atlanta, plus our postgame takeaways when the series ends.\n\nKey links: Mega-preview | Bracket | Schedule\n\nPhillies-Braves\nFollow live with pitch-by-pitch coverage\n\nWhat Phillies need to do to win: Keep the clutch hitting going. This Phillies' core has been in a lot of playoff games -- Bryce Harper has played in 40 while in Philly -- so there have been plenty of ups and downs, but they have the experience. Following Game 2, the buzz in the locker room and in postgame interviews shed light on how much confidence and belief this team has, buoyed by a long history of being in big games. The Phils have the starting pitching edge in Game 3, and the middle of the lineup all homered in the comeback win; they just need to keep it up.\n\nWhat Braves need to do to win: Rely on their experienced lineup. It's smelling like a bullpen game for Atlanta, probably with Grant Holmes starting -- so getting a third standout six-plus-inning starting pitching performance in this series might be asking for too much. The lineup has enough talent to carry this team, and Aaron Nola is notably more hittable than Cristopher Sanchez and Jesus Luzardo, two of the best starting pitchers in the league this season. A little more home-cooked, late-game magic like in Game 1 is easy to imagine.\n\nGame 3 starters: Aaron Nola vs. Ray Kerr\n\nLineups\n\nPhillies\n\n1. Trea Turner (R) SS\n\n2. Kyle Schwarber (L) DH\n\n3. Bryce Harper (L) RF\n\n4. Alec Bohm (R) 1B\n\n5. Bryson Stott (L) 2B\n\n6. Bryan De La Cruz (R) LF\n\n7. Edmundo Sosa (R) 3B\n\n8. J.T. Realmuto (R) C\n\n9. Justin Crawford (L) CF\n\nBraves\n\n1. Drake Baldwin (L) C\n\n2. Ronald Acuna Jr. (R) RF\n\n3. Matt Olson (L) 1B\n\n4. Michael Harris II (L) CF\n\n5. Mauricio Dubon (R) SS\n\n6. Mike Yastrzemski (L) LF\n\n7. Austin Riley (R) 3B\n\n8. Ozzie Albies (S) 2B\n\n9. Dominic Smith (L) DH"
+    },
+    {
+      "story_id": "50078680",
+      "headline": "How Man City players, staff are handling Premier League verdict",
+      "summary": "As the reaction to Man City's guilty verdict continues to ripple across the sporting world, the club's internal messaging is very much one of confidence and carrying on. That may be easier said than done.",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724656_1296x729_16-9.jpg",
+      "published_utc": "2026-10-01T23:55:25Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "Rob Dawson",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50078680/how-man-city-players-staff-handling-premier-league-verdict",
+      "stream_url": "",
+      "body": "The strength of the judgment against Manchester City, following their legal case with the Premier League, has shocked the club, its employees and their players. Most of those inside the City Football Academy (CFA) accept that the verdict -- made public for the first time Tuesday -- is a worst-case scenario.\n\nThere has been speculation and discussion on and off at the CFA for more than three years since the charges were announced in February 2023 about what might happen. It was always viewed internally as highly unlikely that every count of financial misconduct would be proved.\n\nCity insist they are innocent -- a message that has come from the top, namely chairman Khaldoon Al Mubarak and CEO Ferran Soriano -- and many employees want to give the club the benefit of the doubt. They enjoy working for City and feel that they've been well looked after over the years.\n\nIn that respect, many people ESPN spoke with for this story are choosing to believe Al Mubarak and Soriano. At the very least, the majority of these staff members are prepared to wait until after the appeal is heard before passing judgment.\n\n- Legal explainer: Man City have been charged. Now what?\n\n- Marcotti: Hard to see how Man City come back from seismic scandal\n\n- Ogden: Does Man City's guilty verdict ruin Guardiola's legacy?\n\nMany staff members are also fans, and as such, they are invested personally as well as professionally. City are a big club and a major employer, but since the Abu Dhabi takeover in 2008, the club's owners have done a good job of creating a family feel and a sense of shared purpose. More than 700 employees attended a UK all-staff meeting in the first week of this three-week international break, while players are away on duty with their national teams.\n\nThere is, however, a cloud hanging over the CFA, and the mood in general has been described to ESPN as nervous. Soriano, in his video message to staff Tuesday, insisted it should be business as usual, but in the absence of any real information about what sanctions might follow, there's genuine worry about what the future could hold.\n\nThe same goes for the players. With many of City's senior squad away on international duty, some have had direct contact with the club, while others have not. One agent of a first-team player told ESPN that his client is \"calm\" about the situation and is happy with the public reassurances offered by senior executives. There is, though, an acceptance that things could change depending on the result of the appeal -- which has yet to be filed but must be lodged by the close of business Friday -- and any punishment handed down.\n\nPlayer concerns\n\nSpeculation over considerable sporting sanctions is causing the most concern, sources tell ESPN. After all, City's players chose to go to the Etihad Stadium to play in the Premier League and the Champions League while getting the opportunity to win trophies. They need to be playing well at the highest level to earn international call-ups and to play at major international tournaments.\n\nFor that reason, one representative of a City first-teamer has privately questioned the sense in punishing current players who were not at the club when the alleged transgressions occurred between 2009 and 2018. Another agent has told ESPN that the players -- many of whom arrived or penned new deals after February, 2023, when the charges were first announced -- knew what they were signing up for because possible punishments have been widely known for a while.\n\nSources have told ESPN that the Professional Football Association (PFA) have made themselves available to talk to players about issues arising from the verdict. They helped a number of players at the end of last season when Southampton were expelled from the play-offs because a staff member was caught spying on opponents' training sessions; in that case, a significant sporting sanction was handed down for an incident that didn't involve the team, but did directly impact them.\n\nIt's unclear how many City players have clauses in their contracts to protect themselves in the event of relegation, or a points deduction so severe that it prevents the club from challenging for the title or playing in Europe for a number of years. \"There may be a few tough lessons for players whose agents focus purely on how much their client is paid,\" one agent told ESPN.\n\nSources have told ESPN that other clubs are monitoring City's situation carefully and work is already going on in the background to find out what protections -- if any -- players have in their contracts, and whether or not they are accessible for transfer talks. Questions are also being asked privately about whether there's an appetite -- even at this early stage -- to consider alternative options away from the Etihad in the future.\n\nThe football department are keen to minimize any distractions. Manager Enzo Maresca is expected to address the verdict when his players return to the CFA next week, and his message is likely to center on a need to remain focused on football.\n\nWhether that's possible or not is another matter. The story has already followed City's players wherever they've played during the international break. Norway manager Stale Solbakken was asked about Erling Haaland's mindset ahead of Norway's game against Wales in Cardiff. \"Everything is fine,\" he said. R\u00faben Dias, stern-faced, shut down a question at a Portugal news conference.\n\nManchester City women's manager Andree Jeglertz became the first City employee to take questions about the Premier League verdict at a news conference on Wednesday, held to preview their game against Real Madrid. \"The thing the club has been presented, is the information we have inside of our group,\" he said.\n\n\"We can't talk about anything else and we don't need to talk about anything else at the moment.\"\n\nIt's likely to be a similar message when Maresca sits down with reporters for the first time next week. He's due to speak for the first time at his next scheduled news conference on Friday, Oct. 9, two days before the trip to play Liverpool at Anfield.\n\nThrough the lens of the Premier League's statement, this next fixture has taken on added intensity and spice given Liverpool that have finished second behind City three times in the last 15 years. Of all the clubs who feel most wronged by all this, Liverpool are close to the top of the list.\n\nAmid all the noise, Man City have told their staff to plough on. It may be easier said than done."
+    },
+    {
+      "story_id": "50063176",
+      "headline": "NFL Week 4 uniforms: Browns wearing 'Alpha Dawg' look; Giants go 'Legacy'",
+      "summary": "Here's a look at what each NFL team is wearing in Week 4, led by an alternate look from the Cleveland Browns.",
+      "image": "https://a.espncdn.com/photo/2026/0930/nfl-uniforms-week-4-16x9.jpg",
+      "published_utc": "2026-10-01T23:54:43Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Daniel Oyefusi and Brooke Pryor",
+      "byline": "Anthony Gharib",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50078973/nfl-week-4-steelers-browns-top-plays-tnf",
+      "link": "https://www.espn.com/nfl/story/_/id/50063176/nfl-week-4-uniforms",
       "stream_url": "",
-      "body": "CLEVELAND -- The Browns are hosting the Pittsburgh Steelers (2-1) on \"Thursday Night Football\" (8:15 p.m. ET, Prime Video).\n\nDeshaun Watson's late-game performances and the Browns' 2-1 start means Cleveland enters its home game with first place in the AFC North on the line.\n\nWith a 13-6 record in Thursday games, Steelers quarterback Aaron Rodgers enters the Week 4 matchup tied with Dallas Cowboys quarterback Dak Prescott for the second-most wins on Thursday in the Super Bowl era. The only person in front of him? Tom Brady with 14, meaning Rodgers can move into a tie for first place with a win in Cleveland. For his career, Rodgers averages 256 passing yards and completes 68% of his pass attempts in Thursday games. He also has a 69 total QBR on Thursdays.\n\nAlso, Thursday night marks the 150th meeting all-time between the division rivals, which are separated by only 135 miles.\n\nBrowns reporter Daniel Oyefusi and Steelers reporter Brooke Pryor will bring you all the highlights and key plays from Thursday night, so be sure to check back in."
+      "body": "As the calendar turns to October, NFL uniforms remain as fresh as ever with an alternate-heavy slate in Week 4.\n\nOn \"Thursday Night Football,\" the Cleveland Browns will wear their \"Alpha Dawg\" combination against the Pittsburgh Steelers. Cleveland revealed the all-brown threads in July 2025 with a brand new alternate brown helmet. They debuted last season and marked the first time in franchise history that a brown helmet was worn. Orange-colored numbers run across the front and back of the jersey, as well as on the shoulder. There's also an orange stripe on the helmet.\n\nIn the throwback space, the New York Giants are donning their legacy uniforms against the Arizona Cardinals. New York wore these threads from 1980 to 1999. It was reintroduced in 2022, when the team brought back the navy helmet. Other design elements include classic numbers plus the red-and-blue trim on the jerseys and pants, similar to the uniforms of the 1980s and '90s. Written inside the collar is \"Once a Giants, Always a Giant,\" the words of late owner Wellington Mara.\n\nThe Carolina Panthers, meanwhile, will bring an all-black look to \"Sunday Night Football\" against the Detroit Lions. Carolina first debuted this all-black combination in 2022.\n\nThe Dallas Cowboys are rocking navy blue alternates with silver pants against the Houston Texans, a look the team will wear only a handful of times each season. The Texans will wear liberty white jerseys with deep steel blue pants. It marks the same uniform matchup the Texans and Cowboys wore for Houston's first regular-season game as a franchise in 2002.\n\nThe New Orleans Saints and Atlanta Falcons on Monday will honor the 20th anniversary of the Saints' return to the Superdome following Hurricane Katrina by wearing the same uniform combinations they wore for the emotional and memorable \"Monday Night Football\" matchup on Sept. 25, 2006. The Saints will wear white jerseys and gold pants, and the Falcons will be in their red jerseys and white pants.\n\nHere's a look at the Week 4 uniforms for all 32 NFL teams.\n\nArizona Cardinals\nHelmet: White\n\nJersey: White\n\nPants: White\n\nAtlanta Falcons\nHelmet: Black\n\nJersey: Red\n\nPants: White\n\nBaltimore Ravens\nHelmet: Black\n\nJersey: Purple\n\nPants: White\n\nBuffalo Bills\nHelmet: White\n\nJersey: Blue\n\nPants: White\n\nCarolina Panthers\nHelmet: Black\n\nJersey: Black\n\nPants: Black\n\nChicago Bears\nHelmet: Navy\n\nJersey: Navy\n\nPants: White\n\nCincinnati Bengals\n\nHelmet: Orange\n\nJersey: Black\n\nPants: Black\n\nCleveland Browns\n\nHelmet: Brown\n\nJersey: Brown\n\nPants: Brown\n\nDallas Cowboys\nHelmet: Silver\n\nJersey: Navy\n\nPants: Silver\n\nDenver Broncos\n\nHelmet: Midnight navy\n\nJersey: Summit white\n\nPants: TBA\n\nDetroit Lions\n\nHelmet: Silver\n\nJersey: White\n\nPants: TBA\n\nGreen Bay Packers\n\nHelmet: Gold\n\nJersey: Green\n\nPants: Gold\n\nHouston Texans\n\nHelmet: Deep steel blue\n\nJersey: Liberty white\n\nPants: Deep steel blue\n\nIndianapolis Colts\nHelmet: White\n\nJersey: White\n\nPants: White\n\nJacksonville Jaguars\nHelmet: Black\n\nJersey: White\n\nPants: White\n\nKansas City Chiefs\nHelmet: Red\n\nJersey: White\n\nPants: TBA\n\nLas Vegas Raiders\n\nHelmet: Silver\n\nJersey: Black\n\nPants: Silver\n\nLos Angeles Chargers\n\nHelmet: White\n\nJersey: White\n\nPants: Powder blue\n\nLos Angeles Rams\nHelmet: Royal/sol\n\nJersey: White\n\nPants: Royal\n\nMiami Dolphins\nHelmet: White\n\nJersey: White\n\nPants: TBA\n\nMinnesota Vikings\nHelmet: Purple\n\nJersey: Purple\n\nPants: TBA\n\nNew England Patriots\nHelmet: Silver\n\nJersey: White\n\nPants: Silver\n\nNew Orleans Saints\n\nHelmet: Gold\n\nJersey: White\n\nPants: Gold\n\nNew York Giants\n\nHelmet: Navy\n\nJersey: Legacy blue\n\nPants: White\n\nNew York Jets\n\nHelmet: Green\n\nJersey: White\n\nPants: Green\n\nPhiladelphia Eagles\n\nHelmet: Midnight green\n\nJersey: Midnight green\n\nPants: White\n\nPittsburgh Steelers\n\nHelmet: Black\n\nJersey: White\n\nPants: Gold\n\nSan Francisco 49ers\n\nHelmet: Gold\n\nJersey: Red\n\nPants: Gold\n\nSeattle Seahawks\n\nHelmet: College navy\n\nJersey: College navy\n\nPants: College navy\n\nTampa Bay Buccaneers\n\nHelmet: Pewter\n\nJersey: White\n\nPants: White\n\nTennessee Titans\n\nHelmet: White\n\nJersey: White\n\nPants: Light blue\n\nWashington Commanders\nHelmet: Burgundy\n\nJersey: Burgundy\n\nPants: White"
     },
     {
       "story_id": "50079853",
@@ -4511,20 +7653,6 @@
       "link": "https://www.espn.com/nba/story/_/id/50079853/76ers-envision-lebron-james-role-being-offense-creator",
       "stream_url": "",
       "body": "CAMDEN, N.J. -- It took until Day 3 of training camp for Philadelphia 76ers coach Nick Nurse to introduce offensive schemes to his new group.\n\nAnd though the offense flowed with expected ease Thursday during 5-on-0 drills, role definition will be as important as understanding the playbook when the real games start.\n\nNurse detailed the offensive responsibilities he envisions LeBron James occupying. The team will certainly put the ball in the 24-year veteran's capable hands -- as, team sources told ESPN, Philadelphia discussed playing James at point forward this offseason -- but he won't be the only one with the ball.\n\n\"We got several guys that what I would call 'grab-and-go,'\" Nurse said. \"If they get rebounds and their first advantage is to start pushing it up the floor and it stays that way, then they're going to do it.\"\n\nBeyond James, the group Nurse will rely on to push the team in transition includes fellow starters Tyrese Maxey, Jaylen Brown and VJ Edgecombe.\n\nThough Nurse emphasized defense during the first two days of camp, part of the presentation was imploring his players to get stops to spark fast-break opportunities when scoring will come instinctively.\n\nWhen the Sixers set up in the half court, however, Nurse is glad to have James, who ranks No. 1 in all-time points and No. 4 in all-time assists on this team.\n\n\"I just think LeBron, I consider him a great offense creator,\" Nurse said. \"I don't necessarily mean scorer, I just think creator and a table setter and all that kind of stuff. ... If it isn't bringing it up and starting [the possession], it's probably going to be first pass anyway to [him on] the wing and then we get into our actions, and he's kind of seeing what's there, and he's creating offense for others.\"\n\nAs the Sixers look to organize themselves against a set defense, that's when player recognition will be paramount.\n\nJames, Brown and Joel Embiid, for instance, can operate out of the post to initiate offense. The court, however, can get awfully crowded if the team has a player planted on either block and any of those three expect their touches there.\n\n\"One, it's a feel thing, and two, we just try to establish some spacing,\" Brown said. \"We try to establish position on the floor, like the style of play. I think we're still kind of figuring it out. Like when I am going to go, when not to go, when big fella is going down in the post, when I can put pressure on the rim, just trying to find that balance.\"\n\nBrown has already spent time with coaches after practice this week, not only practicing fadeaway shots when double-teamed in the post, but also practicing throwing passes to the 3-point line to elude the double.\n\nSixers player development coaches have been the recipients of those passes, but the idea is for Brown to picture finding one of his star teammates open if he dissects the defense properly.\n\n\"I played with a fair share of stretch 5s, and it really complements my game well,\" Brown said of Embiid.\n\nJust like how Nurse welcomes James' input to complement his coaching.\n\n\"I would like to have a collaborative situation here,\" Nurse said. \"So, when just about anything that's on the table, he can say, 'What are you thinking about doing?' Any thoughts. Any ideas. And not just with him. I actually did it with five of the players this morning before practice.\"\n\nThere will be only a couple of more practice opportunities before the Sixers' offense will see a real opposing defense. Philadelphia's preseason opener is scheduled for Monday against the New York Knicks."
-    },
-    {
-      "story_id": "50046007",
-      "headline": "2026 MLB wild-card series Day 3: Live updates, lineups, analysis",
-      "summary": "One spot in the division series remains. Will the Braves or Phillies keep their season alive?",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723468_1296x729_16-9.jpg",
-      "published_utc": "2026-10-01T23:22:11Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50046007/mlb-playoffs-2026-wild-card-game-3-live-updates-analysis-takeaways-phillies-braves",
-      "stream_url": "",
-      "body": "Three wild-card series were settled in two games -- but one will go the distance.\n\nAfter the Chicago White Sox, New York Yankees and San Diego Padres all finished their series in sweeps, the NL East showdown between the Philadelphia Phillies and Atlanta Braves will be the only game on wild-card Day 3. And after two dramatic finishes in the first two games -- the Phillies' Game 2 win coming in extra innings -- who knows what's in store for Thursday?\n\nWe've got you covered with pregame lineups, sights and sounds from the ballparks and postgame takeaways as each series ends.\n\nKey links: Megapreview | Bracket | Schedule\n\nPhiladelphia Phillies vs. Atlanta Braves\nSeries tied 1-1\n\n8 p.m. ET\n\nGame 3 starters: Aaron Nola vs. Ray Kerr\n\nWhat Phillies need to do to win: Keep the clutch hitting going. This Phillies' core has been in a lot of playoff games -- Bryce Harper has played in 40 while in Philly -- so there have been plenty of ups and downs, but they have the experience. Following Game 2, the buzz in the locker room and in postgame interviews shed light on how much confidence and belief this team has, buoyed by a long history of being in big games. The Phils have the starting pitching edge in Game 3, and the middle of the lineup all homered in the comeback win; they just need to keep it up.\n\nWhat Braves need to do to win: Rely on their experienced lineup. It's smelling like a bullpen game for Atlanta, probably with Grant Holmes starting -- so getting a third standout six-plus-inning starting pitching performance in this series might be asking for too much. The lineup has enough talent to carry this team, and Aaron Nola is notably more hittable than Cristopher Sanchez and Jesus Luzardo, two of the best starting pitchers in the league this season. A little more home-cooked, late-game magic like in Game 1 is easy to imagine.\n\nLineups\n\nPhillies\n\n1. Trea Turner (R) SS\n\n2. Kyle Schwarber (L) DH\n\n3. Bryce Harper (L) RF\n\n4. Alec Bohm (R) 1B\n\n5. Bryson Stott (L) 2B\n\n6.Bryan De La Cruz (R) LF\n\n7. Edmundo Sosa (R) 3B\n\n8. J.T. Realmuto (R) C\n\n9. Justin Crawford (L) CF\n\nBraves\n\n1. Drake Baldwin (L) C\n\n2. Ronald Acuna Jr. (R) RF\n\n3. Matt Olson (L) 1B\n\n4. Michael Harris II (L) CF\n\n5. Mauricio Dubon (R) SS\n\n6. Mike Yastrzemski (L) LF\n\n7. Austin Riley (R) 3B\n\n8. Ozzie Albies (S) 2B\n\n9. Dominic Smith (L) DH"
     },
     {
       "story_id": "50079807",
@@ -4553,20 +7681,6 @@
       "link": "https://www.espn.com/nhl/story/_/id/50079472/nhl-gary-bettman-monitoring-how-no-trade-clauses-used",
       "stream_url": "",
       "body": "NHL commissioner Gary Bettman believes that no-trade clauses are no longer being used as \"originally intended,\" and instead, players are using them to force moves to specific teams after requesting a trade.\n\n\"As I look at what's happening now, I don't think that's a good thing. I don't think it's good for the player, the club or the fans' connection to the game,\" said Bettman in an interview with Sportsnet 590 in Toronto on Thursday.\n\nBettman said that trade protection was originally put in place to protect players from teams trading them after signing a long-term contract.\n\n\"Maybe you're giving a hometown discount, and you wanted to make sure you can be where you wanted to be, and where you're signing up to be,\" said Bettman.\n\nSeveral high-profile NHL players who recently sought a change in scenery have used their no-movement or no-trade clauses to control their next destinations:\n\nThe Ottawa Senators said that captain Brady Tkachuk used his no-movement clause to force a trade to the Florida Panthers last summer, where his brother Matthew plays.\nColumbus Blue Jackets defenseman Zach Werenski reportedly told the team he wouldn't sign a new contract when his deal is up in 2028 and then blocked a trade to the Dallas Stars.\nDetroit Red Wings captain Dylan Larkin asked for a trade but narrowed the field of trade partners to just three teams.\nWinnipeg Jets star goalie Connor Hellebuyck also has a no-movement clause and was suspended by the team after failing to show up to training camp after requesting a trade.\n\n\"This notion now, where you can select where you want to go to and you can demand a trade, that was never the original intention,\" said Bettman. \"If this becomes a problem -- I don't think one offseason a problem makes -- but if it becomes a problem, it's something we are going to have to discuss with the players' association.\"\n\nThe way no-trade clauses have been used has \"flipped\" in recent years, according to one player agent speaking to ESPN, as part of an overall player empowerment movement in the NHL.\n\n\"The players are taking it into their own hands,\" the agent said. \"I don't exactly know when it changed, but it's a copycat league. And if you see somebody use it to that effect, and you have a player that's in that situation, you almost feel obligated to bring this idea to the table with them if they're unhappy with where they're at. Then it starts to become ubiquitous for the guys that have those clauses.\"\n\nThe NHL and NHLPA just saw their latest collective bargaining agreement kick in last month, and it runs until Sept. 15, 2030. Bettman said the league will be monitoring how trade protection is being utilized, going forward.\n\n\"While it might be good for a player in a particular case -- although based on what we're witnessing now, I'm not sure it's good for the player either -- we have to look at what's good for the game, the players overall and the league. It's something we're going to keep an eye on. I think we've gotten past the way no-trade clauses were originally intended,\" he said.\n\nOthers believe the responsibility for how these clauses are used ultimately falls on the teams and not the players.\n\n\"This is the biggest nonissue in the NHL,\" said player agent Allan Walsh in a recent tweet. \"No one forces teams to give out no-move and no-trade clauses. They are freely negotiated as part of NHL contracts.\""
-    },
-    {
-      "story_id": "50078680",
-      "headline": "How Man City players, staff are handling Premier League verdict",
-      "summary": "As the reaction to Man City's guilty verdict continues to ripple across the sporting world, the club's internal messaging is very much one of confidence and carrying on. It may be easier said than done.",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724656_1296x729_16-9.jpg",
-      "published_utc": "2026-10-01T22:00:50Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "Rob Dawson",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50078680/how-man-city-players-staff-handling-premier-league-verdict",
-      "stream_url": "",
-      "body": "The strength of the judgment against Manchester City, following their legal case with the Premier League, has shocked the club, its employees and their players. Most of those inside the City Football Academy (CFA) accept that the verdict -- made public for the first time Tuesday -- is a worst-case scenario.\n\nThere has been speculation and discussion on and off at the CFA for more than three years since the charges were announced in February 2023 about what might happen. It was always viewed internally as highly unlikely that every count of financial misconduct would be proved.\n\nCity insist they are innocent -- a message that's come from the top, namely chairman Khaldoon Al Mubarak and CEO Ferran Soriano -- and many employees want to give the club the benefit of the doubt. They enjoy working for City and feel that they've been well looked after over the years.\n\nIn that respect, many people ESPN spoke for this story with are choosing to believe the insistence of Khaldoon and Soriano. At the very least, the majority of these staff members are prepared to wait until after the appeal is heard before passing judgment.\n\n- Legal explainer: Man City have been charged. Now what?\n\n- Marcotti: Hard to see how Man City come back from seismic scandal\n\n- Ogden: Does Man City's guilty verdict ruin Guardiola's legacy?\n\nMany staff members are also fans and as such, they are personally invested as well as professionally. City are a big club and a major employer, but since the Abu Dhabi takeover in 2008, they club's owners have done a good job of creating a family feel and a sense of shared purpose. More than 700 employees attended a UK all-staff meeting in the first week of this three-week international break, while players are away on duty with their national teams.\n\nThere is, however, a cloud hanging over the CFA, and the mood in general has been described to ESPN as nervous. Soriano, in his video message to staff on Tuesday, insisted it should be business as usual, but in the absence of any real information about what sanctions might follow, there's genuine worry about what the future could hold.\n\nThe same goes for the players. With many of City's senior squad away on international duty, some have had direct contact with the club, while others have not. One agent of a first-team player told ESPN that his client is \"calm\" about the situation and is happy with the public reassurances offered by senior executives. There is, though, an acceptance that things could change depending on the result of the appeal -- which has yet to be filed, but must be lodged by the close of business on Friday, Oct. 2 -- and any punishment handed down.\n\nPlayer concerns\n\nSpeculation over considerable sporting sanctions is causing the most concern, sources tell ESPN. After all, City's players chose to go to the Etihad Stadium to play in the Premier League and the Champions League while getting the opportunity to win trophies. They need to be playing well at the highest level to earn international call-ups and to play at major international tournaments.\n\nFor that reason, one representative of a City first-teamer has privately questioned the sense in punishing current players who were not at the club when the alleged transgressions occurred between 2009 and 2018. Another agent has told ESPN that the players -- many of whom arrived or penned new deals after February, 2023, when the charges were first announced -- knew what they were signing up for because possible punishments have been widely known for a while.\n\nSources have told ESPN that the Professional Football Association (PFA) have made themselves available to talk to players about issues arising from the verdict. They helped a number of players at the end of last season when Southampton were expelled from the play-offs because a staff member was caught spying on opponents' training sessions; in that case, a significant sporting sanction was handed down for an incident that didn't involve the team, but did directly impact them.\n\nIt's unclear how many City players have clauses in their contracts to protect themselves in the event of relegation, or a points deduction so severe that it prevents the club from challenging for the title or playing in Europe for a number of years. \"There may be a few tough lessons for players whose agents focus purely on how much their client is paid,\" one agent told ESPN.\n\nSources have told ESPN that other clubs are monitoring City's situation carefully and work is already going on in the background to find out what protections -- if any -- players have in their contracts, and whether or not they are accessible for transfer talks. Questions are also being asked privately about whether there's an appetite -- even at this early stage -- to consider alternative options away from the Etihad in the future.\n\nThe football department are keen to minimize any distractions. Manager Enzo Maresca is expected to address the verdict when his players return to the CFA next week, and his message is likely to center on a need to remain focused on football.\n\nWhether that's possible or not is another matter. The story has already followed City's players wherever they've played during the international break. Norway manager Stale Solbakken was asked about Erling Haaland's mindset ahead of Norway's game against Wales in Cardiff. \"Everything is fine,\" he said. R\u00faben Dias, stern-faced, shut down a question at a Portugal news conference.\n\nManchester City women's manager Andree Jeglertz became the first City employee to take questions about the Premier League verdict at a news conference on Wednesday, held to preview their game against Real Madrid. \"The thing the club has been presented, is the information we have inside of our group,\" he said.\n\n\"We can't talk about anything else and we don't need to talk about anything else at the moment.\"\n\nIt's likely to be a similar message when Maresca sits down with reporters for the first time next week. He's due to speak for the first time at his next scheduled news conference on Friday, Oct. 9, two days before the trip to play Liverpool at Anfield.\n\nThrough the lens of the Premier League's statement, this next fixture has taken on added intensity and spice given Liverpool that have finished second behind City three times in the last 15 years. Of all the clubs who feel most wronged by all this, Liverpool are close to the top of the list.\n\nAmid all the noise, Man City have told their staff to plough on. It may be easier said than done."
     },
     {
       "story_id": "50078372",
@@ -4653,18 +7767,46 @@
       "body": "Ivan Cleary has admitted watching his son Nathan suffer a badly broken leg marked one of the hardest days of his career, feeling the line between father and coach blurred for the first time.\n\nBut the veteran Penrith mentor is insistent his son Nathan still has more levels to attain once he returns from his injury, following his landmark Dally M victory on Wednesday night.\n\nCleary's Dally M triumph completed the Penrith halfback's rugby league box set, having now claimed every major team and individual honour available to him by age 28.\n\nUnable to attend in person after being released from hospital following emergency surgery on his leg, the Panthers halfback collected the game's top honour while in a wheelchair at home.\n\nCoach Ivan also appeared emotional during Nathan's pre-recorded speech, after the trophy was hand-delivered to the halfback earlier in the day.\n\n\"His voice perked up from what it's been the past couple of days,\" Ivan told AAP.\n\n\"It's a pretty amazing award. You don't play the game for individual awards, but it's certainly nice to be recognised.\n\n\"Particularly this award, it's pretty much the No.1 award in the game.\"\n\nReminded that his son had now scaled virtually every possible mountain in the sport, the Penrith coach insisted there were still improvements left in his son's game.\n\n\"It's crazy,\" Ivan said.\n\n\"I know he'd say it and I probably think a bit the same. You don't reflect too much when it's still going on. But when you put it like that, it's amazing.\n\n\"But I know there is so much more to come as well, and I know he thinks that way as well.\"\n\nNathan has received positive early news from surgeons after the operation on his compound fracture and dislocated ankle, as a result of a hip-drop tackle in Sunday's preliminary-final loss to Newcastle.\n\nHe will soon undergo surgery on other foot after fighting through a broken bone to play the Knights, but Penrith are hopeful he will be right for round one in 2027.\n\n\"Sunday was definitely one of the harder days I have been through,\" coach Cleary said.\n\n\"It's the first time where the line of dad and coach got a bit blurred. And the loss, I guess we have had a lot of good days so you can't have it all your way.\n\n\"Very emotional, but life goes on.\"\n\nFootage has also emerged of fullback Dylan Edwards not only being horrified by the graphic injury at first, but then also trying to stop Nathan from seeing it.\n\n\"I was just trying to keep him calm as I could,\" Edwards said.\n\n\"To his credit he is a tough person. And the way he was handling that was incredible.\n\n\"It was gut-wrenching, something you're not used to seeing on the footy field.\"\n\nEdwards, meanwhile, is still hopeful of being able to represent Australia at the World Cup after avoiding knee surgery following a PCL injury in the loss.\n\n\"I'm not sure, I have to talk to Kevvie (coach Kevin Walters),\" Edwards said, while wearing a brace at the Dally Ms."
     },
     {
-      "story_id": "50079780",
-      "headline": "NFL Week 4's best arrivals, led by Cleveland Browns mascot",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724681_608x342_16-9.png",
-      "published_utc": "2026-10-01T23:21:46Z",
+      "story_id": "50078573",
+      "headline": "Wrigley Field rooftop business can't sell tickets to Cubs games",
+      "summary": "A federal judge ruled that a rooftop business across the street from Wrigley Field cannot sell tickets for people to watch Chicago Cubs games.",
+      "image": "https://a.espncdn.com/photo/2020/0924/r750717_1296x729_16-9.jpg",
+      "published_utc": "2026-10-01T20:14:31Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Ben Strauss",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50078573/wrigley-field-rooftop-business-sell-tickets-cubs-games",
+      "stream_url": "",
+      "body": "A federal judge ruled Wednesday that a rooftop business across the street from Wrigley Field cannot sell tickets for people to watch Chicago Cubs games.\n\nThe Cubs had sued Wrigley View Rooftop in 2024, arguing it was illegally profiting off the Cubs' property without an agreement with the team.\n\n\"The undisputed facts show that Defendants profited from ticket sales to watch Cubs games, without contributing financially to the ballgames and without acquiring a right to sell Plaintiff's product,\" wrote Judge Sharon Johnson Coleman of the U.S. District Court for the Northern District of Illinois. \"Unfairly capitalizing on another's labor and expenses offends principles of justice, equity, and good conscience.\"\n\nIn a statement to ESPN, the Cubs said: \"We are pleased with Judge Coleman's ruling and appreciate the Court's careful consideration of this matter. The decision protects our intellectual property rights and affirms our longstanding position that businesses cannot commercially profit from Cubs games or use Cubs intellectual property without authorization.\"\n\nA lawyer for Aidan Dunican, the owner of Wrigley View Rooftop, declined to comment.\n\nWrigley Field is tucked into a residential neighborhood on Chicago's North Side, where for decades fans have watched games from the tops of buildings beyond its outfield walls.\n\nWrigley View Rooftop has operated for around 30 years and was the last rooftop to not have entered into an agreement with the Cubs -- or to have been bought by the Ricketts family, which owns the Cubs and Wrigley.\n\nThe Ricketts family bought the team in 2009 and has acquired and now operates 11 of the rooftop buildings beyond the left- and right-field bleachers, selling tickets to see home games.\n\nThe relationship between the team and rooftop owners has been acrimonious, marked by a series of lawsuits over businesses' right to sell tickets to watch the games and the Cubs' control over both signage inside the stadium and the profits generated by the team.\n\nWrigley View Rooftop, located beyond Wrigley's left-field foul pole, has argued in court that the Cubs had the right to block the rooftop's view into the stadium but not to dictate how the property was run.\n\nFrom 2004 to 2024, Wrigley View Rooftop had a revenue-sharing agreement with the Cubs in which the business paid 17% of its revenues to the team. When that agreement expired, and no new agreement was reached, the Cubs filed suit. That same year, the Cubs placed a series of translucent screens behind the third-base grandstand that obstructed the view from the rooftop but did not obscure it completely.\n\nWrigley View Rooftop can appeal the federal court's decision, come to a new revenue-sharing agreement with the Cubs or cease selling tickets during Cubs games."
+    },
+    {
+      "story_id": "50075140",
+      "headline": "Transfer rumors, news: Several Premier League clubs eye Kound\u00e9 move",
+      "summary": "Could Jules Kound\u00e9's next move be in the Premier League? Transfer Talk has the latest.",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724622_1296x729_16-9.jpg",
+      "published_utc": "2026-10-01T20:46:16Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50075140/transfer-rumors-news-real-madrid-eye-former-liverpool-defender-quansah",
+      "stream_url": "",
+      "body": "Chelsea, Liverpool, Arsenal, Manchester United and Manchester City have been alerted to the potential availability of Barcelona defender Jules Kound\u00e9, while Bayer Leverkusen defender Jarell Quansah is on the radar of Real Madrid ahead of next summer. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Chelsea, Liverpool, Arsenal, Manchester United and Manchester City have been alerted to the potential availability of Barcelona defender Jules Kound\u00e9, TEAMtalk reports. Chelsea are actively monitoring the France international, with Xabi Alonso keen on reinforcing his options at right back and the Spanish club looking to raise money to fund their new signings.\n\n- Real Madrid are tracking Bayer Leverkusen defender Jarell Quansah ahead of next summer, according to Bild. Los Blancos have scouted the 23-year-old England international as they look to add at least two defensive additions to their squad, following his solid displays in Germany since moving from Liverpool for \u20ac35 million in 2025, while previous suitors Arsenal are also monitoring developments.\n\n- Tottenham Hotspur have added Hull City goalkeeper Konstantinos Tzolakis to their shortlist of future goalkeeping targets alongside Brighton's Bart Verbruggen, according to TEAMtalk. The 23-year-old Greece international has impressed so far, with three clean sheets in five Premier League appearances following his \u00a320 million summer move from Olympiakos.\n\n- Bournemouth will not entertain January offers to sign England midfielder Alex Scott despite interest from Arsenal, Liverpool and Chelsea, reports BBC Sport. The Cherries intend to hold on to the 23-year-old until at least next summer as he enters the final two years of his contract, with transfer valuation of at least \u00a3100 million in their minds.\n\n- Real Madrid striker Endrick could face another loan move in January due to a lack of playing time, according to Diario AS. AS Roma maintain an interest in the Brazilian youngster following his previous spell at Lyon, though upcoming opportunities under new Madrid boss Jos\u00e9 Mourinho could impact his decision.\n\nOther rumors\n- Manchester United are keen to agree a new contract with star midfielder Bruno Fernandes, while Atletico Madrid, Juventus, AC Milan and Galatasaray monitor his situation. (Caught Offside)\n\n- United's chances of signing Barcelona left back Alejandro Balde in January have received a boost due to his reduced game time. (Football Insider)\n\n- Tottenham Hotspur are admiring Brighton & Hove Albion goalkeeper Bart Verbruggen as a potential option for the future. (Ekrem Konur)\n\n- Liverpool are interested in a potential January deal to sign Brentford forward Kevin Schade. (TEAMtalk)\n\n- Liverpool are continuing to keep tabs on Lyon midfielder Tyler Morton following his departure from Anfield last summer. (Football Insider)\n\n- Juventus scouts watched Netherlands international duo Virgil van Dijk and Brian Brobbey during their draw with Germany. (Gazzetta dello Sport)\n\n- Bayer Leverkusen, Newcastle United, Brentford, Ipswich Town and Hull City are monitoring Dinamo Zagreb defender Noa Miki\u0107. (Ekrem Konur)\n\n- Napoli are preparing a January transfer plan targeting FC Basel winger Asane Sow, Monaco midfielder Mamadou Coulibaly, Rennes midfielder Sebastian Szyma\u0144ski, and Fiorentina defender Dod\u00f4. (Gazzetta dello Sport)"
+    },
+    {
+      "story_id": "50078973",
+      "headline": "Steelers-Browns on TNF Week 4: Highlights, key plays",
+      "summary": "Check out the biggest touchdowns and highlight-reel plays from the Pittsburgh at Cleveland game.",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724695_608x342_16-9.jpg",
+      "published_utc": "2026-10-01T23:50:06Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "ESPN Staff",
+      "byline": "Daniel Oyefusi and Brooke Pryor",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50079780/nfl-week-4-fashionable-arrivals",
+      "link": "https://www.espn.com/nfl/story/_/id/50078973/nfl-week-4-steelers-browns-top-plays-tnf",
       "stream_url": "",
-      "body": "Week 4 of the NFL season has arrived, and the calendar has officially flipped to October. But sweater weather hasn't quite followed everywhere.\n\nUnseasonable heat out West could keep layers light for another week, while cooler temperatures settling in across the East are opening the door for more fall-ready fits. That means players have plenty of options as they make their Week 4 entrances. With three weeks of looks already in the books, personal styles are also starting to take shape around the league. Some players have leaned into statement pieces, while others have kept things clean and understated.\n\nFrom warm-weather looks to seasonal layers, Week 4 brings another round of game-day style as the calendar officially turns to fall.\n\nThursday night's fashion\nPlayers and coaches aren't the only ones showing off their style pregame. Mascots get in on the tunnel fits, too. This week, Brownie the Elf was ready to rock for Cleveland's Rock & Roll Hall of Fame Game, channeling Prince in a purple jacket with a matching guitar."
+      "body": "CLEVELAND -- The Browns are hosting the Pittsburgh Steelers (2-1) on \"Thursday Night Football\" (8:15 p.m. ET, Prime Video).\n\nDeshaun Watson's late-game performances and the Browns' 2-1 start means Cleveland enters its home game with first place in the AFC North on the line.\n\nWith a 13-6 record in Thursday games, Steelers quarterback Aaron Rodgers enters the Week 4 matchup tied with Dallas Cowboys quarterback Dak Prescott for the second-most wins on Thursday in the Super Bowl era. The only person in front of him? Tom Brady with 14, meaning Rodgers can move into a tie for first place with a win in Cleveland. For his career, Rodgers averages 256 passing yards and completes 68% of his pass attempts in Thursday games. He also has a 69 total QBR on Thursdays.\n\nAlso, Thursday night marks the 150th meeting all-time between the division rivals, which are separated by only 135 miles.\n\nBrowns reporter Daniel Oyefusi and Steelers reporter Brooke Pryor will bring you all the highlights and key plays from Thursday night, so be sure to check back in."
     },
     {
       "story_id": "50079209",
@@ -4679,20 +7821,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50079209/embiid-talks-76ers-upcoming-season-lebron-fold",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1001/ss_20261001_164537987_3680997/ss_20261001_164537987_3680997/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50078573",
-      "headline": "Wrigley Field rooftop business can't sell tickets to Cubs games",
-      "summary": "A federal judge ruled that a rooftop business across the street from Wrigley Field cannot sell tickets for people to watch Chicago Cubs games.",
-      "image": "https://a.espncdn.com/photo/2020/0924/r750717_1296x729_16-9.jpg",
-      "published_utc": "2026-10-01T20:14:31Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Ben Strauss",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50078573/wrigley-field-rooftop-business-sell-tickets-cubs-games",
-      "stream_url": "",
-      "body": "A federal judge ruled Wednesday that a rooftop business across the street from Wrigley Field cannot sell tickets for people to watch Chicago Cubs games.\n\nThe Cubs had sued Wrigley View Rooftop in 2024, arguing it was illegally profiting off the Cubs' property without an agreement with the team.\n\n\"The undisputed facts show that Defendants profited from ticket sales to watch Cubs games, without contributing financially to the ballgames and without acquiring a right to sell Plaintiff's product,\" wrote Judge Sharon Johnson Coleman of the U.S. District Court for the Northern District of Illinois. \"Unfairly capitalizing on another's labor and expenses offends principles of justice, equity, and good conscience.\"\n\nIn a statement to ESPN, the Cubs said: \"We are pleased with Judge Coleman's ruling and appreciate the Court's careful consideration of this matter. The decision protects our intellectual property rights and affirms our longstanding position that businesses cannot commercially profit from Cubs games or use Cubs intellectual property without authorization.\"\n\nA lawyer for Aidan Dunican, the owner of Wrigley View Rooftop, declined to comment.\n\nWrigley Field is tucked into a residential neighborhood on Chicago's North Side, where for decades fans have watched games from the tops of buildings beyond its outfield walls.\n\nWrigley View Rooftop has operated for around 30 years and was the last rooftop to not have entered into an agreement with the Cubs -- or to have been bought by the Ricketts family, which owns the Cubs and Wrigley.\n\nThe Ricketts family bought the team in 2009 and has acquired and now operates 11 of the rooftop buildings beyond the left- and right-field bleachers, selling tickets to see home games.\n\nThe relationship between the team and rooftop owners has been acrimonious, marked by a series of lawsuits over businesses' right to sell tickets to watch the games and the Cubs' control over both signage inside the stadium and the profits generated by the team.\n\nWrigley View Rooftop, located beyond Wrigley's left-field foul pole, has argued in court that the Cubs had the right to block the rooftop's view into the stadium but not to dictate how the property was run.\n\nFrom 2004 to 2024, Wrigley View Rooftop had a revenue-sharing agreement with the Cubs in which the business paid 17% of its revenues to the team. When that agreement expired, and no new agreement was reached, the Cubs filed suit. That same year, the Cubs placed a series of translucent screens behind the third-base grandstand that obstructed the view from the rooftop but did not obscure it completely.\n\nWrigley View Rooftop can appeal the federal court's decision, come to a new revenue-sharing agreement with the Cubs or cease selling tickets during Cubs games."
     },
     {
       "story_id": "50076629",
@@ -4721,20 +7849,6 @@
       "link": "https://www.espn.com/nhl/story/_/id/50078832/ducks-sign-tristan-luneau-432m-extension-14-nhl-games",
       "stream_url": "",
       "body": "ANAHEIM, Calif. -- The Anaheim Ducks have signed promising young defenseman Tristan Luneau to a six-year contract extension worth $43.2 million after just 14 NHL appearances.\n\nThe Ducks announced the deal Thursday with the 22-year-old Luneau, whose promising career has been slowed by injury. Now healthy and ready for a full-time NHL role, he inked a long-term deal with the team that drafted him in the second round in 2022.\n\nLuneau was the Quebec major junior league's top defenseman in the 2022-23 season and he made the Ducks' roster out of training camp the following fall. He came down with a viral infection that winter while practicing with Canada's national junior team, however, forcing him to miss the rest of the year.\n\nAnaheim took a deliberate approach with Luneau's health for the past two seasons, keeping him with its AHL affiliate in San Diego for most of that time. But the Ducks never wavered in their belief that Luneau will be an above-average defenseman, and they proved it with a long-term contract for a player who suited up in just one game for the NHL club last season.\n\nLuneau will be expected to play a significant role this season for the Ducks, who lost four veteran defensemen -- Jacob Trouba, captain Radko Gudas, John Carlson and Olen Zellweger -- from last season's already mediocre blue line group over the summer.\n\nAnaheim general manager Pat Verbeek moved aggressively to lock up Luneau after being burned repeatedly in restricted free agency over the offseason.\n\nVerbeek spent months failing to reach a deal with center Leo Carlsson, who then signed a $90 million offer sheet with Philadelphia that briefly made him the NHL's highest-paid player before Anaheim matched it. Carlsson is among the best young centers in hockey, but his deal is worth much more than he was expected to get as a restricted free agent -- as is the five-year, $36 million deal given to Pavel Mintyukov by Verbeek after other teams began to sniff around the Russian defenseman in the wake of Carlsson's massive offer sheet.\n\nVerbeek then signed high-scoring forward Cutter Gauthier to a six-year, $81 million extension last month, but the resulting salary cap constraints from Verbeek's summer of misadventure effectively forced the Ducks to waive 22-goal scorer Chris Kreider, damaging their depth.\n\nLuneau will join Jackson LaCombe and Mintyukov as the new core of the Ducks' defense. Rising star LaCombe agreed to an eight-year, $72 million extension a year ago.\n\nAnaheim ended a seven-year playoff drought last spring, advancing to the second round under coach Joel Quenneville. The Ducks open the regular season Friday at Vegas before their home opener Sunday against Florida."
-    },
-    {
-      "story_id": "50075140",
-      "headline": "Transfer rumors, news: Several Premier League clubs eye Kound\u00e9 move",
-      "summary": "Could Jules Kound\u00e9's next move be in the Premier League? Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724622_1296x729_16-9.jpg",
-      "published_utc": "2026-10-01T20:46:16Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50075140/transfer-rumors-news-real-madrid-eye-former-liverpool-defender-quansah",
-      "stream_url": "",
-      "body": "Chelsea, Liverpool, Arsenal, Manchester United and Manchester City have been alerted to the potential availability of Barcelona defender Jules Kound\u00e9, while Bayer Leverkusen defender Jarell Quansah is on the radar of Real Madrid ahead of next summer. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Chelsea, Liverpool, Arsenal, Manchester United and Manchester City have been alerted to the potential availability of Barcelona defender Jules Kound\u00e9, TEAMtalk reports. Chelsea are actively monitoring the France international, with Xabi Alonso keen on reinforcing his options at right back and the Spanish club looking to raise money to fund their new signings.\n\n- Real Madrid are tracking Bayer Leverkusen defender Jarell Quansah ahead of next summer, according to Bild. Los Blancos have scouted the 23-year-old England international as they look to add at least two defensive additions to their squad, following his solid displays in Germany since moving from Liverpool for \u20ac35 million in 2025, while previous suitors Arsenal are also monitoring developments.\n\n- Tottenham Hotspur have added Hull City goalkeeper Konstantinos Tzolakis to their shortlist of future goalkeeping targets alongside Brighton's Bart Verbruggen, according to TEAMtalk. The 23-year-old Greece international has impressed so far, with three clean sheets in five Premier League appearances following his \u00a320 million summer move from Olympiakos.\n\n- Bournemouth will not entertain January offers to sign England midfielder Alex Scott despite interest from Arsenal, Liverpool and Chelsea, reports BBC Sport. The Cherries intend to hold on to the 23-year-old until at least next summer as he enters the final two years of his contract, with transfer valuation of at least \u00a3100 million in their minds.\n\n- Real Madrid striker Endrick could face another loan move in January due to a lack of playing time, according to Diario AS. AS Roma maintain an interest in the Brazilian youngster following his previous spell at Lyon, though upcoming opportunities under new Madrid boss Jos\u00e9 Mourinho could impact his decision.\n\nOther rumors\n- Manchester United are keen to agree a new contract with star midfielder Bruno Fernandes, while Atletico Madrid, Juventus, AC Milan and Galatasaray monitor his situation. (Caught Offside)\n\n- United's chances of signing Barcelona left back Alejandro Balde in January have received a boost due to his reduced game time. (Football Insider)\n\n- Tottenham Hotspur are admiring Brighton & Hove Albion goalkeeper Bart Verbruggen as a potential option for the future. (Ekrem Konur)\n\n- Liverpool are interested in a potential January deal to sign Brentford forward Kevin Schade. (TEAMtalk)\n\n- Liverpool are continuing to keep tabs on Lyon midfielder Tyler Morton following his departure from Anfield last summer. (Football Insider)\n\n- Juventus scouts watched Netherlands international duo Virgil van Dijk and Brian Brobbey during their draw with Germany. (Gazzetta dello Sport)\n\n- Bayer Leverkusen, Newcastle United, Brentford, Ipswich Town and Hull City are monitoring Dinamo Zagreb defender Noa Miki\u0107. (Ekrem Konur)\n\n- Napoli are preparing a January transfer plan targeting FC Basel winger Asane Sow, Monaco midfielder Mamadou Coulibaly, Rennes midfielder Sebastian Szyma\u0144ski, and Fiorentina defender Dod\u00f4. (Gazzetta dello Sport)"
     },
     {
       "story_id": "50077466",
@@ -6223,360 +9337,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-NOAH-Pro-wrestling-Full-Show-Online.jpg",
       "source_url": "https://watch-wrestling.eu/noah-line-yahoo-presents-n-1victory-2026-9-26-2026/818ae60457bdc4435ee30192e7ea16f1"
-    },
-    {
-      "id": "ww:wwe-smackdown-may-23k-live",
-      "title": "WWE Smackdown 9/25/26 \u2013 September 25, 2026",
-      "date": "2026-09-25",
-      "replay_url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/2/1",
-          "label": "VidFrame SD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/4/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/5/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/3/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/1",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/2",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/3",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 3",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/4",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 4",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/5",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 5",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/6/6",
-          "label": "VidFrame FHD (Live replay) \u2014 last part",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/1",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/2",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/3",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/4",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/5",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/09-25-2026/select-post-1/7/6",
-          "label": "Dailymotion FHD (Live replay) \u2014 last part",
-          "part": true,
-          "live": true
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/09/WWE-Smackdown-2024-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-smackdown-may-23k-live/"
-    },
-    {
-      "id": "ww:a49553136e84c1a4019b48879858c519",
-      "title": "CMLL Noche de Campeones 9/25/2026",
-      "date": "2026-09-25",
-      "replay_url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/erbilahcul/09-25-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2025/03/CMLL.jpg",
-      "source_url": "https://watch-wrestling.eu/cmll-noche-de-campeones-9-25-2026/a49553136e84c1a4019b48879858c519"
-    },
-    {
-      "id": "ww:0eb518977414a497a9a2f8ed45639f4f",
-      "title": "wXw Extreme Wrestling Party 9/25/2026",
-      "date": "2026-09-25",
-      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-3/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-3/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-3/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-3/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-3/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-3/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/05/Watch-wXw-Wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/wxw-extreme-wrestling-party-9-25-2026/0eb518977414a497a9a2f8ed45639f4f"
-    },
-    {
-      "id": "ww:4efe2b953cd083e84313dea8284abd1c",
-      "title": "wXw Pro Wrestling Grand Prix Day 1 9/25/2026",
-      "date": "2026-09-25",
-      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-2/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/05/Watch-wXw-Wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/wxw-pro-wrestling-grand-prix-day-1-9-25-2026/4efe2b953cd083e84313dea8284abd1c"
-    },
-    {
-      "id": "ww:fbeb88a484b0ac2d15986cf7c77739fe",
-      "title": "GCW: Rock Bottom 2026 9/25/2026",
-      "date": "2026-09-25",
-      "replay_url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/swohsydni/09-25-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-GCW-Wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/gcw-rock-bottom-2026-9-25-2026/fbeb88a484b0ac2d15986cf7c77739fe"
-    },
-    {
-      "id": "ww:27f0c07fad877c87c0c07373ff449015",
-      "title": "NOAH LINE Yahoo presents N-1VICTORY 2026 9/25/2026",
-      "date": "2026-09-25",
-      "replay_url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/09-25-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-NOAH-Pro-wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/noah-line-yahoo-presents-n-1victory-2026-9-25-2026/27f0c07fad877c87c0c07373ff449015"
     }
   ],
   "replays": [
