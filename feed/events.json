@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-03T23:06:37.976000+00:00",
+  "generated_utc": "2026-10-03T23:16:54.053979+00:00",
   "events": [
     {
       "event_id": "mlb:849841",
@@ -2780,6 +2780,97 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858247",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2439",
+        "name": "UNLV Rebels",
+        "abbrev": "UNLV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rebels",
+          "UNLV",
+          "UNLV Rebels"
+        ],
+        "color": "cf0a2c"
+      },
+      "away": {
+        "id": "espn:25",
+        "name": "California Golden Bears",
+        "abbrev": "CAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAL",
+          "California",
+          "California Golden Bears",
+          "Golden Bears"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Allegiant Stadium",
+      "detail": "4:15 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858473",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "away": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Kinnick Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401856710",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -2826,51 +2917,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858247",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-03T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2439",
-        "name": "UNLV Rebels",
-        "abbrev": "UNLV",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
-        "logo_dark": null,
-        "aliases": [
-          "Rebels",
-          "UNLV",
-          "UNLV Rebels"
-        ],
-        "color": "cf0a2c"
-      },
-      "away": {
-        "id": "espn:25",
-        "name": "California Golden Bears",
-        "abbrev": "CAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAL",
-          "California",
-          "California Golden Bears",
-          "Golden Bears"
-        ],
-        "color": "041e42"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Allegiant Stadium",
-      "detail": "9:31 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858248",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -2908,52 +2954,6 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Carter-Finley Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858473",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-03T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2294",
-        "name": "Iowa Hawkeyes",
-        "abbrev": "IOWA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hawkeyes",
-          "IOWA",
-          "Iowa",
-          "Iowa Hawkeyes"
-        ],
-        "color": "231f20"
-      },
-      "away": {
-        "id": "espn:194",
-        "name": "Ohio State Buckeyes",
-        "abbrev": "OSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buckeyes",
-          "OSU",
-          "Ohio State",
-          "Ohio State Buckeyes"
-        ],
-        "color": "ba0c2f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Kinnick Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -3374,7 +3374,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bridgeforth Stadium",
-      "detail": "11:05 - 4th Quarter",
+      "detail": "5:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3388,7 +3388,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-03T19:50Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:142",
         "name": "Missouri Tigers",
@@ -3418,9 +3418,9 @@
         "color": "0021a5"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Memorial Stadium",
-      "detail": "0:47 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3513,7 +3513,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Lincoln, NE)",
-      "detail": "End of 3rd Quarter",
+      "detail": "14:24 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3527,7 +3527,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-03T20:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:167",
         "name": "New Mexico Lobos",
@@ -3556,9 +3556,9 @@
         "color": "ff8200"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "University Stadium (NM)",
-      "detail": "End of 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3644,7 +3644,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Williams-Brice Stadium",
-      "detail": "13:14 - 4th Quarter",
+      "detail": "11:15 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3690,7 +3690,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Gies Memorial Stadium",
-      "detail": "4:29 - 4th Quarter",
+      "detail": "3:01 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3738,7 +3738,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Canvas Stadium",
-      "detail": "8:55 - 2nd Quarter",
+      "detail": "5:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3784,7 +3784,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Flagler Credit Union Stadium",
-      "detail": "6:47 - 2nd Quarter",
+      "detail": "5:20 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3891,7 +3891,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:10",
         "name": "Toronto Maple Leafs",
@@ -3921,7 +3921,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Scotiabank Arena",
       "detail": "",
       "game_number": 1,
@@ -3937,7 +3937,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:14",
         "name": "Tampa Bay Lightning",
@@ -3967,7 +3967,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -3983,7 +3983,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:4",
         "name": "Philadelphia Flyers",
@@ -4013,7 +4013,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Xfinity Mobile Arena",
       "detail": "",
       "game_number": 1,
@@ -4029,7 +4029,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:5",
         "name": "Pittsburgh Penguins",
@@ -4059,7 +4059,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "PPG Paints Arena",
       "detail": "",
       "game_number": 1,
@@ -4075,7 +4075,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:29",
         "name": "Columbus Blue Jackets",
@@ -4105,7 +4105,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Nationwide Arena",
       "detail": "",
       "game_number": 1,
@@ -4121,7 +4121,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:22",
         "name": "Edmonton Oilers",
@@ -4151,7 +4151,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -4167,7 +4167,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-03T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:28",
         "name": "Toronto Raptors",
@@ -4197,9 +4197,9 @@
         "color": "98002e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Videotron Centre",
-      "detail": "Sat, October 3rd at 7:00 PM EDT",
+      "detail": "10:01 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4243,7 +4243,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Amon G. Carter Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "9:46 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4289,7 +4289,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kyle Field",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "9:27 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4334,7 +4334,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "First Community Stadium",
-      "detail": "14:11 - 1st Quarter",
+      "detail": "11:05 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4382,7 +4382,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Brooks Stadium (SC)",
-      "detail": "13:52 - 1st Quarter",
+      "detail": "10:09 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4428,7 +4428,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hancock Whitney Stadium",
-      "detail": "14:08 - 1st Quarter",
+      "detail": "10:47 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8668,7 +8668,7 @@
       "headline": "2026 MLB division series Day 1: Live updates, lineups, analysis",
       "summary": "All eight teams are in action Saturday, with two games down and two to go. Which clubs will come out strong?",
       "image": "https://a.espncdn.com/photo/2026/0930/r1723993_1296x729_16-9.jpg",
-      "published_utc": "2026-10-03T23:01:06Z",
+      "published_utc": "2026-10-03T23:12:21Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "ESPN",
@@ -8682,7 +8682,7 @@
       "headline": "UFC 332: Live results, analysis for Silva vs. Wang",
       "summary": "Natalia Silva and Wang Cong clash for the vacant women's flyweight title at the Delta Center in Salt Lake City.",
       "image": "https://a.espncdn.com/photo/2026/0930/r1723967_1296x729_16-9.jpg",
-      "published_utc": "2026-10-03T22:01:08Z",
+      "published_utc": "2026-10-03T23:03:23Z",
       "competition_id": "ufc",
       "competition_name": "UFC",
       "byline": "ESPN Staff Profile",
@@ -8832,18 +8832,18 @@
       "body": "Passionate footy fans recovering in hospital following a tragic crash involving a P-plater are set to cheer on their side in the NRL grand final.\n\nAt least seven people remain at John Hunter Hospital, including a five-year-old girl, who remains in a critical but stable condition in an induced coma, after a car ploughed into a crowd of footy fans waving off the Newcastle Knights team bus about 9.30am on Saturday.\n\nFans largely made up of families and children were lined up on Newcastle Link Road at the Transfield Drive roundabout in NSW's Hunter region when the tragedy unfolded.\n\nNewcastle Knights chief executive Peter Parr expressed deep concern for those impacted ahead of Sunday's match against the Roosters.\n\n\"We want to thank our incredible fans for the passion and support they showed our team this morning. The scenes across Newcastle demonstrated once again what this football club means to our community,\" he said.\n\n\"Newcastle is a strong community. We have seen that strength throughout this week, and today we need to draw on it again with compassion, care and support for those who need it most.\"\n\nPolice say a car hit multiple people in the crowd on Saturday, with an 18-year-old P-plate driver arrested.\n\nHe was taken to hospital for mandatory testing and subsequently charged with nine offences including dangerous driving occasioning grievous bodily harm, negligent driving and causing bodily harm by misconduct.\n\nHe was refused bail to appear in court on Sunday.\n\nAssistant Commissioner Dave Waddell said two other people in the car were escorted from the crash scene after the crowd turned on them.\n\nPolice did not believe the incident was deliberate but declined to comment on reports the vehicle was being driven erratically before the accident.\n\n\"I'll let the investigators from the crash investigation unit deal with that,\" Mr Waddell told reporters.\n\nNSW Police on Saturday confirmed 10 people were injured and treated at the scene before being transported to hospital.\n\nA five-year-old girl and a 67-year-old man were initially in a critical condition, while eight other people, including a second five-year-old girl and a two-year-old girl, were in stable condition.\n\nThe young girl remains in a critical but stable condition, while the man is now in a serious but stable condition.\n\nStories have begun to emerge from fans caught up in the incident, including Chris Clancy, who suffered a broken bone.\n\nHe was standing in the crowd with two other mates.\n\nDespite his injuries, he posted on Instagram to show support for his team, writing \"Up the Knights\".\n\nMultiple fundraisers were launched on Saturday afternoon by friends and loved ones of injured fans, including for a five-year-old child who was placed in an induced coma after suffering serious injuries.\n\nThe child has already required multiple operations, according to organiser Ashleigh Gibbs.\n\n\"Their mum was also seriously injured and will require multiple operations and a long period of recovery,\" the fundraising page says.\n\n\"Both mum and child now have a long road ahead of them, with ongoing surgeries, hospital stays, rehabilitation.\""
     },
     {
-      "story_id": "50022544",
-      "headline": "2026 MLB playoffs: Schedule, postseason bracket, standings",
-      "summary": "We have your one-stop shop for everything you need to keep up with all the action this October.",
-      "image": "https://a.espncdn.com/photo/2026/1001/MLB-Playoff-Bracket-2026-16x9-Braves_1296x729.png",
-      "published_utc": "2026-10-03T22:57:31Z",
+      "story_id": "50094220",
+      "headline": "Skubal dominates in 100-degree heat as the Dodgers beat the Braves 5-3 in NLDS opener",
+      "summary": "\u2014 Tarik Skubal tossed six dominant innings in triple-digit heat, Teoscar Hern\u00e1ndez, Kyle Tucker and Max Muncy homered, and the Los Angeles Dodgers beat...",
+      "image": "https://s.espncdn.com/stitcher/sports/baseball/mlb/events/401908007.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-03T23:07:36Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "ESPN",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings",
+      "link": "http://www.espn.com/mlb/recap?gameId=401908007",
       "stream_url": "",
-      "body": "The 2026 MLB playoffs have arrived!\n\nThe 12-team postseason began with an action-packed wild-card round that featured eight teams battling for four spots to advance to the eight-team division series.\n\nThe Chicago White Sox became the first team to win a series this postseason with a wild-card round sweep of the Houston Astros. Then the New York Yankees swept the Boston Red Sox in two routs, recording the highest series run differential in the history of the current wild-card format. The San Diego Padres also sealed their spot in the NLDS with a sweep of the Chicago Cubs. In the only wild-card series to go the distance, the Atlanta Braves held off the Philadelphia Phillies to move on.\n\nFrom the first pitch of the wild-card games to the last out of the World Series, we've got you covered with the postseason bracket, schedules, results and how to watch every game this October.\n\nLatest news and analysis\n\nFirst-look preview of division series matchups\n\nOffseason questions for eliminated teams\n\nMLB playoffs preview: World Series odds, likely MVPs and how far every team will go\n\nThe 12-team playoff field is set\n\nAmerican League Division Series\nBest-of-five series\n\nAll times Eastern\n\nCleveland Guardians vs. Chicago White Sox\n\nCleveland leads series 1-0\n\nGame 1: White Sox 3, Guardians 0\nGame 2: Chicago at Cleveland, Monday, Oct. 5 at 5 p.m. (TBS/TruTV/HBO Max)\nGame 3: Cleveland at Chicago, Wednesday, Oct. 7 at 4 p.m. (TBS/TruTV/HBO Max)\nGame 4*: Cleveland at Chicago, Thursday, Oct. 8 at 5 p.m. (TBS/TruTV/HBO Max)\nGame 5*: Chicago at Cleveland, Saturday, Oct. 10 at 5 p.m. (TBS/TruTV/HBO Max)\n\n*if necessary\n\nTampa Bay Rays vs. New York Yankees\n\nGame 1: New York at Tampa Bay, Saturday at 6:30 (TBS/TruTV/HBO Max)\nGame 2: New York at Tampa Bay, Monday, Oct. 5 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 3: Tampa Bay at New York, Wednesday, Oct. 7 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 4*: Tampa Bay at New York, Thursday, Oct. 8 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 5*: New York at Tampa Bay, Saturday, Oct. 10 at 8 p.m. (TBS/TruTV/HBO Max)\n\n*if necessary\n\nNational League Division Series\nBest-of-five series\n\nLos Angeles Dodgers vs. Atlanta Braves\n\nLos Angeles leads series 1-0\n\nGame 1: Dodgers 5, Braves 3\nGame 2: Atlanta at Los Angeles, Sunday at 8 p.m. (Fox/FS1)\nGame 3: Los Angeles at Atlanta, Tuesday, Oct. 6 at 6 p.m. (Fox/FS1)\nGame 4*: Los Angeles at Atlanta, Wednesday, Oct. 7 at 6 p.m. (Fox/FS1)\nGame 5*: Atlanta at Los Angeles, Friday, Oct. 9 at 8 p.m. (Fox/FS1)\n\n*if necessary\n\nMilwaukee Brewers vs. San Diego Padres\n\nGame 1: San Diego at Milwaukee, Saturday at 8:30 p.m. (Fox/FS1)\nGame 2: San Diego at Milwaukee, Sunday at 4 p.m. (Fox/FS1)\nGame 3: Milwaukee at San Diego, Tuesday, Oct. 6 at 9:30 p.m. (Fox/FS1)\nGame 4*: Milwaukee at San Diego, Wednesday, Oct. 7 at 10 p.m. (Fox/FS1)\nGame 5*: San Diego at Milwaukee, Friday, Oct. 9 at 4:30 p.m. (Fox/FS1)\n\n*if necessary\n\nAmerican League Championship Series\nBest-of-seven series\n\nGame 1: Monday, Oct. 12 (TBS/TruTV/HBO Max)\nGame 2: Tuesday, Oct. 13 (TBS/TruTV/HBO Max)\nGame 3: Thursday, Oct. 15 (TBS/TruTV/HBO Max)\nGame 4: Friday, Oct. 16 (TBS/TruTV/HBO Max)\nGame 5*: Saturday, Oct. 17 (TBS/TruTV/HBO Max)\nGame 6*: Monday, Oct. 19 (TBS/TruTV/HBO Max)\nGame 7*: Tuesday, Oct. 20 (TBS/TruTV/HBO Max)\n\n*if necessary\n\nNational League Championship Series\nBest-of-seven series\n\nGame 1: Sunday, Oct. 11 (Fox/FS1)\nGame 2: Monday, Oct. 12 (Fox/FS1)\nGame 3: Wednesday, Oct. 14 (Fox/FS1)\nGame 4: Thursday, Oct. 15 (Fox/FS1)\nGame 5*: Friday, Oct. 16 (Fox/FS1)\nGame 6*: Sunday, Oct. 18 (Fox/FS1)\nGame 7*: Monday, Oct. 19 (Fox/FS1)\n\n*if necessary\n\nWorld Series\nBest-of-seven series\n\nGame 1: Friday, Oct. 23 (Fox)\nGame 2: Saturday, Oct. 24 (Fox)\nGame 3: Monday, Oct. 26 (Fox)\nGame 4: Tuesday, Oct. 27 (Fox)\nGame 5*: Wednesday, Oct. 28 (Fox)\nGame 6*: Friday, Oct. 30 (Fox)\nGame 7*: Saturday, Oct. 31 (Fox)\n\n*if necessary\n\nCompleted rounds\n\nAmerican League Wild Card Series\nBest-of-three series\n\nAll times ET\n\nChicago White Sox at Houston Astros\n\nChicago wins series 2-0\n\nGame 1: White Sox 6, Astros 3\nGame 2: White Sox 7, Astros 3\n\nBoston Red Sox at New York Yankees\n\nNew York wins series 2-0\n\nGame 1: Yankees 9, Red Sox 0\nGame 2: Yankees 9, Red Sox 2\n\nNational League Wild Card Series\nBest-of-three series\n\nAll times ET\n\nPhiladelphia Phillies at Atlanta Braves\n\nAtlanta wins series 2-1\n\nGame 1: Braves 5, Phillies 3\nGame 2: Phillies 4, Braves 3\nGame 3: Braves 6, Phillies 2\n\nChicago Cubs at San Diego Padres\n\nSan Diego wins series 2-0\n\nGame 1: Padres 8, Cubs 0\nGame 2: Padres 4, Cubs 1"
+      "body": "LOS ANGELES -- \u2014 Tarik Skubal tossed six dominant innings in triple-digit heat, Teoscar Hern\u00e1ndez, Kyle Tucker and Max Muncy homered, and the Los Angeles Dodgers beat the Atlanta Braves 5-3 in Game 1 of their NL Division Series on Saturday.\n\n\r\nThe game-time temperature of 100 degrees (38 Celsius) fell just short of equaling the Dodger Stadium record of 103 degrees at Game 1 of the 2017 World Series. The feels-like temperature was 105 degrees, with umpires chugging water between innings and fans shielding their heads with giveaway towels on a cloudless day.\n\n\r\nSkubal was cool, though.\n\n\r\nThe two-time Cy Young Award winner allowed one run and two hits, struck out seven and walked two while starting a postseason game at home for the first time in his career. His previous playoff starts were all on the road for the Detroit Tigers, who traded him to the two-time defending World Series champions just before the Aug. 3 deadline.\n\n\r\nSkubal's 63 strikeouts are the second-most in a pitcher\u2019s first seven postseason appearances behind Bob Gibson\u2019s 74.\n\n\r\nGame 2 is Sunday evening at Dodger Stadium, when an extreme heat warning remains in effect.\n\n\r\nHern\u00e1ndez and Tucker each hit a two-run homer against the Braves' bullpen. Atlanta's rotation got upended during its three-game NL Wild Card Series win over Philadelphia, with the Braves using ace Chris Sale in relief in the deciding game.\n\n\r\nThe Braves managed just four hits. Sean Murphy's two-strike, 421-foot homer leading off the sixth left them trailing 2-1.\n\n\r\nRonald Acu\u00f1a Jr. singled leading off the ninth against reliever Tanner Scott, who then served up a 432-foot homer to Ozzie Albies, cutting the lead to 5-3. Scott then got two outs before Evan Phillips induced a groundout by Austin Riley with a runner aboard to earn the save.\n\n\r\nBraves starter Dylan Dodd tossed three scoreless innings and gave up only singles to Shohei Ohtani in the first and Mookie Betts in the third.\n\n\r\nThe Dodgers broke through against Atlanta's bullpen in the fourth. Losing pitcher Victor Mederos walked Freddie Freeman before serving up Hern\u00e1ndez's 431-foot shot to left-center, making it 2-0.\n\n\r\nStill bothered by nagging arm and knee issues, Ohtani batted second behind Betts and lined to second with a runner on to end the third and flied out with a runner on in the fifth.\n\n\r\nTucker went deep in the sixth and Muncy added a solo shot off AJ Smith-Shawver two batters later, extending the lead to 5-1.\n\n\r\nUp next \r\nThe Braves had yet to announce a starter for Game 2 on Sunday against Dodgers LHP Blake Snell, a two-time Cy Young Award winner.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full MLB coverage here"
     },
     {
       "story_id": "50078625",
