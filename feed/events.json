@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T20:13:07.118745+00:00",
+  "generated_utc": "2026-10-04T20:23:15.583506+00:00",
   "events": [
     {
       "event_id": "nhl:2026020009",
@@ -5179,58 +5179,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872971",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-04T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2",
-        "name": "Buffalo Bills",
-        "abbrev": "BUF",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-        "logo_dark": null,
-        "aliases": [
-          "BUF",
-          "Bills",
-          "Buffalo",
-          "Buffalo Bills"
-        ],
-        "color": "00338d"
-      },
-      "away": {
-        "id": "espn:17",
-        "name": "New England Patriots",
-        "abbrev": "NE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-        "logo_dark": null,
-        "aliases": [
-          "NE",
-          "New England",
-          "New England Patriots",
-          "Patriots"
-        ],
-        "color": "002a5c"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Highmark Stadium",
-      "detail": "0:39 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401872969",
       "sport": "football",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-10-04T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:4",
         "name": "Cincinnati Bengals",
@@ -5260,9 +5214,147 @@
         "color": "007487"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Paycor Stadium",
-      "detail": "1:05 - 4th Quarter",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872970",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-04T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:21",
+        "name": "Philadelphia Eagles",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Eagles"
+        ],
+        "color": "06424d"
+      },
+      "away": {
+        "id": "espn:14",
+        "name": "Los Angeles Rams",
+        "abbrev": "LAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+        "logo_dark": null,
+        "aliases": [
+          "LAR",
+          "Los Angeles",
+          "Los Angeles Rams",
+          "Rams"
+        ],
+        "color": "003594"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Lincoln Financial Field",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872971",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-04T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2",
+        "name": "Buffalo Bills",
+        "abbrev": "BUF",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUF",
+          "Bills",
+          "Buffalo",
+          "Buffalo Bills"
+        ],
+        "color": "00338d"
+      },
+      "away": {
+        "id": "espn:17",
+        "name": "New England Patriots",
+        "abbrev": "NE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+        "logo_dark": null,
+        "aliases": [
+          "NE",
+          "New England",
+          "New England Patriots",
+          "Patriots"
+        ],
+        "color": "002a5c"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Highmark Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872972",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-04T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:3",
+        "name": "Chicago Bears",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "CHI",
+          "Chicago",
+          "Chicago Bears"
+        ],
+        "color": "0b1c3a"
+      },
+      "away": {
+        "id": "espn:20",
+        "name": "New York Jets",
+        "abbrev": "NYJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jets",
+          "NYJ",
+          "New York",
+          "New York Jets"
+        ],
+        "color": "115740"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Soldier Field",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5317,44 +5409,44 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401872970",
+      "event_id": "espn:football:401872968",
       "sport": "football",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-10-04T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
-        "id": "espn:21",
-        "name": "Philadelphia Eagles",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+        "id": "espn:27",
+        "name": "Tampa Bay Buccaneers",
+        "abbrev": "TB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
         "logo_dark": null,
         "aliases": [
-          "Eagles",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Eagles"
+          "Buccaneers",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Buccaneers"
         ],
-        "color": "06424d"
+        "color": "bd1c36"
       },
       "away": {
-        "id": "espn:14",
-        "name": "Los Angeles Rams",
-        "abbrev": "LAR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+        "id": "espn:9",
+        "name": "Green Bay Packers",
+        "abbrev": "GB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
         "logo_dark": null,
         "aliases": [
-          "LAR",
-          "Los Angeles",
-          "Los Angeles Rams",
-          "Rams"
+          "GB",
+          "Green Bay",
+          "Green Bay Packers",
+          "Packers"
         ],
-        "color": "003594"
+        "color": "204e32"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Lincoln Financial Field",
-      "detail": "1:10 - 4th Quarter",
+      "source_status": "post/Final",
+      "venue": "Raymond James Stadium",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5414,7 +5506,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-10-04T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:34",
         "name": "Houston Texans",
@@ -5444,100 +5536,8 @@
         "color": "002a5c"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Reliant Stadium",
-      "detail": "0:16 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872972",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-04T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:3",
-        "name": "Chicago Bears",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "CHI",
-          "Chicago",
-          "Chicago Bears"
-        ],
-        "color": "0b1c3a"
-      },
-      "away": {
-        "id": "espn:20",
-        "name": "New York Jets",
-        "abbrev": "NYJ",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jets",
-          "NYJ",
-          "New York",
-          "New York Jets"
-        ],
-        "color": "115740"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Soldier Field",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872968",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-04T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:27",
-        "name": "Tampa Bay Buccaneers",
-        "abbrev": "TB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buccaneers",
-          "TB",
-          "Tampa Bay",
-          "Tampa Bay Buccaneers"
-        ],
-        "color": "bd1c36"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "Green Bay Packers",
-        "abbrev": "GB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-        "logo_dark": null,
-        "aliases": [
-          "GB",
-          "Green Bay",
-          "Green Bay Packers",
-          "Packers"
-        ],
-        "color": "204e32"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Raymond James Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5676,7 +5676,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "5:15 - 1st Quarter",
+      "detail": "35.4 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5722,7 +5722,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "U.S. Bank Stadium",
-      "detail": "12:50 - 1st Quarter",
+      "detail": "7:54 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8848,32 +8848,46 @@
   ],
   "stories": [
     {
-      "story_id": "50102919",
-      "headline": "Jordan Love throws 2 touchdown passes, Packers edge Buccaneers 17-14",
-      "summary": "\u2014 Jordan Love threw two touchdown passes and the Green Bay Packers overcame two fourth-quarter turnovers to beat the Tampa Bay Buccaneers 17-14 on Sunday.",
-      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872968.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-04T20:09:43Z",
+      "story_id": "50085799",
+      "headline": "Week 4 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check out top the plays from Week 4, featuring the season's first game in London and a showdown of unbeatens in the late afternoon.",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1725964_1296x729_16-9.jpg",
+      "published_utc": "2026-10-04T20:20:40Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "",
+      "byline": "NFL Nation",
       "source": "ESPN",
-      "link": "http://www.espn.com/nfl/recap?gameId=401872968",
+      "link": "https://www.espn.com/nfl/story/_/id/50085799/week-4-highlights-best-plays-touchdowns-2026",
       "stream_url": "",
-      "body": "TAMPA, Fla. -- \u2014 Jordan Love threw two touchdown passes and the Green Bay Packers overcame two fourth-quarter turnovers to beat the Tampa Bay Buccaneers 17-14 on Sunday.\n\n\r\nUndrafted rookie Jalon Daniels threw two picks that led to 10 points in his first career start filling in for Baker Mayfield, who missed a game for the first time in his three-plus seasons in Tampa Bay because of a dislocated thumb.\n\n\r\nThe Packers (2-2) wasted two opportunities to extend a three-point lead in the fourth quarter but the Buccaneers couldn't capitalize.\n\n\r\nTykee Smith forced Kaleb Johnson to fumble inside the 5 with just over nine minutes left in the game. A\u2019Shawn Robinson recovered at the 4 but the ensuing drive went nowhere.\n\n\r\nThe Buccaneers then had a first-and-15 at the Packers 26 when Jacob Parrish picked Love's pass and gave Tampa Bay the ball at the 15 and a chance for a comeback win.\n\n\r\nInstead, Daniels threw a short screen pass to Emeka Egbuka on third-and-16 and incomplete on fourth down from the Packers 47. Coach Todd Bowles passed up a 65-yard field-goal attempt by Chase McLaughlin, who made one from that distance last year.\n\n\r\nThe Buccaneers are 0-4 for the first time since 2014. Only the 1992 Chargers overcame an 0-4 start to make the playoffs.\n\n\r\nLove tossed a 2-yard touchdown pass to Matthew Golden on fourth down to give the Packers a 7-0 lead in the second quarter. Evan Williams made a sliding interception near the sideline to give Green Bay the ball at the 32. Love connected with Tucker Kraft for 10 yards on fourth-and-1 to keep the drive going. Kraft also took a direct snap and sneaked for a first down on another fourth-and-1 at the Buccaneers 10.\n\n\r\nThe Packers turned an interception by Edgerrin Cooper in the final minute of the first half into a field goal. Cooper stepped in front of Daniels' pass to Kameron Johnson, caught the ball falling to the ground, got up and returned it 18 yards to the Buccaneers 44. Trey Smack kicked a 58-yarder to give Green Bay a 10-7 lead.\n\n\r\nLove's 2-yard TD pass to Kraft on the opening drive of the third quarter extended the lead to 17-7.\n\n\r\nSean Tucker ran in from the 2 to tie it at 7. Daniels completed both of his passes for 27 yards combined on the drive and scrambled 9 yards before Tucker's score.\n\n\r\nDaniels connected with Kenneth Gainwell on a 10-yard TD pass to cut the deficit to 17-14 early in the fourth quarter.\n\n\r\nDepleted Packers \r\nCooper was carted off the field in the third quarter with an Achilles tendon injury. The Packers are still missing three-time All-Pro edge rusher Micah Parsons, who is recovering from surgery for a torn ACL suffered last December.\n\n\r\nLove played behind an offensive line missing three starters: Zach Bako-Bewele, Aaron Banks and Jacob Monk. Laken Tomlinson became the fourth player to start at left guard. Veteran guard Kevin Zeitler signed earlier in the week was inactive.\n\n\r\nI\r\nnjuries\r\nPackers: CB Brandon Cisse hurt his neck and was being evaluated for concussion. ... LB Isaiah McDuffie replaced Cooper and briefly left with an eye injury. ... RB Chris Brooks and DT Devonte Wyatt both left in the first half with ankle injuries. ... Banks (toe, knee) and Monk (quadriceps) will return while Bako-Bewele (knee) is out for the season.\n\n\r\nBuccaneers: Edge rusher Rueben Bain Jr. (groin), CB Benjamin Morrison (quadriceps), TE Ko Kieft (elbow) were inactive. ... S Antoine Winfield Jr. hurt his abdomen and a rib late in the fourth quarter. ... LB SirVocea Dennis injured his ankle.\n\n\r\nUp next\r\nPackers: Host Chicago next Sunday.\n\n\r\nBuccaneers: Visit Dallas on Thursday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+      "body": "To start Sunday, the Indianapolis Colts beat the Washington Commanders in London in the morning then the Rams pulled out a win over the Eagles in the 1 p.m. window.\n\nIn the late-afternoon slate, the Kansas City Chiefs will take on the Las Vegas Raiders in a marquee matchup of undefeated teams.\n\nThen \"Sunday Night Football\" features the Detroit Lions visiting the Carolina Panthers.\n\nWe have the best highlights, touchdowns and moments from all of them.\n\nWeek 4 highlights"
     },
     {
-      "story_id": "50102208",
-      "headline": "Dream All-Star Allisha Gray exits Game 1 with hand injury",
-      "summary": "Dream guard Allisha Gray was ruled out for the remainder of Sunday's semifinal opener with a left hand injury.",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1725915_1296x729_16-9.jpg",
-      "published_utc": "2026-10-04T20:01:13Z",
+      "story_id": "50103122",
+      "headline": "Canada's big day, team defense carries Dream to 92-82 win over Liberty in WNBA semifinals",
+      "summary": "\u2014 Jordin Canada scored 20 of her 25 points in the second half and had five steals to help the Atlanta Dream beat the New York Liberty 92-82 on Sunday in Game 1 of the best-of-five WNBA semifinals series.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918295.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-04T20:19:32Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
-      "byline": "Alexa Philippou",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50102208/dream-all-star-allisha-gray-exits-game-1-hand-injury",
+      "link": "http://www.espn.com/wnba/recap?gameId=401918295",
       "stream_url": "",
-      "body": "ATLANTA -- Dream guard Allisha Gray was ruled out for the remainder of Sunday's semifinal opener against the Liberty with a left hand injury, the team announced.\n\nGray initially injured her left shooting hand at the end of the first quarter, leaving for the locker room before returning early in the second period with her pinkie and ring finger taped, which she ditched not long after checking back in.\n\nBut with less than four minutes left in the half, Gray appeared to reinjure her hand, departing once more for the locker room and shortly after being ruled out for the remainder of the game.\n\nGray, who scored seven points in 11 minutes, returned to the Dream bench during the third quarter with a splint on her finger.\n\nThe 6-foot-0 guard and four-time All-Star out of South Carolina was the Dream's top scorer this season, averaging 19.0 points, 3.5 rebounds, 2.6 assists and 1.4 steals per game. She was also their top scorer (22.0 PPG) during a first-round sweep of the No. 5 seed Washington Mystics as Atlanta secured its first semifinals berth since 2018."
+      "body": "ATLANTA -- \u2014 Jordin Canada scored 20 of her 25 points in the second half and had five steals to help the Atlanta Dream beat the New York Liberty 92-82 on Sunday in Game 1 of the best-of-five WNBA semifinals series.\n\n\r\nDeWanna Bonner added 23 points and helped fill the void when Allisha Gray went down with a left hand injury in the second quarter. Atlanta once again played stellar defense, scoring 32 points off 21 forced turnovers, including 16 in a dominant third quarter.\n\n\r\nNew York trimmed a 16-point deficit down to five in the closing minutes, but a clutch 3-pointer by Canada just before the shot clock buzzer followed by another transition layup off a stop stemmed the tide. Sabrina Ionescu led the Liberty with 27 points and Breanna Stewart added 19.\n\n\r\nThe Liberty led by three at the half before Atlanta outscored New York 32-15 in the third quarter. Reese and Canada had three steals apiece in the third, keying a 13-3 run to start the half which gave Atlanta a lead it never surrendered.\n\n\r\nGame 2 of the series is Wednesday in Atlanta.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
+    },
+    {
+      "story_id": "50100614",
+      "headline": "Bahrain GP was the worst indictment of F1's new engine regs yet",
+      "summary": "There was a lot to love about Sunday's race. But it will forever be overshadowed by the mess caused by the new F1 engines.",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1725857_1296x729_16-9.jpg",
+      "published_utc": "2026-10-04T20:14:50Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/racing/f1/story/_/id/50100614/formula-1-2026-bahrain-grand-prix-malaysia-engine-delays-happened-verstappen",
+      "stream_url": "",
+      "body": "SEPANG, Malaysia -- The Bahrain Grand Prix in Malaysia already had a farcical name. Formula 1's unnecessarily complicated hybrid engines ensured the race will be remembered as one of the biggest farces in the sport's recent history.\n\nF1's current engines, which feature a near 50-50 split between internal combustion energy and electrical battery elements, are already considered the biggest mistake the sport has made in recent times. Whenever they are consigned to the scrapheap, the foremost memories will be of Sunday's two formation laps in the rain.\n\n\"LOL, look at this,\" was all a laughing Max Verstappen could say over the radio as his Red Bull approached a handful of cars whose engines had simply shut down. His car had already done the same at the front of the pack a couple of minutes earlier.\n\nIt was an apt use of modern day slang: Laugh out loud was all you could really do. Collectively, and due to a perfect storm of circumstances, F1's cars had all ground to a walking speed, one after the other. The first attempt at starting the race -- already delayed 40 minutes, because these F1 cars cannot race in extremely wet conditions -- was aborted, with another wait to allow the 11 teams to download and implement a software update from the governing FIA.\n\n\"Horrible,\" said reigning world champion Lando Norris after the race. \"It just proves that we shouldn't have any of that stuff on the electronic side\".\n\nGeorge Russell, who also dealt with a heartbreaking late engine failure which has all but handed Mercedes teammate Kimi Antonelli the 2026 championship, said, \"The whole day was a bit of a faff. It didn't feel very F1 today\".\n\nCarlos Sainz summed up the situation best of all: \"I think F1 needs to have a hard look at themselves and see how we ended up in this situation.\"\n\nThere's a lot to still love about F1 in 2026, and some of it was on show towards the end of Sunday's chaotic race. But the absolute worst of the sport was also showcased in brutal fashion before a competitive lap had even been completed.\n\nWhat exactly happened?\nAs well as new-look cars and new V6 turbo hybrid engines, this year introduced a new set of Pirelli tyres. The Italian company's wet-weather tyres have been a question-mark all season, however: bar a February test behind closed doors in Spain and wet-weather tests for Red Bull, Racing Bulls and Ferrari earlier in the year, no teams had done any meaningful runs on the intermediate or full wets prior to this weekend.\n\nThe FIA immediately delayed the start as the weather intensified, with a nearby thunderstorm also complicating things. Several teams briefly lost their weather radars on the pit wall, while some of the marshal panels lining the circuit briefly stopped working.\n\nAt 3:40 p.m. local time, 40 minutes after the race was supposed to start, the FIA attempted to get things underway with two formation laps behind the safety car, followed by a standing start from the grid. The rain had started easing off and the track was wet, but it looked as though race control was going to make a go of it. But those formation laps were always going to be an exercise in extreme caution.\n\nSeveral corners into the first formation lap is where things started going wrong, when the cars encountered a software bug baked into the algorithms that dictate F1's new complicated engines. During rain, for safety reasons, engine modes run at a maximum deployment of 250 kilowatts of deployment in certain sectors, down from 350kW in dry conditions. Once Verstappen, leading the pack but tiptoeing around on the cold intermediates, dropped below a speed of 50 km/h, the algorithms dictating the behaviour of his engine started having problems: essentially, the MGU-K no longer kicked in to feed power into his low-revving engine. The restriction on the car's hybrid-electric component is meant to prevent teams from effectively using it as a traction control device at the start of a race; this time, however, the combination of not running on wet tires with an extremely wet tarmac meant drivers were applying much less throttle than normal.\n\nThe algorithm did not spot the difference, so kicked in. With the additional power boost locked out, the internal combustion engine was effectively dying without a surge of recovery power from the electrical side.\n\nYou wouldn't be the only one confused by this: F1 drivers have said this year's debriefs with engineers are longer and more complicated than ever. Many have spoken about their engines behaving in radically different ways lap to lap, as self-learning algorithms kick in power at different points.\n\nIn the moment, what was happening was unclear: Some thought Verstappen simply had an engine issue.\n\n\"There was nothing going on,\" he said later. \"That was the problem. It was just like driving at, what, 35 km/h, going uphill, actually losing speed. So, yeah, I don't know exactly, because when you go too low in speed and too low RPM, for whatever reason, then it just bogs down. Normally it takes one or two seconds and it comes back.\"\n\nBut this time, the power did not come back. Verstappen's car was slowing so dramatically, which meant the cars behind him bunched up. But the rules state you cannot overtake the car in front on a formation lap.\n\n\"I triggered it first and then I look in my mirror, I just see... I was like, \"Wait, are they waiting for me or what's going on...?\" Verstappen said.\n\nThose behind were, in fact, waiting. The same thing happened to Lewis Hamilton's Ferrari, in second position, shortly after his car also dropped below the all-important 50 km/h benchmark.\n\n\"It was like the Lego race,\" Hamilton joked later, referring to the viral pre-race spectacle during the Miami Grand Prix in May.\n\nWhile Verstappen somehow managed to avoid coming to a complete standstill, Hamilton's ground to a halt. The seven-time world champion had to restart his Ferrari's power unit on the pit straight. But unlike with Verstappen, cars slowly started passing Hamilton as he plummeted down the order.\n\n\"It was insane,\" said current championship leader Antonelli. \"At some point we were five-wide in the straight, because we couldn't understand what was going on.\"\n\nHamilton's Ferrari seemed to suffer the most extreme version of the engine issue: By the time he did stop completely, he was half way down the order, and Audi, Williams, Racing Bulls and other teams' cars were facing similar issues around him. It was this scene a laughing Verstappen would later drive past. The start procedure was canceled, effectively a red flag.\n\nAnd here is where the lack of wet tire usage this year had caught the FIA out.\n\n\"We didn't manage to test the software as extensively as we would have liked, because there's been very little wet running this year,\" the governing body's single seater chief Nikolas Tombazis explained in a rare trip to the media pen after the race.\n\n\"There was a bit of a combination of circumstances which caused this bug to kick in. Basically, [on] the formation lap, some cars went very slowly, almost came to a standstill. There was a bit of a concertina effect between cars, and some cars almost stopped completely. That bug prevented the power from being redeployed, and for the cars to start again. I think if we had had a bit more testing, we probably would have managed to catch it in time, and not have such a situation.\n\n\"Once the problem happened, our guys realised very quickly what was happening, and had to work under a lot of time pressure for an update to the software, which was issued to the teams, and the teams had to install it on their cars.\n\nThe FIA later gave a simpler statement on what had happened, blaming a perfect storm of various factors. The governing body said \"an unprecedented combination of low engine speed, low-grip conditions, wet-weather energy management settings and the Sepang circuit's sector configuration led to an unintended loss of power for a number of cars\".\n\nThe remedy was a software update -- code Tombazis admitted was a \"cobbled up, hurried solution.\" Rewriting and sending the new code to the teams to install in their systems led to another delay. It meant the worst of the rain also disappeared, we got only a handful of laps on the intermediates and the prospect of a genuine wet-weather classic disappeared.\n\nIf you still need another way to think about it: The 11 teams competing in the pinnacle of motorsport hit Ctrl+Alt+Delete and installed a software update to race safely again.\n\nThe fallout\nThe FIA did apologize afterward for the chaos.\n\n\"All of that took about 20 minutes,\" Tombazis said. \"It may have felt like five hours for spectators waiting in a race and for everybody else, which is understandable. And we are sorry about that. But I think it was quite a fast reaction given the problem.\"\n\nThe sport's governing body could easily direct critics toward a race ultimately full of incidents and overtaking. And, fair enough: Sepang was an entertaining spectacle.\n\nVerstappen returned to the top step for the first time this season. Hamilton turned in a supreme drive for third after gambling incorrectly on slick tires over intermediates, which had him over a minute down on the lead early. Antonelli now looks certain to become the sport's youngest ever champion after Russell's late DNF (and the engine penalties likely to come with it).\n\nIt was a fitting return for the brilliant Sepang circuit, too. Yet, the engines are such a step in the wrong direction it's hard to look past it.\n\n\"That's what happens when you have these engines,\" Verstappen said. He's been outspoken about the regs since the first time he drove a 2026 car, so it's perhaps not a surprise what he said next.\n\n\"With a V8 you don't have these problems\".\n\nF1's current rules were drawn up over a period of years, and the promise of the V6 turbo hybrid engines was making the sport more appealing to new manufacturers -- Audi this year, General Motors by the end of the decade. But the price to lure two new manufacturers to the sport does not seem worth it so far.\n\nF1 will make small tweaks to the engines over the next two years, shifting the 50-50 split closer towards a 60-40 split in favor of conventional combustion power over the electrical elements by 2028. But many in the paddock believe it will not be enough to make racing feel normal again.\n\nSainz, who has been vocal about the situation, believes the sport has to learn from Sepang. \"It is clear the regs are extremely complicated for the drivers, for the teams, for the PUs, for the manufacturers,\" he said after the race. \"Again, my only question mark is: Who, five years ago, decided that this was the direction to go?\n\n\"The FIA and F1 are doing the best they can with what was decided four or five years ago, but clearly what was decided four or five years ago is wrong.\"\n\nA silver lining to end on: Sunday's engine farce may end up accelerating the push to drop V6s in favour of V8s at the earliest possible opportunity.\n\nWhenever that day is, it cannot be soon enough."
     },
     {
       "story_id": "50102718",
@@ -8916,20 +8930,6 @@
       "link": "https://www.espn.com/afl/story/_/id/50097732/afl-heavyweight-trades-loom-large-afl-free-agency-period",
       "stream_url": "",
       "body": "Essendon and Hawthorn's jostling over Zach Merrett and deals for free agents Zak Butters and Ben King will headline another bumper AFL trade and free agency period.\n\nBrisbane's dual Brownlow medallist Lachie Neale and GWS captain Toby Greene respectively strolled to Collingwood and Geelong after free agency opened on Friday, courtesy of their unrestricted status.\n\nPort Adelaide superstar Butters and Gold Coast key forward King face a longer wait as restricted free agents.\n\nThe Power can match any bid for 26-year-old Butters, who nominated the Western Bulldogs as his preferred destination over Geelong, and will want more than the first-round compensation they would otherwise garner.\n\nAs league-wide haggling ramps up when the trade period opens on Monday, the Bulldogs may well have to get creative at the negotiating table to satisfy Port.\n\nGold Coast have similarly canvassed matching a rival bid for King when Hawthorn officially come knocking for the Victorian spearhead.\n\nA bid on Butters or King would generate band one compensation, currently valued at pick five for Port and pick seven for Gold Coast.\n\nComplicating matters, Hawthorn is making another dash at Merrett after Essendon sensationally rejected offers for the gun midfielder in 2025.\n\nThe Hawks hold a respectable draft hand, with four draft picks between 15 and 33 on top of future first-round selections in 2027 and 2028.\n\nMerrett, who turned 31 on Saturday, is entering the final year of his Bombers contract and clinched a seventh club best and fairest award after a disastrous two-win season.\n\nWith Butters and Merrett spurning Geelong's advances, the Cats have shifted their focus to injury-plagued Essendon defender Jordan Ridley, contracted until 2029, and St Kilda ruckman Rowan Marshall.\n\nSt Kilda asked for a player in exchange for Marshall after the contracted 30-year-old requested a trade away to the Cattery for a second straight season.\n\nThe Cats were not keen to entertain giving up young half-back Lawson Humphries but talks for Marshall remain ongoing.\n\nIn other wheelings and dealings, Gold Coast is expected to trade a late pick for Collingwood veteran Scott Pendlebury if King walks as a restricted free agent so as not to dilute their compensation pick.\n\nDumped GWS forward and 2024 Coleman medallist Jesse Hogan is also expected to join Collingwood for a late pick rather than waiting for delisted free agency.\n\nCarlton are reportedly trying to prise contracted half-back Lachie Whitfield out of GWS, while trade speculation surrounds Nick Blakey after he and four other Sydney Swans players were banned on the eve of the finals.\n\nBrisbane premiership winger Sam Marshall is eyeing a trade to St Kilda, Luke Pedlar wants a rare switch from Adelaide to Port Adelaide, and Geelong midfielder Jack Bowes is trying to get to Essendon.\n\nJack Viney, Melbourne's 2021 premiership vice-captain, on Thursday said a deal would be done after he met with West Coast.\n\nDemons coach Steven King told the 32-year-old midfielder he was likely to be on the outer next season despite having two years remaining on his contract.\n\nThe free agency period ends on Friday, while the trade window wraps up on October 14."
-    },
-    {
-      "story_id": "50100614",
-      "headline": "Bahrain GP was the worst indictment of F1's new engine regs yet",
-      "summary": "There was a lot to love about Sunday's race. But it will forever be overshadowed by the mess caused by the new F1 engines.",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1725857_1296x729_16-9.jpg",
-      "published_utc": "2026-10-04T19:01:13Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Nate Saunders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/racing/f1/story/_/id/50100614/formula-1-2026-bahrain-grand-prix-malaysia-engine-delays-happened-verstappen",
-      "stream_url": "",
-      "body": "SEPANG, Malaysia -- The Bahrain Grand Prix in Malaysia already had a farcical name. Formula 1's unnecessarily complicated hybrid engines ensured the race will be remembered as one of the biggest farces in the sport's recent history.\n\nF1's current engines, which feature a near 50-50 split between internal combustion energy and electrical battery elements, are already considered the biggest mistake the sport has made in recent times. Whenever they are consigned to the scrapheap, the foremost memories will be of Sunday's two formation laps in the rain.\n\n\"Lol, look at this,\" was all a laughing Max Verstappen could say over the radio as his Red Bull approached a handful of cars whose engines had simply shut down. His car had already done the same at the front of the pack a couple of minutes earlier.\n\nIt was an apt use of modern day slang: Laugh out loud was all you could really do. Collectively, and due to a perfect storm of circumstances, F1's cars had all ground to a walking speed, one after the other. The first attempt at starting the race -- already delayed 40 minutes, because these F1 cars cannot race in extremely wet conditions -- was aborted, with another wait to allow the 11 teams to download and implement a software update from the governing FIA.\n\n\"Horrible,\" said reigning world champion Lando Norris after the race. \"It just proves that we shouldn't have any of that stuff on the electronic side\".\n\nGeorge Russell, who also dealt with a heartbreaking late engine failure which has all but handed Mercedes teammate Kimi Antonelli the 2026 championship, said, \"The whole day was a bit of a faff. It didn't feel very F1 today\".\n\nCarlos Sainz summed up the situation best of all: \"I think F1 needs to have a hard look at themselves and see how we ended up in this situation.\"\n\nThere's a lot to still love about F1 in 2026, and some of it was on show towards the end of Sunday's chaotic race. But the absolute worst of the sport was also showcased in brutal fashion before a competitive lap had even been completed.\n\nWhat exactly happened?\nAs well as new-look cars and new V6 turbo hybrid engines, this year introduced a new set of Pirelli tyres. The Italian company's wet-weather tyres have been a question-mark all season, however: bar a February test behind closed doors in Spain and wet-weather tests for Red Bull, Racing Bulls and Ferrari earlier in the year, no teams had done any meaningful runs on the intermediate or full wets prior to this weekend.\n\nThe FIA immediately delayed the start as the weather intensified, with a nearby thunderstorm also complicating things. Several teams briefly lost their weather radars on the pit wall, while some of the marshal panels lining the circuit briefly stopped working.\n\nAt 3:40pm local time, 40 minutes after the race was supposed to start, the FIA attempted to get things underway with two formation laps behind the safety car, followed by a standing start from the grid. The rain had started easing off and the track was wet, but it looked as though race control was going to make a go of it. But those formation laps were always going to be an exercise in extreme caution.\n\nSeveral corners into the first formation lap is where things started going wrong, when the cars encountered a software bug baked into the algorithms that dictate F1's new complicated engines. During rain, for safety reasons, engine modes run at a maximum deployment of 250 killowatts of deployment in certain sectors, down from 350kW in dry conditions. Once Verstappen, leading the pack but tiptoeing around on the cold intermediates, dropped below a speed of 50 km/h, the algorithms dictating the behaviour of his engine started having problems: essentially, the MGU-K no longer kicked in to feed power into his low-revving engine. The restriction on the car's hybrid-electric component is meant to prevent teams from effectively using it as a traction control device at the start of a race; this time, however, the combination of not running on wet tires with an extremely wet tarmac meant drivers were applying much less throttle than normal.\n\nThe algorithm did not spot the difference, so kicked in. With the additional power boost locked out, the internal combustion engine was effectively dying without a surge of recovery power from the electrical side.\n\nYou wouldn't be the only one confused by this: F1 drivers have said this year's debriefs with engineers are longer and more complicated than ever. Many have spoken about their engines behaving in radically different ways lap to lap, as self-learning algorithms kick in power at different points.\n\nIn the moment, what was happening was unclear: Some thought Verstappen simply had an engine issue.\n\n\"There was nothing going on,\" he said later. \"That was the problem. It was just like driving at, what, 35 km/h, going uphill, actually losing speed. So, yeah, I don't know exactly, because when you go too low in speed and too low RPM, for whatever reason, then it just bogs down. Normally it takes one or two seconds and it comes back.\"\n\nBut this time, the power did not come back. Verstappen's car was slowing so dramatically, which meant the cars behind him bunched up. But the rules state you cannot overtake the car in front on a formation lap.\n\n\"I triggered it first and then I look in my mirror, I just see... I was like, \"Wait, are they waiting for me or what's going on...?\" Verstappen said.\n\nThose behind were, in fact, waiting. The same thing happened to Lewis Hamilton's Ferrari, in second position, shortly after his car also dropped below the all-important 50 km/h benchmark.\n\n\"It was like the Lego race,\" Hamilton joked later, referring to the viral pre-race spectacle during the Miami Grand Prix in May.\n\nWhile Verstappen somehow managed to avoid coming to a complete standstill, Hamilton's ground to a halt. The seven-time world champion had to restart his Ferrari's power unit on the pit straight. But unlike with Verstappen, cars slowly started passing Hamilton as he plummeted down the order.\n\n\"It was insane,\" said current championship leader Antonelli. \"At some point we were five-wide in the straight, because we couldn't understand what was going on.\"\n\nHamilton's Ferrari seemed to suffer the most extreme version of the engine issue: By the time he did stop completely, he was half way down the order, and Audi, Williams, Racing Bulls and other teams' cars were facing similar issues around him. It was this scene a laughing Verstappen would later drive past. The start procedure was canceled, effectively a red flag.\n\nAnd here is where the lack of wet tire usage this year had caught the FIA out.\n\n\"We didn't manage to test the software as extensively as we would have liked, because there's been very little wet running this year,\" the governing body's single seater chief Nikolas Tombazis explained in a rare trip to the media pen after the race.\n\n\"There was a bit of a combination of circumstances which caused this bug to kick in. Basically, [on] the formation lap, some cars went very slowly, almost came to a standstill. There was a bit of a concertina effect between cars, and some cars almost stopped completely. That bug prevented the power from being redeployed, and for the cars to start again. I think if we had had a bit more testing, we probably would have managed to catch it in time, and not have such a situation.\n\n\"Once the problem happened, our guys realised very quickly what was happening, and had to work under a lot of time pressure for an update to the software, which was issued to the teams, and the teams had to install it on their cars.\n\nThe FIA later gave a simpler statement on what had happened, blaming a perfect storm of various factors. The governing body said \"an unprecedented combination of low engine speed, low-grip conditions, wet-weather energy management settings and the Sepang circuit's sector configuration led to an unintended loss of power for a number of cars\".\n\nThe remedy was a software update -- code Tombazis admitted was a \"cobbled up, hurried solution.\" Rewriting and sending the new code to the teams to install in their systems led to another delay. It meant the worst of the rain also disappeared, we got only a handful of laps on the intermediates and the prospect of a genuine wet-weather classic disappeared.\n\nIf you still need another way to think about it: The 11 teams competing in the pinnacle of motorsport hit Ctrl+Alt+Delete and installed a software update to race safely again.\n\nThe fallout\nThe FIA did apologize afterward for the chaos.\n\n\"All of that took about 20 minutes,\" Tombazis said. \"It may have felt like five hours for spectators waiting in a race and for everybody else, which is understandable. And we are sorry about that. But I think it was quite a fast reaction given the problem.\"\n\nThe sport's governing body could easily direct critics toward a race ultimately full of incidents and overtaking. And, fair enough: Sepang was an entertaining spectacle.\n\nVerstappen returned to the top step for the first time this season. Hamilton turned in a supreme drive for third after gambling incorrectly on slick tires over intermediates, which had him over a minute down on the lead early. Antonelli now looks certain to become the sport's youngest ever champion after Russell's late DNF (and the engine penalties likely to come with it).\n\nIt was a fitting return for the brilliant Sepang circuit, too. Yet, the engines are such a step in the wrong direction it's hard to look past it.\n\n\"That's what happens when you have these engines,\" Verstappen said. He's been outspoken about the regs since the first time he drove a 2026 car, so it's perhaps not a surprise what he said next.\n\n\"With a V8 you don't have these problems\".\n\nF1's current rules were drawn up over a period of years, and the promise of the V6 turbo hybrid engines was making the sport more appealing to new manufacturers -- Audi this year, General Motors by the end of the decade. But the price to lure two new manufacturers to the sport does not seem worth it so far.\n\nF1 will make small tweaks to the engines over the next two years, shifting the 50-50 split closer towards a 60-40 split in favor of conventional combustion power over the electrical elements by 2028. But many in the paddock believe it will not be enough to make racing feel normal again.\n\nSainz, who has been vocal about the situation, believes the sport has to learn from Sepang. \"It is clear the regs are extremely complicated for the drivers, for the teams, for the PUs, for the manufacturers,\" he said after the race. \"Again, my only question mark is: Who, five years ago, decided that this was the direction to go?\n\n\"The FIA and F1 are doing the best they can with what was decided four or five years ago, but clearly what was decided four or five years ago is wrong.\"\n\nA silver lining to end on: Sunday's engine farce may end up accelerating the push to drop V6s in favour of V8s at the earliest possible opportunity.\n\nWhenever that day is, it cannot be soon enough."
     },
     {
       "story_id": "50098759",
@@ -9016,32 +9016,46 @@
       "body": "For a moment, Kalyn Ponga made Newcastle believe the fairytale had one more chapter.\n\nA loose Roosters tap-back, a burst into open space and a sprint almost the length of the field. Suddenly, the Knights led 12-0 and a city that had waited 25 years for another grand final could begin to imagine the ultimate reward.\n\nInstead, Newcastle were left to contemplate how close they had come.\n\nThe Sydney Roosters' 19-18 victory delivered the premiership farewell Daly Cherry-Evans had chased, while leaving the Knights one point short of completing their remarkable transformation.\n\nYet the explanation for Newcastle's heartbreak lay well before the final frantic minutes. Their early lead had concealed a problem that became increasingly difficult to escape: they were spending too much of the decider defending.\n\nThe Knights had the moments. The Roosters kept making them work.\n\nFrancis Manuleleua's opening try showed the value of Newcastle's willingness to attack, with Fletcher Sharpe finding his backrower on a strong line. Ponga then supplied the kind of individual intervention capable of defining a Grand Final.\n\nHis long range try was particularly extraordinary because of the work that preceded it. The Knights captain was repeatedly involved, covering threats behind his defensive line while remaining central to Newcastle's attack.\n\nBut even Ponga could not keep turning survival into points.\n\nAt halftime, Newcastle led 12-6 despite making 35 more tackles. Sydney had enjoyed 57% of possession and completed 21 of 23 sets. That disparity mattered more than the Knights' advantage suggested.\n\nEvery defensive stand bought Newcastle another chance. Too few of those chances bought their defenders a rest.\n\nThe Roosters' territorial pressure meant the Knights repeatedly had to begin again from deep inside their own half. Defusing a kick or stopping a raid was only the first part of the task; finding enough ground to change the next possession was just as important.\n\nSydney's work through the middle made that difficult. As the match wore on, Newcastle's attempts to shift the ball carried an increasing risk: an error would surrender possession before they had escaped trouble.\n\nThis was the tension at the heart of the contest. The Knights needed the ball to relieve the pressure, but the pressure was making it harder to use the ball effectively.\n\nBilly Smith's second half try drew Sydney level. Mark Nawaqanitawase, whose improvised finish had brought the Roosters back into the match before halftime, later completed his double.\n\nNewcastle's resistance had kept the contest alive. Sydney's persistence had changed who controlled it.\n\nThen came Cherry-Evans' field goal.\n\nThe veteran's strike pushed the margin beyond a converted try, a decision whose value became clear when Greg Marzhew's late score brought Newcastle back within one point.\n\nFor all the attacking talent around him, this was the contribution the Roosters had recruited Cherry-Evans to provide - recognising what the game required and delivering it.\n\nAt 37, in his final NRL appearance before joining Hull FC, he finished with a second premiership, 15 years after his first with Manly.\n\nAhead of the decider, Cherry-Evans had explained how experience had changed his approach.\n\n\"I'm obviously more mature, so I have a better understanding of what the team needs,\" he told the media.\n\nHis farewell also gave the result an extra layer of significance. Sandon Smith had left the Roosters following Cherry-Evans' arrival, finding an opportunity in Newcastle that developed into a central role in their premiership push.\n\nThe Knights' season had demonstrated how much a fresh opportunity could unlock. Smith, Sharpe and Ponga gave Newcastle a combination capable of troubling opponents in different ways, even after Dylan Brown's ACL injury forced another adjustment.\n\nThat progress will matter once the immediate disappointment fades.\n\nJustin Holbrook's side reached the decider through sudden-death victories over South Sydney, the Warriors and Penrith. Their run demanded belief as well as execution, and neither disappeared when the Grand Final began to turn against them.\n\nTheir late response ensured Sydney had to finish the job.\n\nBut Newcastle could not quite turn that refusal to surrender into one final escape.\n\nFor the Roosters, experience helped deliver the ending they wanted. For the Knights, the cruelty was in getting close enough to see theirs.\n\nA season that restored Newcastle's belief ended with a premiership one point beyond reach."
     },
     {
-      "story_id": "50079780",
-      "headline": "NFL Week 4's best arrivals, led by Seahawks LB Uchenna Nwosu",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1725925_608x342_16-9.png",
-      "published_utc": "2026-10-04T19:43:47Z",
+      "story_id": "50077236",
+      "headline": "NFL Week 4: Big takeaways, questions and fantasy spin from Sunday's games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 4.",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1725796_1296x729_16-9.jpg",
+      "published_utc": "2026-10-04T20:16:07Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "ESPN Staff",
+      "byline": "NFL Nation",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50079780/nfl-week-4-fashionable-arrivals",
+      "link": "https://www.espn.com/nfl/story/_/id/50077236/week-4-sunday-games-takeaways-questions-2026",
       "stream_url": "",
-      "body": "Week 4 of the NFL season has arrived, and the calendar has officially flipped to October. But sweater weather hasn't quite followed everywhere.\n\nUnseasonable heat out West could keep layers light for another week, while cooler temperatures settling in across the East are opening the door for more fall-ready fits. That means players have plenty of options as they make their Week 4 entrances. With three weeks of looks already in the books, personal styles are also starting to take shape around the league. Some players have leaned into statement pieces, while others have kept things clean and understated.\n\nFrom warm-weather looks to seasonal layers, Week 4 brings another round of game-day style as the calendar officially turns to fall.\n\nSunday style\nThe best design is in the details. Super Bowl champion Uchenna Nwosu and his celebrity stylist Ini Ikpe prioritize weekly custom gameday looks from Black and Brown designers.\n\nThis week, Ikpe took us inside the Abasi x Jagne denim fit Nwosu is displaying this Sunday -- a partnership with Baba Jagne, a Senegalese Gambian designer based in Los Angeles who is known for silhouettes and patterns that make you look twice.\n\n\"It's a cropped jacket and wide-leg trousers in dark indigo raw denim with copper contrast stitching. The jacket takes the classic trucker and rebuilds it,\" Ikpe said. \"Its front panels snap on and off so they can be rearranged, which leaves an open U-shaped cutout down the front. Panels curve around the body, a buckled strap sits at the hem, and the sleeves sweep down from the shoulder. The trousers have a tan leather belt that dips and curves down the front, darted knees and a long, flared leg. Cognac leather JAGNE patches finish both pieces.\"\n\nNwosu's favorite part is nobody else has this look, he's the first to wear it and feels unapologetically authentic to his style.\n\nIt's a small glimpse into just how much attention some of the best-dressed NFL players, like Nwosu, put into their gameday tunnel fit. -- Cameron Wolfe\n\nSunday's Best\nChicago Bears running back Kyle Monangai arrived in a custom matching jacket gifted to him by Brenda, a Bears fan and breast cancer patient at Advocate Health Care.\n\nThursday night's fashion\nPlayers and coaches aren't the only ones showing off their style pregame. Mascots get in on the tunnel fits, too. This week, Brownie the Elf was ready to rock for Cleveland's Rock & Roll Hall of Fame Game, channeling Prince in a purple jacket with a matching guitar."
+      "body": "The Sunday slate for Week 4 of the 2026 NFL season kicked off in London between the Colts and Commanders. After a slow start, the Colts recovered to secure a victory abroad. Back in the United States, the Bears won for the second straight week with a new quarterback -- this time with Tyson Bagent under center.\n\nOur NFL Nation reporters reacted to all the action, answering lingering questions coming out of each game and detailing everything else you need to know for teams that played Sunday. Fantasy football analysts Matt Bowen and Tristan Cockcroft also have fantasy takeaways from each matchup.\n\nLet's get to it with the biggest lessons from the Sunday morning matchup.\n\nJump to:\n\nNYJ-CHI | IND-WSH\n\nCatch up on Thursday's game:\n\nPIT-CLE\n\nChicago 23, N.Y. Jets 12\nCatch up on the action: Box score | Recap\n\nBears\nDid Tyson Bagent justify being QB1 for the Bears after Case Keenum's Week 3 strong performance? Keenum, who led the Bears to a rout of the Eagles in Week 3, was officially the starter Sunday, but only because coach Ben Johnson put him at QB for the first snap. After that, Bagent took over and went 25-of-34 for 268 yards. He didn't throw a TD and was picked off once, although three other interceptions were negated by penalties. The Bears leaned on their run game as a result (232 yards) until Bagent got on track in the second half.\n\nMost surprising performance: After maxing out at 10 carries in each of the Bears' first three games, Kyle Monangai carried the load on the ground (30 rushes, 146 yards, 2 TDs) and became the third different Bears player with multiple rushing touchdowns in a game this season. On an afternoon when D'Andre Swift couldn't punch the ball in twice from inside the 3-yard line and later fumbled, Chicago needed everything it got from Monangai to break through on offense. -- Courtney Cronin\n\nNext game: at Packers (Sunday, 1 p.m. ET)\n\nJets\nWere the Jets doomed by injuries or just bad offense? They played without four starters, including RB Breece Hall, but this was inexcusable. QB Geno Smith played his worst game; the third-down offense was terrible (0-for-7); and Garrett Wilson (3 catches, 27 yards) and Kenyon Sadiq (0 catches) were nonfactors. The Jets had 99 total yards before a 58-yard TD strike to Isaiah Williams in the fourth quarter. They're having an identity crisis. The Jets want to be a physical, run-heavy team, but they veer from the plan because of inconsistent execution and/or lack of commitment. They'd better figure it out soon after losing three straight.\n\nKey stat to know: It's over, it's over! Safety Minkah Fitzpatrick picked off Tyson Bagent in the second quarter, ending the longest interception drought in NFL history. The Jets went 20 games and 643 pass attempts without one, dating back to Jan. 5, 2025. It was Fitzpatrick's first full game as a Jet. This is why they traded for him in the offseason -- to make plays on the ball. They could've had four interceptions, but three were nullified by penalties. -- Rich Cimini\n\nNext game: vs. Browns (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Backup RBs were the standouts on both teams: Braelon Allen (94% snap and 100% rushing shares and 4.2 YPC) for the Jets and goal-line standout Kyle Monangai (7 goal-to-go carries, 2 TDs, 28.0 total FPTS) for the Bears. Allen is the clear insurance policy for Breece Hall's managers, and Monangai's usage signals flex-play appeal for fantasy moving forward. -- Cockcroft\n\nIndianapolis 30, Washington 13\nCatch up on the action: Box score | Recap\n\nColts\nCan the Colts keep winning in ugly fashion? There's a lot to be said for the Colts getting back to .500 after their 0-2 start. But their two victories raise as many questions as reasons for optimism. The performance of QB Daniel Jones in each of the past two games has been concerning, to say the least. After committing three turnovers in a win over the Texans, he was responsible for two more Sunday while the offense was often lethargic. The Colts have shown defensive improvement for the second straight week, but neither of the offenses they've played has showed much explosiveness. Still, getting back on track gives the Colts a chance to recover from their poor start.\n\nMost surprising performance: Defensive tackle DeForest Buckner continues to dominate despite recently coming back from a very delicate neck surgery. Buckner, at 32, was all over the field on Sunday, pressuring Washington's quarterbacks, stuffing the run and more. Buckner chasing down quarterback Marcus Mariota on a scramble was especially impressive, as was his consistent batting of passes at the line of scrimmage. -- Stephen Holder\n\nNext game: at Steelers (Sunday, 1 p.m. ET)\n\nCommanders\nCan the Commanders recover from all these injuries? As the saying goes, it's getting late early for the Commanders. They were already playing minus their top four offensive players -- tackle Laremy Tunsil, receiver Terry McLaurin, quarterback Jayden Daniels and guard Sam Cosmi -- and then they lost backup QB Marcus Mariota. The good news for them? They're hopeful Daniels can return in Week 5, but they need McLaurin (hamstring) and Cosmi (concussion) and their returns remain uncertain. And the worst part for Washington: After facing the Giants next Sunday, they play at San Francisco and then host the Eagles and Rams. Injuries plus that schedule equals trouble.\n\nWhat to make of the QB performance: Athan Kaliakmanis, who was filling in for Mariota, has a big arm and plays with poise, but he's also inexperienced and playing behind a patchwork line. Bad combo. He completed 15 of 33 passes for 186 yards, with a touchdown and an interception. With Mariota injuring the same knee that sidelined him multiple weeks in training camp, the Commanders need to consider signing a veteran to back up Jayden Daniels. However, the line needs to provide more help or it won't matter. -- John Keim\n\nNext game: at Giants (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: With Mariota (knee) and Daniels (elbow dislocation) both injured, the Commanders' offense is in a precarious spot. Kaliakmanis had his moments -- he was 2-of-6 for 95 yards and a touchdown on deep throws -- but he's a raw prospect. If he has to start in Week 5, downgrade the rest of the Commanders' skill position players across the board. -- Cockcroft"
     },
     {
-      "story_id": "50101237",
-      "headline": "Valkyries coach Natalie Nakase adjusting routine after collapse",
-      "summary": "Valkyries coach Natalie Nakase is well enough to coach in the WNBA semifinals but said she is taking steps to deal with her extreme work ethic after she went down on the sideline in the first round.",
-      "image": "https://a.espncdn.com/photo/2026/0818/r1703288_1296x729_16-9.jpg",
-      "published_utc": "2026-10-04T19:23:54Z",
+      "story_id": "50102208",
+      "headline": "Dream All-Star Allisha Gray exits Game 1 with hand injury",
+      "summary": "Dream guard Allisha Gray was ruled out for the remainder of Sunday's semifinal opener with a left hand injury.",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1725915_1296x729_16-9.jpg",
+      "published_utc": "2026-10-04T20:01:13Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
+      "byline": "Alexa Philippou",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50102208/dream-all-star-allisha-gray-exits-game-1-hand-injury",
+      "stream_url": "",
+      "body": "ATLANTA -- Dream guard Allisha Gray was ruled out for the remainder of Sunday's semifinal opener against the Liberty with a left hand injury, the team announced.\n\nGray initially injured her left shooting hand at the end of the first quarter, leaving for the locker room before returning early in the second period with her pinkie and ring finger taped, which she ditched not long after checking back in.\n\nBut with less than four minutes left in the half, Gray appeared to reinjure her hand, departing once more for the locker room and shortly after being ruled out for the remainder of the game.\n\nGray, who scored seven points in 11 minutes, returned to the Dream bench during the third quarter with a splint on her finger.\n\nThe 6-foot-0 guard and four-time All-Star out of South Carolina was the Dream's top scorer this season, averaging 19.0 points, 3.5 rebounds, 2.6 assists and 1.4 steals per game. She was also their top scorer (22.0 PPG) during a first-round sweep of the No. 5 seed Washington Mystics as Atlanta secured its first semifinals berth since 2018."
+    },
+    {
+      "story_id": "50099765",
+      "headline": "Russell: Bahrain Grand Prix was another failure",
+      "summary": "Russell: Bahrain Grand Prix was another failure",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1004/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL.jpg",
+      "published_utc": "2026-10-04T14:25:43Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50101237/valkyries-coach-natalie-nakase-adjusting-routine-collapse",
-      "stream_url": "",
-      "body": "SAN FRANCISCO -- Golden State Valkyries coach Natalie Nakase is well enough to coach Game 1 of the WNBA semifinals Sunday against the Las Vegas Aces after she went down on the sideline two days earlier in the first-round clincher with what she described as exhaustion.\n\n\"Just exhaustion,\" she said. \"I ate and drank right after and felt better.\"\n\nThe 46-year-old Nakase said she was examined by a doctor during Saturday's off day ahead of the series opener and insists she will be \"proactive\" with both her physical and mental health. The players encouraged her to take time for recovery, something she constantly stresses to them.\n\n\"It definitely was like a wake-up call for me, but I got checked through the doctors. Obviously everything looks good,\" she said.\n\nShe is considering wearing a heart monitor and taking other steps to deal with her extreme work ethic. She already wears a tracking ring to monitor some health statistics.\n\n\"Information for me is really important,\" she said. \"I just want to be proactive, be smart. I understand this job for me I love it, sometimes I love it too much to a point I overwork. I just want to make sure I'm being smart.\"\n\nThat might mean \"no extra, extra, extra film\" and sticking to the timeline on a given day.\n\n\"It's taking the time and organizing my mornings,\" she said with changing game times and schedules. \"... Everything's a little bit different with my routine.\"\n\nNakase didn't address the team after the 77-73 win Friday night against the Dallas Wings at Chase Center, when her team rallied from a 16-point deficit.\n\nWith 1:40 remaining in the game, she was on the sideline near the Valkyries' bench and lowered to the floor with her head and hands on the court. Nakase was helped up by athletic trainer Katelin Knox. The coach finished the game but exited the floor immediately following the final buzzer escorted by a member of her staff as her team celebrated at midcourt.\n\nThe best-of-five matchup with the defending WNBA champion Aces features Nakase coaching against Becky Hammon, who had Nakase on her staff as an assistant coach from 2022 to 2024. Las Vegas won consecutive titles in 2022 and 2023.\n\nHammon called Nakase a \"little mighty-mouse workhorse, there's no doubt about that.\"\n\n\"The stress this time of year is real, the pressure. You don't get a lot of sleep, you're not eating as well as you probably should, there's a lot of factors that go into that,\" Hammon said. \"It was kind of scary actually to watch. That little sucker popped right back up though, popped right back up onto that marker and kept it pushing. She's tough.\""
+      "link": "https://www.espn.com/video/clip/_/id/50099765/bahrain-grand-prix-was-another-failure",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1004/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "50102598",
@@ -9083,20 +9097,6 @@
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/50089023/three-bulldogs-combine-brilliant-soccer-style-finish",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1003/dm_261003_AFL_Highlight_Three_Bulldogs_combine_for_brilliant_soccerstyle_finish_20261003_AUS_ONLY/dm_261003_AFL_Highlight_Three_Bulldogs_combine_for_brilliant_soccerstyle_finish_20261003_AUS_ONLY/playlist.m3u8",
-      "body": ""
-    },
-    {
-      "story_id": "50099765",
-      "headline": "Russell: Bahrain Grand Prix was another failure",
-      "summary": "Russell: Bahrain Grand Prix was another failure",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1004/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL.jpg",
-      "published_utc": "2026-10-04T14:25:43Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50099765/bahrain-grand-prix-was-another-failure",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1004/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL/dm_261004_COM_F1_Presser_Russell_Bahrain_Grand_Prix_was_another_failure_20260904_GLOBAL/playlist.m3u8",
       "body": ""
     },
     {
