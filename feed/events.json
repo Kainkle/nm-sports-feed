@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T06:12:29.997540+00:00",
+  "generated_utc": "2026-10-04T06:22:21.326773+00:00",
   "events": [
     {
       "event_id": "nhl:2026020009",
@@ -4857,6 +4857,54 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401860900",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-04T02:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:21",
+        "name": "San Diego State Aztecs",
+        "abbrev": "SDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aztecs",
+          "SDSU",
+          "San Diego St",
+          "San Diego State",
+          "San Diego State Aztecs"
+        ],
+        "color": "a6192e"
+      },
+      "away": {
+        "id": "espn:326",
+        "name": "Texas State Bobcats",
+        "abbrev": "TXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "TXST",
+          "Texas St",
+          "Texas State",
+          "Texas State Bobcats"
+        ],
+        "color": "501214"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Snapdragon Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401856817",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4904,60 +4952,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401860900",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-04T02:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:21",
-        "name": "San Diego State Aztecs",
-        "abbrev": "SDSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
-        "logo_dark": null,
-        "aliases": [
-          "Aztecs",
-          "SDSU",
-          "San Diego St",
-          "San Diego State",
-          "San Diego State Aztecs"
-        ],
-        "color": "a6192e"
-      },
-      "away": {
-        "id": "espn:326",
-        "name": "Texas State Bobcats",
-        "abbrev": "TXST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bobcats",
-          "TXST",
-          "Texas St",
-          "Texas State",
-          "Texas State Bobcats"
-        ],
-        "color": "501214"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Snapdragon Stadium",
-      "detail": "0:32 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856820",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-04T03:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:12",
         "name": "Arizona Wildcats",
@@ -4987,9 +4987,9 @@
         "color": "000000"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Casino Del Sol Stadium",
-      "detail": "3:01 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5036,7 +5036,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Clarence T.C. Ching Athletics Complex",
-      "detail": "5:14 - 3rd Quarter",
+      "detail": "3:20 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
