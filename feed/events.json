@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T02:29:55.601917+00:00",
+  "generated_utc": "2026-10-04T02:40:00.473169+00:00",
   "events": [
     {
       "event_id": "nhl:2026020009",
@@ -3562,7 +3562,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "PPG Paints Arena",
       "detail": "",
       "game_number": 1,
@@ -3654,7 +3654,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -3711,57 +3711,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862788",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-03T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:242",
-        "name": "Rice Owls",
-        "abbrev": "RICE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
-        "logo_dark": null,
-        "aliases": [
-          "Owls",
-          "RICE",
-          "Rice",
-          "Rice Owls"
-        ],
-        "color": "00205b"
-      },
-      "away": {
-        "id": "espn:2636",
-        "name": "UTSA Roadrunners",
-        "abbrev": "UTSA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
-        "logo_dark": null,
-        "aliases": [
-          "Roadrunners",
-          "UTSA",
-          "UTSA Roadrunners"
-        ],
-        "color": "0c2340"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "First Community Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401869942",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-03T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:324",
         "name": "Coastal Carolina Chanticleers",
@@ -3793,54 +3748,8 @@
         "color": "041e42"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Brooks Stadium (SC)",
-      "detail": "0:57 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401871089",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-03T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:6",
-        "name": "South Alabama Jaguars",
-        "abbrev": "USA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jaguars",
-          "South Alabama",
-          "South Alabama Jaguars",
-          "USA"
-        ],
-        "color": "00205b"
-      },
-      "away": {
-        "id": "espn:2433",
-        "name": "UL Monroe Warhawks",
-        "abbrev": "ULM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-        "logo_dark": null,
-        "aliases": [
-          "UL Monroe",
-          "UL Monroe Warhawks",
-          "ULM",
-          "Warhawks"
-        ],
-        "color": "840029"
-      },
-      "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "Hancock Whitney Stadium",
+      "venue": "Brooks Stadium (SC)",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -3940,6 +3849,97 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401862788",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:242",
+        "name": "Rice Owls",
+        "abbrev": "RICE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+        "logo_dark": null,
+        "aliases": [
+          "Owls",
+          "RICE",
+          "Rice",
+          "Rice Owls"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:2636",
+        "name": "UTSA Roadrunners",
+        "abbrev": "UTSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+        "logo_dark": null,
+        "aliases": [
+          "Roadrunners",
+          "UTSA",
+          "UTSA Roadrunners"
+        ],
+        "color": "0c2340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "First Community Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871089",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-03T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:6",
+        "name": "South Alabama Jaguars",
+        "abbrev": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jaguars",
+          "South Alabama",
+          "South Alabama Jaguars",
+          "USA"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:2433",
+        "name": "UL Monroe Warhawks",
+        "abbrev": "ULM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+        "logo_dark": null,
+        "aliases": [
+          "UL Monroe",
+          "UL Monroe Warhawks",
+          "ULM",
+          "Warhawks"
+        ],
+        "color": "840029"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Hancock Whitney Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020029",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -4021,9 +4021,9 @@
         "color": "f47423"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Clemson, SC)",
-      "detail": "End of 3rd Quarter",
+      "detail": "12:47 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4069,7 +4069,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Folsom Field",
-      "detail": "9:28 - 4th Quarter",
+      "detail": "7:10 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4114,7 +4114,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "9:36 - 4th Quarter",
+      "detail": "7:12 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4161,7 +4161,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "8:27 - 4th Quarter",
+      "detail": "4:19 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4207,7 +4207,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Raymond James Stadium",
-      "detail": "3:08 - 4th Quarter",
+      "detail": "0:51 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4253,7 +4253,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joe Aillet Stadium",
-      "detail": "3:52 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4298,7 +4298,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Tiger Stadium (LA)",
-      "detail": "0:45 - 3rd Quarter",
+      "detail": "13:56 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4348,7 +4348,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-04T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:18",
         "name": "Nashville Predators",
@@ -4378,7 +4378,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Bridgestone Arena",
       "detail": "",
       "game_number": 1,
@@ -4424,7 +4424,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Grand Casino Arena",
       "detail": "",
       "game_number": 1,
@@ -4472,7 +4472,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "SHI Stadium",
-      "detail": "3:02 - 3rd Quarter",
+      "detail": "12:26 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4519,7 +4519,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Our Lady of Lourdes Stadium",
-      "detail": "11:48 - 4th Quarter",
+      "detail": "5:38 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4659,7 +4659,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Martin Stadium",
-      "detail": "13:55 - 2nd Quarter",
+      "detail": "9:27 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4765,7 +4765,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-04T02:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:9",
         "name": "Arizona State Sun Devils",
@@ -4796,9 +4796,9 @@
         "color": "154734"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Mountain America Stadium",
-      "detail": "Sat, October 3rd at 10:30 PM EDT",
+      "detail": "14:13 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8751,6 +8751,20 @@
   ],
   "stories": [
     {
+      "story_id": "50096176",
+      "headline": "Utah Mammoth vs. Columbus Blue Jackets: Game Highlights",
+      "summary": "Utah Mammoth vs. Columbus Blue Jackets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/cc841db5-e216-4bd1-b706-26ad5ffea875/cc841db5-e216-4bd1-b706-26ad5ffea875.jpg",
+      "published_utc": "2026-10-04T02:37:16Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50096176/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1004/cc841db5-e216-4bd1-b706-26ad5ffea875/cc841db5-e216-4bd1-b706-26ad5ffea875/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50090503",
       "headline": "2026 MLB division series Day 1: Live updates, lineups, analysis",
       "summary": "All eight teams are in action Saturday, with three games down and one to go. Which clubs will come out strong?",
@@ -8779,25 +8793,11 @@
       "body": "ESPN's weekly wide receiver fantasy football rankings are an aggregate of our eight rankers. Listed alphabetically, they are Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.\n\nRankings for the week will be published every Tuesday and weigh the player's skills and role in the offense, as well as the quality of that week's matchup, and are updated throughout the week for news and emerging analysis."
     },
     {
-      "story_id": "50095897",
-      "headline": "Lightning beat the Capitals 3-1 in home opener",
-      "summary": "\u2014 Andrei Vasilevskiy made 19 saves, Charle-Edouard D'Astous and Conor Geekie scored in the first period and the Tampa Bay Lightning won their home opener with a 3-1 victory over the Washington Capitals on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401891826.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-04T02:03:31Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401891826",
-      "stream_url": "",
-      "body": "TAMPA, Fla. -- \u2014 Andrei Vasilevskiy made 19 saves, Charle-Edouard D'Astous and Conor Geekie scored in the first period and the Tampa Bay Lightning won their home opener with a 3-1 victory over the Washington Capitals on Saturday night.\n\n\r\nBrandon Hagel had two assists for the Lightning, and Jake Guentzel scored into an empty net and had an assist. Tampa Bay opened play Thursday night in New York with a 5-1 loss to the Rangers.\n\n\r\nCharlie Lindgren finished with 27 saves for Washington. Justin Sourdif scored for the Capitals.\n\n\r\nD'Astous put Tampa Bay up 1-0 at 2:26 of the opening period as he cut down from the point into the middle slot to take a pass from Brandon Hagel and zipped a wrist shot past Lindgren.\n\n\r\nThe Lightning finished off the period with a goal from Geekie, who was off the right wing side to take a pass from Hagel for a quick shot to the inside of the post with 3:30 top go for a 2-0 lead.\n\n\r\nThe Capitals, who opened Friday with a win in Carolina, cut the deficit in half in the second period on a redirect from Sourdif off a point shot from Jacob Chychurn.\n\n\r\nGuentzel scored with 2:05 left in the third.\n\n\r\nWashington played the third period without defenseman Matt Roy, who suffered a lower-body injury and did not return.\n\n\r\nTampa Bay defenseman John Carlson, who spent 17 seasons with the Capitals, played his first career game against Washington, picking up an assist on the empty-net goal.\n\n\r\nUp next\r\nCapitals: Host Pittsburgh on Wednesday night.\n\n\r\nLightning: Host Philadelphia on Monday night.\n\n\r\n------ See AP\u2019s full NHL coverage here"
-    },
-    {
       "story_id": "50068663",
       "headline": "UFC 332: Live results, analysis for Silva vs. Wang",
       "summary": "Natalia Silva and Wang Cong clash for the vacant women's flyweight title at the Delta Center in Salt Lake City.",
       "image": "https://a.espncdn.com/photo/2026/0930/r1723967_1296x729_16-9.jpg",
-      "published_utc": "2026-10-04T01:23:49Z",
+      "published_utc": "2026-10-04T02:05:29Z",
       "competition_id": "ufc",
       "competition_name": "UFC",
       "byline": "ESPN Staff",
@@ -8919,6 +8919,20 @@
       "body": "Chris Clancy was one of thousands of Newcastle Knights fans who lined the streets to farewell his team as they travelled to Sydney for the grand final.\n\nBut he was left injured, along with nine other people, when a car driven by an 18-year-old P-plater careered into a crowd gathered on the side of the road near a major roundabout.\n\nMr Clancy was with his nephews waiting to cheer the Knights when disaster struck on Saturday.\n\n\"We're there at the roundabout having fun -- cars going past, beeping their horns, people waving,\" he told AAP.\n\n\"The next thing, this car stops (at) the roundabout and then he just floored it on the wet ground, lost it.\n\n\"It happened in seconds, but when you stand there, seeing the car coming at you, I honestly thought I was going to die. It just felt like slow motion.\"\n\nMr Clancy suffered small fractures in his ribs and spine and a broken collarbone.\n\nIn addition, his foot was injured after the car ran over it while the motorist was allegedly trying to drive away.\n\n\"I dragged myself across the ground because I couldn't stand at the time, trying to get my foot out, which luckily I did,\" Mr Clancy said.\n\nThe driver was taken to hospital for mandatory testing and subsequently charged with nine offences, including dangerous driving occasioning grievous bodily harm, negligent driving and causing bodily harm by misconduct.\n\nHe was refused bail and is due to appear in court on Sunday.\n\nPolice said two other people in the car were escorted from the crash scene after the crowd turned on them.\n\nInvestigators did not believe the incident was deliberate but declined to comment on reports the vehicle was being driven erratically before the crash.\n\nAt least seven people remain at John Hunter Hospital with injuries caused by the collision.\n\nThey include a five-year-old girl who was placed into an induced coma with critical injuries, although her condition has stabilised.\n\nA 67-year-old man was also hospitalised in a serious but stable condition.\n\nMr Clancy expressed gratitude to those who provided help after the accident, including a woman who stayed with him and his nephews and took his car home for him, and a man who pushed his nephew Thomas out of harm's way.\n\nSeveral Knights players sent him their well-wishes via social media, including club captain Kalyn Ponga.\n\n\"All the best with the recovery mate! The team and community are with yas (sic),\" he wrote.\n\nKnights chief executive Peter Parr expressed deep concern for those impacted by the crash.\n\n\"Newcastle is a strong community,\" he said.\n\n\"We have seen that strength throughout this week and today we need to draw on it again with compassion, care and support for those who need it most,\" he said.\n\nA diehard Knights supporter who has had season tickets for several years, Mr Clancy told doctors they could operate on his collarbone as long as it didn't clash with his team's grand final face-off with the Sydney Roosters on Sunday night.\n\n\"Either way, the guys have done our town proud,\" he said."
     },
     {
+      "story_id": "50096109",
+      "headline": "Ottawa Senators vs. Toronto Maple Leafs: Game Highlights",
+      "summary": "Ottawa Senators vs. Toronto Maple Leafs: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/ce64d297-1007-4a47-aed1-f724f81b703d/ce64d297-1007-4a47-aed1-f724f81b703d.jpg",
+      "published_utc": "2026-10-04T02:31:23Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50096109/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1004/ce64d297-1007-4a47-aed1-f724f81b703d/ce64d297-1007-4a47-aed1-f724f81b703d/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50095644",
       "headline": "Rasmussen nearly perfect vs. Yankees as Rays take ALDS Game 1",
       "summary": "Drew Rasmussen and Bryan Baker pitched a one-hit game Saturday night as the Rays shut down the Yankees' offense to take Game 1 of their ALDS series.",
@@ -8945,20 +8959,6 @@
       "link": "https://www.espn.com/fantasy/football/story/_/id/49803708/fantasy-football-superflex-rankings-2026-qb-rb-wr-te",
       "stream_url": "",
       "body": "Welcome to Week 4 of the 2026 NFL season and our weekly PPR fantasy football superflex rankings. We know many of you compete in superflex formats that invite/covet second quarterbacks in starting lineups, and these rankings account for that. It might look odd to see the lowest-ranked fantasy passers ahead of typical RB2 and WR2 options, but the potential scoring impact demands it.\n\nIf your league is a standard flex, note that rankings without QBs appear below the superflex rankings. However you prefer to play, good luck this week!\n\nThese ranks have been refreshed to take out players from Thursday's Steelers-Browns game.\n\nWeek 4 superflex rankings (includes quarterbacks)\n1. Jahmyr Gibbs, RB1 @ CAR\n\nSix touchdowns in three games is quite the feat. It's LaDainian Tomlinson stuff (2006).\n2. Jaxon Smith-Njigba, WR1 vs LAC\n\nThe league leader in fantasy points seems unstoppable, regardless of matchup.\n3. Josh Allen, QB1 vs NE\n\nHe has rushed for two touchdowns in each game. Can the Patriots stop him?\n4. Bijan Robinson, RB2 @ NO\n\nHe has scored more than 30 points in two of three games.\n5. Lamar Jackson, QB2 vs TEN\n\nThe 50 rushing yards from the Week 3 win are a terrific sign.\n6. Ja'Marr Chase, WR2 vs JAX\n\n7. Amon-Ra St. Brown, WR3 @ CAR\n\n8. Puka Nacua, WR4 @ PHI\n\n9. Jonathan Taylor, RB3 @ WSH\n\nMore than 20 touches each week, which is nice when he doesn't score a TD or two.\n10. Derrick Henry, RB4 vs TEN\n\nYou know he always wants to shine against his former Titans teammates.\n11. Kenneth Walker III, RB5 @ LV\n\nThe volume was down a bit, but he scores TDs. Note: Chiefs are on a bye in Week 5. Plan ahead!\n12. Christian McCaffrey, RB6 vs DEN\n\nThe 49ers are keeping his volume well in check. It's a tough matchup with the Broncos this week.\n13. Brock Purdy, QB3 vs DEN\n\n14. Patrick Mahomes, QB4 @ LV\n\n15. Tyler Shough, QB5 vs ATL\n\n16. Trevor Lawrence, QB6 @ CIN\n\nHis investors could have used the rushing TD he gave to a teammate on Sunday.\n17. Chris Olave, WR5 vs ATL\n\n18. Ashton Jeanty, RB7 vs KC\n\n19. James Cook III, RB8 vs NE\n\nThe argument that his QB steals the rushing TDs doesn't work. Cook is great.\n20. Jalen Hurts, QB7 vs LAR\n\nMild concern over a disappointing Monday effort. The Rams visit Philly Sunday. That's not great, either.\n21. Joe Burrow, QB8 vs JAX\n\n22. Bryce Young, QB9 vs DET\n\n23. Matthew Stafford, QB10 @ PHI\n\nIf a third-string QB can light up the Eagles, what do you think Stafford can do?\n24. CeeDee Lamb, WR6 @ HOU\n\nSome may try to fade top Cowboys against the Texans, but that is a mistake.\n25. Drake London, WR7 @ NO\n\nAny worries about his production ended in Week 3. London dominated the Packers.\n26. Marcus Mariota, QB11 vs IND\n\nOne of the best backups in the business remains a solid investment this week.\n27. Kyler Murray, QB12 vs MIA\n\nThe matchup with Miami -- not his play -- drives this aggressive projection.\n28. Chuba Hubbard, RB9 vs DET\n\n29. Jeremiyah Love, RB10 @ NYG\n\n30. Bucky Irving, RB11 vs GB\n\nThis team is a bit of a mess, and the QB is hurt, but Irving gets his touches.\n31. Chase Brown, RB12 vs JAX\n\nRelatively slow start for him, but the volume is there. It's a good time to trade for him.\n32. Aaron Jones Sr., RB13 vs MIA\n\nSo much volume lately, by design, and a solid matchup with the Dolphins this week.\n33. Jared Goff, QB13 @ CAR\n\n34. Dak Prescott, QB14 @ HOU\n\n35. Bo Nix, QB15 @ SF\n\n36. Trey McBride, TE1 @ NYG\n\n37. Brock Bowers, TE2 vs KC\n\nHis fantastic season debut evokes memories of his rookie season. Just. Stay. Healthy.\n38. Sam Darnold, QB16 vs LAC\n\nHe won't throw for 379 yards regularly, but then again, he has the best WR.\n39. Drake Maye, QB17 @ BUF\n\nYou certainly have our permission to play a different QB. Try to keep him rostered, though.\n40. Garrett Wilson, WR8 @ CHI\n\n41. Nico Collins, WR9 vs DAL\n\n42. Zay Flowers, WR10 vs TEN\n\nModest snaps in Week 3, but the Ravens say a full workload is pending this week.\n43. Parker Washington, WR11 @ CIN\n\nThis is the No. 10 fantasy WR entering Week 4. Yes, you should be relying on him.\n44. Davante Adams, WR12 @ PHI\n\nPerhaps his value is tied to Puka Nacua's absence, but he's still a weekly play.\n45. C.J. Stroud, QB18 vs DAL\n\nThe matchup with the Cowboys drives a better projection than he deserves.\n46. Jacoby Brissett, QB19 @ NYG\n\n47. Geno Smith, QB20 @ CHI\n\n48. Daniel Jones, QB21 @ WSH\n\n49. Jordan Love, QB22 @ TB\n\nIf the Packers can't run the ball, perhaps Love does throw 40 times per game.\n50. Kyren Williams, RB14 @ PHI\n\nThe touchdowns will be there, and we love the receiving work so far.\n51. Saquon Barkley, RB15 vs LAR\n\nGreat first half on Monday! Then the Eagles stopped running the ball. Odd.\n52. Cam Skattebo, RB16 vs ARI\n\nIf he can stay healthy with 20 touches per week, we are all for it.\n53. Javonte Williams, RB17 @ HOU\n\n54. D'Andre Swift, RB18 vs NYJ\n\n55. Tetairoa McMillan, WR13 vs DET\n\nOne would think the Panthers will throw on the Lions. If not, we may worry.\n56. Rashee Rice, WR14 @ LV\n\nEight targets the first two games, then nine in Week 3. That's more like it.\n57. Christian Watson, WR15 @ TB\n\nHe is playing like a top-10 WR. He needs to turn more targets into receptions.\n58. Jordan Addison, WR16 vs MIA\n\n59. Michael Penix Jr., QB23 @ NO\n\nModest numbers in his first action, but others around him thrived. Penix is capable of more.\n60. George Pickens, WR17 @ HOU\n\nSlow start, but there were positive signs in Week 3. Keep relying on him.\n61. Tee Higgins, WR18 vs JAX\n\n62. George Kittle, TE3 vs DEN\n\n63. Tyler Warren, TE4 @ WSH\n\n64. Kirk Cousins, QB24 vs KC\n\n65. Justin Herbert, QB25 @ SEA\n\n66. Tyson Bagent, QB26 vs NYJ\n\n67. Jameis Winston, QB27 vs ARI\n\n68. Josh Downs, WR19 @ WSH\n\n69. Malik Nabers, WR20 vs ARI\n\n70. Michael Wilson, WR21 @ NYG\n\n71. Bhayshul Tuten, RB19 @ CIN\n\n72. David Montgomery, RB20 vs DAL\n\n73. Cam Ward, QB28 @ BAL\n\n74. Malik Willis, QB29 @ MIN\n\n75. Travis Kelce, TE5 @ LV\n\n76. Sam LaPorta, TE6 @ CAR\n\n77. Jalon Daniels, QB30 vs GB\n\n78. Matthew Golden, WR22 @ TB\n\n79. DJ Moore, WR23 vs NE\n\n80. Jaylen Waddle, WR24 @ SF\n\n81. Ladd McConkey, WR25 @ SEA\n\n82. Mike Evans, WR26 vs DEN\n\n83. Carnell Tate, WR27 @ BAL\n\n84. Luther Burden III, WR28 vs NYJ\n\n85. Stefon Diggs, WR29 vs IND\n\n86. Emeka Egbuka, WR30 vs GB\n\n87. Braelon Allen, RB21 @ CHI\n\n88. Omarion Hampton, RB22 @ SEA\n\n89. Tony Pollard, RB23 @ BAL\n\n90. J.K. Dobbins, RB24 @ SF\n\n91. Jameson Williams, WR31 @ CAR\n\n92. Jakobi Meyers, WR32 @ CIN\n\n93. Rhamondre Stevenson, RB25 @ BUF\n\n94. TreVeyon Henderson, RB26 @ BUF\n\n95. Juwan Johnson, TE7 vs ATL\n\n96. Isaiah Likely, TE8 vs ARI\n\n97. Deebo Samuel Sr., WR33 vs DEN\n\n98. Devaughn Vele, WR34 vs ATL\n\n99. Ollie Gordon II, RB27 @ MIN\n\n100. RJ Harvey, RB28 @ SF\n\n101. Alvin Kamara, RB29 vs ATL\n\n102. Courtland Sutton, WR35 @ SF\n\n103. Rome Odunze, WR36 vs NYJ\n\n104. Dalton Kincaid, TE9 vs NE\n\n105. Kenyon Sadiq, TE10 @ CHI\n\n106. Mark Andrews, TE11 vs TEN\n\n107. Dalton Schultz, TE12 vs DAL\n\n108. Malik Washington, WR37 @ MIN\n\n109. Dontayvion Wicks, WR38 vs LAR\n\n110. Khalil Shakir, WR39 vs NE\n\n111. Jauan Jennings, WR40 vs MIA\n\n112. Xavier Worthy, WR41 @ LV\n\n113. Jacory Croskey-Merritt, RB30 vs IND\n\n114. Kyle Monangai, RB31 vs NYJ\n\n115. Emanuel Wilson, RB32 vs LAC\n\n116. Romeo Doubs, WR42 @ BUF\n\n117. Kalif Raymond, WR43 vs NYJ\n\n118. Colston Loveland, TE13 vs NYJ\n\n119. Hunter Henry, TE14 @ BUF\n\n120. Mack Hollins, WR44 @ BUF\n\n121. Wan'Dale Robinson, WR45 @ BAL\n\n122. Tre Tucker, WR46 vs KC\n\n123. Tre' Harris, WR47 @ SEA\n\n124. Woody Marks, RB33 vs DAL\n\n125. Makai Lemon, WR48 vs LAR\n\n126. Ryan Flournoy, WR49 @ HOU\n\n127. DeMario Douglas, WR50 @ BUF\n\n128. Quentin Johnston, WR51 @ SEA\n\n129. Brian Thomas Jr., WR52 @ CIN\n\n130. Rashid Shaheed, WR53 vs LAC\n\n131. Kenny Gainwell, RB34 vs GB\n\n132. Isaiah Davis, RB35 @ CHI\n\n133. Kendre Miller, RB36 vs ATL\n\n134. Jaylen Wright, RB37 @ MIN\n\n135. Austin Ekeler, RB38 vs IND\n\n136. George Holani, RB39 vs LAC\n\n137. Rashod Bateman, WR54 vs TEN\n\n138. Malachi Fields, WR55 vs ARI\n\n139. Chris Bell, WR56 @ MIN\n\n140. Xavier Hutchinson, WR57 vs DAL\n\n141. Jalen Nailor, WR58 vs KC\n\n142. Antonio Williams, WR59 vs IND\n\n143. Cooper Kupp, WR60 vs LAC\n\n144. Chris Godwin Jr., WR61 vs GB\n\n145. Marvin Harrison Jr., WR62 @ NYG\n\n146. Skyy Moore, WR63 @ TB\n\n147. Isaac TeSlaa, WR64 @ CAR\n\n148. Ted Hurst III, WR65 vs GB\n\n149. Keon Coleman, WR66 vs NE\n\n150. Jahan Dotson, WR67 @ NO\n\nFlex Rankings (no quarterbacks)\n1. Jahmyr Gibbs, RB1 @ CAR\n\nSix touchdowns in three games is quite the feat. It's LaDainian Tomlinson stuff (2006).\n2. Jaxon Smith-Njigba, WR1 vs LAC\n\nThe league leader in fantasy points seems unstoppable, regardless of matchup.\n3. Bijan Robinson, RB2 @ NO\n\nHe has scored more than 30 points in two of three games.\n4. Ja'Marr Chase, WR2 vs JAX\n\n5. Amon-Ra St. Brown, WR3 @ CAR\n\n6. Puka Nacua, WR4 @ PHI\n\n7. Jonathan Taylor, RB3 @ WSH\n\nMore than 20 touches each week, which is nice when he doesn't score a TD or two.\n8. Derrick Henry, RB4 vs TEN\n\nYou know he always wants to shine against his former Titans teammates.\n9. Kenneth Walker III, RB5 @ LV\n\nThe volume was down a bit, but he scores TDs. Note: Chiefs are on a bye in Week 5. Plan ahead!\n10. Christian McCaffrey, RB6 vs DEN\n\nThe 49ers are keeping his volume well in check. It's a tough matchup with the Broncos this week.\n11. Chris Olave, WR5 vs ATL\n\n12. Ashton Jeanty, RB7 vs KC\n\n13. James Cook III, RB8 vs NE\n\nThe argument that his QB steals the rushing TDs doesn't work. Cook is great.\n14. CeeDee Lamb, WR6 @ HOU\n\nSome may try to fade top Cowboys against the Texans, but that is a mistake.\n15. Drake London, WR7 @ NO\n\nAny worries about his production ended in Week 3. London dominated the Packers.\n16. Chuba Hubbard, RB9 vs DET\n\n17. Jeremiyah Love, RB10 @ NYG\n\n18. Bucky Irving, RB11 vs GB\n\nThis team is a bit of a mess, and the QB is hurt, but Irving gets his touches.\n19. Chase Brown, RB12 vs JAX\n\nRelatively slow start for him, but the volume is there. It's a good time to trade for him.\n20. Aaron Jones Sr., RB13 vs MIA\n\nSo much volume lately, by design, and a solid matchup with the Dolphins this week.\n21. Trey McBride, TE1 @ NYG\n\n22. Brock Bowers, TE2 vs KC\n\nHis fantastic season debut evokes memories of his rookie season. Just. Stay. Healthy.\n23. Garrett Wilson, WR8 @ CHI\n\n24. Nico Collins, WR9 vs DAL\n\n25. Zay Flowers, WR10 vs TEN\n\nModest snaps in Week 3, but the Ravens say a full workload is pending this week.\n26. Parker Washington, WR11 @ CIN\n\nThis is the No. 10 fantasy WR entering Week 4. Yes, you should be relying on him.\n27. Davante Adams, WR12 @ PHI\n\nPerhaps his value is tied to Puka Nacua's absence, but he's still a weekly play.\n28. Kyren Williams, RB14 @ PHI\n\nThe touchdowns will be there, and we love the receiving work so far.\n29. Saquon Barkley, RB15 vs LAR\n\nGreat first half on Monday! Then the Eagles stopped running the ball. Odd.\n30. Cam Skattebo, RB16 vs ARI\n\nIf he can stay healthy with 20 touches per week, we are all for it.\n31. Javonte Williams, RB17 @ HOU\n\n32. D'Andre Swift, RB18 vs NYJ\n\n33. Tetairoa McMillan, WR13 vs DET\n\nOne would think the Panthers will throw on the Lions. If not, we may worry.\n34. Rashee Rice, WR14 @ LV\n\nEight targets the first two games, then nine in Week 3. That's more like it.\n35. Christian Watson, WR15 @ TB\n\nHe is playing like a top-10 WR. He needs to turn more targets into receptions.\n36. Jordan Addison, WR16 vs MIA\n\n37. George Pickens, WR17 @ HOU\n\nSlow start, but there were positive signs in Week 3. Keep relying on him.\n38. Tee Higgins, WR18 vs JAX\n\n39. George Kittle, TE3 vs DEN\n\n40. Tyler Warren, TE4 @ WSH\n\n41. Josh Downs, WR19 @ WSH\n\n42. Malik Nabers, WR20 vs ARI\n\n43. Michael Wilson, WR21 @ NYG\n\n44. Bhayshul Tuten, RB19 @ CIN\n\n45. David Montgomery, RB20 vs DAL\n\n46. Travis Kelce, TE5 @ LV\n\n47. Sam LaPorta, TE6 @ CAR\n\n48. Matthew Golden, WR22 @ TB\n\n49. DJ Moore, WR23 vs NE\n\n50. Jaylen Waddle, WR24 @ SF\n\n51. Ladd McConkey, WR25 @ SEA\n\n52. Mike Evans, WR26 vs DEN\n\n53. Carnell Tate, WR27 @ BAL\n\n54. Luther Burden III, WR28 vs NYJ\n\n55. Stefon Diggs, WR29 vs IND\n\n56. Emeka Egbuka, WR30 vs GB\n\n57. Braelon Allen, RB21 @ CHI\n\n58. Omarion Hampton, RB22 @ SEA\n\n59. Tony Pollard, RB23 @ BAL\n\n60. J.K. Dobbins, RB24 @ SF\n\n61. Jameson Williams, WR31 @ CAR\n\n62. Jakobi Meyers, WR32 @ CIN\n\n63. Rhamondre Stevenson, RB25 @ BUF\n\n64. TreVeyon Henderson, RB26 @ BUF\n\n65. Juwan Johnson, TE7 vs ATL\n\n66. Isaiah Likely, TE8 vs ARI\n\n67. Deebo Samuel Sr., WR33 vs DEN\n\n68. Devaughn Vele, WR34 vs ATL\n\n69. Ollie Gordon II, RB27 @ MIN\n\n70. RJ Harvey, RB28 @ SF\n\n71. Alvin Kamara, RB29 vs ATL\n\n72. Courtland Sutton, WR35 @ SF\n\n73. Rome Odunze, WR36 vs NYJ\n\n74. Dalton Kincaid, TE9 vs NE\n\n75. Kenyon Sadiq, TE10 @ CHI\n\n76. Mark Andrews, TE11 vs TEN\n\n77. Dalton Schultz, TE12 vs DAL\n\n78. Malik Washington, WR37 @ MIN\n\n79. Dontayvion Wicks, WR38 vs LAR\n\n80. Khalil Shakir, WR39 vs NE\n\n81. Jauan Jennings, WR40 vs MIA\n\n82. Xavier Worthy, WR41 @ LV\n\n83. Jacory Croskey-Merritt, RB30 vs IND\n\n84. Kyle Monangai, RB31 vs NYJ\n\n85. Emanuel Wilson, RB32 vs LAC\n\n86. Romeo Doubs, WR42 @ BUF\n\n87. Kalif Raymond, WR43 vs NYJ\n\n88. Colston Loveland, TE13 vs NYJ\n\n89. Hunter Henry, TE14 @ BUF\n\n90. Mack Hollins, WR44 @ BUF\n\n91. Wan'Dale Robinson, WR45 @ BAL\n\n92. Tre Tucker, WR46 vs KC\n\n93. Tre' Harris, WR47 @ SEA\n\n94. Woody Marks, RB33 vs DAL\n\n95. Makai Lemon, WR48 vs LAR\n\n96. Ryan Flournoy, WR49 @ HOU\n\n97. DeMario Douglas, WR50 @ BUF\n\n98. Quentin Johnston, WR51 @ SEA\n\n99. Brian Thomas Jr., WR52 @ CIN\n\n100. Rashid Shaheed, WR53 vs LAC\n\n101. Kenny Gainwell, RB34 vs GB\n\n102. Isaiah Davis, RB35 @ CHI\n\n103. Kendre Miller, RB36 vs ATL\n\n104. Jaylen Wright, RB37 @ MIN\n\n105. Austin Ekeler, RB38 vs IND\n\n106. George Holani, RB39 vs LAC\n\n107. Rashod Bateman, WR54 vs TEN\n\n108. Malachi Fields, WR55 vs ARI\n\n109. Chris Bell, WR56 @ MIN\n\n110. Xavier Hutchinson, WR57 vs DAL\n\n111. Jalen Nailor, WR58 vs KC\n\n112. Antonio Williams, WR59 vs IND\n\n113. Cooper Kupp, WR60 vs LAC\n\n114. Chris Godwin Jr., WR61 vs GB\n\n115. Marvin Harrison Jr., WR62 @ NYG\n\n116. Skyy Moore, WR63 @ TB\n\n117. Isaac TeSlaa, WR64 @ CAR\n\n118. Ted Hurst III, WR65 vs GB\n\n119. Keon Coleman, WR66 vs NE\n\n120. Jahan Dotson, WR67 @ NO"
-    },
-    {
-      "story_id": "50095871",
-      "headline": "Chicago Blackhawks vs. Buffalo Sabres: Game Highlights",
-      "summary": "Chicago Blackhawks vs. Buffalo Sabres: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/8633be11-3c6a-4e6e-9338-19e4b170aa30/8633be11-3c6a-4e6e-9338-19e4b170aa30.jpg",
-      "published_utc": "2026-10-04T01:58:48Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50095871/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1004/8633be11-3c6a-4e6e-9338-19e4b170aa30/8633be11-3c6a-4e6e-9338-19e4b170aa30/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "50078625",
