@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T01:38:46.035816+00:00",
+  "generated_utc": "2026-10-04T01:48:54.815675+00:00",
   "events": [
     {
       "event_id": "nhl:2026020009",
@@ -3348,7 +3348,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:7",
         "name": "Buffalo Sabres",
@@ -3378,7 +3378,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "KeyBank Center",
       "detail": "",
       "game_number": 1,
@@ -3424,7 +3424,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Scotiabank Arena",
       "detail": "",
       "game_number": 1,
@@ -3440,7 +3440,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:14",
         "name": "Tampa Bay Lightning",
@@ -3470,7 +3470,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -3486,7 +3486,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:4",
         "name": "Philadelphia Flyers",
@@ -3516,7 +3516,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Xfinity Mobile Arena",
       "detail": "",
       "game_number": 1,
@@ -3578,7 +3578,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:29",
         "name": "Columbus Blue Jackets",
@@ -3608,7 +3608,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Nationwide Arena",
       "detail": "",
       "game_number": 1,
@@ -3624,7 +3624,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-03T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:22",
         "name": "Edmonton Oilers",
@@ -3654,7 +3654,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -3670,7 +3670,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-03T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:28",
         "name": "Toronto Raptors",
@@ -3700,9 +3700,9 @@
         "color": "98002e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/End of Period",
+      "source_status": "post/Final",
       "venue": "Videotron Centre",
-      "detail": "End of 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3746,7 +3746,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Amon G. Carter Stadium",
-      "detail": "9:53 - 4th Quarter",
+      "detail": "3:46 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3792,7 +3792,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kyle Field",
-      "detail": "11:29 - 4th Quarter",
+      "detail": "8:07 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3837,7 +3837,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "First Community Stadium",
-      "detail": "13:29 - 4th Quarter",
+      "detail": "9:19 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3885,7 +3885,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Brooks Stadium (SC)",
-      "detail": "14:52 - 4th Quarter",
+      "detail": "11:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3931,7 +3931,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hancock Whitney Stadium",
-      "detail": "15:00 - 3rd Quarter",
+      "detail": "13:06 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4021,9 +4021,9 @@
         "color": "f47423"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Clemson, SC)",
-      "detail": "Halftime",
+      "detail": "13:38 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4069,7 +4069,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Folsom Field",
-      "detail": "10:33 - 3rd Quarter",
+      "detail": "7:39 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4114,7 +4114,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "13:30 - 3rd Quarter",
+      "detail": "9:53 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4161,7 +4161,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "8:54 - 3rd Quarter",
+      "detail": "4:19 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4207,7 +4207,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Raymond James Stadium",
-      "detail": "8:33 - 3rd Quarter",
+      "detail": "4:08 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4253,7 +4253,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joe Aillet Stadium",
-      "detail": "11:39 - 3rd Quarter",
+      "detail": "6:07 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4296,9 +4296,9 @@
         "color": "00529C"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Tiger Stadium (LA)",
-      "detail": "Halftime",
+      "detail": "14:53 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4517,9 +4517,9 @@
         "color": "cc092f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Our Lady of Lourdes Stadium",
-      "detail": "Halftime",
+      "detail": "13:02 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4625,7 +4625,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-04T01:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:265",
         "name": "Washington State Cougars",
@@ -4657,9 +4657,9 @@
         "color": "b1102b"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Martin Stadium",
-      "detail": "Sat, October 3rd at 9:30 PM EDT",
+      "detail": "13:25 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8711,18 +8711,18 @@
   ],
   "stories": [
     {
-      "story_id": "50090503",
-      "headline": "2026 MLB division series Day 1: Live updates, lineups, analysis",
-      "summary": "All eight teams are in action Saturday, with two games down and two to go. Which clubs will come out strong?",
-      "image": "https://a.espncdn.com/photo/2026/1003/r1725424_608x342_16-9.jpg",
-      "published_utc": "2026-10-04T01:25:56Z",
+      "story_id": "50095710",
+      "headline": "New York Yankees vs. Tampa Bay Rays: Game Highlights",
+      "summary": "New York Yankees vs. Tampa Bay Rays: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1004/f394ffef-af0d-47a9-9817-4882f73f6f29/f394ffef-af0d-47a9-9817-4882f73f6f29.jpg",
+      "published_utc": "2026-10-04T01:45:52Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
-      "byline": "ESPN",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50090503/2026-mlb-division-series-day-1-updates-lineups-analysis",
-      "stream_url": "",
-      "body": "It's Day 1 of the MLB division series!\n\nThe Chicago White Sox started the four-game Day 1 off by shutting out the Cleveland Guardians. Then, in the second game of the day Tarik Skubal helped the Los Angeles Dodgers to a 5-3 win over the Atlanta Braves. The Tampa Bay Rays downed the New York Yankees behind a dominant performance from ace Drew Rasmussen.\n\nIn the final game of the night, the San Diego Padres are taking on the No. 1 overall seed Milwaukee Brewers.\n\nWe've got you covered with pregame lineups, sights and sounds from the ballparks and postgame takeaways as each Day 1 matchup ends.\n\nKey links: Mega-preview | Predictions | Bracket | Schedule\n\nJump to:\n\nCHW-CLE | ATL-LAD | NYY-TB | SD-MIL\n\nSights and sounds\nWe have all the best moments from the ballparks as the division series begins.\n\nPadres-Brewers\n\nFollow live with pitch-by-pitch coverage\n\nChourio ties it up for the Brewers\n\nPadres add to their early lead\n\nPadres strike first in Milwaukee\n\nMiz is bringing the heat\n\nTakeaways\n\nTampa Bay Rays 1, New York Yankees 0\nTampa Bay leads series 1-0\n\nIt was over when ... Jonathan Aranda swatted a 2-2 changeup from Gerrit Cole over the right-field wall in the third inning. It was just a solo home run. The Yankees had six innings to match it. But they couldn't because Drew Rasmussen was that good. New York mustered just ONE HIT and two walks against the right-hander over eight innings before Bryan Baker slammed the door on the win. Yankees batters piled up 12 strikeouts (10 against Rasmussen). That 18-run explosion in their wild-card round against the Red Sox suddenly seems like a distant memory.\n\nPlayer who defined the game: Rasmussen's dominance of the Yankees -- he owned a 1.81 career ERA against them entering Saturday -- continued Saturday. He was on his way to delivering the fourth no-hitter in postseason history until Austin Wells cracked a line drive that landed on the chalk down the right-field line. But Wells then tried to stretch the easy double into a triple and was thrown out by several feet.\n\nOtherwise, the Yankees had one baserunner reach second base -- Jazz Chisholm Jr. walked and stole second in the second inning. The Yankees barely touched Rasmussen and now face an 0-1 hole. -- Jorge Castillo\n\nKey moments from Tampa Bay's win:\n\nThere goes the no-no -- but Wells gets thrown out on the bases\n\nRasmussen's no-hit bid now through seven innings\n\nDrew Rasmussen has 10 strikeouts through seven no-hit innings and his pitch count is at 94.\n\nCole's night is done\n\nRasmussen is dealing for Rays\n\nAranda's blast gives Rays game's first lead\n\nBoos are raining down already at the Trop\n\nLos Angeles Dodgers 5, Atlanta Braves 3\nLos Angeles leads series 1-0\n\nIt was over when ... Kyle Tucker got a fastball out over the plate and lifted it over the right-field wall. The Braves had cut their deficit to a single run in the prior half-inning, doing enough damage against Tarik Skubal to chase him out of the game. But then Tucker followed with a 408-foot two-run homer off AJ Smith-Shawver to make it a 4-1 game and give the Dodgers some cushion.\n\nIt was especially meaningful that Tucker provided it. His first year in L.A. was a disaster, especially at home, where he managed just two home runs through the month of August. But Tucker started to make some real progress with his swing in September. The Dodgers were hopeful that it would carry over into October. It seemingly has.\n\nPlayer who defined the game: When the Dodgers dipped into their farm system to acquire Tarik Skubal ahead of the trade deadline, he was considered superfluous. As the next two months played out, with the offense struggling and Shohei Ohtani unavailable to pitch, Skubal began to look like a necessity. And after the smoke cleared on Game 1 of this NLDS, it became clear that he will be a lynchpin in the Dodgers' hopes of becoming the first NL team to three-peat as World Series champions.\n\nOutside of a Sean Murphy home run, Skubal dominated the Braves despite pitching in 100-degree heat, consistently flirting with triple digits with his fastball and keeping hitters off balance with an excellent changeup. Before Murphy took him deep to begin the sixth inning, Skubal had retired 15 in a row, seven via strikeout.\n\nWhat a Dodgers win means for Game 2: A lot about Sunday's Game 2 will be dictated by the Braves' pitching plans, particularly whether their ace, Chris Sale, is available for them. If Sale does start, it means he'd be lined up to start again on normal rest in a potential decisive Game 5. If he doesn't, it means the Braves will probably have to cobble together another bullpen game.\n\nManager Walt Weiss made it seem more likely that Sale would be pushed to Game 3 in Atlanta, given the four outs he recorded out of the bullpen in Game 3 of the wild-card round on Thursday night. But maybe the Braves losing Game 1, along with Sale doing some convincing, changes things.\n\nRegardless, the Braves' offense will have to solve another two-time-Cy-Young Award-winning lefty in Blake Snell on Sunday. There's a reason the Dodgers are heavy favorites. -- Alden Gonzalez\n\nKey moments from Los Angeles' win:\n\nBraves cut deficit to 2 with blast from Albies in 9th -- but it's not enough\n\nTucker homers to give Dodgers 3-run lead\n\nMurphy's home run pulls Braves within 1 run of L.A.\n\nDodgers get on board first with 2-run blast from Hernandez\n\nSkubal answers with 3 K's of his own\n\nDodd strikes out the side for Atlanta\n\nChicago White Sox 3, Cleveland Guardians 0\nChicago leads series 1-0\n\nIt was over when ... Munetaka Murakami turned on a Parker Messick sinker and launched it 440 feet at 112.2 mph off the bat, a blast that put the White Sox up 2-0. The blow came minutes after Chicago's Bryan Hudson got Chase DeLauter on a fly ball to escape a base-loaded jam to end the third. There was a lot of game left at that point, but that sequence set the tone and the Guardians never really recovered.\n\nStat that defined the game: 6. That's the inning in which White Sox skipper Will Venable summoned Grant Taylor from the bullpen. Chicago led 2-0 at the time, and keep in mind, insofar as the White Sox have a closer, Taylor is the guy. But Venable has managed his team in playoff mode for weeks now, so of course Taylor laid four zeroes on Cleveland.\n\nPer ESPN Research, his four-inning save is the third postseason save of four-plus innings pitched since 2000, joining Lance McCullers Jr. (2017) and Madison Bumgarner (2014 World Series) -- and it's the first four-inning save in Game 1 of a postseason series since saves became official in 1969.\n\nIt was a relief performance straight out of the 1970s. Goose Gossage and Sparky Lyle had to be proud.\n\nWhat it means for the rest of the series: The White Sox showed how tough their pitching staff can be when playing from ahead. As mentioned, they have been in this mode for a lot of games by now, putting all their available resources into winning the game in front of them. Then they figure out the next game when it arrives. Cleveland needs to jump on the White Sox early so the Guardians, not Venable, can dictate how the game will be played. -- Bradford Doolittle\n\nKey moments from Chicago's win:\n\nWhite Sox shut out Guardians in Game 1\n\nGuardians turn potential 3-run homer into inning-ending double play\n\nMurakami blasts 2-run home run to give White Sox the lead\n\nAnd that's 6 K's for Messick through 3 innings"
+      "link": "https://www.espn.com/video/clip/_/id/50095710/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1004/f394ffef-af0d-47a9-9817-4882f73f6f29/f394ffef-af0d-47a9-9817-4882f73f6f29/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "50068663",
@@ -8879,18 +8879,18 @@
       "body": "Chris Clancy was one of thousands of Newcastle Knights fans who lined the streets to farewell his team as they travelled to Sydney for the grand final.\n\nBut he was left injured, along with nine other people, when a car driven by an 18-year-old P-plater careered into a crowd gathered on the side of the road near a major roundabout.\n\nMr Clancy was with his nephews waiting to cheer the Knights when disaster struck on Saturday.\n\n\"We're there at the roundabout having fun -- cars going past, beeping their horns, people waving,\" he told AAP.\n\n\"The next thing, this car stops (at) the roundabout and then he just floored it on the wet ground, lost it.\n\n\"It happened in seconds, but when you stand there, seeing the car coming at you, I honestly thought I was going to die. It just felt like slow motion.\"\n\nMr Clancy suffered small fractures in his ribs and spine and a broken collarbone.\n\nIn addition, his foot was injured after the car ran over it while the motorist was allegedly trying to drive away.\n\n\"I dragged myself across the ground because I couldn't stand at the time, trying to get my foot out, which luckily I did,\" Mr Clancy said.\n\nThe driver was taken to hospital for mandatory testing and subsequently charged with nine offences, including dangerous driving occasioning grievous bodily harm, negligent driving and causing bodily harm by misconduct.\n\nHe was refused bail and is due to appear in court on Sunday.\n\nPolice said two other people in the car were escorted from the crash scene after the crowd turned on them.\n\nInvestigators did not believe the incident was deliberate but declined to comment on reports the vehicle was being driven erratically before the crash.\n\nAt least seven people remain at John Hunter Hospital with injuries caused by the collision.\n\nThey include a five-year-old girl who was placed into an induced coma with critical injuries, although her condition has stabilised.\n\nA 67-year-old man was also hospitalised in a serious but stable condition.\n\nMr Clancy expressed gratitude to those who provided help after the accident, including a woman who stayed with him and his nephews and took his car home for him, and a man who pushed his nephew Thomas out of harm's way.\n\nSeveral Knights players sent him their well-wishes via social media, including club captain Kalyn Ponga.\n\n\"All the best with the recovery mate! The team and community are with yas (sic),\" he wrote.\n\nKnights chief executive Peter Parr expressed deep concern for those impacted by the crash.\n\n\"Newcastle is a strong community,\" he said.\n\n\"We have seen that strength throughout this week and today we need to draw on it again with compassion, care and support for those who need it most,\" he said.\n\nA diehard Knights supporter who has had season tickets for several years, Mr Clancy told doctors they could operate on his collarbone as long as it didn't clash with his team's grand final face-off with the Sydney Roosters on Sunday night.\n\n\"Either way, the guys have done our town proud,\" he said."
     },
     {
-      "story_id": "50022544",
-      "headline": "2026 MLB playoffs: Schedule, postseason bracket, standings",
-      "summary": "We have your one-stop shop for everything you need to keep up with all the action this October.",
-      "image": "https://a.espncdn.com/photo/2026/1001/MLB-Playoff-Bracket-2026-16x9-Braves_1296x729.png",
-      "published_utc": "2026-10-04T01:15:11Z",
+      "story_id": "50090503",
+      "headline": "2026 MLB division series Day 1: Live updates, lineups, analysis",
+      "summary": "All eight teams are in action Saturday, with three games down and one to go. Which clubs will come out strong?",
+      "image": "https://a.espncdn.com/photo/2026/1003/r1725424_608x342_16-9.jpg",
+      "published_utc": "2026-10-04T01:37:41Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings",
+      "link": "https://www.espn.com/mlb/story/_/id/50090503/2026-mlb-division-series-day-1-updates-lineups-analysis",
       "stream_url": "",
-      "body": "The 2026 MLB playoffs have arrived!\n\nThe 12-team postseason began with an action-packed wild-card round that featured eight teams battling for four spots to advance to the eight-team division series.\n\nThe Chicago White Sox became the first team to win a series this postseason with a wild-card round sweep of the Houston Astros. Then the New York Yankees swept the Boston Red Sox in two routs, recording the highest series run differential in the history of the current wild-card format. The San Diego Padres also sealed their spot in the NLDS with a sweep of the Chicago Cubs. In the only wild-card series to go the distance, the Atlanta Braves held off the Philadelphia Phillies to move on.\n\nFrom the first pitch of the wild-card games to the last out of the World Series, we've got you covered with the postseason bracket, schedules, results and how to watch every game this October.\n\nLatest news and analysis\n\nFirst-look preview of division series matchups\n\nOffseason questions for eliminated teams\n\nMLB playoffs preview: World Series odds, likely MVPs and how far every team will go\n\nThe 12-team playoff field is set\n\nAmerican League Division Series\nBest-of-five series\n\nAll times Eastern\n\nCleveland Guardians vs. Chicago White Sox\n\nCleveland leads series 1-0\n\nGame 1: White Sox 3, Guardians 0\nGame 2: Chicago at Cleveland, Monday, Oct. 5 at 5 p.m. (TBS/TruTV/HBO Max)\nGame 3: Cleveland at Chicago, Wednesday, Oct. 7 at 4 p.m. (TBS/TruTV/HBO Max)\nGame 4*: Cleveland at Chicago, Thursday, Oct. 8 at 5 p.m. (TBS/TruTV/HBO Max)\nGame 5*: Chicago at Cleveland, Saturday, Oct. 10 at 5 p.m. (TBS/TruTV/HBO Max)\n\n*if necessary\n\nTampa Bay Rays vs. New York Yankees\n\nTampa Bay leads 1-0\n\nGame 1: Rays 1, Yankees 0\nGame 2: New York at Tampa Bay, Monday, Oct. 5 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 3: Tampa Bay at New York, Wednesday, Oct. 7 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 4*: Tampa Bay at New York, Thursday, Oct. 8 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 5*: New York at Tampa Bay, Saturday, Oct. 10 at 8 p.m. (TBS/TruTV/HBO Max)\n\n*if necessary\n\nNational League Division Series\nBest-of-five series\n\nLos Angeles Dodgers vs. Atlanta Braves\n\nLos Angeles leads series 1-0\n\nGame 1: Dodgers 5, Braves 3\nGame 2: Atlanta at Los Angeles, Sunday at 8 p.m. (Fox/FS1)\nGame 3: Los Angeles at Atlanta, Tuesday, Oct. 6 at 6 p.m. (Fox/FS1)\nGame 4*: Los Angeles at Atlanta, Wednesday, Oct. 7 at 6 p.m. (Fox/FS1)\nGame 5*: Atlanta at Los Angeles, Friday, Oct. 9 at 8 p.m. (Fox/FS1)\n\n*if necessary\n\nMilwaukee Brewers vs. San Diego Padres\n\nGame 1: San Diego at Milwaukee, Saturday at 8:30 p.m. (Fox/FS1)\nGame 2: San Diego at Milwaukee, Sunday at 4 p.m. (Fox/FS1)\nGame 3: Milwaukee at San Diego, Tuesday, Oct. 6 at 9:30 p.m. (Fox/FS1)\nGame 4*: Milwaukee at San Diego, Wednesday, Oct. 7 at 10 p.m. (Fox/FS1)\nGame 5*: San Diego at Milwaukee, Friday, Oct. 9 at 4:30 p.m. (Fox/FS1)\n\n*if necessary\n\nAmerican League Championship Series\nBest-of-seven series\n\nGame 1: Monday, Oct. 12 (TBS/TruTV/HBO Max)\nGame 2: Tuesday, Oct. 13 (TBS/TruTV/HBO Max)\nGame 3: Thursday, Oct. 15 (TBS/TruTV/HBO Max)\nGame 4: Friday, Oct. 16 (TBS/TruTV/HBO Max)\nGame 5*: Saturday, Oct. 17 (TBS/TruTV/HBO Max)\nGame 6*: Monday, Oct. 19 (TBS/TruTV/HBO Max)\nGame 7*: Tuesday, Oct. 20 (TBS/TruTV/HBO Max)\n\n*if necessary\n\nNational League Championship Series\nBest-of-seven series\n\nGame 1: Sunday, Oct. 11 (Fox/FS1)\nGame 2: Monday, Oct. 12 (Fox/FS1)\nGame 3: Wednesday, Oct. 14 (Fox/FS1)\nGame 4: Thursday, Oct. 15 (Fox/FS1)\nGame 5*: Friday, Oct. 16 (Fox/FS1)\nGame 6*: Sunday, Oct. 18 (Fox/FS1)\nGame 7*: Monday, Oct. 19 (Fox/FS1)\n\n*if necessary\n\nWorld Series\nBest-of-seven series\n\nGame 1: Friday, Oct. 23 (Fox)\nGame 2: Saturday, Oct. 24 (Fox)\nGame 3: Monday, Oct. 26 (Fox)\nGame 4: Tuesday, Oct. 27 (Fox)\nGame 5*: Wednesday, Oct. 28 (Fox)\nGame 6*: Friday, Oct. 30 (Fox)\nGame 7*: Saturday, Oct. 31 (Fox)\n\n*if necessary\n\nCompleted rounds\n\nAmerican League Wild Card Series\nBest-of-three series\n\nAll times ET\n\nChicago White Sox at Houston Astros\n\nChicago wins series 2-0\n\nGame 1: White Sox 6, Astros 3\nGame 2: White Sox 7, Astros 3\n\nBoston Red Sox at New York Yankees\n\nNew York wins series 2-0\n\nGame 1: Yankees 9, Red Sox 0\nGame 2: Yankees 9, Red Sox 2\n\nNational League Wild Card Series\nBest-of-three series\n\nAll times ET\n\nPhiladelphia Phillies at Atlanta Braves\n\nAtlanta wins series 2-1\n\nGame 1: Braves 5, Phillies 3\nGame 2: Phillies 4, Braves 3\nGame 3: Braves 6, Phillies 2\n\nChicago Cubs at San Diego Padres\n\nSan Diego wins series 2-0\n\nGame 1: Padres 8, Cubs 0\nGame 2: Padres 4, Cubs 1"
+      "body": "It's Day 1 of the MLB division series!\n\nThe Chicago White Sox started the four-game Day 1 off by shutting out the Cleveland Guardians. Then, in the second game of the day Tarik Skubal helped the Los Angeles Dodgers to a 5-3 win over the Atlanta Braves. The Tampa Bay Rays downed the New York Yankees behind a dominant performance from ace Drew Rasmussen.\n\nIn the final game of the night, the San Diego Padres are taking on the No. 1 overall seed Milwaukee Brewers.\n\nWe've got you covered with pregame lineups, sights and sounds from the ballparks and postgame takeaways as each Day 1 matchup ends.\n\nKey links: Mega-preview | Predictions | Bracket | Schedule\n\nJump to:\n\nCHW-CLE | ATL-LAD | NYY-TB | SD-MIL\n\nSights and sounds\nWe have all the best moments from the ballparks as the division series begins.\n\nPadres-Brewers\n\nFollow live with pitch-by-pitch coverage\n\nChourio ties it up for the Brewers\n\nPadres add to their early lead\n\nPadres strike first in Milwaukee\n\nMiz is bringing the heat\n\nTakeaways\n\nTampa Bay Rays 1, New York Yankees 0\nTampa Bay leads series 1-0\n\nIt was over when ... Jonathan Aranda swatted a 2-2 changeup from Gerrit Cole over the right-field wall in the third inning. It was just a solo home run. The Yankees had six innings to match it. But they couldn't because Drew Rasmussen was that good. New York mustered just ONE HIT and two walks against the right-hander over eight innings before Bryan Baker slammed the door on the win. Yankees batters piled up 12 strikeouts (10 against Rasmussen). That 18-run explosion in their wild-card round against the Red Sox suddenly seems like a distant memory.\n\nPlayer who defined the game: Rasmussen's dominance of the Yankees -- he owned a 1.81 career ERA against them entering Saturday -- continued Saturday. He was on his way to delivering the fourth no-hitter in postseason history until Austin Wells cracked a line drive that landed on the chalk down the right-field line. But Wells then tried to stretch the easy double into a triple and was thrown out by several feet.\n\nOtherwise, the Yankees had one baserunner reach second base -- Jazz Chisholm Jr. walked and stole second in the second inning. The Yankees barely touched Rasmussen and now face an 0-1 hole. -- Jorge Castillo\n\nKey moments from Tampa Bay's win:\n\nThere goes the no-no -- but Wells gets thrown out on the bases\n\nRasmussen's no-hit bid now through seven innings\n\nDrew Rasmussen has 10 strikeouts through seven no-hit innings and his pitch count is at 94.\n\nCole's night is done\n\nRasmussen is dealing for Rays\n\nAranda's blast gives Rays game's first lead\n\nBoos are raining down already at the Trop\n\nLos Angeles Dodgers 5, Atlanta Braves 3\nLos Angeles leads series 1-0\n\nIt was over when ... Kyle Tucker got a fastball out over the plate and lifted it over the right-field wall. The Braves had cut their deficit to a single run in the prior half-inning, doing enough damage against Tarik Skubal to chase him out of the game. But then Tucker followed with a 408-foot two-run homer off AJ Smith-Shawver to make it a 4-1 game and give the Dodgers some cushion.\n\nIt was especially meaningful that Tucker provided it. His first year in L.A. was a disaster, especially at home, where he managed just two home runs through the month of August. But Tucker started to make some real progress with his swing in September. The Dodgers were hopeful that it would carry over into October. It seemingly has.\n\nPlayer who defined the game: When the Dodgers dipped into their farm system to acquire Tarik Skubal ahead of the trade deadline, he was considered superfluous. As the next two months played out, with the offense struggling and Shohei Ohtani unavailable to pitch, Skubal began to look like a necessity. And after the smoke cleared on Game 1 of this NLDS, it became clear that he will be a lynchpin in the Dodgers' hopes of becoming the first NL team to three-peat as World Series champions.\n\nOutside of a Sean Murphy home run, Skubal dominated the Braves despite pitching in 100-degree heat, consistently flirting with triple digits with his fastball and keeping hitters off balance with an excellent changeup. Before Murphy took him deep to begin the sixth inning, Skubal had retired 15 in a row, seven via strikeout.\n\nWhat a Dodgers win means for Game 2: A lot about Sunday's Game 2 will be dictated by the Braves' pitching plans, particularly whether their ace, Chris Sale, is available for them. If Sale does start, it means he'd be lined up to start again on normal rest in a potential decisive Game 5. If he doesn't, it means the Braves will probably have to cobble together another bullpen game.\n\nManager Walt Weiss made it seem more likely that Sale would be pushed to Game 3 in Atlanta, given the four outs he recorded out of the bullpen in Game 3 of the wild-card round on Thursday night. But maybe the Braves losing Game 1, along with Sale doing some convincing, changes things.\n\nRegardless, the Braves' offense will have to solve another two-time-Cy-Young Award-winning lefty in Blake Snell on Sunday. There's a reason the Dodgers are heavy favorites. -- Alden Gonzalez\n\nKey moments from Los Angeles' win:\n\nBraves cut deficit to 2 with blast from Albies in 9th -- but it's not enough\n\nTucker homers to give Dodgers 3-run lead\n\nMurphy's home run pulls Braves within 1 run of L.A.\n\nDodgers get on board first with 2-run blast from Hernandez\n\nSkubal answers with 3 K's of his own\n\nDodd strikes out the side for Atlanta\n\nChicago White Sox 3, Cleveland Guardians 0\nChicago leads series 1-0\n\nIt was over when ... Munetaka Murakami turned on a Parker Messick sinker and launched it 440 feet at 112.2 mph off the bat, a blast that put the White Sox up 2-0. The blow came minutes after Chicago's Bryan Hudson got Chase DeLauter on a fly ball to escape a base-loaded jam to end the third. There was a lot of game left at that point, but that sequence set the tone and the Guardians never really recovered.\n\nStat that defined the game: 6. That's the inning in which White Sox skipper Will Venable summoned Grant Taylor from the bullpen. Chicago led 2-0 at the time, and keep in mind, insofar as the White Sox have a closer, Taylor is the guy. But Venable has managed his team in playoff mode for weeks now, so of course Taylor laid four zeroes on Cleveland.\n\nPer ESPN Research, his four-inning save is the third postseason save of four-plus innings pitched since 2000, joining Lance McCullers Jr. (2017) and Madison Bumgarner (2014 World Series) -- and it's the first four-inning save in Game 1 of a postseason series since saves became official in 1969.\n\nIt was a relief performance straight out of the 1970s. Goose Gossage and Sparky Lyle had to be proud.\n\nWhat it means for the rest of the series: The White Sox showed how tough their pitching staff can be when playing from ahead. As mentioned, they have been in this mode for a lot of games by now, putting all their available resources into winning the game in front of them. Then they figure out the next game when it arrives. Cleveland needs to jump on the White Sox early so the Guardians, not Venable, can dictate how the game will be played. -- Bradford Doolittle\n\nKey moments from Chicago's win:\n\nWhite Sox shut out Guardians in Game 1\n\nGuardians turn potential 3-run homer into inning-ending double play\n\nMurakami blasts 2-run home run to give White Sox the lead\n\nAnd that's 6 K's for Messick through 3 innings"
     },
     {
       "story_id": "50078625",
@@ -9108,19 +9108,19 @@
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/10-03-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 TNT (Backup) \u2014 Live FHD (CH 17)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-03-2026/select-post-1/4/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-03-2026/select-post-1/4/2",
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-03-2026/select-post-1/3/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-03-2026/select-post-1/3/3",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         }
