@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-04T04:41:18.284308+00:00",
+  "generated_utc": "2026-10-04T04:51:32.887389+00:00",
   "window_days": 2,
   "total_events": 192,
   "competitions": [
@@ -279,7 +279,7 @@
       "status_coverage_pct": 100,
       "both_logos": 78,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 1
     },
     {
       "competition": "rugby-league",
@@ -426,7 +426,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/mens-college-basketball",
+      "date": "2026-10-03",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261003: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
