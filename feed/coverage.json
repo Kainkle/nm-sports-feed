@@ -1,18 +1,18 @@
 {
-  "generated_utc": "2026-10-04T23:57:49.314681+00:00",
+  "generated_utc": "2026-10-05T00:08:01.369590+00:00",
   "window_days": 2,
-  "total_events": 192,
+  "total_events": 191,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-10-04",
-        "2026-10-04"
+        "2026-10-07"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
@@ -154,14 +154,14 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 9,
+      "events": 10,
       "date_range": [
-        "2026-10-02",
-        "2026-10-06"
+        "2026-10-03",
+        "2026-10-07"
       ],
-      "explicit_status": 9,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 1
     },
@@ -212,14 +212,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 8,
+      "events": 12,
       "date_range": [
         "2026-10-03",
-        "2026-10-06"
+        "2026-10-07"
       ],
-      "explicit_status": 8,
+      "explicit_status": 12,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 12,
       "logo_coverage_pct": 100,
       "live_now": 2
     },
@@ -227,14 +227,14 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 59,
+      "events": 58,
       "date_range": [
         "2026-10-02",
-        "2026-10-04"
+        "2026-10-07"
       ],
-      "explicit_status": 59,
+      "explicit_status": 58,
       "status_coverage_pct": 100,
-      "both_logos": 59,
+      "both_logos": 58,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -255,14 +255,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 16,
+      "events": 15,
       "date_range": [
-        "2026-10-02",
+        "2026-10-04",
         "2026-10-06"
       ],
-      "explicit_status": 16,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 16,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -270,14 +270,14 @@
       "competition": "nhl",
       "name": "NHL",
       "sport": "hockey",
-      "events": 78,
+      "events": 73,
       "date_range": [
-        "2026-10-01",
-        "2026-10-11"
+        "2026-10-02",
+        "2026-10-13"
       ],
-      "explicit_status": 78,
+      "explicit_status": 73,
       "status_coverage_pct": 100,
-      "both_logos": 78,
+      "both_logos": 73,
       "logo_coverage_pct": 100,
       "live_now": 1
     },
@@ -313,16 +313,14 @@
       "competition": "tna",
       "name": "TNA",
       "sport": "wrestling",
-      "events": 1,
-      "date_range": [
-        "2026-10-02",
-        "2026-10-02"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "uefa.champions",
@@ -341,14 +339,14 @@
       "competition": "ufc",
       "name": "UFC",
       "sport": "mma",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-10-03",
-        "2026-10-03"
+        "2026-10-06"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 1,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -373,8 +371,8 @@
       "sport": "soccer",
       "events": 1,
       "date_range": [
-        "2026-10-02",
-        "2026-10-02"
+        "2026-10-07",
+        "2026-10-07"
       ],
       "explicit_status": 1,
       "status_coverage_pct": 100,
@@ -399,14 +397,14 @@
       "competition": "wnba",
       "name": "WNBA",
       "sport": "basketball",
-      "events": 4,
+      "events": 3,
       "date_range": [
-        "2026-10-02",
+        "2026-10-03",
         "2026-10-04"
       ],
-      "explicit_status": 4,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
-      "both_logos": 4,
+      "both_logos": 3,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -414,12 +412,12 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 2,
+      "events": 3,
       "date_range": [
         "2026-10-03",
-        "2026-10-06"
+        "2026-10-07"
       ],
-      "explicit_status": 2,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
