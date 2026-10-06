@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-06T01:38:44.582033+00:00",
+  "generated_utc": "2026-10-06T01:48:59.764928+00:00",
   "events": [
     {
       "event_id": "espn:racing:600060990",
@@ -5067,7 +5067,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -5129,7 +5129,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-05T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:8",
         "name": "Detroit Pistons",
@@ -5159,9 +5159,9 @@
         "color": "29127a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Little Caesars Arena",
-      "detail": "1:07 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5474,7 +5474,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Fiserv Forum",
-      "detail": "8:39 - 3rd Quarter",
+      "detail": "6:09 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5520,7 +5520,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Caesars Superdome",
-      "detail": "3:18 - 2nd Quarter",
+      "detail": "1:55 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9930,6 +9930,12 @@
         {
           "url": "https://dailywrestling.cc/embed/wareww/10-05-2026/select-post-1/4/4",
           "label": "VidFrame FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/10-05-2026/select-post-1/4/5",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         },
