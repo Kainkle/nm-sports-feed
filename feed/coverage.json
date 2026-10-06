@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-06T02:09:39.768954+00:00",
+  "generated_utc": "2026-10-06T02:19:22.254356+00:00",
   "window_days": 2,
   "total_events": 206,
   "competitions": [
@@ -219,7 +219,7 @@
       "status_coverage_pct": 100,
       "both_logos": 17,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 2
     },
     {
       "competition": "ncaaf",
@@ -277,7 +277,7 @@
       "status_coverage_pct": 100,
       "both_logos": 84,
       "logo_coverage_pct": 100,
-      "live_now": 3
+      "live_now": 2
     },
     {
       "competition": "rugby-league",
@@ -422,7 +422,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:rugby-league/3",
+      "date": "2026-10-06",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby-league/3/scoreboard?dates=20261006: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
