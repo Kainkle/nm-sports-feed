@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-06T23:06:33.751716+00:00",
+  "generated_utc": "2026-10-06T23:16:39.076814+00:00",
   "events": [
     {
       "event_id": "espn:racing:600060990",
@@ -5673,7 +5673,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-06T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:8",
         "name": "Montr\u00e9al Canadiens",
@@ -5703,7 +5703,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Centre Bell",
       "detail": "",
       "game_number": 1,
@@ -5765,7 +5765,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-06T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:1",
         "name": "New Jersey Devils",
@@ -5795,7 +5795,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -5857,7 +5857,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-06T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:30",
         "name": "Charlotte Hornets",
@@ -5887,9 +5887,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Spectrum Center",
-      "detail": "Tue, October 6th at 7:00 PM EDT",
+      "detail": "8:31 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5903,7 +5903,7 @@
       "competition_id": "ufc",
       "competition_name": "UFC",
       "start_utc": "2026-10-06T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:None",
         "name": "Summer Onley",
@@ -5927,9 +5927,9 @@
         "color": null
       },
       "source": "espn:mma/ufc",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Meta APEX",
-      "detail": "Scheduled",
+      "detail": "In Progress",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
