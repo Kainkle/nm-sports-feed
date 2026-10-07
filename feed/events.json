@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-07T01:25:25.714947+00:00",
+  "generated_utc": "2026-10-07T01:35:56.682155+00:00",
   "events": [
     {
       "event_id": "espn:racing:600060990",
@@ -1947,7 +1947,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Scotiabank Arena",
       "detail": "",
       "game_number": 1,
@@ -2039,7 +2039,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -2131,7 +2131,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "KeyBank Center",
       "detail": "",
       "game_number": 1,
@@ -2147,7 +2147,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-06T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:30",
         "name": "Charlotte Hornets",
@@ -2177,9 +2177,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Spectrum Center",
-      "detail": "1:34 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2427,9 +2427,9 @@
         "color": "0a2240"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "BOK Center",
-      "detail": "Halftime",
+      "detail": "9:12 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2475,7 +2475,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Veterans Memorial Stadium (AL)",
-      "detail": "2:00 - 2nd Quarter",
+      "detail": "0:16 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2517,9 +2517,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Soldier Field",
-      "detail": "43'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2701,7 +2701,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Crypto.com Arena",
       "detail": "",
       "game_number": 1,
