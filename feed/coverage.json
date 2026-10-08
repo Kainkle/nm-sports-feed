@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-08T11:46:24.483540+00:00",
+  "generated_utc": "2026-10-08T11:56:40.958446+00:00",
   "window_days": 2,
-  "total_events": 140,
+  "total_events": 135,
   "competitions": [
     {
       "competition": "aew",
@@ -212,14 +212,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 22,
+      "events": 17,
       "date_range": [
-        "2026-10-05",
+        "2026-10-06",
         "2026-10-10"
       ],
-      "explicit_status": 22,
+      "explicit_status": 17,
       "status_coverage_pct": 100,
-      "both_logos": 22,
+      "both_logos": 17,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -424,7 +424,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-10-05",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261005: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
