@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-09T03:01:00.722561+00:00",
+  "generated_utc": "2026-10-09T03:11:38.778130+00:00",
   "events": [
     {
       "event_id": "mlb:849819",
@@ -2088,7 +2088,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
@@ -2242,7 +2242,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-08T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2636",
         "name": "UTSA Roadrunners",
@@ -2271,9 +2271,9 @@
         "color": "006747"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Alamodome",
-      "detail": "End of 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2287,7 +2287,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-08T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2032",
         "name": "Arkansas State Red Wolves",
@@ -2318,9 +2318,9 @@
         "color": "00205b"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Centennial Bank Stadium",
-      "detail": "2:00 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2505,7 +2505,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "AT&T Stadium",
-      "detail": "5:26 - 4th Quarter",
+      "detail": "3:22 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "b6-_4NC2afE",
       "replay_url": "",
@@ -2679,7 +2679,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "5:39 - 1st Quarter",
+      "detail": "2:47 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10508,40 +10508,46 @@
       "id": "ww:20d7ac94927cede9d0b5ce8e2dcb7a1b",
       "title": "ROH HonorClub TV 10/8/2026",
       "date": "2026-10-08",
-      "replay_url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/2/1",
+      "replay_url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/1/1",
       "replay_candidates": [
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/2/1",
-          "label": "OK.ru FHD \u2014 Full Show",
+          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/1/1",
+          "label": "VidFrame FHD \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/3/1",
+          "label": "OK.ru FHD \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/4/1",
           "label": "Other Hosts \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/3/2",
+          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/4/2",
           "label": "Other Hosts \u2014 StreamW (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/3/3",
+          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/4/3",
           "label": "Other Hosts \u2014 NetU (SD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/1/1",
+          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/2/1",
           "label": "Dailymotion FHD \u2014 Part 1",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/1/2",
+          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/2/2",
           "label": "Dailymotion FHD \u2014 Part 2",
           "part": true,
           "live": false
