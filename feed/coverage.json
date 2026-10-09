@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-09T15:23:03.284259+00:00",
+  "generated_utc": "2026-10-09T15:33:27.059813+00:00",
   "window_days": 2,
-  "total_events": 225,
+  "total_events": 212,
   "competitions": [
     {
       "competition": "aew",
@@ -276,14 +276,14 @@
       "competition": "nhl",
       "name": "NHL",
       "sport": "hockey",
-      "events": 77,
+      "events": 64,
       "date_range": [
         "2026-10-06",
-        "2026-10-17"
+        "2026-10-15"
       ],
-      "explicit_status": 77,
+      "explicit_status": 64,
       "status_coverage_pct": 100,
-      "both_logos": 77,
+      "both_logos": 64,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -430,7 +430,23 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "nhl",
+      "date": "2026-10-07",
+      "error": "TimeoutError for https://api-web.nhle.com/v1/schedule/2026-10-07: The read operation timed out"
+    },
+    {
+      "source": "nhl",
+      "date": "2026-10-09",
+      "error": "TimeoutError for https://api-web.nhle.com/v1/schedule/2026-10-09: The read operation timed out"
+    },
+    {
+      "source": "nhl",
+      "date": "2026-10-10",
+      "error": "TimeoutError for https://api-web.nhle.com/v1/schedule/2026-10-10: The read operation timed out"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
