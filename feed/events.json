@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-09T01:40:07.505038+00:00",
+  "generated_utc": "2026-10-09T01:50:09.485171+00:00",
   "events": [
     {
       "event_id": "mlb:849819",
@@ -1642,7 +1642,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-08T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:6",
         "name": "Boston Bruins",
@@ -1672,7 +1672,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "TD Garden",
       "detail": "",
       "game_number": 1,
@@ -1734,7 +1734,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-08T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:8",
         "name": "Montr\u00e9al Canadiens",
@@ -1764,7 +1764,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Centre Bell",
       "detail": "",
       "game_number": 1,
@@ -1780,7 +1780,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-08T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:9",
         "name": "Ottawa Senators",
@@ -1810,7 +1810,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Canadian Tire Centre",
       "detail": "",
       "game_number": 1,
@@ -1996,7 +1996,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Williams Stadium (VA)",
-      "detail": "12:41 - 4th Quarter",
+      "detail": "7:49 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2044,7 +2044,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Houchens Industries-L.T. Smith Stadium",
-      "detail": "12:44 - 4th Quarter",
+      "detail": "8:24 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2136,7 +2136,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kaseya Center",
-      "detail": "5:39 - 4th Quarter",
+      "detail": "1:19 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2182,7 +2182,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Barclays Center",
-      "detail": "11:45 - 4th Quarter",
+      "detail": "6:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2228,7 +2228,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "8:27 - 4th Quarter",
+      "detail": "3:28 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2273,7 +2273,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Alamodome",
-      "detail": "10:28 - 3rd Quarter",
+      "detail": "5:51 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2320,7 +2320,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Centennial Bank Stadium",
-      "detail": "13:37 - 3rd Quarter",
+      "detail": "11:00 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2459,7 +2459,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Frost Bank Center",
-      "detail": "5:11 - 3rd Quarter",
+      "detail": "1:54 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2503,9 +2503,9 @@
         "color": "bd1c36"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "AT&T Stadium",
-      "detail": "0:01 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "b6-_4NC2afE",
       "replay_url": "",
@@ -10161,20 +10161,6 @@
       "body": "Category leagues require a different approach than points leagues. Volume still matters, but it isn't everything. Steals and blocks are harder to find, while 3-pointers can be concentrated among certain types of players. Field goal percentage, free throw percentage and turnovers can quietly swing a league over the course of a season.\n\nThat can change how players should be valued.\n\nA guard who gives you steals, 3-pointers and strong percentages can be more valuable than a higher-scoring player who hurts you elsewhere. A center who blocks shots without wrecking your free throw percentage can give you a major advantage. A forward who provides assists can help solve a shortage in a category that is harder to address at that position.\n\nOur recent 10-team roto mock showed how that can play out. Four point guards went in the first round, while no small forwards were selected. Then Cooper Flagg, Scottie Barnes and Amen Thompson went with three of the first four picks of Round 2. Point guard became a focus again in Round 3, when James Harden, Jalen Brunson, Josh Giddey, LaMelo Ball, Jamal Murray and Stephen Curry all came off the board in a seven-pick span.\n\nDerrick White also went 17th overall, which makes sense given how difficult his combination of 3s, assists, steals and blocks is to replace at shooting guard. Power forward showed one of the clearest positional drop-offs, while center remained deep enough that useful rebounders and shot-blockers were still available well into the middle rounds.\n\nThat's where tiers become useful.\n\nI've separated players by their default position, even if they qualify at multiple spots. The rankings show how I value the players in a neutral build. The tiers show where the player pool changes. Once the draft starts, what you already have should influence what comes next.\n\nThe goal isn't simply to draft the highest-ranked player every round. It's to know from round to round what your team does well, where it is vulnerable and when a category or position is about to become much harder to draft.\n\nThe rankings tell you who I like. The tiers tell you when you need to act. Your roster tells you who fits best.\n\nTo see points league draft tiers, click here.\n\nSee more: Sign up | Rankings | Projections | Mock Draft Lobby\n\nDraft guide | 'Do not draft' list | Which league is right for you?\n\nPoint guards\n\nThoughts on PGs\n\nGilgeous-Alexander and Doncic are the clear top two, but they give category managers very different foundations. Gilgeous-Alexander is projected for 31.3 PPG while shooting 53.6% from the field and 88.3% from the line, with 1.7 SPG and only 2.3 turnovers a game. You get elite scoring without taking a major hit elsewhere. Doncic gives you even more volume in points, 3s, rebounds and assists, but his projected 78.3% free throw shooting and 4.0 turnover average have to be managed.\nMaxey, Cunningham and Haliburton form the next tier. Haliburton stands out because of how efficiently he provides assists. He's projected for 9.9 per game with just 1.9 turnovers while also averaging 2.9 3-pointers. That combination is hard to find later.\nMurray, Ball and Harden remain strong options, but there is a meaningful drop after the first five point guards. Ball helps in assists, 3s and rebounds, while Harden still brings high-end playmaking and free throw production.\nCurry is especially valuable in categories because his 3-point volume and free throw percentage can swing two categories. He doesn't need the same rebound or assist totals as other guards to return high-end value.\nGiddey has a completely different profile. His rebounding and assists from the point guard spot make it easier to chase scoring, 3s or defensive stats elsewhere.\nYoung remains one of the league's best sources of assists, 3-pointers and free throw production, but the field goal percentage and turnovers come with a cost. He fits better on teams that can absorb those weaknesses.\nAs you move deeper into the position, focus more on what category you still need. Assists remain available, but the later options are more likely to hurt you in percentages, turnovers or scoring.\n\nThe last word: Point guard is deep enough to wait on if you miss the elite options.\n\nShooting guard\n\nThoughts on SGs\n\nEdwards and Mitchell sit comfortably at the top because both give you excellent scoring and 3-point volume without creating an obvious weakness elsewhere.\nWhite deserves his own tier. He's projected for 2.9 3-pointers, 5.3 APG, 1.1 SPG and 1.2 BPG. The blocks separate him from the rest of the position. Getting that production from a guard means you don't have to chase as much shot-blocking from your bigs.\nAlexander-Walker, Daniels and Bane get to their value in different ways. Bane gives you scoring, 3s and strong free throw shooting. Alexander-Walker adds 3-point shooting and defensive production. Daniels is the specialist of the group, with a projected 2.0 SPG, 6.5 RPG and 5.6 APG.\nDaniels is also a good example of why category leagues are different. His 0.4 projected 3s per game and 61.7% free throw shooting are clear weaknesses, but the steals can be valuable enough to offset them depending on your build.\nReaves and Dejounte Murray both contribute across several counting categories. Reaves gives you scoring, assists and efficiency, while Murray adds assists, rebounds and steals.\nSheppard's projected 1.5 SPG and 0.7 BPG give him value even if his offensive role remains modest.\nWallace fits a similar mold. He doesn't need a huge offensive role if he can contribute steals, keep turnovers low and make enough 3s.\n\nThe last word: Scoring and 3-pointers are easier to replace at shooting guard. Steals, blocks and clean percentages are not.\n\nSmall forwards\n\nThoughts on SFs\n\nBarnes, Thompson, Flagg and Leonard make up an impressive first tier, but they help category teams in different ways.\nBarnes is projected for 7.7 RPG, 6.0 APG, 1.4 SPG and 1.3 BPG. The assists and blocks are especially valuable because both are harder to find from a small forward. Thompson has a very different profile. 3-pointers are not a strength, but his field goal percentage, rebounding and defensive production can make up for it. He fits especially well if you already have enough shooting.\nFlagg can contribute across several categories without one glaring weakness shaping the rest of your build. That makes him easier to fit into different types of teams.\nLeonard remains one of the easiest players to fit into a category build when healthy. He's projected to shoot 51.0% from the field and 87.9% from the line while adding 2.3 3s and 1.7 SPG. The issue is availability, not fit.\nBridges sits in his own tier because he contributes across the board without hurting you in many areas. He also fits easily next to almost any early-round core. Knueppel, Porter and Murphy give you ways to add 3-point shooting without sacrificing the rest of the box score.\nBuzelis is projected for 2.3 3-pointers and 1.6 BPG. That's a rare combination from a wing and gives him more category value than his scoring alone suggests. Later in the draft, small forward becomes more about fit. Some players give you 3s. Others help with steals, rebounds or efficiency.\n\nThe last word: The position has enough depth that you don't need to force it just because you haven't filled the spot yet.\n\nPower forwards\n\nThoughts on PFs\n\nTatum and Johnson sit at the top, and Johnson's category profile is unusual for a power forward.\nJohnson is projected for 23.0 PPG, 10.6 RPG and 7.9 APG. The assists are the key. Getting nearly eight per game from a power forward reduces how much playmaking you need from your guards.\nTatum gives you a more traditional elite forward profile with scoring, 3s, rebounds and great free throw shooting. He fits easily into a balanced build because there isn't one category you immediately need to fix.\nAntetokounmpo stands alone in Tier 2 because his profile comes with a clear tradeoff. His projected 32.1 PPG, 11.4 RPG, 6.3 APG and elite field goal percentage can dominate several categories, but the projected 65.0% free throw shooting can do the opposite.\nDrafting Antetokounmpo doesn't automatically mean punting free throws, but you need a plan. You can try to offset the free throw weakness with strong shooters elsewhere or accept it and build around Antetokounmpo' strengths.\nSiakam, Mobley and Durant are easier to fit into balanced builds. Mobley helps with field goal percentage, rebounds and blocks. Durant can anchor both percentages while adding scoring and 3-pointers. Siakam contributes scoring, rebounds and assists without forcing your roster in one direction.\nMarkkanen and Williams are where the position gets thin. Williams is No. 35 in the overall category rankings, while the next power forward, Banchero, doesn't appear until No. 75. That's a major drop in projected value.\nAfter that, the position becomes more roster-dependent. Murray can help with 3s and defensive stats. Collins is useful for field goal percentage and rebounds. Camara becomes more appealing when steals are a need.\n\nThe last word: Power forward has the biggest positional cliff in the player pool. If you wait too long, the options at the position can drop off quickly.\n\nCenters\n\nThoughts on Cs\n\nJokic and Wembanyama belong together at the top, but they build teams in very different ways.\nJokic is projected for 28.3 PPG, 12.7 RPG and 10.1 APG while shooting 57.5% from the field. The assists are especially valuable because you're getting point-guard-level playmaking from your center spot.\nWembanyama gives you something even harder to replace: 3.5 projected BPG. He also projects for averages of 26.3 PPG, 12.2 RPG and 2.2 3s, so you aren't sacrificing offense to get elite shot-blocking. If you draft Wembanyama, you can spend later picks chasing other categories instead of worrying about blocks.\nDavis, Adebayo and Towns form another strong tier. Davis is projected for 11.4 RPG, 2.1 BPG and 53.8% shooting from the field. His per-game profile can finish much higher if he stays healthy.\nDuren, Sengun and Sabonis give you different paths at the position. Duren helps with rebounds and field goal percentage. Sengun and Sabonis stand out because of the assists they provide at center.\nSabonis is projected for 13.6 RPG and 6.8 APG while shooting 58.7% from the field. That makes him especially useful if you don't want all of your playmaking coming from guards.\nReid has a less traditional center profile. His combination of 3s, rebounds and defensive stats makes him easier to pair with a paint-bound big who doesn't stretch the floor.\nClingan, Okongwu and Kessler are where roster fit matters more. Clingan gives you rebounds, blocks and some 3-point production. Okongwu contributes 3s along with steals and blocks. Kessler gives you elite rebounds and blocks, but the free throw percentage can be a problem.\nIf you're already punting free throw percentage, Kessler's value rises. If you're trying to stay competitive in all nine categories, he's harder to fit.\nHolmgren, Sarr and Jackson give you another path because they can provide blocks while still contributing from the perimeter.\nEmbiid is the ultimate risk-reward option. His per-game production belongs several tiers higher, but his availability makes him much harder to trust.\n\nThe last word: Center gives you more flexibility than any other position if you miss the elite options. Rebounds, blocks and field goal percentage remain available later, but the later choices usually come with a tradeoff.\n\nFinal thoughts\n\nThe biggest mistake in a category draft is treating the board like a straight ranking exercise.\n\nYour first few picks start to shape your team. Draft Antetokounmpo and free throw percentage becomes a concern. Take Doncic and you may want to protect field goal percentage and turnovers. Land Wembanyama and blocks become much less urgent.\n\nThat doesn't mean you should start punting categories after two rounds. You just need to know where your team is strong, where it's weak and what you can afford to give up.\n\nThat's why a player ranked 45th can be a better pick for your team than someone ranked 35th. If you already have plenty of scoring and 3-pointers but need steals, Dyson Daniels can make more sense than another scorer.\n\nPoint guard is deep. Derrick White is an important decision point at shooting guard. Small forward has enough depth that you don't need to force it. Power forward has the biggest drop-off. Center still offers plenty of rebounds, blocks and field goal percentage later.\n\nThe rankings tell you who I like. The tiers tell you when you need to act. Your roster tells you who fits best.\n\nDownload the ESPN Fantasy Sports app and have every player right at your fingertips. Available on the App Store and Google Play."
     },
     {
-      "story_id": "50128553",
-      "headline": "MLB division series 2026: Live updates, analysis for ALDS Game 4",
-      "summary": "Can Cleveland force a Game 5 or will the White Sox advance to face Tampa Bay in the ALCS?",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727628_608x342_16-9.jpg",
-      "published_utc": "2026-10-09T01:19:50Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50128553/mlb-2026-playoffs-division-series-alds-game-4-updates-lineups-analysis-takeaways",
-      "stream_url": "",
-      "body": "We've got a Game 4 in the American League Division Series.\n\nThe Cleveland Guardians rode a four-run third inning to victory over the Chicago White Sox to stave off elimination in Game 3. Will the Guardians be able to replicate that success Thursday to force a decisive Game 5 in Cleveland? Or will the White Sox finish business in front of their home crowd and advance to face the Tampa Bay Rays in the AL Championship Series?\n\nWe'll have all the day's action covered -- from lineups and keys to the game before first pitch to in-game analysis and postgame takeaways.\n\nKey links: Mega-preview | Series outlooks | Bracket | Schedule\n\nLive updates\nWe have all the best moments from the South Side.\n\nCleveland Guardians at Chicago White Sox\nFollow live for pitch-by-pitch coverage\n\nHighlights from Chicago\n\nBailey's pinch-hit homer puts Cleveland on the board\n\nAntonacci's pinch-hit sac fly makes it 2-0\n\nMurakami walks with bases loaded as White Sox score first\n\nGame 4 is underway"
-    },
-    {
       "story_id": "41300293",
       "headline": "Who has won WNBA MVP? Wilson, Stewart, Parker, Leslie, more",
       "summary": "The annual WNBA MVP award has been given to an all-star selection of players since 1997. Check out the list of all-time winners now.",
@@ -10187,6 +10173,20 @@
       "link": "https://www.espn.com/wnba/story/_/id/41300293/wnba-mvp-winners-list-stewart-wilson-parker-leslie-more",
       "stream_url": "",
       "body": "From Breanna Stewart to Cynthia Cooper, the list of women who have been named WNBA Most Valuable Player includes some of the most accomplished players in the history of women's basketball.\n\nA national panel of 60 sportswriters and broadcasters vote on the WNBA's annual regular-season awards, including MVP, Defensive Player of the Year, Rookie of the Year, Sixth Player of the Year, Most Improved Player, Coach of the Year and the All-WNBA, All-Defensive and All-Rookie teams. In 2026, A'ja Wilson became the first player in league history to win the honor five times.\n\nHere's a list of players who have won WNBA MVP:\n\n2026: A'ja Wilson, Las Vegas Aces\n\n2025: A'ja Wilson, Las Vegas Aces\n\n2024: A'ja Wilson, Las Vegas Aces\n\n2023: Breanna Stewart, New York Liberty\n\n2022: A'ja Wilson, Las Vegas Aces\n\n2021: Jonquel Jones, Connecticut Sun\n\n2020: A'ja Wilson, Las Vegas Aces\n\n2019: Elena Delle Donne, Washington Mystics\n\n2018: Breanna Stewart, Seattle Storm\n\n2017: Sylvia Fowles, Minnesota Lynx\n\n2016: Nneka Ogwumike, Los Angeles Sparks\n\n2015: Elena Delle Donne, Chicago Sky\n\n2014: Maya Moore, Minnesota Lynx\n\n2013: Candace Parker, Los Angeles Sparks\n\n2012: Tina Charles, Connecticut Sun\n\n2011: Tamika Catchings, Indiana Fever\n\n2010: Lauren Jackson, Seattle Storm\n\n2009: Diana Taurasi, Phoenix Mercury\n\n2008: Candace Parker, Los Angeles Sparks\n\n2007: Lauren Jackson, Seattle Storm\n\n2006: Lisa Leslie, Los Angeles Sparks\n\n2005: Sheryl Swoopes, Houston Comets\n\n2004: Lisa Leslie, Los Angeles Sparks\n\n2003: Lauren Jackson, Seattle Storm\n\n2002: Sheryl Swoopes, Houston Comets\n\n2001: Lisa Leslie, Los Angeles Sparks\n\n2000: Sheryl Swoopes, Houston Comets\n\n1999: Yolanda Griffith, Sacramento Monarchs\n\n1998: Cynthia Cooper, Houston Comets\n\n1997: Cynthia Cooper, Houston Comets\n\nCheck out the ESPN WNBA hub page for the latest news, stats, standings, power rankings and more."
+    },
+    {
+      "story_id": "50135559",
+      "headline": "What Michael Wilbon likes and doesn't like about recent MLB proposals",
+      "summary": "What Michael Wilbon likes and doesn't like about recent MLB proposals",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_180206955_36890001097/ss_20261008_180206955_36890001097.jpg",
+      "published_utc": "2026-10-08T22:20:01Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50135559/what-michael-wilbon-likes-recent-mlb-proposals",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1008/ss_20261008_180206955_3689000/ss_20261008_180206955_3689000/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "50135294",
@@ -10329,20 +10329,6 @@
       "body": "Tyrese Maxey, VJ Edgecombe and Jaylen Brown made a surprise appearance on the season premiere of \"Abbott Elementary\" on Wednesday night, but their visit to the fictional Philadelphia school didn't exactly go as planned.\n\nThe cameo occurred during a scene in which history teacher Jacob Hill (played by Chris Perfetti) made an Instagram post asking the Philadelphia 76ers to build a playground at Abbott Elementary. Hill had learned that the Philadelphia Eagles build a free playground for a local school each year, but the team had already selected another school.\n\nAfter a group of impostors wearing Sixers jerseys convinced Hill they were bench players for the team, the real NBA stars arrived to answer his request.\n\nMaxey introduced himself, Edgecombe and the team's \"new guy,\" Brown, telling Hill that he'd seen his Instagram post and found it \"very effective.\"\n\nThere was just one problem: Hill, who isn't particularly familiar with men's sports, didn't recognize them.\n\n\"If you're the Sixers, then where's LeBron James?\" Hill asked.\n\n\"This is going to sound like a lie, but he's actually running up the 'Rocky' steps right now,\" Maxey replied.\n\n\"He loves that movie,\" Brown added.\n\nUnconvinced, Hill dismissed the trio.\n\n\"Yeah, right. Get the hell out of here, you tall jerks,\" he said.\n\nAs the players walked away, Hill made the admission:\n\n\"I really got to start watching men's sports.\"\n\nAhead of the Season 6 premiere, \"Abbott Elementary\" creator and star Quinta Brunson, a West Philadelphia native who plays second-grade teacher Janine Teagues, shared a photo with the three players on Instagram. Maxey responded in the comments with a goat emoji.\n\nThe NBA trio joins a growing list of Philadelphia sports figures who have appeared on the ABC comedy.\n\nPhiladelphia Eagles quarterback Jalen Hurts made a virtual appearance during the Season 3 premiere in February 2024, alongside former teammates Jason Kelce and Brandon Graham. Eagles wide receiver DeVonta Smith has also appeared on the show.\n\nPhiladelphia Phillies slugger Kyle Schwarber appeared in an episode filmed at Citizens Bank Park last season, while Philadelphia Flyers mascot Gritty was in the Season 2 premiere.\n\nThe Sixers have also been part of the show's storylines before. Brunson's character once dressed as former Philadelphia guard James Harden for Halloween, and the teachers competed for courtside Sixers tickets in a Season 2 episode. Former Sixers player Andre Iguodala also made an appearance as a fictional love interest of principal Ava Coleman (played by Janelle James)."
     },
     {
-      "story_id": "50135559",
-      "headline": "What Michael Wilbon likes and doesn't like about recent MLB proposals",
-      "summary": "What Michael Wilbon likes and doesn't like about recent MLB proposals",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_180206955_36890001097/ss_20261008_180206955_36890001097.jpg",
-      "published_utc": "2026-10-08T22:20:01Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50135559/what-michael-wilbon-likes-recent-mlb-proposals",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1008/ss_20261008_180206955_3689000/ss_20261008_180206955_3689000/playlist.m3u8",
-      "body": ""
-    },
-    {
       "story_id": "50135615",
       "headline": "A'ja Wilson reflects on earning her fifth WNBA MVP",
       "summary": "A'ja Wilson reflects on earning her fifth WNBA MVP",
@@ -10354,6 +10340,20 @@
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/50135615/aja-wilson-reflects-earning-fifth-wnba-mvp",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1008/dm_261008_wilson/dm_261008_wilson/playlist.m3u8",
+      "body": ""
+    },
+    {
+      "story_id": "50134493",
+      "headline": "Why Rich Eisen doesn't like MLB teams picking their playoff opponent",
+      "summary": "Why Rich Eisen doesn't like MLB teams picking their playoff opponent",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_145805970_3688872913/ss_20261008_145805970_3688872913.jpg",
+      "published_utc": "2026-10-08T19:35:08Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50134493/why-rich-eisen-mlb-teams-picking-their-playoff-opponent",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1008/ss_20261008_145805970_3688872/ss_20261008_145805970_3688872/playlist.m3u8",
       "body": ""
     },
     {
