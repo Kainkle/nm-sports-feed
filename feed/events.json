@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T23:05:23.788633+00:00",
+  "generated_utc": "2026-10-10T23:15:38.793398+00:00",
   "events": [
     {
       "event_id": "mlb:849833",
@@ -4565,7 +4565,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Cotton Bowl",
-      "detail": "6:32 - 4th Quarter",
+      "detail": "1:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4579,7 +4579,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-10T19:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:238",
         "name": "Vanderbilt Commodores",
@@ -4609,9 +4609,9 @@
         "color": "13294b"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "FirstBank Stadium",
-      "detail": "2:00 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4656,7 +4656,100 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Autzen Stadium",
-      "detail": "2:00 - 4th Quarter",
+      "detail": "0:10 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858480",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-10T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:127",
+        "name": "Michigan State Spartans",
+        "abbrev": "MSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+        "logo_dark": null,
+        "aliases": [
+          "MSU",
+          "Michigan St",
+          "Michigan State",
+          "Michigan State Spartans",
+          "Spartans"
+        ],
+        "color": "173f35"
+      },
+      "away": {
+        "id": "espn:356",
+        "name": "Illinois Fighting Illini",
+        "abbrev": "ILL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Illini",
+          "ILL",
+          "Illinois",
+          "Illinois Fighting Illini"
+        ],
+        "color": "ff5f05"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Spartan Stadium",
+      "detail": "OT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858257",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-10T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "away": {
+        "id": "espn:24",
+        "name": "Stanford Cardinal",
+        "abbrev": "STAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinal",
+          "STAN",
+          "Stanford",
+          "Stanford Cardinal"
+        ],
+        "color": "8c1515"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Notre Dame Stadium",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4795,99 +4888,6 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "California Memorial Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858480",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-10T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:127",
-        "name": "Michigan State Spartans",
-        "abbrev": "MSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-        "logo_dark": null,
-        "aliases": [
-          "MSU",
-          "Michigan St",
-          "Michigan State",
-          "Michigan State Spartans",
-          "Spartans"
-        ],
-        "color": "173f35"
-      },
-      "away": {
-        "id": "espn:356",
-        "name": "Illinois Fighting Illini",
-        "abbrev": "ILL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Illini",
-          "ILL",
-          "Illinois",
-          "Illinois Fighting Illini"
-        ],
-        "color": "ff5f05"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Spartan Stadium",
-      "detail": "1:17 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858257",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-10T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:87",
-        "name": "Notre Dame Fighting Irish",
-        "abbrev": "ND",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Irish",
-          "ND",
-          "Notre Dame",
-          "Notre Dame Fighting Irish"
-        ],
-        "color": "062340"
-      },
-      "away": {
-        "id": "espn:24",
-        "name": "Stanford Cardinal",
-        "abbrev": "STAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinal",
-          "STAN",
-          "Stanford",
-          "Stanford Cardinal"
-        ],
-        "color": "8c1515"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Notre Dame Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5181,7 +5181,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-10T19:45Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:218",
         "name": "Temple Owls",
@@ -5211,9 +5211,9 @@
         "color": "0c2340"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Lincoln Financial Field",
-      "detail": "1:05 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5257,7 +5257,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
       "game_number": 1,
@@ -5305,9 +5305,9 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Ohio Stadium",
-      "detail": "8:44 - 4th Quarter",
+      "detail": "4:52 - 4th Quarter",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "HaD683un_NY",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5351,7 +5351,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Donald W. Reynolds Razorback Stadium",
-      "detail": "7:08 - 4th Quarter",
+      "detail": "3:09 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5485,7 +5485,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "10:31 - 2nd Quarter",
+      "detail": "5:53 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5531,7 +5531,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Rogers Arena",
-      "detail": "1:59 - 1st Quarter",
+      "detail": "11:43 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5591,7 +5591,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-10T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:8",
         "name": "Montr\u00e9al Canadiens",
@@ -5621,7 +5621,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Centre Bell",
       "detail": "",
       "game_number": 1,
@@ -5637,7 +5637,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-10T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:9",
         "name": "Ottawa Senators",
@@ -5667,7 +5667,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Canadian Tire Centre",
       "detail": "",
       "game_number": 1,
@@ -5683,7 +5683,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-10T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:5",
         "name": "Pittsburgh Penguins",
@@ -5713,7 +5713,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "PPG Paints Arena",
       "detail": "",
       "game_number": 1,
@@ -5729,7 +5729,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-10T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:16",
         "name": "Chicago Blackhawks",
@@ -5759,7 +5759,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "United Center",
       "detail": "",
       "game_number": 1,
@@ -5775,7 +5775,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-10T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:19",
         "name": "St. Louis Blues",
@@ -5805,7 +5805,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Enterprise Center",
       "detail": "",
       "game_number": 1,
@@ -5867,7 +5867,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-10T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:11",
         "name": "Indiana Pacers",
@@ -5897,9 +5897,9 @@
         "color": "c8102e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "Sat, October 10th at 7:00 PM EDT",
+      "detail": "9:40 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5913,7 +5913,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-10T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:27",
         "name": "Washington Wizards",
@@ -5943,99 +5943,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Capital One Arena",
-      "detail": "Sat, October 10th at 7:00 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856715",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-10T23:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:96",
-        "name": "Kentucky Wildcats",
-        "abbrev": "UK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
-        "logo_dark": null,
-        "aliases": [
-          "Kentucky",
-          "Kentucky Wildcats",
-          "UK",
-          "Wildcats"
-        ],
-        "color": "0033a0"
-      },
-      "away": {
-        "id": "espn:99",
-        "name": "LSU Tigers",
-        "abbrev": "LSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-        "logo_dark": null,
-        "aliases": [
-          "LSU",
-          "LSU Tigers",
-          "Tigers"
-        ],
-        "color": "461d76"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Kroger Field",
-      "detail": "Sat, October 10th at 7:00 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862798",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-10T23:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:235",
-        "name": "Memphis Tigers",
-        "abbrev": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-        "logo_dark": null,
-        "aliases": [
-          "MEM",
-          "Memphis",
-          "Memphis Tigers",
-          "Tigers"
-        ],
-        "color": "004991"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "UAB Blazers",
-        "abbrev": "UAB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blazers",
-          "UAB",
-          "UAB Blazers"
-        ],
-        "color": "1a5632"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Simmons Bank Liberty Stadium",
-      "detail": "Sat, October 10th at 7:00 PM EDT",
+      "detail": "8:54 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6049,7 +5959,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-10T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2638",
         "name": "UTEP Miners",
@@ -6078,55 +5988,9 @@
         "color": "041e42"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Sun Bowl",
-      "detail": "Sat, October 10th at 7:00 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864518",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-10T23:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2439",
-        "name": "UNLV Rebels",
-        "abbrev": "UNLV",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
-        "logo_dark": null,
-        "aliases": [
-          "Rebels",
-          "UNLV",
-          "UNLV Rebels"
-        ],
-        "color": "cf0a2c"
-      },
-      "away": {
-        "id": "espn:2449",
-        "name": "North Dakota State Bison",
-        "abbrev": "NDSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bison",
-          "N Dakota St",
-          "NDSU",
-          "North Dakota State",
-          "North Dakota State Bison"
-        ],
-        "color": "01402A"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Allegiant Stadium",
-      "detail": "Sat, October 10th at 7:00 PM EDT",
+      "detail": "10:51 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6173,7 +6037,143 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joan C. Edwards Stadium",
-      "detail": "14:49 - 1st Quarter",
+      "detail": "8:58 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856715",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-10T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:96",
+        "name": "Kentucky Wildcats",
+        "abbrev": "UK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kentucky",
+          "Kentucky Wildcats",
+          "UK",
+          "Wildcats"
+        ],
+        "color": "0033a0"
+      },
+      "away": {
+        "id": "espn:99",
+        "name": "LSU Tigers",
+        "abbrev": "LSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+        "logo_dark": null,
+        "aliases": [
+          "LSU",
+          "LSU Tigers",
+          "Tigers"
+        ],
+        "color": "461d76"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Kroger Field",
+      "detail": "12:06 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862798",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-10T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:235",
+        "name": "Memphis Tigers",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+        "logo_dark": null,
+        "aliases": [
+          "MEM",
+          "Memphis",
+          "Memphis Tigers",
+          "Tigers"
+        ],
+        "color": "004991"
+      },
+      "away": {
+        "id": "espn:5",
+        "name": "UAB Blazers",
+        "abbrev": "UAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blazers",
+          "UAB",
+          "UAB Blazers"
+        ],
+        "color": "1a5632"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Simmons Bank Liberty Stadium",
+      "detail": "11:35 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864518",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-10T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2439",
+        "name": "UNLV Rebels",
+        "abbrev": "UNLV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rebels",
+          "UNLV",
+          "UNLV Rebels"
+        ],
+        "color": "cf0a2c"
+      },
+      "away": {
+        "id": "espn:2449",
+        "name": "North Dakota State Bison",
+        "abbrev": "NDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bison",
+          "N Dakota St",
+          "NDSU",
+          "North Dakota State",
+          "North Dakota State Bison"
+        ],
+        "color": "01402A"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Allegiant Stadium",
+      "detail": "12:39 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11460,7 +11460,7 @@
       "source": "ESPN",
       "link": "http://www.espn.com/nhl/recap?gameId=401892471",
       "stream_url": "",
-      "body": "SAN JOSE, Calif. -- \u2014 Connor McDavid recorded his 13th point of the season and 10th assist as the Edmonton Oilers beat the San Jose Sharks 3-1 on Saturday for their fourth straight win.\n\n\r\nVasily Podkolzin scored his fifth goal while Mattias Ekholm and Alex Formenton also scored for Edmonton. Tristan Jarry stopped 19 shots.\n\n\r\nMacklin Celebrini returned to the lineup for San Jose after missing two games with a lower-body injury. The Sharks captain scored his first goal of the season midway through the third period.\n\n\r\nEkholm opened the scoring at 12:37 of the first period. Podkolzin extended Edmonton\u2019s lead 3:13 into the third, with McDavid recording the assist. He moved ahead of Jack Eichel for the league lead in points and assists.\n\n\r\nFormenton made it 3-0 on a backhand shot about two minutes later.\n\n\r\nCelebrini got San Jose on the board midway through the third period, but the Sharks could not complete the comeback.\n\n\r\nYaroslav Askarov made 17 saves for San Jose.\n\n\r\nUp next\r\nOilers: Visit Los Angeles on Tuesday night.\n\n\r\nSharks: Host Boston on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50151323",
@@ -11768,7 +11768,7 @@
       "source": "ESPN",
       "link": "https://www.espn.com/rugby/story/_/id/50128778/new-zealand-rugby-launches-legal-action-arlc-png-chiefs-name",
       "stream_url": "",
-      "body": "The battle over the use of the \"Chiefs\" name is headed to the New Zealand High Court after New Zealand Rugby launched legal action against the Australian Rugby League Commission.\n\nNZR on Thursday said it had been left with no choice but to launch legal proceedings against the ARLC, who has sought to adopt the name for its Papua New Guinea expansion franchise.\n\nThe PNG Chiefs are due to join the NRL in 2028 and have already signed a raft of players, including code-hoppers Zac Lomaz and Joey Manu, but they may yet have to undergo a chanGe of name if NZR gets its way.\n\nThe Chiefs' Super Rugby franchise has existed since 1996, with NZR claiming the introduction of the PNG Chiefs would result in \"significant confusion and damage\" should they be allowed to compete under the name from 2028.\n\n\"New Zealand Rugby (NZR) has today moved to protect the Chiefs brand and is filing proceedings in the High Court of New Zealand against the decision by the Australian Rugby League Commission (ARLC) to launch a new NRL side using \"Chiefs\" in its name,\" an NZR statement read.\u202f\u202f\n\n\"NZR is seeking both an interim and final injunction which stops the use of the names 'PNG Chiefs', 'Chiefs' or any other similar names in New Zealand.\u202f\u202f\u202f\n\n\"The Chiefs have competed as a professional rugby team in Super Rugby since 1996 and over those 30 years, have built a strong identity and fanbase across New Zealand, Australia and internationally.\u202f\u202f\n\n\"In New Zealand, NZR owns both the trademark rights for the word Chiefs and the Chiefs logo and since 1998, NZR has also held trademark protection for the Chiefs logo in Australia.\"\n\nNZR claims it had tried to engage with the ARLC in an attempt to find a resolution, yet the commission was now intent on proceeding with the official launch of the PNG Chiefs on Oct. 21.\n\n\"For 30 years the Chiefs and their players have built an incredibly strong identity that is widely recognised and loved by fans,\" NZR chief executive Steve Lancaster said. \"We have raised our concerns with the ARLC directly and consistently over the last year in attempting to find a resolution. We now have a responsibility to protect the Chiefs brand.\u202f\u202f\u202f\n\n\"We want to be absolutely clear, this is not about rugby league's growth in the Pacific. We welcome the development of the Pacific region through sport and the passion that the people of Papua New Guinea have for both rugby and rugby league.\"\u202f\u202f\n\nThe Chiefs won two Super Rugby titles in back-to-back seasons in 2012 and 2013, and were runners-up in Super Rugby Pacific this season after suffering a crushing defeat by the Hurricanes in the decider.\n\nThe Hamilton-based team has produced countless All Blacks since its inception, with Saturday's run-on team to face the Wallabies featuring six players from the franchise.\n\n\"Here in New Zealand, when people hear 'the Chiefs', they think of this club and this region. The identity carries significant cultural meaning and connection to the region and its people, we know it means a great deal to our players and coaches past and present, fans and supporters here and around the world,\" Chiefs CEO Simon Graafhuis said.\u202f\u202f\u202f\n\n\"Teams in different sports and markets can exist alongside one another with the same name, but the issue here is the similarity of our sports competing in the same market, for the same fans, in overlapping windows.\"\u202f\u202f\n\nHowever, ARLC executive chairman Peter V'Landys later issued a stinging rebuke, insisting he would vigorously defend PNG's right to use the Chiefs as its team name.\n\n\"The hypocrisy is mind-blowing, considering the Auckland Blues in 1996 used the NSW Blues name without any consultation or approval. The NSW Blues had been the Blues for in excess of 50 years before that,\" he said.\n\n\"Rugby union is obviously feeling threatened by rugby league in New Zealand, with sell-outs at most rugby league games.\"\n\nNo date has yet been slated for the hearing in New Zealand's High Court."
+      "body": ""
     }
   ],
   "shows": [
@@ -11821,13 +11821,19 @@
           "live": false
         },
         {
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/1",
+          "label": "VidQ FHD@60fps \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
           "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/4/1",
           "label": "VidFrame FHD@60fps \u2014 Part 1",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/1",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
