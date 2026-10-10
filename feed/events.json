@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T03:38:20.376471+00:00",
+  "generated_utc": "2026-10-10T03:46:25.297567+00:00",
   "events": [
     {
       "event_id": "mlb:849833",
@@ -1436,6 +1436,53 @@
       "card": ""
     },
     {
+      "event_id": "mlb:849832",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-09T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "mlb:145",
+        "name": "Chicago White Sox",
+        "abbrev": "CWS",
+        "logo": "https://www.mlbstatic.com/team-logos/145.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CWS",
+          "Chi White Sox",
+          "Chicago",
+          "Chicago White Sox",
+          "White Sox"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:114",
+        "name": "Cleveland Guardians",
+        "abbrev": "CLE",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cleveland",
+          "Cleveland Guardians",
+          "Guardians"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Final/Final",
+      "venue": "Rate Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020063",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -2436,7 +2483,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Husky Stadium",
-      "detail": "1:25 - 3rd Quarter",
+      "detail": "12:49 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2483,7 +2530,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Maverik Stadium",
-      "detail": "7:08 - 3rd Quarter",
+      "detail": "3:17 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2530,7 +2577,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "11:53 - 4th Quarter",
+      "detail": "6:25 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2576,7 +2623,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "1:32 - 4th Quarter",
+      "detail": "4:58 - OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2621,7 +2668,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "LaVell Edwards Stadium",
-      "detail": "4:06 - 2nd Quarter",
+      "detail": "1:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6940,6 +6987,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856827",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-11T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:254",
+        "name": "Utah Utes",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+        "logo_dark": null,
+        "aliases": [
+          "UTAH",
+          "Utah",
+          "Utah Utes",
+          "Utes"
+        ],
+        "color": "be0000"
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Rice-Eccles Stadium",
+      "detail": "Sat, October 10th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401858486",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -7292,52 +7385,6 @@
       "source_status": "FUT/OK",
       "venue": "T-Mobile Arena",
       "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856827",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-11T02:15Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:254",
-        "name": "Utah Utes",
-        "abbrev": "UTAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-        "logo_dark": null,
-        "aliases": [
-          "UTAH",
-          "Utah",
-          "Utah Utes",
-          "Utes"
-        ],
-        "color": "be0000"
-      },
-      "away": {
-        "id": "espn:2305",
-        "name": "Kansas Jayhawks",
-        "abbrev": "KU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jayhawks",
-          "KU",
-          "Kansas",
-          "Kansas Jayhawks"
-        ],
-        "color": "0051ba"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Rice-Eccles Stadium",
-      "detail": "Sat, October 10th at 10:15 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11394,6 +11441,20 @@
   ],
   "stories": [
     {
+      "story_id": "50143689",
+      "headline": "Tarik Skubal, Yoshinobu Yamamoto to start first 2 NLCS games",
+      "summary": "Tarik Skubal will start Game 1 of the NLCS for the Dodgers, followed by Yoshinobu Yamamoto in Game 2.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_085926097_3688684/ss_20261008_085926097_3688684.jpg",
+      "published_utc": "2026-10-10T03:10:48Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Alden Gonzalez",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50143689/dodgers-tarik-skubal-start-game-1-nlcs-vs-brewers-yoshinobu-yamamoto-game-2",
+      "stream_url": "",
+      "body": "Tarik Skubal will take the ball for the Los Angeles Dodgers in Game 1 of his team's National League Championship Series showdown against the Milwaukee Brewers, followed by Yoshinobu Yamamoto in Game 2.\n\nDodgers manager Dave Roberts announced those initial pitching plans Friday, ahead of traveling to Milwaukee for Saturday's workout. Game 1 from American Family Field is Sunday at 8 p.m. ET, with Monday's Game 2 slated for 5 p.m.\n\nSkubal, acquired from the Detroit Tigers in a blockbuster trade Aug. 2, pitched six innings of one-run ball against the Atlanta Braves in Game 1 of the NLDS. Yamamoto followed with seven innings, allowing one run, to outduel Braves ace Chris Sale in Game 3.\n\nBlake Snell, who recorded only 11 outs in the Dodgers' lone NLDS loss in Game 2, will likely follow in Game 3 from Dodger Stadium on Wednesday, though Roberts was not ready to announce his starters beyond the first two games. Tyler Glasnow would be the likely option for Game 4.\n\nThe Brewers are expected to start likely NL Cy Young Award winner Jacob Misiorowski and Logan Henderson in the first two games, respectively.\n\nSkubal has allowed six runs (five earned) in 12 innings against the Brewers this season. Yamamoto allowed two runs in 13 innings against the Brewers during the regular season and twirled a complete game against them in Game 2 of last year's NLCS sweep, allowing just one run."
+    },
+    {
       "story_id": "49804332",
       "headline": "Fantasy football rankings for Week 5: IDP",
       "summary": "Weekly fantasy football draft rankings for IDP leagues from Mike Clay, Tristan H. Cockcroft and Eric Moody.",
@@ -11422,6 +11483,20 @@
       "body": "The WNBA Finals are almost here!\n\nOn Friday, the Atlanta Dream became the first team to clinch their spot in the WNBA Finals with a sweep of the New York Liberty. The Dream will take a 10-game winning streak into the Finals, where Angel Reese will take the WNBA's biggest stage for the first time.\n\nNow, the No. 3 seed Las Vegas Aces host the No. 2 Golden State Valkyries (9:30 p.m. ET) at Michelob Ultra Arena. The defending WNBA champion, Las Vegas went 3-0 against Golden State in the regular season but lost 71-60 and 83-81 in San Francisco.\n\nESPN is courtside at both games to cover all the action. Follow along as Michael Voepel, Alexa Philippou, Kendra Andrews and Kareem Copeland check in with live updates.\n\nJump to:\n\nLive updates | Postgame analysis\n\n(4) Atlanta Dream 85,\n\n(8) New York Liberty 83\n\nHow Atlanta won the game: The Dream played better when it mattered most, even after allowing a 29-15 Liberty run in the third quarter. New York looked like it was finally figuring out how to pull away, taking a 71-66 lead into the fourth quarter. But from there, New York went cold and struggled to shut down Atlanta's Rhyne Howard and Jordin Canada. Canada proved unstoppable, her driving layup with 1:15 left to put Atlanta up four particularly huge. She finished with 19 points and 11 assists, her fourth career points-assists double-double in the playoffs and 10th such double-double this season. Angel Reese was also massive with a team-high 22 points, including 10 in the first quarter to get Atlanta going.\n\nJonquel Jones carried the Liberty with 26 points and 14 rebounds, and Breanna Stewart did her best to at least keep New York alive with timely plays on both ends. But miscues, missed shots and missed defensive opportunities doomed the Liberty, who were swept in the playoffs for the first time since 2012.\n\nHow does Atlanta approach the Finals? The Dream's sweep of the Liberty was remarkably impressive given that it was accomplished with just 11 minutes of contributions from top scorer Allisha Gray. Atlanta has not lost since the FIBA break and, counting both regular-season and playoff games, has rattled off 10 straight dubs. We'll see how far momentum can take the Dream. They'll be in an even better spot if Gray can return in the Finals.\n\nThis will be Atlanta's first Finals appearance since 2013. It has never won. -- Alexa Philppou"
     },
     {
+      "story_id": "50144300",
+      "headline": "Judd Caulfield scores first NHL goal to help the Ducks beat the Jets 5-1",
+      "summary": "\u2014 Rookie Judd Caulfield scored his first NHL goal and added an assist to help the Anaheim Ducks beat Winnipeg 5-1 on Friday night for the Jets' first regulation loss of the season.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892468.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-10T02:58:43Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892468",
+      "stream_url": "",
+      "body": "WINNIPEG, Manitoba -- \u2014 Rookie Judd Caulfield scored his first NHL goal and added an assist to help the Anaheim Ducks beat Winnipeg 5-1 on Friday night for the Jets' first regulation loss of the season.\n\n\r\nTim Washe and Mikael Granlund each had a goal and an assist, and Sam Colangelo and Nikita Nesterenko also scored to help the Ducks improve to 3-1-0.\n\n\r\nDostal stopped 15 shots or Anaheim, allowing only Kyle Conner's goal.\n\n\r\nAfter the Jets trimmed it to 3-1 midway through the third period, Granlund sunk Winnipeg\u2019s hopes with a goal with 5:54 remaining.\n\n\r\nConner, who was playing in his 700th NHL game, pulled the Jets to 3-1 when Mark Scheifele sent him in alone on Lukas Dostal for his sixth goal of the season.\n\n\r\nClay Stevenson made 12 saves for Winnipeg. The Jets are 3-1-1.\n\n\r\nUp next\r\nDucks: At Calgary on Saturday night.\n\n\r\nJets: Host Minnesota on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
       "story_id": "50144244",
       "headline": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
       "summary": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
@@ -11434,20 +11509,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50144244/game-highlights",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1010/385b62c8-aa7f-4688-ba30-14976fdc10bb/385b62c8-aa7f-4688-ba30-14976fdc10bb/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50144041",
-      "headline": "Kent Johnson scores lone goal in shootout to give Blue Jackets 3-2 win over Penguins",
-      "summary": "\u2014 Kent Johnson scored the only goal in a shootout to lift the Columbus Blue Jackets over the Pittsburgh Penguins 3-2 on Friday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892467.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-10T02:20:28Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892467",
-      "stream_url": "",
-      "body": "COLUMBUS, Ohio -- \u2014 Kent Johnson scored the only goal in a shootout to lift the Columbus Blue Jackets over the Pittsburgh Penguins 3-2 on Friday night.\n\n\r\nDamon Severson had a goal and an assist for Columbus. Mathieu Olivier also scored, and Cole Sillinger added two assists.\n\n\r\nCam Talbot made 20 saves and denied all three Pittsburgh attempts in the shootout.\n\n\r\nEvgeni Malkin and Bryan Rust scored for the Penguins, who have dropped three straight games since winning their first two this season. Malkin tied it 2-all at 3:19 of the third period.\n\n\r\nJohnson beat Sergei Murashov with a snap shot to begin the shootout.\n\n\r\nMurashov stopped 43 shots in regulation.\n\n\r\nThe Blue Jackets outshot the Penguins 45-22 and won 66.7% of the faceoffs. Columbus outhit Pittsburgh 21-9.\n\n\r\nThe Penguins blocked 20 shots.\n\n\r\nUp next\r\nPenguins: Host the Dallas Stars on Saturday.\n\n\r\nBlue Jackets: At the St. Louis Blues on Saturday.\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
       "story_id": "49864001",
@@ -11476,20 +11537,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50143205/dejan-kulusevski-return-inspire-spurs-man-united",
       "stream_url": "",
       "body": "Roberto De Zerbi has urged winless Tottenham to draw inspiration from Dejan Kulusevski's comeback ahead of Saturday's trip to Manchester United.\n\nKulusevski has not played for Spurs in more than 500 days following a serious knee injury, but featured in a behind-closed-doors match during the international break and will travel to Old Trafford to offer support.\n\nWith Kulusevski inching closer to an emotional return after multiple setbacks and fears he may never play again, De Zerbi used the Swedish attacker as a reference point for bottom-of-the-table Tottenham, who have taken two points from their first five Premier League fixtures.\n\n\"Yes, he's an inspiration,\" De Zerbi said. \"He reacted very well, with character, with courage, with passion. Yes, passion. It's a good word, passion. We have to take inspiration from Deki. I said the same in the meeting to the players.\n\n\"[Away at Old Trafford] he comes with us, also [Pedro] Porro [for support]. I want all players tonight and tomorrow, but he is working very well. I think he is an example for everyone, Dejan Kulusevski.\n\n\"Forget the player, but the example of how he reacted to the injury, the reaction to being unlucky, the character he showed this time, was an example, a reference for everyone.\"\n\nQuizzed on when he could make his long-awaited return, De Zerbi explained: \"I don't know, it's not just my responsibility.\n\n\"We are working together with the medical staff. They are working very well with him, they have done special work. We have to analyse week by week.\"\n\nSpurs have sorely missed the creativity and character of Kulusevski during his 17-month absence, but De Zerbi is calm after a slow start to the campaign and was reminded of a similar situation for Aston Villa last season.\n\nAsked about Villa being able to finish fourth after they went five games without a win, De Zerbi said: \"Yes, it's possible. Why not? But to do what Villa did, we have to click.\n\n\"I think the first win is not a gift from God. You have to deserve to win. And we didn't deserve to win so far.\"\n\nJames Maddison will travel to Old Trafford and is available but De Zerbi hinted he might only have a cameo role after he missed days of training over the last week.\n\n- Tottenham's Xavi Simons enrolls at Harvard Business School\n\n- Man City charges: What managers said about scandal ahead of Premier League return\n\n- Premier League team news, injury updates after international break\n\nWith Kulusevski still absent and Maddison not back to his best, it has increased calls for Spurs' highly rated 18-year-old Luca Williams-Barnett to get an opportunity.\n\nMajor clubs across the world are circling playmaker Williams-Barnett, but Spurs have opened talks with the mercurial talent over a new deal, the Press Association reported.\n\nDe Zerbi acknowledged he was \"thinking\" about when to include Williams-Barnett in the squad after he made his second Tottenham appearance late on in the Carabao Cup win over Charlton.\n\n\"Special talent, special personality also because he's arrogant, but arrogant good for football,\" De Zerbi said of Williams-Barnett.\n\n\"You have to believe in yourself. Not forgetting to be humble. Anyway, humility but believe in yourself and the right example is Luca.\""
-    },
-    {
-      "story_id": "50142587",
-      "headline": "Guardians' Williams, White Sox's Burke to start for ALCS bid",
-      "summary": "After finishing Game 4 of the ALDS on the mound, Guardians right-hander Gavin Williams will get the ball to start Game 5, while the White Sox will go with righty Sean Burke.",
-      "image": "https://a.espncdn.com/photo/2026/1005/r1726595_1296x729_16-9.jpg",
-      "published_utc": "2026-10-09T21:20:20Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Jesse Rogers",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50142587/guardians-williams-white-sox-burke-start-alcs-bid",
-      "stream_url": "",
-      "body": "After finishing Game 4 of the American League Division Series on the mound, Cleveland Guardians right-hander Gavin Williams will get the ball to start Game 5 on Saturday, manager Stephen Vogt announced.\n\nWilliams, 27, thew 18 pitches in relief of Cade Smith on Thursday as the Chicago White Sox were mounting a comeback against the Guardians' closer. But Williams was able to secure the victory, forcing a winner-take-all game.\n\n\"We're hoping [Thursday] acts as a higher-intensity bullpen,\" Vogt said Friday of Williams' Game 4 outing. \"So Gavin is ready to go tomorrow. Feels good today. So we will obviously see how he's doing tomorrow.\"\n\nWilliams started Game 2 of the series, throwing 98 pitches over five innings. He will be opposed by Chicago right-hander Sean Burke, who would have entered Game 4 if his team had tied the game in the ninth inning. Burke also appeared in Game 2, pitching 5\u2153 innings after the White Sox used an opener.\n\nThat won't be the case in Game 5. It's Burke's ball to start the night.\n\n\"We talked a little bit about some of the exposure to different parts of the lineup that are a factor,\" Chicago manager Will Venable said. \"Just kind of looking at who we have and who we're going to use tomorrow and how we can transition from one guy to the other.\"\n\nBoth bullpens are taxed. Smith pitched in Games 3 and 4 despite the Guardians holding big leads in both contests. He struggled in his fourth inning over the two outings, prompting questions about his usage.\n\n\"If anybody thinks it's easy, go ahead,\" Vogt said with a smirk. \"It's really difficult.\n\n\"I think when you're playing a team that's got the offensive power that they do and as you're managing a bullpen, you always go to worst-case scenario in your head. ... We all put our heads together, and all signs pointed to let's put Cade in this thing and let's stop it right here.\"\n\nIt didn't work, and now Smith's availability for Game 5 is in question. He has appeared in every game of the series, though off days have helped in his recovery.\n\n\"We're going to talk to him tomorrow and see how he feels,\" Vogt said. \"I don't know if it's something that we can push to a ton of pitches tomorrow.\"\n\nThe White Sox might be in a similar position with right-hander Grant Taylor after he was tagged for four runs without recording an out in Game 4. He has thrown 67 pitches in three ALDS outings.\n\nScoring has increased throughout the series as hitters on both teams are facing tired arms with increased familiarity. The winner will take on the Tampa Bay Rays in the AL Championship Series, which begins Monday.\n\n\"At the end of the day, Game 5, deciding game here of a series, it's going to be all hands on deck,\" Venable said. \"You kind of throw out the window, previous usage. You obviously want to be in tune with the guys and how they're feeling, but I think Stephen would say the same thing. We're going for it here.\""
     },
     {
       "story_id": "50140867",
@@ -11562,6 +11609,20 @@
       "body": "Spencer Leniu has signed a four-year deal with Parramatta just days after winning his fourth NRL premiership with the Sydney Roosters.\n\nLeniu finished his three-year stint at the Tricolours on a high after a stellar performance in their 19-18 win over Newcastle to secure the 2026 trophy.\n\nThe NSW Origin representative added the Roosters' premiership ring to the three he won with Penrith from 2021-2023.\n\nLeniu was granted a release from the final year of his Roosters contract, which will give the club some salary cap reprieve\n\nThe hard-hitting forward's Eels contract is reportedly worth more than the $850,000 per year he was making with Easts, where he spent much of his time coming off the bench.\n\nHe is expected to play a more active role in blue and gold, leading the line for the Eels' forward pack.\n\nThe westward move will see the former Panther reunite with good friend Jarome Luai, but first the pair will both suit up for Toa Samoa at the Rugby League World Cup.\n\nEels general manager of football Mark O'Neill shared his delight at signing one of the game's \"premier enforcers\".\n\n\"We're thrilled to have Spencer join the Parramatta Eels and become part of what we're building at this club,\" O'Neill said in a statement.\n\n\"He's one of the elite middle forwards in the game and has consistently performed on the biggest stages throughout his career.\n\nThe exit of Leniu adds to the exodus of stars from the Roosters premiership lineup.\n\nAngus Crichton and Mark Nawaqanitawase are rugby-bound, Daly Cherry-Evans is joining Hull FC, while Daniel Tupou retired this week after his 307-game career.\n\nConnor Watson, who missed the title decider due to concussion, has signed for a season with St George Illawarra Dragons.\n\nRoosters coach Trent Robinson said Leniu had been a strong contributor during his time at the club.\n\n\"Spencer has brought a lot to our group over the last three years, both through the way he plays and the energy and personality he brings every day,\" Robinson said in a statement on Thursday.\n\n\"He brings an intensity and competitiveness to everything he does, and he challenges the people around him to be better.\n\n\"To see him finish his time here as a premiership winner is something he should be really proud of, and something we'll always share together.\"\n\nWith his departure announced at the Roosters' awards night on Wednesday, Leniu said he would leave the club on a high.\n\n\"\"I'm proud to have worn the Roosters jersey and I'll always have a lot of love and respect for the club, the boys and everyone who has supported me during my time here,\" said Leniu.\n\n\"Winning a premiership with this group and sharing that with the boys, our families and everyone at the club is something I'll carry with me for the rest of my life.\""
     },
     {
+      "story_id": "50142587",
+      "headline": "Guardians' Williams, White Sox's Burke to start for ALCS bid",
+      "summary": "After finishing Game 4 of the ALDS on the mound, Guardians right-hander Gavin Williams will get the ball to start Game 5, while the White Sox will go with righty Sean Burke.",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726595_1296x729_16-9.jpg",
+      "published_utc": "2026-10-09T21:20:20Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "Jesse Rogers",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50142587/guardians-williams-white-sox-burke-start-alcs-bid",
+      "stream_url": "",
+      "body": "After finishing Game 4 of the American League Division Series on the mound, Cleveland Guardians right-hander Gavin Williams will get the ball to start Game 5 on Saturday, manager Stephen Vogt announced.\n\nWilliams, 27, thew 18 pitches in relief of Cade Smith on Thursday as the Chicago White Sox were mounting a comeback against the Guardians' closer. But Williams was able to secure the victory, forcing a winner-take-all game.\n\n\"We're hoping [Thursday] acts as a higher-intensity bullpen,\" Vogt said Friday of Williams' Game 4 outing. \"So Gavin is ready to go tomorrow. Feels good today. So we will obviously see how he's doing tomorrow.\"\n\nWilliams started Game 2 of the series, throwing 98 pitches over five innings. He will be opposed by Chicago right-hander Sean Burke, who would have entered Game 4 if his team had tied the game in the ninth inning. Burke also appeared in Game 2, pitching 5\u2153 innings after the White Sox used an opener.\n\nThat won't be the case in Game 5. It's Burke's ball to start the night.\n\n\"We talked a little bit about some of the exposure to different parts of the lineup that are a factor,\" Chicago manager Will Venable said. \"Just kind of looking at who we have and who we're going to use tomorrow and how we can transition from one guy to the other.\"\n\nBoth bullpens are taxed. Smith pitched in Games 3 and 4 despite the Guardians holding big leads in both contests. He struggled in his fourth inning over the two outings, prompting questions about his usage.\n\n\"If anybody thinks it's easy, go ahead,\" Vogt said with a smirk. \"It's really difficult.\n\n\"I think when you're playing a team that's got the offensive power that they do and as you're managing a bullpen, you always go to worst-case scenario in your head. ... We all put our heads together, and all signs pointed to let's put Cade in this thing and let's stop it right here.\"\n\nIt didn't work, and now Smith's availability for Game 5 is in question. He has appeared in every game of the series, though off days have helped in his recovery.\n\n\"We're going to talk to him tomorrow and see how he feels,\" Vogt said. \"I don't know if it's something that we can push to a ton of pitches tomorrow.\"\n\nThe White Sox might be in a similar position with right-hander Grant Taylor after he was tagged for four runs without recording an out in Game 4. He has thrown 67 pitches in three ALDS outings.\n\nScoring has increased throughout the series as hitters on both teams are facing tired arms with increased familiarity. The winner will take on the Tampa Bay Rays in the AL Championship Series, which begins Monday.\n\n\"At the end of the day, Game 5, deciding game here of a series, it's going to be all hands on deck,\" Venable said. \"You kind of throw out the window, previous usage. You obviously want to be in tune with the guys and how they're feeling, but I think Stephen would say the same thing. We're going for it here.\""
+    },
+    {
       "story_id": "49804233",
       "headline": "Fantasy football rankings for Week 5: Kicker",
       "summary": "Fantasy football rankings from Matt Bowen, Mike Clay, Tristan H. Cockcroft, Daniel Dopp, Eric Karabell, Liz Loza, Eric Moody and Field Yates.",
@@ -11590,6 +11651,20 @@
       "body": "As the summer winds down, WNBA action picks up. The league's top teams begin the playoff journey to decide which group of 12 women will be crowned the queens of the court.\n\nThe WNBA playoffs have set the stage for some of the most memorable moments and performances in women's basketball history since the Houston Comets won the league's inaugural championship in 1997. Led by four-time WNBA Finals MVP Cynthia Cooper, the now-defunct Comets won the league's first four titles. They remain the only team to win at least three straight.\n\nIn September 2025, the Phoenix Mercury tied for the largest road comeback in WNBA playoff history (20 pts), with a 89-83 victory over the Minnesota Lynx. As the 2026 WNBA playoff period continues, check out other notable records, facts and stats:\n\nLargest margin of victory\n\n38 points: Chicago Sky (100) vs. New York Liberty (62) on Aug. 20, 2022\n\nLargest comeback\n\n22 points by Indiana Fever vs. Connecticut Sun on Aug. 27, 2007\n\nTeam with the most consecutive appearances\n\nMinnesota Lynx, 11 (2011-21)\n\nPlayer with the most career games\n\nDeWanna Bonner, 103\n\nPlayer with the most career minutes played\n\nDeWanna Bonner, 3148\n\nPlayer with the most career minutes played per game\n\nCynthia Cooper, 38.1\n\nPlayer with the most career points\n\nDiana Taurasi, 1,486\n\nPlayer with the most career points per game*\n\nCynthia Cooper, 23.3\n\nPlayer with the most points in a single game\n\n45: Arike Ogunbowale vs. Golden State Valkyries on Sept. 30, 2026\n\nPlayer with the most career rebounds\n\nDeWanna Bonner, 700\n\nPlayer with the most career rebounds per game*\n\nAliyah Boston, 11.0\n\nPlayer with the most rebounds in a single game\n\nCheryl Ford, 23 vs. Connecticut Sun in Game 1 of Eastern Conference Finals on Aug. 24, 2006\n\nPlayer with the most career assists\n\nChelsea Gray, 418\n\nPlayer with the most career assists per game*\n\nAlyssa Thomas, 7.1\n\nPlayer with the most assists in a single game\n\nCourtney Vandersloot, 18 at Connecticut Sun on Sept. 28, 2021\n\nPlayer with the most career steals\n\nTamika Catchings, 152\n\nPlayer with the most career steals per game*\n\nTamika Catchings, 2.2\n\nPlayer with the most career blocks\n\nLisa Leslie, 132\n\nPlayer with the most career blocks per game*\n\n2.5: Lisa Leslie and Margo Dydek\n\nPlayer with the most career made field goals\n\nDiana Taurasi, 489\n\nPlayer with the most career made field goals per game*\n\nNapheesa Collier, 8.1\n\nPlayer with the most career field goal attempts\n\nDeWanna Bonner, 1,167\n\nPlayer with the most career field goal attempts per game*\n\nBreanna Stewart, 17.7\n\nPlayer with the most career made 3-pointers\n\nDiana Taurasi, 217\n\nPlayer with the most career made 3-pointers per game*\n\nDiana Taurasi, 3.0\n\nPlayer with the most career 3-point attempts\n\nDiana Taurasi, 580\n\nPlayer with the most career 3-point attempts per game*\n\nDiana Taurasi, 7.9\n\nPlayer with the most career made free throws\n\nTamika Catchings, 356\n\nPlayer with the most career made free throws per game*\n\nCynthia Cooper, 7.3\n\nPlayer with the most career free throw attempts\n\nTamika Catchings, 417\n\nPlayer with the most career free throw attempts per game*\n\nCynthia Cooper, 8.6\n\n*- min. 10 games played\n\nCheck out the ESPN WNBA hub page for stats, schedules, scores, standings and more."
     },
     {
+      "story_id": "50144241",
+      "headline": "Anaheim Ducks vs. Winnipeg Jets: Game Highlights",
+      "summary": "Anaheim Ducks vs. Winnipeg Jets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1010/ee07141f-fbfe-4499-ac89-f9e2993463fa/ee07141f-fbfe-4499-ac89-f9e2993463fa.jpg",
+      "published_utc": "2026-10-10T02:48:41Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50144241/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1010/ee07141f-fbfe-4499-ac89-f9e2993463fa/ee07141f-fbfe-4499-ac89-f9e2993463fa/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50134847",
       "headline": "Fantasy basketball cheat sheet: All the names you need to know for your draft",
       "summary": "All the names you need to know from our 2026-27 fantasy basketball draft guide on a printable PDF cheat sheet",
@@ -11602,20 +11677,6 @@
       "link": "https://www.espn.com/fantasy/basketball/story/_/id/50134847/fantasy-basketball-guide-sleepers-busts-draft-tips-2026-2027",
       "stream_url": "",
       "body": "The 2026-27 fantasy basketball season is just around the corner and drafts are happening right now! Are you prepared? We bet you are. But if you're not, we also bet we can get you there.\n\nEither way, you need the Fantasy Basketball Cheat Sheet. How does it differ from other cheat sheets? Well, these aren't rankings, (although we have those too). Rather, we've aggregated all the names you need to know from the best preseason content we've put out over the past month-plus.\n\nSo you can read Andr\u00e9 Snellings' Ultimate Draft Board or Eric Karabell's Do and Do Not Draft lists and get an edge over the competition on draft day.\n\nThis cheat sheet covers the names you need to know from:\n\nAndr\u00e9 Snellings' Ultimate Draft Board\nEric Karabell's 'Do Not Draft' List\nKarabell's 'Do Draft' List\nJim McCormick sleepers to target\nStaff's sleepers, breakouts and busts\nStaff's five 'must-draft' players\n\nPrint the Ultimate Fantasy Basketball Cheat Sheet (PDF)"
-    },
-    {
-      "story_id": "50143929",
-      "headline": "New York Rangers vs. Washington Capitals: Game Highlights",
-      "summary": "New York Rangers vs. Washington Capitals: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1010/e789c9c1-cd6f-4185-ba62-3a4b7d31d0d9/e789c9c1-cd6f-4185-ba62-3a4b7d31d0d9.jpg",
-      "published_utc": "2026-10-10T02:07:00Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50143929/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1010/e789c9c1-cd6f-4185-ba62-3a4b7d31d0d9/e789c9c1-cd6f-4185-ba62-3a4b7d31d0d9/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "50137128",
@@ -11644,20 +11705,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50143021/arsenal-lucky-best-arteta-signed-deal-rice",
       "stream_url": "",
       "body": "Declan Rice has said that Arsenal are \"very lucky\" to have the \"best\" coach in Mikel Arteta after the Spaniard signed a four-year contract to commit his future at the club.\n\nArteta has been in charge of the north London side since 2019, making him the longest-serving manager in England's top four leagues and will remain at Arsenal until 2030.\n\n- Mikel Arteta signs new four-year Arsenal contract\n\nIn an exclusive interview with ESPN Brazil, Rice lauded the impact Arteta has had on Arsenal, having guided the Gunners to their first Premier League title in 22 years last season.\n\n\"It's just tactically, training, managing, the detail he goes into, the things he sees that you would never see,\" Rice told Renato Senise. \"He's constantly watching you when you don't think you're being watched.\n\n\"He's watching, constantly asking questions to try and catch you out, to see if you're listening. He's always keeping you on your toes, making sure that you're ready.\n\n\"Every time we go into games, tactically we know what we're doing. Defensively, with the ball, how we're going to beat the opposition. It's just the fine details, the way he breaks everything down, which makes him the best for me.\n\n\"It's amazing that he [Arteta] signed a new contract and we get to have him as our manager for the next four years. So, we'll be very lucky.\"\n\nRice has started every game for Arsenal this season but withdrew from England duty during the international break to manage his workload.\n\nThe 27-year-old midfielder provided the positive update that he feels ready to play when the Premier League resumes this weekend.\n\n\"It's probably the first time, maybe the second time that I've ever missed a camp since I made my debut for England so I was gutted to miss the camp, but after an honest conversation with Thomas [Tuchel] and the boss here, it was the best thing for me to do, to settle down some of the issues that I've had,\" Rice said.\n\n\"And now I feel good, I feel fresh, and going into this next set of games, I'm going to feel really good.\"\n\n- Viktor Gy\u00f6keres has shone for Sweden. Can he do it for Arsenal now?\n\n- Premier League team news, injury updates after international break\n\n- Arsenal's Mikel Arteta: Premier League still best in the world despite Man City guilty verdict\n\nAsked if the players felt different returning to the pitch this season as reigning champions, Rice insisted their title-winning campaign is in the past and they must focus on new challenges.\n\n\"It [winning the league] was an amazing achievement, but this year's a brand new season: New team, new opposition, new players. So it throws up a different challenge,\" Rice said. \"So, yeah, OK, we are the champions, but we don't go on the pitch and think about last season.\n\n\"We're definitely playing with more confidence this season, you can feel that within the group, but it's about staying humble, and taking each game as it comes like we did last year and trying to win as many as possible.\"\n\nArsenal host Leeds United on Saturday and will be looking to bounce back from a 3-0 defeat to Brighton to put their title defence back on track."
-    },
-    {
-      "story_id": "50110772",
-      "headline": "2026 MLB playoffs: October MVP tracker",
-      "summary": "We go inside the numbers on the players doing the most to help their teams win.",
-      "image": "https://a.espncdn.com/photo/2026/1008/r1727946_608x342_16-9.jpg",
-      "published_utc": "2026-10-09T17:14:45Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Bradford Doolittle",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50110772/2026-mlb-playoffs-mvp-tracker-wpa-leaderboard-win-probability-added-mr-october",
-      "stream_url": "",
-      "body": "Who is hero of the 2026 MLB playoffs?\n\nTo try to answer to that question, we're tabulating the cumulative win probability added figures for every player in the postseason. But we've added a twist: The deeper we get into the playoffs, the more weight the WPA carries. The division series counts double the wild-card round, then we'll double it again for the championship series and, finally, once again for the World Series.\n\nThis means that players who shine in the early rounds can still get on the leaderboard, but it's more difficult. Coming through when the championship leverage is at its highest is what becoming an October hero is all about.\n\nThursday's hero: A perennial MVP candidate, Jose Ramirez struggled through an injury-plagued regular season at the plate. In two games at Chicago, Ramirez declared those struggles to be behind him, all but carrying the Guardians to a pair of season-saving wins.\n\nMethodology\nAs mentioned above, each player's win probability added (WPA) is tracked on a per-game basis. Each round of the playoffs counts double that of the previous round. The tabulation is then converted to an AXE-style index in which 100 represents the average for all postseason players. The \"Change\" column looks in the changes in AXE numbers from the previous day for players who were in action. You can sort this column by clicking on it to see the day's heroes."
     },
     {
       "story_id": "50131573",
