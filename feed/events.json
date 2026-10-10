@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-10T01:26:40.953097+00:00",
+  "generated_utc": "2026-10-10T01:36:45.968858+00:00",
   "events": [
     {
       "event_id": "mlb:849833",
@@ -2092,7 +2092,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-09T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:17",
         "name": "Detroit Red Wings",
@@ -2122,7 +2122,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "FINAL/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -2168,7 +2168,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Capital One Arena",
       "detail": "",
       "game_number": 1,
@@ -2214,7 +2214,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Nationwide Arena",
       "detail": "",
       "game_number": 1,
@@ -2263,7 +2263,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "L&N Federal Credit Union Stadium",
-      "detail": "4:25 - 3rd Quarter",
+      "detail": "0:49 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2309,7 +2309,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Barclays Center",
-      "detail": "4:55 - 4th Quarter",
+      "detail": "3:15 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2435,9 +2435,9 @@
         "color": "5d76a9"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "United Center",
-      "detail": "Halftime",
+      "detail": "11:57 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2483,7 +2483,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Husky Stadium",
-      "detail": "7:07 - 1st Quarter",
+      "detail": "5:14 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2530,7 +2530,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Maverik Stadium",
-      "detail": "10:22 - 1st Quarter",
+      "detail": "3:34 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2577,7 +2577,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "4:53 - 1st Quarter",
+      "detail": "15:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11487,6 +11487,20 @@
   ],
   "stories": [
     {
+      "story_id": "50143665",
+      "headline": "Rangers goaltender Igor Shesterkin helped off ice after fall",
+      "summary": "New York Rangers goaltender Igor Shesterkin, the 30-year-old Russian who won the 2022 Vezina Trophy, had to be helped off the ice after an awkward fall into his own net against the Washington Capitals on Friday night at Capital One Arena.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1010/0270d47f-88d9-4fa9-90b7-96e7c16a8b38/0270d47f-88d9-4fa9-90b7-96e7c16a8b38.jpg",
+      "published_utc": "2026-10-10T01:31:51Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50143665/rangers-goaltender-igor-shesterkin-helped-ice-fall",
+      "stream_url": "",
+      "body": "WASHINGTON -- New York Rangers goaltender Igor Shesterkin had to be helped off the ice after an awkward fall into his own net against the Washington Capitals on Friday night.\n\nShesterkin came well out of his crease to challenge a shooter and fell as he scrambled back to the net midway through the second period. The 30-year-old Russian caught his skate on the post as he slid back into the crease and collapsed into the net.\n\nShesterkin lay on the ice for several minutes holding his right knee as he received medical attention. He did not put any weight on his right leg as he was helped off the ice by teammates.\n\nThe 2022 Vezina Trophy winner missed a month of last season with a lower-body injury, contributing to the Rangers falling short of the playoffs."
+    },
+    {
       "story_id": "50116111",
       "headline": "Fantasy football Week 5 inactives: Kyle Monangai, Lamar Jackson out",
       "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
@@ -11585,20 +11599,6 @@
       "body": "Inter Miami head coach Cristian \"Kily\" Gonz\u00e1lez said Argentina will miss Lionel Messi terribly following the captain's international retirement before urging fans to enjoy his time with the MLS club.\n\n\"[The farewell match] was incredibly intense,\" Gonz\u00e1lez said on Friday. \"Obviously, I was very close to him, but ultimately, that moment belonged to him, it was his time.\n\n\"All that mattered was for him to enjoy it. I just told him to enjoy it, to soak up all the love, not just from Argentina, but from the whole world.\n\n\"He'll be missed in that jersey, of course, but today we have him here, and we have to enjoy having him with us now.\n\n\"He's going to miss it, from the day he retires until the day he's no longer around. I have no doubt that, for him, the national team was all about wearing that jersey; he'll always miss the mark he left and the legacy he created there. But unfortunately, we won't see him in that jersey anymore, so those of us here have to enjoy it. Now he's ours, so I have to enjoy it.\"\n\nGonz\u00e1lez added that Messi left a lasting legacy with Argentina due to his competitive nature, inspiring those around him to improve every day.\n\n\"Leo is someone who conveys a certain mindset every day; he demands that his teammates, and all of us, give 100% in every respect,\" Gonz\u00e1lez said.\n\n\"He's a born competitor. You see it in every training session, and it's incredible. He's 39 years old, yet he's constantly seeking out new challenges. That's fantastic for everyone, not just his teammates, but the staff and the club as well.\n\n\"He pushes you to be better every single day.\n\n\"That's why he's such an example; as I said before, he'll be missed on the national team because he left a legacy there, and he's leaving a legacy here too, the club changed the day he arrived.\n\n\"He drives us to improve daily and to be prepared in every way. And he's happy, I see him enjoying himself, and that makes me very happy, too.\"\n\nMessi and Inter Miami now prepare to face D.C. United on Saturday night at Nu Stadium in the first game back after the international break.\n\n\"We're in a good place. The guys who returned from their respective national teams are doing really well,\" Gonz\u00e1lez said. \"We've trained effectively, and we know we need to get back to winning, that's a given. We have a few matches to settle in properly, reach the final stretch of the season in top form, and fine-tune the details so we can be the best team possible.\"\n\nInter Miami currently sits in third place on the Eastern Conference table with 46 points in 27 games following a five-match winless streak in MLS. The Herons recorded one loss and four draws in their last five regular-season MLS games.\n\nInter Miami did, however, defeat Cruz Azul 2-0 in the Campeones Cup on Sept. 16.\n\n\"We have a very clear idea of what we want and what we're aiming for. Defensively, we need to be much better; we're facing an opponent that relies heavily on transitions and is very dangerous in those situations, so we have to guard against that.\n\n\"At the same time, we can't lose sight of the fact that we need to take the initiative and go out to win the match. As I just said, we need to get back to winning ways, and hopefully, we can achieve that.\"\n\nInter Miami will then host New York City FC on Oct. 14 at Nu Stadium."
     },
     {
-      "story_id": "50141348",
-      "headline": "Panthers eyeing six-week timeline for Brad Marchand's return",
-      "summary": "The Panthers are expecting forward Brad Marchand to miss about six weeks with his left leg injury, a timeline that coincides with Aleksander Barkov being out six to eight weeks.",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727211_1296x729_16-9.jpg",
-      "published_utc": "2026-10-09T17:15:35Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50141348/panthers-eyeing-six-week-line-brad-marchand-return",
-      "stream_url": "",
-      "body": "The Florida Panthers are expecting forward Brad Marchand to miss about six weeks with his left leg injury, coach Paul Maurice told reporters Friday.\n\nThe timeline coincides closely to that of Aleksander Barkov, as Maurice announced earlier this week that Barkov won't require surgery on his left leg injury and is expected to be available again within six to eight weeks.\n\nMarchand, who didn't play in the team's first two games, suffered his injury during a 2-1 win over the Los Angeles Kings on Tuesday as the Panthers wrapped up a season-opening four-game road trip.\n\nHe was hurt after taking a stick to the face from Kings defenseman Brandt Clarke with 52.6 seconds remaining, causing him to twist around and collide with the right post before his left leg bent back in awkwardly.\n\nMarchand was down on the ice for several minutes being examined by an athletic trainer before teammates Brady Tkachuk and Niko Mikkola helped him to the bench, with Marchand unable to put weight on his leg. He was then helped back to the dressing room.\n\nFlorida won back-to-back Stanley Cup titles in 2024 and 2025 but missed the playoffs last season after a slew of players -- Barkov and Marchand among them -- were derailed by injuries.\n\nOn Thursday, Barkov called his diagnosis \"really good news\" and said he planned to meet with the Panthers as early as Friday to develop a concise return-to-play plan, including setting a target for when he can resume skating.\n\nThe Associated Press contributed to this report."
-    },
-    {
       "story_id": "50131328",
       "headline": "Singapore Grand Prix: FIA confirms software issue in sprint qualifying was caused by 'human error'",
       "summary": "Formula 1 encountered its second technical mishap in a less than a week after an FIA official forgot to push a button needed to enable full engine power in sprint qualifying for the Singapore Grand Prix.",
@@ -11653,6 +11653,20 @@
       "link": "https://www.espn.com/nrl/story/_/id/50130333/nrl-spencer-leniu-signs-eels-early-roosters-release",
       "stream_url": "",
       "body": "Spencer Leniu has signed a four-year deal with Parramatta just days after winning his fourth NRL premiership with the Sydney Roosters.\n\nLeniu finished his three-year stint at the Tricolours on a high after a stellar performance in their 19-18 win over Newcastle to secure the 2026 trophy.\n\nThe NSW Origin representative added the Roosters' premiership ring to the three he won with Penrith from 2021-2023.\n\nLeniu was granted a release from the final year of his Roosters contract, which will give the club some salary cap reprieve\n\nThe hard-hitting forward's Eels contract is reportedly worth more than the $850,000 per year he was making with Easts, where he spent much of his time coming off the bench.\n\nHe is expected to play a more active role in blue and gold, leading the line for the Eels' forward pack.\n\nThe westward move will see the former Panther reunite with good friend Jarome Luai, but first the pair will both suit up for Toa Samoa at the Rugby League World Cup.\n\nEels general manager of football Mark O'Neill shared his delight at signing one of the game's \"premier enforcers\".\n\n\"We're thrilled to have Spencer join the Parramatta Eels and become part of what we're building at this club,\" O'Neill said in a statement.\n\n\"He's one of the elite middle forwards in the game and has consistently performed on the biggest stages throughout his career.\n\nThe exit of Leniu adds to the exodus of stars from the Roosters premiership lineup.\n\nAngus Crichton and Mark Nawaqanitawase are rugby-bound, Daly Cherry-Evans is joining Hull FC, while Daniel Tupou retired this week after his 307-game career.\n\nConnor Watson, who missed the title decider due to concussion, has signed for a season with St George Illawarra Dragons.\n\nRoosters coach Trent Robinson said Leniu had been a strong contributor during his time at the club.\n\n\"Spencer has brought a lot to our group over the last three years, both through the way he plays and the energy and personality he brings every day,\" Robinson said in a statement on Thursday.\n\n\"He brings an intensity and competitiveness to everything he does, and he challenges the people around him to be better.\n\n\"To see him finish his time here as a premiership winner is something he should be really proud of, and something we'll always share together.\"\n\nWith his departure announced at the Roosters' awards night on Wednesday, Leniu said he would leave the club on a high.\n\n\"\"I'm proud to have worn the Roosters jersey and I'll always have a lot of love and respect for the club, the boys and everyone who has supported me during my time here,\" said Leniu.\n\n\"Winning a premiership with this group and sharing that with the boys, our families and everyone at the club is something I'll carry with me for the rest of my life.\""
+    },
+    {
+      "story_id": "50141348",
+      "headline": "Panthers eyeing six-week timeline for Brad Marchand's return",
+      "summary": "The Panthers are expecting forward Brad Marchand to miss about six weeks with his left leg injury, a timeline that coincides with Aleksander Barkov being out six to eight weeks.",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727211_1296x729_16-9.jpg",
+      "published_utc": "2026-10-09T17:15:35Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50141348/panthers-eyeing-six-week-line-brad-marchand-return",
+      "stream_url": "",
+      "body": "The Florida Panthers are expecting forward Brad Marchand to miss about six weeks with his left leg injury, coach Paul Maurice told reporters Friday.\n\nThe timeline coincides closely to that of Aleksander Barkov, as Maurice announced earlier this week that Barkov won't require surgery on his left leg injury and is expected to be available again within six to eight weeks.\n\nMarchand, who didn't play in the team's first two games, suffered his injury during a 2-1 win over the Los Angeles Kings on Tuesday as the Panthers wrapped up a season-opening four-game road trip.\n\nHe was hurt after taking a stick to the face from Kings defenseman Brandt Clarke with 52.6 seconds remaining, causing him to twist around and collide with the right post before his left leg bent back in awkwardly.\n\nMarchand was down on the ice for several minutes being examined by an athletic trainer before teammates Brady Tkachuk and Niko Mikkola helped him to the bench, with Marchand unable to put weight on his leg. He was then helped back to the dressing room.\n\nFlorida won back-to-back Stanley Cup titles in 2024 and 2025 but missed the playoffs last season after a slew of players -- Barkov and Marchand among them -- were derailed by injuries.\n\nOn Thursday, Barkov called his diagnosis \"really good news\" and said he planned to meet with the Panthers as early as Friday to develop a concise return-to-play plan, including setting a target for when he can resume skating.\n\nThe Associated Press contributed to this report."
     },
     {
       "story_id": "50143342",
@@ -11751,20 +11765,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50131573/sullivan-look-place-usmnt",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1008/dm_261008_COM_SOC_Analysis_Hislop_Sullivan_didnt_look_out_of_place_for_the_USMNT__20261008_GLOBAL/dm_261008_COM_SOC_Analysis_Hislop_Sullivan_didnt_look_out_of_place_for_the_USMNT__20261008_GLOBAL/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50133323",
-      "headline": "NHL breakout tiers: Top players ready to level up in 2026-27",
-      "summary": "From players with new linemates to young stars set to hit superstardom to enticing rookies, watch out for this group.",
-      "image": "https://a.espncdn.com/photo/2026/1008/r1727996_1296x729_16-9.jpg",
-      "published_utc": "2026-10-09T11:12:59Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Greg Wyshynski",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50133323/nhl-2026-27-breakout-players-tiers-rankings-superstars-goals-stats",
-      "stream_url": "",
-      "body": "One thing became clear when compiling our NHL breakout tiers for the 2026-27 season: The future is extraordinarily bright.\n\nLike staring at the exposed bulb of a powerful floor lamp. Like opening up the blackout curtains straight into the morning sun. That kind of bright.\n\nThis season features a deep rookie class that is poised to make an immediate impact, as well as a few dozen young players ready to make the leap to stardom.\n\nBut our tiers also honor a handful of veterans who should see their fortunes change thanks to new environments and linemates.\n\nHere are 40 NHL players ready to break out in 2026-27, organized into tiers that explain the circumstances behind their potential emergence. Enjoy!\n\nJump to a tier:\n\nNew scenery\n\nYoung star to superstar\n\nThe wait is over\n\nGoalie breakouts\n\nRookie sensations\n\nTier 1: New scenery\nThese players switched teams and could see their profile rise with new scenery.\n\nBowen Byram\n\nD, Chicago Blackhawks\nIt was a pretty simple equation. Byram was tied for 10th in 5-on-5 points (63) over the past two seasons among all defensemen. He was 63rd in power-play points (nine) in that same span, with the 48th highest ice time with the man advantage, taking second-unit minutes on the Buffalo Sabres behind Rasmus Dahlin.\n\nSo he goes to Chicago and gets to quarterback the top unit on a team that'll allow him to put the pedal down offensively, no matter his defensive issues, at even strength. He obliterates his career high in points (42) and begins to justify his $12.5 million cap hit beginning next season. You know ... theoretically.\n\nJohn Carlson\n\nD, Tampa Bay Lightning\nThis is an old star with a chance to be reignited. Carlson getting to run point on the Lightning power play gives the 36-year-old defenseman his greatest collection of offensive weaponry since the apex of Ovechkin-Backstrom-Kuznetsov man advantages. He had 60 points in 71 games last season, with just 14 points on the power play.\n\nLuke Evangelista\n\nRW, New Jersey Devils\nOne of GM Sunny Mehta's first big swings looks like a hit. The 24-year-old has been buzzing at 5-on-5 and contributing on the power play, adding some persistence and a net-front presence to a team that needed more of it. He's a staple in the Devils' top six already.\n\nHendrix Lapierre\n\nC, Pittsburgh Penguins\nWe've been holding onto our Hendrix Lapierre stock for a while. The 24-year-old forward bounced between Washington and Hershey for a few years before ending up in Pittsburgh. He's played on Sidney Crosby's line and seems to have a fan in coach Dan Muse, who recently called the tenacious center/wing a \"Swiss Army knife\" player.\n\nDevon Levi\n\nG, Edmonton Oilers\nThe former Sabres goalie of the future is off to a 3-0-0 start for the rolling Oilers. Granted, his .863 save percentage, 3.35 goals-against average and negative goals saved above expected aren't great, but they're also not Tristan Jarry. Could Levi be the goalie Connor McDavid has been waiting for?\n\nKirill Marchenko\n\nLW, Toronto Maple Leafs\nMarchenko has already had an impact in the NHL, leading the Columbus Blue Jackets in goals for three straight seasons and amassing 103 tallies in his first 296 games. But he never had a superstar like Auston Matthews as his center. Marchenko breaking into point-per-game territory isn't too far a reach.\n\nMason McTavish\n\nC, St. Louis Blues\n\"What happened to Mason McTavish?\" was a common question among NHL fans who had previously watched him dominate junior hockey. There's no question the interruption to his training camp last season due to a contract dispute impacted his season in Anaheim. But overall, he hasn't popped like other young Ducks stars have. Perhaps a fresh start in St. Louis reignites his offensive game.\n\nJJ Peterka\n\nRW, Boston Bruins\nEven with 25 goals last season, Peterka's time with the Utah Mammoth was frustrating for both player and team. Now he's back in the Eastern Conference and skating on the Bruins' second line behind David Pastrnak -- although he's getting a taste of Pasta on the power play.\n\nMackie Samoskevich\n\nRW, Seattle Kraken\n\nThe Kraken sent a first- and a second-round pick to the Panthers for the 24-year-old winger buried on their depth chart, and then signed him to a three-year deal. Does more ice time -- and a spot next to Michigan teammate Matty Beniers -- help Samoskevich level up? Or is this just another middle-six forward for a franchise that seems to collect them like Pok\u00e9mon?\n\nTier 2: Young star to superstar\nYou might already know these names. Get ready to hear them a lot more.\n\nJackson Blake\n\nRW, Carolina Hurricanes\nBlake's line with Logan Stankoven and Taylor Hall was the offensive engine for the Hurricanes before Jordan Staal decided to start scoring like Eric Staal in the Stanley Cup Final. Of the three, the 23-year-old Blake is the one who hasn't necessarily received the attention he deserves despite 22 goals last season and 20 points in 19 playoff games. That changes this season.\n\nQuinton Byfield\n\nC, Los Angeles Kings\nThe general vibe on Byfield this season is that if it's ever going to happen for him, it'll be with Artemi Panarin skating on his left side. The 24-year-old, selected No. 2 in 2020, has topped out at 24 goals and 55 points as career highs. If Panarin and other Kings wingers such as Adrian Kempe can't get him over those totals this season, who can?\n\nLogan Cooley\n\nC, Utah Mammoth\nCooley's breakout is just a matter of staying in the lineup. The 22-year-old center has been around nearly 3.00 points per 60 minutes over the past two seasons, and could have had his breakout last season were it for injuries that limited him to 54 games. A star in the making.\n\nIvan Demidov\n\nRW, Montreal Canadiens\nDemidov is the epitome of \"young star to superstar.\" His 62 points in 82 games last season -- playing just 15:30 on average -- felt like just scratching the surface of his offensive game, especially if he ups his shots on goal.\n\nMarco Rossi\n\nC, Vancouver Canucks\nMy bold prediction before the season on the Canucks was that Rossi would find his game in Vancouver and become a No. 1 center. He has started strong with four points in four games. The problem is that he might end up thriving on the wing rather than at center. Well, it's a problem for me at least. I don't think the Canucks care where he scores, just that he does.\n\nBeckett Sennecke\n\nRW, Anaheim Ducks\nSennecke was third for the Calder last season behind Matthew Schaefer and Demidov after netting 23 goals for the Ducks. That was with one power-play goal and with an 11.7% shooting percentage. He has another gear in him, and his three goals through three games points to that.\n\nJimmy Snuggerud\n\nRW, St. Louis Blues\n\nA rookie last season, Snuggerud overcame a slow start to finish with a solid 51 points in 70 games. As long as he keeps his wagon hitched to center Robert Thomas, expect him to hit greater offensive heights this season.\n\nTier 3: The wait is over\nPlayers we've been waiting to see break out who finally will.\n\nIgor Chernyshov\n\nLW, San Jose Sharks\nThe Sharks winger had 19 points in 28 games last season while spending a good chunk of the season in the AHL. Whether he hits that next level depends greatly on where he ends up in their lineup, as he spent copious time with Macklin Celebrini last season.\n\nTristan Luneau\n\nD, Anaheim Ducks\nLuneau is probably best known as the player who just signed a six-year, $43.2 million contract despite just 14 games played entering the season -- a symbol of GM Pat Verbeek's offer sheet paranoia. But people who knew the Ducks organization will tell you he has the goods. The more he plays with Jackson LaCombe, the better the chances are we'll get to see that.\n\nMatvei Gridin\n\nRW, Calgary Flames\nThe 20-year-old figures to be one of the bigger -- or only -- offensive threats on the rebuilding Flames. He had 30 points in 37 games last season, including 10 goals. As long as he still has scoring help on the roster in a continuing sell-off by the Flames, he should thrive.\n\nNoah Ostlund\n\nC, Buffalo Sabres\nThe 22-year-old Swede showed some strong potential as a No. 2 center last season, in particular clicking well with winger Zach Benson. If he can stay healthy -- an injury cut his postseason to just three games -- the Sabres could have a strong secondary scoring option behind Tage Thompson.\n\nGabe Perreault\n\nRW, New York Rangers\nThe Rangers put the third-year winger out of Boston College in a position to break out, on the wing of Mika Zibanejad and Alexis Lafreniere. He's responded with a scoring start, scoring four points in five games. In the Rangers' retool -- or however they're defining it -- having Perreault become the kind of offensive force he was in college would be huge.\n\nVasily Podkolzin\n\nRW, Edmonton Oilers\nHere's a simple recipe for creating a breakout player: Take a winger who scored 19 goals, add either Connor McDavid or Leon Draisaitl (or both), and then watch that winger's stats inflate like a balloon. At least that's the hope with Podkolzin, who is playing on Edmonton's top line and top power-play unit.\n\nCalum Ritchie\n\nC, New York Islanders\nRitchie had a nice rookie season that was completely overshadowed by that other rookie's season in 2025-26. While he's no Matthew Schaefer, the 21-year-old picked up in the Brock Nelson trade two seasons ago is getting a push on the team's second line after 30 points in 65 games last season.\n\nMatthew Wood\n\nLW, Nashville Predators\n\nThe 21-year-old had 17 goals in 71 games last season playing all over the Nashville lineup, but he clicked best with star forward Filip Forsberg. They appear to have a good thing going on a line with Nils Hoglander at the start of the season, with Nashville expecting big things from Wood.\n\nTier 4: The goalie breakouts\n\nSebastian Cossa\n\nUtah Mammoth\nCossa entered the season as the rookie backup to Karel Vejmelka, who logged an NHL-high 64 games last season. But when Cossa gets his chances, he'll be playing behind one of the better teams in the Western Conference, based on the early returns.\n\nNico Daws\n\nNew Jersey Devils\nNew GM Sunny Mehta put his full faith behind the 25-year-old German-born goaltender after the Devils traded Jacob Markstrom to the Panthers. He has played parts of four seasons with New Jersey but only nine games in the past two campaigns. This is his moment to take on an NHL job or leave the Devils to again search for a goalie solution.\n\nDylan Garand\n\nNew York Rangers\nMore than a few NHL observers were surprised that Garand, 24, made it through waivers before the Rangers recalled him to back up Igor Shesterkin. He has been stuck with Hartford in the AHL for four seasons but has played well enough that the Rangers might have to make a decision on veteran Joonas Korpisalo when he returns from injury.\n\nJoel Hofer\n\nSt. Louis Blues\nThere was a time when having another St. Louis Blues goalie usurp Jordan Binnington as the starter seemed unlikely. But Hofer, 26, badly outplayed Binnington last season and was a key factor in the Blues' strong finish. He seems primed to join the ranks of dependable NHL starters.\n\nSergei Murashov\n\nPittsburgh Penguins\nIt's just a matter of time before the 22-year-old rookie netminder starts earning the majority of the starts for the Penguins, having dominated in the AHL and the KHL.\n\nClay Stevenson\n\nWinnipeg Jets\n\nWhat happens when a three-time Vezina Trophy winner demands a trade and then is suspended by his team? Well, that team needs to find itself another goalie or two.\n\nThe Jets brought in veteran Stuart Skinner but also made a waiver claim on Washington goalie Stevenson, a 27-year-old who has played mostly for Hershey. As long as Connor Hellebuyck doesn't return to the Winnipeg locker room, the talented Stevenson should get his most NHL ice time ever if he keeps earning it.\n\nTier 5: Rookie sensations\nFirst-year players who aren't waiting for their breakout.\n\nViggo Bjorck\n\nC, Winnipeg Jets\nThe No. 8 pick in June's draft, the Swedish center was earning second-line minutes early in the season but will have to produce offensively to keep that status.\n\nLuca Cagnoni\n\nD, San Jose Sharks\nAfter two seasons putting up big offensive numbers with the AHL Barracuda, the 21-year-old made the Sharks out of camp and averaged over 20 minutes in ice time during his first three games, including top power-play unit duties. The diminutive (5-9) defenseman was a fourth-round pick in 2023. Can he handle the physical toll of big NHL minutes?\n\nAnton Frondell\n\nC, Chicago Blackhawks\nAfter last season's appetizer -- nine points in 12 games after arriving from Djurgardens IF of the Swedish Hockey League -- Frondell is already showing he's going to cook this season. The No. 3 pick in 2025 had four points in his first four games, earning first-unit power-play time.\n\nJames Hagens\n\nF, Boston Bruins\nThe Boston College product has run the rookie gamut early in the season: flashes of offensive spark and bouts of defensive befuddlement. But he'll improve.\n\nCole Hutson\n\nD, Washington Capitals\nThe younger brother of Montreal star Lane Hutson, the 20-year-old had 10 points in 14 games last season and looks to be a key puck-mover on the Capitals' blue line this season while earning second-unity power-play minutes.\n\nRoman Kantserov\n\nRW, Chicago Blackhawks\nKantserov led the KHL with 36 goals last season as a 21-year-old winger before finally making the leap to the NHL. He's a great puck handler and a creative playmaker. Once he gets adjusted to the North American game, Kantserov has the skill set to be an offensive force.\n\nPorter Martone\n\nRW, Philadelphia Flyers\nLike the rest of the Flyers, Martone has gotten out of the blocks slowly. But it's just a matter of time before the Martone we saw late last season -- a 19-year-old, playing like a 10-year veteran -- reemerges.\n\nGavin McKenna\n\nLW, Toronto Maple Leafs\nThe No. 1 pick in June's draft got his first taste of the Toronto media pressure cooker after going scoreless in his first three NHL games. But McKenna accepted the challenge and calmed everyone down with a goal and an assist in a win over Nashville. He's skating next to John Tavares and William Nylander. He's positioned to thrive.\n\nIlya Protas\n\nC, Washington Capitals\nThe young center is skating with brother Aliaksei and key offseason addition Jordan Kyrou on the Capitals' third line. It's a trio that could do some damage this season.\n\nIvar Stenberg\n\nLW, San Jose Sharks\nThe No. 2 pick in June, Stenberg was slotted right onto the team's second line and top power-play unit. The sky's the limit for the 19-year-old Swede, provided he's ready."
     },
     {
       "story_id": "50075966",
@@ -11955,6 +11955,12 @@
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-09-2026/select-post-1/5/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-09-2026/select-post-1/5/5",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         }
