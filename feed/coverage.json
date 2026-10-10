@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-10T03:26:11.821455+00:00",
+  "generated_utc": "2026-10-10T03:38:20.384139+00:00",
   "window_days": 2,
-  "total_events": 253,
+  "total_events": 252,
   "competitions": [
     {
       "competition": "aew",
@@ -162,14 +162,14 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 7,
+      "events": 6,
       "date_range": [
         "2026-10-07",
         "2026-10-12"
       ],
-      "explicit_status": 7,
+      "explicit_status": 6,
       "status_coverage_pct": 100,
-      "both_logos": 7,
+      "both_logos": 6,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -430,7 +430,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "mlb",
+      "date": "2026-10-08",
+      "error": "URLError for https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-10-08: <urlopen error timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
