@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T04:42:36.591590+00:00",
+  "generated_utc": "2026-10-11T04:52:53.578143+00:00",
   "events": [
     {
       "event_id": "nhl:2026020056",
@@ -6643,7 +6643,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-11T02:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:20",
         "name": "Calgary Flames",
@@ -6673,7 +6673,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Scotiabank Saddledome",
       "detail": "",
       "game_number": 1,
@@ -6689,7 +6689,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-11T02:00:00Z",
-      "status": "live",
+      "status": "unknown",
       "home": {
         "id": "nhl:54",
         "name": "Vegas Golden Knights",
@@ -6719,7 +6719,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "OVER/OK",
       "venue": "T-Mobile Arena",
       "detail": "",
       "game_number": 1,
@@ -6767,7 +6767,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Mortgage Matchup Center",
-      "detail": "7:44 - 4th Quarter",
+      "detail": "3:48 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
