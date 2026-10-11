@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T04:52:53.578143+00:00",
+  "generated_utc": "2026-10-11T05:02:58.130332+00:00",
   "events": [
     {
       "event_id": "nhl:2026020056",
@@ -6689,7 +6689,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-11T02:00:00Z",
-      "status": "unknown",
+      "status": "final",
       "home": {
         "id": "nhl:54",
         "name": "Vegas Golden Knights",
@@ -6719,7 +6719,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "OVER/OK",
+      "source_status": "FINAL/OK",
       "venue": "T-Mobile Arena",
       "detail": "",
       "game_number": 1,
@@ -6735,7 +6735,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-11T02:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:21",
         "name": "Phoenix Suns",
@@ -6765,9 +6765,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mortgage Matchup Center",
-      "detail": "3:48 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6813,9 +6813,9 @@
         "color": "0033a0"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "Halftime",
+      "detail": "15:00 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6860,9 +6860,9 @@
         "color": "005737"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Mountain America Stadium",
-      "detail": "Halftime",
+      "detail": "11:27 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
