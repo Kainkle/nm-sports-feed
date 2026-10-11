@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T02:31:14.780075+00:00",
+  "generated_utc": "2026-10-11T02:41:14.389558+00:00",
   "events": [
     {
       "event_id": "nhl:2026020056",
@@ -2659,7 +2659,7 @@
       "venue": "San Siro",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "zRetlNrpzog",
+      "highlight_video_id": "FcLsTBOfHBw",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3649,7 +3649,7 @@
       "venue": "Stadio Diego Armando Maradona",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "DfztbBzRB8M",
+      "highlight_video_id": "-V-F9y_7EWE",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -4879,7 +4879,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Centre Bell",
       "detail": "",
       "game_number": 1,
@@ -5248,7 +5248,52 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kroger Field",
-      "detail": "1:52 - 4th Quarter",
+      "detail": "0:15 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864517",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-10T23:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2638",
+        "name": "UTEP Miners",
+        "abbrev": "UTEP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+        "logo_dark": null,
+        "aliases": [
+          "Miners",
+          "UTEP",
+          "UTEP Miners"
+        ],
+        "color": "ff8200"
+      },
+      "away": {
+        "id": "espn:2440",
+        "name": "Nevada Wolf Pack",
+        "abbrev": "NEV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+        "logo_dark": null,
+        "aliases": [
+          "NEV",
+          "Nevada",
+          "Nevada Wolf Pack",
+          "Wolf Pack"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Sun Bowl",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5302,57 +5347,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401864517",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-10T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2638",
-        "name": "UTEP Miners",
-        "abbrev": "UTEP",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-        "logo_dark": null,
-        "aliases": [
-          "Miners",
-          "UTEP",
-          "UTEP Miners"
-        ],
-        "color": "ff8200"
-      },
-      "away": {
-        "id": "espn:2440",
-        "name": "Nevada Wolf Pack",
-        "abbrev": "NEV",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-        "logo_dark": null,
-        "aliases": [
-          "NEV",
-          "Nevada",
-          "Nevada Wolf Pack",
-          "Wolf Pack"
-        ],
-        "color": "041e42"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Sun Bowl",
-      "detail": "1:14 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401864518",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-10T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2439",
         "name": "UNLV Rebels",
@@ -5382,9 +5382,9 @@
         "color": "01402A"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Allegiant Stadium",
-      "detail": "1:08 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5475,7 +5475,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
@@ -5523,7 +5523,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bryant-Denny Stadium",
-      "detail": "10:47 - 4th Quarter",
+      "detail": "9:14 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5568,7 +5568,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Beaver Stadium",
-      "detail": "11:11 - 4th Quarter",
+      "detail": "6:02 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5614,7 +5614,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Scott Stadium",
-      "detail": "8:28 - 4th Quarter",
+      "detail": "4:46 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5660,7 +5660,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joe Aillet Stadium",
-      "detail": "2:25 - 4th Quarter",
+      "detail": "0:46 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6111,7 +6111,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-11T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:14",
         "name": "Miami Heat",
@@ -6141,9 +6141,9 @@
         "color": "266092"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Kaseya Center",
-      "detail": "47.6 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6157,7 +6157,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-11T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2",
         "name": "Boston Celtics",
@@ -6187,9 +6187,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "TD Garden",
-      "detail": "9.1 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6235,7 +6235,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rice-Eccles Stadium",
-      "detail": "8:29 - 3rd Quarter",
+      "detail": "4:13 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6281,7 +6281,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Ross-Ade Stadium",
-      "detail": "2:18 - 3rd Quarter",
+      "detail": "13:17 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6328,7 +6328,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allen E. Paulson Stadium",
-      "detail": "10:17 - 3rd Quarter",
+      "detail": "7:47 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6374,7 +6374,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "12:00 - 4th Quarter",
+      "detail": "8:17 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6388,7 +6388,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-10-11T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:20906",
         "name": "Austin FC",
@@ -6416,9 +6416,9 @@
         "color": "ece83a"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Q2 Stadium",
-      "detail": "90'+2'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6432,7 +6432,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-10-11T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:17362",
         "name": "Minnesota United FC",
@@ -6460,9 +6460,9 @@
         "color": "ff6b00"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Allianz Field",
-      "detail": "90'+2'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6506,7 +6506,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Sporting Park",
-      "detail": "85'",
+      "detail": "90'+5'",
       "game_number": 1,
       "highlight_video_id": "vMa2eu1AYfs",
       "replay_url": "",
@@ -6548,9 +6548,9 @@
         "color": "003da6"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "45'+5'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6697,6 +6697,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856808",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-11T02:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:9",
+        "name": "Arizona State Sun Devils",
+        "abbrev": "ASU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+        "logo_dark": null,
+        "aliases": [
+          "ASU",
+          "Arizona St",
+          "Arizona State",
+          "Arizona State Sun Devils",
+          "Sun Devils"
+        ],
+        "color": "ffc627"
+      },
+      "away": {
+        "id": "espn:62",
+        "name": "Hawai'i Rainbow Warriors",
+        "abbrev": "HAW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+        "logo_dark": null,
+        "aliases": [
+          "HAW",
+          "Hawai'i",
+          "Hawai'i Rainbow Warriors",
+          "Rainbow Warriors"
+        ],
+        "color": "005737"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Mountain America Stadium",
+      "detail": "13:41 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401860901",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6736,53 +6783,6 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Valley Children's Stadium",
-      "detail": "Sat, October 10th at 10:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856808",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-11T02:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:9",
-        "name": "Arizona State Sun Devils",
-        "abbrev": "ASU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-        "logo_dark": null,
-        "aliases": [
-          "ASU",
-          "Arizona St",
-          "Arizona State",
-          "Arizona State Sun Devils",
-          "Sun Devils"
-        ],
-        "color": "ffc627"
-      },
-      "away": {
-        "id": "espn:62",
-        "name": "Hawai'i Rainbow Warriors",
-        "abbrev": "HAW",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
-        "logo_dark": null,
-        "aliases": [
-          "HAW",
-          "Hawai'i",
-          "Hawai'i Rainbow Warriors",
-          "Rainbow Warriors"
-        ],
-        "color": "005737"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Mountain America Stadium",
       "detail": "Sat, October 10th at 10:30 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
@@ -11357,6 +11357,20 @@
   ],
   "stories": [
     {
+      "story_id": "50153333",
+      "headline": "Cavan Sullivan's 2 assists help Union extend club-record unbeaten streak to 13",
+      "summary": "Teenager Cavan Sullivan had assists on goals by Bruno Damiani and Milan Iloski to help the Philadelphia Union extend their club-record unbeaten streak to 13 with a 2-1 victory over Real Salt Lake on Saturday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/761849.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-11T02:31:22Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/soccer/report/_/gameId/761849",
+      "stream_url": "",
+      "body": "CHESTER, Pa. -- Teenager Cavan Sullivan had assists on goals by Bruno Damiani and Milan Iloski to help the Philadelphia Union extend their club-record unbeaten streak to 13 with a 2-1 victory over Real Salt Lake on Saturday night.\n\nDamiani gave Philadelphia (12-10-6) a 1-0 lead in the 31st minute that stood through halftime with his career-high ninth goal in his second season. Frankie Westfield joined the 17-year-old Sullivan with an assist.\n\nThat is where things stood until Iloski used another assist from Sullivan - his 14th in his first full season in the league - to score in the 82nd minute for a two-goal advantage. It was the career-high 17th goal for Iloski - tied for third most in the league.\n\nAndre Blake finished with three saves and lost his shutout bid when Saba Lobjanidze scored in the sixth minute of stoppage time.\n\nLuc de Fougerolles and Juan Manuel Sanabria had assists on Lobjanidze's fifth goal this season and his third in 13 appearances with Real Salt Lake since coming over from Atlanta United. All three players entered in the second half.\n\nRafael Cabral saved three shots for Real Salt Lake (9-14-5), which was coming off a 3-0 home victory over the New England Revolution that ended a club-record 13 match winless streak (0-9-4).\n\nPhiladelphia improves to 7-3-4 at home, while RSL falls to 1-10-3 on the road.\n\nThe Union went 5-0-0 in September and outscored their opponents 20-5. The club has gone 11-0-2 during the streak and began the day in sixth place in the Eastern Conference.\n\nPhiladelphia's last loss was a 6-4 setback at Inter Miami on May 24.\n\nUp next\n\nSalt Lake: Hosts San Jose Earthquakes on Wednesday.\n\nPhiladelphia: At Chicago Fire on Wednesday."
+    },
+    {
       "story_id": "50153378",
       "headline": "Senators rally to beat the Predators 3-2 in shootout",
       "summary": "\u2014 Shane Pinto scored the shootout winner to give the Ottawa Senators a 3-2 victory over the Nashville Predators on Saturday night.",
@@ -11383,20 +11397,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50140393/mlb-2026-playoffs-division-series-alds-game-5-updates-lineups-analysis-takeaways-guardians-white-sox",
       "stream_url": "",
       "body": "It all comes down to this for the Cleveland Guardians and Chicago White Sox!\n\nWith two consecutive road wins in Chicago, the Guardians sent the American League Division Series back to Cleveland for a winner-take-all Game 5 on Saturday night. The winner gets an AL Championship Series date against the Tampa Bay Rays.\n\nWhat will decide ALDS Game 5 and how will all the action play out? We've got you covered with pregame keys for both teams, lineups, live updates and takeaways from Cleveland.\n\nKey links: Mega-preview | Series outlooks | Bracket | Schedule\n\nWhite Sox-Guardians\nFollow live with pitch-by-pitch coverage\n\nHighlights from Cleveland\n\nA dozen gold stars for Gavin\n\nWhite Sox get their first hit in the sixth and chase Williams ... but Murakami whiffs with the bases loaded\n\nSpeaking of on fire: Gavin Williams\n\nJose Ramirez is on fire. 2-0 Guardians\n\nPitching ... and defense (and no hits for either team through three innings)\n\nCleveland getting what it wanted from Williams so far\n\nWilliams looks sharp in opening frame (Update: Burke does too)"
-    },
-    {
-      "story_id": "50153008",
-      "headline": "Inter Miami CF vs. DC United - Game Highlights",
-      "summary": "Watch the Game Highlights from Inter Miami CF vs. DC United, 10/10/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/ee521216-e63d-4b0b-a113-818162a482c1/ee521216-e63d-4b0b-a113-818162a482c1.jpg",
-      "published_utc": "2026-10-11T02:13:12Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50153008/inter-miami-cf-vs-dc-united-game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1011/ee521216-e63d-4b0b-a113-818162a482c1/ee521216-e63d-4b0b-a113-818162a482c1/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "50152700",
@@ -11525,6 +11525,20 @@
       "body": "Spencer Leniu has signed a four-year deal with Parramatta just days after winning his fourth NRL premiership with the Sydney Roosters.\n\nLeniu finished his three-year stint at the Tricolours on a high after a stellar performance in their 19-18 win over Newcastle to secure the 2026 trophy.\n\nThe NSW Origin representative added the Roosters' premiership ring to the three he won with Penrith from 2021-2023.\n\nLeniu was granted a release from the final year of his Roosters contract, which will give the club some salary cap reprieve\n\nThe hard-hitting forward's Eels contract is reportedly worth more than the $850,000 per year he was making with Easts, where he spent much of his time coming off the bench.\n\nHe is expected to play a more active role in blue and gold, leading the line for the Eels' forward pack.\n\nThe westward move will see the former Panther reunite with good friend Jarome Luai, but first the pair will both suit up for Toa Samoa at the Rugby League World Cup.\n\nEels general manager of football Mark O'Neill shared his delight at signing one of the game's \"premier enforcers\".\n\n\"We're thrilled to have Spencer join the Parramatta Eels and become part of what we're building at this club,\" O'Neill said in a statement.\n\n\"He's one of the elite middle forwards in the game and has consistently performed on the biggest stages throughout his career.\n\nThe exit of Leniu adds to the exodus of stars from the Roosters premiership lineup.\n\nAngus Crichton and Mark Nawaqanitawase are rugby-bound, Daly Cherry-Evans is joining Hull FC, while Daniel Tupou retired this week after his 307-game career.\n\nConnor Watson, who missed the title decider due to concussion, has signed for a season with St George Illawarra Dragons.\n\nRoosters coach Trent Robinson said Leniu had been a strong contributor during his time at the club.\n\n\"Spencer has brought a lot to our group over the last three years, both through the way he plays and the energy and personality he brings every day,\" Robinson said in a statement on Thursday.\n\n\"He brings an intensity and competitiveness to everything he does, and he challenges the people around him to be better.\n\n\"To see him finish his time here as a premiership winner is something he should be really proud of, and something we'll always share together.\"\n\nWith his departure announced at the Roosters' awards night on Wednesday, Leniu said he would leave the club on a high.\n\n\"\"I'm proud to have worn the Roosters jersey and I'll always have a lot of love and respect for the club, the boys and everyone who has supported me during my time here,\" said Leniu.\n\n\"Winning a premiership with this group and sharing that with the boys, our families and everyone at the club is something I'll carry with me for the rest of my life.\""
     },
     {
+      "story_id": "50153051",
+      "headline": "Sounders extend unbeaten streak to 9 with victory over Revs",
+      "summary": "Seattle got goals from Hassani Dotson, Dejan Jovelji\u0107 and Paul Arriola to back a clean sheet from Andrew Thomas and the Sounders extended their unbeaten run to nine with a 3-0 victory over the New England Revolution on Saturday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/761851.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-11T02:04:53Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/soccer/report/_/gameId/761851",
+      "stream_url": "",
+      "body": "FOXBOROUGH, Mass. -- Seattle got goals from Hassani Dotson, Dejan Jovelji\u0107 and Paul Arriola to back a clean sheet from Andrew Thomas and the Sounders extended their unbeaten run to nine with a 3-0 victory over the New England Revolution on Saturday night.\n\nThomas finished with five saves to earn his eighth shutout in 28 starts after taking the reins from mainstay Stefan Frei this season. The Sounders have won four in a row following five straight draws.\n\nDotson staked Seattle to a 1-0 lead with his third goal of the season, scoring unassisted from long distance in the 15th minute.\n\nJovelji\u0107 added an insurance goal in the 74th minute with assists from substitute Paul Arriola and Albert Rusn\u00e1k. It was Jovelji\u0107's third goal in five appearances with the Sounders since coming over in a trade with Sporting Kansas City where he had eight goals in 20 matches.\n\nArriola capped the scoring in the 81st minute with his second goal to go along with two assists this season. Rusn\u00e1k added his league-leading 14th assist and Jes\u00fas Ferreira snagged his sixth after entering as a second-half sub.\n\nMatt Turner saved two shots for the Revolution, who fell to 9-3-2 at home and dropped from second place to fourth in the Eastern Conference with the loss.\n\nSeattle improves to 4-5-5 on the road.\n\nUp next Seattle: At FC Dallas on Wednesday.\n\nNew England: At FC Cincinnati on Wednesday."
+    },
+    {
       "story_id": "50153332",
       "headline": "Utah Mammoth vs. Buffalo Sabres: Game Highlights",
       "summary": "Utah Mammoth vs. Buffalo Sabres: Game Highlights",
@@ -11551,20 +11565,6 @@
       "link": "https://www.espn.com/espn/betting/story/_/id/50076310/2026-mlb-playoffs-alds-nlds-betting-odds-spreads",
       "stream_url": "",
       "body": "The MLB divisional round closes out on Saturday night with the White Sox and Guardians series moving back to Cleveland for Game 5. All of the other series wrapped up on Wednesday, with the Brewers, Dodgers and Rays advancing.\n\nTeams in this round play a best-of-five series, with Games 1, 2 and 5 (if necessary) taking place in the home stadium of the higher-seeded team.\n\nThe matchups are as follows: San Diego Padres vs. Milwaukee Brewers, Atlanta Braves vs. Los Angeles Dodgers, Chicago White Sox vs. Cleveland Guardians, New York Yankees vs. Tampa Bay Rays.\n\nFor more on the MLB playoffs, check out each team's odds to win the World Series.\n\nOdds by DraftKings and are accurate as of time of publication.\n\nChicago White Sox at Cleveland Guardians\n\nSeries tied, 2-2.\n\nGame 1: White Sox 3, Guardians 0\n\nGame 2: White Sox 4, Guardians 3\n\nGame 3: Guardians 9, White Sox 3\n\nGame 4: Guardians 9, White Sox 5\n\nGame 5: Saturday at Cleveland, 8 p.m. ET\n\nMoneyline: White Sox +118, Guardians -143\n\nRun Line: White Sox (+1.5) -192, Guardians (-1.5) +158\n\nOver/Under 7.0 runs: O -120/U +100\n\nAtlanta Braves at Los Angeles Dodgers\n\nDodgers won series, 3-1.\n\nGame 1: Dodgers 5, Braves 3\n\nGame 2: Braves 3, Dodgers 2\n\nGame 3: Dodgers 3, Braves 1\n\nGame 4: Dodgers 4, Braves 1\n\nNew York Yankees at Tampa Bay Rays\n\nRays won series, 3-0.\n\nGame 1: Rays 1, Yankees 0\n\nGame 2: Rays 5, Yankees 2\n\nGame 3: Rays 4, Yankees 3\n\nSan Diego Padres vs. Milwaukee Brewers\n\nBrewers won series, 3-1.\n\nGame 1: Brewers 3, Padres 2\n\nGame 2: Brewers 4, Padres 3\n\nGame 3: Padres 3, Brewers 2\n\nGame 4: Brewers 3, Padres 1"
-    },
-    {
-      "story_id": "50153051",
-      "headline": "Sounders extend unbeaten streak to 9 with victory over Revs",
-      "summary": "Seattle got goals from Hassani Dotson, Dejan Jovelji\u0107 and Paul Arriola to back a clean sheet from Andrew Thomas and the Sounders extended their unbeaten run to nine with a 3-0 victory over the New England Revolution on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/761851.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-11T02:04:53Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/soccer/report/_/gameId/761851",
-      "stream_url": "",
-      "body": "FOXBOROUGH, Mass. -- Seattle got goals from Hassani Dotson, Dejan Jovelji\u0107 and Paul Arriola to back a clean sheet from Andrew Thomas and the Sounders extended their unbeaten run to nine with a 3-0 victory over the New England Revolution on Saturday night.\n\nThomas finished with five saves to earn his eighth shutout in 28 starts after taking the reins from mainstay Stefan Frei this season. The Sounders have won four in a row following five straight draws.\n\nDotson staked Seattle to a 1-0 lead with his third goal of the season, scoring unassisted from long distance in the 15th minute.\n\nJovelji\u0107 added an insurance goal in the 74th minute with assists from substitute Paul Arriola and Albert Rusn\u00e1k. It was Jovelji\u0107's third goal in five appearances with the Sounders since coming over in a trade with Sporting Kansas City where he had eight goals in 20 matches.\n\nArriola capped the scoring in the 81st minute with his second goal to go along with two assists this season. Rusn\u00e1k added his league-leading 14th assist and Jes\u00fas Ferreira snagged his sixth after entering as a second-half sub.\n\nMatt Turner saved two shots for the Revolution, who fell to 9-3-2 at home and dropped from second place to fourth in the Eastern Conference with the loss.\n\nSeattle improves to 4-5-5 on the road.\n\nUp next Seattle: At FC Dallas on Wednesday.\n\nNew England: At FC Cincinnati on Wednesday."
     },
     {
       "story_id": "50152693",
@@ -11702,102 +11702,96 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 ESPN (Post Show) \u2014 Live FHD (CH 8)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/2/1",
           "label": "VidFrame FHD@60fps \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/3/1",
-          "label": "VidQ FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/7/1",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/2/1",
           "label": "VidQ FHD@60fps \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/4/1",
+          "label": "OK.ru FHD \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/1",
+          "label": "VidQ FHD@60fps \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/3/1",
           "label": "Dailymotion FHD \u2014 Part 1",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/4/2",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/3/2",
           "label": "Dailymotion FHD \u2014 Part 2",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/4/3",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/3/3",
           "label": "Dailymotion FHD \u2014 Part 3",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/1",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/1",
           "label": "VidFrame FHD@60fps \u2014 Part 1",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/2",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/2",
           "label": "VidFrame FHD@60fps \u2014 Part 2",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/3",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/3",
           "label": "VidFrame FHD@60fps \u2014 Part 3",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/4",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/4",
           "label": "VidFrame FHD@60fps \u2014 Part 4",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/5",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/5/5",
           "label": "VidFrame FHD@60fps \u2014 Part 5",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/7/2",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/2",
           "label": "VidQ FHD@60fps \u2014 Part 2",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/7/3",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/3",
           "label": "VidQ FHD@60fps \u2014 Part 3",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/7/4",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/4",
           "label": "VidQ FHD@60fps \u2014 Part 4",
           "part": true,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/7/5",
+          "url": "https://dailywrestling.cc/embed/vppeww/10-10-2026/select-post-1/6/5",
           "label": "VidQ FHD@60fps \u2014 Part 5",
           "part": true,
           "live": false
@@ -11832,12 +11826,6 @@
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/10-10-2026/select-post-1/2/1",
-          "label": "Source 3 \u2013 TNT (Backup) \u2014 Live FHD (CH 17)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-10-2026/select-post-1/3/1",
           "label": "Dailymotion FHD \u2014 Part 1",
           "part": true,
           "live": false
