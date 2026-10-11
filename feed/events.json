@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-11T03:01:31.040168+00:00",
+  "generated_utc": "2026-10-11T03:11:37.750185+00:00",
   "events": [
     {
       "event_id": "nhl:2026020056",
@@ -3073,7 +3073,7 @@
       "venue": "Old Trafford",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "fWxGg6Gf25o",
+      "highlight_video_id": "-UlDQmj7nE8",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -4623,7 +4623,7 @@
       "competition_id": "ufc",
       "competition_name": "UFC",
       "start_utc": "2026-10-10T21:00Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:None",
         "name": "Ernesta Kareckaite",
@@ -4647,14 +4647,81 @@
         "color": null
       },
       "source": "espn:mma/ufc",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Final",
       "venue": "Meta APEX",
-      "detail": "Scheduled",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/1/1",
+          "label": "VidFrame FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/2/1",
+          "label": "VidQ FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/3/1",
+          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/4/1",
+          "label": "VidQ FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/5/1",
+          "label": "Dailymotion FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/6/1",
+          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/7/1",
+          "label": "Other Hosts (Prelims) \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/7/2",
+          "label": "Other Hosts (Prelims) \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/8/1",
+          "label": "Other Hosts (Main card) \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/8/2",
+          "label": "Other Hosts (Main card) \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/8/3",
+          "label": "Other Hosts (Main card) \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
       "card": "UFC Fight Night: Allen vs. Duncan"
     },
     {
@@ -5491,7 +5558,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-10T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:333",
         "name": "Alabama Crimson Tide",
@@ -5521,9 +5588,9 @@
         "color": "ba0c2f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Bryant-Denny Stadium",
-      "detail": "2:27 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5582,7 +5649,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-10T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:258",
         "name": "Virginia Cavaliers",
@@ -5612,9 +5679,9 @@
         "color": "000e54"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Scott Stadium",
-      "detail": "1:16 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6235,7 +6302,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rice-Eccles Stadium",
-      "detail": "12:50 - 4th Quarter",
+      "detail": "8:43 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6281,7 +6348,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Ross-Ade Stadium",
-      "detail": "7:35 - 4th Quarter",
+      "detail": "4:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6328,7 +6395,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allen E. Paulson Stadium",
-      "detail": "12:50 - 4th Quarter",
+      "detail": "7:17 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6342,7 +6409,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-11T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:9",
         "name": "Golden State Warriors",
@@ -6372,9 +6439,9 @@
         "color": "5a2d81"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Chase Center",
-      "detail": "14.5 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6464,7 +6531,7 @@
       "venue": "Allianz Field",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "NSz2sBz6SXk",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -6550,7 +6617,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "57'",
+      "detail": "67'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6686,9 +6753,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Mortgage Matchup Center",
-      "detail": "4:20 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6736,7 +6803,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "10:08 - 1st Quarter",
+      "detail": "6:32 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6783,7 +6850,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mountain America Stadium",
-      "detail": "4:46 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6825,7 +6892,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "BMO Stadium",
-      "detail": "20'",
+      "detail": "30'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11364,7 +11431,7 @@
       "headline": "MLB division series 2026: Takeaways and analysis from ALDS Game 5",
       "summary": "Here's how Cleveland's ALDS Game 5 victory over Chicago went down.",
       "image": "https://a.espncdn.com/photo/2026/1011/r1728976_608x342_16-9.jpg",
-      "published_utc": "2026-10-11T02:59:44Z",
+      "published_utc": "2026-10-11T03:03:06Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "ESPN",
@@ -12680,6 +12747,85 @@
       "source_url": "https://watch-wrestling.eu/wwe-raw-2k26-live-full-show/"
     }
   ],
-  "replays": [],
+  "replays": [
+    {
+      "id": "ww:ufc-fight-night-allen-vs-duncan-10-10-2026",
+      "title": "UFC Fight Night: Allen vs Duncan 10/10/2026",
+      "date": "2026-10-10",
+      "sport": "mma",
+      "competition": "UFC",
+      "replay_url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/1/1",
+          "label": "VidFrame FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/2/1",
+          "label": "VidQ FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/3/1",
+          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/4/1",
+          "label": "VidQ FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/5/1",
+          "label": "Dailymotion FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/6/1",
+          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/7/1",
+          "label": "Other Hosts (Prelims) \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/7/2",
+          "label": "Other Hosts (Prelims) \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/8/1",
+          "label": "Other Hosts (Main card) \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/8/2",
+          "label": "Other Hosts (Main card) \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-10-2026/select-post-1/8/3",
+          "label": "Other Hosts (Main card) \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
+      "source_url": "https://watch-wrestling.eu/ufc-fight-night-allen-vs-duncan-10-10-2026/"
+    }
+  ],
   "trackers": []
 }
