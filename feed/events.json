@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-12T23:10:27.086271+00:00",
+  "generated_utc": "2026-10-12T23:20:31.529060+00:00",
   "events": [
     {
       "event_id": "motogp:877c27e8-70e0-4847-bacf-2290d7cc903c",
@@ -7825,7 +7825,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-12T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:1",
         "name": "New Jersey Devils",
@@ -7855,7 +7855,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -7871,7 +7871,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-12T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:1",
         "name": "Atlanta Hawks",
@@ -7901,9 +7901,9 @@
         "color": "007ac1"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "Mon, October 12th at 7:00 PM EDT",
+      "detail": "7:00 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7917,7 +7917,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-12T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:27",
         "name": "Washington Wizards",
@@ -7947,9 +7947,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Capital One Arena",
-      "detail": "Mon, October 12th at 7:00 PM EDT",
+      "detail": "6:36 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11401,20 +11401,6 @@
   ],
   "stories": [
     {
-      "story_id": "50166341",
-      "headline": "LCS Day 2: Lineups, updates from Dodgers-Brewers, Guardians-Rays",
-      "summary": "The Dodgers look to even up the NLCS in Game 2, while the ALCS begins at the Trop. Here's the latest.",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729691_608x342_16-9.jpg",
-      "published_utc": "2026-10-12T23:08:03Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50166341/mlb-2026-nlcs-game-2-alcs-game-1-dodgers-brewers-rays-guardians-lineups-updates-analysis-takeaways",
-      "stream_url": "",
-      "body": "The final four teams standing in the 2026 MLB playoffs are all in action today.\n\nThe two-time defending champion Los Angeles Dodgers are looking to bounce back against the Milwaukee Brewers in Game 2 of the National League Championship Series after dropping Game 1. In the American League, the Cleveland Guardians and Tampa Bay Rays meet in their series opener.\n\nStay here for pregame lineups, in-game highlights and postgame analysis from Milwaukee and St. Petersburg.\n\nMore: Passan: Epic NLCS matchup | Picks | Rankings | How they were built\n\nJump to:\n\nLAD-MIL | CLE-TB\n\nLos Angeles Dodgers at Milwaukee Brewers\nTop moments from Game 2\n\nContreras corks one 436 feet -- 4-4!\n\nFreeman's sac fly puts L.A. up 4-3\n\nAnother wild throw from Henderson and they're tied again\n\nThe captain drives in two, knocks out Yamamoto\n\nDodgers take lead back on wild pickoff throw\n\nBrewers immediately answer in bottom of first\n\nDodgers strike first in Milwaukee\n\nCleveland Guardians at Tampa Bay Rays (8 p.m. ET)\n\nStarting pitchers: Foster Griffin vs. Drew Rasmussen\n\nLineups\n\nGuardians\n\n1. Steven Kwan (L) LF\n\n2. Jose Ramirez (S) 3B\n\n3. Chase DeLauter (L) RF\n\n4. Jo Adell (R) DH\n\n5. Nathaniel Lowe (L) 1B\n\n6. Travis Bazzana (L) 2B\n\n7. Patrick Bailey (S) C\n\n8. Petey Halpin (L) CF\n\n9. Brayan Rocchio (S) SS\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Jonathan Aranda (L) 1B\n\n3. Junior Caminero (R) 3B\n\n4. Ryan Vilade (R) LF\n\n5. Victor Mesa Jr. (L) RF\n\n6. Jonny DeLuca (R) CF\n\n7. Ben Williamson (R) 2B\n\n8. Taylor Walls (S) SS\n\n9. Nick Fortes (R) C"
-    },
-    {
       "story_id": "50168959",
       "headline": "Dolphins' Jeff Hafley says he's not mulling QB change entering bye",
       "summary": "Dolphins coach Jeff Hafley is not considering a quarterback change heading into their Week 6 bye, but he did say the passing offense must improve.",
@@ -11499,6 +11485,20 @@
       "body": "Michael Carrick said Manchester United are in the middle of a \"challenging, stickier\" spell but he \"totally believes\" players will turn things around ahead of their Champions League game at Atl\u00e9tico Madrid on Tuesday.\n\nUnited have only won two out of eight matches in all competitions so far this season, with back-to-back draws with Fulham and Tottenham Hotspur following defeats to Manchester City and Brighton in the last month.\n\nThe Champions League is an opportunity for Carrick to change that dynamic, having beaten Sabah 4-0 on matchday one, and now visiting Atl\u00e9tico at the Metropolitano.\n\n\"Of course we hoped for a lot more [this season], we expected a lot more, but we are where we are,\" Carrick said in a news conference on Monday. \"I was aware there was going to be a period when it was going to become a bit more challenging, a bit stickier. That's part of it. Football and building something takes a journey. You've got to overcome things.\n\n\"I understand that when it's not going too well, there's a real clamour and a real feeling of 'it's a disaster, it's all wrong and everything needs to be changed.' I kind of get that, but that's not our mindset, certainly not mine.\n\n\"I love this part sometimes, when it's going against you, you see who's really there, within the group, the squad, the club, who wants to be here for the long term. The supporters are desperate for it and we've got to give them something. You've got to embrace challenges to get where you want to be. I totally believe we'll come through it.\"\n\nCarrick inspired a turnaround in United's 2025-26 season when he took over as head coach from Ruben Amorim in January, and the team's performance in the second half of the campaign persuaded United to give him the position full-time.\n\nHowever the side's Premier League form, with one win in six games leaving them 13th in the table, already has the former United midfielder feeling the heat.\n\n\"It depends how you define pressure,\" he said on Monday. \"We know what we want and what we're capable of doing as a team.\n\n\"We want to be part of something successful, there's no negativity about that. There's going to be times when it's a bit of a struggle, but to get anywhere, to do something good, something great, you've got to be able to do something difficult, and get through it.\"\n\nUnited drew 1-1 with underperforming Tottenham at Old Trafford on Saturday, conceding a 92nd-minute equaliser, despite Spurs playing the latter stages of the game with 10 men.\n\n\"It's very fine lines,\" Carrick said. \"The last three goals we've conceded in the league have all been avoidable. It's very fine margins. But I've got the utmost confidence in the boys that we can win games, and win a lot of games.\""
     },
     {
+      "story_id": "50167688",
+      "headline": "The Dodgers need to find offensive balance",
+      "summary": "Alden Gonzalez beaks down the reason for the Dodgers' struggle in October and where they need to adjust to advance to the World Series.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_Dodgers_Offense_IA/dm_261012_Dodgers_Offense_IA.jpg",
+      "published_utc": "2026-10-12T18:58:13Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50167688/the-dodgers-need-find-offensive-balance",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1012/dm_261012_Dodgers_Offense_IA/dm_261012_Dodgers_Offense_IA/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50162878",
       "headline": "WNBA playoffs 2026: The Valkyries' wild path from expansion team to the Finals",
       "summary": "Two years ago, the Valkyries didn't exist. Now they're competing for their first title -- here's how they did it.",
@@ -11567,20 +11567,6 @@
       "link": "https://www.espn.com/nrl/story/_/id/50130333/nrl-spencer-leniu-signs-eels-early-roosters-release",
       "stream_url": "",
       "body": "Spencer Leniu has signed a four-year deal with Parramatta just days after winning his fourth NRL premiership with the Sydney Roosters.\n\nLeniu finished his three-year stint at the Tricolours on a high after a stellar performance in their 19-18 win over Newcastle to secure the 2026 trophy.\n\nThe NSW Origin representative added the Roosters' premiership ring to the three he won with Penrith from 2021-2023.\n\nLeniu was granted a release from the final year of his Roosters contract, which will give the club some salary cap reprieve\n\nThe hard-hitting forward's Eels contract is reportedly worth more than the $850,000 per year he was making with Easts, where he spent much of his time coming off the bench.\n\nHe is expected to play a more active role in blue and gold, leading the line for the Eels' forward pack.\n\nThe westward move will see the former Panther reunite with good friend Jarome Luai, but first the pair will both suit up for Toa Samoa at the Rugby League World Cup.\n\nEels general manager of football Mark O'Neill shared his delight at signing one of the game's \"premier enforcers\".\n\n\"We're thrilled to have Spencer join the Parramatta Eels and become part of what we're building at this club,\" O'Neill said in a statement.\n\n\"He's one of the elite middle forwards in the game and has consistently performed on the biggest stages throughout his career.\n\nThe exit of Leniu adds to the exodus of stars from the Roosters premiership lineup.\n\nAngus Crichton and Mark Nawaqanitawase are rugby-bound, Daly Cherry-Evans is joining Hull FC, while Daniel Tupou retired this week after his 307-game career.\n\nConnor Watson, who missed the title decider due to concussion, has signed for a season with St George Illawarra Dragons.\n\nRoosters coach Trent Robinson said Leniu had been a strong contributor during his time at the club.\n\n\"Spencer has brought a lot to our group over the last three years, both through the way he plays and the energy and personality he brings every day,\" Robinson said in a statement on Thursday.\n\n\"He brings an intensity and competitiveness to everything he does, and he challenges the people around him to be better.\n\n\"To see him finish his time here as a premiership winner is something he should be really proud of, and something we'll always share together.\"\n\nWith his departure announced at the Roosters' awards night on Wednesday, Leniu said he would leave the club on a high.\n\n\"\"I'm proud to have worn the Roosters jersey and I'll always have a lot of love and respect for the club, the boys and everyone who has supported me during my time here,\" said Leniu.\n\n\"Winning a premiership with this group and sharing that with the boys, our families and everyone at the club is something I'll carry with me for the rest of my life.\""
-    },
-    {
-      "story_id": "50167688",
-      "headline": "The Dodgers need to find offensive balance",
-      "summary": "Alden Gonzalez beaks down the reason for the Dodgers' struggle in October and where they need to adjust to advance to the World Series.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_Dodgers_Offense_IA/dm_261012_Dodgers_Offense_IA.jpg",
-      "published_utc": "2026-10-12T18:58:13Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50167688/the-dodgers-need-find-offensive-balance",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1012/dm_261012_Dodgers_Offense_IA/dm_261012_Dodgers_Offense_IA/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "50168989",
@@ -11665,6 +11651,20 @@
       "link": "https://www.espn.com/video/clip/_/id/50168630/man-utd-players-hungry-put-things-right-vs-atletico",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1012/dm_261012_Carrick_Man_Utd_players_hungry_to_put_things_right_vs_Atletico/dm_261012_Carrick_Man_Utd_players_hungry_to_put_things_right_vs_Atletico/playlist.m3u8",
       "body": ""
+    },
+    {
+      "story_id": "50166616",
+      "headline": "Guardians, Rays make changes to AL Championship Series rosters",
+      "summary": "The Rays add rookie RHP Brody Hopkins, drop Garrett Cleavinger while the Guardians add RHP Slade Cecconi to their AL Championship Series rosters.",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729706_1296x729_16-9.jpg",
+      "published_utc": "2026-10-12T16:21:35Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50166616/guardians-rays-make-changes-al-championship-series-rosters",
+      "stream_url": "",
+      "body": "ST. PETERSBURG, Fla. -- The Tampa Bay Rays added rookie right-hander Brody Hopkins to their AL Championship Series roster and dropped lefty Garrett Cleavinger while the Cleveland Guardians added right-hander Slade Cecconi.\n\nThe Rays made no other changes to their 26-man roster ahead of Game 1 Monday night against the Guardians. The AL East champions are carrying 14 hitters and 12 pitchers again in this round after sweeping the New York Yankees in the best-of-five division series.\n\nThe Guardians are carrying 13 pitchers after going to five games against the Chicago White Sox before advancing on Saturday night. Cecconi replaces utilityman Daniel Schneemann.\n\nCecconi was 5-7 with a 4.91 ERA in 28 games, including 21 starts. He moved to the bullpen in August and posted a 5.93 ERA in 13\u2154 innings.\n\nHopkins had seven strikeouts in 5\u2153 innings in six appearances this season but also walked six and posted a 5.06 ERA. He made his major league debut on Sept. 13. Cleavinger had a 4.79 ERA in 41\u2153 innings over 51 appearances. He didn't pitch in the ALDS vs. the Yankees.\n\nPitcher Cecconi will replace utilityman Daniel Schneemann."
     },
     {
       "story_id": "50163363",
