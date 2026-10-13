@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-13T01:22:02.905936+00:00",
+  "generated_utc": "2026-10-13T01:32:08.529567+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057445",
@@ -7029,7 +7029,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-12T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:1",
         "name": "Atlanta Hawks",
@@ -7059,9 +7059,9 @@
         "color": "007ac1"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "State Farm Arena",
-      "detail": "2:08 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7107,7 +7107,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Capital One Arena",
-      "detail": "3:00 - 4th Quarter",
+      "detail": "47.8 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7153,7 +7153,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "4:10 - 3rd Quarter",
+      "detail": "1:43 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7327,7 +7327,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "2:20 - 2nd Quarter",
+      "detail": "0:37 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "xaLPZvkWSsU",
       "replay_url": "",
@@ -7373,7 +7373,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Delta Center",
-      "detail": "7:00 - 1st Quarter",
+      "detail": "1:34 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13083,6 +13083,12 @@
         {
           "url": "https://dailywrestling.cc/embed/wareww/10-12-2026/select-post-1/5/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/10-12-2026/select-post-1/5/5",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         }
