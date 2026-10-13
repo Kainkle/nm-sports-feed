@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-13T06:34:12.924452+00:00",
+  "generated_utc": "2026-10-13T06:44:01.581428+00:00",
   "window_days": 2,
-  "total_events": 257,
+  "total_events": 280,
   "competitions": [
     {
       "competition": "aew",
@@ -74,14 +74,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 7,
+      "events": 10,
       "date_range": [
         "2026-10-10",
         "2026-10-12"
       ],
-      "explicit_status": 7,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 7,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -89,14 +89,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 5,
+      "events": 9,
       "date_range": [
         "2026-10-10",
         "2026-10-12"
       ],
-      "explicit_status": 5,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 5,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -218,15 +218,15 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 21,
+      "events": 28,
       "date_range": [
-        "2026-10-11",
+        "2026-10-10",
         "2026-10-15"
       ],
-      "explicit_status": 21,
+      "explicit_status": 28,
       "status_coverage_pct": 100,
-      "both_logos": 20,
-      "logo_coverage_pct": 95,
+      "both_logos": 27,
+      "logo_coverage_pct": 96,
       "live_now": 0
     },
     {
@@ -330,14 +330,14 @@
       "competition": "uefa.champions",
       "name": "Champions League",
       "sport": "soccer",
-      "events": 9,
+      "events": 18,
       "date_range": [
-        "2026-10-14",
+        "2026-10-13",
         "2026-10-14"
       ],
-      "explicit_status": 9,
+      "explicit_status": 18,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 18,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -428,48 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/nba",
-      "date": "2026-10-10",
-      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261010: The read operation timed out"
-    },
-    {
-      "source": "espn:soccer/eng.1",
-      "date": "2026-10-11",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261011: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:soccer/esp.1",
-      "date": "2026-10-11",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261011: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:soccer/esp.1",
-      "date": "2026-10-14",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261014: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:soccer/ita.1",
-      "date": "2026-10-13",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261013: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:soccer/uefa.champions",
-      "date": "2026-10-13",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261013: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:australian-football/afl",
-      "date": "2026-10-10",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard?dates=20261010: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:australian-football/afl",
-      "date": "2026-10-14",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard?dates=20261014: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
