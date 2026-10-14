@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-14T00:33:39.746592+00:00",
+  "generated_utc": "2026-10-14T00:43:44.259113+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057445",
@@ -2793,7 +2793,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-13T22:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:17",
         "name": "Detroit Red Wings",
@@ -2823,7 +2823,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -3055,7 +3055,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kia Center",
-      "detail": "11:06 - 3rd Quarter",
+      "detail": "6:41 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3101,7 +3101,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "12:00 - 3rd Quarter",
+      "detail": "7:15 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3145,9 +3145,9 @@
         "color": "00539f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Johnny \"Red\" Floyd Stadium",
-      "detail": "0:20 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3499,7 +3499,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Paycom Center",
-      "detail": "2:51 - 1st Quarter",
+      "detail": "0.0 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3546,7 +3546,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "AmFirst Stadium",
-      "detail": "4:43 - 1st Quarter",
+      "detail": "0:22 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3606,7 +3606,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-14T00:30:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:25",
         "name": "Dallas Stars",
@@ -3636,7 +3636,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "American Airlines Center",
       "detail": "",
       "game_number": 1,
@@ -8162,6 +8162,20 @@
   ],
   "stories": [
     {
+      "story_id": "50174091",
+      "headline": "ALCS Game 2: Lineups, live updates from Guardians-Rays",
+      "summary": "The Guardians kept on rolling Monday, winning the ALCS opener over Tampa Bay. Can they take a 2-0 lead Tuesday?",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730143_608x342_16-9.jpg",
+      "published_utc": "2026-10-14T00:40:19Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50174091/mlb-2026-alcs-game-2-rays-guardians-lineups-updates-analysis-takeaways",
+      "stream_url": "",
+      "body": "The Cleveland Guardians are rolling.\n\nAfter dropping the first two games of the American League Division Series, they bounced back to beat the Chicago White Sox three straight times to advance to the next round. In Game 1 of the AL Championship Series on Monday, Cleveland stayed hot, defeating the top-seeded Tampa Bay Rays in comeback fashion.\n\nOn Tuesday, the Guardians will try to take a commanding 2-0 lead in the ALCS. Can they head back to Cleveland for Game 3 just two wins away from a World Series appearance?\n\nStay tuned for lineups, game action and postgame analysis from St. Petersburg.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nGuardians-Rays\nFollow live for pitch-by-pitch coverage\n\nHighlights from Tampa Bay\n\nPeralta is dealing early\n\nCan the Rays win Game 2 at the Trop?\n\nStarting pitchers: Parker Messick vs. Freddy Peralta\n\nLineups\n\nGuardians\n\n1. Steven Kwan (L) LF\n\n2. Jose Ramirez (S) 3B\n\n3. Chase DeLauter (L) DH\n\n4. Jo Adell (R) RF\n\n5. Nathaniel Lowe (L) 1B\n\n6. Travis Bazzana (L) 2B\n\n7. Petey Halpin (L) CF\n\n8. Austin Hedges (R) C\n\n9. Brayan Rocchio (S) SS\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Jonathan Aranda (L) 1B\n\n3. Junior Caminero (R) 3B\n\n4. Victor Mesa Jr. (L) RF\n\n5. Jonny DeLuca (R) CF\n\n6. Chandler Simpson (L) LF\n\n7. Ben Williamson (R) 2B\n\n8. Liam Hicks (L) C\n\n9. Taylor Walls (S) SS"
+    },
+    {
       "story_id": "50177761",
       "headline": "Cleveland Browns gets their close-up in first trailer for Hulu's 'The Land'",
       "summary": "Created by Dan Fogelman, the NFL-backed drama follows a fictional version of the Browns and premieres the day after Super Bowl LXI.",
@@ -8187,21 +8201,7 @@
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/50177357/arsenal-showed-strength-depth-lille-win-viktor-gyokeres-concern",
       "stream_url": "",
-      "body": "LONDON -- If Arsenal's starters don't get you, the finishers probably will.\n\nLille were firmly in Tuesday's UEFA Champions League game for an hour or so and then a three-goal blitz in seven minutes settled things emphatically.\n\nThere were similarities here to last weekend's 2-1 win in the Premier League over Leeds United. The visitors were the better side, but Arteta made a triple substitution shortly after Arsenal took the lead, and his team went on to win.\n\nLille were not as front-footed as Leeds, but they carried a threat on the break and Arsenal were struggling to break them down until Jurri\u00ebn Timber marked his first home start since March with a clever touch in the box to free himself and dink a delightful finish over Lille goalkeeper Berke \u00d6zer from a tight angle.\n\nBukayo Saka, Martin \u00d8degaard and Kai Havertz were already stripped and ready to come on. Arteta could have thought twice about making the changes given the deadlock was broken, but he went through with it anyway.\n\n\"I'm going to do it more now,\" he joked afterward.\n\n\"I felt it was the right moment to do it, the way the game was panning out, the way the opponent was behaving as well, that we needed in those moments, in those spaces, different kinds of players, but that's it.\n\n\"Credit to the staff and obviously the ones that come in to create those moments.\"\n\n\"Is it about momentum as well? Yes, it is,\" he continued. The combination of the dam bursting and the fresh legs overwhelmed the Ligue 1 side to win 3-0.\n\nTimber won the ball back before \u00d8degaard and Saka combined for Eberechi Eze to side foot the ball home for his first goal of the season. \u00d8degaard then found Havertz, who demonstrated his game intelligence in recognizing nobody was in a central position as he burst towards the byline, instead cutting it back for Saka to score his 19th European goal for Arsenal, more than anyone else for the club aside from Thierry Henry (42).\n\nThe Gunners continue their perfect start to the group stage ahead of next week's testing trip to Bayern Munich, where they will likely need to start better than they have done of late to ensure that record continues.\n\nNobody can argue with the end product -- that's nine wins from 10 matches this season including August's Community Shield victory over Manchester City -- but if there is an issue to be found, it is perhaps in the need for those \"finishers\" -- Arteta's preferred moniker for substitutes -- to be so decisive.\n\nHe made five changes here, including Viktor Gy\u00f6keres leading the line instead of Havertz, with Mikel Merino operating as a No. 10 in place of \u00d8degaard. Noni Madueke switched to the right to replace Saka, with Eze on the left in a remodeled front four.\n\nThe results were inconclusive. Lille combined diligent defending with energetic counterattacking to cause Arsenal problems, most obviously when Ayase Ueda beat David Raya from inside the box, but his goal was disallowed for a tight offside call.\n\nGy\u00f6keres registered just 12 touches, completed six passes from eight attempts and no shots. He was a 65th-minute departure for Havertz, and no player on either team had been involved in the game less.\n\nArsenal possess tremendous depth all over the pitch -- their \"second-choice\" back four when everybody is fit, Ben White, Ezri Konsa, Cristhian Mosquera and Piero Hincapi\u00e9, is an embarrassment of riches -- but the drop in the No. 9 position remains a concern.\n\nHavertz is integral in and out of possession for Arsenal, but it also remains true that Arteta felt they needed an upgrade in that position in 2025, which triggered the pursuit of Gy\u00f6keres in the first place.\n\nThey also were hopeful of luring Juli\u00e1n \u00c1lvarez from Atl\u00e9tico Madrid this summer, but after that possibility disappeared, they opted to rely on Havertz, Gy\u00f6keres and Merino, whose emergence as a potent goal scorer for Arsenal and Spain is one of the biggest surprises of the past year or more.\n\nIt might be enough to win the club's first Champions League. They were penalty kicks away from achieving that feat with that trio last season. But there is frankly more encouragement elsewhere, with Timber looking a threat throughout and reminding everyone of the dynamic dimension he provides from the right.\n\nEze's evening was more mixed, but his goal was of high quality and a step towards seizing the opportunity of regular game time afforded to him by Christos Tzolis' muscular injury.\n\nWhatever grumbles there are, Arsenal's bandwagon rolls on. That's 14 consecutive Champions League group stage wins now on a night when the club mourned the passing of life president Ken Friar, aged 92.\n\n\"There are people in football clubs that they have a role and they fulfill a role,\" said Arteta.\n\n\"And there are other people that they create an identity, they create values and they have a vision to create a future for the football club.\n\n\"And I think the legacy that Ken is going to leave to all of us, to our football club and everybody that has been close to him is going to be forever.\"\n\nNext up is Sunday's trip to Nottingham Forest. Arteta will likely shuffle the pack again, but at the moment, one way or another, the right number keeps coming up."
-    },
-    {
-      "story_id": "50174091",
-      "headline": "ALCS Game 2: Lineups, live updates from Guardians-Rays",
-      "summary": "The Guardians kept on rolling Monday, winning the ALCS opener over Tampa Bay. Can they take a 2-0 lead Tuesday?",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730143_608x342_16-9.jpg",
-      "published_utc": "2026-10-14T00:16:41Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50174091/mlb-2026-alcs-game-2-rays-guardians-lineups-updates-analysis-takeaways",
-      "stream_url": "",
-      "body": "The Cleveland Guardians are rolling.\n\nAfter dropping the first two games of the American League Division Series, they bounced back to beat the Chicago White Sox three straight times to advance to the next round. In Game 1 of the AL Championship Series on Monday, Cleveland stayed hot, defeating the top-seeded Tampa Bay Rays in comeback fashion.\n\nOn Tuesday, the Guardians will try to take a commanding 2-0 lead in the ALCS. Can they head back to Cleveland for Game 3 just two wins away from a World Series appearance?\n\nStay tuned for lineups, game action and postgame analysis from St. Petersburg.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nGuardians-Rays\nFollow live for pitch-by-pitch coverage\n\nHighlights from Tampa Bay\n\nCan the Rays win Game 2 at the Trop?\n\nStarting pitchers: Parker Messick vs. Freddy Peralta\n\nLineups\n\nGuardians\n\n1. Steven Kwan (L) LF\n\n2. Jose Ramirez (S) 3B\n\n3. Chase DeLauter (L) DH\n\n4. Jo Adell (R) RF\n\n5. Nathaniel Lowe (L) 1B\n\n6. Travis Bazzana (L) 2B\n\n7. Petey Halpin (L) CF\n\n8. Austin Hedges (R) C\n\n9. Brayan Rocchio (S) SS\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Jonathan Aranda (L) 1B\n\n3. Junior Caminero (R) 3B\n\n4. Victor Mesa Jr. (L) RF\n\n5. Jonny DeLuca (R) CF\n\n6. Chandler Simpson (L) LF\n\n7. Ben Williamson (R) 2B\n\n8. Liam Hicks (L) C\n\n9. Taylor Walls (S) SS"
+      "body": "LONDON -- If Arsenal's starters don't get you, the finishers probably will.\n\nLille were firmly in Tuesday's UEFA Champions League game for an hour or so and then a three-goal blitz in seven minutes settled things emphatically.\n\nThere were similarities here to last weekend's 2-1 win in the Premier League over Leeds United. The visitors were the better side, but Arteta made a triple substitution shortly after Arsenal took the lead, and his team went on to win.\n\nLille were not as front-footed as Leeds, but they carried a threat on the break and Arsenal were struggling to break them down until Jurri\u00ebn Timber marked his first home start since March with a clever touch in the box to free himself and dink a delightful finish over Lille goalkeeper Berke \u00d6zer from a tight angle.\n\nBukayo Saka, Martin \u00d8degaard and Kai Havertz were already stripped and ready to come on. Arteta could have thought twice about making the changes given the deadlock was broken, but he went through with it anyway.\n\n\"I'm going to do it more now,\" he joked afterward.\n\n\"I felt it was the right moment to do it, the way the game was panning out, the way the opponent was behaving as well, that we needed in those moments, in those spaces, different kinds of players, but that's it.\n\n\"Credit to the staff and obviously the ones that come in to create those moments.\"\n\n\"Is it about momentum as well? Yes, it is,\" he continued. The combination of the dam bursting and the fresh legs overwhelmed the Ligue 1 side to win 3-0.\n\nTimber won the ball back before \u00d8degaard and Saka combined for Eberechi Eze to side foot the ball home for his first goal of the season. \u00d8degaard then found Havertz, who demonstrated his game intelligence in recognizing nobody was in a central position as he burst towards the byline, instead cutting it back for Saka to score his 19th European goal for Arsenal, more than anyone else for the club aside from Thierry Henry (42).\n\nThe Gunners continue their perfect start to the group stage ahead of next week's testing trip to Bayern Munich, where they will likely need to start better than they have done of late to ensure that record continues.\n\nNobody can argue with the end product -- that's nine wins from 10 matches this season including August's Community Shield victory over Manchester City -- but if there is an issue to be found, it is perhaps in the need for those \"finishers\" -- Arteta's preferred moniker for substitutes -- to be so decisive.\n\nHe made five changes here, including Viktor Gy\u00f6keres leading the line instead of Havertz, with Mikel Merino operating as a No. 10 in place of \u00d8degaard. Noni Madueke switched to the right to replace Saka, with Eze on the left in a remodeled front four.\n\nThe results were inconclusive. Lille combined diligent defending with energetic counterattacking to cause Arsenal problems, most obviously when Ayase Ueda beat David Raya from inside the box, but his goal was disallowed for a tight offside call.\n\nGy\u00f6keres registered just 12 touches, completed six passes from eight attempts and no shots. He was a 65th-minute departure for Havertz, and no player on either team had been involved in the game less.\n\nArsenal possess tremendous depth all over the pitch -- their \"second-choice\" back four when everybody is fit, Ben White, Ezri Konsa, Cristhian Mosquera and Piero Hincapi\u00e9, is an embarrassment of riches -- but the drop in the No. 9 position remains a concern.\n\nHavertz is integral in and out of possession for Arsenal, but it also remains true that Arteta felt they needed an upgrade in that position in 2025, which triggered the pursuit of Gy\u00f6keres in the first place.\n\nThey also were hopeful of luring Juli\u00e1n \u00c1lvarez from Atl\u00e9tico Madrid this summer, but after that possibility disappeared, they opted to rely on Havertz, Gy\u00f6keres and Merino, whose emergence as a potent goal scorer for Arsenal and Spain is one of the biggest surprises of the past year or more.\n\nIt might be enough to win the club's first Champions League. They were penalty kicks away from achieving that feat with that trio last season. But there is frankly more encouragement elsewhere, with Timber looking a threat throughout and reminding everyone of the dynamic dimension he provides from the right.\n\nEze's evening was more mixed, but his goal was of high quality and a step towards seizing the opportunity of regular game time afforded to him by Christos Tzolis' muscular injury.\n\nWhatever grumbles there are, Arsenal's bandwagon rolls on. That's 14 consecutive Champions League group stage wins now on a night when the club mourned the passing of life president Ken Friar, aged 92.\n\n\"There are people in football clubs that they have a role and they fulfill a role,\" Arteta said.\n\n\"And there are other people that they create an identity, they create values and they have a vision to create a future for the football club.\n\n\"And I think the legacy that Ken is going to leave to all of us, to our football club and everybody that has been close to him is going to be forever.\"\n\nNext is Sunday's trip to Nottingham Forest. Arteta will likely shuffle the pack again, but at the moment, one way or another, the right number keeps coming up."
     },
     {
       "story_id": "50177588",
@@ -8330,6 +8330,20 @@
       "body": "Spencer Leniu has signed a four-year deal with Parramatta just days after winning his fourth NRL premiership with the Sydney Roosters.\n\nLeniu finished his three-year stint at the Tricolours on a high after a stellar performance in their 19-18 win over Newcastle to secure the 2026 trophy.\n\nThe NSW Origin representative added the Roosters' premiership ring to the three he won with Penrith from 2021-2023.\n\nLeniu was granted a release from the final year of his Roosters contract, which will give the club some salary cap reprieve\n\nThe hard-hitting forward's Eels contract is reportedly worth more than the $850,000 per year he was making with Easts, where he spent much of his time coming off the bench.\n\nHe is expected to play a more active role in blue and gold, leading the line for the Eels' forward pack.\n\nThe westward move will see the former Panther reunite with good friend Jarome Luai, but first the pair will both suit up for Toa Samoa at the Rugby League World Cup.\n\nEels general manager of football Mark O'Neill shared his delight at signing one of the game's \"premier enforcers\".\n\n\"We're thrilled to have Spencer join the Parramatta Eels and become part of what we're building at this club,\" O'Neill said in a statement.\n\n\"He's one of the elite middle forwards in the game and has consistently performed on the biggest stages throughout his career.\n\nThe exit of Leniu adds to the exodus of stars from the Roosters premiership lineup.\n\nAngus Crichton and Mark Nawaqanitawase are rugby-bound, Daly Cherry-Evans is joining Hull FC, while Daniel Tupou retired this week after his 307-game career.\n\nConnor Watson, who missed the title decider due to concussion, has signed for a season with St George Illawarra Dragons.\n\nRoosters coach Trent Robinson said Leniu had been a strong contributor during his time at the club.\n\n\"Spencer has brought a lot to our group over the last three years, both through the way he plays and the energy and personality he brings every day,\" Robinson said in a statement on Thursday.\n\n\"He brings an intensity and competitiveness to everything he does, and he challenges the people around him to be better.\n\n\"To see him finish his time here as a premiership winner is something he should be really proud of, and something we'll always share together.\"\n\nWith his departure announced at the Roosters' awards night on Wednesday, Leniu said he would leave the club on a high.\n\n\"\"I'm proud to have worn the Roosters jersey and I'll always have a lot of love and respect for the club, the boys and everyone who has supported me during my time here,\" said Leniu.\n\n\"Winning a premiership with this group and sharing that with the boys, our families and everyone at the club is something I'll carry with me for the rest of my life.\""
     },
     {
+      "story_id": "50176901",
+      "headline": "Source: Mariners get OK to interview Astros' Joe Espada",
+      "summary": "The Seattle Mariners have received permission to interview current Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706931_1296x729_16-9.jpg",
+      "published_utc": "2026-10-13T21:50:55Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50176901/source-mariners-get-ok-interview-astros-joe-espada",
+      "stream_url": "",
+      "body": "The Seattle Mariners have received permission to talk to Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN on Tuesday.\n\nEspada's contract with the Astros runs through the end of October, and he has said that he'd like to return after winning two American League West titles with Houston in the past three seasons.\n\nThe Mariners fired Dan Wilson last month after finishing third in the AL West with a 76-86 record, five games behind the Astros.\n\nEspada, 51, is 256-229 as manager of the Astros, including an 81-81 mark this season as Houston became the first team in MLB history to reach the playoffs without a winning record. He has been with the team since 2018, when he was hired as bench coach, and won a World Series in 2022.\n\nThe Mariners, who won the AL West in 2025 and came within one win of reaching the World Series, struggled on offense this season, and general manager Jerry Dipoto has said the franchise needs \"something new\" as its tries \"to find the right person.\"\n\n\"Most of what we've done in recent years especially has been insular,\" Dipoto said at his end-of-season news conference last month. \"I think this year's failure requires that we look outside to find someone who might be able to poke holes in what we're doing and help us see something that perhaps we're blind to.\"\n\nThe Mariners getting permission to interview Espada was first reported by MLB.com."
+    },
+    {
       "story_id": "50177238",
       "headline": "Micah Parsons: 'Jayden Daniels probably cost my man Dan Quinn his job'",
       "summary": "Micah Parsons said on his podcast that Jayden Daniels' mistake at the end of overtime Sunday will probably end up getting Commanders coach Dan Quinn fired.",
@@ -8356,20 +8370,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50171789/transfer-rumors-news-barcelona-real-madrid-scout-erling-haaland-anfield",
       "stream_url": "",
       "body": "Chelsea are growing confident they will be able to sign AFC Bournemouth midfielder Alex Scott in January. Meanwhile, Barcelona and Real Madrid were at Anfield on Sunday to watch Erling Haaland when Manchester City faced Liverpool.\n\nJoin us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Chelsea are increasingly confident that they will sign AFC Bournemouth midfielder Alex Scott during the January transfer window, according to TEAMtalk. The belief is that the 23-year-old would find it difficult to turn down a move to Stamford Bridge and the Blues are willing to meet the Cherries' demands, with any deal likely to reach around \u00a3100 million. Bournemouth turned down all interest in Scott during the summer, but the England international's contract expires in 2028 and he has so far resisted any calls for an extension.\n\n- Barcelona and Real Madrid scouts were at Anfield to scout Manchester City striker Erling Haaland as he opened the scoring in a 3-0 win over Liverpool, according to TEAMtalk. Both of the Spanish giants continue to monitor the possibility of a future move following the club's guilty verdict for hundreds of financial charges. The two clubs weren't just there to watch City players, though: Bar\u00e7a have also been monitoring the situation of defender Ronald Ara\u00fajo, who is on loan at Liverpool, while Madrid have been checking on Liverpool midfielders Alexis Mac Allister and Florian Wirtz.\n\n- Borussia Dortmund have been interested in U.S. youth international and Philadelphia Union striker Malik Jakupovic for some time, reports Sky Germany. In the summer, the Bundesliga club submitted an offer for the 17-year-old that was worth \u20ac2m-\u20ac3m but was ultimately rejected. Contact continues to exist but there is major competition for Jakupovic with Chelsea, RB Salzburg and Stuttgart all looking at him while Eintracht Frankfurt also have in the past.\n\n- Chelsea will need at least \u00a350 million to tempt Barcelona into letting midfielder Frenkie de Jong leave in the January transfer window, according to Football Insider. Chelsea are looking at the 29-year-old as they continue their efforts to replace Enzo Fern\u00e1ndez after the Argentina international joined Manchester City in the summer. De Jong is out injured but the Dutch midfield is nearing a return to fitness, although that return could make a move more difficult for the Blues as Bar\u00e7a have been eagerly awaiting his return.\n\n- Ruben Amorim wants AC Milan to sign Sassuolo midfielder Darryl Bakola, who has also received interest from Roma and Juventus, reports Calciomercato. Amorim was surprised by the 18-year-old's quality when the Rossoneri drew 1-1 against Sassuolo at Mapei Stadium, when Bakola was named man of the match. The young Frenchman is being considered by scouts across Europe, and having been signed for \u20ac10 million plus \u20ac2 million in add-ons last January, he could now command over \u20ac30 million.\n\nDone deals\n- Former Real Madrid right back Dani Carvajal has joined LaLiga side Getafe on a free transfer.\n\nOther\n- Arsenal are keeping an eye on Michael Olise's contract talks with Bayern Munich as they continue to look at wingers. (FootballTransfers)\n\n- Arsenal are yet to make a decision about Max Dowman's future amid interest in a loan from Celtic and Rangers. (Football Insider)\n\n- Several major clubs are interested in a January move for Palmeiras right back Agustin Giay, with Atletico Madrid, AC Milan and Napoli having previously made approaches. (Matteo Moretto)\n\n- Brighton & Hove Albion see RB Salzburg midfielder Bartosz Mazurek as a leading option for January, but they face competition from Benfica and Porto. (TEAMtalk)\n\n- Borussia Dortmund have the right to match any offer for Monaco striker Paris Brunner. (Patrick Berger)\n\n- Napoli have started to show an interest in Union Berlin winger Livan Burcu, who is also attracting attention from other top European clubs. (Rudy Galetti)\n\n- Borrusia Dortmund remain interested in Zaglebie Lubin attacking midfielder Marcel Rugela, but a summer move for the 19-year-old is more likely than one in January. (Patrick Berger)\n\n- Lazio have their eyes on 18-year-old winger Filippo Toscano from Serie D side Reggina as they look to the future. (Nicolo Schira)\n\n- Johan Bakayoko is a possible candidate to leave RB Leipzig in January despite only joining the Bundesliga club last year. (Philipp Hinze)\n\n- AC Milan are working for a way to offload 23-year-old midfielder Warren Bondo in January. (Nicolo Schira)"
-    },
-    {
-      "story_id": "50176901",
-      "headline": "Source: Mariners get OK to interview Astros' Joe Espada",
-      "summary": "The Seattle Mariners have received permission to interview current Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706931_1296x729_16-9.jpg",
-      "published_utc": "2026-10-13T21:50:55Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50176901/source-mariners-get-ok-interview-astros-joe-espada",
-      "stream_url": "",
-      "body": "The Seattle Mariners have received permission to talk to Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN on Tuesday.\n\nEspada's contract with the Astros runs through the end of October, and he has said that he'd like to return after winning two American League West titles with Houston in the past three seasons.\n\nThe Mariners fired Dan Wilson last month after finishing third in the AL West with a 76-86 record, five games behind the Astros.\n\nEspada, 51, is 256-229 as manager of the Astros, including an 81-81 mark this season as Houston became the first team in MLB history to reach the playoffs without a winning record. He has been with the team since 2018, when he was hired as bench coach, and won a World Series in 2022.\n\nThe Mariners, who won the AL West in 2025 and came within one win of reaching the World Series, struggled on offense this season, and general manager Jerry Dipoto has said the franchise needs \"something new\" as its tries \"to find the right person.\"\n\n\"Most of what we've done in recent years especially has been insular,\" Dipoto said at his end-of-season news conference last month. \"I think this year's failure requires that we look outside to find someone who might be able to poke holes in what we're doing and help us see something that perhaps we're blind to.\"\n\nThe Mariners getting permission to interview Espada was first reported by MLB.com."
     },
     {
       "story_id": "50177584",
