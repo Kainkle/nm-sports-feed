@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-14T00:23:38.756649+00:00",
+  "generated_utc": "2026-10-14T00:33:39.746592+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057445",
@@ -3053,9 +3053,9 @@
         "color": "860038"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Kia Center",
-      "detail": "Halftime",
+      "detail": "11:06 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3099,9 +3099,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "Halftime",
+      "detail": "12:00 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3147,7 +3147,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Johnny \"Red\" Floyd Stadium",
-      "detail": "1:23 - 2nd Quarter",
+      "detail": "0:20 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3499,7 +3499,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Paycom Center",
-      "detail": "6:40 - 1st Quarter",
+      "detail": "2:51 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3546,7 +3546,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "AmFirst Stadium",
-      "detail": "7:07 - 1st Quarter",
+      "detail": "4:43 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3560,7 +3560,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-14T00:15:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:52",
         "name": "Winnipeg Jets",
@@ -3590,7 +3590,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Canada Life Centre",
       "detail": "",
       "game_number": 1,
@@ -3728,7 +3728,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Delta Center",
       "detail": "",
       "game_number": 1,
@@ -8162,32 +8162,46 @@
   ],
   "stories": [
     {
+      "story_id": "50177761",
+      "headline": "Cleveland Browns gets their close-up in first trailer for Hulu's 'The Land'",
+      "summary": "Created by Dan Fogelman, the NFL-backed drama follows a fictional version of the Browns and premieres the day after Super Bowl LXI.",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730403_608x342_16-9.png",
+      "published_utc": "2026-10-14T00:31:08Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Brianna Williams",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50177761/cleveland-browns-land-hulu-trailer",
+      "stream_url": "",
+      "body": "Even if the Cleveland Browns miss the NFL playoffs, fans will still have a chance to watch the team in February.\n\nThe Browns are the focus of Hulu's upcoming scripted drama \"The Land,\" which released its first trailer Tuesday ahead of its Feb. 15 premiere.\n\nCreated by Dan Fogelman, whose credits include \"This Is Us\" and \"Paradise,\" the series follows a fictional version of the Browns as the franchise navigates navigates challenges on and off the field.\n\nChristopher Meloni, best known for portraying Elliot Stabler on \"Law & Order: Special Victims Unit,\" stars as Danny Roarke, Cleveland's head coach who is tasked with reviving the struggling franchise. With his job on the line, Roarke's best shot at turning things around rests on his own son, a rookie quarterback out of Ohio State.\n\nThe fictional quarterback, Connor Roarke, already had his NFL draft moment earlier this year.\n\nAhead of the second day of the 2026 NFL draft in Pittsburgh, commissioner Roger Goodell took the stage to announce a surprise selection.\n\n\"With the first pick of the 2026 NFL draft, the Cleveland Browns select Connor Roarke, quarterback, Ohio State,\" Goodell said.\n\nOf course, the announcement was part of filming for the series, not an actual draft selection.\n\nMeanwhile, William H. Macy plays the Browns' owner, Hal Durkin, who faces a different kind of competition as he decides which of his two daughters will take over the franchise.\n\n\"It's about a football team, nominally the Cleveland Browns,\" Macy told Deadline in January. \"They're brilliant scripts. They're Shakespearean. It's about football, but, oh, my lord, the plots are so profound, and I'm having the time of my life.\"\n\nThe cast also includes Mandy Moore, Chace Crawford, Sam Corlett, Tanner Zagarino, Chloe Bennet, Bridget Moynahan and Omar Epps.\n\nWith the NFL serving as a co-producer, the series will feature authentic league branding and access.\n\n\"The NFL is completely behind our show, so we've got complete access,\" Macy told Deadline. \"I'm optimistic it's going to be something. And what if Cleveland starts winning? Because I think our team is going to do better.\"\n\n\"The Land\" premieres the day after Super Bowl LXI, with its promotional tagline promising, \"When the game is over, the real drama begins.\""
+    },
+    {
       "story_id": "50177357",
       "headline": "Arsenal showed strength in depth in Lille win, but Gy\u00f6keres is a concern",
       "summary": "Arsenal's substitutes made the difference once again, but Mikel Arteta's side still have questions as tougher tests await.",
       "image": "https://a.espncdn.com/photo/2026/1013/r1730378_1296x729_16-9.jpg",
-      "published_utc": "2026-10-14T00:02:53Z",
+      "published_utc": "2026-10-14T00:25:01Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "James Olley",
       "source": "ESPN",
       "link": "https://www.espn.com/soccer/story/_/id/50177357/arsenal-showed-strength-depth-lille-win-viktor-gyokeres-concern",
       "stream_url": "",
-      "body": "LONDON -- If Arsenal's starters don't get you, the finishers probably will.\n\nLille were firmly in Tuesday's UEFA Champions League game for an hour or so and then a three-goal blitz in seven minutes settled things emphatically.\n\nThere were similarities here to last weekend's 2-1 win in the Premier League over Leeds United. The visitors were the better side, but Arteta made a triple substitution shortly after Arsenal took the lead, and his team went on to win.\n\nLille were not as front-footed as Leeds, but they carried a threat on the break and Arsenal were struggling to break them down until Jurri\u00ebn Timber marked his first home start since March with a clever touch in the box to free himself and dink a delightful finish over Lille goalkeeper Berke \u00d6zer from a tight angle.\n\nBukayo Saka, Martin \u00d8degaard and Kai Havertz were already stripped and ready to come on. Arteta could have thought twice about making the changes given the deadlock was broken, but he went through with it anyway.\n\n\"I'm going to do it more now,\" he joked afterward.\n\n\"I felt it was the right moment to do it, the way the game was panning out, the way the opponent was behaving as well, that we needed in those moments, in those spaces, different kinds of players, but that's it.\n\n\"Credit to the staff and obviously the ones that come in to create those moments.\"\n\n\"Is it about momentum as well? Yes, it is,\" he continued. The combination of the dam bursting and the fresh legs overwhelmed the Ligue 1 side to win 3-0.\n\nTimber won the ball back before \u00d8degaard and Saka combined for Eberechi Eze to side foot the ball home for his first goal of the season. \u00d8degaard then found Havertz, who demonstrated his game intelligence in recognizing nobody was in a central position as he burst toward the byline, instead cutting it back for Saka to score his 19th European goal for Arsenal, more than anyone else for the club aside from Thierry Henry (42).\n\nThe Gunners continue their perfect start to the group stage ahead of next week's testing trip to Bayern Munich, where they will likely need to start better than they have done of late to ensure that record continues.\n\nNobody can argue with the end product -- that's nine wins from 10 matches this season including August's Community Shield victory over Manchester City -- but if there is an issue to be found, it is perhaps in the need for those \"finishers\" -- Arteta's preferred moniker for substitutes -- to be so decisive.\n\nHe made five changes here, including Viktor Gy\u00f6keres leading the line instead of Havertz, with Mikel Merino operating as a No. 10 in place of \u00d8degaard. Noni Madueke switched to the right to replace Saka, with Eze on the left in a remodeled front four.\n\nThe results were inconclusive. Lille combined diligent defending with energetic counter-attacking to cause Arsenal problems, most obviously when Ayase Ueda beat David Raya from inside the box, but his goal was disallowed for a tight offside call.\n\nGy\u00f6keres registered just 12 touches, completed six passes from eight attempts and no shots. He was a 65th-minute departure for Havertz, and no player on either team had been involved in the game less.\n\nArsenal possess tremendous depth all over the pitch -- their \"second-choice\" back four when everybody is fit, Ben White, Ezri Konsa, Cristhian Mosquera and Piero Hincapi\u00e9, is an embarrassment of riches -- but the drop in the No. 9 position remains a concern.\n\nHavertz is integral in and out of possession for Arsenal, but it also remains true that Arteta felt they needed an upgrade in that position in 2025, which triggered the pursuit of Gy\u00f6keres in the first place.\n\nThey also were hopeful of luring Juli\u00e1n \u00c1lvarez from Atl\u00e9tico Madrid this summer, but after that possibility disappeared, they opted to rely on Havertz, Gy\u00f6keres and Merino, whose emergence as a potent goalscorer for Arsenal and Spain is one of the biggest surprises of the last year or more.\n\nIt may be enough to win the club's first Champions League. They were penalty kicks away from achieving that feat with that trio to call on last season. But there is frankly more encouragement elsewhere, with Timber looking a threat throughout and reminding everyone of the dynamic dimension he provides from the right.\n\nEze's evening was more mixed, but his goal was of high quality and a step towards seizing the opportunity of regular game time afforded to him by Christos Tzolis' muscular injury.\n\nWhatever grumbles there are, Arsenal's bandwagon rolls on. That's 14 consecutive Champions League group stage wins now on a night when the club mourned the passing of life president Ken Friar, aged 92.\n\n\"There are people in football clubs that they have a role and they fulfill a role,\" said Arteta.\n\n\"And there are other people that they create an identity, they create values and they have a vision to create a future for the football club.\n\n\"And I think the legacy that Ken is going to leave to all of us, to our football club and everybody that has been close to him is going to be forever.\"\n\nNext up is Sunday's trip to Nottingham Forest. Arteta will likely shuffle the pack again, but at the moment, one way or another, the right number keeps coming up."
+      "body": "LONDON -- If Arsenal's starters don't get you, the finishers probably will.\n\nLille were firmly in Tuesday's UEFA Champions League game for an hour or so and then a three-goal blitz in seven minutes settled things emphatically.\n\nThere were similarities here to last weekend's 2-1 win in the Premier League over Leeds United. The visitors were the better side, but Arteta made a triple substitution shortly after Arsenal took the lead, and his team went on to win.\n\nLille were not as front-footed as Leeds, but they carried a threat on the break and Arsenal were struggling to break them down until Jurri\u00ebn Timber marked his first home start since March with a clever touch in the box to free himself and dink a delightful finish over Lille goalkeeper Berke \u00d6zer from a tight angle.\n\nBukayo Saka, Martin \u00d8degaard and Kai Havertz were already stripped and ready to come on. Arteta could have thought twice about making the changes given the deadlock was broken, but he went through with it anyway.\n\n\"I'm going to do it more now,\" he joked afterward.\n\n\"I felt it was the right moment to do it, the way the game was panning out, the way the opponent was behaving as well, that we needed in those moments, in those spaces, different kinds of players, but that's it.\n\n\"Credit to the staff and obviously the ones that come in to create those moments.\"\n\n\"Is it about momentum as well? Yes, it is,\" he continued. The combination of the dam bursting and the fresh legs overwhelmed the Ligue 1 side to win 3-0.\n\nTimber won the ball back before \u00d8degaard and Saka combined for Eberechi Eze to side foot the ball home for his first goal of the season. \u00d8degaard then found Havertz, who demonstrated his game intelligence in recognizing nobody was in a central position as he burst towards the byline, instead cutting it back for Saka to score his 19th European goal for Arsenal, more than anyone else for the club aside from Thierry Henry (42).\n\nThe Gunners continue their perfect start to the group stage ahead of next week's testing trip to Bayern Munich, where they will likely need to start better than they have done of late to ensure that record continues.\n\nNobody can argue with the end product -- that's nine wins from 10 matches this season including August's Community Shield victory over Manchester City -- but if there is an issue to be found, it is perhaps in the need for those \"finishers\" -- Arteta's preferred moniker for substitutes -- to be so decisive.\n\nHe made five changes here, including Viktor Gy\u00f6keres leading the line instead of Havertz, with Mikel Merino operating as a No. 10 in place of \u00d8degaard. Noni Madueke switched to the right to replace Saka, with Eze on the left in a remodeled front four.\n\nThe results were inconclusive. Lille combined diligent defending with energetic counterattacking to cause Arsenal problems, most obviously when Ayase Ueda beat David Raya from inside the box, but his goal was disallowed for a tight offside call.\n\nGy\u00f6keres registered just 12 touches, completed six passes from eight attempts and no shots. He was a 65th-minute departure for Havertz, and no player on either team had been involved in the game less.\n\nArsenal possess tremendous depth all over the pitch -- their \"second-choice\" back four when everybody is fit, Ben White, Ezri Konsa, Cristhian Mosquera and Piero Hincapi\u00e9, is an embarrassment of riches -- but the drop in the No. 9 position remains a concern.\n\nHavertz is integral in and out of possession for Arsenal, but it also remains true that Arteta felt they needed an upgrade in that position in 2025, which triggered the pursuit of Gy\u00f6keres in the first place.\n\nThey also were hopeful of luring Juli\u00e1n \u00c1lvarez from Atl\u00e9tico Madrid this summer, but after that possibility disappeared, they opted to rely on Havertz, Gy\u00f6keres and Merino, whose emergence as a potent goal scorer for Arsenal and Spain is one of the biggest surprises of the past year or more.\n\nIt might be enough to win the club's first Champions League. They were penalty kicks away from achieving that feat with that trio last season. But there is frankly more encouragement elsewhere, with Timber looking a threat throughout and reminding everyone of the dynamic dimension he provides from the right.\n\nEze's evening was more mixed, but his goal was of high quality and a step towards seizing the opportunity of regular game time afforded to him by Christos Tzolis' muscular injury.\n\nWhatever grumbles there are, Arsenal's bandwagon rolls on. That's 14 consecutive Champions League group stage wins now on a night when the club mourned the passing of life president Ken Friar, aged 92.\n\n\"There are people in football clubs that they have a role and they fulfill a role,\" said Arteta.\n\n\"And there are other people that they create an identity, they create values and they have a vision to create a future for the football club.\n\n\"And I think the legacy that Ken is going to leave to all of us, to our football club and everybody that has been close to him is going to be forever.\"\n\nNext up is Sunday's trip to Nottingham Forest. Arteta will likely shuffle the pack again, but at the moment, one way or another, the right number keeps coming up."
     },
     {
-      "story_id": "50177238",
-      "headline": "Micah Parsons: 'Jayden Daniels probably cost my man Dan Quinn his job'",
-      "summary": "Micah Parsons said on his podcast that Jayden Daniels' mistake at the end of overtime Sunday will probably end up getting Commanders coach Dan Quinn fired.",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729529_1296x729_16-9.jpg",
-      "published_utc": "2026-10-13T23:36:26Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "",
+      "story_id": "50174091",
+      "headline": "ALCS Game 2: Lineups, live updates from Guardians-Rays",
+      "summary": "The Guardians kept on rolling Monday, winning the ALCS opener over Tampa Bay. Can they take a 2-0 lead Tuesday?",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730143_608x342_16-9.jpg",
+      "published_utc": "2026-10-14T00:16:41Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50177238/parsons-qb-daniels-probably-cost-my-man-dan-quinn-job",
+      "link": "https://www.espn.com/mlb/story/_/id/50174091/mlb-2026-alcs-game-2-rays-guardians-lineups-updates-analysis-takeaways",
       "stream_url": "",
-      "body": "Micah Parsons didn't hold back on his podcast when discussing the Commanders' botched final play Sunday, saying that quarterback Jayden Daniels' mistake will probably end up getting Washington coach Dan Quinn fired.\n\nThe Green Bay Packers' star pass rusher is close with Quinn, who was his defensive coordinator for three seasons (2021-23) when Parsons played for the Dallas Cowboys.\n\n\"Jayden Daniels probably cost my man Dan Quinn his job, to be honest with you,\" Parsons said on his podcast, \"The Edge with Micah Parsons.\"\n\n\"To be honest with you. And, like, I'm a big Jayden Daniels fan. But the reality is, he probably cost a lot of people their jobs this past weekend.\"\n\nOn Sunday, Washington reached the New York Giants' 24-yard line with 50 seconds remaining in overtime and the score tied. The offense did not end up snapping the ball for the next play until 12 seconds remained. With no timeouts left, Daniels dropped back to pass after a fake handoff then started to scramble and was tackled with eight seconds to play.\n\nAs Commanders players halfheartedly got back to the line, with Daniels and others slow to get off the ground, Washington ran out of time to spike the ball and stop the clock to set up a winning field goal attempt. The game ended in a 27-27 tie.\n\nAfterward, Daniels took accountability, saying, \"We have to know the situation. We have to relay that as an offense. It starts with everyone, top down. Ultimately, it's on me.\"\n\nParsons said NFL players \"get coached so much\" on the situations at the end of an overtime period -- even defensive players.\n\n\"I'm a defensive player, and this s---'s programmed to me. I even know what to do in those situations,\" Parsons said, adding that Daniels, who is in his third NFL season, has no excuse not to know how to operate in that scenario. \"And mind you, it'd be different if Jayden Daniels was a rookie. This is your third year. This is your third year. You've been to the NFC Championship Game. You've been in big moments before.\"\n\n\"This is your job to be prepared to understand the game and understand situations. That's in your job profile,\" Parsons continued. \"And you're telling me, 'Oh, we're going to want to pay this guy eventually $60 million?' This cannot happen.\n\n\"I'm a big JD5 fan, but that's inexcusable, bro.\"\n\nQuinn, who was hired as the Commanders' coach in 2024, said Monday he met with team owner Josh Harris, as Quinn regularly does, and that no one is happy with the game's bungled final sequence or the team's 1-3-1 record.\n\nQuinn said offensive coordinator David Blough called the last play but that the head coach is ultimately responsible for what transpires.\n\n\"All of that comes through me,\" Quinn said. \"Dave's the one that calls it, but I want to make sure I'm clear on my guidelines too. This will break down in a lot of ways, so it starts with me first.\"\n\nESPN's John Keim contributed to this report."
+      "body": "The Cleveland Guardians are rolling.\n\nAfter dropping the first two games of the American League Division Series, they bounced back to beat the Chicago White Sox three straight times to advance to the next round. In Game 1 of the AL Championship Series on Monday, Cleveland stayed hot, defeating the top-seeded Tampa Bay Rays in comeback fashion.\n\nOn Tuesday, the Guardians will try to take a commanding 2-0 lead in the ALCS. Can they head back to Cleveland for Game 3 just two wins away from a World Series appearance?\n\nStay tuned for lineups, game action and postgame analysis from St. Petersburg.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nGuardians-Rays\nFollow live for pitch-by-pitch coverage\n\nHighlights from Tampa Bay\n\nCan the Rays win Game 2 at the Trop?\n\nStarting pitchers: Parker Messick vs. Freddy Peralta\n\nLineups\n\nGuardians\n\n1. Steven Kwan (L) LF\n\n2. Jose Ramirez (S) 3B\n\n3. Chase DeLauter (L) DH\n\n4. Jo Adell (R) RF\n\n5. Nathaniel Lowe (L) 1B\n\n6. Travis Bazzana (L) 2B\n\n7. Petey Halpin (L) CF\n\n8. Austin Hedges (R) C\n\n9. Brayan Rocchio (S) SS\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Jonathan Aranda (L) 1B\n\n3. Junior Caminero (R) 3B\n\n4. Victor Mesa Jr. (L) RF\n\n5. Jonny DeLuca (R) CF\n\n6. Chandler Simpson (L) LF\n\n7. Ben Williamson (R) 2B\n\n8. Liam Hicks (L) C\n\n9. Taylor Walls (S) SS"
     },
     {
       "story_id": "50177588",
@@ -8202,20 +8216,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50177588/peter-gulacsi-misses-champions-league-game-armed-home-invasion",
       "stream_url": "",
       "body": "Villarreal goalkeeper P\u00e9ter Gul\u00e1csi missed his team's Champions League game against Napoli on Tuesday because of an armed home invasion at his house, the club said.\n\nSpanish media reported armed men entered the Hungarian goalkeeper's house while Gul\u00e1csi was there with his wife and their two children. It reportedly took place overnight from Monday to Tuesday.\n\nThere were no reports of injuries.\n\nThe club said before the game that the 36-year-old Gul\u00e1csi would be unavailable \"due to personal reasons.\" Luiz J\u00fanior was in goal for Villarreal because of Gul\u00e1csi's absence.\n\nThe Spanish club won the league-phase match 3-1.\n\n- FIFA president Gianni Infantino received undisclosed $1.7M World Cup payment\n\nGul\u00e1csi is a new signing at Villarreal, having joined from RB Leipzig in August. He spent more than 10 years with the German club having had spells with Red Bull Salzburg and Liverpool prior to that.\n\nThe Hungarian has 58 caps for his country.\n\nInformation from the Associated Press contributed to this report."
-    },
-    {
-      "story_id": "50176901",
-      "headline": "Source: Mariners get OK to interview Astros' Joe Espada",
-      "summary": "The Seattle Mariners have received permission to interview current Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN.",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706931_1296x729_16-9.jpg",
-      "published_utc": "2026-10-13T21:50:55Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50176901/source-mariners-get-ok-interview-astros-joe-espada",
-      "stream_url": "",
-      "body": "The Seattle Mariners have received permission to talk to Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN on Tuesday.\n\nEspada's contract with the Astros runs through the end of October, and he has said that he'd like to return after winning two American League West titles with Houston in the past three seasons.\n\nThe Mariners fired Dan Wilson last month after finishing third in the AL West with a 76-86 record, five games behind the Astros.\n\nEspada, 51, is 256-229 as manager of the Astros, including an 81-81 mark this season as Houston became the first team in MLB history to reach the playoffs without a winning record. He has been with the team since 2018, when he was hired as bench coach, and won a World Series in 2022.\n\nThe Mariners, who won the AL West in 2025 and came within one win of reaching the World Series, struggled on offense this season, and general manager Jerry Dipoto has said the franchise needs \"something new\" as its tries \"to find the right person.\"\n\n\"Most of what we've done in recent years especially has been insular,\" Dipoto said at his end-of-season news conference last month. \"I think this year's failure requires that we look outside to find someone who might be able to poke holes in what we're doing and help us see something that perhaps we're blind to.\"\n\nThe Mariners getting permission to interview Espada was first reported by MLB.com."
     },
     {
       "story_id": "50176371",
@@ -8330,6 +8330,20 @@
       "body": "Spencer Leniu has signed a four-year deal with Parramatta just days after winning his fourth NRL premiership with the Sydney Roosters.\n\nLeniu finished his three-year stint at the Tricolours on a high after a stellar performance in their 19-18 win over Newcastle to secure the 2026 trophy.\n\nThe NSW Origin representative added the Roosters' premiership ring to the three he won with Penrith from 2021-2023.\n\nLeniu was granted a release from the final year of his Roosters contract, which will give the club some salary cap reprieve\n\nThe hard-hitting forward's Eels contract is reportedly worth more than the $850,000 per year he was making with Easts, where he spent much of his time coming off the bench.\n\nHe is expected to play a more active role in blue and gold, leading the line for the Eels' forward pack.\n\nThe westward move will see the former Panther reunite with good friend Jarome Luai, but first the pair will both suit up for Toa Samoa at the Rugby League World Cup.\n\nEels general manager of football Mark O'Neill shared his delight at signing one of the game's \"premier enforcers\".\n\n\"We're thrilled to have Spencer join the Parramatta Eels and become part of what we're building at this club,\" O'Neill said in a statement.\n\n\"He's one of the elite middle forwards in the game and has consistently performed on the biggest stages throughout his career.\n\nThe exit of Leniu adds to the exodus of stars from the Roosters premiership lineup.\n\nAngus Crichton and Mark Nawaqanitawase are rugby-bound, Daly Cherry-Evans is joining Hull FC, while Daniel Tupou retired this week after his 307-game career.\n\nConnor Watson, who missed the title decider due to concussion, has signed for a season with St George Illawarra Dragons.\n\nRoosters coach Trent Robinson said Leniu had been a strong contributor during his time at the club.\n\n\"Spencer has brought a lot to our group over the last three years, both through the way he plays and the energy and personality he brings every day,\" Robinson said in a statement on Thursday.\n\n\"He brings an intensity and competitiveness to everything he does, and he challenges the people around him to be better.\n\n\"To see him finish his time here as a premiership winner is something he should be really proud of, and something we'll always share together.\"\n\nWith his departure announced at the Roosters' awards night on Wednesday, Leniu said he would leave the club on a high.\n\n\"\"I'm proud to have worn the Roosters jersey and I'll always have a lot of love and respect for the club, the boys and everyone who has supported me during my time here,\" said Leniu.\n\n\"Winning a premiership with this group and sharing that with the boys, our families and everyone at the club is something I'll carry with me for the rest of my life.\""
     },
     {
+      "story_id": "50177238",
+      "headline": "Micah Parsons: 'Jayden Daniels probably cost my man Dan Quinn his job'",
+      "summary": "Micah Parsons said on his podcast that Jayden Daniels' mistake at the end of overtime Sunday will probably end up getting Commanders coach Dan Quinn fired.",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729529_1296x729_16-9.jpg",
+      "published_utc": "2026-10-13T23:36:26Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50177238/parsons-qb-daniels-probably-cost-my-man-dan-quinn-job",
+      "stream_url": "",
+      "body": "Micah Parsons didn't hold back on his podcast when discussing the Commanders' botched final play Sunday, saying that quarterback Jayden Daniels' mistake will probably end up getting Washington coach Dan Quinn fired.\n\nThe Green Bay Packers' star pass rusher is close with Quinn, who was his defensive coordinator for three seasons (2021-23) when Parsons played for the Dallas Cowboys.\n\n\"Jayden Daniels probably cost my man Dan Quinn his job, to be honest with you,\" Parsons said on his podcast, \"The Edge with Micah Parsons.\"\n\n\"To be honest with you. And, like, I'm a big Jayden Daniels fan. But the reality is, he probably cost a lot of people their jobs this past weekend.\"\n\nOn Sunday, Washington reached the New York Giants' 24-yard line with 50 seconds remaining in overtime and the score tied. The offense did not end up snapping the ball for the next play until 12 seconds remained. With no timeouts left, Daniels dropped back to pass after a fake handoff then started to scramble and was tackled with eight seconds to play.\n\nAs Commanders players halfheartedly got back to the line, with Daniels and others slow to get off the ground, Washington ran out of time to spike the ball and stop the clock to set up a winning field goal attempt. The game ended in a 27-27 tie.\n\nAfterward, Daniels took accountability, saying, \"We have to know the situation. We have to relay that as an offense. It starts with everyone, top down. Ultimately, it's on me.\"\n\nParsons said NFL players \"get coached so much\" on the situations at the end of an overtime period -- even defensive players.\n\n\"I'm a defensive player, and this s---'s programmed to me. I even know what to do in those situations,\" Parsons said, adding that Daniels, who is in his third NFL season, has no excuse not to know how to operate in that scenario. \"And mind you, it'd be different if Jayden Daniels was a rookie. This is your third year. This is your third year. You've been to the NFC Championship Game. You've been in big moments before.\"\n\n\"This is your job to be prepared to understand the game and understand situations. That's in your job profile,\" Parsons continued. \"And you're telling me, 'Oh, we're going to want to pay this guy eventually $60 million?' This cannot happen.\n\n\"I'm a big JD5 fan, but that's inexcusable, bro.\"\n\nQuinn, who was hired as the Commanders' coach in 2024, said Monday he met with team owner Josh Harris, as Quinn regularly does, and that no one is happy with the game's bungled final sequence or the team's 1-3-1 record.\n\nQuinn said offensive coordinator David Blough called the last play but that the head coach is ultimately responsible for what transpires.\n\n\"All of that comes through me,\" Quinn said. \"Dave's the one that calls it, but I want to make sure I'm clear on my guidelines too. This will break down in a lot of ways, so it starts with me first.\"\n\nESPN's John Keim contributed to this report."
+    },
+    {
       "story_id": "50171789",
       "headline": "Transfer rumors, news: Chelsea confident in January move for Scott",
       "summary": "Chelsea are growing confident of signing Bournemouth's Alex Scott. Transfer Talk has the latest.",
@@ -8344,18 +8358,18 @@
       "body": "Chelsea are growing confident they will be able to sign AFC Bournemouth midfielder Alex Scott in January. Meanwhile, Barcelona and Real Madrid were at Anfield on Sunday to watch Erling Haaland when Manchester City faced Liverpool.\n\nJoin us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Chelsea are increasingly confident that they will sign AFC Bournemouth midfielder Alex Scott during the January transfer window, according to TEAMtalk. The belief is that the 23-year-old would find it difficult to turn down a move to Stamford Bridge and the Blues are willing to meet the Cherries' demands, with any deal likely to reach around \u00a3100 million. Bournemouth turned down all interest in Scott during the summer, but the England international's contract expires in 2028 and he has so far resisted any calls for an extension.\n\n- Barcelona and Real Madrid scouts were at Anfield to scout Manchester City striker Erling Haaland as he opened the scoring in a 3-0 win over Liverpool, according to TEAMtalk. Both of the Spanish giants continue to monitor the possibility of a future move following the club's guilty verdict for hundreds of financial charges. The two clubs weren't just there to watch City players, though: Bar\u00e7a have also been monitoring the situation of defender Ronald Ara\u00fajo, who is on loan at Liverpool, while Madrid have been checking on Liverpool midfielders Alexis Mac Allister and Florian Wirtz.\n\n- Borussia Dortmund have been interested in U.S. youth international and Philadelphia Union striker Malik Jakupovic for some time, reports Sky Germany. In the summer, the Bundesliga club submitted an offer for the 17-year-old that was worth \u20ac2m-\u20ac3m but was ultimately rejected. Contact continues to exist but there is major competition for Jakupovic with Chelsea, RB Salzburg and Stuttgart all looking at him while Eintracht Frankfurt also have in the past.\n\n- Chelsea will need at least \u00a350 million to tempt Barcelona into letting midfielder Frenkie de Jong leave in the January transfer window, according to Football Insider. Chelsea are looking at the 29-year-old as they continue their efforts to replace Enzo Fern\u00e1ndez after the Argentina international joined Manchester City in the summer. De Jong is out injured but the Dutch midfield is nearing a return to fitness, although that return could make a move more difficult for the Blues as Bar\u00e7a have been eagerly awaiting his return.\n\n- Ruben Amorim wants AC Milan to sign Sassuolo midfielder Darryl Bakola, who has also received interest from Roma and Juventus, reports Calciomercato. Amorim was surprised by the 18-year-old's quality when the Rossoneri drew 1-1 against Sassuolo at Mapei Stadium, when Bakola was named man of the match. The young Frenchman is being considered by scouts across Europe, and having been signed for \u20ac10 million plus \u20ac2 million in add-ons last January, he could now command over \u20ac30 million.\n\nDone deals\n- Former Real Madrid right back Dani Carvajal has joined LaLiga side Getafe on a free transfer.\n\nOther\n- Arsenal are keeping an eye on Michael Olise's contract talks with Bayern Munich as they continue to look at wingers. (FootballTransfers)\n\n- Arsenal are yet to make a decision about Max Dowman's future amid interest in a loan from Celtic and Rangers. (Football Insider)\n\n- Several major clubs are interested in a January move for Palmeiras right back Agustin Giay, with Atletico Madrid, AC Milan and Napoli having previously made approaches. (Matteo Moretto)\n\n- Brighton & Hove Albion see RB Salzburg midfielder Bartosz Mazurek as a leading option for January, but they face competition from Benfica and Porto. (TEAMtalk)\n\n- Borussia Dortmund have the right to match any offer for Monaco striker Paris Brunner. (Patrick Berger)\n\n- Napoli have started to show an interest in Union Berlin winger Livan Burcu, who is also attracting attention from other top European clubs. (Rudy Galetti)\n\n- Borrusia Dortmund remain interested in Zaglebie Lubin attacking midfielder Marcel Rugela, but a summer move for the 19-year-old is more likely than one in January. (Patrick Berger)\n\n- Lazio have their eyes on 18-year-old winger Filippo Toscano from Serie D side Reggina as they look to the future. (Nicolo Schira)\n\n- Johan Bakayoko is a possible candidate to leave RB Leipzig in January despite only joining the Bundesliga club last year. (Philipp Hinze)\n\n- AC Milan are working for a way to offload 23-year-old midfielder Warren Bondo in January. (Nicolo Schira)"
     },
     {
-      "story_id": "50177269",
-      "headline": "Saints owner Gayle Benson rips 1-4 start, says fans 'deserve better'",
-      "summary": "Saints owner Gayle Benson called out several members of the organization amid the team's 1-4 start and said that fans are \"right to expect more than we have delivered.\"",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/43af3849842249fbb3a307c0defbfb84964/43af3849842249fbb3a307c0defbfb84964.jpg",
-      "published_utc": "2026-10-13T23:35:05Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Katherine Terrell",
+      "story_id": "50176901",
+      "headline": "Source: Mariners get OK to interview Astros' Joe Espada",
+      "summary": "The Seattle Mariners have received permission to interview current Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN.",
+      "image": "https://a.espncdn.com/photo/2026/0825/r1706931_1296x729_16-9.jpg",
+      "published_utc": "2026-10-13T21:50:55Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50177269/saints-owner-benson-rips-1-4-start-says-fans-deserve-better",
+      "link": "https://www.espn.com/mlb/story/_/id/50176901/source-mariners-get-ok-interview-astros-joe-espada",
       "stream_url": "",
-      "body": "In a rare public criticism of her team, owner Gayle Benson said the Saints' 1-4 start was \"not acceptable\" and vowed to deliver better results to New Orleans fans.\n\nBenson, speaking to the Greater New Orleans Quarterback Club on Tuesday, said she has heard the frustration from fans \"very loudly\" after a three-game losing streak, saying she expects better and the fans \"deserve better.\"\n\n\"Our fans invest their time and their hearts in the Saints,\" Benson said. \"They are right to expect more than we have delivered.\"\n\nBenson called out several members of the organization and said the responsibility starts with her as an owner. She said she will not make excuses or \"accept this level of performance as our standard.\"\n\n\"Kellen Moore and his coaches are responsible for preparing our players to perform,\" Benson said. \"Mickey Loomis and our football staff are responsible for building a roster capable of sustained success. Our players are responsible for their preparation and execution.\"\n\nThe Saints are 7-15 since Moore took over before the 2025 season. Loomis, who has been the Saints' general manager since 2002, has not seen the team go to the playoffs since the Sean Payton/Drew Brees era in 2020.\n\nBenson specifically called out the Week 4 loss to the Atlanta Falcons on \"Monday Night Football,\" noting it was \"truly disappointing\" to lose on a night intended to celebrate the 20th anniversary of the return to the Superdome after Hurricane Katrina. She also spoke about honoring Brees at halftime of a loss to the Minnesota Vikings last week and said the \"best way to honor that legacy is to uphold [his] standards today.\"\n\n\"Words will not restore our fans' confidence,\" Benson said. \"Our performance must do that.\""
+      "body": "The Seattle Mariners have received permission to talk to Houston Astros manager Joe Espada about their vacancy, a source confirmed to ESPN on Tuesday.\n\nEspada's contract with the Astros runs through the end of October, and he has said that he'd like to return after winning two American League West titles with Houston in the past three seasons.\n\nThe Mariners fired Dan Wilson last month after finishing third in the AL West with a 76-86 record, five games behind the Astros.\n\nEspada, 51, is 256-229 as manager of the Astros, including an 81-81 mark this season as Houston became the first team in MLB history to reach the playoffs without a winning record. He has been with the team since 2018, when he was hired as bench coach, and won a World Series in 2022.\n\nThe Mariners, who won the AL West in 2025 and came within one win of reaching the World Series, struggled on offense this season, and general manager Jerry Dipoto has said the franchise needs \"something new\" as its tries \"to find the right person.\"\n\n\"Most of what we've done in recent years especially has been insular,\" Dipoto said at his end-of-season news conference last month. \"I think this year's failure requires that we look outside to find someone who might be able to poke holes in what we're doing and help us see something that perhaps we're blind to.\"\n\nThe Mariners getting permission to interview Espada was first reported by MLB.com."
     },
     {
       "story_id": "50177584",
@@ -8370,20 +8384,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50177584/flick-barcelona-galatasaray-perfect-start-champions-league",
       "stream_url": "",
       "body": "Barcelona coach Hansi Flick warned that football can change quickly after his side came from behind to beat Galatasaray 4-1 in the Champions League on Tuesday, extending their winning streak to 10 matches to start the season.\n\nAleksey Batrakov gave the home side a surprise lead in Istanbul but Jo\u00e3o Cancelo levelled before the break and second half goals from Ferm\u00edn L\u00f3pez, Anthony Gordon and Karim Adeyemi sealed the victory for the Spanish champions.\n\nThe win was Bar\u00e7a's second in the Champions League this season, while they have also won all eight of their matches in LaLiga to date, scoring a remarkable 43 goals in the process, but Flick pointed out nothing is won in October.\n\n\"Football can change very fast,\" Flick said in the post game news conference when asked if, playing like this, Bar\u00e7a are unstoppable.\n\n\"We are proud about this situation. We are happy and we have not just the confidence, but also the conviction in our style, how we want to play.\n\n\"But our ambitions are more; we want to win titles. We can win nothing now. In May, June you win the big titles. We are working every day for that.\"\n\nBar\u00e7a's free-scoring form has been all the more impressive given there were doubts pre-season about where the goals would come from after they failed to sign a starting striker following the departures of Robert Lewandowksi and Ferran Torres.\n\nHowever, they have come from all over the pitch, with seven players -- including full-back Cancelo -- already netting multiple goals in the current campaign.\n\nFlick, though, insists he has not been shocked by how his team has flown out of the traps.\n\n\"When I see the quality in the training, which is what counts, I am not surprised,\" he added.\n\n\"I know the team. I am 100% convinced about my team; how they can play. It's amazing to see how we control the game. It's the Champions League and it was a top performance from us.\n\n\"I appreciated a lot what I saw in the first half as well. Decision-making in the final third and transitions were not the best, but we know [Galatasaray] are very good, especially in this atmosphere.\n\n\"We adapt in the half time a little and the second half was great. The performance was unbelievable.\"\n\nOne name missing from the scoresheet at Rams Park was Lamine Yamal, but the teenager was once again sensational, producing a performance which saw him named the game's MVP.\n\nHe set up L\u00f3pez's goal with a sublime cross and created Gordon's with a brilliant piece of skill, while he was also involved in the build-up to Bar\u00e7a's other two strikes.\n\nIn 10 appearances for the club this season, he has now scored eight goals and laid on nine assists.\n\n\"Lamine made a fantastic second half,\" Flick said. \"It's amazing to have player like him on this level. He changed the game for us and this was really good.\n\n\"When you see Lamine in every training, and when you see some situations created in the training, it's the same like here. This is amazing. I am happy to have a player like him in my team.\n\n\"In the second half he was fantastic, how he dominated the game, the last pass... it's unbelievable what he's doing.\"\n\nBar\u00e7a's winning run is likely to be tested over the next week. They travel to third-placed Real Betis in LaLiga on Saturday, face Paris Saint-Germain in France in the Champions League next Tuesday and then host Real Madrid in the first Cl\u00e1sico of the season the following Sunday."
-    },
-    {
-      "story_id": "50174091",
-      "headline": "ALCS Game 2: Lineups, live updates from Guardians-Rays",
-      "summary": "The Guardians kept on rolling Monday, winning the ALCS opener over Tampa Bay. Can they take a 2-0 lead Tuesday?",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730143_608x342_16-9.jpg",
-      "published_utc": "2026-10-13T20:56:58Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50174091/mlb-2026-alcs-game-2-rays-guardians-lineups-updates-analysis-takeaways",
-      "stream_url": "",
-      "body": "The Cleveland Guardians are rolling.\n\nAfter dropping the first two games of the American League Division Series, they bounced back to beat the Chicago White Sox three straight times to advance to the next round. In Game 1 of the AL Championship Series on Monday, Cleveland stayed hot, defeating the top-seeded Tampa Bay Rays in comeback fashion.\n\nOn Tuesday, the Guardians will try to take a commanding 2-0 lead in the ALCS. Can they head back to Cleveland for Game 3 just two wins away from a World Series appearance?\n\nStay tuned for lineups, game action and postgame analysis from St. Petersburg.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nGuardians-Rays\nFollow live for pitch-by-pitch coverage\n\nHighlights from Tampa Bay\n\nCan the Rays win Game 2 at the Trop?\n\nStarting pitchers: Parker Messick vs. Freddy Peralta\n\nLineups\n\nGuardians\n\n1. Steven Kwan (L) LF\n\n2. Jose Ramirez (S) 3B\n\n3. Chase DeLauter (L) DH\n\n4. Jo Adell (R) RF\n\n5. Nathaniel Lowe (L) 1B\n\n6. Travis Bazzana (L) 2B\n\n7. Petey Halpin (L) CF\n\n8. Austin Hedges (R) C\n\n9. Brayan Rocchio (S) SS\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Jonathan Aranda (L) 1B\n\n3. Junior Caminero (R) 3B\n\n4. Victor Mesa Jr. (L) RF\n\n5. Jonny DeLuca (R) CF\n\n6. Chandler Simpson (L) LF\n\n7. Ben Williamson (R) 2B\n\n8. Liam Hicks (L) C\n\n9. Taylor Walls (S) SS"
     },
     {
       "story_id": "50176064",
@@ -8558,6 +8558,18 @@
           "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live SD (CH 32)",
           "part": false,
           "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/10-13-2026/select-post-1/4/1",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/10-13-2026/select-post-1/5/1",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
         }
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-WWE-NxT-Full-Show.jpg",
