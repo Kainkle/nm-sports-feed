@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-14T18:38:13.311735+00:00",
+  "generated_utc": "2026-10-14T18:47:54.835188+00:00",
   "window_days": 2,
   "total_events": 182,
   "competitions": [
@@ -341,7 +341,7 @@
       "status_coverage_pct": 100,
       "both_logos": 18,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "ufc",
@@ -428,17 +428,15 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:australian-football/afl",
-      "date": "2026-10-11",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard?dates=20261011: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
+  },
+  "live_intersection": {
+    "live_events": 0,
+    "carried": 0
   },
   "replay_items": {
     "total": 4,
