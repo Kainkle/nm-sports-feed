@@ -1,1695 +1,6 @@
 {
-  "generated_utc": "2026-10-14T23:58:19.081907+00:00",
+  "generated_utc": "2026-10-15T00:08:24.489001+00:00",
   "events": [
-    {
-      "event_id": "espn:racing:600057445",
-      "sport": "racing",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "start_utc": "2026-10-09T08:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:None",
-        "name": "Charles Leclerc",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mon.png",
-        "logo_dark": null,
-        "aliases": [
-          "Charles Leclerc"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "espn:None",
-        "name": "George Russell",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gbr.png",
-        "logo_dark": null,
-        "aliases": [
-          "George Russell"
-        ],
-        "color": null
-      },
-      "source": "espn:racing/f1",
-      "source_status": "post/Final",
-      "venue": "",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "Singapore Airlines Singapore Grand Prix"
-    },
-    {
-      "event_id": "espn:basketball:401898400",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-11T10:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:10",
-        "name": "Houston Rockets",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Rockets",
-          "Rockets"
-        ],
-        "color": "ce0e2d"
-      },
-      "away": {
-        "id": "espn:6",
-        "name": "Dallas Mavericks",
-        "abbrev": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-        "logo_dark": null,
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Mavericks",
-          "Mavericks"
-        ],
-        "color": "0064b1"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Venetian Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "b0dZkVV_heM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874940",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-10-11T10:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2572",
-        "name": "Como",
-        "abbrev": "COMO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-        "logo_dark": null,
-        "aliases": [
-          "COMO",
-          "Como"
-        ],
-        "color": "4169E1"
-      },
-      "away": {
-        "id": "espn:104",
-        "name": "AS Roma",
-        "abbrev": "ROMA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-        "logo_dark": null,
-        "aliases": [
-          "AS Roma",
-          "ROMA"
-        ],
-        "color": "990a2c"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "Giuseppe Sinigaglia",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "iula8QVcwEM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882854",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-10-11T12:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:3751",
-        "name": "Elche",
-        "abbrev": "ELC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-        "logo_dark": null,
-        "aliases": [
-          "ELC",
-          "Elche"
-        ],
-        "color": "288A00"
-      },
-      "away": {
-        "id": "espn:85",
-        "name": "Celta Vigo",
-        "abbrev": "CEL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-        "logo_dark": null,
-        "aliases": [
-          "CEL",
-          "Celta Vigo"
-        ],
-        "color": "6cace4"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "Estadio Mart\u00ednez Valero",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401879266",
-      "sport": "soccer",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "start_utc": "2026-10-11T13:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:384",
-        "name": "Crystal Palace",
-        "abbrev": "CRY",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-        "logo_dark": null,
-        "aliases": [
-          "C Palace",
-          "CRY",
-          "Crystal Palace"
-        ],
-        "color": "0202fb"
-      },
-      "away": {
-        "id": "espn:393",
-        "name": "Nottingham Forest",
-        "abbrev": "NFO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-        "logo_dark": null,
-        "aliases": [
-          "NFO",
-          "Nottingham Forest",
-          "Nottm Forest"
-        ],
-        "color": "c8102e"
-      },
-      "source": "espn:soccer/eng.1",
-      "source_status": "post/Full Time",
-      "venue": "Selhurst Park",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "b0FlNQwgh6w",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401878774",
-      "sport": "soccer",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "start_utc": "2026-10-11T13:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:306",
-        "name": "Hull City",
-        "abbrev": "HUL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-        "logo_dark": null,
-        "aliases": [
-          "HUL",
-          "Hull",
-          "Hull City"
-        ],
-        "color": "f28800"
-      },
-      "away": {
-        "id": "espn:368",
-        "name": "Everton",
-        "abbrev": "EVE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-        "logo_dark": null,
-        "aliases": [
-          "EVE",
-          "Everton"
-        ],
-        "color": "0606fa"
-      },
-      "source": "espn:soccer/eng.1",
-      "source_status": "post/Full Time",
-      "venue": "The MKM Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "PZg69KjtXy0",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874951",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-10-11T13:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:112",
-        "name": "Lazio",
-        "abbrev": "LAZ",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-        "logo_dark": null,
-        "aliases": [
-          "LAZ",
-          "Lazio"
-        ],
-        "color": "74bde7"
-      },
-      "away": {
-        "id": "espn:4007",
-        "name": "Monza",
-        "abbrev": "MON",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-        "logo_dark": null,
-        "aliases": [
-          "MON",
-          "Monza"
-        ],
-        "color": "C8142F"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "Olimpico",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "fDnhyuTT5u8",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874776",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-10-11T13:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:113",
-        "name": "Lecce",
-        "abbrev": "LEC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-        "logo_dark": null,
-        "aliases": [
-          "LEC",
-          "Lecce"
-        ],
-        "color": "FCED0B"
-      },
-      "away": {
-        "id": "espn:107",
-        "name": "Bologna",
-        "abbrev": "BOL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-        "logo_dark": null,
-        "aliases": [
-          "BOL",
-          "Bologna"
-        ],
-        "color": "04043d"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "Via Del Mare",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "bgOME9OTY9o",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401884774",
-      "sport": "soccer",
-      "competition_id": "ger.1",
-      "competition_name": "Bundesliga",
-      "start_utc": "2026-10-11T13:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:122",
-        "name": "FC Cologne",
-        "abbrev": "KOE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cologne",
-          "FC Cologne",
-          "KOE"
-        ],
-        "color": "ffffff"
-      },
-      "away": {
-        "id": "espn:268",
-        "name": "Borussia M\u00f6nchengladbach",
-        "abbrev": "BMG",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-        "logo_dark": null,
-        "aliases": [
-          "BMG",
-          "Borussia M\u00f6nchengladbach",
-          "Gladbach"
-        ],
-        "color": "ffffff"
-      },
-      "source": "espn:soccer/ger.1",
-      "source_status": "post/Full Time",
-      "venue": "RheinEnergieStadion",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872981",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T13:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:30",
-        "name": "Jacksonville Jaguars",
-        "abbrev": "JAX",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-        "logo_dark": null,
-        "aliases": [
-          "JAX",
-          "Jacksonville",
-          "Jacksonville Jaguars",
-          "Jaguars"
-        ],
-        "color": "007487"
-      },
-      "away": {
-        "id": "espn:21",
-        "name": "Philadelphia Eagles",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Eagles",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Eagles"
-        ],
-        "color": "06424d"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Tottenham Hotspur Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "um_p48J6m_0",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882847",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-10-11T14:15Z",
-      "status": "final",
-      "home": {
-        "id": "espn:89",
-        "name": "Real Sociedad",
-        "abbrev": "RSO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-        "logo_dark": null,
-        "aliases": [
-          "RSO",
-          "Real Sociedad"
-        ],
-        "color": "3366CC"
-      },
-      "away": {
-        "id": "espn:90",
-        "name": "Deportivo",
-        "abbrev": "DEP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-        "logo_dark": null,
-        "aliases": [
-          "DEP",
-          "Deportivo"
-        ],
-        "color": "3366CC"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "Reale Arena",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401879264",
-      "sport": "soccer",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "start_utc": "2026-10-11T15:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:364",
-        "name": "Liverpool",
-        "abbrev": "LIV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-        "logo_dark": null,
-        "aliases": [
-          "LIV",
-          "Liverpool"
-        ],
-        "color": "d11317"
-      },
-      "away": {
-        "id": "espn:382",
-        "name": "Manchester City",
-        "abbrev": "MNC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-        "logo_dark": null,
-        "aliases": [
-          "MNC",
-          "Man City",
-          "Manchester City"
-        ],
-        "color": "99c5ea"
-      },
-      "source": "espn:soccer/eng.1",
-      "source_status": "post/Full Time",
-      "venue": "Anfield",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "EaTRrwlkXwQ",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401884778",
-      "sport": "soccer",
-      "competition_id": "ger.1",
-      "competition_name": "Bundesliga",
-      "start_utc": "2026-10-11T15:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:126",
-        "name": "SC Freiburg",
-        "abbrev": "SCF",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
-        "logo_dark": null,
-        "aliases": [
-          "Freiburg",
-          "SC Freiburg",
-          "SCF"
-        ],
-        "color": "DA0308"
-      },
-      "away": {
-        "id": "espn:133",
-        "name": "Schalke 04",
-        "abbrev": "S04",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
-        "logo_dark": null,
-        "aliases": [
-          "S04",
-          "Schalke",
-          "Schalke 04"
-        ],
-        "color": "0000dd"
-      },
-      "source": "espn:soccer/ger.1",
-      "source_status": "post/Full Time",
-      "venue": "Europa-Park Stadion",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "K3HnXcBqM6w",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874789",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-10-11T16:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:3997",
-        "name": "Sassuolo",
-        "abbrev": "SAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
-        "logo_dark": null,
-        "aliases": [
-          "SAS",
-          "Sassuolo"
-        ],
-        "color": "0fa653"
-      },
-      "away": {
-        "id": "espn:103",
-        "name": "AC Milan",
-        "abbrev": "MIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-        "logo_dark": null,
-        "aliases": [
-          "AC Milan",
-          "MIL",
-          "Milan"
-        ],
-        "color": "e4002b"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "Mapei Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "UuhpDyZDS7I",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882855",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-10-11T16:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:244",
-        "name": "Real Betis",
-        "abbrev": "BET",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-        "logo_dark": null,
-        "aliases": [
-          "BET",
-          "Betis",
-          "Real Betis"
-        ],
-        "color": "288A00"
-      },
-      "away": {
-        "id": "espn:97",
-        "name": "Osasuna",
-        "abbrev": "OSA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-        "logo_dark": null,
-        "aliases": [
-          "OSA",
-          "Osasuna"
-        ],
-        "color": "cd0000"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "Estadio La Cartuja",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872990",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:9",
-        "name": "Green Bay Packers",
-        "abbrev": "GB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-        "logo_dark": null,
-        "aliases": [
-          "GB",
-          "Green Bay",
-          "Green Bay Packers",
-          "Packers"
-        ],
-        "color": "204e32"
-      },
-      "away": {
-        "id": "espn:3",
-        "name": "Chicago Bears",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "CHI",
-          "Chicago",
-          "Chicago Bears"
-        ],
-        "color": "0b1c3a"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Lambeau Field",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "SWAC-z8sGjQ",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872984",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:10",
-        "name": "Tennessee Titans",
-        "abbrev": "TEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-        "logo_dark": null,
-        "aliases": [
-          "TEN",
-          "Tennessee",
-          "Tennessee Titans",
-          "Titans"
-        ],
-        "color": "4495d2"
-      },
-      "away": {
-        "id": "espn:34",
-        "name": "Houston Texans",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Texans",
-          "Texans"
-        ],
-        "color": "021018"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Nissan Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "K4ZVwiL_Tf4",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872982",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:15",
-        "name": "Miami Dolphins",
-        "abbrev": "MIA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
-        "logo_dark": null,
-        "aliases": [
-          "Dolphins",
-          "MIA",
-          "Miami",
-          "Miami Dolphins"
-        ],
-        "color": "008e97"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Cincinnati Bengals",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bengals",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bengals"
-        ],
-        "color": "fb4f14"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Hard Rock Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "veMELeUzxeo",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872986",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:17",
-        "name": "New England Patriots",
-        "abbrev": "NE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-        "logo_dark": null,
-        "aliases": [
-          "NE",
-          "New England",
-          "New England Patriots",
-          "Patriots"
-        ],
-        "color": "002a5c"
-      },
-      "away": {
-        "id": "espn:13",
-        "name": "Las Vegas Raiders",
-        "abbrev": "LV",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-        "logo_dark": null,
-        "aliases": [
-          "LV",
-          "Las Vegas",
-          "Las Vegas Raiders",
-          "Raiders"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Gillette Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "fLKLrtqun84",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872987",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:18",
-        "name": "New Orleans Saints",
-        "abbrev": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-        "logo_dark": null,
-        "aliases": [
-          "NO",
-          "New Orleans",
-          "New Orleans Saints",
-          "Saints"
-        ],
-        "color": "d3bc8d"
-      },
-      "away": {
-        "id": "espn:16",
-        "name": "Minnesota Vikings",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Vikings",
-          "Vikings"
-        ],
-        "color": "4f2683"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Caesars Superdome",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "OeaSf-kDpYA",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872983",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:20",
-        "name": "New York Jets",
-        "abbrev": "NYJ",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jets",
-          "NYJ",
-          "New York",
-          "New York Jets"
-        ],
-        "color": "115740"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "Cleveland Browns",
-        "abbrev": "CLE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-        "logo_dark": null,
-        "aliases": [
-          "Browns",
-          "CLE",
-          "Cleveland",
-          "Cleveland Browns"
-        ],
-        "color": "472a08"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "MetLife Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "p_DHFA3Sfys",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872985",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:23",
-        "name": "Pittsburgh Steelers",
-        "abbrev": "PIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-        "logo_dark": null,
-        "aliases": [
-          "PIT",
-          "Pittsburgh",
-          "Pittsburgh Steelers",
-          "Steelers"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:11",
-        "name": "Indianapolis Colts",
-        "abbrev": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-        "logo_dark": null,
-        "aliases": [
-          "Colts",
-          "IND",
-          "Indianapolis",
-          "Indianapolis Colts"
-        ],
-        "color": "003b75"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Acrisure Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "padeBx3DEdM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872988",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:28",
-        "name": "Washington Commanders",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "Commanders",
-          "WSH",
-          "Washington",
-          "Washington Commanders"
-        ],
-        "color": "5a1414"
-      },
-      "away": {
-        "id": "espn:19",
-        "name": "New York Giants",
-        "abbrev": "NYG",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "NYG",
-          "New York",
-          "New York Giants"
-        ],
-        "color": "003c7f"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Northwest Stadium",
-      "detail": "Final/OT",
-      "game_number": 1,
-      "highlight_video_id": "E9KI_S2-vwo",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874764",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-10-11T18:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2925",
-        "name": "Cagliari",
-        "abbrev": "CAG",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAG",
-          "Cagliari"
-        ],
-        "color": "282846"
-      },
-      "away": {
-        "id": "espn:111",
-        "name": "Juventus",
-        "abbrev": "JUV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-        "logo_dark": null,
-        "aliases": [
-          "JUV",
-          "Juventus"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "Unipol Domus",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "W_KVpaCdEoQ",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882850",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-10-11T19:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:87",
-        "name": "Racing Santander",
-        "abbrev": "RAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "RAC",
-          "Racing",
-          "Racing Santander"
-        ],
-        "color": "ffffff"
-      },
-      "away": {
-        "id": "espn:94",
-        "name": "Valencia",
-        "abbrev": "VAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-        "logo_dark": null,
-        "aliases": [
-          "VAL",
-          "Valencia"
-        ],
-        "color": "ffffff"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "El Sardineros",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:racing:202610110021",
-      "sport": "racing",
-      "competition_id": "nascar",
-      "competition_name": "NASCAR Cup Series",
-      "start_utc": "2026-10-11T19:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:None",
-        "name": "Christopher Bell",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-        "logo_dark": null,
-        "aliases": [
-          "Christopher Bell"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "espn:None",
-        "name": "Chase Briscoe",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-        "logo_dark": null,
-        "aliases": [
-          "Chase Briscoe"
-        ],
-        "color": null
-      },
-      "source": "espn:racing/nascar-premier",
-      "source_status": "post/Final",
-      "venue": "",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "NASCAR Cup Series at Charlotte"
-    },
-    {
-      "event_id": "espn:football:401872989",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T20:05Z",
-      "status": "final",
-      "home": {
-        "id": "espn:24",
-        "name": "Los Angeles Chargers",
-        "abbrev": "LAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
-        "logo_dark": null,
-        "aliases": [
-          "Chargers",
-          "LAC",
-          "Los Angeles",
-          "Los Angeles Chargers"
-        ],
-        "color": "0080c6"
-      },
-      "away": {
-        "id": "espn:7",
-        "name": "Denver Broncos",
-        "abbrev": "DEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-        "logo_dark": null,
-        "aliases": [
-          "Broncos",
-          "DEN",
-          "Denver",
-          "Denver Broncos"
-        ],
-        "color": "0a2343"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "SoFi Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "_JkH0tLX1cY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872991",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T20:25Z",
-      "status": "final",
-      "home": {
-        "id": "espn:22",
-        "name": "Arizona Cardinals",
-        "abbrev": "ARI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARI",
-          "Arizona",
-          "Arizona Cardinals",
-          "Cardinals"
-        ],
-        "color": "a40227"
-      },
-      "away": {
-        "id": "espn:8",
-        "name": "Detroit Lions",
-        "abbrev": "DET",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Lions",
-          "Lions"
-        ],
-        "color": "0076b6"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "State Farm Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "_NcyDDSt5a0",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872992",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-11T20:25Z",
-      "status": "final",
-      "home": {
-        "id": "espn:26",
-        "name": "Seattle Seahawks",
-        "abbrev": "SEA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-        "logo_dark": null,
-        "aliases": [
-          "SEA",
-          "Seahawks",
-          "Seattle",
-          "Seattle Seahawks"
-        ],
-        "color": "002a5c"
-      },
-      "away": {
-        "id": "espn:25",
-        "name": "San Francisco 49ers",
-        "abbrev": "SF",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-        "logo_dark": null,
-        "aliases": [
-          "49ers",
-          "SF",
-          "San Francisco",
-          "San Francisco 49ers"
-        ],
-        "color": "aa0000"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Lumen Field",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "B1hjRUzIduc",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020084",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-11T21:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:15",
-        "name": "Washington Capitals",
-        "abbrev": "WSH",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
-        "aliases": [
-          "Capitals",
-          "WSH",
-          "Washington",
-          "Washington Capitals"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:55",
-        "name": "Seattle Kraken",
-        "abbrev": "SEA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
-        "aliases": [
-          "Kraken",
-          "SEA",
-          "Seattle",
-          "Seattle Kraken"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Capital One Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "Sxnk3ZEWItQ",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020085",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-11T22:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:3",
-        "name": "New York Rangers",
-        "abbrev": "NYR",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
-        "aliases": [
-          "NYR",
-          "New York",
-          "New York Rangers",
-          "Rangers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:23",
-        "name": "Vancouver Canucks",
-        "abbrev": "VAN",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
-        "aliases": [
-          "Canucks",
-          "VAN",
-          "Vancouver",
-          "Vancouver Canucks"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Madison Square Garden",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "Z_HBSlBtCVg",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401898401",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-11T22:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:5",
-        "name": "Cleveland Cavaliers",
-        "abbrev": "CLE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-        "logo_dark": null,
-        "aliases": [
-          "CLE",
-          "Cavaliers",
-          "Cleveland",
-          "Cleveland Cavaliers"
-        ],
-        "color": "860038"
-      },
-      "away": {
-        "id": "espn:19",
-        "name": "Orlando Magic",
-        "abbrev": "ORL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-        "logo_dark": null,
-        "aliases": [
-          "Magic",
-          "ORL",
-          "Orlando",
-          "Orlando Magic"
-        ],
-        "color": "0150b5"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Rocket Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "GwNNcZ3SpSo",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020086",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-11T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:4",
-        "name": "Philadelphia Flyers",
-        "abbrev": "PHI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
-        "aliases": [
-          "Flyers",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Flyers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:12",
-        "name": "Carolina Hurricanes",
-        "abbrev": "CAR",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
-        "aliases": [
-          "CAR",
-          "Carolina",
-          "Carolina Hurricanes",
-          "Hurricanes"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Xfinity Mobile Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "2R1KdYsTWpM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401901821",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-11T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:30",
-        "name": "Charlotte Hornets",
-        "abbrev": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-        "logo_dark": null,
-        "aliases": [
-          "CHA",
-          "Charlotte",
-          "Charlotte Hornets",
-          "Hornets"
-        ],
-        "color": "008ca8"
-      },
-      "away": {
-        "id": "espn:15",
-        "name": "Milwaukee Bucks",
-        "abbrev": "MIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bucks",
-          "MIL",
-          "Milwaukee",
-          "Milwaukee Bucks"
-        ],
-        "color": "00471b"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Spectrum Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "wj6iKc2UvN4",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:761859",
-      "sport": "soccer",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "start_utc": "2026-10-11T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:21812",
-        "name": "St. Louis CITY SC",
-        "abbrev": "STL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
-        "logo_dark": null,
-        "aliases": [
-          "STL",
-          "St. Louis",
-          "St. Louis CITY SC"
-        ],
-        "color": "ec1458"
-      },
-      "away": {
-        "id": "espn:187",
-        "name": "LA Galaxy",
-        "abbrev": "LA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
-        "logo_dark": null,
-        "aliases": [
-          "LA",
-          "LA Galaxy"
-        ],
-        "color": "00235d"
-      },
-      "source": "espn:soccer/usa.1",
-      "source_status": "post/Full Time",
-      "venue": "Energizer Park",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "QXXueFkACeM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:849809",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-10-12T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:158",
-        "name": "Milwaukee Brewers",
-        "abbrev": "MIL",
-        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Brewers",
-          "MIL",
-          "Milwaukee",
-          "Milwaukee Brewers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:119",
-        "name": "Los Angeles Dodgers",
-        "abbrev": "LAD",
-        "logo": "https://www.mlbstatic.com/team-logos/119.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Dodgers",
-          "LA Dodgers",
-          "LAD",
-          "Los Angeles",
-          "Los Angeles Dodgers"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "American Family Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "RuiDL7ihiEI",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872993",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-12T00:20Z",
-      "status": "final",
-      "home": {
-        "id": "espn:1",
-        "name": "Atlanta Falcons",
-        "abbrev": "ATL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-        "logo_dark": null,
-        "aliases": [
-          "ATL",
-          "Atlanta",
-          "Atlanta Falcons",
-          "Falcons"
-        ],
-        "color": "a71930"
-      },
-      "away": {
-        "id": "espn:33",
-        "name": "Baltimore Ravens",
-        "abbrev": "BAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-        "logo_dark": null,
-        "aliases": [
-          "BAL",
-          "Baltimore",
-          "Baltimore Ravens",
-          "Ravens"
-        ],
-        "color": "29126f"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Mercedes-Benz Stadium",
-      "detail": "Final/OT",
-      "game_number": 1,
-      "highlight_video_id": "zAEJi2IMCeY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401908941",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:7",
-        "name": "Denver Nuggets",
-        "abbrev": "DEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-        "logo_dark": null,
-        "aliases": [
-          "DEN",
-          "Denver",
-          "Denver Nuggets",
-          "Nuggets"
-        ],
-        "color": "0e2240"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Chicago Bulls",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "CHI",
-          "Chicago",
-          "Chicago Bulls"
-        ],
-        "color": "ce1141"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Ball Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "espn:soccer:401875005",
       "sport": "soccer",
@@ -4437,7 +2748,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kaseya Center",
-      "detail": "5:44 - 1st Quarter",
+      "detail": "1:08 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4483,7 +2794,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "TD Garden",
-      "detail": "3:26 - 1st Quarter",
+      "detail": "11:56 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4531,7 +2842,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Robert W. Plaster Stadium",
-      "detail": "4:37 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4574,7 +2885,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Stade Saputo",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4618,7 +2929,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "ScottsMiracle-Gro Field",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4661,7 +2972,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Audi Field",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4705,7 +3016,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "TQL Stadium",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4749,7 +3060,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Nu Stadium",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4793,7 +3104,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "BMO Field",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4807,7 +3118,7 @@
       "competition_id": "aew",
       "competition_name": "AEW",
       "start_utc": "2026-10-15T00:00:00Z",
-      "status": "scheduled",
+      "status": "unknown",
       "home": {
         "id": "tvmaze:42189",
         "name": "All Elite Wrestling: Dynamite",
@@ -4843,7 +3154,7 @@
       "competition_id": "aew",
       "competition_name": "AEW",
       "start_utc": "2026-10-15T00:00:00Z",
-      "status": "scheduled",
+      "status": "unknown",
       "home": {
         "id": "tvmaze:68778",
         "name": "AEW: Collision",
@@ -5110,7 +3421,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-15T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2534",
         "name": "Sam Houston Bearkats",
@@ -5141,9 +3452,9 @@
         "color": "e13a3e"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Elliott T. Bowers Stadium",
-      "detail": "Wed, October 14th at 8:00 PM EDT",
+      "detail": "14:18 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5187,7 +3498,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Ball Arena",
       "detail": "",
       "game_number": 1,
@@ -6550,6 +4861,816 @@
       "card": ""
     },
     {
+      "event_id": "espn:soccer:401884770",
+      "sport": "soccer",
+      "competition_id": "ger.1",
+      "competition_name": "Bundesliga",
+      "start_utc": "2026-10-16T18:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:125",
+        "name": "Eintracht Frankfurt",
+        "abbrev": "SGE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eintracht Frankfurt",
+          "Frankfurt",
+          "SGE"
+        ],
+        "color": "ffffff"
+      },
+      "away": {
+        "id": "espn:122",
+        "name": "FC Cologne",
+        "abbrev": "KOE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cologne",
+          "FC Cologne",
+          "KOE"
+        ],
+        "color": "ffffff"
+      },
+      "source": "espn:soccer/ger.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Deutsche Bank Park",
+      "detail": "Fri, October 16th at 2:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401874959",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-10-16T18:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:4057",
+        "name": "Frosinone",
+        "abbrev": "FRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+        "logo_dark": null,
+        "aliases": [
+          "FRO",
+          "Frosinone"
+        ],
+        "color": "FACF08"
+      },
+      "away": {
+        "id": "espn:3997",
+        "name": "Sassuolo",
+        "abbrev": "SAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+        "logo_dark": null,
+        "aliases": [
+          "SAS",
+          "Sassuolo"
+        ],
+        "color": "0fa653"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Stadio Benito Stirpe",
+      "detail": "Fri, October 16th at 2:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401882844",
+      "sport": "soccer",
+      "competition_id": "esp.1",
+      "competition_name": "La Liga",
+      "start_utc": "2026-10-16T19:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:90",
+        "name": "Deportivo",
+        "abbrev": "DEP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+        "logo_dark": null,
+        "aliases": [
+          "DEP",
+          "Deportivo"
+        ],
+        "color": "3366CC"
+      },
+      "away": {
+        "id": "espn:1538",
+        "name": "Levante",
+        "abbrev": "LEV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+        "logo_dark": null,
+        "aliases": [
+          "LEV",
+          "Levante"
+        ],
+        "color": "C8142F"
+      },
+      "source": "espn:soccer/esp.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Riazor",
+      "detail": "Fri, October 16th at 3:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:849817",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-16T22:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:114",
+        "name": "Cleveland Guardians",
+        "abbrev": "CLE",
+        "logo": "https://www.mlbstatic.com/team-logos/114.svg",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cleveland",
+          "Cleveland Guardians",
+          "Guardians"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:139",
+        "name": "Tampa Bay Rays",
+        "abbrev": "TB",
+        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rays",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Rays"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Progressive Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401898406",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-16T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:19",
+        "name": "Orlando Magic",
+        "abbrev": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+        "logo_dark": null,
+        "aliases": [
+          "Magic",
+          "ORL",
+          "Orlando",
+          "Orlando Magic"
+        ],
+        "color": "0150b5"
+      },
+      "away": {
+        "id": "espn:14",
+        "name": "Miami Heat",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "logo_dark": null,
+        "aliases": [
+          "Heat",
+          "MIA",
+          "Miami",
+          "Miami Heat"
+        ],
+        "color": "98002e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Kia Center",
+      "detail": "Fri, October 16th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401898407",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-16T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:20",
+        "name": "Philadelphia 76ers",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "76ers",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia 76ers"
+        ],
+        "color": "1d428a"
+      },
+      "away": {
+        "id": "espn:2",
+        "name": "Boston Celtics",
+        "abbrev": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Celtics",
+          "Celtics"
+        ],
+        "color": "008348"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Xfinity Mobile Arena",
+      "detail": "Fri, October 16th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401908946",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-16T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:8",
+        "name": "Detroit Pistons",
+        "abbrev": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Pistons",
+          "Pistons"
+        ],
+        "color": "1d428a"
+      },
+      "away": {
+        "id": "espn:28",
+        "name": "Toronto Raptors",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "logo_dark": null,
+        "aliases": [
+          "Raptors",
+          "TOR",
+          "Toronto",
+          "Toronto Raptors"
+        ],
+        "color": "d91244"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Little Caesars Arena",
+      "detail": "Fri, October 16th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401914126",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-16T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:11",
+        "name": "Indiana Pacers",
+        "abbrev": "IND",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+        "logo_dark": null,
+        "aliases": [
+          "IND",
+          "Indiana",
+          "Indiana Pacers",
+          "Pacers"
+        ],
+        "color": "0c2340"
+      },
+      "away": {
+        "id": "espn:15",
+        "name": "Milwaukee Bucks",
+        "abbrev": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bucks",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Bucks"
+        ],
+        "color": "00471b"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Gainbridge Fieldhouse",
+      "detail": "Fri, October 16th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862801",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-16T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2655",
+        "name": "Tulane Green Wave",
+        "abbrev": "TULN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+        "logo_dark": null,
+        "aliases": [
+          "Green Wave",
+          "TULN",
+          "Tulane",
+          "Tulane Green Wave"
+        ],
+        "color": "006747"
+      },
+      "away": {
+        "id": "espn:235",
+        "name": "Memphis Tigers",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+        "logo_dark": null,
+        "aliases": [
+          "MEM",
+          "Memphis",
+          "Memphis Tigers",
+          "Tigers"
+        ],
+        "color": "004991"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Yulman Stadium",
+      "detail": "Fri, October 16th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:803:s27e42",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-10-17T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:803",
+        "name": "WWE Friday Night SmackDown",
+        "abbrev": "SD",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE Friday Night SmackDown"
+    },
+    {
+      "event_id": "espn:basketball:401898408",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:6",
+        "name": "Dallas Mavericks",
+        "abbrev": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+        "logo_dark": null,
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Mavericks",
+          "Mavericks"
+        ],
+        "color": "0064b1"
+      },
+      "away": {
+        "id": "espn:1",
+        "name": "Atlanta Hawks",
+        "abbrev": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta Hawks",
+          "Hawks"
+        ],
+        "color": "c8102e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "American Airlines Center",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401898843",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:24",
+        "name": "San Antonio Spurs",
+        "abbrev": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "logo_dark": null,
+        "aliases": [
+          "SA",
+          "San Antonio",
+          "San Antonio Spurs",
+          "Spurs"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:23",
+        "name": "Sacramento Kings",
+        "abbrev": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kings",
+          "SAC",
+          "Sacramento",
+          "Sacramento Kings"
+        ],
+        "color": "5a2d81"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Frost Bank Center",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401901822",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:29",
+        "name": "Memphis Grizzlies",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+        "logo_dark": null,
+        "aliases": [
+          "Grizzlies",
+          "MEM",
+          "Memphis",
+          "Memphis Grizzlies"
+        ],
+        "color": "5d76a9"
+      },
+      "away": {
+        "id": "espn:30",
+        "name": "Charlotte Hornets",
+        "abbrev": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHA",
+          "Charlotte",
+          "Charlotte Hornets",
+          "Hornets"
+        ],
+        "color": "008ca8"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "FedExForum",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401906509",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:3",
+        "name": "New Orleans Pelicans",
+        "abbrev": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "logo_dark": null,
+        "aliases": [
+          "NO",
+          "New Orleans",
+          "New Orleans Pelicans",
+          "Pelicans"
+        ],
+        "color": "0a2240"
+      },
+      "away": {
+        "id": "espn:27",
+        "name": "Washington Wizards",
+        "abbrev": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+        "logo_dark": null,
+        "aliases": [
+          "WSH",
+          "Washington",
+          "Washington Wizards",
+          "Wizards"
+        ],
+        "color": "e31837"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Smoothie King Center",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401908943",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:4",
+        "name": "Chicago Bulls",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "CHI",
+          "Chicago",
+          "Chicago Bulls"
+        ],
+        "color": "ce1141"
+      },
+      "away": {
+        "id": "espn:16",
+        "name": "Minnesota Timberwolves",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Timberwolves",
+          "Timberwolves"
+        ],
+        "color": "266092"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "United Center",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858493",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2509",
+        "name": "Purdue Boilermakers",
+        "abbrev": "PUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+        "logo_dark": null,
+        "aliases": [
+          "Boilermakers",
+          "PUR",
+          "Purdue",
+          "Purdue Boilermakers"
+        ],
+        "color": "ceb888"
+      },
+      "away": {
+        "id": "espn:264",
+        "name": "Washington Huskies",
+        "abbrev": "WASH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "WASH",
+          "Washington",
+          "Washington Huskies"
+        ],
+        "color": "33006f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Ross-Ade Stadium",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401869844",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:324",
+        "name": "Coastal Carolina Chanticleers",
+        "abbrev": "CCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+        "logo_dark": null,
+        "aliases": [
+          "CCU",
+          "Chanticleers",
+          "Coastal",
+          "Coastal Carolina",
+          "Coastal Carolina Chanticleers"
+        ],
+        "color": "006f71"
+      },
+      "away": {
+        "id": "espn:2026",
+        "name": "App State Mountaineers",
+        "abbrev": "APP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+        "logo_dark": null,
+        "aliases": [
+          "APP",
+          "App State",
+          "App State Mountaineers",
+          "Mountaineers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Brooks Stadium (SC)",
+      "detail": "Fri, October 16th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "mlb:849808",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-17T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:119",
+        "name": "Los Angeles Dodgers",
+        "abbrev": "LAD",
+        "logo": "https://www.mlbstatic.com/team-logos/119.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Dodgers",
+          "LA Dodgers",
+          "LAD",
+          "Los Angeles",
+          "Los Angeles Dodgers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:158",
+        "name": "Milwaukee Brewers",
+        "abbrev": "MIL",
+        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Brewers",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Brewers"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020119",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6634,6 +5755,144 @@
       "source_status": "FUT/OK",
       "venue": "Honda Center",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401898409",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9",
+        "name": "Golden State Warriors",
+        "abbrev": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "logo_dark": null,
+        "aliases": [
+          "GS",
+          "Golden State",
+          "Golden State Warriors",
+          "Warriors"
+        ],
+        "color": "fdb927"
+      },
+      "away": {
+        "id": "espn:22",
+        "name": "Portland Trail Blazers",
+        "abbrev": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "logo_dark": null,
+        "aliases": [
+          "POR",
+          "Portland",
+          "Portland Trail Blazers",
+          "Trail Blazers"
+        ],
+        "color": "e03a3e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Chase Center",
+      "detail": "Fri, October 16th at 10:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401908948",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:21",
+        "name": "Phoenix Suns",
+        "abbrev": "PHX",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+        "logo_dark": null,
+        "aliases": [
+          "PHX",
+          "Phoenix",
+          "Phoenix Suns",
+          "Suns"
+        ],
+        "color": "29127a"
+      },
+      "away": {
+        "id": "espn:26",
+        "name": "Utah Jazz",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jazz",
+          "UTAH",
+          "Utah",
+          "Utah Jazz"
+        ],
+        "color": "4e008e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Mortgage Matchup Center",
+      "detail": "Fri, October 16th at 10:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401898719",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-17T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:13",
+        "name": "Los Angeles Lakers",
+        "abbrev": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "logo_dark": null,
+        "aliases": [
+          "LAL",
+          "Lakers",
+          "Los Angeles",
+          "Los Angeles Lakers"
+        ],
+        "color": "552583"
+      },
+      "away": {
+        "id": "espn:7",
+        "name": "Denver Nuggets",
+        "abbrev": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "logo_dark": null,
+        "aliases": [
+          "DEN",
+          "Denver",
+          "Denver Nuggets",
+          "Nuggets"
+        ],
+        "color": "0e2240"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "crypto.com Arena",
+      "detail": "Fri, October 16th at 10:30 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8158,6 +7417,558 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020154",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-22T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:6",
+        "name": "Boston Bruins",
+        "abbrev": "BOS",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Bruins",
+          "Bruins"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:18",
+        "name": "Nashville Predators",
+        "abbrev": "NSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
+        "aliases": [
+          "NSH",
+          "Nashville",
+          "Nashville Predators",
+          "Predators"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "TD Garden",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020155",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-22T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:10",
+        "name": "Toronto Maple Leafs",
+        "abbrev": "TOR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+        "aliases": [
+          "Maple Leafs",
+          "TOR",
+          "Toronto",
+          "Toronto Maple Leafs"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:3",
+        "name": "New York Rangers",
+        "abbrev": "NYR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+        "aliases": [
+          "NYR",
+          "New York",
+          "New York Rangers",
+          "Rangers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Scotiabank Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020156",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-22T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:9",
+        "name": "Ottawa Senators",
+        "abbrev": "OTT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
+        "aliases": [
+          "OTT",
+          "Ottawa",
+          "Ottawa Senators",
+          "Senators"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:28",
+        "name": "San Jose Sharks",
+        "abbrev": "SJS",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
+        "aliases": [
+          "SJS",
+          "San Jose",
+          "San Jose Sharks",
+          "Sharks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canadian Tire Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020157",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-22T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:1",
+        "name": "New Jersey Devils",
+        "abbrev": "NJD",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+        "aliases": [
+          "Devils",
+          "NJD",
+          "New Jersey",
+          "New Jersey Devils"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:24",
+        "name": "Anaheim Ducks",
+        "abbrev": "ANA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
+        "aliases": [
+          "ANA",
+          "Anaheim",
+          "Anaheim Ducks",
+          "Ducks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Prudential Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020158",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-22T23:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:5",
+        "name": "Pittsburgh Penguins",
+        "abbrev": "PIT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
+        "aliases": [
+          "PIT",
+          "Penguins",
+          "Pittsburgh",
+          "Pittsburgh Penguins"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:13",
+        "name": "Florida Panthers",
+        "abbrev": "FLA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Panthers",
+          "Panthers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "PPG Paints Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020159",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-22T23:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:2",
+        "name": "New York Islanders",
+        "abbrev": "NYI",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
+        "aliases": [
+          "Islanders",
+          "NYI",
+          "New York",
+          "New York Islanders"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:26",
+        "name": "Los Angeles Kings",
+        "abbrev": "LAK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
+        "aliases": [
+          "Kings",
+          "LAK",
+          "Los Angeles",
+          "Los Angeles Kings"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "UBS Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020160",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-23T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:19",
+        "name": "St. Louis Blues",
+        "abbrev": "STL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
+        "aliases": [
+          "Blues",
+          "STL",
+          "St. Louis",
+          "St. Louis Blues"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:54",
+        "name": "Vegas Golden Knights",
+        "abbrev": "VGK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+        "aliases": [
+          "Golden Knights",
+          "VGK",
+          "Vegas",
+          "Vegas Golden Knights"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Enterprise Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020161",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-23T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:25",
+        "name": "Dallas Stars",
+        "abbrev": "DAL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Stars",
+          "Stars"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:52",
+        "name": "Winnipeg Jets",
+        "abbrev": "WPG",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+        "aliases": [
+          "Jets",
+          "WPG",
+          "Winnipeg",
+          "Winnipeg Jets"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "American Airlines Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020162",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-23T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:20",
+        "name": "Calgary Flames",
+        "abbrev": "CGY",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
+        "aliases": [
+          "CGY",
+          "Calgary",
+          "Calgary Flames",
+          "Flames"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:30",
+        "name": "Minnesota Wild",
+        "abbrev": "MIN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Wild",
+          "Wild"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Scotiabank Saddledome",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020163",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-23T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:22",
+        "name": "Edmonton Oilers",
+        "abbrev": "EDM",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
+        "aliases": [
+          "EDM",
+          "Edmonton",
+          "Edmonton Oilers",
+          "Oilers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:12",
+        "name": "Carolina Hurricanes",
+        "abbrev": "CAR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Hurricanes",
+          "Hurricanes"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Rogers Place",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020164",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-23T02:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:55",
+        "name": "Seattle Kraken",
+        "abbrev": "SEA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+        "aliases": [
+          "Kraken",
+          "SEA",
+          "Seattle",
+          "Seattle Kraken"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:68",
+        "name": "Utah Mammoth",
+        "abbrev": "UTA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
+        "aliases": [
+          "Mammoth",
+          "UTA",
+          "Utah",
+          "Utah Mammoth"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Climate Pledge Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020165",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-10-23T02:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:23",
+        "name": "Vancouver Canucks",
+        "abbrev": "VAN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
+        "aliases": [
+          "Canucks",
+          "VAN",
+          "Vancouver",
+          "Vancouver Canucks"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:17",
+        "name": "Detroit Red Wings",
+        "abbrev": "DET",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Red Wings",
+          "Red Wings"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Rogers Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
@@ -8166,7 +7977,7 @@
       "headline": "Mourinho takes blame for Madrid struggles before late rally stuns Roma",
       "summary": "Jos\u00e9 Mourinho took the blame for Real Madrid's struggles at Roma in the Champions League on Wednesday, praising his players for leading a seven-minute comeback to turn a 3-1 deficit into a 4-3 win.",
       "image": "https://a.espncdn.com/photo/2026/1014/r1730910_1296x729_16-9.jpg",
-      "published_utc": "2026-10-14T23:44:37Z",
+      "published_utc": "2026-10-14T23:54:19Z",
       "competition_id": "uefa.champions",
       "competition_name": "Champions League",
       "byline": "Alex Kirkland",
@@ -8188,6 +7999,20 @@
       "link": "https://www.espn.com/mlb/story/_/id/50185126/guardians-start-gavin-williams-vs-rays-griffin-jax-thu",
       "stream_url": "",
       "body": "CLEVELAND -- Guardians right-hander Gavin Williams, who threw 210 pitches over six days against the Chicago White Sox, will start Game 3 of the American League Championship Series against the Tampa Bay Rays on Thursday, the club announced.\n\nWilliams, who will take the ball opposite Tampa Bay right-hander Griffin Jax, threw 11\u2154 innings over three appearances in the AL Division Series against the Chicago White Sox.\n\nHe pitched five innings in Game 2 of that series before throwing 18 pitches in an inning out of the bullpen in Game 4 on two days' rest. Two days later, he posted 12 strikeouts over 5\u2154 innings in Game 5 as Cleveland came back from an 0-2 deficit to advance to the ALCS.\n\n\"I feel like that was kind of a normal workload for me, except throwing in the game for my pen session,\" Williams said. \"But nothing really. Body feels good. Arm feels good. And going to go out there tomorrow.\"\n\nGuardians president of baseball operations Chris Antonetti said Williams threw a bullpen Tuesday in Tampa Bay before the club settled on him starting Game 3.\n\n\"We just wanted to see how he responded to the workload to determine when the best time for him to pitch in the series would be,\" Antonetti said.\n\nWilliams, 27, finished the regular season with a 3.76 ERA and an AL-leading 248 strikeouts in 184\u2153 innings over 32 starts. He will take the mound Thursday earlier than expected after Major League Baseball moved the start time for Game 3 up from 6 p.m. to 1 p.m. ET with rain in the forecast for Northeast Ohio later in the day.\n\nThe change could benefit Williams if the regular season is any indication; he had a 4.82 ERA in 19 night starts and a 2.42 ERA in 13 day starts.\n\n\"I feel like I'm very routine-oriented,\" Williams said. \"I wake up about the same time every day, no matter if it's a night game or a day game. I honestly stick to my routines throughout the whole day. I know the process of warming up changes from a day game to a night game, but everything else in between stays the same.\"\n\nJax's postseason workload, meanwhile, has consisted of a single two-inning relief outing in Game 3 of the ALDS against the New York Yankees. The converted reliever will make his first career postseason start on seven days' rest from that appearance, in which he allowed a run, walked one and struck out four. It will be his first start since logging three scoreless innings Sept. 26 against the Philadelphia Phillies in an outing that was cut short after he took a line drive off his lower back.\n\n\"It's a big honor, one that I've been looking forward to for a really long time now that I'm in the rotation,\" Jax said. \"Didn't work out in the division series, but I was just happy to pitch any single role I could have. But here now, in a seven-game series, looking forward to helping this team, starting this game.\"\n\nJax, 31, was one of baseball's best relievers when the Rays acquired him from the Minnesota Twins at the trade deadline last season. He opened this season as a reliever before beginning his transition to the rotation at the end of April. He compiled a 3.14 ERA in 23 starts compared with an 8.00 ERA in 11 relief appearances.\n\n\"What we like is what he's done as a starter for us all season long,\" Rays manager Kevin Cash said. \"A lot of confidence with him. It's really good stuff. He gets it in the zone. Gets himself in rhythm. I think he's done a tremendous job of transitioning into that starter routine and just go do what he's done.\""
+    },
+    {
+      "story_id": "50168532",
+      "headline": "AFL trade and free agency grades - Every club's report card from the 2026 transfer period",
+      "summary": "The 2026 AFL trade and free agency period is over. Some teams improved, some stagnated, and others, well, got worse. Here's how every team fared over the last two weeks.",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730908_1296x729_16-9.jpg",
+      "published_utc": "2026-10-14T23:24:58Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "Jake Michaels",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/50168532/afl-2026-trade-free-agency-grades-every-club-report-card-transfer-period-zak-butters-zach-merrett-nick-blakey-lachie-neale",
+      "stream_url": "",
+      "body": "The 2026 AFL trade and free agency period is complete. Some teams improved, some have stagnated, and others, well, seemed to have gotten worse.\n\nREAD: Every player move from the 2026 off-season\n\nHere's how every team fared over the last two weeks:\n\nAdelaide\nIncoming: N/A\n\nOutgoing: Jordon Butts, Luke Pedlar\n\n2026 draft selections: 15, 32, 35, 43, 56, 92\n\nI'm not sure what the Crows' gameplan was this trade and free agency period, but it's fair to say the club sat on its hands and did next to nothing. Losing key defender Jordon Butts to the Bulldogs obviously weakens them, while just one draft selection inside the top 30 is unlikely to provide much immediate support. Adelaide's list profile remains fine, and maybe they will surprise us all in 2027, but you just get the sense so many other clubs have passed them by over the last two weeks.\n\nGrade: F\n\nBrisbane\nIncoming: N/A\n\nOutgoing: Lachie Neale, Sam Marshall, Will McLachlan, Keidean Coleman\n\n2026 draft selections: 21, 27, 28, 45, 79, 97\n\nThe Lions were the biggest winners of last year's off-season (and season!), but this year was a different story. All year it seemed a formality they would lose the services of dual Brownlow Medal winner Lachie Neale, who ultimately signed with Collingwood as a free agent. They also waved goodbye to Keidean Coleman and Sam Marshall, two players who had struggled to crack the best 23 of late. No picks inside the top 20 would be concerning for 17 other clubs, but the Lions still have so much young talent at their disposal and are primed to challenge again in 2027.\n\nGrade: C-\n\nCarlton\nIncoming: Joel Amartey, Lachie Whitfield\n\nOutgoing: Hudson O'Keeffe, Flynn Riley\n\n2026 draft selections: 13, 18, 31, 50, 61, 72, 90\n\nThe Blues addressed two areas of weakness this off-season. The addition of free agent Joel Amartey provides spearhead Harry McKay with a stable forward line partner, while the Lachie Whitfield signing offers run, experience, and a kick-first option off halfback, the perfect piece to fit into Josh Fraser's system. Carlton really didn't give up much to land Whitfield, either. And barring Essendon taking a stab at talented father-son prospect Cody Walker with pick No. 1, the club has also ensured it has enough draft capital to match any bids that will come for him.\n\nGrade: A\n\nCollingwood\nIncoming: Lachie Neale, Jesse Hogan, Flynn Riley\n\nOutgoing: Scott Pendlebury\n\n2026 draft selections: 11, 30, 67, 68, 70, 88\n\nThe Magpies had been crying out for a true inside midfielder, and they landed arguably the best in the competition in Lachie Neale. The two-time Brownlow Medal winner is an elite ball winner and clearance player, and should perfectly complement superstar Nick Daicos. Collingwood also signed Jesse Hogan, a man that won the Coleman Medal just two years ago, and gave up virtually nothing for him. The loss of champion Scott Pendlebury obviously stings, but you have to feel this club is in a stronger position now than it was two weeks ago.\n\nGrade: A\n\nEssendon\nIncoming: Jack Bowes, Keidean Coleman\n\nOutgoing: Zach Merrett, Jordan Ridley\n\n2026 draft selections: 1, 17, 25, 80\n\nFormer skipper Zach Merrett finally got his wish of a fresh start at the Hawks, while fellow experienced player Jordan Ridley also departs the club for the Cats. The additions of Jack Bowes and Keidean Coleman are fine, but are either going to be difference makers in a side that's been languishing at the bottom of the ladder for several years? I'm not so sure. The only saving grace for the Bombers is that they hold pick No. 1. They simply have to make the most of that selection.\n\nGrade: D\n\nFremantle\nIncoming: Dom Bedendo\n\nOutgoing: Nathan O'Driscoll\n\n2026 draft selections: 19, 40, 60, 63, 78, 96\n\nThe Dockers were incredibly quiet during the trade and free agency window, but that's not exactly a bad thing. Remember, if not for Will Ashcroft and Logan Morris, Fremantle win the 2026 premiership. There was absolutely no reason for the Dockers to panic and overpay for someone after their Grand Final heartbreak, instead, this club, with its plethora of youth and talent, should feel as if it can contend for years to come. Trust the process and go again in 2027.\n\nGrade: C\n\nGeelong\nIncoming: Toby Greene, Jordan Ridley, Rowan Marshall\n\nOutgoing: Jack Bowes\n\n2026 draft selections: 36, 57, 62, 75, 93\n\nEvery year the Cats just find a way to bring big names through the door, and 2026 was no exception. Rowan Marshall was tipped to join 12 months ago and finally makes the move from St Kilda to bolster the club's ruck stocks. Toby Greene adds class, experience, and unrivalled goal-kicking nous to the forward line. Jordan Ridley is a stable and still wildly underrated defensive asset. The best part? To land this trio the club only had to give up midfield depth piece Jack Bowes, and some draft capital. They won't be much of a feature at the upcoming draft, but they don't have to be. These Cats are in win-now mode.\n\nGrade: A\n\nGold Coast Suns\nIncoming: Scott Pendlebury, Aidan Schubert, Sam Butler\n\nOutgoing: Ben King\n\n2026 draft selections: 8, 85\n\nScott Pendlebury might be a champion of the game, but there's no denying the Suns just got worse. The addition of 38-year-old Pendlebury doesn't outweigh the seismic loss of spearhead Ben King, a man who has booted 230 goals over the last four seasons. How do they replace him? Perhaps it's the incoming Aidan Schubert, but he's years away from having a real impact. Making matters worse, it seems Brownlow medallist Matt Rowell is likely to request a trade back to Victoria at the end of next season. This club is in a real precarious spot right now. A penny for Christian Petracca's thoughts...\n\nGrade: C-\n\nGWS Giants\nIncoming: N/A\n\nOutgoing: Toby Greene, Kieren Briggs, Jesse Hogan, Lachie Whitfield\n\n2026 draft selections: 9, 20, 26, 59, 77, 86\n\nJust two years ago Toby Greene, Kieren Briggs, Jesse Hogan, and Lachie Whitfield were probably four of the Giants' most important players. None of them remain at the club after an action-packed trade and free agency window, with GWS instead opting to clear out and trust the youth underneath. It's a move that will either make the Giants look like geniuses or total fools, but even those who are incredibly bullish about the approach would concede there is likely to be some pain on the immediate horizon.\n\nGrade: D\n\nHawthorn\nIncoming: Zach Merrett, Ben King, Josh Goater\n\nOutgoing: Finn Maginness, Aidan Schubert, Sam Butler, Bodie Ryan\n\n2026 draft selections: 29, 37, 71, 94\n\nThe Hawks should probably be the 2027 flag favourites after a whirlwind two weeks that's seen them finally land former Essendon skipper Zach Merrett, as well as Ben King. Merrett adds depth, experience, and A-grade ball use to Hawthorn's midfield group, while King provides a focal point in attack, taking the burden off the ageing Jack Gunston. Sure, Hawthorn gave up some depth, but their best 23 has improved out of sight and they still have draft collateral over the next few years to ensure talent keeps coming through the door.\n\nGrade: A+\n\nMelbourne\nIncoming: Zane Duursma, Will McLachlan, Bodie Ryan\n\nOutgoing: Jack Viney, Trent Rivers\n\n2026 draft selections: 4, 14, 48, 52\n\nJust about everyone panicked when the Demons farewelled premiership heroes Christian Petracca and Clayton Oliver last year, and look how that turned out. This club seems to have a plan for the future and it isn't prepared to compromise on what it wants. Melbourne has nailed its draft picks in recent times and with selections four and 14 this year, you'd expect two more highly talented prospects to join the ranks. Who knows if Zane Duursma will work out, but they've landed him for a fraction of what the Kangaroos gave up at the draft three years ago. It's a low risk punt worth taking.\n\nGrade: C\n\nNorth Melbourne\nIncoming: Nick Blakey\n\nOutgoing: Zane Duursma, Josh Goater\n\n2026 draft selections: 33, 49, 66, 74, 84\n\nCredit to the Kangaroos, they finally landed a big name. The only problem is I'm not sure Nick Blakey is the superstar many are claiming. There's no doubt Blakey will add drive and dash off halfback, but is he the player you look to in the closing stages of a tight game? North also gave up a truckload of future draft capital to get him through the door which will hurt them in the coming years. And then there's the Zane Duursma fiasco. Losing a player the club invested pick No. 4 in just three years ago is an unmitigated disaster. With no selections inside the top 30 this year, it will be a rare draft without the Roos being a major player.\n\nGrade: C+\n\nPort Adelaide\nIncoming: Luke Pedlar\n\nOutgoing: Zak Butters\n\n2026 draft selections: 7, 12, 22, 24, 34, 46, 65\n\nYou're never going to feel great when a player of Zak Butters' class and calibre walks out the door, but the silver lining for Port Adelaide is that Dougie Cochrane should be set to walk back in. The academy talent is the consensus best player in the upcoming draft and the Power are in a position to match any bids on their man. Expect Port to be heavily involved in the draft over the next couple of years as they look to rebuild around the likes of Cochrane, Connor Rozee, and Jason Horne-Francis.\n\nGrade: B\n\nRichmond\nIncoming: Kieren Briggs, Nathan O'Driscoll\n\nOutgoing: N/A\n\n2026 draft selections: 2, 5, 44, 81\n\nThe Tigers found Toby Nankervis' successor in Kieren Briggs, who crosses from the Giants as a free agent. That's a nice win. Nathan O'Driscoll was unable to find a place in Fremantle's best team of late but should receive far more opportunity in the black and yellow jumper in 2027. Richmond has two more picks inside the top five, though they are likely to be shuffled down a few spots with bid matching on Dougie Cochrane and Cody Walker, and they simply must nail them. Even still, this side will remain incredibly young in 2027.\n\nGrade: C\n\nSt Kilda\nIncoming: Sam Marshall\n\nOutgoing: Rowan Marshall\n\n2026 draft selections: 10, 16, 41, 51, 69, 87\n\nThe Saints went all-in last year, signing Tom De Koning, Jack Silvagni, Liam Ryan, and Sam Flanders. They weren't nearly as busy this off-season, and few expected them to be. Long-time ruck Rowan Marshall departs the club for the Cats, while Sam Marshall joins and should bolster their midfield stocks. Outside of that, St Kilda will be hoping to cash in with their two first round draft selections. If not, it could spell the end of Nasiah Wanganeen-Milera's tenure. This team wouldn't want to be starting 2027 slowly...\n\nGrade: C\n\nSydney Swans\nIncoming: N/A\n\nOutgoing: Joel Amartey, Nick Blakey\n\n2026 draft selections: 6, 38, 39, 47, 54, 76, 95\n\nTwo best 23 players departed the Swans this past fortnight with halfback Nick Blakey being traded to the Kangaroos and key forward Joel Amartey signing with the Blues as a free agent. Don't forget, Callum Mills is unlikely to suit up for the entire year after suffering an ACL injury during this year's finals campaign. That's three best 23 players to replace! Who knows what's happening with Isaac Heeney and Chad Warner? Swans fans will be praying for a hit with pick No. 6 at the upcoming draft to soften the blow.\n\nGrade: C-\n\nWest Coast Eagles\nIncoming: Jack Viney, Trent Rivers\n\nOutgoing: N/A\n\n2026 draft selections: 3, 23, 58, 64, 73, 82\n\nIt's clear the Eagles don't want to take the same approach as the Tigers and rely solely on the kids. Instead, they're continuing to add experienced pieces around their young talent in an effort to ease the rebuild and avoid a nosedive in morale. Jack Viney and Trent Rivers add premiership experience to the club and they haven't had to give up too much to get them. West Coast will feature prominently at November's draft with pick No. 3, 23, as well as a compensation pick in the likely scenario that the club's first selection is pushed back by a bid.\n\nGrade: C+\n\nWestern Bulldogs\nIncoming: Jordon Butts, Finn Maginness, Hudson O'Keeffe, Zak Butters\n\nOutgoing: N/A\n\n2026 draft selections: 42, 53, 55, 83, 89, 91\n\nThe Bulldogs now possess the most dynamic midfield trio in the game with Zak Butters joining skipper Marcus Bontempelli and Ed Richards in the red, white, and blue. It's a marquee signing for Luke Beveridge's team that simply has to put them into premiership contention. Jordon Butts also joins the club and will bolster what's traditionally been a weaker defensive unit. Don't forget about key forward star Sam Darcy, who will return from a season-ending ACL injury.\n\nGrade: A+"
     },
     {
       "story_id": "50184641",
@@ -8230,20 +8055,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50185048/was-martinez-man-united-statement-premeditated",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1014/dm_261014_COM_SOC_Analysis_Was_MartinezE28099s_Man_United_statement_E28098premeditatedE280993F_GLOBAL_2026-10-14/dm_261014_COM_SOC_Analysis_Was_MartinezE28099s_Man_United_statement_E28098premeditatedE280993F_GLOBAL_2026-10-14/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50176218",
-      "headline": "'I'm a competitor': Cody Walker primed and ready for the next step",
-      "summary": "Cody Walker has lived a year of Carlton's ups and downs before having even been drafted. He's learned a lot about the business of footy and what he needs to do to take the next step, as his own AFL career begins.",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730291_1296x729_16-9.jpg",
-      "published_utc": "2026-10-14T19:22:29Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "Jasper Chellappah",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/50176218/afl-draft-2026-cody-walker-carlton-blues-father-son-josh-fraser-michael-voss-echuca",
-      "stream_url": "",
-      "body": "Cody Walker had a front row seat to Carlton's tumultuous season. In line meetings, at team dinners, out of the Michael Voss era and into the Josh Fraser fairytale. From door stops to crisis meetings, it was an eye opening introduction to the big business of footy for the son-of-a-gun.\n\n\"I actually reflect on it a bit now and consider how low a club can get. Being on the inside with all the outside noise that we had when all the Vossy stuff was going down, it was really quite interesting to see,\" Walker tells ESPN.\n\n\"Then going from that to top of the AFL and beating Brisbane and Fremantle towards the end of the season, seeing how good a club can feel and get. For that to both happen in one season I find it quite interesting. I'm sort of glad it happened in a way that I get to experience both worlds.\"\n\nIn the midst of their early season malaise, Blues players were subjected to abuse walking off the ground after second half fadeouts and even rocked up to Ikon Park with anti-Voss graffiti on the club walls. That included Walker as he trained full-time with the squad.\n\n\"All the outside noise tears you apart a little bit. To see fans out the front of Ikon Park sort of giving it to you, and open training to have people yelling out at you and it's your fans, they've got Carlton stuff on, but they're yelling out to you, it's pretty full on.\"\n\nFrom 1-8 under Voss, the Blues stormed home under Fraser, winning their next six starts and claiming a remarkable win in a wildcard final against Melbourne.\n\nA fractured playing group was united under a first-time head coach and Walker was along for the ride.\n\n\"It was quite an eye opener how sad it can get inside a club. You sort of have to keep to yourself in those moments and just get around the boys,\" he says.\n\n\"We definitely had to stick together as a group, and Fraser's been really good at that. We did a lot together this year, the players grabbed me along to every dinner they had. It was so good, such a good experience.\"\n\nThat finals finish means Carlton receives no discount on matching a bid on the son of high-flyer Andrew, with the pair likely to become the first father-son duo to each be selected in the top five of an AFL Draft.\n\nWalker's talent deserves to see him taken at pick 2, just like his dad.\n\nAn electric midfielder blessed with the twitchiness, agility and burst to free himself from stoppages, Walker enjoyed a brilliant campaign with Carlton's VFL side and cemented his status in the 2026 draft.\n\nThere's no doubting his mercurial talent and its fit alongside Patrick Cripps, Sam Walsh, and Jagga Smith, but Walker isn't yet the complete package, and he's the first one to acknowledge it.\n\n\"I think my burst out of stoppage and ball-winning is my 'one wood'... when I look back on footage and see for myself how dangerous I can look going out of stoppage, it's really eye-opening for me,\" he tells ESPN.\n\n\"My improvements I want going into next year, I want to improve every part of my fundamentals. I've got a little bit of disposal efficiency which can let me down, but I'll put a power of work into kicking and handballing.\n\n\"It got to the point where I was doing two or three sessions a week, and that includes Diesel Williams helping me out.\n\n\"I've got so many good people around me and I can already feel that I'm getting better at those things. I'm pretty straightforward in what I want to get better at and I like getting harsh feedback from coaches that I can work on.\n\n\"No one's really pissing in my pocket about something I need to work on and I don't realise it until I'm maybe on [the MCG] one day and it's a problem for me if I'm missing kicks or missing handballs.\"\n\nWalker's final game before he turns professional wasn't in Carlton's VFL side, at the national championships with Vic Country or back with the Bendigo Pioneers. It was in the Goulburn Valley Football League playing for hometown Echuca, and he spent most of his lead-up convincing the Blues' General Manager of Football to let him go.\n\n\"I actually sat down with Chris Davies about two weeks before the granny. I was like, 'What are the chances I get to play?'\" Walker recalls to ESPN.\n\n\"He was like, 'Mate, we're not going to stop you. Preferably, I think it's the wrong decision, but it's all your choice.'\"\n\nWalker was determined to enjoy one more stint out in the country with his best mates after a massive top-age season, but injured his ankle during training the week after that conversation with Davies. It ruled him out of the qualifying final, but he still had an eye towards their qualification into the big dance.\n\n\"I went home for two weeks and I was training with Echuca and I just got addicted. I called up the club and a few people there and I was like 'I think I'm going to play, I'm doing it'. I'm so glad I did it.\"\n\nWalker had 20 disposals, eight score involvements, and kicked a goal off the wing in Echuca's 13-goal win over the Shepparton Swans.\n\nIt underlined the values that have made Walker rise and rise through junior football ranks. His competitive spirit and genuine love of footy through rich bloodlines continually stands out. Carlton supporters have known of Walker's footballing exploits for years, but they may not know what makes him tick.\n\nThat attitude was on show in the 2km time trial at the AFL Draft combine. Walker led his group of runners by the length of the straight, finishing nine seconds ahead of second place. It's his inner motivation that drives him to compete against the best, and oftentimes that means competing against himself.\n\nIt's why he has a grin on his face when asked why he even ran despite some Blues supporters bemoaning his name rising higher on rival clubs' draft boards.\n\n\"It was probably to beat my [personal best]... my PB was 6:13, I was feeling good and I had a bit in the tank,\" he says.\n\n\"Personally I'm a competitor. I do want to see where I'm at as of right now compared to maybe three months later when I do a 2k at the club.\"\n\nWalker smashed that time, finishing in 6:04 minutes and on the podium despite running in a slower pack.\n\nIt's given Carlton more to consider, lacking the points to match a bid at pick 1 but desperate to secure its second elite father-son prospect in as many years after Harry Dean was taken with pick two in 2025.\n\n\"I've got plenty of trust in the club with what they can do in my scenario,\" Walker says.\n\n\"I love the Carlton Football Club and I'm really thankful they've given me this year and it would be a really cool thing to end up at my dad's club. There's a lot of history there.\""
     },
     {
       "story_id": "50181312",
@@ -8358,6 +8169,20 @@
       "body": "LOS ANGELES -- Slumping Shohei Ohtani is set to bat sixth for the Los Angeles Dodgers against the Milwaukee Brewers in Game 3 of the National League Championship Series on Wednesday night.\n\nThat's the lowest the left-handed hitting Ohtani has hit since joining the Dodgers three years ago on a $700 million, 10-year contract. Manager Dave Roberts said he wanted to sprinkle left- and right-handed hitters throughout the lineup against Milwaukee's left-handed starter Robert Gasser.\n\n\"Shohei's all on board,\" Roberts said before the game. \"Whatever it takes to win.\"\n\nThe two-time defending World Series champion Dodgers trail 2-0 in the best-of-seven series.\n\nOhtani, the designated hitter, is typically atop the order, but Roberts has dropped him lower during a slump that has extended into the postseason. Ohtani has been struggling with left knee and right biceps issues for a few months and said before the National League Division Series that he's not 100% healthy.\n\nDuring his six years with the Los Angeles Angels, Ohtani started games batting sixth or lower 19 times, all during the 2020 season or earlier.\n\nOhtani is hitting .150 (3-for-20) over six postseason games while appearing visibly uncomfortable at the plate. He has seven strikeouts, three walks and one stolen base with no home runs, no RBIs and an OPS of .411.\n\nHe hasn't homered since Aug. 18 at Colorado.\n\n\"I couldn't imagine really kind of having the expectations that he has and falling short in a way that it's not normal for him,\" teammate Mookie Betts said before the game. \"Then having to come back and be present in this postseason knowing how important he is to the boys.\"\n\nRoberts said he saw a more focused Ohtani during off-day batting practice Tuesday.\n\n\"He was determined, and that's an understatement,\" Roberts said. \"He was here late last night working on his swing, out with the guys and talking about things on how we're going to beat these guys.\"\n\nDodgers pitcher Tyler Glasnow, set to start Game 4 on Thursday, said Ohtani's demeanor doesn't deviate regardless of how he's performing.\n\n\"I think most people put in that situation, you'd have a lot more emotional volatility, so it's just impressive to see him just be a good dude always,\" Glasnow said. \"I don't think he needs reassurance or anything. He's confident in himself. It's just business as usual and a lot of smiles and the same laugh.\""
     },
     {
+      "story_id": "50176218",
+      "headline": "'I'm a competitor': Cody Walker primed and ready for the next step",
+      "summary": "Cody Walker has lived a year of Carlton's ups and downs before having even been drafted. He's learned a lot about the business of footy and what he needs to do to take the next step, as his own AFL career begins.",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730291_1296x729_16-9.jpg",
+      "published_utc": "2026-10-14T19:22:29Z",
+      "competition_id": "afl",
+      "competition_name": "AFL",
+      "byline": "Jasper Chellappah",
+      "source": "ESPN",
+      "link": "https://www.espn.com/afl/story/_/id/50176218/afl-draft-2026-cody-walker-carlton-blues-father-son-josh-fraser-michael-voss-echuca",
+      "stream_url": "",
+      "body": "Cody Walker had a front row seat to Carlton's tumultuous season. In line meetings, at team dinners, out of the Michael Voss era and into the Josh Fraser fairytale. From door stops to crisis meetings, it was an eye opening introduction to the big business of footy for the son-of-a-gun.\n\n\"I actually reflect on it a bit now and consider how low a club can get. Being on the inside with all the outside noise that we had when all the Vossy stuff was going down, it was really quite interesting to see,\" Walker tells ESPN.\n\n\"Then going from that to top of the AFL and beating Brisbane and Fremantle towards the end of the season, seeing how good a club can feel and get. For that to both happen in one season I find it quite interesting. I'm sort of glad it happened in a way that I get to experience both worlds.\"\n\nIn the midst of their early season malaise, Blues players were subjected to abuse walking off the ground after second half fadeouts and even rocked up to Ikon Park with anti-Voss graffiti on the club walls. That included Walker as he trained full-time with the squad.\n\n\"All the outside noise tears you apart a little bit. To see fans out the front of Ikon Park sort of giving it to you, and open training to have people yelling out at you and it's your fans, they've got Carlton stuff on, but they're yelling out to you, it's pretty full on.\"\n\nFrom 1-8 under Voss, the Blues stormed home under Fraser, winning their next six starts and claiming a remarkable win in a wildcard final against Melbourne.\n\nA fractured playing group was united under a first-time head coach and Walker was along for the ride.\n\n\"It was quite an eye opener how sad it can get inside a club. You sort of have to keep to yourself in those moments and just get around the boys,\" he says.\n\n\"We definitely had to stick together as a group, and Fraser's been really good at that. We did a lot together this year, the players grabbed me along to every dinner they had. It was so good, such a good experience.\"\n\nThat finals finish means Carlton receives no discount on matching a bid on the son of high-flyer Andrew, with the pair likely to become the first father-son duo to each be selected in the top five of an AFL Draft.\n\nWalker's talent deserves to see him taken at pick 2, just like his dad.\n\nAn electric midfielder blessed with the twitchiness, agility and burst to free himself from stoppages, Walker enjoyed a brilliant campaign with Carlton's VFL side and cemented his status in the 2026 draft.\n\nThere's no doubting his mercurial talent and its fit alongside Patrick Cripps, Sam Walsh, and Jagga Smith, but Walker isn't yet the complete package, and he's the first one to acknowledge it.\n\n\"I think my burst out of stoppage and ball-winning is my 'one wood'... when I look back on footage and see for myself how dangerous I can look going out of stoppage, it's really eye-opening for me,\" he tells ESPN.\n\n\"My improvements I want going into next year, I want to improve every part of my fundamentals. I've got a little bit of disposal efficiency which can let me down, but I'll put a power of work into kicking and handballing.\n\n\"It got to the point where I was doing two or three sessions a week, and that includes Diesel Williams helping me out.\n\n\"I've got so many good people around me and I can already feel that I'm getting better at those things. I'm pretty straightforward in what I want to get better at and I like getting harsh feedback from coaches that I can work on.\n\n\"No one's really pissing in my pocket about something I need to work on and I don't realise it until I'm maybe on [the MCG] one day and it's a problem for me if I'm missing kicks or missing handballs.\"\n\nWalker's final game before he turns professional wasn't in Carlton's VFL side, at the national championships with Vic Country or back with the Bendigo Pioneers. It was in the Goulburn Valley Football League playing for hometown Echuca, and he spent most of his lead-up convincing the Blues' General Manager of Football to let him go.\n\n\"I actually sat down with Chris Davies about two weeks before the granny. I was like, 'What are the chances I get to play?'\" Walker recalls to ESPN.\n\n\"He was like, 'Mate, we're not going to stop you. Preferably, I think it's the wrong decision, but it's all your choice.'\"\n\nWalker was determined to enjoy one more stint out in the country with his best mates after a massive top-age season, but injured his ankle during training the week after that conversation with Davies. It ruled him out of the qualifying final, but he still had an eye towards their qualification into the big dance.\n\n\"I went home for two weeks and I was training with Echuca and I just got addicted. I called up the club and a few people there and I was like 'I think I'm going to play, I'm doing it'. I'm so glad I did it.\"\n\nWalker had 20 disposals, eight score involvements, and kicked a goal off the wing in Echuca's 13-goal win over the Shepparton Swans.\n\nIt underlined the values that have made Walker rise and rise through junior football ranks. His competitive spirit and genuine love of footy through rich bloodlines continually stands out. Carlton supporters have known of Walker's footballing exploits for years, but they may not know what makes him tick.\n\nThat attitude was on show in the 2km time trial at the AFL Draft combine. Walker led his group of runners by the length of the straight, finishing nine seconds ahead of second place. It's his inner motivation that drives him to compete against the best, and oftentimes that means competing against himself.\n\nIt's why he has a grin on his face when asked why he even ran despite some Blues supporters bemoaning his name rising higher on rival clubs' draft boards.\n\n\"It was probably to beat my [personal best]... my PB was 6:13, I was feeling good and I had a bit in the tank,\" he says.\n\n\"Personally I'm a competitor. I do want to see where I'm at as of right now compared to maybe three months later when I do a 2k at the club.\"\n\nWalker smashed that time, finishing in 6:04 minutes and on the podium despite running in a slower pack.\n\nIt's given Carlton more to consider, lacking the points to match a bid at pick 1 but desperate to secure its second elite father-son prospect in as many years after Harry Dean was taken with pick two in 2025.\n\n\"I've got plenty of trust in the club with what they can do in my scenario,\" Walker says.\n\n\"I love the Carlton Football Club and I'm really thankful they've given me this year and it would be a really cool thing to end up at my dad's club. There's a lot of history there.\""
+    },
+    {
       "story_id": "50184082",
       "headline": "Perk: Kawhi is the 'most feared' and dangerous player in East",
       "summary": "Perk: Kawhi is the 'most feared' and dangerous player in East",
@@ -8398,20 +8223,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50184699/lisandro-martinez-believe-everyone-working-help-man-united-move-forward",
       "stream_url": "",
       "body": "Lisandro Mart\u00ednez has said he believes in \"my teammates, our manager and everyone working to help this club move forward\" after he criticised Manchester United's hierarchy, including director of football Jason Wilcox, in an explosive interview on Tuesday.\n\nFollowing United's 2-0 defeat to Atletico Madrid in the Champions League, Mart\u00ednez told Amazon Prime that he felt the club had failed to adequately strengthen the squad during the summer transfer window.\n\nBut, in a statement published to social media on Wednesday, the Argentine defender said that responsibility also lies with himself and with his teammates to improve the club's fortunes.\n\n\"When I talk about wanting more, I'm talking about the ambition we must all have as part of this club,\" Mart\u00ednez said. \"To keep growing, to become stronger and to have everything we need to compete at the highest level. These are standards we must all hold ourselves to, starting with me.\n\n\"I know that, first and foremost, it's us, the players, who have to deliver, and I put myself at the front of that responsibility. We need to demand even more of ourselves and work together to take Manchester United back to the top.\n\n\"I believe in my teammates, our manager and everyone working to help this club move forward. I'm convinced that the way forward is to keep working together, with ambition and commitment.\n\n\"My goal has been the same since day one, to win, to compete at the highest level and to give everything I have for this badge.\"\n\nSources told ESPN on Wednesday that United were assessing whether to take disciplinary action against the 28-year-old, who said in his statement that he \"spoke out of anger and frustration at not getting the result we all wanted.\n\n\"Those who know me know how I live football, with passion, commitment and a huge desire to win.\n\n\"And when things don't go our way, it hurts, especially when representing a club with the history and stature of Manchester United.\n\n\"My words reflect how I feel and how much I want to see this club competing for the biggest honours.\n\n\"Those high standards are part of how I see football and the responsibility that comes with wearing this shirt.\"\n\n- Sources: Man United assessing Lisandro Mart\u00ednez comments\n\n- Mart\u00ednez exposes Man United's harsh reality: Blame lies with top brass, not Carrick\n\n- Wayne Rooney: Lisandro Martinez 'disrespectful' for Man United rant\n\nUnited have won just two of their nine games this season: a 5-2 Premier League victory over Ipswich Town in August and a 4-0 win over Sabah FK in the Champions League in mid-September.\n\nThey spent \u00a3150 million ($199m) on Carlos Baleba, Andrey Santos and Youri Tielemans during the summer transfer window.\n\nSources told ESPN that Wilcox retains the support of United chiefs.\n\nESPN's Rob Dawson contributed to reporting."
-    },
-    {
-      "story_id": "50169729",
-      "headline": "First-round Phantom Draft: An early look at who goes where, when bids will come",
-      "summary": "The AFL trade period is over and attention turns to the draft. So who goes where? When will bids land? Here's Jasper Chellappah's early, first-round Phantom Draft.",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730539_1296x729_16-9.png",
-      "published_utc": "2026-10-14T12:06:17Z",
-      "competition_id": "afl",
-      "competition_name": "AFL",
-      "byline": "Jasper Chellappah",
-      "source": "ESPN",
-      "link": "https://www.espn.com/afl/story/_/id/50169729/afl-2026-phantom-draft-mock-draft-pick-1-first-round-espn-jasper-chellappah-first-round-draft-order",
-      "stream_url": "",
-      "body": "It's finally draft season.\n\nChanges to draft points and matching bids make for complications on the four club-tied prospects in this Phantom Draft, but they also shorten the first round to 18 selections.\n\nIt's a hotly-contested race to be the first overall pick in the open draft. Midfielder Ethan Drever and goalkicker Arki Butler have inside track to be that choice for Essendon, but the decision is still to be narrowed down with Heath Mellody, Harry Van Hattum, and Gus Teixeira all making strong cases.\n\nBidding changes mean clubs may only match with two selections, and a 20% points loading is given to the Brisbane Lions for making the Grand Final whereas Port Adelaide and GWS receive a 10% discount for missing finals.\n\nIt means picks are absorbed within the first round to effectively shorten night one of the AFL Draft.\n\nRecruiters love the depth of the crop that has emerged this year, but a real evenness in talent from 15 through 30 will make for volatile slides and rises come November.\n\nExactly five weeks out from the 2026 AFL Draft, this is ESPN's first-round Phantom Draft.\n\n1. BID - Port Adelaide: Dougie Cochrane\n\nPort Adelaide/South Australia\n\nFWD/MID/DEF, 195cm\n\nEssendon has all but guaranteed Port Adelaide it will be bidding on Cochrane first overall. He's worth the hype; a roaming key forward with midfield ambitions that played the final month of an injury-plagued top-age campaign behind the ball as a designated kicker. Cochrane has been the nominal first choice in this draft for 24 months and Port Adelaide will have no issue matching, and they've left the door open for clubs to come calling for picks seven and 12 in the lead-up to draft night.\n\nPicks used: 7 and 12\n\n2. Essendon: Ethan Drever\n\nGWV Rebels/Vic Country\n\nMID, 188cm\n\nIt's still far from a guarantee that Essendon opt for Drever but there's growing buzz around the powerful midfielder. An injury-free season set him up to dominate for club and state alike, with the Ballarat local producing gaudy numbers for the Rebels and Vic Country. He runs hard both ways, uses his legs to drive out of contest and has a penchant for kicking long-running goals. Similarly to 2016 when they selected skipper Andrew McGrath, the Dons don't have a clear no. 1 in the open pool.\n\nIn the mix: Arki Butler, Heath Mellody\n\n3. Richmond: Arki Butler\n\nSandringham Dragons/Vic Metro\n\nMID/FWD, 182cm\n\nRichmond's decision here will be highly dependent on their intel into West Coast and Melbourne after them. Butler presents as the best on the board and most unlikely to be available at their next selection. He's a match-winner inside forward 50 with aerial strength and tricks at ground level, kicking goals in bunches and pinch-hitting with power through the middle. With a host of tall forwards and midfielders drafted in recent years, Butler fits nicely amongst the young Tigers nucleus but real interest in Harry Van Hattum could see them flip this order.\n\nIn the mix: Harry Van Hattum, Ethan Drever\n\n4. BID - Carlton: Cody Walker\n\nCarlton VFL/Vic Country\n\nMID, 184cm\n\nThe Blues are banking on a Walker bid arriving after pick two. Picks 13 and 18 (which become 12 and 17 after a Cochrane bid) is enough to match a bid from three onwards with a minor points deficit. If Essendon surprises by reading out Walker's name in the first two the Blues must have contingencies in place so the son-of-a-gun doesn't slip through. Walker is worthy of a bid at two - he plays at breakneck speed with elite acceleration and evasiveness through the midfield, impressing week in, week out for Carlton's VFL side.\n\nThe son of Andrew opted to nominate the Blues over academy club Richmond this year which may dissuade the Tigers from making a bid, but this is close to the end of Walker's draft range and West Coast already has history bidding on Blues father-sons.\n\nPicks used: 12 and 17\n\n5. West Coast: Heath Mellody\n\nClaremont/Western Australia\n\nMID/DEF, 184cm\n\nThe hometown kid enjoyed the strongest finish to 2026 of any prospect. Mellody claimed the Larke Medal at the national championships, made his WAFL debut and was one of Claremont's best performers up to the grand final. His name sits comfortably amongst the best in the class with his work rate, clean hands and class by foot making him the perfect complement to Harley Reid and Willem Duursma.\n\nIn the mix: Arki Butler, Gus Teixeira\n\n6. Melbourne (via Port Adelaide): Mitch Harris\n\nWoodville-West Torrens/South Australia\n\nDEF, 195cm\n\nMelbourne made a deal to move up two spots in the draft, effectively jumping North's selection at the time. That pick now lands with Sydney but it shouldn't impact who the Dees had in mind. Harris is the bolter this year, rising from a likely second round prospect at the start of the season to the consensus best key defender in the pool. He locks down, intercepts and has shown flashes up forward, plus impressed in SANFL finals to finish the season against mature bodies. The Swans will have interest in Harris given their shallow key defensive stocks, but the Dees will kick off his draft range at this point.\n\nIn the mix: Harry Van Hattum, Heath Mellody\n\n7. Richmond (via Port Adelaide): Harry Van Hattum\n\nNorthern Knights/Vic Metro\n\nRUC/FWD, 205cm\n\nRichmond would be thrilled to see Van Hattum get through to the pick they brought in via Port Adelaide. The big ruck trained with the club over pre-season and he ripped games apart at various stages of 2026. Van Hattum plays with a physical edge, follows up as an extra midfielder and uses the ball beautifully off his favoured right boot. He looms as the perfect replacement for skipper Toby Nankervis, so much so that Van Hattum could even be snapped up by the Tigers with their first selection before Melbourne gets a look in.\n\nIn the mix: Gus Teixeira, Mitch Harris\n\n8. BID - GWS: Ethan Matthews\n\nGWS made an early bid on Harry Kyle last year and Sydney can return the favour here. Trading into pick six via the Blakey deal puts the Swans firmly in the range of Matthews, an excellent midfield prospect that racks up the ball and uses it with composure off his left foot. GWS would be matching with pick 11 at this stage, and could look to trade points into future years on the night to maximise their draft hand while still landing their academy gun. Matthews is clearly the best Giants Academy prospect since Tom Green in 2019.\n\nPicks used: 11 and 19\n\n9. Sydney (via North Melbourne): Gus Teixeira\n\nSandringham Dragons/Vic Metro\n\nMID, 181cm\n\nIf the top key defender is off the board the Swans will have an eye on the best available talent, having not drafted a top-10 talent since Logan McDonald and Braeden Campbell in 2020. Teixeira is the highly rated prospect that slides in this phantom, but could easily be snapped up by the Dees or Tigers prior. Playing with powerful drive in the forward half, Teixeira's impact with ball in hand has been a standout all season. He'll start his career as a general forward but there's little doubt amongst recruiters that Teixeira will soon be a midfielder at the next level.\n\nIn the mix: Mitch Harris, Tyson Bradley\n\n10. Gold Coast (FA compensation): Sam Gayfer\n\nNorthern Knights/Vic Metro\n\nFWD, 194cm\n\nGayfer is deserving of a top 10 pick this year and the Suns come into this selection through Ben King's departure. Even while bringing in Aidan Schubert their key forward stocks are thin and Gayfer is the competitive beast that Damien Hardwick covets. He crashes packs, pressures at ground level and can jump on heads to take massive marks. The Suns swooping here would be a blow for the Saints and Pies who are keen on the athletic tall.\n\nIn the mix: Tyson Bradley, Clancy Snell\n\n11. BID - Brisbane: Caylen Murray\n\nLions Academy/Allies\n\nDEF/MID, 183cm\n\nThe Keidean Coleman trade to Essendon at the death gives Brisbane three picks in the second round that will need to be consolidated to match a bid at this stage. The academy star has some similarities to Coleman in his precise ball use off halfback. He generates run and is safe with ball in hand, making the right decisions and creating space for himself and others. Murray appeals as a replacement for Dayne Zorko and could play significant football in 2027, with the Saints on the lookout for a ball user of his quality.\n\n12. St Kilda: Wil Malady\n\nGippsland Power/Vic Country\n\nFWD, 190cm\n\nThe Saints would love to see Gayfer here as a key forward option, but have a nice group of talls to pick from. Malady is the wildcard play, with excellent athleticism including a big leap and sensational agility at his size. He works himself into the ground as a link between the forwards and midfielders, but can also play deep as a dangerous aerial target.\n\nIn the mix: Sam Gayfer, Lochie Burrows\n\n13. Collingwood: Tyson Bradley\n\nSandringham Dragons/Vic Metro\n\nDEF, 195cm\n\nThe Pies are in the market for a tall at either end of the ground and will get one at this spot. Bradley is ultra composed and a steady kick out of defence, twisting and turning out of trouble and relieving pressure for his side. He also competes well in the air against key forwards including successful matchups on Malady and Gayfer in finals contests. Clubs have loved his leadership and character qualities so he could land even higher than this mark. Collingwood will be eager to see if Gayfer gets through as the nephew of premiership defender Mick.\n\nIn the mix: Sam Gayfer, Clancy Snell, Wil Malady\n\n14. Melbourne (via Port Adelaide): Leo Steed\n\nSwan Districts/Western Australia\n\nMID, 176cm\n\nIf the Dees go tall with Harris or Van Hattum first they can get their midfielder here. Steed is ultra professional, a two-way runner and brings his courage and toughness to every contest. Recruiters are confident the WA hard nut makes it as an on-baller at the next level and Melbourne is primed to add youth to that area of the ground.\n\nIn the mix: Toby Krasna, Jake Eime\n\n15. Adelaide: Clancy Snell\n\nGippsland Power/Vic Country\n\nDEF, 196cm\n\nThe Crows held onto Nick Murray but lost Jordon Butts and are thin down back. Snell gives them a high-upside swing at the best intercept defender in the class. He's an elite aerialist that backs himself to kickstart transition. They remain in need of some dash out of defence with local product Jake Eime's range beginning at this point too.\n\nIn the mix: Tyson Bradley, Jake Eime, Kodah Edwards\n\n16. St Kilda (via Geelong): Lochie Burrows\n\nSandringham Dragons/Vic Metro\n\nDEF/MID, 181cm\n\nThe Saints are keen on Burrows. A local Bentleigh product whose best trait may be his versatility, Burrows has been thrown around the ground and excelled everywhere. He can get his hands dirty as a contested midfielder, lock down and offer dash out of defence and worked hard on his forward craft over pre-season with an eye to a role off half forward. If the Saints sniff out interest in Burrows around this mark they could even snap up the high-character talent with their first selection.\n\nIn the mix: Leo Steed, Jackson Phillips, Jake Eime\n\n17. Essendon (via Hawthorn): George Dimer\n\nSandringham Dragons/Vic Metro\n\nFWD, 173cm\n\nDimer earns big plaudits from clubs for his character and selfless nature. As a small forward he has the speed to separate and the nous to sniff out the goals but also plays with a team-first attitude that sees him set up a lot of scores. He played midfield in his juniors and brings his ball-winning to the forward half. Small forward is a huge area of need for the Dons but there will also be a host of clubs keen on Dimer from this stage on.\n\nIn the mix: Clancy Snell, Jack Pickett, Toby Krasna\n\n18. Fremantle: Jake Soutar\n\nEast Perth\n\nDEF, 190cm\n\nThe Dockers are entrenched in their premiership window and Soutar would have played significant football at a lot of clubs towards the end of 2026. The 20-year-old was East Perth's fairest and best after a breakout season in the WAFL, intercepting and creating off halfback including a big finals campaign. He's a good size to play on various forwards and has the body to compete for Luke Ryan's role straight away. A mature-ager is a bold selection in the first round but Soutar is a win-now pick in a role Fremantle needs to address.\n\nIn the mix: Leo Steed, Toby Krasna"
     },
     {
       "story_id": "50175711",
@@ -9634,150 +9445,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/09/WWE-Smackdown-2024-Full-Show.jpg",
       "source_url": "https://watch-wrestling.eu/wwe-smackdown-may-23k-live/"
-    },
-    {
-      "id": "ww:3c00a0b7149dcdd7b12785be107d76bd",
-      "title": "DDT Beer Garden Pro Wrestling 2026 THE FINAL 10/8/2026",
-      "date": "2026-10-08",
-      "replay_url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/10-08-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-DDT-Pro-wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/ddt-beer-garden-pro-wrestling-2026-the-final-10-8-2026/3c00a0b7149dcdd7b12785be107d76bd"
-    },
-    {
-      "id": "ww:watch-tna-wrestling-000",
-      "title": "TNA Wrestling 10/8/26 \u2013 October 8, 2026",
-      "date": "2026-10-08",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/2/1",
-          "label": "Dailymotion FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/3/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/4/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/4/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwant/10-08-2026/select-post-1/4/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/01/Wrestle-TNA-Wrestling-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/watch-tna-wrestling-000/"
-    },
-    {
-      "id": "ww:20d7ac94927cede9d0b5ce8e2dcb7a1b",
-      "title": "ROH HonorClub TV 10/8/2026",
-      "date": "2026-10-08",
-      "replay_url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/1/1",
-          "label": "VidFrame FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/3/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/4/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/4/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/4/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/2/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/hor/10-08-2026/select-post-1/2/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2025/01/ROH-Wrestling-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/roh-honorclub-tv-10-8-2026/20d7ac94927cede9d0b5ce8e2dcb7a1b"
     }
   ],
   "replays": [
