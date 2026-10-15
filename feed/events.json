@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-15T05:02:54.772237+00:00",
+  "generated_utc": "2026-10-15T05:06:25.797628+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875005",
@@ -3778,7 +3778,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-15T02:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:12",
         "name": "LA Clippers",
@@ -3808,9 +3808,9 @@
         "color": "0e2240"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/End of Period",
+      "source_status": "post/Final",
       "venue": "Intuit Dome",
-      "detail": "End of 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8523,6 +8523,52 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-WWE-NxT-Full-Show.jpg",
       "source_url": "https://watch-wrestling.eu/wwe-nxt-live-1k/"
+    },
+    {
+      "id": "ww:30f6ff6f74d289199e446708e3118598",
+      "title": "DDT Keyaki Melty Love 2026 10/12/2026",
+      "date": "2026-10-12",
+      "replay_url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/2/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/2/1",
+          "label": "OK.ru HD \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/3/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/3/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/3/3",
+          "label": "Other Hosts \u2014 NetU (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/1/1",
+          "label": "Dailymotion HD \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/userorup/10-12-2026/select-post-1/1/2",
+          "label": "Dailymotion HD \u2014 Part 2",
+          "part": true,
+          "live": false
+        }
+      ],
+      "poster": "",
+      "source_url": "https://watch-wrestling.eu/ddt-keyaki-melty-love-2026-10-12-2026/30f6ff6f74d289199e446708e3118598"
     },
     {
       "id": "ww:82d6952080572f0b042039c343d7876c",
