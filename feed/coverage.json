@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-16T03:14:18.622074+00:00",
+  "generated_utc": "2026-10-16T03:24:27.565343+00:00",
   "window_days": 2,
-  "total_events": 250,
+  "total_events": 244,
   "competitions": [
     {
       "competition": "aew",
@@ -229,16 +229,16 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 62,
+      "events": 57,
       "date_range": [
-        "2026-10-13",
+        "2026-10-14",
         "2026-10-18"
       ],
-      "explicit_status": 62,
+      "explicit_status": 57,
       "status_coverage_pct": 100,
-      "both_logos": 62,
+      "both_logos": 57,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 1
     },
     {
       "competition": "ncaam",
@@ -257,16 +257,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 1,
-      "date_range": [
-        "2026-10-16",
-        "2026-10-16"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
-      "both_logos": 1,
-      "logo_coverage_pct": 100,
-      "live_now": 1
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "nhl",
@@ -426,7 +424,43 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-10-14",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261014: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-10-15",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261015: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "source": "espn:football/nfl",
+      "date": "2026-10-16",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261016: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "source": "espn:football/college-football",
+      "date": "2026-10-13",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261013: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "source": "espn:football/college-football",
+      "date": "2026-10-16",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261016: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "source": "espn:soccer/eng.1",
+      "date": "2026-10-13",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261013: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "source": "espn:soccer/eng.1",
+      "date": "2026-10-15",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261015: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",

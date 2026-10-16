@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-16T03:14:18.611581+00:00",
+  "generated_utc": "2026-10-16T03:24:27.549471+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915418",
@@ -708,52 +708,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401871067",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-13T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2393",
-        "name": "Middle Tennessee Blue Raiders",
-        "abbrev": "MTSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Raiders",
-          "MTSU",
-          "Middle Tennessee",
-          "Middle Tennessee Blue Raiders"
-        ],
-        "color": "036eb7"
-      },
-      "away": {
-        "id": "espn:48",
-        "name": "Delaware Blue Hens",
-        "abbrev": "DEL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Hens",
-          "DEL",
-          "Delaware",
-          "Delaware Blue Hens"
-        ],
-        "color": "00539f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Johnny \"Red\" Floyd Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:mma:600060741",
       "sport": "mma",
       "competition_id": "ufc",
@@ -1100,53 +1054,6 @@
       "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401871053",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-14T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:55",
-        "name": "Jacksonville State Gamecocks",
-        "abbrev": "JXST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-        "logo_dark": null,
-        "aliases": [
-          "Gamecocks",
-          "JXST",
-          "Jacksonville State",
-          "Jacksonville State Gamecocks",
-          "Jax State"
-        ],
-        "color": "cc0000"
-      },
-      "away": {
-        "id": "espn:2229",
-        "name": "Florida International Panthers",
-        "abbrev": "FIU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
-        "logo_dark": null,
-        "aliases": [
-          "FIU",
-          "Florida International",
-          "Florida International Panthers",
-          "Panthers"
-        ],
-        "color": "091f3f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "AmFirst Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "5Wv4kzyunO8",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -3608,7 +3515,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-15T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:5",
         "name": "UAB Blazers",
@@ -3637,9 +3544,9 @@
         "color": "582c83"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Protective Stadium",
-      "detail": "OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3731,7 +3638,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Final/Game Over",
+      "source_status": "Final/Final",
       "venue": "UNIQLO Field at Dodger Stadium",
       "detail": "",
       "game_number": 1,
@@ -3919,55 +3826,9 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "UFCU Stadium",
-      "detail": "5:05 - 4th Quarter",
+      "detail": "1:52 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872995",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-16T00:15Z",
-      "status": "live",
-      "home": {
-        "id": "espn:7",
-        "name": "Denver Broncos",
-        "abbrev": "DEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
-        "logo_dark": null,
-        "aliases": [
-          "Broncos",
-          "DEN",
-          "Denver",
-          "Denver Broncos"
-        ],
-        "color": "0a2343"
-      },
-      "away": {
-        "id": "espn:26",
-        "name": "Seattle Seahawks",
-        "abbrev": "SEA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-        "logo_dark": null,
-        "aliases": [
-          "SEA",
-          "Seahawks",
-          "Seattle",
-          "Seattle Seahawks"
-        ],
-        "color": "002a5c"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Empower Field at Mile High",
-      "detail": "0:57 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "-TM7L3H_XMQ",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -4055,7 +3916,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -4460,52 +4321,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862801",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-16T23:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2655",
-        "name": "Tulane Green Wave",
-        "abbrev": "TULN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-        "logo_dark": null,
-        "aliases": [
-          "Green Wave",
-          "TULN",
-          "Tulane",
-          "Tulane Green Wave"
-        ],
-        "color": "006747"
-      },
-      "away": {
-        "id": "espn:235",
-        "name": "Memphis Tigers",
-        "abbrev": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-        "logo_dark": null,
-        "aliases": [
-          "MEM",
-          "Memphis",
-          "Memphis Tigers",
-          "Tigers"
-        ],
-        "color": "004991"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Yulman Stadium",
-      "detail": "Fri, October 16th at 7:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "mlb:849817",
       "sport": "baseball",
       "competition_id": "mlb",
@@ -4809,99 +4624,6 @@
       "source": "espn:basketball/nba",
       "source_status": "pre/Scheduled",
       "venue": "United Center",
-      "detail": "Fri, October 16th at 8:00 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858493",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T00:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2509",
-        "name": "Purdue Boilermakers",
-        "abbrev": "PUR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-        "logo_dark": null,
-        "aliases": [
-          "Boilermakers",
-          "PUR",
-          "Purdue",
-          "Purdue Boilermakers"
-        ],
-        "color": "ceb888"
-      },
-      "away": {
-        "id": "espn:264",
-        "name": "Washington Huskies",
-        "abbrev": "WASH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-        "logo_dark": null,
-        "aliases": [
-          "Huskies",
-          "WASH",
-          "Washington",
-          "Washington Huskies"
-        ],
-        "color": "33006f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Ross-Ade Stadium",
-      "detail": "Fri, October 16th at 8:00 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401869844",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T00:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:324",
-        "name": "Coastal Carolina Chanticleers",
-        "abbrev": "CCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-        "logo_dark": null,
-        "aliases": [
-          "CCU",
-          "Chanticleers",
-          "Coastal",
-          "Coastal Carolina",
-          "Coastal Carolina Chanticleers"
-        ],
-        "color": "006f71"
-      },
-      "away": {
-        "id": "espn:2026",
-        "name": "App State Mountaineers",
-        "abbrev": "APP",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
-        "logo_dark": null,
-        "aliases": [
-          "APP",
-          "App State",
-          "App State Mountaineers",
-          "Mountaineers"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Brooks Stadium (SC)",
       "detail": "Fri, October 16th at 8:00 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
@@ -11269,7 +10991,7 @@
       "headline": "Seahawks-Broncos on TNF Week 6: Highlights, TDs, key plays",
       "summary": "Follow all the biggest plays and highlights from Thursday night's game between Seattle and Denver.",
       "image": "https://a.espncdn.com/photo/2026/1016/r1731410_608x342_16-9.jpg",
-      "published_utc": "2026-10-16T03:08:03Z",
+      "published_utc": "2026-10-16T03:22:36Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Brady Henderson and Jeff Legwold",
@@ -11279,11 +11001,25 @@
       "body": "DENVER -- The Broncos (3-2) are hosting the defending Super Bowl champion Seattle Seahawks (3-2) on \"Thursday Night Football.\"\n\nSeahawks reporter Brady Henderson and Broncos reporter Jeff Legwold bring you all the highlights and key plays from Thursday's game:"
     },
     {
+      "story_id": "50193826",
+      "headline": "Brewers sweep Dodgers, advance to first World Series in 44 years",
+      "summary": "Brewers sweep Dodgers, advance to first World Series in 44 years",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/41dc1a8d13324edaaca2597f1304dd8c1399/41dc1a8d13324edaaca2597f1304dd8c1399.jpg",
+      "published_utc": "2026-10-16T03:19:35Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50193826/brewers-sweep-dodgers-advance-first-world-series-44-years",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1016/41dc1a8d-1332-4eda-aca2-597f1304dd8c/41dc1a8d-1332-4eda-aca2-597f1304dd8c/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50193746",
       "headline": "Levshunov scores in OT as the Blackhawks beat the Jets 4-3; Kane sets assists mark",
-      "summary": "\u2014 Artyom Levshunov scored 1:37 into overtime and Patrick Kane set the NHL record for most assists by a U.S.-born player in a 4-3 win over the Winnipeg Jets on Thursday night.",
+      "summary": "\u2014 Artyom Levshunov scored 1:37 into overtime and Patrick Kane set the NHL record for most assists by a U.S.-born player in a 4-3 win over the...",
       "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892512.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-16T03:06:27Z",
+      "published_utc": "2026-10-16T03:14:27Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
@@ -11293,32 +11029,18 @@
       "body": "CHICAGO -- \u2014 Artyom Levshunov scored 1:37 into overtime and Patrick Kane set the NHL record for most assists by a U.S.-born player in a 4-3 win over the Winnipeg Jets on Thursday night.\n\n\r\nConnor Bedard scored on the power play for his first goal of the season after missing the first six games with a shoulder injury. Frank Nazar and Ryan Donato also scored for Chicago and Bedard added an assist.\n\n\r\nAfter breaking Phil Housley\u2019s record with his 895th assist in the first period, Kane had a hand in Levshunov\u2019s game-winner.\n\n\r\nKane gained the Jets\u2019 zone and dropped the puck to Bedard, who fed Levshunov. The defenseman took a few steps up the middle and snapped a shot to beat Stuart Skinner on the glove side.\n\n\r\nThe goal came some 40 seconds after Blackhawks goalie Spencer Knight kicked out his left pad to foil Neal Pionk\u2019s attempt to convert Mark Scheifele\u2019s cross-ice pass on a two-on-one break.\n\n\r\nKnight had 31 saves.\n\n\r\nPionk had a goal and two assists. Kyle Connor, on the power play, and Alex Iafallo also had goals for the Jets. Connor now has a four-game point streak with five goals and an assist. Skinner had 24 saves.\n\n\r\nPionk's point shot went in off Iafallo\u2019s shin at the right of the net to tie it at 3 5:39 into the third period. It was the defensman's eighth career three-point game.\n\n\r\nThe Jets had dominated the Blackhawks recently coming into the game 8-1-1 in their past 10 outings against Chicago, with their only loss a 2-0 decision at Chicago on Jan. 19.\n\n\r\nUp next\r\nJets: Host the Carolina Hurricanes on Saturday.\n\n\r\nBlackhawks: Host the Dallas Stars on Saturday night.\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
-      "story_id": "50193529",
-      "headline": "Toronto Raptors vs. New York Knicks: Game Highlights",
-      "summary": "Toronto Raptors vs. New York Knicks: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/26eb8ae8-f5eb-49c6-b656-5e897c75735f/26eb8ae8-f5eb-49c6-b656-5e897c75735f.jpg",
-      "published_utc": "2026-10-16T03:02:10Z",
+      "story_id": "50193708",
+      "headline": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/93f85ee0-0525-4543-b304-055293315ba8/93f85ee0-0525-4543-b304-055293315ba8.jpg",
+      "published_utc": "2026-10-16T03:12:00Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50193529/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1016/26eb8ae8-f5eb-49c6-b656-5e897c75735f/26eb8ae8-f5eb-49c6-b656-5e897c75735f/playlist.m3u8",
+      "link": "https://www.espn.com/video/clip/_/id/50193708/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1016/93f85ee0-0525-4543-b304-055293315ba8/93f85ee0-0525-4543-b304-055293315ba8/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50186625",
-      "headline": "MLB playoffs: NLCS Game 4 updates, ALCS Game 3 takeaways",
-      "summary": "Cleveland took a 2-1 ALCS lead on Tampa Bay, while Milwaukee looks to sweep L.A. in Game 4 of the NLCS.",
-      "image": "https://a.espncdn.com/photo/2026/1016/r1731420_608x342_16-9.jpg",
-      "published_utc": "2026-10-16T03:00:34Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50186625/playoffs-nlcs-game-4-dodgers-brewers-alcs-game-3-guardians-rays",
-      "stream_url": "",
-      "body": "On Day 5 of the league championship series, one team broke a series tie ... and another advanced to the World Series.\n\nIn the finale of the NLCS, the Milwaukee Brewers pulled off yet another come-from-behind win to sweep the reigning champion Los Angeles Dodgers at Dodger Stadium and advance to their first Fall Classic since 1982.\n\nAfter splitting the first two games in Tampa Bay, the Cleveland Guardians and Tampa Bay Rays faced off at Progressive Field in the day's first game. Thanks to Petey Halpin -- and his epic bat flip -- Cleveland prevailed, taking a 2-1 ALCS lead.\n\nWe have you covered with in-game action and postgame analysis from Los Angeles and Cleveland.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nJump to: TB-CLE | MIL-LAD\n\nMilwaukee Brewers 6, Los Angeles Dodgers 4\nMilwaukee wins series 4-0\n\nIt was over when ... David Hamilton blasted a home run with two outs in the top of the ninth inning, extending the Milwaukee lead to two runs -- which, for a Dodgers offense that was already down, must've felt like a finishing body blow. At the moment of contact, a collective ooooh could be heard in the lowest bowl of Dodger Stadium.\n\nThe stat that defined the game: The Dodgers went 2-for-11 with runners in scoring position, repeatedly squandering chances to tie the game in the final innings. They had a runner at second and one out in the sixth, a runner at third with one out in the seventh and a runner at third with one out in the eighth. Time and again, they could not plate the run they needed to knot the score. -- Buster Olney\n\nGame 4 star: After a typical Brewers rally from a four-run deficit (they tied it up with no home runs), Garrett Mitchell lit up Dodgers lefty Tanner Scott for a go-ahead solo homer in the sixth. The rally typified how the Brewers play when they are at their best, and the lockdown bullpen always deserves plaudits. But it was Mitchell's blast that put Milwaukee in position to roll out its \"A\" bullpen with a lead to protect. -- Bradford Doolittle\n\nHighlights from Milwaukee's win:\n\nBrewers complete the sweep, punch their ticket to the World Series\n\nMilwaukee adds an insurance run in the 9th\n\nDodgers continue to struggle with runners in scoring position\n\nBrewers take lead off of Mitchell's solo homer\n\nA bases-loaded walk from Vesia ties the game\n\nBauers' 2-run double makes it 4-2\n\nOhtani breaks slump with 3-run blast to give L.A. 4-run lead\n\nPages gets Dodgers on the board first\n\nGame 4 kicks off with wild play\n\nCleveland Guardians 3, Tampa Bay Rays 2\nCleveland leads series 2-1\n\nIt was over when ... Petey Halpin cranked a 96 mph sinker down the middle from Griffin Jax in the fifth inning. The ball landed deep into the right-field seats, 385 feet away, for a go-ahead two-run home run. Halpin flipped his bat nearly that high, too, and Cleveland didn't look back.\n\nGame 3 star: Halpin, who began the season in Triple-A, had four big league home runs -- all during the regular season -- in 213 career plate appearances before Thursday. The center fielder's first postseason homer was the difference Thursday.\n\nThe stat that defined the game: The Rays' 13 strikeouts against Guardians pitching. The Rays posted the lowest strikeout rate in the majors this season at 18.8%. They struck out more than 12 times once, when they compiled 14 strikeouts against the Milwaukee Brewers back on March 30 in their fourth game of the season. Rays star Junior Caminero went 0-for-4 with four strikeouts -- matching a career high from 2025. So Thursday was an extreme outlier. Guardians starter Gavin Williams, the American League's strikeout leader this season, had nine strikeouts in five innings before four relievers combined for the remaining four punchouts. Tampa Bay will have to put the ball in play more to come back and win this series.\n\nWhat it means for the rest of the series: With rain in the forecast Friday, there's a chance this series won't play Game 4 until Saturday. If so, the clubs would play Game 5 on Sunday, which would take away their travel day before a potential Game 6 in Tampa Bay on Monday. For now, Game 4 is scheduled for 6 p.m. ET Friday. -- Jorge Castillo\n\nHighlights from the Guardians' win:\n\nHalpin's homer, um, flips lead back to Guardians\n\nSimpson silences Cleveland crowd with two-run triple\n\nGavin gettin' it done early\n\nGuardians score first on Lowe's double\n\nA series-defining day?"
     },
     {
       "story_id": "50176202",
@@ -11447,46 +11169,46 @@
       "body": "Browns coach Todd Monken and Ravens quarterback Tyler Huntley won't be in a sentimental mood when Cleveland hosts Baltimore in an AFC North matchup on Sunday.\n\n\r\nMonken, in his first season leading the Browns, was Baltimore's offensive coordinator for the previous three seasons. Huntley is expected to make his second straight start because Lamar Jackson is still recovering from an ankle injury.\n\n\r\nBoth teams are off to good starts. Cleveland (3-2) can win each of its first three home games for the first time in six years and third time since the franchise returned in 1999. Baltimore (4-1) is looking to go 4-0 on the road for the second time in franchise history. The other time was in 2020.\n\n\r\nRavens coach Jesse Minter, also in his first season, said this week that Jackson is the level of player who could still start on Sunday despite not stepping on the practice field. Huntley \u2014 who had two stints on Cleveland's roster during training camps in 2024 and \u201825 \u2014 is 3-0 as a starter since last season, when he began his second stint as Jackson\u2019s backup.\n\n\r\nMonken was still in limbo working for Baltimore after John Harbaugh was fired as coach and when he interviewed with the Browns. He did his first interview with Cleveland on Zoom while in his office at the Ravens complex.\n\n\r\n\u201cI would say that I\u2019m very grateful for the opportunity. I continued to work out of my office. I was allowed to continue to keep working there,\u201d Monken said. \u201cGot a lot of good friends and people there, but other than that, no, it\u2019s a divisional game. It\u2019s the next one.\u201d\n\n\r\nMonken also knows plenty about Huntley after coaching him last season. Huntley was 24 of 32 for 201 yards and two touchdowns last weekend as the Ravens rallied to beat Atlanta 30-23 in overtime and move into sole possession of the AFC North lead.\n\n\r\n\u201cI know it sounds really overused, but the moment never gets too big for him,\u201d Monken said. \u201cHe loves to play football, and he gets in the game and he\u2019s able to make plays with his arms and his legs, and he gets rid of the ball and knows where to get the ball out when under duress.\u201d\n\n\r\nBaltimore still has running back Derrick Henry, who rushed for 103 yards and had two touchdowns (one rushing, one receiving) the last time the teams played.\n\n\r\nBoth teams are banged up. Thursday\u2019s injury report had 38 players listed \u2014 21 for Baltimore and 17 for Cleveland.\n\n\r\nBrowns quarterback Deshaun Watson might face a larger burden to carry the offense with the rushing attack struggling. Running back Quinshon Judkins is questionable with an ankle injury.\n\n\r\nBaltimore cornerback Marlon Humphrey said Monken is one of his favorite coaches, just not this week.\n\n\r\n\u201cI freaking love Todd. He was probably one of my favorite coaches of all time,\u201d Humphrey said. \u201cHe\u2019s just a cool guy to chat (with). I think we talked in Green Bay for a preseason game probably for like two hours just giving me his rundown of places he has been, family, the whole nine. If I know Todd the way I think I know Todd, he will want to kick our tail. So, I am trying not to let that happen.\u201d\n\n\r\nNeed to know\r\nBaltimore (4-1) at Cleveland (2-3).\n\n\r\nWhen/where to watch: Sunday, 1 p.m. EDT, Fox.\n\n\r\nLatest odds: Ravens by 4 1/2.\n\n\r\nAgainst the spread: Ravens 2-3; Browns 3-2.\n\n\r\nLast week: Ravens beat the Falcons 30-23 in OT; Browns lost to Jets 17-12.\n\n\r\nLast meeting: Ravens beat Browns 23-16 on Nov. 16, 2025, in Cleveland.\n\n\r\nSeries record: Ravens lead 39-15.\n\n\r\nMatchup to watch\r\nBrowns WR Denzel Boston against the Ravens secondary. Boston leads NFL rookies with 330 yards receiving, with most of his catches coming on deep throws. Opponents have thrown only seven passes of at least 20 air yards against the Ravens this year, second fewest in the league. The Ravens are one of just three teams not to allow a deep touchdown.\n\n\r\nStats and stuff\r\n\u2014 Baltimore has won the last three meetings in the series and is 18-9 in games played in Cleveland.\n\n\r\n\u2014 Henry is tied for second in the league with seven rushing TDs and is fifth in rushing yards (476). He needs one rushing score to join Hall of Famers Marcus Allen and Marshall Faulk as the only players in NFL history to have at least 40 rushing TDs with two teams.\n\n\r\n\u2014 Baltimore defensive lineman Calais Campbell is looking to become the third player since 1982 to record a sack at age 40 or older. The others are Bruce Smith and Clay Matthews.\n\n\r\n\u2014 Ravens tight end Mark Andrews has scored a touchdown in three of his last four meetings against the Browns. He had his only career rushing TD in the last game between the two teams.\n\n\r\n\u2014 Watson has a 2-2 record against the Ravens with three touchdowns and three interceptions.\n\n\r\n\u2014 Browns kicker Andre Szmyt has made 24 consecutive field goals, the third-longest streak in franchise history.\n\n\r\n\u2014 Cleveland's defense is tied for first in the league in fewest rushing touchdowns allowed with one and is second with 32 tackles for loss.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
-      "story_id": "50193719",
-      "headline": "Matt Boldy has 5th career hat trick and Wild beat Blues 5-4",
-      "summary": "\u2014 Matt Boldy had his fifth career hat trick as part of a four-point night, Kirill Kaprizov added his league-high ninth goal and two assists, and the Minnesota Wild held off the St. Louis Blues...",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892514.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-16T03:04:28Z",
+      "story_id": "50186625",
+      "headline": "MLB playoffs: Takeaways from NLCS Game 4, ALCS Game 3",
+      "summary": "Milwaukee swept L.A. to advance to the World Series, while Cleveland took a 2-1 ALCS lead over Tampa Bay.",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731471_608x342_16-9.jpg",
+      "published_utc": "2026-10-16T03:18:29Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50186625/playoffs-nlcs-game-4-dodgers-brewers-alcs-game-3-guardians-rays",
+      "stream_url": "",
+      "body": "On Day 5 of the league championship series, one team broke a series tie ... and another advanced to the World Series.\n\nIn the finale of the NLCS, the Milwaukee Brewers pulled off yet another come-from-behind win to sweep the reigning champion Los Angeles Dodgers at Dodger Stadium and advance to their first Fall Classic since 1982.\n\nAfter splitting the first two games in Tampa Bay, the Cleveland Guardians and Tampa Bay Rays faced off at Progressive Field in the day's first game. Thanks to Petey Halpin -- and his epic bat flip -- Cleveland prevailed, taking a 2-1 ALCS lead.\n\nWe have you covered with in-game action and postgame analysis from Los Angeles and Cleveland.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nJump to: TB-CLE | MIL-LAD\n\nMilwaukee Brewers 6, Los Angeles Dodgers 4\nMilwaukee wins series 4-0\n\nIt was over when ... David Hamilton blasted a home run with two outs in the top of the ninth inning, extending the Milwaukee lead to two runs -- which, for a Dodgers offense that was already down, must've felt like a finishing body blow. At the moment of contact, a collective ooooh could be heard in the lowest bowl of Dodger Stadium.\n\nThe stat that defined the game: The Dodgers went 2-for-11 with runners in scoring position, repeatedly squandering chances to tie the game in the final innings. They had a runner at second and one out in the sixth, a runner at third with one out in the seventh and a runner at third with one out in the eighth. Time and again, they could not plate the run they needed to knot the score. -- Buster Olney\n\nGame 4 star: After a typical Brewers rally from a four-run deficit (they tied it up with no home runs), Garrett Mitchell lit up Dodgers lefty Tanner Scott for a go-ahead solo homer in the sixth. The rally typified how the Brewers play when they are at their best, and the lockdown bullpen always deserves plaudits. But it was Mitchell's blast that put Milwaukee in position to roll out its \"A\" bullpen with a lead to protect. -- Bradford Doolittle\n\nHighlights from Milwaukee's win:\n\nBrewers complete the sweep, punch their ticket to the World Series\n\nMilwaukee adds an insurance run in the 9th\n\nDodgers continue to struggle with runners in scoring position\n\nBrewers take lead off of Mitchell's solo homer\n\nA bases-loaded walk from Vesia ties the game\n\nBauers' 2-run double makes it 4-2\n\nOhtani breaks slump with 3-run blast to give L.A. 4-run lead\n\nPages gets Dodgers on the board first\n\nGame 4 kicks off with wild play\n\nCleveland Guardians 3, Tampa Bay Rays 2\nCleveland leads series 2-1\n\nIt was over when ... Petey Halpin cranked a 96 mph sinker down the middle from Griffin Jax in the fifth inning. The ball landed deep into the right-field seats, 385 feet away, for a go-ahead two-run home run. Halpin flipped his bat nearly that high, too, and Cleveland didn't look back.\n\nGame 3 star: Halpin, who began the season in Triple-A, had four big league home runs -- all during the regular season -- in 213 career plate appearances before Thursday. The center fielder's first postseason homer was the difference Thursday.\n\nThe stat that defined the game: The Rays' 13 strikeouts against Guardians pitching. The Rays posted the lowest strikeout rate in the majors this season at 18.8%. They struck out more than 12 times once, when they compiled 14 strikeouts against the Milwaukee Brewers back on March 30 in their fourth game of the season. Rays star Junior Caminero went 0-for-4 with four strikeouts -- matching a career high from 2025. So Thursday was an extreme outlier. Guardians starter Gavin Williams, the American League's strikeout leader this season, had nine strikeouts in five innings before four relievers combined for the remaining four punchouts. Tampa Bay will have to put the ball in play more to come back and win this series.\n\nWhat it means for the rest of the series: With rain in the forecast Friday, there's a chance this series won't play Game 4 until Saturday. If so, the clubs would play Game 5 on Sunday, which would take away their travel day before a potential Game 6 in Tampa Bay on Monday. For now, Game 4 is scheduled for 6 p.m. ET Friday. -- Jorge Castillo\n\nHighlights from the Guardians' win:\n\nHalpin's homer, um, flips lead back to Guardians\n\nSimpson silences Cleveland crowd with two-run triple\n\nGavin gettin' it done early\n\nGuardians score first on Lowe's double\n\nA series-defining day?"
+    },
+    {
+      "story_id": "50193817",
+      "headline": "Celebrini scores lone shootout goal to lift the Sharks past the Predators 3-2",
+      "summary": "\u2014 Macklin Celebrini scored the only goal of a shootout to give the San Jose Sharks a 3-2 victory over the Nashville Predators on Thursday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892513.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-16T03:13:28Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892514",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892513",
       "stream_url": "",
-      "body": "ST. PAUL, Minn. -- \u2014 Matt Boldy had his fifth career hat trick as part of a four-point night, Kirill Kaprizov added his league-high ninth goal and two assists, and the Minnesota Wild held off the St. Louis Blues 5-4 on Thursday night.\n\n\r\nQuinn Hughes had two assists to establish a franchise record for the longest season-opening point streak at eight games.\n\n\r\nDanila Yurov also scored, Joel Eriksson Ek also had two assists and Jesper Wallstedt made 20 saves for Minnesota, which has won three of four.\n\n\r\nDylan Holloway scored with 15 seconds left for St. Louis after Robert Thomas scored with 4 minutes remaining. Jonatan Berggren and Mason McTavish also had goals.\n\n\r\nFrom near the left dot, Boldy hammered home a no-look backhand pass by Kaprizov for a 5-2 lead late in the second period, leading to hats aplenty landing on the ice.\n\n\r\nBoldy, who scored on a one-timer in the first period and off a turnover earlier in the second period, is the third-fastest active American skater to record five hat tricks, doing so in 369 games. Only Tage Thompson of Buffalo (279 games) and Jason Robertson of Dallas (363) were quicker.\n\n\r\nThe top-line trio of Boldy, Kaprizov and Eriksson Ek has 12 goals in the past four games. Boldy has five, as does Kaprizov, including a hat trick last Saturday at Florida and both goals in Tuesday\u2019s 5-2 loss at Winnipeg.\n\n\r\nHughes, who fed Boldy for his first goal, is the third defenseman in NHL history to open a season with an assist streak of at least eight games. Colorado\u2019s John-Michael Liles has the record at nine in 2010-11, and Ottawa\u2019s Filip Kuba also had eight in 2008-09.\n\n\r\nJoel Hofer made 33 saves for the Blues.\n\n\r\nSt. Louis played without Pavel Buchnevich. The left wing, who had three assists in Tuesday\u2019s 7-2 win over Ottawa, returned home for the birth of his child.\n\n\r\nUp next\r\nBlues: At Nashville on Saturday.\n\n\r\nWild: Host Columbus on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": "NASHVILLE, Tenn. -- \u2014 Macklin Celebrini scored the only goal of a shootout to give the San Jose Sharks a 3-2 victory over the Nashville Predators on Thursday night.\n\n\r\nMason Marchment and Will Smith scored, and Alex Nedeljkovic made 33 saves to help the Sharks snap a two-game losing streak. Nedeljkovic has won both of his starts this season.\n\n\r\nRyan O\u2019Reilly and Steven Stamkos scored, and Juuse Saros made 30 saves for Nashville, losers of three straight. Saros is 15-2-2 in his career against San Jose.\n\n\r\nCelebrini beat Saros with a wrist shot on the glove side for the shootout's only goal. All four of the Sharks' wins on the season have been beyond regulation time.\n\n\r\nMarchment scored the game\u2019s first goal at 5:20 of the opening period.\n\n\r\nFrom behind the Nashville net, Tyler Toffoli sent a pass to Marchment in front, where he beat Saros for his second goal of the season.\n\n\r\nSmith doubled the San Jose lead at 4:28 of the third, snapping a wrist shot from the right circle to beat Saros on the far side.\n\n\r\nSmith has seven points, three goals and four assists, in seven career games played against Nashville.\n\n\r\nO\u2019Reilly spoiled Nedeljkovic\u2019s shutout bid with a power-play goal at 9:05 of the third, putting home the rebound of a Jonathan Marchessault shot. O\u2019Reilly has goals in consecutive games.\n\n\r\nWith Saros pulled for an extra attacker, Stamkos tied the game with just 0.8 of a second remaining in regulation.\n\n\r\nSaros stopped Smith on a breakaway attempt with 3:30 left in overtime then denied Kiefer Sherwood on a breakaway with 1:14 remaining. Nedeljkovic stopped a one-timer from Roman Josi with nine seconds left.\n\n\r\nUp next\r\nSharks: At Detroit on Saturday night.\n\n\r\nPredators: Host St. Louis on Saturday night.\n\n\r\n------ See AP\u2019s full NHL coverage here"
     },
     {
-      "story_id": "50191473",
-      "headline": "Maxey: Healthy Embiid 'changes everything' for Sixers",
-      "summary": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/ss_20261001_164537987_3680997/ss_20261001_164537987_3680997.jpg",
-      "published_utc": "2026-10-15T21:43:26Z",
+      "story_id": "50193529",
+      "headline": "Toronto Raptors vs. New York Knicks: Game Highlights",
+      "summary": "Toronto Raptors vs. New York Knicks: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/26eb8ae8-f5eb-49c6-b656-5e897c75735f/26eb8ae8-f5eb-49c6-b656-5e897c75735f.jpg",
+      "published_utc": "2026-10-16T03:02:10Z",
       "competition_id": "nba",
       "competition_name": "NBA",
-      "byline": "Kris Rhim",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
-      "stream_url": "",
-      "body": "CAMDEN, N.J. -- Philadelphia 76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.\n\nEmbiid's 10-year career has been marred by injury. He has never played a full 82 games and has played more than 60 games just four times in his career. Over his 10 seasons, he has averaged just 49 games per season, which doesn't include him missing his first two seasons with injury.\u200b\n\nEmbiid played just 38 games last season, double his number from 2024, as he navigated right hip complications, left knee management and appendicitis. The injuries have often kept Embiid out of training camp and the preseason -- crucial time for a team to get comfortable playing with a player like Embiid, the 2023 NBA MVP.\n\n\"You can put in more packages,\" Maxey said. \"There's been times where he hasn't been healthy and we get into the game and now we're trying to learn on the flow.\"\n\nMaxey said his experience gives him the advantage. He knows where Embiid likes to catch the ball, where he wants guards to cut and other tendencies that he has learned over six years of playing together. But many of the Sixers' new additions, most notably among them LeBron James and Jaylen Brown, don't have that luxury.\n\nThe difference this year is that they had a healthy Embiid in training camp and the preseason to make that transition easier.\n\n\u200b\"If you haven't been playing with a big like Joel, there's not many. It's very hard, very difficult to learn certain things,\" he said. \"...So, with him being here, we can drill those things over and over. It's been what, like two, three weeks that we've had just drilling and drilling. That's a good thing.\"\n\nAt the end of last season, Embiid said he was \"as confident as I've ever been\" about his health moving forward.\n\n\"I think, obviously, [my knee] was the biggest concern, and I'm not thinking about it,\" he said. \"And as long as we keep doing what we've been doing, I won't have to think about it anymore."
-    },
-    {
-      "story_id": "50192041",
-      "headline": "Dodgers' Shohei Ohtani ends HR drought with 3-run shot in NLCS Game 4",
-      "summary": "Shohei Ohtani unleashed a prodigious three-run homer in the second inning off Brewers right-hander Dustin May, ending a 25-game homerless drought.",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730402_1296x729_16-9.jpg",
-      "published_utc": "2026-10-16T02:09:14Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Alden Gonzalez",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50192041/dodgers-move-shohei-ohtani-leadoff-spot-nlcs-game-4",
-      "stream_url": "",
-      "body": "LOS ANGELES -- Shohei Ohtani flipped his bat toward the third-base dugout and raised his hands into the air, fully embracing a moment he hadn't experienced in nearly two months.\n\nThe Los Angeles Dodgers star unleashed a prodigious three-run homer in the second inning off Milwaukee Brewers right-hander Dustin May, giving his team an early 4-0 lead in Thursday's Game 4 of the National League Championship Series.\n\nThe Brewers, though, rallied back, winning 6-4 to sweep NLCS and advance to the World Series.\n\nOhtani was badly fooled on an 0-1 cutter low and in. When he got another, it was within the strike zone, and he sent it 428 feet to right field, sending a packed Dodger Stadium into a frenzy. It was Ohtani's first home run since Aug. 18, a 25-game drought that represented the longest of his career, and it went for his first extra-base hit of these playoffs.\n\nThe home run, the Dodgers' first of this NLCS, was relief for Ohtani -- and vindication for manager Dave Roberts and the franchise's principal decision-makers.\n\nAfter the first two games of this NLCS, Ohtani was slashing .156/.283/.200 since Aug. 18, and he had produced just three singles in 20 postseason at-bats. Roberts went into the Tuesday workout planning to give Ohtani at least one game off to rest his ailing body, but said Ohtani was \"adamant\" and \"convicted\" that he was close to figuring something out mechanically and could help the team.\n\nOhtani responded with some encouraging signs, reaching base via a walk and a hit by pitch, lining a 113.5 mph single up the middle and flying out to the opposite field in a 6-2 loss that put the Dodgers in a 3-0 hole Wednesday. For Game 4, Ohtani was in the leadoff spot even though the Brewers started left-hander Shane Drohan. It marked his first time leading off against an opposing lefty since Sept. 2.\n\nRoberts was asked pregame what Ohtani's reaction was to learning where he'd be hitting.\n\n\"I didn't tell him,\" Roberts said with a wry grin. \"I just posted the lineup.\"\n\nWhen Ohtani returned off the injured list Sept. 23, he platooned with Mookie Betts in the leadoff spot, hitting second against lefties. When the NL Division Series shifted to Atlanta, he moved into the Nos. 4 and 5 spots. For Game 3 of the NLCS, he batted sixth, the lowest he had started a game since 2020.\n\nGoing into Game 4, the Dodgers had produced just two extra-base hits in three NLCS games and had put up a .572 OPS in these playoffs, ranked 240th among the 246 teams that have played at least seven games in a single postseason. Nobody had embodied those struggles better than Ohtani, who has spent all of October late on fastballs in the zone and helplessly flailing at breaking balls low and away.\n\nThe Dodgers continually displayed their faith in Ohtani. But when it came to batting him leadoff for Game 4, there was more to it than that.\n\n\"The work, being here till 9 o'clock two nights ago working, the at-bats yesterday -- for me, baking all that in, I felt, 'Absolutely, put him at the top,'\" Roberts said. \"I feel good about him taking five at-bats and giving us our best chance to win and produce runs today.\""
+      "link": "https://www.espn.com/video/clip/_/id/50193529/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1016/26eb8ae8-f5eb-49c6-b656-5e897c75735f/26eb8ae8-f5eb-49c6-b656-5e897c75735f/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "50182030",
