@@ -1,20 +1,22 @@
 {
-  "generated_utc": "2026-10-17T22:58:29.578120+00:00",
+  "generated_utc": "2026-10-17T23:05:34.469110+00:00",
   "window_days": 2,
-  "total_events": 252,
+  "total_events": 255,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
+      "events": 3,
+      "date_range": [
+        "2026-10-15",
+        "2026-10-18"
+      ],
+      "explicit_status": 3,
+      "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "live_now": 0
     },
     {
       "competition": "afl",
@@ -238,7 +240,7 @@
       "status_coverage_pct": 100,
       "both_logos": 60,
       "logo_coverage_pct": 100,
-      "live_now": 10
+      "live_now": 11
     },
     {
       "competition": "ncaam",
@@ -426,33 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-10-14",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/68778/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-10-15",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/68778/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-10-16",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/68778/episodes: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-10-17",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/68778: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:aew",
-      "date": "2026-10-18",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/68778: The read operation timed out"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",

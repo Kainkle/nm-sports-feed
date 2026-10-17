@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T22:58:29.564989+00:00",
+  "generated_utc": "2026-10-17T23:05:34.455340+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915416",
@@ -833,6 +833,78 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "tvmaze:42189:s8e41",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-10-15T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:42189",
+        "name": "All Elite Wrestling: Dynamite",
+        "abbrev": "DYN",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "All Elite Wrestling: Dynamite"
+    },
+    {
+      "event_id": "tvmaze:68778:s4e46",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-10-15T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
     },
     {
       "event_id": "mlb:849811",
@@ -5162,7 +5234,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:61",
         "name": "Georgia Bulldogs",
@@ -5192,9 +5264,9 @@
         "color": "002b5c"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Sanford Stadium",
-      "detail": "0:27 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5240,53 +5312,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Neyland Stadium",
-      "detail": "3:22 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856721",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:145",
-        "name": "Ole Miss Rebels",
-        "abbrev": "MISS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-        "logo_dark": null,
-        "aliases": [
-          "MISS",
-          "Ole Miss",
-          "Ole Miss Rebels",
-          "Rebels"
-        ],
-        "color": "13294b"
-      },
-      "away": {
-        "id": "espn:142",
-        "name": "Missouri Tigers",
-        "abbrev": "MIZ",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIZ",
-          "Missouri",
-          "Missouri Tigers",
-          "Tigers"
-        ],
-        "color": "f1b82d"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Vaught-Hemingway Stadium",
-      "detail": "Final",
+      "detail": "1:56 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5333,7 +5359,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Galaxy Stadium",
-      "detail": "6:30 - 4th Quarter",
+      "detail": "3:25 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5379,7 +5405,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Wallace Wade Stadium",
-      "detail": "2:23 - 4th Quarter",
+      "detail": "1:53 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5425,54 +5451,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Michigan Stadium",
-      "detail": "2:13 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864522",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2751",
-        "name": "Wyoming Cowboys",
-        "abbrev": "WYO",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cowboys",
-          "WYO",
-          "Wyoming",
-          "Wyoming Cowboys"
-        ],
-        "color": "492f24"
-      },
-      "away": {
-        "id": "espn:2459",
-        "name": "Northern Illinois Huskies",
-        "abbrev": "NIU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-        "logo_dark": null,
-        "aliases": [
-          "Huskies",
-          "N Illinois",
-          "NIU",
-          "Northern Illinois",
-          "Northern Illinois Huskies"
-        ],
-        "color": "c8102e"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "War Memorial Stadium",
-      "detail": "1:14 - 4th Quarter",
+      "detail": "1:52 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5519,7 +5498,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rynearson Stadium",
-      "detail": "3:00 - 4th Quarter",
+      "detail": "1:42 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5528,44 +5507,43 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401866478",
+      "event_id": "espn:football:401856721",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T19:30Z",
       "status": "final",
       "home": {
-        "id": "espn:193",
-        "name": "Miami (OH) RedHawks",
-        "abbrev": "M-OH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+        "id": "espn:145",
+        "name": "Ole Miss Rebels",
+        "abbrev": "MISS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
         "logo_dark": null,
         "aliases": [
-          "M-OH",
-          "Miami (OH)",
-          "Miami (OH) RedHawks",
-          "Miami OH",
-          "RedHawks"
+          "MISS",
+          "Ole Miss",
+          "Ole Miss Rebels",
+          "Rebels"
         ],
-        "color": "c41230"
+        "color": "13294b"
       },
       "away": {
-        "id": "espn:2006",
-        "name": "Akron Zips",
-        "abbrev": "AKR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+        "id": "espn:142",
+        "name": "Missouri Tigers",
+        "abbrev": "MIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
         "logo_dark": null,
         "aliases": [
-          "AKR",
-          "Akron",
-          "Akron Zips",
-          "Zips"
+          "MIZ",
+          "Missouri",
+          "Missouri Tigers",
+          "Tigers"
         ],
-        "color": "041e42"
+        "color": "f1b82d"
       },
       "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "Yager Stadium",
+      "venue": "Vaught-Hemingway Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5621,6 +5599,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401864522",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2751",
+        "name": "Wyoming Cowboys",
+        "abbrev": "WYO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "WYO",
+          "Wyoming",
+          "Wyoming Cowboys"
+        ],
+        "color": "492f24"
+      },
+      "away": {
+        "id": "espn:2459",
+        "name": "Northern Illinois Huskies",
+        "abbrev": "NIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "N Illinois",
+          "NIU",
+          "Northern Illinois",
+          "Northern Illinois Huskies"
+        ],
+        "color": "c8102e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "War Memorial Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401864524",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5657,6 +5682,53 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Falcon Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866478",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:193",
+        "name": "Miami (OH) RedHawks",
+        "abbrev": "M-OH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "M-OH",
+          "Miami (OH)",
+          "Miami (OH) RedHawks",
+          "Miami OH",
+          "RedHawks"
+        ],
+        "color": "c41230"
+      },
+      "away": {
+        "id": "espn:2006",
+        "name": "Akron Zips",
+        "abbrev": "AKR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+        "logo_dark": null,
+        "aliases": [
+          "AKR",
+          "Akron",
+          "Akron Zips",
+          "Zips"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Yager Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5751,7 +5823,7 @@
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "pQ8NAAzlM_E",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5795,7 +5867,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "First Community Stadium",
-      "detail": "0:45 - 3rd Quarter",
+      "detail": "12:02 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5841,7 +5913,7 @@
       "venue": "Allianz Field",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "dd-9C99o9WI",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5885,7 +5957,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Our Lady of Lourdes Stadium",
-      "detail": "13:34 - 3rd Quarter",
+      "detail": "10:42 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6019,7 +6091,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "13:46 - 2nd Quarter",
+      "detail": "11:12 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6447,7 +6519,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:58",
         "name": "South Florida Bulls",
@@ -6477,9 +6549,9 @@
         "color": "002664"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Raymond James Stadium",
-      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "detail": "14:11 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6493,7 +6565,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2449",
         "name": "North Dakota State Bison",
@@ -6524,9 +6596,9 @@
         "color": "041e42"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Fargodome",
-      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "detail": "14:26 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6540,7 +6612,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2572",
         "name": "Southern Miss Golden Eagles",
@@ -6571,9 +6643,9 @@
         "color": "cc092f"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "M. M. Roberts Stadium",
-      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "detail": "14:09 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7072,6 +7144,42 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "tvmaze:68778:s4e47",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-10-18T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
     },
     {
       "event_id": "nhl:2026020131",
@@ -11380,11 +11488,25 @@
   ],
   "stories": [
     {
+      "story_id": "50205091",
+      "headline": "Vancouver Canucks vs. Tampa Bay Lightning: Game Highlights",
+      "summary": "Vancouver Canucks vs. Tampa Bay Lightning: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/ff01eaa9-4dd4-4f03-8e64-43d618448ee3/ff01eaa9-4dd4-4f03-8e64-43d618448ee3.jpg",
+      "published_utc": "2026-10-17T22:56:08Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50205091/game-highlights",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1017/ff01eaa9-4dd4-4f03-8e64-43d618448ee3/ff01eaa9-4dd4-4f03-8e64-43d618448ee3/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50202417",
       "headline": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely",
-      "summary": "The Eagles have decided to place Jalen Hurts on injured reserve after consultations with numerous doctors and experts, sources told ESPN and NFL Network.",
+      "summary": "The Eagles have placed Jalen Hurts on injured reserve after consultations with numerous doctors and experts, sources told ESPN and NFL Network.",
       "image": "https://a.espncdn.com/photo/2026/1004/r1726004_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T22:46:23Z",
+      "published_utc": "2026-10-17T22:48:14Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Adam Schefter and Ian Rapoport",
@@ -11394,18 +11516,18 @@
       "body": "The Philadelphia Eagles have placed Jalen Hurts on injured reserve after consultations with numerous doctors and experts that continued into Saturday, sources told ESPN and NFL Network.\n\nThe move will sideline the star quarterback indefinitely, according to sources. The Eagles, who officially announced the move Saturday afternoon, were waiting to make a roster decision until after consulting with medical experts, according to sources.\n\nEver since Hurts started dealing with the superficial blood clot in his calf, the Eagles have been attempting to explore every option and gather as much information as possible. Hurts has met with doctors and had others review his blood clot and weigh in with their knowledge.\n\nAt some time over the past 24 hours, additional information surfaced that made Philadelphia believe the wisest course of action was to place Hurts on IR, giving him the time he needs to heal.\n\nThe Eagles have maintained that they wouldn't rush into a decision about Hurts' future, which is why they waited until Thursday to rule out the three-time Pro Bowl quarterback for Sunday's home game against the Carolina Panthers.\n\nHurts will now miss games against the Panthers, Dallas Cowboys, Washington Commanders and New York Giants before the Eagles have their bye in Week 10, with a chance to fully evaluate their quarterback's health and their team's outlook.\n\nPhiladelphia believes the blood clot is treatable, and the ultimate decision about when Hurts returns to play will come from his medical team, with the Eagles ready to follow his lead.\n\nIn most cases, blood clots are treated with anticoagulants, otherwise known as blood thinners. A player cannot play while on blood thinners.\n\nIn general, the minimum time frame for a moderate dose of anticoagulants is six weeks, sources said. There is a possibility, if the clot is minor enough, that doctors begin with anti-inflammatories only, while continuing to monitor. If the clot were to move, as the team said happened in Hurts' case, blood thinners are often the answer. If the clot were to worsen, blood thinners for roughly three months would be the next course of action.\n\nSome doctors around the NFL who have not examined Hurts believe the blood clot could sideline him for several weeks. One team's doctor texted ESPN: \"It is a broad range and nuance based on size and location and hematology evaluation, but could be six weeks.\" Another team's doctor had a similar estimation.\n\nThe Eagles released a lengthy statement Thursday detailing the process that led to the discovery of the blood clot and to Hurts being ruled out for Sunday's game.\n\nWhile Hurts has been receiving treatment, the Eagles have been working to fortify their roster. Backup quarterback Tanner McKee will start against the Panthers, and rookie Cole Payton was promoted to backup. Philadelphia also signed quarterback Joe Milton off Dallas' practice squad. By NFL rules, Milton must be on the Eagles' roster for three weeks.\n\nThis is just the latest sequence in what has been a chaotic stretch for the organization that has included hamstring injuries to running back Saquon Barkley and wide receiver DeVonta Smith, the retirement of future Hall of Fame offensive tackle Lane Johnson and the trade of Pro Bowl center Cam Jurgens.\n\nAmid the injuries and turnover on their offensive line, the Eagles have gotten off to a rough start offensively this season. They enter Sunday in the bottom five in the NFL in points per game (18.4, 29th), total yards per game (262.2, 31st), yards per play (4.5, 30th) and passing yards per game (170.6, 28th).\n\nThe Eagles have failed to score 25 points in seven consecutive regular-season games, their longest such streak since Nick Sirianni became their coach before the 2021 season. Philadelphia has gone three-and-out on 38% of its possessions, the highest in the NFL this season.\n\nThe Eagles' offense has struggled to stay on the field, specifically in the second half, going three-and-out on 52% of its second-half possessions, which is on pace to be the highest by any NFL team in the past 20 seasons. Philadelphia has been outgained by a league-leading 115 yards per game in the second half this season; the next-worst team in that category is the Indianapolis Colts, who have been outgained by 38 yards per game in the second half."
     },
     {
-      "story_id": "50204885",
-      "headline": "Carolina Hurricanes vs. Winnipeg Jets: Game Highlights",
-      "summary": "Carolina Hurricanes vs. Winnipeg Jets: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/ae6585ac-1907-4621-9b75-9c9557f994a1/ae6585ac-1907-4621-9b75-9c9557f994a1.jpg",
-      "published_utc": "2026-10-17T22:29:17Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
+      "story_id": "50202269",
+      "headline": "How Golden State held court to take 1-0 lead over Atlanta in WNBA Finals",
+      "summary": "Golden State held court 68-64 to take a 1-0 lead over the Atlanta Dream in Game 1 of the WNBA Finals.",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732156_1296x729_16-9.jpg",
+      "published_utc": "2026-10-17T22:44:36Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50204885/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1017/ae6585ac-1907-4621-9b75-9c9557f994a1/ae6585ac-1907-4621-9b75-9c9557f994a1/playlist.m3u8",
-      "body": ""
+      "link": "https://www.espn.com/wnba/story/_/id/50202269/finals-game-1-golden-state-valkyries-atlanta-dream",
+      "stream_url": "",
+      "body": "SAN FRANCISCO -- Game 1 goes to the Golden State Valkyries.\n\nThe No. 2 seed held court 68-64 in Game 1 of the WNBA Finals to take the early lead over the No. 4 Atlanta Dream in the best-of-seven series.\n\nGabby Williams led Golden State with 26 points, including four free throws in the final 1 minute, 18 seconds to seal the victory. The back-and-forth game featured seven lead changes.\n\nAllisha Gray paced the Dream with 19 points but didn't score in the fourth quarter when the Dream shot 2-for-20 in the period. Angel Reese had 14 points and 12 rebounds.\n\nThe Valkyries, who have won all five playoff games at home this postseason and had the best record at home in the regular season, snapped the Dream's 10-game winning streak, which dated to the regular season.\n\nBoth teams seek their first WNBA championship. Game 2 is Monday night back at Chase Center. As the better seed, the Valkyries will host Games 2 and, if necessary, 5 and 7 in a 2-2-1-1-1 format.\n\nESPN was courtside Saturday with live analysis throughout the game.\n\nJump to:\n\nPostgame analysis | Relive the action\n\nMore:\n\nFinals preview | Top 15 players | Schedule | Offseason guide\n\n(2) Golden State Valkyries 68,\n\n(4) Atlanta Dream 64\n\nHow Golden State won the game: Both teams made big runs in this game, which set up a fourth quarter that was all about grit and determination. And also timing. After being outscored 17-9 in the third quarter, the Valkyries outscored the Dream 17-8 in the fourth quarter.\n\nThe Dream went just 4-of-25 from 3-point range, with Allisha Gray going 1-of-8. They were 18-of-21 from the foul line, but that was an area where the Valkyries were able to make up ground in the fourth quarter, finishing 11-of-16 from the stripe.\n\nGetting into crunch time, Atlanta seemed to get a little too sped up offensively and took shots too early when it would have helped the Dream to work their offense more. Of course, that's easier said than done against the best defense in the WNBA.\n\nRebounding ended up being a key factor, as the Valkyries won the board battle 41-35. And Golden State's depth -- much talked about before the series began -- came through. Particularly with Kaila Charles, who played 30 minutes, compiling seven points and 10 rebounds.\n\nGabby Williams led the way with 26 points, the only Valkyries player in double figures. -- Michael Voepel\n\nWhat the win means for the Valkyries: They won their first Finals game in their first WNBA Finals appearance. Even when the Dream went on runs, the Valkyries never deviated from their game plan -- and it never felt like they fully lost momentum. Maybe that's also a credit to the noise in Ballhalla\n\nThis game showed an elite level of composure from the Valkyries, and that is a great sign for Golden State. Williams said even though the Valkyries trailed with a few minutes left in the game, they had the Dream \"right where we wanted them.\" She said it's because they knew the game would come down to stops.\n\n\"That's our bread and butter,\" Williams added.\n\nIf the Valkyries can withstand the Dream's offensive runs and then lock them up on defense, they have a good chance to head to Atlanta with a 2-0 lead. -- Kendra Andrews\n\nWhat changes do you expect in Game 2? The Dream must win a game on the road if they want to win the title, so winning Game 1 would have given them more of a cushion moving forward. Now, Game 2 feels like a must-win at Chase Center before the series shifts to Atlanta for Games 3 and 4.\n\nDream coach Karl Smesko sounded confident in his team's ability to turn it around in Game 2. He said Saturday's game didn't come down to what Golden State did, but rather the Dream's loss was the result of one bad defensive stretch and a cold offensive quarter in the fourth.\n\nStill, when the Dream punched first in the opening quarter, they only led by five points at the end of the period. For Atlanta to even the series on Monday, the Dream have to make sure they are executing. They also need more from Angel Reese, who dominated early but was held scoreless in the second half, and Rhyne Howard, who finished with 12 points but shot 3-for-14 from the field and 2-for-9 from 3-point range. -- Andrews\n\nRelive the live action"
     },
     {
       "story_id": "50204321",
@@ -11434,20 +11556,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50204834/haaland-man-city-hold-resilient-ipswich",
       "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1017/dm_261017_EPL_Highlight_Haaland_Man_City_hold_off_resilient_Ipswich_20261018_AUS_ONLY/dm_261017_EPL_Highlight_Haaland_Man_City_hold_off_resilient_Ipswich_20261018_AUS_ONLY/playlist.m3u8",
       "body": ""
-    },
-    {
-      "story_id": "50176202",
-      "headline": "WNBA Finals 2026: Valkyries vs. Dream schedule, scores, more",
-      "summary": "A new champion is guaranteed to be crowned this season as Golden State and Atlanta meet in the WNBA Finals.",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730283_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T21:54:28Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50176202/2026-wnba-finals-valkyries-dream-schedule-scores-news",
-      "stream_url": "",
-      "body": "And then there were two. After a pair of sweeps in the semifinals, the No. 2 seed Golden State Valkyries and No. 4 Atlanta Dream will play in the WNBA Finals, a best-of-seven series that tips off Saturday at Chase Center in San Francisco.\n\nAs the higher seed, Golden State will host Games 1, 2 and, if necessary, 5 and 7 in a 2-2-1-1-1 format.\n\nThe Dream announced Tuesday that they will host Games 3 and 4 at State Farm Arena, the home of the Atlanta Hawks. As part of the change, Game 3 also moved from Oct. 22 to Oct. 21.\n\nThe Dream's home arena, Gateway Center Arena, holds just 3,500 fans. Six of the Dream's regular-season games this season, and all three playoff games, have been played at State Farm, which seats more than 17,000 fans.\n\nMORE: Finals preview | First round, semis | Offseason guide\n\nWNBA Finals\n\nBest-of-seven series\n\n(2) Golden State Valkyries vs. (4) Atlanta Dream\n\nSaturday, Oct. 17\n\nGame 1: Valkyries 68, Dream 64\n\nMonday, Oct. 19\n\nGame 2: Atlanta at Golden State, 8 p.m. ET, USA/Peacock/CNBC\n\nWednesday, Oct. 21\n\nGame 3: Golden State at Atlanta, 8 p.m. ET, USA/Peacock/CNBC\n\nSaturday, Oct. 24\n\nGame 4: Golden State at Atlanta, 1 p.m. ET, NBC/Peacock\n\nMonday, Oct. 26\n\nGame 5*: Atlanta at Golden State, 8 p.m. ET, USA/Peacock/CNBC\n\nThursday, Oct. 29\n\nGame 6*: Golden State at Atlanta, 8 p.m. ET, USA/Peacock/CNBC\n\nSaturday, Oct. 31\n\nGame 7*: Atlanta at Golden State, 8 p.m. ET, USA/Peacock/CNBC\n\n* If necessary\n\nMore coverage\n\nReese or Williams at No. 1? Ranking the top 15 players in the Finals\nDream's Gray optimistic about Game 1 availability\nFinals guide: Everything to know about Dream-Valkyries matchup\nDream's Gray has minor procedure on hand, is day-to-day\nGames 3, 4 moved to State Farm Arena in Atlanta\nFirst look at the Finals: How Dream, Valkyries match up\nHow the Valkyries reached the Finals -- two years after their debut"
     },
     {
       "story_id": "50203944",
@@ -11548,6 +11656,20 @@
       "body": "England's hopes of reaching the World Cup semi-finals are already on life support after suffering a 30-12 loss to world No.5 Tonga in their blockbuster showdown in Perth.\n\nWith His Majesty King Tupou VI and crown prince Tupouto'a 'Ulukalala among the sellout 18,302 crowd at HBF Park on Saturday night, Tonga produced a defensive masterclass in the four-tries-to-two victory.\n\nThe result put Tonga in the box seat to reach the semis, with games against Lebanon and Samoa to round out their group stage.\n\nIn contrast, world No.3 England have been left on the brink of elimination - even if they win their remaining two games against France and PNG.\n\nUnder the confusing group stage system employed for the World Cup, only two teams from across pools B and C will progress to the last four.\n\nIf England finish on the same amount of wins as Tonga, then the Pacific islanders will go through given they won Saturday's head-to-head battle.\n\nShould England and Samoa end up with the same number of wins, the tiebreaker will be which nation has the better points-for-and-against differential.\n\nSamoa opened their campaign with a 78-4 smashing of France, leaving England needing to post some massive wins in their remaining two games to stay alive.\n\nIt's why Saturday's clash between England and Tonga was dubbed the game of death - with the loser facing a mathematical tightrope to qualify past the pool stage.\n\nThere were plenty of big hits early, with England winger Zach Eckersley copping it big time after dropping a high ball and then being pummelled by a charging Dallin Watene-Zelezniak.\n\nStefano Utoikamanu opened the scoring in the 24th minute when he found a hole in England's defence to stroll over untouched.\n\nA pair of Isaiya Katoa penalty goals extended the margin to 10 points by halftime, with England left to rue a series of fumbles and near misses.\n\nEngland started the second half full of steam, resulting in a team-lifting try to AJ Brimson in the 46th minute.\n\nBut in a game where hard work was king, it was a slice of fortune that ended up giving Tonga a vital edge with Haumole Olakau'atu scoring the first of his two tries after he soccered the ball into an opponent's arm and then gathered the bouncing rebound.\n\nAnd when Tuimoala Lolohea's neat dribble found Tolutau Koula in the corner to make it 22-6 in the 58th minute it was as good as game over.\n\nThe win was a powerful statement from Tonga, whose only previous taste of international success against England came in 2019 when they beat Great Britain."
     },
     {
+      "story_id": "50205079",
+      "headline": "Lightning storm back from 2-goal deficit to beat the Canucks 4-2",
+      "summary": "\u2014 Nikita Kucherov scored twice, Jake Guentzel had a goal and an assist, and Dennis Hildeby stopped 12 shots as the Tampa Bay Lightning defeated the Vancouver Canucks 4-2 on Saturday.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892521.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-17T22:54:28Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892521",
+      "stream_url": "",
+      "body": "TAMPA, Fla. -- \u2014 Nikita Kucherov scored twice, Jake Guentzel had a goal and an assist, and Dennis Hildeby stopped 12 shots as the Tampa Bay Lightning defeated the Vancouver Canucks 4-2 on Saturday.\n\n\r\nGuentzel scored the winner in the third period as Tampa Bay came back from a two-goal deficit.\n\n\r\nPontus Holmberg also scored and Brayden Point finished with two assists for Tampa Bay, which improved to 5-0 at home.\n\n\r\nLinus Karlsson and Elias Pettersson scored while Kevin Lankinen finished with 31 saves for the Canucks, who finished winless (0-4-1) on a five-game road trip. Vancouver is winless in the past seven games (0-6-1) overall.\n\n\r\nGuentzel picked up the winner at 2:04 of the third after Charle-Edouard D'Astous slid a pass off the wall to Guentzel for the quick snap shot that deflected off the stick of Vancouver's Liam Ohgren.\n\n\r\nFor the second consecutive game, the Canucks had a 2-0 lead they were not able to hold.\n\n\r\nKarlsson put Vancouver up 1-0 at 15:32 of the first period with a shot from the right point. Pettersson put the Canucks up 2-0 with a power-play goal at 4:35 of the second period.\n\n\r\nKucherov scored twice in the span of 4:53 to pull the Lightning even. He scored his first goal off his own rebound on the power play at 6:30. Kucherov scored again as Point pulled a faceoff back to Kucherov for the quick shot at 11:23.\n\n\r\nHolmberg capped the scoring, getting to a loose puck off a faceoff and beating Lankinen through the pads at 15:57.\n\n\r\nUp next\r\nCanucks: Host the Carolina Hurricanes on Tuesday night.\n\n\r\nLightning: Travel to face the Vegas Golden Knights on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
       "story_id": "50188691",
       "headline": "Fantasy football Week 6 inactives: Williams to play; Hurts, Jackson ruled out",
       "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
@@ -11562,18 +11684,18 @@
       "body": "Whom should you start? Whom should you sit? To help you set your fantasy football lineups and avoid starting an offensive player who won't be in the lineup, we'll post fantasy-relevant updates and analysis here as NFL teams release their official inactives lists.\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 6 Buzz\n\nWeek 6 Rankings | Matchup rankings for Week 6\n\nBiggest concerns ahead of Sunday\nPlayers with early starts\nCaleb Williams, QB, Bears (hamstring): Williams will play in Week 6. He might opt to run less initially, but Williams is still in play as a QB1. I would use him over Trevor Lawrence, Jameis Winston and Jacoby Brissett. However, I would go with either Kirk Cousins or Jordan Love over Williams.\n\nA.J. Brown, WR, Patriots (ankle): Brown has been activated and is expected to play on Sunday, per Adam Schefter. He brings more risk than usual, but given all the byes and injuries, he's worth getting into starting lineups. While he brings upside and likely will see safe volume, it usually takes some time for a player to return to 100% after a high ankle sprain, so temper expectations a bit. Go with the streaming options listed above over Romeo Doubs.\n\nZay Flowers, WR, Ravens (toe): Flowers was added to the team's injury report Thursday but is not on the final report, meaning he will play in Week 6. His production took a hit without Jackson last week, but Flowers still saw nine targets in that game from QB Tyler Huntley, who will be under center again this week. Volume should keep him in play as a WR2. It's also worth noting that Rashod Bateman missed practice this week due to a shoulder injury but is also not on the final injury report, so he will play too. Rookie WR Ja'Kobi Lane is practicing in full and Jeremy Fowler reports he is \"good to go\" for Week 6. He is worth stashing if you have a bench spot available.\n\nMichael Penix Jr, QB, Falcons (ribs): Penix has been a full participant at practice all week long. He has been removed from the injury report and will start Sunday. Penix has yet to throw multiple TD passes or score 15 fantasy points in any game this season. He is purely for use in superflex formats, but his availability is great for Bijan Robinson and Drake London. Both are elite options with Penix under center.\n\nQuinshon Judkins, RB, Browns (ankle): Judkins missed practice to start the week before getting in a limited session Friday. He is questionable and his status truly seems to be up in the air for Week 6. If he sits, the Browns will be left with Jaleel McLaughlin and Audric Estime on the active roster. McLaughlin is the preferred play and, while the floor is low, he'd be in the flex conversation due to volume. It's also worth noting that Dylan Sampson had his 21-day window for return opened this week, but he is out for Week 6.\n\nKC Concepcion, WR, Browns (concussion): Concepcion has cleared the league's concussion protocol and will play in Week 6. Though we have seen flashes, Concepcion is more of an upside depth stash for now. Fantasy managers should instead go with some of the other streaming WR options listed in this article.\n\nDenzel Boston, WR, Browns (foot): Boston was limited to start the week but no longer carries an injury designation, meaning he will play Sunday. The rookie is one of just 10 players since 2010 to have posted 330-plus yards and at least three touchdowns over their first five career games. He has seen at least seven targets in three of his last four games. That volume could turn to production against the Ravens, who have allowed the fifth-most WR yards. Boston is a strong WR2 play this week.\n\nTyler Warren, TE, Colts (groin): Warren popped up on the injury report Friday, which is never ideal. If he ends up suiting up, fantasy managers should play him as he has just one game with fewer than double-digit fantasy points, and he had nine in that game. However, it is not a bad idea to grab a streaming option now just to cover your bases. Some options are Tyler Higbee, Pat Freiermuth, Darren Waller and Michael Mayer.\n\nAlvin Kamara, RB, Saints (back): Kamara might be questionable but he has been on the injury report all season long and not yet missed any time. However, he does not bring a ton of safety due to his lack of efficiency so far. That said, volume -- particularly in the passing game -- keeps him as a flex option.\n\nChris Olave, WR, Saints (illness): Olave missed practice to start the week due to an illness and is listed as questionable for Sunday. Still, it seems likely he will suit up. If he plays for the Saints, he plays for fantasy managers. If he sits, it means more volume for Devaughn Vele and Juwan Johnson. Both would be worth starting against the Giants.\n\nOmar Cooper Jr, WR, Jets (ankle): The rookie is set to return from a Week 1 ankle injury that landed him on the IR. With Adonai Mitchell still sidelined, Cooper should operate as the Jets' No. 2 WR. Though he is not worth plugging into starting lineups just yet, he is worth a flier for those with an open bench spot in deeper leagues.\n\nKenyon Sadiq, TE, Jets (concussion): Sadiq is questionable for Week 6. He was able to log a full practice and HC Aaron Glenn said he expects him to play. Still, there are better streaming options this week such as Tyler Higbee, Juwan Johnson, and Pat Freiermuth.\n\nDeVonta Smith, WR, Eagles (hamstring/toe): Smith was able to return to practice this week and is not on the final injury report, meaning he will play in Week 6. He will be more of a risk/reward play than usual given his team's downgrade at QB, but still in the WR3 range due to his big-play ability.\n\nDontayvion Wicks, WR, Eagles (hamstring): Wicks played through the injury Sunday and missed practice to start the week but is off the practice report. Given that Hurts is out for this one and Smith is back to be the WR1, fantasy managers should go in a different direction. Tre Tucker, Xavier Worthy, Germie Bernard and Khalil Shakir are better options.\n\nDK Metcalf, WR, Steelers (illness): Metcalf has been removed from the injury report for Week 6. He is in play as a WR2.\nPat Freiermuth, TE, Steelers (calf): Friermuth was added to the injury report on Saturday and is questionable for Week 6. Still, a Saturday addition has him very much up in the air. If he were to miss, it would mean more volume for Metcalf and Bernard. Darnell Washington becomes a deep league streamer for those in need. At least he brings the chance at a touchdown.\n\nRico Dowdle, RB, Steelers (toe): This week, Dowdle was able to log his first full practice since injuring his toe. While he is questionable, that still puts him on track to play on Sunday. Still, Jaylen Warren has thrived in his absence, averaging 163 yards per game over the last three weeks. Mike McCarthy confirmed that Warren will remain the lead back. He should be started in all leagues. Dowdle should be rostered, but he's more of an insurance back until we see otherwise.\n\nTyjae Spears, RB, Titans (knee): After being limited Wednesday, Spears did not practice Thursday before logging a full session Friday. He is questionable heading into Week 6. He is coming off a season-high nine targets, although his usage has been too inconsistent to trust. His availability does impact Tony Pollard, who will see many of those passing downs if Spears is out. Pollard is a low-floor RB2, who will get a bump in upside if Spears sits.\n\nPlayers with late starts\nDJ Moore, WR, Bills (shoulder): Moore did not practice to start the week and returned Friday, once again wearing the red noncontact injury. He is questionable for Week 6. The Bills have their bye in Week 7 and could opt to let Moore take the extra time to recover. Last week in his absence, the Bills spread the ball around. Khalil Shakir is my preferred play of the other Bills receivers, as the Raiders rank top four for the most yards and touchdowns allowed to slot receivers. Keon Coleman is an upside flex option. The top Bills option to play would be Dalton Kincaid, as the Raiders have allowed the third-most TE touchdowns.\n\nLadd McConkey, WR, Chargers (foot): He is not on the practice report for Week 6, meaning he will play. How much he plays, however, is anybody's guess. He was active in Week 5 but did not play on a single snap. McConkey is a high-risk, somewhat high-reward type of play in Week 6. I'd prefer to stream players like Tucker, Worthy, Bernard or Shakir.\n\nQuentin Johnston, WR, Chargers (chest): Johnston has practiced in a limited fashion this week and is not on the final injury report, meaning he will play in Week 6. Johnston has not surpassed 40 yards in any game this season. The Chargers' offensive line (and their offensive attack in general) is in shambles right now. It's best to use the streaming options listed above for McConkey.\n\nPlayers on Sunday night\nNONE\n\nPlayers on Monday night\nStefon Diggs, WR, Commanders (hamstring): After missing Week 5, Diggs did not practice to start this week. However, he was able to return Friday. That gives him a chance to play Monday night. Terry McLaurin remains the top option in the Commanders' passing attack. It would probably be a good idea for managers risking a potential zero (by waiting on Diggs) to have a backup option in place. Brandin Cooks, Antonio Williams or Chig Okonkwo (who led the Commanders with six targets last week) are all options fantasy managers could nab off the waiver wire to cover their bases.\n\nTerry McLaurin, WR, Commanders (hamstring): McLaurin was limited Thursday before logging a DNP on Friday. It is listed as rest, so fantasy managers should not panic just yet. However, with this game being Monday night, it would not be a bad idea to have one of the listed options above, just to cover your bases.\n\nMike Evans, WR, 49ers (ribs/Achilles): Evans is questionable heading into Monday night. He has been banged up a lot this season and continues to play through his injuries. He played through this same rib ailment last week. I would expect him to play, but fantasy managers should have a pivot option just in case. Brandin Cooks would be the top option on waivers, with Antonio Williams being another.\n\nRuled out before Sunday\nJeremiyah Love, RB, Cardinals (ankle): Love did not practice this week and is out for Week 6. Tyler Allgeier becomes an RB2 worth starting for volume alone. Allgeier would not only lead the Cardinals on the ground and see goal line usage, but he could see a good number of targets if they're in catch-up mode. I would play Allgeier over Woody Marks, Kamara, Omarion Hampton or Jacory Croskey-Merritt.\n\nLamar Jackson, QB, Ravens (ankle): Jackson did not practice this week and has been ruled out for Week 6. Tyler Huntley will once again start in his place. Last week, Huntley threw for 201 yards and two touchdowns, while running for 20 yards and a score. While he is more of an option for those in superflex leagues, it's nice to see that he brings upside.\n\nFor those in need of help in one-QB leagues, I prefer Jordan Love, Kirk Cousins, Tyler Shough, Jameis Winston and Jacoby Brissett. However, I would use Huntley over Daniel Jones, Geno Smith or as a Jalen Hurts replacement in two-QB formats.\n\nKyle Monangai, RB, Bears (thumb/toe): Monangai did not practice this week and is out for Week 6. The Falcons have been tough against the run, but his absence means more volume for D'Andre Swift. Despite the matchup, Swift is a must-play option at a beat-up RB position.\n\nDavid Montgomery, RB, Texans (groin): Montgomery is out for the London matchup against the Jaguars. Woody Marks will start in his place. The Jaguars are an extremely tough matchup to run on, having allowed a league-low 42 RB rushing yards per game. They've allowed explosive runs at the second-lowest rate in football. The one thing going for Marks is that Jacksonville has allowed the fifth-most RB receiving yards. Some backs to play Marks over are Hampton, Kamara and J.K. Dobbins. Backs I would play instead of Marks are Braelon Allen, Emanuel Wilson, Pollard, Cam Skattebo and MarShawn Lloyd. The Texans have also ruled out WR Tank Dell for Week 6, but he is nearing a return.\n\nRashee Rice, WR, Chiefs (hamstring): Rice has not yet practiced coming out of the Chiefs bye and will not play in Week 6. With Rice out, expect Xavier Worthy to operate as the top receiver for the Chiefs, who are also without Tyquan Thornton. I would play Worthy over Ladd McConkey, Germie Bernard, Romeo Doubs and Jakobi Meyers. What this especially means is more targets for Travis Kelce, who is a must-start tight end. Cyrus Allen is worth a speculative add in deeper leagues.\n\nTreVeyon Henderson, RB, Patriots (ankle): Henderson is currently expected to be sidelined for multiple weeks. That will mean more work for Rhamondre Stevenson, who had 16 touches, at least 74 yards and a touchdown in both of the last two games. He should be started for as long as Henderson is out. This is especially true this week against the Jets, who rank top eight in terms of the most rushing yards and RB fantasy points allowed.\n\nJalen Hurts, QB, Eagles (blood clot): This news caught the NFL world by surprise on Thursday and it's possible that Hurts will be out beyond just this week. However, Adam Schefter reports that the Eagles are not planning to put him on IR. Tanner McKee will be the Eagles starter, but he's only useful for desperate maangers in superflex leagues. Ideally, you can find better streaming options -- such as Cousins, Jordan Love, Shough, Winston or Aaron Rodgers. As for the Eagles' pass catchers, I'd look to go in other directions. Dallas Goedert would be the one to trust the most, just because the bar for TE success is so low. He's likely to be McKee's top target, especially in the red zone.\n\nWill Shipley, RB, Eagles (foot): Last week's top waiver-wire pickup was injured after scoring a touchdown in London. He will be sidelined for multiple weeks. That leaves Dameon Pierce as the Eagles' lead back until Saquon Barkley returns. Pierce is a volume RB2/flex option in a fantastic matchup against the Panthers. Carolina ranks top four in terms of the most rushing yards, rushing touchdowns, yards after contact and RB fantasy PPG allowed.\n\nRoman Wilson, WR, Steelers (finger): Wilson joins Michael Pittman Jr and Ben Skowronek as Pittsburgh players who have been ruled out for Week 6. That leaves Germie Bernard, who was a popular waiver-wire target this week, as the team's No. 2 receiver opposite of DK Metcalf. Bernard's style fits well with Rodgers and he can be used as a streaming option this week. Pat Freiermuth should also see a boost in volume and is a Week 6 TE streamer.\n\nDeebo Samuel Sr, WR, 49ers (hamstring): The veteran receiver will not play in Week 6, but has thus far avoided the IR, which is a positive. The 49ers have a Week 8 bye, so it's possible we could see him return after that. It's worth mentioning that the 49ers have opened Christian Kirk's 21-day window to return, meaning he is closing in a comeback. As for Week 6, Brandin Cooks would be the go-to in-house replacement. However, previously listed outside streaming options are the way to go, if possible.\n\nRuled out before Monday\nJacory Croskey-Merritt, RB, Commanders (groin): JCM is out for Week 6. That leaves Rachaad White as the lead back for Washington. He is in the RB3 and flex range, but brings more upside due to the volume he will see, particularly in the passing game. It is a tough matchup as the 49ers have allowed explosive runs to backs at the lowest rate in the league and have allowed them to score just two rushing touchdowns this season."
     },
     {
-      "story_id": "50203355",
-      "headline": "New Jersey Devils vs. Washington Capitals: Game Highlights",
-      "summary": "New Jersey Devils vs. Washington Capitals: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/55f4f39c-f289-496a-84c5-f46255fc2164/55f4f39c-f289-496a-84c5-f46255fc2164.jpg",
-      "published_utc": "2026-10-17T19:53:15Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
+      "story_id": "46296843",
+      "headline": "WNBA playoffs history: Notable records, stats, facts",
+      "summary": "During the WNBA playoffs, players are primed for greatness as they pursue championships. Check out our roundup of playoff records and stats now.",
+      "image": "https://a.espncdn.com/photo/2025/0918/r1547227_608x342_16-9.jpg",
+      "published_utc": "2026-10-17T22:26:45Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Keith Jenkins",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50203355/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1017/55f4f39c-f289-496a-84c5-f46255fc2164/55f4f39c-f289-496a-84c5-f46255fc2164/playlist.m3u8",
-      "body": ""
+      "link": "https://www.espn.com/wnba/story/_/id/46296843/wnba-playoffs-history-records-stats-facts",
+      "stream_url": "",
+      "body": "As the summer winds down, WNBA action picks up. The league's top teams begin the playoff journey to decide which group of 12 women will be crowned the queens of the court.\n\nThe WNBA playoffs have set the stage for some of the most memorable moments and performances in women's basketball history since the Houston Comets won the league's inaugural championship in 1997. Led by four-time WNBA Finals MVP Cynthia Cooper, the now-defunct Comets won the league's first four titles. They remain the only team to win at least three straight.\n\nIn September 2025, the Phoenix Mercury tied for the largest road comeback in WNBA playoff history (20 pts), with a 89-83 victory over the Minnesota Lynx. As the 2026 WNBA playoff period continues, check out other notable records, facts and stats:\n\nLargest margin of victory\n\n38 points: Chicago Sky (100) vs. New York Liberty (62) on Aug. 20, 2022\n\nLargest comeback\n\n22 points by Indiana Fever vs. Connecticut Sun on Aug. 27, 2007\n\nTeam with the most consecutive appearances\n\nMinnesota Lynx, 11 (2011-21)\n\nPlayer with the most career games\n\nDeWanna Bonner, 104\n\nPlayer with the most career minutes played\n\nDeWanna Bonner, 3161\n\nPlayer with the most career minutes played per game\n\nCynthia Cooper, 38.1\n\nPlayer with the most career points\n\nDiana Taurasi, 1,486\n\nPlayer with the most career points per game*\n\nCynthia Cooper, 23.3\n\nPlayer with the most points in a single game\n\n45: Arike Ogunbowale vs. Golden State Valkyries on Sept. 30, 2026\n\nPlayer with the most career rebounds\n\nDeWanna Bonner, 701\n\nPlayer with the most career rebounds per game*\n\nAliyah Boston, 11.0\n\nPlayer with the most rebounds in a single game\n\nCheryl Ford, 23 vs. Connecticut Sun in Game 1 of Eastern Conference Finals on Aug. 24, 2006\n\nPlayer with the most career assists\n\nChelsea Gray, 423\n\nPlayer with the most career assists per game*\n\nAlyssa Thomas, 7.1\n\nPlayer with the most assists in a single game\n\nCourtney Vandersloot, 18 at Connecticut Sun on Sept. 28, 2021\n\nPlayer with the most career steals\n\nTamika Catchings, 152\n\nPlayer with the most career steals per game*\n\nTamika Catchings, 2.2\n\nPlayer with the most career blocks\n\nLisa Leslie and A'ja Wilson 132\n\nPlayer with the most career blocks per game*\n\n2.5: Lisa Leslie and Margo Dydek\n\nPlayer with the most career made field goals\n\nDiana Taurasi, 489\n\nPlayer with the most career made field goals per game*\n\nNapheesa Collier, 8.1\n\nPlayer with the most career field goal attempts\n\nDeWanna Bonner, 1,169\n\nPlayer with the most career field goal attempts per game*\n\nBreanna Stewart, 17.7\n\nPlayer with the most career made 3-pointers\n\nDiana Taurasi, 217\n\nPlayer with the most career made 3-pointers per game*\n\nDiana Taurasi, 3.0\n\nPlayer with the most career 3-point attempts\n\nDiana Taurasi, 580\n\nPlayer with the most career 3-point attempts per game*\n\nDiana Taurasi, 7.9\n\nPlayer with the most career made free throws\n\nTamika Catchings, 356\n\nPlayer with the most career made free throws per game*\n\nCynthia Cooper, 7.3\n\nPlayer with the most career free throw attempts\n\nTamika Catchings, 417\n\nPlayer with the most career free throw attempts per game*\n\nCynthia Cooper, 8.6\n\n*- min. 10 games played\n\nCheck out the ESPN WNBA hub page for stats, schedules, scores, standings and more."
     },
     {
       "story_id": "50201671",
@@ -11602,20 +11724,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50204134/michael-carrick-questions-manchester-united-future-not-important",
       "stream_url": "",
       "body": "Michael Carrick has said his future as Manchester United head coach is \"not important\" ahead of a crucial clash against Leeds United.\n\nMan United head to Elland Road on Sunday with Carrick under pressure following a run of five games without a win.\n\nAnother poor result will ramp up the questions about his suitability for the role, but Carrick insists his own job prospects are the last thing on his mind.\n\n\"I really don't take it about me,\" Carrick told a news conference on Friday.\n\n\"It's not that. I don't think about, 'How am I going to get through this? How am I going to survive this? What do I need to do to look after myself?' It's not important. It's about this football club and winning football matches.\"\n\nAs well as dealing with the fallout from Lisandro Mart\u00ednez's explosive criticism of director of football Jason Wilcox this week, Carrick has also had to diffuse controversy stirred up by Nicky Butt.\n\nThe former England midfielder claimed Carrick told him management was \"not for him\" before taking the United job in January -- something Carrick quickly denied.\n\n- Dawson: Is Mart\u00ednez's outburst a sign of chaos to come for Man United and Carrick?\n\n- Mart\u00ednez's comments 'not that far off' but should not have been made - Peter Schmeichel\n\n- Man United 'a circus' amid Lisandro Mart\u00ednez rant - Roy Keane\n\n\"I definitely wouldn't be here if that was the case, would I?\" he said.\n\n\"It's the best role I could possibly have. I feel a real privilege of being in this position and a real responsibility, but equally a drive of wanting to make a difference and having success here. So, yeah, I'm loving it.\n\n\"If you're not ready for that and you can't do anything that's difficult, then you're never going to be great. So we've got to work our way through it and I'm enjoying it as we go.\""
-    },
-    {
-      "story_id": "50202269",
-      "headline": "WNBA Finals live: Valkyries-Dream Game 1 analysis, updates and highlights",
-      "summary": "Game 1 is here as Golden State hosts Atlanta. ESPN is live at Chase Center with analysis and highlights.",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1732156_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T21:52:20Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50202269/finals-game-1-golden-state-valkyries-atlanta-dream",
-      "stream_url": "",
-      "body": "SAN FRANCISCO -- Game 1 goes to the Golden State Valkyries.\n\nThe No. 2 seed held court 68-64 in Game 1 of the WNBA Finals to take the early lead over the No. 4 Atlanta Dream in the best-of-seven series.\n\nGabby Williams led Golden State with 26 points, including four free throws in the final 1 minute, 18 seconds to seal the victory. The back-and-forth game featured seven lead changes.\n\nAllisha Gray paced the Dream with 19 points but didn't score in the fourth quarter when the Dream shot 2-for-20 in the period. Angel Reese had 14 points and 12 rebounds.\n\nThe Valkyries, who have won all five playoff games at home this postseason and had the best record at home in the regular season, snapped the Dream's 10-game winning streak, which dated to the regular season.\n\nBoth teams seek their first WNBA championship. Game 2 is Monday night back at Chase Center. As the better seed, the Valkyries will host Games 2 and, if necessary, 5 and 7 in a 2-2-1-1-1 format.\n\nESPN was courtside Saturday with live analysis throughout the game.\n\nJump to:\n\nPostgame analysis | Relive the action\n\nMore:\n\nFinals preview | Top 15 players | Schedule | Offseason guide\n\n(2) Golden State Valkyries 68,\n\n(4) Atlanta Dream 64\n\nHow Golden State won the game: Both teams made big runs in this game, which set up a fourth quarter that was all about grit and determination. And also timing. After being outscored 17-9 in the third quarter, the Valkyries outscored the Dream 17-8 in the fourth quarter.\n\nThe Dream went just 4-of-25 from 3-point range, with Allisha Gray going 1-of-8. They were 18-of-21 from the foul line, but that was an area where the Valkyries were able to make up ground in the fourth quarter, finishing 11-of-16 from the stripe.\n\nGetting into crunch time, Atlanta seemed to get a little too sped up offensively and took shots too early when it would have helped the Dream to work their offense more. Of course, that's easier said than done against the best defense in the WNBA.\n\nRebounding ended up being a key factor, as the Valkyries won the board battle 41-35. And Golden State's depth -- much talked about before the series began -- came through. Particularly with Kaila Charles, who played 30 minutes, compiling seven points and 10 rebounds.\n\nGabby Williams led the way with 26 points, the only Valkyries player in double figures. -- Michael Voepel\n\nWhat the win means for the Valkyries: They won their first Finals game in their first WNBA Finals appearance. Even when the Dream went on runs, the Valkyries never deviated from their game plan -- and it never felt like they fully lost momentum. Maybe that's also a credit to the noise in Ballhalla\n\nThis game showed an elite level of composure from the Valkyries, and that is a great sign for Golden State. Williams said even though the Valkyries trailed with a few minutes left in the game, they had the Dream \"right where we wanted them.\" She said it's because they knew the game would come down to stops.\n\n\"That's our bread and butter,\" Williams added.\n\nIf the Valkyries can withstand the Dream's offensive runs and then lock them up on defense, they have a good chance to head to Atlanta with a 2-0 lead. -- Kendra Andrews\n\nWhat changes do you expect in Game 2? The Dream must win a game on the road if they want to win the title, so winning Game 1 would have given them more of a cushion moving forward. Now, Game 2 feels like a must-win at Chase Center before the series shifts to Atlanta for Games 3 and 4.\n\nDream coach Karl Smesko sounded confident in his team's ability to turn it around in Game 2. He said Saturday's game didn't come down to what Golden State did, but rather the Dream's loss was the result of one bad defensive stretch and a cold offensive quarter in the fourth.\n\nStill, when the Dream punched first in the opening quarter, they only led by five points at the end of the period. For Atlanta to even the series on Monday, the Dream have to make sure they are executing. They also need more from Angel Reese, who dominated early but was held scoreless in the second half, and Rhyne Howard, who finished with 12 points but shot 3-for-14 from the field and 2-for-9 from 3-point range. -- Andrews\n\nRelive the live action"
     },
     {
       "story_id": "50131911",
