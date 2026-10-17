@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T19:20:57.911017+00:00",
+  "generated_utc": "2026-10-17T19:30:49.665191+00:00",
   "window_days": 2,
   "total_events": 254,
   "competitions": [
@@ -238,7 +238,7 @@
       "status_coverage_pct": 100,
       "both_logos": 60,
       "logo_coverage_pct": 100,
-      "live_now": 14
+      "live_now": 10
     },
     {
       "competition": "ncaam",
@@ -426,18 +426,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "tvmaze:tna",
-      "date": "2026-10-17",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/1349: The read operation timed out"
-    },
-    {
-      "source": "tvmaze:tna",
-      "date": "2026-10-18",
-      "error": "TimeoutError for https://api.tvmaze.com/shows/1349: The read operation timed out"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
