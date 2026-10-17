@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T13:27:20.452647+00:00",
+  "generated_utc": "2026-10-17T13:37:23.817900+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915416",
@@ -3535,7 +3535,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-10-17T11:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:368",
         "name": "Everton",
@@ -3561,9 +3561,9 @@
         "color": "144992"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Hill Dickinson Stadium",
-      "detail": "90'+6'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3606,7 +3606,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "RCDE Stadium",
-      "detail": "67'",
+      "detail": "77'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3648,7 +3648,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/First Half",
       "venue": "Stadio Pier Luigi Penzo",
-      "detail": "25'",
+      "detail": "36'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3662,7 +3662,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-17T13:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:598",
         "name": "1. FC Union Berlin",
@@ -3690,9 +3690,9 @@
         "color": "ffee00"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Stadion An der Alten F\u00f6rsterei",
-      "detail": "Sat, October 17th at 9:30 AM EDT",
+      "detail": "6'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3706,7 +3706,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-17T13:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:127",
         "name": "Hamburg SV",
@@ -3734,9 +3734,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Volksparkstadion",
-      "detail": "Sat, October 17th at 9:30 AM EDT",
+      "detail": "6'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3750,7 +3750,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-17T13:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:133",
         "name": "Schalke 04",
@@ -3777,9 +3777,9 @@
         "color": "DA0308"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Veltins Arena",
-      "detail": "Sat, October 17th at 9:30 AM EDT",
+      "detail": "7'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3793,7 +3793,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-17T13:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:10388",
         "name": "SV Elversberg",
@@ -3821,9 +3821,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "URSAPHARM-Arena an der Kaiserlinde",
-      "detail": "Sat, October 17th at 9:30 AM EDT",
+      "detail": "7'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3837,7 +3837,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-17T13:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:137",
         "name": "Werder Bremen",
@@ -3865,9 +3865,9 @@
         "color": "0000dd"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Weserstadion",
-      "detail": "Sat, October 17th at 9:30 AM EDT",
+      "detail": "6'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11448,25 +11448,39 @@
   ],
   "stories": [
     {
+      "story_id": "50200910",
+      "headline": "Source: Patriots likely to activate WR A.J. Brown for Sunday's game vs. Jets",
+      "summary": "Patriots wide receiver A.J. Brown is likely to be activated Saturday after missing the past four games with a right high ankle sprain, a source told NFL Network's Ian Rapoport.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/e29705ff-9f2c-49f2-8c1d-c11403164ceb/e29705ff-9f2c-49f2-8c1d-c11403164ceb.jpg",
+      "published_utc": "2026-10-17T13:31:17Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Mike Reiss",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
+      "stream_url": "",
+      "body": "FOXBOROUGH, Mass. -- New England Patriots wide receiver A.J. Brown is likely to be activated Saturday after missing the past four games with a right high ankle sprain, a source told NFL Network's Ian Rapoport.\n\nThe Patriots have an open spot on their 53-man roster, and activating Brown adds a premium pass-catching option for quarterback Drake Maye, starting with Sunday's home game against the New York Jets.\n\nIn anticipation of Brown's return, Maye compared the situation to basketball.\n\n\"I think you see it in the NBA; it's probably the closest thing that I can think of,\" Maye said earlier this week. \"When they start doubling the best player once they get past half court, then they're just leaving a corner 3 open or leaving a guy open for a dunk. So it's kind of like playing receiver with a guy like that.\n\n\"We've got a lot of guys that have made plays now, so it's going to be tough on defenses. But I know we've got a tough challenge this week, so looking forward to it.\"\n\nBrown sustained the injury early in the third quarter of the season opener Sept. 9. He returned to practice for the first time Wednesday and said coach Mike Vrabel would ultimately decide when he returns, noting a key consideration would be for the \"long haul, not just for temporarily.\"\n\nBrown was limited throughout the week of practice, according to the team's official injury report, and he will likely be eased back into the mix before taking on his usual heavy workload.\n\nThe Patriots (3-2), who also have receivers Romeo Doubs, Pop Douglas, Efton Chism III and Kyle Williams on the roster, visit the Chicago Bears on Thursday after Sunday's game against the Jets (2-3)."
+    },
+    {
       "story_id": "50200909",
       "headline": "No. 1 pick AJ Dybantsa injures ankle during Wizards' preseason finale",
-      "summary": "No. 1 overall pick AJ Dybantsa exited the Wizards' preseason finale after injuring his ankle on an awkward landing and will undergo further evaluation.",
+      "summary": "First overall pick AJ Dybantsa exited the Wizards' preseason finale after injuring his ankle on an awkward landing and will undergo further evaluation.",
       "image": "https://a.espncdn.com/photo/2026/0710/r1687479_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T13:13:30Z",
+      "published_utc": "2026-10-17T13:29:34Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/nba/story/_/id/50200909/no-1-pick-aj-dybantsa-set-evaluation-injuring-ankle",
       "stream_url": "",
-      "body": "No. 1 overall pick AJ Dybantsa exited the Washington Wizards' preseason finale Friday after injuring his ankle on an awkward landing and will undergo further evaluation.\n\nWizards coach Brian Keefe told sideline reporter Chase Hughes that Dybantsa had suffered a mild ankle sprain but that the decision to keep him out for the rest of the game was more precautionary.\n\n\"We'll look at it more when we get more information,\" Keefe said.\n\nDybantsa fell to the ground after landing on his left ankle following a midrange jump shot before limping to the locker room. He had scored 12 points in 15 minutes before his exit in the second quarter.\n\nThe Wizards open the regular season Wednesday against the Milwaukee Bucks."
+      "body": "First overall pick AJ Dybantsa exited the Washington Wizards' preseason finale Friday after injuring his ankle on an awkward landing and will undergo further evaluation.\n\nWizards coach Brian Keefe told sideline reporter Chase Hughes that Dybantsa had suffered a mild ankle sprain but that the decision to keep him out for the rest of the game was more precautionary.\n\n\"We'll look at it more when we get more information,\" Keefe said.\n\nDybantsa fell to the ground after landing on his left ankle following a midrange jump shot before limping to the locker room. He had scored 12 points in 15 minutes before his exit in the second quarter.\n\nThe Wizards open the regular season Wednesday against the Milwaukee Bucks."
     },
     {
       "story_id": "50190266",
       "headline": "Premier League live updates: Everton host Chelsea in early match",
       "summary": "Chelsea are in Merseyside as they take on Everton in the Premier League's early match as another weekend of European soccer is underway.",
       "image": "https://a.espncdn.com/photo/2026/1017/r1731920_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T12:38:35Z",
+      "published_utc": "2026-10-17T13:14:48Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "ESPN",
@@ -11488,20 +11502,6 @@
       "link": "https://www.espn.com/nhl/story/_/id/50197524/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
       "stream_url": "",
       "body": "Tuesday was the 2026 edition of the NHL's Frozen Frenzy, with all 32 teams in action. On Saturday, 28 of 32 teams will be competing (including six at the magical start time of 7 p.m. ET), so maybe this is Frenzy Lite?\n\nRegardless of the name, there are a number of fun storylines at play in Saturday's 14 matchups.\n\nHere's a look at what you need to know for each contest, including betting info and broadcast details:\n\nOdds are provided by DraftKings and subject to change.\n\nNew Jersey Devils at Washington Capitals\n\n1 p.m. ET (NHL Network) | WSH -125, O/U: 6.5\n\nTwo important points will be on the line here for a pair of clubs that missed the 2026 playoffs but have designs on getting back this spring. Will the high scoring keep rolling? The Devils netted seven on the Rangers on Thursday, while the Caps posted five on the Canadiens on Wednesday.\n\nOn the other hand, each team is dealing with injuries. The Caps will be without Pierre-Luc Dubois and Rasmus Sandin, and the Devils will be missing Luke Evangelista and Connor Brown.\n\nCarolina Hurricanes at Winnipeg Jets\n\n3:30 p.m. ET (ESPN+) | CAR -170, O/U: 6.5\n\nThe defending champs have picked up right where they left off, racing out to a 6-1-1 record, just a point behind Vegas for tops in the league. The Jets have been one of the most pleasantly surprising teams this season, with a 4-1-2 record despite Connor Hellebuyck's continued absence. This will be Nikolaj Ehlers' second trip back to Winnipeg since signing with the Canes in summer 2025; he had an assist in a 4-3 win for the Canes last Nov. 21. What does he have in store for his old friends this time?\n\nVancouver Canucks at Tampa Bay Lightning\n\n4 p.m. ET (ESPN+) | TB -380, O/U: 6.5\n\nAfter an impressive opening pair of games against the Oilers, the Canucks have hit quite a skid. They've lost six straight and scored two or fewer goals in each contest. The Lightning have won five of their last six, averaging 3.33 goals in the stretch, and are undefeated at home this season. So in other words, that betting line above is not super surprising.\n\nSeattle Kraken at Florida Panthers\n\n6 p.m. ET (ESPN+) | FLA -185, O/U: 6.5\n\nThe Kraken took the Panthers' cross-state rivals to OT on Thursday but wound up with the loss. Can they finish the job on the Southern end of the state?\n\nOn the other side, Brady Tkachuk scored natural hat tricks in two straight games after going goalless in his first six games in a Panthers sweater. Can he repeat the feat again Saturday?\n\nNew York Islanders at Toronto Maple Leafs\n\n7 p.m. ET (ESPN+) | TOR -142, O/U: 6.5\n\nIt's always a special occasion when two recent No. 1 picks face off, and that's exactly what hockey fans will get here. Matthew Schaefer, defending Calder Trophy winner and No. 1 pick in the 2025 draft, is in town to take on Gavin McKenna, Calder Trophy candidate and No. 1 pick in the 2026 draft.\n\nBuffalo Sabres at Montreal Canadiens\n\n7 p.m. ET (NHL Network) | MTL -142, O/U: 6.5\n\nThe Sabres and Canadiens had one of the most competitive series of the 2026 Stanley Cup playoffs, needing seven games to determine a winner. Then on Frozen Frenzy night, the teams needed a shootout to decide which would be the winner, with Zachary Bolduc netting the clinching tally for Montreal. Fans can hope that this contest in La Belle Province will be just as tightly contested.\n\nSan Jose Sharks at Detroit Red Wings\n\n7 p.m. ET (ESPN+) | DET -142, O/U: 6.5\n\nBack when the Red Wings were in the Western Conference (yes, really), these two franchises met a fair amount in the playoffs: 1994, 1995, 2007, 2010 and 2011. A playoff matchup between the two these days would occur only in the Stanley Cup Final, so let's enjoy this one.\n\nThis is the final game in a string of seven out of eight at home for the Red Wings. The Sharks have four more games on their current road trip after this one.\n\nOttawa Senators at Philadelphia Flyers\n\n7 p.m. ET (ESPN+) | OTT -142, O/U: 5.5\n\nAs well as the season has gone for Ottawa thus far -- a 6-2-0 record has them atop the Atlantic Division -- it has gone that poorly for Philly; the team that won a playoff series this past spring is still searching for its first win of the season in Game 10.\n\nThe goal suppression that was a key feature of the Flyers' run in the late season and playoffs has evaporated, and they enter Saturday giving up 3.56 goals per game. On the other side, the Sens' Linus Ullmark picked right up where he left off last postseason, with a perfect 6-0-0 record and stellar rate stats (1.20 GAA and .949 save percentage).\n\nNew York Rangers at Columbus Blue Jackets\n\n7 p.m. ET (ESPN+) | CBJ -135, O/U: 6.5\n\nDespite the NHL's division-heavy playoff format, these two Metro rivals have never squared off in a postseason series. Maybe this is the year? Each has work to do. The Rangers need to stabilize their goaltending after Igor Shesterkin's injury and Dylan Garand's wobble against the Devils on Thursday, and the Blue Jackets need to get better at goal scoring and goal suppression. Will Columbus be able to solve Garand (or Spencer Martin) as often as the Devils did?\n\nDallas Stars at Chicago Blackhawks\n\n7 p.m. ET (ESPN+) | DAL -198, O/U: 6.5\n\nSpeaking of a surprising lack of playoff history, the Blackhawks and Stars have never squared off in the postseason since the North Stars moved to Dallas. Only the most optimistic residents of the 312 area code are thinking playoffs for the Blackhawks this season, so we anticipate that drought continuing.\n\nBut with Connor Bedard now back in the lineup, perhaps all things are possible. In his history, Bedard has five goals and two assists in eight games against the Stars. His new teammate Patrick Kane has scored 32 goals and 44 assists in 64 games against Dallas as a member of the Blackhawks.\n\nSt. Louis Blues at Nashville Predators\n\n8 p.m. ET (ESPN+) | STL -110, O/U: 5.5\n\nBoth of these teams missed the playoffs by four points last season and should be in the mix again this April. The Blues score more goals than the Preds (3.57 per game vs. 2.57) but also give up a lot more (3.29 vs. 2.86). Who gets the upper hand after Saturday?\n\nBoston Bruins at Los Angeles Kings\n\n9 p.m. ET (ESPN+) | LA -142, O/U: 5.5\n\nThis will be the final leg of the Bruins' California road trip for 2026-27, after beating the Sharks on Tuesday and the Ducks on Friday. Like the Flyers, the Kings are still looking for their first win of the season, though they've played only five games thus far for some reason.\n\nPerhaps Artemi Panarin can be a difference-maker for L.A. in this one. In 31 games against Boston in his career, he has 10 goals and 20 assists.\n\nEdmonton Oilers at Utah Mammoth\n\n10 p.m. ET (ESPN+) | UTA -148, O/U: 6.5\n\nThe Mammoth stampeded into Edmonton on Thursday and came away with a 4-2 win thanks to a pair of goals from captain Clayton Keller (one on the power play and the dagger into the empty net). The Oilers get a quick chance for vengeance here, with the setting shifting to the Delta Center in Salt Lake City.\n\nTwo seasons ago, Connor McDavid had seven points in three games against the Utah Hockey Club, and he followed that up with six points in three games in 2025-26 against the Mammoth. Does he have something big in store Saturday?\n\nPittsburgh Penguins at Vegas Golden Knights\n\n10 p.m. ET (ESPN+) | VGK -230, O/U: 6.5\n\nThe NHL schedule makers wanted to get a tough stretch out of the way quickly for the Penguins this season; after a matchup against the Avalanche on Friday, they visit Vegas on Saturday and Utah on Monday, followed by a home date against the Panthers on Thursday. We may know a lot more about this club following that quartet of contests.\n\nOn the other side, the Knights have charged out to an early lead in the overall NHL standings with a 7-2-0 record on the strength of a plus-14 goal differential. Vegas has never had a player reach 100 points in a single season, but the player who has come closest, Jack Eichel, is on pace to do so. His 16 points through nine games are on pace for 149, which would shatter his franchise record of 94 set in 2024-25.\n\nReminder: Fans can catch all the action in the NHL streaming hub and on the ESPN App.\n\nJump ahead:\n\nTop NHL stories\n\nLast night's scores\n\nNHL stats leaders\n\nToday in hockey history\n\nTop stories around the NHL\n\nHere's what you need to know:\n\nThe latest edition of the Wysh List, including Greg's conversation with Devils GM Sunny Mehta.\nKristen Shilton explores why the Red Wings have an \"us against the world\" mentality this season.\nThe latest ESPN NHL Power Rankings, including the \"shock of the season\" for all 32 teams.\nWyshynski identifies the top reason to watch all 32 teams this season.\nOttawa's William Eklund will miss 10-12 weeks after ankle surgery.\nCarolina lost Taylor Hall to an upper-body injury in win over the Capitals.\n\nFriday's scoreboard\nColorado Avalanche 5, Pittsburgh Penguins 2\n\nBoston Bruins 4, Anaheim Ducks 2\n\nNHL scoring leaders\n\nClick here for full list of stats leaders.\n\nNHL goaltending leaders\n\nClick here for the full list of goaltender stats.\n\nToday in hockey history\nThis space has been hyping high-scoring forwards quite a lot. So let's turn our attention to a player who spent his career keeping those legends off the score sheet.\n\nOn today's date in 2000, Patrick Roy backstopped the Avalanche to a 4-3 win over the Capitals. That victory was No. 446 of his regular-season career, which set a new NHL record (beating Terry Sawchuk).\n\nRoy would finish his career with 551 wins, a record that would stand until 2009 when Martin Brodeur earned win No. 552 en route to a career total of 691."
-    },
-    {
-      "story_id": "50200331",
-      "headline": "Sources: Eagles' Jalen Hurts, out indefinitely with blood clot, not planned for IR",
-      "summary": "The Eagles are not planning to put Jalen Hurts on injured reserve, sources told ESPN, even as he remains sidelined indefinitely with a superficial blood clot.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/ss_20261016_103948130_3698200642/ss_20261016_103948130_3698200642.jpg",
-      "published_utc": "2026-10-17T12:17:04Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Ian Rapoport and Adam Schefter",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50200331/sources-no-ir-plans-hurts-indefinitely-clot",
-      "stream_url": "",
-      "body": "The Philadelphia Eagles are not planning to place quarterback Jalen Hurts on injured reserve, sources told ESPN, even as he remains sidelined indefinitely because of a superficial blood clot.\n\nThe team, according to sources, has not even discussed the possibility of injured reserve, which would sideline Hurts for a minimum of four weeks.\n\nHurts and the Eagles are still gathering more information and seeking additional medical opinions, with the quarterback's health the foremost consideration. They believe the blood clot is treatable, with Hurts trying to determine the best course, sources said. The ultimate decision about when Hurts returns to play will come from his medical team, and the Eagles are ready to follow his lead. There is still a chance Hurts eventually ends up on injured reserve, if that is the direction the medical information leads them.\n\nIn most cases, blood clots are treated with anticoagulants, otherwise known as blood thinners. A player cannot play while on blood thinners.\n\nIn general, the minimum time frame for a moderate dose of anticoagulants is six weeks, sources said. There is a possibility, if the clot is minor enough, that doctors begin with anti-inflammatories only while continuing to monitor. If the clot were to move, as the team said happened in Hurts' case, blood thinners are often the answer. If the clot were to worsen, blood thinners for roughly three months would be the next course of action.\n\nWhile some around the team might consider Hurts week-to-week, other doctors around the NFL (who have not examined Hurts) believe the blood clot could sideline him several weeks. One team's doctor texted ESPN: \"It is a broad range and nuance based on size and location and hematology evaluation, but could be six weeks.\" Another team's doctor had a similar estimation.\n\nThe Eagles released a lengthy statement Thursday detailing the process that led to the discovery of the blood clot and Hurts being ruled out for Sunday's game against the Carolina Panthers.\n\nWhile Hurts has been receiving treatment, the Eagles have been working to fortify their roster. Backup quarterback Tanner McKee will start against the Panthers, and rookie QB Cole Payton was promoted to backup. Philadelphia also signed quarterback Joe Milton off Dallas' practice squad. By NFL rules, Milton must be on the Eagles' roster for three weeks.\n\nThis is just the latest sequence in what has been a chaotic stretch for the organization that has included hamstring injuries to running back Saquon Barkley and wide receiver DeVonta Smith, the retirement of future Hall of Fame offensive tackle Lane Johnson, and the trade of Pro Bowl center Cam Jurgens.\n\nThe Eagles believe Barkley returning next week is realistic, but he has been ruled out for Sunday's game."
     },
     {
       "story_id": "50131911",
@@ -11616,6 +11616,20 @@
       "body": "England's hopes of reaching the World Cup semi-finals are already on life support after suffering a 30-12 loss to world No.5 Tonga in their blockbuster showdown in Perth.\n\nWith His Majesty King Tupou VI and crown prince Tupouto'a 'Ulukalala among the sellout 18,302 crowd at HBF Park on Saturday night, Tonga produced a defensive masterclass in the four-tries-to-two victory.\n\nThe result put Tonga in the box seat to reach the semis, with games against Lebanon and Samoa to round out their group stage.\n\nIn contrast, world No.3 England have been left on the brink of elimination - even if they win their remaining two games against France and PNG.\n\nUnder the confusing group stage system employed for the World Cup, only two teams from across pools B and C will progress to the last four.\n\nIf England finish on the same amount of wins as Tonga, then the Pacific islanders will go through given they won Saturday's head-to-head battle.\n\nShould England and Samoa end up with the same number of wins, the tiebreaker will be which nation has the better points-for-and-against differential.\n\nSamoa opened their campaign with a 78-4 smashing of France, leaving England needing to post some massive wins in their remaining two games to stay alive.\n\nIt's why Saturday's clash between England and Tonga was dubbed the game of death - with the loser facing a mathematical tightrope to qualify past the pool stage.\n\nThere were plenty of big hits early, with England winger Zach Eckersley copping it big time after dropping a high ball and then being pummelled by a charging Dallin Watene-Zelezniak.\n\nStefano Utoikamanu opened the scoring in the 24th minute when he found a hole in England's defence to stroll over untouched.\n\nA pair of Isaiya Katoa penalty goals extended the margin to 10 points by halftime, with England left to rue a series of fumbles and near misses.\n\nEngland started the second half full of steam, resulting in a team-lifting try to AJ Brimson in the 46th minute.\n\nBut in a game where hard work was king, it was a slice of fortune that ended up giving Tonga a vital edge with Haumole Olakau'atu scoring the first of his two tries after he soccered the ball into an opponent's arm and then gathered the bouncing rebound.\n\nAnd when Tuimoala Lolohea's neat dribble found Tolutau Koula in the corner to make it 22-6 in the 58th minute it was as good as game over.\n\nThe win was a powerful statement from Tonga, whose only previous taste of international success against England came in 2019 when they beat Great Britain."
     },
     {
+      "story_id": "50200331",
+      "headline": "Sources: Eagles' Jalen Hurts, out indefinitely with blood clot, not planned for IR",
+      "summary": "The Eagles are not planning to put Jalen Hurts on injured reserve, sources told ESPN, even as he remains sidelined indefinitely with a superficial blood clot.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/ss_20261016_103948130_3698200642/ss_20261016_103948130_3698200642.jpg",
+      "published_utc": "2026-10-17T12:17:04Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Ian Rapoport and Adam Schefter",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50200331/sources-no-ir-plans-hurts-indefinitely-clot",
+      "stream_url": "",
+      "body": "The Philadelphia Eagles are not planning to place quarterback Jalen Hurts on injured reserve, sources told ESPN, even as he remains sidelined indefinitely because of a superficial blood clot.\n\nThe team, according to sources, has not even discussed the possibility of injured reserve, which would sideline Hurts for a minimum of four weeks.\n\nHurts and the Eagles are still gathering more information and seeking additional medical opinions, with the quarterback's health the foremost consideration. They believe the blood clot is treatable, with Hurts trying to determine the best course, sources said. The ultimate decision about when Hurts returns to play will come from his medical team, and the Eagles are ready to follow his lead. There is still a chance Hurts eventually ends up on injured reserve, if that is the direction the medical information leads them.\n\nIn most cases, blood clots are treated with anticoagulants, otherwise known as blood thinners. A player cannot play while on blood thinners.\n\nIn general, the minimum time frame for a moderate dose of anticoagulants is six weeks, sources said. There is a possibility, if the clot is minor enough, that doctors begin with anti-inflammatories only while continuing to monitor. If the clot were to move, as the team said happened in Hurts' case, blood thinners are often the answer. If the clot were to worsen, blood thinners for roughly three months would be the next course of action.\n\nWhile some around the team might consider Hurts week-to-week, other doctors around the NFL (who have not examined Hurts) believe the blood clot could sideline him several weeks. One team's doctor texted ESPN: \"It is a broad range and nuance based on size and location and hematology evaluation, but could be six weeks.\" Another team's doctor had a similar estimation.\n\nThe Eagles released a lengthy statement Thursday detailing the process that led to the discovery of the blood clot and Hurts being ruled out for Sunday's game against the Carolina Panthers.\n\nWhile Hurts has been receiving treatment, the Eagles have been working to fortify their roster. Backup quarterback Tanner McKee will start against the Panthers, and rookie QB Cole Payton was promoted to backup. Philadelphia also signed quarterback Joe Milton off Dallas' practice squad. By NFL rules, Milton must be on the Eagles' roster for three weeks.\n\nThis is just the latest sequence in what has been a chaotic stretch for the organization that has included hamstring injuries to running back Saquon Barkley and wide receiver DeVonta Smith, the retirement of future Hall of Fame offensive tackle Lane Johnson, and the trade of Pro Bowl center Cam Jurgens.\n\nThe Eagles believe Barkley returning next week is realistic, but he has been ruled out for Sunday's game."
+    },
+    {
       "story_id": "50199875",
       "headline": "Denver Nuggets vs. Los Angeles Lakers: Game Highlights",
       "summary": "Denver Nuggets vs. Los Angeles Lakers: Game Highlights",
@@ -11656,20 +11670,6 @@
       "link": "http://www.espn.com/nhl/preview?gameId=401892530",
       "stream_url": "",
       "body": "Boston Bruins (6-2, in the Atlantic Division) vs. Los Angeles Kings (0-3-2, in the Pacific Division)\n\n\r\nLos Angeles; Saturday, 9 p.m. EDT\n\n\r\nLINE: Kings -138, Bruins +113; over/under is 6\n\n\r\nBOTTOM LINE: The Los Angeles Kings take on the Boston Bruins as losers of five straight games.\n\n\r\nLos Angeles is 0-3-2 overall and 0-2-0 in home games. The Kings have given up 21 goals while scoring 11 for a -10 scoring differential.\n\n\r\nBoston has gone 3-1-0 in road games and 6-2 overall. The Bruins have a +12 scoring differential, with 30 total goals scored and 18 given up.\n\n\r\nSaturday's game is the first meeting between these teams this season.\n\n\r\nINJURIES: Kings: Jakub Dvorak: out (upper-body), Mats Zuccarello: out (undisclosed), Kevin Fiala: out (leg), Jan Jenik: out (undisclosed), Alex Turcotte: out (undisclosed).\n\n\r\nBruins: None listed.\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
-    },
-    {
-      "story_id": "50190428",
-      "headline": "Where to watch NFL London Games: Texans vs. Jaguars",
-      "summary": "Texans vs. Jaguars is a part of the NFL's games in London this season.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_nfl_week6_promo/dm_261012_nfl_week6_promo.jpg",
-      "published_utc": "2026-10-17T11:53:37Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50190428/watch-2026-nfl-london-games-texans-vs-jaguars",
-      "stream_url": "",
-      "body": "\"The Home of Football\" hosts a different kind of football as the Houston Texans face the Jacksonville Jaguars in Wembley Stadium as part of NFL's London games.\n\nHere's more information about the matchup.\n\nWhen is the game?\n\nThe game starts on Sunday at 9:30 a.m. ET.\n\nHow can fans watch?\n\nTexans vs. Jaguars is available on NFL Network and can be watched on the game's streaming hub.\n\n2026 NFL International Games\n\nWeek 7: Pittsburgh Steelers vs. New Orleans Saints, Paris\nWeek 9: Cincinnati Bengals vs. Atlanta Falcons, Madrid\nWeek 10: New England Patriots vs. Detroit Lions, Munich\nWeek 11: Minnesota Vikings vs. San Francisco 49ers, Mexico City"
     },
     {
       "story_id": "50165650",
