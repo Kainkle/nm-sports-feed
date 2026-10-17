@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T20:01:01.489666+00:00",
+  "generated_utc": "2026-10-17T20:11:09.484575+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915416",
@@ -833,78 +833,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
-    },
-    {
-      "event_id": "tvmaze:42189:s8e41",
-      "sport": "wrestling",
-      "competition_id": "aew",
-      "competition_name": "AEW",
-      "start_utc": "2026-10-15T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:42189",
-        "name": "All Elite Wrestling: Dynamite",
-        "abbrev": "DYN",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:aew",
-        "name": "AEW",
-        "abbrev": "AEW",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:aew",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "All Elite Wrestling: Dynamite"
-    },
-    {
-      "event_id": "tvmaze:68778:s4e46",
-      "sport": "wrestling",
-      "competition_id": "aew",
-      "competition_name": "AEW",
-      "start_utc": "2026-10-15T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:68778",
-        "name": "AEW: Collision",
-        "abbrev": "COL",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:aew",
-        "name": "AEW",
-        "abbrev": "AEW",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:aew",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "AEW: Collision"
     },
     {
       "event_id": "mlb:849811",
@@ -4744,7 +4672,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T16:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:120",
         "name": "Maryland Terrapins",
@@ -4774,9 +4702,9 @@
         "color": "ce0e2d"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "SECU Stadium",
-      "detail": "0:16 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4820,9 +4748,102 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Capital One Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "Qwe2TYU94bA",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862803",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T17:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:218",
+        "name": "Temple Owls",
+        "abbrev": "TEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+        "logo_dark": null,
+        "aliases": [
+          "Owls",
+          "TEM",
+          "Temple",
+          "Temple Owls"
+        ],
+        "color": "a41e35"
+      },
+      "away": {
+        "id": "espn:2429",
+        "name": "Charlotte 49ers",
+        "abbrev": "CLT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+        "logo_dark": null,
+        "aliases": [
+          "49ers",
+          "CLT",
+          "Charlotte",
+          "Charlotte 49ers"
+        ],
+        "color": "005035"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Lincoln Financial Field",
+      "detail": "2:30 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866442",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T17:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2084",
+        "name": "Buffalo Bulls",
+        "abbrev": "BUFF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUFF",
+          "Buffalo",
+          "Buffalo Bulls",
+          "Bulls"
+        ],
+        "color": "005bbb"
+      },
+      "away": {
+        "id": "espn:113",
+        "name": "Massachusetts Minutemen",
+        "abbrev": "MASS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+        "logo_dark": null,
+        "aliases": [
+          "MASS",
+          "Massachusetts",
+          "Massachusetts Minutemen",
+          "Minutemen",
+          "UMass"
+        ],
+        "color": "881c1c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Broadview Stadium",
+      "detail": "0:30 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4877,99 +4898,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862803",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:218",
-        "name": "Temple Owls",
-        "abbrev": "TEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
-        "logo_dark": null,
-        "aliases": [
-          "Owls",
-          "TEM",
-          "Temple",
-          "Temple Owls"
-        ],
-        "color": "a41e35"
-      },
-      "away": {
-        "id": "espn:2429",
-        "name": "Charlotte 49ers",
-        "abbrev": "CLT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-        "logo_dark": null,
-        "aliases": [
-          "49ers",
-          "CLT",
-          "Charlotte",
-          "Charlotte 49ers"
-        ],
-        "color": "005035"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Lincoln Financial Field",
-      "detail": "5:32 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866442",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2084",
-        "name": "Buffalo Bulls",
-        "abbrev": "BUFF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-        "logo_dark": null,
-        "aliases": [
-          "BUFF",
-          "Buffalo",
-          "Buffalo Bulls",
-          "Bulls"
-        ],
-        "color": "005bbb"
-      },
-      "away": {
-        "id": "espn:113",
-        "name": "Massachusetts Minutemen",
-        "abbrev": "MASS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-        "logo_dark": null,
-        "aliases": [
-          "MASS",
-          "Massachusetts",
-          "Massachusetts Minutemen",
-          "Minutemen",
-          "UMass"
-        ],
-        "color": "881c1c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Broadview Stadium",
-      "detail": "2:00 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401866443",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5009,7 +4937,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kelly/Shorts Stadium",
-      "detail": "4:42 - 4th Quarter",
+      "detail": "3:38 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5053,7 +4981,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Subaru Park",
-      "detail": "60'",
+      "detail": "70'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5095,7 +5023,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Olimpico",
-      "detail": "57'",
+      "detail": "67'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5136,9 +5064,9 @@
         "color": "C8142F"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "Mestalla Stadium",
-      "detail": "HT",
+      "detail": "50'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5230,331 +5158,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Sanford Stadium",
-      "detail": "5:48 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856721",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:145",
-        "name": "Ole Miss Rebels",
-        "abbrev": "MISS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
-        "logo_dark": null,
-        "aliases": [
-          "MISS",
-          "Ole Miss",
-          "Ole Miss Rebels",
-          "Rebels"
-        ],
-        "color": "13294b"
-      },
-      "away": {
-        "id": "espn:142",
-        "name": "Missouri Tigers",
-        "abbrev": "MIZ",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIZ",
-          "Missouri",
-          "Missouri Tigers",
-          "Tigers"
-        ],
-        "color": "f1b82d"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Vaught-Hemingway Stadium",
-      "detail": "5:42 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858264",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:259",
-        "name": "Virginia Tech Hokies",
-        "abbrev": "VT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hokies",
-          "VT",
-          "Virginia Tech",
-          "Virginia Tech Hokies"
-        ],
-        "color": "6a2c3e"
-      },
-      "away": {
-        "id": "espn:59",
-        "name": "Georgia Tech Yellow Jackets",
-        "abbrev": "GT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-        "logo_dark": null,
-        "aliases": [
-          "GT",
-          "Georgia Tech",
-          "Georgia Tech Yellow Jackets",
-          "Yellow Jackets"
-        ],
-        "color": "b3a369"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Lane Stadium",
-      "detail": "6:02 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858266",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:150",
-        "name": "Duke Blue Devils",
-        "abbrev": "DUKE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Devils",
-          "DUKE",
-          "Duke",
-          "Duke Blue Devils"
-        ],
-        "color": "00539b"
-      },
-      "away": {
-        "id": "espn:153",
-        "name": "North Carolina Tar Heels",
-        "abbrev": "UNC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-        "logo_dark": null,
-        "aliases": [
-          "North Carolina",
-          "North Carolina Tar Heels",
-          "Tar Heels",
-          "UNC"
-        ],
-        "color": "7bafd4"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Wallace Wade Stadium",
-      "detail": "7:10 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864522",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2751",
-        "name": "Wyoming Cowboys",
-        "abbrev": "WYO",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cowboys",
-          "WYO",
-          "Wyoming",
-          "Wyoming Cowboys"
-        ],
-        "color": "492f24"
-      },
-      "away": {
-        "id": "espn:2459",
-        "name": "Northern Illinois Huskies",
-        "abbrev": "NIU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-        "logo_dark": null,
-        "aliases": [
-          "Huskies",
-          "N Illinois",
-          "NIU",
-          "Northern Illinois",
-          "Northern Illinois Huskies"
-        ],
-        "color": "c8102e"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "War Memorial Stadium",
-      "detail": "7:34 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864524",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2005",
-        "name": "Air Force Falcons",
-        "abbrev": "AFA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-        "logo_dark": null,
-        "aliases": [
-          "AFA",
-          "Air Force",
-          "Air Force Falcons",
-          "Falcons"
-        ],
-        "color": "003594"
-      },
-      "away": {
-        "id": "espn:2439",
-        "name": "UNLV Rebels",
-        "abbrev": "UNLV",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
-        "logo_dark": null,
-        "aliases": [
-          "Rebels",
-          "UNLV",
-          "UNLV Rebels"
-        ],
-        "color": "cf0a2c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Falcon Stadium",
-      "detail": "1:16 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866444",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2199",
-        "name": "Eastern Michigan Eagles",
-        "abbrev": "EMU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-        "logo_dark": null,
-        "aliases": [
-          "E Michigan",
-          "EMU",
-          "Eagles",
-          "Eastern Michigan",
-          "Eastern Michigan Eagles"
-        ],
-        "color": "006938"
-      },
-      "away": {
-        "id": "espn:2649",
-        "name": "Toledo Rockets",
-        "abbrev": "TOL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
-        "logo_dark": null,
-        "aliases": [
-          "Rockets",
-          "TOL",
-          "Toledo",
-          "Toledo Rockets"
-        ],
-        "color": "0b2240"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Rynearson Stadium",
-      "detail": "5:13 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866478",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:193",
-        "name": "Miami (OH) RedHawks",
-        "abbrev": "M-OH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
-        "logo_dark": null,
-        "aliases": [
-          "M-OH",
-          "Miami (OH)",
-          "Miami (OH) RedHawks",
-          "Miami OH",
-          "RedHawks"
-        ],
-        "color": "c41230"
-      },
-      "away": {
-        "id": "espn:2006",
-        "name": "Akron Zips",
-        "abbrev": "AKR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
-        "logo_dark": null,
-        "aliases": [
-          "AKR",
-          "Akron",
-          "Akron Zips",
-          "Zips"
-        ],
-        "color": "041e42"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Yager Stadium",
-      "detail": "3:14 - 1st Quarter",
+      "detail": "2:59 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5600,7 +5204,53 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Neyland Stadium",
-      "detail": "9:48 - 1st Quarter",
+      "detail": "8:12 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856721",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:145",
+        "name": "Ole Miss Rebels",
+        "abbrev": "MISS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+        "logo_dark": null,
+        "aliases": [
+          "MISS",
+          "Ole Miss",
+          "Ole Miss Rebels",
+          "Rebels"
+        ],
+        "color": "13294b"
+      },
+      "away": {
+        "id": "espn:142",
+        "name": "Missouri Tigers",
+        "abbrev": "MIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIZ",
+          "Missouri",
+          "Missouri Tigers",
+          "Tigers"
+        ],
+        "color": "f1b82d"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Vaught-Hemingway Stadium",
+      "detail": "2:52 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5647,7 +5297,99 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Galaxy Stadium",
-      "detail": "7:48 - 1st Quarter",
+      "detail": "5:25 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858264",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:259",
+        "name": "Virginia Tech Hokies",
+        "abbrev": "VT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hokies",
+          "VT",
+          "Virginia Tech",
+          "Virginia Tech Hokies"
+        ],
+        "color": "6a2c3e"
+      },
+      "away": {
+        "id": "espn:59",
+        "name": "Georgia Tech Yellow Jackets",
+        "abbrev": "GT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+        "logo_dark": null,
+        "aliases": [
+          "GT",
+          "Georgia Tech",
+          "Georgia Tech Yellow Jackets",
+          "Yellow Jackets"
+        ],
+        "color": "b3a369"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Lane Stadium",
+      "detail": "15:00 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858266",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:150",
+        "name": "Duke Blue Devils",
+        "abbrev": "DUKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Devils",
+          "DUKE",
+          "Duke",
+          "Duke Blue Devils"
+        ],
+        "color": "00539b"
+      },
+      "away": {
+        "id": "espn:153",
+        "name": "North Carolina Tar Heels",
+        "abbrev": "UNC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+        "logo_dark": null,
+        "aliases": [
+          "North Carolina",
+          "North Carolina Tar Heels",
+          "Tar Heels",
+          "UNC"
+        ],
+        "color": "7bafd4"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Wallace Wade Stadium",
+      "detail": "2:47 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5693,7 +5435,193 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Michigan Stadium",
-      "detail": "5:58 - 1st Quarter",
+      "detail": "0:32 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864522",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2751",
+        "name": "Wyoming Cowboys",
+        "abbrev": "WYO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "WYO",
+          "Wyoming",
+          "Wyoming Cowboys"
+        ],
+        "color": "492f24"
+      },
+      "away": {
+        "id": "espn:2459",
+        "name": "Northern Illinois Huskies",
+        "abbrev": "NIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "N Illinois",
+          "NIU",
+          "Northern Illinois",
+          "Northern Illinois Huskies"
+        ],
+        "color": "c8102e"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "War Memorial Stadium",
+      "detail": "3:42 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864524",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2005",
+        "name": "Air Force Falcons",
+        "abbrev": "AFA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+        "logo_dark": null,
+        "aliases": [
+          "AFA",
+          "Air Force",
+          "Air Force Falcons",
+          "Falcons"
+        ],
+        "color": "003594"
+      },
+      "away": {
+        "id": "espn:2439",
+        "name": "UNLV Rebels",
+        "abbrev": "UNLV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rebels",
+          "UNLV",
+          "UNLV Rebels"
+        ],
+        "color": "cf0a2c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Falcon Stadium",
+      "detail": "14:52 - 2nd Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866444",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2199",
+        "name": "Eastern Michigan Eagles",
+        "abbrev": "EMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Michigan",
+          "EMU",
+          "Eagles",
+          "Eastern Michigan",
+          "Eastern Michigan Eagles"
+        ],
+        "color": "006938"
+      },
+      "away": {
+        "id": "espn:2649",
+        "name": "Toledo Rockets",
+        "abbrev": "TOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rockets",
+          "TOL",
+          "Toledo",
+          "Toledo Rockets"
+        ],
+        "color": "0b2240"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Rynearson Stadium",
+      "detail": "15:00 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866478",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:193",
+        "name": "Miami (OH) RedHawks",
+        "abbrev": "M-OH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "M-OH",
+          "Miami (OH)",
+          "Miami (OH) RedHawks",
+          "Miami OH",
+          "RedHawks"
+        ],
+        "color": "c41230"
+      },
+      "away": {
+        "id": "espn:2006",
+        "name": "Akron Zips",
+        "abbrev": "AKR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+        "logo_dark": null,
+        "aliases": [
+          "AKR",
+          "Akron",
+          "Akron Zips",
+          "Zips"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Yager Stadium",
+      "detail": "End of 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5739,7 +5667,7 @@
       "source": "espn:basketball/wnba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "1:42 - 1st Quarter",
+      "detail": "9:26 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5753,7 +5681,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-17T20:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:14",
         "name": "Tampa Bay Lightning",
@@ -5783,7 +5711,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -7318,7 +7246,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Preview/Scheduled",
+      "source_status": "Preview/Pre-Game",
       "venue": "Progressive Field",
       "detail": "",
       "game_number": 1,
@@ -11416,7 +11344,7 @@
       "headline": "Sources: Eagles star QB Jalen Hurts on IR due to blood clot, out indefinitely",
       "summary": "The Eagles have decided to place Jalen Hurts on injured reserve after consultations with numerous doctors and experts, sources told ESPN and NFL Network.",
       "image": "https://a.espncdn.com/photo/2026/1004/r1726004_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T19:58:09Z",
+      "published_utc": "2026-10-17T20:03:15Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Adam Schefter and Ian Rapoport",
@@ -11584,7 +11512,7 @@
       "headline": "Steelers place Wilson on IR with finger injury",
       "summary": "The Pittsburgh Steelers placed Roman Wilson on the injured reserve list, their second key receiver lost to injury in as many weeks.",
       "image": "https://a.espncdn.com/photo/2026/0728/r1694789_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T19:57:39Z",
+      "published_utc": "2026-10-17T20:00:08Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "Brooke Pryor",
@@ -11749,6 +11677,22 @@
     }
   ],
   "shows": [
+    {
+      "id": "ww:7150ecb4526e81cf46398f5d0b2d8def",
+      "title": "BKFC 95 Newark: Jamel Herring vs John Dodson 10/17/2026",
+      "date": "2026-10-17",
+      "replay_url": "https://dailywrestling.cc/embed/amm/10-17-2026/select-post-2/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/amm/10-17-2026/select-post-2/1/1",
+          "label": "Source 1 \u2013 Mstream \u2014 Live HD (CH 90)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "",
+      "source_url": "https://watch-wrestling.eu/bkfc-95-newark-jamel-herring-vs-john-dodson-10-17-2026/7150ecb4526e81cf46398f5d0b2d8def"
+    },
     {
       "id": "ww:aew-wrestledream-2026-live",
       "title": "AEW WrestleDream 10/17/26 \u2013 October 17, 2026",
