@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-17T23:05:34.455340+00:00",
+  "generated_utc": "2026-10-17T23:08:30.001893+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915416",
@@ -2501,42 +2501,6 @@
       "card": ""
     },
     {
-      "event_id": "tvmaze:1349:s2026e42",
-      "sport": "wrestling",
-      "competition_id": "tna",
-      "competition_name": "TNA",
-      "start_utc": "2026-10-16T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:1349",
-        "name": "TNA iMPACT!",
-        "abbrev": "IMP",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:tna",
-        "name": "TNA",
-        "abbrev": "TNA",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:tna",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "TNA iMPACT!"
-    },
-    {
       "event_id": "nhl:2026020118",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -2939,42 +2903,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
-    },
-    {
-      "event_id": "tvmaze:803:s27e42",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-10-17T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:803",
-        "name": "WWE Friday Night SmackDown",
-        "abbrev": "SD",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Friday Night SmackDown"
     },
     {
       "event_id": "espn:basketball:401898408",
@@ -5229,52 +5157,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856719",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:61",
-        "name": "Georgia Bulldogs",
-        "abbrev": "UGA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulldogs",
-          "Georgia",
-          "Georgia Bulldogs",
-          "UGA"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:2",
-        "name": "Auburn Tigers",
-        "abbrev": "AUB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
-        "logo_dark": null,
-        "aliases": [
-          "AUB",
-          "Auburn",
-          "Auburn Tigers",
-          "Tigers"
-        ],
-        "color": "002b5c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Sanford Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856723",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5498,7 +5380,53 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rynearson Stadium",
-      "detail": "1:42 - 4th Quarter",
+      "detail": "1:25 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856719",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:61",
+        "name": "Georgia Bulldogs",
+        "abbrev": "UGA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "Georgia",
+          "Georgia Bulldogs",
+          "UGA"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:2",
+        "name": "Auburn Tigers",
+        "abbrev": "AUB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+        "logo_dark": null,
+        "aliases": [
+          "AUB",
+          "Auburn",
+          "Auburn Tigers",
+          "Tigers"
+        ],
+        "color": "002b5c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Sanford Stadium",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5867,7 +5795,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "First Community Stadium",
-      "detail": "12:02 - 4th Quarter",
+      "detail": "10:06 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5957,7 +5885,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Our Lady of Lourdes Stadium",
-      "detail": "10:42 - 3rd Quarter",
+      "detail": "9:24 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6091,7 +6019,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "11:12 - 2nd Quarter",
+      "detail": "9:57 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6289,7 +6217,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-17T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:29",
         "name": "Columbus Blue Jackets",
@@ -6319,7 +6247,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Nationwide Arena",
       "detail": "",
       "game_number": 1,
@@ -6335,7 +6263,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-17T23:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:16",
         "name": "Chicago Blackhawks",
@@ -6365,7 +6293,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "United Center",
       "detail": "",
       "game_number": 1,
@@ -6381,7 +6309,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2390",
         "name": "Miami Hurricanes",
@@ -6412,9 +6340,9 @@
         "color": "782f40"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Hard Rock Stadium",
-      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "detail": "14:54 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6428,7 +6356,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:238",
         "name": "Vanderbilt Commodores",
@@ -6458,9 +6386,9 @@
         "color": "a32136"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "FirstBank Stadium",
-      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "detail": "14:23 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6474,7 +6402,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:239",
         "name": "Baylor Bears",
@@ -6503,9 +6431,9 @@
         "color": "4d1979"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "McLane Stadium",
-      "detail": "Sat, October 17th at 7:00 PM EDT",
+      "detail": "14:37 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6551,7 +6479,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Raymond James Stadium",
-      "detail": "14:11 - 1st Quarter",
+      "detail": "12:39 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6598,7 +6526,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Fargodome",
-      "detail": "14:26 - 1st Quarter",
+      "detail": "12:50 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6645,7 +6573,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "M. M. Roberts Stadium",
-      "detail": "14:09 - 1st Quarter",
+      "detail": "12:58 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11502,6 +11430,20 @@
       "body": ""
     },
     {
+      "story_id": "50204893",
+      "headline": "Mikel Arteta: 'Big believer' Arsenal's Kai Havertz can score 30 goals a season",
+      "summary": "Mikel Arteta has said he is a \"big believer\" that Kai Havertz can be Arsenal's 30-goal-a-season man.",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732190_1296x729_16-9.jpg",
+      "published_utc": "2026-10-17T22:53:29Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "PA",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50204893/arsenal-kai-havertz-mikel-arteta-30-goals-big-believer-goals-season",
+      "stream_url": "",
+      "body": "Mikel Arteta has said he is a \"big believer\" that Kai Havertz can be Arsenal's 30-goal-a-season man.\n\nHavertz is set to lead the line for Arsenal in their clash at Nottingham Forest on Sunday as he continues to be preferred to the out-of-favour Viktor Gy\u00f6keres.\n\nThe German joined Arsenal from Chelsea in 2023, scoring 14 goals in his first season at the Emirates Stadium before netting 15 in the following campaign.\n\nA hamstring injury saw him miss the concluding four months of that season before both hamstring and knee problems restricted him to just 24 appearances across all competitions last term, with a return of seven goals.\n\nThe 27-year-old has started all of Arsenal's league games so far, scoring twice in the Premier League champions' opening three games, but has not found the back of the net since -- a barren streak of five matches.\n\nHowever, speaking ahead of Sunday's contest at the City Ground, Arteta insisted Havertz can hit as many as 30 goals a season.\n\n\"He has that ability,\" Arteta said. \"That is why he is playing there as well, and that is why we signed him.\n\n\"He needs that volume of games and actions, and if you give him that, I am a big believer that yes, he can do it.\n\n\"His football IQ is something else. He understands everything at such speed, and he can break down information better probably than anyone else on the team.\n\n- Mikel Arteta defends Viktor Gy\u00f6keres after goalless start to season\n\n- Mikel Merino: I am 'fortunate to be alive' after Dortmund bus attack\n\n- Eberechi Eze to perform Cristiano Ronaldo-inspired celebration after loss to IShowSpeed\n\n\"That's something that's not easy to say especially when we talk about a striker. He was out for a long period of time last season and to get back at the highest level is not easy and it can take time.\n\n\"But Kai has done it almost immediately from pre-season and I'm not surprised because his mentality is top. I value him a lot.\"\n\nGy\u00f6keres was handed just his third start of the season in Arsenal's Champions League match against Lille on Tuesday night.\n\nThe Sweden international was withdrawn midway through the second half having made little impact on the game.\n\nGy\u00f6keres scored 97 times across 102 appearances for former club Sporting Lisbon, but he is yet to find the back of net in his seven games this season.\n\n\"That's a very personal question,\" Arteta said, when asked if Gy\u00f6keres, who struck 21 times in his debut campaign for the Gunners, is low on confidence.\n\n\"What he transmits to me is an incredible will and determination and work-rate to improve and help the team.\n\n\"That's Viktor every single day, regardless of his position, whether he scores a goal or not, and that's why he's always an option to play.\n\n\"We are trying to help him as much as possible. He has some very good moments, but it's very small margins, and scoring, or not scoring, changes the narrative.\""
+    },
+    {
       "story_id": "50202417",
       "headline": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely",
       "summary": "The Eagles have placed Jalen Hurts on injured reserve after consultations with numerous doctors and experts, sources told ESPN and NFL Network.",
@@ -11542,20 +11484,6 @@
       "link": "https://www.espn.com/nba/story/_/id/50204321/sources-knicks-waiving-bruce-brown-keeping-james-wiseman",
       "stream_url": "",
       "body": "The New York Knicks waived Bruce Brown and will keep James Wiseman on the roster as the team heads into its regular-season opener.\n\nBrown was one of several players on non-guaranteed deals vying for one of New York's final two available roster spots. Tony Bradley, Ochai Agbaji and Drew Eubanks were all also waived in recent days.\n\nWiseman appeared in all four of the Knicks' preseason games and impressed in 24 minutes vs. the Toronto Raptors on Tuesday, when he scored 18 points and grabbed 10 rebounds.\n\nAccording to ESPN's Bobby Marks, the Knicks could have kept Brown and Wiseman, but because they are only $3.2 million below their self-imposed hard cap at the second apron, retaining both players would've been difficult.\n\nWiseman, 25, will join Karl-Anthony Towns and Andre Drummond in New York's center rotation. The reigning NBA champions lost key reserve big man Mitchell Robinson to the Boston Celtics this past summer via free agency.\n\nThe Knicks begin the NBA's regular season Tuesday, when they host the new-look Philadelphia 76ers."
-    },
-    {
-      "story_id": "50204834",
-      "headline": "Haaland, Man City hold off resilient Ipswich",
-      "summary": "Erling Haaland nets a double to extend his lead at the top of the goal-scoring tally as Manchester City take down Ipswich Town 3-2.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_EPL_Highlight_Haaland_Man_City_hold_off_resilient_Ipswich_20261018_AUS_ONLY/dm_261017_EPL_Highlight_Haaland_Man_City_hold_off_resilient_Ipswich_20261018_AUS_ONLY.jpg",
-      "published_utc": "2026-10-17T22:19:34Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50204834/haaland-man-city-hold-resilient-ipswich",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1017/dm_261017_EPL_Highlight_Haaland_Man_City_hold_off_resilient_Ipswich_20261018_AUS_ONLY/dm_261017_EPL_Highlight_Haaland_Man_City_hold_off_resilient_Ipswich_20261018_AUS_ONLY/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "50203944",
@@ -11642,18 +11570,18 @@
       "body": "UFC featherweight champion Alexander Volkanovski has proposed a \"send-off\" superfight between himself and lightweight champion Justin Gaethje.\n\nVolkanovski (28-4) is scheduled to defend his 145-pound title against Movsar Evloev (20-0) at UFC 333 on Oct. 24 in Abu Dhabi, United Arab Emirates. Arguably the greatest featherweight of all time, Volkanovski has acknowledged he is approaching the end of his career at 38 years old. Gaethje, 37, has acknowledged the same since he claimed the UFC's 155-pound title for the first time in June.\n\nWith both champions seemingly near the end of their time in the Octagon, Volkanovski has suggested a winner-take-all scenario in 2027.\n\n\"Imagine that, do it as a send-off,\" Volkanovski told the \"Who Da Fook Are These Guys?\" podcast. \"Gaethje, Volk. I think he's said that he maybe has one more. That could be a superfight. Let's do a superfight with the lightweight title on the line. We can both see everyone off with a crazy superfight. That could be really good.\"\n\nVolkanovski, of Australia, has already tried to capture the lightweight title. He famously challenged then-lightweight champion Islam Makhachev twice in a 10-month span in 2023. He suffered a razor-close decision loss to Makhachev in their first meeting in February then lost by first-round knockout in an October rematch that was scheduled on short notice.\n\nGaethje (28-5) has not even guaranteed whether he will fight again or retire off his historic win at the White House in June, but he has stated that he believes his next challenger would be lightweight contender Arman Tsarukyan. Volkanovski appears to be throwing his name into the mix in the hope of changing those plans.\n\n\"He's said, 'What's the point of doing rematches,'\" Volkanovski said. \"Let's do a superfight then [retire] straight away after, let the divisions sort themselves out. The UFC would be happy for that. Let's make it happen.\""
     },
     {
-      "story_id": "50200632",
-      "headline": "Tonga crush England in World Cup game of death",
-      "summary": "England's hopes of reaching the World Cup semi-finals are already on life support after suffering a 30-12 loss to world No.5 Tonga in their blockbuster showdown in Perth.",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731919_1296x729_16-9.jpg",
+      "story_id": "50185327",
+      "headline": "NRL transfer whispers: Rivals keeping tabs on Dragons' Tu",
+      "summary": "The NRL season may be over, but the player market is already heating up ahead of November 1. Isaac Issa has news from the Dragons on some key outside backs",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/dm_261015_Rugby_League_Highlight_Bostock_leads_Kangaroos_to_thrilling_World_Cup_win_20261016_AUS_ONLY/dm_261015_Rugby_League_Highlight_Bostock_leads_Kangaroos_to_thrilling_World_Cup_win_20261016_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/50200632/tonga-crush-england-rugby-league-world-cup-game-death",
+      "link": "https://www.espn.com/nrl/story/_/id/50185327/nrl-transfer-news-jack-bostock-brushes-dragons-links-sloan-stay",
       "stream_url": "",
-      "body": "England's hopes of reaching the World Cup semi-finals are already on life support after suffering a 30-12 loss to world No.5 Tonga in their blockbuster showdown in Perth.\n\nWith His Majesty King Tupou VI and crown prince Tupouto'a 'Ulukalala among the sellout 18,302 crowd at HBF Park on Saturday night, Tonga produced a defensive masterclass in the four-tries-to-two victory.\n\nThe result put Tonga in the box seat to reach the semis, with games against Lebanon and Samoa to round out their group stage.\n\nIn contrast, world No.3 England have been left on the brink of elimination - even if they win their remaining two games against France and PNG.\n\nUnder the confusing group stage system employed for the World Cup, only two teams from across pools B and C will progress to the last four.\n\nIf England finish on the same amount of wins as Tonga, then the Pacific islanders will go through given they won Saturday's head-to-head battle.\n\nShould England and Samoa end up with the same number of wins, the tiebreaker will be which nation has the better points-for-and-against differential.\n\nSamoa opened their campaign with a 78-4 smashing of France, leaving England needing to post some massive wins in their remaining two games to stay alive.\n\nIt's why Saturday's clash between England and Tonga was dubbed the game of death - with the loser facing a mathematical tightrope to qualify past the pool stage.\n\nThere were plenty of big hits early, with England winger Zach Eckersley copping it big time after dropping a high ball and then being pummelled by a charging Dallin Watene-Zelezniak.\n\nStefano Utoikamanu opened the scoring in the 24th minute when he found a hole in England's defence to stroll over untouched.\n\nA pair of Isaiya Katoa penalty goals extended the margin to 10 points by halftime, with England left to rue a series of fumbles and near misses.\n\nEngland started the second half full of steam, resulting in a team-lifting try to AJ Brimson in the 46th minute.\n\nBut in a game where hard work was king, it was a slice of fortune that ended up giving Tonga a vital edge with Haumole Olakau'atu scoring the first of his two tries after he soccered the ball into an opponent's arm and then gathered the bouncing rebound.\n\nAnd when Tuimoala Lolohea's neat dribble found Tolutau Koula in the corner to make it 22-6 in the 58th minute it was as good as game over.\n\nThe win was a powerful statement from Tonga, whose only previous taste of international success against England came in 2019 when they beat Great Britain."
+      "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nRivals keeping tabs on Dragons' Tu\n\nMultiple clubs are monitoring St George Illawarra outside back Setu Tu, with the Dragons yet to begin talks over a contract extension.\n\nTu is contracted until the end of 2027 and is expected to test the open market from November 1, when rival clubs can negotiate a deal for 2028 and beyond.\n\nThe former Warriors outside back joined the Dragons on a development contract this season and is set to move into the club's top 30 squad in 2027.\n\nHis ability to cover multiple positions across the backline adds to his appeal as clubs assess their recruitment options.\n\nRivals monitor Patea as open market looms\nPenrith young gun Luron Patea is expected to test the open market from November 1, with multiple clubs keeping tabs on the promising prop.\n\nPatea is contracted until the end of 2027, but the Panthers are yet to begin talks over an extension, leaving rival clubs poised to explore a deal for 2028 and beyond.\n\nPenrith have not granted Patea permission to negotiate with other clubs before November 1.\n\nThe Panthers junior made his NRL debut in 2024 and has shown promise during his first-grade opportunities, providing another emerging option in Penrith's forward pack.\n\nHe is among several Panthers players approaching the final year of their contracts, with veteran prop Moses Leota also unsigned beyond 2027.\n\nRoosters eye Dockar-Clay reunion\nThe Roosters have shown interest in a potential return for Zach Dockar-Clay as they explore options to bolster their hooking and utility depth.\n\nESPN understands the 31-year-old has emerged as an option following his departure from Manly, with discussions remaining at an early stage.\n\nDockar-Clay spent the 2024 and 2025 seasons with the Roosters before joining the Sea Eagles on a one-year deal for 2026.\n\nManly confirmed his departure last month after a season in which he claimed the club's NSW Cup best-and-fairest award.\n\nBostock brushes Dragons links\n\nDolphins star Jack Bostock has dismissed recent links between himself and the Dragons, admitting this isn't the first time he'd been floated for a club switch.\n\n\"I've been linked to a few a clubs,\" Bostock admitted.\n\n\"I don't know about [the Dragons links].\"\n\nHe said that while he \"obviously sees it in the media,\" his sole focus is the Kangaroos.\n\nSloan's Dragons stay still a possibility\n\nTyrell Sloan could yet remain at St George Illawarra next season, with discussions ongoing over a potential stay despite his planned move to Castleford.\n\nThere is interest in keeping Sloan at the Dragons, but several hurdles remain before that can become a reality.\n\nRoster space and salary cap room would need to be worked through, while any arrangement would also require Castleford to agree to release him.\n\nSloan previously admitted he would \"love to\" remain in the NRL when speaking to Channel Nine in August, after his Castleford deal had been announced.\n\nNo agreement has been reached and a stay is far from guaranteed."
     },
     {
       "story_id": "50205079",
@@ -11668,6 +11596,20 @@
       "link": "http://www.espn.com/nhl/recap?gameId=401892521",
       "stream_url": "",
       "body": "TAMPA, Fla. -- \u2014 Nikita Kucherov scored twice, Jake Guentzel had a goal and an assist, and Dennis Hildeby stopped 12 shots as the Tampa Bay Lightning defeated the Vancouver Canucks 4-2 on Saturday.\n\n\r\nGuentzel scored the winner in the third period as Tampa Bay came back from a two-goal deficit.\n\n\r\nPontus Holmberg also scored and Brayden Point finished with two assists for Tampa Bay, which improved to 5-0 at home.\n\n\r\nLinus Karlsson and Elias Pettersson scored while Kevin Lankinen finished with 31 saves for the Canucks, who finished winless (0-4-1) on a five-game road trip. Vancouver is winless in the past seven games (0-6-1) overall.\n\n\r\nGuentzel picked up the winner at 2:04 of the third after Charle-Edouard D'Astous slid a pass off the wall to Guentzel for the quick snap shot that deflected off the stick of Vancouver's Liam Ohgren.\n\n\r\nFor the second consecutive game, the Canucks had a 2-0 lead they were not able to hold.\n\n\r\nKarlsson put Vancouver up 1-0 at 15:32 of the first period with a shot from the right point. Pettersson put the Canucks up 2-0 with a power-play goal at 4:35 of the second period.\n\n\r\nKucherov scored twice in the span of 4:53 to pull the Lightning even. He scored his first goal off his own rebound on the power play at 6:30. Kucherov scored again as Point pulled a faceoff back to Kucherov for the quick shot at 11:23.\n\n\r\nHolmberg capped the scoring, getting to a loose puck off a faceoff and beating Lankinen through the pads at 15:57.\n\n\r\nUp next\r\nCanucks: Host the Carolina Hurricanes on Tuesday night.\n\n\r\nLightning: Travel to face the Vegas Golden Knights on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
+      "story_id": "50205062",
+      "headline": "Liverpool come from behind to beat shorthanded Brentford",
+      "summary": "Victor Mu\u00f1oz and Alexander Isak take advantage of a weakened Brentford defence to score a pair of electric goals and lift Liverpool to a 2-1 comeback victory.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_EPL_Highlight_Liverpool_come_from_behind_to_beat_shorthanded_Brentford_20261018_AUS_ONLY/dm_261017_EPL_Highlight_Liverpool_come_from_behind_to_beat_shorthanded_Brentford_20261018_AUS_ONLY.jpg",
+      "published_utc": "2026-10-17T22:53:13Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50205062/liverpool-come-beat-shorthanded-brentford",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1017/dm_261017_EPL_Highlight_Liverpool_come_from_behind_to_beat_shorthanded_Brentford_20261018_AUS_ONLY/dm_261017_EPL_Highlight_Liverpool_come_from_behind_to_beat_shorthanded_Brentford_20261018_AUS_ONLY/playlist.m3u8",
+      "body": ""
     },
     {
       "story_id": "50188691",
@@ -11710,20 +11652,6 @@
       "link": "https://www.espn.com/nba/story/_/id/50201671/76ers-convert-7-foot-6-tacko-fall-two-way-contract",
       "stream_url": "",
       "body": "PHILADELPHIA -- The 76ers have converted center Tacko Fall to a two-way contract, the team announced Saturday.\n\nLast month, the Sixers signed the 7-foot-6 center to an Exhibit 10 deal, and injuries to the frontcourt likely led to Fall getting this spot.\n\nAriel Hukporti, projected to be the Sixers' backup center, suffered a season-ending right Achilles tear in the preseason. Center Adem Bona, potentially the next man up, has been sidelined with a foot injury, and Dominick Barlow has battled back soreness that kept him out of the preseason.\n\nFall hasn't played in the NBA since the 2021-22 season, when he was with the Cleveland Cavaliers. This will be his fourth season in the NBA. He played his first two in Boston with new Sixers forward Jaylen Brown.\n\nFall, 30, most recently played for the Ningbo Rockets of the Chinese Basketball Association."
-    },
-    {
-      "story_id": "50204134",
-      "headline": "Michael Carrick: Questions about Man United future 'not important' amid growing pressure",
-      "summary": "Michael Carrick has said his future as Manchester United head coach is \"not important\" ahead of a crucial clash against Leeds United.",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729888_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T21:30:56Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "Rob Dawson",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50204134/michael-carrick-questions-manchester-united-future-not-important",
-      "stream_url": "",
-      "body": "Michael Carrick has said his future as Manchester United head coach is \"not important\" ahead of a crucial clash against Leeds United.\n\nMan United head to Elland Road on Sunday with Carrick under pressure following a run of five games without a win.\n\nAnother poor result will ramp up the questions about his suitability for the role, but Carrick insists his own job prospects are the last thing on his mind.\n\n\"I really don't take it about me,\" Carrick told a news conference on Friday.\n\n\"It's not that. I don't think about, 'How am I going to get through this? How am I going to survive this? What do I need to do to look after myself?' It's not important. It's about this football club and winning football matches.\"\n\nAs well as dealing with the fallout from Lisandro Mart\u00ednez's explosive criticism of director of football Jason Wilcox this week, Carrick has also had to diffuse controversy stirred up by Nicky Butt.\n\nThe former England midfielder claimed Carrick told him management was \"not for him\" before taking the United job in January -- something Carrick quickly denied.\n\n- Dawson: Is Mart\u00ednez's outburst a sign of chaos to come for Man United and Carrick?\n\n- Mart\u00ednez's comments 'not that far off' but should not have been made - Peter Schmeichel\n\n- Man United 'a circus' amid Lisandro Mart\u00ednez rant - Roy Keane\n\n\"I definitely wouldn't be here if that was the case, would I?\" he said.\n\n\"It's the best role I could possibly have. I feel a real privilege of being in this position and a real responsibility, but equally a drive of wanting to make a difference and having success here. So, yeah, I'm loving it.\n\n\"If you're not ready for that and you can't do anything that's difficult, then you're never going to be great. So we've got to work our way through it and I'm enjoying it as we go.\""
     },
     {
       "story_id": "50131911",
