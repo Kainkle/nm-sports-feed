@@ -1,22 +1,20 @@
 {
-  "generated_utc": "2026-10-18T14:03:43.217547+00:00",
+  "generated_utc": "2026-10-18T14:14:31.535422+00:00",
   "window_days": 2,
-  "total_events": 230,
+  "total_events": 226,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 1,
-      "date_range": [
-        "2026-10-18",
-        "2026-10-18"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "afl",
@@ -315,16 +313,14 @@
       "competition": "tna",
       "name": "TNA",
       "sport": "wrestling",
-      "events": 1,
-      "date_range": [
-        "2026-10-16",
-        "2026-10-16"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "uefa.champions",
@@ -414,19 +410,93 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 2,
-      "date_range": [
-        "2026-10-17",
-        "2026-10-20"
-      ],
-      "explicit_status": 2,
-      "status_coverage_pct": 100,
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
-      "live_now": 0
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "tvmaze:wwe",
+      "date": "2026-10-15",
+      "error": "URLError for https://api.tvmaze.com/shows/802: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:wwe",
+      "date": "2026-10-16",
+      "error": "URLError for https://api.tvmaze.com/shows/802: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:wwe",
+      "date": "2026-10-17",
+      "error": "URLError for https://api.tvmaze.com/shows/802: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:wwe",
+      "date": "2026-10-18",
+      "error": "URLError for https://api.tvmaze.com/shows/802: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:wwe",
+      "date": "2026-10-19",
+      "error": "URLError for https://api.tvmaze.com/shows/802: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:aew",
+      "date": "2026-10-15",
+      "error": "URLError for https://api.tvmaze.com/shows/42189: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:aew",
+      "date": "2026-10-16",
+      "error": "URLError for https://api.tvmaze.com/shows/42189: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:aew",
+      "date": "2026-10-17",
+      "error": "URLError for https://api.tvmaze.com/shows/42189: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:aew",
+      "date": "2026-10-18",
+      "error": "URLError for https://api.tvmaze.com/shows/42189: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:aew",
+      "date": "2026-10-19",
+      "error": "URLError for https://api.tvmaze.com/shows/42189: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:tna",
+      "date": "2026-10-15",
+      "error": "URLError for https://api.tvmaze.com/shows/1349: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:tna",
+      "date": "2026-10-16",
+      "error": "URLError for https://api.tvmaze.com/shows/1349: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:tna",
+      "date": "2026-10-17",
+      "error": "URLError for https://api.tvmaze.com/shows/1349: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:tna",
+      "date": "2026-10-18",
+      "error": "URLError for https://api.tvmaze.com/shows/1349: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:tna",
+      "date": "2026-10-19",
+      "error": "URLError for https://api.tvmaze.com/shows/1349: <urlopen error [Errno 101] Network is unreachable>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
