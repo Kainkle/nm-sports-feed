@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-18T06:45:23.134847+00:00",
+  "generated_utc": "2026-10-18T06:55:38.257405+00:00",
   "events": [
     {
       "event_id": "mlb:849818",
@@ -833,6 +833,42 @@
       "card": ""
     },
     {
+      "event_id": "tvmaze:1349:s2026e42",
+      "sport": "wrestling",
+      "competition_id": "tna",
+      "competition_name": "TNA",
+      "start_utc": "2026-10-16T01:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:1349",
+        "name": "TNA iMPACT!",
+        "abbrev": "IMP",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:tna",
+        "name": "TNA",
+        "abbrev": "TNA",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:tna",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "TNA iMPACT!"
+    },
+    {
       "event_id": "nhl:2026020118",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -1235,6 +1271,42 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "tvmaze:803:s27e42",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-10-17T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:803",
+        "name": "WWE Friday Night SmackDown",
+        "abbrev": "SD",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE Friday Night SmackDown"
     },
     {
       "event_id": "espn:basketball:401898408",
@@ -5479,6 +5551,42 @@
       "card": ""
     },
     {
+      "event_id": "tvmaze:68778:s4e47",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-10-18T00:00:00Z",
+      "status": "final",
+      "home": {
+        "id": "tvmaze:68778",
+        "name": "AEW: Collision",
+        "abbrev": "COL",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "AEW: Collision"
+    },
+    {
       "event_id": "nhl:2026020131",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6390,7 +6498,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-18T03:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2483",
         "name": "Oregon Ducks",
@@ -6420,9 +6528,9 @@
         "color": "e31937"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Autzen Stadium",
-      "detail": "0:06 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8112,6 +8220,42 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "tvmaze:802:s33e42",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-10-20T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:802",
+        "name": "WWE Monday Night RAW",
+        "abbrev": "RAW",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE Monday Night RAW"
     },
     {
       "event_id": "espn:basketball:401918306",
@@ -10328,28 +10472,14 @@
       "headline": "Rays' big three of Caminero, Diaz, Aranda deliver big hits in ALCS Game 4 win",
       "summary": "Junior Caminero, Yandy Diaz and Jonathan Aranda combined to go 6-for-14 with five RBIs as the Rays tied the ALCS at 2-2 with Saturday's 7-3 win over Cleveland.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1018/b51bb290-77e1-4e6a-9d6c-e707b8e31409/b51bb290-77e1-4e6a-9d6c-e707b8e31409.jpg",
-      "published_utc": "2026-10-18T06:43:12Z",
+      "published_utc": "2026-10-18T06:45:15Z",
       "competition_id": "mlb",
       "competition_name": "MLB",
       "byline": "Jorge Castillo",
       "source": "ESPN",
       "link": "https://www.espn.com/mlb/story/_/id/50207772/rays-capitalize-guardians-errors-game-4-even-alcs",
       "stream_url": "",
-      "body": "CLEVELAND -- The Tampa Bay Rays' big three, the trio of hitters the franchise needs to fuel its first championship run, heard the ribbing from manager Kevin Cash before their 7-3 win over the Cleveland Guardians in Game 4 of the American League Championship Series.\n\nThey heard it in the cage Friday while they waited out a rain delay that became a rainout and again Saturday as they prepared to play on a frigid night at Progressive Field.\n\nThird baseman Junior Caminero, designated hitter Yandy Diaz and first baseman Jonathan Aranda carried the offense to 98 wins and an AL East title and through a sweep of the New York Yankees in the AL Division Series. But the few times they've collectively struggled this season, such as over the first three games of this ALCS, Cash busted out a different nickname to loosen them up.\n\nThe big three? More like Los Tres Pequeno's -- the three little ones.\n\n\"It's kind of a dig at them and protecting the rest of the lineup,\" Cash said. \"So when they don't hit on a given night, I'm like, 'Yeah, I got my three Pequeno's hitting.' Yandy, Cammy and Aranda, they've all heard it.\"\n\nLos Pequeno's came up huge Saturday as the Rays evened the series at two games apiece and ensured they will return home to Florida for Game 6 on Monday, combining to go 6-for-14 with five RBIs.\n\n\"Los Tres Pequeno's right there,\" Caminero said. \"Pretty good job today for the boys.\"\n\nThe barrel-chested Diaz, who was the most productive of the three stars with three hits in the first three games, went 2-for-5 with a two-run home run that carried just over the wall in right field in the ninth inning to put the finishing touches on the victory.\n\nAranda, who entered Saturday 0-for-10 in the series, finished 3-for-4, including a single in the seventh inning that scored two runs thanks to Guardians right fielder Chase DeLauter allowing the ball to roll under his glove. Aranda wound up at third base on the error and scored moments later on Chandler Simpson's sacrifice fly.\n\nThen there's Caminero, the franchise's 23-year-old cornerstone and AL MVP candidate who went 0-for-4 with four strikeouts in Game 3 as the Rays, the team with the lowest strikeout rate in the majors this season, compiled 13 strikeouts in a 3-2 loss. It was just Caminero's second career four-strikeout performance. The struggle was jarring to outsiders. He remained confident.\n\n\"Everybody knows me,\" Caminero said. \"Everybody was confused about the four strikeouts and I said, 'No, no. I know who I am.' Everybody knows who I am. Everybody here gave me the support.\"\n\nHe responded Saturday by launching a pair of blistering line drives.\n\nThe first was a 110.7 mph flyball to center field with a 29-degree launch angle that went 410 feet and was somehow caught by Petey Halpin at the wall in the third inning. The ball had a 1.000 expected batting average and would've been a home run in 17 of 30 ballparks. It was the 204th ball in the Statcast Era (since 2015) that was hit at least 110 mph with that launch angle, and the first not to be hit for a home run, according to ESPN Research.\n\nCaminero said he \"100%\" thought it was a home run, which would've given the Rays a 2-1 lead. Instead, he gave it to them in the sixth inning when he cracked a 110.2 mph line drive into the left-field corner for an RBI double. When he reached second base, after pounding his chest and releasing a scream, he put his index finger on his lips as if to shush the noise.\n\n\"Junior is great, and now it's his turn to be great in the postseason,\" Cash said. \"Today was a big step in the right direction for him. I wouldn't be surprised now if he catches fire and does a lot for us.\"\n\nOn the mound, Nick Martinez continued his success on the road in 2026 -- he posted a 2.38 ERA in 16 starts away from Tropicana Field during the regular season -- by holding the Guardians to one run on two hits over 5\u2153 innings. Freddy Peralta, the Rays' Game 2 starter and presumptive Game 6 starter, replaced him in the sixth inning for his first relief appearance since 2024. Peralta entered with one out and a runner at first base and worked around a walk to escape the jam on nine pitches.\n\n\"He was all eager to come in and do it,\" Cash said. \"Then showed why. I mean, a lot of power. Got huge outs for us.\"\n\nIan Seymour stumbled in the seventh inning, surrendering two runs on four hits, before Kevin Kelly, Cam Booser and Bryan Baker combined for two scoreless innings. D\u00edaz supplied the final cushion with his first home run of the postseason in the final frame.\n\nDrew Rasmussen, Tampa Bay's ace, will take the mound Sunday afternoon opposite All-Star rookie left-hander Parker Messick. Teams that have won Game 5 in a series tied at two games apiece are 46-23, a 67% clip. The Rays' chances will only grow if their Pequeno's continue producing.\n\n\"At some point you think they're going to deliver, and they do,\" Booser said. \"So it's good to see them get back on track and good to see us get back playing our ball.\""
-    },
-    {
-      "story_id": "50208412",
-      "headline": "Valkyries take 1-0 lead into game 2 against the Dream",
-      "summary": "Atlanta Dream (30-14, 15-5 Eastern Conference) at Golden State Valkyries (32-12, 15-8 Western Conference)",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918306.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-18T06:10:27Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/preview?gameId=401918306",
-      "stream_url": "",
-      "body": "Atlanta Dream (30-14, 15-5 Eastern Conference) at Golden State Valkyries (32-12, 15-8 Western Conference)\n\nSan Francisco; Monday, 8 p.m. EDT\n\nWNBA FINALS: Valkyries lead series 1-0\n\nBOTTOM LINE: The Golden State Valkyries host the Atlanta Dream in the WNBA Finals with a 1-0 lead in the series. The Valkyries won the last matchup 68-64 on Oct. 17 led by 26 points from Gabby Williams, while Allisha Gray scored 19 points for the Dream.\n\nThe Valkyries have gone 17-5 in home games. Golden State is seventh in the Western Conference scoring 82.2 points while shooting 42.2% from the field.\n\nThe Dream have gone 15-7 away from home. Atlanta is the top team in the Eastern Conference with 43.7 points per game in the paint led by Angel Reese averaging 11.0.\n\nGolden State averages 10.4 made 3-pointers per game, 2.3 more made shots than the 8.1 per game Atlanta gives up. Atlanta has shot at a 44.2% rate from the field this season, 2.8 percentage points greater than the 41.4% shooting opponents of Golden State have averaged.\n\nTOP PERFORMERS: Veronica Burton is scoring 12.2 points per game with 3.6 rebounds and 5.7 assists for the Valkyries. Williams is averaging 19.3 points, 3.2 assists and 1.5 steals over the last 10 games.\n\nRhyne Howard is averaging 17.7 points, 3.7 assists and 2.3 steals for the Dream. Reese is averaging 18.1 points over the last 10 games.\n\nLAST 10 GAMES: Valkyries: 8-2, averaging 81.8 points, 38.3 rebounds, 17.3 assists, 7.1 steals and 4.6 blocks per game while shooting 39.7% from the field. Their opponents have averaged 76.5 points per game.\n\nDream: 9-1, averaging 91.4 points, 33.9 rebounds, 21.5 assists, 9.8 steals and 3.6 blocks per game while shooting 43.5% from the field. Their opponents have averaged 77.2 points.\n\nINJURIES: Valkyries: Iliana Rupert: out for season (pregnancy).\n\nDream: Brionna Jones: out for season (leg).\n\n------\n\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+      "body": "CLEVELAND -- The Tampa Bay Rays' big three, the trio of hitters the franchise needs to fuel its first championship run, heard the ribbing from manager Kevin Cash before their 7-3 win over the Cleveland Guardians in Game 4 of the American League Championship Series.\n\nThey heard it in the cage Friday while they waited out a rain delay that became a rainout and again Saturday as they prepared to play on a frigid night at Progressive Field.\n\nThird baseman Junior Caminero, designated hitter Yandy Diaz and first baseman Jonathan Aranda carried the offense to 98 wins and an AL East title and through a sweep of the New York Yankees in the AL Division Series. But the few times they've collectively struggled this season, such as over the first three games of this ALCS, Cash busted out a different nickname to loosen them up.\n\nThe big three? More like Los Tres Pequeno's -- the three little ones.\n\n\"It's kind of a dig at them and protecting the rest of the lineup,\" Cash said. \"So when they don't hit on a given night, I'm like, 'Yeah, I got my three Pequeno's hitting.' Yandy, Cammy and Aranda, they've all heard it.\"\n\nLos Pequeno's came up huge Saturday as the Rays evened the series at two games apiece and ensured it will return home to Florida for Game 6 on Monday, combining to go 6-for-14 with five RBIs.\n\n\"Los Tres Pequeno's right there,\" Caminero said. \"Pretty good job today for the boys.\"\n\nThe barrel-chested Diaz, who was the most productive of the three stars with three hits in the first three games, went 2-for-5 with a two-run home run that carried just over the wall in right field in the ninth inning to put the finishing touches on the victory.\n\nAranda, who entered Saturday 0-for-10 in the series, finished 3-for-4, including a single in the seventh inning that scored two runs thanks to Guardians right fielder Chase DeLauter allowing the ball to roll under his glove. Aranda wound up at third base on the error and scored moments later on Chandler Simpson's sacrifice fly.\n\nThen there's Caminero, the franchise's 23-year-old cornerstone and AL MVP candidate who went 0-for-4 with four strikeouts in Game 3 as the Rays, the team with the lowest strikeout rate in the majors this season, fanned 13 times in a 3-2 loss. It was just Caminero's second career four-strikeout performance. The struggle was jarring to outsiders. He remained confident.\n\n\"Everybody knows me,\" Caminero said. \"Everybody was confused about the four strikeouts and I said, 'No, no. I know who I am.' Everybody knows who I am. Everybody here gave me the support.\"\n\nHe responded Saturday by launching a pair of blistering line drives.\n\nThe first was a 110.7 mph flyball to center field with a 29-degree launch angle that went 410 feet and was somehow caught by Petey Halpin at the wall in the third inning. The ball had a 1.000 expected batting average and would've been a home run in 17 of 30 ballparks. It was the 204th ball in the Statcast Era (since 2015) that was hit at least 110 mph with that launch angle, and the first not to be hit for a home run, according to ESPN Research.\n\nCaminero said he \"100%\" thought it was a home run, which would've given the Rays a 2-1 lead. Instead, he gave it to them in the sixth inning when he cracked a 110.2 mph line drive into the left-field corner for an RBI double. When he reached second base, after pounding his chest and releasing a scream, he put his index finger on his lips as if to shush the noise.\n\n\"Junior is great, and now it's his turn to be great in the postseason,\" Cash said. \"Today was a big step in the right direction for him. I wouldn't be surprised now if he catches fire and does a lot for us.\"\n\nOn the mound, Nick Martinez continued his success on the road in 2026 -- he posted a 2.38 ERA in 16 starts away from Tropicana Field during the regular season -- by holding the Guardians to one run on two hits over 5\u2153 innings. Freddy Peralta, the Rays' Game 2 starter and presumptive Game 6 starter, replaced him in the sixth inning for his first relief appearance since 2024. Peralta entered with one out and a runner at first base and worked around a walk to escape the jam on nine pitches.\n\n\"He was all eager to come in and do it,\" Cash said. \"Then showed why. I mean, a lot of power. Got huge outs for us.\"\n\nIan Seymour stumbled in the seventh inning, surrendering two runs on four hits, before Kevin Kelly, Cam Booser and Bryan Baker combined for two scoreless innings. D\u00edaz supplied the final cushion with his first home run of the postseason in the final frame.\n\nDrew Rasmussen, Tampa Bay's ace, will take the mound Sunday afternoon opposite All-Star rookie left-hander Parker Messick. Teams that have won Game 5 in a series tied at two games apiece are 46-23, a 67% clip. The Rays' chances will only grow if their Pequeno's continue producing.\n\n\"At some point you think they're going to deliver, and they do,\" Booser said. \"So it's good to see them get back on track and good to see us get back playing our ball.\""
     },
     {
       "story_id": "50208224",
@@ -10436,6 +10566,20 @@
       "body": "Christian Horner again played down links to Ferrari as the former Red Bull boss claimed he would be \"at peace\" if a return to Formula One never happens.\n\nHorner, 52, started his speaking tour to help launch his new book, entitled \"Drive,\" at the Barbican in York on Saturday.\n\nHe ran through his entire Formula One career, from Red Bull's introduction into the sport through to his controversial exit after the British Grand Prix in 2025.\n\n- Horner: Mercedes' Wolff has it 'easy' at the moment\n\n- Rafael C\u00e2mara to Haas: How F1's next rookie could shake up Ferrari's future\n\n- Verstappen finishes 9th in GT World Challenge\n\nBut the two-hour show passed without a single mention of the allegations Horner faced during his latter days with the team. The billed Q&A from the audience was delivered in the form of QR-code submitted questions put to Horner by the host.\n\nRed Bull's decision to sack him came a year and a half after he was accused of \"inappropriate behaviour\" by a female colleague. Horner always denied the accusations and was exonerated for a second time of controlling behaviour by an independent KC. It is a subject covered in the book in a chapter titled \"Out come the wolves.\"\n\nHorner's Red Bull exit ended a 20-year career with the team, where he won eight drivers' and six constructors' titles, and he continues to be linked with a return to the sport.\n\nA recent interview, in which Horner described Ferrari as the biggest brand in F1, reignited links to the Italian giants, but he again moved to talk that down.\n\n\"I said 'there's an aura around Ferrari, it's a privilege as a driver, an engineer etc. It is the dream of so many drivers.' I never said it was my bloody dream!\" Horner said.\n\n\"But the story came out that Ferrari was my dream job. I felt sorry for Fred [Vasseur, Ferrari team principal] because suddenly he was under a lot of pressure.\"\n\nHorner touched on how he lured design guru Adrian Newey to the team, his relationship with world champion drivers Sebastian Vettel and Max Verstappen and how the organisation of the team changed following the death of Red Bull co-founder Dietrich Mateschitz in 2022.\n\nHe described his sacking from Red Bull, days after the Silverstone race, as \"brutal.\"\n\nWhen the subject of his future came up again, Horner suggested that a return to F1 is not a certainty.\n\n\"What excites me most is what is the next chapter going to be and, honestly, I have no idea,\" Horner added.\n\n\"If my time is done in Formula One, I've had a hell of a ride and I did OK. If the right thing comes up to go back, I go back. But I am at peace in myself that if it doesn't I don't have to.\"\n\nRed Bull are using their own power trains for the first time this season, the culmination of a five-year project launched in 2021 and overseen by Horner until his departure.\n\nVerstappen has won the last two races -- in Malaysia and Singapore -- to deliver the first successes of that project on track and Horner spoke of his pride in seeing the engine come to fruition.\n\n\"Seeing that engine come to life and deliver and be reliable ... people thought it would be a joke,\" he said.\n\n\"To see podiums and then the victories in the last two weeks, in its 16th race to win a Grand Prix, I took huge pride in that. Both shareholders contacted me and thanked me.\""
     },
     {
+      "story_id": "50202269",
+      "headline": "How Golden State held court to take 1-0 lead over Atlanta in WNBA Finals",
+      "summary": "Golden State held court 68-64 to take a 1-0 lead over the Atlanta Dream in Game 1 of the WNBA Finals.",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732156_1296x729_16-9.jpg",
+      "published_utc": "2026-10-17T23:14:08Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50202269/finals-game-1-golden-state-valkyries-atlanta-dream",
+      "stream_url": "",
+      "body": "SAN FRANCISCO -- Game 1 goes to the Golden State Valkyries.\n\nThe No. 2 seed held court 68-64 in Game 1 of the WNBA Finals to take the early lead over the No. 4 seed Atlanta Dream in the best-of-seven series.\n\nGabby Williams led Golden State with 26 points, including four free throws in the final 1:18 to seal the victory. The back-and-forth game featured seven lead changes.\n\nAllisha Gray paced the Dream with 19 points but didn't score in the fourth quarter when the Dream shot 2-for-20 in the period. Angel Reese had 14 points and 12 rebounds.\n\nThe Valkyries, who have won all five playoff games at home this postseason and had the best record at home in the regular season, snapped the Dream's 10-game winning streak, which dated to the regular season.\n\nBoth teams seek their first WNBA championship. Game 2 is Monday night back at Chase Center. As the better seed, the Valkyries will host Games 2 and, if necessary, 5 and 7 in a 2-2-1-1-1 format.\n\nESPN was courtside Saturday with live analysis throughout the game.\n\nJump to:\n\nPostgame analysis | Relive the action\n\nMore:\n\nFinals preview | Top 15 players | Schedule | Offseason guide\n\n(2) Golden State Valkyries 68,\n\n(4) Atlanta Dream 64\n\nHow Golden State won the game: Both teams made big runs in this game, which set up a fourth quarter that was all about grit and determination. And also timing. After being outscored 17-9 in the third quarter, the Valkyries outscored the Dream 17-8 in the fourth quarter.\n\nThe Dream went just 4-of-25 from 3-point range, with Allisha Gray going 1-of-8. They were 18-of-21 from the foul line, but that was an area where the Valkyries were able to make up ground in the fourth quarter, finishing 11-of-16 from the stripe.\n\nGetting into crunch time, Atlanta seemed to get a little too sped up offensively and took shots too early when it would have helped the Dream to work their offense more. Of course, that's easier said than done against the best defense in the WNBA.\n\nRebounding ended up being a key factor, as the Valkyries won the board battle 41-35. And Golden State's depth -- much talked about before the series began -- came through. Particularly with Kaila Charles, who played 30 minutes, compiling seven points and 10 rebounds.\n\nGabby Williams led the way with 26 points, the only Valkyries player in double figures. -- Michael Voepel\n\nWhat the win means for the Valkyries: They won their first Finals game in their first WNBA Finals appearance. Even when the Dream went on runs, the Valkyries never deviated from their game plan -- and it never felt like they fully lost momentum. Maybe that's also a credit to the noise in Ballhalla.\n\nThis game showed an elite level of composure from the Valkyries, and that is a great sign for Golden State. Gabby Williams said that even though the Valkyries trailed with a few minutes left in the game, they had the Dream \"right where we wanted them.\" She said it's because they knew the game would come down to stops.\n\n\"That's our bread and butter,\" Williams added.\n\nIf the Valkyries can withstand the Dream's offensive runs and then lock them up on defense, they have a good chance to head to Atlanta with a 2-0 lead. -- Kendra Andrews\n\nWhat changes do you expect in Game 2? The Dream must win a game on the road if they want to win the title, so winning Game 1 would have given them more of a cushion moving forward. Now, Game 2 feels like a must-win at Chase Center before the series shifts to Atlanta for Games 3 and 4.\n\nDream coach Karl Smesko sounded confident in his team's ability to turn things around in Game 2. He said Saturday's game didn't come down to what Golden State did, but rather the Dream's loss was the result of one bad defensive stretch and a cold offensive quarter in the fourth.\n\nStill, when the Dream punched first in the opening quarter, they led by only eight points at the end of the period. For Atlanta to even the series Monday, the Dream have to make sure they are executing. They also need more from Angel Reese, who dominated early but was held scoreless in the second half, and Rhyne Howard, who finished with 12 points but shot 3-for-14 from the field and 2-for-9 from 3-point range. -- Andrews\n\nRelive the live action"
+    },
+    {
       "story_id": "50202417",
       "headline": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely",
       "summary": "The Eagles have placed Jalen Hurts on injured reserve after consultations with numerous doctors and experts, sources told ESPN and NFL Network.",
@@ -10504,20 +10648,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50208289/delauter-error-deflates-guardians-alcs-game-4-loss-rays",
       "stream_url": "",
       "body": "CLEVELAND -- The Guardians were hoping to stay within striking distance as the Tampa Bay Rays mounted a seventh-inning rally in Game 4 of the American League Championship Series on Saturday, but right fielder Chase DeLauter's error opened the door for a bigger inning.\n\nAlready trailing 2-1 with runners on second and third and one out, DeLauter misplayed a Jonathan Aranda single in right field, allowing the ball to get under his glove. Two runs scored on the play while Aranda ended up on third base. Moments later, Aranda scored, too, on Chandler Simpson's sacrifice fly to give Tampa Bay a four-run lead.\n\n\"Put that one on me,\" DeLauter told ESPN after the 7-3 loss. \"You miss a ground ball and give up two runs -- essentially give up three. It's my fault he's on third base. It sucks.\"\n\nIt's likely the two runners on base were going to score on the single anyway, but Aranda's unearned run allowed for some cushion as the Guardians got two runs back in the bottom of the inning.\n\n\"It looked like it may have snaked on him or just skipped by him, took his eye off of it,\" manager Stephen Vogt said.\n\nSecond baseman Travis Bazzana added: \"He's been unreal out there, all year. The numbers would say so, and my eyes would tell us that he's been really solid out there for us.\"\n\nDeLauter's error probably wasn't a game changer, considering the Rays extended their lead in the ninth, scoring two more times. But that didn't stop DeLauter from wearing it afterward, saying it's something that \"can't happen.\"\n\n\"Just missed it,\" he said. \"Ground ball under my glove -- that simple. Tied series. Another home game. Move on and come back and be better tomorrow.\""
-    },
-    {
-      "story_id": "50202269",
-      "headline": "How Golden State held court to take 1-0 lead over Atlanta in WNBA Finals",
-      "summary": "Golden State held court 68-64 to take a 1-0 lead over the Atlanta Dream in Game 1 of the WNBA Finals.",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1732156_1296x729_16-9.jpg",
-      "published_utc": "2026-10-17T23:14:08Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50202269/finals-game-1-golden-state-valkyries-atlanta-dream",
-      "stream_url": "",
-      "body": "SAN FRANCISCO -- Game 1 goes to the Golden State Valkyries.\n\nThe No. 2 seed held court 68-64 in Game 1 of the WNBA Finals to take the early lead over the No. 4 seed Atlanta Dream in the best-of-seven series.\n\nGabby Williams led Golden State with 26 points, including four free throws in the final 1:18 to seal the victory. The back-and-forth game featured seven lead changes.\n\nAllisha Gray paced the Dream with 19 points but didn't score in the fourth quarter when the Dream shot 2-for-20 in the period. Angel Reese had 14 points and 12 rebounds.\n\nThe Valkyries, who have won all five playoff games at home this postseason and had the best record at home in the regular season, snapped the Dream's 10-game winning streak, which dated to the regular season.\n\nBoth teams seek their first WNBA championship. Game 2 is Monday night back at Chase Center. As the better seed, the Valkyries will host Games 2 and, if necessary, 5 and 7 in a 2-2-1-1-1 format.\n\nESPN was courtside Saturday with live analysis throughout the game.\n\nJump to:\n\nPostgame analysis | Relive the action\n\nMore:\n\nFinals preview | Top 15 players | Schedule | Offseason guide\n\n(2) Golden State Valkyries 68,\n\n(4) Atlanta Dream 64\n\nHow Golden State won the game: Both teams made big runs in this game, which set up a fourth quarter that was all about grit and determination. And also timing. After being outscored 17-9 in the third quarter, the Valkyries outscored the Dream 17-8 in the fourth quarter.\n\nThe Dream went just 4-of-25 from 3-point range, with Allisha Gray going 1-of-8. They were 18-of-21 from the foul line, but that was an area where the Valkyries were able to make up ground in the fourth quarter, finishing 11-of-16 from the stripe.\n\nGetting into crunch time, Atlanta seemed to get a little too sped up offensively and took shots too early when it would have helped the Dream to work their offense more. Of course, that's easier said than done against the best defense in the WNBA.\n\nRebounding ended up being a key factor, as the Valkyries won the board battle 41-35. And Golden State's depth -- much talked about before the series began -- came through. Particularly with Kaila Charles, who played 30 minutes, compiling seven points and 10 rebounds.\n\nGabby Williams led the way with 26 points, the only Valkyries player in double figures. -- Michael Voepel\n\nWhat the win means for the Valkyries: They won their first Finals game in their first WNBA Finals appearance. Even when the Dream went on runs, the Valkyries never deviated from their game plan -- and it never felt like they fully lost momentum. Maybe that's also a credit to the noise in Ballhalla.\n\nThis game showed an elite level of composure from the Valkyries, and that is a great sign for Golden State. Gabby Williams said that even though the Valkyries trailed with a few minutes left in the game, they had the Dream \"right where we wanted them.\" She said it's because they knew the game would come down to stops.\n\n\"That's our bread and butter,\" Williams added.\n\nIf the Valkyries can withstand the Dream's offensive runs and then lock them up on defense, they have a good chance to head to Atlanta with a 2-0 lead. -- Kendra Andrews\n\nWhat changes do you expect in Game 2? The Dream must win a game on the road if they want to win the title, so winning Game 1 would have given them more of a cushion moving forward. Now, Game 2 feels like a must-win at Chase Center before the series shifts to Atlanta for Games 3 and 4.\n\nDream coach Karl Smesko sounded confident in his team's ability to turn things around in Game 2. He said Saturday's game didn't come down to what Golden State did, but rather the Dream's loss was the result of one bad defensive stretch and a cold offensive quarter in the fourth.\n\nStill, when the Dream punched first in the opening quarter, they led by only eight points at the end of the period. For Atlanta to even the series Monday, the Dream have to make sure they are executing. They also need more from Angel Reese, who dominated early but was held scoreless in the second half, and Rhyne Howard, who finished with 12 points but shot 3-for-14 from the field and 2-for-9 from 3-point range. -- Andrews\n\nRelive the live action"
     },
     {
       "story_id": "50208216",
@@ -10602,6 +10732,20 @@
       "link": "https://www.espn.com/f1/story/_/id/50203944/max-verstappen-clinches-top-10-finish-first-gt-world-challenge",
       "stream_url": "",
       "body": "Max Verstappen fought back from 24th to ninth at the GT World Challenge after his hopes of a podium finish were derailed by a drive-through penalty.\n\nA week after claiming his second consecutive Formula One victory in as many races at the Singapore Grand Prix, the four-time world champion was back in the cockpit, this time for a three-hour endurance event in Portugal.\n\n- 'Chucky' Verstappen is back. Luckily for Antonelli and Mercedes, it's too late\n\nVerstappen's teammate, British driver Ben Barnicoat, delivered an encouraging opening stint to move up five places from 13th on the grid.\n\nHe handed over to compatriot Chris Lulham who progressed to sixth at the Portimao circuit in the Algarve, which will return to the F1 calendar next season.\n\nHowever, Lulham was hit with a drive-through penalty when he sent Luca Stolz spinning as they duelled for fifth place.\n\nLulham served his sanction before Verstappen assumed driving duties, but the Dutchman's team were now out of contention and in 24th -- with only 45 minutes left.\n\nHowever, Verstappen charged to 15th with a quarter of an hour remaining, and he then managed to make up another six places before the chequered flag following an impressive cameo.\n\nVerstappen will be bidding to make it a hat-trick of F1 victories when he returns to his Red Bull at next weekend's United States Grand Prix in Austin."
+    },
+    {
+      "story_id": "46296843",
+      "headline": "WNBA playoffs history: Notable records, stats, facts",
+      "summary": "During the WNBA playoffs, players are primed for greatness as they pursue championships. Check out our roundup of playoff records and stats now.",
+      "image": "https://a.espncdn.com/photo/2025/0918/r1547227_608x342_16-9.jpg",
+      "published_utc": "2026-10-17T22:26:45Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Keith Jenkins",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/46296843/wnba-playoffs-history-records-stats-facts",
+      "stream_url": "",
+      "body": "As the summer winds down, WNBA action picks up. The league's top teams begin the playoff journey to decide which group of 12 women will be crowned the queens of the court.\n\nThe WNBA playoffs have set the stage for some of the most memorable moments and performances in women's basketball history since the Houston Comets won the league's inaugural championship in 1997. Led by four-time WNBA Finals MVP Cynthia Cooper, the now-defunct Comets won the league's first four titles. They remain the only team to win at least three straight.\n\nIn September 2025, the Phoenix Mercury tied for the largest road comeback in WNBA playoff history (20 pts), with a 89-83 victory over the Minnesota Lynx. As the 2026 WNBA playoff period continues, check out other notable records, facts and stats:\n\nLargest margin of victory\n\n38 points: Chicago Sky (100) vs. New York Liberty (62) on Aug. 20, 2022\n\nLargest comeback\n\n22 points by Indiana Fever vs. Connecticut Sun on Aug. 27, 2007\n\nTeam with the most consecutive appearances\n\nMinnesota Lynx, 11 (2011-21)\n\nPlayer with the most career games\n\nDeWanna Bonner, 104\n\nPlayer with the most career minutes played\n\nDeWanna Bonner, 3161\n\nPlayer with the most career minutes played per game\n\nCynthia Cooper, 38.1\n\nPlayer with the most career points\n\nDiana Taurasi, 1,486\n\nPlayer with the most career points per game*\n\nCynthia Cooper, 23.3\n\nPlayer with the most points in a single game\n\n45: Arike Ogunbowale vs. Golden State Valkyries on Sept. 30, 2026\n\nPlayer with the most career rebounds\n\nDeWanna Bonner, 701\n\nPlayer with the most career rebounds per game*\n\nAliyah Boston, 11.0\n\nPlayer with the most rebounds in a single game\n\nCheryl Ford, 23 vs. Connecticut Sun in Game 1 of Eastern Conference Finals on Aug. 24, 2006\n\nPlayer with the most career assists\n\nChelsea Gray, 423\n\nPlayer with the most career assists per game*\n\nAlyssa Thomas, 7.1\n\nPlayer with the most assists in a single game\n\nCourtney Vandersloot, 18 at Connecticut Sun on Sept. 28, 2021\n\nPlayer with the most career steals\n\nTamika Catchings, 152\n\nPlayer with the most career steals per game*\n\nTamika Catchings, 2.2\n\nPlayer with the most career blocks\n\nLisa Leslie and A'ja Wilson 132\n\nPlayer with the most career blocks per game*\n\n2.5: Lisa Leslie and Margo Dydek\n\nPlayer with the most career made field goals\n\nDiana Taurasi, 489\n\nPlayer with the most career made field goals per game*\n\nNapheesa Collier, 8.1\n\nPlayer with the most career field goal attempts\n\nDeWanna Bonner, 1,169\n\nPlayer with the most career field goal attempts per game*\n\nBreanna Stewart, 17.7\n\nPlayer with the most career made 3-pointers\n\nDiana Taurasi, 217\n\nPlayer with the most career made 3-pointers per game*\n\nDiana Taurasi, 3.0\n\nPlayer with the most career 3-point attempts\n\nDiana Taurasi, 580\n\nPlayer with the most career 3-point attempts per game*\n\nDiana Taurasi, 7.9\n\nPlayer with the most career made free throws\n\nTamika Catchings, 356\n\nPlayer with the most career made free throws per game*\n\nCynthia Cooper, 7.3\n\nPlayer with the most career free throw attempts\n\nTamika Catchings, 417\n\nPlayer with the most career free throw attempts per game*\n\nCynthia Cooper, 8.6\n\n*- min. 10 games played\n\nCheck out the ESPN WNBA hub page for stats, schedules, scores, standings and more."
     },
     {
       "story_id": "50188691",
