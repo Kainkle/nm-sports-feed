@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-18T20:26:18.221624+00:00",
+  "generated_utc": "2026-10-18T20:36:23.209883+00:00",
   "events": [
     {
       "event_id": "mlb:849818",
@@ -7101,6 +7101,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401873002",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-18T17:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:27",
+        "name": "Tampa Bay Buccaneers",
+        "abbrev": "TB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buccaneers",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Buccaneers"
+        ],
+        "color": "bd1c36"
+      },
+      "away": {
+        "id": "espn:23",
+        "name": "Pittsburgh Steelers",
+        "abbrev": "PIT",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+        "logo_dark": null,
+        "aliases": [
+          "PIT",
+          "Pittsburgh",
+          "Pittsburgh Steelers",
+          "Steelers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "Raymond James Stadium",
+      "detail": "2:22 - OT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401872999",
       "sport": "football",
       "competition_id": "nfl",
@@ -7139,144 +7185,6 @@
       "source_status": "post/Final",
       "venue": "Mercedes-Benz Stadium",
       "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873000",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-18T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:19",
-        "name": "New York Giants",
-        "abbrev": "NYG",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "NYG",
-          "New York",
-          "New York Giants"
-        ],
-        "color": "003c7f"
-      },
-      "away": {
-        "id": "espn:18",
-        "name": "New Orleans Saints",
-        "abbrev": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-        "logo_dark": null,
-        "aliases": [
-          "NO",
-          "New Orleans",
-          "New Orleans Saints",
-          "Saints"
-        ],
-        "color": "d3bc8d"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "MetLife Stadium",
-      "detail": "0:06 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401872998",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-18T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:21",
-        "name": "Philadelphia Eagles",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Eagles",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Eagles"
-        ],
-        "color": "06424d"
-      },
-      "away": {
-        "id": "espn:29",
-        "name": "Carolina Panthers",
-        "abbrev": "CAR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAR",
-          "Carolina",
-          "Carolina Panthers",
-          "Panthers"
-        ],
-        "color": "0085ca"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Lincoln Financial Field",
-      "detail": "0:39 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873002",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-18T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:27",
-        "name": "Tampa Bay Buccaneers",
-        "abbrev": "TB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buccaneers",
-          "TB",
-          "Tampa Bay",
-          "Tampa Bay Buccaneers"
-        ],
-        "color": "bd1c36"
-      },
-      "away": {
-        "id": "espn:23",
-        "name": "Pittsburgh Steelers",
-        "abbrev": "PIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-        "logo_dark": null,
-        "aliases": [
-          "PIT",
-          "Pittsburgh",
-          "Pittsburgh Steelers",
-          "Steelers"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Raymond James Stadium",
-      "detail": "9:11 - OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7423,6 +7331,98 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401873000",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-18T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:19",
+        "name": "New York Giants",
+        "abbrev": "NYG",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+        "logo_dark": null,
+        "aliases": [
+          "Giants",
+          "NYG",
+          "New York",
+          "New York Giants"
+        ],
+        "color": "003c7f"
+      },
+      "away": {
+        "id": "espn:18",
+        "name": "New Orleans Saints",
+        "abbrev": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+        "logo_dark": null,
+        "aliases": [
+          "NO",
+          "New Orleans",
+          "New Orleans Saints",
+          "Saints"
+        ],
+        "color": "d3bc8d"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "MetLife Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401872998",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-18T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:21",
+        "name": "Philadelphia Eagles",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Eagles"
+        ],
+        "color": "06424d"
+      },
+      "away": {
+        "id": "espn:29",
+        "name": "Carolina Panthers",
+        "abbrev": "CAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Panthers",
+          "Panthers"
+        ],
+        "color": "0085ca"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Lincoln Financial Field",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:soccer:401874765",
       "sport": "soccer",
       "competition_id": "ita.1",
@@ -7456,7 +7456,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Allianz Stadium",
-      "detail": "82'",
+      "detail": "90'+2'",
       "game_number": 1,
       "highlight_video_id": "CLdZ9QgZUtA",
       "replay_url": "",
@@ -7498,7 +7498,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "Santiago Bernab\u00e9u",
-      "detail": "58'",
+      "detail": "68'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7584,7 +7584,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "5:37 - 1st Quarter",
+      "detail": "1:48 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7630,7 +7630,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Arrowhead Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "10:44 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7676,7 +7676,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "10:07 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10468,18 +10468,18 @@
   ],
   "stories": [
     {
-      "story_id": "50212711",
-      "headline": "Baltimore Ravens vs. Cleveland Browns: Game Highlights",
-      "summary": "Baltimore Ravens vs. Cleveland Browns: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1018/29212d8b-b0ce-4562-ad8c-d42da77b550c/29212d8b-b0ce-4562-ad8c-d42da77b550c.jpg",
-      "published_utc": "2026-10-18T20:23:01Z",
+      "story_id": "40994229",
+      "headline": "What are the longest field goals in NFL history?",
+      "summary": "Timely field goals can change game trajectories in a dramatic fashion. Check out the longest field goals in NFL history now.",
+      "image": "https://a.espncdn.com/photo/2025/0810/r1529808_608x342_16-9.jpg",
+      "published_utc": "2026-10-18T20:33:41Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50212711/game-highlights",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2026/1018/29212d8b-b0ce-4562-ad8c-d42da77b550c/29212d8b-b0ce-4562-ad8c-d42da77b550c/playlist.m3u8",
-      "body": ""
+      "link": "https://www.espn.com/nfl/story/_/id/40994229/what-longest-field-goals-nfl-history",
+      "stream_url": "",
+      "body": "In early November 2025, Jacksonville Jaguars place kicker Cam Little completed a 68-yard field goal versus the Las Vegas Raiders. With the feat, Little claimed the longest field goal in NFL history. His 68-yarder was only the 15th attempt of at least 68 yards since 1960.\n\nIn January 2026, Little hit a 67-yarder in Week 18 against the Tennessee Titans -- the longest outdoor field goal in history.\n\nCheck out other top kickers throughout NFL history below:\n\n68 yards\n\nCam Little, Jacksonville Jaguars - 2025\n\n67 yards\n\nCam Little, Jacksonville Jaguars - 2025\n\n66 yards\n\nJustin Tucker, Baltimore Ravens - 2021\n\n65 yards\n\nBrandon Aubrey, Dallas Cowboys - 2024\n\nChase McLaughlin, Tampa Bay Buccaneers - 2025\n\n64 yards\n\nTyler Loop, Baltimore Ravens - 2026\n\nBrandon Aubrey, Dallas Cowboys - 2025\n\nMatt Prater, Denver Broncos - 2013\n\n63 yards\n\nEvan McPherson, Cincinnati Bengals - 2025\n\nJoey Slye, New England Patriots - 2024\n\nBrett Maher, Dallas Cowboys - 2019\n\nGraham Gano, Carolina Panthers - 2018\n\nDavid Akers, San Francisco 49ers - 2012\n\nSebastian Janikowski, Oakland Raiders - 2011\n\nJason Elam, Denver Broncos - 1998\n\nTom Dempsey, New Orleans Saints - 1970\n\n62 yards\n\nWill Reichard, Minnesota Vikings - 2025\n\nMatt Prater, Arizona Cardinals - 2023\n\nHarrison Butker, Kansas City Chiefs - 2022\n\nMatt Prater, Arizona Cardinals - 2021\n\nBrett Maher, Dallas Cowboys - 2019\n\nBrett Maher, Dallas Cowboys - 2018\n\nStephen Gostkowski, New England Patriots - 2017\n\nMatt Bryant, Tampa Bay Buccaneers - 2006\n\n61 yards\n\nTyler Bass, Buffalo Bills - 2024\n\nJake Elliott, Philadelphia Eagles - 2023\n\nJoey Slye, Washington Commanders - 2023\n\nGreg Joseph, Minnesota Vikings - 2022\n\nKa'imi Fairbairn, Houston Texans - 2021\n\nBrandon McManus, Denver Broncos - 2021\n\nJason Myers, Seattle Seahawks - 2020\n\nJake Elliott, Philadelphia Eagles - 2017\n\nGreg Zuerlein, St. Louis Rams - 2015\n\nJustin Tucker, Baltimore Ravens - 2013\n\nJay Feely, Arizona Cardinals - 2012\n\nSebastian Janikowski, Oakland Raiders - 2009\n\n60 yards\n\nCam Little, Jacksonville Jaguars - 2026\n\nChad Ryland, Arizona Cardinals - 2026\n\nBrandon Aubrey, Dallas Cowboys - 2026\n\nChris Boswell, Pittsburgh Steelers - 2025\n\nBrandon Aubrey, Dallas Cowboys - 2024\n\nBrandon Aubrey, Dallas Cowboys - 2023\n\nHarrison Butker, Kansas City Chiefs - 2023\n\nGreg Zuerlein, Los Angeles Rams - 2022\n\nWil Lutz, New Orleans Saints - 2022\n\nBrett Maher, Dallas Cowboys - 2022\n\nChandler Catanzaro, Arizona Cardinals - 2016\n\nGreg Zuerlein, St. Louis Rams - 2012\n\nDan Carpenter, Miami Dolphins - 2010\n\nRob Bironas, Tennessee Titans - 2006\n\nMorten Andersen, New Orleans Saints - 1991\n\nSteve Cox, Cleveland Browns - 1984\n\nWhat is the longest field goal in NFL playoff history?\n\nCarolina Panthers kicker Graham Gano hit a 58-yard field goal against the New Orleans Saints in their 2018 wild-card game, tying Pete Stoyanovich (Miami Dolphins, 1991) for the longest field goal in NFL postseason history.\n\nWhat is the longest field goal in Super Bowl history?\n\nKansas City Chiefs kicker Butker's 57-yard field goal against the San Francisco 49ers in Super Bowl LVIII is the longest field goal in Super Bowl history.\n\nCheck out the ESPN NFL hub page for standings, stats, scores, schedules and more."
     },
     {
       "story_id": "50212578",
@@ -10636,18 +10636,18 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nRivals keeping tabs on Dragons' Tu\n\nMultiple clubs are monitoring St George Illawarra outside back Setu Tu, with the Dragons yet to begin talks over a contract extension.\n\nTu is contracted until the end of 2027 and is expected to test the open market from November 1, when rival clubs can negotiate a deal for 2028 and beyond.\n\nThe former Warriors outside back joined the Dragons on a development contract this season and is set to move into the club's top 30 squad in 2027.\n\nHis ability to cover multiple positions across the backline adds to his appeal as clubs assess their recruitment options.\n\nRivals monitor Patea as open market looms\nPenrith young gun Luron Patea is expected to test the open market from November 1, with multiple clubs keeping tabs on the promising prop.\n\nPatea is contracted until the end of 2027, but the Panthers are yet to begin talks over an extension, leaving rival clubs poised to explore a deal for 2028 and beyond.\n\nPenrith have not granted Patea permission to negotiate with other clubs before November 1.\n\nThe Panthers junior made his NRL debut in 2024 and has shown promise during his first-grade opportunities, providing another emerging option in Penrith's forward pack.\n\nHe is among several Panthers players approaching the final year of their contracts, with veteran prop Moses Leota also unsigned beyond 2027.\n\nRoosters eye Dockar-Clay reunion\nThe Roosters have shown interest in a potential return for Zach Dockar-Clay as they explore options to bolster their hooking and utility depth.\n\nESPN understands the 31-year-old has emerged as an option following his departure from Manly, with discussions remaining at an early stage.\n\nDockar-Clay spent the 2024 and 2025 seasons with the Roosters before joining the Sea Eagles on a one-year deal for 2026.\n\nManly confirmed his departure last month after a season in which he claimed the club's NSW Cup best-and-fairest award.\n\nBostock brushes Dragons links\n\nDolphins star Jack Bostock has dismissed recent links between himself and the Dragons, admitting this isn't the first time he'd been floated for a club switch.\n\n\"I've been linked to a few a clubs,\" Bostock admitted.\n\n\"I don't know about [the Dragons links].\"\n\nHe said that while he \"obviously sees it in the media,\" his sole focus is the Kangaroos.\n\nSloan's Dragons stay still a possibility\n\nTyrell Sloan could yet remain at St George Illawarra next season, with discussions ongoing over a potential stay despite his planned move to Castleford.\n\nThere is interest in keeping Sloan at the Dragons, but several hurdles remain before that can become a reality.\n\nRoster space and salary cap room would need to be worked through, while any arrangement would also require Castleford to agree to release him.\n\nSloan previously admitted he would \"love to\" remain in the NRL when speaking to Channel Nine in August, after his Castleford deal had been announced.\n\nNo agreement has been reached and a stay is far from guaranteed."
     },
     {
-      "story_id": "50212712",
-      "headline": "Deshaun Watson leads drive for winning field goal and Browns rally for 13-10 victory over Ravens",
-      "summary": "\u2014 Deshaun Watson connected with Jerry Jeudy for 33 yards to set up Andre Szmyt's 37-yard field goal on the final snap, and the Cleveland Browns rallied past the Baltimore Ravens 13-10 on Sunday.",
-      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872997.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-18T20:21:28Z",
+      "story_id": "50212750",
+      "headline": "Caleb Williams completes first 12 passes in return after missing 3 games as Bears top Falcons 31-23",
+      "summary": "\u2014 Caleb Williams completed his first 12 passes in his return from a hamstring injury, D'Andre Swift ran for two touchdowns and the Chicago Bears beat the Atlanta Falcons 31-23...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401872999.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-18T20:31:28Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nfl/recap?gameId=401872997",
+      "link": "http://www.espn.com/nfl/recap?gameId=401872999",
       "stream_url": "",
-      "body": "CLEVELAND -- \u2014 Deshaun Watson connected with Jerry Jeudy for 33 yards to set up Andre Szmyt's 37-yard field goal on the final snap, and the Cleveland Browns rallied past the Baltimore Ravens 13-10 on Sunday.\n\n\r\nThe Browns (4-2) gave first-year coach Todd Monken \u2014 a former Ravens offensive coordinator \u2014 an improbable victory over his former employer by relying on their defense and getting just enough playmaking from Watson in the end.\n\n\r\nWatson completed 16 of 26 passes for 164 yards. Szmyt's game-winner atoned for a miss from 48 yards a few minutes earlier.\n\n\r\nThe Ravens (4-2) blocked Szmyt's first attempt to win it but were called for offside. Szmyt's try from 5 yards closer was down the middle to pull the surprising Browns (4-2) into a tie with Baltimore atop the AFC North.\n\n\r\nDespite missing quarterback Lamar Jackson \u2014 out for a second straight game with an ankle injury \u2014 the Ravens appeared in firm control against an inept Browns offense, but Cleveland defensive back Tyson Campbell provided the spark the Browns needed when he pounced on Derrick Henry's fumble midway through the fourth quarter at the Baltimore 35.\n\n\r\nAudric Estime's 2-yard touchdown run tied the game at 10-all with 8:33 remaining.\n\n\r\nBackup quarterback Tyler Huntley, who played brilliantly in an overtime win over Atlanta last Sunday, and the rest of the Baltimore offense had two chances to take the lead but failed to produce a first down either time.\n\n\r\nCleveland took over at its 20 with 1:59 remaining, and Watson shook off a nightmarish first three quarters \u2014 the Browns had 107 yards of offense after 45 minutes \u2014 to guide his team 62 yards in nine plays.\n\n\r\nIt was an exciting finish to a game that often felt like a slog in the brilliant fall sunshine, with one of the biggest pops from the crowd coming in the fourth quarter when it was encouraged to support baseball's Cleveland Guardians, who were set to host Tampa Bay in Game 5 of the American League Championship Series about a mile south.\n\n\r\nThe Ravens scored on their first two possessions to take a 10-0 lead, with Huntley hitting rookie tight end Josh Cuevas for his first career touchdown from 2 yards out and Tyler Loop drilling a 34-yard field goal.\n\n\r\nBaltimore's offense did nothing from there. Huntley finished 19 of 31 for 165 yards, but the Ravens went scoreless over their final nine possessions, with Loop missing a 49-yarder early in the fourth quarter that would have made it a two-score game.\n\n\r\nAfter that kick drifted wide, the momentum shifted and the Browns pulled off their second last-second win over a division rival at home in three weeks.\n\n\r\nInjuries\r\nRavens: WR Rashod Bateman (shoulder) left in the second quarter and did not return.\n\n\r\nBrowns: S Grant Delpit exited in the first quarter and was placed in the concussion protocol. ... LB Justin Jefferson injured his hip.\n\n\r\nUp next\r\nRavens: Host AFC North rival Cincinnati next Sunday.\n\n\r\nBrowns: At Tennessee next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+      "body": "ATLANTA -- \u2014 Caleb Williams completed his first 12 passes in his return from a hamstring injury, D'Andre Swift ran for two touchdowns and the Chicago Bears beat the Atlanta Falcons 31-23 on Sunday.\n\n\r\nThe Bears led 31-7 before holding off Atlanta's comeback attempt in the final quarter.\n\n\r\nBears cornerback Kyler Gordon, who was activated from the physically unable to perform list before the game in his return from a calf injury, had three sacks and two forced fumbles. Gordon's big day was capped by a sack of Michael Penix Jr. and forced fumble with 2:54 remaining and the Bears protecting a 31-23 lead. The fumble was recovered by Devin Bush at the Atlanta 28.\n\n\r\nThe Bears ran out the clock inside the Atlanta 5.\n\n\r\nAfter missing three games, Williams was both mobile and accurate in his impressive return for the Bears (4-2). He opened the game by completing 6 of 6 passes for 64 yards, including a 14-yard scoring pass to Colston Loveland, on Chicago's opening drive.\n\n\r\nWilliams was 12 of 12 for 142 yards before throwing his first incompletion in the second quarter. Though the Bears won two of three games with Tyson Bagent and Case Keenum filing in at quarterback, Williams' return sparked the offense. He completed 30 of 36 passes for 305 yards with one touchdown.\n\n\r\nPenix completed 19 of 33 passes for 225 yards and three touchdowns for Atlanta (2-4) after leaving last week\u2019s 30-23 overtime loss to the Baltimore Ravens with a rib injury.\n\n\r\nPenix threw a 13-yard touchdown pass to Jahan Dotson in the second quarter. The perfectly placed back-shoulder fade pass cut the Bears' lead to 14-7, but a fumbled fair catch attempt by Zachariah Branch gave Chicago possession at the Atlanta 10 late in the first half. Branch also lost a fumble on a kickoff return late in the third quarter.\n\n\r\nThe Falcons didn't score again until Penix found Kyle Pitts on a 10-yard scoring pass in the fourth quarter. Penix then completed a pass to Branch for the 2-point play.\n\n\r\nRoschon Johnson's lost fumble set up Penix's second scoring pass to Pitts with 5:41 remaining. After leading 31-7, Chicago's advantage was trimmed to 31-23 on Penix's 2-point pass to Drake London.\n\n\r\nSwift's 2-yard scoring run gave Chicago a two-touchdown lead at halftime. Johnson also ran for a touchdown.\n\n\r\nChicago overcame 12 penalties for 133 yards. Wide receiver Jahdae Walker was ejected in the fourth quarter after being called for a personal foul for head-butting Atlanta's Chris Blair.\n\n\r\nInjuries\r\nBears: DB Cam Lewis was evaluated for a concussion in the second quarter. RB Kyle Monangai (thumb, toe) was inactive. RG Jonah Jackson was ruled doubtful to return with a hip injury in the third quarter.\n\n\r\nFalcons: ILB Kendal Daniels was carted off the field midway through the third quarter after making a helmet-first tackle on tight end Colston Loveland. Daniels' head snapped back and Falcons players circled Daniels as he was strapped onto the stretcher and driven off the field. He was officially ruled out with a neck injury and the Falcons announced he was alert and had movement in all extremities and was being evaluated at Grady Hospital in Atlanta . ... ILB Divine Deablo (arm) was ruled out in the second quarter. CB Avieon Terrell (left shoulder) left the game in the second quarter. DB Billy Bowman Jr. was ruled doubtful with a hamstring injury.\n\n\r\nUp next\r\nBears: Host New England on Thursday night.\n\n\r\nFalcons: Host San Francisco next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50210987",
