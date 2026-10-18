@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-18T03:13:04.449554+00:00",
+  "generated_utc": "2026-10-18T03:23:58.305572+00:00",
   "events": [
     {
       "event_id": "mlb:849818",
@@ -833,42 +833,6 @@
       "card": ""
     },
     {
-      "event_id": "tvmaze:1349:s2026e42",
-      "sport": "wrestling",
-      "competition_id": "tna",
-      "competition_name": "TNA",
-      "start_utc": "2026-10-16T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:1349",
-        "name": "TNA iMPACT!",
-        "abbrev": "IMP",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:tna",
-        "name": "TNA",
-        "abbrev": "TNA",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:tna",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "TNA iMPACT!"
-    },
-    {
       "event_id": "nhl:2026020118",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -1271,42 +1235,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
-    },
-    {
-      "event_id": "tvmaze:803:s27e42",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-10-17T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:803",
-        "name": "WWE Friday Night SmackDown",
-        "abbrev": "SD",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Friday Night SmackDown"
     },
     {
       "event_id": "espn:basketball:401898408",
@@ -4359,19 +4287,25 @@
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/6/1",
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/7/1",
           "label": "OK.ru FHD (Prelims) \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/7/1",
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/8/1",
+          "label": "OK.ru FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/9/1",
           "label": "Other Hosts (Prelims) \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/7/2",
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/9/2",
           "label": "Other Hosts (Prelims) \u2014 VOE.sx (SD)",
           "part": false,
           "live": false
@@ -4385,6 +4319,18 @@
         {
           "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/5/2",
           "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/6/1",
+          "label": "Dailymotion FHD (Main card) \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/6/2",
+          "label": "Dailymotion FHD (Main card) \u2014 Part 2",
           "part": true,
           "live": false
         }
@@ -5046,7 +4992,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-17T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:252",
         "name": "BYU Cougars",
@@ -5075,101 +5021,8 @@
         "color": "062340"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "LaVell Edwards Stadium",
-      "detail": "0:20 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856831",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:248",
-        "name": "Houston Cougars",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cougars",
-          "HOU",
-          "Houston",
-          "Houston Cougars"
-        ],
-        "color": "c8102e"
-      },
-      "away": {
-        "id": "espn:197",
-        "name": "Oklahoma State Cowboys",
-        "abbrev": "OKST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cowboys",
-          "OKST",
-          "Oklahoma St",
-          "Oklahoma State",
-          "Oklahoma State Cowboys"
-        ],
-        "color": "fe5c00"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "TDECU Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858265",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-17T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:183",
-        "name": "Syracuse Orange",
-        "abbrev": "SYR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
-        "logo_dark": null,
-        "aliases": [
-          "Orange",
-          "SYR",
-          "Syracuse",
-          "Syracuse Orange"
-        ],
-        "color": "000e54"
-      },
-      "away": {
-        "id": "espn:97",
-        "name": "Louisville Cardinals",
-        "abbrev": "LOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinals",
-          "LOU",
-          "Louisville",
-          "Louisville Cardinals"
-        ],
-        "color": "c9001f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "JMA Wireless Dome",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5270,6 +5123,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856831",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:248",
+        "name": "Houston Cougars",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "HOU",
+          "Houston",
+          "Houston Cougars"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:197",
+        "name": "Oklahoma State Cowboys",
+        "abbrev": "OKST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "OKST",
+          "Oklahoma St",
+          "Oklahoma State",
+          "Oklahoma State Cowboys"
+        ],
+        "color": "fe5c00"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "TDECU Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401858262",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5307,6 +5207,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Stanford Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858265",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-17T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:183",
+        "name": "Syracuse Orange",
+        "abbrev": "SYR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+        "logo_dark": null,
+        "aliases": [
+          "Orange",
+          "SYR",
+          "Syracuse",
+          "Syracuse Orange"
+        ],
+        "color": "000e54"
+      },
+      "away": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "JMA Wireless Dome",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5533,42 +5479,6 @@
       "card": ""
     },
     {
-      "event_id": "tvmaze:68778:s4e47",
-      "sport": "wrestling",
-      "competition_id": "aew",
-      "competition_name": "AEW",
-      "start_utc": "2026-10-18T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:68778",
-        "name": "AEW: Collision",
-        "abbrev": "COL",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:aew",
-        "name": "AEW",
-        "abbrev": "AEW",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:aew",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "AEW: Collision"
-    },
-    {
       "event_id": "nhl:2026020131",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -5651,7 +5561,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Alamodome",
-      "detail": "4:56 - 4th Quarter",
+      "detail": "2:24 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5711,7 +5621,7 @@
       "competition_id": "mlb",
       "competition_name": "MLB",
       "start_utc": "2026-10-18T00:08:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "mlb:114",
         "name": "Cleveland Guardians",
@@ -5741,7 +5651,7 @@
         "color": null
       },
       "source": "mlb",
-      "source_status": "Live/In Progress",
+      "source_status": "Final/Final",
       "venue": "Progressive Field",
       "detail": "",
       "game_number": 1,
@@ -5967,7 +5877,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Sun Bowl",
-      "detail": "5:25 - 3rd Quarter",
+      "detail": "3:40 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6106,7 +6016,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hornet Stadium",
-      "detail": "7:49 - 2nd Quarter",
+      "detail": "2:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6150,9 +6060,9 @@
         "color": "be0000"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Folsom Field",
-      "detail": "3:10 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6198,7 +6108,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "California Memorial Stadium",
-      "detail": "4:38 - 1st Quarter",
+      "detail": "2:35 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6246,7 +6156,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Snapdragon Stadium",
-      "detail": "1:04 - 1st Quarter",
+      "detail": "12:24 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6292,7 +6202,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Clarence T.C. Ching Athletics Complex",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "11:07 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6335,7 +6245,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Dignity Health Sports Park",
-      "detail": "32'",
+      "detail": "42'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6379,7 +6289,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Providence Park",
-      "detail": "32'",
+      "detail": "42'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6423,7 +6333,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "PayPal Park",
-      "detail": "31'",
+      "detail": "42'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6464,9 +6374,9 @@
         "color": "003da6"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/In Progress",
+      "source_status": "in/First Half",
       "venue": "Lumen Field",
-      "detail": "31'",
+      "detail": "42'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6512,7 +6422,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Autzen Stadium",
-      "detail": "12:52 - 1st Quarter",
+      "detail": "9:16 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8202,42 +8112,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
-    },
-    {
-      "event_id": "tvmaze:802:s33e42",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-10-20T00:00:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "tvmaze:802",
-        "name": "WWE Monday Night RAW",
-        "abbrev": "RAW",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Monday Night RAW"
     },
     {
       "event_id": "espn:basketball:401918306",
@@ -10450,6 +10324,34 @@
   ],
   "stories": [
     {
+      "story_id": "50193490",
+      "headline": "Takeaways from Rays' ALCS Game 4 victory over Guardians",
+      "summary": "Tampa Bay topped Cleveland on Saturday to even their series. Here's how it went down.",
+      "image": "https://a.espncdn.com/photo/2026/1018/r1732284_608x342_16-9.jpg",
+      "published_utc": "2026-10-18T03:20:25Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50193490/playoff-guardians-rays-alcs-game-4-live-takeaways",
+      "stream_url": "",
+      "body": "The Tampa Bay Rays hit the reset button -- again.\n\nWith a victory over the Cleveland Guardians in Game 4 of the American League Championship Series on Saturday, the Rays evened the back-and-forth series at two games apiece. It repeated their Game 2 feat, when they bounced back from a Game 1 loss to tie the ALCS.\n\nNow, the battle to play the Milwaukee Brewers in the 2026 World Series is a best-of-three, starting Sunday.\n\nHere's how Game 4 went down -- and what it means moving forward.\n\nKey links: How final four teams were built | Playoff MVP tracker | Schedule\n\nTakeaways\n\nTampa Bay Rays 7, Cleveland Guardians 3\nSeries tied 2-2\n\nIt was over when ... Jonathan Aranda lined a single to right field in the seventh inning. The hit easily scored Richie Palacios from third base. That should've been the only run. But Chase DeLauter let the ball roll under his glove, allowing Taylor Walls to score from second base. The hit and error gave the Rays a 4-1 lead, effectively icing the game on a chilly night at Progressive Field.\n\nGame 4 star ... Junior Caminero had strikeouts in five consecutive at-bats entering Sunday, including an 0-for-4, four-strikeout dud in Game 3. He responded by hitting two missiles in Game 4. The first was a 110.7 mph fly to center field with a 29-degree launch angle that went 410 feet and was somehow caught at the wall. The ball had a 1.000 expected batting average and would've been a home run in 17 of 30 ballparks. But he found grass two innings later when he cracked a 110.2 mph line drive into the left-field corner for an RBI double to give Tampa Bay a 2-1 lead.\n\nThe stat that defined the game ... Rays starter Nick Martinez continued his success on the road in 2026 -- he posted a 2.38 ERA in 16 starts away from Tropicana Field during the regular season -- by holding the Guardians to one run on two hits over 5\u2153 innings. The length is crucial with the teams set to play four games in four days if the series goes to seven games. For now, this series will go at least six games, and the bullpens will be used heavily.\n\nWhat it means for the rest of the series ... It sets up a huge Game 5 on Sunday. The winner of Game 5, when a series is tied 2-2, goes on to win 67% of the time. The Rays will have a fully rested Drew Rasmussen on the mound, with a chance to take their first series lead. Advantage swings back to Tampa. -- Jorge Castillo and Jesse Rogers\n\nHighlights from the Rays' win:\n\nAbout that Cleveland comeback? Yandy Diaz ... doesn't want it to happen\n\n5-3 Tampa Bay ...\n\nCan Cleveland come back? Bazzana's blast makes it 5-2 Tampa Bay\n\nRays plate a pair ... with some help from a DeLauter error\n\nNo one's catching Caminero this time -- his double makes it 2-1 Rays\n\nCaminero juuuust misses one (and Halpin doesn't miss it)\n\nRays rally to tie on Aranda's two-out ribbie\n\nDeLauter, Guardians strike first in Game 4\n\nThis time, we're playing ball!"
+    },
+    {
+      "story_id": "50207483",
+      "headline": "Malott KO's Buckley with a vicious knee to the face",
+      "summary": "Mike Malott lands a devastating knee to Joaquin Buckley's head to end their main card fight at UFC Edmonton in stunning fashion.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_UFC_Highlight_Malott_KOs_Buckley_with_a_vicious_knee_to_the_face_20261018_PH_ONLY/dm_261017_UFC_Highlight_Malott_KOs_Buckley_with_a_vicious_knee_to_the_face_20261018_PH_ONLY.jpg",
+      "published_utc": "2026-10-18T03:19:33Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50207483/malott-ko-buckley-vicious-knee-face",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1017/dm_261017_UFC_Highlight_Malott_KOs_Buckley_with_a_vicious_knee_to_the_face_20261018_PH_ONLY/dm_261017_UFC_Highlight_Malott_KOs_Buckley_with_a_vicious_knee_to_the_face_20261018_PH_ONLY/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50207270",
       "headline": "St. Louis Blues vs. Nashville Predators: Game Highlights",
       "summary": "St. Louis Blues vs. Nashville Predators: Game Highlights",
@@ -10476,20 +10378,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50206341/lionel-messi-goals-inter-miami-atlanta-united-mls",
       "stream_url": "",
       "body": "Lionel Messi scored two trademark second-half solo goals to take his MLS-leading tally to 25 as Inter Miami brushed aside hosts Atlanta United 3-1 on Saturday.\n\nAfter Mexico striker Germ\u00e1n Berterame put Miami ahead in the 45th minute, Messi took center stage after the restart with two goals in four minutes.\n\nThe first, in the 56th minute, came after Messi drove infield from the right wing and exchanged passes with Berterame on the edge off the penalty area before dancing past a desperate Atlanta defender and firing low into the net.\n\nHis second was more of the same. This time, Luis Su\u00e1rez sent him free on a breakaway and the Argentine forward again bewitched a hapless defender before once more beating Atlanta goalkeeper Lucas Hoyos with his left foot.\n\nAtlanta got a late consolation goal through a penalty from former Miami forward Faf\u00e0 Picault.\n\n\"He never ceases to amaze the world,\" Miami coach Cristian \"Kily\" Gonz\u00e1lez said of Messi afterward. \"I mean, I honestly can't believe that a guy like him, at 39 years old, is doing what he's doing. And what makes me happiest is seeing that he's truly happy. Because he's happy, he gives everything he has. He enjoys himself and feels right at home.\n\n\"As I always say, he pushes us to be better every single day. It's an immense joy to have him here. Everyone knows how special our relationship is. Every time I see him, he brings a smile to my face. I'm still constantly amazed by him.\"\n\nAt full time of Saturday's game, Messi had a six-goal lead in the race for MLS' Golden Boot and also had the joint-most assists (15), along with LAFC's Son Heung-Min, having been credited with a secondary assist on Berterame's opener.\n\nMessi is the first player in MLS history to register 15 assists in three consecutive seasons. He now has a goal contribution in 13 straight matches, tying his second-longest streak with club and country in his career.\n\nSaturday's brace also took Messi to 936 career goals, and his coach has no doubts that he can reach the 1,000 milestone.\n\n\"Yes, I believe he'll reach 1,000 goals,\" Gonz\u00e1lez said. \"I have faith in that. I know he will, because he loves a challenge, he sets challenges for himself and since he's already achieved everything else, this will be no exception.\"\n\nHe added: \"He dazzles me with every single action, every time I see him in training. I truly hope he continues to amaze us right up until the day he decides to retire, which, hopefully, won't be for a long time yet.\"\n\nMessi's performance Saturday gave the eight-time Ballon d'Or winner another fond memory at Atlanta's Mercedes-Benz Stadium. The game marked Messi's first visit there since the 2026 World Cup semifinal in July, when he provided two late assists to propel Argentina to a dramatic win over England.\n\nMessi has four goals in three games since he bid farewell to the Argentina national team in a friendly against Benin earlier this month.\n\nMiami, which clinched a spot in the playoffs Wednesday, has won three straight games and is second in the Eastern Conference behind runaway leader Nashville.\n\nAtlanta, under Gerardo \"Tata\" Martino, Messi's former coach with Miami and Argentina, is languishing in the 14th spot in the Eastern Conference and facing an uphill battle to make the postseason.\n\nMiami will return to action with a visit to the New York Red Bulls next Saturday.\n\nESPN's Lizzy Becherano contributed to this report."
-    },
-    {
-      "story_id": "50207115",
-      "headline": "Cristian Perez sleeps Kyle Nelson with a brutal KO",
-      "summary": "Cristian Perez leaves Kyle Nelson dazed and grappling the referee after a devastating KO in Round 1 at UFC Edmonton.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY.jpg",
-      "published_utc": "2026-10-18T02:39:45Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50207115/cristian-perez-sleeps-kyle-nelson-brutal-ko",
-      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1017/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/playlist.m3u8",
-      "body": ""
     },
     {
       "story_id": "50200995",
@@ -10562,20 +10450,6 @@
       "body": "The Philadelphia Eagles have placed Jalen Hurts on injured reserve after consultations with numerous doctors and experts that continued into Saturday, sources told ESPN and NFL Network.\n\nThe move will sideline the star quarterback indefinitely, according to sources. The Eagles, who officially announced the move Saturday afternoon, were waiting to make a roster decision until after consulting with medical experts, according to sources.\n\nEver since Hurts started dealing with the superficial blood clot in his calf, the Eagles have been attempting to explore every option and gather as much information as possible. Hurts has met with doctors and had others review his blood clot and weigh in with their knowledge.\n\nAt some time over the past 24 hours, additional information surfaced that made Philadelphia believe the wisest course of action was to place Hurts on IR, giving him the time he needs to heal.\n\nThe Eagles have maintained that they wouldn't rush into a decision about Hurts' future, which is why they waited until Thursday to rule out the three-time Pro Bowl quarterback for Sunday's home game against the Carolina Panthers.\n\nHurts will now miss games against the Panthers, Dallas Cowboys, Washington Commanders and New York Giants before the Eagles have their bye in Week 10, with a chance to fully evaluate their quarterback's health and their team's outlook.\n\nPhiladelphia believes the blood clot is treatable, and the ultimate decision about when Hurts returns to play will come from his medical team, with the Eagles ready to follow his lead.\n\nIn most cases, blood clots are treated with anticoagulants, otherwise known as blood thinners. A player cannot play while on blood thinners.\n\nIn general, the minimum time frame for a moderate dose of anticoagulants is six weeks, sources said. There is a possibility, if the clot is minor enough, that doctors begin with anti-inflammatories only, while continuing to monitor. If the clot were to move, as the team said happened in Hurts' case, blood thinners are often the answer. If the clot were to worsen, blood thinners for roughly three months would be the next course of action.\n\nSome doctors around the NFL who have not examined Hurts believe the blood clot could sideline him for several weeks. One team's doctor texted ESPN: \"It is a broad range and nuance based on size and location and hematology evaluation, but could be six weeks.\" Another team's doctor had a similar estimation.\n\nThe Eagles released a lengthy statement Thursday detailing the process that led to the discovery of the blood clot and to Hurts being ruled out for Sunday's game.\n\nWhile Hurts has been receiving treatment, the Eagles have been working to fortify their roster. Backup quarterback Tanner McKee will start against the Panthers, and rookie Cole Payton was promoted to backup. Philadelphia also signed quarterback Joe Milton off Dallas' practice squad. By NFL rules, Milton must be on the Eagles' roster for three weeks.\n\nThis is just the latest sequence in what has been a chaotic stretch for the organization that has included hamstring injuries to running back Saquon Barkley and wide receiver DeVonta Smith, the retirement of future Hall of Fame offensive tackle Lane Johnson and the trade of Pro Bowl center Cam Jurgens.\n\nAmid the injuries and turnover on their offensive line, the Eagles have gotten off to a rough start offensively this season. They enter Sunday in the bottom five in the NFL in points per game (18.4, 29th), total yards per game (262.2, 31st), yards per play (4.5, 30th) and passing yards per game (170.6, 28th).\n\nThe Eagles have failed to score 25 points in seven consecutive regular-season games, their longest such streak since Nick Sirianni became their coach before the 2021 season. Philadelphia has gone three-and-out on 38% of its possessions, the highest in the NFL this season.\n\nThe Eagles' offense has struggled to stay on the field, specifically in the second half, going three-and-out on 52% of its second-half possessions, which is on pace to be the highest by any NFL team in the past 20 seasons. Philadelphia has been outgained by a league-leading 115 yards per game in the second half this season; the next-worst team in that category is the Indianapolis Colts, who have been outgained by 38 yards per game in the second half."
     },
     {
-      "story_id": "50199202",
-      "headline": "Rain postpones ALCS Game 4 to Saturday; Rays, Guardians to play Game 5 on Sunday",
-      "summary": "Game 4 of the ALCS was postponed late Friday night due to rain, creating an unusual set of circumstances for the Guardians and Rays.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/7636c18c-9c4d-4b2d-98e4-c1cb91329025/7636c18c-9c4d-4b2d-98e4-c1cb91329025.jpg",
-      "published_utc": "2026-10-17T16:38:24Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "Jorge Castillo",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50199202/game-4-alcs-rays-guardians-postponed-due-rain",
-      "stream_url": "",
-      "body": "CLEVELAND -- Game 4 of the American League Championship Series was postponed late Friday night due to rain, creating an unusual set of circumstances for the Cleveland Guardians and Tampa Bay Rays as the Milwaukee Brewers await in the World Series.\n\nFriday's game was rescheduled for 8 p.m. ET Saturday. Game 5 was pushed to 5 p.m. ET Sunday, which was originally a scheduled off-day.\n\nGame 4's pitching matchup will remain the same. All-Star hurler Nick Martinez will start for the Rays, and reliever Shawn Armstrong will open a bullpen game for the Guardians.\n\n\"It never cleared out the way they were hoping it would,\" Rays manager Kevin Cash said. \"It started to get later in the hour, and MLB and I think both clubs did everything they could to try to get it in. Made the most sense at this point and this hour, with no guarantee that there wasn't another band coming.\"\n\nThe Guardians hold a 2-1 series lead after winning 3-2 in Game 3 on Thursday. The first pitch for Game 3 was moved up from 6 p.m. to 1 p.m. ET to avoid inclement weather in the forecast.\n\nThe teams would play Game 6 on Monday and Game 7 on Tuesday at Tropicana Field, if necessary. If the series goes seven games, the clubs would play four games over four consecutive days in two cities.\n\nThe winner of the series will face the Brewers, who will have a week off after advancing to the World Series on Thursday. Game 1 of the World Series is scheduled for Oct. 23 in Milwaukee.\n\n\"This is what we do,\" Guardians manager Stephen Vogt said. \"We play every day. Our guys get psyched or get cranked up an hour before game time. That never happened today. So it was a pretty calm day overall.\n\n\"These are professional baseball players. They know how to get ready. They know how to get going. I'm sure the Rays are in the same boat. Tomorrow is game day. Hopefully, there's no weather. I know it's going to be cold, but we'll be ready to play tomorrow night at 8:08.\""
-    },
-    {
       "story_id": "50197099",
       "headline": "Lisandro Mart\u00ednez's Man United comments 'not that far off' but should not have been made - Peter Schmeichel",
       "summary": "Former Manchester United goalkeeper Peter Schmeichel has said he believes Lisandro Mart\u00ednez's criticism of the club's hierarchy is \"not that far off.\"",
@@ -10618,6 +10492,34 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nRivals keeping tabs on Dragons' Tu\n\nMultiple clubs are monitoring St George Illawarra outside back Setu Tu, with the Dragons yet to begin talks over a contract extension.\n\nTu is contracted until the end of 2027 and is expected to test the open market from November 1, when rival clubs can negotiate a deal for 2028 and beyond.\n\nThe former Warriors outside back joined the Dragons on a development contract this season and is set to move into the club's top 30 squad in 2027.\n\nHis ability to cover multiple positions across the backline adds to his appeal as clubs assess their recruitment options.\n\nRivals monitor Patea as open market looms\nPenrith young gun Luron Patea is expected to test the open market from November 1, with multiple clubs keeping tabs on the promising prop.\n\nPatea is contracted until the end of 2027, but the Panthers are yet to begin talks over an extension, leaving rival clubs poised to explore a deal for 2028 and beyond.\n\nPenrith have not granted Patea permission to negotiate with other clubs before November 1.\n\nThe Panthers junior made his NRL debut in 2024 and has shown promise during his first-grade opportunities, providing another emerging option in Penrith's forward pack.\n\nHe is among several Panthers players approaching the final year of their contracts, with veteran prop Moses Leota also unsigned beyond 2027.\n\nRoosters eye Dockar-Clay reunion\nThe Roosters have shown interest in a potential return for Zach Dockar-Clay as they explore options to bolster their hooking and utility depth.\n\nESPN understands the 31-year-old has emerged as an option following his departure from Manly, with discussions remaining at an early stage.\n\nDockar-Clay spent the 2024 and 2025 seasons with the Roosters before joining the Sea Eagles on a one-year deal for 2026.\n\nManly confirmed his departure last month after a season in which he claimed the club's NSW Cup best-and-fairest award.\n\nBostock brushes Dragons links\n\nDolphins star Jack Bostock has dismissed recent links between himself and the Dragons, admitting this isn't the first time he'd been floated for a club switch.\n\n\"I've been linked to a few a clubs,\" Bostock admitted.\n\n\"I don't know about [the Dragons links].\"\n\nHe said that while he \"obviously sees it in the media,\" his sole focus is the Kangaroos.\n\nSloan's Dragons stay still a possibility\n\nTyrell Sloan could yet remain at St George Illawarra next season, with discussions ongoing over a potential stay despite his planned move to Castleford.\n\nThere is interest in keeping Sloan at the Dragons, but several hurdles remain before that can become a reality.\n\nRoster space and salary cap room would need to be worked through, while any arrangement would also require Castleford to agree to release him.\n\nSloan previously admitted he would \"love to\" remain in the NRL when speaking to Channel Nine in August, after his Castleford deal had been announced.\n\nNo agreement has been reached and a stay is far from guaranteed."
     },
     {
+      "story_id": "50022544",
+      "headline": "2026 MLB playoffs: Schedule, postseason bracket, standings",
+      "summary": "We have your one-stop shop for everything you need to keep up with all the action this October.",
+      "image": "https://a.espncdn.com/photo/2026/1015/Brewers_WS16x9_1296x729.png",
+      "published_utc": "2026-10-18T03:19:18Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50022544/2026-mlb-playoffs-schedule-how-watch-postseason-world-series-bracket-standings",
+      "stream_url": "",
+      "body": "The 2026 MLB playoffs are in full swing!\n\nThe 12-team postseason began with an action-packed wild-card round that featured eight teams battling for four spots to advance to the eight-team division series.\n\nThe Chicago White Sox became the first team to win a series this postseason with a wild-card round sweep of the Houston Astros. Then the New York Yankees swept the Boston Red Sox in two routs, recording the highest series run differential in the history of the current wild-card format. The San Diego Padres also sealed their spot in the NLDS with a sweep of the Chicago Cubs. In the only wild-card series to go the distance, the Atlanta Braves held off the Philadelphia Phillies to move on.\n\nThe Los Angeles Dodgers beat the Braves to nab the first spot in the championship series, followed by the Milwaukee Brewers after they beat the Padres. The Tampa Bay Rays swept the Yankees to clinch the first spot in the ALCS and face the Cleveland Guardians, who mounted a stunning comeback against the White Sox after dropping the first two games of the ALDS.\n\nIn a stunning reversal from last year's NLCS, the Brewers swept the defending champion Dodgers in four games, clinching their first World Series spot since 1982.\n\nFrom the first pitch of the wild-card games to the last out of the World Series, we've got you covered with the postseason bracket, schedules, results and how to watch every game this October.\n\nLatest news and analysis\n\nExpert predictions: ALCS and NLCS\n\nRanking the final four playoff teams\n\nALCS and NLCS are set! First look at battles to reach World Series\n\nWho is this year's Mr. October? 2026 Playoff MVP tracker\n\nOffseason questions for eliminated teams\n\nAmerican League Championship Series\nBest-of-seven series\n\nAll times Eastern\n\nTampa Bay Rays vs. Cleveland Guardians\n\nCleveland leads 2-1\n\nGame 1: Guardians 7, Rays 3\nGame 2: Rays 3, Guardians 1\nGame 3: Guardians 3, Rays 2\nGame 4: Rays 7, Guardians 3\nGame 5: Tampa Bay at Cleveland, Sunday, Oct. 18 at 5 p.m. (TBS/TruTV/HBO Max)\nGame 6*: Cleveland at Tampa Bay, Monday, Oct. 19 at 8 p.m. (TBS/TruTV/HBO Max)\nGame 7*: Cleveland at Tampa Bay, Tuesday, Oct. 20 at 8 p.m. (TBS/TruTV/HBO Max)\n\n*if necessary\n\nNational League Championship Series\nBest-of-seven series\n\nAll times Eastern\n\nMilwaukee Brewers vs. Los Angeles Dodgers\n\nMilwaukee wins series 4-0\n\nGame 1: Brewers 2, Dodgers 1\nGame 2: Brewers 7, Dodgers 4\nGame 3: Brewers 6, Dodgers 2\nGame 4: Brewers 6, Dodgers 4\n\nWorld Series\nBest-of-seven series\n\nGame 1: AL at Milwaukee, Friday, Oct. 23 (Fox)\nGame 2: AL at Milwaukee, Saturday, Oct. 24 (Fox)\nGame 3: Milwaukee at AL, Monday, Oct. 26 (Fox)\nGame 4: Milwaukee at AL, Tuesday, Oct. 27 (Fox)\nGame 5*: Milwaukee at AL, Wednesday, Oct. 28 (Fox)\nGame 6*: AL at Milwaukee, Friday, Oct. 30 (Fox)\nGame 7*: AL at Milwaukee, Saturday, Oct. 31 (Fox)\n\n*if necessary\n\nCompleted rounds\n\nAmerican League Division Series\nBest-of-five series\n\nCleveland Guardians vs. Chicago White Sox\n\nCleveland wins series 3-2\n\nGame 1: White Sox 3, Guardians 0\nGame 2: White Sox 4, Guardians 3\nGame 3: Guardians 9, White Sox 3\nGame 4: Guardians 9, White Sox 5\nGame 5: Guardians 2, White Sox 0\n\nTampa Bay Rays vs. New York Yankees\n\nTampa Bay wins series 3-0\n\nGame 1: Rays 1, Yankees 0\nGame 2: Rays 5, Yankees 2\nGame 3: Rays 4, Yankees 3\n\nNational League Division Series\nBest-of-five series\n\nLos Angeles Dodgers vs. Atlanta Braves\n\nLos Angeles wins series 3-1\n\nGame 1: Dodgers 5, Braves 3\nGame 2: Braves 3, Dodgers 2\nGame 3: Dodgers 3, Braves 1\nGame 4: Dodgers 4, Braves 1\n\nMilwaukee Brewers vs. San Diego Padres\n\nMilwaukee wins series 3-1\n\nGame 1: Brewers 3, Padres 2\nGame 2: Brewers 4, Padres 3\nGame 3: Padres 4, Brewers 3\nGame 4: Brewers 3, Padres 1\n\nAmerican League Wild Card Series\nBest-of-three series\n\nChicago White Sox at Houston Astros\n\nChicago wins series 2-0\n\nGame 1: White Sox 6, Astros 3\nGame 2: White Sox 7, Astros 3\n\nBoston Red Sox at New York Yankees\n\nNew York wins series 2-0\n\nGame 1: Yankees 9, Red Sox 0\nGame 2: Yankees 9, Red Sox 2\n\nNational League Wild Card Series\nBest-of-three series\n\nPhiladelphia Phillies at Atlanta Braves\n\nAtlanta wins series 2-1\n\nGame 1: Braves 5, Phillies 3\nGame 2: Phillies 4, Braves 3\nGame 3: Braves 6, Phillies 2\n\nChicago Cubs at San Diego Padres\n\nSan Diego wins series 2-0\n\nGame 1: Padres 8, Cubs 0\nGame 2: Padres 4, Cubs 1"
+    },
+    {
+      "story_id": "50207115",
+      "headline": "Cristian Perez sleeps Kyle Nelson with a brutal KO",
+      "summary": "Cristian Perez leaves Kyle Nelson dazed and grappling the referee after a devastating KO in Round 1 at UFC Edmonton.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY.jpg",
+      "published_utc": "2026-10-18T02:39:45Z",
+      "competition_id": "ufc",
+      "competition_name": "UFC",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50207115/cristian-perez-sleeps-kyle-nelson-brutal-ko",
+      "stream_url": "https://cmp-espn.media.dssott.com/opp/hls/espn/2026/1017/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/dm_261017_UFC_Highlight_Cristian_Perez_sleeps_Kyle_Nelson_with_a_brutal_KO_20261018_PH_ONLY/playlist.m3u8",
+      "body": ""
+    },
+    {
       "story_id": "50207138",
       "headline": "Kent Johnson scores in OT as Blue Jackets beat Rangers 1-0 behind Jet Greaves' shutout",
       "summary": "\u2014 Kent Johnson scored with 1:33 remaining on the clock in overtime, Jet Greaves got his fifth career shutout and the Columbus Blue Jackets beat the New York Rangers 1-0 on Saturday night.",
@@ -10644,20 +10546,6 @@
       "link": "http://www.espn.com/soccer/report/_/gameId/761881",
       "stream_url": "",
       "body": "ORLANDO, Fla. -- - Antoine Griezmann had two goals and an assist, Mart\u00edn Ojeda added a goal and an assist, and Orlando City beat D.C. United 3-1 on Saturday night.\n\nGriezmann has 12 goals and seven assists in 14 MLS appearances and is the first player in league history with a goal contribution in 12 of his first 14 career games.\n\nMarco Pasali\u0107 scored a stoppage-time goal for Orlando (12-13-5). Maxime Cr\u00e9peau had three saves.\n\nTai Baribo converted from the penalty spot in first-half stoppage time for D.C. (7-10-12).\n\nOjeda, just inside the top of the 18-yard box, chipped a first-touch pass over four defenders to a charging Griezmann on the give-and-go for a first-touch finish from 7 yards out to make it 1-0 in the 15th minute.\n\nOjeda flicked a back-heel volley, off a feed from Griezmann, past goalkeeper Sean Johnson and inside the left post to give Orlando a two-goal lead in the 22nd.\n\nGriezmann intercepted a misplayed pass by Kye Rowles in D.C.'s defensive third, took two dribbles and rolled a shot into the net to make it 3-1 in the 50th minute.\n\nJohnson finished with three saves.\n\nUp next D.C.: Plays Wednesday at Cincinnati.\n\nOrlando: Hosts New York City next Saturday."
-    },
-    {
-      "story_id": "50189696",
-      "headline": "UFC champ Alexander Volkanovski proposes 'send-off' superbout vs. Justin Gaethje",
-      "summary": "UFC featherweight champion Alexander Volkanovski is calling for a \"send-off\" superfight against lightweight champion Justin Gaethje.",
-      "image": "https://a.espncdn.com/photo/2026/0203/r1609874_2_576x324_16-9.jpg",
-      "published_utc": "2026-10-15T16:56:03Z",
-      "competition_id": "ufc",
-      "competition_name": "UFC",
-      "byline": "Brett Okamoto",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mma/story/_/id/50189696/ufc-champ-volkanovski-proposes-send-superbout-vs-gaethje",
-      "stream_url": "",
-      "body": "UFC featherweight champion Alexander Volkanovski has proposed a \"send-off\" superfight between himself and lightweight champion Justin Gaethje.\n\nVolkanovski (28-4) is scheduled to defend his 145-pound title against Movsar Evloev (20-0) at UFC 333 on Oct. 24 in Abu Dhabi, United Arab Emirates. Arguably the greatest featherweight of all time, Volkanovski has acknowledged he is approaching the end of his career at 38 years old. Gaethje, 37, has acknowledged the same since he claimed the UFC's 155-pound title for the first time in June.\n\nWith both champions seemingly near the end of their time in the Octagon, Volkanovski has suggested a winner-take-all scenario in 2027.\n\n\"Imagine that, do it as a send-off,\" Volkanovski told the \"Who Da Fook Are These Guys?\" podcast. \"Gaethje, Volk. I think he's said that he maybe has one more. That could be a superfight. Let's do a superfight with the lightweight title on the line. We can both see everyone off with a crazy superfight. That could be really good.\"\n\nVolkanovski, of Australia, has already tried to capture the lightweight title. He famously challenged then-lightweight champion Islam Makhachev twice in a 10-month span in 2023. He suffered a razor-close decision loss to Makhachev in their first meeting in February then lost by first-round knockout in an October rematch that was scheduled on short notice.\n\nGaethje (28-5) has not even guaranteed whether he will fight again or retire off his historic win at the White House in June, but he has stated that he believes his next challenger would be lightweight contender Arman Tsarukyan. Volkanovski appears to be throwing his name into the mix in the hope of changing those plans.\n\n\"He's said, 'What's the point of doing rematches,'\" Volkanovski said. \"Let's do a superfight then [retire] straight away after, let the divisions sort themselves out. The UFC would be happy for that. Let's make it happen.\""
     },
     {
       "story_id": "50204893",
@@ -10728,20 +10616,6 @@
       "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50188691/fantasy-football-injuries-nfl-week-6-inactive-active",
       "stream_url": "",
       "body": "Whom should you start? Whom should you sit? To help you set your fantasy football lineups and avoid starting an offensive player who won't be in the lineup, we'll post fantasy-relevant updates and analysis here as NFL teams release their official inactives lists.\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 6 Buzz\n\nWeek 6 Rankings | Matchup rankings for Week 6\n\nBiggest concerns ahead of Sunday\nPlayers with early starts\nCaleb Williams, QB, Bears (hamstring): Williams will play in Week 6. He might opt to run less initially, but Williams is still in play as a QB1. I would use him over Trevor Lawrence, Jameis Winston and Jacoby Brissett. However, I would go with either Kirk Cousins or Jordan Love over Williams.\n\nA.J. Brown, WR, Patriots (ankle): Brown has been activated and is expected to play on Sunday, per Adam Schefter. He brings more risk than usual, but given all the byes and injuries, he's worth getting into starting lineups. While he brings upside and likely will see safe volume, it usually takes some time for a player to return to 100% after a high ankle sprain, so temper expectations a bit. Go with the streaming options listed above over Romeo Doubs.\n\nZay Flowers, WR, Ravens (toe): Flowers was added to the team's injury report Thursday but is not on the final report, meaning he will play in Week 6. His production took a hit without Jackson last week, but Flowers still saw nine targets in that game from QB Tyler Huntley, who will be under center again this week. Volume should keep him in play as a WR2. It's also worth noting that Rashod Bateman missed practice this week due to a shoulder injury but is also not on the final injury report, so he will play too. Rookie WR Ja'Kobi Lane is practicing in full and Jeremy Fowler reports he is \"good to go\" for Week 6. He is worth stashing if you have a bench spot available.\n\nMichael Penix Jr, QB, Falcons (ribs): Penix has been a full participant at practice all week long. He has been removed from the injury report and will start Sunday. Penix has yet to throw multiple TD passes or score 15 fantasy points in any game this season. He is purely for use in superflex formats, but his availability is great for Bijan Robinson and Drake London. Both are elite options with Penix under center.\n\nQuinshon Judkins, RB, Browns (ankle): Judkins missed practice to start the week before getting in a limited session Friday. He is questionable and his status truly seems to be up in the air for Week 6. If he sits, the Browns will be left with Jaleel McLaughlin and Audric Estime on the active roster. McLaughlin is the preferred play and, while the floor is low, he'd be in the flex conversation due to volume. It's also worth noting that Dylan Sampson had his 21-day window for return opened this week, but he is out for Week 6.\n\nKC Concepcion, WR, Browns (concussion): Concepcion has cleared the league's concussion protocol and will play in Week 6. Though we have seen flashes, Concepcion is more of an upside depth stash for now. Fantasy managers should instead go with some of the other streaming WR options listed in this article.\n\nDenzel Boston, WR, Browns (foot): Boston was limited to start the week but no longer carries an injury designation, meaning he will play Sunday. The rookie is one of just 10 players since 2010 to have posted 330-plus yards and at least three touchdowns over their first five career games. He has seen at least seven targets in three of his last four games. That volume could turn to production against the Ravens, who have allowed the fifth-most WR yards. Boston is a strong WR2 play this week.\n\nTyler Warren, TE, Colts (groin): Warren popped up on the injury report Friday, which is never ideal. If he ends up suiting up, fantasy managers should play him as he has just one game with fewer than double-digit fantasy points, and he had nine in that game. However, it is not a bad idea to grab a streaming option now just to cover your bases. Some options are Tyler Higbee, Pat Freiermuth, Darren Waller and Michael Mayer.\n\nAlvin Kamara, RB, Saints (back): Kamara might be questionable but he has been on the injury report all season long and not yet missed any time. However, he does not bring a ton of safety due to his lack of efficiency so far. That said, volume -- particularly in the passing game -- keeps him as a flex option.\n\nChris Olave, WR, Saints (illness): Olave missed practice to start the week due to an illness and is listed as questionable for Sunday. Still, it seems likely he will suit up. If he plays for the Saints, he plays for fantasy managers. If he sits, it means more volume for Devaughn Vele and Juwan Johnson. Both would be worth starting against the Giants.\n\nOmar Cooper Jr, WR, Jets (ankle): The rookie is set to return from a Week 1 ankle injury that landed him on the IR. With Adonai Mitchell still sidelined, Cooper should operate as the Jets' No. 2 WR. Though he is not worth plugging into starting lineups just yet, he is worth a flier for those with an open bench spot in deeper leagues.\n\nKenyon Sadiq, TE, Jets (concussion): Sadiq is questionable for Week 6. He was able to log a full practice and HC Aaron Glenn said he expects him to play. Still, there are better streaming options this week such as Tyler Higbee, Juwan Johnson, and Pat Freiermuth.\n\nDeVonta Smith, WR, Eagles (hamstring/toe): Smith was able to return to practice this week and is not on the final injury report, meaning he will play in Week 6. He will be more of a risk/reward play than usual given his team's downgrade at QB, but still in the WR3 range due to his big-play ability.\n\nDontayvion Wicks, WR, Eagles (hamstring): Wicks played through the injury Sunday and missed practice to start the week but is off the practice report. Given that Hurts is out for this one and Smith is back to be the WR1, fantasy managers should go in a different direction. Tre Tucker, Xavier Worthy, Germie Bernard and Khalil Shakir are better options.\n\nDK Metcalf, WR, Steelers (illness): Metcalf has been removed from the injury report for Week 6. He is in play as a WR2.\nPat Freiermuth, TE, Steelers (calf): Friermuth was added to the injury report on Saturday and is questionable for Week 6. Still, a Saturday addition has him very much up in the air. If he were to miss, it would mean more volume for Metcalf and Bernard. Darnell Washington becomes a deep league streamer for those in need. At least he brings the chance at a touchdown.\n\nRico Dowdle, RB, Steelers (toe): This week, Dowdle was able to log his first full practice since injuring his toe. While he is questionable, that still puts him on track to play on Sunday. Still, Jaylen Warren has thrived in his absence, averaging 163 yards per game over the last three weeks. Mike McCarthy confirmed that Warren will remain the lead back. He should be started in all leagues. Dowdle should be rostered, but he's more of an insurance back until we see otherwise.\n\nTyjae Spears, RB, Titans (knee): After being limited Wednesday, Spears did not practice Thursday before logging a full session Friday. He is questionable heading into Week 6. He is coming off a season-high nine targets, although his usage has been too inconsistent to trust. His availability does impact Tony Pollard, who will see many of those passing downs if Spears is out. Pollard is a low-floor RB2, who will get a bump in upside if Spears sits.\n\nPlayers with late starts\nDJ Moore, WR, Bills (shoulder): Moore did not practice to start the week and returned Friday, once again wearing the red noncontact injury. He is questionable for Week 6. The Bills have their bye in Week 7 and could opt to let Moore take the extra time to recover. Last week in his absence, the Bills spread the ball around. Khalil Shakir is my preferred play of the other Bills receivers, as the Raiders rank top four for the most yards and touchdowns allowed to slot receivers. Keon Coleman is an upside flex option. The top Bills option to play would be Dalton Kincaid, as the Raiders have allowed the third-most TE touchdowns.\n\nLadd McConkey, WR, Chargers (foot): He is not on the practice report for Week 6, meaning he will play. How much he plays, however, is anybody's guess. He was active in Week 5 but did not play on a single snap. McConkey is a high-risk, somewhat high-reward type of play in Week 6. I'd prefer to stream players like Tucker, Worthy, Bernard or Shakir.\n\nQuentin Johnston, WR, Chargers (chest): Johnston has practiced in a limited fashion this week and is not on the final injury report, meaning he will play in Week 6. Johnston has not surpassed 40 yards in any game this season. The Chargers' offensive line (and their offensive attack in general) is in shambles right now. It's best to use the streaming options listed above for McConkey.\n\nPlayers on Sunday night\nNONE\n\nPlayers on Monday night\nStefon Diggs, WR, Commanders (hamstring): After missing Week 5, Diggs did not practice to start this week. However, he was able to return Friday. That gives him a chance to play Monday night. Terry McLaurin remains the top option in the Commanders' passing attack. It would probably be a good idea for managers risking a potential zero (by waiting on Diggs) to have a backup option in place. Brandin Cooks, Antonio Williams or Chig Okonkwo (who led the Commanders with six targets last week) are all options fantasy managers could nab off the waiver wire to cover their bases.\n\nTerry McLaurin, WR, Commanders (hamstring): McLaurin was limited Thursday before logging a DNP on Friday. It is listed as rest, so fantasy managers should not panic just yet. However, with this game being Monday night, it would not be a bad idea to have one of the listed options above, just to cover your bases.\n\nMike Evans, WR, 49ers (ribs/Achilles): Evans is questionable heading into Monday night. He has been banged up a lot this season and continues to play through his injuries. He played through this same rib ailment last week. I would expect him to play, but fantasy managers should have a pivot option just in case. Brandin Cooks would be the top option on waivers, with Antonio Williams being another.\n\nRuled out before Sunday\nJeremiyah Love, RB, Cardinals (ankle): Love did not practice this week and is out for Week 6. Tyler Allgeier becomes an RB2 worth starting for volume alone. Allgeier would not only lead the Cardinals on the ground and see goal line usage, but he could see a good number of targets if they're in catch-up mode. I would play Allgeier over Woody Marks, Kamara, Omarion Hampton or Jacory Croskey-Merritt.\n\nLamar Jackson, QB, Ravens (ankle): Jackson did not practice this week and has been ruled out for Week 6. Tyler Huntley will once again start in his place. Last week, Huntley threw for 201 yards and two touchdowns, while running for 20 yards and a score. While he is more of an option for those in superflex leagues, it's nice to see that he brings upside.\n\nFor those in need of help in one-QB leagues, I prefer Jordan Love, Kirk Cousins, Tyler Shough, Jameis Winston and Jacoby Brissett. However, I would use Huntley over Daniel Jones, Geno Smith or as a Jalen Hurts replacement in two-QB formats.\n\nKyle Monangai, RB, Bears (thumb/toe): Monangai did not practice this week and is out for Week 6. The Falcons have been tough against the run, but his absence means more volume for D'Andre Swift. Despite the matchup, Swift is a must-play option at a beat-up RB position.\n\nDavid Montgomery, RB, Texans (groin): Montgomery is out for the London matchup against the Jaguars. Woody Marks will start in his place. The Jaguars are an extremely tough matchup to run on, having allowed a league-low 42 RB rushing yards per game. They've allowed explosive runs at the second-lowest rate in football. The one thing going for Marks is that Jacksonville has allowed the fifth-most RB receiving yards. Some backs to play Marks over are Hampton, Kamara and J.K. Dobbins. Backs I would play instead of Marks are Braelon Allen, Emanuel Wilson, Pollard, Cam Skattebo and MarShawn Lloyd. The Texans have also ruled out WR Tank Dell for Week 6, but he is nearing a return.\n\nRashee Rice, WR, Chiefs (hamstring): Rice has not yet practiced coming out of the Chiefs bye and will not play in Week 6. With Rice out, expect Xavier Worthy to operate as the top receiver for the Chiefs, who are also without Tyquan Thornton. I would play Worthy over Ladd McConkey, Germie Bernard, Romeo Doubs and Jakobi Meyers. What this especially means is more targets for Travis Kelce, who is a must-start tight end. Cyrus Allen is worth a speculative add in deeper leagues.\n\nTreVeyon Henderson, RB, Patriots (ankle): Henderson is currently expected to be sidelined for multiple weeks. That will mean more work for Rhamondre Stevenson, who had 16 touches, at least 74 yards and a touchdown in both of the last two games. He should be started for as long as Henderson is out. This is especially true this week against the Jets, who rank top eight in terms of the most rushing yards and RB fantasy points allowed.\n\nJalen Hurts, QB, Eagles (blood clot): This news caught the NFL world by surprise on Thursday and it's possible that Hurts will be out beyond just this week. However, Adam Schefter reports that the Eagles are not planning to put him on IR. Tanner McKee will be the Eagles starter, but he's only useful for desperate maangers in superflex leagues. Ideally, you can find better streaming options -- such as Cousins, Jordan Love, Shough, Winston or Aaron Rodgers. As for the Eagles' pass catchers, I'd look to go in other directions. Dallas Goedert would be the one to trust the most, just because the bar for TE success is so low. He's likely to be McKee's top target, especially in the red zone.\n\nWill Shipley, RB, Eagles (foot): Last week's top waiver-wire pickup was injured after scoring a touchdown in London. He will be sidelined for multiple weeks. That leaves Dameon Pierce as the Eagles' lead back until Saquon Barkley returns. Pierce is a volume RB2/flex option in a fantastic matchup against the Panthers. Carolina ranks top four in terms of the most rushing yards, rushing touchdowns, yards after contact and RB fantasy PPG allowed.\n\nRoman Wilson, WR, Steelers (finger): Wilson joins Michael Pittman Jr and Ben Skowronek as Pittsburgh players who have been ruled out for Week 6. That leaves Germie Bernard, who was a popular waiver-wire target this week, as the team's No. 2 receiver opposite of DK Metcalf. Bernard's style fits well with Rodgers and he can be used as a streaming option this week. Pat Freiermuth should also see a boost in volume and is a Week 6 TE streamer.\n\nDeebo Samuel Sr, WR, 49ers (hamstring): The veteran receiver will not play in Week 6, but has thus far avoided the IR, which is a positive. The 49ers have a Week 8 bye, so it's possible we could see him return after that. It's worth mentioning that the 49ers have opened Christian Kirk's 21-day window to return, meaning he is closing in a comeback. As for Week 6, Brandin Cooks would be the go-to in-house replacement. However, previously listed outside streaming options are the way to go, if possible.\n\nRuled out before Monday\nJacory Croskey-Merritt, RB, Commanders (groin): JCM is out for Week 6. That leaves Rachaad White as the lead back for Washington. He is in the RB3 and flex range, but brings more upside due to the volume he will see, particularly in the passing game. It is a tough matchup as the 49ers have allowed explosive runs to backs at the lowest rate in the league and have allowed them to score just two rushing touchdowns this season."
-    },
-    {
-      "story_id": "50132233",
-      "headline": "AL, NL Championship Series odds: Guardians now AL faves to reach World Series",
-      "summary": "The championship round schedule, lines and odds to win.",
-      "image": "https://a.espncdn.com/photo/2026/1016/r1731529_576x324_16-9.jpg",
-      "published_utc": "2026-10-17T15:21:42Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/espn/betting/story/_/id/50132233/2026-mlb-playoffs-alcs-nlcs-betting-odds-spreads",
-      "stream_url": "",
-      "body": "The Milwaukee Brewers swept the Los Angeles Dodgers on Thursday night, advancing to the World Series in pursuit of the franchise's first MLB crown.\n\nMeanwhile, in the American League, the Cleveland Guardians edged the Tampa Bay Rays in Cleveland to take a 2-1 lead in the ALCS. After weather postponed Friday's game, action resumes Saturday with Game 4 at Progressive Field. The Guardians are now -190 favorites to win the series and move on to face the Brewers.\n\nFor more on the MLB playoffs, check out each team's odds to win the World Series.\n\nOdds by DraftKings and are accurate as of time of publication.\n\nCleveland Guardians vs. Tampa Bay Rays\n\nTo win series: Guardians -190, Rays +160\n\nGuardians lead series 2-1\n\nGame 1: Guardians 7, Rays 3\n\nGame 2: Rays 3, Guardians 1\n\nGame 3: Guardians 3, Rays 2\n\nGame 4: Saturday at Cleveland, 8 p.m. ET\n\nMoneyline: Rays -114, Guardians -106\n\nRun Line: Rays (-1.5) +158, Guardians (+1.5) -193\n\nOver/Under 6.5 runs: O -110/U -110\n\nGame 5: Sunday at Cleveland, 5 p.m. ET\n\n*Game 6: Monday at Tampa Bay, 8 p.m. ET\n\n*Game 7: Tuesday at Tampa Bay, 8 p.m. ET\n\nLos Angeles Dodgers vs. Milwaukee Brewers\n\nBrewers win series 4-0\n\nGame 1: Brewers 2, Dodgers 1\n\nGame 2: Brewers 7, Dodgers 4\n\nGame 3: Brewers 6, Dodgers 2\n\nGame 4: Brewers 6, Dodgers 4"
     },
     {
       "story_id": "50189050",
@@ -12086,19 +11960,25 @@
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/6/1",
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/7/1",
           "label": "OK.ru FHD (Prelims) \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/7/1",
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/8/1",
+          "label": "OK.ru FHD (Main card) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/9/1",
           "label": "Other Hosts (Prelims) \u2014 Abyss (HD)",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/7/2",
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/9/2",
           "label": "Other Hosts (Prelims) \u2014 VOE.sx (SD)",
           "part": false,
           "live": false
@@ -12112,6 +11992,18 @@
         {
           "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/5/2",
           "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/6/1",
+          "label": "Dailymotion FHD (Main card) \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-17-2026/select-post-1/6/2",
+          "label": "Dailymotion FHD (Main card) \u2014 Part 2",
           "part": true,
           "live": false
         }
