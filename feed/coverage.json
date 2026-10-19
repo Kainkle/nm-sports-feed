@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-19T21:19:54.139866+00:00",
+  "generated_utc": "2026-10-19T21:30:19.053287+00:00",
   "window_days": 2,
-  "total_events": 230,
+  "total_events": 216,
   "competitions": [
     {
       "competition": "aew",
@@ -371,14 +371,14 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 15,
+      "events": 1,
       "date_range": [
-        "2026-10-17",
+        "2026-10-18",
         "2026-10-18"
       ],
-      "explicit_status": 15,
+      "explicit_status": 1,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 1,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -426,7 +426,18 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:soccer/usa.1",
+      "date": "2026-10-17",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261017: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/usa.1",
+      "date": "2026-10-19",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261019: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
