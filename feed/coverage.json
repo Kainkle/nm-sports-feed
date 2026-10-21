@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-21T22:59:04.294799+00:00",
+  "generated_utc": "2026-10-21T23:09:38.995796+00:00",
   "window_days": 2,
-  "total_events": 153,
+  "total_events": 149,
   "competitions": [
     {
       "competition": "aew",
@@ -89,14 +89,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 6,
+      "events": 2,
       "date_range": [
-        "2026-10-18",
+        "2026-10-19",
         "2026-10-21"
       ],
-      "explicit_status": 6,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 6,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -426,7 +426,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:soccer/esp.1",
+      "date": "2026-10-18",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261018: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
