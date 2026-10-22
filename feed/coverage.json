@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-22T16:37:01.713341+00:00",
+  "generated_utc": "2026-10-22T16:46:52.599058+00:00",
   "window_days": 2,
   "total_events": 160,
   "competitions": [
@@ -428,23 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:soccer/eng.1",
-      "date": "2026-10-21",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261021: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:soccer/ger.1",
-      "date": "2026-10-22",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261022: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    },
-    {
-      "source": "espn:rugby-league/3",
-      "date": "2026-10-19",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby-league/3/scoreboard?dates=20261019: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
