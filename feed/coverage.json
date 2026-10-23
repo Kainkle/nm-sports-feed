@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-23T13:57:54.453822+00:00",
+  "generated_utc": "2026-10-23T14:08:26.942573+00:00",
   "window_days": 2,
-  "total_events": 244,
+  "total_events": 241,
   "competitions": [
     {
       "competition": "aew",
@@ -231,14 +231,14 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 56,
+      "events": 53,
       "date_range": [
         "2026-10-20",
         "2026-10-25"
       ],
-      "explicit_status": 56,
+      "explicit_status": 53,
       "status_coverage_pct": 100,
-      "both_logos": 56,
+      "both_logos": 53,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -430,7 +430,18 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/college-football",
+      "date": "2026-10-22",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261022: <urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:australian-football/afl",
+      "date": "2026-10-24",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard?dates=20261024: <urlopen error [Errno 104] Connection reset by peer>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
