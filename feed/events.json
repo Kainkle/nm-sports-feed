@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-23T01:49:56.602016+00:00",
+  "generated_utc": "2026-10-23T01:59:40.711135+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915403",
@@ -2454,7 +2454,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-22T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:10",
         "name": "Toronto Maple Leafs",
@@ -2484,7 +2484,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Scotiabank Arena",
       "detail": "",
       "game_number": 1,
@@ -2638,7 +2638,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-22T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:20",
         "name": "Philadelphia 76ers",
@@ -2668,9 +2668,9 @@
         "color": "860038"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Xfinity Mobile Arena",
-      "detail": "45.3 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2716,7 +2716,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kidd Brewer Stadium",
-      "detail": "13:15 - 4th Quarter",
+      "detail": "9:35 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2763,7 +2763,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Walens Family Field at Fifth Third Stadium",
-      "detail": "12:45 - 4th Quarter",
+      "detail": "5:26 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2853,9 +2853,9 @@
         "color": "582c83"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Simmons Bank Liberty Stadium",
-      "detail": "Halftime",
+      "detail": "10:20 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3135,7 +3135,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-23T01:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:25",
         "name": "Oklahoma City Thunder",
@@ -3165,9 +3165,9 @@
         "color": "0e2240"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Paycom Center",
-      "detail": "Thu, October 22nd at 9:30 PM EDT",
+      "detail": "7:29 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10984,18 +10984,32 @@
   ],
   "stories": [
     {
-      "story_id": "50253996",
-      "headline": "Gritsyuk and Hischier score in 1st period in the Devils' 4-1 victory over the Ducks",
-      "summary": "\u2014 Arseny Gritsyuk and Nico Hischier scored first-period goals, Nico Daws made 16 saves and the New Jersey Devils beat the Anaheim Ducks 4-1 on Thursday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892555.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-23T01:36:09Z",
+      "story_id": "50253148",
+      "headline": "Cavs coach Atkinson 'depressed' when LeBron deal fell through",
+      "summary": "When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson.",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734797_1296x729_16-9.jpg",
+      "published_utc": "2026-10-23T01:55:29Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Dave McMenamin",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50253148/cavs-coach-atkinson-depressed-lebron-deal-fell-through",
+      "stream_url": "",
+      "body": "PHILADELPHIA -- When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson. It was also a reminder of the disappointment the coach felt from what didn't come to pass this summer.\n\nLeBron James was in a Sixers uniform playing against Atkinson's team, rather than beginning a third stint with the franchise that drafted James. That disappointment might have gotten worse after the 76ers overcame a 69-45 deficit at halftime to beat the Cavs 144-106.\n\n\"We were anticipating and excited [to land James] and then you have that [news],\" Atkinson said pregame when asked about James going to Philadelphia. \"Having gone through free agency a lot, when you're expecting something to happen and it doesn't happen, that first day or two, you're just like, you're depressed, quite honestly. That's the emotions of it.\"\n\nCleveland, along with Minnesota, Miami, Golden State and Philadelphia, was one of the five finalists James considered after telling the Los Angeles Lakers that he would pursue free agency to play a record-setting 24th NBA season elsewhere.\n\nAnd Cleveland was the only one of those teams that James visited, meeting with Cavs president of basketball operations Koby Altman, vice president of business operations Grant Gilbert and now-Cavs general manager Brandon Weems, who has been a close friend to James since childhood.\n\nJames picked the Sixers, signing a two-year, $8 million contract with a player option for next season. On the day of his decision, he acknowledged Cleveland in a post on X, writing: \"Northeast Ohio will always [be] home!\"\n\nAtkinson credited the Cavs for pivoting from James and piecing together a five-team deal to acquire forward Peyton Watson from the Denver Nuggets in a sign-and-trade deal, parting with Max Strus, Dennis Schroder, Tre Mann and a 2031 unprotected first-round pick.\n\nWatson, 24, signed a four-year, $88 contract with Cleveland after the trade.\n\n\"I loved how quickly we just switched gears and the push to get Peyton in the fold and everything we had to do to do that,\" Atkinson said. \"I mean, that was a complicated maneuver. But it's kind of what [Cavs owner] Dan Gilbert and Koby and those guys, they're aggressive.\n\n\"They don't stand pat, and I love it. We take risks, we take swings. It was a great switch to what was a tough blow for us in the beginning.\""
+    },
+    {
+      "story_id": "50254169",
+      "headline": "Nashville Predators vs. Boston Bruins: Game Highlights",
+      "summary": "Nashville Predators vs. Boston Bruins: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/8026b1df-937f-4c67-8bdb-ff0385251f56/8026b1df-937f-4c67-8bdb-ff0385251f56.jpg",
+      "published_utc": "2026-10-23T01:53:51Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892555",
+      "link": "https://www.espn.com/video/clip/_/id/50254169/game-highlights",
       "stream_url": "",
-      "body": "NEWARK, N.J. -- \u2014 Arseny Gritsyuk and Nico Hischier scored first-period goals, Nico Daws made 16 saves and the New Jersey Devils beat the Anaheim Ducks 4-1 on Thursday night.\n\n\r\nAnthony Mantha restored the two-goal lead with 6:33 left in the third, and Jack Hughes added an empty-netter with 6.1 seconds remaining. New Jersey won its second straight to improve to 6-4-0, while Anaheim dropped its fifth in a row to fall to 4-6-0.\n\n\r\nGritsyuk and Hischier each scored their fifth goal of the season, with Jesper Bratt assisting on both scores. Hughes assisted on Gritsyuk's goal.\n\n\r\nTim Washe scored for Anaheim on a tip at 8:20 of the third period. Ville Husso made 25 saves for the Ducks.\n\n\r\nGritsyuk opened the scoring at 4:38 of the first, connecting from close range off Bratt's centering pass. Hischier scored off a rebound on a power play with 41 seconds left in the period.\n\n\r\nUp next\r\nDucks: At Philadelphia on Saturday\n\n\r\nDevils: Host Los Angeles on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50253179",
@@ -11024,20 +11038,6 @@
       "link": "https://www.espn.com/afl/story/_/id/50232030/afl-draft-2026-dougie-cochrane-port-adelaide-power-first-pick-pick-one-rare-air",
       "stream_url": "",
       "body": "It's rare for a player to be the consensus no. 1 rated prospect in their draft. From coaches to recruiters and a myriad of draft evaluators, Dougie Cochrane stands atop 2026's crop. For him to do so after playing just four games in his top-age campaign puts the Port Adelaide NGA gun in rare air.\n\nThe starring junior missed both years of his u18 national championships through injury, and this year only returned to the field in the final month of the season. But what he produced at league level last season and amongst his peers at the u16s national championships in 2024 is not easily forgotten.\n\nClearly a class above at the national championships three years ago, Cochrane put all of his skill and athleticism on show. He was a distributor out of defence, won aerial duels around the ground and was the focal point of the SA forward line in a showing of his unique versatility.\n\nFrom there he made his league debut for Central Districts as a 17-year-old, kicking four goals including an outrageous snap on his left foot from the pocket after crumbing a forward 50 contest. From his first game he was already the best player on the ground.\n\nSpeaking to ESPN ahead of the draft combine Cochrane was a bit flat. It wasn't because he'd missed his top-age season, he knew he wasn't going to be testing, and he knew most clubs wouldn't bother booking an interview given his ties to Port Adelaide. But there was one thing that really got to him.\n\n\"They measured me at 194-and-a-half centimetres,\" he tells ESPN with a grin. \"They took a centimetre off me, but we'll round that up.\"\n\nAt six-foot-four (we'll round it up too) he's widely considered the next elite key forward prospect to come through the AFL Draft. Only he doesn't necessarily see it that way.\n\n\"I want to be a midfielder when I'm older, that's what I'm striving towards. \"For right now I'm pretty happy forward, if not back. I'm happy wherever the team needs, whatever the team needs.\n\n\"I'm pretty skinny right now, I'm not as muscly as the Patty Cripps's of the world, the Bonts of the world. I want to focus on my midfield craft and get that experience.\"\n\nCochrane missed a significant chunk of his bottom-age year with a hamstring and over the off-season underwent knee surgery to address patella tendinitis. He didn't play for 11 straight months from the end of 2025 to July 2026.\n\nWatching from the sidelines frustrated him but he knew it was all out of an abundance of caution.\n\n\"I started playing league at Centrals last year, I sort of started feeling [knee pain] a little bit. I thought nothing of it, just thought it was a bit of growing pain. It got worse and worse by the time I started doing pre-season... when you take off and do your powerful stuff it flares up.\n\n\"They did a clean out of it... I had the surgery, and I walked out of the surgery. It was two little key holes.\"\n\nCochrane sat down with ESPN as Port Adelaide list manager Jason Cripps all but confirmed on Trade Radio Essendon would be bidding on the gun academy prospect at pick one in the 2026 AFL Draft.\n\nHe's the son of Port Adelaide and North Melbourne midfielder Stuart Cochrane, and grew up supporting the Power after his dad's playing career finished up. His brother Tom was on the list during formative years and the club is set up to match his bid wherever it lands.\n\n\"Dad's been my idol growing up. Looking up to him, I obviously didn't get to see him play but he's been enormous.\"\n\nAsked if it would mean more being that first selection on November 19, Cochrane's humble nature shines through.\n\n\"I loved watching the draft growing up, seeing those high picks. The pick doesn't really matter, does it? There have been a lot of picks over times where the number one picks haven't gone as well as they should've. I just want to end up at an AFL club - wherever that is I don't mind - but I just want to play footy,\" he says.\n\n\"Growing up and supporting Port all my life, it would be special playing for them. But whatever happens happens and I'm just gonna let that decide itself.\""
-    },
-    {
-      "story_id": "50253148",
-      "headline": "Cavs coach Atkinson 'depressed' when LeBron deal fell through",
-      "summary": "When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson.",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734797_1296x729_16-9.jpg",
-      "published_utc": "2026-10-23T00:30:44Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Dave McMenamin",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50253148/cavs-coach-atkinson-depressed-lebron-deal-fell-through",
-      "stream_url": "",
-      "body": "PHILADELPHIA -- When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson. It was also a reminder of the disappointment the coach felt from what didn't come to pass this summer.\n\nLeBron James was in a Sixers uniform playing against Atkinson's team, rather than beginning a third stint with the franchise that drafted James.\n\n\"We were anticipating and excited [to land James] and then you have that [news],\" Atkinson said pregame when asked about James going to Philadelphia. \"Having gone through free agency a lot, when you're expecting something to happen and it doesn't happen, that first day or two, you're just like, you're depressed, quite honestly. That's the emotions of it.\"\n\nCleveland, along with Minnesota, Miami, Golden State and Philadelphia, was one of the five finalists James considered after telling the Los Angeles Lakers that he would pursue free agency to play a record-setting 24th NBA season elsewhere.\n\nAnd Cleveland was the only one of those teams that James visited, meeting with Cavs president of basketball operations Koby Altman, vice president of business operations Grant Gilbert and now-Cavs general manager Brandon Weems, who has been a close friend to James since childhood.\n\nJames picked the Sixers, signing a two-year, $8 million contract with a player option for next season. On the day of his decision, he acknowledged Cleveland in a post on X, writing: \"Northeast Ohio will always [be] home!\"\n\nAtkinson credited the Cavs for pivoting from James and piecing together a five-team deal to acquire forward Peyton Watson from the Denver Nuggets in a sign-and-trade deal, parting with Max Strus, Dennis Schroder, Tre Mann and a 2031 unprotected first-round pick.\n\nWatson, 24, signed a four-year, $88 contract with Cleveland after the trade.\n\n\"I loved how quickly we just switched gears and the push to get Peyton in the fold and everything we had to do to do that,\" Atkinson said. \"I mean, that was a complicated maneuver. But it's kind of what [Cavs owner] Dan Gilbert and Koby and those guys, they're aggressive.\n\n\"They don't stand pat, and I love it. We take risks, we take swings. It was a great switch to what was a tough blow for us in the beginning.\""
     },
     {
       "story_id": "50250024",
@@ -11152,18 +11152,32 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nCowboys open to keeping Taumalolo\n\nNorth Queensland are open to retaining Jason Taumalolo beyond 2027, with the veteran forward's assessment of how his body is holding up set to guide the next step.\n\nESPN understands the Cowboys will take their lead from Taumalolo as he weighs up his playing future, reflecting his standing as a club legend.\n\nTaumalolo is contracted until the end of next season and becomes eligible to negotiate with rival clubs for 2028 onwards from November 1.\n\nPanthers lock in Patea\nPenrith have secured Tua Patea until the end of 2029, with the youngster signing an extension that includes a pathway from a development contract into the club's top 30.\n\nPatea capped off the 2026 season with a hat-trick in the Panthers' Jersey Flegg Grand Final victory, having started the year with an NRL training block.\n\nThe new deal will see him join Penrith's full-time NRL squad as he works towards a first-grade debut.\n\nBulldogs closing in on Skelton return\n\nJeral Skelton is closing in on a return to Canterbury following his departure from the Wests Tigers.\n\nESPN understands the Bulldogs are in advanced discussions to bring the outside back to the club for the 2027 season.\n\nAn agreement is understood to be close, although the deal has yet to be finalised.\n\nMultiple NRL sides eye Knights forward\n\nA Sydney club and a Queensland-based club are monitoring Newcastle forward Mat Croker ahead of November 1.\n\nESPN understands the two clubs have shown interest in the 27-year-old, who is approaching the final year of his Knights contract and can negotiate with rivals for 2028 onwards from next month.\n\nRivals keeping tabs on Dragons' Tu\n\nMultiple clubs are monitoring St George Illawarra outside back Setu Tu, with the Dragons yet to begin talks over a contract extension.\n\nTu is contracted until the end of 2027 and is expected to test the open market from November 1, when rival clubs can negotiate a deal for 2028 and beyond.\n\nThe former Warriors outside back joined the Dragons on a development contract this season and is set to move into the club's top 30 squad in 2027.\n\nHis ability to cover multiple positions across the backline adds to his appeal as clubs assess their recruitment options.\n\nRivals monitor Patea as open market looms\nPenrith young gun Luron Patea is expected to test the open market from November 1, with multiple clubs keeping tabs on the promising prop.\n\nPatea is contracted until the end of 2027, but the Panthers are yet to begin talks over an extension, leaving rival clubs poised to explore a deal for 2028 and beyond.\n\nPenrith have not granted Patea permission to negotiate with other clubs before November 1.\n\nThe Panthers junior made his NRL debut in 2024 and has shown promise during his first-grade opportunities, providing another emerging option in Penrith's forward pack.\n\nHe is among several Panthers players approaching the final year of their contracts, with veteran prop Moses Leota also unsigned beyond 2027.\n\nRoosters eye Dockar-Clay reunion\nThe Roosters have shown interest in a potential return for Zach Dockar-Clay as they explore options to bolster their hooking and utility depth.\n\nESPN understands the 31-year-old has emerged as an option following his departure from Manly, with discussions remaining at an early stage.\n\nDockar-Clay spent the 2024 and 2025 seasons with the Roosters before joining the Sea Eagles on a one-year deal for 2026.\n\nManly confirmed his departure last month after a season in which he claimed the club's NSW Cup best-and-fairest award.\n\nBostock brushes Dragons links\n\nDolphins star Jack Bostock has dismissed recent links between himself and the Dragons, admitting this isn't the first time he'd been floated for a club switch.\n\n\"I've been linked to a few a clubs,\" Bostock admitted.\n\n\"I don't know about [the Dragons links].\"\n\nHe said that while he \"obviously sees it in the media,\" his sole focus is the Kangaroos.\n\nSloan's Dragons stay still a possibility\n\nTyrell Sloan could yet remain at St George Illawarra next season, with discussions ongoing over a potential stay despite his planned move to Castleford.\n\nThere is interest in keeping Sloan at the Dragons, but several hurdles remain before that can become a reality.\n\nRoster space and salary cap room would need to be worked through, while any arrangement would also require Castleford to agree to release him.\n\nSloan previously admitted he would \"love to\" remain in the NRL when speaking to Channel Nine in August, after his Castleford deal had been announced.\n\nNo agreement has been reached and a stay is far from guaranteed."
     },
     {
-      "story_id": "44686270",
-      "headline": "Stanley Cup odds: Central-leading Mammoth see odds shorten after hot start",
-      "summary": "The Carolina Hurricanes are favorites to win the 2027 Stanley Cup while the Utah Mammoth rise.",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734475_1296x729_16-9.jpg",
-      "published_utc": "2026-10-22T14:15:39Z",
+      "story_id": "50252942",
+      "headline": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
+      "summary": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_185138065_37061461207/ss_20261022_185138065_37061461207.jpg",
+      "published_utc": "2026-10-23T00:08:18Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50252942/love-it",
+      "stream_url": "",
+      "body": ""
+    },
+    {
+      "story_id": "50254167",
+      "headline": "Silovs, Penguins blank Panthers 4-0 to spoil Florida goalie Cooper Black\u2019s record-setting NHL debut",
+      "summary": "\u2014 Pittsburgh's Arturs Silovs stopped 25 shots to spoil the history-making debut of Florida counterpart Cooper Black as the Penguins...",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892556.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-23T01:53:08Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
-      "byline": "Doug Greenberg",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/espn/betting/story/_/id/44686270/2026-nhl-stanley-cup-playoffs-championship-odds",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892556",
       "stream_url": "",
-      "body": "Since their inaugural season in 2024-25, the Utah Mammoth have continued to gain momentum as a franchise and bookmakers took notice, assigning them the 14th-best Stanley Cup odds going into the 2026-27 campaign at 30-1. Now, after a strong start to the season that has them leading the Central Division at 7-3-0, the Mammoth are 19-1 for the Cup.\n\nBecause the Mammoth are not a naturally popular team, and Utah is not a state with legal betting, they haven't attracted as much attention as Caesars Sportsbook head of hockey Karry Shreeve thinks they should, though it's more than in previous seasons.\n\n\"Utah is finally starting to get a little bit more public traction,\" he told ESPN before the season. \"Those odds aren't going to demand the same attention as some of those other teams would. So, I think like anything else ... there could be value on Utah as the season goes along for some of the future stuff anyways.\"\n\nThe reigning champion Carolina Hurricanes lead the pack of Stanley Cup contenders and have shortened from +650 to +600 since the start of the season. The Tampa Bay Lightning (10-1 to +800) and Washington Capitals (17-1 to 11-1) continue to improve with strong performances, while the Florida Panthers have lengthened from +650 to +850 since the start of the campaign after being one of the buzziest teams of the offseason.\n\nMore:\n\nESPN Fantasy Hockey rankings\nSign up for ESPN Fantasy Hockey today\n\nAll odds provided by DraftKings and are accurate as of publish time."
+      "body": "PITTSBURGH -- \u2014 Pittsburgh's Arturs Silovs stopped 25 shots to spoil the history-making debut of Florida counterpart Cooper Black as the Penguins beat the Panthers 4-0 on Thursday.\n\n\r\nBlack, who at 6-foot-9 became the tallest goalie ever to appear in an NHL regular season game, made 18 saves but it wasn't enough to stop the Panthers from dropping their second game in as many nights.\n\n\r\nNick Robertson scored twice for Pittsburgh. Hendrix Lapierre and Evgeni Malkin both finished with a goal and an assist as the Penguins shook off a miserable Western Conference road trip in which they were badly outplayed in losses to Chicago, Colorado, Vegas and Utah.\n\n\r\nThe trip ended with 19-year-old forward Ben Kindel collapsing on Tuesday during the flight back to Pittsburgh. Kindel spent the night in a Salt Lake City hospital for observation and returned to the Penguins\u2019 facility on Thursday. The team placed him on injured reserve but is hopeful may be able to return to practice as early as next week.\n\n\r\nPittsburgh coach Dan Muse shuffled his lines in hopes of a spark, and the Penguins responded by solving the towering Black, a 25-year-old from Michigan, three times.\n\n\r\nBlack, called up from Florida's AHL affiliate in Charlotte recently after Jacob Markstrom sustained a shoulder injury, was sharp early as the Panthers struggled to find their legs a night after an emotionally charged loss in Ottawa.\n\n\r\nLapierre doubled Pittsburgh's lead at the game's halfway point after taking a pretty feed on the rush from Ville Koivunen and Malkin's third goal in four games was more than enough for Silovs, who was only sporadically challenged while picking up his second shutout of the season and fourth of his career.\n\n\r\nUp next\r\nPanthers: Continue their four-game road trip on Sunday in Chicago.\n\n\r\nPenguins: Host Nashville on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
       "story_id": "50253588",
@@ -11192,20 +11206,6 @@
       "link": "https://www.espn.com/afl/story/_/id/50185821/afl-2026-season-ladder-power-rankings-ratings-tiers-offseason-power-rankings-every-team-ranked-premiership-favourites",
       "stream_url": "",
       "body": "The 2026 AFL season is done and dusted, but that hasn't stopped ESPN's senior writer Jake Michaels from turning his attention to next year. Who are the 2027 flag favourites? Who are the legitimate contenders? And who should already be booking September holidays? It's our way-too-early edition of AFL tiers!\n\nAll of our best footy content, now on Instagram. Follow @espnfooty here!\n\nYour new premiership favourite\n\n1. HAWTHORN\n\nWho knows if the Hawks would have been premiers this year if not for Hugh McCluggage's heroics late in that dramatic preliminary final at the MCG. There's certainly a real argument they would have gone all the way. This side, which is expertly coached by Sam Mitchell, just added Zach Merrett and Ben King to its best 23, two more experienced players desperate for flag success. There won't be many games the Hawks don't start favourite in next year. Even if this club's 2027 season over/under was set at preliminary final weekend, I'd still be taking the over.\n\nShould be great, but there are some questions\n\n2. BRISBANE\n\n3. FREMANTLE\n\n4. SYDNEY\n\nThe Lions just completed a remarkable three-peat and it certainly wouldn't have been outrageous for them to hold top spot here. But losing Lachie Neale and Chris Fagan -- arguably the two most important pieces of the club's modern-day dynasty -- cannot be underestimated. How do they fill those seismic gaps? The Dockers were the dominant team of the home and away season and if we played out the last four minutes of the Grand Final 100 times they probably win 99 of them. Instead, Fremantle has to spend all offseason dwelling on the greatest missed opportunity in club history. How do they respond in 2027? As for the Swans, who are always somewhere around the mark, nobody can really be sure what to expect after the Pullman Hotel saga. So many fascinating questions.\n\nSilly season winners\n\n5. GEELONG\n\n6. WESTERN BULLDOGS\n\n7. CARLTON\n\n8. COLLINGWOOD\n\nEach of these teams will be counting down the days until the 2027 season after drastically improving their lists during the trade and free agency window. The Cats landed the dynamic Toby Greene, significantly upgraded their ruck department with the singing of Rowan Marshall, and bolstered their defensive stocks with Jordan Ridley. The Bulldogs scored the biggest prize of all in Zak Butters, but they were also able to pry away Jordon Butts from the Crows, a much needed acquisition to what's been a shaky defence. The Blues will go into next season with Joel Amartey, Lachie Whitfield, and almost certainly father-son talent Cody Walker, while the Magpies added dual Brownlow medallist Lachie Neale and 2024 Coleman Medal winner Jesse Hogan.\n\nSilly season losers\n\n9. MELBOURNE\n\n10. ADELAIDE\n\nWhile a bunch of teams we'd expect to be in the fifth-to-10th range clearly improved their best 23, the Demons and Crows did nothing of the sort. Adelaide literally brought in nobody and will have to deal with the loss of key defender Jordon Butts, who departed as a free agent for the Bulldogs. Melbourne did sign several names, but do we think any of Zane Duursma, Will McLachlan, and Bodie Ryan can be needle movers in 2027? But hey, these were two sides I was down on this year and both ultimately outperformed expectations. Perhaps they do have it all figured out...\n\nIt's now or never\n\n11. GOLD COAST\n\n12. NORTH MELBOURNE\n\n13. ST KILDA\n\nIf not now, then when? The Suns rocketed to co-flag favouritism this time last year after signing Christian Petracca and Jamarra Ugle-Hagan. They ultimately won just nine games and finished 13th on the ladder. Disastrous. Damien Hardwick is under serious pressure to get more out of this list. Meanwhile, the Kangaroos haven't played finals in a decade, but there's some newfound optimism after the senior coaching appointment of highly regarded Jaymie Graham and the signing of Nick Blakey, the biggest name the club has attracted in a decade. The Saints also need to show something early in 2027 or Ross Lyon could be on his way out ... again! But the real worry is not doing enough to ensure star midfielder Nasiah Wanganeen-Milera signs on.\n\nIt's going to be another long year\n\n14. PORT ADELAIDE\n\n15. GWS\n\n16. WEST COAST\n\n17. RICHMOND\n\n18. ESSENDON\n\nPerhaps I'm being a tad harsh on Port, who were pretty competitive this year. But at the end of the day we're taking Zak Butters out of a side that won just seven games. The Giants lost four of their best players in Toby Greene, Jesse Hogan, Lachie Whitfield, and Kieren Briggs, and will be relying heavily on their younger talent next year. And then there's the Eagles, Tigers, and Bombers -- three teams that combined for just nine wins this year. We all expect these sides to be somewhere around the bottom of the ladder."
-    },
-    {
-      "story_id": "50252942",
-      "headline": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
-      "summary": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_185138065_37061461207/ss_20261022_185138065_37061461207.jpg",
-      "published_utc": "2026-10-23T00:08:18Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50252942/love-it",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50250022",
