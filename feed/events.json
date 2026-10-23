@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-23T01:59:40.711135+00:00",
+  "generated_utc": "2026-10-23T02:09:43.332578+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915403",
@@ -2576,7 +2576,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -2622,7 +2622,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "PPG Paints Arena",
       "detail": "",
       "game_number": 1,
@@ -2716,7 +2716,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kidd Brewer Stadium",
-      "detail": "9:35 - 4th Quarter",
+      "detail": "6:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2763,7 +2763,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Walens Family Field at Fifth Third Stadium",
-      "detail": "5:26 - 4th Quarter",
+      "detail": "2:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2807,7 +2807,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
@@ -2855,7 +2855,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Simmons Bank Liberty Stadium",
-      "detail": "10:20 - 3rd Quarter",
+      "detail": "7:48 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2991,9 +2991,9 @@
         "color": "002a5c"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Soldier Field",
-      "detail": "Halftime",
+      "detail": "9:41 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "0rsj2AGQjhk",
       "replay_url": "",
@@ -3167,7 +3167,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Paycom Center",
-      "detail": "7:29 - 1st Quarter",
+      "detail": "2:53 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3181,7 +3181,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-23T02:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:55",
         "name": "Seattle Kraken",
@@ -3211,7 +3211,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Climate Pledge Arena",
       "detail": "",
       "game_number": 1,
@@ -3227,7 +3227,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-23T02:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:23",
         "name": "Vancouver Canucks",
@@ -3257,7 +3257,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Rogers Arena",
       "detail": "",
       "game_number": 1,
@@ -10984,6 +10984,34 @@
   ],
   "stories": [
     {
+      "story_id": "50253179",
+      "headline": "Week 7 NFL TNF highlights: Best plays, moments, TDs, more",
+      "summary": "Here's a look at the best plays from the Bears vs. the Patriots on TNF.",
+      "image": "https://a.espncdn.com/photo/2026/1023/r1734850_1296x729_16-9.jpg",
+      "published_utc": "2026-10-23T02:03:58Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Mike Reiss and Courtney Cronin",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50253179/week-7-nfl-tnf-highlights-best-plays-moments-touchdowns",
+      "stream_url": "",
+      "body": "Week 7 kicked off Thursday night with the Chicago Bears hosting the New England Patriots.\n\nBears quarterback Caleb Williams started his second game after missing time with a hamstring injury. Patriots quarterback Drake Maye was looking to pass Drew Bledsoe and Steve Grogan for the most wins by a franchise QB in their first three seasons. Each had 21.\n\nKeep checking here for the top plays from Soldier Field.\n\nWeek 7 highlights"
+    },
+    {
+      "story_id": "50254230",
+      "headline": "San Jose Sharks vs. Ottawa Senators: Game Highlights",
+      "summary": "San Jose Sharks vs. Ottawa Senators: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/9e58c0ef-9857-4de5-9d39-00e7449d34f4/9e58c0ef-9857-4de5-9d39-00e7449d34f4.jpg",
+      "published_utc": "2026-10-23T02:03:20Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50254230/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50253148",
       "headline": "Cavs coach Atkinson 'depressed' when LeBron deal fell through",
       "summary": "When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson.",
@@ -10996,34 +11024,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50253148/cavs-coach-atkinson-depressed-lebron-deal-fell-through",
       "stream_url": "",
       "body": "PHILADELPHIA -- When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson. It was also a reminder of the disappointment the coach felt from what didn't come to pass this summer.\n\nLeBron James was in a Sixers uniform playing against Atkinson's team, rather than beginning a third stint with the franchise that drafted James. That disappointment might have gotten worse after the 76ers overcame a 69-45 deficit at halftime to beat the Cavs 144-106.\n\n\"We were anticipating and excited [to land James] and then you have that [news],\" Atkinson said pregame when asked about James going to Philadelphia. \"Having gone through free agency a lot, when you're expecting something to happen and it doesn't happen, that first day or two, you're just like, you're depressed, quite honestly. That's the emotions of it.\"\n\nCleveland, along with Minnesota, Miami, Golden State and Philadelphia, was one of the five finalists James considered after telling the Los Angeles Lakers that he would pursue free agency to play a record-setting 24th NBA season elsewhere.\n\nAnd Cleveland was the only one of those teams that James visited, meeting with Cavs president of basketball operations Koby Altman, vice president of business operations Grant Gilbert and now-Cavs general manager Brandon Weems, who has been a close friend to James since childhood.\n\nJames picked the Sixers, signing a two-year, $8 million contract with a player option for next season. On the day of his decision, he acknowledged Cleveland in a post on X, writing: \"Northeast Ohio will always [be] home!\"\n\nAtkinson credited the Cavs for pivoting from James and piecing together a five-team deal to acquire forward Peyton Watson from the Denver Nuggets in a sign-and-trade deal, parting with Max Strus, Dennis Schroder, Tre Mann and a 2031 unprotected first-round pick.\n\nWatson, 24, signed a four-year, $88 contract with Cleveland after the trade.\n\n\"I loved how quickly we just switched gears and the push to get Peyton in the fold and everything we had to do to do that,\" Atkinson said. \"I mean, that was a complicated maneuver. But it's kind of what [Cavs owner] Dan Gilbert and Koby and those guys, they're aggressive.\n\n\"They don't stand pat, and I love it. We take risks, we take swings. It was a great switch to what was a tough blow for us in the beginning.\""
-    },
-    {
-      "story_id": "50254169",
-      "headline": "Nashville Predators vs. Boston Bruins: Game Highlights",
-      "summary": "Nashville Predators vs. Boston Bruins: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/8026b1df-937f-4c67-8bdb-ff0385251f56/8026b1df-937f-4c67-8bdb-ff0385251f56.jpg",
-      "published_utc": "2026-10-23T01:53:51Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50254169/game-highlights",
-      "stream_url": "",
-      "body": ""
-    },
-    {
-      "story_id": "50253179",
-      "headline": "Week 7 NFL TNF highlights: Best plays, moments, TDs, more",
-      "summary": "Here's a look at the best plays from the Bears vs. the Patriots on TNF.",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1734835_1296x729_16-9.jpg",
-      "published_utc": "2026-10-23T01:18:20Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Mike Reiss and Courtney Cronin",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50253179/week-7-nfl-tnf-highlights-best-plays-moments-touchdowns",
-      "stream_url": "",
-      "body": "Week 7 kicked off Thursday night with the Chicago Bears hosting the New England Patriots.\n\nBears quarterback Caleb Williams started his second game after missing time with a hamstring injury. Patriots quarterback Drake Maye was looking to pass Drew Bledsoe and Steve Grogan for the most wins by a franchise QB in their first three seasons. Each had 21.\n\nKeep checking here for the top plays from Soldier Field.\n\nWeek 7 highlights"
     },
     {
       "story_id": "50232030",
@@ -11152,6 +11152,34 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nCowboys open to keeping Taumalolo\n\nNorth Queensland are open to retaining Jason Taumalolo beyond 2027, with the veteran forward's assessment of how his body is holding up set to guide the next step.\n\nESPN understands the Cowboys will take their lead from Taumalolo as he weighs up his playing future, reflecting his standing as a club legend.\n\nTaumalolo is contracted until the end of next season and becomes eligible to negotiate with rival clubs for 2028 onwards from November 1.\n\nPanthers lock in Patea\nPenrith have secured Tua Patea until the end of 2029, with the youngster signing an extension that includes a pathway from a development contract into the club's top 30.\n\nPatea capped off the 2026 season with a hat-trick in the Panthers' Jersey Flegg Grand Final victory, having started the year with an NRL training block.\n\nThe new deal will see him join Penrith's full-time NRL squad as he works towards a first-grade debut.\n\nBulldogs closing in on Skelton return\n\nJeral Skelton is closing in on a return to Canterbury following his departure from the Wests Tigers.\n\nESPN understands the Bulldogs are in advanced discussions to bring the outside back to the club for the 2027 season.\n\nAn agreement is understood to be close, although the deal has yet to be finalised.\n\nMultiple NRL sides eye Knights forward\n\nA Sydney club and a Queensland-based club are monitoring Newcastle forward Mat Croker ahead of November 1.\n\nESPN understands the two clubs have shown interest in the 27-year-old, who is approaching the final year of his Knights contract and can negotiate with rivals for 2028 onwards from next month.\n\nRivals keeping tabs on Dragons' Tu\n\nMultiple clubs are monitoring St George Illawarra outside back Setu Tu, with the Dragons yet to begin talks over a contract extension.\n\nTu is contracted until the end of 2027 and is expected to test the open market from November 1, when rival clubs can negotiate a deal for 2028 and beyond.\n\nThe former Warriors outside back joined the Dragons on a development contract this season and is set to move into the club's top 30 squad in 2027.\n\nHis ability to cover multiple positions across the backline adds to his appeal as clubs assess their recruitment options.\n\nRivals monitor Patea as open market looms\nPenrith young gun Luron Patea is expected to test the open market from November 1, with multiple clubs keeping tabs on the promising prop.\n\nPatea is contracted until the end of 2027, but the Panthers are yet to begin talks over an extension, leaving rival clubs poised to explore a deal for 2028 and beyond.\n\nPenrith have not granted Patea permission to negotiate with other clubs before November 1.\n\nThe Panthers junior made his NRL debut in 2024 and has shown promise during his first-grade opportunities, providing another emerging option in Penrith's forward pack.\n\nHe is among several Panthers players approaching the final year of their contracts, with veteran prop Moses Leota also unsigned beyond 2027.\n\nRoosters eye Dockar-Clay reunion\nThe Roosters have shown interest in a potential return for Zach Dockar-Clay as they explore options to bolster their hooking and utility depth.\n\nESPN understands the 31-year-old has emerged as an option following his departure from Manly, with discussions remaining at an early stage.\n\nDockar-Clay spent the 2024 and 2025 seasons with the Roosters before joining the Sea Eagles on a one-year deal for 2026.\n\nManly confirmed his departure last month after a season in which he claimed the club's NSW Cup best-and-fairest award.\n\nBostock brushes Dragons links\n\nDolphins star Jack Bostock has dismissed recent links between himself and the Dragons, admitting this isn't the first time he'd been floated for a club switch.\n\n\"I've been linked to a few a clubs,\" Bostock admitted.\n\n\"I don't know about [the Dragons links].\"\n\nHe said that while he \"obviously sees it in the media,\" his sole focus is the Kangaroos.\n\nSloan's Dragons stay still a possibility\n\nTyrell Sloan could yet remain at St George Illawarra next season, with discussions ongoing over a potential stay despite his planned move to Castleford.\n\nThere is interest in keeping Sloan at the Dragons, but several hurdles remain before that can become a reality.\n\nRoster space and salary cap room would need to be worked through, while any arrangement would also require Castleford to agree to release him.\n\nSloan previously admitted he would \"love to\" remain in the NRL when speaking to Channel Nine in August, after his Castleford deal had been announced.\n\nNo agreement has been reached and a stay is far from guaranteed."
     },
     {
+      "story_id": "49309401",
+      "headline": "Fantasy football 12-team Knockout league rankings: The 154 players to draft",
+      "summary": "Rankings for knockout leagues, where the lowest-scoring team is eliminated and the last team standing wins.",
+      "image": "https://a.espncdn.com/photo/2026/0708/r1686582_1296x729_16-9.jpg",
+      "published_utc": "2026-10-23T02:00:27Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/football/story/_/id/49309401/fantasy-football-knockout-rankings-top-200",
+      "stream_url": "",
+      "body": "Tristan H. Cockcroft's 2026 fantasy football Knockout league rankings will be updated throughout the season to reflect the latest news, trends and opinions. Use them to inform your own rankings, or as a guide to draft your team. Sign up for your team for free.\n\nKnockout leagues are our newest offering for 2026, challenging fantasy football managers to avoid being the last-place scorer in any given week, with the final team standing winning the championship. For those new to the format, here's a strategy primer to help you fine-tune your game.\n\nThe rankings below will differ slightly from our standard offering in that Knockout leagues begin with 18 teams, creating more demand at thinner positions such as quarterback and tight end. Additionally, week-over-week consistency carries additional weight, players with injury or other availability concerns are less desirable, and later-year bye weeks can prove advantageous. A standard 18-team knockout league comprises 14 slots including a kicker and a defense, so the rankings began 252 deep at season's start, and are now 154 deep (11 teams times 14 players) for leagues drafting to begin in Week 8, to take you from the first overall selection through to the final pick of the draft.\n\nRemember that if you want to start a league that plays this week your draft must be completed by the time players lock for Thursday Night Football, otherwise your league will begin play the following week. An 11-team league lets you eliminate 10 players through Week 17, leaving only the winner standing.\n\nLast update: Oct. 22, for leagues beginning Week 8.\n\n1. Jahmyr Gibbs, Lions, RB1, Bye week: 6\n\n2. Bijan Robinson, Falcons, RB2, Bye week: 11\n\n3. Kenneth Walker III, Chiefs, RB3, Bye week: 5\n\n4. Jaxon Smith-Njigba, Seahawks, WR1, Bye week: 11\n\n5. Puka Nacua, Rams, WR2, Bye week: 11\n\n6. Christian McCaffrey, 49ers, RB4, Bye week: 8\n\n7. Ja'Marr Chase, Bengals, WR3, Bye week: 6\n\n8. Amon-Ra St. Brown, Lions, WR4, Bye week: 6\n\n9. Jonathan Taylor, Colts, RB5, Bye week: 13\n\n10. CeeDee Lamb, Cowboys, WR5, Bye week: 14\n\n11. Josh Allen, Bills, QB1, Bye week: 7\n\n12. James Cook III, Bills, RB6, Bye week: 7\n\n13. Chris Olave, Saints, WR6, Bye week: 8\n\n14. Derrick Henry, Ravens, RB7, Bye week: 13\n\n15. Brock Purdy, 49ers, QB2, Bye week: 8\n\n16. Justin Jefferson, Vikings, WR7, Bye week: 6\n\n17. Kyren Williams, Rams, RB8, Bye week: 11\n\n18. Javonte Williams, Cowboys, RB9, Bye week: 14\n\n19. Nico Collins, Texans, WR8, Bye week: 8\n\n20. Ashton Jeanty, Raiders, RB10, Bye week: 13\n\n21. Trey McBride, Cardinals, TE1, Bye week: 14\n\n22. Drake London, Falcons, WR9, Bye week: 11\n\n23. Patrick Mahomes, Chiefs, QB3, Bye week: 5\n\n24. Chuba Hubbard, Panthers, RB11, Bye week: 5\n\n25. Zay Flowers, Ravens, WR10, Bye week: 13\n\n26. Garrett Wilson, Jets, WR11, Bye week: 13\n\n27. Chase Brown, Bengals, RB12, Bye week: 6\n\n28. Brock Bowers, Raiders, TE2, Bye week: 13\n\n29. Tetairoa McMillan, Panthers, WR12, Bye week: 5\n\n30. Malik Nabers, Giants, WR13, Bye week: 8\n\n31. D'Andre Swift, Bears, RB13, Bye week: 10\n\n32. Parker Washington, Jaguars, WR14, Bye week: 7\n\n33. Jaylen Warren, Steelers, RB14, Bye week: 9\n\n34. Christian Watson, Packers, WR15, Bye week: 11\n\n35. Trevor Lawrence, Jaguars, QB4, Bye week: 7\n\n36. Bucky Irving, Buccaneers, RB15, Bye week: 10\n\n37. George Kittle, 49ers, TE3, Bye week: 8\n\n38. George Pickens, Cowboys, WR16, Bye week: 14\n\n39. Tee Higgins, Bengals, WR17, Bye week: 6\n\n40. Bhayshul Tuten, Jaguars, RB16, Bye week: 7\n\n41. Matthew Golden, Packers, WR18, Bye week: 11\n\n42. DeVonta Smith, Eagles, WR19, Bye week: 10\n\n43. Drake Maye, Patriots, QB5, Bye week: 11\n\n44. Isaiah Likely, Giants, TE4, Bye week: 8\n\n45. Rashee Rice, Chiefs, WR20, Bye week: 5\n\n46. Saquon Barkley, Eagles, RB17, Bye week: 10\n\n47. Mike Evans, 49ers, WR21, Bye week: 8\n\n48. Jalen Coker, Panthers, WR22, Bye week: 5\n\n49. A.J. Brown, Patriots, WR23, Bye week: 11\n\n50. Sam LaPorta, Lions, TE5, Bye week: 6\n\n51. Joe Burrow, Bengals, QB6, Bye week: 6\n\n52. Aaron Jones Sr., Vikings, RB18, Bye week: 6\n\n53. Michael Wilson, Cardinals, WR24, Bye week: 14\n\n54. DJ Moore, Bills, WR25, Bye week: 7\n\n55. Lamar Jackson, Ravens, QB7, Bye week: 13\n\n56. Tyler Warren, Colts, TE6, Bye week: 13\n\n57. Emeka Egbuka, Buccaneers, WR26, Bye week: 10\n\n58. Breece Hall, Jets, RB19, Bye week: 13\n\n59. Jared Goff, Lions, QB8, Bye week: 6\n\n60. Carnell Tate, Titans, WR27, Bye week: 9\n\n61. Rhamondre Stevenson, Patriots, RB20, Bye week: 11\n\n62. Luther Burden III, Bears, WR28, Bye week: 10\n\n63. Jeremiyah Love, Cardinals, RB21, Bye week: 14\n\n64. Travis Kelce, Chiefs, TE7, Bye week: 5\n\n65. Omarion Hampton, Chargers, RB22, Bye week: 7\n\n66. Jameson Williams, Lions, WR29, Bye week: 6\n\n67. Quinshon Judkins, Browns, RB23, Bye week: 11\n\n68. Jaylen Waddle, Broncos, WR30, Bye week: 10\n\n69. Caleb Williams, Bears, QB9, Bye week: 10\n\n70. Josh Jacobs, Packers, RB24, Bye week: 11\n\n71. Colston Loveland, Bears, TE8, Bye week: 10\n\n72. Ladd McConkey, Chargers, WR31, Bye week: 7\n\n73. Dak Prescott, Cowboys, QB10, Bye week: 14\n\n74. Rome Odunze, Bears, WR32, Bye week: 10\n\n75. Tucker Kraft, Packers, TE9, Bye week: 11\n\n76. Cam Skattebo, Giants, RB25, Bye week: 8\n\n77. Jayden Daniels, Commanders, QB11, Bye week: 7\n\n78. Dalton Kincaid, Bills, TE10, Bye week: 7\n\n79. Tony Pollard, Titans, RB26, Bye week: 9\n\n80. Stefon Diggs, Commanders, WR33, Bye week: 7\n\n81. Juwan Johnson, Saints, TE11, Bye week: 8\n\n82. DK Metcalf, Steelers, WR34, Bye week: 9\n\n83. Bryce Young, Panthers, QB12, Bye week: 5\n\n84. Dallas Goedert, Eagles, TE12, Bye week: 10\n\n85. Harold Fannin Jr., Browns, TE13, Bye week: 11\n\n86. Kyle Monangai, Bears, RB27, Bye week: 10\n\n87. Denzel Boston, Browns, WR35, Bye week: 11\n\n88. Matthew Stafford, Rams, QB13, Bye week: 11\n\n89. Jordan Love, Packers, QB14, Bye week: 11\n\n90. Xavier Worthy, Chiefs, WR36, Bye week: 5\n\n91. Brenton Strange, Jaguars, TE14, Bye week: 7\n\n92. Wan'Dale Robinson, Titans, WR37, Bye week: 9\n\n93. C.J. Stroud, Texans, QB15, Bye week: 8\n\n94. Mark Andrews, Ravens, TE15, Bye week: 13\n\n95. Ollie Gordon II, Dolphins, RB28, Bye week: 6\n\n96. Jakobi Meyers, Jaguars, WR38, Bye week: 7\n\n97. Tyler Shough, Saints, QB16, Bye week: 8\n\n98. Josh Downs, Colts, WR39, Bye week: 13\n\n99. Pat Freiermuth, Steelers, TE16, Bye week: 9\n\n100. Jordan Addison, Vikings, WR40, Bye week: 6\n\n101. Khalil Shakir, Bills, WR41, Bye week: 7\n\n102. Kyler Murray, Vikings, QB17, Bye week: 6\n\n103. Woody Marks, Texans, RB29, Bye week: 8\n\n104. T.J. Hockenson, Vikings, TE17, Bye week: 6\n\n105. Deebo Samuel Sr., 49ers, WR42, Bye week: 8\n\n106. Seahawks D/ST, Seahawks, DST1, Bye week: 11\n\n107. Hunter Henry, Patriots, TE18, Bye week: 11\n\n108. Steelers D/ST, Steelers, DST2, Bye week: 9\n\n109. KC Concepcion, Browns, WR43, Bye week: 11\n\n110. Bo Nix, Broncos, QB18, Bye week: 10\n\n111. Texans D/ST, Texans, DST3, Bye week: 8\n\n112. Tre Tucker, Raiders, WR44, Bye week: 13\n\n113. J.K. Dobbins, Broncos, RB30, Bye week: 10\n\n114. Kyle Pitts Sr., Falcons, TE19, Bye week: 11\n\n115. Dontayvion Wicks, Eagles, WR45, Bye week: 10\n\n116. Broncos D/ST, Broncos, DST4, Bye week: 10\n\n117. David Montgomery, Texans, RB31, Bye week: 8\n\n118. Vikings D/ST, Vikings, DST5, Bye week: 6\n\n119. Aaron Rodgers, Steelers, QB19, Bye week: 9\n\n120. Chris Godwin Jr., Buccaneers, WR46, Bye week: 10\n\n121. Rams D/ST, Rams, DST6, Bye week: 11\n\n122. Travis Etienne Jr., Saints, RB32, Bye week: 8\n\n123. Jake Ferguson, Cowboys, TE20, Bye week: 14\n\n124. Ravens D/ST, Ravens, DST7, Bye week: 13\n\n125. Keenan Allen, Colts, WR47, Bye week: 13\n\n126. TreVeyon Henderson, Patriots, RB33, Bye week: 11\n\n127. Jaguars D/ST, Jaguars, DST8, Bye week: 7\n\n128. Kenyon Sadiq, Jets, TE21, Bye week: 13\n\n129. Courtland Sutton, Broncos, WR48, Bye week: 10\n\n130. Braelon Allen, Jets, RB34, Bye week: 13\n\n131. Chiefs D/ST, Chiefs, DST9, Bye week: 5\n\n132. Kirk Cousins, Raiders, QB20, Bye week: 13\n\n133. Patriots D/ST, Patriots, DST10, Bye week: 11\n\n134. Germie Bernard, Steelers, WR49, Bye week: 9\n\n135. Jordan Mason, Vikings, RB35, Bye week: 6\n\n136. Brandon Aubrey, Cowboys, K1, Bye week: 14\n\n137. Dalton Schultz, Texans, TE22, Bye week: 8\n\n138. Malik Washington, Dolphins, WR50, Bye week: 6\n\n139. 49ers D/ST, 49ers, DST11, Bye week: 8\n\n140. Ka'imi Fairbairn, Texans, K2, Bye week: 8\n\n141. Malik Willis, Dolphins, QB21, Bye week: 6\n\n142. Jason Myers, Seahawks, K3, Bye week: 11\n\n143. Blake Corum, Rams, RB36, Bye week: 11\n\n144. Eagles D/ST, Eagles, DST12, Bye week: 10\n\n145. Mike Gesicki, Bengals, TE23, Bye week: 6\n\n146. Jacoby Brissett, Cardinals, QB22, Bye week: 14\n\n147. Cam Little, Jaguars, K4, Bye week: 7\n\n148. Makai Lemon, Eagles, WR51, Bye week: 10\n\n149. RJ Harvey, Broncos, RB37, Bye week: 10\n\n150. Will Reichard, Vikings, K5, Bye week: 6\n\n151. Browns D/ST, Browns, DST13, Bye week: 11\n\n152. Michael Mayer, Raiders, TE24, Bye week: 13\n\n153. Evan McPherson, Bengals, K6, Bye week: 6\n\n154. Zach Charbonnet, Seahawks, RB38, Bye week: 11\n\nWant to hone your draft strategy? The Mock Draft Lobby allows you to jump into a variety of preset mock drafts, or in an autodraft mock for a specific league that you're in."
+    },
+    {
+      "story_id": "50254225",
+      "headline": "Sharks beat the Senators 6-2 for their 1st regulation victory of the season",
+      "summary": "\u2014 Colin Graf had a goal and an assist, Yaroslav Askarov stopped 39 shots and the San Jose Sharks beat the Ottawa Senators 6-2 on Thursday night for their first regulation victory of the season.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892554.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-23T02:02:10Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892554",
+      "stream_url": "",
+      "body": "OTTAWA, Ontario -- \u2014 Colin Graf had a goal and an assist, Yaroslav Askarov stopped 39 shots and the San Jose Sharks beat the Ottawa Senators 6-2 on Thursday night for their first regulation victory of the season.\n\n\r\nNolan Allan, Tyler Toffoli, Jacob Trouba, Zack Ostapchuk and Ivar Stenberg also scored for the Sharks (6-4-1).\n\n\r\nTim Stutzle and Jordan Spence scored for Ottawa (7-4-0). Samuel Ersson made 23 saves.\n\n\r\nOttawa placed goalie Linus Ullmark on injured reserve Thursday after he suffered a lower-body injury a night earlier.\n\n\r\nSpence scored at 6:24 of the third period to make it a two-goal game.\n\n\r\nThe Senators pulled Ersson while on the power play with under four minutes remaining, but Ostapchuk took advantage of a giveaway and scored an empty-net goal.\n\n\r\nStenberg added a second empty-netter to round out the scoring.\n\n\r\nUp next\r\nSharks: At Boston on Saturday night.\n\n\r\nSenators: Host the New York Rangers on Saturday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
       "story_id": "50252942",
       "headline": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
       "summary": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
@@ -11164,34 +11192,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50252942/love-it",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50254167",
-      "headline": "Silovs, Penguins blank Panthers 4-0 to spoil Florida goalie Cooper Black\u2019s record-setting NHL debut",
-      "summary": "\u2014 Pittsburgh's Arturs Silovs stopped 25 shots to spoil the history-making debut of Florida counterpart Cooper Black as the Penguins...",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892556.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-23T01:53:08Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892556",
-      "stream_url": "",
-      "body": "PITTSBURGH -- \u2014 Pittsburgh's Arturs Silovs stopped 25 shots to spoil the history-making debut of Florida counterpart Cooper Black as the Penguins beat the Panthers 4-0 on Thursday.\n\n\r\nBlack, who at 6-foot-9 became the tallest goalie ever to appear in an NHL regular season game, made 18 saves but it wasn't enough to stop the Panthers from dropping their second game in as many nights.\n\n\r\nNick Robertson scored twice for Pittsburgh. Hendrix Lapierre and Evgeni Malkin both finished with a goal and an assist as the Penguins shook off a miserable Western Conference road trip in which they were badly outplayed in losses to Chicago, Colorado, Vegas and Utah.\n\n\r\nThe trip ended with 19-year-old forward Ben Kindel collapsing on Tuesday during the flight back to Pittsburgh. Kindel spent the night in a Salt Lake City hospital for observation and returned to the Penguins\u2019 facility on Thursday. The team placed him on injured reserve but is hopeful may be able to return to practice as early as next week.\n\n\r\nPittsburgh coach Dan Muse shuffled his lines in hopes of a spark, and the Penguins responded by solving the towering Black, a 25-year-old from Michigan, three times.\n\n\r\nBlack, called up from Florida's AHL affiliate in Charlotte recently after Jacob Markstrom sustained a shoulder injury, was sharp early as the Panthers struggled to find their legs a night after an emotionally charged loss in Ottawa.\n\n\r\nLapierre doubled Pittsburgh's lead at the game's halfway point after taking a pretty feed on the rush from Ville Koivunen and Malkin's third goal in four games was more than enough for Silovs, who was only sporadically challenged while picking up his second shutout of the season and fourth of his career.\n\n\r\nUp next\r\nPanthers: Continue their four-game road trip on Sunday in Chicago.\n\n\r\nPenguins: Host Nashville on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
-    },
-    {
-      "story_id": "50253588",
-      "headline": "Chicago Bears honor late Mike Ditka with fake mustaches, knit headbands on TNF",
-      "summary": "The Bears played their first home game Thursday since Mike Ditka's death Oct. 9.",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1734816_608x342_16-9.jpg",
-      "published_utc": "2026-10-23T01:03:47Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Courtney Cronin",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50253588/chicago-bears-mike-ditka-tribute-game",
-      "stream_url": "",
-      "body": "CHICAGO -- The Bears honored the life and legacy of legendary coach Mike Ditka on Thursday in a manner fitting of \"Da Coach.\"\n\nAhead of the team's first home game since Ditka's death Oct. 9, the first 10,000 fans who arrived at Soldier Field were given knit headbands inspired by the iconic Bears sweater that Ditka made famous during his 11 seasons coaching in Chicago. The team also handed out fake mustaches to every fan in attendance.\n\nFittingly, the Bears hosted the New England Patriots on \"Thursday Night Football,\" the opponent Ditka's 1985 squad beat in Super Bowl XX to earn the franchise's first Lombardi Trophy. Right guard Jonah Jackson arrived at Soldier Field wearing a long-sleeved No. 89 jersey.\n\nAll afternoon before kickoff, the analog clocks inside the stadium read 89:00, a tribute to the number Ditka wore during his Pro Football Hall of Fame career as a tight end. Ditka's No. 89 was retired by the Bears in December 2013. He was the final player to receive the honor as the Bears have retired more numbers than any other NFL franchise.\n\nCurrent players have been wearing a No. 89 sticker on the back of their helmets since Week 5 and added a patch to honor Ditka over the heart of their navy jerseys."
     },
     {
       "story_id": "50185821",
