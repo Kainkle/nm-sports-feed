@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T22:06:42.414393+00:00",
+  "generated_utc": "2026-10-24T22:16:21.924713+00:00",
   "window_days": 2,
   "total_events": 265,
   "competitions": [
@@ -229,7 +229,7 @@
       "status_coverage_pct": 100,
       "both_logos": 40,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "ncaaf",
@@ -434,13 +434,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:soccer/uefa.champions",
-      "date": "2026-10-22",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261022: <urlopen error _ssl.c:993: The handshake operation timed out>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
