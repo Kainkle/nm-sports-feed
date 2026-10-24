@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T15:16:07.765958+00:00",
+  "generated_utc": "2026-10-24T15:26:10.495645+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915395",
@@ -3613,7 +3613,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-24T13:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:3841",
         "name": "FC Augsburg",
@@ -3641,9 +3641,9 @@
         "color": "DA0308"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "WWK Arena",
-      "detail": "86'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3687,7 +3687,7 @@
       "source": "espn:soccer/ger.1",
       "source_status": "in/Second Half",
       "venue": "RheinEnergieStadion",
-      "detail": "81'",
+      "detail": "90'+1'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3730,7 +3730,7 @@
       "source": "espn:soccer/ger.1",
       "source_status": "in/Second Half",
       "venue": "MEWA ARENA",
-      "detail": "84'",
+      "detail": "90'+5'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3744,7 +3744,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-24T13:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:11420",
         "name": "RB Leipzig",
@@ -3771,9 +3771,9 @@
         "color": "000000"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Red Bull Arena",
-      "detail": "87'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3817,7 +3817,7 @@
       "source": "espn:soccer/ger.1",
       "source_status": "in/Second Half",
       "venue": "Home Deluxe Arena",
-      "detail": "85'",
+      "detail": "90'+5'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3859,7 +3859,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Emirates Stadium",
-      "detail": "57'",
+      "detail": "68'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3902,7 +3902,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Coventry Building Society Arena",
-      "detail": "57'",
+      "detail": "67'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4067,9 +4067,9 @@
         "color": "3366CC"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "El Sardineros",
-      "detail": "HT",
+      "detail": "52'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11883,6 +11883,20 @@
   ],
   "stories": [
     {
+      "story_id": "50220422",
+      "headline": "Premier League live updates: Arsenal face Everton after City lose to Villa",
+      "summary": "Manchester City suffered their first loss of the season to Aston Villa, with Arsenal looking to take advantage against Everton on another busy weekend of European soccer.",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735412_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T15:19:02Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50220422/premier-league-live-updates-aston-villa-manchester-city-arsenal-everton-chelsea-tottenham-hotspur",
+      "stream_url": "",
+      "body": "We're back with another action-packed weekend of European soccer!\n\nIn the Premier League, Aston Villa kept up their recent success at home over Manchester City to win 2-1 and end City's 100% start to the season. Defending champions Arsenal host Everton at the Emirates Stadium looking to go level at the top of the table, while Coventry City take on Fulham at the same time.\n\nLater, we wrap up the Premier League slate with a London derby, as Xabi Alonso's Chelsea face Tottenham Hotspur at Stamford Bridge.\n\nElsewhere, Arsenal's women beat rivals Spurs 2-1 in the WSL, Napoli host AS Roma in a huge Serie A showdown, while Borussia Dortmund welcome Eintracht Frankfurt to Signal Iduna Park.\n\nEnjoy all the action from Saturday's matches across Europe."
+    },
+    {
       "story_id": "50262387",
       "headline": "Patriots must improve turnover differential if they want to win, other notes",
       "summary": "It's one of Mike Vrabel's four pillars of the team identity -- and New England is struggling with it after losing to the Bears on Thursday.",
@@ -11895,20 +11909,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50262387/new-england-patriots-week-7-loss-notebook",
       "stream_url": "",
       "body": "FOXBOROUGH, Mass. -- Quick-hit thoughts and notes around the New England Patriots and NFL:\n\n1. Turnover differential: The 4-3 Patriots have not won the turnover differential in a game this season and posted a minus-1 in Thursday's competitive 30-24 road loss to the Bears.\n\nLooking for one thing that needs to change if the team hopes to get where it desires? Start there.\n\nMike Vrabel's team, which thrives on a four-part identity that prioritizes \"ball security and ball disruption,\" is a shocking minus-7 in turnover differential entering next Sunday's road game against the Miami Dolphins. The Patriots' 14 giveaways are the second most in the NFL behind the winless Chargers' 15. And despite having a goal of creating three turnovers per game on defense, New England has totaled just seven overall.\n\n\"We just have to keep working at it. Just within the defense, we have to find a way to manufacture those -- whether it's punching the ball out ...\" said veteran safety Kevin Byard, who led the NFL last season with seven interceptions but is still looking for his first in 2026.\n\nByard pointed to himself first, highlighting a fourth-quarter play Thursday night against quarterback Caleb Williams that could have helped turn around the turnover struggles. The Bears were deep in their own territory on third-and-9 with 4:59 remaining, holding a 27-21 lead, and Byard and fellow defensive backs Marcus Jones and Christian Gonzalez were in zone coverage. Williams delivered a laser to receiver Rome Odunze for 21 yards, just between Byard's outstretched diving reach and narrowly in front of Jones.\n\n\"That play to Rome, the ball went maybe a millimeter above KB's finger. If it was a little lower, KB would have tipped it, and who knows what would have happened?\" Gonzalez said.\n\nIt was a big-time throw from Williams, a reminder of his rising stardom, which Byard acknowledged. But it also had potential to be a big-time defensive play.\n\n\"Almost being able to get that window, Caleb made a terrific throw. But the way I see it for me, it's 'go make that play for your team.' It's millimeters, but that's how it is. This is a game of inches, and the story is Caleb made a helluva throw, but if I can get just a little bit closer, it's 'KB helped his team win the ballgame.' So that's the stuff I look at, to make those plays,\" he said.\n\n\"That's what I was brought here to do, so I'm disappointed on my end from that point. One play doesn't obviously lose a game, but I just want to be able to make that play for my team.\"\n\nOne of the first things Vrabel said after the game was, \"We need to turn the ball over [defensively], and we have to tackle better.\"\n\nIn games the Patriots have forced at least one turnover, they are 4-1. In games they haven't forced a turnover, they're 0-2 (Seahawks, Bears).\n\nMeanwhile, the one offensive turnover against the Bears -- quarterback Drake Maye's inaccurate end zone pass in the second quarter to rookie tight end Eli Raridon -- further highlighted the issue.\n\nMaye played well other than the miscue, which he called one of the turning points and a reminder of how one mistake can be the difference against a high-caliber opponent. Unlike some of his early-season turnovers, which were more decision-based, the pick was more about execution because the play could have been made -- as evidenced by Maye connecting with Raridon for a touchdown on the same play later in the game.\n\n\"He'll learn from it, like he always does. I'm glad he's ours,\" Vrabel said.\n\nLast year, the Patriots finished with a plus-3 turnover differential -- 19 takeaways and 16 giveaways.\n\n2. Quiet A.J.: Since his return from a high right ankle sprain, receiver A.J. Brown has played 101 of 122 offensive snaps and been targeted 16 times, while totaling just six receptions for 75 yards.\n\nNot ideal, but he isn't discouraged.\n\nBrown said offensive coordinator Josh McDaniels attempted to get him involved early in Thursday's game, but a combination of the Bears focusing on taking him away and Maye making the right play by taking what was there led to Brown not registering his first catch until late in the first half.\n\n\"I'm a vet. I understand how the game goes. I know what type of player I am,\" Brown said. \"Every time I line up, I get a lot of attention, so teams try to take me away, and it gives a lot of opportunity for other guys to make plays -- and soften it up for me. And whenever I get my shots, I have to make them, too.\"\n\nOne area Brown didn't address was his blocking, which showed up as a deficiency Thursday -- including on a first-quarter wide receiver screen in which he missed his assignment. It was a reminder that the Patriots could benefit from Brown showing more consistently the relentless mentality that has defined his career.\n\n3. AVT's contract: One of the unique aspects of the three-year, $42 million contract that guard Alijah Vera-Tucker signed with the Patriots in March is that he receives a record $250,000 for every game he is on the 46-man game-day roster. So with Vera-Tucker landing on injured reserve Thursday, forcing him to miss at least four games, that means he loses out on at least $1 million.\n\n4. TreVeyon's time: During the past three weeks, running back TreVeyon Henderson's usage has declined sharply, part of which can be traced to the ankle injury he sustained against the Raiders on Oct. 11. But after averaging 28 snaps per game in his first three contests of the year, he has averaged just 14.5 over the past two games he has played from start to finish.\n\n\"TreVeyon will help us plenty here down the stretch,\" Vrabel said when asked about Henderson's limited action.\n\nThrough seven games, Rhamondre Stevenson leads Patriots running backs with 64% of the snaps, followed by Henderson (27%) and Corey Kiner (12%).\n\n5. 'Close' theme: If there was a theme in the Patriots' locker room after Thursday's loss, it was that Vrabel reminded them about the importance of margin for error against top opponents -- if a play or two goes the other way, the result might be reversed. It was a more positive vibe than one might expect.\n\nCornerback Marcus Jones said that Vrabel also told players, \"We're close ... to being the team we want to be. Understanding how to respond is very important as well. That's something we've learned we can do.\"\n\n6. Snapping to it: Four topics with second-year center Jared Wilson, who has played 97% of the offensive plays through seven games:\n\nMoving from left guard to center: \"Things have been going great. Of course, you have things here or there you want to clean up -- not perfect, we're all human ... every aspect can always get better, but mainly in the run game, for sure.\"\nWhy center is his favorite spot: \"Once they moved me over at Georgia, I was like, 'This is where I need to be.' I feel like I can show my athleticism there. I just love the position. It was something Kirby [Smart] thought I'd be really good at, and I trusted him. I just wanted to get on the field. Now I'm here, and love it.\"\nHow a bond is built with Maye: \"The reps are important. But also sitting down at lunch and talking. There's the [weekly] O-line dinners he pops in to.\"\nFavorite parts about New England: \"I like Boston. A really clean city.\"\n\n7. Van Roten eligible: The Patriots have to be judicious with their decisions of whom to designate to return from injured reserve -- there's a limit of eight overall -- and some of those spots have already been accounted for (e.g. Brown, Marcus Bryant, etc.), while others seem like they will be decisively reserved (e.g. Mack Hollins, Romeo Doubs, etc.).\n\nA question potentially to be answered this week is whether veteran center/guard Greg Van Roten (hip) will be one of them? He's eligible for the first time and has been around the locker room of late, and the Patriots were so thin on the interior that they elevated Xavier Newman-Johnson on Thursday from the practice squad as their backup center.\n\n8. Later kickoff: Why is the Patriots' game next Sunday against the currently winless Dolphins at 4:25 p.m. ET instead of 1 p.m.? It's tied to television and maximizing viewership, with CBS having the doubleheader that day and the Broncos-Chiefs game also at 4:25 p.m. as the marquee matchup with Jim Nantz and J.J. Watt on the call. Patriots-Dolphins is also on CBS, with Andrew Catalon, former Patriot Logan Ryan and AJ Ross scheduled to be on the call.\n\n9. Cap check: The Patriots concluded the week with approximately $1.5 million in salary cap space, the lowest total in the league, according to NFL Players Association records. They entered the year with about $52 million in cap space, so it has dried up fast. Cap space can always be created, of course, but it's nonetheless something to consider when assessing how aggressive the team might be by the Nov. 10 trade deadline.\n\n10. Did You Know: Maye has at least three passing touchdowns and one rushing touchdown in each of the past four games. It is the longest streak by a Patriots player since Tom Brady did it four straight games in 2015."
-    },
-    {
-      "story_id": "50265416",
-      "headline": "Man City lose 100% Premier League record with defeat at Aston Villa",
-      "summary": "Manchester City suffered defeat for the first time in the Premier League this season when Nicolas Jackson's double earned Aston Villa a 2-1 victory at Villa Park.",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735386_1296x729_16-9.jpg",
-      "published_utc": "2026-10-24T14:47:44Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "PA",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50265416/man-city-lose-100-premier-league-record-defeat-aston-villa",
-      "stream_url": "",
-      "body": "Manchester City suffered defeat for the first time in the Premier League this season when Nicolas Jackson's double earned Aston Villa a 2-1 victory at Villa Park.\n\nUnai Emery's side continued its turnaround in form after a slow start to the campaign and picked up a fourth straight win across all competitions, and its first league victory at home this season.\n\nManchester City do not enjoy visiting Villa Park and have now lost their last four league games there, while Enzo Maresca saw his 100% league start as City boss vanish.\n\nAnother tough afternoon in the West Midlands started when Marc Gu\u00e9hi's mistake allowed Jackson to give Villa an early lead.\n\nVilla had keeper Zion Suzuki to thank for making several vital saves, and Iliman Ndiaye crashed an effort off the post as Villa held strong to take the lead into the break.\n\nErling Haaland grabbed his ninth league goal of the season to get City level, but Jackson buried his second of the afternoon -- his fourth of the season -- on the hour mark to hand Villa the points.\n\nThe visitors were greeted with more boos from an away ground ahead of kickoff after they were found guilty of serious breaches of the competition's financial regulations last month.\n\nCity conceded a corner after Gianluigi Donnarumma took too long to take his goal kick, which put City on the back foot, and Villa's quick start was rewarded with the opener in the sixth minute.\n\nGu\u00e9hi was unable to control the ball and instead spilled it into the path of John McGinn, who played it into Jackson, and he expertly finished into the top of the net.\n\nThe early goal did not dent City's confidence, and they were denied an equalizer when Suzuki sprang right to push Ndiaye's curling effort away.\n\nThe Japan goalkeeper was getting busier by the minute. He put out an outstretched arm to thwart Rayan Cherki following some neat footwork by J\u00e9r\u00e9my Doku before stopping Abdukodir Khusanov from range.\n\nNdiaye had already threatened Suzuki once by cutting inside and letting one rip, and he did it again, only to see the effort slam off the outside of the post.\n\nHaaland had a quiet first half but made his contribution seven minutes after the break to get City level when he nodded Ndiaye's cross past Suzuki.\n\nCity's onslaught continued and Villa's woodwork was rattled again; this time Suzuki tipped Josko Gvardiol's ferocious strike off the bar.\n\n- Enzo Maresca: 'It's my duty' to help Phil Foden rediscover best Man City form\n\n- Kyle Walker: 'No intention' of removing Man City tattoos after radio comments\n\n- Football watchdog chair asserts 'absolute' power to force City sale\n\nAnd that save proved decisive as Villa retook the lead just as it looked like City were turning up the heat on the hour mark.\n\nVilla turned defense into attack with precision. Victor Lindel\u00f6f's ball set them on the front foot and it ended up with substitute Ibrahim Mbaye, and his first major contribution was to tee up Jackson, who saw his strike squeeze past Donnarumma.\n\nCity threw everything at getting an equalizer, and Haaland thought he nodded City level for a second time, but his goal-bound header was blocked by Ian Maatsen as Villa took the points."
     },
     {
       "story_id": "50265094",
@@ -12051,6 +12051,20 @@
       "body": "Jarome Luai and Brian To'o were showered with gifts in their first match in Papua New Guinea since signing with the PNG Chiefs, as Samoa dismantled the Kumuls in a 64-6 win.\n\nAt the National Football Stadium, which Luai and teammate Brian To'o will call home in 2028, Samoa survived an early scare to keep their unbeaten start to the tournament intact.\n\nThe local fans unfurled banners for the Chiefs-bound pair on Saturday, where Luai recorded four try assists and To'o crossed for a try.\n\nAt fulltime the pair were mobbed and handed bilum bags from local supporters as they gave away all their match jerseys and shorts to members of the crowd.\n\n\"Since the day that we touched down in PNG, the love, the respect, and hospitality that the country has shown us ... it's one of those feelings that you can't describe,\" Samoa captain Junior Paulo said.\n\n\"You've got to be here to witness it firsthand.\n\n\"There's a bigger picture for us and seeing the scenes post game and what it means to the people.\n\n\"The bus ride here, seeing the kids' smiles on their faces, you just can't get that anywhere else besides here.\"\n\nAfter thrashing France in their tournament opener, Samoa have wracked up two big wins and will face Tonga in Sydney next Sunday.\n\nBoth sides will look to guarantee their passage to the semi-finals as Group B/C winners.\n\nBut Samoa will head there having received a thorough test at the hands of the Kumuls in dizzying heat and humidity in Port Moresby.\n\nFor the first 40 minutes, PNG held their gloves up and at one stage led when halfback Bailey Biondi-Odo cancelled out Sua Fa'alogo's opener and Rhyse Martin - playing his final Test on home soil - kicked the conversion.\n\nThe excitement was palpable and one of the loudest cheers from the 15,088-strong crowd came when PNG five-eighth Gairo Voro hammered Luai.\n\n\"We knew it was going to be a bit of a kamikaze battle coming up against the Kumuls,\" Paulo said.\n\nSamoa opened up a 14-6 gap at halftime with further tries to Stephen Crichton and Spencer Leniu.\n\nPNG lost Jack de Belin midway through the first half with a rib injury in another blow for coach Jason Demetriou, who was forced to rule out two of his only players with NRL experience in Nene Macdonald (illness) and Luca Moretti (rib).\n\n\"I think it took its toll, the first half we were very physical, and we went after the contest, losing Jack was big as well,\" said Demetriou, who could only name 18 fit players in his 19-man squad.\n\n\"When we're under pressure like that we don't have that experience to try to fight it back and win it back but some boys have to learn that - that's the brutal truth.\"\n\nThe Kumuls, who face England in Wollongong on Friday in their final group game, were unable to call-up Cooper Bai, Xavier Coates and Lachlan Lam due to injury, and without so many of their top-line names Samoa racked up 50 second-half points.\n\nAs Samoa's players were handed presents from the crowd at fulltime Martin - PNG's record pointscorer - was chaired off in his final home game for the Kumuls.\n\n\"It meant a lot to me, for my team to do that for me,\" the forward, who will move into an off-field role with the Chiefs, said.\n\n\"I thank them for that, and I thank our coach and the PNG fans for making it so special for so long.\""
     },
     {
+      "story_id": "50265416",
+      "headline": "Man City lose 100% Premier League record with defeat at Aston Villa",
+      "summary": "Manchester City suffered defeat for the first time in the Premier League this season when Nicolas Jackson's double earned Aston Villa a 2-1 victory at Villa Park.",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735386_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T14:47:44Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "PA",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50265416/man-city-lose-100-premier-league-record-defeat-aston-villa",
+      "stream_url": "",
+      "body": "Manchester City suffered defeat for the first time in the Premier League this season when Nicolas Jackson's double earned Aston Villa a 2-1 victory at Villa Park.\n\nUnai Emery's side continued its turnaround in form after a slow start to the campaign and picked up a fourth straight win across all competitions, and its first league victory at home this season.\n\nManchester City do not enjoy visiting Villa Park and have now lost their last four league games there, while Enzo Maresca saw his 100% league start as City boss vanish.\n\nAnother tough afternoon in the West Midlands started when Marc Gu\u00e9hi's mistake allowed Jackson to give Villa an early lead.\n\nVilla had keeper Zion Suzuki to thank for making several vital saves, and Iliman Ndiaye crashed an effort off the post as Villa held strong to take the lead into the break.\n\nErling Haaland grabbed his ninth league goal of the season to get City level, but Jackson buried his second of the afternoon -- his fourth of the season -- on the hour mark to hand Villa the points.\n\nThe visitors were greeted with more boos from an away ground ahead of kickoff after they were found guilty of serious breaches of the competition's financial regulations last month.\n\nCity conceded a corner after Gianluigi Donnarumma took too long to take his goal kick, which put City on the back foot, and Villa's quick start was rewarded with the opener in the sixth minute.\n\nGu\u00e9hi was unable to control the ball and instead spilled it into the path of John McGinn, who played it into Jackson, and he expertly finished into the top of the net.\n\nThe early goal did not dent City's confidence, and they were denied an equalizer when Suzuki sprang right to push Ndiaye's curling effort away.\n\nThe Japan goalkeeper was getting busier by the minute. He put out an outstretched arm to thwart Rayan Cherki following some neat footwork by J\u00e9r\u00e9my Doku before stopping Abdukodir Khusanov from range.\n\nNdiaye had already threatened Suzuki once by cutting inside and letting one rip, and he did it again, only to see the effort slam off the outside of the post.\n\nHaaland had a quiet first half but made his contribution seven minutes after the break to get City level when he nodded Ndiaye's cross past Suzuki.\n\nCity's onslaught continued and Villa's woodwork was rattled again; this time Suzuki tipped Josko Gvardiol's ferocious strike off the bar.\n\n- Enzo Maresca: 'It's my duty' to help Phil Foden rediscover best Man City form\n\n- Kyle Walker: 'No intention' of removing Man City tattoos after radio comments\n\n- Football watchdog chair asserts 'absolute' power to force City sale\n\nAnd that save proved decisive as Villa retook the lead just as it looked like City were turning up the heat on the hour mark.\n\nVilla turned defense into attack with precision. Victor Lindel\u00f6f's ball set them on the front foot and it ended up with substitute Ibrahim Mbaye, and his first major contribution was to tee up Jackson, who saw his strike squeeze past Donnarumma.\n\nCity threw everything at getting an equalizer, and Haaland thought he nodded City level for a second time, but his goal-bound header was blocked by Ian Maatsen as Villa took the points."
+    },
+    {
       "story_id": "50253343",
       "headline": "Will Niners have edge with ex-Falcons coach facing Penix?",
       "summary": "With all of the familiarity between Morris and the Falcons, Sunday's game should come down to execution.",
@@ -12063,20 +12077,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50253343/atlanta-falcons-san-francisco-49er-raheem-morris",
       "stream_url": "",
       "body": "FLOWERY BRANCH, Ga. -- Bijan Robinson has maintained a close relationship with Raheem Morris. It makes sense. Morris was the Atlanta Falcons' head coach for two of the first three seasons of Robinson's career.\n\nOn Sunday, the two men will meet again under different circumstances.\n\nRobinson will be helping to lead the Falcons' offense as one of the top running backs in the league. Morris, who has called Robinson the best player in the NFL multiple times, will be back in Atlanta as the San Francisco 49ers' defensive coordinator. Morris was fired as Atlanta's coach in January after back-to-back eight-win campaigns.\n\nRobinson said he spoke to Morris just a few weeks ago, and he's relishing the chance to face off against a man he calls a \"father figure\" to him.\n\n\"He's always going to be family to me no matter if we compete or not,\" Robinson said. \"But yeah, man, he still talks to all of his players, because that's just who he is.\"\n\nMorris is glad Penix has recovered from the torn left ACL that ended his season last year on Nov. 16.\n\n\"He's back healthy and he's probably everything that you thought and hoped for as far as being a play-action passer, a guy that can push the ball down the field, can make all the throws, go through the whole process,\" Morris said. \"Just one of those guys that I have a lot of appreciation for and love for.\"\n\nThe Falcons players on offense who have been here the past several years will be going up against a defense run by a man who knows them all too well. And that 49ers defense has been potent regardless of opponent familiarity. San Francisco is allowing the fourth-fewest points per game (18.3) and the fifth-fewest yards per game (300).\n\nAtlanta (2-4) must perform against Morris and the undefeated Niners or risk losing three straight games and moving to 0-4 at home. A fifth loss in the first seven games is not how the Falcons wanted to start off under new head coach Kevin Stefanski.\n\nThe Falcons' biggest issue on offense is one the Chicago Bears exploited last week in a 31-23 Falcons loss. The Bears pressured quarterback Michael Penix Jr. 46.2% of the time, the highest rate Penix has faced this season. Chicago sacked Penix five times and blitzed on more than half of his dropbacks.\n\nThe results were not good. For the season, Penix has the worst EPA per dropback under quick pressure in the NFL (-1.17). He is 3-of-15 for 17 yards with a touchdown and no interceptions in those scenarios.\n\nWith no pressure at all, Penix has the fourth-best EPA per dropback in the league (0.40). So, it is imperative that the Falcons figure out how to better protect him.\n\n\"Any game you go into, you want to protect your quarterback,\" Stefanski said. \"And I think you protect your quarterback literally with the protection, but also you protect the quarterback with how guys get open, how we get the ball out of our hands, how we run the ball, all those type of things.\"\n\nNo defensive coordinator knows Penix better than Morris. He was part of the regime that drafted Penix and was a major proponent of the QB for two years. How much does that come into play during the week? A little bit.\n\nFalcons defense coordinator Jeff Ulbrich, who has a long history with Morris, said he will speak with offensive coordinator Tommy Rees about Morris and his scheme. Stefanski calls situations like this \"overblown.\"\n\n\"Of course, Raheem has great insight into our personnel, and our coaches have great insight into Raheem and he knows that,\" Stefanski said. \"So, I think you can get into, 'Well, he knows that we know that they know,' and I don't think it's as useful as it may seem. Now having said that, of course, anytime we're playing against a coach or a player that someone has knowledge on, you sit and you talk to your players, and you talk to your coaches and you try to get as much insight on people as possible.\"\n\nPenix, for his part, said he is looking forward to the chess match with his former head coach.\n\n\"It's going to be exciting,\" Penix said. \"It's going to be good to be able to see him again, but we got to find a way to obviously put points on the board against the defense.\"\n\nContributing: Nick Wagoner"
-    },
-    {
-      "story_id": "50220422",
-      "headline": "Premier League live updates: Arsenal face Everton after City lose to Villa",
-      "summary": "Manchester City suffered their first loss of the season to Aston Villa, with Arsenal looking to take advantage against Everton on another busy weekend of European soccer.",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735412_1296x729_16-9.jpg",
-      "published_utc": "2026-10-24T14:32:58Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50220422/premier-league-live-updates-aston-villa-manchester-city-arsenal-everton-chelsea-tottenham-hotspur",
-      "stream_url": "",
-      "body": "We're back with another action-packed weekend of European soccer!\n\nIn the Premier League, Aston Villa kept up their recent success at home over Manchester City to win 2-1 and end City's 100% start to the season. Defending champions Arsenal host Everton at the Emirates Stadium looking to go level at the top of the table, while Coventry City take on Fulham at the same time.\n\nLater, we wrap up the Premier League slate with a London derby, as Xabi Alonso's Chelsea face Tottenham Hotspur at Stamford Bridge.\n\nElsewhere, Arsenal's women beat rivals Spurs 2-1 in the WSL, Napoli host AS Roma in a huge Serie A showdown, while Borussia Dortmund welcome Eintracht Frankfurt to Signal Iduna Park.\n\nEnjoy all the action from Saturday's matches across Europe."
     },
     {
       "story_id": "50255867",
