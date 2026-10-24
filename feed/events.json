@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-24T19:40:56.525282+00:00",
+  "generated_utc": "2026-10-24T19:48:24.362947+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915395",
@@ -4120,12 +4120,58 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858274",
+      "event_id": "espn:football:401856840",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-24T16:00Z",
       "status": "live",
+      "home": {
+        "id": "espn:2132",
+        "name": "Cincinnati Bearcats",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bearcats",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bearcats"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Nippert Stadium",
+      "detail": "0:59 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858274",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T16:00Z",
+      "status": "final",
       "home": {
         "id": "espn:2390",
         "name": "Miami Hurricanes",
@@ -4156,9 +4202,9 @@
         "color": "003594"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Hard Rock Stadium",
-      "detail": "1:52 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4213,58 +4259,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856840",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2132",
-        "name": "Cincinnati Bearcats",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bearcats",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bearcats"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:2641",
-        "name": "Texas Tech Red Raiders",
-        "abbrev": "TTU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-        "logo_dark": null,
-        "aliases": [
-          "Red Raiders",
-          "TTU",
-          "Texas Tech",
-          "Texas Tech Red Raiders"
-        ],
-        "color": "da291c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Nippert Stadium",
-      "detail": "2:00 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856728",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-24T16:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2",
         "name": "Auburn Tigers",
@@ -4293,9 +4293,9 @@
         "color": "461d76"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Jordan-Hare Stadium",
-      "detail": "0:24 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "5T6Di87lQyo",
       "replay_url": "",
@@ -4340,6 +4340,97 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Gerald J. Ford Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858498",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T16:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:77",
+        "name": "Northwestern Wildcats",
+        "abbrev": "NU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+        "logo_dark": null,
+        "aliases": [
+          "NU",
+          "Northwestern",
+          "Northwestern Wildcats",
+          "Wildcats"
+        ],
+        "color": "492f92"
+      },
+      "away": {
+        "id": "espn:164",
+        "name": "Rutgers Scarlet Knights",
+        "abbrev": "RUTG",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+        "logo_dark": null,
+        "aliases": [
+          "RUTG",
+          "Rutgers",
+          "Rutgers Scarlet Knights",
+          "Scarlet Knights"
+        ],
+        "color": "ce0e2d"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Ryan Field",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856841",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T16:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2628",
+        "name": "TCU Horned Frogs",
+        "abbrev": "TCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+        "logo_dark": null,
+        "aliases": [
+          "Horned Frogs",
+          "TCU",
+          "TCU Horned Frogs"
+        ],
+        "color": "4d1979"
+      },
+      "away": {
+        "id": "espn:277",
+        "name": "West Virginia Mountaineers",
+        "abbrev": "WVU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mountaineers",
+          "WVU",
+          "West Virginia",
+          "West Virginia Mountaineers"
+        ],
+        "color": "eaaa00"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Amon G. Carter Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4433,97 +4524,6 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Glass Bowl",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858498",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T16:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:77",
-        "name": "Northwestern Wildcats",
-        "abbrev": "NU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
-        "logo_dark": null,
-        "aliases": [
-          "NU",
-          "Northwestern",
-          "Northwestern Wildcats",
-          "Wildcats"
-        ],
-        "color": "492f92"
-      },
-      "away": {
-        "id": "espn:164",
-        "name": "Rutgers Scarlet Knights",
-        "abbrev": "RUTG",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-        "logo_dark": null,
-        "aliases": [
-          "RUTG",
-          "Rutgers",
-          "Rutgers Scarlet Knights",
-          "Scarlet Knights"
-        ],
-        "color": "ce0e2d"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Ryan Field",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856841",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T16:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2628",
-        "name": "TCU Horned Frogs",
-        "abbrev": "TCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-        "logo_dark": null,
-        "aliases": [
-          "Horned Frogs",
-          "TCU",
-          "TCU Horned Frogs"
-        ],
-        "color": "4d1979"
-      },
-      "away": {
-        "id": "espn:277",
-        "name": "West Virginia Mountaineers",
-        "abbrev": "WVU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mountaineers",
-          "WVU",
-          "West Virginia",
-          "West Virginia Mountaineers"
-        ],
-        "color": "eaaa00"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Amon G. Carter Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4697,7 +4697,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Xfinity Mobile Arena",
       "detail": "",
       "game_number": 1,
@@ -4745,7 +4745,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "David Booth Kansas Memorial Stadium",
-      "detail": "13:33 - 4th Quarter",
+      "detail": "9:50 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4791,7 +4791,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Zoeller Field at Dix Stadium",
-      "detail": "12:37 - 4th Quarter",
+      "detail": "9:57 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4839,7 +4839,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kelly/Shorts Stadium",
-      "detail": "14:17 - 4th Quarter",
+      "detail": "11:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5097,7 +5097,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/First Half",
       "venue": "Riyadh Air Metropolitano",
-      "detail": "38'",
+      "detail": "45'+1'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5143,7 +5143,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Gies Memorial Stadium",
-      "detail": "0:05 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5233,7 +5233,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Acrisure Bounce House",
-      "detail": "13:42 - 1st Quarter",
+      "detail": "10:19 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5279,7 +5279,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rose Bowl",
-      "detail": "14:12 - 1st Quarter",
+      "detail": "11:45 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5325,7 +5325,332 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Williams-Brice Stadium",
-      "detail": "13:42 - 1st Quarter",
+      "detail": "10:02 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858497",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:135",
+        "name": "Minnesota Golden Gophers",
+        "abbrev": "MINN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Gophers",
+          "MINN",
+          "Minnesota",
+          "Minnesota Golden Gophers"
+        ],
+        "color": "5e0a2f"
+      },
+      "away": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Huntington Bank Stadium",
+      "detail": "13:36 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856730",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:344",
+        "name": "Mississippi State Bulldogs",
+        "abbrev": "MSST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "MSST",
+          "Mississippi St",
+          "Mississippi State",
+          "Mississippi State Bulldogs"
+        ],
+        "color": "5d1725"
+      },
+      "away": {
+        "id": "espn:201",
+        "name": "Oklahoma Sooners",
+        "abbrev": "OU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+        "logo_dark": null,
+        "aliases": [
+          "OU",
+          "Oklahoma",
+          "Oklahoma Sooners",
+          "Sooners"
+        ],
+        "color": "990000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Davis Wade Stadium",
+      "detail": "11:10 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858273",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:59",
+        "name": "Georgia Tech Yellow Jackets",
+        "abbrev": "GT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+        "logo_dark": null,
+        "aliases": [
+          "GT",
+          "Georgia Tech",
+          "Georgia Tech Yellow Jackets",
+          "Yellow Jackets"
+        ],
+        "color": "b3a369"
+      },
+      "away": {
+        "id": "espn:103",
+        "name": "Boston College Eagles",
+        "abbrev": "BC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+        "logo_dark": null,
+        "aliases": [
+          "BC",
+          "Boston College",
+          "Boston College Eagles",
+          "Eagles"
+        ],
+        "color": "8c2232"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Bobby Dodd Stadium",
+      "detail": "11:26 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862810",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "away": {
+        "id": "espn:249",
+        "name": "North Texas Mean Green",
+        "abbrev": "UNT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mean Green",
+          "North Texas",
+          "North Texas Mean Green",
+          "UNT"
+        ],
+        "color": "068f33"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Navy-Marine Corps Memorial Stadium",
+      "detail": "10:59 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864526",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2459",
+        "name": "Northern Illinois Huskies",
+        "abbrev": "NIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+        "logo_dark": null,
+        "aliases": [
+          "Huskies",
+          "N Illinois",
+          "NIU",
+          "Northern Illinois",
+          "Northern Illinois Huskies"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:62",
+        "name": "Hawai'i Rainbow Warriors",
+        "abbrev": "HAW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+        "logo_dark": null,
+        "aliases": [
+          "HAW",
+          "Hawai'i",
+          "Hawai'i Rainbow Warriors",
+          "Rainbow Warriors"
+        ],
+        "color": "005737"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Huskie Stadium",
+      "detail": "9:13 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866447",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2050",
+        "name": "Ball State Cardinals",
+        "abbrev": "BALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+        "logo_dark": null,
+        "aliases": [
+          "BALL",
+          "Ball State",
+          "Ball State Cardinals",
+          "Cardinals"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:16",
+        "name": "Sacramento State Hornets",
+        "abbrev": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hornets",
+          "SAC",
+          "Sacramento St",
+          "Sacramento State",
+          "Sacramento State Hornets"
+        ],
+        "color": "00573C"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Scheumann Stadium",
+      "detail": "9:51 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866448",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-24T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2084",
+        "name": "Buffalo Bulls",
+        "abbrev": "BUFF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+        "logo_dark": null,
+        "aliases": [
+          "BUFF",
+          "Buffalo",
+          "Buffalo Bulls",
+          "Bulls"
+        ],
+        "color": "005bbb"
+      },
+      "away": {
+        "id": "espn:189",
+        "name": "Bowling Green Falcons",
+        "abbrev": "BGSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+        "logo_dark": null,
+        "aliases": [
+          "BGSU",
+          "Bowling Green",
+          "Bowling Green Falcons",
+          "Falcons"
+        ],
+        "color": "fd5000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Broadview Stadium",
+      "detail": "10:06 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5380,337 +5705,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858497",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:135",
-        "name": "Minnesota Golden Gophers",
-        "abbrev": "MINN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Gophers",
-          "MINN",
-          "Minnesota",
-          "Minnesota Golden Gophers"
-        ],
-        "color": "5e0a2f"
-      },
-      "away": {
-        "id": "espn:2294",
-        "name": "Iowa Hawkeyes",
-        "abbrev": "IOWA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hawkeyes",
-          "IOWA",
-          "Iowa",
-          "Iowa Hawkeyes"
-        ],
-        "color": "231f20"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Huntington Bank Stadium",
-      "detail": "Sat, October 24th at 3:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856730",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:344",
-        "name": "Mississippi State Bulldogs",
-        "abbrev": "MSST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulldogs",
-          "MSST",
-          "Mississippi St",
-          "Mississippi State",
-          "Mississippi State Bulldogs"
-        ],
-        "color": "5d1725"
-      },
-      "away": {
-        "id": "espn:201",
-        "name": "Oklahoma Sooners",
-        "abbrev": "OU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
-        "logo_dark": null,
-        "aliases": [
-          "OU",
-          "Oklahoma",
-          "Oklahoma Sooners",
-          "Sooners"
-        ],
-        "color": "990000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Davis Wade Stadium",
-      "detail": "12:15 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858273",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:59",
-        "name": "Georgia Tech Yellow Jackets",
-        "abbrev": "GT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-        "logo_dark": null,
-        "aliases": [
-          "GT",
-          "Georgia Tech",
-          "Georgia Tech Yellow Jackets",
-          "Yellow Jackets"
-        ],
-        "color": "b3a369"
-      },
-      "away": {
-        "id": "espn:103",
-        "name": "Boston College Eagles",
-        "abbrev": "BC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-        "logo_dark": null,
-        "aliases": [
-          "BC",
-          "Boston College",
-          "Boston College Eagles",
-          "Eagles"
-        ],
-        "color": "8c2232"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Bobby Dodd Stadium",
-      "detail": "12:40 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862810",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2426",
-        "name": "Navy Midshipmen",
-        "abbrev": "NAVY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-        "logo_dark": null,
-        "aliases": [
-          "Midshipmen",
-          "NAVY",
-          "Navy",
-          "Navy Midshipmen"
-        ],
-        "color": "00225b"
-      },
-      "away": {
-        "id": "espn:249",
-        "name": "North Texas Mean Green",
-        "abbrev": "UNT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mean Green",
-          "North Texas",
-          "North Texas Mean Green",
-          "UNT"
-        ],
-        "color": "068f33"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Navy-Marine Corps Memorial Stadium",
-      "detail": "14:18 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864526",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2459",
-        "name": "Northern Illinois Huskies",
-        "abbrev": "NIU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
-        "logo_dark": null,
-        "aliases": [
-          "Huskies",
-          "N Illinois",
-          "NIU",
-          "Northern Illinois",
-          "Northern Illinois Huskies"
-        ],
-        "color": "c8102e"
-      },
-      "away": {
-        "id": "espn:62",
-        "name": "Hawai'i Rainbow Warriors",
-        "abbrev": "HAW",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
-        "logo_dark": null,
-        "aliases": [
-          "HAW",
-          "Hawai'i",
-          "Hawai'i Rainbow Warriors",
-          "Rainbow Warriors"
-        ],
-        "color": "005737"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Huskie Stadium",
-      "detail": "12:29 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866447",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2050",
-        "name": "Ball State Cardinals",
-        "abbrev": "BALL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
-        "logo_dark": null,
-        "aliases": [
-          "BALL",
-          "Ball State",
-          "Ball State Cardinals",
-          "Cardinals"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:16",
-        "name": "Sacramento State Hornets",
-        "abbrev": "SAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hornets",
-          "SAC",
-          "Sacramento St",
-          "Sacramento State",
-          "Sacramento State Hornets"
-        ],
-        "color": "00573C"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Scheumann Stadium",
-      "detail": "10:37 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866448",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T19:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2084",
-        "name": "Buffalo Bulls",
-        "abbrev": "BUFF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-        "logo_dark": null,
-        "aliases": [
-          "BUFF",
-          "Buffalo",
-          "Buffalo Bulls",
-          "Bulls"
-        ],
-        "color": "005bbb"
-      },
-      "away": {
-        "id": "espn:189",
-        "name": "Bowling Green Falcons",
-        "abbrev": "BGSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
-        "logo_dark": null,
-        "aliases": [
-          "BGSU",
-          "Bowling Green",
-          "Bowling Green Falcons",
-          "Falcons"
-        ],
-        "color": "fd5000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Broadview Stadium",
-      "detail": "12:00 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:soccer:761890",
       "sport": "soccer",
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-10-24T19:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:183",
         "name": "Columbus Crew",
@@ -5738,9 +5738,9 @@
         "color": "aa182c"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "ScottsMiracle-Gro Field",
-      "detail": "Sat, October 24th at 3:30 PM EDT",
+      "detail": "7'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11923,32 +11923,18 @@
   ],
   "stories": [
     {
-      "story_id": "50268327",
-      "headline": "Connor Hellebuyck happy with Devils trade after Jets standoff",
-      "summary": "Saying that \"sitting at home for so long was getting to me,\" new Devils goaltender Connor Hellebuyck expressed his eagerness to play for the Devils.",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735562_2_1296x729_16-9.jpg",
-      "published_utc": "2026-10-24T19:38:55Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
+      "story_id": "50260337",
+      "headline": "Nashville SC wins 1st MLS Supporters' Shield title, eyes points record",
+      "summary": "Nashville SC clinched the 2026 MLS Supporters' Shield title after a 2-0 victory at CF Montr\u00e9al on Saturday, winning the trophy for the first time in club history.",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735553_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T19:32:59Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "Lizzy Becherano",
       "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50268327/connor-hellebuyck-happy-join-devils-jets-standoff",
+      "link": "https://www.espn.com/soccer/story/_/id/50260337/nashville-sc-1st-mls-supporters-shield-title",
       "stream_url": "",
-      "body": "NEWARK, N.J. -- Connor Hellebuyck is joining the New Jersey Devils and is very happy about it.\n\nThe 33-year-old, three-time Vezina Trophy-winning goaltender met the media before New Jersey faced the Los Angeles Kings on Saturday, and his eagerness to wear No. 37 for the Devils was evident.\n\n\"Sitting at home for so long was getting to me. For myself, I'm just really excited to play hockey again,\" Hellebuyck said after his suspension by the Winnipeg Jets for his failure to report to training camp led to Friday's trade to the Devils. \"I'm joining a very skilled group. They brought me for a certain specific role. I'm really excited to fill that role, not only on the ice but off the ice as well.\"\n\nHellebuyck spent 11 seasons with the Jets, including a Presidents' Trophy-winning season in 2024-25, and helped the United States win gold at the Milan Cortina Olympics this year. A fifth-round draft pick in 2012 by Winnipeg, Hellebuyck is fifth on the U.S.-born goaltenders list with 345 career wins. Among U.S.-born goalies with 300 or more career starts, his .916 save percentage ranks fourth and 2.58 goals-against average ranks sixth.\n\nHellebuyck will share goaltending duties with 36-year-old Jake Allen.\n\nThe Devils sent forward Dawson Mercer, goalie Nico Daws, prospect Alexander Command, a 2029 second-round pick, a 2027 seventh-rounder and injured forward Nick Bjugstad to Winnipeg for Hellebuyck.\n\n\"Obviously having a goaltender of this pedigree come in here and support Jake is exciting,\" Devils coach Sheldon Keefe said. \"That should give the group more confidence.\"\n\nGeneral manager Sunny Mehta said Hellebuyck's excitement for his new destination was palpable within minutes of their initial conversation.\n\nHellebuyck had been skating in Michigan while trade talks continued. He has five seasons left on a seven-year contact with an annual salary cap hit of $8.5 million.\n\n\"He was like: 'I'm ready, I'm packed. I'll get in my car right now,'\" Mehta said about his exchange with his new goalie.\n\nMehta laughed and said he told Hellebuyck: \"Don't do that.\"\n\nMehta has been trying to improve a team that missed the playoffs two of the past three seasons and has won one playoff series since 2012. New Jersey has won six of its first 10 games this season.\n\n\"Everything is about winning. That is my goal every single day,\" Mehta said. \"This obviously makes us a better team. In my view it improves our team -- and I was thrilled about my team coming out of camp.\"\n\nWhen Hellebuyck plays his first game for New Jersey is still undetermined. He hasn't played in an NHL game since April 13, a 6-2 Jets loss to the Vegas Golden Knights. Winnipeg missed the playoffs last spring a year after finishing with an NHL-best 116 points, when Hellebuyck won 47 games.\n\nHellebuyck said it's too early to address his feelings toward the city of Winnipeg and Jets fans. New Jersey visits Winnipeg on Nov. 10.\n\n\"There's a lot I need to say,\" he said. \"Out of respect for them and the celebration of hockey, I'm going to postpone to a later date. I hope they know I care about them.\"\n\nHellebuyck said winning gold with his now-teammate Jack Hughes -- who scored the overtime goal against Canada for the Americans' first gold medal since the 1980 \"Miracle on Ice\" team -- has left an indelible mark on him.\n\n\"That's one of those moments and memories that I will cherish forever. And I will probably hear how other people will cherish them forever,\" Hellebuyck said. \"One of my favorite stories is, 'Where were you when?' People will tell me what they were doing during the gold-medal game. Those are my favorite stories to hear.\"\n\nThe veteran netminder, a native of Commerce, Michigan, who played two seasons of college hockey at UMass-Lowell, said he looks forward to playing home games in the U.S. after more than a decade calling Canada home.\n\n\"I know I'm going to get a lot more of that here than in Canada because I don't think they care much about it,\" Hellebuyck said of the gold-medal plaudits for the Olympic win over Canada. \"This is closer to my family's home. Just being in the USA will be very exciting for this next chapter in my career.\""
-    },
-    {
-      "story_id": "50263122",
-      "headline": "How the Valkyries stole Game 4 on the road to even WNBA Finals at 2-2",
-      "summary": "Golden State won Game 4 in Atlanta, held Angel Reese to eight points and take home-court advantage back to Ballhalla.",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735532_1296x729_16-9.jpg",
-      "published_utc": "2026-10-24T19:36:29Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50263122/finals-game-4-golden-state-valkyries-atlanta-dream",
-      "stream_url": "",
-      "body": "ATLANTA -- ATLANTA -- And we're all tied up.\n\nThe Golden State Valkyries made some changes in their starting lineup, built a 16-point lead and then held off the Atlanta Dream to win Game 4 67-62 and knot the WNBA Finals 2-2.\n\nThe series shifts to San Francisco for Monday's Game 5 (8 p.m.) at Chase Center.\n\nESPN was on site Saturday and provided postgame analysis and updates and highlights from courtside.\n\nJump to:\n\nPostgame analysis | Relive the action\n\n(2) Golden State Valkyries 67,\n\n(4) Atlanta Dream 62\nHow the Valkyries won the game: It really started with the lead they built before halftime, where they jumped ahead by as many as 16, the Dream's largest deficit of the postseason. Golden State rocked Atlanta back on its heels for the first time in a while,mixing in some zone defense, forcing turnovers and dominating the offensive glass.\n\nIn a role reversal from the past two games, the Dream committed 14 first-half turnovers, which Golden State turned into 16 points. Kaila Charles and Tiffany Hayes entered the starting lineup for Kayla Thornton and Cecilia Zandalisini and did their part, Charles finishing with a plus/minus of plus-14 and Hayes adding 13 points. Zandalisini was still impactful coming off the bench with a plus/mius of plus-20.\n\nAt halftime, the Valkyries had 40 field goal attempts to the Dream's 19 -- pretty much a guaranteed loss if you are Atlanta. Golden State finally managed to slow down Angel Reese, who finished 2-for-12 from the field for 8 points, with 9 rebounds, 4 fouls and 6 turnovers.\n\nAtlanta technically won the second half by 11 but couldn't get over the hump. The Dream shot just 33% on the night and 4-for-23 from 3, and still took 18 fewer shots than the Valkyries. And they let a ton of points get away at the free throw line, where they went 22-for-31.\n\nWhat the win means for Golden State: The Valkyries take this series back home having stolen one on the road and evening things up to avoid going down 3-1, which would have felt nearly insurmountable. And from here, as Kiah Stokes pointed out, it's basically a best-of-three series where they'll have home-court advantage for Game 5 and, if necessary, Game 7.\n\nWhich team has the edge going into Game 5 After the Valkyries didn't look like themselves the last two games, especially defensively, this was a confidence-instilling performance that they are very much still in this series. Coach Natalie Nakase said going into Game 4 that she couldn't let her team down, and with the adjustments and game plan she came up with for Saturday, she did not. While the Valkyries lost Games 2 and 3 by a combined 40 points -- and even this win was a bit of a grind -- what matters is the series is tied at 2-2 and now they will play back in front of their incredible environment at Ballhala. -- Alexa Philippou\n\nRelive the live action"
+      "body": "Nashville SC clinched the 2026 MLS Supporters' Shield title after a 2-0 victory at CF Montr\u00e9al on Saturday, winning the trophy for the first time in club history.\n\nThe decisive goals to clinch the shield came from the club's top scorer, Sam Surridge, and captain Hany Mukhtar.\n\nSurridge struck the opening goal in the 51st minute, finishing at the second attempt after his initial header had been saved. Mukhtar then made sure of the decisive points in the 76th minute, capitalizing on a defensive giveaway and sliding in to finish low into the net.\n\n- Miami coach praises Messi's 'commitment' to play after award in Spain\n\n- Can ESPN predict the Ballon d'Or? We simulated the voting process to find out\n\nMajor League Soccer awards the Supporters' Shield to the club that accumulates the most points across the 34-game regular season. With 70 points in 31 games, Nashville has an unassailable lead in the overall standings with three regular-season games remaining.\n\nThe Vancouver Whitecaps and Inter Miami are Nashville's nearest challengers, 15 points back with four games to play.\n\nNashville could yet surpass Miami's MLS points record of 74, achieved in its 2024 Supporters' Shield-winning season.\n\nAs well as points, Nashville leads MLS in wins (21), fewest goals conceded (23) and goal differential (plus-43).\n\nThe team has scored 66 goals so far this season, the second-highest count in the Eastern Conference after Inter Miami. Surridge and Mukhtar played an integral role in the team's attack, with Surridge scoring 18 goals and Mukhtar adding 17.\n\nOffseason arrival Cristian Espinoza also contributed heavily in the final third, providing 14 assists.\n\nNashville entered MLS as an expansion team in 2020, alongside Inter Miami, working diligently to become a competitor in the league. The team won its first trophy in 2025 when lifting the US Open Cup, before adding a second with this year's Supporters' Shield.\n\nHead coach BJ Callaghan, a former U.S. men's national team assistant and interim head coach, now becomes the first coach since Oscar Pareja in 2016 to win the US Open Cup and Supporters' Shield within a two-year span.\n\nBy winning the Supporters' Shield, Nashville secured homefield advantage throughout the MLS Cup playoffs and a spot in the 2027 edition of the Concacaf Champions Cup.\n\nNashville is the only MLS team unbeaten at home in 2026 and tied the league record for home wins (14) and home winning streak (10).\n\nSaturday's result also eliminated Montreal from playoffs contention."
     },
     {
       "story_id": "50268228",
@@ -11963,6 +11949,20 @@
       "link": "https://www.espn.com/video/clip/_/id/50268228/alonso-got-everything-wrong-vs-tottenham",
       "stream_url": "",
       "body": ""
+    },
+    {
+      "story_id": "50263122",
+      "headline": "WNBA Finals live: Valkyries-Dream Game 4 analysis, updates and highlights",
+      "summary": "ESPN is courtside as Golden State looks to even the Finals in Game 4 on Saturday at State Farm Arena.",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735532_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T18:59:19Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50263122/finals-game-4-golden-state-valkyries-atlanta-dream",
+      "stream_url": "",
+      "body": "ATLANTA -- And we're all tied up.\n\nThe Golden State Valkyries made some changes in their starting lineup, built a 16-point lead and then held off the Atlanta Dream to win Game 4 67-62 and knot the WNBA Finals at 2-2.\n\nThe series shifts to San Francisco for Monday's Game 5 (8 p.m.) at Chase Center.\n\nESPN was on site Saturday and provided postgame analysis and updates and highlights from courtside.\n\nJump to:\n\nPostgame analysis | Relive the action\n\n(2) Golden State Valkyries 67,\n\n(4) Atlanta Dream 62\nHow the Valkyries won the game: It really started with the lead they built before halftime, where they jumped ahead by as many as 16, the Dream's largest deficit of the postseason. Golden State rocked Atlanta back on its heels for the first time in a while, mixing in some zone defense, forcing turnovers and dominating the offensive glass.\n\nIn a role reversal from the past two games, the Dream committed 14 first-half turnovers, which Golden State turned into 16 points. Kaila Charles and Tiffany Hayes entered the starting lineup for Kayla Thornton and Cecilia Zandalasini and did their part, Charles finishing with a plus/minus of plus-14 and Hayes adding 13 points. Zandalasini was still impactful coming off the bench with a plus/mius of plus-20.\n\nAt halftime, the Valkyries had 40 field goal attempts to the Dream's 19 -- pretty much a guaranteed loss if you are Atlanta. Golden State finally managed to slow down Angel Reese, who finished 2-for-12 from the field for 8 points, with 9 rebounds, 4 fouls and 6 turnovers.\n\nAtlanta technically won the second half by 11 but couldn't get over the hump. The Dream shot just 33% on the night and 4-for-23 from 3, and still took 18 fewer shots than the Valkyries. And they let a ton of points get away at the free throw line, where they went 22-for-31.\n\nWhat the win means for Golden State: The Valkyries take this series back home having stolen one on the road and evening things up to avoid going down 3-1, which would have felt nearly insurmountable. And from here, as Kiah Stokes pointed out, it's basically a best-of-three series where they'll have home-court advantage for Game 5 and, if necessary, Game 7.\n\nWhich team has the edge going into Game 5 After the Valkyries didn't look like themselves the last two games, especially defensively, this was a confidence-instilling performance that they are very much still in this series. Coach Natalie Nakase said going into Game 4 that she couldn't let her team down, and with the adjustments and game plan she came up with for Saturday, she did not. While the Valkyries lost Games 2 and 3 by a combined 40 points -- and even this win was a bit of a grind -- what matters is the series is tied at 2-2 and now they will play back in front of their incredible environment at Ballhala. -- Alexa Philippou\n\nRelive the live action"
     },
     {
       "story_id": "50220522",
@@ -12049,18 +12049,18 @@
       "body": "The throwbacks were well-represented in Week 6 of the NFL slate. While that's still the case this week, it's the alternates that lead the way -- including two monochromatic looks from the Houston Texans and Detroit Lions.\n\nHouston will be wearing its \"battle red\" combination, which the team first unveiled in 2024. It's all red from head to toe complete with a similarly colored matte lid that includes a new bullhorn logo. The numbers are deep steel blue with a liberty white trim, while the red pants boast blue and white stripes. The New York Giants will counter with all-white.\n\nAlso unveiled in 2024, the Lions are rocking their all-black threads against the Green Bay Packers. The black jersey and pants include a Honolulu Blue matte helmet with leaping Lions logo in silver. There's also a black stripe across the middle. Detroit first wore black uniforms in 1948 before bringing it back in 2005 as an alternate. The team stopped wearing them after the 2007 season before returning it in 2024.\n\nThe Dallas Cowboys will don their color rush look against the Philadelphia Eagles on \"Monday Night Football.\" Dallas unveiled these threads in 2015 with a silver helmet before an arctic white one debuted in 2022. The all-white combination has navy blue numbers and on the shoulder for a neat look.\n\nThough alternates are the headliners, fans of the classics aren't leaving empty handed either in Week 7.\n\nThe Seattle Seahawks are wearing their throwbacks from the 1990s, complete with royal blue jerseys and silver pants and helmet. Seattle wore them last week on \"Thursday Night Football.\" For the first time this season, the Atlanta Falcons and New York Jets are rocking classic uniforms. New York's is appropriately named \"The Classic,\" and the all-white look pays homage to the 1968 championship season. It also includes uniform details from 1998 to 2018. Atlanta's threads include its iconic red helmet, which dates back to the 1960s, with black jerseys and white pants.\n\nThe first NFL game in Paris brings a first in the uniform department for the Pittsburgh Steelers. Pittsburgh will rock their traditional white jerseys, but with color rush black pants, creating a combination never seen before for the franchise. The Steelers typically wear gold pants home or away. But, it will be a different look against the New Orleans Saints.\n\nHere's a look at the Week 7 uniforms for all NFL teams, excluding the Buffalo Bills, Los Angeles Chargers, Jacksonville Jaguars and Washington Commanders, who are on a bye.\n\nArizona Cardinals\nHelmet: White\n\nJersey: Red\n\nPants: Red\n\nAtlanta Falcons\nHelmet: Red\n\nJersey: Black\n\nPants: White\n\nBaltimore Ravens\nHelmet: Black\n\nJersey: Purple\n\nPants: Purple\n\nCarolina Panthers\nHelmet: Black\n\nJersey: Blue\n\nPants: Black\n\nChicago Bears\nHelmet: Navy\n\nJersey: Navy\n\nPants: White\n\nCincinnati Bengals\n\nHelmet: Orange\n\nJersey: White\n\nPants: White\n\nCleveland Browns\n\nHelmet: Orange\n\nJersey: White\n\nPants: Brown\n\nDallas Cowboys\nHelmet: White\n\nJersey: White\n\nPants: White\n\nDenver Broncos\n\nHelmet: Navy\n\nJersey: Summit white\n\nPants: Navy\n\nDetroit Lions\n\nHelmet: Blue\n\nJersey: Black\n\nPants: Black\n\nGreen Bay Packers\n\nHelmet: Gold\n\nJersey: White\n\nPants: Gold\n\nHouston Texans\n\nHelmet: Battle red\n\nJersey: Battle red\n\nPants: Battle red\n\nIndianapolis Colts\nHelmet: White\n\nJersey: White\n\nPants: White\n\nKansas City Chiefs\nHelmet: Red\n\nJersey: White\n\nPants: White\n\nLas Vegas Raiders\n\nHelmet: Silver\n\nJersey: Black\n\nPants: Silver\n\nLos Angeles Rams\nHelmet: Royal/sol\n\nJersey: White\n\nPants: Royal\n\nMiami Dolphins\nHelmet: White\n\nJersey: Aqua\n\nPants: White\n\nMinnesota Vikings\n\nHelmet: Purple\n\nJersey: Purple\n\nPants: White\n\nNew England Patriots\nHelmet: Silver\n\nJersey: White\n\nPants: White\n\nNew Orleans Saints\n\nHelmet: Gold\n\nJersey: Black\n\nPants: Gold\n\nNew York Giants\nHelmet: Blue\n\nJersey: White\n\nPants: White\n\nNew York Jets\n\nHelmet: White\n\nJersey: White\n\nPants: White\n\nPhiladelphia Eagles\n\nHelmet: Midnight green\n\nJersey: Midnight green\n\nPants: White\n\nPittsburgh Steelers\n\nHelmet: Black\n\nJersey: White\n\nPants: Black\n\nSan Francisco 49ers\n\nHelmet: Gold\n\nJersey: Red\n\nPants: Gold\n\nSeattle Seahawks\n\nHelmet: Silver\n\nJersey: Royal blue\n\nPants: Silver\n\nTampa Bay Buccaneers\n\nHelmet: Pewter\n\nJersey: White\n\nPants: Pewter\n\nTennessee Titans\n\nHelmet: White\n\nJersey: Light blue\n\nPants: White"
     },
     {
-      "story_id": "47978642",
-      "headline": "Messi tracker: Goals, assists, key moments in 2026",
-      "summary": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1729118_1296x729_16-9.jpg",
-      "published_utc": "2026-10-23T19:18:18Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "ESPN",
+      "story_id": "50251984",
+      "headline": "NHL Tonight: Previewing Ducks-Flyers revenge matinee, plus 11 other Saturday games",
+      "summary": "It's another packed Saturday, with a dozen games from 1 p.m. through 10 p.m. Here's everything you need to know.",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735368_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T12:33:05Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "ESPN Staff",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats",
+      "link": "https://www.espn.com/nhl/story/_/id/50251984/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
       "stream_url": "",
-      "body": "Lionel Messi will aim for more success in 2026. His Inter Miami side captured its first MLS Cup title last season and will look to defend it -- and add further silverware too -- in its first season at Nu Stadium, the club's new home.\n\nMessi also captained Argentina as they fell just one step short of defending their FIFA World Cup crown, losing 1-0 in extra time to Spain in the final of what could be his last tournament.\n\nAs the 39-year-old continues to feature for both club and country, ESPN will track his performances game-by-game, providing stats and analysis each time he pulls on a Herons or Albiceleste jersey.\n\nMessi's 2026 tally:\n\nGames played: 43\nGoals: 40\nAssists: 18\n\nOct. 17: Atlanta United 1-3 Inter Miami\nMessi scored twice in four minutes as Miami won 3-1 in Atlanta.\n\nAfter Germ\u00e1n Berterame opened the scoring just before halftime, Messi doubled Miami's lead in the 56th minute, exchanging passes with Berterame before weaving past a defender and firing a low left-footed shot into the net.\n\nMessi struck again in the 60th minute, latching on to a pass from Luis Su\u00e1rez before beating his marker and slotting past goalkeeper Lucas Hoyos. The brace took Messi's MLS-leading tally to 25 goals for the season, while Miami extended its winning streak to three matches.\n\nOct. 14: Inter Miami 2-0 NYCFC\nNo goals, but after a scoreless first half, Messi helped break the deadlock by setting up Rodrigo De Paul for the opening goal. Germ\u00e1n Berterame later doubled Miami's advantage as the Herons secured their second consecutive win and clinched a spot in the MLS playoffs.\n\nOct. 10: Inter Miami 4-0 D.C. United\n\nBack in the pink of Inter Miami, and back in the goals for Messi.\n\nHis two strikes sealed an emphatic 4-0 win for the Herons over D.C. United at Nu Stadium on Saturday night.\n\nAfter Luis Su\u00e1rez had Miami 2-0 up after 39 minutes Messi scored his first in the 47th, retrieving a pass from the Uruguayan before tapping in a shot inside the right post.\n\nMessi then padded the hosts' lead in the 60th minute, latching on to Rodrigo De Paul's pass, before dribbling inside the area, eluding two United defenders and firing past goalkeeper Sean Johnson with a shot from 12 yards.\n\nOct. 6: Argentina 3-0 Benin\n\nIt was an emotionally charged night in Buenos Aires as Messi played his final international match for Argentina, the team that he had led to World Cup glory and two Copa Am\u00e9rica titles as captain.\n\nThe friendly match at the Estadio Monumental was goalless at halftime, but just a few minutes after the break Messi's in-swinging corner from the left was rattled home on the volley by Nicol\u00e1s Otamendi.\n\nThen, on the hour mark, Messi spotted Nico Paz in space 25 yards from goal. He fed a square pass with the outside of his boot to the Como player, who curled in a classy finish.\n\nBut the night undoubtedly belonged to Messi, and he fired a penalty into the top corner to cap off his 208th and final senior appearance for his country with his 126th goal.\n\nSep. 27: Columbus Crew 2-1 Inter Miami\nBefore heading to Argentina for his final international match, Messi gave Miami fans something to savor in Ohio.\n\nFrom a set piece wide on the right wing and with most of those in the stadium, including those in the Columbus defense, surely expecting a cross, Messi's left foot sent the ball curling wickedly into the far top corner of the net.\n\nMessi had chances to add to that tally in the second half but was denied from distance by Columbus goalkeeper Patrick Schulte and put another effort into the side netting.\n\nThen Jamal Thiar\u00e9 scored in the eighth minute of second-half stoppage time to give the Columbus Crew a stunning 2-1 win.\n\nSep. 20: Inter Miami 2-2 San Diego FC\n\nMessi's sublime curling free kick was not enough to inspire the Herons to a win against San Diego on Sunday night.\n\nAfter falling behind to an Anders Dreyer goal in the 12th minute, 39-year-old Messi levelled the scores with beautiful set-piece shot in the 24th minute. His well-hit effort evaded a number of attackers and defenders before sneaking in at the far post.\n\nMiami thought they'd won the match after Luiz Suarez fired the hosts ahead in the 74th minute, only for Dreyer to nab his second goal of the game and ensure the points were shared.\n\nSep. 16: Inter Miami 2-0 Cruz Azul\n\nAnother day, another trophy for Messi.\n\nThe Argentine master scored his 100th goal for Inter Miami as the Herons defeated Cruz Azul 2-0 on Wednesday night to win the Campeones Cup.\n\nMessi opened the scoring in the 24th minute, heading in a cross from Luis Su\u00e1rez, before turning provider for Casemiro -- sending in a corner for the Brazilian to nod home.\n\nSep. 12: Inter Miami 2-2 Nashville SC\nIn a matchup between the two best teams in the Eastern Conference, the action went end to end, with Messi getting on the scoresheet for Miami's second goal off a Rodrigo De Paul assist as he continues to lead the Golden Boot race.\n\nUltimately, the teams settled for a point apiece, as the hosts failed to close the gap on Nashville at the top of the table.\n\nSep. 9: Chicago Fire 1-1 Inter Miami\n\nTwo or Europe's greatest club players took center stage in one of the United States' most iconic American football stadiums on Wednesday -- and a record crowd came out to watch.\n\nEx-Bayern Munich and Barcelona star Robert Lewandowski scored a trademark acrobatic goal in the 10th minute to give the Fire an early lead at the NFL home of the Chicago Bears.\n\nBut Inter Miami drew level shortly after halftime when Casemiro, another of the game's stars with a long history of playing in Europe before moving to MLS, headed home a Messi cross from a corner kick to make it 1-1.\n\nThe assist was Messi's league-leading 13th of the season. He also has league 18 goals and is the first player in MLS history with 30-plus goal contributions in three separate seasons.\n\nSep. 5: Inter Miami 2-2 Atlanta United\nMessi was not as effective as he was in the previous matchup, but he did get an assist for Casemiro's opening goal. However, his team was unable to win as they had to settle for a point in a 2-2 draw.\n\nAugust 29: Inter Miami 7-1 CF Montr\u00e9al\n\nFans were treated to a Messi masterclass on Saturday as the Argentine magician registered four goals and an assist to help Miami to a club-record 7-1 victory over CF Montr\u00e9al.\n\nMessi scored with a deflected free kick in the 40th minute before netting after a stunning solo run in the 52nd. After supplying an assist to Luis Su\u00e1rez, the 39-year-old then completed his hat trick and with a delicate chip over the goalkeeper with seven minutes of regulation time remaining.\n\nHe wasn't done yet.\n\nDeep into stoppage time, Messi lined up a free kick and dispatched it with trademark precision into the top corner of the net. Legendary stuff.\n\nAugust 22: Inter Miami 2-1 Toronto FC\n\nMessi's 14th MLS goal of the season wasn't enough to prevent Inter Miami from slumping to their fourth loss in their last five games, losing 2-1 to Toronto FC at Nu Stadium on Saturday.\n\nMessi found the net with a first-time finish from a Rodrigo De Paul through-ball with eight minutes remaining, but the home side's late rally fell short of salvaging a much-needed draw to bolster the Herons' pursuit of first-placed Nashville SC in the Eastern Conference.\n\nAugust 19: Inter Miami 2-2 Philadelphia Union\n\nMessi is back scoring goals, but unfortunately, his Miami side is not back to winning ways. The Argentine scored Miami's second goal of the night as both teams finished with 10 men. Miami are now winless in their last four matches.\n\nAugust 15: Nashville SC 4-1 Inter Miami\nIt was not the best night for Messi in Tennessee. The Argentine missed yet another penalty -- his third straight for club and country -- and they suffered a heavy 4-1 loss to their Eastern Conference rivals. However, he did get an assist for Telasco Segovia's equalizer at halftime before Miami lost control in the second half.\n\nAugust 12: Inter Miami 2-3 Club Le\u00f3n\nJust days after the passing of his father, Messi came off the bench in the second half to try to help Miami continue in the Leagues Cup after they were leading 1-0. However, it ended in a 3-2 loss which saw them eliminated in the league phase after a second straight loss, coming off defeat to Monterrey last weekend with Messi away at the memorial for his father.\n\nAugust 5: Inter Miami 4-2 Atl\u00e9tico de San Luis\n\nLionel Messi made his first start for Inter Miami since returning from the World Cup and picked up right where he left off, scoring a stellar pair of goals to guide his team to a come-from-behind 4-2 rout of Atl\u00e9tico de San Luis in its first game of the 2026 Leagues Cup.\n\nMessi's first goal was an exquisite volley, redirecting Noah Allen's cross from the left flank while running at full speed. Miami's third goal of the opening half -- and Messi's second on the night -- came on the back of some intricate buildup play with Allen once again setting up his team captain, this time in the center of the area where he tiptoed through two defenders and buried a close-range strike past Andr\u00e9s S\u00e1nchez.\n\nThe goal made Messi the all-time leading scorer in Leagues Cup history with 14, one ahead of LAFC's Denis Bouanga since the expanded competition began in 2023.\n\nAugust 1: Inter Miami 2-2 Columbus Crew\nMessi made his return to action for Inter Miami on Saturday, 13 days after tasting defeat with Argentina in the World Cup final. The Miami talisman started on the substitutes' bench before being introduced in the 53rd minute of the Herons' 2-2 draw with the Columbus Crew at Nu Stadium in Miami.\n\nJuly 19: Spain 1-0 AET Argentina\n\nSunday proved to be a bridge too far for both Messi and Argentina, falling in extra time to Spain in the World Cup final.\n\nWith La Roja controlling the match basically from start to finish -- Argentina didn't register a shot on target during regulation time -- Messi had few opportunities to impact the game. Indeed, the 39-year-old was given a 3/10 in ESPN's post-match player ratings.\n\nStill, as Mark Ogden points out, the 2026 tournament was a memorable one for Messi and cemented his status as the GOAT, if it were ever in doubt.\n\nJuly 15: England 1-2 Argentina\nMessi made another statement in his 205th appearance for Argentina, this time in his first-ever match against England in a World Cup semifinal. With so much at stake for both nations, Messi once again proved decisive despite not getting on the scoresheet.\n\nHe first provided the assist for Enzo Fern\u00e1ndez's superb strike to level the match in the second half before delivering a pinpoint cross for Lautaro Mart\u00ednez's headed winner, sending the reigning champions into yet another World Cup final after another dramatic encounter.\n\nMessi has now recorded either a goal or an assist in all seven of Argentina's matches at this World Cup, and he will have the opportunity to lift the trophy for a second time when Argentina face Spain in Sunday's final in New Jersey.\n\nJuly 11: Argentina 3-1 Switzerland\nIt was a relatively quiet night by Messi's standards as his goalscoring streak came to an end, but his influence on the match stayed the same. He set up Alexis Mac Allister's opening goal for Argentina against Switzerland, and although the match went to extra time, the defending champions won 3-1 thanks to two late goals in the second half of extra time.\n\nMessi's quest to retain the World Cup now continues into the semifinals, where Argentina will face England for the first time in over 20 years. The clash in Atlanta -- one of international soccer's most storied rivalries -- will decide a spot in the final.\n\nJuly 7: Argentina 3-2 Egypt\nIt was another dramatic outing for Messi and Argentina, who rallied from a 2-0 deficit to defeat Egypt 3-2 in Atlanta and book their place in the World Cup quarterfinals. As is so often the case, Messi was at the center of the action. Minutes after Egypt opened the scoring, he missed another penalty, but he quickly made amends by setting up Cristian Romero for Argentina's first goal. Messi then scored the equalizer -- his eighth goal of the tournament -- before Enzo Fern\u00e1ndez completed the comeback with the winner. Argentina will now face Switzerland in Kansas City for a place in the semifinals.\n\nJuly 3: Argentina 3-2 Cape Verde\nMessi suffered a major scare in Miami Gardens on Friday evening in the round of 32, but it ultimately ended well for Argentina. He opened the scoring with his seventh goal of the tournament, extending his World Cup tally to 20 goals while finding the net in a record eighth consecutive World Cup match. Cape Verde twice fought back -- once in the second half and again in extra time -- but the world champions eventually prevailed 3-2 after extra time to book a meeting in the round of 16 with Egypt.\n\nJune 27: Jordan 1-3 Argentina\nMessi didn't play the full 90 minutes in Argentina's 3-1 win over an already-eliminated Jordan, but he still made his mark during a 30-minute cameo in Texas. The 39-year-old scored a free kick for his sixth goal of the tournament and his 19th career World Cup goal, becoming the first player ever to score in seven consecutive World Cup matches. Even at 39, he's still got it.\n\nJune 22: Argentina 2-0 Austria\nAnother chapter in an already unparalleled career. Lionel Messi scored twice in Argentina's 2-0 win over Austria to help his team qualify for the round of 32 and become the outright leading goalscorer in men's and women's FIFA World Cup history with 18 goals. After missing an early penalty, he responded by breaking Miroslav Klose's 12-year-old record and then added a second late on to break Marta's record. All just two days before turning 39.\n\nJune 16: Argentina 3-0 Algeria\nIn his 200th appearance for Argentina and sixth World Cup, Lionel Messi sent a message to the world just days before his 39th birthday: he still has it. His first-ever World Cup hat trick powered Argentina to victory in their group-stage opener, while his 16th tournament goal saw him draw level with Miroslav Klose for the most goals in World Cup history.\n\nJune 9: Argentina 3-0 Iceland\n\nMessi, working his way back from muscle fatigue ahead of the start of the World Cup, came on in the 70th minute of a pre-tournament friendly in Auburn, Alabama and scored from the penalty spot right afterward.\n\nIt was Messi's 911th career goal for club and country and 117th goal for Argentina and made him the oldest scorer in the country's soccer history.\n\nMay 24: Inter Miami 6-4 Philadelphia Union\n\nMessi registered two assists in a scintillating performance against Philadelphia on Sunday but, unfortunately, no one was focused on results come the end of the game.\n\nThat's because, in the very last game before the World Cup, Messi left the field in the 73rd minute and headed straight to the locker room after grabbing his left thigh.\n\nNow, supporters around the world are holding their collective breath while they wait and see if the injury has scuppered the 38-year-old's chance of appearing at a sixth World Cup.\n\nMay 13: FC Cincinnati 3-5 Inter Miami\n\nTwo goals and one assist marked yet another spectacular contribution from Miami superstar Messi on Wednesday. The Argentine magician was instrumental as the Herons fought back from 3-2 down to eventually beat Cincinnati 5-3 at TQL Stadium in Ohio.\n\nMay 9: Toronto FC 2-4 Inter Miami\n\nIt was a day of star power. Not only were Rodrigo De Paul, Luis Su\u00e1rez and Sergio Reguil\u00f3n all on the score sheet for the Herons, so was Messi -- and he added a pair of assists, too.\n\nWhile Miami has yet to taste victory at its new home, it continues to take care of business on the road. Saturday's win in Toronto extended the club's unbeaten record away from home in 2026 to seven games, picking up six wins and one draw in the first few months of the season.\n\nMay 2: Inter Miami 3-4 Orlando City\n\nMessi notched a goal and an assist on Saturday in what ended up being an astonishing collapse for Inter Miami at Nu Stadium.\n\nThe Herons were leading 3-0 after Messi's classy 33rd-minute strike, but gifted the visitors four goals -- including a Mart\u00edn Ojeda hat trick -- to once again miss out on a victory at their new home ground. Orlando's comeback from three goals down marks only the third time in MLS history that a team has claimed all three points after trailing by three or more goals.\n\nAs for Messi's Miami, only twice has an MLS team had a longer winless run -- now up to four for the Herons -- to open up a new stadium.\n\nApril 25: Inter Miami 1-1 New England Revolution\nMessi again failed to get on the scoresheet as Miami put in a fatigued second-half performance that saw them come from a goal down against New England. It was another draw -- and another game without a win at their new home, Nu Stadium.\n\nApril 22: Real Salt Lake 0-2 Inter Miami\nNo goals or assists from Messi as Miami visited America First Field on Wednesday, but the fans did get treated to sumptuous strikes nonetheless.\n\nRodrigo De Paul's opener in the 80th-minute was stunning curler from outside the box and then, almost immediately after the restart, Luis Suarez made it 2-0 with a well-struck volley.\n\nThe victory moves Inter Miami into outright second in the MLS Eastern Conference.\n\nApril 18: Colorado Rapids 2-3 Inter Miami\n\nAnother moment of Messi magic bagged all three points for Inter Miami on Saturday.\n\nWith scores level in the 79th minute, the Argentine icon danced his way past a number of Colorado defenders before curling home an outrageous effort into the far corner.\n\nThe strike -- Messi's second of the match after converting a penalty in the first half -- helped Miami to their first win under interim coach Guillermo Hoyos.\n\nHoyos, who had been serving as club's sporting director, took over coaching duties after Javier Mascherano unexpectedly left the club due to personal reasons last week.\n\nApril 11: Inter Miami 2-2 Red Bull New York\nMiami and Messi are still waiting for a first win at Nu Stadium after a 2-2 draw with Red Bull New York on Saturday night.\n\nMessi didn't register a goal or assist, but did help set up Germ\u00e1n Berterame's second-half strike that gave Inter Miami its first lead at its new home ground, but 17-year-old Adri Mehmeti's first career goal in the 77th minute secured a point for the visitors.\n\nApril 4: Inter Miami 2-2 Austin FC\nInter Miami opened Nu Stadium the only way it knows how: With a Messi goal. The No. 10 began the move in trademark style with a left-footed pass to a teammate before moving past a defender and arriving in the box at just the right time to head past goalkeeper Brad Stuver.\n\nMarch 31: Argentina 5-0 Zambia\nIt was the last day of the month and perhaps the last game for Messi playing for Argentina playing in his native country, but they put on a show defeating the African side Zambia 5-0. Messi scored the second goal for Lionel Scaloni's side as focus will shift now to Miami until the beginning of the World Cup.\n\nMarch 27: Argentina 2-1 Mauritania\nIn his first game for his country in 2026, Messi only played the second half as Argentina won 2-1 against Mauritania at the mythical La Bombonera in Buenos Aires, as the World Cup champions continue to prepare to defend their title this summer in North America.\n\nMarch 22: NYCFC 2-3 Inter Miami\n\nIt was a thrilling encounter in the Bronx, as the Argentine star helped his team to a 3-2 win over NYCFC, which also included another trademark free kick goal, now beginning his course for potentially 1,000 career goals. Only 99 goals left!\n\nMarch 18: Inter Miami 1-1 Nashville SC\n\nMessi may have made history on Wednesday night, becoming just the second men's player in history to score 900 career goals, but it wasn't enough to seal Miami's progress in the Concacaf Champions Cup.\n\nThe Argentina legend found the back of the net in the seventh minute at Chase Stadium, but his strike was cancelled out by Nashville's Cristian Espinoza -- sealing the Herons' tournament exit on the away goals rule.\n\nMarch 11: Nashville SC 0-0 Inter Miami\nA drab night for Messi and Co. in the Concacaf Champions Cup. Plenty of possession but few shots on target mean that the Herons will return to Chase Stadium know a win will be needed to ensure progression.\n\nMarch 7: D.C. United 1-2 Inter Miami\n\nIt was quite an eventful week for Messi. Just days before Miami's match against D.C. United, Messi and the entire squad visited the White House and met President Donald Trump and were eager to put on a show for the sold-out crowd of over 70,000 at Baltimore's M&T Bank Stadium.\n\nAnd they did just that, with a 2-1 win over D.C. United. Messi, of course, scored Miami's second and is now one goal away from 900 career goals.\n\nMarch 1: Orlando City 2-4 Inter Miami\n\nWell, that blip didn't last long! Messi and Miami roared back into life with a 4-2 thrashing of Orlando on Sunday thanks to the 38-year-old's wizardry.\n\nThings looked ominous for the Herons after the first 45 minutes, down 2-0 and looking on course to start the MLS season with two bleak losses.\n\nBut two goals and an assist from Messi in the second half dragged the visitors back in the game and helped secure Miami their first points of the season.\n\nFeb. 21: LAFC 3-0 Inter Miami\nMessi and Miami aimed to start 2026 firing on all cylinders, but it was the hosts who spoiled the defending MLS Cup champions' opener at the LA Coliseum. In front of a sellout crowd of 75,673 -- the second-highest attendance in MLS history -- Miami were outplayed, with LAFC's Denis Bouanga getting a goal and an assist in a convincing home victory.\n\nThe main talking point, however, emerged after the final whistle. Messi was initially reported to have gained unauthorized access to the officials' locker room after video circulated showing him near the area. However, it was later reported that no league policy had been violated and Messi was cleared of any wrongdoing. Miami will now turn its attention next weekend against fellow Florida side Orlando City."
+      "body": "It's the best day of the week for hockey fans, with 12 games on the NHL schedule, including multiple afternoon (ET) games.\n\nIn fact, the very first game on the calendar might have the most juice, as the Ducks visit the Flyers -- who tried to sign away superstar center Leo Carlsson via an offer sheet this summer. (The Ducks ultimately matched the offer.)\n\nAnd we say this a lot, but be sure you have a way to watch on multiple devices -- or with multi-view via the ESPN App -- because there are seven games beginning at the same time.\n\nHere's a look at what you need to know for that one, and each of Saturday's games, including betting info and broadcast details:\n\nOdds are provided by DraftKings and subject to change.\n\nAnaheim Ducks at Philadelphia Flyers\n\n1 p.m. ET (NHL Network) | PHI -122, O/U: 5.5\n\nWe'll cede our time here to Greg Wyshynski, who highlighted this game as a \"must-see\" in his weekly column:\n\n\"Almost-Flyer Leo Carlsson plays in Philadelphia for the first time since the Flyers made him the highest-paid player in the NHL this season thanks to their offer sheet. On the undercard: The always interesting matchup between Flyers star Trevor Zegras and his former team. He scored two goals against Anaheim at home last season.\"\n\nLos Angeles Kings at New Jersey Devils\n\n3:30 p.m. ET (ESPN+) | NJ -166, O/U: 5.5\n\nIt's a rematch of the 2012 Stanley Cup Final -- the Kings' first win, and the Devils' most recent brush with a near-win. And technically, these two teams could meet again in June for another go-round; of course, they'd both need to start winning a lot more frequently to qualify for the postseason.\n\nKings forward Artemi Panarin has played 38 games against the Devils in his NHL career, and has 48 points (16 goals, 32 assists). That includes a one-goal, two-assist effort this past season after being traded over from the Rangers. Does he have more magic in store for his latest trip to North Jersey?\n\nThe Devils were the big newsmakers on Friday, trading for Connor Hellebuyck. Will he be in the building on Saturday?\n\nSan Jose Sharks at Boston Bruins\n\n7 p.m. ET (ESPN+) | BOS -192, O/U: 6.5\n\nThe Macklin Celebrini tour has become something akin to when the Beatles first came to North America, with boisterous fans seemingly everywhere one looks. Indeed, listen to the reaction when he scored a shootout goal against the home team in Nashville recently.\n\nCelebrini has more history in Boston than most other cities, having starred for Boston University prior to taking over the NHL. In total, he has seven points (two goals, five assists) against the Bruins in five games so far in his career. How many does he add on Saturday?\n\nNew York Rangers at Ottawa Senators\n\n7 p.m. ET (NHL Network) | OTT -125, O/U: 5.5\n\nThese two teams have some acrimonious history with one another on the ownership level. Back in Dec. of 2024, Senators owner Michael Andlauer accused the Rangers of soft tampering over a report from legendary New York Post reporter Larry Brooks that indicated Tkachuk was a primary trade target of the Blueshirts.\n\nFast forward to now, and Tkachuk did in fact get traded, but down to Florida instead of New York. Aside from that backdrop, this is a game between two teams battling near the top of the Eastern Conference; the Sens enter the game with 14 points through 11 games, while the Rangers have 15 points through 12.\n\nNashville Predators at Pittsburgh Penguins\n\n7 p.m. ET (ESPN+) | PIT -142, O/U: 6.5\n\nIt's been tough sledding for the Penguins following their somewhat surprising run to the playoffs last season. There have been highlights -- an opening night blanking of the Flyers, 7-0, and extra-time wins over the Canadiens and Stars -- but they lost four straight prior to a win over Florida, and are still allowing more goals on average than they're scoring.\n\nOn the other side, Nashville heads to the Steel City after earning points in five of its past seven games.\n\nBuffalo Sabres at Washington Capitals\n\n7 p.m. ET (ESPN+) | WSH -125, O/U: 6.5\n\nThe Sabres will see a very familiar face in the opposing team's uniform in this one, as Alex Tuch was traded to the Caps this offseason (and signed a new contract). Tuch has been a big part of the Capitals' attack this season, leading them with five goals on the season, as they push to return to the playoffs.\n\nBuffalo's leading scorer is Jack Quinn, who has broken out with 10 points through the team's first 10 games.\n\nVegas Golden Knights at Columbus Blue Jackets\n\n7 p.m. ET (ESPN+) | VGK -135, O/U: 6.5\n\nIn the Golden Knights' inaugural season, the club was essentially on a \"Revenge Tour\" every night, as their roster was made up of players who had been exposed in the expansion draft by their prior club. One of the last remaining \"Golden Misfits\" on the roster is William Karlsson, who -- you guessed it -- was previously with the Blue Jackets.\n\nOne would imagine that the animosity in Karlsson's heart for the Blue Jackets has since abated, but maybe not!\n\nFrom the Columbus perspective, the winning needs to start soon, or the whole \"let's make the playoffs after narrowly missing the past two seasons\" thing is going to be pronounced dead.\n\nCarolina Hurricanes at St. Louis Blues\n\n7 p.m. ET (ESPN+) | CAR -155, O/U: 6.5\n\nCanes coach Rod Brind'Amour told reporters earlier this season that his team will be getting every other team's best effort as the defending Cup champs. And against the Blues, the Canes should be extra prepared; St. Louis won both games against Carolina last season (3-0 on Jan. 13 and 3-1 on March 12). Is there another upset brewing on Saturday?\n\nToronto Maple Leafs at Edmonton Oilers\n\n7 p.m. ET (ESPN+) | EDM -180, O/U: 6.5\n\nWhy are the Oilers hosting a game with a 5 p.m. local puck drop? Well, one of the very first laws in the NHL rulebook is that the Maple Leafs must play at 7 p.m. ET every Saturday night OR ELSE.\n\nAll jokes (?) aside, this will be another showcase of the NHL's superduperstars, with Connor McDavid, Leon Draisaitl and Evan Bouchard lined up for Edmonton, while Auston Matthews, William Nylander and breakout candidate Easton Cowan suit up for Toronto.\n\nTampa Bay Lightning at Utah Mammoth\n\n9 p.m. ET (ESPN+) | UTA -142, O/U: 6.5\n\nFollowing a possible Cup Final matchup against the Avalanche on Friday, the Lightning turn right around and face another legit Cup contender in the Mammoth. How likely? According to Stathletes projections, Lightning-Mammoth is the second-most-likely Cup Final pairing (behind Lightning-Avs).\n\nThis will be another early test for the Mammoth to prove whether or not they have really leveled up to the top tier of teams.\n\nDetroit Red Wings at Calgary Flames\n\n10 p.m. ET (ESPN+) | DET -148, O/U: 5.5\n\nWell, not every game on the calendar is going to be a banger. Nevertheless, there are some interesting players to monitor, and this will be the Red Wings' final visit to the Saddledome, which is closing after this season.\n\nDetroit's Alex DeBrincat -- fresh off signing a contract extension -- is pacing the Red Wings with 12 points (six goals, six assists) through 10 games, while former Flyers Morgan Frost and Joel Farabee are leading the Flames in goals and assists, respectively. And for those fans that like to play armchair GM, scouting this Flames team is not a bad place to identify some trade deadline possibilities either.\n\nMinnesota Wild at Seattle Kraken\n\n10 p.m. ET (ESPN+) | MIN -155, O/U: 6.5\n\nLooking over the current wild-card standings in the Western Conference, there aren't really many shocking ... wait a minute, is that \"Lithium?\"\n\nYes, the Kraken are in playoff position right now, right behind the Oilers and Golden Knights. Similar to the Mammoth hosting the Lightning, this will be a strong test for Seattle in facing one of the West's powerhouses.\n\nReminder: Fans can catch all the action in the NHL streaming hub and on the ESPN App.\n\nJump ahead:\n\nTop NHL stories\n\nLast night's scores\n\nNHL stats leaders\n\nToday in hockey history\n\nTop stories around the NHL\n\nHere's what you need to know:\n\nThe latest Wysh List column, on the rise in fighting this season.\nIt's a fantasy hockey takeover of the Power Rankings! Sean Allen and Victoria Matiash identify a worthy pickup from each team.\nConnor Hellebuyck has been traded to the Devils. Ryan S. Clark grades both teams on the swap.\n\"This will be a real fun game\": How Brady Tkachuk (and the Senators) prepared for his Ottawa return.\n\"It's obviously been crazy... but it's been a lot of fun.\" That's Dylan Garand to Wyshynski in Monday's feature.\nDylan Larkin has expanded his trade list to 10 teams\nPatrick Kane set the record for assists by a U.S.-born player with a helper on a Connor Bedard goal.\n\nFriday's scoreboard\nMontreal Canadiens 4, Chicago Blackhawks 1\n\nColorado Avalanche 6, Tampa Bay Lightning 3\n\nNHL scoring leaders\n\nClick here for full list of stats leaders.\n\nNHL goaltending leaders\n\nClick here for the full list of goaltender stats.\n\nToday in hockey history\nMike Bossy was a Hockey Hall of Famer and a member of the NHL's 100 Greatest Players list. Unfortunately, his career was cut short due to injury, or his name would be higher on a number of career lists.\n\nBossy had two career milestones occur on Oct. 24; one good and one not so good. On this day in 1981, Bossy scored his 250th career goal in his 315th career game. At the time, that was the fastest anyone had reached that benchmark.\n\nThen on Oct. 24, 1988, Bossy announced his retirement due to a chronic back injury at age 31. He finished his career with 573 goals and 553 assists in 752 regular-season games, and won the Stanley Cup four straight seasons with the Islanders."
     },
     {
       "story_id": "50232030",
@@ -12091,32 +12091,18 @@
       "body": "Jarome Luai and Brian To'o were showered with gifts in their first match in Papua New Guinea since signing with the PNG Chiefs, as Samoa dismantled the Kumuls in a 64-6 win.\n\nAt the National Football Stadium, which Luai and teammate Brian To'o will call home in 2028, Samoa survived an early scare to keep their unbeaten start to the tournament intact.\n\nThe local fans unfurled banners for the Chiefs-bound pair on Saturday, where Luai recorded four try assists and To'o crossed for a try.\n\nAt fulltime the pair were mobbed and handed bilum bags from local supporters as they gave away all their match jerseys and shorts to members of the crowd.\n\n\"Since the day that we touched down in PNG, the love, the respect, and hospitality that the country has shown us ... it's one of those feelings that you can't describe,\" Samoa captain Junior Paulo said.\n\n\"You've got to be here to witness it firsthand.\n\n\"There's a bigger picture for us and seeing the scenes post game and what it means to the people.\n\n\"The bus ride here, seeing the kids' smiles on their faces, you just can't get that anywhere else besides here.\"\n\nAfter thrashing France in their tournament opener, Samoa have wracked up two big wins and will face Tonga in Sydney next Sunday.\n\nBoth sides will look to guarantee their passage to the semi-finals as Group B/C winners.\n\nBut Samoa will head there having received a thorough test at the hands of the Kumuls in dizzying heat and humidity in Port Moresby.\n\nFor the first 40 minutes, PNG held their gloves up and at one stage led when halfback Bailey Biondi-Odo cancelled out Sua Fa'alogo's opener and Rhyse Martin - playing his final Test on home soil - kicked the conversion.\n\nThe excitement was palpable and one of the loudest cheers from the 15,088-strong crowd came when PNG five-eighth Gairo Voro hammered Luai.\n\n\"We knew it was going to be a bit of a kamikaze battle coming up against the Kumuls,\" Paulo said.\n\nSamoa opened up a 14-6 gap at halftime with further tries to Stephen Crichton and Spencer Leniu.\n\nPNG lost Jack de Belin midway through the first half with a rib injury in another blow for coach Jason Demetriou, who was forced to rule out two of his only players with NRL experience in Nene Macdonald (illness) and Luca Moretti (rib).\n\n\"I think it took its toll, the first half we were very physical, and we went after the contest, losing Jack was big as well,\" said Demetriou, who could only name 18 fit players in his 19-man squad.\n\n\"When we're under pressure like that we don't have that experience to try to fight it back and win it back but some boys have to learn that - that's the brutal truth.\"\n\nThe Kumuls, who face England in Wollongong on Friday in their final group game, were unable to call-up Cooper Bai, Xavier Coates and Lachlan Lam due to injury, and without so many of their top-line names Samoa racked up 50 second-half points.\n\nAs Samoa's players were handed presents from the crowd at fulltime Martin - PNG's record pointscorer - was chaired off in his final home game for the Kumuls.\n\n\"It meant a lot to me, for my team to do that for me,\" the forward, who will move into an off-field role with the Chiefs, said.\n\n\"I thank them for that, and I thank our coach and the PNG fans for making it so special for so long.\""
     },
     {
-      "story_id": "50251984",
-      "headline": "NHL Tonight: Previewing Ducks-Flyers revenge matinee, plus 11 other Saturday games",
-      "summary": "It's another packed Saturday, with a dozen games from 1 p.m. through 10 p.m. Here's everything you need to know.",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735368_1296x729_16-9.jpg",
-      "published_utc": "2026-10-24T12:33:05Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "ESPN Staff",
+      "story_id": "47978642",
+      "headline": "Messi tracker: Goals, assists, key moments in 2026",
+      "summary": "ESPN provides game-by-game analysis of Lionel Messi's performances for Inter Miami and Argentina.",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729118_1296x729_16-9.jpg",
+      "published_utc": "2026-10-23T19:18:18Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50251984/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+      "link": "https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats",
       "stream_url": "",
-      "body": "It's the best day of the week for hockey fans, with 12 games on the NHL schedule, including multiple afternoon (ET) games.\n\nIn fact, the very first game on the calendar might have the most juice, as the Ducks visit the Flyers -- who tried to sign away superstar center Leo Carlsson via an offer sheet this summer. (The Ducks ultimately matched the offer.)\n\nAnd we say this a lot, but be sure you have a way to watch on multiple devices -- or with multi-view via the ESPN App -- because there are seven games beginning at the same time.\n\nHere's a look at what you need to know for that one, and each of Saturday's games, including betting info and broadcast details:\n\nOdds are provided by DraftKings and subject to change.\n\nAnaheim Ducks at Philadelphia Flyers\n\n1 p.m. ET (NHL Network) | PHI -122, O/U: 5.5\n\nWe'll cede our time here to Greg Wyshynski, who highlighted this game as a \"must-see\" in his weekly column:\n\n\"Almost-Flyer Leo Carlsson plays in Philadelphia for the first time since the Flyers made him the highest-paid player in the NHL this season thanks to their offer sheet. On the undercard: The always interesting matchup between Flyers star Trevor Zegras and his former team. He scored two goals against Anaheim at home last season.\"\n\nLos Angeles Kings at New Jersey Devils\n\n3:30 p.m. ET (ESPN+) | NJ -166, O/U: 5.5\n\nIt's a rematch of the 2012 Stanley Cup Final -- the Kings' first win, and the Devils' most recent brush with a near-win. And technically, these two teams could meet again in June for another go-round; of course, they'd both need to start winning a lot more frequently to qualify for the postseason.\n\nKings forward Artemi Panarin has played 38 games against the Devils in his NHL career, and has 48 points (16 goals, 32 assists). That includes a one-goal, two-assist effort this past season after being traded over from the Rangers. Does he have more magic in store for his latest trip to North Jersey?\n\nThe Devils were the big newsmakers on Friday, trading for Connor Hellebuyck. Will he be in the building on Saturday?\n\nSan Jose Sharks at Boston Bruins\n\n7 p.m. ET (ESPN+) | BOS -192, O/U: 6.5\n\nThe Macklin Celebrini tour has become something akin to when the Beatles first came to North America, with boisterous fans seemingly everywhere one looks. Indeed, listen to the reaction when he scored a shootout goal against the home team in Nashville recently.\n\nCelebrini has more history in Boston than most other cities, having starred for Boston University prior to taking over the NHL. In total, he has seven points (two goals, five assists) against the Bruins in five games so far in his career. How many does he add on Saturday?\n\nNew York Rangers at Ottawa Senators\n\n7 p.m. ET (NHL Network) | OTT -125, O/U: 5.5\n\nThese two teams have some acrimonious history with one another on the ownership level. Back in Dec. of 2024, Senators owner Michael Andlauer accused the Rangers of soft tampering over a report from legendary New York Post reporter Larry Brooks that indicated Tkachuk was a primary trade target of the Blueshirts.\n\nFast forward to now, and Tkachuk did in fact get traded, but down to Florida instead of New York. Aside from that backdrop, this is a game between two teams battling near the top of the Eastern Conference; the Sens enter the game with 14 points through 11 games, while the Rangers have 15 points through 12.\n\nNashville Predators at Pittsburgh Penguins\n\n7 p.m. ET (ESPN+) | PIT -142, O/U: 6.5\n\nIt's been tough sledding for the Penguins following their somewhat surprising run to the playoffs last season. There have been highlights -- an opening night blanking of the Flyers, 7-0, and extra-time wins over the Canadiens and Stars -- but they lost four straight prior to a win over Florida, and are still allowing more goals on average than they're scoring.\n\nOn the other side, Nashville heads to the Steel City after earning points in five of its past seven games.\n\nBuffalo Sabres at Washington Capitals\n\n7 p.m. ET (ESPN+) | WSH -125, O/U: 6.5\n\nThe Sabres will see a very familiar face in the opposing team's uniform in this one, as Alex Tuch was traded to the Caps this offseason (and signed a new contract). Tuch has been a big part of the Capitals' attack this season, leading them with five goals on the season, as they push to return to the playoffs.\n\nBuffalo's leading scorer is Jack Quinn, who has broken out with 10 points through the team's first 10 games.\n\nVegas Golden Knights at Columbus Blue Jackets\n\n7 p.m. ET (ESPN+) | VGK -135, O/U: 6.5\n\nIn the Golden Knights' inaugural season, the club was essentially on a \"Revenge Tour\" every night, as their roster was made up of players who had been exposed in the expansion draft by their prior club. One of the last remaining \"Golden Misfits\" on the roster is William Karlsson, who -- you guessed it -- was previously with the Blue Jackets.\n\nOne would imagine that the animosity in Karlsson's heart for the Blue Jackets has since abated, but maybe not!\n\nFrom the Columbus perspective, the winning needs to start soon, or the whole \"let's make the playoffs after narrowly missing the past two seasons\" thing is going to be pronounced dead.\n\nCarolina Hurricanes at St. Louis Blues\n\n7 p.m. ET (ESPN+) | CAR -155, O/U: 6.5\n\nCanes coach Rod Brind'Amour told reporters earlier this season that his team will be getting every other team's best effort as the defending Cup champs. And against the Blues, the Canes should be extra prepared; St. Louis won both games against Carolina last season (3-0 on Jan. 13 and 3-1 on March 12). Is there another upset brewing on Saturday?\n\nToronto Maple Leafs at Edmonton Oilers\n\n7 p.m. ET (ESPN+) | EDM -180, O/U: 6.5\n\nWhy are the Oilers hosting a game with a 5 p.m. local puck drop? Well, one of the very first laws in the NHL rulebook is that the Maple Leafs must play at 7 p.m. ET every Saturday night OR ELSE.\n\nAll jokes (?) aside, this will be another showcase of the NHL's superduperstars, with Connor McDavid, Leon Draisaitl and Evan Bouchard lined up for Edmonton, while Auston Matthews, William Nylander and breakout candidate Easton Cowan suit up for Toronto.\n\nTampa Bay Lightning at Utah Mammoth\n\n9 p.m. ET (ESPN+) | UTA -142, O/U: 6.5\n\nFollowing a possible Cup Final matchup against the Avalanche on Friday, the Lightning turn right around and face another legit Cup contender in the Mammoth. How likely? According to Stathletes projections, Lightning-Mammoth is the second-most-likely Cup Final pairing (behind Lightning-Avs).\n\nThis will be another early test for the Mammoth to prove whether or not they have really leveled up to the top tier of teams.\n\nDetroit Red Wings at Calgary Flames\n\n10 p.m. ET (ESPN+) | DET -148, O/U: 5.5\n\nWell, not every game on the calendar is going to be a banger. Nevertheless, there are some interesting players to monitor, and this will be the Red Wings' final visit to the Saddledome, which is closing after this season.\n\nDetroit's Alex DeBrincat -- fresh off signing a contract extension -- is pacing the Red Wings with 12 points (six goals, six assists) through 10 games, while former Flyers Morgan Frost and Joel Farabee are leading the Flames in goals and assists, respectively. And for those fans that like to play armchair GM, scouting this Flames team is not a bad place to identify some trade deadline possibilities either.\n\nMinnesota Wild at Seattle Kraken\n\n10 p.m. ET (ESPN+) | MIN -155, O/U: 6.5\n\nLooking over the current wild-card standings in the Western Conference, there aren't really many shocking ... wait a minute, is that \"Lithium?\"\n\nYes, the Kraken are in playoff position right now, right behind the Oilers and Golden Knights. Similar to the Mammoth hosting the Lightning, this will be a strong test for Seattle in facing one of the West's powerhouses.\n\nReminder: Fans can catch all the action in the NHL streaming hub and on the ESPN App.\n\nJump ahead:\n\nTop NHL stories\n\nLast night's scores\n\nNHL stats leaders\n\nToday in hockey history\n\nTop stories around the NHL\n\nHere's what you need to know:\n\nThe latest Wysh List column, on the rise in fighting this season.\nIt's a fantasy hockey takeover of the Power Rankings! Sean Allen and Victoria Matiash identify a worthy pickup from each team.\nConnor Hellebuyck has been traded to the Devils. Ryan S. Clark grades both teams on the swap.\n\"This will be a real fun game\": How Brady Tkachuk (and the Senators) prepared for his Ottawa return.\n\"It's obviously been crazy... but it's been a lot of fun.\" That's Dylan Garand to Wyshynski in Monday's feature.\nDylan Larkin has expanded his trade list to 10 teams\nPatrick Kane set the record for assists by a U.S.-born player with a helper on a Connor Bedard goal.\n\nFriday's scoreboard\nMontreal Canadiens 4, Chicago Blackhawks 1\n\nColorado Avalanche 6, Tampa Bay Lightning 3\n\nNHL scoring leaders\n\nClick here for full list of stats leaders.\n\nNHL goaltending leaders\n\nClick here for the full list of goaltender stats.\n\nToday in hockey history\nMike Bossy was a Hockey Hall of Famer and a member of the NHL's 100 Greatest Players list. Unfortunately, his career was cut short due to injury, or his name would be higher on a number of career lists.\n\nBossy had two career milestones occur on Oct. 24; one good and one not so good. On this day in 1981, Bossy scored his 250th career goal in his 315th career game. At the time, that was the fastest anyone had reached that benchmark.\n\nThen on Oct. 24, 1988, Bossy announced his retirement due to a chronic back injury at age 31. He finished his career with 573 goals and 553 assists in 752 regular-season games, and won the Stanley Cup four straight seasons with the Islanders."
-    },
-    {
-      "story_id": "46296843",
-      "headline": "WNBA playoffs history: Notable records, stats, facts",
-      "summary": "During the WNBA playoffs, players are primed for greatness as they pursue championships. Check out our roundup of playoff records and stats now.",
-      "image": "https://a.espncdn.com/photo/2025/0918/r1547227_608x342_16-9.jpg",
-      "published_utc": "2026-10-24T19:32:45Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Keith Jenkins",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/46296843/wnba-playoffs-history-records-stats-facts",
-      "stream_url": "",
-      "body": "As the summer winds down, WNBA action picks up. The league's top teams begin the playoff journey to decide which group of 12 women will be crowned the queens of the court.\n\nThe WNBA playoffs have set the stage for some of the most memorable moments and performances in women's basketball history since the Houston Comets won the league's inaugural championship in 1997. Led by four-time WNBA Finals MVP Cynthia Cooper, the now-defunct Comets won the league's first four titles. They remain the only team to win at least three straight.\n\nIn September 2025, the Phoenix Mercury tied for the largest road comeback in WNBA playoff history (20 pts), with a 89-83 victory over the Minnesota Lynx. As the 2026 WNBA playoff period continues, check out other notable records, facts and stats:\n\nLargest margin of victory\n\n38 points: Chicago Sky (100) vs. New York Liberty (62) on Aug. 20, 2022\n\nLargest comeback\n\n22 points by Indiana Fever vs. Connecticut Sun on Aug. 27, 2007\n\nTeam with the most consecutive appearances\n\nMinnesota Lynx, 11 (2011-21)\n\nPlayer with the most career games\n\nDeWanna Bonner, 107\n\nPlayer with the most career minutes played\n\nDeWanna Bonner, 3210\n\nPlayer with the most career minutes played per game\n\nCynthia Cooper, 38.1\n\nPlayer with the most career points\n\nDiana Taurasi, 1,486\n\nPlayer with the most career points per game*\n\nCynthia Cooper, 23.3\n\nPlayer with the most points in a single game\n\n45: Arike Ogunbowale vs. Golden State Valkyries on Sept. 30, 2026\n\nPlayer with the most career rebounds\n\nDeWanna Bonner, 710\n\nPlayer with the most career rebounds per game*\n\nAliyah Boston, 11.0\n\nPlayer with the most rebounds in a single game\n\nCheryl Ford, 23 vs. Connecticut Sun in Game 1 of Eastern Conference Finals on Aug. 24, 2006\n\nPlayer with the most career assists\n\nChelsea Gray, 423\n\nPlayer with the most career assists per game*\n\nAlyssa Thomas, 7.1\n\nPlayer with the most assists in a single game\n\nCourtney Vandersloot, 18 at Connecticut Sun on Sept. 28, 2021\n\nPlayer with the most career steals\n\nTamika Catchings, 152\n\nPlayer with the most career steals per game*\n\nTamika Catchings, 2.2\n\nPlayer with the most career blocks\n\nLisa Leslie and A'ja Wilson 132\n\nPlayer with the most career blocks per game*\n\n2.5: Lisa Leslie and Margo Dydek\n\nPlayer with the most career made field goals\n\nDiana Taurasi, 489\n\nPlayer with the most career made field goals per game*\n\nNapheesa Collier, 8.1\n\nPlayer with the most career field goal attempts\n\nDeWanna Bonner, 1,185\n\nPlayer with the most career field goal attempts per game*\n\nBreanna Stewart, 17.7\n\nPlayer with the most career made 3-pointers\n\nDiana Taurasi, 217\n\nPlayer with the most career made 3-pointers per game*\n\nDiana Taurasi, 3.0\n\nPlayer with the most career 3-point attempts\n\nDiana Taurasi, 580\n\nPlayer with the most career 3-point attempts per game*\n\nDiana Taurasi, 7.9\n\nPlayer with the most career made free throws\n\nTamika Catchings, 356\n\nPlayer with the most career made free throws per game*\n\nCynthia Cooper, 7.3\n\nPlayer with the most career free throw attempts\n\nTamika Catchings, 417\n\nPlayer with the most career free throw attempts per game*\n\nCynthia Cooper, 8.6\n\n*- min. 10 games played\n\nCheck out the ESPN WNBA hub page for stats, schedules, scores, standings and more."
+      "body": "Lionel Messi will aim for more success in 2026. His Inter Miami side captured its first MLS Cup title last season and will look to defend it -- and add further silverware too -- in its first season at Nu Stadium, the club's new home.\n\nMessi also captained Argentina as they fell just one step short of defending their FIFA World Cup crown, losing 1-0 in extra time to Spain in the final of what could be his last tournament.\n\nAs the 39-year-old continues to feature for both club and country, ESPN will track his performances game-by-game, providing stats and analysis each time he pulls on a Herons or Albiceleste jersey.\n\nMessi's 2026 tally:\n\nGames played: 43\nGoals: 40\nAssists: 18\n\nOct. 17: Atlanta United 1-3 Inter Miami\nMessi scored twice in four minutes as Miami won 3-1 in Atlanta.\n\nAfter Germ\u00e1n Berterame opened the scoring just before halftime, Messi doubled Miami's lead in the 56th minute, exchanging passes with Berterame before weaving past a defender and firing a low left-footed shot into the net.\n\nMessi struck again in the 60th minute, latching on to a pass from Luis Su\u00e1rez before beating his marker and slotting past goalkeeper Lucas Hoyos. The brace took Messi's MLS-leading tally to 25 goals for the season, while Miami extended its winning streak to three matches.\n\nOct. 14: Inter Miami 2-0 NYCFC\nNo goals, but after a scoreless first half, Messi helped break the deadlock by setting up Rodrigo De Paul for the opening goal. Germ\u00e1n Berterame later doubled Miami's advantage as the Herons secured their second consecutive win and clinched a spot in the MLS playoffs.\n\nOct. 10: Inter Miami 4-0 D.C. United\n\nBack in the pink of Inter Miami, and back in the goals for Messi.\n\nHis two strikes sealed an emphatic 4-0 win for the Herons over D.C. United at Nu Stadium on Saturday night.\n\nAfter Luis Su\u00e1rez had Miami 2-0 up after 39 minutes Messi scored his first in the 47th, retrieving a pass from the Uruguayan before tapping in a shot inside the right post.\n\nMessi then padded the hosts' lead in the 60th minute, latching on to Rodrigo De Paul's pass, before dribbling inside the area, eluding two United defenders and firing past goalkeeper Sean Johnson with a shot from 12 yards.\n\nOct. 6: Argentina 3-0 Benin\n\nIt was an emotionally charged night in Buenos Aires as Messi played his final international match for Argentina, the team that he had led to World Cup glory and two Copa Am\u00e9rica titles as captain.\n\nThe friendly match at the Estadio Monumental was goalless at halftime, but just a few minutes after the break Messi's in-swinging corner from the left was rattled home on the volley by Nicol\u00e1s Otamendi.\n\nThen, on the hour mark, Messi spotted Nico Paz in space 25 yards from goal. He fed a square pass with the outside of his boot to the Como player, who curled in a classy finish.\n\nBut the night undoubtedly belonged to Messi, and he fired a penalty into the top corner to cap off his 208th and final senior appearance for his country with his 126th goal.\n\nSep. 27: Columbus Crew 2-1 Inter Miami\nBefore heading to Argentina for his final international match, Messi gave Miami fans something to savor in Ohio.\n\nFrom a set piece wide on the right wing and with most of those in the stadium, including those in the Columbus defense, surely expecting a cross, Messi's left foot sent the ball curling wickedly into the far top corner of the net.\n\nMessi had chances to add to that tally in the second half but was denied from distance by Columbus goalkeeper Patrick Schulte and put another effort into the side netting.\n\nThen Jamal Thiar\u00e9 scored in the eighth minute of second-half stoppage time to give the Columbus Crew a stunning 2-1 win.\n\nSep. 20: Inter Miami 2-2 San Diego FC\n\nMessi's sublime curling free kick was not enough to inspire the Herons to a win against San Diego on Sunday night.\n\nAfter falling behind to an Anders Dreyer goal in the 12th minute, 39-year-old Messi levelled the scores with beautiful set-piece shot in the 24th minute. His well-hit effort evaded a number of attackers and defenders before sneaking in at the far post.\n\nMiami thought they'd won the match after Luiz Suarez fired the hosts ahead in the 74th minute, only for Dreyer to nab his second goal of the game and ensure the points were shared.\n\nSep. 16: Inter Miami 2-0 Cruz Azul\n\nAnother day, another trophy for Messi.\n\nThe Argentine master scored his 100th goal for Inter Miami as the Herons defeated Cruz Azul 2-0 on Wednesday night to win the Campeones Cup.\n\nMessi opened the scoring in the 24th minute, heading in a cross from Luis Su\u00e1rez, before turning provider for Casemiro -- sending in a corner for the Brazilian to nod home.\n\nSep. 12: Inter Miami 2-2 Nashville SC\nIn a matchup between the two best teams in the Eastern Conference, the action went end to end, with Messi getting on the scoresheet for Miami's second goal off a Rodrigo De Paul assist as he continues to lead the Golden Boot race.\n\nUltimately, the teams settled for a point apiece, as the hosts failed to close the gap on Nashville at the top of the table.\n\nSep. 9: Chicago Fire 1-1 Inter Miami\n\nTwo or Europe's greatest club players took center stage in one of the United States' most iconic American football stadiums on Wednesday -- and a record crowd came out to watch.\n\nEx-Bayern Munich and Barcelona star Robert Lewandowski scored a trademark acrobatic goal in the 10th minute to give the Fire an early lead at the NFL home of the Chicago Bears.\n\nBut Inter Miami drew level shortly after halftime when Casemiro, another of the game's stars with a long history of playing in Europe before moving to MLS, headed home a Messi cross from a corner kick to make it 1-1.\n\nThe assist was Messi's league-leading 13th of the season. He also has league 18 goals and is the first player in MLS history with 30-plus goal contributions in three separate seasons.\n\nSep. 5: Inter Miami 2-2 Atlanta United\nMessi was not as effective as he was in the previous matchup, but he did get an assist for Casemiro's opening goal. However, his team was unable to win as they had to settle for a point in a 2-2 draw.\n\nAugust 29: Inter Miami 7-1 CF Montr\u00e9al\n\nFans were treated to a Messi masterclass on Saturday as the Argentine magician registered four goals and an assist to help Miami to a club-record 7-1 victory over CF Montr\u00e9al.\n\nMessi scored with a deflected free kick in the 40th minute before netting after a stunning solo run in the 52nd. After supplying an assist to Luis Su\u00e1rez, the 39-year-old then completed his hat trick and with a delicate chip over the goalkeeper with seven minutes of regulation time remaining.\n\nHe wasn't done yet.\n\nDeep into stoppage time, Messi lined up a free kick and dispatched it with trademark precision into the top corner of the net. Legendary stuff.\n\nAugust 22: Inter Miami 2-1 Toronto FC\n\nMessi's 14th MLS goal of the season wasn't enough to prevent Inter Miami from slumping to their fourth loss in their last five games, losing 2-1 to Toronto FC at Nu Stadium on Saturday.\n\nMessi found the net with a first-time finish from a Rodrigo De Paul through-ball with eight minutes remaining, but the home side's late rally fell short of salvaging a much-needed draw to bolster the Herons' pursuit of first-placed Nashville SC in the Eastern Conference.\n\nAugust 19: Inter Miami 2-2 Philadelphia Union\n\nMessi is back scoring goals, but unfortunately, his Miami side is not back to winning ways. The Argentine scored Miami's second goal of the night as both teams finished with 10 men. Miami are now winless in their last four matches.\n\nAugust 15: Nashville SC 4-1 Inter Miami\nIt was not the best night for Messi in Tennessee. The Argentine missed yet another penalty -- his third straight for club and country -- and they suffered a heavy 4-1 loss to their Eastern Conference rivals. However, he did get an assist for Telasco Segovia's equalizer at halftime before Miami lost control in the second half.\n\nAugust 12: Inter Miami 2-3 Club Le\u00f3n\nJust days after the passing of his father, Messi came off the bench in the second half to try to help Miami continue in the Leagues Cup after they were leading 1-0. However, it ended in a 3-2 loss which saw them eliminated in the league phase after a second straight loss, coming off defeat to Monterrey last weekend with Messi away at the memorial for his father.\n\nAugust 5: Inter Miami 4-2 Atl\u00e9tico de San Luis\n\nLionel Messi made his first start for Inter Miami since returning from the World Cup and picked up right where he left off, scoring a stellar pair of goals to guide his team to a come-from-behind 4-2 rout of Atl\u00e9tico de San Luis in its first game of the 2026 Leagues Cup.\n\nMessi's first goal was an exquisite volley, redirecting Noah Allen's cross from the left flank while running at full speed. Miami's third goal of the opening half -- and Messi's second on the night -- came on the back of some intricate buildup play with Allen once again setting up his team captain, this time in the center of the area where he tiptoed through two defenders and buried a close-range strike past Andr\u00e9s S\u00e1nchez.\n\nThe goal made Messi the all-time leading scorer in Leagues Cup history with 14, one ahead of LAFC's Denis Bouanga since the expanded competition began in 2023.\n\nAugust 1: Inter Miami 2-2 Columbus Crew\nMessi made his return to action for Inter Miami on Saturday, 13 days after tasting defeat with Argentina in the World Cup final. The Miami talisman started on the substitutes' bench before being introduced in the 53rd minute of the Herons' 2-2 draw with the Columbus Crew at Nu Stadium in Miami.\n\nJuly 19: Spain 1-0 AET Argentina\n\nSunday proved to be a bridge too far for both Messi and Argentina, falling in extra time to Spain in the World Cup final.\n\nWith La Roja controlling the match basically from start to finish -- Argentina didn't register a shot on target during regulation time -- Messi had few opportunities to impact the game. Indeed, the 39-year-old was given a 3/10 in ESPN's post-match player ratings.\n\nStill, as Mark Ogden points out, the 2026 tournament was a memorable one for Messi and cemented his status as the GOAT, if it were ever in doubt.\n\nJuly 15: England 1-2 Argentina\nMessi made another statement in his 205th appearance for Argentina, this time in his first-ever match against England in a World Cup semifinal. With so much at stake for both nations, Messi once again proved decisive despite not getting on the scoresheet.\n\nHe first provided the assist for Enzo Fern\u00e1ndez's superb strike to level the match in the second half before delivering a pinpoint cross for Lautaro Mart\u00ednez's headed winner, sending the reigning champions into yet another World Cup final after another dramatic encounter.\n\nMessi has now recorded either a goal or an assist in all seven of Argentina's matches at this World Cup, and he will have the opportunity to lift the trophy for a second time when Argentina face Spain in Sunday's final in New Jersey.\n\nJuly 11: Argentina 3-1 Switzerland\nIt was a relatively quiet night by Messi's standards as his goalscoring streak came to an end, but his influence on the match stayed the same. He set up Alexis Mac Allister's opening goal for Argentina against Switzerland, and although the match went to extra time, the defending champions won 3-1 thanks to two late goals in the second half of extra time.\n\nMessi's quest to retain the World Cup now continues into the semifinals, where Argentina will face England for the first time in over 20 years. The clash in Atlanta -- one of international soccer's most storied rivalries -- will decide a spot in the final.\n\nJuly 7: Argentina 3-2 Egypt\nIt was another dramatic outing for Messi and Argentina, who rallied from a 2-0 deficit to defeat Egypt 3-2 in Atlanta and book their place in the World Cup quarterfinals. As is so often the case, Messi was at the center of the action. Minutes after Egypt opened the scoring, he missed another penalty, but he quickly made amends by setting up Cristian Romero for Argentina's first goal. Messi then scored the equalizer -- his eighth goal of the tournament -- before Enzo Fern\u00e1ndez completed the comeback with the winner. Argentina will now face Switzerland in Kansas City for a place in the semifinals.\n\nJuly 3: Argentina 3-2 Cape Verde\nMessi suffered a major scare in Miami Gardens on Friday evening in the round of 32, but it ultimately ended well for Argentina. He opened the scoring with his seventh goal of the tournament, extending his World Cup tally to 20 goals while finding the net in a record eighth consecutive World Cup match. Cape Verde twice fought back -- once in the second half and again in extra time -- but the world champions eventually prevailed 3-2 after extra time to book a meeting in the round of 16 with Egypt.\n\nJune 27: Jordan 1-3 Argentina\nMessi didn't play the full 90 minutes in Argentina's 3-1 win over an already-eliminated Jordan, but he still made his mark during a 30-minute cameo in Texas. The 39-year-old scored a free kick for his sixth goal of the tournament and his 19th career World Cup goal, becoming the first player ever to score in seven consecutive World Cup matches. Even at 39, he's still got it.\n\nJune 22: Argentina 2-0 Austria\nAnother chapter in an already unparalleled career. Lionel Messi scored twice in Argentina's 2-0 win over Austria to help his team qualify for the round of 32 and become the outright leading goalscorer in men's and women's FIFA World Cup history with 18 goals. After missing an early penalty, he responded by breaking Miroslav Klose's 12-year-old record and then added a second late on to break Marta's record. All just two days before turning 39.\n\nJune 16: Argentina 3-0 Algeria\nIn his 200th appearance for Argentina and sixth World Cup, Lionel Messi sent a message to the world just days before his 39th birthday: he still has it. His first-ever World Cup hat trick powered Argentina to victory in their group-stage opener, while his 16th tournament goal saw him draw level with Miroslav Klose for the most goals in World Cup history.\n\nJune 9: Argentina 3-0 Iceland\n\nMessi, working his way back from muscle fatigue ahead of the start of the World Cup, came on in the 70th minute of a pre-tournament friendly in Auburn, Alabama and scored from the penalty spot right afterward.\n\nIt was Messi's 911th career goal for club and country and 117th goal for Argentina and made him the oldest scorer in the country's soccer history.\n\nMay 24: Inter Miami 6-4 Philadelphia Union\n\nMessi registered two assists in a scintillating performance against Philadelphia on Sunday but, unfortunately, no one was focused on results come the end of the game.\n\nThat's because, in the very last game before the World Cup, Messi left the field in the 73rd minute and headed straight to the locker room after grabbing his left thigh.\n\nNow, supporters around the world are holding their collective breath while they wait and see if the injury has scuppered the 38-year-old's chance of appearing at a sixth World Cup.\n\nMay 13: FC Cincinnati 3-5 Inter Miami\n\nTwo goals and one assist marked yet another spectacular contribution from Miami superstar Messi on Wednesday. The Argentine magician was instrumental as the Herons fought back from 3-2 down to eventually beat Cincinnati 5-3 at TQL Stadium in Ohio.\n\nMay 9: Toronto FC 2-4 Inter Miami\n\nIt was a day of star power. Not only were Rodrigo De Paul, Luis Su\u00e1rez and Sergio Reguil\u00f3n all on the score sheet for the Herons, so was Messi -- and he added a pair of assists, too.\n\nWhile Miami has yet to taste victory at its new home, it continues to take care of business on the road. Saturday's win in Toronto extended the club's unbeaten record away from home in 2026 to seven games, picking up six wins and one draw in the first few months of the season.\n\nMay 2: Inter Miami 3-4 Orlando City\n\nMessi notched a goal and an assist on Saturday in what ended up being an astonishing collapse for Inter Miami at Nu Stadium.\n\nThe Herons were leading 3-0 after Messi's classy 33rd-minute strike, but gifted the visitors four goals -- including a Mart\u00edn Ojeda hat trick -- to once again miss out on a victory at their new home ground. Orlando's comeback from three goals down marks only the third time in MLS history that a team has claimed all three points after trailing by three or more goals.\n\nAs for Messi's Miami, only twice has an MLS team had a longer winless run -- now up to four for the Herons -- to open up a new stadium.\n\nApril 25: Inter Miami 1-1 New England Revolution\nMessi again failed to get on the scoresheet as Miami put in a fatigued second-half performance that saw them come from a goal down against New England. It was another draw -- and another game without a win at their new home, Nu Stadium.\n\nApril 22: Real Salt Lake 0-2 Inter Miami\nNo goals or assists from Messi as Miami visited America First Field on Wednesday, but the fans did get treated to sumptuous strikes nonetheless.\n\nRodrigo De Paul's opener in the 80th-minute was stunning curler from outside the box and then, almost immediately after the restart, Luis Suarez made it 2-0 with a well-struck volley.\n\nThe victory moves Inter Miami into outright second in the MLS Eastern Conference.\n\nApril 18: Colorado Rapids 2-3 Inter Miami\n\nAnother moment of Messi magic bagged all three points for Inter Miami on Saturday.\n\nWith scores level in the 79th minute, the Argentine icon danced his way past a number of Colorado defenders before curling home an outrageous effort into the far corner.\n\nThe strike -- Messi's second of the match after converting a penalty in the first half -- helped Miami to their first win under interim coach Guillermo Hoyos.\n\nHoyos, who had been serving as club's sporting director, took over coaching duties after Javier Mascherano unexpectedly left the club due to personal reasons last week.\n\nApril 11: Inter Miami 2-2 Red Bull New York\nMiami and Messi are still waiting for a first win at Nu Stadium after a 2-2 draw with Red Bull New York on Saturday night.\n\nMessi didn't register a goal or assist, but did help set up Germ\u00e1n Berterame's second-half strike that gave Inter Miami its first lead at its new home ground, but 17-year-old Adri Mehmeti's first career goal in the 77th minute secured a point for the visitors.\n\nApril 4: Inter Miami 2-2 Austin FC\nInter Miami opened Nu Stadium the only way it knows how: With a Messi goal. The No. 10 began the move in trademark style with a left-footed pass to a teammate before moving past a defender and arriving in the box at just the right time to head past goalkeeper Brad Stuver.\n\nMarch 31: Argentina 5-0 Zambia\nIt was the last day of the month and perhaps the last game for Messi playing for Argentina playing in his native country, but they put on a show defeating the African side Zambia 5-0. Messi scored the second goal for Lionel Scaloni's side as focus will shift now to Miami until the beginning of the World Cup.\n\nMarch 27: Argentina 2-1 Mauritania\nIn his first game for his country in 2026, Messi only played the second half as Argentina won 2-1 against Mauritania at the mythical La Bombonera in Buenos Aires, as the World Cup champions continue to prepare to defend their title this summer in North America.\n\nMarch 22: NYCFC 2-3 Inter Miami\n\nIt was a thrilling encounter in the Bronx, as the Argentine star helped his team to a 3-2 win over NYCFC, which also included another trademark free kick goal, now beginning his course for potentially 1,000 career goals. Only 99 goals left!\n\nMarch 18: Inter Miami 1-1 Nashville SC\n\nMessi may have made history on Wednesday night, becoming just the second men's player in history to score 900 career goals, but it wasn't enough to seal Miami's progress in the Concacaf Champions Cup.\n\nThe Argentina legend found the back of the net in the seventh minute at Chase Stadium, but his strike was cancelled out by Nashville's Cristian Espinoza -- sealing the Herons' tournament exit on the away goals rule.\n\nMarch 11: Nashville SC 0-0 Inter Miami\nA drab night for Messi and Co. in the Concacaf Champions Cup. Plenty of possession but few shots on target mean that the Herons will return to Chase Stadium know a win will be needed to ensure progression.\n\nMarch 7: D.C. United 1-2 Inter Miami\n\nIt was quite an eventful week for Messi. Just days before Miami's match against D.C. United, Messi and the entire squad visited the White House and met President Donald Trump and were eager to put on a show for the sold-out crowd of over 70,000 at Baltimore's M&T Bank Stadium.\n\nAnd they did just that, with a 2-1 win over D.C. United. Messi, of course, scored Miami's second and is now one goal away from 900 career goals.\n\nMarch 1: Orlando City 2-4 Inter Miami\n\nWell, that blip didn't last long! Messi and Miami roared back into life with a 4-2 thrashing of Orlando on Sunday thanks to the 38-year-old's wizardry.\n\nThings looked ominous for the Herons after the first 45 minutes, down 2-0 and looking on course to start the MLS season with two bleak losses.\n\nBut two goals and an assist from Messi in the second half dragged the visitors back in the game and helped secure Miami their first points of the season.\n\nFeb. 21: LAFC 3-0 Inter Miami\nMessi and Miami aimed to start 2026 firing on all cylinders, but it was the hosts who spoiled the defending MLS Cup champions' opener at the LA Coliseum. In front of a sellout crowd of 75,673 -- the second-highest attendance in MLS history -- Miami were outplayed, with LAFC's Denis Bouanga getting a goal and an assist in a convincing home victory.\n\nThe main talking point, however, emerged after the final whistle. Messi was initially reported to have gained unauthorized access to the officials' locker room after video circulated showing him near the area. However, it was later reported that no league policy had been violated and Messi was cleared of any wrongdoing. Miami will now turn its attention next weekend against fellow Florida side Orlando City."
     },
     {
       "story_id": "50220422",
@@ -12131,6 +12117,20 @@
       "link": "https://www.espn.com/soccer/story/_/id/50220422/premier-league-live-updates-aston-villa-manchester-city-arsenal-everton-chelsea-tottenham-hotspur",
       "stream_url": "",
       "body": "We're back with another action-packed weekend of European soccer!\n\nIn the Premier League, Aston Villa kept up their recent success at home over Manchester City to win 2-1 and end City's 100% start to the season.\n\nDefending champions Arsenal hosted Everton at the Emirates Stadium looking to go level at the top of the table and did so after a 2-0 win, while Coventry City took on Fulham at the same time, only for the visitors to end up as 1-0 winners.\n\nLater, we wrap up the Premier League slate with a London derby, as Xabi Alonso's Chelsea took on Tottenham Hotspur at Stamford Bridge, but it was Roberto de Zerbi's team that ended up getting a rare 2-0 win.\n\nElsewhere, Arsenal's women beat rivals Spurs 2-1 in the WSL, Napoli hosted AS Roma in a huge Serie A showdown that saw the match end in a dramatic 3-3 draw, while Borussia Dortmund welcomed Eintracht Frankfurt to Signal Iduna Park and ended up winning 1-0.\n\nEnjoy all the action from Saturday's matches across Europe."
+    },
+    {
+      "story_id": "50266916",
+      "headline": "A'ja Wilson, Breanna Stewart headline youth-infused All-WNBA teams",
+      "summary": "A'ja Wilson, Breanna Stewart, Caitlin Clark, Kelsey Mitchell and rookie Olivia Miles have been named first-team All-WNBA.",
+      "image": "https://a.espncdn.com/photo/2025/0515/r1493454_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T18:22:24Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Kareem Copeland",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50266916/aja-wilson-breanna-stewart-headline-youth-infused-all-wnba",
+      "stream_url": "",
+      "body": "A'ja Wilson and Breanna Stewart led the 2026 All-WNBA teams as the senior members in what turned out to be a youth movement among honorees.\n\nWilson, the 2026 MVP, was named to the first team for the sixth time, and Stewart, a former two-time MVP, made her seventh appearance. They are joined by Indiana Fever teammates Caitlin Clark and Kelsey Mitchell, both named to the first team for the second time in their respective careers. Minnesota Lynx guard Olivia Miles, who was named Rookie of the Year, earned the distinction in her first year.\n\nWilson, Mitchell and Clark represent the top three scorers in the league in points per game; Stewart was No. 7, and Miles finished eighth. Mitchell set the WNBA single-season points record but played in three more regular-season games than Wilson. Clark was the 2026 assists champion while Miles ranked seventh. Wilson finished fifth in the league in rebounds per game.\n\nAtlanta Dream teammates Angel Reese and Rhyne Howard earned their first All-WNBA honors with second-team nods. Washington Mystics center Shakira Austin also received her first all-league selection after posting a career year. Guards Jackie Young of the Las Vegas Aces and Paige Bueckers of the Dallas Wings were named to the second team for the third and second time, respectively.\n\nReese led the WNBA in rebounding and was one of two players to average a double-double while Austin was the No. 4 rebounder. Bueckers ended the season ranked fifth in points per game while Young was 10th. The pair flipped in assists per game as Young ranked No. 5 and Bueckers was No. 8."
     },
     {
       "story_id": "50257331",
@@ -12217,18 +12217,18 @@
       "body": "Welcome to The Playbook for Week 7, which kicked off Thursday night with a game between the Patriots and Bears.\n\nThis column features score projections, over/unders, win probabilities, and of course, easily digestible fantasy advice for seasonlong leagues and DFS. This guide should help you with all sorts of decision-making, including sit/start advice, last-minute waiver adds and lineup choices.\n\nAdditionally, we have folded our Shadow Reports into the game-by-game breakdowns here. Using our play-by-play data, we're able to identify defensive schemes and where each wide receiver and cornerback lines up on each play. By tracking these WR/CB matchups, including potential shadow situations, we can offer the best fantasy guidance each week.\n\nIf you want a more detailed look at some of this data, be sure to check out the weekly Shadow Reports: WR vs. CB Cheat Sheet. You can also take a look at the analysis of each team's strength of schedule for the remainder of the season.\n\nAll of this advice is centered on 12-team PPR leagues with relatively standard scoring and lineup settings (1 QB, 2 RB, 3 WR, 1 Flex, 1 K, 1 D/ST), although I'll often mention \"shallow\" or \"deep\" leagues for some starters. The charts show all players who have been projected for at least 6.0 fantasy points this week, as well as all D/STs. \"Matchup\" is automatically determined using a proprietary metric that factors in raw and volume-adjusted fantasy points allowed to each position by the opposing defense.\n\nDFS values in the charts below (and their relative quality) are provided only for Sunday's main slate, which is why there are no values for games scheduled on days other than Sunday after 1 p.m. ET.\n\n(Editor's note: Projections and rankings will align almost perfectly, but sometimes when a projection is close, a player might be ranked slightly higher or lower because of other factors, including upside or risk. This column is subject to updates during the weekend, although at the very minimum, rankings will be updated on the site and projections will always be updated inside the game leading up to kickoff.)\n\nPIT-NO | SF-ATL | CLE-TEN | IND-MIN | MIA-NYJ | TB-CAR\n\nCIN-BAL | NYG-HOU | DEN-ARI | GB-DET | LAR-LV | KC-SEA | DAL-PHI\n\nNew England Patriots @ Chicago Bears\nProjected score: Bears 26, Patriots 24\n\nLineup locks: Drake Maye, D'Andre Swift, A.J. Brown, Luther Burden III\n\nFantasy Scoop: Welcome back, Colston Loveland! After totaling 24.0 fantasy points during his first five games of the season, Loveland put up 18.5 points on Sunday against the Atlanta Falcons. His big game coincided with the triumphant return of Caleb Williams, who completed 30 out of 36 passes in the win. Loveland now leads all tight ends in snaps and is fifth in end zone targets (four), though he's way down in 21st place in receiving yards and has found the end zone just once.\n\nLoveland's strong performance is enough to get him back into the weekly TE1 mix, but we shouldn't get too carried away, as he's hit 12.0 fantasy points only once this season and he had a total of just 3 yards on five targets during Weeks 1-2 (Williams was under center for most of that). Consider Loveland to be a mid-to-back-end TE1 against a Patriots defense that has allowed only one tight end (Brock Bowers) to reach 8.0 fantasy points this season.\n\nShadow Alert: This is far from a lock, but it's possible Christian Gonzalez shadows Rome Odunze, just like he has done for Garrett Wilson, Jaxon Smith-Njigba and DK Metcalf this season. Odunze aligns on the perimeter 77% of the time, which makes him the most likely candidate to see a lot of Gonzalez, though it's possible New England's top corner aligns at times against Burden (50% perimeter).\n\nOver/under: 49.8 (5th highest)\n\nWin probability: Bears 57% (13th highest)\n\n-->\n\nPittsburgh Steelers @ New Orleans Saints\nProjected score: Steelers 29, Saints 20\n\nLineup locks: Jaylen Warren, Chris Olave, DK Metcalf, Germie Bernard\n\nFantasy Scoop: Bernard has graduated to \"lineup lock\" status following a terrific Week 6 effort in which he caught 11 out of 12 targets for 87 yards and one touchdown. This, after the rookie second-round pick posted a 6-80-0 receiving line on nine targets the week prior. Bernard's production is no fluke, as his route participation (85%) and target share (28%) have been outstanding during the span.\n\nBernard's short-area role (4.9 aDOT) may limit his explosive plays and scoring upside, but the high volume supplies him with a high floor, especially in PPR formats. It also helps his cause that Pittsburgh is the league's pass-heaviest team near the goal line (their 87% expected pass TD rate and 92% actual pass TD rate are both tops in the NFL). Consider Bernard to be a solid WR3 against a Saints defense that allowed 250 yards to New York Giants wide receivers last week.\n\nOver/under: 49.7 (6th highest)\n\nWin probability: Steelers 81% (3rd highest)\n\nSan Francisco 49ers @ Atlanta Falcons\nProjected score: 49ers 29, Falcons 22\n\nLineup locks: Brock Purdy, Christian McCaffrey, Bijan Robinson, Drake London, George Kittle\n\nFantasy Scoop: Right when it seemed like Kyle Pitts Sr. had fallen off the map (again), the most polarizing tight end in fantasy is back with a vengeance. After opening the 2026 season with a 2-20-0 receiving line on six targets through three games, Pitts improved to 3-47-0 on three targets in Week 4, 5-42-1 on six targets in Week 5 and 5-60-2 on seven targets in Week 6. Although Pitts' route participation has been volatile this season, it has steadied over the past two weeks -- and he also played on a season-high 76% of Atlanta's snaps last Sunday.\n\nPitts' usage isn't quite as high as it was last season, but as long as his connection with Michael Penix Jr. remains strong, there's enough here to get him back into the weekly TE1 discussion. Of course, we need to downgrade him here in Week 7, as the 49ers have allowed zero touchdowns and the fourth-fewest fantasy points to tight ends this season. Only Trey McBride and Chig Okonkwo have cleared 5.0 points against them.\n\nOver/under: 50.7 (4th highest)\n\nWin probability: 49ers 73% (4th highest)\n\nCleveland Browns @ Tennessee Titans\nProjected score: Browns 17, Titans 16\n\nLineup locks: Denzel Boston, Carnell Tate\n\nFantasy Scoop: With Quinshon Judkins sidelined in Week 5, Jaleel McLaughlin led the Cleveland backfield, playing on 37 snaps, carrying the ball nine times for 41 yards and adding 14 yards on four targets. Audric Estime (18 snaps) was also involved and, while he wasn't targeted and was held to 19 yards on nine carries, he did score the team's lone rushing touchdown.\n\nIf Judkins returns in Week 7, both McLaughlin and Estime should be on waivers. If Judkins remains out, neither replacement back will be a recommended flex against a solid Titans run defense, though McLaughlin's passing-game work gives him a slight edge if you're in a tough spot. Note that, should Dylan Sampson return from IR and Judkins remain out, it's Sampson who would be the preferred (albeit still uninspiring) flex from this backfield.\n\nOver/under: 32.6 (Lowest)\n\nWin probability: Browns 55% (Lowest)\n\nIndianapolis Colts @ Minnesota Vikings\nProjected score: Vikings 26, Colts 16\n\nLineup locks: Jonathan Taylor, Justin Jefferson\n\nFantasy Scoop: Keenan Allen set season-high marks in targets (11), receptions (eight) and yardage (82) against the Titans on Sunday. Allen has now handled at least nine targets in all three games since Alec Pierce was placed on IR. The heavy usage has helped him to a respectable 14.7 fantasy points per game, which includes 16-plus points in two of the three outings.\n\nAllen's short-area role (7.9 aDOT) in the Colts' struggling offense will limit his scoring opportunities (one end zone target this season), but the 25% target share he's enjoyed over the last three games is plenty to keep him in the WR3/flex discussion, especially if Tyler Warren remains sidelined.\n\nOf course, we need to downgrade this entire passing game in Week 7 against a Vikings defense that has allowed the third-fewest passing yards and only three passing TDs this season. Minnesota hasn't allowed any wide receivers to clear 12.0 fantasy points in a game since Week 1.\n\nOver/under: 41.9 (12th highest)\n\nWin probability: Vikings 84% (Highest)\n\nMiami Dolphins @ New York Jets\nProjected score: Jets 24, Dolphins 14\n\nLineup locks: Breece Hall, Garrett Wilson\n\nFantasy Scoop: Omar Cooper Jr. returned from injury on Sunday and made a major impact. The first-round rookie played on 82% of offensive snaps and posted a 6-103-1 receiving line on seven targets. The big game was a surprise after Cooper missed Weeks 2-5 due to a high ankle sprain suffered on the fourth snap of his pro career back in Week 1. It was a positive sign that Cooper immediately leapfrogged Tim Patrick and Isaiah Williams on the depth chart, but it's also notable that Adonai Mitchell was sidelined and Wilson was dealing with shadow coverage from Christian Gonzalez.\n\nCooper should be on rosters, but he should be considered for a flex spot only if Mitchell remains out this week. Target volume is likely to be at a premium against a struggling Miami team that has faced the fewest WR targets and thus allowed the third-fewest WR fantasy points this season. In five games, only three receivers have reached double-digit fantasy points against Miami -- and none have reached 20.\n\nOver/under: 38.6 (13th highest)\n\nWin probability: Jets 82% (2nd highest)\n\nTampa Bay Buccaneers @ Carolina Panthers\nProjected score: Panthers 24, Buccaneers 21\n\nLineup locks: Bucky Irving, Chuba Hubbard, Tetairoa McMillan, Jalen Coker, Emeka Egbuka\n\nFantasy Scoop: After producing 52 yards and one touchdown on seven touches in Week 5, Egbuka followed that up with 48 yards and one touchdown on seven touches in Week 6. Egbuka's fantasy point totals in the two games (17.2 and 17.8) are a significant step forward after he had failed to reach 12.0 points in any of his prior 12 games.\n\nEgbuka's target volume has been very good -- a 26% share on the season that includes a career-high 16 targets against Pittsburgh on Sunday. Of course, that heavy usage came with Jalon Daniels under center, and Baker Mayfield may return in Week 7. In his three games with Mayfield this season, Egbuka averaged 6.7 targets and 10.9 fantasy PPG.\n\nThe Panthers have been solid against receivers this season, though both starting corners remain sidelined and DeVonta Smith just nailed them for 7-75-1 on Sunday. Regardless of which QB is under center, Egbuka has found his way back into the WR2/3 mix.\n\nOver/under: 44.7 (10th highest)\n\nWin probability: Panthers 60% (8th highest)\n\nCincinnati Bengals @ Baltimore Ravens\nProjected score: Bengals 24, Ravens 22\n\nLineup locks: Joe Burrow, Derrick Henry, Chase Brown, Ja'Marr Chase, Zay Flowers, Tee Higgins\n\nShadow Report: DJ Turner is a strong bet to shadow Flowers when he aligns on the perimeter, which he has done on 45% of his routes this season. Turner has emerged as one of the league's top shadow corners, having already traveled with Emeka Egbuka (11.3 fantasy points in the game), Xavier Hutchinson (6.7), DK Metcalf (12.1), Parker Washington (2.0) and Chris Bell (2.6) this season.\n\nTurner also shadowed 14 times last season (those receivers averaged 8.8 fantasy PPG), two of which came against Flowers. Flowers was held to a 2-6-0 receiving line on seven targets in the Week 13 matchup, but was better with a 3-68-1 line on five targets in Week 15. Flowers will avoid Turner on roughly half of his routes, but note that the Bengals have allowed a 56% completion rate to receivers (fourth lowest) and none have cleared 15.0 points in a game. Flowers remains a lineup lock, but a down game wouldn't be a shock.\n\nOver/under: 45.9 (9th highest)\n\nWin probability: Bengals 57% (12th highest)\n\nNew York Giants @ Houston Texans\nProjected score: Texans 30, Giants 24\n\nLineup locks: C.J. Stroud, Nico Collins, Malik Nabers, Isaiah Likely\n\nFantasy Scoop: Jaylin Noel caught all four targets for a career-high 107 yards and one touchdown against the Jacksonville Jaguars in Week 6. Despite the strong game (and despite the fact that he also found the end zone in Week 5), Noel is not yet a viable flex option. The 2025 third-round pick remains a situational player, having yet to eclipse 60% route participation or a 16% target share in any single game of his career.\n\nNoel is trending toward locking down Houston's primary slot receiver job, but that's unlikely to lead to consistent production with so many mouths to feed at wide receiver in that huddle. That list includes Marvin Harrison Jr. (four targets on 11 snaps in his Houston debut), whose role will continue to expand, as well as a now-healthy Tank Dell. At best, Noel is a speculative bench stash, but there's not much upside in the short term.\n\nOver/under: 54.4 (3rd highest)\n\nWin probability: Texans 71% (5th highest)\n\nDenver Broncos @ Arizona Cardinals\nProjected score: Broncos 24, Cardinals 21\n\nLineup locks: Michael Wilson, Trey McBride\n\nFantasy Scoop: Wilson is a tricky evaluation after a very volatile start to the season. Arizona's top receiver appeared to be primed for a huge season after posting 11-89-1 and 7-95-0 receiving lines on a combined 30 targets during Weeks 3-4. However, he's seen exactly seven targets in his other four games, none of which resulted in more than 10.6 fantasy points. That includes a pair of duds since Harrison's departure, a 4-30-0 showing in an elite matchup against Detroit in Week 5 and a 4-32-0 line against the Trent McDuffie-less Rams last week.\n\nAlthough the production has been inconsistent, Wilson checks a lot of boxes, including ranking no lower than eighth among receivers in snaps, routes, target share, targets, end zone targets and air yards. As long as that keeps up, he'll find his way to plenty of big games. Wilson is a WR3 against Denver, though you should note that he'll be a candidate for shadow coverage from Pat Surtain II if the standout corner returns from injury.\n\nOver/under: 44.7 (11th highest)\n\nWin probability: Broncos 61% (7th highest)\n\nGreen Bay Packers @ Detroit Lions\nProjected score: Lions 30, Packers 28\n\nLineup locks: Jordan Love, Jared Goff, Jahmyr Gibbs, Amon-Ra St. Brown, Christian Watson, Matthew Golden, Sam LaPorta, Tucker Kraft\n\nFantasy Scoop: When we last saw the Lions in action (Week 5), Jameson Williams scored his only two touchdowns of the season during a 45-21 win over Arizona. It was Williams' second-consecutive game with 16-plus fantasy points after he fell short of 9.0 points in each of his first three games of the season. The good news is that Williams' playing time has been excellent (89% route participation), but the concern is that his targets have been extremely volatile. He's reached eight targets twice but has seen exactly four targets in the other three games (including the two-TD outing).\n\nWilliams' 15.4% target share is his lowest since 2023 and will need to increase in order to allow consistent fantasy production. The speedy receiver should be viewed as a WR3 this week against a Green Bay defense that sits middle of the pack in WR fantasy points allowed.\n\nOver/under: 58.2 (Highest)\n\nWin probability: Lions 60% (9th highest)\n\nLos Angeles Rams @ Las Vegas Raiders\nProjected score: Rams 29, Raiders 26\n\nLineup locks: Matthew Stafford, Kyren Williams, Ashton Jeanty, Puka Nacua, Brock Bowers\n\nFantasy Scoop: Davante Adams (hamstring) is expected to miss 6-10 weeks of action, which will free up roughly 20% of the Rams' targets and, perhaps more notably, a large chunk of the team's opportunities near the goal line as Adams has scored four touchdowns and is responsible for five of the team's nine end zone targets this season. Adams' absence figures to lead to even more reliance on Nacua, but it's possible the rest of usage is spread around to the team's depth receivers and tight ends.\n\nKonata Mumpfield is the next man up at receiver, but he managed only one good game while filling in for Adams during Weeks 16-18 last season (a 14-5-50-0 receiving line) and for Nacua during Weeks 2-3 this season (1-12-0 in Week 2, but 4-93-1 in Week 3). At best, Mumpfield is a speculative bench stash this weekend. TE duo Colby Parkinson and Tyler Higbee are now better bets to find the end zone, but the two share so much work that they don't make for viable fantasy starters either. Instead, keep Terrance Ferguson stashed on IR, as he could find his way into the TE1 mix if he's able to return in the near future.\n\nOver/under: 55.3 (2nd highest)\n\nWin probability: Rams 59% (10th highest)\n\nKansas City Chiefs @ Seattle Seahawks\nProjected score: Chiefs 25, Seahawks 22\n\nLineup locks: Kenneth Walker III, Jaxon Smith-Njigba, Xavier Worthy\n\nFantasy Scoop: After opening the season with 21.7 and 29.0 fantasy point efforts, Patrick Mahomes has faded to 15.9, 17.0 and 10.5 during his last three outings. Mahomes continues to play well, but the game script hasn't allowed much passing (no more than 30 passing attempts in four out of five games) and he hasn't added much with his legs (after posting a 7-23-1 rushing line in Week 1, he's totaled a 10-34-0 line over his last four games).\n\nWith Walker playing at an elite level, Kansas City has run a balanced offense (Andy Reid generally leans very pass-heavy) and has run the ball often near the goal line (56% of Chiefs touchdowns have been passes this year, compared to 69% during the prior Mahomes era). This week, Mahomes will face off with a Seattle defense that has allowed the fewest passing yards, lowest YPA (5.3) and second-fewest QB fantasy points this season. Seattle has held four of their opposing six QBs below 10.0 fantasy points.\n\nMahomes is a fringe fantasy starter most weeks but should absolutely be on benches against Seattle's elite defense.\n\nOver/under: 47.2 (8th highest)\n\nWin probability: Chiefs 58% (11th highest)\n\nDallas Cowboys @ Philadelphia Eagles\nProjected score: Cowboys 26, Eagles 21\n\nLineup locks: Javonte Williams, Saquon Barkley, CeeDee Lamb, DeVonta Smith, George Pickens\n\nFantasy Scoop: Tanner McKee made his first start in place of Jalen Hurts (IR) last week and it certainly could have gone worse from a fantasy perspective. The 2023 sixth-round pick was inefficient (4.8 YPA, 58.0 C%) but attempted 45 passes, which allowed a strong fantasy showing from Smith (7-75-1 on 14 targets) and a solid outing from Dallas Goedert (6-61-0 on eight targets).\n\nMcKee was competent enough that we can feel secure with keeping Smith as a lineup lock against a Dallas defense that has allowed the third-highest EPA against the pass, as well as the seventh-most fantasy points to receivers. Goedert, meanwhile, has managed 12 catches on 17 targets over the two games since his return from injury and remains a back-end TE1.\n\nOver/under: 47.2 (7th highest)\n\nWin probability: Cowboys 65% (6th highest)"
     },
     {
-      "story_id": "50255747",
-      "headline": "Transfer rumors, news: Barcelona to end up signing Sullivan?",
-      "summary": "Cavan Sullivan has a pre-contract agreement with Manchester City, but could Barcelona swoop up and sign the young American prospect? Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1735106_1296x729_16-9.jpg",
-      "published_utc": "2026-10-23T18:39:43Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "ESPN",
+      "story_id": "50264185",
+      "headline": "Jets bring 4-game losing streak into matchup against the Canadiens",
+      "summary": "Montreal Canadiens (5-3-2, in the Atlantic Division) vs. Winnipeg Jets (4-3-3, in the Central Division)",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401891807.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-24T08:10:49Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50255747/transfer-rumors-news-comos-paz-destroyed-man-united-now-want-sign-him",
+      "link": "http://www.espn.com/nhl/preview?gameId=401891807",
       "stream_url": "",
-      "body": "Barcelona are among several major European clubs tracking Philadelphia Union midfielder Cavan Sullivan, while Como attacking midfielder Nico Paz is being watched by Chelsea and Manchester United. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Barcelona are among several major European clubs tracking Philadelphia Union midfielder Cavan Sullivan, according to Sport. Although the United States international previously signed a pre-contract agreement to join Manchester City when he turns 18, uncertainty around City's financial sanctions has alerted Barcelona, Real Madrid, Chelsea, Liverpool and Paris Saint-Germain.\n\n- Manchester United are monitoring Como attacking midfielder Nico Paz ahead of next season, while Chelsea are also keen, Nicol\u00f2 Schira reports. Real Madrid hold an \u20ac80 million clause to re-sign him, which becomes valid in early July, but Como are eager to keep the 22-year-old Argentina international after his two goals and an assist in their 4-1 Champions League victory over Manchester United.\n\n- Chelsea are keeping tabs on Liverpool midfielder Florian Wirtz following advice from Xabi Alonso to stay attentive if his Anfield exit becomes possible, according to TEAMtalk. The Blues are currently maintaining a watching brief on the 23-year-old Germany international, while Liverpool remain determined to see his move succeed.\n\n- Galatasaray are pulling out of a potential move for Manchester United midfielder Bruno Fernandes, leaving Saudi Arabia as his most likely destination if he departs Old Trafford, per TEAMtalk. With less than a year on his contract and talks over a new deal not progressing, the 32-year-old's high wage demands restrict his options in Europe, whereas Al Hilal remain attentive.\n\n- Liverpool have held contact with representatives of Borussia Dortmund midfielder Felix Nmecha, reports Sky Germany. However, no formal offer is being prepared for the 26-year-old, with the Reds placing AS Monaco's Lamine Camara and Bournemouth's Alex Scott higher on their priority list.\n\nOther rumors\n- Aston Villa's Unai Emery and former Germany boss Julian Nagelsmann are considered top candidates for Manchester United if the club decide to replace head coach Michael Carrick. (Guardian)\n\n- Arsenal have revived their interest in Atl\u00e9tico Madrid winger \u00c1lex Baena ahead of a potential January move. (Football Transfers)\n\n- Liverpool are prepared to trigger their \u20ac55 million permanent transfer option for on-loan defender Ronald Ara\u00fajo if his strong performances continue. (Marca)\n\n- Manchester United, Manchester City, Brentford, Aston Villa, Newcastle United, Everton and Sunderland have all scouted 18-year-old Twente defender Ruud Nijstad. (TEAMtalk)\n\n- Chelsea youngster Kendry P\u00e1ez is ready to seek a departure during the January transfer window. (Nicol\u00f2 Schira)\n\n- Arda G\u00fcler has officially signed a new contract extension committing his future to Real Madrid until June 2032. (Fabrizio Romano)\n\n- Monaco midfielder Mamadou Coulibaly has emerged as a potential Napoli target to replace Andr\u00e9-Frank Zambo Anguissa, though the valuation remains a hurdle. (Gazzetta dello Sport)\n\n- Goalkeeper Michele Di Gregorio could move to Bologna as his loan spell at Bournemouth from Juventus continues to yield limited playing time. (Tuttosport)\n\n- RB Leipzig will trigger their mandatory permanent clause to sign Brajan Gruda in the second half of the season alongside an option for Neil El Aynaoui in a combined \u20ac50 million package. (Philipp Hinze)"
+      "body": "Montreal Canadiens (5-3-2, in the Atlantic Division) vs. Winnipeg Jets (4-3-3, in the Central Division)\n\n\r\nSunday, 7 p.m. EDT\n\n\r\nBOTTOM LINE: The Winnipeg Jets will try to stop their four-game slide when they take on the Montreal Canadiens.\n\n\r\nWinnipeg has gone 2-2-1 in home games and 4-3-3 overall. The Jets have a -3 scoring differential, with 26 total goals scored and 29 given up.\n\n\r\nMontreal has a 1-1-1 record in road games and a 5-3-2 record overall. The Canadiens have conceded 35 goals while scoring 32 for a -3 scoring differential.\n\n\r\nSunday's game is the first meeting between these teams this season.\n\n\r\nINJURIES: Jets: Garrett Brown: out (lower-body), Vladislav Namestnikov: out (undisclosed), Josh Morrissey: out (upper body).\n\n\r\nCanadiens: Florian Xhekaj: out (lower-body), Ivan Demidov: out (lower-body), Lucas Condotta: out (undisclosed), Nick Suzuki: out (upper body), Bryce Pickford: out (undisclosed), Samuel Montembeault: out (lower-body).\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
     },
     {
       "story_id": "50185821",
