@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-25T18:20:07.011778+00:00",
+  "generated_utc": "2026-10-25T18:30:16.716694+00:00",
   "events": [
     {
       "event_id": "nhl:2026020154",
@@ -7522,7 +7522,7 @@
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "start_utc": "2026-10-25T16:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:366",
         "name": "Sunderland",
@@ -7549,9 +7549,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Stadium of Light",
-      "detail": "90'+3'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7565,7 +7565,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-25T16:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:126",
         "name": "SC Freiburg",
@@ -7593,9 +7593,9 @@
         "color": "dc052d"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Europa-Park Stadion",
-      "detail": "90'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7637,7 +7637,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Via Del Mare",
-      "detail": "53'",
+      "detail": "64'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7681,9 +7681,9 @@
         "color": "aa0000"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Mercedes-Benz Stadium",
-      "detail": "0:06 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "nDaP4FGrcT8",
       "replay_url": "",
@@ -7729,7 +7729,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Nissan Stadium",
-      "detail": "2:17 - 2nd Quarter",
+      "detail": "0:25 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7773,9 +7773,9 @@
         "color": "003b75"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "U.S. Bank Stadium",
-      "detail": "0:03 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7865,9 +7865,9 @@
         "color": "bd1c36"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Bank of America Stadium",
-      "detail": "0:22 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7911,9 +7911,9 @@
         "color": "fb4f14"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "M&T Bank Stadium",
-      "detail": "0:46 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7959,7 +7959,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Reliant Stadium",
-      "detail": "2:23 - 2nd Quarter",
+      "detail": "0:44 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8015,8 +8015,19 @@
       "competition_id": "nascar",
       "competition_name": "NASCAR Cup Series",
       "start_utc": "2026-10-25T18:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
+        "id": "espn:None",
+        "name": "Austin Dillon",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Austin Dillon"
+        ],
+        "color": null
+      },
+      "away": {
         "id": "espn:None",
         "name": "Austin Hill",
         "abbrev": "",
@@ -8027,21 +8038,10 @@
         ],
         "color": null
       },
-      "away": {
-        "id": "espn:None",
-        "name": "Chase Briscoe",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-        "logo_dark": null,
-        "aliases": [
-          "Chase Briscoe"
-        ],
-        "color": null
-      },
       "source": "espn:racing/nascar-premier",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "",
-      "detail": "Sun, October 25th at 2:00 PM EDT",
+      "detail": "In Progress",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8085,7 +8085,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "United Center",
       "detail": "",
       "game_number": 1,
@@ -11720,20 +11720,6 @@
       "body": "Week 7 of the 2026 NFL season kicked off Thursday with Chicago Bears quarterback Caleb Williams finding a way to rescue his team in a 30-24 win against the New England Patriots on a night Bears fans remembered Mike Ditka.\n\nThe NFL's first game played in France kicked off early Sunday, with 42-year-old QB Aaron Rodgers leading the Pittsburgh Steelers (5-2) to a 16-10 win against the New Orleans Saints (2-5).\n\nSunday's afternoon slate has kicked off with seven games and three more are scheduled later this afternoon. And the \"Sunday Night Football\" matchup features the Kansas City Chiefs and Seattle Seahawks at 8:20 ET (NBC).\n\nCheck here for all the top plays and best moments Sunday's Week 7 games:"
     },
     {
-      "story_id": "50278436",
-      "headline": "Time, place unclear for Game 6 of Valkyries-Dream WNBA Finals",
-      "summary": "With the Valkyries forcing a Game 6 in the WNBA Finals, the Dream are working to resolve a scheduling issue that leaves the venue and time of the game up in the air.",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg",
-      "published_utc": "2026-10-25T18:09:19Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Alexa Philippou and Ramona Shelburne",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50278436/place-unclear-game-6-valkyries-dream-wnba-finals",
-      "stream_url": "",
-      "body": "After the Golden State Valkyries beat the Atlanta Dream 67-62 in Game 4 of the WNBA Finals on Saturday in Atlanta's State Farm Arena, tying the best-of-seven series at 2-2, one question was answered and another far more important question was raised.\n\nThere will definitively be a Game 6 in Atlanta. But nobody knows yet where or even when the game will be played despite a furious round of negotiations spilling into Sunday between the WNBA, NBA, Valkyries, Dream and Atlanta Hawks, sources told ESPN.\n\nThe Dream -- whose home venue of Gateway Center Arena has a capacity of approximately 3,500 -- have played all five home playoff games at the 17,000-seat State Farm Arena, home to and operated by the Hawks. Coordination between the leagues, teams and multiple media partners resulted in Games 3 and 4 of the Finals getting moved to State Farm Arena. Game 3 was shifted up a day, from Thursday to Wednesday, while the Hawks agreed to hold a double-header with the Dream and moved tip time of Saturday evening's home opener back 30 minutes.\n\nBut with the Hawks hosting the Cleveland Cavaliers at State Farm the night of Game 6, as well as other scheduling complications, the situation is more complex than what the leagues dealt with earlier in the series and could have millions of dollars of impact on both leagues.\n\n\"We continue to explore all options,\" a WNBA spokesperson told ESPN.\n\nA Dream spokesperson said Sunday, \"We are waiting to hear from the league if any changes can be made to allow us to play in State Farm Arena. If not, the game will be played in Gateway Center Arena.\"\n\nMultiple sources believe it's a real possibility that Game 6 will indeed be held on Thursday as scheduled at Gateway Center Arena in College Park.\n\n\"There are problems with all the solutions,\" one source close to the situation said.\n\nSources told ESPN that the NBA has been working with the Hawks and Cavaliers to determine if Thursday's game could be switched to an alternate date - or even to Cleveland. While some stakeholders feel the onus should be on the NBA to move their regular season games so that WNBA Finals games can be prioritized, there's been pushback from others that the domino effects of moving that game are too complicated.\n\nThursday's Hawks-Cavs game is already a back-to-back for both teams: The Hawks host the Miami Heat at State Farm on Wednesday, while the Cavs have a home game on Oct. 28 prior to traveling to Atlanta. Moving Thursday's game to Cleveland is a radical idea that's been discussed, sources said, but it would create a home-road back to back for the Hawks in addition to the logistical nightmare of scheduling a new home game in Cleveland with just a few days' notice.\n\nAfter the Oct. 29 Hawks game, Cleveland is also supposed to play Oct. 31 in Milwaukee, which could also be hosting Games 6 and 7 of the World Series. An additional wrinkle is that Fridays are NBA Cup exclusive games, but Hawks-Cavs is a non-Cup game.\n\nState Farm Arena has open dates on Oct. 27 -- the day after Golden State hosts Game 5 -- and Oct. 30. One proposal would move Game 6 of the WNBA Finals to Friday, Oct. 30 and Game 7, if necessary, from Saturday, Oct. 31 at Chase Center to Tuesday, Nov. 3.\n\nThe WNBA would support that proposal, but only if both teams agree to it, sources said.\n\nThe Valkyries have raised concerns about moving two WNBA Finals games and the three off days that proposal would create in between Games 5 and 6 as well as between Games 6 and 7, sources said.\n\n\"We're proud to be part of such a compelling Finals and love seeing the growth of the game,\" a Valkyries spokesperson said in a statement. \"We fully support what's best for the league and will stand behind whatever it decides.\"\n\nPlaying a Game 7 on Nov. 3 would also conflict with a recent NBA policy of not holding games on Election Day, although sources said that does not currently appear to be a strong concern.\n\nAvailability at Chase Center is also not abundant. The Golden State Warriors -- whose ownership group also owns the Valkyries -- currently have home games scheduled against the LA Clippers on Sunday, Nov. 1 and Phoenix Suns on Monday, Nov. 2.\n\nWhile they don't share an ownership group with the Dream, the Hawks have expressed a desire to help facilitate the WNBA Finals in their arena, as they did for Games 3 and 4, sources said. The Dream will be a full-time tenant at State Farm Arena beginning in 2027, the team announced earlier this month, which should make holding playoff dates in the future more seamless.\n\nThere has been discussion about moving Thursday's game to a matinee, like Game 4 was, sources said. The Hawks have been open to facilitating another doubleheader at State Farm Arena, but other sources said the league believes the idea of a weekday matinee for a Finals game would not be as desirable compared to a weekend matinee.\n\nOther Atlanta-area alternate arenas -- such as Georgia Tech's McCamish Pavilion or Gas South Arena in Duluth -- aren't viewed as ideal since they would feel like road games for both teams.\n\nBoth games in Atlanta sold out quickly once the games were moved to State Farm Arena. Fans wanting to purchase tickets for Game 6 have been told to wait for a resolution to the scheduling conflicts, sources said.\n\nWhile it is not uncommon for WNBA playoff games to be moved to alternate sites because of arena commitments to NBA games or other events, sources on all sides of this situation expressed frustration that these issues hadn't been resolved prior to Saturday.\n\n\"This should've been solved weeks ago, and definitely at the same time Games 3 and 4 were solved,\" one source said.\n\nSaid another: \"The fact we are making these decisions so we can play a WNBA game at a larger arena is the best news of all... it just has to be scheduled better in advance. Moving games is much harder now than it would have been a week ago.\""
-    },
-    {
       "story_id": "50278421",
       "headline": "Harry Maguire: Man United players are 'fully behind' Michael Carrick",
       "summary": "Harry Maguire has said that he and his teammates are \"fully behind\" Michael Carrick after Manchester United slumped to a 3-0 home defeat to Bournemouth on Sunday.",
@@ -11802,6 +11788,20 @@
       "link": "https://www.espn.com/nhl/story/_/id/50265164/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
       "stream_url": "",
       "body": "After Saturday's dozen contests, the NHL offers a smaller slate Sunday, but there are some captivating matchups on the docket.\n\nThat includes the Heritage Classic -- the All-Canadian outdoor matchup held at Princess Auto Stadium in Winnipeg this season -- along with some interconference pairings and a GM taking on his old team. (Well, he's not ... but his new team is. You get it.)\n\nHere's a look at what you need to know for each game, including betting info and broadcast details:\n\nOdds are provided by DraftKings and subject to change.\n\nFlorida Panthers at Chicago Blackhawks\n\n3 p.m. ET (ESPN+) | FLA -180, O/U: 6.5\n\nSpencer Knight revenge game? The Connecticut native served as Sergei Bobrovsky's backup during the early part of his career but was traded to the Blackhawks in March 2025 as part of the package for Seth Jones. The Panthers would go on to win another cup that spring, while Knight is now backstopping Chicago through an ongoing rebuild.\n\nThe Panthers started the season 5-2-1 (including an OT win over the defending champs on opening night) but have lost two straight by an aggregate score of 9-1. Meanwhile, the Blackhawks are 2-2 since Connor Bedard's return this season. Which side earns the vital two points in this one?\n\nNew York Islanders at Dallas Stars\n\n6 p.m. ET (ESPN+) | DAL -198, O/U: 5.5\n\nPeter DeBoer revenge game? After guiding the Stars to three straight Western Conference finals appearances, the coach was unceremoniously dumped in the 2025 offseason. This will be his first game against his former team since that split.\n\nBut beyond that narrative, this could also feature a matchup between two of the NHL's top goaltenders: Dallas' Jake Oettinger (5-2-1, with a 1.23 goals-against average and .939 save percentage) and New York's Ilya Sorokin (5-2-0, 1.72, .934). And in front of those tenders, two of the game's elite defensemen will be plying their trade: Miro Heiskanen of the Stars and Matthew Schaefer of the Isles.\n\nMontreal Canadiens at Winnipeg Jets\n\n7 p.m. ET (TNT) | MTL -122, O/U: 5.5\n\nAs the teams head outdoors to skate in front of thousands of very cold fans, neither is in playoff position; that's perhaps not a surprise for the Jets, who had modest expectations, but it's shocking for the Habs, who some believe to be the best team in the Atlantic.\n\nSo we'll see how this game plays out between these two teams (in their special uniforms). Also of note: This is the first game the Jets will play following the Connor Hellebuyck trade; he had not suited up for them this season, but perhaps the psychological burden of the uncertainty will be lifted?\n\nColorado Avalanche at Nashville Predators\n\n8 p.m. ET (ESPN+) | COL -230, O/U: 6.5\n\nChris MacFarland revenge game? Well, that's a stretch. The new Predators GM left the Avs on his own accord -- and then made some notable trades with his former boss Joe Sakic, including acquiring Jack Drury and Ross Colton among others heading in both directions.\n\nTo no one's surprise, the Avs are right in the mix for a playoff spot, while the Preds are a few points back. Do they make up any ground here -- and do Drury and Colton make the difference?\n\nMinnesota Wild at Vancouver Canucks\n\n10 p.m. ET (ESPN+) | MIN -180, O/U: 6.5\n\nCanuck fans revenge game? Here's what Greg Wyshynski had to say in citing this as a must-see game in the Wysh List this week:\n\n\"Now that we've seen how Ottawa fans have greeted the return of a former captain who was traded to play with his brother after informing his team he wasn't going to sign a new contract with them, Quinn Hughes plays in Vancouver for the first time following those exact circumstances. Well, save for the whole 'playing with his brothers' thing. That comes later.\"\n\nOn paper, this does not look like a very close game -- but we'll make note here that these very same Wild lost 2-1 to the Flames on Thursday, and they'll be skating in this one 24 hours after taking on the surprising Kraken.\n\nReminder: Fans can catch all the action in the NHL streaming hub and on the ESPN App.\n\nJump ahead:\n\nTop NHL stories\n\nLast night's scores\n\nNHL stats leaders\n\nToday in hockey history\n\nTop stories around the NHL\n\nHere's what you need to know:\n\nThe latest Wysh List column, on the rise in fighting this season.\nIt's a fantasy hockey takeover of the Power Rankings! Sean Allen and Victoria Matiash identify a worthy pickup from each team.\nConnor Hellebuyck has been traded to the Devils. Ryan S. Clark grades both teams on the swap.\n\"This will be a real fun game\": How Brady Tkachuk (and the Senators) prepared for his Ottawa return.\n\"It's obviously been crazy. But it's been a lot of fun.\" That's Dylan Garand to Wyshynski in Monday's feature.\nNikita Kucherov passed Steven Stamkos to become the Lightning's all-time points leader.\nCanadiens captain Nick Suzuki will be out two to four weeks with an upper-body injury.\nDylan Larkin has expanded his trade list to 10 teams\n\nSaturday's scoreboard\nAnaheim Ducks 5, Philadelphia Flyers 4\n\nNew Jersey Devils 3, Los Angeles Kings 1\n\nBoston Bruins 6, San Jose Sharks 4\n\nOttawa Senators 7, New York Rangers 4\n\nPittsburgh Penguins, Nashville Predators (OT)\n\nWashington Capitals 4, Buffalo Sabres 3\n\nColumbus Blue Jackets 2, Vegas Golden Knights 1 (OT)\n\nCarolina Hurricanes 4, St. Louis Blues 0\n\nToronto Maple Leafs 7, Edmonton Oilers 2\n\nUtah Mammoth 5, Tampa Bay Lightning 4 (OT)\n\nCalgary Flames 4, Detroit Red Wings 1\n\nMinnesota Wild 5, Seattle Kraken 1\n\nNHL scoring leaders\n\nClick here for full list of stats leaders.\n\nNHL goaltending leaders\n\nClick here for the full list of goaltender stats.\n\nToday in hockey history\nToday marks the 35-year anniversary of one of the most consequential trades in the 1990s. On Oct. 25, 1991, the New York Islanders sent Pat LaFontaine, Randy Hillier, Randy Wood and a fourth-round draft pick to the Buffalo Sabres in exchange for Pierre Turgeon, Uwe Krupp, Benoit Hogue and Dave McElwain.\n\nAfter 566 points in 530 games for the Isles, Hall of Famer LaFontaine would add 385 in 268 for the Sabres. He'd finish his career by skating for the third NHL team in New York State, the Rangers, scoring 62 points in 67 games in 1997-98."
+    },
+    {
+      "story_id": "50274514",
+      "headline": "Golden State, Atlanta tied 2-2 heading into game 5",
+      "summary": "Atlanta Dream (30-14, 15-5 Eastern Conference) at Golden State Valkyries (32-12, 15-8 Western Conference)",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918309.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-25T06:09:49Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/wnba/preview?gameId=401918309",
+      "stream_url": "",
+      "body": "Atlanta Dream (30-14, 15-5 Eastern Conference) at Golden State Valkyries (32-12, 15-8 Western Conference)\n\nSan Francisco; Monday, 8 p.m. EDT\n\nLINE: Valkyries -1.5; over/under is 150.5\n\nWNBA FINALS: Series tied 2-2\n\nBOTTOM LINE: The Atlanta Dream visit the Golden State Valkyries for game five of the WNBA Finals with the series tied 2-2. The Valkyries beat the Dream 67-62 in the last matchup. Gabby Williams led the Valkyries with 17 points, and Rhyne Howard led the Dream with 19 points.\n\nThe Valkyries have gone 17-5 at home. Golden State leads the WNBA allowing only 75.1 points per game while holding opponents to 41.4% shooting.\n\nThe Dream are 15-7 in road games. Atlanta is second in the Eastern Conference scoring 91.3 points per game and is shooting 44.2%.\n\nGolden State is shooting 42.2% from the field this season, 4.7 percentage points lower than the 46.9% Atlanta allows to opponents. Atlanta has shot at a 44.2% rate from the field this season, 2.8 percentage points greater than the 41.4% shooting opponents of Golden State have averaged.\n\nTOP PERFORMERS: Veronica Burton is averaging 12.2 points, 5.7 assists and 1.6 steals for the Valkyries. Williams is averaging 20.8 points over the last 10 games.\n\nAngel Reese is averaging 16.4 points, 12.1 rebounds and 1.8 steals for the Dream. Howard is averaging 15.6 points over the last 10 games.\n\nLAST 10 GAMES: Valkyries: 7-3, averaging 79.3 points, 37.2 rebounds, 15.5 assists, 7.1 steals and 4.8 blocks per game while shooting 38.7% from the field. Their opponents have averaged 78.1 points per game.\n\nDream: 8-2, averaging 84.8 points, 34.0 rebounds, 19.1 assists, 9.6 steals and 3.9 blocks per game while shooting 40.3% from the field. Their opponents have averaged 75.1 points.\n\nINJURIES: Valkyries: Iliana Rupert: out for season (pregnancy).\n\nDream: Brionna Jones: out for season (leg).\n\n------\n\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
     },
     {
       "story_id": "50272841",
@@ -11888,20 +11888,6 @@
       "body": ""
     },
     {
-      "story_id": "50274514",
-      "headline": "Golden State, Atlanta tied 2-2 heading into game 5",
-      "summary": "Atlanta Dream (30-14, 15-5 Eastern Conference) at Golden State Valkyries (32-12, 15-8 Western Conference)",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918309.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-25T06:09:49Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/preview?gameId=401918309",
-      "stream_url": "",
-      "body": "Atlanta Dream (30-14, 15-5 Eastern Conference) at Golden State Valkyries (32-12, 15-8 Western Conference)\n\nSan Francisco; Monday, 8 p.m. EDT\n\nLINE: Valkyries -1.5; over/under is 150.5\n\nWNBA FINALS: Series tied 2-2\n\nBOTTOM LINE: The Atlanta Dream visit the Golden State Valkyries for game five of the WNBA Finals with the series tied 2-2. The Valkyries beat the Dream 67-62 in the last matchup. Gabby Williams led the Valkyries with 17 points, and Rhyne Howard led the Dream with 19 points.\n\nThe Valkyries have gone 17-5 at home. Golden State leads the WNBA allowing only 75.1 points per game while holding opponents to 41.4% shooting.\n\nThe Dream are 15-7 in road games. Atlanta is second in the Eastern Conference scoring 91.3 points per game and is shooting 44.2%.\n\nGolden State is shooting 42.2% from the field this season, 4.7 percentage points lower than the 46.9% Atlanta allows to opponents. Atlanta has shot at a 44.2% rate from the field this season, 2.8 percentage points greater than the 41.4% shooting opponents of Golden State have averaged.\n\nTOP PERFORMERS: Veronica Burton is averaging 12.2 points, 5.7 assists and 1.6 steals for the Valkyries. Williams is averaging 20.8 points over the last 10 games.\n\nAngel Reese is averaging 16.4 points, 12.1 rebounds and 1.8 steals for the Dream. Howard is averaging 15.6 points over the last 10 games.\n\nLAST 10 GAMES: Valkyries: 7-3, averaging 79.3 points, 37.2 rebounds, 15.5 assists, 7.1 steals and 4.8 blocks per game while shooting 38.7% from the field. Their opponents have averaged 78.1 points per game.\n\nDream: 8-2, averaging 84.8 points, 34.0 rebounds, 19.1 assists, 9.6 steals and 3.9 blocks per game while shooting 40.3% from the field. Their opponents have averaged 75.1 points.\n\nINJURIES: Valkyries: Iliana Rupert: out for season (pregnancy).\n\nDream: Brionna Jones: out for season (leg).\n\n------\n\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
-    },
-    {
       "story_id": "50278357",
       "headline": "Brighton's Fabian H\u00fcrzeler digs at Liverpool - 'one team' tried to create",
       "summary": "Brighton & Hove Albion boss Fabian Hurzeler appeared to take a swipe at Liverpool's approach in their 2-0 win over his side at Anfield, claiming there was \"one team\" who tried to create.",
@@ -11970,6 +11956,20 @@
       "link": "http://www.espn.com/nhl/preview?gameId=401892583",
       "stream_url": "",
       "body": "Toronto Maple Leafs (7-4-2, in the Atlantic Division) vs. Calgary Flames (4-6, in the Pacific Division)\n\n\r\nCalgary, Alberta; Monday, 8:30 p.m. EDT\n\n\r\nBOTTOM LINE: The Toronto Maple Leafs visit the Calgary Flames after William Nylander's two-goal game against the Edmonton Oilers in the Maple Leafs' 7-2 win.\n\n\r\nCalgary has gone 2-3-0 at home and 4-6 overall. The Flames are 1-4-0 when they commit more penalties than their opponent.\n\n\r\nToronto has a 2-1-1 record on the road and a 7-4-2 record overall. The Maple Leafs have committed 54 total penalties (4.2 per game) to rank fifth in league play.\n\n\r\nThe teams meet Monday for the first time this season.\n\n\r\nINJURIES: Flames: Jonathan Huberdeau: out (hip), Mikael Backlund: day to day (upper body), Samuel Honzek: out (lower-body).\n\n\r\nMaple Leafs: John Tavares: out (lower body), Dakota Joshua: out (abdomen), Cade Webber: out (elbow), Elvis Merzlikins: out (shoulder), Max Domi: out (back), Miles Wood: out (undisclosed), Chris Tanev: out (upper body), Nick Blankenburg: out (undisclosed), William Villeneuve: out (knee), Marshall Rifai: out (lower body).\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
+    },
+    {
+      "story_id": "48417601",
+      "headline": "WNBA Finals odds: Valkyries, Gabby Williams gain ground after Game 4 win",
+      "summary": "Golden State pulled close to even with Atlanta for the odds to claim the WNBA championship after winning Game 4.",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735651_1296x729_16-9.jpg",
+      "published_utc": "2026-10-24T23:06:08Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Doug Greenberg",
+      "source": "ESPN",
+      "link": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+      "stream_url": "",
+      "body": "We have a series. After dropping Game 2 of the 2026 WNBA Finals at home, the Golden State Valkyries struck back with a road win Saturday in Game 4 against the Atlanta Dream, tying the series at 2-2 and drawing close on the odds board for the WNBA champion. The Valkyries, now -105 to win the title, began the series favored at -125, while the Dream were the +105 underdogs. Atlanta is the slight favorite (-115) heading into Game 5.\n\nAtlanta began the campaign with solid +650 odds to win the Finals, fourth on the odds board, but Golden State came in at a much longer 45-1, ninth on the board, in just its second season of existence.\n\nAngel Reese (-105) is the favorite for Finals MVP by the slimmest of margins, while Gabby Williams (+100) is right behind. With the rest of the field at 40-1 or longer odds, it appears bookmakers believe one of those two will win the honor based on whoever takes home her respective franchise's first title.\n\nThe series now shifts back to Golden State, where the home team is a 1.5-point favorite on the spread and just -112 on the moneyline. Atlanta comes in at -108 and the over/under is set at 149.5.\n\nOdds by DraftKings and subject to change.\n\nFinals MVP odds\nAngel Reese, ATL: -105\n\nGabby Williams, GS: +100\n\nRhyne Howard, ATL: 40-1\n\nAllisha Gray, ATL: 40-1\n\nVeronica Burton, GS: 45-1\n\nJordin Canada, ATL: 55-1\n\nDeWanna Bonner, ATL: 200-1\n\nTiffany Hayes, GS: 250-1"
     },
     {
       "story_id": "50272937",
