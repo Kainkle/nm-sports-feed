@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-25T20:06:37.176651+00:00",
+  "generated_utc": "2026-10-25T20:16:46.431500+00:00",
   "events": [
     {
       "event_id": "nhl:2026020154",
@@ -7646,12 +7646,58 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401873017",
+      "event_id": "espn:football:401873016",
       "sport": "football",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-10-25T17:00Z",
       "status": "live",
+      "home": {
+        "id": "espn:34",
+        "name": "Houston Texans",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Texans",
+          "Texans"
+        ],
+        "color": "021018"
+      },
+      "away": {
+        "id": "espn:19",
+        "name": "New York Giants",
+        "abbrev": "NYG",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+        "logo_dark": null,
+        "aliases": [
+          "Giants",
+          "NYG",
+          "New York",
+          "New York Giants"
+        ],
+        "color": "003c7f"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "Reliant Stadium",
+      "detail": "10:00 - OT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401873017",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-25T17:00Z",
+      "status": "final",
       "home": {
         "id": "espn:1",
         "name": "Atlanta Falcons",
@@ -7681,9 +7727,9 @@
         "color": "aa0000"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mercedes-Benz Stadium",
-      "detail": "1:29 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "nDaP4FGrcT8",
       "replay_url": "",
@@ -7697,7 +7743,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-10-25T17:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:10",
         "name": "Tennessee Titans",
@@ -7727,11 +7773,57 @@
         "color": "472a08"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Nissan Stadium",
-      "detail": "0:03 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401873014",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-25T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:16",
+        "name": "Minnesota Vikings",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Vikings",
+          "Vikings"
+        ],
+        "color": "4f2683"
+      },
+      "away": {
+        "id": "espn:11",
+        "name": "Indianapolis Colts",
+        "abbrev": "IND",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+        "logo_dark": null,
+        "aliases": [
+          "Colts",
+          "IND",
+          "Indianapolis",
+          "Indianapolis Colts"
+        ],
+        "color": "003b75"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "U.S. Bank Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "4PyjDuD7-4I",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -7784,144 +7876,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401873012",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-25T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:33",
-        "name": "Baltimore Ravens",
-        "abbrev": "BAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-        "logo_dark": null,
-        "aliases": [
-          "BAL",
-          "Baltimore",
-          "Baltimore Ravens",
-          "Ravens"
-        ],
-        "color": "29126f"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Cincinnati Bengals",
-        "abbrev": "CIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bengals",
-          "CIN",
-          "Cincinnati",
-          "Cincinnati Bengals"
-        ],
-        "color": "fb4f14"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "M&T Bank Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873016",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-25T17:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:34",
-        "name": "Houston Texans",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Texans",
-          "Texans"
-        ],
-        "color": "021018"
-      },
-      "away": {
-        "id": "espn:19",
-        "name": "New York Giants",
-        "abbrev": "NYG",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "NYG",
-          "New York",
-          "New York Giants"
-        ],
-        "color": "003c7f"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Reliant Stadium",
-      "detail": "0:52 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873014",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-10-25T17:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:16",
-        "name": "Minnesota Vikings",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Vikings",
-          "Vikings"
-        ],
-        "color": "4f2683"
-      },
-      "away": {
-        "id": "espn:11",
-        "name": "Indianapolis Colts",
-        "abbrev": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-        "logo_dark": null,
-        "aliases": [
-          "Colts",
-          "IND",
-          "Indianapolis",
-          "Indianapolis Colts"
-        ],
-        "color": "003b75"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "U.S. Bank Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401873018",
       "sport": "football",
       "competition_id": "nfl",
@@ -7959,6 +7913,52 @@
       "source": "espn:football/nfl",
       "source_status": "post/Final",
       "venue": "Bank of America Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401873012",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-10-25T17:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:33",
+        "name": "Baltimore Ravens",
+        "abbrev": "BAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAL",
+          "Baltimore",
+          "Baltimore Ravens",
+          "Ravens"
+        ],
+        "color": "29126f"
+      },
+      "away": {
+        "id": "espn:4",
+        "name": "Cincinnati Bengals",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bengals",
+          "CIN",
+          "Cincinnati",
+          "Cincinnati Bengals"
+        ],
+        "color": "fb4f14"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "M&T Bank Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -8029,12 +8029,12 @@
       },
       "away": {
         "id": "espn:None",
-        "name": "Riley Herbst",
+        "name": "Brad Keselowski",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
-          "Riley Herbst"
+          "Brad Keselowski"
         ],
         "color": null
       },
@@ -8130,7 +8130,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/First Half",
       "venue": "Stadio Friuli",
-      "detail": "21'",
+      "detail": "31'",
       "game_number": 1,
       "highlight_video_id": "nVZiqBqoXQA",
       "replay_url": "",
@@ -8172,7 +8172,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/First Half",
       "venue": "Spotify Camp Nou",
-      "detail": "4'",
+      "detail": "14'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8218,7 +8218,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "State Farm Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "11:00 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11710,21 +11710,35 @@
       "headline": "Week 7 NFL highlights: Best plays, moments, touchdowns, more",
       "summary": "Check here for Sunday's top moments and TDs from J.J. McCarthy, Bucky Irving, Jonathan Taylor, Aaron Rodgers and more.",
       "image": "https://a.espncdn.com/photo/2026/1025/r1735980_1296x729_16-9.jpg",
-      "published_utc": "2026-10-25T19:54:50Z",
+      "published_utc": "2026-10-25T20:13:57Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "NFL Nation",
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/50275344/week-7-sunday-highlights-best-plays-touchdowns-2026",
       "stream_url": "",
-      "body": "Week 7 of the 2026 NFL season kicked off Thursday with Chicago Bears quarterback Caleb Williams finding a way to rescue his team in a 30-24 win against the New England Patriots on a night Bears fans remembered Mike Ditka.\n\nThe NFL's first game played in France kicked off early Sunday, with 42-year-old QB Aaron Rodgers leading the Pittsburgh Steelers (5-2) to a 16-10 win against the New Orleans Saints (2-5).\n\nSunday's afternoon slate has kicked off with seven games and three more are scheduled later this afternoon. And the \"Sunday Night Football\" matchup features the Kansas City Chiefs and Seattle Seahawks at 8:20 ET (NBC).\n\nCheck here for all the top plays and best moments Sunday's Week 7 games:"
+      "body": "Week 7 of the 2026 NFL season kicked off Thursday with Chicago Bears quarterback Caleb Williams finding a way to rescue his team in a 30-24 win against the New England Patriots on a night Bears fans remembered Mike Ditka.\n\nThe NFL's first game played in France kicked off early Sunday, with 42-year-old QB Aaron Rodgers leading the Pittsburgh Steelers (5-2) to a 16-10 win against the New Orleans Saints (2-5).\n\nSunday's afternoon slate had seven games and three more are scheduled later this afternoon. And the \"Sunday Night Football\" matchup features the Kansas City Chiefs and Seattle Seahawks at 8:20 ET (NBC).\n\nCheck here for all the top plays and best moments Sunday's Week 7 games:"
+    },
+    {
+      "story_id": "50279725",
+      "headline": "Sixers overrule Embiid, sit center with plantar fasciitis management",
+      "summary": "Despite publicly calling to play Sunday against the Pistons, the 76ers decided to sit Joel Embiid due to right foot plantar fasciitis management.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/ss_20261023_104509647_3706740/ss_20261023_104509647_3706740.jpg",
+      "published_utc": "2026-10-25T20:10:44Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Kris Rhim",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50279725/76ers-rule-embiid-plantar-fasciitis-management",
+      "stream_url": "",
+      "body": "PHILADELPHIA -- A day after Philadelphia 76ers center Joel Embiid asked reporters to campaign for him to play in Sunday's game against Detroit -- the second of the Sixers' first back-to-back this season -- the 76ers ruled out Embiid for Sunday night's game against the Detroit Pistons with right foot plantar fasciitis management. \u200b\n\n\"I actually want to play tomorrow, so can you guys put pressure on them,\" Embiid said with a smile after Saturday's win over the Milwaukee Bucks. \"... I want to play tomorrow, so start writing articles and put pressure on them so they'll let me play.\"\n\nThe Sixers decided against Embiid's wishes, as they look to keep the former MVP healthy for a long season. Embiid, plagued by various injuries, has averaged just 49 games per season over his 10 years.\n\nIn their win over the Bucks Saturday, Embiid had his tenth career triple double, finishing with 28 points, 11 rebounds and 10 assists. Having him sidelined is a significant blow to the Sixers' already thin frontcourt.\n\nPhiladelphia also ruled out big men Dominick Barlow (back), Jabari Walker (knee), and Tacko Fall (quad). Walker injured his left knee in Saturday's win, exiting the game in the third quarter. That leaves Adem Bona as the team's only true center active on Sunday. Forward Dean Wade, who made his season debut on Saturday, will likely play some center, and LeBron James, who missed Saturday's game with sciatica management, has no injury designation and can also help out at the center spot.\n\nThe Pistons will be without All-NBA center Jalen Duren, who the team said has a hamstring injury and will be out for at least two weeks."
     },
     {
       "story_id": "50259831",
       "headline": "United States Grand Prix LIVE! F1 race updates in Austin, commentary and results",
       "summary": "Kimi Antonelli starts the United States Grand Prix on pole position from Max Verstappen.",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736051_1296x729_16-9.jpg",
-      "published_utc": "2026-10-25T19:42:44Z",
+      "image": "https://a.espncdn.com/photo/2026/1023/r1735089_1296x729_16-9.jpg",
+      "published_utc": "2026-10-25T20:06:35Z",
       "competition_id": "f1",
       "competition_name": "Formula 1",
       "byline": "Alicia Turner",
@@ -11760,20 +11774,6 @@
       "link": "http://www.espn.com/soccer/report/_/gameId/401878764",
       "stream_url": "",
       "body": "Sunderland and Leeds were forced to share the spoils in a goalless stalemate at the Stadium of Light.\n\nA scrappy first half saw Brian Brobbey have two promising opportunities to put the Black Cats ahead but he was denied both times by James Trafford.\n\nBoth sides threatened after the break and Nilson Angulo enjoyed the better chances for Sunderland before Ao Tanaka came close for the visitors.\n\nA point snaps the Wearsiders' four-game losing run in the Premier League but they remain bottom of the standings, while Leeds stay in the top half of the table, sat seventh.\n\nBrobbey made his return from injury with a place in the starting line-up as one of six changes from Sunderland's midweek Europa League draw against Lech Poznan and Daniel Farke made three switches to the side who drew 1-1 with Manchester United last weekend.\n\nLeeds sniffed around the Sunderland box in the early stages as Jayden Bogle skewed wide and Harry Wilson's free-kick was met by Jaka Bijol, but his flicked header was easily held by Robin Roefs.\n\nThe Black Cats had an excellent opportunity to take the lead when Brobbey fired towards the bottom left corner, forcing Trafford into a low save.\n\nBrobbey was in the thick of the action again, pouncing on the ball following a tame exchange of passes between the Leeds defence, and Trafford was quick off his line to block the striker's shot.\n\nThe chance spurred Sunderland on as they enjoyed a bright spell around the Leeds box, but neither side was able to put a shot away as the half petered out.\n\nA bizarre incident at the start of the second half saw Nordi Mukiele caught around the throat by team-mate Luke O'Nien and the defender was forced off, with Omar Alderete replacing him seven minutes after the restart.\n\nThe centre-half was immediately called into action to clear a dangerous Leeds delivery into the area and Sunderland were forced to scramble away an overhead kick attempt from Brenden Aaronson.\n\nTarik Muharemovic's header from a corner was held by Roefs as Leeds continued to pile on the pressure.\n\nAngulo had a fierce effort pushed away by Trafford and minutes later the winger was again denied by a diving save from the Leeds goalkeeper.\n\nAn inswinging corner from Granit Xhaka was cleared as far as Angulo, who had another effort blocked for the Black Cats.\n\nLeeds broke through substitute Anton Stach down the middle and a cross from Bogle on the right was hooked away at the back post by Noah Sadiki.\n\nTanaka's shot was stopped by Roefs and O'Nien and Dominic Calvert-Lewin raced for the loose ball, which was eventually cleared.\n\nA mistake at the back nearly allowed Chemsdine Talbi through, but the substitute's strike was blocked by Bijol.\n\nIn the final minutes, Sean Longstaff was denied by a low stop from Roefs and the midfielder had a strike blocked by bodies in front of the goal line as the points were shared."
-    },
-    {
-      "story_id": "50275279",
-      "headline": "Sunday's fantasy basketball adds and bets to make in the NBA",
-      "summary": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735906_576x324_16-9.jpg",
-      "published_utc": "2026-10-25T16:48:18Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Jim McCormick",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/basketball/story/_/id/50275279/fantasy-basketball-tips-nba-betting-picks-today",
-      "stream_url": "",
-      "body": "ESPN's basketball daily cheat sheet is your pregame destination before you lock in daily fantasy and betting decisions for that night's games. Here you'll find our top insights for the slate, including players to target for your daily fantasy rosters, along with game-by-game injury reports.\n\nWhat you need to know for Sunday\nA seven-game Sunday slate features a series of potential competitive contests. Only one game on the docket claims a double-digit point spread -- a departure from a Saturday field that was full of large lines. The marquee matchup of the day features the Minnesota Timberwolves hosting the Toronto Raptors in a meeting of deep, darkhorse contenders.\n\nClose games bode well for developing fantasy and betting angles, as rotations and workloads prove more predictable in competitive games. A good place to start during a busy day of basketball is the injury report, which tells us that we won't see Paolo Banchero, Zach Edey or Jalen Duren playing for their respective teams. Joel Embiid, meanwhile, is set to rest for the second leg of a back-to-back series for the Philadelphia 76ers.\n\nWhile we're still learning how each rotation and coaching staff will react to the absence of big names from the gameplan, we can proactively make some decisions based on precedent and prediction.\n\nFor the Orlando Magic, a proven veteran big man is due for more minutes and work in the wake of Banchero's ankle injury, as you'll read below. What will Memphis do sans Edey? How will Detroit cope with being sans their interior anchor in South Philly tonight?\n\nAnd, those 76ers don't have a one-to-one backup for Embiid like they did in seasons past in the form of Andre Drummond. They will instead likely turn to a collective and small-ball looks -- possible even some featuring LeBron at center. We'll learn a lot today about all of these sides, which can serve us in future slates, as well.\n\nWith an eye toward uncovering compelling betting angles and fantasy decisions, let's take a look at the day ahead in the NBA.\n\nFantasy stream team -- widely available players worth adding\nWendell Carter Jr., C, Orlando Magic (rostered in 23.5% of ESPN leagues)\nWith Banchero in street clothes for tonight's tilt with the New York Knicks, Carter should see more minutes, rebounding chances, and post touches as a result. The Knicks lack the interior defense and rebounding from last season's run, supporting confidence in double-double upside for this veteran big.\n\nPaul Reed, C/PF, Detroit Pistons (14.2%)\nAssuming Philadelphia decides to rest Embiid in the second game of a back-to-back, they will likely turn to a number of different looks to cover for him. Reed, who will consume a good bit of the work reserved for Duren, would then be facing a 76ers lineup badly lack rebounding acumen, establishing a nice floor for this active and unique frontcourt talent. It also helps that there is a fun narrative in play, as \"B-ball Paul\" began his career in Philly.\n\nEgor Demin, PG/SG, Brooklyn Nets (48.3%)\nThe Nets haven't had many promising prospects in this recent era of drafting. Demin represents the closest thing to a rising playmaker, as he's capable of creating for both himself and others. Such a skill set is rare for this Nets group, which helps Demin project as a rewarding pickup for today's matchup with the uptempo Indiana Pacers.\n\nJalen Suggs, PG/SG, Magic (31.3%)\nIndependently valuable as a two-way guard when he's hot from the field, Suggs flashed more offense in Game 2 of the season and should take on more work today with the team's top star missing. Suggs can deliver a fun fantasy line even without much scoring, which is nice when looking to finish out the fantasy week in category formats.\n\nJim's bets to make on Sunday\nWalker Kessler OVER 26.5 combined points and rebounds\n\nRevenge narratives are usually overblown, but this setup -- with Kessler facing the Utah Jazz -- proves intriguing. The Jazz, without their incumbent starting center Jusuf Nurkic, are exposed to rebounding gaps and rim protection issues. Enter Kessler, who has thrived as a lob threat and rebounder on both sides of the floor as a Laker.\n\nJaylen Brown OVER 6.5 rebounds (-117)\n\nBrown -- and not Embiid or LeBron James -- paces the 76ers with 13.5 rebounding chances per game this season. This is defined as being the closest player to the basketball at any point between when the ball crosses below the rim and when the rebound is completely secured. This seems good for potential rebounding success (assuming Embiid's absence) and no Duren cleaning the glass. Brown plays big minutes and spends time crashing the glass. Sign me up.\n\nWendell Carter Jr. OVER 7.5 rebounds (-109)\n\nBuilding on the endorsement of \"WCJ\" as a fantasy streamer, his rebounding opportunities should spike with Banchero sidelined. Banchero, after all, leads the team in rebounding chances per game, even having missed time in the team's most-recent game. While the Knicks still have solid rebounding talent and scheme in their favor, Carter's mix of minutes, talent, and positioning support optimism for his rebounding results.\n\nProjections and Injury Reports\nBasketball Power Index by ESPN Analytics. Injury aggregation by Rotowire.com. Odds provided by DraftKings Sportsbook\n\nLos Angeles Lakers at Utah Jazz\n\n5 p.m. ET\n\nLine: Lakers -6.5 (-105) | Jazz +6.5 (-115)\n\nMoney line: Lakers -245 | Jazz +200\n\nTotal: 237.5 (-112 O, -108 U)\n\nBPI Projection: Lakers by 3.7, straight up 62%, 238.0 total points.\n\nInjury Report:\n\nLakers: Adou Thiero (OUT); Cameron Carr (OUT)\n\nJazz: Trey Alexander (OUT); Jusuf Nurkic (OUT)\n\nIndiana Pacers at Brooklyn Nets\n\n6 p.m. ET\n\nLine: Pacers -6.5 (-115) | Nets +6.5 (-105)\n\nMoney line: Pacers -265 | Nets +215\n\nTotal: 231.5 (-108 O, -112 U)\n\nBPI Projection: Pacers by 4.6, straight up 64%, 228.4 total points.\n\nInjury Report:\n\nPacers: Aaron Nesmith (GTD); T.J. McConnell (OUT); Ben Sheppard (OUT)\n\nNets: Tyler Bilodeau (GTD); Mikel Brown Jr. (OUT)\n\nOrlando Magic at New York Knicks\n\n7 p.m. ET\n\nLine: Magic +7.5 (-110) | Knicks -7.5 (-110)\n\nMoney line: Magic +250 | Knicks -310\n\nTotal: 223.5 (-112 O, -108 U)\n\nBPI Projection: Knicks by 6.8, straight up 70%, 224.2 total points.\n\nInjury Report:\n\nMagic: Anthony Black (GTD); Jonathan Isaac (OUT); Izaiyah Nelson (OUT); Noah Penda (OUT); Paolo Banchero (OUT)\n\nKnicks: Jose Alvarado (GTD)\n\nToronto Raptors at Minnesota Timberwolves\n\n7 p.m. ET on NBA TV\n\nLine: Raptors +1.5 (-115) | Timberwolves -1.5 (-105)\n\nMoney line: Raptors -105 | Timberwolves -115\n\nTotal: 231.5 (-115 O, -105 U)\n\nBPI Projection: Timberwolves by 3.3, straight up 60%, 226.2 total points.\n\nInjury Report:\n\nRaptors: None reported\n\nTimberwolves: Donte DiVincenzo (OUT)\n\nLA Clippers at Oklahoma City Thunder\n\n7 p.m. ET\n\nLine: Clippers +15.5 (-110) | Thunder -15.5 (-110)\n\nMoney line: Clippers +800 | Thunder -1350\n\nTotal: 222.5 (-112 O, -108 U)\n\nBPI Projection: Thunder by 17.8, straight up 90%, 220.8 total points.\n\nInjury Report:\n\nClippers: Jordan Miller (OUT); Bradley Beal (OUT); Brandon Ingram (OUT); Max Strus (OUT); Yanic Konan Niederhauser (OUT)\n\nThunder: Nikola Topic (OUT); Thomas Sorber (OUT)\n\nDetroit Pistons at Philadelphia 76ers\n\n7:30 p.m. ET\n\nLine: Pistons +2.5 (-115) | 76ers -2.5 (-105)\n\nMoney line: Pistons +120 | 76ers -142\n\nTotal: 227.5 (-110 O, -110 U)\n\nBPI Projection: 76ers by 4.7, straight up 64%, 227.6 total points.\n\nInjury Report:\n\nPistons: Ausar Thompson (GTD); Jalen Duren (OUT)\n\n76ers: Ariel Hukporti (OFS); Jabari Walker (GTD); LeBron James (GTD); Tacko Fall (GTD); Dominick Barlow (OUT)\n\nMemphis Grizzlies at Sacramento Kings\n\n9 p.m. ET\n\nLine: Grizzlies -4.5 (-105) | Kings +4.5 (-115)\n\nMoney line: Grizzlies -175 | Kings +145\n\nTotal: 236.5 (-108 O, -112 U)\n\nBPI Projection: Grizzlies by 3.5, straight up 61%, 232.8 total points.\n\nInjury Report:\n\nGrizzlies: Cedric Coward (GTD); Zach Edey (OUT)\n\nKings: Ben Simmons (OFS); Keegan Murray (GTD); Dylan Cardwell (OUT); Maxime Raynaud (OUT)"
     },
     {
       "story_id": "50110772",
@@ -11874,18 +11874,32 @@
       "body": "The 2026 Rugby League Cup kicks off in Sydney with the Kangaroos facing the Kiwis of New Zealand, in what could well be an early preview of the final.\n\nWith the continuing growth of International Rugby League and the improving strength of the island nations, each World Cup throws up a tougher challenge.\n\nThis year, with the men's, women's and wheelchair competitions to be played across Australia and Papua New Guinea, Australia's long standing rugby league dominance is under serious threat.\n\nMEN'S\n\nGroup Games\n\nWeek 1\n\nAustralia 24 def. New Zealand 22\nSamoa 78 def. France 4\n\nPapua New Guinea 42 def. Lebanon 18\n\nEngland 12 def. by Tonga 30\n\nFiji 40 def. Cook Islands 12\n\nWeek 2\n\nTonga 36 def. Lebanon 0\n\nPapua New Guinea 6 def. by Samoa 64\n\nEngland 82 def. France 0\n\nNew Zealand 82 def. Cook Islands 16\n\nAustralia 36 def. Fiji 22\n\nWeek 3\n\nFri 30 Oct, 8:05pm - England vs. Papua New Guinea - WIN Stadium\n\nSat 31 Oct, 3:45pm - New Zealand vs. Fiji - Cbus Super Stadium\n\nSat 31 Oct, 8:05pm - Australia vs. Cook Islands - Queensland Country Bank Stadium\n\nSun 1 Nov, 5:50pm - Lebanon vs. France - CommBank Stadium\n\nSun 1 Nov, 8:05pm - Tonga vs. Samoa - CommBank Stadium\n\nSemifinals\n\nSat Nov 7, 8:05pm - TBC vs. TBC - McDonald Jones Stadium\n\nSun Nov 8, 8:05pm - TBC vs. TBC - Allianz Stadium, Sydney\n\nFinal\n\nSun Nov 15, 7:35pm - TBC v TBC - Suncorp Stadium, Brisbane\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Kevin Walters\n\nBradman Best (Knights), Jack Bostock (Dolphins), Blayke Brailey (Sharks), Pat Carrigan (Broncos), Reuben Cotter, Tom Dearden (Cowboys), Tino Fa'asuamaleaui (Titans), David Fifita, Keaon Koloamatangi, Latrell Mitchell, Cameron Murray (Rabbitohs), Harry Grant, Cameron Munster (Storm), Liam Martin, Lindsay Smith, Isaah Yeo (Panthers), Mitchell Moses (Eels), Jacob Preston (Bulldogs), Kotoni Staggs, Reece Walsh (Broncos), James Tedesco, Sam Walker (Roosters), Tom Trbojevic (Sea Eagles)\n\nCook Islands\n\nCoach: Karmichael Hunt\n\nCameron Brown (Brisbane Tigers), Rhys Dakin (Roosters), Glassie Glassie (Tigers), Valentine Holmes (Dragons), Esom Ioka (Brisbane Tigers), KL Iro (Sharks), Chaev Kolone (Raiders), Makahesi Makatoa (Roosters), Esan Marsters (Bradford Bulls), Amare Milford (Storm), Davvy Moale (Storm), K-CI Newton-Whare (Storm), Rua Ngatikaura (North Sydney Bears), Marata Niukore (Warriors), Pride Petterson-Robati (Souths Logan Magpies), Reuben Porter (Dragons), Reubenn Rennie (Toulouse Olympique), Brad Takairangi (Glebe Dirty Reds), Mason Teague (Wakefield Trinity), David Tuariki (Storm), Paul Ulberg (Toulouse Olympique), Delahia Wigmore (Panthers), Maui Winitana-Patelesio (Warriors)\n\nEngland\n\nCoach: Brian McDermott\n\nMatty Ashton (Warrington Wolves), AJ Brimson (Titans), Ben Currie (Warrington Wolves), Zach Eckersley (Wigan Warriors), Herbie Farnworth (Dolphins), Ethan Havard (Wigan Warriors), Max King (Bulldogs), Morgan Knowles (Dolphins), Mikey Lewis (Hull KR), Jez Litten (Hull KR), Junior Nsemba (Wigan Warriors), Brad O'Neill (Wigan Warriors), Kai Pearce-Paul (Tigers), Victor Radley (Roosters), Hugo Savala (Roosters), Harry Smith (Wigan Warriors), Morgan Smithies (Raiders), Ben Talty (Broncos), Luke Thompson (Wigan Warriors), Sam Walters (Wigan Warriors), Jack Welsby (St Helens), George Williams (Warrington Wolves), Dom Young (Knights)\n\nFiji\n\nCoach: Mick Potter\n\nBayleigh Bentley-Hape (Rabbitohs), Waqa Blake (St Helens), Kurt Donoghoe (Dolphins), Apenisa Driti (Northern Pride), Kitione Kautoga (Bulldogs), Elijah Keung (Bulldogs), Apisai Koroisau (Tigers), Josese Lanyon (Tigers), Jordan Leiu (Bulldogs), Joseph Litidamu (Fiji Bati), Kylan Mafoa (Sea Eagles), Taane Milne (Rabbitohs), Caleb Navale (Sea Eagles), Jimmy Ngutlik (Western Suburbs Magpies), Ronald Philitoga (North Sydney Bears), Mitchell Prest (Mackay Cutters), Emosi Ravosai (Kaiviti Silktails), Jacob Saifiti (Knights), Solomone Saukuru (Tigers), Sunia Turuva (Tigers), Semi Valemei (Castleford Tigers), Brandon Wakeham (Sea Eagles), Jordan Miller (Tigers)\n\nFrance\n\nCoach: Laurent Frayssinous\n\nGuillermo Aispuro-Bichet (Catalans Dragons), L\u00e9o Darr\u00e9latour (Catalans Dragons), Julian Bousquet (Catalans Dragons), Romain Navarrete (Catalans Dragons), Benjamin Garcia (Catalans Dragons), Alrix Da Costa (Catalans Dragons), Benjamin Laguerre (Toulouse Olympique), C\u00e9sar Roug\u00e9 (Toulouse Olympique), Thomas Lacans (Toulouse Olympique), Lambert Belmas (Toulouse Olympique), Tiaki Chan (Toulouse Olympique), Louis Grossemy (Toulouse Olympique), Mathieu Jussaume (Toulouse Olympique), Rom\u00e9o Tropis (Toulouse Olympique), Amir Bourouh (Hull FC), Arthur Romano (Hull FC), Arthur Mourgue (Hull KR), Jordan Dezaria (Hull KR), Mathieu Cozza (Huddersfield), Joe Drodrolagi (AS Carcassonne), Th\u00e9o Fages (Pia Donkeys), Fouad Yaha (Albi), Latrell Siegwalt (Rabbitohs)\n\nLebanon\n\nCoach: Michael Cheika\n\nMohamed Alameddine (Eels), Yehya Ayache (Rabbitohs), Jalal Bazzaz (Shellharbour Stingrays), Alex Conti (Bulldogs), Moustafa Dirani (St Marys Saints), Ibrahim El Labban (Wentworthville Magpies), Tony Francis (Titans), Tupou Francis (Broncos), Michael Gabrael (Sharks), Mikael Ibrahim (Titans), Jacob Kiraz (Bulldogs), Abbas Miski (Wigan Warriors), Brandon Morkos (Dragons), Joseph Nohra (Eels), Jaxson Rahme (Roosters), Khalil Rahme (Newtown Jets), Khaled Rajab (Newtown Jets), James Roumanos (Toulouse Olympique), Jason Saab (Sea Eagles), Jordan Samrani (Eels), Tanous Sukkar (Tigers), Charbel Tasipale (Newtown Jets), Alex Twal (Tigers)\n\nNew Zealand\n\nCoach: Stacey Jones\n\nErin Clark (Warriors), James Fisher-Harris (Warriors), Dane Gagai (Knights), Jahrome Hughes (Storm), Jamayne Isaako (Dolphins), Keano Kini (Titans), Jacob Laban (Warriors), Moses Leota (Panthers), Jeremy Marshall-King (Dolphins), Te Maire Martin (Warriors), Casey McLean (Panthers), Ronaldo Mulitalo (Sharks), Charnze Nicoll-Klokstad (Warriors), Briton Nikora (Sharks), Kodi Nikorima (Dolphins), Isaiah Papali'i (Panthers), Kalyn Ponga (Knights), Scott Sorensen (Panthers), Tanner Stowers-Smith (Warriors), Joseph Tapine (Raiders), Leo Thompson (Bulldogs), Naufahu Whyte (Roosters), Xavier Willison (Broncos)\n\nPapua New Guinea\n\nCoach: Jason Demetriou\n\nJack de Belin (Eels), Robert Derby (Cowboys), Dudley Dotoi (Townsville Blackhawks), Josh Feledy (Sea Eagles), Finley Glare (London Broncos), Liam Horne (Leigh Leopards), Edwin Ipape (Leigh Leopards), Zev John (Central Queensland Capras), Epel Kapinias (London Broncos), Bailey Biondi-Odo (Townsville Blackhawks), Zac Laybutt (Cowboys), Nene Macdonald (St Helens Saints), Rhyse Martin (Hull KR), Robert Mathias (London Broncos), Morea Morea Jnr (London Broncos), Luca Moretti (Eels), Sylvester Namo (Brisbane Tigers), Nixon Putt (Central Queensland Capras), Rodrick Tai (Central Queensland Capras), Valentine Richard (PNG Hunters), Gairo Voro (London Broncos), Sanny Wabo (PNG Hunters), Khaiya Waiembi (PNG Hunters)\n\nSamoa\n\nCoach: Ben Gardiner\n\nShawn Blore, Anae Ulesese (Storm), Stephen Crichton (Bulldogs), Sua Fa'alogo (Storm), Clayton Faulalo (Sea Eagles), Chanel Harris-Tavita (Warriors), Benaiah Ioelu (Roosters), Connelly Lemuelu (Dolphins), Spencer Leniu (Roosters), Jarome Luai (Tigers), Francis Manuleleua (Knights), Deine Mariner (Broncos), Ata Mariota (Raiders), Greg Marzhew (Knights), Jermaine McEwen (Knights), Francis Molo (Dolphins), Junior Paulo (Eels), Pasami Saulo (Knights), Hamiso Tabuai-Fidow (Dolphins), Izack Tago (Panthers), Jazz Tevaga (Wakefield Trinity), Brian To'o (Panthers), Enari Tuala (Bulldogs), Ronald Volkman (Eels)\n\nTonga\n\nCoach: Kristian Woolf\n\nAddin Fonua-Blake (Sharks), Dallin Watene-Zelezniak (Warriors), Demitric Vaimauga (Warriors), Haumole Olakau'atu (Sea Eagles), Isaiya Katoa (Dolphins), Jason Taumalolo (Cowboys), Jojo Fifita (Titans), Junior Amone (Wynnum Manly Seagulls), Kulikefu Finefeuiaki (Dolphins), Latu Fainu (Tigers), Lehi Hopoate (Sea Eagles), Leka Halasima (Warriors), Paul Alamoti (Panthers), Robert To'ia (Roosters), Salesi Foketi (Roosters), Sione Katoa (Sharks), Siua Wong (Roosters), Soni Luke (Cowboys), Stefano Utoikamanu (Storm), Taniela Paseka (Sea Eagles), Tolutau Koula (Sea Eagles), Tuimoala Lolohea (Huddersfield Giants), Tyson Frizell (Knights)\n\nWomen's\n\nPools\nGroup A: Australia, England, Samoa, Wales\n\nGroup B: New Zealand, Papua New Guinea, France, Fiji\n\nGROUP GAMES\nWeek 1\n\nAustralia 40 def. Samoa 0\n\nPapua New Guinea 58 def. France 4\n\nEngland 70 def. Wales 6\n\nNew Zealand 18 def. Fiji 12\n\nWeek 2\n\nSamoa 76 def. Wales 0\n\nFiji 40 def. Papua New Guinea 4\n\nAustralia 78 def. England 0\n\nNew Zealand 92 def. France 0\n\nWeek 3\n\nFri Oct 30, 5:45pm - England vs. Samoa - WIN Stadium\n\nSat Oct 31, 1:20pm - Fiji vs. France - Cbus Super Stadium\n\nSat Oct 31, 5:45pm - New Zealand vs. Papua New Guinea - Cbus Super Stadium\n\nSun Nov 1, 3:40pm - Australia vs. Wales - CommBank Stadium\n\nSemifinals\n\nSat Nov 7, 5:45pm - TBC v TBC - McDonald Jones Stadium\n\nSun Nov 8, 5:45pm - TBC v TBC - Allianz Stadium\n\nFinals\n\nSun Nov 15, 4:10pm - TBC v TBC - Suncorp Stadium\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Jess Skinner\n\nTarryn Aiken, Kezie Apps, Shaylee Bent, Jaime Chapman, Abbi Church, Quincy Dodd, Millie Elliott, Olivia Higgins, Ellie Johnston, Keilee Joseph, Jocelyn Kelleher, Isabelle Kelly, Olivia Kernick, Keeley Nizza, Sariah Paki, Tiana Penitani Gray, Julia Robinson, Jessica Sergis, Jesse Southwell, Simaima Taufa, Sarah Togatuki, Tamika Upton, Makenzie Weale.\n\nEngland\n\nCoach: Stuart Barrow\n\nKeara Bennett, Connie Boyd, Amelia Brown, Ruby Bruce, Mary Coleman, Evie Cousins, Jodie Cunningham, Anna Davies, Hollie-Mae Dodd, Jenna Foubister, Fran Goldthorp, Eva Hunter, Molly Jones, Hope Millard, Lucy Murray, Georgia Roche, Isabel Rowe, Lucie Sams, Jasmin Strange, Vicky Whitfield, Megan Williams, Georgia Wilson, Liv Wood.\nSamoa\n\nCoach: Frank Pritchard\n\nAmber Hall, Annetta Nu'uausala, Christabelle Onesemo-Tuilaepa, Christian Pio, Evania Isa'ako, Evelyn Roberts, Fanua Rimoni, Freedom Crichton Ropati, Ivana Lolesio, Jaydika Tafua, Jetaya Faifua, Laikha Clarke, Leilani Wilson, Mary-Jane Taito, Mercedez Taulelei-Siala, Monica Tagoai, Pauline Piliae-Rasabale, Sarina Masaga, Taliah Fuimaono, Tavarna Papalii, Tyra Ekepati.\nWales\n\nCoach: Tom Brindle\n\nHannah Bluck, Hollie Brussels, Leanne Burnell, Katie Carr, Georgia Cussions, Bethan Dainton, Lucia Davies, Jasmine Gibbons, Zoe Heeley, Gracie Hobbs, Emily Hughes, Frances Layton, Ffion Lewis, Carys Marsh, Dani McGifford, Jade Mullen, Tayla Preston, Amberley Ruck, Kathryn Salter, Paige Travis, Erin Williams, Si\u00e2n Williams, Agnes Wood.\nFiji\n\nCoach: Jone Wesele\n\nLeilani Ahsam, Teaghan Hartigan, Talei Holmes, Lorren Ieli, Tamika Jones, Ebony Laing, Sienna Laing, Losana Lutu, Tahlia Marshall, Ema Masi, Rory Muller, Sereana Naitokatoka, Taina Naividi, Elizabeth Naleba, Aliti Namoce, Maria Paseka, Abigayle Sekitoga, Latisha Smythe, Cassie Staples, Naomi Tegu, Nanise Vakacavu, Isabella Waterman, Luisa Yaranamua.\nFrance\n\nCoach: Alan Walsh\n\nElisa Akpa, Tessa Benmalek, Le\u00efla Bessahli, Stecy Bessiere, Camille Boudaud, Margot Canal, Lisa Diraison, Tallis Eranossian, Chahrazad Himoudi, Haoua Kessely, M\u00e9lissa Medina, Perrine Monsarrat, \u00c9lodie Pacull, Perle Ramazeilles, Fanny Ramos, Justine Roses, Manon Samarra, No\u00e9mie Samuel, Salom\u00e9 S\u00e9gala, Cristina Song-Puche, Louisa Tooman, Sarah-Louise Vernay, Ama\u00ebl Vilanove.\nNew Zealand\n\nCoach: Ricky Henry\n\nBrooke Anderson, Kaiyah Atai, Annessa Biddle, Brianna Clark, Georgia Hale, Mele Hufanga, Chantay Kiria-Ratu, Ivana Lauitiiti, Shannon Mato, Raecene McGregor, Shaniece Monschau, Apii Nicholls, Shanice Parker, Otesa Pule, Ashleigh Quinlan, Abigail Roache, Alexis Tauaneai, Trinity Tauaneai, Angelina Teakaraanga-Katoa, Zahara Temara, Leianne Tufuga, Stacey Waaka, Tenika Willison.\nPapua New Guinea\n\nCoach: Craig Sandercock\n\nTherese Aiton, Elsie Albert, Essay Banu, Anika Butler, Jenny David, Fleur Ginn, Belinda Gwasamun, Josephine Howard, Jasmine Joe, Naomi Kelly, Shellie Long, Mala Mark, Tia Molo, Mya Muller, Venessa Nakas, Cynthiah Peters, Ua Ravu, Jafinda Sap, Gemma Schnaubelt, India Seeto, Emily Veivers, Ivania Wong, Relna Wuruki-Hosea."
     },
     {
-      "story_id": "50279064",
-      "headline": "Panthers RT Taylor Moton carted off field with ankle and fibula injury",
-      "summary": "Panthers right tackle Taylor Moton left Sunday's matchup against the Buccaneers on a cart in the third quarter with a left ankle and fibula injury.",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730380_1296x729_16-9.jpg",
-      "published_utc": "2026-10-25T19:52:11Z",
+      "story_id": "50279899",
+      "headline": "Burrow throws 4 TD passes as Bengals storm past Jackson-less Ravens 35-13 in 2nd half",
+      "summary": "\u2014 Joe Burrow threw four touchdown passes in the second half, and the Cincinnati Bengals rebounded from a desultory first two quarters to beat Baltimore 35-13 on Sunday, handing the Ravens a second straight divisional loss with Lamar Jackson sidelined.",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873012.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-25T20:12:59Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Mike Kaye",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50279064/panthers-taylor-moton-carted-ankle-fibula-injury",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873012",
       "stream_url": "",
-      "body": "CHARLOTTE, N.C. -- Carolina Panthers right tackle Taylor Moton, in his second game back after returning from offseason blood clot treatment, left Sunday's 43-13 loss to the Tampa Bay Buccaneers on a cart in the third quarter with a left ankle and fibula injury.\n\nMoton was initially considered questionable before being downgraded to out before the end of the third quarter.\n\nMoton pounded the turf while holding his left leg following a Yaya Diaby sack on quarterback Bryce Young with 14:13 left in the third quarter. Trainers immediately ran over to Moton, examined his leg and put him on the back of a cart, which took him into the home tunnel.\n\nFirst-round pick Monroe Freeling, who had filled in for Moton during the first four games of the season, immediately came in to play right tackle. Left tackle Rasheed Walker gave up a sack to Diaby on the very next play.\n\nMoton, 32, has played just seven quarters of football this season. He has been the Panthers' starting right tackle for the past nine seasons. The 2017 second-round pick is the longest tenured non-specialist on the Panthers' roster.\n\nMoton is signed through the 2028 season. However, 2027 is the final season on his contract with guaranteed money."
+      "body": "BALTIMORE -- \u2014 Joe Burrow threw four touchdown passes in the second half, and the Cincinnati Bengals rebounded from a desultory first two quarters to beat Baltimore 35-13 on Sunday, handing the Ravens a second straight divisional loss with Lamar Jackson sidelined.\n\n\r\nBaltimore (4-3) dominated the first half but led only 13-0 after settling for a couple of short field goals. Then the Ravens blew a double-digit second-half lead for the second straight week and 10th time since the start of the 2022 season.\n\n\r\nThe Bengals (4-2) were shut out in their second meeting with Baltimore last season, and were scoreless through two quarters this time before going 66 yards on the first drive after halftime, capped by Burrow's 6-yard TD pass to Mike Gesicki.\n\n\r\nBaltimore, which held the ball for 22:20 in the first half, went three-and-out on its first possession of the second. Burrow's 13-yard scoring pass to Tee Higgins put Cincinnati ahead to stay.\n\n\r\nThe Ravens put together one more decent drive, but on fourth-and-2 from the Cincinnati 12, Tyler Huntley threw incomplete.\n\n\r\nThe Bengals then showed why Baltimore decided to be so aggressive, driving 88 yards and going up 21-13 on Samaje Perine's 1-yard run. Burrow added a 2-yard scoring pass to Ja'Marr Chase and a 16-yarder to Drew Sample.\n\n\r\nJackson missed a third straight game with an ankle injury, and the Ravens are 1-2 without him. He practiced in a limited role during the week but was inactive again.\n\n\r\nBaltimore's running game wasn't much of a factor without him, but Huntley threw for 215 yards in the first half \u2014 120 of them to Zay Flowers. The shifty Flowers opened the scoring with a 48-yard catch-and-run.\n\n\r\nCincinnati kept pouring it on after erasing the 13-0 deficit. Former Baltimore quarterback Joe Flacco relieved Burrow late, closing out the Ravens' fifth loss in their past six home games.\n\n\r\nBaltimore has outscored opponents by 65 points in the first half this season, while being outscored by 70 after the break.\n\n\r\nInjuries\r\nBengals: S Kyle Dugger injured his quadriceps, and cornerback DJ Turner II hurt his knee.\n\n\r\nRavens: Rookie G Vega Ioane (knee) left in the first half.\n\n\r\nUp next\r\nBengals: Host Tennessee next Sunday.\n\n\r\nRavens: At Buffalo on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+    },
+    {
+      "story_id": "50275279",
+      "headline": "Sunday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1735906_576x324_16-9.jpg",
+      "published_utc": "2026-10-25T16:48:18Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Jim McCormick",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/basketball/story/_/id/50275279/fantasy-basketball-tips-nba-betting-picks-today",
+      "stream_url": "",
+      "body": "ESPN's basketball daily cheat sheet is your pregame destination before you lock in daily fantasy and betting decisions for that night's games. Here you'll find our top insights for the slate, including players to target for your daily fantasy rosters, along with game-by-game injury reports.\n\nWhat you need to know for Sunday\nA seven-game Sunday slate features a series of potential competitive contests. Only one game on the docket claims a double-digit point spread -- a departure from a Saturday field that was full of large lines. The marquee matchup of the day features the Minnesota Timberwolves hosting the Toronto Raptors in a meeting of deep, darkhorse contenders.\n\nClose games bode well for developing fantasy and betting angles, as rotations and workloads prove more predictable in competitive games. A good place to start during a busy day of basketball is the injury report, which tells us that we won't see Paolo Banchero, Zach Edey or Jalen Duren playing for their respective teams. Joel Embiid, meanwhile, is set to rest for the second leg of a back-to-back series for the Philadelphia 76ers.\n\nWhile we're still learning how each rotation and coaching staff will react to the absence of big names from the gameplan, we can proactively make some decisions based on precedent and prediction.\n\nFor the Orlando Magic, a proven veteran big man is due for more minutes and work in the wake of Banchero's ankle injury, as you'll read below. What will Memphis do sans Edey? How will Detroit cope with being sans their interior anchor in South Philly tonight?\n\nAnd, those 76ers don't have a one-to-one backup for Embiid like they did in seasons past in the form of Andre Drummond. They will instead likely turn to a collective and small-ball looks -- possible even some featuring LeBron at center. We'll learn a lot today about all of these sides, which can serve us in future slates, as well.\n\nWith an eye toward uncovering compelling betting angles and fantasy decisions, let's take a look at the day ahead in the NBA.\n\nFantasy stream team -- widely available players worth adding\nWendell Carter Jr., C, Orlando Magic (rostered in 23.5% of ESPN leagues)\nWith Banchero in street clothes for tonight's tilt with the New York Knicks, Carter should see more minutes, rebounding chances, and post touches as a result. The Knicks lack the interior defense and rebounding from last season's run, supporting confidence in double-double upside for this veteran big.\n\nPaul Reed, C/PF, Detroit Pistons (14.2%)\nAssuming Philadelphia decides to rest Embiid in the second game of a back-to-back, they will likely turn to a number of different looks to cover for him. Reed, who will consume a good bit of the work reserved for Duren, would then be facing a 76ers lineup badly lack rebounding acumen, establishing a nice floor for this active and unique frontcourt talent. It also helps that there is a fun narrative in play, as \"B-ball Paul\" began his career in Philly.\n\nEgor Demin, PG/SG, Brooklyn Nets (48.3%)\nThe Nets haven't had many promising prospects in this recent era of drafting. Demin represents the closest thing to a rising playmaker, as he's capable of creating for both himself and others. Such a skill set is rare for this Nets group, which helps Demin project as a rewarding pickup for today's matchup with the uptempo Indiana Pacers.\n\nJalen Suggs, PG/SG, Magic (31.3%)\nIndependently valuable as a two-way guard when he's hot from the field, Suggs flashed more offense in Game 2 of the season and should take on more work today with the team's top star missing. Suggs can deliver a fun fantasy line even without much scoring, which is nice when looking to finish out the fantasy week in category formats.\n\nJim's bets to make on Sunday\nWalker Kessler OVER 26.5 combined points and rebounds\n\nRevenge narratives are usually overblown, but this setup -- with Kessler facing the Utah Jazz -- proves intriguing. The Jazz, without their incumbent starting center Jusuf Nurkic, are exposed to rebounding gaps and rim protection issues. Enter Kessler, who has thrived as a lob threat and rebounder on both sides of the floor as a Laker.\n\nJaylen Brown OVER 6.5 rebounds (-117)\n\nBrown -- and not Embiid or LeBron James -- paces the 76ers with 13.5 rebounding chances per game this season. This is defined as being the closest player to the basketball at any point between when the ball crosses below the rim and when the rebound is completely secured. This seems good for potential rebounding success (assuming Embiid's absence) and no Duren cleaning the glass. Brown plays big minutes and spends time crashing the glass. Sign me up.\n\nWendell Carter Jr. OVER 7.5 rebounds (-109)\n\nBuilding on the endorsement of \"WCJ\" as a fantasy streamer, his rebounding opportunities should spike with Banchero sidelined. Banchero, after all, leads the team in rebounding chances per game, even having missed time in the team's most-recent game. While the Knicks still have solid rebounding talent and scheme in their favor, Carter's mix of minutes, talent, and positioning support optimism for his rebounding results.\n\nProjections and Injury Reports\nBasketball Power Index by ESPN Analytics. Injury aggregation by Rotowire.com. Odds provided by DraftKings Sportsbook\n\nLos Angeles Lakers at Utah Jazz\n\n5 p.m. ET\n\nLine: Lakers -6.5 (-105) | Jazz +6.5 (-115)\n\nMoney line: Lakers -245 | Jazz +200\n\nTotal: 237.5 (-112 O, -108 U)\n\nBPI Projection: Lakers by 3.7, straight up 62%, 238.0 total points.\n\nInjury Report:\n\nLakers: Adou Thiero (OUT); Cameron Carr (OUT)\n\nJazz: Trey Alexander (OUT); Jusuf Nurkic (OUT)\n\nIndiana Pacers at Brooklyn Nets\n\n6 p.m. ET\n\nLine: Pacers -6.5 (-115) | Nets +6.5 (-105)\n\nMoney line: Pacers -265 | Nets +215\n\nTotal: 231.5 (-108 O, -112 U)\n\nBPI Projection: Pacers by 4.6, straight up 64%, 228.4 total points.\n\nInjury Report:\n\nPacers: Aaron Nesmith (GTD); T.J. McConnell (OUT); Ben Sheppard (OUT)\n\nNets: Tyler Bilodeau (GTD); Mikel Brown Jr. (OUT)\n\nOrlando Magic at New York Knicks\n\n7 p.m. ET\n\nLine: Magic +7.5 (-110) | Knicks -7.5 (-110)\n\nMoney line: Magic +250 | Knicks -310\n\nTotal: 223.5 (-112 O, -108 U)\n\nBPI Projection: Knicks by 6.8, straight up 70%, 224.2 total points.\n\nInjury Report:\n\nMagic: Anthony Black (GTD); Jonathan Isaac (OUT); Izaiyah Nelson (OUT); Noah Penda (OUT); Paolo Banchero (OUT)\n\nKnicks: Jose Alvarado (GTD)\n\nToronto Raptors at Minnesota Timberwolves\n\n7 p.m. ET on NBA TV\n\nLine: Raptors +1.5 (-115) | Timberwolves -1.5 (-105)\n\nMoney line: Raptors -105 | Timberwolves -115\n\nTotal: 231.5 (-115 O, -105 U)\n\nBPI Projection: Timberwolves by 3.3, straight up 60%, 226.2 total points.\n\nInjury Report:\n\nRaptors: None reported\n\nTimberwolves: Donte DiVincenzo (OUT)\n\nLA Clippers at Oklahoma City Thunder\n\n7 p.m. ET\n\nLine: Clippers +15.5 (-110) | Thunder -15.5 (-110)\n\nMoney line: Clippers +800 | Thunder -1350\n\nTotal: 222.5 (-112 O, -108 U)\n\nBPI Projection: Thunder by 17.8, straight up 90%, 220.8 total points.\n\nInjury Report:\n\nClippers: Jordan Miller (OUT); Bradley Beal (OUT); Brandon Ingram (OUT); Max Strus (OUT); Yanic Konan Niederhauser (OUT)\n\nThunder: Nikola Topic (OUT); Thomas Sorber (OUT)\n\nDetroit Pistons at Philadelphia 76ers\n\n7:30 p.m. ET\n\nLine: Pistons +2.5 (-115) | 76ers -2.5 (-105)\n\nMoney line: Pistons +120 | 76ers -142\n\nTotal: 227.5 (-110 O, -110 U)\n\nBPI Projection: 76ers by 4.7, straight up 64%, 227.6 total points.\n\nInjury Report:\n\nPistons: Ausar Thompson (GTD); Jalen Duren (OUT)\n\n76ers: Ariel Hukporti (OFS); Jabari Walker (GTD); LeBron James (GTD); Tacko Fall (GTD); Dominick Barlow (OUT)\n\nMemphis Grizzlies at Sacramento Kings\n\n9 p.m. ET\n\nLine: Grizzlies -4.5 (-105) | Kings +4.5 (-115)\n\nMoney line: Grizzlies -175 | Kings +145\n\nTotal: 236.5 (-108 O, -112 U)\n\nBPI Projection: Grizzlies by 3.5, straight up 61%, 232.8 total points.\n\nInjury Report:\n\nGrizzlies: Cedric Coward (GTD); Zach Edey (OUT)\n\nKings: Ben Simmons (OFS); Keegan Murray (GTD); Dylan Cardwell (OUT); Maxime Raynaud (OUT)"
     },
     {
       "story_id": "50131911",
@@ -11928,20 +11942,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50278357/brighton-fabian-hurzeler-digs-liverpool-one-team-tried-create",
       "stream_url": "",
       "body": "Brighton & Hove Albion boss Fabian H\u00fcrzeler appeared to take a swipe at Liverpool's approach in their 2-0 win over his side at Anfield, claiming there was \"one team\" who tried to create.\n\nAn own goal from Pascal Gross and a neat finish from Alexander Isak were enough to seal the victory for Andoni Iraola's side.\n\nHowever, Brighton ended the afternoon having enjoyed more possession and generated a higher expected goals (xG) tally than their opponents -- something H\u00fcrzeler was quick to point out in his postmatch news conference.\n\n\"I think everyone in the stadium saw that there was one team who really tried to create and try to win this game and therefore I have to praise my players,\" the Brighton boss said.\n\n\"I think everyone in the stadium, and you as well, felt there was a missed opportunity for us, because it's not only after the goal or the goals they scored.\n\n\"Also, before they scored, we had one, two big chances and today I think it was just the difference that they scored, we didn't score. They kept a clean sheet because they defended well with their centre-backs, with full-back [Ronald] Araujo and with [Milos] Kerkez.\n\n\"I think they blocked a lot of shots. They really defended the box well. We didn't have that efficiency. We couldn't keep the clean sheet because we made easy mistakes, we lost some important personal duels.\n\n\"But overall I saw a team with a lot of good things to take away. I saw a team that really had the belief in our approach, that stuck to the match plan, that always kept going, and that is very frustrating because we all have the feeling that there is a missed opportunity here today.\"\n\n- Iraola era at Liverpool finally has liftoff thanks to big-money forwards\n\n- Michael Carrick pressure grows, Bournemouth run riot at Man United\n\n- Man City must be 'more clinical,' Enzo Maresca demands\n\nMeanwhile, Liverpool enjoyed their fourth victory in a row in all competitions under Iraola, with the Reds moving up to fourth in the Premier League table.\n\n\"I'm very happy,\" Iraola said.\n\n\"I'm happy with this fourth win [in a row].\n\n\"I think today we had a very good opposition in front of us, similar to Villarreal the other day -- teams that are technically really good. I think today the key was how we started. We needed a strong start, to be aggressive, recover balls, win our duels and be dangerous in transitions. I think we did that and it's been a different game to those where we conceded first.\""
-    },
-    {
-      "story_id": "50277066",
-      "headline": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
-      "summary": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg",
-      "published_utc": "2026-10-25T14:59:55Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks",
-      "stream_url": "",
-      "body": "Detroit Pistons center Jalen Duren will be out at least two weeks with a right hamstring strain, the team announced Sunday.\n\nDuren suffered the injury in the first half of Friday's win over the Miami Heat. He played only 10 minutes before leaving the game.\n\nDuren's offseason was marked by a lengthy standoff with the Pistons over a contract extension. He missed media day and the first few practices of training camp before ultimately signing a five-year, $200 million deal.\n\nLast season, he averaged a career high in points (19.5 PPG), made his first All-Star team and was named to the All-NBA third team as the Pistons earned the top seed in the Eastern Conference. But he struggled mightily in the postseason, dropping to 10.2 points per game in 14 playoff games before Detroit's second-round exit.\n\nDuren scored 22 points with nine rebounds in Detroit's season-opening win over the Boston Celtics.\n\nInformation from ESPN's Jamal Collier was used in this report."
     },
     {
       "story_id": "46793185",
