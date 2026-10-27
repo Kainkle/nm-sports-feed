@@ -1,42 +1,6 @@
 {
-  "generated_utc": "2026-10-26T23:54:39.651425+00:00",
+  "generated_utc": "2026-10-27T00:04:43.166206+00:00",
   "events": [
-    {
-      "event_id": "motogp:66961f05-2454-4455-9d65-f99c49d25b17",
-      "sport": "motorsport",
-      "competition_id": "motogp",
-      "competition_name": "MotoGP",
-      "start_utc": "2026-10-23T08:00:00+11:00",
-      "status": "unknown",
-      "home": {
-        "id": "motogp:66961f05-2454-4455-9d65-f99c49d25b17",
-        "name": "RED BULL GRAND PRIX OF AUSTRALIA",
-        "abbrev": "",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "motogp:circuit",
-        "name": "Phillip Island",
-        "abbrev": "",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "motogp",
-      "source_status": "calendar",
-      "venue": "Phillip Island",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "espn:racing:600057446",
       "sport": "racing",
@@ -76,1261 +40,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": "MSC Cruises United States Grand Prix"
-    },
-    {
-      "event_id": "espn:soccer:401884761",
-      "sport": "soccer",
-      "competition_id": "ger.1",
-      "competition_name": "Bundesliga",
-      "start_utc": "2026-10-23T18:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:134",
-        "name": "VfB Stuttgart",
-        "abbrev": "VFB",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-        "logo_dark": null,
-        "aliases": [
-          "Stuttgart",
-          "VFB",
-          "VfB Stuttgart"
-        ],
-        "color": "ffffff"
-      },
-      "away": {
-        "id": "espn:268",
-        "name": "Borussia M\u00f6nchengladbach",
-        "abbrev": "BMG",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-        "logo_dark": null,
-        "aliases": [
-          "BMG",
-          "Borussia M\u00f6nchengladbach",
-          "Gladbach"
-        ],
-        "color": "ffffff"
-      },
-      "source": "espn:soccer/ger.1",
-      "source_status": "post/Full Time",
-      "venue": "MHPArena",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "LUL29bWTEQY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401874957",
-      "sport": "soccer",
-      "competition_id": "ita.1",
-      "competition_name": "Serie A",
-      "start_utc": "2026-10-23T18:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:239",
-        "name": "Torino",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-        "logo_dark": null,
-        "aliases": [
-          "TOR",
-          "Torino"
-        ],
-        "color": "9f0000"
-      },
-      "away": {
-        "id": "espn:4007",
-        "name": "Monza",
-        "abbrev": "MON",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-        "logo_dark": null,
-        "aliases": [
-          "MON",
-          "Monza"
-        ],
-        "color": "C8142F"
-      },
-      "source": "espn:soccer/ita.1",
-      "source_status": "post/Full Time",
-      "venue": "Stadio Olimpico Grande Torino",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "BoiaLRMdjDA",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:rugby:604056",
-      "sport": "rugby",
-      "competition_id": "urc",
-      "competition_name": "United Rugby Championship",
-      "start_utc": "2026-10-23T18:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:25965",
-        "name": "Cardiff Blues",
-        "abbrev": "CAR",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25965.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAR",
-          "Cardiff Blues"
-        ],
-        "color": "0000FF"
-      },
-      "away": {
-        "id": "espn:25961",
-        "name": "Sharks",
-        "abbrev": "SHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25961.png",
-        "logo_dark": null,
-        "aliases": [
-          "SHA",
-          "Sharks"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:rugby/270557",
-      "source_status": "post/FT",
-      "venue": "Cardiff Arms Park",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:rugby:604057",
-      "sport": "rugby",
-      "competition_id": "urc",
-      "competition_name": "United Rugby Championship",
-      "start_utc": "2026-10-23T18:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:25923",
-        "name": "Connacht",
-        "abbrev": "CON",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25923.png",
-        "logo_dark": null,
-        "aliases": [
-          "CON",
-          "Connacht"
-        ],
-        "color": "006633"
-      },
-      "away": {
-        "id": "espn:167124",
-        "name": "Zebre",
-        "abbrev": "ZEB",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/167124.png",
-        "logo_dark": null,
-        "aliases": [
-          "ZEB",
-          "Zebre"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:rugby/270557",
-      "source_status": "post/FT",
-      "venue": "Dexcom Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:rugby:604058",
-      "sport": "rugby",
-      "competition_id": "urc",
-      "competition_name": "United Rugby Championship",
-      "start_utc": "2026-10-23T18:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:25951",
-        "name": "Edinburgh",
-        "abbrev": "EDI",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25951.png",
-        "logo_dark": null,
-        "aliases": [
-          "EDI",
-          "Edinburgh"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:25958",
-        "name": "Lions",
-        "abbrev": "LIO",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25958.png",
-        "logo_dark": null,
-        "aliases": [
-          "LIO",
-          "Lions"
-        ],
-        "color": "CC0000"
-      },
-      "source": "espn:rugby/270557",
-      "source_status": "post/FT",
-      "venue": "Hive Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401879253",
-      "sport": "soccer",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "start_utc": "2026-10-23T19:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:373",
-        "name": "Ipswich Town",
-        "abbrev": "IPS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-        "logo_dark": null,
-        "aliases": [
-          "IPS",
-          "Ipswich",
-          "Ipswich Town"
-        ],
-        "color": "0000fa"
-      },
-      "away": {
-        "id": "espn:393",
-        "name": "Nottingham Forest",
-        "abbrev": "NFO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-        "logo_dark": null,
-        "aliases": [
-          "NFO",
-          "Nottingham Forest",
-          "Nottm Forest"
-        ],
-        "color": "c8102e"
-      },
-      "source": "espn:soccer/eng.1",
-      "source_status": "post/Full Time",
-      "venue": "Portman Road",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "lO_goITj_Fc",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882836",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-10-23T19:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:96",
-        "name": "Alav\u00e9s",
-        "abbrev": "ALA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-        "logo_dark": null,
-        "aliases": [
-          "ALA",
-          "Alav\u00e9s"
-        ],
-        "color": "0000ff"
-      },
-      "away": {
-        "id": "espn:99",
-        "name": "M\u00e1laga",
-        "abbrev": "MCF",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-        "logo_dark": null,
-        "aliases": [
-          "MCF",
-          "M\u00e1laga"
-        ],
-        "color": "b9e8f0"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "Mendizorrotza",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909848",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-23T20:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:15",
-        "name": "Milwaukee Bucks",
-        "abbrev": "MIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bucks",
-          "MIL",
-          "Milwaukee",
-          "Milwaukee Bucks"
-        ],
-        "color": "00471b"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Chicago Bulls",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "CHI",
-          "Chicago",
-          "Chicago Bulls"
-        ],
-        "color": "ce1141"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Fiserv Forum",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "r5pqf0we5uM",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909095",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2",
-        "name": "Boston Celtics",
-        "abbrev": "BOS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-        "logo_dark": null,
-        "aliases": [
-          "BOS",
-          "Boston",
-          "Boston Celtics",
-          "Celtics"
-        ],
-        "color": "008348"
-      },
-      "away": {
-        "id": "espn:18",
-        "name": "New York Knicks",
-        "abbrev": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knicks",
-          "NY",
-          "New York",
-          "New York Knicks"
-        ],
-        "color": "1d428a"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "TD Garden",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909843",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:30",
-        "name": "Charlotte Hornets",
-        "abbrev": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-        "logo_dark": null,
-        "aliases": [
-          "CHA",
-          "Charlotte",
-          "Charlotte Hornets",
-          "Hornets"
-        ],
-        "color": "008ca8"
-      },
-      "away": {
-        "id": "espn:1",
-        "name": "Atlanta Hawks",
-        "abbrev": "ATL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-        "logo_dark": null,
-        "aliases": [
-          "ATL",
-          "Atlanta",
-          "Atlanta Hawks",
-          "Hawks"
-        ],
-        "color": "c8102e"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Spectrum Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "w4g6vpvVyos",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909844",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:11",
-        "name": "Indiana Pacers",
-        "abbrev": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-        "logo_dark": null,
-        "aliases": [
-          "IND",
-          "Indiana",
-          "Indiana Pacers",
-          "Pacers"
-        ],
-        "color": "0c2340"
-      },
-      "away": {
-        "id": "espn:6",
-        "name": "Dallas Mavericks",
-        "abbrev": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-        "logo_dark": null,
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Mavericks",
-          "Mavericks"
-        ],
-        "color": "0064b1"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Gainbridge Fieldhouse",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909845",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:19",
-        "name": "Orlando Magic",
-        "abbrev": "ORL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-        "logo_dark": null,
-        "aliases": [
-          "Magic",
-          "ORL",
-          "Orlando",
-          "Orlando Magic"
-        ],
-        "color": "0150b5"
-      },
-      "away": {
-        "id": "espn:16",
-        "name": "Minnesota Timberwolves",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Timberwolves",
-          "Timberwolves"
-        ],
-        "color": "266092"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Kia Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "KoRT1d_i13o",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909846",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:27",
-        "name": "Washington Wizards",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "WSH",
-          "Washington",
-          "Washington Wizards",
-          "Wizards"
-        ],
-        "color": "e31837"
-      },
-      "away": {
-        "id": "espn:28",
-        "name": "Toronto Raptors",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-        "logo_dark": null,
-        "aliases": [
-          "Raptors",
-          "TOR",
-          "Toronto",
-          "Toronto Raptors"
-        ],
-        "color": "d91244"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Capital One Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858271",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:258",
-        "name": "Virginia Cavaliers",
-        "abbrev": "UVA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cavaliers",
-          "UVA",
-          "Virginia",
-          "Virginia Cavaliers"
-        ],
-        "color": "232d4b"
-      },
-      "away": {
-        "id": "espn:150",
-        "name": "Duke Blue Devils",
-        "abbrev": "DUKE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Devils",
-          "DUKE",
-          "Duke",
-          "Duke Blue Devils"
-        ],
-        "color": "00539b"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Scott Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "SSG6mM8_-Rc",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401861965",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-23T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:41",
-        "name": "UConn Huskies",
-        "abbrev": "CONN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
-        "logo_dark": null,
-        "aliases": [
-          "CONN",
-          "Huskies",
-          "UConn",
-          "UConn Huskies"
-        ],
-        "color": "0c2340"
-      },
-      "away": {
-        "id": "espn:113",
-        "name": "Massachusetts Minutemen",
-        "abbrev": "MASS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-        "logo_dark": null,
-        "aliases": [
-          "MASS",
-          "Massachusetts",
-          "Massachusetts Minutemen",
-          "Minutemen",
-          "UMass"
-        ],
-        "color": "881c1c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Pratt & Whitney Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "mlb:849805",
-      "sport": "baseball",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "start_utc": "2026-10-24T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "mlb:158",
-        "name": "Milwaukee Brewers",
-        "abbrev": "MIL",
-        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Brewers",
-          "MIL",
-          "Milwaukee",
-          "Milwaukee Brewers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "mlb:139",
-        "name": "Tampa Bay Rays",
-        "abbrev": "TB",
-        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
-        "logo_dark": null,
-        "aliases": [
-          "Rays",
-          "TB",
-          "Tampa Bay",
-          "Tampa Bay Rays"
-        ],
-        "color": null
-      },
-      "source": "mlb",
-      "source_status": "Final/Final",
-      "venue": "American Family Field",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "UmfmgsZBw2w",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020166",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-24T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:16",
-        "name": "Chicago Blackhawks",
-        "abbrev": "CHI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
-        "aliases": [
-          "Blackhawks",
-          "CHI",
-          "Chicago",
-          "Chicago Blackhawks"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:8",
-        "name": "Montr\u00e9al Canadiens",
-        "abbrev": "MTL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
-        "aliases": [
-          "Canadiens",
-          "MTL",
-          "Montr\u00e9al",
-          "Montr\u00e9al Canadiens"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "United Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "tvmaze:803:s27e43",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-10-24T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:803",
-        "name": "WWE Friday Night SmackDown",
-        "abbrev": "SD",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "tsxCDxTcYc8",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Friday Night SmackDown"
-    },
-    {
-      "event_id": "espn:basketball:401909847",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-24T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:14",
-        "name": "Miami Heat",
-        "abbrev": "MIA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-        "logo_dark": null,
-        "aliases": [
-          "Heat",
-          "MIA",
-          "Miami",
-          "Miami Heat"
-        ],
-        "color": "98002e"
-      },
-      "away": {
-        "id": "espn:8",
-        "name": "Detroit Pistons",
-        "abbrev": "DET",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Pistons",
-          "Pistons"
-        ],
-        "color": "1d428a"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Kaseya Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862808",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:202",
-        "name": "Tulsa Golden Hurricane",
-        "abbrev": "TLSA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Hurricane",
-          "TLSA",
-          "Tulsa",
-          "Tulsa Golden Hurricane"
-        ],
-        "color": "003595"
-      },
-      "away": {
-        "id": "espn:349",
-        "name": "Army Black Knights",
-        "abbrev": "ARMY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARMY",
-          "Army",
-          "Army Black Knights",
-          "Black Knights"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "H. A. Chapman Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "pjPGdYmIKdw",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020167",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-24T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:21",
-        "name": "Colorado Avalanche",
-        "abbrev": "COL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
-        "aliases": [
-          "Avalanche",
-          "COL",
-          "Colorado",
-          "Colorado Avalanche"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:14",
-        "name": "Tampa Bay Lightning",
-        "abbrev": "TBL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
-        "aliases": [
-          "Lightning",
-          "TBL",
-          "Tampa Bay",
-          "Tampa Bay Lightning"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Ball Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864525",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2751",
-        "name": "Wyoming Cowboys",
-        "abbrev": "WYO",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cowboys",
-          "WYO",
-          "Wyoming",
-          "Wyoming Cowboys"
-        ],
-        "color": "492f24"
-      },
-      "away": {
-        "id": "espn:2005",
-        "name": "Air Force Falcons",
-        "abbrev": "AFA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-        "logo_dark": null,
-        "aliases": [
-          "AFA",
-          "Air Force",
-          "Air Force Falcons",
-          "Falcons"
-        ],
-        "color": "003594"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "War Memorial Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909096",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-24T01:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:24",
-        "name": "San Antonio Spurs",
-        "abbrev": "SA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-        "logo_dark": null,
-        "aliases": [
-          "SA",
-          "San Antonio",
-          "San Antonio Spurs",
-          "Spurs"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:10",
-        "name": "Houston Rockets",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Rockets",
-          "Rockets"
-        ],
-        "color": "ce0e2d"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Moody Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909849",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-24T01:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:26",
-        "name": "Utah Jazz",
-        "abbrev": "UTAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jazz",
-          "UTAH",
-          "Utah",
-          "Utah Jazz"
-        ],
-        "color": "4e008e"
-      },
-      "away": {
-        "id": "espn:3",
-        "name": "New Orleans Pelicans",
-        "abbrev": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-        "logo_dark": null,
-        "aliases": [
-          "NO",
-          "New Orleans",
-          "New Orleans Pelicans",
-          "Pelicans"
-        ],
-        "color": "0a2240"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Delta Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909850",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-24T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:9",
-        "name": "Golden State Warriors",
-        "abbrev": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-        "logo_dark": null,
-        "aliases": [
-          "GS",
-          "Golden State",
-          "Golden State Warriors",
-          "Warriors"
-        ],
-        "color": "fdb927"
-      },
-      "away": {
-        "id": "espn:29",
-        "name": "Memphis Grizzlies",
-        "abbrev": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-        "logo_dark": null,
-        "aliases": [
-          "Grizzlies",
-          "MEM",
-          "Memphis",
-          "Memphis Grizzlies"
-        ],
-        "color": "5d76a9"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Chase Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909851",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-24T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:13",
-        "name": "Los Angeles Lakers",
-        "abbrev": "LAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-        "logo_dark": null,
-        "aliases": [
-          "LAL",
-          "Lakers",
-          "Los Angeles",
-          "Los Angeles Lakers"
-        ],
-        "color": "552583"
-      },
-      "away": {
-        "id": "espn:12",
-        "name": "LA Clippers",
-        "abbrev": "LAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-        "logo_dark": null,
-        "aliases": [
-          "Clippers",
-          "LA",
-          "LA Clippers",
-          "LAC"
-        ],
-        "color": "12173f"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "crypto.com Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909852",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-24T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:23",
-        "name": "Sacramento Kings",
-        "abbrev": "SAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-        "logo_dark": null,
-        "aliases": [
-          "Kings",
-          "SAC",
-          "Sacramento",
-          "Sacramento Kings"
-        ],
-        "color": "5a2d81"
-      },
-      "away": {
-        "id": "espn:22",
-        "name": "Portland Trail Blazers",
-        "abbrev": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-        "logo_dark": null,
-        "aliases": [
-          "POR",
-          "Portland",
-          "Portland Trail Blazers",
-          "Trail Blazers"
-        ],
-        "color": "e03a3e"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Golden 1 Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858272",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-24T02:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:24",
-        "name": "Stanford Cardinal",
-        "abbrev": "STAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinal",
-          "STAN",
-          "Stanford",
-          "Stanford Cardinal"
-        ],
-        "color": "8c1515"
-      },
-      "away": {
-        "id": "espn:152",
-        "name": "NC State Wolfpack",
-        "abbrev": "NCSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
-        "logo_dark": null,
-        "aliases": [
-          "NC State",
-          "NC State Wolfpack",
-          "NCSU",
-          "Wolfpack"
-        ],
-        "color": "cc0000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Stanford Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "JmCFYUwhHu0",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
     },
     {
       "event_id": "espn:soccer:401879256",
@@ -8172,7 +6881,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Spectrum Center",
-      "detail": "6:58 - 2nd Quarter",
+      "detail": "2:35 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8218,7 +6927,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Rocket Arena",
-      "detail": "6:11 - 2nd Quarter",
+      "detail": "1:54 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8264,7 +6973,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "TD Garden",
-      "detail": "5:39 - 1st Quarter",
+      "detail": "37.3 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8310,7 +7019,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kaseya Center",
-      "detail": "5:58 - 1st Quarter",
+      "detail": "1:48 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8370,7 +7079,7 @@
       "competition_id": "wwe",
       "competition_name": "WWE",
       "start_utc": "2026-10-27T00:00:00Z",
-      "status": "scheduled",
+      "status": "unknown",
       "home": {
         "id": "tvmaze:802",
         "name": "WWE Monday Night RAW",
@@ -8620,7 +7329,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Scotiabank Saddledome",
       "detail": "",
       "game_number": 1,
@@ -9807,6 +8516,449 @@
       "card": ""
     },
     {
+      "event_id": "espn:soccer:401874993",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-10-28T17:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:103",
+        "name": "AC Milan",
+        "abbrev": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+        "logo_dark": null,
+        "aliases": [
+          "AC Milan",
+          "MIL",
+          "Milan"
+        ],
+        "color": "e4002b"
+      },
+      "away": {
+        "id": "espn:107",
+        "name": "Bologna",
+        "abbrev": "BOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOL",
+          "Bologna"
+        ],
+        "color": "04043d"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "pre/Scheduled",
+      "venue": "San Siro",
+      "detail": "Wed, October 28th at 1:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401874965",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-10-28T17:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:115",
+        "name": "Parma",
+        "abbrev": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+        "logo_dark": null,
+        "aliases": [
+          "PAR",
+          "Parma"
+        ],
+        "color": "19161D"
+      },
+      "away": {
+        "id": "espn:118",
+        "name": "Udinese",
+        "abbrev": "UDI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+        "logo_dark": null,
+        "aliases": [
+          "UDI",
+          "Udinese"
+        ],
+        "color": "19161D"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Ennio Tardini",
+      "detail": "Wed, October 28th at 1:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401874773",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-10-28T17:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:17530",
+        "name": "Venezia",
+        "abbrev": "VEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+        "logo_dark": null,
+        "aliases": [
+          "VEN",
+          "Venezia"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:110",
+        "name": "Internazionale",
+        "abbrev": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+        "logo_dark": null,
+        "aliases": [
+          "INT",
+          "Inter Milan",
+          "Internazionale"
+        ],
+        "color": "00239c"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Stadio Pier Luigi Penzo",
+      "detail": "Wed, October 28th at 1:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401874988",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-10-28T19:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:3263",
+        "name": "Genoa",
+        "abbrev": "GEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+        "logo_dark": null,
+        "aliases": [
+          "GEN",
+          "Genoa"
+        ],
+        "color": "08305d"
+      },
+      "away": {
+        "id": "espn:111",
+        "name": "Juventus",
+        "abbrev": "JUV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+        "logo_dark": null,
+        "aliases": [
+          "JUV",
+          "Juventus"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Stadio Luigi Ferraris",
+      "detail": "Wed, October 28th at 3:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401874799",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-10-28T19:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:4007",
+        "name": "Monza",
+        "abbrev": "MON",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+        "logo_dark": null,
+        "aliases": [
+          "MON",
+          "Monza"
+        ],
+        "color": "C8142F"
+      },
+      "away": {
+        "id": "espn:114",
+        "name": "Napoli",
+        "abbrev": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+        "logo_dark": null,
+        "aliases": [
+          "NAP",
+          "Napoli"
+        ],
+        "color": "0677d2"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "pre/Scheduled",
+      "venue": "U-Power Stadium",
+      "detail": "Wed, October 28th at 3:45 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909881",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-28T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:1",
+        "name": "Atlanta Hawks",
+        "abbrev": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta Hawks",
+          "Hawks"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:14",
+        "name": "Miami Heat",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "logo_dark": null,
+        "aliases": [
+          "Heat",
+          "MIA",
+          "Miami",
+          "Miami Heat"
+        ],
+        "color": "98002e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "State Farm Arena",
+      "detail": "Wed, October 28th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909882",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-28T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:5",
+        "name": "Cleveland Cavaliers",
+        "abbrev": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cavaliers",
+          "Cleveland",
+          "Cleveland Cavaliers"
+        ],
+        "color": "860038"
+      },
+      "away": {
+        "id": "espn:27",
+        "name": "Washington Wizards",
+        "abbrev": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+        "logo_dark": null,
+        "aliases": [
+          "WSH",
+          "Washington",
+          "Washington Wizards",
+          "Wizards"
+        ],
+        "color": "e31837"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Rocket Arena",
+      "detail": "Wed, October 28th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909883",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-28T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:8",
+        "name": "Detroit Pistons",
+        "abbrev": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Pistons",
+          "Pistons"
+        ],
+        "color": "1d428a"
+      },
+      "away": {
+        "id": "espn:30",
+        "name": "Charlotte Hornets",
+        "abbrev": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHA",
+          "Charlotte",
+          "Charlotte Hornets",
+          "Hornets"
+        ],
+        "color": "008ca8"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Little Caesars Arena",
+      "detail": "Wed, October 28th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909884",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-28T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:11",
+        "name": "Indiana Pacers",
+        "abbrev": "IND",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+        "logo_dark": null,
+        "aliases": [
+          "IND",
+          "Indiana",
+          "Indiana Pacers",
+          "Pacers"
+        ],
+        "color": "0c2340"
+      },
+      "away": {
+        "id": "espn:20",
+        "name": "Philadelphia 76ers",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "76ers",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia 76ers"
+        ],
+        "color": "1d428a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Gainbridge Fieldhouse",
+      "detail": "Wed, October 28th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871058",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-28T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2393",
+        "name": "Middle Tennessee Blue Raiders",
+        "abbrev": "MTSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Raiders",
+          "MTSU",
+          "Middle Tennessee",
+          "Middle Tennessee Blue Raiders"
+        ],
+        "color": "036eb7"
+      },
+      "away": {
+        "id": "espn:338",
+        "name": "Kennesaw State Owls",
+        "abbrev": "KENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+        "logo_dark": null,
+        "aliases": [
+          "KENN",
+          "Kennesaw St",
+          "Kennesaw State",
+          "Kennesaw State Owls",
+          "Owls"
+        ],
+        "color": "fdbb30"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Johnny \"Red\" Floyd Stadium",
+      "detail": "Wed, October 28th at 7:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020199",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -9845,6 +8997,584 @@
       "source_status": "FUT/OK",
       "venue": "Capital One Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909885",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-28T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:28",
+        "name": "Toronto Raptors",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "logo_dark": null,
+        "aliases": [
+          "Raptors",
+          "TOR",
+          "Toronto",
+          "Toronto Raptors"
+        ],
+        "color": "d91244"
+      },
+      "away": {
+        "id": "espn:19",
+        "name": "Orlando Magic",
+        "abbrev": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+        "logo_dark": null,
+        "aliases": [
+          "Magic",
+          "ORL",
+          "Orlando",
+          "Orlando Magic"
+        ],
+        "color": "0150b5"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Scotiabank Arena",
+      "detail": "Wed, October 28th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761907",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-28T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:21300",
+        "name": "Charlotte FC",
+        "abbrev": "CLT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLT",
+          "Charlotte",
+          "Charlotte FC"
+        ],
+        "color": "0085ca"
+      },
+      "away": {
+        "id": "espn:9720",
+        "name": "CF Montr\u00e9al",
+        "abbrev": "MTL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
+        "logo_dark": null,
+        "aliases": [
+          "CF Montr\u00e9al",
+          "MTL"
+        ],
+        "color": "003da6"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Bank of America Stadium",
+      "detail": "Wed, October 28th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761908",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-28T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:20232",
+        "name": "Inter Miami CF",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+        "logo_dark": null,
+        "aliases": [
+          "Inter Miami CF",
+          "MIA",
+          "Miami"
+        ],
+        "color": "231f20"
+      },
+      "away": {
+        "id": "espn:18267",
+        "name": "FC Cincinnati",
+        "abbrev": "CIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+        "logo_dark": null,
+        "aliases": [
+          "CIN",
+          "Cincinnati",
+          "FC Cincinnati"
+        ],
+        "color": "003087"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Nu Stadium",
+      "detail": "Wed, October 28th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761909",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-28T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:189",
+        "name": "New England Revolution",
+        "abbrev": "NE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+        "logo_dark": null,
+        "aliases": [
+          "NE",
+          "New England",
+          "New England Revolution"
+        ],
+        "color": "022166"
+      },
+      "away": {
+        "id": "espn:190",
+        "name": "Red Bull New York",
+        "abbrev": "RBNY",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+        "logo_dark": null,
+        "aliases": [
+          "RBNY",
+          "Red Bull NY",
+          "Red Bull New York"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Gillette Stadium",
+      "detail": "Wed, October 28th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761905",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-28T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:17606",
+        "name": "New York City FC",
+        "abbrev": "NYC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+        "logo_dark": null,
+        "aliases": [
+          "NYC",
+          "NYCFC",
+          "New York City FC"
+        ],
+        "color": "9fd2ff"
+      },
+      "away": {
+        "id": "espn:18418",
+        "name": "Atlanta United FC",
+        "abbrev": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta United FC"
+        ],
+        "color": "9d2235"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Citi Field",
+      "detail": "Wed, October 28th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761906",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-28T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:7318",
+        "name": "Toronto FC",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+        "logo_dark": null,
+        "aliases": [
+          "TOR",
+          "Toronto",
+          "Toronto FC"
+        ],
+        "color": "aa182c"
+      },
+      "away": {
+        "id": "espn:193",
+        "name": "D.C. United",
+        "abbrev": "DC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "D.C. United",
+          "DC"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "BMO Field",
+      "detail": "Wed, October 28th at 7:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:42189:s8e43",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-10-29T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:42189",
+        "name": "All Elite Wrestling: Dynamite",
+        "abbrev": "DYN",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "All Elite Wrestling: Dynamite"
+    },
+    {
+      "event_id": "mlb:849799",
+      "sport": "baseball",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "start_utc": "2026-10-29T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "mlb:139",
+        "name": "Tampa Bay Rays",
+        "abbrev": "TB",
+        "logo": "https://www.mlbstatic.com/team-logos/139.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Rays",
+          "TB",
+          "Tampa Bay",
+          "Tampa Bay Rays"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "mlb:158",
+        "name": "Milwaukee Brewers",
+        "abbrev": "MIL",
+        "logo": "https://www.mlbstatic.com/team-logos/158.svg",
+        "logo_dark": null,
+        "aliases": [
+          "Brewers",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Brewers"
+        ],
+        "color": null
+      },
+      "source": "mlb",
+      "source_status": "Preview/Scheduled",
+      "venue": "Tropicana Field",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909886",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:4",
+        "name": "Chicago Bulls",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "CHI",
+          "Chicago",
+          "Chicago Bulls"
+        ],
+        "color": "ce1141"
+      },
+      "away": {
+        "id": "espn:18",
+        "name": "New York Knicks",
+        "abbrev": "NY",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knicks",
+          "NY",
+          "New York",
+          "New York Knicks"
+        ],
+        "color": "1d428a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "United Center",
+      "detail": "Wed, October 28th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909887",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:15",
+        "name": "Milwaukee Bucks",
+        "abbrev": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bucks",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Bucks"
+        ],
+        "color": "00471b"
+      },
+      "away": {
+        "id": "espn:10",
+        "name": "Houston Rockets",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Rockets",
+          "Rockets"
+        ],
+        "color": "ce0e2d"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Fiserv Forum",
+      "detail": "Wed, October 28th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909888",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:16",
+        "name": "Minnesota Timberwolves",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Timberwolves",
+          "Timberwolves"
+        ],
+        "color": "266092"
+      },
+      "away": {
+        "id": "espn:9",
+        "name": "Golden State Warriors",
+        "abbrev": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "logo_dark": null,
+        "aliases": [
+          "GS",
+          "Golden State",
+          "Golden State Warriors",
+          "Warriors"
+        ],
+        "color": "fdb927"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Target Center",
+      "detail": "Wed, October 28th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909889",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:3",
+        "name": "New Orleans Pelicans",
+        "abbrev": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "logo_dark": null,
+        "aliases": [
+          "NO",
+          "New Orleans",
+          "New Orleans Pelicans",
+          "Pelicans"
+        ],
+        "color": "0a2240"
+      },
+      "away": {
+        "id": "espn:7",
+        "name": "Denver Nuggets",
+        "abbrev": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "logo_dark": null,
+        "aliases": [
+          "DEN",
+          "Denver",
+          "Denver Nuggets",
+          "Nuggets"
+        ],
+        "color": "0e2240"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Smoothie King Center",
+      "detail": "Wed, October 28th at 8:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871057",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-29T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:166",
+        "name": "New Mexico State Aggies",
+        "abbrev": "NMSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "NMSU",
+          "New Mexico St",
+          "New Mexico State",
+          "New Mexico State Aggies"
+        ],
+        "color": "7e141b"
+      },
+      "away": {
+        "id": "espn:55",
+        "name": "Jacksonville State Gamecocks",
+        "abbrev": "JXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "JXST",
+          "Jacksonville State",
+          "Jacksonville State Gamecocks",
+          "Jax State"
+        ],
+        "color": "cc0000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Aggie Memorial Stadium",
+      "detail": "Wed, October 28th at 8:00 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9899,6 +9629,270 @@
       "card": ""
     },
     {
+      "event_id": "espn:soccer:761910",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:20906",
+        "name": "Austin FC",
+        "abbrev": "ATX",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20906.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATX",
+          "Austin",
+          "Austin FC"
+        ],
+        "color": "00b140"
+      },
+      "away": {
+        "id": "espn:4771",
+        "name": "Real Salt Lake",
+        "abbrev": "RSL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+        "logo_dark": null,
+        "aliases": [
+          "RSL",
+          "Real Salt Lake",
+          "Salt Lake"
+        ],
+        "color": "a32035"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Q2 Stadium",
+      "detail": "Wed, October 28th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761911",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:182",
+        "name": "Chicago Fire FC",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHI",
+          "Chicago",
+          "Chicago Fire FC"
+        ],
+        "color": "7ccdef"
+      },
+      "away": {
+        "id": "espn:12011",
+        "name": "Orlando City SC",
+        "abbrev": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+        "logo_dark": null,
+        "aliases": [
+          "ORL",
+          "Orlando",
+          "Orlando City SC"
+        ],
+        "color": "60269e"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Soldier Field",
+      "detail": "Wed, October 28th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761912",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:185",
+        "name": "FC Dallas",
+        "abbrev": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+        "logo_dark": null,
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "FC Dallas"
+        ],
+        "color": "c6093b"
+      },
+      "away": {
+        "id": "espn:183",
+        "name": "Columbus Crew",
+        "abbrev": "CLB",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLB",
+          "Columbus",
+          "Columbus Crew"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Toyota Stadium",
+      "detail": "Wed, October 28th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761913",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:17362",
+        "name": "Minnesota United FC",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17362.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota United FC"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:186",
+        "name": "Sporting Kansas City",
+        "abbrev": "SKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kansas City",
+          "SKC",
+          "Sporting Kansas City"
+        ],
+        "color": "a7c6ed"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Allianz Field",
+      "detail": "Wed, October 28th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761914",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:18986",
+        "name": "Nashville SC",
+        "abbrev": "NSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
+        "logo_dark": null,
+        "aliases": [
+          "NSH",
+          "Nashville",
+          "Nashville SC"
+        ],
+        "color": "ece83a"
+      },
+      "away": {
+        "id": "espn:10739",
+        "name": "Philadelphia Union",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png",
+        "logo_dark": null,
+        "aliases": [
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Union"
+        ],
+        "color": "051f31"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "GEODIS Park",
+      "detail": "Wed, October 28th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761915",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:21812",
+        "name": "St. Louis CITY SC",
+        "abbrev": "STL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+        "logo_dark": null,
+        "aliases": [
+          "STL",
+          "St. Louis",
+          "St. Louis CITY SC"
+        ],
+        "color": "ec1458"
+      },
+      "away": {
+        "id": "espn:9723",
+        "name": "Portland Timbers",
+        "abbrev": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+        "logo_dark": null,
+        "aliases": [
+          "POR",
+          "Portland",
+          "Portland Timbers"
+        ],
+        "color": "2c5234"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Energizer Park",
+      "detail": "Wed, October 28th at 8:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020201",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -9945,6 +9939,98 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401909890",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:26",
+        "name": "Utah Jazz",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jazz",
+          "UTAH",
+          "Utah",
+          "Utah Jazz"
+        ],
+        "color": "4e008e"
+      },
+      "away": {
+        "id": "espn:24",
+        "name": "San Antonio Spurs",
+        "abbrev": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "logo_dark": null,
+        "aliases": [
+          "SA",
+          "San Antonio",
+          "San Antonio Spurs",
+          "Spurs"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Delta Center",
+      "detail": "Wed, October 28th at 9:00 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909891",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T01:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:6",
+        "name": "Dallas Mavericks",
+        "abbrev": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+        "logo_dark": null,
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Mavericks",
+          "Mavericks"
+        ],
+        "color": "0064b1"
+      },
+      "away": {
+        "id": "espn:25",
+        "name": "Oklahoma City Thunder",
+        "abbrev": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "logo_dark": null,
+        "aliases": [
+          "OKC",
+          "Oklahoma City",
+          "Oklahoma City Thunder",
+          "Thunder"
+        ],
+        "color": "007ac1"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "American Airlines Center",
+      "detail": "Wed, October 28th at 9:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020202",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -9983,6 +10069,184 @@
       "source_status": "FUT/OK",
       "venue": "Climate Pledge Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909892",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-10-29T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:12",
+        "name": "LA Clippers",
+        "abbrev": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Clippers",
+          "LA",
+          "LA Clippers",
+          "LAC"
+        ],
+        "color": "12173f"
+      },
+      "away": {
+        "id": "espn:13",
+        "name": "Los Angeles Lakers",
+        "abbrev": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "logo_dark": null,
+        "aliases": [
+          "LAL",
+          "Lakers",
+          "Los Angeles",
+          "Los Angeles Lakers"
+        ],
+        "color": "552583"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Intuit Dome",
+      "detail": "Wed, October 28th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761917",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:191",
+        "name": "San Jose Earthquakes",
+        "abbrev": "SJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png",
+        "logo_dark": null,
+        "aliases": [
+          "SJ",
+          "San Jose",
+          "San Jose Earthquakes"
+        ],
+        "color": "003da6"
+      },
+      "away": {
+        "id": "espn:184",
+        "name": "Colorado Rapids",
+        "abbrev": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/184.png",
+        "logo_dark": null,
+        "aliases": [
+          "COL",
+          "Colorado",
+          "Colorado Rapids"
+        ],
+        "color": "8a2432"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "PayPal Park",
+      "detail": "Wed, October 28th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761916",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9726",
+        "name": "Seattle Sounders FC",
+        "abbrev": "SEA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+        "logo_dark": null,
+        "aliases": [
+          "SEA",
+          "Seattle",
+          "Seattle Sounders FC"
+        ],
+        "color": "2dc84d"
+      },
+      "away": {
+        "id": "espn:6077",
+        "name": "Houston Dynamo FC",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Dynamo FC"
+        ],
+        "color": "ff6b00"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Lumen Field",
+      "detail": "Wed, October 28th at 10:30 PM EDT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:761918",
+      "sport": "soccer",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "start_utc": "2026-10-29T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:9727",
+        "name": "Vancouver Whitecaps",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+        "logo_dark": null,
+        "aliases": [
+          "VAN",
+          "Vancouver",
+          "Vancouver Whitecaps"
+        ],
+        "color": "ffffff"
+      },
+      "away": {
+        "id": "espn:22529",
+        "name": "San Diego FC",
+        "abbrev": "SD",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+        "logo_dark": null,
+        "aliases": [
+          "SD",
+          "San Diego",
+          "San Diego FC"
+        ],
+        "color": "697a7C"
+      },
+      "source": "espn:soccer/usa.1",
+      "source_status": "pre/Scheduled",
+      "venue": "BC Place",
+      "detail": "Wed, October 28th at 10:30 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11507,9 +11771,543 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020236",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:10",
+        "name": "Toronto Maple Leafs",
+        "abbrev": "TOR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+        "aliases": [
+          "Maple Leafs",
+          "TOR",
+          "Toronto",
+          "Toronto Maple Leafs"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:68",
+        "name": "Utah Mammoth",
+        "abbrev": "UTA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
+        "aliases": [
+          "Mammoth",
+          "UTA",
+          "Utah",
+          "Utah Mammoth"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Scotiabank Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020237",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:8",
+        "name": "Montr\u00e9al Canadiens",
+        "abbrev": "MTL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
+        "aliases": [
+          "Canadiens",
+          "MTL",
+          "Montr\u00e9al",
+          "Montr\u00e9al Canadiens"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:52",
+        "name": "Winnipeg Jets",
+        "abbrev": "WPG",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+        "aliases": [
+          "Jets",
+          "WPG",
+          "Winnipeg",
+          "Winnipeg Jets"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Centre Bell",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020238",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:14",
+        "name": "Tampa Bay Lightning",
+        "abbrev": "TBL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
+        "aliases": [
+          "Lightning",
+          "TBL",
+          "Tampa Bay",
+          "Tampa Bay Lightning"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:17",
+        "name": "Detroit Red Wings",
+        "abbrev": "DET",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Red Wings",
+          "Red Wings"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Benchmark International Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020240",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:3",
+        "name": "New York Rangers",
+        "abbrev": "NYR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+        "aliases": [
+          "NYR",
+          "New York",
+          "New York Rangers",
+          "Rangers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:19",
+        "name": "St. Louis Blues",
+        "abbrev": "STL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
+        "aliases": [
+          "Blues",
+          "STL",
+          "St. Louis",
+          "St. Louis Blues"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Madison Square Garden",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020241",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:4",
+        "name": "Philadelphia Flyers",
+        "abbrev": "PHI",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
+        "aliases": [
+          "Flyers",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Flyers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:30",
+        "name": "Minnesota Wild",
+        "abbrev": "MIN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Wild",
+          "Wild"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Xfinity Mobile Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020242",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:5",
+        "name": "Pittsburgh Penguins",
+        "abbrev": "PIT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
+        "aliases": [
+          "PIT",
+          "Penguins",
+          "Pittsburgh",
+          "Pittsburgh Penguins"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:54",
+        "name": "Vegas Golden Knights",
+        "abbrev": "VGK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+        "aliases": [
+          "Golden Knights",
+          "VGK",
+          "Vegas",
+          "Vegas Golden Knights"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "PPG Paints Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020243",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:15",
+        "name": "Washington Capitals",
+        "abbrev": "WSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
+        "aliases": [
+          "Capitals",
+          "WSH",
+          "Washington",
+          "Washington Capitals"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:25",
+        "name": "Dallas Stars",
+        "abbrev": "DAL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Stars",
+          "Stars"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Capital One Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020244",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:29",
+        "name": "Columbus Blue Jackets",
+        "abbrev": "CBJ",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
+        "aliases": [
+          "Blue Jackets",
+          "CBJ",
+          "Columbus",
+          "Columbus Blue Jackets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:21",
+        "name": "Colorado Avalanche",
+        "abbrev": "COL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
+        "aliases": [
+          "Avalanche",
+          "COL",
+          "Colorado",
+          "Colorado Avalanche"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Nationwide Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020239",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:1",
+        "name": "New Jersey Devils",
+        "abbrev": "NJD",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+        "aliases": [
+          "Devils",
+          "NJD",
+          "New Jersey",
+          "New Jersey Devils"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:22",
+        "name": "Edmonton Oilers",
+        "abbrev": "EDM",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
+        "aliases": [
+          "EDM",
+          "Edmonton",
+          "Edmonton Oilers",
+          "Oilers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Prudential Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020245",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:18",
+        "name": "Nashville Predators",
+        "abbrev": "NSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
+        "aliases": [
+          "NSH",
+          "Nashville",
+          "Nashville Predators",
+          "Predators"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:12",
+        "name": "Carolina Hurricanes",
+        "abbrev": "CAR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Hurricanes",
+          "Hurricanes"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Bridgestone Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020246",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-04T02:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:23",
+        "name": "Vancouver Canucks",
+        "abbrev": "VAN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
+        "aliases": [
+          "Canucks",
+          "VAN",
+          "Vancouver",
+          "Vancouver Canucks"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:24",
+        "name": "Anaheim Ducks",
+        "abbrev": "ANA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
+        "aliases": [
+          "ANA",
+          "Anaheim",
+          "Anaheim Ducks",
+          "Ducks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Rogers Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
+    {
+      "story_id": "50288401",
+      "headline": "Mets' Francisco Lindor wins Roberto Clemente Award in 'full-circle moment'",
+      "summary": "Mets shortstop Francisco Lindor has won the Roberto Clemente Award from Major League Baseball for his humanitarian work.",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736544_1296x729_16-9.jpg",
+      "published_utc": "2026-10-27T00:02:31Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50288401/mets-francisco-lindor-wins-roberto-clemente-award",
+      "stream_url": "",
+      "body": "ST. PETERSBURG, Fla. -- Francisco Lindor felt so honored to be given the Roberto Clemente Award, he showed up at World Series Game 3 in a Ferragamo tuxedo to accept it.\n\n\"We've been doing work without trying to be recognized, and here we are,\" the New York Mets shortstop said Monday night.\n\nA five-time All-Star, Lindor became the fifth recipient of Puerto Rican descent to receive the award after Edgar Martinez (2004), Carlos Delgado (2006), Carlos Beltran (2013) and Yadier Molina (2018).\n\n\"I looked at them, and I was trying to follow in their footsteps,\" Lindor said seated next to his wife, Katia. \"Now just being here, it's a complete honor to have a full-circle moment like this.\"\n\nLindor and his wife have worked with Children's Miracle Network Hospitals; the SEEN Foundation, a disability advocacy group; Special Olympics Florida; and Boys & Girls Clubs of America.\n\nHe donated to relief efforts in Puerto Rico after hurricanes Maria and Fiona, restored athletic facilities in his hometown of Caguas and donated more than $1 million to build Lindor Hall at the Montverde Academy, a school he graduated from in Monteverde, Florida.\n\nLindor launched a Lindor's Leaders development initiative for students in the sports medicine program at Bayside High School in New York and funded backpacks and school supplies in Queens, the New York City borough where the Mets' Citi Field is located.\n\n\"I love education, and she loves the health side of things,\" Lindor said of his wife. \"She's the rock. She gets a lot of stuff. It's a little harder to get stuff to me. But she's fantastic and she gets everything that needs to come my way. Yeah, we don't really like say this is the one thing we're going to stick to. Wherever we see a need, we're going to go and help.\"\n\nLindor made clear he and his wife team on the philanthropic efforts.\n\n\"That doesn't mean it won't evolve and look like something else in five, 10 years,\" Katia said. \"But for right now, the things that we feel passionate about have to do with the people we meet along the way and how they impact our lives. It's kind of a two-way street.\"\n\nClemente was a 15-time All-Star from Puerto Rico who was killed in a plane crash on New Year's Eve 1972 while attempting to deliver supplies to earthquake victims in Nicaragua. The award is given annually to a major league player who represents the sport through character, community involvement, philanthropy and positive contributions on and off the field.\n\n\"In Puerto Rico, you learn about the Ta\u00ednos, los espa\u00f1oles, los africanos y Roberto Clemente,\" Lindor said, referencing Clemente's legendary status on the island.\n\nLindor's emulation of Clemente doesn't extend to the batter's box.\n\n\"My dad tried to tell me to hit in a similar stance like Roberto Clemente,\" Lindor said. \"I'm like: 'Pops, you ain't got it like that. Don't worry about it. I can't lunge at the ball like he did.'\"\n\nThe Associated Press contributed to this report."
+    },
+    {
+      "story_id": "50292020",
+      "headline": "Harry Kane thanks Tottenham, pays tribute to England after Ballon d'Or win",
+      "summary": "Harry Kane thanked Tottenham for helping him fulfil his dreams and paid tribute to his international teammates after becoming the first Englishman in 25 years to win the Ballon d'Or.",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736751_1296x729_16-9.jpg",
+      "published_utc": "2026-10-26T23:58:01Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50292020/harry-kane-tottenham-england-thomas-tuchel-ballon-dor",
+      "stream_url": "",
+      "body": "Harry Kane thanked Tottenham for helping him fulfil his dreams and paid tribute to his international teammates after becoming the first Englishman in 25 years to win the Ballon d'Or.\n\nThe Bayern Munich striker beat Kylian Mbapp\u00e9 and Lamine Yamal to football's most prestigious individual award at a ceremony in London on Monday, becoming the first English winner since Michael Owen in 2001.\n\nKane, who joined Tottenham at the age of 11 before leaving for Bayern in 2023, reserved a special mention for his former club during his acceptance speech.\n\n\"I want to say thank you to Tottenham Hotspur. I wouldn't be where I am today without Tottenham, for sure,\" Kane said.\n\n\"I was there from 11 years old. [With] all the guidance, the coaches, you allowed me to live my dream.\n\n\"So, for sure, without all those moments together, all the ups and downs along the way of that journey has led me to this moment here today. So I just want to say thank you to Tottenham Hotspur.\"\n\nKane then singled out several coaches who helped him during his time at Spurs, including Chris Ramsey, Tim Sherwood and Ryan Mason, whom he described as one of his best friends.\n\nThe 33-year-old, who captained England to third place at the 2026 World Cup, also had praise for his international teammates during a lengthy and emotional speech.\n\n\"To all my England teammates. We had a special year,\" Kane said. \"It wasn't the perfect year but we had a lot of good moments.\n\n\"We built a great bond together, a lot of togetherness, the way we played and it is truly an honour to play and captain you.\n\n\"This one is for all of us, for sure.\"\n\n- Ballon d'Or 2026 results: Full rankings, all award winners\n\n- Ballon d'Or site names Kane, Yamal and Mbapp\u00e9 as winners in blunder\n\n- Harry Kane wins Ballon d'Or\n\nHe added on coach Thomas Tuchel: \"To Thomas Tuchel and the staff, the leadership, the way you drive us, the way you push standards, it is an honour to represent you.\"\n\nTuchel, meanwhile, congratulated his captain on becoming just the fifth Englishman to win the Ballon d'Or.\n\n\"Congratulations Harry on a deserved Ballon d'Or!\" Tuchel said.\n\n\"I ran out of superlatives to describe your performances a long time ago, but I'm delighted to see that you have now been formally recognised by the football world.\n\n\"To become the first Englishman to win this huge honour in 25 years makes it extra special and we are lucky to have you as our leader.\n\n\"I know you will enjoy this moment with your loved ones and then get back to doing what you do best -- scoring goals and winning football matches.\"\n\nWembley lit up its gold arches afterwards to mark Kane's historic achievement.\n\nKane, who also thanked several other coaches and Bayern -- including mentioning manager Vincent Kompany who is currently recovering from a collapse suffered last week -- finished off by saying: \"To my wife Kate, my best friend. We've been through ups and downs. You are my biggest support and I felt like you wanted this more than me.\n\n\"The anxious wait ... Here it is, we done it and you always want the best for me. You sacrifice yourself to make me achieve my dreams. This wouldn't be possible without you and it is something we can celebrate, not me. We're a team. I can't wait to celebrate tonight. I love you.\n\n\"My kids, sat home watching, it's definitely past your bedtime! To Ivy, Vivienne, Louis and Henry, you are the reason I do it. This is a special one and I can't wait to bring this home and celebrate with you. I love you very much.\""
+    },
     {
       "story_id": "50290179",
       "headline": "OKC's Jalen Williams (ankle), Cason Wallace (shoulder) to undergo surgery",
@@ -11539,6 +12337,20 @@
       "body": "LONDON -- It is nine years since Harry Kane lingered at the back of the London Palladium at the end of a soccer awards show.\n\nThe Best FIFA Football Awards in 2017 had just concluded with Cristiano Ronaldo handed the Men's top prize in addition to leading a team of the year including Lionel Messi, Neymar, Sergio Ramos and Gianluigi Buffon.\n\nAs the audience filed out and a few mere mortals loitered in the hope of a selfie, Kane stood near the exit, casting a longing stare at the winners on stage. He has dreamed all his life of being in their place, considered in the same breath as the game's greats.\n\nOn Monday, at the same storied West End venue, about nine miles from his birthplace in Leytonstone, he finally is. Sat next to Lamine Yamal with last year's winner Rodri one place further away, Kane kept company with the elite. And then he joined them.\n\nLast week in Munich, he told reporters he had found the wait to learn the winner \"very stressful\" for himself and his family. The final few hours on Monday won't have helped. The rain present earlier in the day subsided, but the controversy did not.\n\nLess than three hours before the ceremony was due to start, the official website published a profile of Kane as the 2026 Ballon d'Or winner. Alongside one for Kylian Mbapp\u00e9 and Yamal. They were swiftly deleted. The entire ceremony was then delayed by 45 minutes with no official reason given, amid some speculation that the notorious London traffic was responsible.\n\nKane won on the undercard -- the \"Gerd M\u00fcller Men's Award\" or the \"Striker of the Year\" -- to cheers from the locals in the audience. The raucous reaction from the cheap seats before addressing the crowd was a prelude to what followed. It was palpably welcome but not, by itself, an indication of the big one: Striker of the Year is not decided by vote, but simply by goals, and Kane's 73 was the best in the men's game.\n\nHaving waited for over a decade to live this moment, a few extra minutes made no difference in the end.\n\n\"Wow, wow, wow,\" he said after taking the stage before thanking Tottenham Hotspur by saying \"I wouldn't be where I am without you\" in a moment of typical class.\n\nMonday's Ballon d'Or triumph is the crowning moment for a player whose story of relentless professionalism and determined aspiration serves as an exemplar for any young player. British media is often criticized for prematurely building up players to an impossible level, only to then knock them down when that level is inevitably never reached.\n\nKane has always been a different case. He publicly judged himself against Ronaldo and Messi, two of the best in history, and used their devastating consistency as a target to match.\n\nHis numbers since joining Bayern Munich are staggering: 158 goals in 156 matches following a \u20ac120 million move from Tottenham in 2023. The Ballon d'Or voting period takes into account August 2025 to the end of the World Cup in July.\n\nHe scored 73 goals in 65 matches during that period, won the Bundesliga, the DFB-Pokal, the German Supercup and led England to their best FIFA World Cup finish in 60 years with third place, scoring six times at the tournament.\n\nBack in 2017, \"The Best\" awards were a competition set up by FIFA as a rival to the Ballon d'Or after five years of partnership with organizers France Football had come to an end. Kane was on the 24-man shortlist for Best Men's Player that year. He finished 24th. Of course, his journey to the summit began much further back.\n\nComing through the Spurs academy, a young Kane had loan spells at Leyton Orient, Millwall, Norwich City and Leicester City, where you would find it extremely difficult to locate anyone honest who genuinely believed at the time they were in the presence of a future world-class talent. A nice kid, sure, a hard-worker with a future in the game. But one of England's greatest?\n\nKane broke into Spurs' first team towards the end of the 2013-14 season and a year later was named PFA Young Player of the Year aged 21, making his England debut in the same season. He marked that moment against Lithuania with a goal then, too.\n\nFame was a novelty at this point. During a Tottenham preseason tour to Sydney, Kane innocently ventured out to a shopping center in his downtime. He was quickly mobbed by so many adoring fans that the club had to scramble a minibus to bring him back to the team hotel.\n\nKane went on to score 280 goals in 435 appearances for Spurs while breaking Wayne Rooney's all-time goalscoring record for England. Barring injury, he will break Peter Shilton's appearance record of 125 caps next month too.\n\nThere was, though, perhaps a sense in the build-up that Kane was not quite the global superstar his Ballon D'Or rivals were, most obviously Messi and Mbapp\u00e9 but also, despite his teenage years, Yamal, named Young Talent of the Year for the third consecutive year.\n\nFormer Spurs boss Jose Mourinho alluded to this in a conversation with Kane captured by Amazon in their \"All or Nothing\" series covering the 2019-20 campaign.\n\n\"The world looks to English football with an incredible respect but they still think that the movie stars of football belong to other places -- and I think we have to build also your status in that direction,\" he said.\n\nKane replied: \"That's my aim. When you are at a club like Tottenham, of course we've done well, personally I've done well, but I want to be Ronaldo, Messi...\"\n\nThere he goes again. The Ballon d'Or is voted for by one journalist per country of FIFA's top 100 ranked nations, which brings a different dynamic to, say, the FIFA equivalent, which adds votes from national managers and captains.\n\nHe had never finished higher than 10th in the Ballon d'Or vote (2024). There are three criteria, listed in order of importance: individual performances, decisive and impressive character; collective performances and titles won; class and fair play.\n\nAnd despite the Premier League being one of the United Kingdom's most successful global exports, English players have only ever won it five times (Sir Stanley Matthews, Sir Bobby Charlton and Kevin Keegan twice) and nobody has triumphed since Michael Owen in 2001.\n\nThat's more than two decades of unprecedented growth for the Premier League, and yet LaLiga often feels as though it is where the true individual talents reside. Players from Real Madrid and Barcelona have won it 12 times each. Manchester United are the most successful English club in Ballon d'Or history with four.\n\nKane, of course, left England in pursuit of silverware after a decade of personal achievement but collective frustration at Spurs. In doing so, he has ended up landing both silverware with Bayern and now the highest individual honor a player can attain.\n\n\"I am almost speechless,\" he said. \"Being here in London has made it extra special. It made it a good omen for me tonight.\" Instead of staring at the Palladium stage, now all eyes are on him."
     },
     {
+      "story_id": "50284500",
+      "headline": "WNBA Finals live: Valkyries-Dream Game 5 analysis, updates and highlights",
+      "summary": "The Finals resume with Game 5 at Golden State and the series at 2-2. ESPN is courtside for live analysis.",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736643_1296x729_16-9.jpg",
+      "published_utc": "2026-10-26T23:43:47Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50284500/finals-game-5-golden-state-valkyries-atlanta-dream",
+      "stream_url": "",
+      "body": "SAN FRANCISCO -- The WNBA Finals are back at Ballhalla for Game 5!\n\nWith the series knotted at 2-2, the Golden State Valkyries host the Atlanta Dream on Monday at 8 p.m. ET. The Valkyries, who had the best regular-season home record, beat the Dream 67-62 on Saturday in Atlanta, relying on their defense and getting a boost from coach Natalie Nakase's lineup changes, inserting Kaila Charles and Tiffany Hayes into the starting five.\n\nAngel Reese is averaging 18.1 points, 10.1 rebounds and 1.9 blocks in the postseason to lead the Dream.\n\nBoth franchises are looking for their first WNBA championship. The Dream have played in three previous Finals but never won a game in the championship series until this season. The Valkyries were an expansion team in 2025 and are playing in their first Finals.\n\nIn other Finals news Monday, the league announced that Thursday's Game 6 in Atlanta will be played at 12:30 p.m. ET at State Farm Arena.\n\nESPN will be courtside for Game 5 and providing live analysis, updates and highlights as one team moves one win away from a WNBA title."
+    },
+    {
       "story_id": "50291573",
       "headline": "Cardinals WR Jalen Brooks to miss rest of season with wrist injury",
       "summary": "Cardinals wide receiver Jalen Brooks posted on social media Monday that he will miss the rest of the season with a wrist injury.",
@@ -11551,48 +12363,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50291573/cardinals-jalen-brooks-wrist-miss-rest-season",
       "stream_url": "",
       "body": "TEMPE, Ariz. -- Cardinals wide receiver Jalen Brooks posted on social media Monday that he will miss the rest of the season with a wrist injury that needed \"emergency surgery.\"\n\nCoach Mike LaFleur said Brooks hurt his wrist in the first quarter but didn't mention it to anyone and continued to play.\n\n\"That sucks, man,\" LaFleur said. \"What a tough dude.\n\n\"Then looking back at it, seeing on the tape, you could see every once in a while, I guess him kind of messing with it a little bit.\"\n\nBrooks had slid into Marvin Harrison Jr.'s role as the X receiver after Harrison was traded to the Houston Texans on Oct. 11. Brooks had five catches for 81 yards, all of which came after Harrison's trade. He was on pace for a career high in yards.\n\nLaFleur said Brooks' role will be filled by committee.\n\nRookie Reggie Virgil is expected to get more snaps at the X along with Kendrick Bourne and Simi Fehoko.\n\nThe Cardinals could get some help back on offense this week.\n\nRookie running back Jeremiyah Love is expected to practice Wednesday after missing the last two weeks of practice and the last two games with a left ankle injury. Whether Love plays Sunday is yet to be determined and will be dictated by his week of practice, LaFleur said.\n\nLaFleur feels good about cornerback Max Melton and safety Andrew Wingard, both of whom are dealing with knee injuries, returning to practice Wednesday. Melton missed Sunday's game against the Broncos and Wingard has missed the past three.\n\nHowever, LaFleur does not expect defensive tackle Walter Nolen III to practice Wednesday as he continues to recover from an ankle injury that kept him out Sunday."
-    },
-    {
-      "story_id": "50240960",
-      "headline": "Lineups, live updates from Brewers-Rays World Series Game 3",
-      "summary": "Can the Rays recover from two straight losses? Here's the latest as the Fall Classic shifts to Tropicana Field.",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736030_608x342_16-9.jpg",
-      "published_utc": "2026-10-26T23:35:54Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50240960/world-series-game-3-brewers-rays-live-updates-takeaways",
-      "stream_url": "",
-      "body": "It's World Series time at The Trop!\n\nAs the 2026 Fall Classic shifts to St. Petersburg, Florida, for Game 3, can the hometown Tampa Bay Rays recover from two straight losses in Milwaukee? Or will the Milwaukee Brewers get one win closer to their first-ever title?\n\nStay tuned for pregame lineups, in-game action and postgame takeaways.\n\nKey links: How to win World Series | Playoff MVP tracker | Full schedule\n\nLive updates\n\nMilwaukee Brewers at Tampa Bay Rays (8 p.m. ET)\nStarting pitchers: Robert Gasser vs. Freddy Peralta\n\nLineups\n\nBrewers\n\n1. Jackson Chourio (R) LF\n\n2. Jake Bauers (L) 1B\n\n3. Christian Yelich (L) DH\n\n4. William Contreras (R) C\n\n5. Brice Turang (L) 2B\n\n6. Garrett Mitchell (L) CF\n\n7. Cooper Pratt (R) SS\n\n8. Sal Frelick (L) RF\n\n9. David Hamilton (L) 3B\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Ryan Vilade (R) 1B\n\n3. Chandler Simpson (L) LF\n\n4. Junior Caminero (R) 3B\n\n5. Ben Williamson (R) 2B\n\n6. Jonny DeLuca (R) CF\n\n7. Victor Mesa Jr. (L) RF\n\n8. Nick Fortes (R) C\n\n9. Taylor Walls (S) SS"
-    },
-    {
-      "story_id": "50291823",
-      "headline": "Who will replace Carrick if he's sacked as Manchester United head coach?",
-      "summary": "Who will replace Carrick if he's sacked as Manchester United head coach?",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_COM_SOC_Analysis_Who_will_replace_Carrick_if_heE28099s_sacked_as_Manchester_United_head_coach3F_GLOBAL_2/dm_261026_COM_SOC_Analysis_Who_will_replace_Carrick_if_heE28099s_sacked_as_Manchester_United_head_coach3F_GLOBAL_2.jpg",
-      "published_utc": "2026-10-26T23:21:35Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50291823/who-replace-carrick-sacked-manchester-united-head-coach",
-      "stream_url": "",
-      "body": ""
-    },
-    {
-      "story_id": "50288799",
-      "headline": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
-      "summary": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg",
-      "published_utc": "2026-10-26T22:42:37Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "Ramona Shelburne",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50288799/dream-valkyries-play-g6-wnba-finals-state-farm",
-      "stream_url": "",
-      "body": "After a weekend of nonstop frantic discussions and negotiation, Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at 17,000-seat State Farm Arena, the home of the Atlanta Hawks.\n\nThe Hawks' home game against the Cleveland Cavaliers that night will move back one hour to 8 p.m. to accommodate the doubleheader, just as the Hawks did for Game 4. This allows a potential Game 7 to remain scheduled for Friday at Chase Center in San Francisco.\n\nAll three Finals games in Atlanta have required hurried adjustments to the schedule at State Farm Arena. It took collective efforts from the WNBA, NBA, the Hawks, State Farm Arena, the Dream, the Valkyries and broadcast partners to figure out the best course of action again.\n\nThe NBA and WNBA explored options to keep Game 6 in primetime. However, both the Hawks and Cavaliers play Wednesday night, so they could not play their game in the earlier time slot Thursday.\n\n\"I hope everyone gets to see it somehow and I know for some people it's not realistic -- they have jobs and won't be able to make it,\" Dream coach Karl Smesko said. \"I'm disappointed for that, but I'm hopeful as many people can see the game as possible.\"\n\nBy moving up Game 6, the WNBA avoids a scenario where a potential championship game is played inside the Dream's home arena, the 3,500-seat Gateway Center. The other option under strong consideration was moving Game 6 to an open date at State Farm Arena on Friday and Game 7 to an open date at Chase Center on Tuesday, Nov. 3.\n\nGame 5 of the WNBA Finals is set for 8 p.m. ET on Monday in San Francisco. The series is tied 2-2.\n\n\"The sellout crowds and extraordinary atmosphere at State Farm Arena for Games 3 and 4 were a tremendous success, and we're excited to give thousands more fans the opportunity to experience Game 6 with a championship on the line,\" WNBA commissioner Cathy Engelbert said Monday. \"We thank the NBA, Dream, Valkyries, Hawks, State Farm Arena and USA Network for the collaboration and flexibility that made this move possible. We look forward to delivering another unforgettable Finals experience in Atlanta.\"\n\nValkyries coach Natalie Nakase said her team won't be negatively affected by adjusting to the early tipoff for Game 6, saying the main concerns are \"rest and recovery.\" Nakase said she is confident that Valkyries fans will tune in.\n\n\"The beauty of Ballhalla is they'll sacrifice. They're going to sacrifice,\" she said. \"They're going to open the app, they're going to open their phone, they're going to watch. I have no doubt that everyone who has been supporting us through this whole way ... everybody is going to watch.\"\n\nSmesko shared the same sentiment about the early tip-off, saying the only difference with the early game is that neither team will have a shootaround.\n\nDream stars Angel Reese and Allisha Gray both brushed aside the game time as a nonfactor, with Gray saying: \"It's the Finals. We just got to do what we've got to do. We are locked in on winning Game 6 whether it's 8 a.m., 10 p.m., midnight. We got a championship to win.\"\n\nInformation from ESPN's Kendra Andrews and the Associated Press was used in this report."
     },
     {
       "story_id": "50290177",
@@ -11679,6 +12449,34 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nSamrani expected to test open market\nJordan Samrani is expected to test the open market from November 1. ESPN understands he will explore his options for 2028 and beyond.\n\nFollowing a breakout season with the Parramatta Eels, Samrani is open to assessing opportunities elsewhere when the contracting window opens on Sunday.\n\nCochrane set to link up with Titans feeder\n\nTaye Cochrane is set to link up with Gold Coast Titans feeder club Ipswich Jets for the 2027 season following his departure from Canterbury.\n\nESPN understands the young fullback has signed with the Queensland Cup outfit after the Bulldogs opted against offering him a contract for next season.\n\nCochrane scored six tries in 14 NSW Cup appearances for Canterbury in 2026, having been part of the club's Jersey Flegg premiership-winning side in 2024.\n\nThe move follows Phil Gould's confirmation that Cochrane would leave the Bulldogs, with ESPN revealing he had not been offered a new deal.\n\nBulldogs opt against Cochrane deal\n\nCanterbury have opted against offering Taye Cochrane a contract for 2027, with the young fullback set to depart Belmore.\n\nESPN understands Cochrane was not offered a new deal, following Phil Gould's confirmation he would not remain at the Bulldogs next season.\n\nCochrane scored six tries in 14 NSW Cup appearances this year, playing predominantly at fullback.\n\nHe was part of Canterbury's 2024 Jersey Flegg premiership-winning side before progressing to NSW Cup the following season.\n\nPanthers make retention intentions clear on Patea\nPenrith have informed Luron Patea's management of their desire to retain the young prop beyond 2027, although he still intends to test the open market from November 1.\n\nESPN understands multiple clubs are interested in speaking to Patea, who is approaching the final year of his Panthers contract.\n\nESPN previously reported that Penrith had yet to begin extension discussions with Patea.\n\nTigers keen to retain Mason\n\nWests Tigers are keen to retain Heath Mason, with the club working through roster space to accommodate the young utility.\n\nESPN understands Mason remains part of the Tigers' long-term plans, although his future is yet to be resolved ahead of 2027.\n\nCowboys open to keeping Taumalolo\n\nNorth Queensland are open to retaining Jason Taumalolo beyond 2027, with the veteran forward's assessment of how his body is holding up set to guide the next step.\n\nESPN understands the Cowboys will take their lead from Taumalolo as he weighs up his playing future, reflecting his standing as a club legend.\n\nTaumalolo is contracted until the end of next season and becomes eligible to negotiate with rival clubs for 2028 onwards from November 1.\n\nPanthers lock in Patea\nPenrith have secured Tua Patea until the end of 2029, with the youngster signing an extension that includes a pathway from a development contract into the club's top 30.\n\nPatea capped off the 2026 season with a hat-trick in the Panthers' Jersey Flegg Grand Final victory, having started the year with an NRL training block.\n\nThe new deal will see him join Penrith's full-time NRL squad as he works towards a first-grade debut.\n\nBulldogs closing in on Skelton return\n\nJeral Skelton is closing in on a return to Canterbury following his departure from the Wests Tigers.\n\nESPN understands the Bulldogs are in advanced discussions to bring the outside back to the club for the 2027 season.\n\nAn agreement is understood to be close, although the deal has yet to be finalised.\n\nMultiple NRL sides eye Knights forward\n\nA Sydney club and a Queensland-based club are monitoring Newcastle forward Mat Croker ahead of November 1.\n\nESPN understands the two clubs have shown interest in the 27-year-old, who is approaching the final year of his Knights contract and can negotiate with rivals for 2028 onwards from next month.\n\nRivals keeping tabs on Dragons' Tu\n\nMultiple clubs are monitoring St George Illawarra outside back Setu Tu, with the Dragons yet to begin talks over a contract extension.\n\nTu is contracted until the end of 2027 and is expected to test the open market from November 1, when rival clubs can negotiate a deal for 2028 and beyond.\n\nThe former Warriors outside back joined the Dragons on a development contract this season and is set to move into the club's top 30 squad in 2027.\n\nHis ability to cover multiple positions across the backline adds to his appeal as clubs assess their recruitment options.\n\nRoosters eye Dockar-Clay reunion\nThe Roosters have shown interest in a potential return for Zach Dockar-Clay as they explore options to bolster their hooking and utility depth.\n\nESPN understands the 31-year-old has emerged as an option following his departure from Manly, with discussions remaining at an early stage.\n\nDockar-Clay spent the 2024 and 2025 seasons with the Roosters before joining the Sea Eagles on a one-year deal for 2026.\n\nManly confirmed his departure last month after a season in which he claimed the club's NSW Cup best-and-fairest award.\n\nBostock brushes Dragons links\n\nDolphins star Jack Bostock has dismissed recent links between himself and the Dragons, admitting this isn't the first time he'd been floated for a club switch.\n\n\"I've been linked to a few a clubs,\" Bostock admitted.\n\n\"I don't know about [the Dragons links].\"\n\nHe said that while he \"obviously sees it in the media,\" his sole focus is the Kangaroos.\n\nSloan's Dragons stay still a possibility\n\nTyrell Sloan could yet remain at St George Illawarra next season, with discussions ongoing over a potential stay despite his planned move to Castleford.\n\nThere is interest in keeping Sloan at the Dragons, but several hurdles remain before that can become a reality.\n\nRoster space and salary cap room would need to be worked through, while any arrangement would also require Castleford to agree to release him.\n\nSloan previously admitted he would \"love to\" remain in the NRL when speaking to Channel Nine in August, after his Castleford deal had been announced.\n\nNo agreement has been reached and a stay is far from guaranteed."
     },
     {
+      "story_id": "50240960",
+      "headline": "Lineups, live updates from Brewers-Rays World Series Game 3",
+      "summary": "Can the Rays recover from two straight losses? Here's the latest as the Fall Classic shifts to Tropicana Field.",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736030_608x342_16-9.jpg",
+      "published_utc": "2026-10-27T00:00:51Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50240960/world-series-game-3-brewers-rays-live-updates-takeaways",
+      "stream_url": "",
+      "body": "It's World Series time at The Trop!\n\nAs the 2026 Fall Classic shifts to St. Petersburg, Florida, for Game 3, can the hometown Tampa Bay Rays recover from two straight losses in Milwaukee? Or will the Milwaukee Brewers get one win closer to their first-ever title?\n\nStay tuned for pregame lineups, in-game action and postgame takeaways.\n\nKey links: How to win World Series | Playoff MVP tracker | Full schedule\n\nLive updates\n\nMilwaukee Brewers at Tampa Bay Rays\nStarting pitchers: Robert Gasser vs. Freddy Peralta\n\nLineups\n\nBrewers\n\n1. Jackson Chourio (R) LF\n\n2. Jake Bauers (L) 1B\n\n3. Christian Yelich (L) DH\n\n4. William Contreras (R) C\n\n5. Brice Turang (L) 2B\n\n6. Garrett Mitchell (L) CF\n\n7. Cooper Pratt (R) SS\n\n8. Sal Frelick (L) RF\n\n9. David Hamilton (L) 3B\n\nRays\n\n1. Yandy Diaz (R) DH\n\n2. Ryan Vilade (R) 1B\n\n3. Chandler Simpson (L) LF\n\n4. Junior Caminero (R) 3B\n\n5. Ben Williamson (R) 2B\n\n6. Jonny DeLuca (R) CF\n\n7. Victor Mesa Jr. (L) RF\n\n8. Nick Fortes (R) C\n\n9. Taylor Walls (S) SS"
+    },
+    {
+      "story_id": "50291823",
+      "headline": "Who will replace Carrick if he's sacked as Manchester United head coach?",
+      "summary": "Who will replace Carrick if he's sacked as Manchester United head coach?",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_COM_SOC_Analysis_Who_will_replace_Carrick_if_heE28099s_sacked_as_Manchester_United_head_coach3F_GLOBAL_2/dm_261026_COM_SOC_Analysis_Who_will_replace_Carrick_if_heE28099s_sacked_as_Manchester_United_head_coach3F_GLOBAL_2.jpg",
+      "published_utc": "2026-10-26T23:21:35Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50291823/who-replace-carrick-sacked-manchester-united-head-coach",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50287191",
       "headline": "Jalen Williams, Cason Wallace injured: What's next for the OKC Thunder?",
       "summary": "The Thunder will be without two starting guards for months. Could they make a trade to try to replace Jalen Williams and Cason Wallace?",
@@ -11707,6 +12505,20 @@
       "body": "Bayern Munich coach Vincent Kompany will undergo more testing to determine why he collapsed during a training session the previous day, the club said Saturday.\n\nBoard member for sport Max Eberl told reporters that Kompany's condition was \"stable\" and that doctors were focused on \"trying to find out\" the cause.\n\n\"The tests have already yielded some results, but further results are needed to determine exactly what it is and how long it will take for him to recover,\" Eberl said.\n\nKompany, 40, was observing a training session for the reserves team when the incident occurred Friday.\n\nKompany had been dealing with a viral infection since last week, and his assistant Aaron Danks said on Tuesday it affected the Belgian's legs.\n\nKompany remained seated throughout Bayern's 6-1 win over Leipzig last week and then missed a training session and a pregame news conference on Tuesday, when Danks said he needed time to rest at home.\n\nHowever, Kompany returned to the dugout for Wednesday's 2-2 draw against Arsenal in the Champions League. Following that match, Kompany acknowledged he tried to push through the illness and failed to heed the signals from his body.\n\nEberl said that he spoke to Kompany and his wife on Friday after Kompany collapsed.\n\n- Bayern's Kompany hospitalized after collapsing at training\n\nThe executive added that as of now there was no time frame for when Kompany would return, saying it could take weeks.\n\n\"He'll only come back when he's fit,\" Eberl said. \"We're not going to start setting any time frames. We need to find out what the issue is, and then it's a question of what the recovery time will be. We're not talking in terms of days, but weeks.\"\n\nKompany, a former player, joined Bayern in 2024 from Burnley and has won the German league twice since then. Kompany's team also reached the Champions League semifinals and won the German Cup last season.\n\nHe is nominated for the Johan Cruyff Trophy for the best coach of the year to be announced Monday.\n\nBayern will visit Freiburg in the Bundesliga on Sunday."
     },
     {
+      "story_id": "50288799",
+      "headline": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
+      "summary": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg",
+      "published_utc": "2026-10-26T23:35:10Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "Ramona Shelburne",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50288799/dream-valkyries-play-g6-wnba-finals-state-farm",
+      "stream_url": "",
+      "body": "After a weekend of nonstop frantic discussions and negotiation, Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at 17,000-seat State Farm Arena, the home of the Atlanta Hawks.\n\nThe Hawks' home game against the Cleveland Cavaliers that night will move back one hour to 8 p.m. to accommodate the doubleheader, just as the Hawks did for Game 4. This allows a potential Game 7 to remain scheduled for Friday at Chase Center in San Francisco.\n\nAll three Finals games in Atlanta have required hurried adjustments to the schedule at State Farm Arena. It took collective efforts from the WNBA, NBA, the Hawks, State Farm Arena, the Dream, the Valkyries and broadcast partners to figure out the best course of action again.\n\nThe NBA and WNBA explored options to keep Game 6 in primetime. However, both the Hawks and Cavaliers play Wednesday night, so they could not play their game in the earlier time slot Thursday.\n\n\"I hope everyone gets to see it somehow and I know for some people it's not realistic -- they have jobs and won't be able to make it,\" Dream coach Karl Smesko said. \"I'm disappointed for that, but I'm hopeful as many people can see the game as possible.\"\n\nBy moving up Game 6, the WNBA avoids a scenario where a potential championship game is played inside the Dream's home arena, the 3,500-seat Gateway Center. The other option under strong consideration was moving Game 6 to an open date at State Farm Arena on Friday and Game 7 to an open date at Chase Center on Tuesday, Nov. 3.\n\nGame 5 of the WNBA Finals is set for 8 p.m. ET on Monday in San Francisco. The series is tied 2-2.\n\n\"The sellout crowds and extraordinary atmosphere at State Farm Arena for Games 3 and 4 were a tremendous success, and we're excited to give thousands more fans the opportunity to experience Game 6 with a championship on the line,\" WNBA commissioner Cathy Engelbert said Monday. \"We thank the NBA, Dream, Valkyries, Hawks, State Farm Arena and USA Network for the collaboration and flexibility that made this move possible. We look forward to delivering another unforgettable Finals experience in Atlanta.\"\n\nValkyries coach Natalie Nakase said her team won't be negatively affected by adjusting to the early tipoff for Game 6, saying the main concerns are \"rest and recovery.\" Nakase said she is confident that Valkyries fans will tune in.\n\n\"The beauty of Ballhalla is they'll sacrifice. They're going to sacrifice,\" she said. \"They're going to open the app, they're going to open their phone, they're going to watch. I have no doubt that everyone who has been supporting us through this whole way ... everybody is going to watch.\"\n\nSmesko shared the same sentiment about the early tip-off, saying the only difference with the early game is that neither team will have a shootaround.\n\nDream stars Angel Reese and Allisha Gray both brushed aside the game time as a nonfactor, with Gray saying: \"It's the Finals. We just got to do what we've got to do. We are locked in on winning Game 6 whether it's 8 a.m., 10 p.m., midnight. We got a championship to win.\"\n\nInformation from ESPN's Kendra Andrews and the Associated Press was used in this report."
+    },
+    {
       "story_id": "50291324",
       "headline": "Giants' Cam Skattebo, John Harbaugh object to lowering helmet penalty",
       "summary": "Giants coach John Harbaugh and Cam Skattebo took issue with a first-quarter penalty call Sunday against Houston, when the running back was flagged for unnecessary roughness for impermissible helmet contact.",
@@ -11719,48 +12531,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50291324/giants-cam-skattebo-john-harbaugh-object-lowering-helmet-penalty",
       "stream_url": "",
       "body": "EAST RUTHERFORD, N.J. -- The New York Giants might have won and played their most complete game Sunday against the Houston Texans, but running back Cam Skattebo and coach John Harbaugh aren't happy with the way one play was officiated.\n\nHarbaugh and Skattebo disagreed with a penalty call in the first quarter when Skattebo was flagged for a personal foul -- unnecessary roughness -- for impermissible helmet contact.\n\nSkattebo was penalized for lowering his head into a defender on the first-quarter run that originally went for a 7-yard gain. It sent Houston safety M.J. Stewart flying to the ground when the two collided and left Skattebo and Harbaugh visibly upset with the call.\n\nSkattebo still wasn't happy after the Giants' 27-21 overtime victory, in which he had his first 100-yard rushing game. He finished with a career-high 124 yards on 17 carries.\n\n\"The NFL loves to post me [on social media] when I do stuff like that, but also wants to take stuff from me,\" Skattebo said Sunday. \"I'm going to run the ball like I want to run the ball. And if I'm going to continue to get flagged for it or fined for it, I guess I'm going to play for free. I'm going to do what I can to be on this team and give everything I got. If they're going to punish me for that, then I'm just going to keep doing it and playing hard.\"\n\nThis wasn't the first time Skattebo has been called out for the infraction. He was fined $7,073 earlier this month for \"illegal helmet contact on a running play.\"\n\nHarbaugh was shown on the game's television broadcast vehemently objecting to the call, and was in the linesman's ear for a while after the play.\n\n\"That's how I felt about it,\" Harbaugh said Monday. \"You can't run in there and give tacklers your chest. When you run low, your head's down there, too. You can't move your head off your shoulders. It's a physical impossibility.\"\n\nThe NFL has made it a point to deemphasize offensive players using their helmets as weapons. It's still rare that the infraction involves a penalty flag.\n\nIt caught Harbaugh by surprise.\n\n\"It did,\" he said. \"It certainly did, yes.\"\n\nSkattebo, the second-year running back out of Arizona State, is known for his physical style of play. He often seeks out the contact.\n\nBut Harbaugh didn't seem to think there was any kind of intent to do so with his helmet.\n\n\"I'm quite sure [Skattebo is] not trying to use his helmet as a weapon, as a battering ram. It's not the way he's thinking,\" Harbaugh said. \"He's leading with his shoulder. That's what he's trying to do. ... So, I didn't have a problem with the technique personally at all, but we haven't heard from the league. Maybe they'll be able to enlighten us a little bit on it in terms of what they want us to teach, and that would be great.\"\n\nThe controversy comes one week after Skattebo saw his role greatly reduced in a loss to the New Orleans Saints. He viewed it as punishment for several costly fumbles, including late in a tie against the Washington Commanders.\n\nSkattebo was returning after playing just six snaps against the Saints. He did not have a carry in that contest.\n\nThe lightning rod running back was intent on bouncing back after being reinstated as the lead back and starter Sunday against the Texans."
-    },
-    {
-      "story_id": "50288401",
-      "headline": "Mets' Francisco Lindor wins Roberto Clemente Award",
-      "summary": "Mets shortstop Francisco Lindor has won the Roberto Clemente Award from Major League Baseball for his humanitarian work.",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736544_1296x729_16-9.jpg",
-      "published_utc": "2026-10-26T21:04:22Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50288401/mets-francisco-lindor-wins-roberto-clemente-award",
-      "stream_url": "",
-      "body": "ST. PETERSBURG, Fla. -- New York Mets shortstop Francisco Lindor has won the Roberto Clemente Award from Major League Baseball for his humanitarian work.\n\nLindor was to receive the award before Game 3 of the World Series on Monday night.\n\n\"I remember going to history classes in Puerto Rico for second, third and fourth grade,\" Lindor said. \"You learn about Roberto Clemente and you learn about Spaniards and Christopher Columbus. So it's so cool to sit here and be recognized, recognized for going out there into communities and give and help and in this case with the Lindor Leaders guide through the process of life.\"\n\nA five-time All-Star, Lindor became the fifth recipient of Puerto Rican descent to receive the award after Edgar Martinez (2004), Carlos Delgado (2006), Carlos Beltr\u00e1n (2013) and Yadier Molina (2018).\n\n\"Just like the Delgados, the Beltr\u00e1ns, the Martinezes, the Molinas inspired my generation, hopefully this inspires another generation to continue to care for others, continue to love your neighbors, continue to give back,\" Lindor said.\n\n\"Sometimes us athletes can be seen like we're so far away from the general public, but we're not. We are in the communities. We are giving back and we are helping. I'm looking forward to -- hopefully this is going to give me a bigger platform to continue to help and create better opportunities for people back home,\" he added. \"So hopefully the young generation that's coming up, they're saying, man, I would like to be like Francisco a little bit but like Clemente, because we're all trying to be like Clemente.\"\n\nLindor and his wife, Katia, have worked with Children's Miracle Network Hospitals; the SEEN Foundation, a disability advocacy group; Special Olympics Florida; and Boys & Girls Clubs of America.\n\nHe donated to relief efforts in Puerto Rico after hurricanes Maria and Fiona, restored athletic facilities in his hometown of Caguas and donated more than $1 million to build Lindor Hall at the Montverde Academy, a school he graduated from in Monteverde, Florida.\n\nLindor launched a Lindor's Leaders development initiative for students in the sports medicine program at Bayside High School in New York and funded backpacks and school supplies in Queens, the New York City borough where the Mets' Citi Field is located.\n\nClemente was a 15-time All-Star from Puerto Rico who was killed in a plane crash on New Year's Eve 1972 while attempting to deliver supplies to earthquake victims in Nicaragua. The award is given annually to a major league player who represents the sport through character, community involvement, philanthropy and positive contributions on and off the field."
-    },
-    {
-      "story_id": "50287797",
-      "headline": "Man United head coach Michael Carrick leaves Carrington amid doubts over his future",
-      "summary": "Michael Carrick has left Carrington after Manchester United chief executive Omar Berrada and director of football Jason Wilcox held talks over his future.",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736508_1296x729_16-9.jpg",
-      "published_utc": "2026-10-26T20:45:49Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN News Services.",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50287797/man-united-michael-carrick-pressure-carrington-omar-berrada-jason-wilcox",
-      "stream_url": "",
-      "body": "Michael Carrick has left Carrington after Manchester United chief executive Omar Berrada and director of football Jason Wilcox held talks over his future, with the club still not tipping its hand about the under-fire coach's position.\n\nThe popular former Red Devils midfielder not only steadied the ship after Ruben Amorim's rocky reign but helped it change course as his January arrival inspired the side's rise to third in the Premier League.\n\nCarrick's impressive stint saw him rewarded with a two-year deal to stay on as United boss, but just five months later he is facing the sack following Sunday's 3-0 Old Trafford loss to Bournemouth.\n\nTalks over the managerial situation followed that defeat and continued after Berrada and Wilcox arrived at the Carrington training complex on Monday morning, the Press Association understands.\n\nCarrick arrived at the training ground shortly before 2 p.m. as United Under-21s took on Hull -- the side that helped ensure United got their Premier League season off to a nightmare start -- in a behind closed doors friendly.\n\nThe head coach left the training complex just before 5pm, shortly after Wilcox departed, having spent around three hours at Carrington.\n\nBut the wait for clarity on Carrick's future rumbles on ahead of the United players' return for training on Tuesday following a day off.\n\nEddie Howe and Julian Nagelsmann are potential replacements for Carrick, sources told ESPN.\n\nCarrick's side are without a win in eight games after being beaten by Bournemouth days after the 4-1 Champions League loss at Como.\n\nUnited have won just two of their 12 matches in all competitions this term and their seven-point return from eight matches represents their worst start to a season since 1986.\n\nThe side sit just a point above the Premier League relegation zone in 16th place ahead of Saturday's trip to Chelsea, before heading into the international break with home games against Roma and Aston Villa.\n\nCarrick sidestepped questions over his future following the Bournemouth defeat but appeared to know the writing was on the wall as he waved to the crowd and patted his chest as he exited the pitch, with fans supportively chanting his name.\n\nThe Old Trafford faithful's anger was instead aimed at the Glazers, co-owner Sir Jim Ratcliffe and the Ineos set-up, including United director of football Wilcox.\n\nPlayers were booed at the final whistle and then fiercely as they followed Carrick down the tunnel on a day when the manager left skipper Bruno Fernandes on the bench.\n\n- Sources: United consider Howe, Nagelsmann to replace under-fire Carrick\n\n- Man United are in crisis (again), but where are the Glazers?\n\n- Man United are stuck with their underperforming players no matter who's manager\n\nThe 32-year-old has been a pale imitation of the player who won last season's Professional Footballers' Association and Football Writers' Association awards, with the frustrated captain questioning the manager's tactics after the Como defeat.\n\nCarrick claimed it was a \"pure football\" decision before the match rather than punishment but decided against giving him a minute.\n\nFernandes was also at Carrington on Monday -- a day off for the players -- to receive what is understood to be pre-planned treatment.\n\nThe skipper's eye-catching remarks in Italy came a week after Lisandro Mart\u00ednez was fined and brought in for talks after criticising the club hierarchy in a set of stunning interviews after the loss at Atl\u00e9tico Madrid.\n\nInformation from PA was used in this report."
-    },
-    {
-      "story_id": "50289490",
-      "headline": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-      "summary": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg",
-      "published_utc": "2026-10-26T19:36:11Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50166049",
@@ -12181,46 +12951,6 @@
       "source_url": "https://watch-wrestling.eu/aew-collision-10-24-2026/04539666dd679e60bd4bd10e781f3402"
     },
     {
-      "id": "ww:0e154361f951b13131f9052d1f616bab",
-      "title": "CMLL: Arena Coliseo 10/24/2026",
-      "date": "2026-10-24",
-      "replay_url": "https://dailywrestling.cc/embed/wea/10-24-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/wea/10-24-2026/select-post-1/2/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wea/10-24-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wea/10-24-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wea/10-24-2026/select-post-1/1/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wea/10-24-2026/select-post-1/1/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2025/03/CMLL.jpg",
-      "source_url": "https://watch-wrestling.eu/cmll-arena-coliseo-10-24-2026/0e154361f951b13131f9052d1f616bab"
-    },
-    {
       "id": "ww:679cb215dfd2c45f8a3ffd38d64f9b3e",
       "title": "NJPW SUPER Jr TAG LEAGUE 2026 Road to POWER STRUGGLE Saitama Kumagaya Citizen gymnasium 10/24/2026",
       "date": "2026-10-24",
@@ -12447,64 +13177,6 @@
       "source_url": "https://watch-wrestling.eu/cmll-amazonas-grand-prix-2026-10-23-2026/b02b1eab8889817cbbd889bd7764dced"
     },
     {
-      "id": "ww:wwe-smackdown-may-23k-live",
-      "title": "WWE Smackdown 10/23/26 \u2013 October 23, 2026",
-      "date": "2026-10-23",
-      "replay_url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/2/1",
-          "label": "VidQ FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/4/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/5/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/5/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/5/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/3/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/10-23-2026/select-post-1/3/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/09/WWE-Smackdown-2024-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-smackdown-may-23k-live/"
-    },
-    {
       "id": "ww:watch-tna-wrestling-000",
       "title": "TNA Wrestling 10/22/26 \u2013 October 22, 2026",
       "date": "2026-10-22",
@@ -12689,122 +13361,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/03/AEW-Dynamite.jpg",
       "source_url": "https://watch-wrestling.eu/aew-dynamite-10-21-2026/441fb931700d30e83a41dd8dc1a91f2f"
-    },
-    {
-      "id": "ww:wwe-nxt-live-1k",
-      "title": "WWE NxT 10/20/26 \u2013 October 20, 2026",
-      "date": "2026-10-20",
-      "replay_url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/2/1",
-          "label": "VidFrame SD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/3/1",
-          "label": "VidQ FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/4/1",
-          "label": "VidQ SD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/6/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/7/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/7/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/7/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-20-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-WWE-NxT-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-nxt-live-1k/"
-    },
-    {
-      "id": "ww:21bab998bf11336104be8c7a159a1987",
-      "title": "STARDOM NIGHTER in KORAKUEN 2026 Oct.1 10/20/2026",
-      "date": "2026-10-20",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/2/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/1/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-20-2026/select-post-1/1/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-Stardom-Wrestling-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/stardom-nighter-in-korakuen-2026-oct-1-10-20-2026/21bab998bf11336104be8c7a159a1987"
     }
   ],
   "replays": [
