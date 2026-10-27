@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-27T22:05:29.682713+00:00",
+  "generated_utc": "2026-10-27T22:15:36.778418+00:00",
   "window_days": 2,
-  "total_events": 266,
+  "total_events": 270,
   "competitions": [
     {
       "competition": "aew",
@@ -218,14 +218,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 36,
+      "events": 40,
       "date_range": [
         "2026-10-24",
         "2026-10-29"
       ],
-      "explicit_status": 36,
+      "explicit_status": 40,
       "status_coverage_pct": 100,
-      "both_logos": 36,
+      "both_logos": 40,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -428,13 +428,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/nba",
-      "date": "2026-10-27",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027: Expecting value: line 1 column 1 (char 0)"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
