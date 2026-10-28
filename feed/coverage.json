@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-28T22:24:50.515457+00:00",
+  "generated_utc": "2026-10-28T22:35:10.565246+00:00",
   "window_days": 2,
-  "total_events": 179,
+  "total_events": 166,
   "competitions": [
     {
       "competition": "aew",
@@ -218,14 +218,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 35,
+      "events": 22,
       "date_range": [
         "2026-10-25",
         "2026-10-30"
       ],
-      "explicit_status": 35,
+      "explicit_status": 22,
       "status_coverage_pct": 100,
-      "both_logos": 35,
+      "both_logos": 22,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -426,7 +426,18 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-10-26",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261026: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-10-27",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027: Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
