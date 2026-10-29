@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-29T01:41:28.204813+00:00",
+  "generated_utc": "2026-10-29T01:51:55.010008+00:00",
   "window_days": 2,
-  "total_events": 158,
+  "total_events": 167,
   "competitions": [
     {
       "competition": "aew",
@@ -214,16 +214,16 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 29,
+      "events": 38,
       "date_range": [
-        "2026-10-27",
+        "2026-10-26",
         "2026-10-31"
       ],
-      "explicit_status": 29,
+      "explicit_status": 38,
       "status_coverage_pct": 100,
-      "both_logos": 29,
+      "both_logos": 38,
       "logo_coverage_pct": 100,
-      "live_now": 7
+      "live_now": 8
     },
     {
       "competition": "ncaaf",
@@ -378,7 +378,7 @@
       "status_coverage_pct": 100,
       "both_logos": 14,
       "logo_coverage_pct": 100,
-      "live_now": 7
+      "live_now": 6
     },
     {
       "competition": "volleyball",
@@ -426,9 +426,9 @@
   ],
   "problems": [
     {
-      "source": "espn:basketball/nba",
-      "date": "2026-10-26",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261026: Expecting value: line 1 column 1 (char 0)"
+      "source": "espn:soccer/uefa.champions",
+      "date": "2026-10-27",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261027: <urlopen error _ssl.c:993: The handshake operation timed out>"
     }
   ],
   "known_absent": {
