@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-29T01:11:11.966963+00:00",
+  "generated_utc": "2026-10-29T01:21:19.265401+00:00",
   "window_days": 2,
-  "total_events": 154,
+  "total_events": 158,
   "competitions": [
     {
       "competition": "aew",
@@ -214,16 +214,16 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 25,
+      "events": 29,
       "date_range": [
-        "2026-10-28",
+        "2026-10-27",
         "2026-10-31"
       ],
-      "explicit_status": 25,
+      "explicit_status": 29,
       "status_coverage_pct": 100,
-      "both_logos": 25,
+      "both_logos": 29,
       "logo_coverage_pct": 100,
-      "live_now": 9
+      "live_now": 10
     },
     {
       "competition": "ncaaf",
@@ -429,11 +429,6 @@
       "source": "espn:basketball/nba",
       "date": "2026-10-26",
       "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261026: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "source": "espn:basketball/nba",
-      "date": "2026-10-27",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027: Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "known_absent": {
