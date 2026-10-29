@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-29T03:32:43.938101+00:00",
+  "generated_utc": "2026-10-29T03:43:02.420055+00:00",
   "window_days": 2,
-  "total_events": 166,
+  "total_events": 153,
   "competitions": [
     {
       "competition": "aew",
@@ -214,16 +214,16 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 38,
+      "events": 25,
       "date_range": [
-        "2026-10-26",
+        "2026-10-28",
         "2026-10-31"
       ],
-      "explicit_status": 38,
+      "explicit_status": 25,
       "status_coverage_pct": 100,
-      "both_logos": 38,
+      "both_logos": 25,
       "logo_coverage_pct": 100,
-      "live_now": 3
+      "live_now": 2
     },
     {
       "competition": "ncaaf",
@@ -281,7 +281,7 @@
       "status_coverage_pct": 100,
       "both_logos": 77,
       "logo_coverage_pct": 100,
-      "live_now": 2
+      "live_now": 1
     },
     {
       "competition": "rugby-league",
@@ -424,7 +424,18 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-10-26",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261026: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-10-27",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027: Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
@@ -443,10 +454,10 @@
       "afl": 2,
       "eng.1": 2,
       "f1": 2,
-      "mlb": 3,
+      "mlb": 2,
       "nba": 2,
       "nfl": 2,
-      "nhl": 2,
+      "nhl": 3,
       "rugby-league": 1,
       "uefa.champions": 2,
       "ufc": 2,
