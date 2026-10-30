@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-30T01:41:10.030947+00:00",
+  "generated_utc": "2026-10-30T01:51:21.701576+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874980",
@@ -2868,7 +2868,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-29T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:14",
         "name": "Tampa Bay Lightning",
@@ -2898,7 +2898,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -2960,7 +2960,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-29T23:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:12",
         "name": "Carolina Hurricanes",
@@ -2990,7 +2990,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Lenovo Center",
       "detail": "",
       "game_number": 1,
@@ -3082,9 +3082,9 @@
         "color": "003366"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "DATCU Stadium",
-      "detail": "Halftime",
+      "detail": "12:34 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3130,7 +3130,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bridgeforth Stadium",
-      "detail": "14:26 - 3rd Quarter",
+      "detail": "11:31 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3360,7 +3360,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "4:01 - 3rd Quarter",
+      "detail": "40.5 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3406,7 +3406,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "6:35 - 3rd Quarter",
+      "detail": "1:59 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3450,9 +3450,9 @@
         "color": "0085ca"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Lambeau Field",
-      "detail": "1:25 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "UKQuCoHDOLY",
       "replay_url": "",
