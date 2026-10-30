@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-30T02:01:26.536674+00:00",
+  "generated_utc": "2026-10-30T02:11:40.169602+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874980",
@@ -3006,7 +3006,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-29T23:30:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:17",
         "name": "Detroit Red Wings",
@@ -3036,7 +3036,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -3084,7 +3084,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "DATCU Stadium",
-      "detail": "9:06 - 3rd Quarter",
+      "detail": "7:36 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3130,7 +3130,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bridgeforth Stadium",
-      "detail": "9:05 - 3rd Quarter",
+      "detail": "6:09 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3360,7 +3360,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "8:32 - 4th Quarter",
+      "detail": "4:34 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3406,7 +3406,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "8:20 - 4th Quarter",
+      "detail": "4:44 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3450,9 +3450,9 @@
         "color": "0085ca"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Lambeau Field",
-      "detail": "Halftime",
+      "detail": "8:17 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "UKQuCoHDOLY",
       "replay_url": "",
@@ -3502,7 +3502,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-30T02:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:24",
         "name": "Anaheim Ducks",
@@ -3532,7 +3532,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Honda Center",
       "detail": "",
       "game_number": 1,
@@ -3548,7 +3548,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-30T02:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:26",
         "name": "Los Angeles Kings",
@@ -3578,7 +3578,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Crypto.com Arena",
       "detail": "",
       "game_number": 1,
@@ -3594,7 +3594,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-30T02:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:28",
         "name": "San Jose Sharks",
@@ -3624,7 +3624,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
       "game_number": 1,
@@ -11040,6 +11040,20 @@
   ],
   "stories": [
     {
+      "story_id": "50324153",
+      "headline": "Utah Mammoth vs. Pittsburgh Penguins: Game Highlights",
+      "summary": "Utah Mammoth vs. Pittsburgh Penguins: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/9ec6bc2b-e8fd-4680-87a6-153797372b66/9ec6bc2b-e8fd-4680-87a6-153797372b66.jpg",
+      "published_utc": "2026-10-30T02:08:56Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50324153/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50323203",
       "headline": "Source: Bears quarterback Caleb Williams fined again for cleats",
       "summary": "The NFL fined Caleb Williams $23,882 for sporting Caddix cleats in Week 7, a source confirmed to ESPN on Thursday.",
@@ -11052,20 +11066,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50323203/bears-quarterback-caleb-williams-fined-again-cleats",
       "stream_url": "",
       "body": "Caleb Williams' decision to wear Caddix cleats is becoming costly.\n\nThe NFL fined the Chicago Bears quarterback $23,882 for sporting Caddix cleats in Week 7, a source confirmed to ESPN on Thursday. That is double the fine ($11,941) Williams received for wearing the same shoe in his return from a hamstring injury in Week 6, issued because the shoe contains an \"unauthorized logo.\"\n\nOnly Nike, Adidas and Under Armour have partnerships with the NFL, and that is why Williams was fined for a uniform violation. If a player wears a shoe by another brand, the logo must be covered.\n\nWilliams told ESPN on Wednesday that he does not plan to cover or black out the Caddix logo when he wears the cleats for Chicago's game at the Seattle Seahawks on Monday. He has already appealed his Week 6 fine, according to a source, which Caddix says the company will pay if Williams loses his appeal.\n\n\"From a safety metric perspective, Caleb's cleats are one of the safest pairs players can wear,\" Caddix founder Jack Rasmussen said in a statement to ESPN. \"Regardless if this is a marketing fine or not, I'm happy to pay it.\"\n\nWilliams wore Caddix cleats throughout the preseason and during the Bears' first two regular-season games. After missing Weeks 3 through 5 because of a hamstring injury, he returned to action against the Atlanta Falcons and New England Patriots, becoming the first Bears quarterback since Mitchell Trubisky (2018) to record back-to-back 300-yard passing games.\n\nFounded in 2015, Caddix was built around patented \"SmartStuds\" technology, which is \"designed to flex and release during cutting and pivoting, reducing rotational torque transmitted through the foot and into the knees and ankles, a force associated with noncontact ACL tears and other knee and ankle injuries,\" according to the company's website.\n\nWilliams said his decision to be one of an estimated 40 NFL players currently wearing Caddix cleats was due to the shoe's focus on injury prevention. The quarterback also noted how his joints, ankles, knees and feet have not bothered him \"as much from the other cleats that I've worn.\"\n\n\"As we've known for the past couple of years now, I'm huge into my body,\" Williams said. \"I'm huge into trying to stay on the field. I'm huge into trying to be healthy. It's a rough game and things like that. So the cleats, they've been great. They've been super comfy and they've worked. They are a science type of cleat. It's something that focuses on when you plant on the hard plants on turf or grass, they call them SmartStuds, and they move when you move in these hard plants. They take tension off of your tendons, your joints and all of that. So over the course of a long career or over the course of a long year, when you can take some percentage -- it could be 1, it could 50, it could be 12, it could be whatever, you know. When you take that percentage off consistently over a period of time, you know, you get to have the chance, a higher chance of being healthy. And so that's what I focus on.\n\n\"I try to be healthy. They're smart cleats. They're science cleats, and they've been working for me. A bunch of other guys wear them in the league, and they're forward-focused on making sure players stay on the field, and that's what I'm always focused on.\"\n\nProFootballTalk first reported the news of Williams' second fine."
-    },
-    {
-      "story_id": "50323943",
-      "headline": "Jankowski, Kochetkov lead Hurricanes to 3-2 win over Blue Jackets",
-      "summary": "\u2014 Mark Jankowski scored in the third period for a three-goal lead, Pyotr Kochetkov made 24 saves and the Carolina Hurricanes beat the Columbus Blue Jackets 3-2 on Thursday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892603.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-30T01:51:47Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892603",
-      "stream_url": "",
-      "body": "RALEIGH, N.C. -- \u2014 Mark Jankowski scored in the third period for a three-goal lead, Pyotr Kochetkov made 24 saves and the Carolina Hurricanes beat the Columbus Blue Jackets 3-2 on Thursday night.\n\n\r\nKochetkov improved to 9-0-0 and set the franchise record for longest season-opening winning streak. Jordan Martinook and Logan Stankoven also scored and Seth Jarvis added two assists as the defending Stanley Cup champion Hurricanes won for the fourth time in five games.\n\n\r\nJet Greaves stopped 24 shots for Columbus. Denton Mateychuk and Kent Johnson scored in the third period.\n\n\r\nJankowski's goal, 16 seconds into the third period, felt like added insurance, but turned out to be the difference in the game.\n\n\r\nMartinook beat Greaves from the left circle to give the Hurricanes a 1-0 lead with 4:09 left in the first period.\n\n\r\nStankoven made it 2-0 with his team-leading ninth goal of the season, 7:47 into the second period. Stankoven has five goals in six home games this season.\n\n\r\nUp next\r\nBlue Jackets: At Dallas on Saturday night.\n\n\r\nHurricanes: Host Winnipeg on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here\r\n\n\r\n."
     },
     {
       "story_id": "50320287",
@@ -11208,6 +11208,20 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nFa'alogo agrees to long-term Storm extension\n\nSua Fa'alogo has agreed to extend his stay at the Melbourne Storm through to the end of 2032, ESPN understands.\n\nThe agreement will keep the fullback in Melbourne for the next six seasons, securing a key figure in the Storm's long-term plans.\n\nFa'alogo's retention delivers a major boost for Melbourne ahead of the November 1 contracting window, with the club moving to lock down one of its most exciting talents.\n\nDolphins close in on Lemuelu extension, confident of keeping Farnworth\n\nThe Dolphins are closing in on a multi-year extension for Connelly Lemuelu as they also express confidence in retaining Herbie Farnworth.\n\nESPN understands Lemuelu is nearing an agreement to extend his stay despite interest from Canberra, Parramatta and Cronulla.\n\nSecuring the back-rower would deliver a retention boost for the Dolphins, with the length of the proposed deal yet to be confirmed.\n\nThe club is also understood to be confident it can retain Farnworth despite links to the Sydney Roosters.\n\nWhile that confidence is yet to translate into a confirmed extension, keeping the English international alongside Lemuelu would help preserve key combinations on the Dolphins' left edge.\n\nEels edge ahead in Best race\nParramatta have emerged as the frontrunners to land Bradman Best, with multiple sources indicating the Newcastle centre is increasingly likely to join the Eels beyond 2027.\n\nBest has been identified as a priority target for Parramatta, who are looking to bolster Jason Ryles' backline with an established representative star.\n\nWhile a deal is yet to be confirmed, the Eels are understood to be in the box seat despite Newcastle's efforts to retain him with a lucrative extension.\n\nBulldogs unlikely to enter Walker race\nCanterbury are unlikely to enter the race for Sam Walker, with the Bulldogs backing their existing halfback options ahead of the upcoming season.\n\nDespite suggestions the club could emerge as a potential destination for Walker, it is understood Canterbury are taking a wait-and-see approach rather than preparing to launch a pursuit.\n\nThe Bulldogs' immediate focus remains on the internal battle for the No.7 jersey, with Mitch and Alex Conti set to compete for the role over the offseason.\n\nCanterbury have not completely shut the door on a move should circumstances change, but their current position suggests they are unlikely to become an active contender for Walker's signature.\n\nFor now, the Bulldogs are content to watch how the situation unfolds."
     },
     {
+      "story_id": "50324105",
+      "headline": "Holmberg has a career-high 4 points as the Lightning beat the Jets 6-4 to remain unbeaten at home",
+      "summary": "\u2014 Pontus Holmberg set a career high with four points on a goal and three assists, Brandon Hagel and Anthony Cirelli each had a goal and two assists, and the Tampa Bay Lightning remain unbeaten at home with a 6-4 victory over the Winnipeg Jets on...",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892601.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-30T02:03:46Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892601",
+      "stream_url": "",
+      "body": "TAMPA, Fla. -- \u2014 Pontus Holmberg set a career high with four points on a goal and three assists, Brandon Hagel and Anthony Cirelli each had a goal and two assists, and the Tampa Bay Lightning remain unbeaten at home with a 6-4 victory over the Winnipeg Jets on Thursday night.\n\n\r\nBrayden Point, John Carlson and Conor Geekie all scored for Tampa Bay. Andrei Vasilevskiy stopped 17 shots.\n\n\r\nThe Lightning improved to 6-0 at home to tie a franchise record to start a season.\n\n\r\nNeil Pionk, playing his 600th game, scored twice. Kyle Connor and Dylan Samberg also scored for the Jets and Mark Scheilffele had three assists.\n\n\r\nStuart Skinner allowed five goals on 21 shots before being replaced by Nico Daws to start the third period. Daws finished with nine saves in his Winnipeg debut.\n\n\r\nWinnipeg is winless (0-5-2) in the past seven games, including three consecutive regulation losses since trading goaltender Connor Hellebuyck to New Jersey.\n\n\r\nThe Jets' last victory came on Oct. 13.\n\n\r\nAfter Point and Pionk traded goals in the first period, Tampa Bay pulled away in the second period with four goals, including three in the final 4:04.\n\n\r\nGeekie backhanded in a pass from Dominic James at 9:43 before Cirelli scored a power-play goal at 15:56, getting his stick on a cross-crease pass from Holmberg. Carlson made it 4-1 at 18:07 as he one-timed Holmberg's pass from the left faceoff dot. Hagel finished off the period with a tap-in from Cirelli at the back post with 56 seconds left in the period.\n\n\r\nWinnipeg scored two goals less than two minutes apart in the third to cut into the lead. Perfetti fed Samberg for a one-handed redirect at 7:00 while Pionk scored his second at 8:50, with Dawson Mercer registering his first point with the Jets on the play. Connor scored with 2:49 left to make it a one-goal game.\n\n\r\nHolmberg added an empty-net goal with 1:33 left.\n\n\r\nUp next\r\nJets: At Florida Panthers on Friday.\n\n\r\nLightning: At Nashville on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
       "story_id": "50322459",
       "headline": "Week 8 TNF Panthers at Packers: Highlights, key plays",
       "summary": "Check out the biggest touchdowns and highlights as the Packers host the Panthers at Lambeau Field.",
@@ -11220,20 +11234,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50322459/nfl-thursday-night-football-packers-panthers-jordan-love-bryce-young",
       "stream_url": "",
       "body": "GREEN BAY, Wis. -- The Green Bay Packers (4-3) are hosting the Carolina Panthers (3-3) at Lambeau Field on Thursday night.\n\nBoth teams are looking to rebound from a Week 7 loss, as the Packers fell 20-17 to the Detroit Lions in an NFC North battle and the Panthers were blown out 43-13 in an NFC South loss to the Tampa Bay Buccaneers.\n\nPanthers reporter Mike Kaye and Packers reporter Rob Demovsky provide all of the highlights and key plays from Thursday night."
-    },
-    {
-      "story_id": "50323938",
-      "headline": "Columbus Blue Jackets vs. Carolina Hurricanes: Game Highlights",
-      "summary": "Columbus Blue Jackets vs. Carolina Hurricanes: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/6f7fa3f3-8253-4443-9922-8f1379976296/6f7fa3f3-8253-4443-9922-8f1379976296.jpg",
-      "published_utc": "2026-10-30T01:51:02Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50323938/game-highlights",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50320284",
@@ -11419,24 +11419,54 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live FHD (CH 11)",
+          "label": "VidFrame FHD \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live HD (CH 12)",
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/2/1",
+          "label": "VidQ FHD \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
-          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live SD (CH 13)",
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/4/1",
+          "label": "OK.ru FHD \u2014 Full Show",
           "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/5/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/5/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/5/3",
+          "label": "Other Hosts \u2014 NetU (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/3/1",
+          "label": "Dailymotion FHD \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/hor/10-29-2026/select-post-1/3/2",
+          "label": "Dailymotion FHD \u2014 Part 2",
+          "part": true,
           "live": false
         }
       ],
-      "poster": "",
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2025/01/ROH-Wrestling-Full-Show.jpg",
       "source_url": "https://watch-wrestling.eu/roh-honorclub-tv-10-29-2026/dbcc580ff19b1ac26c9bb20e91461722"
     },
     {
