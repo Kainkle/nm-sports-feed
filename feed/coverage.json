@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-30T06:28:56.847938+00:00",
+  "generated_utc": "2026-10-30T06:31:48.193048+00:00",
   "window_days": 2,
-  "total_events": 241,
+  "total_events": 244,
   "competitions": [
     {
       "competition": "aew",
@@ -117,14 +117,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 7,
+      "events": 6,
       "date_range": [
-        "2026-10-30",
+        "2026-10-31",
         "2026-10-31"
       ],
-      "explicit_status": 7,
+      "explicit_status": 6,
       "status_coverage_pct": 100,
-      "both_logos": 7,
+      "both_logos": 6,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -216,14 +216,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 32,
+      "events": 36,
       "date_range": [
-        "2026-10-28",
+        "2026-10-27",
         "2026-11-01"
       ],
-      "explicit_status": 32,
+      "explicit_status": 36,
       "status_coverage_pct": 100,
-      "both_logos": 32,
+      "both_logos": 36,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -430,9 +430,9 @@
   ],
   "problems": [
     {
-      "source": "espn:basketball/nba",
-      "date": "2026-10-27",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261027: Expecting value: line 1 column 1 (char 0)"
+      "source": "espn:soccer/ger.1",
+      "date": "2026-10-30",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261030: Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "known_absent": {
