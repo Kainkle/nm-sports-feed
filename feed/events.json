@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-31T19:27:25.557862+00:00",
+  "generated_utc": "2026-10-31T19:37:33.269644+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874993",
@@ -4477,7 +4477,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Galaxy Stadium",
-      "detail": "1:58 - 4th Quarter",
+      "detail": "0:25 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4491,7 +4491,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:183",
         "name": "Syracuse Orange",
@@ -4520,9 +4520,101 @@
         "color": "a80000"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "JMA Wireless Dome",
-      "detail": "0:27 - 4th Quarter",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401859185",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "away": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Gillette Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "RHIpwpeZQ48",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858502",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "away": {
+        "id": "espn:275",
+        "name": "Wisconsin Badgers",
+        "abbrev": "WIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+        "logo_dark": null,
+        "aliases": [
+          "Badgers",
+          "WIS",
+          "Wisconsin",
+          "Wisconsin Badgers"
+        ],
+        "color": "a00000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Kinnick Stadium",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4582,7 +4674,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:150",
         "name": "Duke Blue Devils",
@@ -4612,145 +4704,8 @@
         "color": "8c2232"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Wallace Wade Stadium",
-      "detail": "1:12 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862816",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:58",
-        "name": "South Florida Bulls",
-        "abbrev": "USF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "South Florida",
-          "South Florida Bulls",
-          "USF"
-        ],
-        "color": "006747"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "UAB Blazers",
-        "abbrev": "UAB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blazers",
-          "UAB",
-          "UAB Blazers"
-        ],
-        "color": "1a5632"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Raymond James Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401859185",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2426",
-        "name": "Navy Midshipmen",
-        "abbrev": "NAVY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-        "logo_dark": null,
-        "aliases": [
-          "Midshipmen",
-          "NAVY",
-          "Navy",
-          "Navy Midshipmen"
-        ],
-        "color": "00225b"
-      },
-      "away": {
-        "id": "espn:87",
-        "name": "Notre Dame Fighting Irish",
-        "abbrev": "ND",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Irish",
-          "ND",
-          "Notre Dame",
-          "Notre Dame Fighting Irish"
-        ],
-        "color": "062340"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Gillette Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858502",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2294",
-        "name": "Iowa Hawkeyes",
-        "abbrev": "IOWA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hawkeyes",
-          "IOWA",
-          "Iowa",
-          "Iowa Hawkeyes"
-        ],
-        "color": "231f20"
-      },
-      "away": {
-        "id": "espn:275",
-        "name": "Wisconsin Badgers",
-        "abbrev": "WIS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-        "logo_dark": null,
-        "aliases": [
-          "Badgers",
-          "WIS",
-          "Wisconsin",
-          "Wisconsin Badgers"
-        ],
-        "color": "a00000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Kinnick Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4797,6 +4752,51 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "SECU Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862816",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:58",
+        "name": "South Florida Bulls",
+        "abbrev": "USF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "South Florida",
+          "South Florida Bulls",
+          "USF"
+        ],
+        "color": "006747"
+      },
+      "away": {
+        "id": "espn:5",
+        "name": "UAB Blazers",
+        "abbrev": "UAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blazers",
+          "UAB",
+          "UAB Blazers"
+        ],
+        "color": "1a5632"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Raymond James Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4890,7 +4890,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "SHI Stadium",
-      "detail": "4:23 - 4th Quarter",
+      "detail": "2:05 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4936,7 +4936,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Vaught-Hemingway Stadium",
-      "detail": "14:30 - 4th Quarter",
+      "detail": "12:17 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4980,7 +4980,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "TD Garden",
       "detail": "",
       "game_number": 1,
@@ -4996,7 +4996,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-10-31T17:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:17",
         "name": "Detroit Red Wings",
@@ -5026,7 +5026,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -5116,7 +5116,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "S.B. Ballard Stadium",
-      "detail": "9:44 - 3rd Quarter",
+      "detail": "5:30 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5162,7 +5162,7 @@
       "venue": "Bank of America Stadium",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "-wfHKbLXIJA",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5218,7 +5218,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-10-31T17:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:244",
         "name": "Real Betis",
@@ -5245,9 +5245,9 @@
         "color": "b9e8f0"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Estadio La Cartuja",
-      "detail": "90'+2'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5261,7 +5261,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-31T17:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:132",
         "name": "Bayern Munich",
@@ -5289,9 +5289,9 @@
         "color": "ffee00"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Allianz Arena",
-      "detail": "90'+3'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "3BTHiTqZYlw",
       "replay_url": "",
@@ -5560,9 +5560,9 @@
         "color": "006f71"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Center Parc Stadium",
-      "detail": "0:53 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5605,7 +5605,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "ScottsMiracle-Gro Field",
-      "detail": "55'",
+      "detail": "66'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5649,7 +5649,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "TQL Stadium",
-      "detail": "58'",
+      "detail": "68'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5692,7 +5692,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Citi Field",
-      "detail": "58'",
+      "detail": "69'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5738,7 +5738,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Delta Center",
-      "detail": "4:26 - 1st Quarter",
+      "detail": "24.3 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5784,7 +5784,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Falcon Stadium",
-      "detail": "5:21 - 1st Quarter",
+      "detail": "1:27 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5830,7 +5830,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Dowdy-Ficklen Stadium",
-      "detail": "4:07 - 1st Quarter",
+      "detail": "1:19 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5876,7 +5876,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hancock Whitney Stadium",
-      "detail": "8:12 - 1st Quarter",
+      "detail": "2:16 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5920,7 +5920,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Sporting Park",
-      "detail": "17'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5964,7 +5964,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Energizer Park",
-      "detail": "16'",
+      "detail": "27'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6010,7 +6010,237 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "L&N Federal Credit Union Stadium",
-      "detail": "14:43 - 1st Quarter",
+      "detail": "10:30 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856845",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2628",
+        "name": "TCU Horned Frogs",
+        "abbrev": "TCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+        "logo_dark": null,
+        "aliases": [
+          "Horned Frogs",
+          "TCU",
+          "TCU Horned Frogs"
+        ],
+        "color": "4d1979"
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Amon G. Carter Stadium",
+      "detail": "14:16 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401860910",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:328",
+        "name": "Utah State Aggies",
+        "abbrev": "USU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "USU",
+          "Utah State",
+          "Utah State Aggies"
+        ],
+        "color": "0f2439"
+      },
+      "away": {
+        "id": "espn:36",
+        "name": "Colorado State Rams",
+        "abbrev": "CSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+        "logo_dark": null,
+        "aliases": [
+          "CSU",
+          "Colorado St",
+          "Colorado State",
+          "Colorado State Rams",
+          "Rams"
+        ],
+        "color": "004c23"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Maverik Stadium",
+      "detail": "13:37 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401864531",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2449",
+        "name": "North Dakota State Bison",
+        "abbrev": "NDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bison",
+          "N Dakota St",
+          "NDSU",
+          "North Dakota State",
+          "North Dakota State Bison"
+        ],
+        "color": "01402A"
+      },
+      "away": {
+        "id": "espn:2638",
+        "name": "UTEP Miners",
+        "abbrev": "UTEP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+        "logo_dark": null,
+        "aliases": [
+          "Miners",
+          "UTEP",
+          "UTEP Miners"
+        ],
+        "color": "ff8200"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Fargodome",
+      "detail": "14:36 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871059",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2335",
+        "name": "Liberty Flames",
+        "abbrev": "LIB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+        "logo_dark": null,
+        "aliases": [
+          "Flames",
+          "LIB",
+          "Liberty",
+          "Liberty Flames"
+        ],
+        "color": "0a254e"
+      },
+      "away": {
+        "id": "espn:2229",
+        "name": "Florida International Panthers",
+        "abbrev": "FIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+        "logo_dark": null,
+        "aliases": [
+          "FIU",
+          "Florida International",
+          "Florida International Panthers",
+          "Panthers"
+        ],
+        "color": "091f3f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Williams Stadium (VA)",
+      "detail": "12:31 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871095",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2433",
+        "name": "UL Monroe Warhawks",
+        "abbrev": "ULM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+        "logo_dark": null,
+        "aliases": [
+          "UL Monroe",
+          "UL Monroe Warhawks",
+          "ULM",
+          "Warhawks"
+        ],
+        "color": "840029"
+      },
+      "away": {
+        "id": "espn:2572",
+        "name": "Southern Miss Golden Eagles",
+        "abbrev": "USM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Eagles",
+          "Southern Miss",
+          "Southern Miss Golden Eagles",
+          "USM"
+        ],
+        "color": "ffc72c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Malone Stadium",
+      "detail": "13:15 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6116,7 +6346,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T19:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:252",
         "name": "BYU Cougars",
@@ -6146,9 +6376,9 @@
         "color": "ffc627"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "LaVell Edwards Stadium",
-      "detail": "Sat, October 31st at 3:30 PM EDT",
+      "detail": "14:53 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6194,236 +6424,6 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Autzen Stadium",
-      "detail": "Sat, October 31st at 3:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856845",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2628",
-        "name": "TCU Horned Frogs",
-        "abbrev": "TCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-        "logo_dark": null,
-        "aliases": [
-          "Horned Frogs",
-          "TCU",
-          "TCU Horned Frogs"
-        ],
-        "color": "4d1979"
-      },
-      "away": {
-        "id": "espn:2305",
-        "name": "Kansas Jayhawks",
-        "abbrev": "KU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jayhawks",
-          "KU",
-          "Kansas",
-          "Kansas Jayhawks"
-        ],
-        "color": "0051ba"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Amon G. Carter Stadium",
-      "detail": "Sat, October 31st at 3:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401860910",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:328",
-        "name": "Utah State Aggies",
-        "abbrev": "USU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
-        "logo_dark": null,
-        "aliases": [
-          "Aggies",
-          "USU",
-          "Utah State",
-          "Utah State Aggies"
-        ],
-        "color": "0f2439"
-      },
-      "away": {
-        "id": "espn:36",
-        "name": "Colorado State Rams",
-        "abbrev": "CSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-        "logo_dark": null,
-        "aliases": [
-          "CSU",
-          "Colorado St",
-          "Colorado State",
-          "Colorado State Rams",
-          "Rams"
-        ],
-        "color": "004c23"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Maverik Stadium",
-      "detail": "Sat, October 31st at 3:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401864531",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2449",
-        "name": "North Dakota State Bison",
-        "abbrev": "NDSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bison",
-          "N Dakota St",
-          "NDSU",
-          "North Dakota State",
-          "North Dakota State Bison"
-        ],
-        "color": "01402A"
-      },
-      "away": {
-        "id": "espn:2638",
-        "name": "UTEP Miners",
-        "abbrev": "UTEP",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-        "logo_dark": null,
-        "aliases": [
-          "Miners",
-          "UTEP",
-          "UTEP Miners"
-        ],
-        "color": "ff8200"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Fargodome",
-      "detail": "Sat, October 31st at 3:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401871059",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2335",
-        "name": "Liberty Flames",
-        "abbrev": "LIB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-        "logo_dark": null,
-        "aliases": [
-          "Flames",
-          "LIB",
-          "Liberty",
-          "Liberty Flames"
-        ],
-        "color": "0a254e"
-      },
-      "away": {
-        "id": "espn:2229",
-        "name": "Florida International Panthers",
-        "abbrev": "FIU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
-        "logo_dark": null,
-        "aliases": [
-          "FIU",
-          "Florida International",
-          "Florida International Panthers",
-          "Panthers"
-        ],
-        "color": "091f3f"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Williams Stadium (VA)",
-      "detail": "Sat, October 31st at 3:30 PM EDT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401871095",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2433",
-        "name": "UL Monroe Warhawks",
-        "abbrev": "ULM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-        "logo_dark": null,
-        "aliases": [
-          "UL Monroe",
-          "UL Monroe Warhawks",
-          "ULM",
-          "Warhawks"
-        ],
-        "color": "840029"
-      },
-      "away": {
-        "id": "espn:2572",
-        "name": "Southern Miss Golden Eagles",
-        "abbrev": "USM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Eagles",
-          "Southern Miss",
-          "Southern Miss Golden Eagles",
-          "USM"
-        ],
-        "color": "ffc72c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Malone Stadium",
       "detail": "Sat, October 31st at 3:30 PM EDT",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6646,7 +6646,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Crypto.com Arena",
       "detail": "",
       "game_number": 1,
@@ -6692,7 +6692,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
       "game_number": 1,
@@ -12240,18 +12240,18 @@
   ],
   "stories": [
     {
-      "story_id": "50319491",
-      "headline": "Premier League recap: Man City slip up vs. Brighton, Spurs win third straight",
-      "summary": "There were plenty of treats in store on Halloween, from Chelsea beating United to City slipping to Spurs winning again. Relive all the action with ESPN.",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1738986_1296x729_16-9.jpg",
-      "published_utc": "2026-10-31T19:22:56Z",
+      "story_id": "50322457",
+      "headline": "Tottenham's resurgence continues with win over 10-man Crystal Palace",
+      "summary": "Tottenham Hotspur made it three Premier League wins in a row for the first time in 20 months with a comfortable 2-0 victory over 10-man Crystal Palace.",
+      "image": "https://a.espncdn.com/photo/2026/1031/r1739061_1296x729_16-9.jpg",
+      "published_utc": "2026-10-31T19:31:53Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
-      "byline": "ESPN",
+      "byline": "PA",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50319491/premier-league-live-updates-chelsea-manchester-united-manchester-city-tottenham",
+      "link": "http://www.espn.com/soccer/report/_/gameId/401878761",
       "stream_url": "",
-      "body": "Happy Halloween! It's the final day of October, and there was plenty of exciting matches across Europe.\n\nIn the Premier League's early game, Chelsea beat Manchester United 2-0 as Lisandro Martinez conceded a penalty and was sent off to pile more pressure on head coach Michael Carrick.\n\nIn the highlight of the midday fixtures, two in-form sides in Manchester City and Brighton & Hove Albion met just three days after their Carabao Cup encounter, but this time, it was the Seagulls coming out victorious with a 1-0 win. When Tottenham Hotspur hosted Crystal Palace in a London derby, it was Spurs who came out on top with a 2-0 victory.\n\nElsewhere across Europe, Atl\u00e9tico Madrid beat Levante in LaLiga, while the Bundesliga serves up a blockbuster Der Klassiker between league leaders Bayern Munich, led by newly crowned Ballon d'Or winner Harry Kane, and second-placed Borussia Dortmund.\n\nRelive all the action from Saturday's matches with ESPN."
+      "body": "Resurgent Tottenham Hotspur made it three Premier League wins in a row for the first time in 20 months with a comfortable 2-0 victory over 10-man Crystal Palace.\n\nBuoyed by only a second triumph at Chelsea in 36 years last weekend, Spurs' task was made more routine by a 13th-minute red card for Palace forward Jean-Philippe Mateta for a studs-up tackle on Micky van de Ven.\n\nVAR intervened to assist referee Michael Oliver and it was largely one-way traffic after with Archie Gray able to open the scoring with a header after 25 minutes.\n\nRoberto De Zerbi's team started the second half impressively and eventually doubled their lead with 17 minutes left through former Brighton centre-back Jan Paul van Hecke.\n\nIt allowed De Zerbi to hand a league debut to Spurs' teenager Luca Williams-Barnett on an enjoyable night for the north London club, but this latest defeat will increase the scrutiny on under-fire Palace boss Pierre Sage."
     },
     {
       "story_id": "50338294",
@@ -12408,18 +12408,18 @@
       "body": "England's Rugby League World Cup campaign has seemingly ended despite a win - and in a whimper.\n\nBarring a sporting miracle, England can start packing for home despite posting a 34-12 victory over Papua New Guinea in Wollongong on Friday night.\n\nUnder the complex tournament format, Brian McDermott's team needed at least a 69-point win to be sure of scraping into the semi-finals.\n\nNow England need Tonga to thrash Samoa by 47 points or more in the fierce Pasifika derby at the same venue on Sunday night.\n\nGiven Samoa pumped Tonga 34-6 in last year's Pacific Championships, such a result seems most improbable.\n\nEngland have only themselves to blame for landing in such a precarious, seemingly hopeless, position.\n\nAfter losing 30-12 to Tonga in their tournament opener, then not quite atoning with a 82-0 thrashing of France to keep their semi-finals hopes flickering, England made a promising enough start at WIN Stadium.\n\nRealistically needing to score close to a point a minute to apply the pressure on Samoa and Tonga, England were on track after racing to a 22-0 lead after 20 minutes through tries to Matty Ashton, AJ Brimson, Dom Young and Harry Smith.\n\nBut then they imploded, making endless errors in pursuit of more points under pressure.\n\nInstead of going on with the job, after leading 24-0 at the break following a 40th-minute penalty goal to Sydney Roosters star Hugo Savala, England completely unravelled.\n\nPNG tries to Dudley Dotoi and Gairo Voro in the opening 10 minutes of the second half piled the pressure on the English - and they crumbled with error after error.\n\nA desperate try in the penultimate minute to Mikey Lewis was little more than an academic consolation for England."
     },
     {
-      "story_id": "50334181",
-      "headline": "Transfer rumors, news: Man United look to Fulham's Bassey to bolster defense",
-      "summary": "Fulham captain Calvin Bassey has caught Man United's eye as the Red Devils weigh up strengthening their defense. Transfer Talk has the latest.",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1739045_1296x729_16-9.jpg",
-      "published_utc": "2026-10-31T18:39:41Z",
+      "story_id": "50319491",
+      "headline": "Premier League recap: Man City slip up vs. Brighton, Spurs win third straight",
+      "summary": "There were plenty of treats in store on Halloween, from Chelsea beating United to City slipping to Spurs winning again. Relive all the action with ESPN.",
+      "image": "https://a.espncdn.com/photo/2026/1031/r1738986_1296x729_16-9.jpg",
+      "published_utc": "2026-10-31T19:30:33Z",
       "competition_id": "eng.1",
       "competition_name": "Premier League",
       "byline": "ESPN",
       "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50334181/transfer-rumors-news-man-united-replace-bruno-fernandes-fermin-lopez",
+      "link": "https://www.espn.com/soccer/story/_/id/50319491/premier-league-live-updates-chelsea-manchester-united-manchester-city-tottenham",
       "stream_url": "",
-      "body": "Manchester United could use an upgrade in defense, and Fulham captain Calvin Bassey has caught their attention, while Barcelona midfielder Ferm\u00edn L\u00f3pez is an option to replace Red Devils captain Bruno Fernandes. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Manchester United are looking to bolster their defense in the January and have interest is in Fulham's Calvin Bassey, according to TEAMtalk. Bassey, 26, has been in good form this season and was made Fulham captain. United will also be targeting a new left back and striker, after injuries to Luke Shaw, Patrick Dorgu and Benjamin Sesko, says The Times. Previous reports have linked the club with Newcastle United's Lewis Hall and AFC Bournemouth's Adrien Truffert, while up front Galatasaray's Victor Osimhen, Leeds' Dominic Calvert-Lewin and Crystal Palace's Jean-Philippe Mateta have also been mentioned.\n\n- Manchester United want to bring in Barcelona midfielder Ferm\u00edn L\u00f3pez, says The Daily Mail. United are reported to be in the market for a new No. 10, with the future of 32-year-old captain Bruno Fernandes up in the air after his public falling out with manager Michael Carrick. Lopez, 23, has had a good start to the season with five goals and four assists, and is considered an option, alongside Atletico Madrid's Pablo Barrios. Lopez missed Spain's World Cup triumph with a foot injury, but Barcelona would want around \u20ac80 million to let him go, with Paris Saint-Germain and Chelsea also interested.\n\n- Arsenal are interested in a loan move for Real Madrid striker Endrick in January, says TEAMtalk. The Gunners already have Kai Havertz and Viktor Gy\u00f6keres up front, but have struggled to score goals this season and the versatile Brazil international, 20, has not had many minutes under Jose Mourinho this season. Mourinho is reported to want Endrick to stay, but his representatives are exploring options for a move.\n\n- Barcelona will renew their interest in signing Inter Milan defender Alessandro Bastoni in January, says Mundo Deportivo. Bastoni, 27, was being tracked by Barcelona scouts with a view to the club making a \u20ac70 million offer last summer, but terms could not be agreed and the Italy international stayed put.\n\n- Barcelona and Atletico Madrid will fight for the signature of Manchester United defender Lisandro Mart\u00ednez, as he is set to leave the club on a free transfer at the end of the season. AS claims that Martinez, 28, who criticized the Old Trafford hierarchy over transfer planning recently, has no future at United and could depart in January if clubs are willing to pay a small fee.\n\nOther rumors\n- Real Madrid attacking midfielder Alberto Ruiz, 15, has caught the eye of Man United after he helped Spain win the U15 World Cup. (AS)\n\n- Meanwhile, Manchester United wonderkid JJ Gabriel, 16, is closing on a move to Real Madrid after making it clear he wanted to leave Old Trafford. (Sport)\n\n- Club Brugge striker Nicolo Tresoldi, 22, is of interest to Arsenal. But the Belgian club would want \u20ac50 million for his transfer. (Football Insider)\n\n- Minnesota United and Ghana forward Kelvin Yeboah has a number of Premier League sides on his trail, with Everton leading the race. (TalkSPORT)\n\n- Arsenal, Newcastle United and Bayern Munich are all keen on landing Cruzeiro's highly rated midfielder Eduardo Pape. (TEAMtalk)\n\n- Arsenal are attempting to extend the contract of Martin \u00d8degaard, but the Norwegian is tempted by a move to Bayern Munich. (Sky Germany)\n\n- AC Milan will target a move for Real Madrid striker Endrick next summer and send back Nottingham Forest winger Omari Hutchinson after his loan expires. (Gazzetta dello Sport)\n\n- Leeds are interested Maccabi Tel Aviv midfielder Issouf Sissokho. (Football Insider)\n\n- Crystal Palace want Lecce defender Tiago Gabriel, 21, but face tough competition from Roma, who are leading the race ahead of Milan and Fiorentina. (Ekrem Konur)\n\n- Bournemouth are interested in making a move for Vasco da Gama winger Andres Gomez in January. (TEAMtalk)\n\n- Striker Mauro Icardi -- who is currently without a club -- has suggested that he would consider a return to Inter Milan. (La Repubblica)\n\n- Chelsea boss Xabi Alonso has stated that he hasn't discussed a loan move for winger Estevao. The 19-year-old Brazilian is a target for Barcelona and Paris Saint-Germain. (TEAMtalk)\n\n- Napoli have placed Nuremberg and Italy striker Mohamed Ali Zoma as a top target for January. (TMW)"
+      "body": "Happy Halloween! It's the final day of October, and there was plenty of exciting matches across Europe.\n\nIn the Premier League's early game, Chelsea beat Manchester United 2-0 as Lisandro Martinez conceded a penalty and was sent off to pile more pressure on head coach Michael Carrick.\n\nIn the highlight of the midday fixtures, two in-form sides in Manchester City and Brighton & Hove Albion met just three days after their Carabao Cup encounter, but this time, it was the Seagulls coming out victorious with a 1-0 win. When Tottenham Hotspur hosted Crystal Palace in a London derby, it was Spurs who came out on top with a 2-0 victory.\n\nElsewhere across Europe, Atl\u00e9tico Madrid beat Levante in LaLiga, while the Bundesliga served up a blockbuster Der Klassiker between league leaders Bayern Munich, led by newly crowned Ballon d'Or winner Harry Kane, and second-placed Borussia Dortmund, in which the pair fought valiantly to a 2-2 draw.\n\nRelive all the action from Saturday's matches with ESPN."
     },
     {
       "story_id": "50328633",
