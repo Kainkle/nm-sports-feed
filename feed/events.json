@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-31T23:21:04.712868+00:00",
+  "generated_utc": "2026-10-31T23:31:35.232440+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874993",
@@ -6012,7 +6012,7 @@
       "venue": "L&N Federal Credit Union Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "9uOEPgtStdk",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -6024,7 +6024,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T19:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:84",
         "name": "Indiana Hoosiers",
@@ -6054,11 +6054,57 @@
         "color": "5e0a2f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856734",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:61",
+        "name": "Georgia Bulldogs",
+        "abbrev": "UGA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "Georgia",
+          "Georgia Bulldogs",
+          "UGA"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Mercedes-Benz Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "yFPxXLxZDms",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -6111,97 +6157,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856845",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2628",
-        "name": "TCU Horned Frogs",
-        "abbrev": "TCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-        "logo_dark": null,
-        "aliases": [
-          "Horned Frogs",
-          "TCU",
-          "TCU Horned Frogs"
-        ],
-        "color": "4d1979"
-      },
-      "away": {
-        "id": "espn:2305",
-        "name": "Kansas Jayhawks",
-        "abbrev": "KU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jayhawks",
-          "KU",
-          "Kansas",
-          "Kansas Jayhawks"
-        ],
-        "color": "0051ba"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Amon G. Carter Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856734",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:61",
-        "name": "Georgia Bulldogs",
-        "abbrev": "UGA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulldogs",
-          "Georgia",
-          "Georgia Bulldogs",
-          "UGA"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:57",
-        "name": "Florida Gators",
-        "abbrev": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-        "logo_dark": null,
-        "aliases": [
-          "FLA",
-          "Florida",
-          "Florida Gators",
-          "Gators"
-        ],
-        "color": "0021a5"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Mercedes-Benz Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858505",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6239,6 +6194,51 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Autzen Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856845",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2628",
+        "name": "TCU Horned Frogs",
+        "abbrev": "TCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+        "logo_dark": null,
+        "aliases": [
+          "Horned Frogs",
+          "TCU",
+          "TCU Horned Frogs"
+        ],
+        "color": "4d1979"
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Amon G. Carter Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6562,7 +6562,7 @@
       "venue": "Allegacy Federal Credit Union Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "tBZh2cYr0Ho",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -6839,7 +6839,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T20:15Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:26",
         "name": "UCLA Bruins",
@@ -6868,9 +6868,9 @@
         "color": "041e42"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Rose Bowl",
-      "detail": "2:00 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6916,7 +6916,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Norman, OK)",
-      "detail": "10:24 - 4th Quarter",
+      "detail": "5:58 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6930,7 +6930,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T20:15Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:213",
         "name": "Penn State Nittany Lions",
@@ -6960,9 +6960,9 @@
         "color": "ceb888"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Beaver Stadium",
-      "detail": "2:49 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7133,9 +7133,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Spectrum Center",
-      "detail": "Halftime",
+      "detail": "9:06 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7182,7 +7182,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allen E. Paulson Stadium",
-      "detail": "9:57 - 2nd Quarter",
+      "detail": "7:14 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7320,7 +7320,101 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "6:55 - 1st Quarter",
+      "detail": "3:56 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856847",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:66",
+        "name": "Iowa State Cyclones",
+        "abbrev": "ISU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cyclones",
+          "ISU",
+          "Iowa State",
+          "Iowa State Cyclones"
+        ],
+        "color": "ae192d"
+      },
+      "away": {
+        "id": "espn:197",
+        "name": "Oklahoma State Cowboys",
+        "abbrev": "OKST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cowboys",
+          "OKST",
+          "Oklahoma St",
+          "Oklahoma State",
+          "Oklahoma State Cowboys"
+        ],
+        "color": "fe5c00"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Jack Trice Stadium",
+      "detail": "6:22 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858280",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T23:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:52",
+        "name": "Florida State Seminoles",
+        "abbrev": "FSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+        "logo_dark": null,
+        "aliases": [
+          "FSU",
+          "Florida St",
+          "Florida State",
+          "Florida State Seminoles",
+          "Seminoles"
+        ],
+        "color": "782f40"
+      },
+      "away": {
+        "id": "espn:228",
+        "name": "Clemson Tigers",
+        "abbrev": "CLEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLEM",
+          "Clemson",
+          "Clemson Tigers",
+          "Tigers"
+        ],
+        "color": "f56600"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Doak Campbell Stadium",
+      "detail": "9:27 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7368,101 +7462,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Snapdragon Stadium",
-      "detail": "7:18 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856847",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:66",
-        "name": "Iowa State Cyclones",
-        "abbrev": "ISU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cyclones",
-          "ISU",
-          "Iowa State",
-          "Iowa State Cyclones"
-        ],
-        "color": "ae192d"
-      },
-      "away": {
-        "id": "espn:197",
-        "name": "Oklahoma State Cowboys",
-        "abbrev": "OKST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cowboys",
-          "OKST",
-          "Oklahoma St",
-          "Oklahoma State",
-          "Oklahoma State Cowboys"
-        ],
-        "color": "fe5c00"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Jack Trice Stadium",
-      "detail": "10:30 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858280",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T23:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:52",
-        "name": "Florida State Seminoles",
-        "abbrev": "FSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-        "logo_dark": null,
-        "aliases": [
-          "FSU",
-          "Florida St",
-          "Florida State",
-          "Florida State Seminoles",
-          "Seminoles"
-        ],
-        "color": "782f40"
-      },
-      "away": {
-        "id": "espn:228",
-        "name": "Clemson Tigers",
-        "abbrev": "CLEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-        "logo_dark": null,
-        "aliases": [
-          "CLEM",
-          "Clemson",
-          "Clemson Tigers",
-          "Tigers"
-        ],
-        "color": "f56600"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Doak Campbell Stadium",
-      "detail": "12:15 - 1st Quarter",
+      "detail": "2:19 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7773,7 +7773,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "American Airlines Center",
       "detail": "",
       "game_number": 1,
@@ -12240,6 +12240,20 @@
   ],
   "stories": [
     {
+      "story_id": "50341278",
+      "headline": "Tage Thompson scores twice as Sabres extend road point streak to 7 with 3-2 win over Kings",
+      "summary": "\u2014 Tage Thompson scored twice, including the go-ahead goal with 6:20 remaining, and the Buffalo Sabres beat the Los Angeles Kings 3-2 on Saturday to extend their road point streak to seven games.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892618.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-31T23:15:47Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892618",
+      "stream_url": "",
+      "body": "LOS ANGELES -- \u2014 Tage Thompson scored twice, including the go-ahead goal with 6:20 remaining, and the Buffalo Sabres beat the Los Angeles Kings 3-2 on Saturday to extend their road point streak to seven games.\n\n\r\nJack Quinn had a goal and an assist, Zach Benson and Rasmus Dahlin each had two assists, and the Sabres won their third straight overall. Ukko-Pekka Luukkonen made 27 saves.\n\n\r\nCorey Perry had a power-play goal, Andre Lee also scored and Anton Forsberg stopped 28 shots for the Kings.\n\n\r\nThompson put the Sabres back in front on a one-timer off a pass from Quinn on a power play at 13:40 of the third period. Buffalo had controlled long stretches of the game before allowing the Kings to get back into it by taking some unnecessary penalties.\n\n\r\nBuffalo controlled the first period but only led 1-0 on Quinn\u2019s eighth goal when he scored on a power play at 6:35.\n\n\r\nEven with Los Angeles gaining momentum in the second half of the second period, the Sabres made it 2-0 on Thompson\u2019s ninth with 4:22 left.\n\n\r\nPerry got the Kings on the board on a power play with 2:36 to go, though they needed a coach\u2019s challenge to overturn a goaltender interference call. Lee tied it 1:29 into the third.\n\n\r\nThe Kings were without top forward Adrian Kempe, who is day to day because of an undisclosed injury. Martin Chromiak made his NHL debut, taking Kempe\u2019s place on the first line and the power play.\n\n\r\nUp next\r\nSabres: Host the Ottawa Senators on Wednesday.\n\n\r\nKings: Host the San Jose Sharks on Wednesday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
       "story_id": "50321862",
       "headline": "Halloween 2026: Breaking down top athlete costumes from across the sports world",
       "summary": "Athletes far and wide across the sports world showed off special costumes for Halloween.",
@@ -12252,20 +12266,6 @@
       "link": "https://www.espn.com/nba/story/_/id/50321862/halloween-athlete-costumes-2026",
       "stream_url": "",
       "body": "It's the spookiest time of the year, and athletes across the sports world are taking advantage.\n\nThere has been no shortage of creative costumes. Across the NHL, or \"National Halloween League,\" respective teams held their Halloween parties, and they didn't disappoint. Boston Bruins winger JJ Peterka dressed as King Julien from the \"Madagascar\" series. St. Louis Blues winger Jake Neighbours continued his tradition of dressing as a hot dog. New York Rangers teammates Adam Fox and Alexis Lafreni\u00e8re and their respective partners had \"Jersey Shore\"-themed looks.\n\nArguably the best dressed was Golden State Warriors forward Yaxel Lendeborg, looking menacing as Michael Myers from the \"Halloween\" franchise.\n\nHere is how some other stars got into the spooky season.\n\nTyrese Haliburton\n\nYaxel Lendeborg\n\nVictor Wembanyama\n\nLauri Markkanen, Jaren Jackson Jr.\n\nDe'Aaron Fox\n\nMilwaukee Bucks\n\nNew Orleans Pelicans\n\nGrant Williams\n\nJaylen Wells, GG Jackson\n\nDetroit Lions\n\nTrinity Rodman\n\nAround the NHL\n\nBoston Bruins\n\nSt. Louis Blues\n\nSan Jose Sharks\n\nC.D. Guadalajara"
-    },
-    {
-      "story_id": "50341242",
-      "headline": "St\u00fctzle, Cozens lead Senators past Sharks 5-1 as Ottawa ties franchise record with nine October wins",
-      "summary": "\u2014 Tim St\u00fctzle and Dylan Cozens each had a goal and an assist and the Ottawa Senators defeated the San Jose Sharks 5-1 on Saturday.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892619.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-31T23:10:46Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892619",
-      "stream_url": "",
-      "body": "SAN JOSE, Calif. -- \u2014 Tim St\u00fctzle and Dylan Cozens each had a goal and an assist and the Ottawa Senators defeated the San Jose Sharks 5-1 on Saturday.\n\n\r\nThe Senators snapped a two-game skid and matched the franchise record for October victories with their ninth, equaling the mark set in 2007-08. Ottawa lost the first two games of a five-game trip that continues in Anaheim on Sunday.\n\n\r\nDrake Batherson, Ridly Greig and Shane Pinto also scored for Ottawa, while Samuel Ersson made 21 saves.\n\n\r\nMichael Misa scored the lone goal for the Sharks and Alex Nedeljkovic stopped 30 shots.\n\n\r\nOttawa broke open a 1-1 game with three second-period goals. Batherson put the Senators ahead at 5:04 before St\u00fctzle and Greig scored 1:23 apart midway through the stanza.\n\n\r\nCozens opened the scoring at 13:25 of the first period, and Misa tied it at 16:06 with his third goal of the season.\n\n\r\nSt\u00fctzle finished October with nine goals and 12 assists, extending his franchise record for points in the month to 21. He finished one goal shy of Bob Kudelski\u2019s team October record, established in 1993.\n\n\r\nBatherson extended his point streak to seven games, scoring his ninth goal of the season. Cozens scored for the third time in two games after scoring twice in Thursday\u2019s 6-5 overtime loss at Los Angeles.\n\n\r\nErsson earned his first victory of the season after entering 0-3-1. Ottawa has been without injured goaltender Linus Ullmark.\n\n\r\nThe Senators improved to 9-5-1 and split the two-game season series after losing 6-2 at home on Oct. 22.\n\n\r\nSan Jose fell to 7-7-1 and lost for the third time in four games.\n\n\r\nUp next\r\nSenators: At Anaheim on Sunday night.\n\n\r\nSharks: Host Flames on Monday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
       "story_id": "50341145",
@@ -12408,6 +12408,20 @@
       "body": "England's Rugby League World Cup campaign has seemingly ended despite a win - and in a whimper.\n\nBarring a sporting miracle, England can start packing for home despite posting a 34-12 victory over Papua New Guinea in Wollongong on Friday night.\n\nUnder the complex tournament format, Brian McDermott's team needed at least a 69-point win to be sure of scraping into the semi-finals.\n\nNow England need Tonga to thrash Samoa by 47 points or more in the fierce Pasifika derby at the same venue on Sunday night.\n\nGiven Samoa pumped Tonga 34-6 in last year's Pacific Championships, such a result seems most improbable.\n\nEngland have only themselves to blame for landing in such a precarious, seemingly hopeless, position.\n\nAfter losing 30-12 to Tonga in their tournament opener, then not quite atoning with a 82-0 thrashing of France to keep their semi-finals hopes flickering, England made a promising enough start at WIN Stadium.\n\nRealistically needing to score close to a point a minute to apply the pressure on Samoa and Tonga, England were on track after racing to a 22-0 lead after 20 minutes through tries to Matty Ashton, AJ Brimson, Dom Young and Harry Smith.\n\nBut then they imploded, making endless errors in pursuit of more points under pressure.\n\nInstead of going on with the job, after leading 24-0 at the break following a 40th-minute penalty goal to Sydney Roosters star Hugo Savala, England completely unravelled.\n\nPNG tries to Dudley Dotoi and Gairo Voro in the opening 10 minutes of the second half piled the pressure on the English - and they crumbled with error after error.\n\nA desperate try in the penultimate minute to Mikey Lewis was little more than an academic consolation for England."
     },
     {
+      "story_id": "50341242",
+      "headline": "St\u00fctzle, Cozens lead Senators past Sharks 5-1 as Ottawa ties franchise record with nine October wins",
+      "summary": "\u2014 Tim St\u00fctzle and Dylan Cozens each had a goal and an assist and the Ottawa Senators defeated the San Jose Sharks 5-1 on Saturday.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892619.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-31T23:10:46Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892619",
+      "stream_url": "",
+      "body": "SAN JOSE, Calif. -- \u2014 Tim St\u00fctzle and Dylan Cozens each had a goal and an assist and the Ottawa Senators defeated the San Jose Sharks 5-1 on Saturday.\n\n\r\nThe Senators snapped a two-game skid and matched the franchise record for October victories with their ninth, equaling the mark set in 2007-08. Ottawa lost the first two games of a five-game trip that continues in Anaheim on Sunday.\n\n\r\nDrake Batherson, Ridly Greig and Shane Pinto also scored for Ottawa, while Samuel Ersson made 21 saves.\n\n\r\nMichael Misa scored the lone goal for the Sharks and Alex Nedeljkovic stopped 30 shots.\n\n\r\nOttawa broke open a 1-1 game with three second-period goals. Batherson put the Senators ahead at 5:04 before St\u00fctzle and Greig scored 1:23 apart midway through the stanza.\n\n\r\nCozens opened the scoring at 13:25 of the first period, and Misa tied it at 16:06 with his third goal of the season.\n\n\r\nSt\u00fctzle finished October with nine goals and 12 assists, extending his franchise record for points in the month to 21. He finished one goal shy of Bob Kudelski\u2019s team October record, established in 1993.\n\n\r\nBatherson extended his point streak to seven games, scoring his ninth goal of the season. Cozens scored for the third time in two games after scoring twice in Thursday\u2019s 6-5 overtime loss at Los Angeles.\n\n\r\nErsson earned his first victory of the season after entering 0-3-1. Ottawa has been without injured goaltender Linus Ullmark.\n\n\r\nThe Senators improved to 9-5-1 and split the two-game season series after losing 6-2 at home on Oct. 22.\n\n\r\nSan Jose fell to 7-7-1 and lost for the third time in four games.\n\n\r\nUp next\r\nSenators: At Anaheim on Sunday night.\n\n\r\nSharks: Host Flames on Monday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
       "story_id": "50338915",
       "headline": "Dodgers executive Bob Wolfe shifting to advisory role",
       "summary": "Dodgers executive Bob Wolfe will transition to an advisory role after 14 years as executive vice president and five as chief operating officer.",
@@ -12420,20 +12434,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50338915/dodgers-executive-bob-wolfe-shifting-advisory-role",
       "stream_url": "",
       "body": "LOS ANGELES -- Dodgers executive Bob Wolfe is retiring at the end of the year after 14 years as executive vice president.\n\nWolfe also has served as chief operating officer for the last five years, responsible for the team's day-to-day administrative and operational functions. He's also been the club's liaison to Major League Baseball.\n\nHe will transition to an advisory role with the team.\n\nWolfe's 47-year career includes stints with the NBA's Atlanta Hawks, and MLB's Atlanta Braves and Washington Nationals. He helped with the construction and operation of Turner Field in Atlanta and Nationals Park in Washington.\n\n\"Having worked 47 years in team sports, I've been more entertained than anyone deserves,\" Wolfe said in a statement. \"It's been a privilege to ride the coattails of so many on- and off-the-field Hall of Famers, will-be Hall of Famers and should-be Hall of Famers.\""
-    },
-    {
-      "story_id": "50341023",
-      "headline": "Buffalo Sabres vs. Los Angeles Kings: Game Highlights",
-      "summary": "Buffalo Sabres vs. Los Angeles Kings: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/89a9e7ee-8394-493a-ac5d-f34f53a7b966/89a9e7ee-8394-493a-ac5d-f34f53a7b966.jpg",
-      "published_utc": "2026-10-31T22:54:00Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50341023/game-highlights",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50341092",
@@ -12646,6 +12646,18 @@
           "label": "Source 3 \u2013 NF (Alpha) \u2014 Live SD (CH 3)",
           "part": false,
           "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/10-31-2026/select-post-1/4/1",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/vppeww/10-31-2026/select-post-1/5/1",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
         }
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2026/10/WWE-NXT-Halloween-Havoc-Live-Full-Show.webp",
@@ -12659,19 +12671,13 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live FHD (CH 11)",
+          "label": "Source 1 \u2013 TNT (Thunder) \u2014 Live FHD (CH 11)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live HD (CH 12)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live SD (CH 13)",
+          "label": "Source 1 \u2013 TNT (Thunder) \u2014 Live SD (CH 13)",
           "part": false,
           "live": false
         },
@@ -12692,15 +12698,9 @@
           "label": "Source 2 \u2013 MyAEW (Alpha) \u2014 Live SD (CH 16)",
           "part": false,
           "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 TNT (Backup) \u2014 Live FHD (CH 17)",
-          "part": false,
-          "live": false
         }
       ],
-      "poster": "",
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/06/Watch-AEW-Collision-latest-Full-Show-Online.jpg",
       "source_url": "https://watch-wrestling.eu/aew-collision-10-31-2026/25009768d1a1d8c0ec60b1eaa7db6f6c"
     },
     {
