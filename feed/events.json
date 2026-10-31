@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-31T16:20:08.278295+00:00",
+  "generated_utc": "2026-10-31T16:30:17.388348+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874993",
@@ -3881,7 +3881,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-31T14:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:131",
         "name": "Bayer Leverkusen",
@@ -3909,9 +3909,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "BayArena",
-      "detail": "90'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3925,7 +3925,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-31T14:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:268",
         "name": "Borussia M\u00f6nchengladbach",
@@ -3953,9 +3953,9 @@
         "color": "0000dd"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "BORUSSIA-PARK",
-      "detail": "90'+1'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3969,7 +3969,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-31T14:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:3841",
         "name": "FC Augsburg",
@@ -3997,9 +3997,9 @@
         "color": "DA0308"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "WWK Arena",
-      "detail": "90'+1'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4013,7 +4013,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-31T14:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:133",
         "name": "Schalke 04",
@@ -4040,9 +4040,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Veltins Arena",
-      "detail": "88'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4056,7 +4056,7 @@
       "competition_id": "ger.1",
       "competition_name": "Bundesliga",
       "start_utc": "2026-10-31T14:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:137",
         "name": "Werder Bremen",
@@ -4084,9 +4084,9 @@
         "color": "003399"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/In Progress",
+      "source_status": "post/Full Time",
       "venue": "Weserstadion",
-      "detail": "90'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4130,7 +4130,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Vitality Stadium",
-      "detail": "59'",
+      "detail": "69'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4173,7 +4173,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Gtech Community Stadium",
-      "detail": "63'",
+      "detail": "73'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4216,7 +4216,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Coventry Building Society Arena",
-      "detail": "63'",
+      "detail": "72'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4258,9 +4258,9 @@
         "color": "0000fa"
       },
       "source": "espn:soccer/eng.1",
-      "source_status": "in/Second Half",
+      "source_status": "in/In Progress",
       "venue": "The MKM Stadium",
-      "detail": "60'",
+      "detail": "70'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4304,7 +4304,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Etihad Stadium",
-      "detail": "61'",
+      "detail": "71'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4429,9 +4429,101 @@
         "color": "6cace4"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "Estadio de Vallecas",
-      "detail": "HT",
+      "detail": "51'",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401859185",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2426",
+        "name": "Navy Midshipmen",
+        "abbrev": "NAVY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+        "logo_dark": null,
+        "aliases": [
+          "Midshipmen",
+          "NAVY",
+          "Navy",
+          "Navy Midshipmen"
+        ],
+        "color": "00225b"
+      },
+      "away": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Gillette Stadium",
+      "detail": "4:23 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856842",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "away": {
+        "id": "espn:12",
+        "name": "Arizona Wildcats",
+        "abbrev": "ARIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARIZ",
+          "Arizona",
+          "Arizona Wildcats",
+          "Wildcats"
+        ],
+        "color": "cc0033"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Galaxy Stadium",
+      "detail": "5:29 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4476,7 +4568,53 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "JMA Wireless Dome",
-      "detail": "7:37 - 1st Quarter",
+      "detail": "4:52 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858502",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "away": {
+        "id": "espn:275",
+        "name": "Wisconsin Badgers",
+        "abbrev": "WIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+        "logo_dark": null,
+        "aliases": [
+          "Badgers",
+          "WIS",
+          "Wisconsin",
+          "Wisconsin Badgers"
+        ],
+        "color": "a00000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Kinnick Stadium",
+      "detail": "7:09 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4522,7 +4660,53 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Carter-Finley Stadium",
-      "detail": "10:16 - 1st Quarter",
+      "detail": "7:01 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858279",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:150",
+        "name": "Duke Blue Devils",
+        "abbrev": "DUKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Devils",
+          "DUKE",
+          "Duke",
+          "Duke Blue Devils"
+        ],
+        "color": "00539b"
+      },
+      "away": {
+        "id": "espn:103",
+        "name": "Boston College Eagles",
+        "abbrev": "BC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+        "logo_dark": null,
+        "aliases": [
+          "BC",
+          "Boston College",
+          "Boston College Eagles",
+          "Eagles"
+        ],
+        "color": "8c2232"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Wallace Wade Stadium",
+      "detail": "7:33 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4568,7 +4752,52 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "SECU Stadium",
-      "detail": "9:54 - 1st Quarter",
+      "detail": "5:41 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401862816",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T16:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:58",
+        "name": "South Florida Bulls",
+        "abbrev": "USF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "South Florida",
+          "South Florida Bulls",
+          "USF"
+        ],
+        "color": "006747"
+      },
+      "away": {
+        "id": "espn:5",
+        "name": "UAB Blazers",
+        "abbrev": "UAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blazers",
+          "UAB",
+          "UAB Blazers"
+        ],
+        "color": "1a5632"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Raymond James Stadium",
+      "detail": "7:34 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4615,236 +4844,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Waldo Stadium",
-      "detail": "6:54 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401859185",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2426",
-        "name": "Navy Midshipmen",
-        "abbrev": "NAVY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
-        "logo_dark": null,
-        "aliases": [
-          "Midshipmen",
-          "NAVY",
-          "Navy",
-          "Navy Midshipmen"
-        ],
-        "color": "00225b"
-      },
-      "away": {
-        "id": "espn:87",
-        "name": "Notre Dame Fighting Irish",
-        "abbrev": "ND",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Irish",
-          "ND",
-          "Notre Dame",
-          "Notre Dame Fighting Irish"
-        ],
-        "color": "062340"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Gillette Stadium",
-      "detail": "6:43 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856842",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2641",
-        "name": "Texas Tech Red Raiders",
-        "abbrev": "TTU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-        "logo_dark": null,
-        "aliases": [
-          "Red Raiders",
-          "TTU",
-          "Texas Tech",
-          "Texas Tech Red Raiders"
-        ],
-        "color": "da291c"
-      },
-      "away": {
-        "id": "espn:12",
-        "name": "Arizona Wildcats",
-        "abbrev": "ARIZ",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARIZ",
-          "Arizona",
-          "Arizona Wildcats",
-          "Wildcats"
-        ],
-        "color": "cc0033"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Galaxy Stadium",
-      "detail": "9:40 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858502",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2294",
-        "name": "Iowa Hawkeyes",
-        "abbrev": "IOWA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hawkeyes",
-          "IOWA",
-          "Iowa",
-          "Iowa Hawkeyes"
-        ],
-        "color": "231f20"
-      },
-      "away": {
-        "id": "espn:275",
-        "name": "Wisconsin Badgers",
-        "abbrev": "WIS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-        "logo_dark": null,
-        "aliases": [
-          "Badgers",
-          "WIS",
-          "Wisconsin",
-          "Wisconsin Badgers"
-        ],
-        "color": "a00000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Kinnick Stadium",
-      "detail": "9:08 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858279",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:150",
-        "name": "Duke Blue Devils",
-        "abbrev": "DUKE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Devils",
-          "DUKE",
-          "Duke",
-          "Duke Blue Devils"
-        ],
-        "color": "00539b"
-      },
-      "away": {
-        "id": "espn:103",
-        "name": "Boston College Eagles",
-        "abbrev": "BC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
-        "logo_dark": null,
-        "aliases": [
-          "BC",
-          "Boston College",
-          "Boston College Eagles",
-          "Eagles"
-        ],
-        "color": "8c2232"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Wallace Wade Stadium",
-      "detail": "12:11 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862816",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T16:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:58",
-        "name": "South Florida Bulls",
-        "abbrev": "USF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "South Florida",
-          "South Florida Bulls",
-          "USF"
-        ],
-        "color": "006747"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "UAB Blazers",
-        "abbrev": "UAB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blazers",
-          "UAB",
-          "UAB Blazers"
-        ],
-        "color": "1a5632"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Raymond James Stadium",
-      "detail": "10:58 - 1st Quarter",
+      "detail": "3:23 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4980,7 +4980,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "TD Garden",
       "detail": "",
       "game_number": 1,
@@ -5026,7 +5026,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -12240,6 +12240,20 @@
   ],
   "stories": [
     {
+      "story_id": "50329328",
+      "headline": "NHL Tonight: What to watch in all 10 spooky games on Halloween",
+      "summary": "Find game previews, betting intel, broadcast information, stats and highlights here.",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738657_1296x729_16-9.jpg",
+      "published_utc": "2026-10-31T16:24:37Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "ESPN Staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50329328/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
+      "stream_url": "",
+      "body": "Halloween is one of the most hockey holidays there is. (If we're allowed to use \"hockey\" as an adjective.)\n\nBig, scary guys committing acts of violence, along with masks, missing teeth ... and mascots terrifying children.\n\nSo before heading out to parties or handing out candy to trick-or-treaters, read up on all 10 matchups on the NHL calendar today.\n\nHere's a look at what you need to know for each game, including betting info and broadcast details:\n\nOdds are provided by DraftKings and subject to change.\n\nChicago Blackhawks at Boston Bruins\n\n1 p.m. ET (ESPN+) | BOS -225, O/U: 5.5\n\nThe team from the land of \"Candyman\" heads toward the domain of myriad Stephen King novels for a scary matinee.\n\nThe B's have won four straight games at home coming into this matchup and are led by superstar David Pastrnak. The Czechia native has seven goals and 11 assists through 14 games. Rookie James Hagens is tied for third on the team in scoring, with five goals and five assists.\n\nChicago is led in scoring by Patrick Kane -- what year is this? -- who has a goal and seven assists in 13 games. Connor Bedard is right behind, with three goals and four assists in seven games played after his start was delayed by injury recovery.\n\nSt. Louis Blues at Detroit Red Wings\n\n1 p.m. ET (ESPN+) | STL -112, O/U: 5.5\n\nAt one point, this was one of the NHL's most bitter rivalries, with the two clubs both in the Norris Division. The Red Wings hold a slight edge in regular-season record (130-119-47) and have a 24-16 edge in playoff games.\n\nDetroit has 15 points through 13 games, which makes it last in the Atlantic but would put it in a tie for third in the Central. St. Louis is two behind.\n\nAmid the uncertainty as Dylan Larkin's trade request/injury/now-suspension proceeds, Alex DeBrincat is doing lots of Alex DeBrincat things, with six goals and nine assists through 13 games.\n\nOn the other side, goaltender Joel Hofer has taken over as the clear No. 1, and is top 10 in the league in goals-against average (2.24) and save percentage (.923).\n\nTampa Bay Lightning at Nashville Predators\n\n2 p.m. ET (ESPN+) | TB -170, O/U: 6.5\n\nAlthough it's more magical when Predators forward Steven Stamkos makes return visits to Tampa, it's always fun when he welcomes his old teammates to Music City too.\n\nStamkos is having another strong season for Nashville -- seven goals, eight assists through 13 games -- but was blanked the past two games against the Lightning. Will that trend continue?\n\nFor Tampa, Brandon Hagel is leading the way on the scoresheet with eight goals and eight assists in 12 games.\n\nEdmonton Oilers at New York Islanders\n\n2 p.m. ET (ESPN+) | EDM -135, O/U: 6.5\n\nBack in the early 1980s, these two teams had a baton-passing moment. The Isles won the Stanley Cup four straight years (1980-83), including a sweep of the Oilers in the final year. The next year, the Oilers beat the Isles 4-1 in the Cup Final, beginning a four Cups in five years streak for them, along with another in 1990.\n\nNeither team has won the Cup since, and the teams enter this matchup with opposite problems. The Oilers are scoring an absurd 4.23 goals per game but are 18th in goals against; the Isles are fifth best in goal prevention but 18th in goals per game.\n\nSo it's a toss-up which side comes out on top. What is certain, though, is that fans will get to see a handful of the most dynamic players on the planet in Edmonton's Connor McDavid, Leon Draisaitl and Evan Bouchard, along with the Isles' Matthew Schaefer.\n\nBuffalo Sabres at Los Angeles Kings\n\n4 p.m. ET (ESPN+) | BUF -122, O/U: 5.5\n\nCan Buffalo pull off the California hat trick? The Sabres won 2-0 against the Sharks on Tuesday, then 7-6 in a wild one over the Ducks on Thursday.\n\nThe Kings, meanwhile, have struggled to a 4-6-2 record out of the gate, with goals seemingly hard to come by on some nights, then flowing like a faucet on others (like in the recent 6-5 win over Ottawa and 6-3 decision over the Rangers).\n\nBuffalo leading scorer Tage Thompson authored a hat trick in the game against Anaheim; what does he have in store for L.A.?\n\nOttawa Senators at San Jose Sharks\n\n4 p.m. ET (ESPN+) | OTT -130, O/U: 6.5\n\nIn the second biggest trade of the offseason for the Senators, they landed 24-year-old left wing William Eklund from the Sharks. This game would have been Eklund's first game back in San Jose, but he is out injured.\n\nInstead, Tim Stutzle (eight goals, 11 assists) and the Sens will skate Eklund-less in the matinee against Macklin Celebrini (five goals, 11 assists) and the Sharks.\n\nThe two teams met Oct. 22 in Ottawa, with the Sharks earning a 6-2 win thanks to 41 saves by Yaroslav Askarov, and goals by six different players. How will this game play out?\n\nPittsburgh Penguins at Montreal Canadiens\n\n7 p.m. ET (ESPN+) | MTL -155, O/U: 6.5\n\nOf all the arenas in the NHL, perhaps the most special is the Bell Centre in Montreal. And any time Sidney Crosby -- one of the most iconic players in hockey history -- sets foot on the ice, that ramps up the prestige.\n\nThis is the first of two games the Penguins will play in Montreal this season, after defeating the Habs 6-5 in OT in the Steel City on Oct. 3. That was a seesaw of a game; after the Canadiens scored first, the Penguins built a 5-1 lead in the second period, only to relinquish it by late in the third, before Tommy Novak clinched it 1:33 into the extra session.\n\nThe goaltending coaches on both teams probably hope there's a bit less scoring this time around, but an 11-goal game would probably send the fans on hand into delirium.\n\nToronto Maple Leafs at Vancouver Canucks\n\n7 p.m. ET (ESPN+) | TOR -162, O/U: 6.5\n\nIt's another early start for a West Coast team hosting the Maple Leafs (after the Oilers took their turn this past Saturday). The leading scorer from each of these teams made Rachel Kryshak's one-month breakout/rebound list; here's a snippet of what she had to say about both:\n\nOn Toronto's Auston Matthews: \"Matthews' skating has looked noticeably better. According to NHL Edge, Matthews has jumped from the 52nd and 72nd percentiles in 20-22 mph and 18-20 mph bursts in 2025-26, to the 68th and 93rd percentiles this season. He has been far more involved off the puck, specifically on the forecheck, resulting in his line forcing turnovers, extending offensive zone time and creating more scoring chances.\"\n\nOn Vancouver's Elias Pettersson: \"Pettersson is drawing penalties at an elite rate, has already equaled his power-play goal total from last season, and is driving play through zone entries, shot assists and excellent defensive play. He's producing points at even strength that is in line for a top-six-caliber forward, and a fringe top-line player. Pettersson ranks top five in blocked shots among NHL forwards and is much more engaged than the previous two seasons.\"\n\nColumbus Blue Jackets at Dallas Stars\n\n8 p.m. ET (ESPN+) | DAL -185, O/U: 5.5\n\nLet's pass the mic to Greg Wyshynski, who highlighted this as one of the games of the week in the latest Wysh List column:\n\n\"Zach Werenski makes his first visit to Dallas after rejecting a trade to the Stars during the offseason. Multiple reports at the time said that Dallas defenseman Thomas Harley would have been sent back to the Jackets, in a trade many anticipate could be revisited some day down the line.\n\n\"Nothing awkward about any of this!\"\n\nCalgary Flames at Colorado Avalanche\n\n10 p.m. ET (ESPN+) | COL -395, O/U: 6.5\n\nHoly smokes, look at that betting line! Well, given that the Avs are one of the Western powerhouses and the Flames are amid a rebuild, perhaps it's not that outlandish.\n\n... of course, this is the same Flames team that won five of its last six games, including wins over the defending Cup champ Hurricanes and fellow Western powerhouse Wild.\n\nBut they also gave up a touchdown and PAT to the Avs in their previous meeting this season (Oct. 8). If nothing else, this game is the perfect Halloween nightcap.\n\nReminder: Fans can catch all the action in the NHL streaming hub and on the ESPN App.\n\nJump ahead:\n\nTop NHL stories\n\nLast night's scores\n\nNHL stats leaders\n\nToday in hockey history\n\nTop stories around the NHL\n\nHere's what you need to know:\n\nThe latest Wysh List column: Judging 10 overreactions after one month.\nUpdated Power Rankings, including which horror movie best describes each team.\nMeet Devin Cooley, the most interesting man in hockey.\nBreaking down the biggest breakout (or rebound) players this season.\nNikita Kucherov has requested a trade; Lightning GM Julien BriseBois says they're not trading him.\nDylan Larkin has been suspended as the Red Wings attempt to trade him.\nPlaying in his hometown of Pittsburgh, Utah's Logan Cooley scored a hat trick in the Mammoth's win.\nMatthew Schaefer set an NHL record, playing all five minutes of an OT period for the Islanders.\n\nFriday's scoreboard\nNew Jersey Devils 5, Vegas Golden Knights 2\n\nFlorida Panthers 5, Winnipeg Jets 2\n\nCalgary Flames 6, Seattle Kraken 2\n\nNHL scoring leaders\n\nClick here for full list of stats leaders.\n\nNHL goaltending leaders\n\nClick here for the full list of goaltender stats.\n\nToday in hockey history\nHockey Hall of Famer Marcel Dionne is typically remembered as a Los Angeles King -- and particularly in the purple and yellow version of the franchise from the '70s and early '80s -- or for his early-career exploits with the Red Wings from 1971-72 through 1974-75.\n\nBut he finished his NHL career with parts of three seasons for the New York Rangers, and it was on this date during one of those campaigns that he reached an important benchmark.\n\nOn Oct. 31, 1987, Dionne scored goal No. 700 of his career in an 8-2 loss to the Islanders. At the time, he was just the third player to hit that mark -- joining Gordie Howe and Phil Esposito -- but he has since been joined by Mike Gartner, Brett Hull, Jaromir Jagr, Wayne Gretzky and Alex Ovechkin."
+    },
+    {
       "story_id": "50335830",
       "headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft",
       "summary": "In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft.",
@@ -12338,20 +12352,6 @@
       "body": "As Allisha Gray's corner 3 glided through the hoop Thursday, the finishing touch on the Atlanta Dream's emphatic 80-69 victory, a chant broke out at State Farm Arena.\n\n\"Dream in seven!\"\n\nIt's the first time the words could be uttered in the WNBA.\n\nLast season was the first year the league implemented a best-of-seven format for the WNBA Finals, which had been a best-of-five since 2005. But the Las Vegas Aces beat the Phoenix Mercury in a four-game sweep.\n\nThe Dream's win Thursday kept their season alive, knotted this year's Finals at 3-3 and forced the series back to San Francisco for the first Game 7. In a fitting end to the WNBA's 30th season, Golden State hosts Atlanta at 8 p.m. ET on Saturday to decide the longest series in league history.\n\n\"Winning a championship is not easy, and it's never going to be easy,\" Dream forward Angel Reese said. \"So we're expected to continue to have to fight. None of us thought it was over.\"\n\nIf history is any precursor, it suggests the host Valkyries are favored Saturday at Chase Center. Of the eight championship series since 2005 that have gone the distance, the home team won six of the decisive games.\n\nPlayers on both teams have won championships before. For the Valkyries, center Kiah Stokes won three titles with the Aces, and Tiffany Hayes was also on one of those championship teams. Kayla Thornton won with the New York Liberty, and Cecilia Zandalasini won with the Minnesota Lynx.\n\nFor Atlanta, DeWanna Bonner and Jordin Canada each have two championships with the Phoenix Mercury and Seattle Storm, respectively. Shatori Walker-Kimbrough won with the Washington Mystics.\n\nFour of those titles were decided in a winner-take-all. But even the addition of two games feels different in this year's Finals, which opened Oct. 17, will conclude exactly two weeks later and required the teams to make five cross-country trips as Golden State also hosted Games 1, 2 and 5.\n\n\"It for sure feels longer,\" Bonner said. \"Especially because the travel is so long, too, it's 4\u00bd hours back and forth. I can absolutely feel the difference ... you feel it mentally and you feel it physically. It's how you handle it.\"\n\n\"I know we are always saying, 'Yeah, seven games is a long series,' but none of us have ever played in a seven-game series,\" Stokes said. \"But man, it is long.\"\n\nGolden State had hoped to clinch the title on the road Thursday but fell behind early and trailed by as many as 25 points in the first half. Still, the Valkyries' Veronica Burton said there was a silver lining.\n\n\"We didn't quit,\" said the guard, who added that the same couldn't be said about Golden State in its losses in Games 2 and 3.\n\nThe Finals so far have been defined by which team can impose its style on the opponent first. The three games won by the Valkyries were powered by their stifling defense. The Dream's wins were driven by an offense that scored more than 70 points in each game.\n\nAny series -- best-of-three (as in the first round), best-of-five (WNBA semifinals) or best-of-seven -- requires a different level of planning and gamesmanship than the regular season. Lineup and rotation adjustments can shift the game plan. The marginal details become the difference-makers. The physicality increases every night.\n\nBut by Game 7, there are rarely any more surprises.\n\n\"We know the schemes, they know our set, we know their tendencies and they know ours,\" Stokes said. \"Who can execute the game plan more? And it comes down to who wants it more?\"\n\nAnd the mental game becomes even more important.\n\n\"You're tired of seeing them,\" Golden State leading scorer Gabby Williams said. \"You can tell -- the handshakes feel a little softer before the game and stuff.\"\n\n\"You can't let your opponent win the mental game,\" Gray said. \"It could be the crowd. It could be if you're making shots or not. It can be even the refs. So the biggest thing is just staying poised and staying within yourself and don't get too out of body.\"\n\nBoth the Dream and Valkyries have been challenged to maintain their identities throughout the series. After Game 3, Williams said she didn't recognize her team. After Game 5, Bonner said Atlanta lacked the joy it needs to win.\n\nEach team responded, overwhelmingly.\n\nIn Game 7, the Valkyries will look to find themselves one more time, while the Dream will have to maintain the dominance they displayed Thursday. Both teams know they have to be desperate in their pursuit.\n\n\"We have to want it more,\" Williams said. \"This is probably going to be the hardest game that we will play in our entire lives, honestly, because both teams want it so bad.\"\n\nAdded Reese: \"You're going to have to peel me off the court. I want to be so damn tired. Like, I want to just be able to give everything.\""
     },
     {
-      "story_id": "50334003",
-      "headline": "Hurricanes bring 3-game win streak into matchup against the Jets",
-      "summary": "Winnipeg Jets (4-7-3, in the Central Division) vs. Carolina Hurricanes (11-2-2, in the Metropolitan Division)",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892624.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-31T08:10:55Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/preview?gameId=401892624",
-      "stream_url": "",
-      "body": "Winnipeg Jets (4-7-3, in the Central Division) vs. Carolina Hurricanes (11-2-2, in the Metropolitan Division)\n\n\r\nRaleigh, North Carolina; Sunday, 1 p.m. EST\n\n\r\nBOTTOM LINE: The Carolina Hurricanes will try to extend a three-game win streak with a victory against the Winnipeg Jets.\n\n\r\nCarolina is 11-2-2 overall and 4-1-1 in home games. The Hurricanes have given up 35 goals while scoring 56 for a +21 scoring differential.\n\n\r\nWinnipeg has a 4-7-3 record overall and a 2-2-2 record in road games. The Jets have conceded 47 goals while scoring 34 for a -13 scoring differential.\n\n\r\nThe teams meet Sunday for the second time this season. The Hurricanes won 3-2 in the last meeting.\n\n\r\nTOP PERFORMERS: Mark Jankowski has scored seven goals with one assist for the Hurricanes. Logan Stankoven has five goals and three assists over the last 10 games.\n\n\r\nCole Perfetti has six goals and five assists for the Jets. Kyle Connor has six goals and two assists over the past 10 games.\n\n\r\nLAST 10 GAMES: Hurricanes: 8-1-1, averaging 3.8 goals, 6.4 assists, 3.2 penalties and 6.7 penalty minutes while giving up 2.1 goals per game.\n\n\r\nJets: 1-7-2, averaging 2.2 goals, 3.4 assists, 3.5 penalties and 7.6 penalty minutes while giving up 3.4 goals per game.\n\n\r\nINJURIES: Hurricanes: Taylor Hall: out (upper body), Jordan Staal: out (calf), Alexander Nikishin: out (not injury related).\n\n\r\nJets: Garrett Brown: out (lower-body), Nick Bjugstad: out (pectoral), Vladislav Namestnikov: out (undisclosed), Josh Morrissey: out (upper body).\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
-    },
-    {
       "story_id": "50331090",
       "headline": "Chris Fagan to join the Blues as director of coaching in 2027",
       "summary": "Triple premeirship coach Chris Fagan has made the call on his AFL future, joining Carlton as their director of coaching for 2027.",
@@ -12406,6 +12406,20 @@
       "link": "https://www.espn.com/nrl/story/_/id/50327090/rugby-league-world-cup-england-world-cup-all-win-png",
       "stream_url": "",
       "body": "England's Rugby League World Cup campaign has seemingly ended despite a win - and in a whimper.\n\nBarring a sporting miracle, England can start packing for home despite posting a 34-12 victory over Papua New Guinea in Wollongong on Friday night.\n\nUnder the complex tournament format, Brian McDermott's team needed at least a 69-point win to be sure of scraping into the semi-finals.\n\nNow England need Tonga to thrash Samoa by 47 points or more in the fierce Pasifika derby at the same venue on Sunday night.\n\nGiven Samoa pumped Tonga 34-6 in last year's Pacific Championships, such a result seems most improbable.\n\nEngland have only themselves to blame for landing in such a precarious, seemingly hopeless, position.\n\nAfter losing 30-12 to Tonga in their tournament opener, then not quite atoning with a 82-0 thrashing of France to keep their semi-finals hopes flickering, England made a promising enough start at WIN Stadium.\n\nRealistically needing to score close to a point a minute to apply the pressure on Samoa and Tonga, England were on track after racing to a 22-0 lead after 20 minutes through tries to Matty Ashton, AJ Brimson, Dom Young and Harry Smith.\n\nBut then they imploded, making endless errors in pursuit of more points under pressure.\n\nInstead of going on with the job, after leading 24-0 at the break following a 40th-minute penalty goal to Sydney Roosters star Hugo Savala, England completely unravelled.\n\nPNG tries to Dudley Dotoi and Gairo Voro in the opening 10 minutes of the second half piled the pressure on the English - and they crumbled with error after error.\n\nA desperate try in the penultimate minute to Mikey Lewis was little more than an academic consolation for England."
+    },
+    {
+      "story_id": "50334003",
+      "headline": "Hurricanes bring 3-game win streak into matchup against the Jets",
+      "summary": "Winnipeg Jets (4-7-3, in the Central Division) vs. Carolina Hurricanes (11-2-2, in the Metropolitan Division)",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892624.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-10-31T08:10:55Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nhl/preview?gameId=401892624",
+      "stream_url": "",
+      "body": "Winnipeg Jets (4-7-3, in the Central Division) vs. Carolina Hurricanes (11-2-2, in the Metropolitan Division)\n\n\r\nRaleigh, North Carolina; Sunday, 1 p.m. EST\n\n\r\nBOTTOM LINE: The Carolina Hurricanes will try to extend a three-game win streak with a victory against the Winnipeg Jets.\n\n\r\nCarolina is 11-2-2 overall and 4-1-1 in home games. The Hurricanes have given up 35 goals while scoring 56 for a +21 scoring differential.\n\n\r\nWinnipeg has a 4-7-3 record overall and a 2-2-2 record in road games. The Jets have conceded 47 goals while scoring 34 for a -13 scoring differential.\n\n\r\nThe teams meet Sunday for the second time this season. The Hurricanes won 3-2 in the last meeting.\n\n\r\nTOP PERFORMERS: Mark Jankowski has scored seven goals with one assist for the Hurricanes. Logan Stankoven has five goals and three assists over the last 10 games.\n\n\r\nCole Perfetti has six goals and five assists for the Jets. Kyle Connor has six goals and two assists over the past 10 games.\n\n\r\nLAST 10 GAMES: Hurricanes: 8-1-1, averaging 3.8 goals, 6.4 assists, 3.2 penalties and 6.7 penalty minutes while giving up 2.1 goals per game.\n\n\r\nJets: 1-7-2, averaging 2.2 goals, 3.4 assists, 3.5 penalties and 7.6 penalty minutes while giving up 3.4 goals per game.\n\n\r\nINJURIES: Hurricanes: Taylor Hall: out (upper body), Jordan Staal: out (calf), Alexander Nikishin: out (not injury related).\n\n\r\nJets: Garrett Brown: out (lower-body), Nick Bjugstad: out (pectoral), Vladislav Namestnikov: out (undisclosed), Josh Morrissey: out (upper body).\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
     },
     {
       "story_id": "50336119",
@@ -12504,20 +12518,6 @@
       "link": "https://www.espn.com/wnba/story/_/id/50329901/source-fever-hires-blazers-sheri-sam-assistant-gm",
       "stream_url": "",
       "body": "The Indiana Fever have hired Sheri Sam as assistant general manager, a source confirmed to ESPN on Friday.\n\nSam joins the Fever from the Portland Trail Blazers, where she had held the position of scouting manager since 2022. She played 10 years in the WNBA and won championships in Seattle (2004) and Detroit (2008).\n\nHer responsibilities with the Trail Blazers included collegiate and professional player scouting and evaluation. The Fever had planned to invest in their scouting and analytics efforts, and the addition of Sam was one step in that direction.\n\nIndiana remains without a team president and general manager after Kelly Krauskopf stepped down and Amber Cox was fired last week.\n\nThe Fever lost to the Las Vegas Aces in the first round of the playoffs after finishing with a 28-16 regular-season record and earning the No. 6 seed for the third consecutive season.\n\nSam's hiring was first reported by the Indy Star."
-    },
-    {
-      "story_id": "50334002",
-      "headline": "Avalanche look to extend home win streak, host the Flames",
-      "summary": "Calgary Flames (6-7, in the Pacific Division) vs. Colorado Avalanche (7-5-1, in the Central Division)",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892623.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-10-31T08:10:54Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nhl/preview?gameId=401892623",
-      "stream_url": "",
-      "body": "Calgary Flames (6-7, in the Pacific Division) vs. Colorado Avalanche (7-5-1, in the Central Division)\n\n\r\nDenver; Saturday, 10 p.m. EDT\n\n\r\nLINE: Avalanche -429, Flames +322; over/under is 6.5\n\n\r\nBOTTOM LINE: The Colorado Avalanche, on a three-game home winning streak, host the Calgary Flames.\n\n\r\nColorado is 5-1-1 at home and 7-5-1 overall. The Avalanche have a 4-1-1 record in games their opponents serve more penalty minutes.\n\n\r\nCalgary has a 1-4-0 record on the road and a 6-7 record overall. The Flames rank fourth in NHL play serving 12.7 penalty minutes per game.\n\n\r\nThe teams meet Saturday for the second time this season. The Avalanche won 7-3 in the previous matchup. Cale Makar led the Avalanche with two goals.\n\n\r\nTOP PERFORMERS: Martin Necas has six goals and 10 assists for the Avalanche. Artturi Lehkonen has seven goals and four assists over the last 10 games.\n\n\r\nMatvei Gridin has five goals and five assists for the Flames. Aydar Suniev has four goals and one assist over the last 10 games.\n\n\r\nLAST 10 GAMES: Avalanche: 5-4-1, averaging 3.8 goals, 7.1 assists, four penalties and 10 penalty minutes while giving up 3.1 goals per game.\n\n\r\nFlames: 6-4-0, averaging 3.1 goals, 5.4 assists, 4.5 penalties and 11.6 penalty minutes while giving up 3.1 goals per game.\n\n\r\nINJURIES: Avalanche: Zachary L'Heureux: out (upper body), Josh Manson: out (lower body).\n\n\r\nFlames: Jonathan Huberdeau: out (hip), Devin Cooley: out (lower body), Brennan Othmann: day to day (upper body), Samuel Honzek: out (lower-body).\n\n\r\n------\n\n\r\nThe Associated Press created this story using technology provided by Data Skrive and data from Sportradar."
     },
     {
       "story_id": "50310460",
