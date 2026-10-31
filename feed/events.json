@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-31T01:26:52.134983+00:00",
+  "generated_utc": "2026-10-31T01:37:06.432239+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874993",
@@ -3015,7 +3015,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Amerant Bank Arena",
       "detail": "",
       "game_number": 1,
@@ -3031,7 +3031,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-10-30T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:27",
         "name": "Washington Wizards",
@@ -3061,9 +3061,9 @@
         "color": "008ca8"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Capital One Arena",
-      "detail": "2:54 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3109,7 +3109,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Jerry Richardson Stadium",
-      "detail": "5:31 - 3rd Quarter",
+      "detail": "4:08 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3155,7 +3155,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "TD Garden",
-      "detail": "1:55 - 3rd Quarter",
+      "detail": "9:30 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3201,7 +3201,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Barclays Center",
-      "detail": "1:06 - 3rd Quarter",
+      "detail": "8:04 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3247,7 +3247,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Xfinity Mobile Arena",
-      "detail": "25.7 - 3rd Quarter",
+      "detail": "9:27 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3293,7 +3293,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "3:31 - 3rd Quarter",
+      "detail": "10:44 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3336,9 +3336,9 @@
         "color": "154734"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Acrisure Bounce House",
-      "detail": "Halftime",
+      "detail": "13:56 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3464,9 +3464,9 @@
         "color": "0c2340"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Kaseya Center",
-      "detail": "Halftime",
+      "detail": "10:16 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3510,9 +3510,9 @@
         "color": "ce0e2d"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "American Airlines Center",
-      "detail": "Halftime",
+      "detail": "6:22 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3558,7 +3558,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Target Center",
-      "detail": "8:56 - 3rd Quarter",
+      "detail": "5:28 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12242,16 +12242,30 @@
     {
       "story_id": "50332283",
       "headline": "Thunder's Chet Holmgren out 8-10 weeks due to patellar tendon tear",
-      "summary": "Chet Holmgren will be out 8-to-10 weeks with a knee injury, the latest setback for an OKC team that lost Jalen Williams and Cason Wallace for an extended time early this week.",
+      "summary": "Chet Holmgren will be out 8 to 10 weeks with a knee injury, the latest setback for an OKC team that lost Jalen Williams and Cason Wallace for an extended time early this week.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/c33e2b6b-b06d-4fbf-b26b-8aa6e64a4c58/c33e2b6b-b06d-4fbf-b26b-8aa6e64a4c58.jpg",
-      "published_utc": "2026-10-31T01:22:42Z",
+      "published_utc": "2026-10-31T01:28:02Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "Tim MacMahon",
       "source": "ESPN",
       "link": "https://www.espn.com/nba/story/_/id/50332283/thunder-say-chet-holmgren-8-10-weeks-due-knee",
       "stream_url": "",
-      "body": "Star Oklahoma City Thunder power forward/center Chet Holmgren will miss eight to 10 weeks due to a patellar tendon tear in his right knee, the team said Friday night.\n\nHolmgren is the third Thunder starter to be ruled out for an extended period this week, joining forward Jalen Williams (fractured fibula, dislocated ankle) and guard Cason Wallace (torn labrum).\n\nAccording to the team, Holmgren met with a series of specialists after experiencing mild discomfort in his right knee Sunday -- the same day Williams and Wallace were hurt in a game against the Clippers. A determination was made to perform a \"biological treatment\" Friday to address what the team's news release called a \"small\" tear.\n\nIt is the third significant injury Holmgren has suffered since the Thunder selected the 7-footer with the No. 2 pick in the 2022 draft.\n\nHolmgren missed the entire 2022-23 season after suffering a broken foot weeks after the draft. He missed a few months of the 2024-25 season due to a fractured pelvis, returning to play a key role in the Thunder's championship run.\n\nHolmgren earned first-team All-Defensive and third-team All-NBA honors last season, when he averaged 17.1 points, 8.9 rebounds and 1.9 blocks per game.\n\nAlso in Friday's news release, the Thunder said Wallace underwent his surgery Friday and will be re-evaluated prior to the end of this regular season.\n\nWilliams underwent his surgery Wednesday and also will be reevaluated before the end of this season, the team previously had said."
+      "body": "Star Oklahoma City Thunder power forward/center Chet Holmgren will miss eight to 10 weeks due to a patellar tendon tear in his right knee, the team said Friday night.\n\nHolmgren is the third Thunder starter to be ruled out for an extended period this week, joining forward Jalen Williams (fractured fibula, dislocated ankle) and guard Cason Wallace (torn labrum).\n\nAccording to the team, Holmgren met with a series of specialists after experiencing mild discomfort in his right knee Sunday -- the same day Williams and Wallace were hurt in a game against the Clippers. A determination was made to perform a \"biological treatment\" Friday to address what the team's news release called a \"small\" tear.\n\nIt is the third significant injury Holmgren has suffered since the Thunder selected the 7-footer with the No. 2 pick in the 2022 draft.\n\nHolmgren missed the entire 2022-23 season after suffering a broken foot weeks after the draft. He missed a few months of the 2024-25 season due to a fractured pelvis, returning to play a key role in the Thunder's championship run.\n\nHolmgren earned first-team All-Defensive and third-team All-NBA honors last season, when he averaged 17.1 points, 8.9 rebounds and 1.9 blocks.\n\nAlso in Friday's news release, the Thunder said Wallace underwent surgery Friday and will be reevaluated before the end of this regular season.\n\nWilliams underwent surgery Wednesday and also will be reevaluated before the end of this season, the team previously said."
+    },
+    {
+      "story_id": "50320298",
+      "headline": "Colton Herta's F1 move delayed by bizarre superlicence error at Mexico City GP",
+      "summary": "American driver Colton Herta's wait for the superlicence he needs to race for Cadillac in Formula 1 next season will continue another week after a bizarre misunderstanding involving the team, the governing FIA and IndyCar's official website.",
+      "image": "https://a.espncdn.com/photo/2026/1031/r1738786_1296x729_16-9.jpg",
+      "published_utc": "2026-10-31T01:14:06Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/50320298/colton-hertas-f1-move-delayed-bizarre-superlicence-error-mexico-city-grand-prix-formula-1-autodromo-hermanos-rodriguez",
+      "stream_url": "",
+      "body": "American driver Colton Herta's wait for the superlicence he needs to race for Cadillac in Formula 1 next season will continue another week after a bizarre misunderstanding involving the team, the governing FIA and IndyCar's official website.\n\nHerta and Cadillac arrived at the Mexico City Grand Prix believing he had 39 of the 40 superlicence points required under the regulations for any driver wanting to race in Formula 1, meaning his appearance in Friday's opening practice session would get him over the line.\n\nHowever, Herta actually arrived with only 38 points, meaning he still needs to complete 100km of running in free practice in Brazil next week to reach the magic mark.\n\nSources have told ESPN that Herta is in line to replace the underperforming Valtteri Bottas next season, but that is on the assumption he gets the required points by the end of 2026.\n\nAsked about the confusion after Friday practice, Herta said: \"I don't know, I was under the impression coming into this weekend if I do this, I get the superlicence. So I guess we have to wait and see, I think I'm in the same boat as you guys.\n\n\"For me the biggest thing has been to not worry about that stuff and drive the car so that's kind of what I focused on because it has been a discussion in my career for a lot of years now.\"\n\nHerta came into the season with 35 points based on his finishing positions over his previous three IndyCar seasons; 10th in 2023, second in 2024 and seventh in 2025.\n\nCadillac had hoped Herta would have gained enough points by competing in Formula 2 this season, but his season has been a nightmare, and he is no longer mathematically able to finish in the top 10 places which give superlicence points.\n\nIt means Herta and Cadillac have had to rely on accumulating the final five points required through appearances in free practice.\n\nHerta had accumulated three with appearances in Barcelona, Budapest and in Austin last week -- an appearance in Monza in September did not last long enough to count.\n\nHowever, Cadillac thought he had only needed four.\n\n- Lando Norris sends message to F1 drivers unhappy with cars: 'Do a better job'\n\n- Charles Leclerc dominates second practice from Lando Norris at Mexico City Grand Prix\n\n- Sergio P\u00e9rez's F1 second act: Red Bull regrets, redemption and a fresh start at Cadillac\n\nThe explanation for the misunderstanding lies in communication between Cadillac, the FIA and IndyCar -- more specifically, an error on IndyCar's official website regarding the 2025 championship standings.\n\nWhen Cadillac approached the FIA in June to enquire about Herta's points, the governing body checked IndyCar's 2025 page and found Herta listed ahead of Felix Rosenquist in sixth, rather than his correct finishing position of seventh.\n\nHerta and Rosenquist had finished 2025 tied on 372 points, but Rosenquist took sixth place on a tiebreak having finished one race in second position, when Herta's highest position had been third.\n\nSources have told ESPN the FIA checked the IndyCar website this week and saw that it had been amended to show Herta's position correctly as seventh, not sixth.\n\nThe FIA did not have immediate access to the IndyCar official data as it is not an FIA-regulated championship.\n\nThe governing body used an online resource, The Way Back Machine, to check that IndyCar's website had been amended earlier this week.\n\nThe same resource shows that Herta had been listed correctly as seventh until sometime around May this year, meaning the standings page was changed to put him incorrectly up to sixth position.\n\nAn IndyCar spokesperson told ESPN: \"There was an anomaly in the website database display, which was caught this week and now reflects the official standings as they were published Aug. 31, 2025.\"\n\nIt should be noted that IndyCar's end-of-season documents, which are made available to the media and appropriate bodies, had always correctly listed Herta in seventh, but these were not checked by the FIA.\n\nHerta should still hit the magic 40-point mark by doing first practice in Brazil next Friday, but there's added jeopardy now should he crash out or hit an early mechanical failure.\n\nCadillac could still put him in an FP1 session in one of the final three races should that happen.\n\n\"I'll take it, yeah,\" Herta joked about the prospect of more practice time. \"Any time I get in the car more. We'll see.\"\n\nCadillac has pressed on with its plans to promote Herta after extensive investment in his career to this point.\n\nThe American driver was signed to the team by Dan Towriss, chairman of the TWG Motorsport group which owns Cadillac."
     },
     {
       "story_id": "50332255",
@@ -12294,20 +12308,6 @@
       "link": "https://www.espn.com/nba/story/_/id/50321862/halloween-athlete-costumes-2026",
       "stream_url": "",
       "body": "It's the spookiest time of the year, and athletes across the sports world are taking advantage.\n\nThere has been no shortage of creative costumes. Across the NHL, or \"National Halloween League,\" respective teams held their Halloween parties, and they didn't disappoint. Boston Bruins winger JJ Peterka dressed as King Julien from the \"Madagascar\" series. St. Louis Blues winger Jake Neighbours continued his tradition of dressing as a hot dog. New York Rangers teammates Adam Fox and Alexis Lafreni\u00e8re and their respective partners had \"Jersey Shore\"-themed looks.\n\nArguably the best dressed was Golden State Warriors forward Yaxel Lendeborg, looking menacing as Michael Myers from the \"Halloween\" franchise.\n\nHere is how some other stars got into the spooky season.\n\nYaxel Lendeborg\n\nDetroit Lions\n\nTrinity Rodman\n\nAround the NHL\n\nBoston Bruins\n\nSt. Louis Blues\n\nSan Jose Sharks\n\nC.D. Guadalajara"
-    },
-    {
-      "story_id": "50320298",
-      "headline": "Colton Herta's F1 move delayed by bizarre superlicence error at Mexico City GP",
-      "summary": "American driver Colton Herta's wait for the superlicence he needs to race for Cadillac in Formula 1 next season will continue another week after a bizarre misunderstanding involving the team, the governing FIA and IndyCar's official website.",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1738786_1296x729_16-9.jpg",
-      "published_utc": "2026-10-31T00:36:33Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Nate Saunders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/50320298/colton-hertas-f1-move-delayed-bizarre-superlicence-error-mexico-city-grand-prix-formula-1-autodromo-hermanos-rodriguez",
-      "stream_url": "",
-      "body": "American driver Colton Herta's wait for the superlicence he needs to race for Cadillac in Formula 1 next season will continue another week after a bizarre misunderstanding involving the team, the governing FIA and IndyCar's official website.\n\nHerta and Cadillac arrived at the Mexico City Grand Prix believing he had 39 of the 40 superlicence points required under the regulations for any driver wanting to race in Formula 1, meaning his appearance in Friday's opening practice session would get him over the line.\n\nHowever, Herta actually arrived with only 38 points, meaning he still needs to complete 100km of running in free practice in Brazil next week to reach the magic mark.\n\nSources have told ESPN that Herta is in line to replace the underperforming Valtteri Bottas next season, but that is on the assumption he gets the required points by the end of 2026.\n\nAsked about the confusion after Friday practice, Herta said: \"I don't know, I was under the impression coming into this weekend if I do this, I get the superlicence. So I guess we have to wait and see, I think I'm in the same boat as you guys.\n\n\"For me the biggest thing has been to not worry about that stuff and drive the car so that's kind of what I focused on because it has been a discussion in my career for a lot of years now.\"\n\nHerta came into the season with 35 points based on his finishing positions over his previous three IndyCar seasons; 10th in 2023, second in 2024 and seventh in 2025.\n\nCadillac had hoped Herta would have gained enough points by competing in Formula 2 this season, but his season has been a nightmare, and he is no longer mathematically able to finish in the top 10 places which give superlicence points.\n\nIt means Herta and Cadillac have had to rely on accumulating the final five points required through appearances in free practice.\n\nHerta had accumulated three with appearances in Barcelona, Budapest and in Austin last week -- an appearance in Monza in September did not last long enough to count.\n\nHowever, Cadillac thought he had only needed four.\n\n- Lando Norris sends message to F1 drivers unhappy with cars: 'Do a better job'\n\n- Charles Leclerc dominates second practice from Lando Norris at Mexico City Grand Prix\n\n- Sergio P\u00e9rez's F1 second act: Red Bull regrets, redemption and a fresh start at Cadillac\n\nThe explanation for the misunderstanding lies in communication between Cadillac, the FIA and IndyCar -- more specifically, an error on IndyCar's official website regarding the 2025 championship standings.\n\nWhen Cadillac approached the FIA in June to enquire about Herta's points, the governing body checked IndyCar's 2025 page and found Herta listed ahead of Felix Rosenquist in sixth, rather than his correct finishing position of seventh.\n\nHerta and Rosenquist had finished 2025 tied on 372 points, but Rosenquist took sixth place on a tiebreak having finished one race in second position, when Herta's highest position had been third.\n\nSources have told ESPN the FIA checked the IndyCar website this week and saw that it had been amended to show Herta's position correctly as seventh, not sixth.\n\nThe FIA did not have immediate access to the IndyCar official data as it is not an FIA-regulated championship.\n\nThe governing body used an online resource, The Way Back Machine, to check that IndyCar's website had been amended earlier this week.\n\nThe same resource shows that Herta had been listed correctly as seventh until sometime around May this year, meaning the standings page was changed to put him incorrectly up to sixth position.\n\nAn IndyCar spokesperson told ESPN: \"There was an anomaly in the website database display, which was caught this week and now reflects the official standings as they were published Aug. 31, 2025.\"\n\nIt should be noted that IndyCar's end-of-season documents, which are made available to the media and appropriate bodies, had always correctly listed Herta in seventh, but these were not checked by the FIA.\n\nHerta should still hit the magic 40-point mark by doing first practice in Brazil next Friday, but there's added jeopardy now should he crash out or hit an early mechanical failure.\n\nCadillac could still put him in an FP1 session in one of the final three races should that happen.\n\n\"I'll take it, yeah,\" Herta joked about the prospect of more practice time. \"Any time I get in the car more. We'll see.\"\n\nCadillac has pressed on with its plans to promote Herta after extensive investment in his career to this point.\n\nThe American driver was signed to the team by Dan Towriss, chairman of the TWG Motorsport group which owns Cadillac."
     },
     {
       "story_id": "50329748",
@@ -12422,6 +12422,20 @@
       "body": "Los Angeles Lakers owner Mark Walter and Thrive Capital founder Josh Kushner have agreed on all outstanding terms of the sale of the team at a $12.5 billion valuation, sources close to the negotiations told ESPN.\n\nThe two men met in person Thursday at Walter's home in Florida to finalize the transaction and are expected to sign the formal agreement soon, those sources said.\n\nOnce the agreement is signed, it will be reviewed by the NBA. That process generally takes some time as the league reviews financing and ownership structure.\n\nSources close to the negotiations said that Kushner has assured Walter he has raised all the money necessary to complete the sale.\n\nKushner and former Disney CEO Bob Iger reached a stunning deal with Walter to buy the Lakers at the $12.5 billion valuation and have been working on the details of the transaction the past few months."
     },
     {
+      "story_id": "50320294",
+      "headline": "Charles Leclerc dominates second practice from Lando Norris at Mexico City Grand Prix",
+      "summary": "Ferrari's Charles Leclerc was the quickest man on Friday after topping both practice sessions at the Mexico City Grand Prix.",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738742_1296x729_16-9.jpg",
+      "published_utc": "2026-10-30T23:24:53Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/50320294/charles-leclerc-dominates-second-practice-lando-norris-mexico-city-grand-prix-formula-1-autodromo-hermanos-rodriguez",
+      "stream_url": "",
+      "body": "Ferrari's Charles Leclerc was the quickest man on Friday after topping both practice sessions at the Mexico City Grand Prix.\n\nThe Mon\u00e9gasque led the way in the second session from McLaren's Lando Norris in second by 0.103 seconds.\n\nGeorge Russell was back in the Mercedes after rookie Frederik Vesti stepped in for the first session, and finished in third.\n\nHis teammate Kimi Antonelli, who is in prime position to wrap up the title this weekend, was down in fourth, two-tenths off the leader's pace.\n\nRed Bull's Max Verstappen rounded out the top five.\n\nAntonelli will be able to wrap up the drivers' title and become the youngest driver to do so if he finishes Sunday's race ninth or higher.\n\nHamilton's involvement in the second running ended just under halfway through as the seven-time world champion's Ferrari came to a halt down the pit straight.\n\n\"I've lost all power,\" Hamilton said over the team radio, before hopping out of his stricken car and getting a lift from a motorbike back to the paddock.\n\nThe Scuderia are expected to be strong here at the high-altitude Aut\u00f3dromo Hermanos Rodr\u00edguez, as evidenced by Leclerc's pace in both sessions.\n\n- Lando Norris sends message to F1 drivers unhappy with cars: 'Do a better job'\n\n- Lewis Hamilton on racing into mid-40's: 'Never had anyone like me in 70 years, I'm built differently'\n\n- Mexico City Grand Prix: Charles Leclerc sets pace in first practice for Ferrari\n\nThere was a rare instance of drivers making contact in practice as Verstappen and Liam Lawson came together through the stadium section. The pair have been summoned to the stewards as a result.\n\nThe four-time world champion pushed through on the inside of Turn 12, but his former teammate Lawson came back at Turn 14 as the pair made contact and Verstappen was forced to leave the track.\n\n\"He literally drove into me,\" Lawson claimed, before the session was briefly red-flagged due to damage from the incident.\n\nHome hero Sergio P\u00e9rez was another affected by illness on Friday but took to the track in front of his adoring fans, ending the day 18th for Cadillac, before being excused from post-practice media duties.\n\nInformation from PA contributed to this report."
+    },
+    {
       "story_id": "50332237",
       "headline": "Hellebuyck stops 19 shots in 5-2 victory over Golden Knights, wins 2nd straight since joining Devils",
       "summary": "\u2014 Connor Hellebuyck stopped 19 shots, Arseny Gritsyuk and Jack Hughes each scored twice and the New Jersey Devils beat the Vegas Golden Knights 5-2 on Friday.",
@@ -12462,20 +12476,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50330223/beer-fueled-brewers-continue-world-series-party-parade",
       "stream_url": "",
       "body": "MILWAUKEE -- It was only fitting that the Milwaukee Brewers celebrated their first World Series title with a beer-soaked celebration worthy of their name.\n\n\"We've had way too many parade beers,\" team captain and designated hitter Christian Yelich said Friday at a rally that capped a daylong party with fans. \"I took the trophy to the face, got a black eye. It's all worth it. It's for you guys. We should celebrate forever.\"\n\nThe small-market Brewers gave their long-suffering fans the championship they had been waiting for with a 4-1 win over the Tampa Bay Rays on Wednesday, clinching the Series in five games. It was their first time playing in the Fall Classic in 44 years.\n\nThat long wait made Friday's celebration that much sweeter.\n\n\"Unbelievable,\" said parade attendee Mark Diedrich, a 76-year-old who has been an on-and-off partial season-ticket holder since the 1980s. \"You just never thought it would happen. But it did.\"\n\nBefore the rally at American Family Insurance Amphitheater near the shore of Lake Michigan, the Brewers held a parade through downtown Milwaukee. Thousands of exuberant fans flooded the streets, watched from parking garages and cheered from office building windows.\n\nMilwaukee police estimated that over 750,000 attended the parade or rally, well above their initial expectations of about 400,000.\n\n\"That was incredible -- incredible,\" manager Pat Murphy said. \"I kept thinking I saw the same people over and over, and we were just going in a circle. There's no way there's that many people who live here.\"\n\nThen came a rally that featured World Series MVP William Contreras joining in on the fans' \"MVP\" chants.\n\n\"We win the trophy for you guys, for the city,\" Contreras said.\n\nThe rally concluded with hitting coach Daniel Vogelbach performing a karaoke version of \"Stacy's Mom\" by Fountains of Wayne and Hall of Fame shortstop Robin Yount riding onto the stage on a Harley Davidson owned by beloved broadcaster Bob Uecker.\n\nYount was an MVP when the Brewers made their last World Series appearance, losing in seven games to the St. Louis Cardinals in 1982. By the time they got back, it was without Uecker, who called Brewers games for 54 seasons before dying in January 2025 at the age of 90.\n\nThe Brewers made sure he was remembered. The parade route ran through a downtown mural honoring Uecker, and 2011 MVP Ryan Braun led a \"Ueck\" cheer during the rally.\n\n\"God bless you, Bob Uecker,\" Yount said at the end of the ceremony.\n\nAt the parade, Brewers players, coaches and staffers waved to fans from the top of buses, some of which bore the message, \"Won Our Way,\" to update their postseason slogan of \"Win Our Way.\" Several players, such as outfielder Sal Frelick and second baseman Brice Turang, removed their shirts in a nod to this seasons' MLB-wide \"Tarps Off\" craze as they exhorted the crowd.\n\nPlayers took turns holding the Commissioner's Trophy aloft, with many of them getting off their buses and greeting fans.\n\n\"For me and my teammates, this has been the most special day of our lives -- you guys showing up here and cheering us on,\" said Aaron Ashby, who set a major league record by throwing 18 consecutive scoreless innings of relief in the postseason to lead Milwaukee's stellar bullpen performance. \"This is better than anything we could ever imagine.\"\n\nEvery level of the Brewers franchise was represented in the parade, from owner Mark Attanasio to grounds crew members, behind-the-scenes staff and even the Johnsonville racing sausages. Yount and fellow Hall of Famers Rollie Fingers, Paul Molitor and Ted Simmons from that 1982 team also participated in the parade and rally.\n\n\"Good things come to those who wait,\" Molitor said. \"We waited long enough.\"\n\nThe end of that wait had families bringing multiple generations of fans downtown, as Milwaukee Public Schools canceled classes.\n\nCraig Muehl, a 42-year-old from the Milwaukee suburb of Brookfield, said he inherited his Brewers fandom from his father. Muehl woke up early to attend the parade with his young son and daughter.\n\n\"It all started, just like many families around here, sitting outside in the summer and fall,\" Muehl said. \"My dad had the Brewers game on the radio everywhere we went. Some families have music on the radio. We had the Brewers games all summer long.\"\n\nKasey Diedrich said her father, Mark, attended his first Brewers game as a 4-year-old in 1983, the year after that previous World Series appearance. Little did he know at the time how long he would have to wait for the Brewers to make it back.\n\n\"I don't think we still think it happened,\" Diedrich said. \"It seems like a dream.\"\n\nMark Diedrich said he owns the seats from the old Milwaukee County Stadium where he and one of his sons were sitting when Yount got his 3,000th hit in 1992.\n\n\"We could tell you stories for days of all the games we went to,\" Mark Diedrich said. \"I remember going to opening day with these guys and there was ice on the steps of County Stadium. We're sitting down to get ready for the game and a guy's spreading salt to melt the ice on the steps.\"\n\nThe celebration actually started well before Friday.\n\nSeveral Brewers, including Yelich and Cy Young Award favorite Jacob Misiorowski, went to Lambeau Field for Thursday night's Green Bay Packers game. They received a huge ovation, especially when pitcher Brandon Woodruff emerged from the tunnel in the second quarter holding the Commissioner's Trophy.\n\nA few players attempted a \"Lambeau leap\" into the crowd, with Frelick having the most success.\n\n\"It was unbelievable,\" said Frelick, a former high school quarterback. \"It's been a dream of mine. I was in the end zone, I saw it, and I said, 'I've got to go.' So I went.\"\n\nThose Brewers players later were shown on the video board cheering as they wore cheeseheads that included the message, \"2026 WS Champions.\"\n\nThe current franchise originated as the Seattle Pilots in 1969 before moving to Milwaukee and becoming the Brewers the following year.\n\nMilwaukee has celebrated a World Series title once before. The Milwaukee Braves won the 1957 World Series over the New York Yankees before moving to Atlanta in 1966."
-    },
-    {
-      "story_id": "50320294",
-      "headline": "Charles Leclerc dominates second practice from Lando Norris at Mexico City Grand Prix",
-      "summary": "Ferrari's Charles Leclerc was the quickest man on Friday after topping both practice sessions at the Mexico City Grand Prix.",
-      "image": "https://a.espncdn.com/photo/2026/1030/r1738742_1296x729_16-9.jpg",
-      "published_utc": "2026-10-30T23:24:53Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/50320294/charles-leclerc-dominates-second-practice-lando-norris-mexico-city-grand-prix-formula-1-autodromo-hermanos-rodriguez",
-      "stream_url": "",
-      "body": "Ferrari's Charles Leclerc was the quickest man on Friday after topping both practice sessions at the Mexico City Grand Prix.\n\nThe Mon\u00e9gasque led the way in the second session from McLaren's Lando Norris in second by 0.103 seconds.\n\nGeorge Russell was back in the Mercedes after rookie Frederik Vesti stepped in for the first session, and finished in third.\n\nHis teammate Kimi Antonelli, who is in prime position to wrap up the title this weekend, was down in fourth, two-tenths off the leader's pace.\n\nRed Bull's Max Verstappen rounded out the top five.\n\nAntonelli will be able to wrap up the drivers' title and become the youngest driver to do so if he finishes Sunday's race ninth or higher.\n\nHamilton's involvement in the second running ended just under halfway through as the seven-time world champion's Ferrari came to a halt down the pit straight.\n\n\"I've lost all power,\" Hamilton said over the team radio, before hopping out of his stricken car and getting a lift from a motorbike back to the paddock.\n\nThe Scuderia are expected to be strong here at the high-altitude Aut\u00f3dromo Hermanos Rodr\u00edguez, as evidenced by Leclerc's pace in both sessions.\n\n- Lando Norris sends message to F1 drivers unhappy with cars: 'Do a better job'\n\n- Lewis Hamilton on racing into mid-40's: 'Never had anyone like me in 70 years, I'm built differently'\n\n- Mexico City Grand Prix: Charles Leclerc sets pace in first practice for Ferrari\n\nThere was a rare instance of drivers making contact in practice as Verstappen and Liam Lawson came together through the stadium section. The pair have been summoned to the stewards as a result.\n\nThe four-time world champion pushed through on the inside of Turn 12, but his former teammate Lawson came back at Turn 14 as the pair made contact and Verstappen was forced to leave the track.\n\n\"He literally drove into me,\" Lawson claimed, before the session was briefly red-flagged due to damage from the incident.\n\nHome hero Sergio P\u00e9rez was another affected by illness on Friday but took to the track in front of his adoring fans, ending the day 18th for Cadillac, before being excused from post-practice media duties.\n\nInformation from PA contributed to this report."
     },
     {
       "story_id": "50331086",
