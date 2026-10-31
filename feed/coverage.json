@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-10-31T11:52:35.051256+00:00",
+  "generated_utc": "2026-10-31T12:02:57.271385+00:00",
   "window_days": 2,
-  "total_events": 268,
+  "total_events": 272,
   "competitions": [
     {
       "competition": "aew",
@@ -74,14 +74,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 8,
+      "events": 9,
       "date_range": [
         "2026-10-31",
-        "2026-10-31"
+        "2026-11-01"
       ],
-      "explicit_status": 8,
+      "explicit_status": 9,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 9,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -147,14 +147,14 @@
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 12,
+      "events": 15,
       "date_range": [
         "2026-10-28",
         "2026-11-01"
       ],
-      "explicit_status": 12,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 12,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -432,18 +432,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:soccer/eng.1",
-      "date": "2026-11-01",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261101: Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "source": "espn:soccer/ita.1",
-      "date": "2026-10-31",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261031: Expecting value: line 1 column 1 (char 0)"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
