@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-01T02:58:50.824186+00:00",
+  "generated_utc": "2026-11-01T03:09:01.387833+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401918310",
@@ -5237,7 +5237,7 @@
       "competition_id": "ufc",
       "competition_name": "UFC",
       "start_utc": "2026-10-31T21:00Z",
-      "status": "scheduled",
+      "status": "final",
       "home": {
         "id": "espn:None",
         "name": "Lucia Szabov\u00e1",
@@ -5261,14 +5261,123 @@
         "color": null
       },
       "source": "espn:mma/ufc",
-      "source_status": "pre/Scheduled",
+      "source_status": "post/Final",
       "venue": "Meta APEX",
-      "detail": "Scheduled",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
+      "replay_url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 24)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 25)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/3",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 26)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/4",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live Backup",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/2/1",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 21)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/2/2",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live HD (CH 22)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/2/3",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live SD (CH 23)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/3/1",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 28)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/3/2",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live HD (CH 29)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/3/3",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live SD (CH 30)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/4/1",
+          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/5/1",
+          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/7/1",
+          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/8/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/8/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/8/3",
+          "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/6/1",
+          "label": "Dailymotion FHD (Prelims) \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/6/2",
+          "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
+          "part": true,
+          "live": false
+        }
+      ],
+      "replay_poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
       "card": "UFC Fight Night: Moicano vs. Nolan"
     },
     {
@@ -5595,7 +5704,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:66",
         "name": "Iowa State Cyclones",
@@ -5626,9 +5735,9 @@
         "color": "fe5c00"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Jack Trice Stadium",
-      "detail": "0:26 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5737,7 +5846,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-10-31T23:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:153",
         "name": "North Carolina Tar Heels",
@@ -5767,9 +5876,9 @@
         "color": "f47423"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Kenan Stadium",
-      "detail": "1:37 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5814,7 +5923,54 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "1:45 - 4th Quarter",
+      "detail": "0:32 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858281",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T23:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:221",
+        "name": "Pittsburgh Panthers",
+        "abbrev": "PITT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+        "logo_dark": null,
+        "aliases": [
+          "PITT",
+          "Panthers",
+          "Pitt",
+          "Pittsburgh",
+          "Pittsburgh Panthers"
+        ],
+        "color": "003594"
+      },
+      "away": {
+        "id": "espn:59",
+        "name": "Georgia Tech Yellow Jackets",
+        "abbrev": "GT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+        "logo_dark": null,
+        "aliases": [
+          "GT",
+          "Georgia Tech",
+          "Georgia Tech Yellow Jackets",
+          "Yellow Jackets"
+        ],
+        "color": "b3a369"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Acrisure Stadium",
+      "detail": "3:33 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5870,53 +6026,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858281",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T23:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:221",
-        "name": "Pittsburgh Panthers",
-        "abbrev": "PITT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-        "logo_dark": null,
-        "aliases": [
-          "PITT",
-          "Panthers",
-          "Pitt",
-          "Pittsburgh",
-          "Pittsburgh Panthers"
-        ],
-        "color": "003594"
-      },
-      "away": {
-        "id": "espn:59",
-        "name": "Georgia Tech Yellow Jackets",
-        "abbrev": "GT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-        "logo_dark": null,
-        "aliases": [
-          "GT",
-          "Georgia Tech",
-          "Georgia Tech Yellow Jackets",
-          "Yellow Jackets"
-        ],
-        "color": "b3a369"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Acrisure Stadium",
-      "detail": "6:36 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856733",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5954,7 +6063,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Donald W. Reynolds Razorback Stadium",
-      "detail": "3:04 - 4th Quarter",
+      "detail": "0:39 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6034,7 +6143,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "American Airlines Center",
       "detail": "",
       "game_number": 1,
@@ -6220,7 +6329,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Memorial Stadium (Lincoln, NE)",
-      "detail": "6:13 - 4th Quarter",
+      "detail": "5:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6266,7 +6375,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Simmons Bank Liberty Stadium",
-      "detail": "5:49 - 4th Quarter",
+      "detail": "3:06 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6402,7 +6511,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "58'",
+      "detail": "68'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6496,7 +6605,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "13:44 - 2nd Quarter",
+      "detail": "8:15 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6542,7 +6651,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "3:14 - 1st Quarter",
+      "detail": "15:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12587,6 +12696,20 @@
   ],
   "stories": [
     {
+      "story_id": "50343788",
+      "headline": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/431f8209-55d0-49fd-9c7b-063163d7c1c1/431f8209-55d0-49fd-9c7b-063163d7c1c1.jpg",
+      "published_utc": "2026-11-01T03:01:22Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50343788/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50343780",
       "headline": "Harley and Hyry score buzzer-beaters in the Stars' 3-1 win over the Blue Jackets",
       "summary": "\u2014 Defenseman Thomas Harley scored with 0.2 seconds left in the first period and Arttu Hyry added an empty-netter with 0.3 left in the game as the Dallas Stars beat the Columbus Blue Jackets 3-1 on Saturday night.",
@@ -12601,32 +12724,18 @@
       "body": "DALLAS -- \u2014 Defenseman Thomas Harley scored with 0.2 seconds left in the first period and Arttu Hyry added an empty-netter with 0.3 left in the game as the Dallas Stars beat the Columbus Blue Jackets 3-1 on Saturday night.\n\n\r\nMikko Rantanen also scored for the Stars, who broke a two-game losing streak during which they never led to finish a season-long six-game homestand 4-2-0.\n\n\r\nDefenseman Damon Severson scored and Jet Greaves stopped 14 shots for the Blue Jackets, who dropped the last two games of a three-game road trip.\n\n\r\nJake Oettinger, fifth in the NHL with a 1.69 goals-against average going into play, stopped 25 of 26 shots to bounce back after allowing seven goals in his two previous outings.\n\n\r\nStars defenseman Miro Heiskanen had two assists.\n\n\r\nHarley whistled a shot from the left half wall into a sliver of space between Greaves\u2019 right skate and the post for his first goal of the season to give the Stars a 2-0 lead.\n\n\r\nRantanen had opened the scoring 33 seconds into a power play at 2:16 of the first period after Greaves was called for delay of game. Rantanen tapped in a cross-crease, backhand pass from Wyatt Johnston for his team-high seventh goal.\n\n\r\nSeverson scored at 6:21 of the third, about four minutes after the Stars successfully challenged a Jackets goal by Valeri Nichushkin for offside.\n\n\r\nDallas killed Columbus\u2019 one power play, running its top-ranked penalty kill to 28 straight successful dating to Oct. 13.\n\n\r\nBlue Jackets defenseman Ivan Provorov made his season debut after being placed on injured reserve on Oct. 1. Columbus used 11 forwards and seven defensemen.\n\n\r\nTwo of Dallas\u2019 wins on the homestand came against the Stars\u2019 two previous coaches \u2014 Columbus\u2019 Rick Bowness and Pete DeBoer of the New York Islanders.\n\n\r\nThe teams will play their other inter-conference game next Thursday at Columbus.\n\n\r\nUp next\r\nBlue Jackets: Host Colorado on Tuesday.\n\n\r\nStars: Visit Washington on Tuesday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
-      "story_id": "50343754",
-      "headline": "Wembanyama has 43 points and 6 blocks to lead Spurs past short-handed Timberwolves 121-111",
-      "summary": "\u2014 Victor Wembanyama had 43 points, seven rebounds, six blocks and four assists as the San Antonio Spurs beat the Minnesota Timberwolves 121-111 on Saturday night for their fourth straight victory.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909901.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-01T02:54:47Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909901",
-      "stream_url": "",
-      "body": "SAN ANTONIO -- \u2014 Victor Wembanyama had 43 points, seven rebounds, six blocks and four assists as the San Antonio Spurs beat the Minnesota Timberwolves 121-111 on Saturday night for their fourth straight victory.\n\n\r\nDylan Harper added 25 points and six assists for San Antonio in the opener of a three-game homestand. De\u2019Aaron Fox scored 20.\n\n\r\nWembanyama was 17 of 34 from the field in reaching 40 points for the 10th time in the regular season and the 11th time in his career. After blocking Jonathan Kuminga\u2019s 3-point attempt, Wembanyama raced downcourt for a two-handed dunk to give him 40 points.\n\n\r\nAyo Dosunmu had 27 points and nine rebounds to lead the short-handed Timberwolves. Kuminga and Jaden McDaniels added 19 points apiece.\n\n\r\nMinnesota was without injured starters Anthony Edwards (knee surgery) and Rudy Gobert (back spasms). LaMelo Ball was limited to 20 minutes due to foul trouble.\n\n\r\nThe Spurs opened the second half on a 13-4 run that included a fifth foul on Ball, who fouled out with 3:43 remaining. He finished with 10 points, eight rebounds, four assists and three steals.\n\n\r\nSan Antonio grabbed a 43-33 lead after Wembanyama threw the ball off the backboard to set up his own layup, which was followed by Harper stealing the ensuing inbounds pass for a layup.\n\n\r\nThe Timberwolves went on a run shortly after Ball exited with 7:40 left in the first half after picking up his fourth foul. Minnesota responded by going on a 16-0 spurt to take a 51-46 lead. Kuminga and Dosunmu had five points apiece during the surge.\n\n\r\nMinnesota outscored San Antonio 33-26 in the second quarter, getting 10 points off five Spurs turnovers.\n\n\r\nUp next\r\nTimberwolves: Host the Milwaukee Bucks on Monday night.\n\n\r\nSpurs: Host the Utah Jazz on Monday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
-    },
-    {
-      "story_id": "50343734",
-      "headline": "Gabby Williams leads Valkyries to WNBA championship in second season, beating Dream 68-63 in Game 7",
-      "summary": "\u2014 Gabby Williams scored her team's final 11 points of the third quarter and dazzled through the fourth on the way to 30 points, and the Golden State Valkyries captured a championship in just their second season by beating the Atlanta Dream 68-63 in a...",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918311.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-01T02:51:46Z",
+      "story_id": "50321051",
+      "headline": "How Gabby Williams ignited the Valkyries to WNBA championship in their second season",
+      "summary": "Gabby Williams scored 30 points to guide Golden State to the WNBA championship in the franchise's second season.",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739290_1296x729_16-9.jpg",
+      "published_utc": "2026-11-01T02:40:42Z",
       "competition_id": "wnba",
       "competition_name": "WNBA",
-      "byline": "",
+      "byline": "ESPN",
       "source": "ESPN",
-      "link": "http://www.espn.com/wnba/recap?gameId=401918311",
+      "link": "https://www.espn.com/wnba/story/_/id/50321051/2026-wnba-finals-valkyries-dream-game-7-live-updates",
       "stream_url": "",
-      "body": "SAN FRANCISCO -- \u2014 Gabby Williams scored her team's final 11 points of the third quarter and dazzled through the fourth on the way to 30 points, and the Golden State Valkyries captured a championship in just their second season by beating the Atlanta Dream 68-63 in a sensational first WNBA Finals Game 7 on Saturday night.\n\n\r\nJordin Canada scored 18 points, Allisha Gray 16 and Angel Reese had eight points and 12 rebounds for the Dream, denied another championship in the franchise's fourth try.\n\n\r\nGray made two free throws with 11 seconds left then Atlanta forced a jump ball \u2014 Gray against Williams \u2014 and Veronica Burton corralled it and converted two free throws with 5.1 seconds to go.\n\n\r\n\u201cI'm just so blessed, this is insane!\u201d said Burton, cut by Dallas two years ago.\n\n\r\nRhyne Howard's layup tied it at 57 with 2:41 left only for Williams to answer once more with a clutch 3-pointer. She converted two free throws with 1:40 remaining, then Kiah Stokes scored a late basket. Stokes pulled down 13 rebounds and blocked two more shots to cap her spectacular postseason.\n\n\r\nWilliams left Seattle with a great feeling about joining Golden State and its close-knit culture, returning to the Bay Area where she played youth basketball to build something special with the Valkyries \u2014 and she\u2019s now done that. Fans chanted \u201cGabby! Gabby!\u201d throughout the fourth quarter.\n\n\r\n\u201cAll it took was good people,\u201d she said. \u201cAll we heard last year was we don\u2019t have no stars. We don\u2019t have no talent. Yeah right! We got good people. We got good people. We got winners. We got people who are ready to put their bodies on the floor to win a game.\u201d\n\n\r\nWhen the final buzzer sounded, the violet-clad sellout crowd at Chase Center went into a frenzy as players sprinted onto the floor to hug and celebrate as confetti fell from the rafters.\n\n\r\n\u201cBallhalla\u201d had become \u201cBoohalla\u201d for this far-but-haunted Halloween night in the raucous arena. Now, with a women's championship to its name right alongside the one earned by the Golden State Warriors in 2022.\n\n\r\n\u201cWe gotta build a bigger trophy case,\u201d co-owner Peter Guber said.\n\n\r\nThe team that led at halftime in the first six matchups had won every game so far, and the Dream were ahead 30-24 at the break. Atlanta also had been 16-0 this season when Reese made at least one 3. The Dream's DeWanna Bonner became the first player in WNBA history to reach 600 career postseason defensive rebounds.\n\n\r\nValkyries coach Natalie Nakase changed her starting lineup in a move that paid huge dividends after Golden State fell behind 2-1, inserting Kaila Charles and Tiffany Hayes and bringing Kayla Thornton and Cecilia Zandalasini off the bench.\n\n\r\nThe 37-year-old Hayes, who came out of retirement two years ago and spent 10 seasons with the Dream, scored 11 points in the winner-take-all Game 7 and brought energy all series that made Nakase want to win for the veteran guard as much as anybody.\n\n\r\nValkyries owner Joe Lacob guaranteed a championship within the first five years for this franchise three years ago when the Bay Area was granted an expansion team, and in improbable, joyful fashion, his team accomplished it in Year 2. That after becoming the first expansion organization to reach the playoffs in its inaugural year in 2025.\n\n\r\nDuring the victory ceremony, Lacob shouted out the team and its leaders, while Nakase, general manager Ohemma Nyanin and President Jess Smith hugged. And Lacob thanked the fans who have sold out Chase Center for every game since Day 1.\n\n\r\n\u201cBallhalla!\u201d Lacob hollered.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
+      "body": "SAN FRANCISCO -- The Golden State Valkyries are the 2026 WNBA champions!\n\nIn just their second season, the Valkyries are the last team standing after beating the Atlanta Dream 66-61 in a winner-take-all Game 7 of the WNBA Finals on Saturday at Chase Center.\n\nGabby Williams turned the game in Golden State's favor, scoring 13 points in a row -- including three consecutive 3-pointers -- for the Valkyries in the third quarter. The Valkyries were trailing 37-32 when Williams heated up. She made just one field goal in the first half but finished with 30 points on 10-for-23 shooting, including 4-for-8 from beyond the arc.\n\nWilliams tied Penny Taylor's 2007 record for most points in a winner-take-all WNBA Finals game.\n\nIt was the first time this series that the team that was ahead at halftime did not win the game.\n\nESPN was courtside for all of the Game 7 action, providing analysis and highlights.\n\nJump to:\n\nPostgame analysis | Relive the action\n\n(2) Golden State Valkyries 68,\n\n(4) Atlanta Dream 63\n\nHow the Valkyries won the WNBA championship: Two things that were true all season for Golden State came through for the Valkyries in Game 7: They played excellent defense, and Gabby Williams was a superstar.\n\nWhen they write stories about all-time Bay Area performances, there will be a chapter about Williams, who came to Golden State as a free agent this season and made the second-year franchise a champion. She would be the first to point to her teammates for all they did, but Williams was the ultimate difference-maker in this series.\n\nIn a game in which she struggled in the first half, Williams seemed to duck into a phone booth in the third quarter and turn into Superwoman. She finished with 30 points and also made several strong defensive plays, including four blocks.\n\nWhich leads us to that defense we've been talking about all season with Golden State. The Valkyries were the WNBA's best defensive team in 2026, and that carried through in the playoffs. It's how they beat Dallas in the first round, defending champion Las Vegas in the semifinals and outlasted Atlanta in the Finals.\n\nIn every game the Valkyries won in this series, they held the Dream below 70 points. Considering this is a team that averaged 91.3 points in the regular season -- third best in the WNBA -- what Golden State was able to do to the Dream in the Valkyries' four Finals wins was a master class. And it was a team-led effort, the kind of defense that coaches across the country should show to their teams.\n\nWhat was the turning point or pivotal moment? Williams, who didn't score her first basket until late in the second quarter, suddenly turned things on about midway through the third quarter, hitting three consecutive 3-point shots and scoring 13 points in a row for the Valkyries. That energized a crowd that was waiting to explode and gave Golden State the lead.\n\nIt was an amazing thing to watch: The player who has been the Valkyries' leading scorer in the regular season and the playoffs just took over and refused to be stopped.\n\nWilliams was devastated by France's loss to the United States in the FIBA World Cup gold medal game in September. But with another chance to win a championship, this time in the WNBA Finals, Williams was the one doing the devastating stuff to the Dream. They will have nightmares about her shotmaking in the second half.\n\nBesides the Finals MVP, who else was a pivotal player? Where to start? Game 7 will always be known as the Gabby Williams Game, but there was so much else to appreciate from Golden State's effort. Let's look at point guard Veronica Burton, who finished with 10 points, 11 rebounds and 5 assists. She didn't shoot well -- 3 of 13 -- but she had just two turnovers. And she stepped to the line calmly with 5.1 seconds left to make the clinching free throws that won the title.\n\nCenter Kiah Stokes, who won three championships with Las Vegas, now has her fourth in her first year with the Valkyries. She was the defensive stalwart inside, the player the rest of the defense can always count on. She had 13 rebounds and 2 blocks in Game 7, and finished with 31 blocks in the playoffs.\n\nAnother former UConn player, Tiffany Hayes, got the first title of her long WNBA career, and she did her part in Game 7, too, getting 11 points. Finally, Kaila Charles, who moved into the starting lineup during the Finals, had 4 points and 7 rebounds, and constant energy on defense.\n\nWhat will be your lasting memory from Game 7? The thing that really will stick is what an event it was, and that's thanks to the growth of the league's popularity as a whole, and the amazing fan base that developed in just two years for the Valkyries. The fans have made this one of the great venues for women's sports in the world, and the franchise is only getting started. Halloween in the Bay Area had a purple tint for the Valkyries, and that was fun to see. -- Michael Voepel"
     },
     {
       "story_id": "50289130",
@@ -12755,6 +12864,20 @@
       "body": "The 2026 Rugby League Cup kicks off in Sydney with the Kangaroos facing the Kiwis of New Zealand, in what could well be an early preview of the final.\n\nWith the continuing growth of International Rugby League and the improving strength of the island nations, each World Cup throws up a tougher challenge.\n\nThis year, with the men's, women's and wheelchair competitions to be played across Australia and Papua New Guinea, Australia's long standing rugby league dominance is under serious threat.\n\nMEN'S\nGroup Games\nWeek 1\n\nAustralia 24 def. New Zealand 22\nSamoa 78 def. France 4\n\nPapua New Guinea 42 def. Lebanon 18\n\nEngland 12 def. by Tonga 30\n\nFiji 40 def. Cook Islands 12\n\nWeek 2\n\nTonga 36 def. Lebanon 0\n\nPapua New Guinea 6 def. by Samoa 64\n\nEngland 82 def. France 0\n\nNew Zealand 82 def. Cook Islands 16\n\nAustralia 36 def. Fiji 22\n\nWeek 3\n\nEngland 34 def. Papua New Guinea 12\n\nNew Zealand 78 def. Fiji 0\n\nAustralia 66 def. Cook Islands 6\n\nSun 1 Nov, 5:50pm - Lebanon vs. France - CommBank Stadium\n\nSun 1 Nov, 8:05pm - Tonga vs. Samoa - CommBank Stadium\n\nSemifinals\n\nSat Nov 7, 8:05pm - New Zealand vs. TBC - McDonald Jones Stadium\n\nSun Nov 8, 8:05pm - Australia vs. TBC - Allianz Stadium, Sydney\n\nFinal\n\nSun Nov 15, 7:35pm - TBC v TBC - Suncorp Stadium, Brisbane\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Kevin Walters\n\nBradman Best (Knights), Jack Bostock (Dolphins), Blayke Brailey (Sharks), Pat Carrigan (Broncos), Reuben Cotter, Tom Dearden (Cowboys), Tino Fa'asuamaleaui (Titans), David Fifita, Keaon Koloamatangi, Latrell Mitchell, Cameron Murray (Rabbitohs), Harry Grant, Cameron Munster (Storm), Liam Martin, Lindsay Smith, Isaah Yeo (Panthers), Mitchell Moses (Eels), Jacob Preston (Bulldogs), Kotoni Staggs, Reece Walsh (Broncos), James Tedesco, Sam Walker (Roosters), Tom Trbojevic (Sea Eagles)\n\nCook Islands\n\nCoach: Karmichael Hunt\n\nCameron Brown (Brisbane Tigers), Rhys Dakin (Roosters), Glassie Glassie (Tigers), Valentine Holmes (Dragons), Esom Ioka (Brisbane Tigers), KL Iro (Sharks), Chaev Kolone (Raiders), Makahesi Makatoa (Roosters), Esan Marsters (Bradford Bulls), Amare Milford (Storm), Davvy Moale (Storm), K-CI Newton-Whare (Storm), Rua Ngatikaura (North Sydney Bears), Marata Niukore (Warriors), Pride Petterson-Robati (Souths Logan Magpies), Reuben Porter (Dragons), Reubenn Rennie (Toulouse Olympique), Brad Takairangi (Glebe Dirty Reds), Mason Teague (Wakefield Trinity), David Tuariki (Storm), Paul Ulberg (Toulouse Olympique), Delahia Wigmore (Panthers), Maui Winitana-Patelesio (Warriors)\n\nEngland\n\nCoach: Brian McDermott\n\nMatty Ashton (Warrington Wolves), AJ Brimson (Titans), Ben Currie (Warrington Wolves), Zach Eckersley (Wigan Warriors), Herbie Farnworth (Dolphins), Ethan Havard (Wigan Warriors), Max King (Bulldogs), Morgan Knowles (Dolphins), Mikey Lewis (Hull KR), Jez Litten (Hull KR), Junior Nsemba (Wigan Warriors), Brad O'Neill (Wigan Warriors), Kai Pearce-Paul (Tigers), Victor Radley (Roosters), Hugo Savala (Roosters), Harry Smith (Wigan Warriors), Morgan Smithies (Raiders), Ben Talty (Broncos), Luke Thompson (Wigan Warriors), Sam Walters (Wigan Warriors), Jack Welsby (St Helens), George Williams (Warrington Wolves), Dom Young (Knights)\n\nFiji\n\nCoach: Mick Potter\n\nBayleigh Bentley-Hape (Rabbitohs), Waqa Blake (St Helens), Kurt Donoghoe (Dolphins), Apenisa Driti (Northern Pride), Kitione Kautoga (Bulldogs), Elijah Keung (Bulldogs), Apisai Koroisau (Tigers), Josese Lanyon (Tigers), Jordan Leiu (Bulldogs), Joseph Litidamu (Fiji Bati), Kylan Mafoa (Sea Eagles), Taane Milne (Rabbitohs), Caleb Navale (Sea Eagles), Jimmy Ngutlik (Western Suburbs Magpies), Ronald Philitoga (North Sydney Bears), Mitchell Prest (Mackay Cutters), Emosi Ravosai (Kaiviti Silktails), Jacob Saifiti (Knights), Solomone Saukuru (Tigers), Sunia Turuva (Tigers), Semi Valemei (Castleford Tigers), Brandon Wakeham (Sea Eagles), Jordan Miller (Tigers)\n\nFrance\n\nCoach: Laurent Frayssinous\n\nGuillermo Aispuro-Bichet (Catalans Dragons), L\u00e9o Darr\u00e9latour (Catalans Dragons), Julian Bousquet (Catalans Dragons), Romain Navarrete (Catalans Dragons), Benjamin Garcia (Catalans Dragons), Alrix Da Costa (Catalans Dragons), Benjamin Laguerre (Toulouse Olympique), C\u00e9sar Roug\u00e9 (Toulouse Olympique), Thomas Lacans (Toulouse Olympique), Lambert Belmas (Toulouse Olympique), Tiaki Chan (Toulouse Olympique), Louis Grossemy (Toulouse Olympique), Mathieu Jussaume (Toulouse Olympique), Rom\u00e9o Tropis (Toulouse Olympique), Amir Bourouh (Hull FC), Arthur Romano (Hull FC), Arthur Mourgue (Hull KR), Jordan Dezaria (Hull KR), Mathieu Cozza (Huddersfield), Joe Drodrolagi (AS Carcassonne), Th\u00e9o Fages (Pia Donkeys), Fouad Yaha (Albi), Latrell Siegwalt (Rabbitohs)\n\nLebanon\n\nCoach: Michael Cheika\n\nMohamed Alameddine (Eels), Yehya Ayache (Rabbitohs), Jalal Bazzaz (Shellharbour Stingrays), Alex Conti (Bulldogs), Moustafa Dirani (St Marys Saints), Ibrahim El Labban (Wentworthville Magpies), Tony Francis (Titans), Tupou Francis (Broncos), Michael Gabrael (Sharks), Mikael Ibrahim (Titans), Jacob Kiraz (Bulldogs), Abbas Miski (Wigan Warriors), Brandon Morkos (Dragons), Joseph Nohra (Eels), Jaxson Rahme (Roosters), Khalil Rahme (Newtown Jets), Khaled Rajab (Newtown Jets), James Roumanos (Toulouse Olympique), Jason Saab (Sea Eagles), Jordan Samrani (Eels), Tanous Sukkar (Tigers), Charbel Tasipale (Newtown Jets), Alex Twal (Tigers)\n\nNew Zealand\n\nCoach: Stacey Jones\n\nErin Clark (Warriors), James Fisher-Harris (Warriors), Dane Gagai (Knights), Jahrome Hughes (Storm), Jamayne Isaako (Dolphins), Keano Kini (Titans), Jacob Laban (Warriors), Moses Leota (Panthers), Jeremy Marshall-King (Dolphins), Te Maire Martin (Warriors), Casey McLean (Panthers), Ronaldo Mulitalo (Sharks), Charnze Nicoll-Klokstad (Warriors), Briton Nikora (Sharks), Kodi Nikorima (Dolphins), Isaiah Papali'i (Panthers), Kalyn Ponga (Knights), Scott Sorensen (Panthers), Tanner Stowers-Smith (Warriors), Joseph Tapine (Raiders), Leo Thompson (Bulldogs), Naufahu Whyte (Roosters), Xavier Willison (Broncos)\n\nPapua New Guinea\n\nCoach: Jason Demetriou\n\nJack de Belin (Eels), Robert Derby (Cowboys), Dudley Dotoi (Townsville Blackhawks), Josh Feledy (Sea Eagles), Finley Glare (London Broncos), Liam Horne (Leigh Leopards), Edwin Ipape (Leigh Leopards), Zev John (Central Queensland Capras), Epel Kapinias (London Broncos), Bailey Biondi-Odo (Townsville Blackhawks), Zac Laybutt (Cowboys), Nene Macdonald (St Helens Saints), Rhyse Martin (Hull KR), Robert Mathias (London Broncos), Morea Morea Jnr (London Broncos), Luca Moretti (Eels), Sylvester Namo (Brisbane Tigers), Nixon Putt (Central Queensland Capras), Rodrick Tai (Central Queensland Capras), Valentine Richard (PNG Hunters), Gairo Voro (London Broncos), Sanny Wabo (PNG Hunters), Khaiya Waiembi (PNG Hunters)\n\nSamoa\n\nCoach: Ben Gardiner\n\nShawn Blore, Anae Ulesese (Storm), Stephen Crichton (Bulldogs), Sua Fa'alogo (Storm), Clayton Faulalo (Sea Eagles), Chanel Harris-Tavita (Warriors), Benaiah Ioelu (Roosters), Connelly Lemuelu (Dolphins), Spencer Leniu (Roosters), Jarome Luai (Tigers), Francis Manuleleua (Knights), Deine Mariner (Broncos), Ata Mariota (Raiders), Greg Marzhew (Knights), Jermaine McEwen (Knights), Francis Molo (Dolphins), Junior Paulo (Eels), Pasami Saulo (Knights), Hamiso Tabuai-Fidow (Dolphins), Izack Tago (Panthers), Jazz Tevaga (Wakefield Trinity), Brian To'o (Panthers), Enari Tuala (Bulldogs), Ronald Volkman (Eels)\n\nTonga\n\nCoach: Kristian Woolf\n\nAddin Fonua-Blake (Sharks), Dallin Watene-Zelezniak (Warriors), Demitric Vaimauga (Warriors), Haumole Olakau'atu (Sea Eagles), Isaiya Katoa (Dolphins), Jason Taumalolo (Cowboys), Jojo Fifita (Titans), Junior Amone (Wynnum Manly Seagulls), Kulikefu Finefeuiaki (Dolphins), Latu Fainu (Tigers), Lehi Hopoate (Sea Eagles), Leka Halasima (Warriors), Paul Alamoti (Panthers), Robert To'ia (Roosters), Salesi Foketi (Roosters), Sione Katoa (Sharks), Siua Wong (Roosters), Soni Luke (Cowboys), Stefano Utoikamanu (Storm), Taniela Paseka (Sea Eagles), Tolutau Koula (Sea Eagles), Tuimoala Lolohea (Huddersfield Giants), Tyson Frizell (Knights)\n\nWomen's\n\nPools\nGroup A: Australia, England, Samoa, Wales\n\nGroup B: New Zealand, Papua New Guinea, France, Fiji\n\nGROUP GAMES\nWeek 1\n\nAustralia 40 def. Samoa 0\n\nPapua New Guinea 58 def. France 4\n\nEngland 70 def. Wales 6\n\nNew Zealand 18 def. Fiji 12\n\nWeek 2\n\nSamoa 76 def. Wales 0\n\nFiji 40 def. Papua New Guinea 4\n\nAustralia 78 def. England 0\n\nNew Zealand 92 def. France 0\n\nWeek 3\n\nEngland 6 def. by Samoa 24\n\nFiji 54 def. France 6\n\nNew Zealand 40 def. Papua New Guinea 12\n\nSun Nov 1, 3:40pm - Australia vs. Wales - CommBank Stadium\n\nSemifinals\n\nSat Nov 7, 5:45pm - New Zealand v Samoa - McDonald Jones Stadium\n\nSun Nov 8, 5:45pm - Australia v Fiji - Allianz Stadium\n\nFinals\n\nSun Nov 15, 4:10pm - TBC v TBC - Suncorp Stadium\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Jess Skinner\n\nTarryn Aiken, Kezie Apps, Shaylee Bent, Jaime Chapman, Abbi Church, Quincy Dodd, Millie Elliott, Olivia Higgins, Ellie Johnston, Keilee Joseph, Jocelyn Kelleher, Isabelle Kelly, Olivia Kernick, Keeley Nizza, Sariah Paki, Tiana Penitani Gray, Julia Robinson, Jessica Sergis, Jesse Southwell, Simaima Taufa, Sarah Togatuki, Tamika Upton, Makenzie Weale.\n\nEngland\n\nCoach: Stuart Barrow\n\nKeara Bennett, Connie Boyd, Amelia Brown, Ruby Bruce, Mary Coleman, Evie Cousins, Jodie Cunningham, Anna Davies, Hollie-Mae Dodd, Jenna Foubister, Fran Goldthorp, Eva Hunter, Molly Jones, Hope Millard, Lucy Murray, Georgia Roche, Isabel Rowe, Lucie Sams, Jasmin Strange, Vicky Whitfield, Megan Williams, Georgia Wilson, Liv Wood.\nSamoa\n\nCoach: Frank Pritchard\n\nAmber Hall, Annetta Nu'uausala, Christabelle Onesemo-Tuilaepa, Christian Pio, Evania Isa'ako, Evelyn Roberts, Fanua Rimoni, Freedom Crichton Ropati, Ivana Lolesio, Jaydika Tafua, Jetaya Faifua, Laikha Clarke, Leilani Wilson, Mary-Jane Taito, Mercedez Taulelei-Siala, Monica Tagoai, Pauline Piliae-Rasabale, Sarina Masaga, Taliah Fuimaono, Tavarna Papalii, Tyra Ekepati.\nWales\n\nCoach: Tom Brindle\n\nHannah Bluck, Hollie Brussels, Leanne Burnell, Katie Carr, Georgia Cussions, Bethan Dainton, Lucia Davies, Jasmine Gibbons, Zoe Heeley, Gracie Hobbs, Emily Hughes, Frances Layton, Ffion Lewis, Carys Marsh, Dani McGifford, Jade Mullen, Tayla Preston, Amberley Ruck, Kathryn Salter, Paige Travis, Erin Williams, Si\u00e2n Williams, Agnes Wood.\nFiji\n\nCoach: Jone Wesele\n\nLeilani Ahsam, Teaghan Hartigan, Talei Holmes, Lorren Ieli, Tamika Jones, Ebony Laing, Sienna Laing, Losana Lutu, Tahlia Marshall, Ema Masi, Rory Muller, Sereana Naitokatoka, Taina Naividi, Elizabeth Naleba, Aliti Namoce, Maria Paseka, Abigayle Sekitoga, Latisha Smythe, Cassie Staples, Naomi Tegu, Nanise Vakacavu, Isabella Waterman, Luisa Yaranamua.\nFrance\n\nCoach: Alan Walsh\n\nElisa Akpa, Tessa Benmalek, Le\u00efla Bessahli, Stecy Bessiere, Camille Boudaud, Margot Canal, Lisa Diraison, Tallis Eranossian, Chahrazad Himoudi, Haoua Kessely, M\u00e9lissa Medina, Perrine Monsarrat, \u00c9lodie Pacull, Perle Ramazeilles, Fanny Ramos, Justine Roses, Manon Samarra, No\u00e9mie Samuel, Salom\u00e9 S\u00e9gala, Cristina Song-Puche, Louisa Tooman, Sarah-Louise Vernay, Ama\u00ebl Vilanove.\nNew Zealand\n\nCoach: Ricky Henry\n\nBrooke Anderson, Kaiyah Atai, Annessa Biddle, Brianna Clark, Georgia Hale, Mele Hufanga, Chantay Kiria-Ratu, Ivana Lauitiiti, Shannon Mato, Raecene McGregor, Shaniece Monschau, Apii Nicholls, Shanice Parker, Otesa Pule, Ashleigh Quinlan, Abigail Roache, Alexis Tauaneai, Trinity Tauaneai, Angelina Teakaraanga-Katoa, Zahara Temara, Leianne Tufuga, Stacey Waaka, Tenika Willison.\nPapua New Guinea\n\nCoach: Craig Sandercock\n\nTherese Aiton, Elsie Albert, Essay Banu, Anika Butler, Jenny David, Fleur Ginn, Belinda Gwasamun, Josephine Howard, Jasmine Joe, Naomi Kelly, Shellie Long, Mala Mark, Tia Molo, Mya Muller, Venessa Nakas, Cynthiah Peters, Ua Ravu, Jafinda Sap, Gemma Schnaubelt, India Seeto, Emily Veivers, Ivania Wong, Relna Wuruki-Hosea."
     },
     {
+      "story_id": "50343789",
+      "headline": "Boozer, Stewart lead Memphis to a 136-105 victory over Kings as Grizzlies remain unbeaten",
+      "summary": "\u2014 Rookie Cameron Boozer had 27 points and nine rebounds, Isaiah Stewart added 24 points as the Memphis Grizzlies remained the only unbeaten team in the NBA with a 136-105 victory over the Sacramento Kings on Saturday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909899.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-01T02:57:47Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nba/recap?gameId=401909899",
+      "stream_url": "",
+      "body": "MEMPHIS, Tenn. -- \u2014 Rookie Cameron Boozer had 27 points and nine rebounds, Isaiah Stewart added 24 points as the Memphis Grizzlies remained the only unbeaten team in the NBA with a 136-105 victory over the Sacramento Kings on Saturday night.\n\n\r\nThe Grizzlies' 6-0 record matches the 2014-15 season for the best start in franchise history. After the Houston Rockets' 116-111 loss at Dallas on Friday night, Memphis was the last unbeaten team in the league. The Grizzlies dominated the Kings in the second half to coast home, with the lead reaching 34 in the second half.\n\n\r\nGG Jackson finished with 21 points, connecting on all five of his 3-pointers as Memphis built its lead in the first half. Cam Spencer, starting at point guard as Ty Jerome and Scotty Pippen Jr. sat out with back issues, had 10 points and 13 assists.\n\n\r\nMeanwhile, the Kings, led by 38 points from Darus Acuff Jr., continue to struggle in the season's early stages, dropping to 0-6. Acuff, the rookie from Arkansas, scored 34 points against New Orleans in a loss Thursday, De'Andre Hunter finished with 19 points. Domantas Sabonis and Zach LaVine scored 11 points each, Sabonis adding 14 rebounds and eight assists.\n\n\r\nMemphis led by 21 points in the first half behind Jackson's 3-point shooting, but Acuff was able to keep the Kings into the game with 21 first-half points. The Grizzlies led a 66-55 lead at intermission as Jackson connected on all five of his 3-point attempts.\n\n\r\nThe double-digit margin ballooned to 30 in the third quarter as Stewart and Boozer, the third pick in last summer's draft fueled the Memphis offense. The Grizzlies outscored Sacramento 42-25 in the third.\n\n\r\nUp next\r\nKings: At Mavericks on Monday night.\n\n\r\nGrizzlies: Host Pelicans on Monday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+    },
+    {
       "story_id": "50343752",
       "headline": "Columbus Blue Jackets vs. Dallas Stars: Game Highlights",
       "summary": "Columbus Blue Jackets vs. Dallas Stars: Game Highlights",
@@ -12767,20 +12890,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50343752/game-highlights",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50343735",
-      "headline": "Jabari Smith Jr. scores 30 points, Rockets beat Thunder 119-98",
-      "summary": "\u2014 Jabari Smith Jr. had 30 points and nine rebounds, Marcus Smart added 24 points and the Houston Rockets beat the Oklahoma City Thunder 119-98 on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909902.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-01T02:51:48Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909902",
-      "stream_url": "",
-      "body": "HOUSTON -- \u2014 Jabari Smith Jr. had 30 points and nine rebounds, Marcus Smart added 24 points and the Houston Rockets beat the Oklahoma City Thunder 119-98 on Saturday night.\n\n\r\nSmith shot 10 of 18 from the field, including 6 of 12 on 3-pointers. Smart was 7 of 10 on 3s as the Rockets shot 46% as a team and were 18 of 41 from behind the arc.\n\n\r\nAlperen Sengun, who returned to the lineup after missing the last two games with lower back soreness, finished with 16 points, nine rebounds and 10 assists, and Kevin Durant scored 14 points.\n\n\r\nShai Gilgeous-Alexander had 26 points on 10-of-20 shooting, and Kenrich Williams and Bennett Stirtz scored 11 apiece for Oklahoma City, which lost its second straight after beginning the season 4-0.\n\n\r\nIsaiah Hartenstein and Jared McCain had 10 points each for the Thunder, which shot 44% and were 10 of 32 on 3s.\n\n\r\nLeading 37-30 a minute into the second quarter, the Rockets used an 18-4 run to open up a 55-34 lead on an Amen Thompson tip-in with 6:10 remaining in the half. Oklahoma City outscored Houston 17-8 over the final six minutes to cut the Rockets\u2019 lead to 62-51 at the half.\n\n\r\nThe Rockets opened the third with an 8-0 run to open up a 19-point lead on a 3-pointer by Smith with 10 minutes remaining in the quarter Houston\u2019s lead never dipped below 12 the rest of the way.\n\n\r\nFred VanVleet was out of the lineup due to right knee injury management, and Reed Sheppard missed his second straight game with low back soreness for the Rockets.\n\n\r\nThe Thunder played their first game after announcing Friday that Chet Holmgren would miss at least two months because of a right knee injury.\n\n\r\nUp next\r\nThunder: At Cleveland on Monday night.\n\n\r\nRockets: Host Boston on Monday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "49860363",
@@ -12941,6 +13050,40 @@
       "source_url": "https://watch-wrestling.eu/stardom-10101/4846d69844c2686978e7cd98cd72dcdb"
     },
     {
+      "id": "ww:51183c7a3f48d593ab60e0417855b913",
+      "title": "NJPW SUPER Jr TAG LEAGUE 2026 Road to POWER STRUGGLE Okayama Akaiwa Sanyo Fureai Park General Gymnasium 11/1/2026",
+      "date": "2026-11-01",
+      "replay_url": "https://dailywrestling.cc/embed/wpjn/11-01-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/11-01-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream (English) \u2014 Live HD (CH 31)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/11-01-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (English) \u2014 Live SD (CH 32)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/11-01-2026/select-post-1/2/1",
+          "label": "Source 2 \u2013 Mstream (Japanese) \u2014 Live HD (CH 33)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wpjn/11-01-2026/select-post-1/2/2",
+          "label": "Source 2 \u2013 Mstream (Japanese) \u2014 Live SD (CH 34)",
+          "part": false,
+          "live": false
+        }
+      ],
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/10/Watch-NJPW-Full-Show-Online.jpg",
+      "source_url": "https://watch-wrestling.eu/njpw-super-jr-tag-league-2026-road-to-power-struggle-okayama-akaiwa-sanyo-fureai-park-general-gymnasium-11-1-2026/51183c7a3f48d593ab60e0417855b913"
+    },
+    {
       "id": "ww:359cf70ddd20073a563904dca7be2870",
       "title": "TJPW There May Be No Answers, But Let\u2019s Wish for Happiness 11/1/2026",
       "date": "2026-11-01",
@@ -13054,24 +13197,42 @@
       "id": "ww:25009768d1a1d8c0ec60b1eaa7db6f6c",
       "title": "AEW Collision 10/31/2026",
       "date": "2026-10-31",
-      "replay_url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/1",
+      "replay_url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/2/1",
       "replay_candidates": [
         {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 MyAEW (Alpha) \u2014 Live FHD (CH 14)",
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/2/1",
+          "label": "OK.ru FHD \u2014 Full Show",
           "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/3/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/3/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/3/3",
+          "label": "Other Hosts \u2014 NetU (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/1",
+          "label": "Dailymotion FHD \u2014 Part 1",
+          "part": true,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 MyAEW (Alpha) \u2014 Live HD (CH 15)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/10-31-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 MyAEW (Alpha) \u2014 Live SD (CH 16)",
-          "part": false,
+          "label": "Dailymotion FHD \u2014 Part 2",
+          "part": true,
           "live": false
         }
       ],
@@ -14087,6 +14248,127 @@
       "source_url": "https://watch-wrestling.eu/njpw-super-jr-tag-league-2026-road-to-power-struggle-tokyo-korakuen-hall-10-26-2026/a7d1195b6b11458ce5dd70c10709414c"
     }
   ],
-  "replays": [],
+  "replays": [
+    {
+      "id": "ww:ufc-fight-night-moicano-vs-nolan-10-31-2026",
+      "title": "UFC Fight Night: Moicano vs Nolan 10/31/2026",
+      "date": "2026-10-31",
+      "sport": "mma",
+      "competition": "UFC",
+      "replay_url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/1",
+      "replay_candidates": [
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/1",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live FHD (CH 24)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/2",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live HD (CH 25)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/3",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live SD (CH 26)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/1/4",
+          "label": "Source 1 \u2013 Mstream (Zeta) \u2014 Live Backup",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/2/1",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live FHD (CH 21)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/2/2",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live HD (CH 22)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/2/3",
+          "label": "Source 2 \u2013 Mstream (Thunder) \u2014 Live SD (CH 23)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/3/1",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live FHD (CH 28)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/3/2",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live HD (CH 29)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/3/3",
+          "label": "Source 3 \u2013 Mstream (Alpha) \u2014 Live SD (CH 30)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/4/1",
+          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/5/1",
+          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/7/1",
+          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/8/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/8/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/8/3",
+          "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/6/1",
+          "label": "Dailymotion FHD (Prelims) \u2014 Part 1",
+          "part": true,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/cfu/10-31-2026/select-post-1/6/2",
+          "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
+          "part": true,
+          "live": false
+        }
+      ],
+      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
+      "source_url": "https://watch-wrestling.eu/ufc-fight-night-moicano-vs-nolan-10-31-2026/"
+    }
+  ],
   "trackers": []
 }
