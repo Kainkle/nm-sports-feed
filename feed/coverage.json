@@ -1,19 +1,19 @@
 {
-  "generated_utc": "2026-10-31T23:51:31.594914+00:00",
+  "generated_utc": "2026-11-01T00:01:25.504414+00:00",
   "window_days": 2,
-  "total_events": 273,
+  "total_events": 279,
   "competitions": [
     {
       "competition": "aew",
       "name": "AEW",
       "sport": "wrestling",
-      "events": 2,
+      "events": 1,
       "date_range": [
-        "2026-10-29",
+        "2026-11-01",
         "2026-11-01"
       ],
-      "explicit_status": 2,
-      "status_coverage_pct": 100,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
       "both_logos": 0,
       "logo_coverage_pct": 0,
       "live_now": 0
@@ -74,14 +74,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 9,
+      "events": 10,
       "date_range": [
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-02"
       ],
-      "explicit_status": 9,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -89,14 +89,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 9,
+      "events": 10,
       "date_range": [
         "2026-10-30",
-        "2026-11-01"
+        "2026-11-02"
       ],
-      "explicit_status": 9,
+      "explicit_status": 10,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 10,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -147,14 +147,14 @@
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 15,
+      "events": 12,
       "date_range": [
-        "2026-10-28",
-        "2026-11-01"
+        "2026-10-29",
+        "2026-11-02"
       ],
-      "explicit_status": 15,
+      "explicit_status": 12,
       "status_coverage_pct": 100,
-      "both_logos": 15,
+      "both_logos": 12,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -162,16 +162,14 @@
       "competition": "mlb",
       "name": "MLB",
       "sport": "baseball",
-      "events": 1,
-      "date_range": [
-        "2026-10-29",
-        "2026-10-29"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
-      "both_logos": 1,
-      "logo_coverage_pct": 100,
-      "live_now": 0
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "mma-sofa",
@@ -220,14 +218,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 36,
+      "events": 39,
       "date_range": [
-        "2026-10-28",
-        "2026-11-02"
+        "2026-10-30",
+        "2026-11-03"
       ],
-      "explicit_status": 36,
+      "explicit_status": 39,
       "status_coverage_pct": 100,
-      "both_logos": 36,
+      "both_logos": 39,
       "logo_coverage_pct": 100,
       "live_now": 2
     },
@@ -235,29 +233,29 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 54,
+      "events": 52,
       "date_range": [
-        "2026-10-28",
+        "2026-10-29",
         "2026-11-01"
       ],
-      "explicit_status": 54,
+      "explicit_status": 52,
       "status_coverage_pct": 100,
-      "both_logos": 54,
+      "both_logos": 52,
       "logo_coverage_pct": 100,
-      "live_now": 9
+      "live_now": 10
     },
     {
       "competition": "ncaam",
       "name": "College Basketball",
       "sport": "basketball",
-      "events": 2,
+      "events": 20,
       "date_range": [
         "2026-11-01",
-        "2026-11-02"
+        "2026-11-03"
       ],
-      "explicit_status": 2,
+      "explicit_status": 20,
       "status_coverage_pct": 100,
-      "both_logos": 2,
+      "both_logos": 20,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -265,14 +263,14 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 13,
+      "events": 14,
       "date_range": [
         "2026-10-30",
-        "2026-11-02"
+        "2026-11-03"
       ],
-      "explicit_status": 13,
+      "explicit_status": 14,
       "status_coverage_pct": 100,
-      "both_logos": 13,
+      "both_logos": 14,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -280,14 +278,14 @@
       "competition": "nhl",
       "name": "NHL",
       "sport": "hockey",
-      "events": 78,
+      "events": 80,
       "date_range": [
-        "2026-10-28",
-        "2026-11-08"
+        "2026-10-29",
+        "2026-11-09"
       ],
-      "explicit_status": 78,
+      "explicit_status": 80,
       "status_coverage_pct": 100,
-      "both_logos": 78,
+      "both_logos": 80,
       "logo_coverage_pct": 100,
       "live_now": 2
     },
@@ -379,14 +377,14 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 29,
+      "events": 15,
       "date_range": [
-        "2026-10-28",
+        "2026-10-31",
         "2026-11-02"
       ],
-      "explicit_status": 29,
+      "explicit_status": 15,
       "status_coverage_pct": 100,
-      "both_logos": 29,
+      "both_logos": 15,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -422,12 +420,12 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 1,
+      "events": 2,
       "date_range": [
         "2026-10-31",
-        "2026-10-31"
+        "2026-11-03"
       ],
-      "explicit_status": 1,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
@@ -441,11 +439,8 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "replay_items": {
-    "total": 3,
-    "by_sport": {
-      "boxing": 2,
-      "mma": 1
-    }
+    "total": 0,
+    "by_sport": {}
   },
   "stories": {
     "total": 24,
