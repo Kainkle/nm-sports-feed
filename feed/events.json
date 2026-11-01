@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-01T21:33:49.195725+00:00",
+  "generated_utc": "2026-11-01T21:43:55.108736+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401918310",
@@ -7200,7 +7200,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-01T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:4",
         "name": "Cincinnati Bengals",
@@ -7230,9 +7230,9 @@
         "color": "4495d2"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Paycor Stadium",
-      "detail": "7:54 - OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7246,7 +7246,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-01T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6",
         "name": "Dallas Cowboys",
@@ -7276,9 +7276,9 @@
         "color": "a40227"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "AT&T Stadium",
-      "detail": "7:02 - OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7608,7 +7608,7 @@
       "competition_id": "ita.1",
       "competition_name": "Serie A",
       "start_utc": "2026-11-01T19:45Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:111",
         "name": "Juventus",
@@ -7634,9 +7634,9 @@
         "color": "0677d2"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "Allianz Stadium",
-      "detail": "89'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7679,7 +7679,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "San Mam\u00e9s",
-      "detail": "68'",
+      "detail": "78'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7769,9 +7769,9 @@
         "color": "008348"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Kia Center",
-      "detail": "2:42 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7907,7 +7907,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "5:42 - 1st Quarter",
+      "detail": "15:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7953,7 +7953,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Empower Field at Mile High",
-      "detail": "11:41 - 1st Quarter",
+      "detail": "6:40 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7999,7 +7999,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Hard Rock Stadium",
-      "detail": "10:13 - 1st Quarter",
+      "detail": "6:57 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "h8UHNoLy30k",
       "replay_url": "",
@@ -8013,7 +8013,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-11-01T21:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:18418",
         "name": "Atlanta United FC",
@@ -8041,9 +8041,9 @@
         "color": "aa182c"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Mercedes-Benz Stadium",
-      "detail": "Sun, November 1st at 4:30 PM EST",
+      "detail": "3'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8057,7 +8057,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-11-01T21:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:18986",
         "name": "Nashville SC",
@@ -8085,9 +8085,9 @@
         "color": "ba0c2f"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "GEODIS Park",
-      "detail": "Sun, November 1st at 4:30 PM EST",
+      "detail": "3'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12666,18 +12666,18 @@
   ],
   "stories": [
     {
-      "story_id": "50351207",
-      "headline": "Goff throws go-ahead touchdown pass to Williams and Lions beat Vikings 19-15 for their 1st loss",
-      "summary": "\u2014 Jared Goff threw a go-ahead, 7-yard touchdown pass to Jameson Williams with 4:35 left and the Detroit Lions beat the Minnesota Vikings 19-15 on...",
-      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873030.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-01T21:21:59Z",
+      "story_id": "50351482",
+      "headline": "Bills surge in 2nd half in 36-10 win over Baltimore in outing Ravens lose Jackson, Huntly to injury",
+      "summary": "\u2014 Josh Allen threw two touchdown passes and scored another rushing, and the Buffalo Bills overcame a sloppy first half in a 36-10 win over Baltimore on Sunday in an outing the Ravens lost starting quarterback Lamar Jackson and his backup Tyler Huntley...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873026.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-01T21:41:47Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nfl/recap?gameId=401873030",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873026",
       "stream_url": "",
-      "body": "DETROIT -- \u2014 Jared Goff threw a go-ahead, 7-yard touchdown pass to Jameson Williams with 4:35 left and the Detroit Lions beat the Minnesota Vikings 19-15 on Sunday, handing the NFL's last undefeated team its first loss.\n\n\r\nThe Lions (5-2) have won three straight, including their first two division games in the tight NFC North.\n\n\r\nThe Vikings (6-1) had a chance to stay unbeaten, but the league's stingiest defense couldn't hold onto a late lead, and they lost for the first time since Nov. 30, 2025, at Seattle.\n\n\r\nDetroit's Jahmyr Gibbs ran for 153 yards, including a 30-yard, tackle-breaking touchdown in the third quarter. Goff was 18 of 25 for 176 yards with a touchdown and his first interception of the season.\n\n\r\nKyler Murray was 17 of 29 for 210 yards with two touchdown and an interception, leading an offensively challenged team that had just 81 yards rushing.\n\n\r\nThe Lions broke a scoreless tie late in the first quarter on Jake Bates' 25-yard field goal after their star receivers \u2014 Amon Ra-St. Brown and Williams \u2014 stunted the first two drives with taunting penalties\n\n\r\nSt. Brown had a chance to make up for his flag with a touchdown catch, but the play was reversed after a review that showed he didn't secure the football as he fell after making a reception with his fingertips and getting both feet in the end zone.\n\n\r\nThe Vikings went ahead 7-3 early in the second quarter when Murray lofted a 1-yard pass to the left side of the end zone that Justin Jefferson snagged with his left hand before going to the turf and completing the catch.\n\n\r\nLions cornerback D.J. Reed, who broke up a pass in the end zone on the game's first drive, cut in front of Jordan Addison to make a diving interception late in the second quarter.\n\n\r\nDetroit, huddling up and taking time off the clock on its last drive of the first half, converted a fourth-and-1 from its 47 and Bates later made a 37-yard field goal to make it 7-6.\n\n\r\nWith a chance to take the lead early in the third, Bates' 46-yard kick hit the left upright.\n\n\r\nThe Vikings had a chance to put points on the board in the second half from the Detroit 25, but coach Kevin O'Connell went for it on fourth-and-5 and Murray threw an incomplete pass.\n\n\r\nMurray threw an 8-yard touchdown pass to T.J. Hockenson and a 2-point conversion pass to Jordan Addison for a 15-12 lead midway through the fourth quarter.\n\n\r\nMinnesota's defense, though, could not hold onto the lead.\n\n\r\nInjuries\r\nVikings: Safety Theo Jackson (quad) was injured during the game.\n\n\r\nLions: Linebacker Jack Campbell was placed on a backboard, carted off the field in the fourth quarter and taken to a hospital with a neck injury. Safety Brian Branch and edge DJ Wonnum were evaluated for concussions after colliding late in the second quarter and didn't return.\n\n\r\nUp next\r\nVikings: Host the Bills on Monday, Nov. 9.\n\n\r\nLions: at Miami on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
+      "body": "ORCHARD PARK, N.Y. -- \u2014 Josh Allen threw two touchdown passes and scored another rushing, and the Buffalo Bills overcame a sloppy first half in a 36-10 win over Baltimore on Sunday in an outing the Ravens lost starting quarterback Lamar Jackson and his backup Tyler Huntley to injuries in the first half.\n\n\r\nDalton Kincaid, with a 23-yard touchdown catch, and DJ Moore, with an 11-yarder, scored on consecutive fourth-quarter possessions and the AFC East-leading Bills are off to their ninth 6-1 start in franchise history. James Cook also scored on a 5-yard run and Buffalo has won nine straight under Allen coming out of its bye week.\n\n\r\nBuffalo\u2019s defense forced three turnovers plus a fourth down stop, added four sacks and limited the Ravens to 144 total yards.\n\n\r\nThough the Ravens were short-handed at quarterback, the outing for Buffalo was considered a step forward for a much-criticized defense that was among the NFL\u2019s statistically worst defense and had allowed 29 or more points in five of six outings.\n\n\r\nThe Ravens (4-4) have lost three straight and Jackson\u2019s much-anticipated return after missing three games with an ankle injury lasted one play. He hurt the thumb on his right throwing hand on Baltimore\u2019s first snap from scrimmage when his hand struck Bills edge rusher Greg Rousseau\u2019s arm while attempting a pass to Zay Flowers.\n\n\r\nBackup Tyler Huntley took over and hurt his toe while being sacked and losing a fumble to close Baltimore\u2019s fourth series.\n\n\r\nDerrick Henry scored Baltimore\u2019s lone touchdown on a 2-yard run.\n\n\r\nEmergency third-string quarterback Joe Fagnano, an undrafted rookie out of Connecticut, finished the game and went 10 of 21 for 91 yards with an interception in his NFL debut.\n\n\r\nJackson returned to the sideline with his thumb in a splint, though it\u2019s unclear if he or Huntley will be available to play on a short week. Baltimore hosts Jacksonville on Thursday night.\n\n\r\nThe Bills finally took control after the Ravens cut Buffalo's lead to 16-10 on Tyler Loop\u2019s 26-yard field goal to open the second half. After settling for a touchdown and three field goals in the first half, Buffalo scored touchdowns on three of its first four second-half drives. It began with Cook\u2019s 5-yard run set up by Allen\u2019s 49-yard completion to Moore.\n\n\r\nAllen finished 21 of 34 for 289 with two TDs passing and an interception. He also won his 102nd career game (including playoffs) to move ahead of Tom Brady for third among players through their first nine seasons.\n\n\r\nOtherwise, the game was mistake filled. The game featured five turnovers (three by Baltimore). Loop missed a 34-yard field-goal attempt. Henry had a rushing touchdown negated by a holding penalty. And the Bills were hampered by being flagged 10 times for 87 yards.\n\n\r\nMilestones\r\n\u2014 Buffalo's Tyler Bass was good on all three field-goal attempts, including a 56-yarder. He has now hit 21 straight attempts in breaking franchise record of 18 set by Rian Lindell in 2007. Bass missed all of last season with pelvis and groin injuries, with his most recent miss coming in December 2024.\n\n\r\n\u2014 Henry\u2019s touchdown was the 136th from scrimmage in his career, tying Marshall Faulk for fourth on the NFL list.\n\n\r\nInjuries\r\nRavens: CB Nate Wiggins was evaluated for a concussion in the fourth quarter.\n\n\r\nBills: WR Josh Palmer was ruled out after hurting his right hamstring. He pulled up while attempting to run down a deep pass in the first quarter.\n\n\r\nUp next\r\nRavens: Host Jacksonville on Thursday night.\n\n\r\nBills: Travel for \u201cMonday Night Football\u201d matchup at the Minnesota Vikings on Nov. 9.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50321045",
@@ -12834,18 +12834,18 @@
       "body": "Tonga have claimed victory in a World Cup battle for the ages, defeating bitter rivals Samoa in a 20-18 thriller to set up a semi-final showdown with New Zealand.\n\nKristian Woolf's side kept their undefeated group-stage record intact after Cronulla prop Addin Fonua-Blake crossed in the 72nd minute to snatch victory at CommBank Stadium in front of 29,411.\n\nTonga will face the Kiwis in Newcastle on Saturday in what will be the first World Cup meeting between the two nations since the 2017 tournament, which was characterised by the Jason Taumalolo-led defections to the Pacific nations.\n\nTaumalolo was impressive for Tonga on Sunday night but Samoa gave their Polynesian brethren a major leg-up by missing three of their four conversion attempts.\n\n\"That's one of those things that happens in rugby league,\" said Samoa coach Ben Gardiner.\n\n\"But I'm very happy with the level of performance, the intensity and the way we went about our business.\"\n\nSamoa outscored Tonga four tries to three, but Chanel Harris-Tavita and Ronald Volkman could only land one goal between them.\n\nHarris-Tavita came off midway through the second half, clutching at a hamstring after missing a shot at goal and now appears unlikely to line up for Samoa against Australia in the other semi-final.\n\nIt looked as if things were going to be straightforward for Tonga, who had the upper hand for much of the first half but only had an 8-4 lead to show for it.\n\nWingers Dallin Watene-Zelezniak and Jojo Fifita both crossed but had tries chalked off on review before Sydney Roosters star Rob Toia continued his incredible run of form to score Tonga's opener in the 26th minute.\n\nHaumole Olakau'atu ran over the top of Samoan five-eighth Jarome Luai before getting the ball away to Toia, who raced home from 50m out and dotted down under the sticks.\n\nHalfback Isaiya Katoa converted then added a penalty after Jermaine McEwen was ruled to have interfered at the ruck.\n\nBut late in the first half, Luai put up a fifth-tackle kick that was batted back to Stephen Crichton, who flicked a late offload away for Brian To'o to score.\n\nFifita hit back for Tonga soon into the second half before Harris-Tavita flicked another Luai kick out to To'o to keep Samoa in the game.\n\nHarris-Tavita struck the upright with his attempt then winced as he grabbed at his left hamstring.\n\nVolkman was thrown into the action and the substitute No.6 was soon called upon to take a conversion which offered the chance to tie the game up.\n\nIt came after Luai and Sua Fa'alogo combined down the left before Hamiso Tabuai-Fidow finished the move.\n\nVolkman was unable to add the extra points but pushed his side ahead when he pinballed through some tired Tonga defenders to score. He then converted his own try, with less than 12 minutes left.\n\nBut just as Samoa looked set to hang on, Fonua-Blake rampaged through the middle of the defence to snatch victory for Tonga.\n\n\"This group can do anything,\" Woolf said.\n\n\"We left four tries out there - two in the second half - and we've got plenty of improvement left in us.\n\n\"We keep heading on the right track but they (this team) can do anything.\"\n\nWORLD CUP SEMIFINALS\n\nSemifinal 1: New Zealand v Tonga, Saturday November 7, 8.05pm\n\nSemifinal 2: Australia v Samoa, Sunday November 8, 8.05pm"
     },
     {
-      "story_id": "50351187",
-      "headline": "Jags make easy work of Colts with dominating win",
-      "summary": "Jags make easy work of Colts with dominating win",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/d45e6851-7859-4574-97a4-b43dabff0cb0/d45e6851-7859-4574-97a4-b43dabff0cb0.jpg",
-      "published_utc": "2026-11-01T21:20:27Z",
+      "story_id": "50351478",
+      "headline": "Raiders rally past the Jets 38-33 as Kirk Cousins leads a comeback to snap a 4-game skid",
+      "summary": "\u2014 Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873029.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-01T21:40:47Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50351187/jags-make-easy-work-colts-dominating-win",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873029",
       "stream_url": "",
-      "body": ""
+      "body": "EAST RUTHERFORD, N.J. -- \u2014 Kirk Cousins threw three touchdown passes, including a go-ahead 2-yard toss to Jalen Nailor in the fourth quarter, and ran for another score and the Las Vegas Raiders snapped a four-game skid with a 38-33 comeback victory over the New York Jets on Sunday.\n\n\r\nJeremy Chinn sealed it with a toe-tapping interception in the end zone on a desperation heave by Geno Smith in the closing seconds.\n\n\r\nBrock Bowers had two TD catches for the Raiders (4-4), who trailed the Jets (2-6) by nine at halftime and allowed New York to score on its first six possessions. Dylan Laube returned a kickoff 95 yards for a touchdown.\n\n\r\nCousins was 19 of 26 for 247 yards and rookie Mike Washington Jr. ran for 83 yards on 25 carries for the Raiders' struggling backfield. Ashton Jeanty, who earlier in the week said it seemed like the Jets' defense has players who don't like to tackle, ran for 9 yards on just two carries but caught three passes for 64 yards \u2014 including a big play on the go-ahead scoring drive.\n\n\r\nWith the Raiders trailing by two, Cousins tossed a screen pass to Jeanty \u2014 who stumbled and then zipped downfield for 45 yards to get to the Jets 13. Five plays later, Cousins connected with Nailor to put Las Vegas up 35-30 with 11:33 remaining.\n\n\r\nAdonai Mitchell made a terrific 47-yard catch as he was falling to put the Jets at the Raiders 13, but New York had to settle for a 31-yard field goal by Jason Sanders that cut it to 35-33 with 4:31 left.\n\n\r\nThe Raiders then chewed up the clock and got a 53-yard field goal by Matt Gay with 31 seconds remaining.\n\n\r\nThe Jets got the ball at their 35 with 27 seconds left and a 15-yard catch by Garrett Wilson and an unnecessary roughness call on Chinn put the ball at the Raiders 35. But Smith's throw into the end zone with 14 seconds left was picked off by Chinn.\n\n\r\nSmith was 20 of 32 for 290 yards and touchdowns to Mitchell and Isaiah Williams and the INT for the Jets, who have dropped three in a row. Braelon Allen ran for 147 yards and a touchdown on 21 carries.\n\n\r\nJets and Raiders go back and forth on the scoreboard to start the game\r\n\r\nThe Jets got off to a promising start, with Smith connecting with Wilson for a 31-yard completion on New York's first play. Wilson has been frustrated by his lack of usage in recent games and coach Aaron Glenn and offensive coordinator Frank Reich have insisted there would be a greater focus on getting him the ball.\n\n\r\nThe Jets' drive stalled and New York settled for a 21-yard field goal by Sanders.\n\n\r\nThe Raiders scored on their opening drive, too, converting two third-down plays before Cousins found Bowers on third-and-goal from the 12 for a touchdown.\n\n\r\nNew York got into the red zone on its next possession but settled for a 36-yarder by Sanders.\n\n\r\nSmith threw an 18-yard touchdown pass to Williams on New York's third drive, giving the Jets a 13-7 lead early in the second quarter.\n\n\r\nBut Las Vegas snatched the lead right back when Laube returned the ensuing kickoff 95 yards for a touchdown to put the Raiders back up, 14-13. It was the first kickoff returned for a TD in the NFL this season, and the first of Laube's three-year career.\n\n\r\nSmith's over-the-shoulder fade pass to Mitchell on fourth-and-1 from the 12 for a touchdown put New York up 20-14.\n\n\r\nNew York gets a rare score right before halftime\r\nThe Jets entered having been outscored 107-6 in the final two minutes of the opening half in two seasons under Glenn. They had the ball at the Raiders 28 at the two-minute warning and got a 39-yard field goal to go up 23-14, New York's first points this season in the last two minutes of the first half.\n\n\r\nLas Vegas made it a two-point game at 23-21 on Cousins' 2-yard TD pass to Bowers to open the second half.\n\n\r\nAllen rumbled 21 yards for a touchdown to make it a two-score game again as the Jets went up 30-21 by scoring on their sixth straight drive to open the game.\n\n\r\nCousins pushed forward and over the goal line for a 1-yard touchdown to make it 30-28 with 4:14 left in the third quarter.\n\n\r\nThe Jets' scoring streak ended on their seventh drive, when they punted for the first time late in the third quarter.\n\n\r\nInjuries\r\nRaiders CB Darien Porter left after injuring his groin on Las Vegas' first defensive play and didn't return.\n\n\r\nUp next\r\nRaiders: Face the 49ers in San Francisco next Sunday.\n\n\r\nJets: Travel to Kansas City to face the Chiefs next Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50250142",
