@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-01T03:29:18.754964+00:00",
+  "generated_utc": "2026-11-01T03:39:23.039981+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401918310",
@@ -5811,53 +5811,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858281",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T23:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:221",
-        "name": "Pittsburgh Panthers",
-        "abbrev": "PITT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-        "logo_dark": null,
-        "aliases": [
-          "PITT",
-          "Panthers",
-          "Pitt",
-          "Pittsburgh",
-          "Pittsburgh Panthers"
-        ],
-        "color": "003594"
-      },
-      "away": {
-        "id": "espn:59",
-        "name": "Georgia Tech Yellow Jackets",
-        "abbrev": "GT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-        "logo_dark": null,
-        "aliases": [
-          "GT",
-          "Georgia Tech",
-          "Georgia Tech Yellow Jackets",
-          "Yellow Jackets"
-        ],
-        "color": "b3a369"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Acrisure Stadium",
-      "detail": "0:36 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858282",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -5987,6 +5940,53 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "DKR-Texas Memorial Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858281",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-10-31T23:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:221",
+        "name": "Pittsburgh Panthers",
+        "abbrev": "PITT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+        "logo_dark": null,
+        "aliases": [
+          "PITT",
+          "Panthers",
+          "Pitt",
+          "Pittsburgh",
+          "Pittsburgh Panthers"
+        ],
+        "color": "003594"
+      },
+      "away": {
+        "id": "espn:59",
+        "name": "Georgia Tech Yellow Jackets",
+        "abbrev": "GT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+        "logo_dark": null,
+        "aliases": [
+          "GT",
+          "Georgia Tech",
+          "Georgia Tech Yellow Jackets",
+          "Yellow Jackets"
+        ],
+        "color": "b3a369"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Acrisure Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6267,7 +6267,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-01T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:158",
         "name": "Nebraska Cornhuskers",
@@ -6297,9 +6297,9 @@
         "color": "33006f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Memorial Stadium (Lincoln, NE)",
-      "detail": "0:31 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6481,7 +6481,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Dick's Sporting Goods Park",
-      "detail": "88'",
+      "detail": "90'+8'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6575,7 +6575,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "2:19 - 2nd Quarter",
+      "detail": "0:29 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6621,7 +6621,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "7:04 - 2nd Quarter",
+      "detail": "2:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6669,7 +6669,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "7:24 - 1st Quarter",
+      "detail": "1:47 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12666,6 +12666,20 @@
   ],
   "stories": [
     {
+      "story_id": "50343734",
+      "headline": "Gabby Williams leads Valkyries to WNBA championship in second season, beating Dream 68-63 in Game 7",
+      "summary": "\u2014 A fresh WNBA CHAMPIONS T-shirt over her uniform, Gabby Williams cradled the shiny MVP trophy in one arm and gave it a kiss. She held up a No. 1 with her left hand, then hugged and high-fived her supporters all the way to Golden State's celebratory...",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918311.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-01T03:35:01Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/wnba/recap?gameId=401918311",
+      "stream_url": "",
+      "body": "SAN FRANCISCO -- \u2014 A fresh WNBA CHAMPIONS T-shirt over her uniform, Gabby Williams cradled the shiny MVP trophy in one arm and gave it a kiss. She held up a No. 1 with her left hand, then hugged and high-fived her supporters all the way to Golden State's celebratory locker room where she pulled on some goggles for the party.\n\n\r\nWilliams made her way back to the Bay Area where she made so many youth basketball memories exactly for a chance to do something like this \u2014 to win it all and be part of building something special.\n\n\r\nAnd she has done that all right.\n\n\r\nWilliams scored her team's final 11 points of the third quarter and dazzled through the fourth on the way to 30 points, and the Golden State Valkyries captured a championship in just their second season by beating the Atlanta Dream 68-63 in a sensational first WNBA Finals Game 7 on Saturday night.\n\n\r\n\u201cGabby is our closer she stayed patient, she stayed with it,\u201d coach Natalie Nakase said. \u201cClosing with 30!\u201d\n\n\r\nJordin Canada scored 18 points, Allisha Gray 16 and Angel Reese had eight points and 12 rebounds for the Dream, denied another championship in the franchise's fourth try.\n\n\r\nGray made two free throws with 11 seconds left then Atlanta forced a jump ball \u2014 Gray against Williams \u2014 and Veronica Burton corralled it and converted two free throws with 5.1 seconds to go.\n\n\r\n\u201cI'm just so blessed, this is insane!\u201d said Burton, cut by Dallas two years ago.\n\n\r\nRhyne Howard's layup tied it at 57 with 2:41 left only for Williams to answer once more with a clutch 3-pointer. She converted two free throws with 1:40 remaining, then Kiah Stokes scored a late basket. Stokes \u2014 now a four-time WNBA champion \u2014 pulled down 13 rebounds and blocked two more shots to cap her spectacular postseason.\n\n\r\nWilliams left Seattle with a great feeling about joining Golden State and its close-knit culture, returning to the Bay Area where she played youth basketball determined to prove herself as a WNBA star \u2014 and now she's a postseason icon. Fans chanted \u201cGabby! Gabby!\u201d throughout the fourth quarter.\n\n\r\n\u201cAll it took was good people,\u201d she said. \u201cAll we heard last year was we don\u2019t have no stars. We don\u2019t have no talent. Yeah right! We got good people. We got good people. We got winners. We got people who are ready to put their bodies on the floor to win a game.\u201d\n\n\r\nWhen the final buzzer sounded, the violet-clad sellout crowd at Chase Center went into a frenzy as players sprinted onto the floor to hug and celebrate as confetti fell from the rafters.\n\n\r\n\u201cBallhalla\u201d had become \u201cBoohalla\u201d for this far-but-haunted Halloween night in the raucous arena. Now, with a women's championship to its name right alongside the one earned by the Golden State Warriors in 2022.\n\n\r\n\u201cWe gotta build a bigger trophy case,\u201d co-owner Peter Guber said.\n\n\r\nThe team that led at halftime in the first six matchups had won every game so far, and the Dream were ahead 30-24 at the break. Atlanta also had been 16-0 this season when Reese made at least one 3. The Dream's DeWanna Bonner became the first player in WNBA history to reach 600 career postseason defensive rebounds.\n\n\r\nNakase told Williams at halftime the game would come to her.\n\n\r\n\u201cShe told me to stay patient, I trust her with my life,\u201d Williams said.\n\n\r\nNakase changed her starting lineup in a move that paid huge dividends after Golden State fell behind 2-1, inserting Kaila Charles and Tiffany Hayes and bringing Kayla Thornton and Cecilia Zandalasini off the bench.\n\n\r\nThe 37-year-old Hayes, who came out of retirement two years ago and spent 10 seasons with the Dream, scored 11 points in the winner-take-all Game 7 and brought energy all series that made Nakase want to win for the veteran guard as much as anybody.\n\n\r\nValkyries owner Joe Lacob guaranteed a championship within the first five years for this franchise three years ago when the Bay Area was granted an expansion team, and in improbable, joyful fashion, his team accomplished it in Year 2. That after becoming the first expansion organization to reach the playoffs in its inaugural year in 2025.\n\n\r\nDuring the victory ceremony, Lacob shouted out the team and its leaders, while Nakase, general manager Ohemma Nyanin and President Jess Smith hugged. And Lacob thanked the fans who have sold out Chase Center for every game since Day 1.\n\n\r\n\u201cBallhalla!\u201d Lacob hollered.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
+    },
+    {
       "story_id": "41679163",
       "headline": "Which player has the most career points in NHL history?",
       "summary": "Wayne Gretzky leads the list of NHL players with the most career points. Check out other top performers now.",
@@ -12678,20 +12692,6 @@
       "link": "https://www.espn.com/nhl/story/_/id/41679163/which-player-most-career-points-nhl-history",
       "stream_url": "",
       "body": "Wayne Gretzky owns a laundry list of NHL records, including the mark for the most career points. A player earns a point by either scoring a goal or getting an assist, which is credited to up to two players who pass the puck toward a teammate who scores. Gretzky's 894 career goals plus his 1,963 career assists give him a grand total of 2,857 points over his illustrious 20-year career. That's nearly 1,000 more than any other player.\n\nShop the latest NHL gear from Fanatics\n\nTake a look at the players with the most career points in NHL history below:\n\n*Denotes active player\n\nWayne Gretzky, 2,857 (894 goals + 1,963 assists)\nJaromir Jagr, 1,921 (766 goals + 1,155 assists)\nMark Messier, 1,887 (694 goals + 1,193 assists)\nGordie Howe, 1,850 (801 goals + 1,049 assists)\nRon Francis, 1,798 (549 goals + 1,249 assists)\nMarcel Dionne, 1,771 (731 goals + 1,040 assists)\n*Sidney Crosby, 1,771 (658 goals + 1,113 assists)\nSteve Yzerman, 1,755 (692 goals + 1,063 assists)\nMario Lemieux, 1,723 (690 goals + 1,033 assists)\n*Alex Ovechkin, 1,691 (930 goals + 761 assists)\nJoe Sakic, 1,641 (625 goals + 1,016 assists)\nPhil Esposito, 1,590 (717 goals + 873 assists)\nRay Bourque, 1,579 (410 goals + 1,169 assists)\nJoe Thornton, 1,539 (430 goals + 1,109 assists)\nMark Recchi, 1,533 (577 goals + 956 assists)\n\nCheck out the ESPN NHL hub page for the scores, standings, stats, schedules and more."
-    },
-    {
-      "story_id": "50319109",
-      "headline": "Obama, Bay Area teams celebrate Valkyries' WNBA title on social media",
-      "summary": "The Golden State Valkyries are WNBA champs. Here's how social media reacted to the victory.",
-      "image": "https://a.espncdn.com/photo/2026/1101/r1739309_608x342_16-9.jpg",
-      "published_utc": "2026-11-01T03:04:19Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "ESPN Staff",
-      "source": "ESPN",
-      "link": "https://www.espn.com/wnba/story/_/id/50319109/wnba-finals-2026-social-media",
-      "stream_url": "",
-      "body": "The champs are here.\n\nThe Golden State Valkyries won the 2026 WNBA championship after defeating the Atlanta Dream in seven games.\n\nGabby Williams shined in the series-clinching 68-63 win, pouring in 30 points, including multiple big buckets down the stretch to help the Valkyries take control of the game in the final minutes. Williams, who scored 28 of her 30 points in the second half to set a WNBA Finals record for points in a single half, was named series MVP. Kiah Stokes, Veronica Burton and Kaila Charles all moved the needle by grabbing boards for Golden State -- the trio combined for 31 of the team's 38 total rebounds on the night.\n\nThe Valkyries' victory -- which made them the quickest expansion team to win a title in league history -- was feted by a variety of local teams and A-list celebrity fans, who took their cheers and congratulations to social media.\n\nFrom former President Barack Obama to the Bay Area's other professional sports outfits, here's how social media celebrated Golden State's title."
     },
     {
       "story_id": "50343788",
@@ -12834,6 +12834,20 @@
       "body": "The 2026 Rugby League Cup kicks off in Sydney with the Kangaroos facing the Kiwis of New Zealand, in what could well be an early preview of the final.\n\nWith the continuing growth of International Rugby League and the improving strength of the island nations, each World Cup throws up a tougher challenge.\n\nThis year, with the men's, women's and wheelchair competitions to be played across Australia and Papua New Guinea, Australia's long standing rugby league dominance is under serious threat.\n\nMEN'S\nGroup Games\nWeek 1\n\nAustralia 24 def. New Zealand 22\nSamoa 78 def. France 4\n\nPapua New Guinea 42 def. Lebanon 18\n\nEngland 12 def. by Tonga 30\n\nFiji 40 def. Cook Islands 12\n\nWeek 2\n\nTonga 36 def. Lebanon 0\n\nPapua New Guinea 6 def. by Samoa 64\n\nEngland 82 def. France 0\n\nNew Zealand 82 def. Cook Islands 16\n\nAustralia 36 def. Fiji 22\n\nWeek 3\n\nEngland 34 def. Papua New Guinea 12\n\nNew Zealand 78 def. Fiji 0\n\nAustralia 66 def. Cook Islands 6\n\nSun 1 Nov, 5:50pm - Lebanon vs. France - CommBank Stadium\n\nSun 1 Nov, 8:05pm - Tonga vs. Samoa - CommBank Stadium\n\nSemifinals\n\nSat Nov 7, 8:05pm - New Zealand vs. TBC - McDonald Jones Stadium\n\nSun Nov 8, 8:05pm - Australia vs. TBC - Allianz Stadium, Sydney\n\nFinal\n\nSun Nov 15, 7:35pm - TBC v TBC - Suncorp Stadium, Brisbane\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Kevin Walters\n\nBradman Best (Knights), Jack Bostock (Dolphins), Blayke Brailey (Sharks), Pat Carrigan (Broncos), Reuben Cotter, Tom Dearden (Cowboys), Tino Fa'asuamaleaui (Titans), David Fifita, Keaon Koloamatangi, Latrell Mitchell, Cameron Murray (Rabbitohs), Harry Grant, Cameron Munster (Storm), Liam Martin, Lindsay Smith, Isaah Yeo (Panthers), Mitchell Moses (Eels), Jacob Preston (Bulldogs), Kotoni Staggs, Reece Walsh (Broncos), James Tedesco, Sam Walker (Roosters), Tom Trbojevic (Sea Eagles)\n\nCook Islands\n\nCoach: Karmichael Hunt\n\nCameron Brown (Brisbane Tigers), Rhys Dakin (Roosters), Glassie Glassie (Tigers), Valentine Holmes (Dragons), Esom Ioka (Brisbane Tigers), KL Iro (Sharks), Chaev Kolone (Raiders), Makahesi Makatoa (Roosters), Esan Marsters (Bradford Bulls), Amare Milford (Storm), Davvy Moale (Storm), K-CI Newton-Whare (Storm), Rua Ngatikaura (North Sydney Bears), Marata Niukore (Warriors), Pride Petterson-Robati (Souths Logan Magpies), Reuben Porter (Dragons), Reubenn Rennie (Toulouse Olympique), Brad Takairangi (Glebe Dirty Reds), Mason Teague (Wakefield Trinity), David Tuariki (Storm), Paul Ulberg (Toulouse Olympique), Delahia Wigmore (Panthers), Maui Winitana-Patelesio (Warriors)\n\nEngland\n\nCoach: Brian McDermott\n\nMatty Ashton (Warrington Wolves), AJ Brimson (Titans), Ben Currie (Warrington Wolves), Zach Eckersley (Wigan Warriors), Herbie Farnworth (Dolphins), Ethan Havard (Wigan Warriors), Max King (Bulldogs), Morgan Knowles (Dolphins), Mikey Lewis (Hull KR), Jez Litten (Hull KR), Junior Nsemba (Wigan Warriors), Brad O'Neill (Wigan Warriors), Kai Pearce-Paul (Tigers), Victor Radley (Roosters), Hugo Savala (Roosters), Harry Smith (Wigan Warriors), Morgan Smithies (Raiders), Ben Talty (Broncos), Luke Thompson (Wigan Warriors), Sam Walters (Wigan Warriors), Jack Welsby (St Helens), George Williams (Warrington Wolves), Dom Young (Knights)\n\nFiji\n\nCoach: Mick Potter\n\nBayleigh Bentley-Hape (Rabbitohs), Waqa Blake (St Helens), Kurt Donoghoe (Dolphins), Apenisa Driti (Northern Pride), Kitione Kautoga (Bulldogs), Elijah Keung (Bulldogs), Apisai Koroisau (Tigers), Josese Lanyon (Tigers), Jordan Leiu (Bulldogs), Joseph Litidamu (Fiji Bati), Kylan Mafoa (Sea Eagles), Taane Milne (Rabbitohs), Caleb Navale (Sea Eagles), Jimmy Ngutlik (Western Suburbs Magpies), Ronald Philitoga (North Sydney Bears), Mitchell Prest (Mackay Cutters), Emosi Ravosai (Kaiviti Silktails), Jacob Saifiti (Knights), Solomone Saukuru (Tigers), Sunia Turuva (Tigers), Semi Valemei (Castleford Tigers), Brandon Wakeham (Sea Eagles), Jordan Miller (Tigers)\n\nFrance\n\nCoach: Laurent Frayssinous\n\nGuillermo Aispuro-Bichet (Catalans Dragons), L\u00e9o Darr\u00e9latour (Catalans Dragons), Julian Bousquet (Catalans Dragons), Romain Navarrete (Catalans Dragons), Benjamin Garcia (Catalans Dragons), Alrix Da Costa (Catalans Dragons), Benjamin Laguerre (Toulouse Olympique), C\u00e9sar Roug\u00e9 (Toulouse Olympique), Thomas Lacans (Toulouse Olympique), Lambert Belmas (Toulouse Olympique), Tiaki Chan (Toulouse Olympique), Louis Grossemy (Toulouse Olympique), Mathieu Jussaume (Toulouse Olympique), Rom\u00e9o Tropis (Toulouse Olympique), Amir Bourouh (Hull FC), Arthur Romano (Hull FC), Arthur Mourgue (Hull KR), Jordan Dezaria (Hull KR), Mathieu Cozza (Huddersfield), Joe Drodrolagi (AS Carcassonne), Th\u00e9o Fages (Pia Donkeys), Fouad Yaha (Albi), Latrell Siegwalt (Rabbitohs)\n\nLebanon\n\nCoach: Michael Cheika\n\nMohamed Alameddine (Eels), Yehya Ayache (Rabbitohs), Jalal Bazzaz (Shellharbour Stingrays), Alex Conti (Bulldogs), Moustafa Dirani (St Marys Saints), Ibrahim El Labban (Wentworthville Magpies), Tony Francis (Titans), Tupou Francis (Broncos), Michael Gabrael (Sharks), Mikael Ibrahim (Titans), Jacob Kiraz (Bulldogs), Abbas Miski (Wigan Warriors), Brandon Morkos (Dragons), Joseph Nohra (Eels), Jaxson Rahme (Roosters), Khalil Rahme (Newtown Jets), Khaled Rajab (Newtown Jets), James Roumanos (Toulouse Olympique), Jason Saab (Sea Eagles), Jordan Samrani (Eels), Tanous Sukkar (Tigers), Charbel Tasipale (Newtown Jets), Alex Twal (Tigers)\n\nNew Zealand\n\nCoach: Stacey Jones\n\nErin Clark (Warriors), James Fisher-Harris (Warriors), Dane Gagai (Knights), Jahrome Hughes (Storm), Jamayne Isaako (Dolphins), Keano Kini (Titans), Jacob Laban (Warriors), Moses Leota (Panthers), Jeremy Marshall-King (Dolphins), Te Maire Martin (Warriors), Casey McLean (Panthers), Ronaldo Mulitalo (Sharks), Charnze Nicoll-Klokstad (Warriors), Briton Nikora (Sharks), Kodi Nikorima (Dolphins), Isaiah Papali'i (Panthers), Kalyn Ponga (Knights), Scott Sorensen (Panthers), Tanner Stowers-Smith (Warriors), Joseph Tapine (Raiders), Leo Thompson (Bulldogs), Naufahu Whyte (Roosters), Xavier Willison (Broncos)\n\nPapua New Guinea\n\nCoach: Jason Demetriou\n\nJack de Belin (Eels), Robert Derby (Cowboys), Dudley Dotoi (Townsville Blackhawks), Josh Feledy (Sea Eagles), Finley Glare (London Broncos), Liam Horne (Leigh Leopards), Edwin Ipape (Leigh Leopards), Zev John (Central Queensland Capras), Epel Kapinias (London Broncos), Bailey Biondi-Odo (Townsville Blackhawks), Zac Laybutt (Cowboys), Nene Macdonald (St Helens Saints), Rhyse Martin (Hull KR), Robert Mathias (London Broncos), Morea Morea Jnr (London Broncos), Luca Moretti (Eels), Sylvester Namo (Brisbane Tigers), Nixon Putt (Central Queensland Capras), Rodrick Tai (Central Queensland Capras), Valentine Richard (PNG Hunters), Gairo Voro (London Broncos), Sanny Wabo (PNG Hunters), Khaiya Waiembi (PNG Hunters)\n\nSamoa\n\nCoach: Ben Gardiner\n\nShawn Blore, Anae Ulesese (Storm), Stephen Crichton (Bulldogs), Sua Fa'alogo (Storm), Clayton Faulalo (Sea Eagles), Chanel Harris-Tavita (Warriors), Benaiah Ioelu (Roosters), Connelly Lemuelu (Dolphins), Spencer Leniu (Roosters), Jarome Luai (Tigers), Francis Manuleleua (Knights), Deine Mariner (Broncos), Ata Mariota (Raiders), Greg Marzhew (Knights), Jermaine McEwen (Knights), Francis Molo (Dolphins), Junior Paulo (Eels), Pasami Saulo (Knights), Hamiso Tabuai-Fidow (Dolphins), Izack Tago (Panthers), Jazz Tevaga (Wakefield Trinity), Brian To'o (Panthers), Enari Tuala (Bulldogs), Ronald Volkman (Eels)\n\nTonga\n\nCoach: Kristian Woolf\n\nAddin Fonua-Blake (Sharks), Dallin Watene-Zelezniak (Warriors), Demitric Vaimauga (Warriors), Haumole Olakau'atu (Sea Eagles), Isaiya Katoa (Dolphins), Jason Taumalolo (Cowboys), Jojo Fifita (Titans), Junior Amone (Wynnum Manly Seagulls), Kulikefu Finefeuiaki (Dolphins), Latu Fainu (Tigers), Lehi Hopoate (Sea Eagles), Leka Halasima (Warriors), Paul Alamoti (Panthers), Robert To'ia (Roosters), Salesi Foketi (Roosters), Sione Katoa (Sharks), Siua Wong (Roosters), Soni Luke (Cowboys), Stefano Utoikamanu (Storm), Taniela Paseka (Sea Eagles), Tolutau Koula (Sea Eagles), Tuimoala Lolohea (Huddersfield Giants), Tyson Frizell (Knights)\n\nWomen's\n\nPools\nGroup A: Australia, England, Samoa, Wales\n\nGroup B: New Zealand, Papua New Guinea, France, Fiji\n\nGROUP GAMES\nWeek 1\n\nAustralia 40 def. Samoa 0\n\nPapua New Guinea 58 def. France 4\n\nEngland 70 def. Wales 6\n\nNew Zealand 18 def. Fiji 12\n\nWeek 2\n\nSamoa 76 def. Wales 0\n\nFiji 40 def. Papua New Guinea 4\n\nAustralia 78 def. England 0\n\nNew Zealand 92 def. France 0\n\nWeek 3\n\nEngland 6 def. by Samoa 24\n\nFiji 54 def. France 6\n\nNew Zealand 40 def. Papua New Guinea 12\n\nSun Nov 1, 3:40pm - Australia vs. Wales - CommBank Stadium\n\nSemifinals\n\nSat Nov 7, 5:45pm - New Zealand v Samoa - McDonald Jones Stadium\n\nSun Nov 8, 5:45pm - Australia v Fiji - Allianz Stadium\n\nFinals\n\nSun Nov 15, 4:10pm - TBC v TBC - Suncorp Stadium\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Jess Skinner\n\nTarryn Aiken, Kezie Apps, Shaylee Bent, Jaime Chapman, Abbi Church, Quincy Dodd, Millie Elliott, Olivia Higgins, Ellie Johnston, Keilee Joseph, Jocelyn Kelleher, Isabelle Kelly, Olivia Kernick, Keeley Nizza, Sariah Paki, Tiana Penitani Gray, Julia Robinson, Jessica Sergis, Jesse Southwell, Simaima Taufa, Sarah Togatuki, Tamika Upton, Makenzie Weale.\n\nEngland\n\nCoach: Stuart Barrow\n\nKeara Bennett, Connie Boyd, Amelia Brown, Ruby Bruce, Mary Coleman, Evie Cousins, Jodie Cunningham, Anna Davies, Hollie-Mae Dodd, Jenna Foubister, Fran Goldthorp, Eva Hunter, Molly Jones, Hope Millard, Lucy Murray, Georgia Roche, Isabel Rowe, Lucie Sams, Jasmin Strange, Vicky Whitfield, Megan Williams, Georgia Wilson, Liv Wood.\nSamoa\n\nCoach: Frank Pritchard\n\nAmber Hall, Annetta Nu'uausala, Christabelle Onesemo-Tuilaepa, Christian Pio, Evania Isa'ako, Evelyn Roberts, Fanua Rimoni, Freedom Crichton Ropati, Ivana Lolesio, Jaydika Tafua, Jetaya Faifua, Laikha Clarke, Leilani Wilson, Mary-Jane Taito, Mercedez Taulelei-Siala, Monica Tagoai, Pauline Piliae-Rasabale, Sarina Masaga, Taliah Fuimaono, Tavarna Papalii, Tyra Ekepati.\nWales\n\nCoach: Tom Brindle\n\nHannah Bluck, Hollie Brussels, Leanne Burnell, Katie Carr, Georgia Cussions, Bethan Dainton, Lucia Davies, Jasmine Gibbons, Zoe Heeley, Gracie Hobbs, Emily Hughes, Frances Layton, Ffion Lewis, Carys Marsh, Dani McGifford, Jade Mullen, Tayla Preston, Amberley Ruck, Kathryn Salter, Paige Travis, Erin Williams, Si\u00e2n Williams, Agnes Wood.\nFiji\n\nCoach: Jone Wesele\n\nLeilani Ahsam, Teaghan Hartigan, Talei Holmes, Lorren Ieli, Tamika Jones, Ebony Laing, Sienna Laing, Losana Lutu, Tahlia Marshall, Ema Masi, Rory Muller, Sereana Naitokatoka, Taina Naividi, Elizabeth Naleba, Aliti Namoce, Maria Paseka, Abigayle Sekitoga, Latisha Smythe, Cassie Staples, Naomi Tegu, Nanise Vakacavu, Isabella Waterman, Luisa Yaranamua.\nFrance\n\nCoach: Alan Walsh\n\nElisa Akpa, Tessa Benmalek, Le\u00efla Bessahli, Stecy Bessiere, Camille Boudaud, Margot Canal, Lisa Diraison, Tallis Eranossian, Chahrazad Himoudi, Haoua Kessely, M\u00e9lissa Medina, Perrine Monsarrat, \u00c9lodie Pacull, Perle Ramazeilles, Fanny Ramos, Justine Roses, Manon Samarra, No\u00e9mie Samuel, Salom\u00e9 S\u00e9gala, Cristina Song-Puche, Louisa Tooman, Sarah-Louise Vernay, Ama\u00ebl Vilanove.\nNew Zealand\n\nCoach: Ricky Henry\n\nBrooke Anderson, Kaiyah Atai, Annessa Biddle, Brianna Clark, Georgia Hale, Mele Hufanga, Chantay Kiria-Ratu, Ivana Lauitiiti, Shannon Mato, Raecene McGregor, Shaniece Monschau, Apii Nicholls, Shanice Parker, Otesa Pule, Ashleigh Quinlan, Abigail Roache, Alexis Tauaneai, Trinity Tauaneai, Angelina Teakaraanga-Katoa, Zahara Temara, Leianne Tufuga, Stacey Waaka, Tenika Willison.\nPapua New Guinea\n\nCoach: Craig Sandercock\n\nTherese Aiton, Elsie Albert, Essay Banu, Anika Butler, Jenny David, Fleur Ginn, Belinda Gwasamun, Josephine Howard, Jasmine Joe, Naomi Kelly, Shellie Long, Mala Mark, Tia Molo, Mya Muller, Venessa Nakas, Cynthiah Peters, Ua Ravu, Jafinda Sap, Gemma Schnaubelt, India Seeto, Emily Veivers, Ivania Wong, Relna Wuruki-Hosea."
     },
     {
+      "story_id": "50319109",
+      "headline": "Obama, Bay Area teams celebrate Valkyries' WNBA title on social media",
+      "summary": "The Golden State Valkyries are WNBA champs. Here's how social media reacted to the victory.",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739309_608x342_16-9.jpg",
+      "published_utc": "2026-11-01T03:17:25Z",
+      "competition_id": "wnba",
+      "competition_name": "WNBA",
+      "byline": "ESPN Staff",
+      "source": "ESPN",
+      "link": "https://www.espn.com/wnba/story/_/id/50319109/wnba-finals-2026-social-media",
+      "stream_url": "",
+      "body": "The champs are here.\n\nThe Golden State Valkyries won the 2026 WNBA championship after defeating the Atlanta Dream in seven games.\n\nGabby Williams shined in the series-clinching 68-63 win, pouring in 30 points, including multiple big buckets down the stretch to help the Valkyries take control of the game in the final minutes. Williams, who scored 28 of her 30 points in the second half to set a WNBA Finals record for points in a single half, was named series MVP. Kiah Stokes, Veronica Burton and Kaila Charles all moved the needle by grabbing boards for Golden State -- the trio combined for 31 of the team's 38 total rebounds on the night.\n\nThe Valkyries' victory -- which made them the quickest expansion team to win a title in league history -- was feted by a variety of local teams and A-list celebrity fans, who took their cheers and congratulations to social media.\n\nFrom former President Barack Obama to the Bay Area's other professional sports outfits, here's how social media celebrated Golden State's title."
+    },
+    {
       "story_id": "41589293",
       "headline": "Who has scored the most goals in NHL history?",
       "summary": "Alex Ovechkin holds the record for the most individual career goals in NHL history. Which other players are at the top of the list?",
@@ -12846,20 +12860,6 @@
       "link": "https://www.espn.com/nhl/story/_/id/41589293/who-scored-most-goals-nhl-history",
       "stream_url": "",
       "body": "At the time of his retirement in 1999, Wayne Gretzky owned or shared 61 NHL records, including the mark for the most career goals. \"The Great One\" finished his illustrious 20-year career with an NHL-record 894 goals in 1,487 games. It is a mark that stood until Alex Ovechkin broke it in April 2025.\n\nWith Gretzky in attendance, Ovechkin scored his 895th career goal in a 4-1 loss to the New York Islanders. Ovechkin's record-breaking goal came in the 1,487th game of his NHL career, the same as Gretzky's career total.\n\nThe 2026-27 NHL season marks the 22nd for Ovechkin, who looks to add to his career goals total and put even more separation between him and the rest of the field.\n\nHere's a look at the players with the most career goals in NHL history:\n\nShop the latest NHL gear at Fanatics\n\n*Denotes active player\n\n*Alex Ovechkin: 930\nWayne Gretzky: 894\nGordie Howe: 801\nJaromir Jagr: 766\nBrett Hull: 741\nMarcel Dionne: 731\nPhil Esposito: 717\n\nMike Gartner: 708\nMark Messier: 694\nSteve Yzerman: 692\nMario Lemieux: 690\nTeemu Selanne: 684\nLuc Robitaille: 668\n*Sidney Crosby: 658\nBrendan Shanahan: 656\nDave Andreychuk: 640\n*Steven Stamkos: 631\nJoe Sakic: 625\nJarome Iginla: 625\nBobby Hull: 610\nDino Ciccarelli: 608\nJari Kurri: 601"
-    },
-    {
-      "story_id": "50343734",
-      "headline": "Gabby Williams leads Valkyries to WNBA championship in second season, beating Dream 68-63 in Game 7",
-      "summary": "\u2014 Gabby Williams scored her team's final 11 points of the third quarter and dazzled through the fourth on the way to 30 points, and the Golden State Valkyries captured a championship in just their second season by beating the Atlanta Dream 68-63 in a...",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/wnba/events/401918311.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-01T02:51:46Z",
-      "competition_id": "wnba",
-      "competition_name": "WNBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/wnba/recap?gameId=401918311",
-      "stream_url": "",
-      "body": "SAN FRANCISCO -- \u2014 Gabby Williams scored her team's final 11 points of the third quarter and dazzled through the fourth on the way to 30 points, and the Golden State Valkyries captured a championship in just their second season by beating the Atlanta Dream 68-63 in a sensational first WNBA Finals Game 7 on Saturday night.\n\n\r\nJordin Canada scored 18 points, Allisha Gray 16 and Angel Reese had eight points and 12 rebounds for the Dream, denied another championship in the franchise's fourth try.\n\n\r\nGray made two free throws with 11 seconds left then Atlanta forced a jump ball \u2014 Gray against Williams \u2014 and Veronica Burton corralled it and converted two free throws with 5.1 seconds to go.\n\n\r\n\u201cI'm just so blessed, this is insane!\u201d said Burton, cut by Dallas two years ago.\n\n\r\nRhyne Howard's layup tied it at 57 with 2:41 left only for Williams to answer once more with a clutch 3-pointer. She converted two free throws with 1:40 remaining, then Kiah Stokes scored a late basket. Stokes pulled down 13 rebounds and blocked two more shots to cap her spectacular postseason.\n\n\r\nWilliams left Seattle with a great feeling about joining Golden State and its close-knit culture, returning to the Bay Area where she played youth basketball to build something special with the Valkyries \u2014 and she\u2019s now done that. Fans chanted \u201cGabby! Gabby!\u201d throughout the fourth quarter.\n\n\r\n\u201cAll it took was good people,\u201d she said. \u201cAll we heard last year was we don\u2019t have no stars. We don\u2019t have no talent. Yeah right! We got good people. We got good people. We got winners. We got people who are ready to put their bodies on the floor to win a game.\u201d\n\n\r\nWhen the final buzzer sounded, the violet-clad sellout crowd at Chase Center went into a frenzy as players sprinted onto the floor to hug and celebrate as confetti fell from the rafters.\n\n\r\n\u201cBallhalla\u201d had become \u201cBoohalla\u201d for this far-but-haunted Halloween night in the raucous arena. Now, with a women's championship to its name right alongside the one earned by the Golden State Warriors in 2022.\n\n\r\n\u201cWe gotta build a bigger trophy case,\u201d co-owner Peter Guber said.\n\n\r\nThe team that led at halftime in the first six matchups had won every game so far, and the Dream were ahead 30-24 at the break. Atlanta also had been 16-0 this season when Reese made at least one 3. The Dream's DeWanna Bonner became the first player in WNBA history to reach 600 career postseason defensive rebounds.\n\n\r\nValkyries coach Natalie Nakase changed her starting lineup in a move that paid huge dividends after Golden State fell behind 2-1, inserting Kaila Charles and Tiffany Hayes and bringing Kayla Thornton and Cecilia Zandalasini off the bench.\n\n\r\nThe 37-year-old Hayes, who came out of retirement two years ago and spent 10 seasons with the Dream, scored 11 points in the winner-take-all Game 7 and brought energy all series that made Nakase want to win for the veteran guard as much as anybody.\n\n\r\nValkyries owner Joe Lacob guaranteed a championship within the first five years for this franchise three years ago when the Bay Area was granted an expansion team, and in improbable, joyful fashion, his team accomplished it in Year 2. That after becoming the first expansion organization to reach the playoffs in its inaugural year in 2025.\n\n\r\nDuring the victory ceremony, Lacob shouted out the team and its leaders, while Nakase, general manager Ohemma Nyanin and President Jess Smith hugged. And Lacob thanked the fans who have sold out Chase Center for every game since Day 1.\n\n\r\n\u201cBallhalla!\u201d Lacob hollered.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full WNBA coverage here"
     },
     {
       "story_id": "50343789",
