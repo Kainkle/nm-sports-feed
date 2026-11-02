@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-02T03:40:01.823708+00:00",
+  "generated_utc": "2026-11-02T03:50:13.221745+00:00",
   "events": [
     {
       "event_id": "motogp:d1aedfce-d7c8-4d4a-9532-99c82547baad",
@@ -7289,7 +7289,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-02T01:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:24",
         "name": "Anaheim Ducks",
@@ -7319,7 +7319,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Honda Center",
       "detail": "",
       "game_number": 1,
@@ -7367,7 +7367,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Northwest Stadium",
-      "detail": "1:33 - 3rd Quarter",
+      "detail": "13:48 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7413,7 +7413,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "7:06 - 4th Quarter",
+      "detail": "2:14 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7427,7 +7427,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-11-02T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:18966",
         "name": "LAFC",
@@ -7453,9 +7453,9 @@
         "color": "000000"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Second Half",
+      "source_status": "post/Full Time",
       "venue": "BMO Stadium",
-      "detail": "90'+2'",
+      "detail": "FT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7501,7 +7501,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "4:38 - 3rd Quarter",
+      "detail": "37.6 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7543,9 +7543,9 @@
         "color": "ff6b00"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/First Half",
+      "source_status": "in/Halftime",
       "venue": "Providence Park",
-      "detail": "44'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
