@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-02T02:49:29.108792+00:00",
+  "generated_utc": "2026-11-02T02:59:34.636561+00:00",
   "events": [
     {
       "event_id": "motogp:d1aedfce-d7c8-4d4a-9532-99c82547baad",
@@ -7365,9 +7365,9 @@
         "color": "06424d"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Northwest Stadium",
-      "detail": "1:13 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7411,9 +7411,9 @@
         "color": "12173f"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "Halftime",
+      "detail": "9:17 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7453,9 +7453,9 @@
         "color": "000000"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/Halftime",
+      "source_status": "in/Second Half",
       "venue": "BMO Stadium",
-      "detail": "HT",
+      "detail": "50'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7501,7 +7501,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "7:54 - 2nd Quarter",
+      "detail": "2:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7515,7 +7515,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-11-02T02:45Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:9723",
         "name": "Portland Timbers",
@@ -7543,9 +7543,9 @@
         "color": "ff6b00"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Providence Park",
-      "detail": "Sun, November 1st at 9:45 PM EST",
+      "detail": "2'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12567,6 +12567,20 @@
   ],
   "stories": [
     {
+      "story_id": "50354699",
+      "headline": "Messi brings Miami back to stun Revs, clinch Champions Cup spot",
+      "summary": "Inter Miami CF beat the New England Revolution 2-1 on Sunday in Foxborough, Massachusetts, with Lionel Messi once again providing the magic touch, this time to ensure his team's spot in the 2027 Concacaf Champions Cup.",
+      "image": "https://a.espncdn.com/photo/2026/1102/r1739921_1296x729_16-9.jpg",
+      "published_utc": "2026-11-02T02:51:18Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "Lizzy Becherano",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50354699/messi-brings-miami-back-stun-revs-clinch-champions-cup",
+      "stream_url": "",
+      "body": "Inter Miami CF beat the New England Revolution 2-1 on Sunday in Foxborough, Massachusetts, with Lionel Messi once again providing the magic touch, this time to ensure his team's spot in the 2027 Concacaf Champions Cup.\n\nThe win also helped Miami leapfrog the Revs into second place in the Eastern Conference with one game remaining in the MLS regular season.\n\nThe Revolution edged out Inter Miami in the first half, registering six total shots, five corner kicks and generating an expected goals of .75, but the match went to the break tied 0-0.\n\nD\u00e1niel Gazdag then opened up the scoring in the initial minutes of the second half, connecting with Ilay Feingold inside the box before finding the back of the net.\n\nMiami found a way to respond to Gazdag's strike with a goal from Germ\u00e1n Berterame -- set up by a deft backward header from Messi -- in the 69th minute. Head coach Cristian Gonzalez then bolstered Inter Miami's attack after drawing level, substituting in Luis Su\u00e1rez, who had started Miami's last 25 games.\n\nMessi doubled the score for Inter Miami, dribbling past defenders outside the box and smashing a trademark low, left-footed shot past Revs keeper Matt Turner.\n\nThe Revolution almost found their way back for a draw, but Ian Fray's own goal was quickly ruled offside to let Miami off the hook after it looked like Messi's heroics had been undone.\n\nUltimately, it was Messi's goal that clinched Inter Miami a spot in the 2027 Champions Cup. Had Miami lost or tied the game against the Revs they would have had work left to do on Decision Day on Nov. 7 to get into North America's top club competition.\n\nInter Miami now joins Nashville SC, the Revs and the Vancouver Whitecaps in the 2027 Concacaf Champions Cup. The winner of the 2026 MLS Cup will also have a place in the Champions Cup.\n\nThe Herons now have 59 points from 33 games, and will finish the regular season with a home game against Charlotte FC that will have seeding implications ahead of the MLS playoffs."
+    },
+    {
       "story_id": "50354250",
       "headline": "Connor McDavid has a goal and an assist to lead the Oilers past the Rangers, 4-1",
       "summary": "\u2014 Connor McDavid scored a goal and extended his NHL record season-opening assists streak to 15 games, powering the Edmonton Oilers past the New York...",
@@ -12635,20 +12649,6 @@
       "link": "https://www.espn.com/f1/story/_/id/50320325/kimi-antonelli-winning-historic-f1-title-day-remember-forever-mexico-city-grand-prix-formula-1-autodromo-hermanos-rodriguez",
       "stream_url": "",
       "body": "Kimi Antonelli cherished a \"day I will remember forever\" as he claimed his place in history as Formula 1's youngest world champion.\n\nAged just 20 years and 68 days, Antonelli's extraordinary march to the crown in his second season in the sport was completed under the Mexico City sun.\n\nHe needed to finish only ninth to secure the crown and showed composure beyond his years to navigate a chaotic race, coming home third to become the first Italian champion since 1953.\n\nA tearful Antonelli roared \"we did it\" over the radio before pulling up his Mercedes in the middle of the raucous Foro Sol Stadium, jumping out of the car and into the arms of his jubilant parents and younger sister Maggie.\n\nAntonelli joined Mercedes as a 12-year-old and the Silver Arrows' protege, long-since lauded as a generational talent, realised his destiny by sealing a stunning championship win with four rounds remaining.\n\nMercedes boss Toto Wolff greeted Antonelli with a huge bear hug.\n\n\"I would not be here without Mercedes or my family. I am speechless, trying to process what just happened,\" Antonelli said.\n\n\"A day I will remember forever. So grateful, thank you so much. I am going to enjoy every bit.\"\n\nThe race was won by Max Verstappen, with Lewis Hamilton second, meaning Antonelli shared the podium with two men who have 11 world championships between them.\n\nThere was a fitting moment as F1's newest champion found himself on the shoulders of giants, Hamilton and Verstappen holding the young Italian aloft on the podium.\n\n\"I'm going to out with my family, friends and the team and we're just going to enjoy all the way because this is a very special moment and one we will remember forever,\" Antonelli added.\n\n- Kimi Antonelli makes F1 history as youngest world champion with maiden title\n\n- Max Verstappen wins Mexico City GP for Red Bull; Kimi Antonelli seals historic title\n\n- Kimi Antonelli's historic F1 title: Every record broken and milestone reached\n\nAfter a debut season where Antonelli struggled, even raising doubts as to whether he would complete it, few would have backed him to storm to the championship in the manner he has.\n\nFather Marco, himself a former racing driver, has been by Kimi's side throughout and thanked Mercedes for believing in his son.\n\n\"It's unbelievable because after one year in Formula 1 with a lot of difficulties, arriving at this point and winning the title, there are no words to explain my satisfaction,\" he told Sky Sports.\n\n\"It is very good for Mercedes as well because they believed in Kimi. It's the best thank you Kimi can give to Mercedes for believing in him.\""
-    },
-    {
-      "story_id": "50353289",
-      "headline": "Nashville ties Miami's single-season points record, ends Red Bulls playoff push",
-      "summary": "Nashville got two own goals and a stoppage-time winner by Sam Surridge to erase a two-goal lead and beat the New York Red Bulls 3-2 on a rainy Sunday at Geodis Park.",
-      "image": "https://a.espncdn.com/photo/2026/1101/r1739837_1296x729_16-9.jpg",
-      "published_utc": "2026-11-02T00:23:43Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "ESPN News Services",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50353289/nashville-ties-miami-single-season-points-record",
-      "stream_url": "",
-      "body": "NASHVILLE, Tenn. -- Nashville got two own goals and a stoppage-time winner by Sam Surridge to erase a two-goal lead and beat the New York Red Bulls 3-2 on a rainy Sunday at Geodis Park.\n\nNashville (22-3-8) upped its unbeaten streak to nine and finished unbeaten at home -- 15-0-2 -- for the second time in club history after having already clinched the Supporters' Shield.\n\nNashville tied Inter Miami's MLS record 74-point season set in 2024 with one match remaining. The club's 44 points at home are a league record and it received the Shield following the win in front of a raucous home crowd.\n\nThe loss by the Red Bulls (11-16-6) coupled with Toronto's FC's 3-0 loss to Atlanta United clinches an Eastern Conference postseason berth for the Columbus Crew.\n\nNew York took a 1-0 lead in the 34th minute on a goal by teenager Julian Hall after Nashville rookie goalkeeper Brian Schwake made a save on a penalty kick by 19-year-old Cade Cowell in the 19th.\n\nSeventeen-year-old rookie Adri Mehmeti and 19-year-old Sekou Kone had assists on the 18-year-old's 13th goal this season after Hall scored three times through his first 38 appearances. Mehmet's assist was his ninth and Kone picked up his first in his seventh career match.\n\nCowell and defender Devin Padelford set up Rafael Mosquera six minutes later for his first MLS goal in his first start and 13th career appearance for a 2-0 advantage. Mosquera had just subbed in to the match a minute earlier.\n\nNashville cut it to 2-1 at halftime on an own goal by New York defender Tim Parker in the 45th minute, then tied it in the 81st on an own goal by defender Julian Bazan.\n\nSurridge used his head to score the winner in the first minute of stoppage time. Cristian Espinoza had his career-high 15th assist on Surridge's 19th goal of the campaign. It was the 97th assist in 247 appearances for Espinoza.\n\nSchwake totaled two saves for Nashville, which went 8-0-8 at home during its inaugural 2020 season.\n\nEthan Horvath turned away seven shots for New York.\n\nNashville beat the Red Bulls 1-0 on the road on Aug. 19, and will head to Cincinnati on Decision Day on Nov. 7 to try to set the MLS single-season points record with a win or a draw.\n\nB.J. Callaghan's team, which will have home field throughout the playoffs, hasn't lost at Geodis Park since Atlanta United beat them 1-0 on the final day of August last season.\n\nInformation from The Associated Press was used in this report."
     },
     {
       "story_id": "50348491",
@@ -12735,6 +12735,20 @@
       "body": "When Reece Walsh spoke to Australia coach Kevin Walters in August after ankle surgery concerning his World Cup hopes, there were no guarantees.\n\nIt is why the Kangaroos fullback's ice pack on his left ankle after the 66-6 win over Cook Islands on Saturday night, in his second man of the match display in the tournament, was a symbol of his commitment and drive beyond the flamboyance he shows on the field.\n\nWalsh, 24, took a knock to the same ankle against the Aitu in Townsville that he suffered a high grade syndesmosis injury to while playing for Brisbane on August 15.\n\nHe played through the discomfort to set up five tries, vindicating all the hard yards in rehab that got him selected for his first World Cup.\n\n\"I spoke to Kevvie early and I said if you are thinking about picking me, I am going to do everything I can to get back,\" Walsh said\n\n\"He said, 'Walshy, nothing is guaranteed. If you get fit and get your ankle right I will have a look at it'. I didn't go on holidays. To be honest I worked really hard to put myself in a position to get back in this team.\"\n\nWalsh spent three or four days at the Broncos with rehab and physio gurus such as Lindsay Self and Luke Anning, whom he praised for assisting him in their own holiday breaks.\n\nThey told him not to be overly concerned if he suffered a bump on the ankle.\n\n\"They generally say that when you have the tightrope (fixation surgery) and rod through it that it is stronger than it normally is,\" Walsh said.\n\n\"I was bound to get a bang on it. I didn't get one in the first game and I got one out there (against Cook Islands) so I feel like it was a good test of strength of it.\"\n\nWalsh is in a fullback battle with Sydney Roosters captain James Tedesco, who was excellent in the 36-22 win over Fiji last week in the match Walsh did not play.\n\nWalsh would widely be considered to have his nose slightly in front to play in the semi-final against Samoa at Allianz Stadium on Sunday night, but the coach has given him no indication.\n\n\"He actually hasn't. One thing we spoke about being in this environment and this team is nothing is guaranteed,\" Walsh said.\n\n\"We are all here to learn off each other and help each other get to the ultimate goal of winning the World Cup.\n\n\"Whatever Kevvie wants to do we are all going to support him. No one has dropped their lip or had a sour taste.\"\n\nWalsh, also a Queensland representative, is a sponge taking in Tedesco's wisdom as he lives out his boyhood Kangaroos dream.\n\n\"When you look at this jersey I feel like it is the pinnacle of our game,\" he said.\n\n\"Origin level is so amazing but I also feel like as a kid you play in Queensland or NSW to make Australia.\n\n\"I wear that jersey with pride. I go out there to represent not just myself but our nation and my family and the people that set me up to be here.\n\n\"I feel like being in camp with Teddy has been such a blessing for me.\n\n\"To see someone like himself, the way he prepares, the way he carries himself and the character he is ... I am learning so much.\""
     },
     {
+      "story_id": "50353289",
+      "headline": "Nashville ties Miami's single-season points record, ends Red Bulls playoff push",
+      "summary": "Nashville got two own goals and a stoppage-time winner by Sam Surridge to erase a two-goal lead and beat the New York Red Bulls 3-2 on a rainy Sunday at Geodis Park.",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739837_1296x729_16-9.jpg",
+      "published_utc": "2026-11-02T00:23:43Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "ESPN News Services",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50353289/nashville-ties-miami-single-season-points-record",
+      "stream_url": "",
+      "body": "NASHVILLE, Tenn. -- Nashville got two own goals and a stoppage-time winner by Sam Surridge to erase a two-goal lead and beat the New York Red Bulls 3-2 on a rainy Sunday at Geodis Park.\n\nNashville (22-3-8) upped its unbeaten streak to nine and finished unbeaten at home -- 15-0-2 -- for the second time in club history after having already clinched the Supporters' Shield.\n\nNashville tied Inter Miami's MLS record 74-point season set in 2024 with one match remaining. The club's 44 points at home are a league record and it received the Shield following the win in front of a raucous home crowd.\n\nThe loss by the Red Bulls (11-16-6) coupled with Toronto's FC's 3-0 loss to Atlanta United clinches an Eastern Conference postseason berth for the Columbus Crew.\n\nNew York took a 1-0 lead in the 34th minute on a goal by teenager Julian Hall after Nashville rookie goalkeeper Brian Schwake made a save on a penalty kick by 19-year-old Cade Cowell in the 19th.\n\nSeventeen-year-old rookie Adri Mehmeti and 19-year-old Sekou Kone had assists on the 18-year-old's 13th goal this season after Hall scored three times through his first 38 appearances. Mehmet's assist was his ninth and Kone picked up his first in his seventh career match.\n\nCowell and defender Devin Padelford set up Rafael Mosquera six minutes later for his first MLS goal in his first start and 13th career appearance for a 2-0 advantage. Mosquera had just subbed in to the match a minute earlier.\n\nNashville cut it to 2-1 at halftime on an own goal by New York defender Tim Parker in the 45th minute, then tied it in the 81st on an own goal by defender Julian Bazan.\n\nSurridge used his head to score the winner in the first minute of stoppage time. Cristian Espinoza had his career-high 15th assist on Surridge's 19th goal of the campaign. It was the 97th assist in 247 appearances for Espinoza.\n\nSchwake totaled two saves for Nashville, which went 8-0-8 at home during its inaugural 2020 season.\n\nEthan Horvath turned away seven shots for New York.\n\nNashville beat the Red Bulls 1-0 on the road on Aug. 19, and will head to Cincinnati on Decision Day on Nov. 7 to try to set the MLS single-season points record with a win or a draw.\n\nB.J. Callaghan's team, which will have home field throughout the playoffs, hasn't lost at Geodis Park since Atlanta United beat them 1-0 on the final day of August last season.\n\nInformation from The Associated Press was used in this report."
+    },
+    {
       "story_id": "50354253",
       "headline": "Edmonton Oilers vs. New York Rangers: Game Highlights",
       "summary": "Edmonton Oilers vs. New York Rangers: Game Highlights",
@@ -12803,20 +12817,6 @@
       "link": "https://www.espn.com/f1/story/_/id/50195873/in-pictures-kimi-antonelli-2026-formula-1-title",
       "stream_url": "",
       "body": "Kimi Antonelli has been crowned Formula 1 world champion and is the youngest driver in history to do so.\n\nThe 20-year-old finished third at the Mexico City Grand Prix, sealing Mercedes' first drivers' trophy since 2020.\n\nFrom claiming his first career victory at the second round of the season, to sealing the title in Mexico, here are all the pictures of his title journey.\n\n- Kimi Antonelli makes F1 history as youngest world champion with maiden title\n\n- Max Verstappen wins Mexico City GP for Red Bull; Kimi Antonelli seals historic title\n\n- Kimi Antonelli's historic F1 title: Every record broken and milestone reached"
-    },
-    {
-      "story_id": "50344216",
-      "headline": "Colorado Rapids vs. Chicago Fire FC - Game Highlights",
-      "summary": "Watch the Game Highlights from Colorado Rapids vs. Chicago Fire FC, 10/31/2026",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/5da17d7b-d19d-4521-8c8c-c29d0bb740c4/5da17d7b-d19d-4521-8c8c-c29d0bb740c4.jpg",
-      "published_utc": "2026-11-01T03:55:29Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50344216/colorado-rapids-vs-chicago-fire-fc-game-highlights",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50309811",
