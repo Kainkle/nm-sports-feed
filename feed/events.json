@@ -1,42 +1,6 @@
 {
-  "generated_utc": "2026-11-02T23:53:45.780747+00:00",
+  "generated_utc": "2026-11-03T00:03:48.942990+00:00",
   "events": [
-    {
-      "event_id": "motogp:d1aedfce-d7c8-4d4a-9532-99c82547baad",
-      "sport": "motorsport",
-      "competition_id": "motogp",
-      "competition_name": "MotoGP",
-      "start_utc": "2026-10-30T08:00:00+08:00",
-      "status": "unknown",
-      "home": {
-        "id": "motogp:d1aedfce-d7c8-4d4a-9532-99c82547baad",
-        "name": "PETRONAS GRAND PRIX OF MALAYSIA ",
-        "abbrev": "",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "motogp:circuit",
-        "name": "Petronas Sepang International Circuit",
-        "abbrev": "",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "motogp",
-      "source_status": "calendar",
-      "venue": "Petronas Sepang International Circuit",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "espn:racing:600057447",
       "sport": "racing",
@@ -76,947 +40,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": "Mexico City Grand Prix"
-    },
-    {
-      "event_id": "espn:soccer:401884746",
-      "sport": "soccer",
-      "competition_id": "ger.1",
-      "competition_name": "Bundesliga",
-      "start_utc": "2026-10-30T19:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:10388",
-        "name": "SV Elversberg",
-        "abbrev": "ELV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
-        "logo_dark": null,
-        "aliases": [
-          "ELV",
-          "Elversberg",
-          "SV Elversberg"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:2950",
-        "name": "Mainz",
-        "abbrev": "M05",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
-        "logo_dark": null,
-        "aliases": [
-          "M05",
-          "Mainz"
-        ],
-        "color": "DA0308"
-      },
-      "source": "espn:soccer/ger.1",
-      "source_status": "post/Full Time",
-      "venue": "URSAPHARM-Arena an der Kaiserlinde",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "Hb1Cng1Cd1s",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:rugby:604064",
-      "sport": "rugby",
-      "competition_id": "urc",
-      "competition_name": "United Rugby Championship",
-      "start_utc": "2026-10-30T19:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:25923",
-        "name": "Connacht",
-        "abbrev": "CON",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25923.png",
-        "logo_dark": null,
-        "aliases": [
-          "CON",
-          "Connacht"
-        ],
-        "color": "006633"
-      },
-      "away": {
-        "id": "espn:25924",
-        "name": "Leinster",
-        "abbrev": "LEI",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25924.png",
-        "logo_dark": null,
-        "aliases": [
-          "LEI",
-          "Leinster"
-        ],
-        "color": "0000FF"
-      },
-      "source": "espn:rugby/270557",
-      "source_status": "post/FT",
-      "venue": "Dexcom Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:rugby:604065",
-      "sport": "rugby",
-      "competition_id": "urc",
-      "competition_name": "United Rugby Championship",
-      "start_utc": "2026-10-30T19:45Z",
-      "status": "final",
-      "home": {
-        "id": "espn:25952",
-        "name": "Glasgow Warriors",
-        "abbrev": "GLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25952.png",
-        "logo_dark": null,
-        "aliases": [
-          "GLA",
-          "Glasgow Warriors"
-        ],
-        "color": "000033"
-      },
-      "away": {
-        "id": "espn:25958",
-        "name": "Lions",
-        "abbrev": "LIO",
-        "logo": "https://a.espncdn.com/i/teamlogos/rugby/teams/500/25958.png",
-        "logo_dark": null,
-        "aliases": [
-          "LIO",
-          "Lions"
-        ],
-        "color": "CC0000"
-      },
-      "source": "espn:rugby/270557",
-      "source_status": "post/FT",
-      "venue": "Scotstoun Stadium",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:soccer:401882817",
-      "sport": "soccer",
-      "competition_id": "esp.1",
-      "competition_name": "La Liga",
-      "start_utc": "2026-10-30T20:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:102",
-        "name": "Villarreal",
-        "abbrev": "VIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-        "logo_dark": null,
-        "aliases": [
-          "VIL",
-          "Villarreal"
-        ],
-        "color": "ffff00"
-      },
-      "away": {
-        "id": "espn:88",
-        "name": "Espanyol",
-        "abbrev": "ESP",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-        "logo_dark": null,
-        "aliases": [
-          "ESP",
-          "Espanyol"
-        ],
-        "color": "3366CC"
-      },
-      "source": "espn:soccer/esp.1",
-      "source_status": "post/Full Time",
-      "venue": "Estadio de la Cer\u00e1mica",
-      "detail": "FT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020214",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-30T22:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:54",
-        "name": "Vegas Golden Knights",
-        "abbrev": "VGK",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
-        "aliases": [
-          "Golden Knights",
-          "VGK",
-          "Vegas",
-          "Vegas Golden Knights"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:1",
-        "name": "New Jersey Devils",
-        "abbrev": "NJD",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
-        "aliases": [
-          "Devils",
-          "NJD",
-          "New Jersey",
-          "New Jersey Devils"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "T-Mobile Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "XaWTUuHOt8U",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020215",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-30T23:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:13",
-        "name": "Florida Panthers",
-        "abbrev": "FLA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
-        "aliases": [
-          "FLA",
-          "Florida",
-          "Florida Panthers",
-          "Panthers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:52",
-        "name": "Winnipeg Jets",
-        "abbrev": "WPG",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
-        "aliases": [
-          "Jets",
-          "WPG",
-          "Winnipeg",
-          "Winnipeg Jets"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Amerant Bank Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "xbpc4l9ZhPY",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909277",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-30T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:27",
-        "name": "Washington Wizards",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "WSH",
-          "Washington",
-          "Washington Wizards",
-          "Wizards"
-        ],
-        "color": "e31837"
-      },
-      "away": {
-        "id": "espn:30",
-        "name": "Charlotte Hornets",
-        "abbrev": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-        "logo_dark": null,
-        "aliases": [
-          "CHA",
-          "Charlotte",
-          "Charlotte Hornets",
-          "Hornets"
-        ],
-        "color": "008ca8"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Capital One Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "m3Z07hnlrc4",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862813",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-30T23:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2429",
-        "name": "Charlotte 49ers",
-        "abbrev": "CLT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
-        "logo_dark": null,
-        "aliases": [
-          "49ers",
-          "CLT",
-          "Charlotte",
-          "Charlotte 49ers"
-        ],
-        "color": "005035"
-      },
-      "away": {
-        "id": "espn:2655",
-        "name": "Tulane Green Wave",
-        "abbrev": "TULN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
-        "logo_dark": null,
-        "aliases": [
-          "Green Wave",
-          "TULN",
-          "Tulane",
-          "Tulane Green Wave"
-        ],
-        "color": "006747"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Jerry Richardson Stadium",
-      "detail": "Final/OT",
-      "game_number": 1,
-      "highlight_video_id": "Y0BHW_icDuQ",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909278",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-30T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2",
-        "name": "Boston Celtics",
-        "abbrev": "BOS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-        "logo_dark": null,
-        "aliases": [
-          "BOS",
-          "Boston",
-          "Boston Celtics",
-          "Celtics"
-        ],
-        "color": "008348"
-      },
-      "away": {
-        "id": "espn:4",
-        "name": "Chicago Bulls",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "CHI",
-          "Chicago",
-          "Chicago Bulls"
-        ],
-        "color": "ce1141"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "TD Garden",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "QM_6ANAk3Tc",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909279",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-30T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:17",
-        "name": "Brooklyn Nets",
-        "abbrev": "BKN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-        "logo_dark": null,
-        "aliases": [
-          "BKN",
-          "Brooklyn",
-          "Brooklyn Nets",
-          "Nets"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:8",
-        "name": "Detroit Pistons",
-        "abbrev": "DET",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Pistons",
-          "Pistons"
-        ],
-        "color": "1d428a"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Barclays Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "63hEz2CIWIk",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909280",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-30T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:20",
-        "name": "Philadelphia 76ers",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-        "logo_dark": null,
-        "aliases": [
-          "76ers",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia 76ers"
-        ],
-        "color": "1d428a"
-      },
-      "away": {
-        "id": "espn:18",
-        "name": "New York Knicks",
-        "abbrev": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knicks",
-          "NY",
-          "New York",
-          "New York Knicks"
-        ],
-        "color": "1d428a"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Xfinity Mobile Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "w2jhGRuvouA",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909281",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-30T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:28",
-        "name": "Toronto Raptors",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-        "logo_dark": null,
-        "aliases": [
-          "Raptors",
-          "TOR",
-          "Toronto",
-          "Toronto Raptors"
-        ],
-        "color": "d91244"
-      },
-      "away": {
-        "id": "espn:19",
-        "name": "Orlando Magic",
-        "abbrev": "ORL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-        "logo_dark": null,
-        "aliases": [
-          "Magic",
-          "ORL",
-          "Orlando",
-          "Orlando Magic"
-        ],
-        "color": "0150b5"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Scotiabank Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "RmURKQmof1Y",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856844",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-30T23:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2116",
-        "name": "UCF Knights",
-        "abbrev": "UCF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knights",
-          "UCF",
-          "UCF Knights"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:239",
-        "name": "Baylor Bears",
-        "abbrev": "BAY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-        "logo_dark": null,
-        "aliases": [
-          "BAY",
-          "Baylor",
-          "Baylor Bears",
-          "Bears"
-        ],
-        "color": "154734"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Acrisure Bounce House",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "7mepmosniHU",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020216",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-10-31T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:20",
-        "name": "Calgary Flames",
-        "abbrev": "CGY",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
-        "aliases": [
-          "CGY",
-          "Calgary",
-          "Calgary Flames",
-          "Flames"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:55",
-        "name": "Seattle Kraken",
-        "abbrev": "SEA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
-        "aliases": [
-          "Kraken",
-          "SEA",
-          "Seattle",
-          "Seattle Kraken"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Scotiabank Saddledome",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "tvmaze:803:s27e44",
-      "sport": "wrestling",
-      "competition_id": "wwe",
-      "competition_name": "WWE",
-      "start_utc": "2026-10-31T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:803",
-        "name": "WWE Friday Night SmackDown",
-        "abbrev": "SD",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:wwe",
-        "name": "WWE",
-        "abbrev": "WWE",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:wwe",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "WWE Friday Night SmackDown"
-    },
-    {
-      "event_id": "espn:basketball:401909282",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-31T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:14",
-        "name": "Miami Heat",
-        "abbrev": "MIA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-        "logo_dark": null,
-        "aliases": [
-          "Heat",
-          "MIA",
-          "Miami",
-          "Miami Heat"
-        ],
-        "color": "98002e"
-      },
-      "away": {
-        "id": "espn:11",
-        "name": "Indiana Pacers",
-        "abbrev": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-        "logo_dark": null,
-        "aliases": [
-          "IND",
-          "Indiana",
-          "Indiana Pacers",
-          "Pacers"
-        ],
-        "color": "0c2340"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Kaseya Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909283",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-31T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:6",
-        "name": "Dallas Mavericks",
-        "abbrev": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-        "logo_dark": null,
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Mavericks",
-          "Mavericks"
-        ],
-        "color": "0064b1"
-      },
-      "away": {
-        "id": "espn:10",
-        "name": "Houston Rockets",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Rockets",
-          "Rockets"
-        ],
-        "color": "ce0e2d"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "American Airlines Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909284",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-31T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:16",
-        "name": "Minnesota Timberwolves",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Timberwolves",
-          "Timberwolves"
-        ],
-        "color": "266092"
-      },
-      "away": {
-        "id": "espn:12",
-        "name": "LA Clippers",
-        "abbrev": "LAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-        "logo_dark": null,
-        "aliases": [
-          "Clippers",
-          "LA",
-          "LA Clippers",
-          "LAC"
-        ],
-        "color": "12173f"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Target Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909285",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-31T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:9",
-        "name": "Golden State Warriors",
-        "abbrev": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-        "logo_dark": null,
-        "aliases": [
-          "GS",
-          "Golden State",
-          "Golden State Warriors",
-          "Warriors"
-        ],
-        "color": "fdb927"
-      },
-      "away": {
-        "id": "espn:13",
-        "name": "Los Angeles Lakers",
-        "abbrev": "LAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-        "logo_dark": null,
-        "aliases": [
-          "LAL",
-          "Lakers",
-          "Los Angeles",
-          "Los Angeles Lakers"
-        ],
-        "color": "552583"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Chase Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909286",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-10-31T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:21",
-        "name": "Phoenix Suns",
-        "abbrev": "PHX",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-        "logo_dark": null,
-        "aliases": [
-          "PHX",
-          "Phoenix",
-          "Phoenix Suns",
-          "Suns"
-        ],
-        "color": "29127a"
-      },
-      "away": {
-        "id": "espn:7",
-        "name": "Denver Nuggets",
-        "abbrev": "DEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-        "logo_dark": null,
-        "aliases": [
-          "DEN",
-          "Denver",
-          "Denver Nuggets",
-          "Nuggets"
-        ],
-        "color": "0e2240"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Mortgage Matchup Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866451",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-10-31T02:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:16",
-        "name": "Sacramento State Hornets",
-        "abbrev": "SAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hornets",
-          "SAC",
-          "Sacramento St",
-          "Sacramento State",
-          "Sacramento State Hornets"
-        ],
-        "color": "00573C"
-      },
-      "away": {
-        "id": "espn:2309",
-        "name": "Kent State Golden Flashes",
-        "abbrev": "KENT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Flashes",
-          "KENT",
-          "Kent State",
-          "Kent State Golden Flashes"
-        ],
-        "color": "002664"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Hornet Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "ERlbRkOCwcA",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
     },
     {
       "event_id": "espn:soccer:401879248",
@@ -7806,7 +6829,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Benchmark International Arena",
-      "detail": "2:27 - 1st Half",
+      "detail": "0:17 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7898,7 +6921,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Cameron Indoor Stadium",
-      "detail": "11:30 - 1st Half",
+      "detail": "7:57 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7945,7 +6968,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Carnesecca Arena",
-      "detail": "11:33 - 1st Half",
+      "detail": "8:17 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8097,7 +7120,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-03T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:127",
         "name": "Michigan State Spartans",
@@ -8128,9 +7151,9 @@
         "color": "041B43"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Breslin Center",
-      "detail": "Mon, November 2nd at 7:00 PM EST",
+      "detail": "19:52 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8237,7 +7260,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-03T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:238",
         "name": "Vanderbilt Commodores",
@@ -8267,9 +7290,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Memorial Gymnasium (TN)",
-      "detail": "Mon, November 2nd at 7:00 PM EST",
+      "detail": "19:14 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10771,6 +9794,993 @@
       "card": ""
     },
     {
+      "event_id": "espn:soccer:401915383",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T17:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:887",
+        "name": "AEK Athens",
+        "abbrev": "AEK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+        "logo_dark": null,
+        "aliases": [
+          "AEK",
+          "AEK Athens"
+        ],
+        "color": "ffff00"
+      },
+      "away": {
+        "id": "espn:86",
+        "name": "Real Madrid",
+        "abbrev": "RMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+        "logo_dark": null,
+        "aliases": [
+          "RMA",
+          "Real Madrid"
+        ],
+        "color": "ffffff"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "OPAP Arena",
+      "detail": "Wed, November 4th at 12:45 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915382",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T17:45Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:436",
+        "name": "Fenerbahce",
+        "abbrev": "FEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+        "logo_dark": null,
+        "aliases": [
+          "FEN",
+          "Fenerbahce"
+        ],
+        "color": "ffff00"
+      },
+      "away": {
+        "id": "espn:364",
+        "name": "Liverpool",
+        "abbrev": "LIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "logo_dark": null,
+        "aliases": [
+          "LIV",
+          "Liverpool"
+        ],
+        "color": "d11317"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "\u015e\u00fckr\u00fc Saraco\u011flu Stadium",
+      "detail": "Wed, November 4th at 12:45 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915304",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:124",
+        "name": "Borussia Dortmund",
+        "abbrev": "DOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "logo_dark": null,
+        "aliases": [
+          "Borussia Dortmund",
+          "DOR",
+          "Dortmund"
+        ],
+        "color": "ffee00"
+      },
+      "away": {
+        "id": "espn:244",
+        "name": "Real Betis",
+        "abbrev": "BET",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+        "logo_dark": null,
+        "aliases": [
+          "BET",
+          "Betis",
+          "Real Betis"
+        ],
+        "color": "288A00"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Signal Iduna Park",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915301",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:437",
+        "name": "FC Porto",
+        "abbrev": "FCP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+        "logo_dark": null,
+        "aliases": [
+          "FC Porto",
+          "FCP"
+        ],
+        "color": "0000dd"
+      },
+      "away": {
+        "id": "espn:114",
+        "name": "Napoli",
+        "abbrev": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+        "logo_dark": null,
+        "aliases": [
+          "NAP",
+          "Napoli"
+        ],
+        "color": "0677d2"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Est\u00e1dio do Drag\u00e3o",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915305",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:175",
+        "name": "Lens",
+        "abbrev": "RCL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lens",
+          "RCL"
+        ],
+        "color": "E91514"
+      },
+      "away": {
+        "id": "espn:2572",
+        "name": "Como",
+        "abbrev": "COMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+        "logo_dark": null,
+        "aliases": [
+          "COMO",
+          "Como"
+        ],
+        "color": "4169E1"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Stade Bollaert-Delelis",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915303",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:148",
+        "name": "PSV Eindhoven",
+        "abbrev": "PSV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+        "logo_dark": null,
+        "aliases": [
+          "PSV",
+          "PSV Eindhoven"
+        ],
+        "color": "ef2f24"
+      },
+      "away": {
+        "id": "espn:570",
+        "name": "Club Brugge",
+        "abbrev": "BRU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+        "logo_dark": null,
+        "aliases": [
+          "BRU",
+          "Club Brugge"
+        ],
+        "color": "0081ff"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Philips Stadion",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915306",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:11420",
+        "name": "RB Leipzig",
+        "abbrev": "RBL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+        "logo_dark": null,
+        "aliases": [
+          "RB Leipzig",
+          "RBL"
+        ],
+        "color": "ffffff"
+      },
+      "away": {
+        "id": "espn:382",
+        "name": "Manchester City",
+        "abbrev": "MNC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        "logo_dark": null,
+        "aliases": [
+          "MNC",
+          "Man City",
+          "Manchester City"
+        ],
+        "color": "99c5ea"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Red Bull Arena",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915381",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:494",
+        "name": "Slavia Prague",
+        "abbrev": "SLP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+        "logo_dark": null,
+        "aliases": [
+          "SLP",
+          "Slavia Prague"
+        ],
+        "color": "dc1f26"
+      },
+      "away": {
+        "id": "espn:359",
+        "name": "Arsenal",
+        "abbrev": "ARS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARS",
+          "Arsenal"
+        ],
+        "color": "e20520"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Fortuna Arena",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401915302",
+      "sport": "soccer",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "start_utc": "2026-11-04T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:510",
+        "name": "Viking FK",
+        "abbrev": "VFK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+        "logo_dark": null,
+        "aliases": [
+          "VFK",
+          "Viking FK"
+        ],
+        "color": "000080"
+      },
+      "away": {
+        "id": "espn:21922",
+        "name": "Sabah FK",
+        "abbrev": "SAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+        "logo_dark": null,
+        "aliases": [
+          "SAB",
+          "Sabah",
+          "Sabah FK"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:soccer/uefa.champions",
+      "source_status": "pre/Scheduled",
+      "venue": "Viking Stadion",
+      "detail": "Wed, November 4th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920232",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-04T23:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:159",
+        "name": "Dartmouth Big Green",
+        "abbrev": "DART",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+        "logo_dark": null,
+        "aliases": [
+          "Big Green",
+          "DART",
+          "Dartmouth",
+          "Dartmouth Big Green"
+        ],
+        "color": "005730"
+      },
+      "away": {
+        "id": "espn:126956",
+        "name": "Framingham State Rams",
+        "abbrev": "FRSU",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "FRSU",
+          "Framingham St",
+          "Framingham State",
+          "Framingham State Rams",
+          "Rams"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Leede Arena",
+      "detail": "Wed, November 4th at 6:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909922",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:8",
+        "name": "Detroit Pistons",
+        "abbrev": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Pistons",
+          "Pistons"
+        ],
+        "color": "1d428a"
+      },
+      "away": {
+        "id": "espn:20",
+        "name": "Philadelphia 76ers",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "76ers",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia 76ers"
+        ],
+        "color": "1d428a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Little Caesars Arena",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909923",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:27",
+        "name": "Washington Wizards",
+        "abbrev": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+        "logo_dark": null,
+        "aliases": [
+          "WSH",
+          "Washington",
+          "Washington Wizards",
+          "Wizards"
+        ],
+        "color": "e31837"
+      },
+      "away": {
+        "id": "espn:1",
+        "name": "Atlanta Hawks",
+        "abbrev": "ATL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+        "logo_dark": null,
+        "aliases": [
+          "ATL",
+          "Atlanta",
+          "Atlanta Hawks",
+          "Hawks"
+        ],
+        "color": "c8102e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Capital One Arena",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866455",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:113",
+        "name": "Massachusetts Minutemen",
+        "abbrev": "MASS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+        "logo_dark": null,
+        "aliases": [
+          "MASS",
+          "Massachusetts",
+          "Massachusetts Minutemen",
+          "Minutemen",
+          "UMass"
+        ],
+        "color": "881c1c"
+      },
+      "away": {
+        "id": "espn:2050",
+        "name": "Ball State Cardinals",
+        "abbrev": "BALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+        "logo_dark": null,
+        "aliases": [
+          "BALL",
+          "Ball State",
+          "Ball State Cardinals",
+          "Cardinals"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Warren McGuirk Alumni Stadium",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866457",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:16",
+        "name": "Sacramento State Hornets",
+        "abbrev": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hornets",
+          "SAC",
+          "Sacramento St",
+          "Sacramento State",
+          "Sacramento State Hornets"
+        ],
+        "color": "00573C"
+      },
+      "away": {
+        "id": "espn:2649",
+        "name": "Toledo Rockets",
+        "abbrev": "TOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rockets",
+          "TOL",
+          "Toledo",
+          "Toledo Rockets"
+        ],
+        "color": "0b2240"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Hornet Stadium",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401929450",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:295",
+        "name": "Old Dominion Monarchs",
+        "abbrev": "ODU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+        "logo_dark": null,
+        "aliases": [
+          "Monarchs",
+          "ODU",
+          "Old Dominion",
+          "Old Dominion Monarchs"
+        ],
+        "color": "003768"
+      },
+      "away": {
+        "id": "espn:131784",
+        "name": "Regent Regent Royals",
+        "abbrev": "RGNT",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "RGNT",
+          "Regent",
+          "Regent Regent Royals",
+          "Regent Royals"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Chartway Arena",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401929438",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2026",
+        "name": "App State Mountaineers",
+        "abbrev": "APP",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+        "logo_dark": null,
+        "aliases": [
+          "APP",
+          "App State",
+          "App State Mountaineers",
+          "Mountaineers"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:111180",
+        "name": "Christendom Crusaders",
+        "abbrev": "CTDM",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "CTDM",
+          "Christendom",
+          "Christendom Crusaders",
+          "Crusaders"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Holmes Convocation Center",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401928853",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2415",
+        "name": "Morgan State Bears",
+        "abbrev": "MORG",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "MORG",
+          "Morgan St",
+          "Morgan State",
+          "Morgan State Bears"
+        ],
+        "color": "014786"
+      },
+      "away": {
+        "id": "espn:3229",
+        "name": "Virginia Lynchburg Dragons",
+        "abbrev": "VUL",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "Dragons",
+          "VA Lynchburg",
+          "VUL",
+          "Virginia Lynchburg",
+          "Virginia Lynchburg Dragons"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Hill Field House",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401926142",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2565",
+        "name": "SIU Edwardsville Cougars",
+        "abbrev": "SIUE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2565.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "SIU Edwardsville",
+          "SIU Edwardsville Cougars",
+          "SIUE"
+        ],
+        "color": "eb1c23"
+      },
+      "away": {
+        "id": "espn:2151",
+        "name": "Concordia Chicago Cougars",
+        "abbrev": "CUC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2151.png",
+        "logo_dark": null,
+        "aliases": [
+          "CUC",
+          "Concordia Chi",
+          "Concordia Chicago",
+          "Concordia Chicago Cougars",
+          "Cougars"
+        ],
+        "color": "572a31"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "First Community Arena",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401922290",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2427",
+        "name": "UNC Asheville Bulldogs",
+        "abbrev": "UNCA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "UNC Asheville",
+          "UNC Asheville Bulldogs",
+          "UNCA"
+        ],
+        "color": "003da5"
+      },
+      "away": {
+        "id": "espn:2215",
+        "name": "Erskine Flying Fleet",
+        "abbrev": "ERSK",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "ERSK",
+          "Erskine",
+          "Erskine Flying Fleet",
+          "Flying Fleet"
+        ],
+        "color": "701931"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Kimmel Arena",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920410",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2272",
+        "name": "High Point Panthers",
+        "abbrev": "HPU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
+        "logo_dark": null,
+        "aliases": [
+          "HPU",
+          "High Point",
+          "High Point Panthers",
+          "Panthers"
+        ],
+        "color": "330072"
+      },
+      "away": {
+        "id": "espn:2379",
+        "name": "Maryland Eastern Shore Hawks",
+        "abbrev": "UMES",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2379.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawks",
+          "MD Eastern",
+          "Maryland Eastern Shore",
+          "Maryland Eastern Shore Hawks",
+          "UMES"
+        ],
+        "color": "5c2301"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Qubein Center",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920191",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2603",
+        "name": "Saint Joseph's Hawks",
+        "abbrev": "JOES",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2603.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawks",
+          "JOES",
+          "Saint Joseph's",
+          "Saint Joseph's Hawks"
+        ],
+        "color": "9e1b32"
+      },
+      "away": {
+        "id": "espn:2344",
+        "name": "Longwood Lancers",
+        "abbrev": "LONG",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2344.png",
+        "logo_dark": null,
+        "aliases": [
+          "LONG",
+          "Lancers",
+          "Longwood",
+          "Longwood Lancers"
+        ],
+        "color": "003273"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michael J. Hagan '85 Arena",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401902276",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2086",
+        "name": "Butler Bulldogs",
+        "abbrev": "BTLR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
+        "logo_dark": null,
+        "aliases": [
+          "BTLR",
+          "Bulldogs",
+          "Butler",
+          "Butler Bulldogs"
+        ],
+        "color": "0d1361"
+      },
+      "away": {
+        "id": "espn:161",
+        "name": "Fairleigh Dickinson Knights",
+        "abbrev": "FDU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
+        "logo_dark": null,
+        "aliases": [
+          "FDU",
+          "Fairleigh Dickinson",
+          "Fairleigh Dickinson Knights",
+          "Knights"
+        ],
+        "color": "72293c"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Hinkle Fieldhouse",
+      "detail": "Wed, November 4th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020247",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -10863,6 +10873,1244 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401909924",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2",
+        "name": "Boston Celtics",
+        "abbrev": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Celtics",
+          "Celtics"
+        ],
+        "color": "008348"
+      },
+      "away": {
+        "id": "espn:15",
+        "name": "Milwaukee Bucks",
+        "abbrev": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bucks",
+          "MIL",
+          "Milwaukee",
+          "Milwaukee Bucks"
+        ],
+        "color": "00471b"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "TD Garden",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909925",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:17",
+        "name": "Brooklyn Nets",
+        "abbrev": "BKN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+        "logo_dark": null,
+        "aliases": [
+          "BKN",
+          "Brooklyn",
+          "Brooklyn Nets",
+          "Nets"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:30",
+        "name": "Charlotte Hornets",
+        "abbrev": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHA",
+          "Charlotte",
+          "Charlotte Hornets",
+          "Hornets"
+        ],
+        "color": "008ca8"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Barclays Center",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909926",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:18",
+        "name": "New York Knicks",
+        "abbrev": "NY",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knicks",
+          "NY",
+          "New York",
+          "New York Knicks"
+        ],
+        "color": "1d428a"
+      },
+      "away": {
+        "id": "espn:4",
+        "name": "Chicago Bulls",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "CHI",
+          "Chicago",
+          "Chicago Bulls"
+        ],
+        "color": "ce1141"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Madison Square Garden",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866456",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2199",
+        "name": "Eastern Michigan Eagles",
+        "abbrev": "EMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Michigan",
+          "EMU",
+          "Eagles",
+          "Eastern Michigan",
+          "Eastern Michigan Eagles"
+        ],
+        "color": "006938"
+      },
+      "away": {
+        "id": "espn:2117",
+        "name": "Central Michigan Chippewas",
+        "abbrev": "CMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+        "logo_dark": null,
+        "aliases": [
+          "C Michigan",
+          "CMU",
+          "Central Michigan",
+          "Central Michigan Chippewas",
+          "Chippewas"
+        ],
+        "color": "4c0027"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Ford Field",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401927361",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2181",
+        "name": "Drake Bulldogs",
+        "abbrev": "DRKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "DRKE",
+          "Drake",
+          "Drake Bulldogs"
+        ],
+        "color": "005596"
+      },
+      "away": {
+        "id": "espn:2964",
+        "name": "Central College Dutch",
+        "abbrev": "CNTC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2964.png",
+        "logo_dark": null,
+        "aliases": [
+          "CNTC",
+          "Central Col",
+          "Central College",
+          "Central College Dutch",
+          "Dutch"
+        ],
+        "color": "ea0029"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Knapp Center",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401926214",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2635",
+        "name": "Tennessee Tech Golden Eagles",
+        "abbrev": "TNTC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Eagles",
+          "TNTC",
+          "Tennessee Tech",
+          "Tennessee Tech Golden Eagles"
+        ],
+        "color": "5A4099"
+      },
+      "away": {
+        "id": "espn:494",
+        "name": "Blue Mountain Christian Toppers",
+        "abbrev": "BMCU",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "BMCU",
+          "Blue Mountain",
+          "Blue Mountain Christian",
+          "Blue Mountain Christian Toppers",
+          "Toppers"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Hooper Eblen Center",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401926151",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2546",
+        "name": "Southeast Missouri State Redhawks",
+        "abbrev": "SEMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+        "logo_dark": null,
+        "aliases": [
+          "Redhawks",
+          "SE Missouri",
+          "SEMO",
+          "Southeast Missouri State",
+          "Southeast Missouri State Redhawks"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:2693",
+        "name": "Webster Gorloks",
+        "abbrev": "WEBS",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "Gorloks",
+          "WEBS",
+          "Webster",
+          "Webster Gorloks"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Show Me Center",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401926111",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:231",
+        "name": "Furman Paladins",
+        "abbrev": "FUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
+        "logo_dark": null,
+        "aliases": [
+          "FUR",
+          "Furman",
+          "Furman Paladins",
+          "Paladins"
+        ],
+        "color": "582c83"
+      },
+      "away": {
+        "id": "espn:3243",
+        "name": "Bob Jones Bruins",
+        "abbrev": "BOBJ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3243.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOBJ",
+          "Bob Jones",
+          "Bob Jones Bruins",
+          "Bruins"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Timmons Arena",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401919028",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2724",
+        "name": "Wichita State Shockers",
+        "abbrev": "WICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
+        "logo_dark": null,
+        "aliases": [
+          "Shockers",
+          "WICH",
+          "Wichita St",
+          "Wichita State",
+          "Wichita State Shockers"
+        ],
+        "color": "ffcd00"
+      },
+      "away": {
+        "id": "espn:2463",
+        "name": "Cal State Northridge Matadors",
+        "abbrev": "CSUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2463.png",
+        "logo_dark": null,
+        "aliases": [
+          "CSU Northridge",
+          "CSUN",
+          "Cal State Northridge",
+          "Cal State Northridge Matadors",
+          "Matadors"
+        ],
+        "color": "b50000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Charles Koch Arena",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401917977",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2433",
+        "name": "UL Monroe Warhawks",
+        "abbrev": "ULM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+        "logo_dark": null,
+        "aliases": [
+          "UL Monroe",
+          "UL Monroe Warhawks",
+          "ULM",
+          "Warhawks"
+        ],
+        "color": "840029"
+      },
+      "away": {
+        "id": "espn:3134",
+        "name": "Champion Christian Tigers",
+        "abbrev": "CHCC",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "CHCC",
+          "Champ Chrstn",
+          "Champion Christian",
+          "Champion Christian Tigers",
+          "Tigers"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "b1Bank Fant Coliseum",
+      "detail": "Wed, November 4th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:42189:s8e44",
+      "sport": "wrestling",
+      "competition_id": "aew",
+      "competition_name": "AEW",
+      "start_utc": "2026-11-05T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:42189",
+        "name": "All Elite Wrestling: Dynamite",
+        "abbrev": "DYN",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:aew",
+        "name": "AEW",
+        "abbrev": "AEW",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:aew",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "All Elite Wrestling: Dynamite"
+    },
+    {
+      "event_id": "tvmaze:2266:s20e44",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-11-05T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:2266",
+        "name": "WWE NXT",
+        "abbrev": "NXT",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE NXT"
+    },
+    {
+      "event_id": "espn:basketball:401909927",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:29",
+        "name": "Memphis Grizzlies",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+        "logo_dark": null,
+        "aliases": [
+          "Grizzlies",
+          "MEM",
+          "Memphis",
+          "Memphis Grizzlies"
+        ],
+        "color": "5d76a9"
+      },
+      "away": {
+        "id": "espn:11",
+        "name": "Indiana Pacers",
+        "abbrev": "IND",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+        "logo_dark": null,
+        "aliases": [
+          "IND",
+          "Indiana",
+          "Indiana Pacers",
+          "Pacers"
+        ],
+        "color": "0c2340"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "FedExForum",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909928",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:3",
+        "name": "New Orleans Pelicans",
+        "abbrev": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "logo_dark": null,
+        "aliases": [
+          "NO",
+          "New Orleans",
+          "New Orleans Pelicans",
+          "Pelicans"
+        ],
+        "color": "0a2240"
+      },
+      "away": {
+        "id": "espn:26",
+        "name": "Utah Jazz",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jazz",
+          "UTAH",
+          "Utah",
+          "Utah Jazz"
+        ],
+        "color": "4e008e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Smoothie King Center",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909929",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25",
+        "name": "Oklahoma City Thunder",
+        "abbrev": "OKC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+        "logo_dark": null,
+        "aliases": [
+          "OKC",
+          "Oklahoma City",
+          "Oklahoma City Thunder",
+          "Thunder"
+        ],
+        "color": "007ac1"
+      },
+      "away": {
+        "id": "espn:5",
+        "name": "Cleveland Cavaliers",
+        "abbrev": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cavaliers",
+          "Cleveland",
+          "Cleveland Cavaliers"
+        ],
+        "color": "860038"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Paycom Center",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401928811",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:233",
+        "name": "South Dakota Coyotes",
+        "abbrev": "SDAK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+        "logo_dark": null,
+        "aliases": [
+          "Coyotes",
+          "SDAK",
+          "South Dakota",
+          "South Dakota Coyotes"
+        ],
+        "color": "CD1241"
+      },
+      "away": {
+        "id": "espn:94",
+        "name": "Northern Kentucky Norse",
+        "abbrev": "NKU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
+        "logo_dark": null,
+        "aliases": [
+          "N Kentucky",
+          "NKU",
+          "Norse",
+          "Northern Kentucky",
+          "Northern Kentucky Norse"
+        ],
+        "color": "ffc82e"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Sanford Coyote Sports Center",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401925893",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2450",
+        "name": "Norfolk State Spartans",
+        "abbrev": "NORF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+        "logo_dark": null,
+        "aliases": [
+          "NORF",
+          "Norfolk St",
+          "Norfolk State",
+          "Norfolk State Spartans",
+          "Spartans"
+        ],
+        "color": "0c8968"
+      },
+      "away": {
+        "id": "espn:3153",
+        "name": "Randolph Wildcats",
+        "abbrev": "RDPH",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "RDPH",
+          "Randolph",
+          "Randolph Wildcats",
+          "Wildcats"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Joseph G. Echols Hall",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401923391",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:88",
+        "name": "Southern Indiana Screaming Eagles",
+        "abbrev": "USI",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
+        "logo_dark": null,
+        "aliases": [
+          "S Indiana",
+          "Screaming Eagles",
+          "Southern Indiana",
+          "Southern Indiana Screaming Eagles",
+          "USI"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:126824",
+        "name": "Saint Mary of the Woods Pomeroys",
+        "abbrev": "SMWC",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "Pomeroys",
+          "SMWC",
+          "Saint Mary of the Woods",
+          "Saint Mary of the Woods Pomeroys",
+          "St Mary's"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Liberty Arena (IN)",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920798",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2",
+        "name": "Auburn Tigers",
+        "abbrev": "AUB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+        "logo_dark": null,
+        "aliases": [
+          "AUB",
+          "Auburn",
+          "Auburn Tigers",
+          "Tigers"
+        ],
+        "color": "002b5c"
+      },
+      "away": {
+        "id": "espn:2545",
+        "name": "SE Louisiana Lions",
+        "abbrev": "SELA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2545.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lions",
+          "SE Louisiana",
+          "SE Louisiana Lions",
+          "SELA"
+        ],
+        "color": "215732"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Neville Arena",
+      "detail": "Wed, November 4th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909930",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T01:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:10",
+        "name": "Houston Rockets",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Rockets",
+          "Rockets"
+        ],
+        "color": "ce0e2d"
+      },
+      "away": {
+        "id": "espn:16",
+        "name": "Minnesota Timberwolves",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Timberwolves",
+          "Timberwolves"
+        ],
+        "color": "266092"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Toyota Center (Houston)",
+      "detail": "Wed, November 4th at 8:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909931",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:7",
+        "name": "Denver Nuggets",
+        "abbrev": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "logo_dark": null,
+        "aliases": [
+          "DEN",
+          "Denver",
+          "Denver Nuggets",
+          "Nuggets"
+        ],
+        "color": "0e2240"
+      },
+      "away": {
+        "id": "espn:28",
+        "name": "Toronto Raptors",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "logo_dark": null,
+        "aliases": [
+          "Raptors",
+          "TOR",
+          "Toronto",
+          "Toronto Raptors"
+        ],
+        "color": "d91244"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Ball Arena",
+      "detail": "Wed, November 4th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909932",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:21",
+        "name": "Phoenix Suns",
+        "abbrev": "PHX",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+        "logo_dark": null,
+        "aliases": [
+          "PHX",
+          "Phoenix",
+          "Phoenix Suns",
+          "Suns"
+        ],
+        "color": "29127a"
+      },
+      "away": {
+        "id": "espn:22",
+        "name": "Portland Trail Blazers",
+        "abbrev": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "logo_dark": null,
+        "aliases": [
+          "POR",
+          "Portland",
+          "Portland Trail Blazers",
+          "Trail Blazers"
+        ],
+        "color": "e03a3e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Mortgage Matchup Center",
+      "detail": "Wed, November 4th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401929171",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:68",
+        "name": "Boise State Broncos",
+        "abbrev": "BOIS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOIS",
+          "Boise St",
+          "Boise State",
+          "Boise State Broncos",
+          "Broncos"
+        ],
+        "color": "0033a0"
+      },
+      "away": {
+        "id": "espn:110418",
+        "name": "West Coast Baptist Eagles",
+        "abbrev": "WCBC",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "WCBC",
+          "West Coast",
+          "West Coast Baptist",
+          "West Coast Baptist Eagles"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "ExtraMile Arena",
+      "detail": "Wed, November 4th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401925939",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:3101",
+        "name": "Utah Tech Trailblazers",
+        "abbrev": "UTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+        "logo_dark": null,
+        "aliases": [
+          "Trailblazers",
+          "UTU",
+          "Utah Tech",
+          "Utah Tech Trailblazers"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:134743",
+        "name": "Grace University Lancers",
+        "abbrev": "GRCU",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "GRCU",
+          "Grace U",
+          "Grace University",
+          "Grace University Lancers",
+          "Lancers"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Burns Arena",
+      "detail": "Wed, November 4th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401922030",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:149",
+        "name": "Montana Grizzlies",
+        "abbrev": "MONT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+        "logo_dark": null,
+        "aliases": [
+          "Grizzlies",
+          "MONT",
+          "Montana",
+          "Montana Grizzlies"
+        ],
+        "color": "751D4A"
+      },
+      "away": {
+        "id": "espn:131858",
+        "name": "Salish Kootenai Bison",
+        "abbrev": "SKC",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "Bison",
+          "SKC",
+          "Salish Kootenai",
+          "Salish Kootenai Bison",
+          "SalishKootenai"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Dahlberg Arena",
+      "detail": "Wed, November 4th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401918052",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:25",
+        "name": "California Golden Bears",
+        "abbrev": "CAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAL",
+          "California",
+          "California Golden Bears",
+          "Golden Bears"
+        ],
+        "color": "041e42"
+      },
+      "away": {
+        "id": "espn:2515",
+        "name": "Radford Highlanders",
+        "abbrev": "RAD",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2515.png",
+        "logo_dark": null,
+        "aliases": [
+          "Highlanders",
+          "RAD",
+          "Radford",
+          "Radford Highlanders"
+        ],
+        "color": "BC1515"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Haas Pavilion",
+      "detail": "Wed, November 4th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909933",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:24",
+        "name": "San Antonio Spurs",
+        "abbrev": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "logo_dark": null,
+        "aliases": [
+          "SA",
+          "San Antonio",
+          "San Antonio Spurs",
+          "Spurs"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:6",
+        "name": "Dallas Mavericks",
+        "abbrev": "DAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+        "logo_dark": null,
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Mavericks",
+          "Mavericks"
+        ],
+        "color": "0064b1"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Frost Bank Center",
+      "detail": "Wed, November 4th at 9:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020249",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -10947,6 +12195,238 @@
       "source_status": "FUT/OK",
       "venue": "Climate Pledge Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909934",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:23",
+        "name": "Sacramento Kings",
+        "abbrev": "SAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kings",
+          "SAC",
+          "Sacramento",
+          "Sacramento Kings"
+        ],
+        "color": "5a2d81"
+      },
+      "away": {
+        "id": "espn:13",
+        "name": "Los Angeles Lakers",
+        "abbrev": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "logo_dark": null,
+        "aliases": [
+          "LAL",
+          "Lakers",
+          "Los Angeles",
+          "Los Angeles Lakers"
+        ],
+        "color": "552583"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Golden 1 Center",
+      "detail": "Wed, November 4th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401917514",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2351",
+        "name": "Loyola Marymount Lions",
+        "abbrev": "LMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2351.png",
+        "logo_dark": null,
+        "aliases": [
+          "LMU",
+          "Lions",
+          "Loyola Marymount",
+          "Loyola Marymount Lions"
+        ],
+        "color": "880029"
+      },
+      "away": {
+        "id": "espn:2511",
+        "name": "Queens University Royals",
+        "abbrev": "QUC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png",
+        "logo_dark": null,
+        "aliases": [
+          "QUC",
+          "Queens",
+          "Queens University",
+          "Queens University Royals",
+          "Royals"
+        ],
+        "color": "192C66"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Gersten Pavilion",
+      "detail": "Wed, November 4th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401917513",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2541",
+        "name": "Santa Clara Broncos",
+        "abbrev": "SCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+        "logo_dark": null,
+        "aliases": [
+          "Broncos",
+          "SCU",
+          "Santa Clara",
+          "Santa Clara Broncos"
+        ],
+        "color": "690b0b"
+      },
+      "away": {
+        "id": "espn:270",
+        "name": "Milwaukee Panthers",
+        "abbrev": "MILW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
+        "logo_dark": null,
+        "aliases": [
+          "MILW",
+          "Milwaukee",
+          "Milwaukee Panthers",
+          "Panthers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Leavey Center",
+      "detail": "Wed, November 4th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401917512",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-05T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2608",
+        "name": "Saint Mary's Gaels",
+        "abbrev": "SMC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gaels",
+          "SMC",
+          "Saint Mary's",
+          "Saint Mary's Gaels"
+        ],
+        "color": "d80024"
+      },
+      "away": {
+        "id": "espn:2449",
+        "name": "North Dakota State Bison",
+        "abbrev": "NDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bison",
+          "N Dakota St",
+          "NDSU",
+          "North Dakota State",
+          "North Dakota State Bison"
+        ],
+        "color": "01402A"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "University Credit Union Pavilion",
+      "detail": "Wed, November 4th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909935",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-05T03:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:12",
+        "name": "LA Clippers",
+        "abbrev": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Clippers",
+          "LA",
+          "LA Clippers",
+          "LAC"
+        ],
+        "color": "12173f"
+      },
+      "away": {
+        "id": "espn:14",
+        "name": "Miami Heat",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "logo_dark": null,
+        "aliases": [
+          "Heat",
+          "MIA",
+          "Miami",
+          "Miami Heat"
+        ],
+        "color": "98002e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Intuit Dome",
+      "detail": "Wed, November 4th at 10:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12563,9 +14043,373 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020286",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:10",
+        "name": "Toronto Maple Leafs",
+        "abbrev": "TOR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+        "aliases": [
+          "Maple Leafs",
+          "TOR",
+          "Toronto",
+          "Toronto Maple Leafs"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:21",
+        "name": "Colorado Avalanche",
+        "abbrev": "COL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
+        "aliases": [
+          "Avalanche",
+          "COL",
+          "Colorado",
+          "Colorado Avalanche"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Scotiabank Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020287",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:8",
+        "name": "Montr\u00e9al Canadiens",
+        "abbrev": "MTL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
+        "aliases": [
+          "Canadiens",
+          "MTL",
+          "Montr\u00e9al",
+          "Montr\u00e9al Canadiens"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:30",
+        "name": "Minnesota Wild",
+        "abbrev": "MIN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Wild",
+          "Wild"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Centre Bell",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020288",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:9",
+        "name": "Ottawa Senators",
+        "abbrev": "OTT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
+        "aliases": [
+          "OTT",
+          "Ottawa",
+          "Ottawa Senators",
+          "Senators"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:15",
+        "name": "Washington Capitals",
+        "abbrev": "WSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
+        "aliases": [
+          "Capitals",
+          "WSH",
+          "Washington",
+          "Washington Capitals"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canadian Tire Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020291",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:52",
+        "name": "Winnipeg Jets",
+        "abbrev": "WPG",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+        "aliases": [
+          "Jets",
+          "WPG",
+          "Winnipeg",
+          "Winnipeg Jets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:1",
+        "name": "New Jersey Devils",
+        "abbrev": "NJD",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+        "aliases": [
+          "Devils",
+          "NJD",
+          "New Jersey",
+          "New Jersey Devils"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canada Life Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020289",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:29",
+        "name": "Columbus Blue Jackets",
+        "abbrev": "CBJ",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
+        "aliases": [
+          "Blue Jackets",
+          "CBJ",
+          "Columbus",
+          "Columbus Blue Jackets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:13",
+        "name": "Florida Panthers",
+        "abbrev": "FLA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Panthers",
+          "Panthers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Nationwide Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020290",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:19",
+        "name": "St. Louis Blues",
+        "abbrev": "STL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
+        "aliases": [
+          "Blues",
+          "STL",
+          "St. Louis",
+          "St. Louis Blues"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:17",
+        "name": "Detroit Red Wings",
+        "abbrev": "DET",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Red Wings",
+          "Red Wings"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Enterprise Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020292",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-11T03:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:26",
+        "name": "Los Angeles Kings",
+        "abbrev": "LAK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
+        "aliases": [
+          "Kings",
+          "LAK",
+          "Los Angeles",
+          "Los Angeles Kings"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:18",
+        "name": "Nashville Predators",
+        "abbrev": "NSH",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
+        "aliases": [
+          "NSH",
+          "Nashville",
+          "Nashville Predators",
+          "Predators"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Crypto.com Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
+    {
+      "story_id": "50360114",
+      "headline": "Jack Grealish, 'not match fit,' left out as Everton beat Newcastle again",
+      "summary": "Jack Grealish was not named in Everton's squad for Monday's Premier League match at Newcastle United due to a fitness issue.",
+      "image": "https://a.espncdn.com/photo/2026/0803/r1697241_1296x729_16-9.jpg",
+      "published_utc": "2026-11-02T23:59:11Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN News Services",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50360114/jack-grealish-everton-squad-again",
+      "stream_url": "",
+      "body": "Jack Grealish was not named in Everton's squad for Monday's Premier League win over Newcastle United due to a fitness issue.\n\nThe 31-year-old was left out of the team for Thursday's Carabao Cup fourth-round meeting against the Magpies due to a breach of club discipline and Everton went on to win the game 3-1.\n\nBoth sides met again at St James' Park in the Premier League and Grealish was not included, with a starting lineup post on the Everton club website stating that he is \"not match fit.\"\n\nEverton went on to beat Newcastle for the second time in four days as Thierno Barry scored the game's only goal in a 1-0 win.\n\nGrealish was also absent for the Toffees' 2-0 loss to Arsenal on Oct. 24, but that was put down to illness.\n\nProviding an update on Grealish after the match, manager David Moyes said he is \"not available yet.\"\n\nAsked if there is a way back longer term, Moyes replied: \"Of course there is, yeah.\"\n\nThe former Aston Villa midfielder is on a second consecutive season-long loan from Manchester City and has made six appearances for Everton this season.\n\nDuring the last campaign, Grealish provided six assists and scored two goals in 20 appearances before suffering a season-ending foot injury in January.\n\nHe was not part of the England side that made a run to the semifinals of the World Cup before losing to Argentina.\n\nInformation from PA was used in this report."
+    },
+    {
+      "story_id": "50323084",
+      "headline": "NFL Week 8's best arrivals, led by Rams' Quentin Lake",
+      "summary": "Here's a look at the best-dressed players around the NFL in Week 8.",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739714_2_608x342_16-9.png",
+      "published_utc": "2026-11-02T23:57:49Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Cameron Wolfe",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50323084/nfl-week-8-fashion",
+      "stream_url": "",
+      "body": "On the afternoon following Halloween, Los Angeles Rams defensive back Quentin Lake decided to rock a fit adopting a look simulating Neo from \"The Matrix.\"\n\nLake's all-black look is one of the best fits of the season regardless of the costume theme. But the question is: does Lake prefer to take the red pill or the blue pill?\n\nThe long-flowing trench coat is the star of this fit, but I love the commitment to the bit with black-tinted sunglasses and black combat boots supporting the look.\n\nIt's always a perfect reminder of fall hitting warm-weather states like California allowing players to be more versatile with their looks.\n\nSecondary shoutout to Lake's teammate -- Rams receiver Puka Nacua -- who also went with a trench coat vibe, except his is layered with an inner black leather jacket with overlapping lapel from luxury brand Umit Benan.\n\nThe Rams trench coat duo sets the standard for Week 8's best gameday tunnel fits. Here are more top Week 8 fits that caught our eye:\n\nMonday night drip\nThe Chicago Bears' wide receiver room arrived in unison ahead of \"Monday Night Football\" against the Seattle Seahawks. The group rocked suits, something orchestrated by wide receivers and assistant head coach Antwaan Randle El. The Seahawks had their fair share of ties, too, including from wide receivers Tory Horton and Jaxon Smith-Njigba.\n\nSunday's best\nFacing the Philadelphia Eagles on \"Sunday Night Football,\" Washington Commanders wide receiver Stefon Diggs had some Philly inspiration for his look. He donned Philadelphia 76ers legend Allen Iverson's jersey in a clean fit.\n\nAlong with the Rams showing their versatility this week, Kansas City Chiefs tight end Travis Kelce came dripped out in the earth tones and a leather jacket.\n\nMinnesota Vikings' quarterback Kyler Murray and wide receiver Justin Jefferson reported to their duties in similar monochromatic looks, with Murray styling a double-breasted look with a white tank and a beanie to match.\n\nThursday night fashion\n\nCarolina Panthers quarterback Bryce Young opted for a clean Louis Vuitton shirt with a heavy jacket on top and sleek sunglasses. On the other side, Green Bay Packers safety Javon Bullard went with a denim tie shirt from the clothing brand Jagne."
+    },
+    {
+      "story_id": "50360639",
+      "headline": "Carrick 'can't wait' for Roma game and disregards sack talk",
+      "summary": "Carrick 'can't wait' for Roma game and disregards sack talk",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Carrick_cant_wait_for_Roma_game_and_disregards_sack_talk/dm_261102_Carrick_cant_wait_for_Roma_game_and_disregards_sack_talk.jpg",
+      "published_utc": "2026-11-02T23:52:25Z",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50360639/carrick-wait-roma-game-disregards-sack-talk",
+      "stream_url": "",
+      "body": ""
+    },
     {
       "story_id": "50318517",
       "headline": "Fantasy baseball reactions to MLB offseason trades, signings",
@@ -12579,48 +14423,6 @@
       "link": "https://www.espn.com/fantasy/baseball/story/_/id/50318517/fantasy-baseball-hot-stove-trades-free-agent-signings-2027",
       "stream_url": "",
       "body": "Tracking the offseason MLB trades and signings with fantasy baseball implications for the upcoming season, Eric Karabell and Tristan H. Cockcroft will analyze and provide an outlook for all of the key players involved.\n\nWith the World Series now behind us, players will be allowed to sign with new teams beginning Nov. 2, although typically things don't really start to heat up until the league's annual winter meetings. This year's meetings are scheduled to take place in San Diego from Dec. 7-9.\n\nHowever, as the current collective bargaining agreement expires on Dec. 1, the 2027 season (as well as the financial rules that will govern it), players and teams alike may end up waiting until after the dust settles on negotiations and a potential lockout before inking any new deals.\n\nIn any event, as any contracts do get signed or trades get agreed to, this is the place to find all of the fantasy fallout of those deals. Be sure to check back throughout the hot stove season for updates.\n\nBelow, you will find a list of some of the top free agents at each position. Players labeled with a (Q) have received a qualifying offer from their current team and have until Nov. 17 to accept the deal or decline and become a free agent. Players coming from Japan/Korea who were posted by their current team have a Dec. 1 deadline to reach a deal with an MLB club in order to play in the United States in 2027.\n\nNote: Not every transaction warrants the attention of fantasy managers, but for those signings and trades that do merit analysis, you'll find them listed below. Players will be separated by position and then listed in chronological order of the move within each positional grouping, with the latest news coming first. Also included are links to any standalone analysis stories and/or videos regarding major free agent signings and trades. Players who end up re-signing with their previous team will not always be included.\n\nJump to:\n\nCatcher | First base | Second base | Shortstop | Third base\n\nOutfield | DH | Starting pitcher | Relief pitcher\n\nCatcher\nSome potential free agents: Carson Kelly, Ryan Jeffers (Q), Tyler Stephenson, Kyle Higashioka, Gary Sanchez, James McCann, Travis d'Arnaud, Austin Hedges\n\nFirst base\nSome potential free agents: Josh Bell, Ryan Mountcastle, Paul Goldschmidt, Jake Bauers (Q), Nathaniel Lowe, Ty France\n\nSecond base\nSome potential free agents: Gleyber Torres, Jeff McNeil, Luis Arraez, Jazz Chisholm Jr., Jonathan India, Gavin Lux, Brandon Lowe (Q)\n\nShortstop\nSome potential free agents: Ha-Seong Kim, J.P. Crawford, Mauricio Dubon, Isiah Kiner-Falefa, Amed Rosario\n\nThird base\nSome potential free agents: Alec Bohm, Eugenio Suarez, Edmundo Sosa, Yoan Moncada, Si Hwan Roh (posted), Teruaki Sato (posted)\n\nOutfield\nSome potential free agents: George Springer, Trent Grisham, Ian Happ, Seiya Suzuki (Q), Randy Arozarena, Taylor Ward, Daulton Varsho, Adolis Garcia, Luis Robert Jr., Randal Grichuk, Myles Straw, Lane Thomas\n\nDesignated hitter\nSome potential free agents: Joc Pederson, Dominic Smith\n\nStarting pitcher\nSome potential free agents: Tarik Skubal, Michael King, Sonny Gray, Robbie Ray, Brandon Woodruff, Zac Gallen, Shota Imanaga, Kevin Gausman, Chris Bassitt, Jack Flaherty, Jameson Taillon, Max Scherzer, Clay Holmes, Matthew Boyd, Nick Pivetta, Shane Bieber, Freddy Peralta, Trevor Rogers (Q), Nick Martinez, Tyler Mahle, Foster Griffin, Michael Soroka, Dustin May\n\nRelief pitcher\nSome potential free agents: Raisel Iglesias, Pete Fairbanks, Carlos Estevez, A.J. Minter, Blake Treinen, David Bednar (Q), Martin Perez, Gregory Soto, Emilio Pagan, Kenley Jansen, Kaima Taira (posted), Hiromi Itoh (posted)"
-    },
-    {
-      "story_id": "50361618",
-      "headline": "Cardinals' Mike LaFleur: Jeremiyah Love's injury to 'new portion' of his ankle",
-      "summary": "Cardinals rookie running back Jeremiyah Love suffered a new ankle injury in Sunday's win over the Cowboys, coach Mike LaFleur said.",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740255_1296x729_16-9.jpg",
-      "published_utc": "2026-11-02T23:28:44Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Josh Weinfuss",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50361618/cardinals-lafleur-love-injury-new-portion-ankle",
-      "stream_url": "",
-      "body": "TEMPE, Ariz. -- Cardinals rookie running back Jeremiyah Love suffered a new ankle injury in Sunday's win over the Dallas Cowboys, coach Mike LaFleur said Monday.\n\nLaFleur said Love's most recent ankle issue isn't related to Love's preseason or early-season ankle injuries, one of which happened to each ankle.\n\n\"It's a new portion of the ankle,\" LaFleur said. \"So, I'll keep it at that.\"\n\nLove walked off the field in the first half and slammed his helmet to ground on the sideline. After being looked at by trainers, he went into the blue injury tent and later walked to the locker room.\n\nLaFleur said he had not talked to Love at the time of his news conference, so he didn't want to share more information, saying he would have more on Wednesday.\n\nLaFleur also said wide receiver Kendrick Bourne's right ankle injury is \"not good.\" A source told ESPN's Adam Schefter that Bourne has a fractured tibia that does not require surgery but will sideline him three months and end his season.\n\nRunning back Bam Knight is in the concussion protocol, said LaFleur, who added that he'll have more about left tackle Jayden Williams' knee injury on Wednesday.\n\nLaFleur said wide receiver Reggie Virgil, who collided with the base of the goalpost in the fourth quarter and was carted off the field, is \"great.\"\n\n\"The goalpost took the hit, not Reg,\" LaFleur said. \"So, he had a smile on his face when he was laying there. That's just Reg.\""
-    },
-    {
-      "story_id": "50322619",
-      "headline": "Barry leads Everton to second win over Newcastle in four days",
-      "summary": "Thierno Barry's second-half strike helped Everton return to winning ways in the Premier League with a 1-0 victory over Newcastle at St James' Park.",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740227_1296x729_16-9.jpg",
-      "published_utc": "2026-11-02T23:06:16Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "PA",
-      "source": "ESPN",
-      "link": "http://www.espn.com/soccer/report/_/gameId/401878762",
-      "stream_url": "",
-      "body": "Thierno Barry's second-half strike helped Everton return to winning ways in the Premier League with a 1-0 victory over Newcastle United at St James' Park.\n\nFollowing a first half lacking in clear-cut opportunities, the Toffees took the lead shortly after the restart when Barry stabbed home his fourth league goal of the campaign.\n\nA frustrating night soured further for the Magpies as they finished the game with 10 men when substitute Jacob Ramsey was shown two yellow cards in quick succession at the death.\n\nEverton ended a three-game winless run in the Premier League and moved up to seventh in the table, while Newcastle slipped to 13th.\n\nMonday's match took place just four days after Everton's 3-1 win over Newcastle in the fourth round of the Carabao Cup and both sides made two changes to their starting XI as Anthony Elanga and Joelinton came in for the Magpies, while Jarrad Branthwaite and Harrison Armstrong lined up for the visitors.\n\nHarvey Barnes looked lively on the left flank for the hosts, sending a curling shot wide before his looping cross floated narrowly past the far post and Jordan Pickford was forced to hold Will Osula's deflected cross from a tight angle.\n\nJoelinton had an effort blocked by James Tarkowski and Merlin R\u00f6hl fired over the crossbar as both sides looked to break the deadlock.\n\nJames Garner blasted a free kick from the edge of the area straight into the Newcastle wall and Barnes was at the heart of the action again, firing in a dangerous cross which bounced off Branthwaite and was tipped over by Pickford.\n\nJoelinton unleashed a fierce strike from distance which whizzed wide and Everton enjoyed a late flurry of chances before the break.\n\nJake O'Brien was unable to nod home Kiernan Dewsbury-Hall's cross and Harrison Armstrong skewed a first-time effort wide.\n\nThe Toffees picked up where they left off only four minutes into the second half when a slick pass from a free kick set Tyrique George free on the left to fire low at Luk\u00e1s Horn\u00edcek.\n\nHis shot squeezed underneath the Newcastle goalkeeper, but Barry was quick to react to tap in the loose ball and the goal stood following a VAR check for two close offside calls.\n\nBranthwaite's header was tipped away by Hornicek as the visitors looked to quickly double their advantage, while Fabian Sch\u00e4r hooked an effort over the crossbar and Pickford held Joe Willock's header.\n\nHornicek was then called into action at the opposite end to push away Dewsbury-Hall's strike and the Magpies goalkeeper made a solid low save from the resulting corner to deny O'Brien.\n\nBarnes' cross from the left was nearly turned in by Elanga at the far post, but the ball hit the post and trickled across the goal-line before being cleared.\n\nNewcastle looked to threaten around the Everton box as Pickford punched away Jacob Murphy's corner and the ball was recycled back to Ramsey, who dragged his volley narrowly wide.\n\nYoane Wissa's shot was comfortably held by Pickford, who made another solid stop from the striker in the 90th minute with his feet.\n\nWith eight minutes added on, the home side were frustrated further when Ramsey was dismissed after picking up two yellow cards within minutes of each other as they slipped to defeat."
-    },
-    {
-      "story_id": "50360295",
-      "headline": "Kane says new Bayern deal 'extremely close,' will happen in coming days",
-      "summary": "Ballon d'Or winner Harry Kane is determined to help Bayern Munich come through more difficult moments as they prepare to face Atl\u00e9tico Madrid in the Champions League.",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740164_1296x729_16-9.jpg",
-      "published_utc": "2026-11-02T22:41:35Z",
-      "competition_id": "uefa.champions",
-      "competition_name": "Champions League",
-      "byline": "ESPN News Services",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50360295/harry-kane-hopes-bayern-munich-pass-tough-champions-league-test-madrid",
-      "stream_url": "",
-      "body": "Ballon d'Or winner Harry Kane expects to sign a new contract with Bayern Munich \"within the next few days\".\n\nThe England captain is heading towards the end of the four-year deal he agreed after leaving Tottenham Hotspur in the summer of 2023.\n\nKane scored 73 goals for club and country last season, winning two trophies in Germany and leading England to third place at the World Cup.\n\nAnd the 33-year-old -- who last week was crowned the world's best player at a glittering ceremony in London -- is ready to extend his stay at the Allianz Arena.\n\n\"I would say it is more [a matter of] days,\" Kane said at a news conference ahead of Tuesday's Champions League match at Atl\u00e9tico Madrid. \"There has been good conversations over this weekend and today as well.\n\n\"I know I keep saying we are close, but we are extremely close now. Details are just details in every contract.\n\n\"A lot of the bigger stuff has been ironed out and we are happy with, but in every contract there is loads of little things that go into it, small details that in the end the lawyers have to thrash out and figure out.\n\n\"So all in all I would say it is more days than weeks. From what I have heard, the conversations have gone well again today and hopefully we will be in a place to do something within the next few days.\"\n\nContract situation aside, Kane also said he is determined to help Bayern Munich come through more difficult moments the have faced this season and, in particular, the \"rollercoaster ride\" of the past week which saw him crowned the world's best player in London and then miss a penalty against Der Klassiker rivals Borussia Dortmund, in a 2-2 draw at the Allianz.\n\nBayern's selection problems deepened after the game, with midfielder Ismael Saibari facing a lengthy spell out after needing ankle surgery following his injury and forward Serge Gnabry having sustained a hamstring tear.\n\nAssistant coach Aaron Danks will again take charge in Madrid on Tuesday night as Vincent Kompany continues his recovery at home after being diagnosed with meningeal irritation following his collapse during training.\n\nBayern will also check on Michael Olise and goalkeeper Manuel Neuer.\n\nOlise picked up a knee problem late on against Dortmund, but trained on Monday. Neuer has also travelled to Spain as he looks to return from a foot injury.\n\nKane admits it has been a tough spell but one which he feels the Bayern squad can pull through together as they look to push on again following a 2-2 draw with Arsenal in their last European fixture.\n\n\"It has been a rollercoaster ride. We have experienced all sorts of emotions,\" Kane said at a news conference. \"I had a fantastic moment winning the Ballon d'Or, but there were also the injuries and Joshua Kimmich's situation [earlier in the season] ... Those were difficult moments.\n\n\"You have to be able to cope with that, sport brings us together. We are missing key players and our coach too, but there are others who can seize this opportunity to show what they're made of.\"\n\nDespite all the individual accolades coming his way, the 33-year-old remains fully focused on more collective success.\n\n\"I think I would swap the next Ballon d'Or for a Champions League triumph. The team aspect of the sport is why we all play,\" the England captain said.\n\n\"Of course, winning the Ballon d'Or was one of the greatest moments of my life, but winning with Bayern, that would be an absolutely incredible feeling.\n\n\"We all want to reach the Champions League final and achieve that great success as a team. At the moment I am still in with a chance of winning both.\"\n\nAtl\u00e9tico boss Diego Simeone knows his side, who are second in LaLiga, will have to dig deep as they look to extend their unbeaten run to 10 games in all competitions.\n\n\"We will have to deal with whatever the game brings,\" said Simeone, who will be without suspended midfielder Morten Hjulmand following his red card in the draw at Stuttgart.\n\n\"We will be facing a powerful, strong team and obviously we will have to go through some difficult periods, tough moments, when we will need to play our way out of their pressing, because they are very good at pressing immediately after losing possession.\"\n\nThe pressure is on for Tuesday's fixture. Both teams want to avoid falling further behind in the Champions League standings. Bayern Munich sit 14th with five points while Atl\u00e9tico occupy 16th with four points.\n\n\"If we can win these next two games -- tomorrow night and then in the Bundesliga going into that second international break -- we'll be in a really good place,\" Kane said. \"And hopefully after that we'll have a couple of players coming back. Until then, we just have to stick together and keep doing what we're doing.\"\n\nInformation from PA and The Associated Press was used in this report."
     },
     {
       "story_id": "50360805",
@@ -12735,6 +14537,48 @@
       "body": "When Reece Walsh spoke to Australia coach Kevin Walters in August after ankle surgery concerning his World Cup hopes, there were no guarantees.\n\nIt is why the Kangaroos fullback's ice pack on his left ankle after the 66-6 win over Cook Islands on Saturday night, in his second man of the match display in the tournament, was a symbol of his commitment and drive beyond the flamboyance he shows on the field.\n\nWalsh, 24, took a knock to the same ankle against the Aitu in Townsville that he suffered a high grade syndesmosis injury to while playing for Brisbane on August 15.\n\nHe played through the discomfort to set up five tries, vindicating all the hard yards in rehab that got him selected for his first World Cup.\n\n\"I spoke to Kevvie early and I said if you are thinking about picking me, I am going to do everything I can to get back,\" Walsh said\n\n\"He said, 'Walshy, nothing is guaranteed. If you get fit and get your ankle right I will have a look at it'. I didn't go on holidays. To be honest I worked really hard to put myself in a position to get back in this team.\"\n\nWalsh spent three or four days at the Broncos with rehab and physio gurus such as Lindsay Self and Luke Anning, whom he praised for assisting him in their own holiday breaks.\n\nThey told him not to be overly concerned if he suffered a bump on the ankle.\n\n\"They generally say that when you have the tightrope (fixation surgery) and rod through it that it is stronger than it normally is,\" Walsh said.\n\n\"I was bound to get a bang on it. I didn't get one in the first game and I got one out there (against Cook Islands) so I feel like it was a good test of strength of it.\"\n\nWalsh is in a fullback battle with Sydney Roosters captain James Tedesco, who was excellent in the 36-22 win over Fiji last week in the match Walsh did not play.\n\nWalsh would widely be considered to have his nose slightly in front to play in the semi-final against Samoa at Allianz Stadium on Sunday night, but the coach has given him no indication.\n\n\"He actually hasn't. One thing we spoke about being in this environment and this team is nothing is guaranteed,\" Walsh said.\n\n\"We are all here to learn off each other and help each other get to the ultimate goal of winning the World Cup.\n\n\"Whatever Kevvie wants to do we are all going to support him. No one has dropped their lip or had a sour taste.\"\n\nWalsh, also a Queensland representative, is a sponge taking in Tedesco's wisdom as he lives out his boyhood Kangaroos dream.\n\n\"When you look at this jersey I feel like it is the pinnacle of our game,\" he said.\n\n\"Origin level is so amazing but I also feel like as a kid you play in Queensland or NSW to make Australia.\n\n\"I wear that jersey with pride. I go out there to represent not just myself but our nation and my family and the people that set me up to be here.\n\n\"I feel like being in camp with Teddy has been such a blessing for me.\n\n\"To see someone like himself, the way he prepares, the way he carries himself and the character he is ... I am learning so much.\""
     },
     {
+      "story_id": "50322619",
+      "headline": "Barry leads Everton to second win over Newcastle in four days",
+      "summary": "Thierno Barry's second-half strike helped Everton return to winning ways in the Premier League with a 1-0 victory over Newcastle at St James' Park.",
+      "image": "https://a.espncdn.com/photo/2026/1102/r1740227_1296x729_16-9.jpg",
+      "published_utc": "2026-11-02T23:06:16Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "PA",
+      "source": "ESPN",
+      "link": "http://www.espn.com/soccer/report/_/gameId/401878762",
+      "stream_url": "",
+      "body": "Thierno Barry's second-half strike helped Everton return to winning ways in the Premier League with a 1-0 victory over Newcastle United at St James' Park.\n\nFollowing a first half lacking in clear-cut opportunities, the Toffees took the lead shortly after the restart when Barry stabbed home his fourth league goal of the campaign.\n\nA frustrating night soured further for the Magpies as they finished the game with 10 men when substitute Jacob Ramsey was shown two yellow cards in quick succession at the death.\n\nEverton ended a three-game winless run in the Premier League and moved up to seventh in the table, while Newcastle slipped to 13th.\n\nMonday's match took place just four days after Everton's 3-1 win over Newcastle in the fourth round of the Carabao Cup and both sides made two changes to their starting XI as Anthony Elanga and Joelinton came in for the Magpies, while Jarrad Branthwaite and Harrison Armstrong lined up for the visitors.\n\nHarvey Barnes looked lively on the left flank for the hosts, sending a curling shot wide before his looping cross floated narrowly past the far post and Jordan Pickford was forced to hold Will Osula's deflected cross from a tight angle.\n\nJoelinton had an effort blocked by James Tarkowski and Merlin R\u00f6hl fired over the crossbar as both sides looked to break the deadlock.\n\nJames Garner blasted a free kick from the edge of the area straight into the Newcastle wall and Barnes was at the heart of the action again, firing in a dangerous cross which bounced off Branthwaite and was tipped over by Pickford.\n\nJoelinton unleashed a fierce strike from distance which whizzed wide and Everton enjoyed a late flurry of chances before the break.\n\nJake O'Brien was unable to nod home Kiernan Dewsbury-Hall's cross and Harrison Armstrong skewed a first-time effort wide.\n\nThe Toffees picked up where they left off only four minutes into the second half when a slick pass from a free kick set Tyrique George free on the left to fire low at Luk\u00e1s Horn\u00edcek.\n\nHis shot squeezed underneath the Newcastle goalkeeper, but Barry was quick to react to tap in the loose ball and the goal stood following a VAR check for two close offside calls.\n\nBranthwaite's header was tipped away by Hornicek as the visitors looked to quickly double their advantage, while Fabian Sch\u00e4r hooked an effort over the crossbar and Pickford held Joe Willock's header.\n\nHornicek was then called into action at the opposite end to push away Dewsbury-Hall's strike and the Magpies goalkeeper made a solid low save from the resulting corner to deny O'Brien.\n\nBarnes' cross from the left was nearly turned in by Elanga at the far post, but the ball hit the post and trickled across the goal-line before being cleared.\n\nNewcastle looked to threaten around the Everton box as Pickford punched away Jacob Murphy's corner and the ball was recycled back to Ramsey, who dragged his volley narrowly wide.\n\nYoane Wissa's shot was comfortably held by Pickford, who made another solid stop from the striker in the 90th minute with his feet.\n\nWith eight minutes added on, the home side were frustrated further when Ramsey was dismissed after picking up two yellow cards within minutes of each other as they slipped to defeat."
+    },
+    {
+      "story_id": "50361618",
+      "headline": "Cardinals' Mike LaFleur: Jeremiyah Love's injury to 'new portion' of his ankle",
+      "summary": "Cardinals rookie running back Jeremiyah Love suffered a new ankle injury in Sunday's win over the Cowboys, coach Mike LaFleur said.",
+      "image": "https://a.espncdn.com/photo/2026/1102/r1740255_1296x729_16-9.jpg",
+      "published_utc": "2026-11-02T23:28:44Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Josh Weinfuss",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50361618/cardinals-lafleur-love-injury-new-portion-ankle",
+      "stream_url": "",
+      "body": "TEMPE, Ariz. -- Cardinals rookie running back Jeremiyah Love suffered a new ankle injury in Sunday's win over the Dallas Cowboys, coach Mike LaFleur said Monday.\n\nLaFleur said Love's most recent ankle issue isn't related to Love's preseason or early-season ankle injuries, one of which happened to each ankle.\n\n\"It's a new portion of the ankle,\" LaFleur said. \"So, I'll keep it at that.\"\n\nLove walked off the field in the first half and slammed his helmet to ground on the sideline. After being looked at by trainers, he went into the blue injury tent and later walked to the locker room.\n\nLaFleur said he had not talked to Love at the time of his news conference, so he didn't want to share more information, saying he would have more on Wednesday.\n\nLaFleur also said wide receiver Kendrick Bourne's right ankle injury is \"not good.\" A source told ESPN's Adam Schefter that Bourne has a fractured tibia that does not require surgery but will sideline him three months and end his season.\n\nRunning back Bam Knight is in the concussion protocol, said LaFleur, who added that he'll have more about left tackle Jayden Williams' knee injury on Wednesday.\n\nLaFleur said wide receiver Reggie Virgil, who collided with the base of the goalpost in the fourth quarter and was carted off the field, is \"great.\"\n\n\"The goalpost took the hit, not Reg,\" LaFleur said. \"So, he had a smile on his face when he was laying there. That's just Reg.\""
+    },
+    {
+      "story_id": "50362045",
+      "headline": "Melchiot: Mart\u00ednez would leave Manchester United with his head down",
+      "summary": "Melchiot: Mart\u00ednez would leave Manchester United with his head down",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Melchiot_Martinez_would_leave_Manchester_United_with_his_head_down/dm_261102_Melchiot_Martinez_would_leave_Manchester_United_with_his_head_down.jpg",
+      "published_utc": "2026-11-02T23:52:20Z",
+      "competition_id": "uefa.champions",
+      "competition_name": "Champions League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50362045/martinez-leave-manchester-united-head-down",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50360039",
       "headline": "Astros owner Jim Crane hails Randy Flores as a 'perfect fit' as team's GM",
       "summary": "Randy Flores was introduced as the 15th general manager of the Astros on Monday.",
@@ -12747,48 +14591,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50360039/astros-introduce-jim-crane-new-general-manager",
       "stream_url": "",
       "body": "HOUSTON -- The Astros interviewed a variety of candidates in the search for their next general manager.\n\nIt quickly became clear that Randy Flores was their guy.\n\n\"We went over it and over it and over it and as we reflected back on everybody we spoke to and the qualities, we were looking for Randy was a perfect fit,\" Astros owner Jim Crane said Monday. \"He has experience in every single area of baseball, and you don't find that very often and he has been trained and been around some good organizations. So, he stood out at the end.\"\n\nFlores was introduced as the 15th general manager of the Astros on Monday after being hired on Friday to replace Dana Brown, who was let go in August with his contract set to expire at the end of the season.\n\nThe Astros cut ties with Brown on Aug. 24. Three assistant general managers and Hall of Famer and special adviser Jeff Bagwell took over his responsibilities for the remainder of the season while Crane sought a replacement.\n\nFlores had been serving as the St. Louis Cardinals' assistant general manager of amateur and pro acquisition.\n\nThe former major league pitcher joined the Cardinals' front office as director of scouting in 2015 and spent eight seasons (2019-26) as an assistant GM with the club.\n\nHe said there is a mixture of excitement and nerves as well as another emotion as he embarks on his first general manager job.\n\n\"There's a weight to the role,\" he said. \"Does that make sense? A weight and a responsibility. That's what I feel right now, actually.\"\n\nHis first order of business will be hiring a manager after Joe Espada's contract was not renewed after the AL West Champions were swept by the Chicago White Sox in their Wild Card Series.\n\nFlores said he'll get to work on that task immediately and shared some things he'll be looking for when filling that position.\n\n\"The qualities you look for, in coordination with Jim, we're talking about trust, we're talking about energy, we're talking about chemistry,\" he said.\n\nCrane added that he interviewed a few managerial candidates before hiring Flores.\n\n\"But now that we've got Randy in place, he'll take over that process along with our team and we'll get to work on that,\" he said. \"We hope to get that filled very quickly.\"\n\nAfter that they'll set their sights on working on the roster for next season. And Crane said he doesn't envision it being a rebuilding year.\n\n\"I don't think it's going to be a complete tear down at all,\" he said. \"I think we've got enough talent to work with, and we've got to make some good decisions and make some changes and solidify a better lineup and a better team than we had last year.\"\n\nHe pointed out that even though the season had a disappointing ending, Houston did return to the postseason after missing out the previous year. The Astros went 81-81 to win the AL West for the fifth time in six years, becoming the first big league club without a winning record to reach the playoffs in a non-shortened season.\n\n\"We did make the playoffs, which is always the goal,\" Crane said. \"But we have very high standards here and so I'm sure these guys will get together and make some good decisions, and you'll see some changes made with the roster, surely.\"\n\nFlores pitched in the majors for eight seasons from 2002-10, going 11-5 with a 4.61 ERA and four saves. The left-hander made 347 relief appearances and three starts for Texas, Colorado, St. Louis and Minnesota.\n\nCrane likes that Flores played professionally, a quality that very few MLB general managers have. Additionally, Crane, who made his fortune as a shipping magnate, was impressed with all of the different roles Flores has served in the Cardinals front office.\n\n\"His resume is so complete that you very rarely find a guy that's worked in every single department,\" Crane said. \"I started on the dock in my business and made it to the top. So, I think it's very important to know how everything functions and what those people are doing and how they're doing it and determine if they're doing it well or not doing it well.\"\n\nFlores said the quality from his playing days that he thinks will help him succeed in his new role is his competitiveness.\n\n\"I'm competitive,\" he said. \"We're all competitive in this game. Otherwise, why do this job ... we want development, we want process, but ultimately every night there's a real game. It's not expected outcomes. It's not probabilities. It's a win and a loss, and there's 162 of them, and I can't wait to be in that fight with this team.\""
-    },
-    {
-      "story_id": "40699880",
-      "headline": "Fantasy buzz: Minshew takes over in AZ; Charbonnet, Price return; Jackson on IR",
-      "summary": "A closer look at the impact of Gardner Minshew II taking over as the Cardinals starting quarterback.",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740232_1296x729_16-9.jpg",
-      "published_utc": "2026-11-02T22:32:24Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "ESPN Fantasy",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
-      "stream_url": "",
-      "body": "Everything that happens in the NFL has additional context when viewed from a fantasy football perspective. From position battles to injuries and so much more, the news cycle will constantly affect player values.\n\nOur fantasy football buzz file, with contributions from our ESPN fantasy writers and our NFL Nation reporters, aims to provide fantasy managers with the intel they need as news breaks around the league.\n\nNov. 2: How the move to Minshew impacts the Cardinals\nBy Michael F. Florio\n\nThe Arizona Cardinals named Gardner Minshew II as their starting quarterback on Monday for the Week 9 game in Seattle against the Seahawks.\n\nMinshew took over for Jacoby Brissett on Sunday against Dallas and threw for 188 yards and three touchdowns in a comeback win against the Cowboys, but faces a much tougher task next week against Seattle.\n\nThe biggest question is what this means for the Cardinals' pass catchers, but here's how I expect the switch at QB to impact all positions on offense.\n\nWhile a QB change always adds some volatility, Trey McBride remains a must-start tight end. McBride is a must start regardless of who the QB is, but Minshew's tendency to target tight ends at a high rate keeps him as an elite option. In both 2023 and 2024, Minshew threw to tight ends 12% of the time, which is actually a higher rate than Brissett this season (10%).\nDue to volume, Michael Wilson will remain in play in most matchups. However, next week against Seattle is a week to get him out of your starting lineup. The Cardinals next three weeks are tough matchups for Wilson. Outside of Wilson, fantasy managers should avoid the rest of the Cardinals receivers for the time being.\nThe running backs could see a bump in targets as well, as Minshew has always targeted running backs at a high rate. His career average is 17%, while Brissett is at 13% this season.\nAs for Minshew himself, fantasy managers should stay away with the next three weeks being the Seahawks, Rams and Chiefs. For Week 9, some more favorable streaming options are Kyler Murray (or potentially Carson Wentz), Malik Willis, Sam Darnold and C.J. Stroud.\n\nIt is worth noting that since 2021, there have been 12 relief performances of 15 or more fantasy points by quarterbacks who went on to make another start at some point in that given season; that group averaged 6.7 fewer fantasy points as starters (shout out to Tristan H. Cockcroft for the stat!).\n\nNov. 2: Seahawks return running backs Charbonnet, Price on Monday Night Football\nRookie running back Jadarian Price will return from the IR on Monday Night Football. With Zach Charbonnet making his debut, Seattle will have their full backfield for the first time this season. Due to that, there is uncertainty with how the workload will be distributed. Both Price and Charbonnet have been seldomly used in the passing game, so they could be fighting for carries.\n\nUnless the Seahawks opt to ease Charbonnet in, I would expect the goal line looks to go his way. That makes him the preferred fantasy play. However, if Price is in more of a secondary role, he could see passing downs. Charbonnet is the safer floor play, while Price is a bit more boom-or-bust. Both return in a tough matchup as the Bears have allowed the sixth-fewest fantasy PPG and fourth-fewest rushing YPG to RBs entering Week 8.\n\nNov. 2: Notebook for Week 8\n\nBy Eric Moody\n\nThe box score doesn't tell you everything. Here are the roles and usage trends from Sunday that stood out to me.\n\nBaltimore Ravens at Buffalo Bills\n\nDerrick Henry's playing time has declined over the past two weeks, falling below 50% of snaps against the Bills. On Sunday, he rushed for 53 yards and a touchdown on 11 carries, marking his third straight game with fewer than 60 rushing yards. Justice Hill played on more snaps and ran more routes compared to Henry's nine, benefiting from Baltimore playing from behind. With Lamar Jackson headed for IR due to a thumb injury, the Ravens could struggle to sustain drives and generate red zone opportunities, making Henry's fantasy outlook even more concerning going forward.\nDalton Kincaid played through a chest injury against the Ravens and delivered his second-best fantasy performance (18.6 fantasy points) of the season, catching four out of six targets for 86 yards and a touchdown. Kincaid continues to share playing time with Dawson Knox, but his involvement in the passing game remains encouraging. He ran 23 routes (compared to Knox's 17) and his targets per route remain high despite a slight decline in snaps. Kincaid has now stockpiled 14 targets over his past two games and remains a solid TE1 heading into Week 9 against the Vikings.\n\nTennessee Titans at Cincinnati Bengals\n\nWan'Dale Robinson continues to be Tennessee's most reliable receiver. He led the Titans in both snaps and routes against the Bengals, catching six out of seven targets for 57 yards and a touchdown. He has now drawn at least six targets in four straight games and remains a flex option. Chimere Dike caught five passes for 71 yards and a touchdown while filling in for Carnell Tate, but his role could shrink after the Week 9 bye. TE Gunnar Helm had his best game of the season with five receptions for 76 yards on nine targets, despite playing on a season-low percentage of snaps. Daniel Bellinger's increased involvement makes Helm difficult to trust outside deeper leagues.\nChase Brown led Cincinnati's backfield in snaps, routes and touches against the Titans. Brown finished with 55 rushing yards on 12 carries and caught eight out of nine targets for 46 yards, scoring 16.1 fantasy points. He also ran more than twice as many routes as Samaje Perine, highlighting his significant role in the passing game. Perine finished with just five touches for 19 yards but remains involved in the red zone. Brown's workload keeps him firmly in the RB2 conversation heading into Week 9 against a Falcons defense that ranks among the top five in fantasy points per game allowed to running backs. Perine remains as merely an insurance back.\nMike Gesicki set a season-high in snaps against the Titans following injuries to Erick All Jr. and Tanner Hudson. He ran three times as many routes as Drew Sample, and caught four out of six targets for 76 yards and a touchdown (17.6 fantasy points). Gesicki has now scored a touchdown in five straight games, but what's even more encouraging is his increased involvement on early downs and in two-TE sets. With All and Hudson out for the rest of the season, Gesicki's expanded role should continue. He's worth adding for fantasy managers needing help at tight end.\nMinnesota Vikings at Detroit Lions\n\nThe Vikings used a three-man backfield against the Lions, with no running back playing more than 40% of snaps. Aaron Jones Sr. led the way, followed by DeeJay Dallas and Jordan Mason. Mason led the backfield with eight carries for 20 yards, while Jones had five carries for 22 yards and caught both of his targets for 18 yards. Dallas handled most of the third-down work but finished with just one touch. Jones and Mason remain difficult to trust as anything more than flex options until their roles become clearer. However, the Vikings face a Bills defense in Week 9 that has allowed the fourth-most RB fantasy points per game.\nJordan Addison has seen increased playing time in the slot over the last two games, giving him more opportunities in the Vikings passing game. Against the Lions, Addison led Minnesota receivers in snaps and caught three out of eight targets for 11.6 fantasy points. Justin Jefferson led the team with nine targets, while Jauan Jennings had just two. Addison's eight targets were a season high, which is encouraging for managers. The Vikings face the Bills and Packers over their next two games, both of whom rank among the top 10 in terms of the most WR fantasy points per game.\n\nArizona Cardinals at Dallas Cowboys\n\nTyler Allgeier took over Arizona's backfield against the Cowboys after Jeremiyah Love aggravated his ankle injury and Bam Knight suffered a concussion. Love opened the game as the primary back, with Knight taking over early-down work following his departure. Once Knight exited, Allgeier played every running back snap in the second half and overtime. He finished with 147 rushing yards and a touchdown on 11 carries, adding five receptions for 44 yards and another score for a season-high 36.1 fantasy points. Allgeier should be a priority waiver pickup with RB2 upside if Love and Knight miss Week 9 against the Seahawks. His performance could also earn him a larger role even when both return.\nArizona's receiving corps continues to battle injuries. Kendrick Bourne suffered an ankle injury, Reggie Virgil exited late, and Michael Wilson played through broken ribs. Trey McBride and Wilson dominated snaps and routes, with Wilson drawing a team-high 15 targets and finishing with 111 yards and a touchdown. McBride added seven receptions for 72 yards and a score. He's now caught at least seven passes in 10 straight games -- the third-longest streak in NFL history. Both remain must-start fantasy options as targets continue to be concentrated between them. Gardner Minshew II also replaced Jacoby Brissett and could start in Week 9.\nThe Cowboys rank seventh in passing attempts per game, creating plenty of opportunities for their receivers. George Pickens has dealt with shoulder and hamstring injuries over the last two weeks, leading to more frequent substitutions and increased playing time for Ryan Flournoy. When Pickens has rotated out, Flournoy has handled most of the available snaps in single-receiver sets and taken on additional work in two-WR formations. Flournoy has now drawn at least four targets and scored at least 12 fantasy points in four straight games. Monitor Pickens' practice participation this week. If he remains limited, Flournoy could be an intriguing sleeper against a vulnerable Colts defense in Week 9.\n\nCleveland Browns at Pittsburgh Steelers\n\nDylan Sampson led the Browns backfield in snaps, routes run and fantasy points (12.9), largely because Cleveland was playing from behind. Quinshon Judkins still led the backfield with 13 touches, compared to only seven for Sampson. This is something fantasy managers will have to live with when rostering Judkins, whose workload is more favorable when the Browns are playing with a lead or keeping games competitive. Cleveland should have an easier time moving the ball against the Saints in Week 9, keeping Judkins in the volume-based RB2 conversation.\nKC Concepcion was held to four targets and 6.7 fantasy points against the Steelers after finishing with 10 targets and a season-high 23.2 fantasy points against the Titans in Week 7. Despite leading Cleveland in routes run, Concepcion was out-targeted by both Harold Fannin Jr. (12) and Denzel Boston (11). The playing time is encouraging, but the inconsistent target volume makes Concepcion and Boston difficult to trust in fantasy lineups. Fannin has been the more reliable option, drawing at least nine targets and scoring at least 13 fantasy points in consecutive games. He remains a low-end TE1.\n\nLas Vegas Raiders at New York Jets\n\nThe Raiders made a surprising change in their backfield against the Jets, giving Mike Washington Jr. the start over Ashton Jeanty. Washington dominated early-down and goal-line work, finishing with 83 rushing yards on a career-high 25 carries after never having reached double-digit attempts in any previous game this season. Jeanty played on a season-low number of snaps, managing just 9 yards on two carries but catching three passes for 64 yards. Coach Klint Kubiak said the change wasn't disciplinary and expects both backs to remain involved. Washington should be a priority waiver pickup, while Jeanty's reduced workload makes him a riskier fantasy option.\nBraelon Allen led the Jets' backfield in snaps, routes and touches (23), finishing with a season-high 23.3 fantasy points. Breece Hall missed his fifth straight game, despite practicing on a limited basis throughout the week. Allen remains a must-hold for fantasy managers regardless of whether Hall is traded or stays in New York. He's played well enough to maintain a significant role, either as the lead back or in a committee with Hall. The Jets also have one of the more favorable remaining schedules for running backs, particularly after their Week 9 matchup against the Chiefs, making Allen worth holding for the stretch run.\nAdonai Mitchell had a breakout performance against the Raiders, catching seven of his nine targets for 27.2 fantasy points. Garrett Wilson led the Jets with 12 targets, finishing with 14.3. Omar Cooper Jr. wasn't targeted, despite playing more snaps than Mitchell. Cooper continues to get more opportunities in two-WR sets, although Mitchell ran more routes against the Raiders. Mitchell will be a target on waivers, but the competition for playing time makes both receivers difficult to trust consistently. Wilson remains the safest fantasy option in this receiving corps.\n\nIndianapolis Colts at Jacksonville Jaguars\n\nThe Colts continued to lean on Jonathan Taylor and Josh Downs against the Jaguars despite trade rumors surrounding both players. Taylor played on 79% of snaps before garbage time but finished with just 12 touches and 6.7 fantasy points. Downs led Indianapolis in routes and caught four out of five targets for 12.3 fantasy points, thanks to a receiving touchdown. His playing time increased as the Colts used more three-WR sets while playing from behind. Their fantasy outlooks could change considerably, depending on what happens before the trade deadline.\nTyler Warren returned after missing the past two games due to a groin injury and led the Colts' TE room in snaps, routes, targets (10) and fantasy points (5.8). He saw a slight dip in playing time against the Jaguars compared to the first five weeks of the season, as Will Mallory took some additional snaps in 11 personnel. Although Warren had his second-worst fantasy performance of the season, he could take on a larger role in the Colts offense if either Taylor or Downs is traded.\n\nAtlanta Falcons at Tampa Bay Buccaneers\n\nBucky Irving rushed for 170 yards and a touchdown against the Falcons, finishing with 21 fantasy points. Irving and Kenny Gainwell split snaps evenly after Irving played on 64% of snaps over the first seven weeks. Irving remained the primary early-down back with 27 carries, while Gainwell handled all the passing-down snaps and rushed for 140 yards on 25 attempts. Poor weather conditions led Tampa Bay to run the ball on 90% of its plays, so I wouldn't expect this kind of split every week. Irving remains a must-start, having scored at least 21 fantasy points in three of his last four games.\nKyle Pitts Sr. has seen a slight dip in playing time over the last two weeks as he continues to split snaps with Charlie Woerner and Nick Muse, but his involvement in the passing game remains encouraging. He's drawn at least five targets in four straight games and scored at least 13 fantasy points in three of them.\n\nLos Angeles Chargers at Los Angeles Rams\n\nKyren Williams led the Rams backfield in snaps, routes and touches (17), but Blake Corum led the way with 13.3 fantasy points. Corum finished with 11 touches and both backs scored rushing touchdowns. Corum averaged 6.6 yards per carry, compared to 3.3 for Williams. He has now scored at least 13 fantasy points in four straight games and handled at least 10 touches in three of them. The Rams continue to lean heavily on their running game, keeping both Williams and Corum fantasy relevant.\nThe Chargers continued their three-man backfield rotation against the Rams, with Omarion Hampton and Keaton Mitchell splitting early-down work while Kimani Vidal handled passing situations. Vidal led the backfield in snaps and routes run, while Mitchell and Hampton saw similar playing time. Hampton finished with 27 total yards on 11 touches, while Vidal had 30 yards on 10 touches and Mitchell added 23 yards on seven touches. The Chargers offense has been a disaster, ranking last in points, touchdowns and turnovers this season. Limited opportunities and a three-man rotation make this a backfield fantasy managers should continue to avoid.\n\nKansas City Chiefs at Denver Broncos\n\nJonah Coleman took control of the Broncos backfield against the Chiefs with RJ Harvey sidelined by a knee injury. Coleman led the Broncos backfield in snaps and routes and finished with 41 rushing yards and a touchdown on 11 carries, adding four receptions for 63 yards (20.4 fantasy points). J.K. Dobbins managed just 13 yards on seven carries. Coleman also handled goal-line work and most of the second-half snaps, making him a must-add and a solid RB2 heading into Week 9 against a Panthers defense that's allowed the second-most RB fantasy points per game.\nIt was frustrating for Kenneth Walker III's fantasy managers to see Emmett Johnson finish with six touches and 25.3 fantasy points, compared to Walker's 25 touches and 12.3 fantasy points. However, context is important. Johnson played on a season-low number of snaps against the Broncos, while Walker continues to dominate touches in Kansas City's backfield. Walker has handled at least 20 touches in seven out of eight games this season. Johnson remains one of the top insurance backs worth rostering, but Walker's consistent workload should keep fantasy managers confident in his outlook.\n\nNew England Patriots at Miami Dolphins\n\nDeMario Douglas led Patriots pass catchers with 16.6 fantasy points while A.J. Brown was ruled out and Romeo Doubs remained on IR. Douglas tied for the second-most routes run despite ranking fourth in snaps among New England's pass catchers. However, he's played primarily in 11 personnel this season, which could make his weekly production inconsistent, despite the strong performance.\nOllie Gordon II remains the Dolphins' clear lead back, playing on more than 80% of offensive snaps for the second straight week. He rushed for 69 yards on 19 carries against the Patriots but failed to catch his only target, finishing with 6.9 fantasy points. Gordon handled a season-high share of early-down snaps despite Jaylen Wright being fully healthy, while Kaytron Allen didn't see any offensive snaps. Gordon has averaged nearly 18 touches over his last four games, keeping him in the RB2 conversation. However, he has caught just one pass during that stretch, making him heavily dependent on rushing production and touchdowns.\n\nPhiladelphia Eagles at Washington Commanders\n\nThe Commanders adjusted their receiving rotation with Terry McLaurin on IR. Treylon Burks and Antonio Williams took over as Washington's primary outside receivers against the Eagles. Both played season-high shares of snaps and ran more routes than Stefon Diggs, who continued to work primarily from the slot. Burks caught three passes for 81 yards, while Williams led the team with seven targets, finishing with five receptions for 54 yards. Diggs caught three passes for 38 yards and a touchdown. Burks and Williams are worth adding in deeper leagues, while Diggs remains a TD-dependent flex option heading into a difficult Week 9 matchup against the Rams.\n\nNov. 1: Week 8 scoring leaders through Sunday's games\n\nJoe Burrow, QB, Cincinnati Bengals-- 39.48\nTee Higgins, WR, Cincinnati Bengals -- 37.5\nTyler Allgeier, RB, Arizona Cardinals -- 36.1\nJa'Marr Chase, RB, Cincinnati Bengals -- 31.1\nBhayshul Tuten, RB, Jacksonville Jaguars - 29.9\nTony Pollard, RB, Tennessee Titans - 28.7\nBrock Bowers, TE, Las Vegas Raiders - 28.2\nKirk Cousins, QB, Las Vegas Raiders - 28.18\nAdonai Mitchell, WR, New York Jets - 27.2\nMichael Wilson, WR, Arizona Cardinals -- 26.8\n\nClick here for the complete list of Week 8's top scorers.\n\nOct. 30: Packers' ground game cause for concern\n\nBy Adam Rank\n\nJordan Love throws multiple touchdown passes. Matthew Golden looks good. I mean, Christian Watson left and arrived back at Lambeau Field from an ambulance in a move that would make Triple H say, \"no way this is real.\" And yet, I get a note from my editor (a Packers fan, mind you) complaining about the (lack of a) Green Bay Packers running game.\n\nI mean, the Milwaukee Brewers just won the World Series, but we need to focus on the Packers' rushing attack? Well, I guess that is the best place to start.\n\nThe Packers won the game despite rushing for just 66 yards. They have been held to fewer than 90 rushing yards in all eight games, the club's longest streak in the Super Bowl era. The Packers' 485 rushing yards are the fewest by any team through eight games since the 2019 Bengals. I mean, what in the name of Eddie Lee Ivery is going on here?\n\nThe short answer is the offensive line is bad. The playcalling is bad. I mean, you think the guy who favored Dion Lewis over Derrick Henry when he was offensive coordinator in Tennessee was ever going to have a solid running game in Green Bay? It's just the facts.\n\nAnd it's not going to get much easier in the coming weeks, either. The New England Patriots, Minnesota Vikings and Los Angeles Rams aren't great matchups. It's not until the New Orleans Saints in Week 13 that the schedule softens for Josh Jacobs. If you kept him on your roster all this time, you're likely going to be compelled to start him, but the matchups aren't ideal.\n\nSome other notes from Thursday night:\n\nLove has accounted for multiple touchdowns in all eight games this season, but this was his first game of the season with three touchdown passes. He's a set-and-forget quarterback moving forward. It is wild to think he wasn't drafted as a QB1 this year.\nWatson is nearing ace territory this season. He recorded his 12th reception of 20-plus yards, second in the league behind Jaxon Smith-Njigba.\nGolden is also a must-start, but he registered two drops Thursday. Love has seen 20 drops by his receivers this season. I feel like that total would double if you counted the number of interceptions that are dropped. Or maybe it just seems that way to me, a Bears supporter.\nIs the \"Bryce Young as a QB1\" era over already? Well, for starters, the Carolina Panthers need to do a better job of protecting him. He was hit. A lot. I'm not rushing him back into my lineup next week against the Denver Broncos. You might want to take a look at the waiver wire right now for a streamable option if Young is your only quarterback. Kyler Murray against the Buffalo Bills next week could do the trick.\nChuba Hubbard was good, however. He scored a touchdown, rushed for 81 yards and caught seven balls for 38 more yards. Again, playing the Bills next week makes him a prime RB1."
-    },
-    {
-      "story_id": "50360114",
-      "headline": "Jack Grealish, 'not match fit,' left out as Everton beat Newcastle again",
-      "summary": "Jack Grealish was not named in Everton's squad for Monday's Premier League match at Newcastle United due to a fitness issue.",
-      "image": "https://a.espncdn.com/photo/2026/0803/r1697241_1296x729_16-9.jpg",
-      "published_utc": "2026-11-02T22:38:52Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN News Services",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50360114/jack-grealish-everton-squad-again",
-      "stream_url": "",
-      "body": "Jack Grealish was not named in Everton's squad for Monday's Premier League win over Newcastle United due to a fitness issue.\n\nThe 31-year-old was left out of the team for Thursday's Carabao Cup fourth-round meeting against the Magpies due to a breach of club discipline and Everton went on to win the game 3-1.\n\nBoth sides met again at St James' Park in the Premier League and Grealish was not included, with a starting lineup post on the Everton club website stating that he is \"not match fit.\"\n\nEverton went on to beat Newcastle for the second time in four days as Thierno Barry scored the game's only goal in a 1-0 win.\n\nGrealish was also absent for the Toffees' 2-0 loss to Arsenal on Oct. 24, but that was put down to illness.\n\nThe former Aston Villa midfielder is on a second consecutive season-long loan from Manchester City and has made six appearances for Everton this season.\n\nDuring the last campaign, Grealish provided six assists and scored two goals in 20 appearances before suffering a season-ending foot injury in January.\n\nHe was not part of the England side that made a run to the semifinals of the World Cup before losing to Argentina.\n\nThe Press Association have contacted Everton.\n\nFollowing last week's win over Newcastle, Everton manager David Moyes declined to give further details on Grealish's absence.\n\n\"It was a club decision,\" he said. \"I support the decision. It's something I don't really want to speak too much about.\"\n\nInformation from PA was used in this report."
-    },
-    {
-      "story_id": "50360679",
-      "headline": "Flick '100% convinced' Barcelona can win Champions League and LaLiga",
-      "summary": "Flick '100% convinced' Barcelona can win Champions League and LaLiga",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Flick_100_convinced_Barcelona_can_win_Champions_League_and_LaLiga/dm_261102_Flick_100_convinced_Barcelona_can_win_Champions_League_and_LaLiga.jpg",
-      "published_utc": "2026-11-02T20:26:07Z",
-      "competition_id": "uefa.champions",
-      "competition_name": "Champions League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50360679/flick-100-convinced-barcelona-win-champions-league-laliga",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50359064",
@@ -14001,156 +15803,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/03/AEW-Dynamite.jpg",
       "source_url": "https://watch-wrestling.eu/aew-dynamite-10-28-2026/d3b2f5ea56efb548d924d04ecb55bf69"
-    },
-    {
-      "id": "ww:wwe-nxt-live-1k",
-      "title": "WWE NxT 10/27/26 \u2013 October 27, 2026",
-      "date": "2026-10-27",
-      "replay_url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/2/1",
-          "label": "VidQ FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/4/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/5/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/5/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/5/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/3/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/txneww/10-27-2026/select-post-1/3/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-WWE-NxT-Full-Show.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-nxt-live-1k/"
-    },
-    {
-      "id": "ww:6ca1b6f0563c6fd43dfca1a6d94cc933",
-      "title": "STARDOM NIGHTER in KORAKUEN 2026 Oct.2 10/27/2026",
-      "date": "2026-10-27",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/2/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/1/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/10-27-2026/select-post-1/1/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "",
-      "source_url": "https://watch-wrestling.eu/stardom-nighter-in-korakuen-2026-oct-2-10-27-2026-2/6ca1b6f0563c6fd43dfca1a6d94cc933"
-    },
-    {
-      "id": "ww:8f4b6caefbf31d56bd5eab5095a748c3",
-      "title": "NJPW SUPER Jr TAG LEAGUE 2026 Road to POWER STRUGGLE Ibaraki Hanamomo Gymnasium 10/27/2026",
-      "date": "2026-10-27",
-      "replay_url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/2/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/1/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/10-27-2026/select-post-1/1/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/10/Watch-NJPW-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/njpw-super-jr-tag-league-2026-road-to-power-struggle-ibaraki-hanamomo-gymnasium-10-27-2026/8f4b6caefbf31d56bd5eab5095a748c3"
     }
   ],
   "replays": [
