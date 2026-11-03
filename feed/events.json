@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-03T04:31:18.965552+00:00",
+  "generated_utc": "2026-11-03T04:41:25.730488+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057447",
@@ -8032,7 +8032,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-03T02:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:28",
         "name": "San Jose Sharks",
@@ -8062,7 +8062,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "FINAL/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
       "game_number": 1,
@@ -8111,97 +8111,6 @@
       "source_status": "post/Final",
       "venue": "Ball Arena",
       "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401925811",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-03T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:248",
-        "name": "Houston Cougars",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cougars",
-          "HOU",
-          "Houston",
-          "Houston Cougars"
-        ],
-        "color": "c8102e"
-      },
-      "away": {
-        "id": "espn:2325",
-        "name": "La Salle Explorers",
-        "abbrev": "LAS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
-        "logo_dark": null,
-        "aliases": [
-          "Explorers",
-          "LAS",
-          "La Salle",
-          "La Salle Explorers"
-        ],
-        "color": "003356"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Fertitta Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401916313",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-03T02:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:252",
-        "name": "BYU Cougars",
-        "abbrev": "BYU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-        "logo_dark": null,
-        "aliases": [
-          "BYU",
-          "BYU Cougars",
-          "Cougars"
-        ],
-        "color": "0047ba"
-      },
-      "away": {
-        "id": "espn:194",
-        "name": "Ohio State Buckeyes",
-        "abbrev": "OSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buckeyes",
-          "OSU",
-          "Ohio State",
-          "Ohio State Buckeyes"
-        ],
-        "color": "ba0c2f"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/End of Period",
-      "venue": "Delta Center",
-      "detail": "End of 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8303,6 +8212,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401925811",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-03T02:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:248",
+        "name": "Houston Cougars",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "HOU",
+          "Houston",
+          "Houston Cougars"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:2325",
+        "name": "La Salle Explorers",
+        "abbrev": "LAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2325.png",
+        "logo_dark": null,
+        "aliases": [
+          "Explorers",
+          "LAS",
+          "La Salle",
+          "La Salle Explorers"
+        ],
+        "color": "003356"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Fertitta Center",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401918947",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -8349,6 +8304,51 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401916313",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-03T02:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:252",
+        "name": "BYU Cougars",
+        "abbrev": "BYU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+        "logo_dark": null,
+        "aliases": [
+          "BYU",
+          "BYU Cougars",
+          "Cougars"
+        ],
+        "color": "0047ba"
+      },
+      "away": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Delta Center",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401909919",
       "sport": "basketball",
       "competition_id": "nba",
@@ -8386,7 +8386,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "11:40 - 3rd Quarter",
+      "detail": "9:36 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8432,7 +8432,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Intuit Dome",
-      "detail": "10:36 - 3rd Quarter",
+      "detail": "8:14 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8478,7 +8478,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "11:47 - 3rd Quarter",
+      "detail": "7:51 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8523,7 +8523,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "T-Mobile Arena",
-      "detail": "17:16 - 2nd Half",
+      "detail": "12:55 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8566,9 +8566,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Galen Center",
-      "detail": "Halftime",
+      "detail": "17:04 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -14369,32 +14369,32 @@
   ],
   "stories": [
     {
-      "story_id": "50365137",
-      "headline": "Utah Jazz vs. San Antonio Spurs: Game Highlights",
-      "summary": "Utah Jazz vs. San Antonio Spurs: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/8efbca6d-2e2b-46a1-9fe2-9c7925a1def3/8efbca6d-2e2b-46a1-9fe2-9c7925a1def3.jpg",
-      "published_utc": "2026-11-03T04:29:22Z",
+      "story_id": "50365182",
+      "headline": "Boston Celtics vs. Houston Rockets: Game Highlights",
+      "summary": "Boston Celtics vs. Houston Rockets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/59120439-b144-4241-bd0f-1ffd4413acda/59120439-b144-4241-bd0f-1ffd4413acda.jpg",
+      "published_utc": "2026-11-03T04:35:50Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50365137/game-highlights",
+      "link": "https://www.espn.com/video/clip/_/id/50365182/game-highlights",
       "stream_url": "",
       "body": ""
     },
     {
-      "story_id": "50365054",
-      "headline": "Bears outduel Seahawks 34-17 on MNF",
-      "summary": "Bears outduel Seahawks 34-17 on MNF",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/4828be659815489f9e252ea180fe9d9f1406/4828be659815489f9e252ea180fe9d9f1406.jpg",
-      "published_utc": "2026-11-03T04:27:25Z",
+      "story_id": "50365218",
+      "headline": "Caleb Williams and Jeffery Simmons lead the Bears past the Seahawks 34-17",
+      "summary": "\u2014 Caleb Williams threw a touchdown pass on the opening drive and Jeffery Simmons delivered just what Chicago needed on defense as the Bears beat the",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873036.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-03T04:35:49Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50365054/bears-outduel-seahawks-34-17-mnf",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873036",
       "stream_url": "",
-      "body": ""
+      "body": "SEATTLE -- \u2014 Caleb Williams threw a touchdown pass on the opening drive and Jeffery Simmons delivered just what Chicago needed on defense as the Bears beat the Seattle Seahawks 34-17 on Monday night.\n\n\r\nWilliams was extremely efficient for the Bears (6-2) against one of the NFL's stingiest defenses, committing no turnovers, taking just one sack and throwing for 247 yards while completing 71% of his passes.\n\n\r\nWilliams' play helped set up three short touchdown runs by D'Andre Swift and that proved to be more than enough against Sam Darnold and the Seahawks (4-4), thanks to the impact Simmons had on the defense.\n\n\r\nAcquired last week from Tennessee for a package that included two first-round picks, Simmons took little time to make a big impact on a defense that had lacked difference-makers.\n\n\r\nHe had a sack on the opening drive, added another tackle for loss and finished with six tackles and a pass defensed as Chicago held Seattle to 252 yards and one third-down conversion on 11 tries.\n\n\r\nThe defending champion Seahawks lost for the third time in four games and are now looking up at the NFC playoff standings and can ill afford many more slip-ups. The loss ended a 30-game streak for Seattle in the regular season and playoffs \u2014 the fourth longest for any team in the Super Bowl era \u2014 of not losing by more than four points.\n\n\r\nSam Darnold went 17 of 34 for 188 yards and two touchdowns for Seattle, but his interception in the fourth quarter set up Swift's third TD that made it 34-17 with 4:41 to play.\n\n\r\nThe Seahawks struggled once again to run the ball despite their trade last week for three-time All-Pro guard Quenton Nelson and the return of Zach Charbonnet and Jadarian Price from injures. Seattle ran for only 81 yards.\n\n\r\nThe Bears started off well against Seattle's stout defense by putting together a 17-play drive on the opening possession to take the lead when Williams threw a 1-yard touchdown pass to Luther Burden.\n\n\r\nThe Bears added two more field goals in the first half and built the lead to 20-9 in the third quarter with another efficient touchdown drive that ended with a 1-yard run by Swift.\n\n\r\nThe Seahawks were bottled up by Simmons and the Bears for almost the entire first half before Darnold connected with Jaxon Smith-Njigba on a 43-yard pass with 30 seconds left in the second quarter.\n\n\r\nThings looked bleak for Seattle when Jason Myers had a 33-yard field goal blocked in the opening minute of the fourth quarter.\n\n\r\nBut DeMarcus Lawrence forced a fumble by Colston Loveland on the next possession that set up Darnold's 7-yard touchdown pass to Cooper Kupp, and Seattle converted the 2-point conversion to make it 20-17.\n\n\r\nThe Bears answered with another TD drive and put the game away after Darnold's interception.\n\n\r\nInjuries\r\nSeahawks: DL Leonard Williams left in the second half with a stinger and didn't return.\n\n\r\nUp next\r\nBears: Host Tampa Bay on Sunday night.\n\n\r\nSeahawks: Host Arizona on Sunday,\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50364884",
@@ -14537,30 +14537,30 @@
       "body": "The NRL season may be over, but the player market is already heating up ahead of November 1, with clubs beginning to shape their rosters for 2027 and beyond.\n\nFrom player movement to changes behind the scenes, ESPN NRL Insider Isaac Issa has the latest whispers from around the competition.\n\nDolphins win race for Su'a\n\nThe Dolphins have won the race to retain Sebastian Su'a, with ESPN understanding the young forward has agreed to terms on a two-year extension that will keep him in Redcliffe until the end of 2029.\n\nSeveral NRL clubs had identified Su'a as a potential recruitment target, but the Dolphins have moved to secure his future with the club.\n\nFa'alogo agrees to long-term Storm extension\n\nSua Fa'alogo has agreed to extend his stay at the Melbourne Storm through to the end of 2032, ESPN understands.\n\nThe agreement will keep the fullback in Melbourne for the next six seasons, securing a key figure in the Storm's long-term plans.\n\nFa'alogo's retention delivers a major boost for Melbourne ahead of the November 1 contracting window, with the club moving to lock down one of its most exciting talents.\n\nDolphins close in on Lemuelu extension, confident of keeping Farnworth\n\nThe Dolphins are closing in on a multi-year extension for Connelly Lemuelu as they also express confidence in retaining Herbie Farnworth.\n\nESPN understands Lemuelu is nearing an agreement to extend his stay despite interest from Canberra, Parramatta and Cronulla.\n\nSecuring the back-rower would deliver a retention boost for the Dolphins, with the length of the proposed deal yet to be confirmed.\n\nThe club is also understood to be confident it can retain Farnworth despite links to the Sydney Roosters.\n\nWhile that confidence is yet to translate into a confirmed extension, keeping the English international alongside Lemuelu would help preserve key combinations on the Dolphins' left edge.\n\nEels edge ahead in Best race\nParramatta have emerged as the frontrunners to land Bradman Best, with multiple sources indicating the Newcastle centre is increasingly likely to join the Eels beyond 2027.\n\nBest has been identified as a priority target for Parramatta, who are looking to bolster Jason Ryles' backline with an established representative star.\n\nWhile a deal is yet to be confirmed, the Eels are understood to be in the box seat despite Newcastle's efforts to retain him with a lucrative extension.\n\nBulldogs unlikely to enter Walker race\nCanterbury are unlikely to enter the race for Sam Walker, with the Bulldogs backing their existing halfback options ahead of the upcoming season.\n\nDespite suggestions the club could emerge as a potential destination for Walker, it is understood Canterbury are taking a wait-and-see approach rather than preparing to launch a pursuit.\n\nThe Bulldogs' immediate focus remains on the internal battle for the No.7 jersey, with Mitch and Alex Conti set to compete for the role over the offseason.\n\nCanterbury have not completely shut the door on a move should circumstances change, but their current position suggests they are unlikely to become an active contender for Walker's signature.\n\nFor now, the Bulldogs are content to watch how the situation unfolds."
     },
     {
-      "story_id": "50365022",
-      "headline": "Harper, Wembanyama lead Spurs past Jazz 119-97, extend winning streak to 5 games",
-      "summary": "\u2014 Dylan Harper scored 17 points, Victor Wembanyama added 12 points, 11 rebounds and three blocks and the San Antonio Spurs rolled to their fifth straight victory, topping the Utah Jazz 119-97 on Monday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909917.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-03T04:16:50Z",
+      "story_id": "50365137",
+      "headline": "Utah Jazz vs. San Antonio Spurs: Game Highlights",
+      "summary": "Utah Jazz vs. San Antonio Spurs: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/8efbca6d-2e2b-46a1-9fe2-9c7925a1def3/8efbca6d-2e2b-46a1-9fe2-9c7925a1def3.jpg",
+      "published_utc": "2026-11-03T04:29:22Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909917",
+      "link": "https://www.espn.com/video/clip/_/id/50365137/game-highlights",
       "stream_url": "",
-      "body": "SAN ANTONIO -- \u2014 Dylan Harper scored 17 points, Victor Wembanyama added 12 points, 11 rebounds and three blocks and the San Antonio Spurs rolled to their fifth straight victory, topping the Utah Jazz 119-97 on Monday night.\n\n\r\nStephon Castle added 16 points and Keldon Johnson had 15 points as San Antonio won the first two of a three-game homestand.\n\n\r\nLauri Markkanen had 22 points and eight rebounds for Utah, which lost its fifth straight.\n\n\r\nWembanyama has averaged 28.8 points, 9.8 rebounds and 4.0 blocks during the winning streak, but his scoring wasn't as critical with a balanced attack against the Jazz. San Antonio had seven players score in double figures and held an opponent to less than 100 points for the first time this season.\n\n\r\nSan Antonio shot 60% from the field while outscoring Utah 35-20 in the third quarter. Wembanyama, Harper, Castle and De'Aaron Fox had six points apiece in the quarter as the Spurs extended their lead to 25 points.\n\n\r\nFox finished with 12 points and Devin Vassell had 11 as San Antonio's starters combined to score 68 points.\n\n\r\nThe Spurs never trailed after giving up a 15-foot jumper to Markkanen in the game's opening minute. San Antonio went on an 18-2 run following a Flagrant Foul 1 by Darryn Peterson on a wreckless closeout of Vassell's 3-pointer.\n\n\r\nPeterson finished with 14 points.\n\n\r\nThe Jazz were 7 for 26 in scoring 16 points in the opening quarter, a season-low for Utah and season-best for San Antonio for the first period.\n\n\r\nUtah made 5 of 11 3-pointers in the second quarter in cutting San Antonio's lead to 37-36, but could not recapture the lead.\n\n\r\nThe Spurs outscored the Jazz 26-9 on fastbreak points and 52-36 in the paint.\n\n\r\nUp next\r\nJazz: At New Orleans on Wednesday night.\n\n\r\nSpurs: Host Dallas on Wednesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+      "body": ""
     },
     {
-      "story_id": "50364315",
-      "headline": "If Brian Urlacher could play another snap he'd like to sack Peyton Manning",
-      "summary": "If Brian Urlacher could play another snap he'd like to sack Peyton Manning",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/ss_20261102_221901485_3723139/ss_20261102_221901485_3723139.jpg",
-      "published_utc": "2026-11-03T03:44:35Z",
+      "story_id": "50365054",
+      "headline": "Bears outduel Seahawks 34-17 on MNF",
+      "summary": "Bears outduel Seahawks 34-17 on MNF",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/4828be659815489f9e252ea180fe9d9f1406/4828be659815489f9e252ea180fe9d9f1406.jpg",
+      "published_utc": "2026-11-03T04:27:25Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50364315/if-brian-urlacher-play-another-snap-sack-peyton-manning",
+      "link": "https://www.espn.com/video/clip/_/id/50365054/bears-outduel-seahawks-34-17-mnf",
       "stream_url": "",
       "body": ""
     },
