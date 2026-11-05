@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-05T04:35:44.982949+00:00",
+  "generated_utc": "2026-11-05T04:45:43.281873+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401874963",
@@ -5215,7 +5215,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-05T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:21",
         "name": "Phoenix Suns",
@@ -5245,9 +5245,9 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mortgage Matchup Center",
-      "detail": "3:02 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5481,7 +5481,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Frost Bank Center",
-      "detail": "6:51 - 3rd Quarter",
+      "detail": "2:33 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5619,7 +5619,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Golden 1 Center",
-      "detail": "10:25 - 3rd Quarter",
+      "detail": "6:07 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5666,7 +5666,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Gersten Pavilion",
-      "detail": "10:06 - 2nd Half",
+      "detail": "7:33 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5712,7 +5712,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Leavey Center",
-      "detail": "8:16 - 2nd Half",
+      "detail": "4:37 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5759,7 +5759,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "University Credit Union Pavilion",
-      "detail": "6:10 - 2nd Half",
+      "detail": "0:18 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5803,9 +5803,9 @@
         "color": "98002e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Intuit Dome",
-      "detail": "21.9 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10829,6 +10829,12 @@
         {
           "url": "https://dailywrestling.cc/embed/txneww/11-04-2026/select-post-1/4/2",
           "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/11-04-2026/select-post-1/4/3",
+          "label": "Other Hosts \u2014 Live FHD (CH 61)",
           "part": false,
           "live": false
         },
