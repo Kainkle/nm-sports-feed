@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-06T02:53:43.350572+00:00",
+  "generated_utc": "2026-11-06T03:03:46.197932+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915311",
@@ -3911,7 +3911,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-06T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:8",
         "name": "Montr\u00e9al Canadiens",
@@ -3941,7 +3941,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Centre Bell",
       "detail": "",
       "game_number": 1,
@@ -4354,9 +4354,9 @@
         "color": "0c2340"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Flagler Credit Union Stadium",
-      "detail": "Halftime",
+      "detail": "14:09 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4457,52 +4457,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401906770",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-06T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:57",
-        "name": "Florida Gators",
-        "abbrev": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-        "logo_dark": null,
-        "aliases": [
-          "FLA",
-          "Florida",
-          "Florida Gators",
-          "Gators"
-        ],
-        "color": "0021a5"
-      },
-      "away": {
-        "id": "espn:294",
-        "name": "Jacksonville Dolphins",
-        "abbrev": "JAX",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-        "logo_dark": null,
-        "aliases": [
-          "Dolphins",
-          "JAX",
-          "Jacksonville",
-          "Jacksonville Dolphins"
-        ],
-        "color": "00523e"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Stephen C. O'Connell Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:basketball:401909563",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -4541,7 +4495,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Cameron Indoor Stadium",
-      "detail": "11:14 - 2nd Half",
+      "detail": "7:23 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4588,7 +4542,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Breslin Center",
-      "detail": "7:06 - 2nd Half",
+      "detail": "3:43 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4602,7 +4556,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-06T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:251",
         "name": "Texas Longhorns",
@@ -4632,9 +4586,55 @@
         "color": "c12535"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Moody Center",
-      "detail": "2:47 - 2nd Half",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401906770",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-06T01:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "away": {
+        "id": "espn:294",
+        "name": "Jacksonville Dolphins",
+        "abbrev": "JAX",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Dolphins",
+          "JAX",
+          "Jacksonville",
+          "Jacksonville Dolphins"
+        ],
+        "color": "00523e"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Stephen C. O'Connell Center",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4680,7 +4680,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "M&T Bank Stadium",
-      "detail": "13:38 - 3rd Quarter",
+      "detail": "10:01 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "niMObDdn3o8",
       "replay_url": "",
@@ -4727,7 +4727,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "State Farm Center",
-      "detail": "15:16 - 2nd Half",
+      "detail": "10:54 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4809,7 +4809,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Mortgage Matchup Center",
-      "detail": "7:11 - 2nd Quarter",
+      "detail": "2:06 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4856,7 +4856,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "United Supermarkets Arena",
-      "detail": "3:28 - 1st Half",
+      "detail": "0:56 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12841,25 +12841,25 @@
   ],
   "stories": [
     {
-      "story_id": "50395481",
-      "headline": "Kartye scores the winning goal as the Rangers down the Flyers 3-2",
-      "summary": "\u2014 Ty Kartye scored the go-ahead goal, Dylan Garand made 23 saves and the New York Rangers rallied to beat the Philadelphia Flyers 3-2 on Thursday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892653.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-06T02:45:36Z",
+      "story_id": "50395606",
+      "headline": "Carolina Hurricanes vs. New York Islanders: Game Highlights",
+      "summary": "Carolina Hurricanes vs. New York Islanders: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/2269ad8e-162d-4424-af58-536e9b72b07c/2269ad8e-162d-4424-af58-536e9b72b07c.jpg",
+      "published_utc": "2026-11-06T03:01:24Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892653",
+      "link": "https://www.espn.com/video/clip/_/id/50395606/game-highlights",
       "stream_url": "",
-      "body": "NEW YORK -- \u2014 Ty Kartye scored the go-ahead goal, Dylan Garand made 23 saves and the New York Rangers rallied to beat the Philadelphia Flyers 3-2 on Thursday night.\n\n\r\nAfter Rangers forward Pavel Dorofeyev beat goalie Joseph Woll on a power-play to tie it, Kartye put the Rangers ahead with 4:39 left with his fifth goal.\n\n\r\nGabe Perreault also scored for the Rangers, who won their second straight after a four-game losing streak. Adam Fox had two assists.\n\n\r\nNoel Acciari and Simon Benoit scored for Philadelphia. The Flyers are 4-10-4.\n\n\r\nPerreault opened the scoring with his fifth goal at 4:39 of the first, his first goal since Oct. 19.\n\n\r\nBenoit tied it with 9:50 to go in the second before Acciari put the visitors ahead with 7:51 left in the period.\n\n\r\nDorofeyev, who signed a seven-year, $77 million contract to essentially replace high-scoring forward Artemi Panarin, snapped his fifth goal past Woll with 6:08 left.\n\n\r\nKartye, a waiver wire pickup from Seattle late last season, then put the Rangers ahead to electrify the home crowd.\n\n\r\nGarand improved to 6-6-1 this season. The 24-year-old netminder has started all but one game since Igor Shesterkin was injured on Oct. 9 and declared out for the season the next day.\n\n\r\nWoll made 24 saves,\n\n\r\nUp next\r\nRangers: At Seattle on Saturday.\n\n\r\nFlyers: At Calgary on Sunday.\n\n\r\n------ See AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50394179",
       "headline": "Jaguars-Ravens highlights: Best plays, moments, touchdowns, more",
       "summary": "Here are the best plays from Jags-Ravens on Thursday Night Football.",
       "image": "https://a.espncdn.com/photo/2026/1106/r1741864_608x342_16-9.jpg",
-      "published_utc": "2026-11-06T02:07:50Z",
+      "published_utc": "2026-11-06T02:54:14Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "ESPN Staff",
@@ -13009,16 +13009,16 @@
       "body": "Reece Walsh is locked in as fullback for Australia's World Cup semi-final, but refuses to accept he has truly beaten out two-time Dally M Medal winner James Tedesco for the Kangaroos' No.1 jersey.\n\nAfter coach Kevin Walters split the games between the two superstars in group play, Walsh has been given the nod to start Sunday's semi-final against Samoa.\n\nHowever, the 24-year-old rejects the notion that he's nailed down the position, with Tedesco still waiting in the wings fresh off an NRL premiership with the Sydney Roosters.\n\n\"I wouldn't say anyone's cemented on a spot,\" Walsh said.\n\n\"There's (six) on the bench now, so I could get hooked and replaced.\"\n\nTedesco sported the No.1 jersey when the Kangaroos won the 2022 World Cup, beating Samoa 30-10 in the final, and the veteran is offering plenty of advice to the new first-choice fullback.\n\n\"Building the game early through the middle, and a lot of that push-support stuff,\" Walsh told media when asked about Tedesco's biggest tips for him.\n\n\"We're two completely different players, but to be able to pick his brain about his strengths and what he brings to the team, I'm really grateful to have these opportunities to be around quality players like him.\"\n\nThat camaraderie characterises the Kangaroos' camp, with players willing to sacrifice their own playing minutes for the good of the team.\n\n\"I wouldn't say it's too much competing against each other, I feel like it's trying to get the best out of the whole team,\" the Brisbane Broncos superstar said.\n\n\"You worry about your own job, and focus on doing your role really well for the team.\"\n\nLatrell Mitchell is one player taking on a new role, the South Sydney star lining up on the bench for the must-win semi-final.\n\nThe centre admits he may be the \"worst spectator ever'' waiting impatiently on the sideline, but says there are no bruised egos for any of the Kangaroos not starting.\n\n\"I don't think you have an ego in any team,\" Mitchell said.\n\n\"We all play a part and a role, and we all have a set goal. We're a collective really chasing something, and that's the World Cup.''\n\nThe 29-year-old, who has played 10 Tests for Australia, is happy to offer any advice he can to Kotoni Staggs and Bradman Best, who will start in the centres.\n\n\"I love Kotoni, I love Bradman Best, and I just love seeing them play,\" Mitchell said.\n\n\"They're unbelievable athletes, and if I can add value or have a presence with them, I take a lot of pride in that, my role is to be a good teammate.\""
     },
     {
-      "story_id": "50395462",
-      "headline": "Boston Bruins vs. Pittsburgh Penguins: Game Highlights",
-      "summary": "Boston Bruins vs. Pittsburgh Penguins: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/929773e6-7e77-4e4a-8f6f-988c312d1e09/929773e6-7e77-4e4a-8f6f-988c312d1e09.jpg",
-      "published_utc": "2026-11-06T02:43:39Z",
+      "story_id": "50395599",
+      "headline": "St. Louis Blues vs. New Jersey Devils: Game Highlights",
+      "summary": "St. Louis Blues vs. New Jersey Devils: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/062d1965-37aa-4433-af0d-591439ded073/062d1965-37aa-4433-af0d-591439ded073.jpg",
+      "published_utc": "2026-11-06T03:00:20Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50395462/game-highlights",
+      "link": "https://www.espn.com/video/clip/_/id/50395599/game-highlights",
       "stream_url": "",
       "body": ""
     },
