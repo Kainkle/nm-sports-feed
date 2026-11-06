@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-06T03:24:07.952334+00:00",
+  "generated_utc": "2026-11-06T03:34:15.075495+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915311",
@@ -4079,7 +4079,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -4309,7 +4309,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Canada Life Centre",
       "detail": "",
       "game_number": 1,
@@ -4356,7 +4356,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Flagler Credit Union Stadium",
-      "detail": "7:37 - 3rd Quarter",
+      "detail": "3:04 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4400,7 +4400,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -4448,54 +4448,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "M. M. Roberts Stadium",
-      "detail": "12:01 - 3rd Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909563",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-06T01:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:150",
-        "name": "Duke Blue Devils",
-        "abbrev": "DUKE",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Devils",
-          "DUKE",
-          "Duke",
-          "Duke Blue Devils"
-        ],
-        "color": "00539b"
-      },
-      "away": {
-        "id": "espn:324",
-        "name": "Coastal Carolina Chanticleers",
-        "abbrev": "CCU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-        "logo_dark": null,
-        "aliases": [
-          "CCU",
-          "Chanticleers",
-          "Coastal",
-          "Coastal Carolina",
-          "Coastal Carolina Chanticleers"
-        ],
-        "color": "006f71"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
-      "venue": "Cameron Indoor Stadium",
-      "detail": "0:42 - 2nd Half",
+      "detail": "5:56 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4541,6 +4494,53 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "post/Final",
       "venue": "Stephen C. O'Connell Center",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909563",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-06T01:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:150",
+        "name": "Duke Blue Devils",
+        "abbrev": "DUKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Devils",
+          "DUKE",
+          "Duke",
+          "Duke Blue Devils"
+        ],
+        "color": "00539b"
+      },
+      "away": {
+        "id": "espn:324",
+        "name": "Coastal Carolina Chanticleers",
+        "abbrev": "CCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+        "logo_dark": null,
+        "aliases": [
+          "CCU",
+          "Chanticleers",
+          "Coastal",
+          "Coastal Carolina",
+          "Coastal Carolina Chanticleers"
+        ],
+        "color": "006f71"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Cameron Indoor Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4680,7 +4680,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "M&T Bank Stadium",
-      "detail": "2:25 - 3rd Quarter",
+      "detail": "13:22 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "niMObDdn3o8",
       "replay_url": "",
@@ -4694,7 +4694,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-06T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:356",
         "name": "Illinois Fighting Illini",
@@ -4725,9 +4725,9 @@
         "color": "082A74"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "State Farm Center",
-      "detail": "3:31 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4807,9 +4807,9 @@
         "color": "0150b5"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Mortgage Matchup Center",
-      "detail": "Halftime",
+      "detail": "7:39 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4856,7 +4856,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "United Supermarkets Arena",
-      "detail": "17:49 - 2nd Half",
+      "detail": "14:42 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4948,7 +4948,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "5:18 - 1st Quarter",
+      "detail": "1:48 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12841,18 +12841,18 @@
   ],
   "stories": [
     {
-      "story_id": "50395783",
-      "headline": "Cole Caufield scores in OT in Canadiens' 5-4 victory over Mammoth",
-      "summary": "\u2014 Cole Caufield scored 30 seconds into overtime and the Montreal Canadiens overcame Logan Cooley\u2019s hat trick to beat the Utah Mammoth 5-4 on Thursday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892648.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-06T03:19:35Z",
+      "story_id": "50395606",
+      "headline": "Carolina Hurricanes vs. New York Islanders: Game Highlights",
+      "summary": "Carolina Hurricanes vs. New York Islanders: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/2269ad8e-162d-4424-af58-536e9b72b07c/2269ad8e-162d-4424-af58-536e9b72b07c.jpg",
+      "published_utc": "2026-11-06T03:01:24Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892648",
+      "link": "https://www.espn.com/video/clip/_/id/50395606/game-highlights",
       "stream_url": "",
-      "body": "MONTREAL -- \u2014 Cole Caufield scored 30 seconds into overtime and the Montreal Canadiens overcame Logan Cooley\u2019s hat trick to beat the Utah Mammoth 5-4 on Thursday night.\n\n\r\nCaptain Nick Suzuki had a goal and two assists in his return from a six-game absence for Montreal (10-3-3). Adam Engstrom added his first career goal, and Kirby Dach and Arber Xhekaj also scored.\n\n\r\nJakub Dobes made 16 saves two nights after the Canadiens made some unwanted history. Montreal lost 5-4 in overtime to Winnipeg on Tuesday after blowing a 4-0 lead with 2:39 remaining, marking the latest four-goal comeback in NHL history.\n\n\r\nCooley had his second hat trick in four games and added an assist. At 228 career games, Cooley became the fastest active player to have five career hat tricks, besting Alex Ovechkin by two games.\n\n\r\nNick Schmaltz had a goal and two assists for Utah (10-6-1). Sebastian Cossa stopped 30 shots.\n\n\r\nMontreal tied it at 4 when Engstrom beat Cossa with a wrist shot with 5:06 to go in the third.\n\n\r\nUp next\r\nMammoth: At Ottawa on Saturday night.\n\n\r\nCanadiens: At Toronto on Saturday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50394179",
@@ -13009,16 +13009,16 @@
       "body": "Reece Walsh is locked in as fullback for Australia's World Cup semi-final, but refuses to accept he has truly beaten out two-time Dally M Medal winner James Tedesco for the Kangaroos' No.1 jersey.\n\nAfter coach Kevin Walters split the games between the two superstars in group play, Walsh has been given the nod to start Sunday's semi-final against Samoa.\n\nHowever, the 24-year-old rejects the notion that he's nailed down the position, with Tedesco still waiting in the wings fresh off an NRL premiership with the Sydney Roosters.\n\n\"I wouldn't say anyone's cemented on a spot,\" Walsh said.\n\n\"There's (six) on the bench now, so I could get hooked and replaced.\"\n\nTedesco sported the No.1 jersey when the Kangaroos won the 2022 World Cup, beating Samoa 30-10 in the final, and the veteran is offering plenty of advice to the new first-choice fullback.\n\n\"Building the game early through the middle, and a lot of that push-support stuff,\" Walsh told media when asked about Tedesco's biggest tips for him.\n\n\"We're two completely different players, but to be able to pick his brain about his strengths and what he brings to the team, I'm really grateful to have these opportunities to be around quality players like him.\"\n\nThat camaraderie characterises the Kangaroos' camp, with players willing to sacrifice their own playing minutes for the good of the team.\n\n\"I wouldn't say it's too much competing against each other, I feel like it's trying to get the best out of the whole team,\" the Brisbane Broncos superstar said.\n\n\"You worry about your own job, and focus on doing your role really well for the team.\"\n\nLatrell Mitchell is one player taking on a new role, the South Sydney star lining up on the bench for the must-win semi-final.\n\nThe centre admits he may be the \"worst spectator ever'' waiting impatiently on the sideline, but says there are no bruised egos for any of the Kangaroos not starting.\n\n\"I don't think you have an ego in any team,\" Mitchell said.\n\n\"We all play a part and a role, and we all have a set goal. We're a collective really chasing something, and that's the World Cup.''\n\nThe 29-year-old, who has played 10 Tests for Australia, is happy to offer any advice he can to Kotoni Staggs and Bradman Best, who will start in the centres.\n\n\"I love Kotoni, I love Bradman Best, and I just love seeing them play,\" Mitchell said.\n\n\"They're unbelievable athletes, and if I can add value or have a presence with them, I take a lot of pride in that, my role is to be a good teammate.\""
     },
     {
-      "story_id": "50395772",
-      "headline": "Utah Mammoth vs. Montreal Canadiens: Game Highlights",
-      "summary": "Utah Mammoth vs. Montreal Canadiens: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/d4a2c670-4289-4fad-9126-01eef66a9c46/d4a2c670-4289-4fad-9126-01eef66a9c46.jpg",
-      "published_utc": "2026-11-06T03:18:34Z",
+      "story_id": "50395599",
+      "headline": "St. Louis Blues vs. New Jersey Devils: Game Highlights",
+      "summary": "St. Louis Blues vs. New Jersey Devils: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/062d1965-37aa-4433-af0d-591439ded073/062d1965-37aa-4433-af0d-591439ded073.jpg",
+      "published_utc": "2026-11-06T03:00:20Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50395772/game-highlights",
+      "link": "https://www.espn.com/video/clip/_/id/50395599/game-highlights",
       "stream_url": "",
       "body": ""
     },
