@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-06T00:30:39.358166+00:00",
+  "generated_utc": "2026-11-06T00:41:09.269488+00:00",
   "window_days": 2,
-  "total_events": 283,
+  "total_events": 281,
   "competitions": [
     {
       "competition": "aew",
@@ -229,16 +229,16 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 63,
+      "events": 61,
       "date_range": [
-        "2026-11-04",
+        "2026-11-05",
         "2026-11-08"
       ],
-      "explicit_status": 63,
+      "explicit_status": 61,
       "status_coverage_pct": 100,
-      "both_logos": 63,
+      "both_logos": 61,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "ncaam",
@@ -426,7 +426,38 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/college-football",
+      "date": "2026-11-03",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261103: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/eng.1",
+      "date": "2026-11-04",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261104: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/eng.1",
+      "date": "2026-11-05",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261105: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:soccer/ita.1",
+      "date": "2026-11-04",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261104: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:rugby-league/3",
+      "date": "2026-11-05",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby-league/3/scoreboard?dates=20261105: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    {
+      "source": "espn:racing/nascar-premier",
+      "date": "2026-11-03",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/racing/nascar-premier/scoreboard?dates=20261103: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
