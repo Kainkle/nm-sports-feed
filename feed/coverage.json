@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-06T00:51:17.699735+00:00",
+  "generated_utc": "2026-11-06T01:01:10.200781+00:00",
   "window_days": 2,
-  "total_events": 276,
+  "total_events": 283,
   "competitions": [
     {
       "competition": "aew",
@@ -214,14 +214,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 25,
+      "events": 32,
       "date_range": [
         "2026-11-05",
-        "2026-11-07"
+        "2026-11-08"
       ],
-      "explicit_status": 25,
+      "explicit_status": 32,
       "status_coverage_pct": 100,
-      "both_logos": 25,
+      "both_logos": 32,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -426,13 +426,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/nba",
-      "date": "2026-11-07",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261107: <urlopen error _ssl.c:994: The handshake operation timed out>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
