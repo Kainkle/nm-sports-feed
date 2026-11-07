@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-07T05:34:19.947043+00:00",
+  "generated_utc": "2026-11-07T05:44:30.095919+00:00",
   "window_days": 2,
-  "total_events": 313,
+  "total_events": 300,
   "competitions": [
     {
       "competition": "aew",
@@ -89,14 +89,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 10,
+      "events": 6,
       "date_range": [
         "2026-11-06",
         "2026-11-08"
       ],
-      "explicit_status": 10,
+      "explicit_status": 6,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 6,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -119,14 +119,14 @@
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 9,
+      "events": 4,
       "date_range": [
         "2026-11-06",
         "2026-11-08"
       ],
-      "explicit_status": 9,
+      "explicit_status": 4,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 4,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -147,14 +147,14 @@
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 10,
+      "events": 6,
       "date_range": [
         "2026-11-06",
         "2026-11-08"
       ],
-      "explicit_status": 10,
+      "explicit_status": 6,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 6,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -430,9 +430,19 @@
   ],
   "problems": [
     {
-      "source": "espn:soccer/eng.1",
-      "date": "2026-11-05",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261105: Expecting value: line 1 column 1 (char 0)"
+      "source": "espn:soccer/esp.1",
+      "date": "2026-11-07",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261107: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "source": "espn:soccer/ita.1",
+      "date": "2026-11-07",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261107: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "source": "espn:soccer/ger.1",
+      "date": "2026-11-07",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261107: Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "known_absent": {
