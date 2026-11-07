@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-07T05:03:50.699871+00:00",
+  "generated_utc": "2026-11-07T05:14:04.432185+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915383",
@@ -3991,6 +3991,48 @@
       "card": ""
     },
     {
+      "event_id": "espn:soccer:401882809",
+      "sport": "soccer",
+      "competition_id": "esp.1",
+      "competition_name": "La Liga",
+      "start_utc": "2026-11-06T20:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:243",
+        "name": "Sevilla",
+        "abbrev": "SEV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+        "logo_dark": null,
+        "aliases": [
+          "SEV",
+          "Sevilla"
+        ],
+        "color": "ffffff"
+      },
+      "away": {
+        "id": "espn:96",
+        "name": "Alav\u00e9s",
+        "abbrev": "ALA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+        "logo_dark": null,
+        "aliases": [
+          "ALA",
+          "Alav\u00e9s"
+        ],
+        "color": "0000ff"
+      },
+      "source": "espn:soccer/esp.1",
+      "source_status": "post/Full Time",
+      "venue": "Ram\u00f3n S\u00e1nchez Pizju\u00e1n Stadium",
+      "detail": "FT",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401920423",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -4860,7 +4902,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-07T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2440",
         "name": "Nevada Wolf Pack",
@@ -4890,9 +4932,9 @@
         "color": "ba0c2f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mackay Stadium",
-      "detail": "3:08 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5075,7 +5117,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "3:25 - 3rd Quarter",
+      "detail": "24.0 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5119,9 +5161,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Golden 1 Center",
-      "detail": "3:40 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5164,9 +5206,9 @@
         "color": "4d1979"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Casino Del Sol Stadium",
-      "detail": "0:51 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5211,7 +5253,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Pauley Pavilion",
-      "detail": "15:20 - 2nd Half",
+      "detail": "11:25 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10095,6 +10137,178 @@
       "card": ""
     },
     {
+      "event_id": "espn:soccer:401879244",
+      "sport": "soccer",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "start_utc": "2026-11-08T14:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:331",
+        "name": "Brighton & Hove Albion",
+        "abbrev": "BHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+        "logo_dark": null,
+        "aliases": [
+          "BHA",
+          "Brighton",
+          "Brighton & Hove Albion"
+        ],
+        "color": "0606fa"
+      },
+      "away": {
+        "id": "espn:337",
+        "name": "Brentford",
+        "abbrev": "BRE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+        "logo_dark": null,
+        "aliases": [
+          "BRE",
+          "Brentford"
+        ],
+        "color": "f42727"
+      },
+      "source": "espn:soccer/eng.1",
+      "source_status": "pre/Scheduled",
+      "venue": "American Express Stadium",
+      "detail": "Sun, November 8th at 9:00 AM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401879243",
+      "sport": "soccer",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "start_utc": "2026-11-08T14:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:384",
+        "name": "Crystal Palace",
+        "abbrev": "CRY",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+        "logo_dark": null,
+        "aliases": [
+          "C Palace",
+          "CRY",
+          "Crystal Palace"
+        ],
+        "color": "0202fb"
+      },
+      "away": {
+        "id": "espn:364",
+        "name": "Liverpool",
+        "abbrev": "LIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "logo_dark": null,
+        "aliases": [
+          "LIV",
+          "Liverpool"
+        ],
+        "color": "d11317"
+      },
+      "source": "espn:soccer/eng.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Selhurst Park",
+      "detail": "Sun, November 8th at 9:00 AM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401878759",
+      "sport": "soccer",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "start_utc": "2026-11-08T14:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:373",
+        "name": "Ipswich Town",
+        "abbrev": "IPS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+        "logo_dark": null,
+        "aliases": [
+          "IPS",
+          "Ipswich",
+          "Ipswich Town"
+        ],
+        "color": "0000fa"
+      },
+      "away": {
+        "id": "espn:349",
+        "name": "AFC Bournemouth",
+        "abbrev": "BOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "logo_dark": null,
+        "aliases": [
+          "AFC Bournemouth",
+          "BOU",
+          "Bournemouth"
+        ],
+        "color": "f42727"
+      },
+      "source": "espn:soccer/eng.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Portman Road",
+      "detail": "Sun, November 8th at 9:00 AM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401879239",
+      "sport": "soccer",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "start_utc": "2026-11-08T14:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:366",
+        "name": "Sunderland",
+        "abbrev": "SUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        "logo_dark": null,
+        "aliases": [
+          "SUN",
+          "Sunderland"
+        ],
+        "color": "EB172B"
+      },
+      "away": {
+        "id": "espn:363",
+        "name": "Chelsea",
+        "abbrev": "CHE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHE",
+          "Chelsea"
+        ],
+        "color": "144992"
+      },
+      "source": "espn:soccer/eng.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Stadium of Light",
+      "detail": "Sun, November 8th at 9:00 AM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:soccer:401875018",
       "sport": "soccer",
       "competition_id": "ita.1",
@@ -10305,6 +10519,49 @@
       "source_status": "pre/Scheduled",
       "venue": "Reale Arena",
       "detail": "Sun, November 8th at 10:15 AM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401879240",
+      "sport": "soccer",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "start_utc": "2026-11-08T16:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:360",
+        "name": "Manchester United",
+        "abbrev": "MAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+        "logo_dark": null,
+        "aliases": [
+          "MAN",
+          "Man Utd",
+          "Manchester United"
+        ],
+        "color": "da020e"
+      },
+      "away": {
+        "id": "espn:362",
+        "name": "Aston Villa",
+        "abbrev": "AVL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "logo_dark": null,
+        "aliases": [
+          "AVL",
+          "Aston Villa"
+        ],
+        "color": "660e36"
+      },
+      "source": "espn:soccer/eng.1",
+      "source_status": "pre/Scheduled",
+      "venue": "Old Trafford",
+      "detail": "Sun, November 8th at 11:30 AM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
