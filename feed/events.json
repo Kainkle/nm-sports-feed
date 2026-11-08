@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-08T15:13:36.149591+00:00",
+  "generated_utc": "2026-11-08T15:23:45.665754+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401909726",
@@ -1219,6 +1219,92 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": "MSC Cruises S\u00e3o Paulo Grand Prix"
+    },
+    {
+      "event_id": "espn:soccer:401884739",
+      "sport": "soccer",
+      "competition_id": "ger.1",
+      "competition_name": "Bundesliga",
+      "start_utc": "2026-11-06T19:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:127",
+        "name": "Hamburg SV",
+        "abbrev": "HSV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+        "logo_dark": null,
+        "aliases": [
+          "HSV",
+          "Hamburg",
+          "Hamburg SV"
+        ],
+        "color": "1a26af"
+      },
+      "away": {
+        "id": "espn:268",
+        "name": "Borussia M\u00f6nchengladbach",
+        "abbrev": "BMG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+        "logo_dark": null,
+        "aliases": [
+          "BMG",
+          "Borussia M\u00f6nchengladbach",
+          "Gladbach"
+        ],
+        "color": "ffffff"
+      },
+      "source": "espn:soccer/ger.1",
+      "source_status": "post/Full Time",
+      "venue": "Volksparkstadion",
+      "detail": "FT",
+      "game_number": 1,
+      "highlight_video_id": "TwytovTfDWM",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:soccer:401874815",
+      "sport": "soccer",
+      "competition_id": "ita.1",
+      "competition_name": "Serie A",
+      "start_utc": "2026-11-06T19:45Z",
+      "status": "final",
+      "home": {
+        "id": "espn:17530",
+        "name": "Venezia",
+        "abbrev": "VEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+        "logo_dark": null,
+        "aliases": [
+          "VEN",
+          "Venezia"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:118",
+        "name": "Udinese",
+        "abbrev": "UDI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+        "logo_dark": null,
+        "aliases": [
+          "UDI",
+          "Udinese"
+        ],
+        "color": "19161D"
+      },
+      "source": "espn:soccer/ita.1",
+      "source_status": "post/Full Time",
+      "venue": "Stadio Pier Luigi Penzo",
+      "detail": "FT",
+      "game_number": 1,
+      "highlight_video_id": "o_2axSItZKM",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     },
     {
       "event_id": "espn:soccer:401879242",
@@ -7529,7 +7615,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "American Express Stadium",
-      "detail": "52'",
+      "detail": "62'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7572,7 +7658,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Selhurst Park",
-      "detail": "52'",
+      "detail": "62'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7616,7 +7702,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Portman Road",
-      "detail": "56'",
+      "detail": "66'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7658,7 +7744,7 @@
       "source": "espn:soccer/eng.1",
       "source_status": "in/Second Half",
       "venue": "Stadium of Light",
-      "detail": "48'",
+      "detail": "59'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7701,7 +7787,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Stadio Luigi Ferraris",
-      "detail": "53'",
+      "detail": "63'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7743,7 +7829,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "U-Power Stadium",
-      "detail": "54'",
+      "detail": "64'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7785,9 +7871,9 @@
         "color": "DA0308"
       },
       "source": "espn:soccer/ger.1",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "RheinEnergieStadion",
-      "detail": "43'",
+      "detail": "HT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7833,7 +7919,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Santiago Bernab\u00e9u",
-      "detail": "15:00 - 2nd Quarter",
+      "detail": "11:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7847,7 +7933,7 @@
       "competition_id": "esp.1",
       "competition_name": "La Liga",
       "start_utc": "2026-11-08T15:15Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:89",
         "name": "Real Sociedad",
@@ -7874,9 +7960,9 @@
         "color": "ffffff"
       },
       "source": "espn:soccer/esp.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Reale Arena",
-      "detail": "Sun, November 8th at 10:15 AM EST",
+      "detail": "4'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12493,6 +12579,20 @@
   ],
   "stories": [
     {
+      "story_id": "50391135",
+      "headline": "Premier League live updates: Liverpool, Chelsea both in action",
+      "summary": "Both Liverpool and Chelsea are playing in the first Premier League matches of the final day of club fixtures across Europe before the international break.",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1742913_2_1296x729_16-9.jpg",
+      "published_utc": "2026-11-08T15:17:05Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50391135/premier-league-live-updates-liverpool-chelsea-aston-villa-manchester-united",
+      "stream_url": "",
+      "body": "The weekend continues with some great matches across Europe!\n\nWe kick things off in the Premier League, with four matches taking place simultaneously, including Crystal Palace hosting Liverpool and Sunderland welcoming Chelsea. Later, all eyes turn to Old Trafford, where Manchester United face Aston Villa in our match of the day.\n\nElsewhere across Europe, there's plenty of action in Serie A, with Genoa taking on AC Milan and Internazionale facing Como.\n\nEnjoy all the updates from Sunday's matches across the continent."
+    },
+    {
       "story_id": "50420169",
       "headline": "Pedro Martinez appeals for MLB resolution, reflects on effects of 1994 strike",
       "summary": "Pedro Martinez appealed to both MLB players and owners to find a solution to their CBA talks, saying \"get something done and don't lock out baseball for the fans.\"",
@@ -12505,20 +12605,6 @@
       "link": "https://www.espn.com/mlb/story/_/id/50420169/pedro-martinez-tells-mlb-players-find-solution-fans",
       "stream_url": "",
       "body": "Hall of Fame pitcher Pedro Martinez spoke out about the looming lockout hanging over Major League Baseball, saying a resolution must be found to protect the sport and fans.\n\n\"I feel for the fans, and I know when it's good, and it's good, baseball is good right now,\" Martinez said Saturday, according to the Boston Herald. \"So stop the crap around and get something done and don't lock out baseball for the fans.\"\n\nIn Boston for the Pedro Martinez Foundation's 10th annual gala, Martinez said that \"honestly speaking, I'm pissed\" as he appealed to both players and owners to find a solution.\n\n\"Please, for the fans, both sides, figure it out, a good way to get it done, and do not lock out baseball,\" Martinez said.\n\nThe current collective bargaining agreement expires Dec. 1. MLB owners are trying to put a salary cap in place. Their latest offer, made Tuesday, would delay the implementation of the cap until 2028.\n\nThe players' union has remained steadfast against any talks of a salary cap during negotiations.\n\nMartinez was hurt in multiple ways by a previous baseball stoppage early in his career. At the time of the 1994 strike, he was in his first season with the Montreal Expos, who had the best record in the majors at 74-40 and dreams of a World Series title when play was stopped. The cancellation of the rest of the 1994 season also kept Martinez a day away from arbitration eligibility.\n\n\"I hope the commissioner can see me and hear and the players' association hears what I have to say. I might be insignificant, but I lived it before. I experienced that before,\" Martinez said. \"... I was one of the most punished players at that moment because I had talent, and I needed to wait until arbitration to make my money. So I hope they don't mess it up and they don't mistreat the fans.\"\n\n\"Back then, there was a need for other things to change, and they changed for the better. This time, there's no excuse,\" Martinez added in comparing the 1994 strike to today. \"On both sides, not the PA, not the owners, not baseball. The fans do not deserve to be mistreated.\"\n\nMartinez was a three-time Cy Young Award winner and eight-time All-Star who won the 2004 World Series with the Boston Red Sox and was inducted into the Hall of Fame in 2015."
-    },
-    {
-      "story_id": "50391135",
-      "headline": "Premier League live updates: Liverpool, Chelsea both in action",
-      "summary": "Both Liverpool and Chelsea are playing in the first Premier League matches of the final day of club fixtures across Europe before the international break.",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1742913_2_1296x729_16-9.jpg",
-      "published_utc": "2026-11-08T15:06:14Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50391135/premier-league-live-updates-liverpool-chelsea-aston-villa-manchester-united",
-      "stream_url": "",
-      "body": "The weekend continues with some great matches across Europe!\n\nWe kick things off in the Premier League, with four matches taking place simultaneously, including Crystal Palace hosting Liverpool and Sunderland welcoming Chelsea. Later, all eyes turn to Old Trafford, where Manchester United face Aston Villa in our match of the day.\n\nElsewhere across Europe, there's plenty of action in Serie A, with Genoa taking on AC Milan and Internazionale facing Como.\n\nEnjoy all the updates from Sunday's matches across the continent."
     },
     {
       "story_id": "50419727",
@@ -12661,20 +12747,6 @@
       "body": "A backflipping Reece Walsh has helped put Australia within touching distance of their fourth-straight World Cup crown as the Kangaroos dismantled Samoa 44-12 in their semi-final.\n\nIn their most complete performance of the tournament to date, Kevin Walters' outfit put an ill-disciplined Samoan side to the sword, running in eight tries at Sydney's Allianz Stadium on Sunday night.\n\nLed by fullback Walsh, who scored a hat-trick, the Kangaroos rarely looked troubled.\n\nAustralia will face New Zealand at Suncorp Stadium in Brisbane in next Sunday's final as they look to extend their stranglehold on the World Cup that stretches back to 2013.\n\nAs fluent as Australia were, Samoa were all at sea in one of their most underwhelming showings since their surprise run to the 2022 final.\n\nWith a side stacked with NRL talent and a groundswell of support from their diaspora community, Samoa have a realistic hope of breaking international rugby league's glass ceiling in the years to come.\n\nBut on Sunday they made nine errors and gave up 12 set restarts or penalties, while prop Spencer Leniu was sin-binned for dissent late in a disastrous first half.\n\nAfter a lively pre-game siva tau where they came face to face with the Kangaroos, Samoa were first on the board when Stephen Crichton kicked a fourth minute penalty.\n\nBut it was all one-way traffic from then on as Australia asserted their dominance, starting when Tom Dearden scythed through some feeble defence off a scrum play to put the home side on the board.\n\nJacob Preston pinballed his way over from close range before Tom Trbojevic, Walsh and Bradman Best all crossed to push the Kangaroos out to a 26-2 halftime lead.\n\nWalsh - chosen ahead of James Tedesco for the starting No. 1 spot - celebrated his try with a backflip.\n\nBut he was left red-faced soon after halftime when he leapt to claim a Samoa bomb, which Crichton scooped up to score.\n\nThe Brisbane fullback soon made amends by slaloming his way through the Samoan defence and palming off Brian To'o to add his second.\n\nIzack Tago barged his way over as Samoa showed something of a fightback.\n\nBut again, Walsh was the man in the right place at the right time.\n\nThe fullback backed up a Cameron Munster break to add his third before having a hand in Australia's final try to winger Jack Bostock."
     },
     {
-      "story_id": "50402459",
-      "headline": "Witness: Clase 'inside' pitch info dried up amid Mizuhara case fallout",
-      "summary": "A witness said that the inside info he used to bet on Clase pitches dried up due to increased scrutiny from the scandal involving Shohei Ohtani's interpreter.",
-      "image": "https://a.espncdn.com/photo/2026/1106/r1742194_2_1296x729_16-9.jpg",
-      "published_utc": "2026-11-07T01:46:29Z",
-      "competition_id": "mlb",
-      "competition_name": "MLB",
-      "byline": "David Purdum",
-      "source": "ESPN",
-      "link": "https://www.espn.com/mlb/story/_/id/50402459/emmanuel-clase-luis-ortiz-information-trial-testimony-bettor",
-      "stream_url": "",
-      "body": "NEW YORK -- A government witness testified Friday in the federal trial of Cleveland Guardians pitchers Emmanuel Clase and Luis Ortiz that the inside information he used to bet regularly on Clase pitches in 2023 dried up the next season due to increased scrutiny from the gambling scandal involving Shohei Ohtani's interpreter at the time.\n\nLuis de Aza Baez said he placed dozens of bets and won thousands of dollars by wagering on the velocity of select Clase pitches during the 2023 season, \"because I had inside information.\" Clase is accused of conspiring with bettors to rig 18 pitches over three seasons.\n\nDe Aza Baez said that when he asked for more information on Clase pitches in 2024, he was told that because of \"what was going on with Ohtani, there was no more information like that.\"\n\nOhtani, the Los Angeles Dodgers' superstar, came under scrutiny in March 2024 after ESPN reported that millions of dollars had been sent from his bank account to an illegal bookmaking operation. His longtime interpreter, Ippei Mizuhara, later pleaded guilty to stealing nearly $17 million from Ohtani to pay off gambling debts and is currently in prison. Ohtani was cleared of any wrongdoing.\n\nDe Aza Baez, who worked as an Uber driver, told prosecutors that he began receiving information about the pitches from Enoc Pena, an associate of Clase's, in 2023. De Aza Baez said the tips often came through a group chat titled \"Uber Inc.\" that Pena started and included other men who have been referenced in the case and also worked for the ride-share company in Massachusetts at the time.\n\nProsecutors showed a screenshot of a text message Clase allegedly sent to Pena on Sept. 30, 2023, when the Guardians were scheduled to play the Detroit Tigers, that talked about \"killing the first two chickens.\" De Aza Baez said the message was instructions to bet on a Clase pitch to the third batter of an inning, but only if Clase had retired the first two batters. Clase did not appear in the game.\n\nClase's defense has argued that mentions of roosters and chickens in such communications often were referencing cockfighting, a legal activity in the Dominican Republic, where Clase and others in the case are from.\n\nDe Aza Baez said he became friends with Pena as well as Robinson V\u00e1squez Germosen and Luis Arismendy Paca M\u00e9ndez, who are co-defendants in the case, while they were all living in Nantucket, Massachusetts. Paca M\u00e9ndez, who has pleaded not guilty, is not participating in the trial after being extradited from the Dominican Republic to the U.S. on Oct. 19.\n\nDe Aza Baez said he met Clase when V\u00e1squez and Pena brought the pitcher to his house for a birthday party on April 28, 2023, in Winthrop, Massachusetts, where De Aza Baez had moved. He met Clase again a few days later at a relative's house. Prosecutors showed a video of the gathering, with Clase playing dominoes on a table featuring a Boston Red Sox logo. The Guardians were in town for a series against the Red Sox.\n\nDe Aza Baez said he never received any information directly from Clase, only from Pena. De Aza Baez said he did not have an agreement with Pena but gave him money because he \"almost always\" won using the information to bet on Clase's pitches. De Aza Baez acknowledged opening a DraftKings betting account under his wife's name to increase the amount he could wager and win on his Clase bets. De Aza Baez also said he included the Clase pitch bets in parlays to maximize payouts.\n\nDe Aza Baez acknowledged that he had agreed with the government to forfeit $69,000 from his winning bets on Clase and would \"tell the truth\" in exchange for prosecutors dropping a wire fraud charge related to the case.\n\nClase, Ortiz and V\u00e1squez have pleaded not guilty to conspiracy charges of wire and honest services fraud, sports bribery and money laundering.\n\n\"Our defense is the same today as it was in opening: This is a case about big talk and small bets,\" V\u00e1squez's attorney Todd Spodek told ESPN after Friday's hearing. \"We're confident leaving that judgment to the jury.\"\n\nThe trial will continue next Thursday in Brooklyn."
-    },
-    {
       "story_id": "50419027",
       "headline": "Bruno Guimaraes vows 'unbelievable' Arsenal will keep up Premier League title pace",
       "summary": "Bruno Guimar\u00e3es saluted \"unbelievable\" Arsenal after they stretched their lead at the top of the Premier League with a gritty 1-0 win over Hull.",
@@ -12687,6 +12759,20 @@
       "link": "https://www.espn.com/soccer/story/_/id/50419027/bruno-guimaraes-arsenal-premier-league",
       "stream_url": "",
       "body": "Bruno Guimar\u00e3es saluted \"unbelievable\" Arsenal after they stretched their lead at the top of the Premier League with a gritty 1-0 win over Hull.\n\nMartin Odegaard's 72nd-minute strike settled a tight match in favour of the relentless Gunners, who now have 27 points from their 10 games this season after a seventh successive home win on the spin.\n\n\"We had a tough game, they made it feel so difficult for us, but it's impressive numbers,\" said Brazilian midfielder Guimaraes.\n\n\"I'm happy for myself, for the team. We'll keep going. We've been unbelievable.\"\n\nThe only blip on Arsenal's record in the league was the 3-0 defeat at Brighton in September.\n\nThe Gunners had to stew on that one for three weeks over the last international break, but they will have a spring in their step when they link up with their countries this time around.\n\n\"The message for us was clear in the dressing room. The last time we had a break, we lost to Brighton in one of the worst games of our season,\" added Guimaraes.\n\n\"The message here was to leave in a good way and go to our internationals happy.\"\n\nGuimaraes had an excellent game in the centre alongside first Declan Rice and then Mikel Merino after the England man went off on the hour.\n\nBoss Mikel Arteta believes his \u00a375million summer signing from Newcastle is starting to come into his own in red and white.\n\n\"He's much better, he had a massive impact, he's hitting serious levels now, but we can still take him to another level,\" said Arteta.\n\n\"That's my conviction, I told him that in the dressing room. He owned a lot of moments in the game, but there is still much more to come.\"\n\n- If Arsenal find attacking spark, they could run away with the league\n\n- \u00d8degaard scores winner as Arsenal scrape past Hull to extend PL lead\n\n- VAR review: Arsenal robbed of a penalty through misapplied law\n\nSaturday's victory was the 34th time Arsenal have won 1-0 under Arteta in the Premier League.\n\nLast week's 1-0 success at Liverpool was branded a defensive masterclass, but this time Arteta pointed to the chances the Gunners squandered against Hull.\n\nThey were through on goal twice but Kai Havertz and Noni Madueke could not convert, while there was also a contentious penalty decision which was not given after Havertz was pulled back by Nobel Mendy.\n\n\"We need to be more efficient,\" admitted Arteta. \"We were one-on-one with the keeper twice, and if there was a penalty there too...\n\n\"There are shots deflected, blocked. We need to insist, to find ways to be more efficient and pragmatic.\n\n\"Sometimes we try to score the perfect goal against low blocks, but we need to be much more chaotic than that. If we open the scoring much earlier also, it changes the game.\""
+    },
+    {
+      "story_id": "50402459",
+      "headline": "Witness: Clase 'inside' pitch info dried up amid Mizuhara case fallout",
+      "summary": "A witness said that the inside info he used to bet on Clase pitches dried up due to increased scrutiny from the scandal involving Shohei Ohtani's interpreter.",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1742194_2_1296x729_16-9.jpg",
+      "published_utc": "2026-11-07T01:46:29Z",
+      "competition_id": "mlb",
+      "competition_name": "MLB",
+      "byline": "David Purdum",
+      "source": "ESPN",
+      "link": "https://www.espn.com/mlb/story/_/id/50402459/emmanuel-clase-luis-ortiz-information-trial-testimony-bettor",
+      "stream_url": "",
+      "body": "NEW YORK -- A government witness testified Friday in the federal trial of Cleveland Guardians pitchers Emmanuel Clase and Luis Ortiz that the inside information he used to bet regularly on Clase pitches in 2023 dried up the next season due to increased scrutiny from the gambling scandal involving Shohei Ohtani's interpreter at the time.\n\nLuis de Aza Baez said he placed dozens of bets and won thousands of dollars by wagering on the velocity of select Clase pitches during the 2023 season, \"because I had inside information.\" Clase is accused of conspiring with bettors to rig 18 pitches over three seasons.\n\nDe Aza Baez said that when he asked for more information on Clase pitches in 2024, he was told that because of \"what was going on with Ohtani, there was no more information like that.\"\n\nOhtani, the Los Angeles Dodgers' superstar, came under scrutiny in March 2024 after ESPN reported that millions of dollars had been sent from his bank account to an illegal bookmaking operation. His longtime interpreter, Ippei Mizuhara, later pleaded guilty to stealing nearly $17 million from Ohtani to pay off gambling debts and is currently in prison. Ohtani was cleared of any wrongdoing.\n\nDe Aza Baez, who worked as an Uber driver, told prosecutors that he began receiving information about the pitches from Enoc Pena, an associate of Clase's, in 2023. De Aza Baez said the tips often came through a group chat titled \"Uber Inc.\" that Pena started and included other men who have been referenced in the case and also worked for the ride-share company in Massachusetts at the time.\n\nProsecutors showed a screenshot of a text message Clase allegedly sent to Pena on Sept. 30, 2023, when the Guardians were scheduled to play the Detroit Tigers, that talked about \"killing the first two chickens.\" De Aza Baez said the message was instructions to bet on a Clase pitch to the third batter of an inning, but only if Clase had retired the first two batters. Clase did not appear in the game.\n\nClase's defense has argued that mentions of roosters and chickens in such communications often were referencing cockfighting, a legal activity in the Dominican Republic, where Clase and others in the case are from.\n\nDe Aza Baez said he became friends with Pena as well as Robinson V\u00e1squez Germosen and Luis Arismendy Paca M\u00e9ndez, who are co-defendants in the case, while they were all living in Nantucket, Massachusetts. Paca M\u00e9ndez, who has pleaded not guilty, is not participating in the trial after being extradited from the Dominican Republic to the U.S. on Oct. 19.\n\nDe Aza Baez said he met Clase when V\u00e1squez and Pena brought the pitcher to his house for a birthday party on April 28, 2023, in Winthrop, Massachusetts, where De Aza Baez had moved. He met Clase again a few days later at a relative's house. Prosecutors showed a video of the gathering, with Clase playing dominoes on a table featuring a Boston Red Sox logo. The Guardians were in town for a series against the Red Sox.\n\nDe Aza Baez said he never received any information directly from Clase, only from Pena. De Aza Baez said he did not have an agreement with Pena but gave him money because he \"almost always\" won using the information to bet on Clase's pitches. De Aza Baez acknowledged opening a DraftKings betting account under his wife's name to increase the amount he could wager and win on his Clase bets. De Aza Baez also said he included the Clase pitch bets in parlays to maximize payouts.\n\nDe Aza Baez acknowledged that he had agreed with the government to forfeit $69,000 from his winning bets on Clase and would \"tell the truth\" in exchange for prosecutors dropping a wire fraud charge related to the case.\n\nClase, Ortiz and V\u00e1squez have pleaded not guilty to conspiracy charges of wire and honest services fraud, sports bribery and money laundering.\n\n\"Our defense is the same today as it was in opening: This is a case about big talk and small bets,\" V\u00e1squez's attorney Todd Spodek told ESPN after Friday's hearing. \"We're confident leaving that judgment to the jury.\"\n\nThe trial will continue next Thursday in Brooklyn."
     },
     {
       "story_id": "49803708",
