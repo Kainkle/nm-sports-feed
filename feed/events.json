@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-08T04:13:32.090870+00:00",
+  "generated_utc": "2026-11-08T04:23:41.697705+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401909726",
@@ -6422,53 +6422,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858511",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-08T00:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:130",
-        "name": "Michigan Wolverines",
-        "abbrev": "MICH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-        "logo_dark": null,
-        "aliases": [
-          "MICH",
-          "Michigan",
-          "Michigan Wolverines",
-          "Wolverines"
-        ],
-        "color": "00274c"
-      },
-      "away": {
-        "id": "espn:127",
-        "name": "Michigan State Spartans",
-        "abbrev": "MSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
-        "logo_dark": null,
-        "aliases": [
-          "MSU",
-          "Michigan St",
-          "Michigan State",
-          "Michigan State Spartans",
-          "Spartans"
-        ],
-        "color": "173f35"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Michigan Stadium",
-      "detail": "0:47 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858513",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6599,6 +6552,53 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Bobby Dodd Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858511",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-08T00:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:130",
+        "name": "Michigan Wolverines",
+        "abbrev": "MICH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+        "logo_dark": null,
+        "aliases": [
+          "MICH",
+          "Michigan",
+          "Michigan Wolverines",
+          "Wolverines"
+        ],
+        "color": "00274c"
+      },
+      "away": {
+        "id": "espn:127",
+        "name": "Michigan State Spartans",
+        "abbrev": "MSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+        "logo_dark": null,
+        "aliases": [
+          "MSU",
+          "Michigan St",
+          "Michigan State",
+          "Michigan State Spartans",
+          "Spartans"
+        ],
+        "color": "173f35"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Michigan Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -7004,7 +7004,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Aggie Memorial Stadium",
-      "detail": "2:15 - 4th Quarter",
+      "detail": "1:03 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7050,7 +7050,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "2:47 - OT",
+      "detail": "11.0 - OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7156,7 +7156,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-08T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:21",
         "name": "Phoenix Suns",
@@ -7186,9 +7186,9 @@
         "color": "ce0e2d"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Mortgage Matchup Center",
-      "detail": "3:18 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7232,9 +7232,9 @@
         "color": "eaaa00"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Galaxy Stadium",
-      "detail": "1:12 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7324,9 +7324,9 @@
         "color": "005737"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Sun Bowl",
-      "detail": "End of 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7416,9 +7416,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Moda Center",
-      "detail": "2:55 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7466,7 +7466,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "4:31 - 1st Quarter",
+      "detail": "0:59 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7511,7 +7511,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "4:58 - 1st Quarter",
+      "detail": "15:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12603,16 +12603,16 @@
   ],
   "stories": [
     {
-      "story_id": "50416528",
-      "headline": "San Jose Sharks vs. Dallas Stars: Game Highlights",
-      "summary": "San Jose Sharks vs. Dallas Stars: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/946f241f-4ea4-4732-a9ec-e82112b73248/946f241f-4ea4-4732-a9ec-e82112b73248.jpg",
-      "published_utc": "2026-11-08T03:54:32Z",
+      "story_id": "50416755",
+      "headline": "Tampa Bay Lightning vs. Minnesota Wild: Game Highlights",
+      "summary": "Tampa Bay Lightning vs. Minnesota Wild: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/004b0293-a721-49b8-bc31-e66e17e69f2b/004b0293-a721-49b8-bc31-e66e17e69f2b.jpg",
+      "published_utc": "2026-11-08T04:19:17Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50416528/game-highlights",
+      "link": "https://www.espn.com/video/clip/_/id/50416755/game-highlights",
       "stream_url": "",
       "body": ""
     },
@@ -12771,18 +12771,18 @@
       "body": "We have reached the semifinal stage of the 2026 Rugby League World Cup, with the four best teams left to fight it out for a place in the Men's final and four teams left to battle for a place in the Women's final\n\nCan Samoa and Tonga upset Australia and New Zealand to give us a repeat of their epic clash last Sunday? Can anyone stop the Jillaroos?\n\nSaturday, November 7\nWomen's\n\nNew Zealand vs. Tonga\nMcDonald Jones Stadium, Newcastle, 5:45pm (AEDT)\n\nNew Zealand: 1. Apii Nicholls 2. Leianne Tufuga 3. Mele Hufanga 4. Stacey Waaka 5. Mackenzie Wiki 6. Chantay Kiria-Ratu 7. Raecene McGregor (c) 8. Alexis Tauaneai 9. Georgia Hale (c) 10. Otesa Pule 11. Shaniece Monschau 12. Kaiyah Atai 13. Angelina Teakaraanga Katoa Bench: 14. Ash Quinlan 15. Annessa Biddle 16. Shannon Mato 17. Ivana Lauitiiti Reserves: 18. Brooke Anderson 19. Brianna Clark 20. Zahara Temara 21. Abigail Roache 22. Tenika Willison\n\nSamoa: 1. Destiny Mino-Sinapati 2. Mercedez Taulelei-Siala 3. Monica Tagoai 4. Tyra Ekepati 5. Freedom Crichton Ropati 6. Evania Isaako (c) 7. Pauline Piliae-Rasabale 8. Annetta Nuuausala (c) 9. Mary-Jane Taito 10. Laikha Clarke 11. Leilani Wilson 12. Ivana Lolesio 13. Fanua Rimoni Bench: 14. Tavarna Papalii 15. Christabelle Onesemo 16. Jasmine Fogavini 17. Christian Pio Reserves: 18. Jaydika Tafua 19. Anastasia Leatupue 20. Evelyn Roberts 21. Jetaya Faifua 22. Amanii Misa\n\nOfficials\n\nReferee: Tara Jones Touchies: Tori Wilkie, Karra-Lee Nolan\n\nBunker: Todd Smith\n\nPrediction: New Zealand started the tournament with a hard-fought 18-12 victory over Fiji in performance which revealed a lot of rust. They piled on 92 unanswered points against France in Week 2, finding plenty of space to work on their combinations and on their defensive resolve. Up against some stiffer opposition from Papua New Guinea, they managed another comfortable victory.\n\nSamoa restricted Australia to 40 points in their opening game, before winning their next two games convincingly against Wales and England. They have some exciting outside backs who love to run wild behind a dominant pack. If they are to win this one, they will need the space created by their forwards.\n\nThis should be a quality contest, with New Zealand favoured to win, but definitely not without a fight.\n\nTip: New Zealand by 12\n\nPointsBet odds: New Zealand $1.28 (-10.5 $1.90) Samoa $3.60 (+10.5 $1.90)\n\nMen's\n\nNew Zealand vs. Tonga\nMcDonald Jones Stadium, Newcastle, 8:05pm (AEDT)\n\nNew Zealand: 1. Keano Kini 2. Jamayne Isaako 3. Dane Gagai 4. Casey McLean 5. Charnze Nicoll-Klokstad 6. Kodi Nikorima 7. Jahrome Hughes 8. James Fisher-Harris (c) 9. Jeremy Marshall-King 10. Moses Leota 11. Isaiah Papali'i 12. Briton Nikora 13. Joseph Tapine Bench: 14. Te Maire Martin 15. Naufahu Whyte 16. Erin Clark 17. Xavier Willison Reserves: 18. Scott Sorensen 19. Leo Thompson 20. Tanner Stowers-Smith 21. Kalyn Ponga 22. Phoenix Crossland\n\nTonga: 1. Lehi Hopoate 2. Dallin Watene-Zelezniak 3. Tolutau Koula 4. Robert Toia 5. Jojo Fifita 6. Tuimoala Lolohea 7. Isaiya Katoa 8. Addin Fonua-Blake 9. Salesi Foketi 10. Jason Taumalolo (c) 11. Haumole Olakau'atu 12. Siua Wong 13. Tyson Frizell Bench: 14. Soni Luke 15. Stefano Utoikamanu 16. Demitric Vaimauga 17. Taniela Paseka Reserves: 18. Leka Halasima 19. Latu Fainu 20. Paul Alamoti 21. Kulikefu Finefeuiaki 22. Sione Katoa\n\nOfficials\n\nReferee: Grant Atkins Touchies: Daniel Luttringer, Matt Noyen\n\nBunker: Wyatt Raymond\n\nPrediction: New Zealand started the tournament with a tough loss to Australia, but have really found their feet since, running up big scores while stifling their opponents. They have tightened up their defence, freed up their outside backs and built a formidable combination of sharp backline movements behind a dominating pack. On paper, they remain the best side in the tournament and will be very tough to beat.\n\nTonga have been the big improvers in this edition of the World Cup. They too have a very impressive lineup and coach Kristian Woolf has them believing in themselves and willing to give their lives in defence of their try line. Their defensive resolve has been impressive, although they did allow Samoa to cross for four tries during their monumental victory last Sunday.\n\nYou can guarantee a very passionate crowd for this one, with a see of red and black in Newcastle. It promises to be another great clash, with New Zealand possibly finishing in front thanks to a more experienced lineup. Mistakes will decide this one, with the most disciplined side advancing to the final.\n\nTip: New Zealand by 8\n\nPointsBet odds: New Zealand $1.45 (-6.5 $1.90) Tonga $2.75 (+6.5 $1.90)\n\nSunday, November 8\nWomen's\n\nAustralia vs. Fiji\nAllianz Stadium, 5:45pm (AEST)\nAustralia: 1. Tamika Upton 2. Jaime Chapman 3. Jessica Sergis 4. Isabelle Kelly (c) 5. Abbi Church 6. Jocelyn Kelleher 7. Tarryn Aiken 8. Millie Elliott 9. Olivia Higgins 10. Simaima Taufa 11. Tiana Penitani 12. Shaylee Bent 13. Olivia Kernick Bench: 14. Keeley Nizza 15. Keilee Joseph 16. Kezie Apps 17. Sariah Paki Reserves: 18. Sheridan Gallagher 19. Ellie Johnston\n\nFiji: 1. Cassie Staples 2. Maria Paseka 3. Isabella Waterman 4. Sienna Laing 5. Taina Naividi 6. Luisa Yaranamua 7. Losana Lutu 8. Latisha Smythe 9. Sereana Naitokatoka (c) 10. Lorren Ieli 11. Elizabeth Naleba 12. Talei Holmes 13. Leilani Ahsam Bench: 14. Tahlia Marshall 15. Teaghan Hartigan 16. Ema Masi 17. Aliti Namoce Reserves: 18. Nanise Vakacavu 19. Naomi Tegu\n\nOfficials\n\nReferee: Belinda Sharpe Touchies: Dillan Wells, Izzy Davidson\n\nBunker: Liam Kennedy\n\nPrediction: The Jillaroos have been an unstoppable machine in this tournament so far. Last week they set a world record in crushing Wales, and did it while giving their back-up players a run. For this semifinal coach Jess Skinner has rolled out the big guns, all rested and ready to fire against the Fijians.\n\nFiji has had an outstanding tournament to make the semifinals, smashing France last week, Papua New Guinea the week prior and starting off with a narrow six-point loss to New Zealand. They will be fired up to take the Jillaroos on up the middle of the park and the collisions will be intense.\n\nStill, Australia are at unbackable odds, literally, and should run up a score against Fiji on their way to the final.\n\nTip: Australia by 52\n\nPointsBet odds: Australia $N/A (-60.5 $1.90) Fiji $67 (+60.5 $1.90)\n\nMen's\n\nAustralia vs. Samoa\nAllianz Stadium, 8:05pm (AEST)\n\nAustralia: 1. Reece Walsh 2. Jack Bostock 3. Kotoni Staggs 4. Bradman Best 5. Tom Trbojevic 6. Cameron Munster 7. Tom Dearden 8. Patrick Carrigan 9. Harry Grant 10. Tino Fa'asuamaleaui 11. Jacob Preston 12. Liam Martin 13. Isaah Yeo (c) Bench: 14. Ethan Strange 15. Keaon Koloamatangi 16. Cameron Murray 17. Reuben Cotter 18. Latrell Mitchell 21. Sam Walker Reserve: 22. Blayke Brailey\n\nSamoa: 1. Hamiso Tabuai-Fidow 2. Brian To'o 3. Izack Tago 4. Stephen Crichton 5. Sualauvi Faalogo 6. Ronald Volkman 7. Jarome Luai (c) 8. Francis Molo 9. Benaiah Ioelu 10. Junior Paulo (c) 11. Connelly Lemuelu 12. Jermaine McEwen 13. Francis Manuleleua Bench: 14. Jazz Tevaga 15. Spencer Leniu 16. Shawn Blore 17. Ata Mariota 18. Clayton Faulalo 19. Deine Mariner Reserve: 20. Pasami Saulo\n\nOfficials\n\nReferee: Adam Gee Touchies: Ziggy Przeklasa-Adamski, Tyson Brough\n\nBunker: Chris Butler\n\nPrediction: Australia started with a hard-fought victory over New Zealand, and have continued to tinker with the lineup, giving everyone a run on the way to identifying the best players to lead the title defence. Fullback has been the most contentious position with Reece Walsh and James Tedesco two of the best fullbacks in the game. Walters has elected to go with Walsh again for the semifinal after his impressive performance last week.\n\nSamoa were unlucky not to beat Tonga last week, scoring more tries, but having a shocker with their goal kicking. They have an impressive team right across the park, from Hamiso Tabuai-Fidow at fullback to Spencer Leniu on the bench. They have lost five-eighth Chanel Harris-Tavita to injury, but Robert Volkman proved to be a more than handy replacement when he came off the bench against Tonga.\n\nThis battle, like all the big ones, will be won in the forwards. Samoa's front-row rotation isn't as impressive as New Zealand's or Tonga's, but may still have the Australians covered. Australia have been man-handled up front in almost all of their games this tournament, but have still eked out an undefeated record.\n\nIf Australia can scramble and frustrate Jarome Luai and his backline, they should win. It is a real toss-of-the-coin clash, with Australia advancing to the final on the back of a lower error rate and cooler heads.\n\nTip: Australia by 10\n\nPointsBet odds: Australia $1.35 (-8.5 $1.95) Samoa $3.25 (+8.5 $1.85)\n\nAll odds correct at time of publication. Check pointsbet.com.au for the latest."
     },
     {
-      "story_id": "50416467",
-      "headline": "Harley has a goal and 2 assists to lead the Stars past the struggling Sharks, 4-3",
-      "summary": "\u2014 Defenseman Thomas Harley scored one of Dallas\u2019 three power-play goals in his first three-point game of the season and the Stars beat the San Jose Sharks 4-3 on Saturday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892669.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-08T03:48:35Z",
+      "story_id": "50416528",
+      "headline": "San Jose Sharks vs. Dallas Stars: Game Highlights",
+      "summary": "San Jose Sharks vs. Dallas Stars: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/946f241f-4ea4-4732-a9ec-e82112b73248/946f241f-4ea4-4732-a9ec-e82112b73248.jpg",
+      "published_utc": "2026-11-08T03:54:32Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892669",
+      "link": "https://www.espn.com/video/clip/_/id/50416528/game-highlights",
       "stream_url": "",
-      "body": "DALLAS -- \u2014 Defenseman Thomas Harley scored one of Dallas\u2019 three power-play goals in his first three-point game of the season and the Stars beat the San Jose Sharks 4-3 on Saturday night.\n\n\r\nRoope Hintz had a goal and an assist, and Jamie Benn and Jason Robertson also scored for the Stars, who are 3-0-1 in their last four games. Jake Oettinger made 20 saves.\n\n\r\nMichael Misa, rookie Ivar Stenberg and Will Smith scored for the Sharks, who were swept in a road back-to-back after losing at Minnesota on Friday night and have dropped five straight, all in regulation.\n\n\r\nMacklin Celebrini assisted on each Sharks goal for his fourth three-point game of the season. Alex Nedeljkovic stopped 26 shots.\n\n\r\nThe Stars are 10-0-1 against the Sharks dating to March 2024.\n\n\r\nHarley\u2019s goal put Dallas ahead 4-2 at 14:30 of the second period after the Stars followed Misa\u2019s opening goal with three consecutive scores later in the first period. It was San Jose\u2019s first 1-0 lead in nine games.\n\n\r\nSmith pulled the Sharks within a goal with a 5-on-3 score about 2 1/2 minutes after Harley\u2019s goal.\n\n\r\nhe Stars\u2019 league-best home penalty kill went 5 for 6 and has allowed two goals this season on 34 opportunities, both being 5-on-3\u2019s.\n\n\r\nSan Jose has allowed seven power-play goals in its last three games.\n\n\r\nDallas\u2019 Wyatt Johnston and Mikko Rantanen had two assists each.\n\n\r\nSharks rookie Eric Pohlkamp had an assist for his first NHL point in his third game.\n\n\r\nBenn, whose 18 NHL seasons have all been played with Dallas, has 999 career points.\n\n\r\nDallas is 9-0-0 when scoring at least three goals, 1-5-2 when not \u2014 the win coming in a 3-2 shootout.\n\n\r\nThe Stars began a four-game homestand.\n\n\r\nUp next\r\nSharks: Host the New York Islanders on Monday night.\n\n\r\nStars: Host Winnipeg on Thursday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50416318",
