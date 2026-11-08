@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-08T21:26:35.159140+00:00",
+  "generated_utc": "2026-11-08T21:36:42.176314+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401909726",
@@ -8267,11 +8267,11 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "TD Garden",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "V6RofOU4ZCg",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -8329,7 +8329,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-08T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:11",
         "name": "Indianapolis Colts",
@@ -8359,9 +8359,9 @@
         "color": "002a5c"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Lucas Oil Stadium",
-      "detail": "1:19 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8375,7 +8375,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-08T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:18",
         "name": "New Orleans Saints",
@@ -8405,9 +8405,9 @@
         "color": "472a08"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Caesars Superdome",
-      "detail": "2:43 - OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8639,7 +8639,7 @@
       "venue": "Bank of America Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "owBZ7u9L6B8",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -8723,7 +8723,7 @@
       "source": "espn:soccer/ita.1",
       "source_status": "in/Second Half",
       "venue": "Stadio Artemio Franchi",
-      "detail": "76'",
+      "detail": "86'",
       "game_number": 1,
       "highlight_video_id": "iu5lCqsYJqI",
       "replay_url": "",
@@ -8766,7 +8766,7 @@
       "source": "espn:soccer/esp.1",
       "source_status": "in/Second Half",
       "venue": "Riyadh Air Metropolitano",
-      "detail": "64'",
+      "detail": "75'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8783,23 +8783,23 @@
       "status": "live",
       "home": {
         "id": "espn:None",
-        "name": "Christopher Bell",
-        "abbrev": "",
-        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-        "logo_dark": null,
-        "aliases": [
-          "Christopher Bell"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "espn:None",
         "name": "Tyler Reddick",
         "abbrev": "",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "logo_dark": null,
         "aliases": [
           "Tyler Reddick"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Christopher Bell",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+        "logo_dark": null,
+        "aliases": [
+          "Christopher Bell"
         ],
         "color": null
       },
@@ -8896,9 +8896,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "United Center",
-      "detail": "3:13 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8944,7 +8944,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "6:14 - 1st Quarter",
+      "detail": "3:12 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8990,7 +8990,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Gillette Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "11:44 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "ksjPFhdgA2A",
       "replay_url": "",
@@ -9036,7 +9036,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Levi's Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "9:32 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9082,7 +9082,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Lumen Field",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "10:49 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "nrXrNtZz7Q0",
       "replay_url": "",
@@ -12579,18 +12579,18 @@
   ],
   "stories": [
     {
-      "story_id": "50424771",
-      "headline": "New York Giants vs. Philadelphia Eagles: Game Highlights",
-      "summary": "New York Giants vs. Philadelphia Eagles: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/8ecc37d9-57e4-41ef-982f-2313ecb2e037/8ecc37d9-57e4-41ef-982f-2313ecb2e037.jpg",
-      "published_utc": "2026-11-08T21:25:37Z",
+      "story_id": "50369510",
+      "headline": "NFL Week 9: Big takeaways, questions and fantasy spin from Sunday's games",
+      "summary": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 9.",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1742997_608x342_16-9.jpg",
+      "published_utc": "2026-11-08T21:29:19Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "",
+      "byline": "NFL Nation",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50424771/game-highlights",
+      "link": "https://www.espn.com/nfl/story/_/id/50369510/week-9-sunday-games-takeaways-questions-2026",
       "stream_url": "",
-      "body": ""
+      "body": "The Sunday slate for Week 9 of the 2026 NFL season kicked off in Madrid with the Bengals' offense erupting in a win over the Falcons. Cincinnati wide receiver Ja'Marr Chase finished with a season-high 155 yards and a touchdown on 10 receptions.\n\nBack in the United States, the Lions defeated the Dolphins despite not scoring a touchdown in the first half. Rams edge rusher Myles Garrett also returned from injury, finishing with three sacks in a win over the Commanders.\n\nOur NFL Nation reporters react to all the action, answering lingering questions coming out of each game and detailing everything else you need to know. Fantasy football analysts Matt Bowen and Tristan Cockcroft also have fantasy takeaways from each matchup.\n\nLet's get to it with the biggest lessons from Sunday.\n\nJump to:\n\nLAR-WSH | DET-MIA | CIN-ATL\n\nCatch up on Thursday's game:\n\nJAX-BAL\n\nL.A. Rams 20, Washington 13\nCatch up on the action: Box score | Recap\n\nRams\nWill the Rams add a receiver before Tuesday's trade deadline? Not likely. Coach Sean McVay has said he doesn't expect to make a big move at the deadline, and the Rams don't have a lot of draft capital to work with. But until Davante Adams is back from his hamstring injury, the Rams are extremely thin at WR outside of Puka Nacua. On Sunday, Nacua had 14 catches for 150 yards and a touchdown on 19 targets. The other wide receivers combined for four catches for 36 yards. The Rams are above .500, but they've struggled to move the ball consistently this season. They were 3-for-14 on third-down against Washington.\n\nKey stat to know: In his first game back from a knee injury, Rams edge rusher Myles Garrett had three sacks, his first three since being traded to Los Angeles in June. It was his first multisack game since Week 12 of last season, when he had three against the Raiders. -- Sarah Barshop\n\nNext game: at Cardinals (Sunday, 4:05 p.m. ET)\n\nCommanders\nHow does this loss impact Washington's trade deadline strategy? Washington might be mathematically alive for the NFC East title at 2-5-1, but the season clearly continues to head in the wrong direction. So it's fair to wonder how Sunday's loss impacts whether or not they make deals. Among those players who could be attractive to other teams: pass-rushing linebackers K'Lavon Chaisson and Dorance Armstrong, who are both on expiring deals. However, Washington might want to re-sign one or both for 2027. Also, the Commanders could still add a player -- like a high-ceiling receiver with more years on his contract.\n\nWhat to make of the QB performance: Jayden Daniels completed 24 of 35 passes for 273 yards and a touchdown, but Washington's lone scoring drive after the first two series was set up by an interception deep in Rams' territory. The game highlighted the need for Washington to find him more help -- from the line to the run game. Daniels' big mistake was running loose with the ball, which led to a fumble and a Rams' field goal drive. -- John Keim\n\nNext game: at Giants (Thursday, 8:15 p.m. ET)\n\nFantasy football takeaway: Rams RB Blake Corum's recent surge in usage has created a true backfield rotation in Los Angeles. Corum scored 11.8 points Sunday, rushing for 58 yards and a touchdown on 11 carries. He has now had 11 carries and a rushing score in three straight games, including double-digit points in five straight. Corum will move up into our RB2 rankings ahead of Week 10. -- Bowen\n\nDetroit 19, Miami 9\nCatch up on the action: Box score | Recap\n\nLions\nHas the Lions defense gone from a weakness to a strength? Sure, the past two offenses they've faced -- Minnesota and Miami -- were the 26th and 31st scoring offenses entering Week 9, respectively, but the unit has now stacked four solid performances in a row. Through the first four weeks, Detroit's defense was second-to-last in points allowed (31.8). Since then -- in wins against the Cardinals, Packers, Vikings and Dolphins -- they've allowed just 17.0 per game. Given the Lions' normally high-scoring offense had struggled to score in each of the past two contests, the defensive turnaround couldn't have come at a better time.\n\nTrend to watch: Sunday marked the second straight game in which the Lions failed to score a touchdown in the first half -- their first time doing so in consecutive games since October 2022. Part of the reason for that was quarterback Jared Goff being pressured on 40% of his dropbacks in the opening two quarters. -- ESPN staff\n\nNext game: vs. Patriots (Sunday, 9:30 a.m. ET in Munich)\n\nDolphins\nWhat does this performance say about the Dolphins' defense? The Lions entered Sunday's matchup leading the NFL in yards per game with 395.4, but they were held to just 120 at halftime. Miami's pass rush, which had just nine sacks in its previous seven games, sacked Goff three times and forced him to throw his second interception of the season. Ultimately, the Dolphins' defense kept them in this game while their offense floundered and has grown immensely over the course of the season -- specifically their young players. All five of Miami's interceptions in 2026 are by first- and second-year players.\n\nTrend to watch: For the second straight week, the Dolphins averaged fewer than 4.0 yards per carry, as Detroit's ninth-ranked run defense lived up to its ranking. After five straight games of rushing for more than 100 yards, the Dolphins have now been held under 80 yards in consecutive games. Quarterback Malik Willis has also recorded single-digit rushing yards in back-to-back weeks. -- Marcel Louis-Jacques\n\nNext game: at Colts (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Dolphins QB Malik Willis -- a popular streaming pick (season-high 15.1% start rate) -- scored an entirely forgettable 3.82 fantasy points. The groin issue that was brought to light during the game severely limited his mobility. Willis needs that facet of his game for him or his receivers to have any hope of streaming utility in future favorable matchups (Bills in Weeks 11 and 17; Bears in Week 14). -- Cockcroft\n\nCincinnati 34, Atlanta 17\nCatch up on the action: Box score | Recap\n\nBengals\nHas QB Joe Burrow established himself as the MVP? It's hard to argue against it, especially with how he has looked recently. One week after Burrow had six total touchdowns in an overtime win over the Titans, he put on an even more impressive performance against the Falcons, going 24-of-29 for 271 yards and three TDs. Burrow completed 16 of his first 18 passes and notably threw the ball much better than he did after tallying three interceptions last week. He's enhancing his case to finally break through and win an MVP after being a two-time finalist. And WR Ja'Marr Chase also played his part with a season-high 155 yards and a touchdown on 10 receptions.\n\nMost surprising performance: Sunday was the day running back Chase Brown was looking for. He finally reeled off his first carry of 15 or more yards and put together a couple more big runs on Sunday. A dynamic rushing attack was the biggest thing the Bengals have been missing this season, and Brown's performance could be the catalyst to fixing that issue. He finished with 57 yards on nine carries for an average of 6.3 yards per carry. Samaje Perine added 43 yards on 11 carries. -- Ben Baby\n\nNext game: vs. Steelers (Sunday, 8:20 p.m. ET)\n\nFalcons\nWill this loss change the Falcons' approach to the trade deadline? Probably not. There has been speculation the Falcons could move safety Jessie Bates III for draft picks. Bates will be a free agent after this season. The Falcons' 3-6 record does not look good, but the reality is they are still in the NFC South race and have the personnel to win the division if they can figure out a way to turn things around. Half of Atlanta's losses are with Cooper Rush starting at quarterback or in a driving rain. It doesn't seem like the Falcons are ready to pack it in for this season, especially since this franchise has not made the playoffs since 2017.\n\nWhat to make of the QB performance: There was some good and mostly not good from Michael Penix Jr. The good? He showed the ability to make plays with his legs: a career-high 50 yards rushing. The bad? An inability to push the ball down the field with efficiency en route to just 5.2 yards per attempt. He finished 20-of-31 with a TD and a pick. -- Marc Raimondi\n\nNext game: vs. Chiefs (Sunday, 1 p.m. ET)\n\nFantasy football takeaway: Falcons WR Drake London is no longer a surefire fantasy WR1. London faced a favorable matchup against the Bengals then saw only five targets and scored 11.8 fantasy points. Worse yet, his rest-of-November schedule is unfavorable: the Chiefs in Week 10, a bye week, at the Vikings in Week 11 and he also has matchups with the Browns (Week 14) and Buccaneers (Week 16). -- Cockcroft"
     },
     {
       "story_id": "50423627",
@@ -12605,6 +12605,20 @@
       "link": "https://www.espn.com/nba/story/_/id/50423627/2026-27-nba-trade-grades-contracts-new-deals-rosters-teams",
       "stream_url": "",
       "body": "The Oklahoma City Thunder and Sacramento Kings kicked off trade season Sunday, making a deal to send second-year wing Nique Clifford to the injury-ravaged Thunder for two future second-round picks. How does Clifford help replenish the Thunder's depleted depth alongside reigning MVP Shai Gilgeous-Alexander?\n\nWith three months to go until the Feb. 11 NBA trade deadline, expect more deals as the season goes on. I'm grading every trade and breaking down the ramifications for all teams and players involved.\n\nTo determine each grade, I'm looking at multiple factors, including the on-court impact and ages of involved players, the cost in terms of draft picks and future financial implications, and the context of the team's short- and long-term outlooks. How risky or certain is the move? And how much does it help or hurt the team's chance to win the championship this season or beyond?\n\nLet's get into the latest moves:\n\nQuick links:\n\nLatest buzz | Trade machine\n\nDepth charts\n\nNov. 8: Kings trade G Clifford to Thunder\n\nSacramento Kings get: 2028 second-round pick (via Utah), 2030 second-round pick (via Minnesota)\n\nOklahoma City Thunder get: G Nique Clifford\n\nGrade for Kings: C-\n\nOn the night of the 2025 draft, the Kings traded a future top-16-protected pick from the San Antonio Spurs to Oklahoma City for the No. 24 pick, which they used on Clifford. Less than 18 months later, they're sending Clifford back to the Thunder.\n\nThat would be a strange use of resources on its own -- two second-round picks is a less valuable package than a protected first -- but the Kings' choices look even stranger when considering what happened in the meantime: Clifford was perfectly capable as a rookie before being inexplicably buried on Sacramento's bench to start his sophomore season.\n\nLast season, Clifford averaged 8.6 points, 3.8 rebounds and 2.4 assists in 25.1 minutes per game, and he posted the best on/off swing in Sacramento's rotation. But this season, he's down to 1.6 points in 6.3 minutes per contest.\n\nTo be fair, Clifford is already 24 years old and appears to have a limited NBA ceiling. If the Kings truly concluded that he didn't fit on their roster anymore, then at least they got some draft capital back for him.\n\nBut it's unclear why they would have come to that conclusion, given his play in 1,932 NBA minutes so far.\n\nGrade for Thunder: B\n\nThe Thunder entered the weekend with 21 future second-round picks, which is far more than they'd ever actually have room to use. So they cashed in two of them for an immediate upgrade on the wing, where injuries have stressed even the Thunder's enviable depth.\n\nClifford might not end up playing any role for Oklahoma City come playoff time, but the team simply needs bodies in the meantime, and Clifford should be useful on both ends in a regular-season capacity. And who knows? Place him in the Thunder's excellent development system and he might blow past any theoretical ceiling while offering inexpensive production for the next few years."
+    },
+    {
+      "story_id": "50389084",
+      "headline": "Lando Norris praises McLaren for win, celebrates mastering S\u00e3o Paulo conditions",
+      "summary": "Lando Norris hailed one of his best ever wins after conquering the weather in S\u00e3o Paulo a week after losing his status as world champion.",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1743208_1296x729_16-9.jpg",
+      "published_utc": "2026-11-08T21:24:09Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "PA",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/50389084/lando-norris-mclaren-sao-paulo-grand-prix-brazil-formula-1",
+      "stream_url": "",
+      "body": "Lando Norris hailed one of his best wins after conquering the weather in S\u00e3o Paulo a week after losing his status as world champion.\n\nThe British driver claimed his third win in a tricky season, passing Kimi Antonelli when the new title holder spun out from the lead in cold and slippery conditions.\n\nNorris never looked back and crossed the line 14.6 seconds clear of Max Verstappen, who completed another stunning comeback drive from the back of the Interlagos grid.\n\nThe 26-year-old's only mishap of the day came as he celebrated his win with his trademark slamming down of the champagne bottle on the podium, only for it to shatter in his hands.\n\nBut Norris was toasting his victory after the race, saying: \"It's up there [with my best] in terms of challenge to achieve. Not been easy for all reasons possible.\n\n\"Conditions, weather, important to not make mistakes. A lot thrown at everyone on a day like today, but probably our best race in terms of execution.\n\n\"I forced Kimi to push, he went into a mistake I could capitalize on. From my side not making any mistakes which is so easy to do. Great performance from the team.\"\n\nPole-sitter Norris lost the lead to Antonelli off the line in damp conditions before also dropping a place to Racing Bulls' Liam Lawson at Turn Two.\n\n\"I probably can't say [how I felt] or I will get a fine!\" Norris added.\n\n\"I wasn't too pleased, but I knew things could easily change and a lot could happen.\"\n\n- Lando Norris holds off Max Verstappen to win S\u00e3o Paulo Grand Prix\n\n- Mercedes completes the double with constructors' title at S\u00e3o Paulo Grand Prix\n\n- Lando Norris takes third win this season in upgraded McLaren - as it happened\n\nVerstappen started 21st, a place behind Lewis Hamilton after engine penalties for the pair. Hamilton soared to ninth after lap one, while the Dutchman soon ignited and was charging through the field.\n\nHe won this race from 17th in 2024 and was showing similar brilliance in the wet again, roaring past Hamilton as he closed in on the leading pack.\n\nNorris reclaimed the lead having closed by pitting for soft tires a lap earlier, with Antonelli complaining of \"something weird\" with his car before he spun at Turn One.\n\nHe was off again as Verstappen progressed and Isack Hadjar also cruised through on his way to finishing third.\n\nAntonelli allowed teammate George Russell through to come home fifth, with both Mercedes struggling with tyres on the day they clinched the constructors' title.\n\n\"I am very disappointed for the race, very angry to be fair, but I put that to the side for now because we clinched the title for the team. I am very happy for them,\" Antonelli said.\n\n\"Disappointing because we were on for the win, once I got temperature I had rhythm. I don't know why I lost the rears so quickly. We lost the race there.\"\n\nRussell's hopes of a podium were undone when he spun on the exit of the narrow pit lane after his first stop, dropping him down to eighth.\n\nNorris remains sixth in the championship but closed to within five points of fifth-placed Charles Leclerc as he moved towards the scrap for second, with Verstappen now 17 points clear of third-placed Russell.\n\nThe McLaren driver is pleased with the team's progress as they look towards 2027 but knows there is more to come.\n\n\"It is about good strategy, good pit stops, but I had a car I could fight for a win with today,\" Norris added.\n\n\"As much as we are happy, we are not as happy as we could be but we know we are not at the level we need to be yet. We are getting there slowly but we have work to do.\""
     },
     {
       "story_id": "50424689",
@@ -12647,20 +12661,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50424280/gary-neville-michael-carrick-man-united",
       "stream_url": "",
       "body": "Gary Neville has slammed Manchester United's ownership, saying that they \"don't have a clue what to do\" about Michael Carrick's future at the club.\n\nUnited will spend the international break in the relegation zone despite snatching a point in a topsy-turvy 4-4 draw with Aston Villa on Sunday thanks to stoppage-time goals from Joshua Zirkzee and Patrick Dorgu.\n\nHaving won one Premier League game all season, Carrick is under serious pressure -- a far cry from his position six months ago after guiding the club to third place as caretaker head coach.\n\n\"When the new manager comes in, everybody's happy for a couple of months and all of a sudden, six months later, it happens again,\" Neville told NBC.\n\n\"You can keep changing the manager and thinking that's going to be the answer. But this has been proven now over eight managers in 12 years, that's not the answer.\n\n\"Michael could leave, Michael might stay, we don't know, the ownership don't have a clue what to do.\"\n\nUnited have not won the Premier League since Sir Alex Ferguson's final season, and have finished in the top four in fewer than half of seasons since then.\n\nFans protested against the Glazer family and Sir Jim Ratcliffe before and during Sunday's game, with some unveiling a banner reading: \"We don't want a new stadium, we want new owners.\"\n\nThe club's chief executive, Omar Berrada, and director of football, Jason Wilcox, have also faced heavy criticism, with the latter even referenced by United defender Lisandro Mart\u00ednez after the defeat to Atl\u00e9tico Madrid in October.\n\n- Man United's poor starts have Premier League relegation looking more likely\n\n- Man United in relegation zone, but Michael Carrick insists: I deserve to keep job\n\n- Roy Keane likens Michael Carrick to 'politician' after chaotic Man United draw\n\n\"It's rinse and repeat,\" Neville said of United's strategy. \"[Ruben] Amorim, [Erik] Ten Hag, Ole Gunnar Solskjaer, Carrick, Jos\u00e9 Mourinho, Louis van Gaal, David Moyes, Ralf Rangnick -- some of them are world class managers who have had success, there are a lot of promising young managers there, ex-players who know the club as well.\n\n\"None of it has worked because if you recruit badly, if you've got [a] poor performance department, poor recruitment department, you've not got leadership that is strong right through the spine of the football club you will fail.\n\n\"Every organisation in the world will fail if you've not got an aligned leadership from top to bottom -- your board and your ownership right the way through to the person who is stood on the pitch trying to play football.\n\n\"There are real issues within that football club, you've got people doing those jobs who have never done those jobs before in senior positions.\""
-    },
-    {
-      "story_id": "50389075",
-      "headline": "Lando Norris holds off Max Verstappen to win S\u00e3o Paulo Grand Prix",
-      "summary": "Lando Norris won the S\u00e3o Paulo Grand Prix after new world champion Kimi Antonelli spun out of the lead in slippery conditions at Interlagos.",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1743116_1296x729_16-9.jpg",
-      "published_utc": "2026-11-08T20:06:15Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "PA",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/50389075/lando-norris-sao-paulo-grand-prix-brazil-formula-1",
-      "stream_url": "",
-      "body": "Lando Norris won the S\u00e3o Paulo Grand Prix after new world champion Kimi Antonelli spun out of the lead in slippery conditions at Interlagos.\n\nAntonelli had jumped pole-sitter Norris during a damp start but fell apart after his stop for dry tires and ended the race fifth.\n\nMax Verstappen pulled off a typically brilliant comeback drive from 21st on the grid to finish second, ahead of Red Bull teammate Isack Hadjar.\n\nGeorge Russell's podium hopes were undone by a staggering spin in the pit lane exit, recovering well to fourth, while an extraordinary start from Lewis Hamilton from the back of the grid only earned him ninth.\n\nMercedes clinched the constructors' title, a week on from Antonelli celebrating his drivers' crown.\n\nNorris masterfully claimed pole in soaking conditions on Saturday afternoon, pipping Russell to top spot -- before his compatriot's five-place grid drop for an engine penalty.\n\nNorris was joined on the front row by the man who deposed him as champion.\n\nThe Italian had a moment of fortune as he made his way to the grid, skidding across the grass and narrowly avoiding the barriers before hauling his Mercedes out the mud.\n\nBehind them was a jumbled-up order -- Liam Lawson third, Nico H\u00fclkenberg fourth ahead of Hadjar and Oliver Bearman.\n\nAntonelli jumped Norris on the short run down to Turn 1. The McLaren man was then undone by Lawson at Turn 2.\n\nHamilton began 20th after engine woe on Saturday, with Charles Leclerc 14th after his own penalty.\n\nThe seven-time world champion was in familiar company, joined by Verstappen in 21st -- who won this race from 17th in the rain in 2024.\n\nHamilton soared up to ninth by the end of Lap 1, steaming down the outside off the line past a string of cars, including teammate Leclerc.\n\nHamilton's 400th Grand Prix start came at the end of a week where he launched a fierce criticism of Leclerc -- questioning the Mon\u00e9gasque's mentality after a first-lap overtake on him in Mexico.\n\nThe Ferrari pair say their issues are over after showdown talks with boss Fred Vasseur.\n\n- Mercedes completes the double with constructors' title at S\u00e3o Paulo Grand Prix\n\n- Lando Norris takes third win this season in upgraded McLaren - as it happened\n\nVerstappen started sedately but soon ignited with a string of sensational overtakes as he cruised up behind Hamilton.\n\nThe two great rivals, with 11 titles between them, dueled it out on the exit of Curva da Juncao but Hamilton had no answer for the Dutchman as he piled through.\n\nPiastri fought gamely but Verstappen hung it out around Turn 3 and passed Alexander Albon at Turn 4.\n\nThe Ferrari war was back in the spotlight on lap 10 as Leclerc cruised up to Hamilton -- who was complaining about his tires.\n\nNeither driver gave an inch as Leclerc made his move but Hamilton appeared to have taken life out of wheels as the Mon\u00e9gasque got the move done. To add insult for Hamilton, he was then breezed past by his old foe Fernando Alonso in the lowly Aston Martin.\n\nHamilton wanted dry tires but Ferrari wanted to wait. Out front, Antonelli had stormed eight seconds clear with Norris now back in second and Russell up to third.\n\nHamilton pulled the trigger on the soft tires on lap 15 and was motoring as the pack followed suit.\n\nNorris and Russell went first of the leaders but Russell suffered an extraordinary spin on the narrow pit exit, just keeping it out of the barrier as he slipped to eighth.\n\nAntonelli and Verstappen pitted the following lap, but Norris was all over the leader having slashed the gap and the world champion told Mercedes \"something weird\" was wrong with his car.\n\nThe Italian spectacularly spun off at Turn 1, as the British driver seized the lead.\n\nHadjar also piled through amid Antonelli's struggles as Verstappen emerged in his mirrors.\n\nAntonelli was off again on lap 24, with the Dutchman marching past, but Mercedes told their complaining driver his issue was simply tyie temperature.\n\nThe leading pack all stopped again, Norris retaining his healthy lead.\n\nBut there was a twist in the tale as the heavens opened again. Russell pitted first and gained ground but Hamilton spun down the main straight, clipping the barrier, as he made his way in.\n\nRussell was now on the back of Antonelli -- who will be investigated for an unsafe pit release -- and the world champion was told to let his teammate through.\n\nNorris held firm to claim back-to-back wins in S\u00e3o Paulo, crossing the line 14.6 seconds ahead of Verstappen."
     },
     {
       "story_id": "50420169",
@@ -12747,16 +12747,16 @@
       "body": "A backflipping Reece Walsh has helped put Australia within touching distance of their fourth-straight World Cup crown as the Kangaroos dismantled Samoa 44-12 in their semi-final.\n\nIn their most complete performance of the tournament to date, Kevin Walters' outfit put an ill-disciplined Samoan side to the sword, running in eight tries at Sydney's Allianz Stadium on Sunday night.\n\nLed by fullback Walsh, who scored a hat-trick, the Kangaroos rarely looked troubled.\n\nAustralia will face New Zealand at Suncorp Stadium in Brisbane in next Sunday's final as they look to extend their stranglehold on the World Cup that stretches back to 2013.\n\n\"That's just Reece, he's always brings up something that you don't expect and the backflip was no different,\" said Walters.\n\n\"Tonight was a really good performance. I still think there's a bit more in us too, so that's exciting.\n\n\"Our middle forwards, I thought they stood up really well, they've been questioned and criticised by some people but not within our group.\"\n\nAs fluent as Australia were, Samoa were all at sea in one of their most underwhelming showings since their surprise run to the 2022 final.\n\nWith a side stacked with NRL talent and a groundswell of support from their diaspora community, Samoa have a realistic hope of breaking international rugby league's glass ceiling in the years to come.\n\nBut on Sunday they made nine errors and gave up 12 set restarts or penalties, while prop Spencer Leniu was sin-binned for dissent late in a disastrous first half.\n\nSamoan coach Ben Gardiner claimed Australia benefited from \"homeground calls\".\n\n\"On the back of some of the penalties that were given, we just didn't react very well on the back of it,\" said Gardiner.\n\n\"Then it was one thing into another and then a try, so it made it really difficult to be able to fight back from that.\"\n\nAfter a lively pre-game siva tau where they came face to face with the Kangaroos, Samoa were first on the board when Stephen Crichton kicked a fourth minute penalty.\n\nBut it was all one-way traffic from then on as Australia asserted their dominance, starting when Tom Dearden scythed through some feeble defence off a scrum play to put the home side on the board.\n\nJacob Preston pinballed his way over from close range before Tom Trbojevic, Walsh and Bradman Best all crossed to push the Kangaroos out to a 26-2 halftime lead.\n\nWalsh - chosen ahead of James Tedesco for the starting No. 1 spot - celebrated his try with a backflip.\n\n\"He probably didn't need to do that but he did it for some sick kids,\" Walters explained.\n\nBut he was left red-faced soon after halftime when he leapt to claim a Samoa bomb, which Crichton scooped up to score.\n\nThe Brisbane fullback soon made amends by slaloming his way through the Samoan defence and palming off Brian To'o to add his second.\n\nIzack Tago barged his way over as Samoa showed something of a fightback.\n\nBut again, Walsh was the man in the right place at the right time.\n\nThe fullback backed up a Cameron Munster break to add his third before having a hand in Australia's final try to winger Jack Bostock."
     },
     {
-      "story_id": "50424764",
-      "headline": "Chiefs take care of business at home",
-      "summary": "Chiefs take care of business at home",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/4b476b38-b457-4787-b7cc-22cec893ee05/4b476b38-b457-4787-b7cc-22cec893ee05.jpg",
-      "published_utc": "2026-11-08T21:21:50Z",
+      "story_id": "50424796",
+      "headline": "Rams outlast Commanders with defensive showcase",
+      "summary": "Rams outlast Commanders with defensive showcase",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/8b6497da-7016-4ac5-be57-5c8be0cbdfc0/8b6497da-7016-4ac5-be57-5c8be0cbdfc0.jpg",
+      "published_utc": "2026-11-08T21:27:40Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50424764/chiefs-take-care-business-home",
+      "link": "https://www.espn.com/video/clip/_/id/50424796/rams-outlast-commanders-defensive-showcase",
       "stream_url": "",
       "body": ""
     },
@@ -12773,6 +12773,20 @@
       "link": "https://www.espn.com/nba/story/_/id/50422647/thunder-get-nique-clifford-trade-kings-sources-say",
       "stream_url": "",
       "body": "The Kings have traded second-year wing Nique Clifford to the Thunder for two second-round picks, Oklahoma City announced Sunday.\n\nIn return, the Kings will receive a 2028 Utah Jazz second-rounder and a 2030 Minnesota Timberwolves second-rounder out of the Thunder's deep asset cupboard.\n\nThe Kings initially acquired Clifford in the 2025 draft, trading a top-16-protected 2027 San Antonio Spurs first-round pick to the Thunder to move up to the No. 24 pick and grab Clifford. It was the first move of general manager Scott Perry's tenure.\n\nBut Clifford never caught on in Sacramento and has recently been buried in coach Doug Christie's rotation despite injuries ahead of him, leading both sides -- the Kings' and Clifford's -- to seek a new home for the 24-year-old.\n\nThe Thunder are in need on the wing after a rash of early-season injuries. Jalen Williams and Cason Wallace, both starters, are out for several months and perhaps the entire season. Wallace tore the labrum in his left shoulder and Williams fractured his left fibula and dislocated his left ankle in the same late October home game against the LA Clippers.\n\nThat led the Thunder to go searching for help, landing on Clifford, who is making only $3.2 million this season and $3.4 million next season. The Kings, in return, get a pair of draft assets and clear a roster spot as they search for any type of success in a 1-8 start to the season. The Thunder, despite the injuries, are 8-2."
+    },
+    {
+      "story_id": "50389085",
+      "headline": "Mercedes completes the double with constructors' title at S\u00e3o Paulo Grand Prix",
+      "summary": "Mercedes clinched the 2026 Formula 1 constructors' championship at the S\u00e3o Paulo Grand Prix, completing a clean sweep of both titles this year.",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1743123_1296x729_16-9.jpg",
+      "published_utc": "2026-11-08T19:51:09Z",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "byline": "Nate Saunders",
+      "source": "ESPN",
+      "link": "https://www.espn.com/f1/story/_/id/50389085/mercedes-sao-paulo-grand-prix-brazil-formula-1",
+      "stream_url": "",
+      "body": "Mercedes clinched the 2026 Formula 1 constructors' championship at the S\u00e3o Paulo Grand Prix, completing a clean sweep of both titles this year.\n\nMercedes secured its first crown since 2021 with George Russell finishing fourth, and Kimi Antonelli fifth in Brazil.\n\nAntonelli had already won the team its first drivers' championship since 2020 at last weekend's Mexico City Grand Prix, becoming F1's youngest champion in the process.\n\nMercedes entered the season's new engine and aerodynamic regulations as the favorite and duly delivered, winning the first six races of the season.\n\nWith three races still to play, Mercedes took victories at 12 of the season's 20 races.\n\nThe dominant fashion of the season has all the hallmarks of the beginning of the V6 turbo era, which started in 2014 -- Mercedes would dominate the first phase of that, until the introduction of the ground-effect era cars in 2022.\n\n- Lando Norris holds off dicey Max Verstappen to win S\u00e3o Paulo Grand Prix\n\n- Lando Norris takes third win this season in upgraded McLaren - as it happened\n\nBetween 2022 and 2025, Mercedes won only a handful of races but has mastered the controversial new rules.\n\nF1's new engines feature a near 50-50 split between conventional combustion power and electrical elements, including batteries which drivers need to harvest and deploy around a lap."
     },
     {
       "story_id": "50424651",
@@ -12815,20 +12829,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50423657/michael-carrick-man-united-future",
       "stream_url": "",
       "body": "Michael Carrick insisted there's enough evidence that he should keep his job despite Manchester United sitting in the Premier League relegation zone.\n\nUnited staged a dramatic late fightback to draw 4-4 with Aston Villa on Sunday. But with just one league win all season, Carrick's team are in the bottom three ahead of the international break.\n\nVilla were twice up by two at Old Trafford -- 2-0 and 4-2 -- before they were stunned by two goals in stoppage time from Joshua Zirkzee and Patrick Dorgu.\n\nThe rousing finale is unlikely to quiet questions about Carrick's position. However, the 45-year-old said he believes there are enough positives to suggest that he should be in charge when United next play against Liverpool at Anfield on Nov. 22.\n\n\"Yeah, 100%, yeah,\" Carrick said at the postmatch news conference. \"I think there's more than enough. Goals change games and you've got to deal with it, and it's part of something we have to improve on drastically, but there's more than enough. We're just making it too difficult for ourselves at the moment in certain times.\n\n\"I'm quite clear with what direction the club needs to go in, and it's got to win games.\"\n\nBefore arriving for his postmatch news conference, Carrick was involved in an awkward exchange during a TV interview with Sky Sports.\n\n- 'Like a politician': Keane calls for more from Carrick after United draw\n\n- What if Manchester United had hired Jurgen Klopp?\n\n- Poor starts have Man United facing relegation battle\n\nAsked whether there would be conversations with the club's hierarchy in the coming days, Carrick said: \"Is there?\"\n\nWhen it was suggested that fans would \"assume so,\" Carrick replied: \"Would you?\n\n\"We haven't won enough games, but I expect to move forward and keep working on what we've been working on, tighten up on a few mistakes, and win football matches.\"\n\nCarrick was also asked by Sky Sports whether he would consider quitting. The former England midfielder said: \"That's not going to happen.\""
-    },
-    {
-      "story_id": "50389085",
-      "headline": "Mercedes completes the double with constructors' title at S\u00e3o Paulo Grand Prix",
-      "summary": "Mercedes clinched the 2026 Formula 1 constructors' championship at the S\u00e3o Paulo Grand Prix, completing a clean sweep of both titles this year.",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1743123_1296x729_16-9.jpg",
-      "published_utc": "2026-11-08T19:51:09Z",
-      "competition_id": "f1",
-      "competition_name": "Formula 1",
-      "byline": "Nate Saunders",
-      "source": "ESPN",
-      "link": "https://www.espn.com/f1/story/_/id/50389085/mercedes-sao-paulo-grand-prix-brazil-formula-1",
-      "stream_url": "",
-      "body": "Mercedes clinched the 2026 Formula 1 constructors' championship at the S\u00e3o Paulo Grand Prix, completing a clean sweep of both titles this year.\n\nMercedes secured its first crown since 2021 with George Russell finishing fourth, and Kimi Antonelli fifth in Brazil.\n\nAntonelli had already won the team its first drivers' championship since 2020 at last weekend's Mexico City Grand Prix, becoming F1's youngest champion in the process.\n\nMercedes entered the season's new engine and aerodynamic regulations as the favorite and duly delivered, winning the first six races of the season.\n\nWith three races still to play, Mercedes took victories at 12 of the season's 20 races.\n\nThe dominant fashion of the season has all the hallmarks of the beginning of the V6 turbo era, which started in 2014 -- Mercedes would dominate the first phase of that, until the introduction of the ground-effect era cars in 2022.\n\n- Lando Norris holds off dicey Max Verstappen to win S\u00e3o Paulo Grand Prix\n\n- Lando Norris takes third win this season in upgraded McLaren - as it happened\n\nBetween 2022 and 2025, Mercedes won only a handful of races but has mastered the controversial new rules.\n\nF1's new engines feature a near 50-50 split between conventional combustion power and electrical elements, including batteries which drivers need to harvest and deploy around a lap."
     },
     {
       "story_id": "50402459",
