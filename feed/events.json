@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-09T03:31:42.019285+00:00",
+  "generated_utc": "2026-11-09T03:41:43.752099+00:00",
   "events": [
     {
       "event_id": "motogp:3f3d3f5e-851c-42d2-887a-8ce8b41fa908",
@@ -7987,7 +7987,7 @@
       "venue": "Canada Life Centre",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "RUhPvlIcERE",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -8229,7 +8229,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-09T01:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:24",
         "name": "Anaheim Ducks",
@@ -8259,7 +8259,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Honda Center",
       "detail": "",
       "game_number": 1,
@@ -8353,7 +8353,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Soldier Field",
-      "detail": "7:26 - 3rd Quarter",
+      "detail": "4:38 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8367,7 +8367,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-09T01:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:248",
         "name": "Houston Cougars",
@@ -8397,9 +8397,9 @@
         "color": "041e42"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Tahoe Blue Event Center",
-      "detail": "2:39 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8443,9 +8443,9 @@
         "color": "0a2240"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Intuit Dome",
-      "detail": "Halftime",
+      "detail": "8:00 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8491,7 +8491,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Golden 1 Center",
-      "detail": "10:02 - 3rd Quarter",
+      "detail": "7:41 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12397,6 +12397,20 @@
   ],
   "stories": [
     {
+      "story_id": "50429111",
+      "headline": "Boston Celtics vs. Milwaukee Bucks: Game Highlights",
+      "summary": "Boston Celtics vs. Milwaukee Bucks: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1109/82008229-8702-4a4d-8731-995a6cabf188/82008229-8702-4a4d-8731-995a6cabf188.jpg",
+      "published_utc": "2026-11-09T03:39:15Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50429111/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50429108",
       "headline": "Matt Coronato scores at 4:08 of overtime in Flames' 4-3 victory over Flyers",
       "summary": "\u2014 Matt Coronato scored at 4:08 of overtime to give the Calgary Flames a 4-3 victory over the Philadelphia Flyers on Sunday night.",
@@ -12409,20 +12423,6 @@
       "link": "http://www.espn.com/nhl/recap?gameId=401892678",
       "stream_url": "",
       "body": "CALGARY, Alberta -- \u2014 Matt Coronato scored at 4:08 of overtime to give the Calgary Flames a 4-3 victory over the Philadelphia Flyers on Sunday night.\n\n\r\nZane Parekh, Zach Whitecloud and Joel Farabee, while short-handed, also scored for the Flames (8-9-1). Yegor Sharangovich had two assists.\n\n\r\nFlames goalie Devin Cooley, in his first game back after missing five because of a lower-body injury, made 32 saves.\n\n\r\nDenver Barkey, Noel Acciari and Owen Tippett scored for Philadelphia (4-10-5), and Sean Couturier added two assists. Dan Vladar stopped 22 shots.\n\n\r\nFarabee tied it on a short-handed breakaway midway through the third period.\n\n\r\nUp next\r\nFlyers: At Vancouver on Monday night.\n\n\r\nFlames: Host the New York Rangers on Wednesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
-    },
-    {
-      "story_id": "50429093",
-      "headline": "Paul George and Jayson Tatum lead Celtics to a 117-97 victory over the Bucks",
-      "summary": "\u2014 Paul George scored 27 points, Jayson Tatum added 21 and the Boston Celtics rolled to a 117-97 victory over the slumping Milwaukee Bucks on Sunday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909949.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-09T03:23:35Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909949",
-      "stream_url": "",
-      "body": "MILWAUKEE -- \u2014 Paul George scored 27 points, Jayson Tatum added 21 and the Boston Celtics rolled to a 117-97 victory over the slumping Milwaukee Bucks on Sunday night.\n\n\r\nThis marked the second matchup between these teams in five nights. The Celtics had beaten the Bucks 109-102 on Wednesday in Boston while resting Tatum.\n\n\r\nBoston (8-2) built a big enough lead Sunday to sit Tatum for the entire fourth quarter as the Celtics continued a four-game trip that started with a 119-80 win at Charlotte on Friday. The Celtics next head to Philadelphia and Toronto.\n\n\r\nKyle Kuzma led Milwaukee with 27 points.\n\n\r\nMyles Turner scored just three points for the Bucks, though he did have five rebounds and a career-high seven assists. Turner, who has shot 1 of 15 over his last two games, was coming off a scoreless performance in a 121-107 NBA Cup loss to the Toronto Raptors on Frieday.\n\n\r\nThe Bucks (1-9) are off to their worst start since 1993-94, when they lost 10 of their first 11 games and went on to finish 20-62.\n\n\r\nKuzma scored 14 points in the first five minutes of the game to help Milwaukee grab an early 20-6 lead. Tatum and George sparked an 18-0 run that enabled the Celtics to take control later in the first half.\n\n\r\nTatum scored the final 10 points of the first quarter to cut Milwaukee\u2019s lead to 27-25. George delivered the first eight points of the second period.\n\n\r\nGeorge\u2019s 3-pointer in the opening minute of the second quarter gave Boston its first lead at 28-27. George then hit a layup and another 3-pointer to cap the 18-0 spurt.\n\n\r\nBoston owned a 58-45 halftime advantage. The Celtics scored the first nine points of the third period to extend their lead to 22, and they stayed in front by at least 15 the rest of the way.\n\n\r\nUp next\r\nCeltics: At Philadelphia on Tuesday night.\n\n\r\nBucks: At New York on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "42230928",
@@ -12565,6 +12565,20 @@
       "body": "Australia and New Zealand will meet in the World Cup final after emphatic semifinal victories ended Samoa and Tonga's campaigns.\n\nReece Walsh scored a hat trick as the Kangaroos defeated Samoa 44-12 in Sydney, while Kalyn Ponga's return helped the Kiwis overcome Tonga 34-10 in Newcastle.\n\nThe results set up a rematch of the tournament opener, with both sides arriving at the decider with considerably more momentum.\n\nHere are the biggest takeaways from the men's semifinals.\n\nWalsh delivers when the stakes rise\nThe debate over Australia's fullback position has followed Kevin Walters throughout the tournament. Reece Walsh provided his strongest response yet against Samoa.\n\nHis hat trick helped the Kangaroos turn a potentially difficult semifinal into a commanding victory, vindicating Walters' decision to retain him ahead of James Tedesco.\n\nJust as encouraging was his response to an error.\n\nAfter spilling a bomb early in the second half and allowing Stephen Crichton to score, Walsh crossed himself only minutes later. He then completed his hat trick by finishing a sweeping movement involving Tom Trbojevic, Tom Dearden and Cameron Munster.\n\nThat ability to remain involved after a mistake matters as much as the spectacular moments. New Zealand will test him with its kicking game, and Australia cannot afford its most dangerous attacking player to retreat from the contest if something goes wrong.\n\nWalsh kept demanding the ball against Samoa. With the halves creating opportunities around him, his acceleration and support play gave Australia a threat that remained difficult to contain throughout the night.\n\nPonga's return gives New Zealand another dimension\nKalyn Ponga returned 23 days after breaking his arm and immediately reminded everyone what New Zealand had been missing.\n\nThe fullback produced three try assists in the Kiwis' victory over Tonga, setting up Briton Nikora's opening try inside the first three minutes.\n\nBut his contribution extended well beyond the attack.\n\nWith Demitric Vaimauga breaking into the clear during the first half, Ponga made a crucial one-on-one tackle to stop the much larger forward short of the line. It was a significant intervention in a contest that remained tightly balanced before halftime.\n\nKeano Kini had performed strongly in his absence, but Ponga's return provides Stacey Jones with an experienced attacking organiser capable of creating opportunities on either side of the field.\n\nFor Australia, the challenge now includes limiting the space available to both Ponga and Jahrome Hughes. Allowing either to operate behind a dominant forward pack risks giving New Zealand too many ways to attack.\n\nPonga's comeback has made an already formidable opponent more dangerous.\n\nHughes and the Kiwis show how to take control\nThe 34-10 scoreline disguises how competitive Tonga were for much of the first half.\n\nJojo Fifita's double put them ahead 10-6 before Dane Gagai's late try sent New Zealand into the break with a two-point advantage.\n\nThe second half belonged to the Kiwis.\n\nWith a powerful wind behind them, New Zealand repeatedly forced Tonga to work out of difficult field position. Hughes' kicking helped maintain that pressure, while Tonga struggled to find distance on the last tackle.\n\nCasey McLean extended the lead before Hughes crossed himself, turning a tight match into a commanding advantage. Tonga did not score after halftime.\n\nThe conditions were a substantial factor, but New Zealand still had to exploit them. Their patience and execution ensured the territorial advantage translated into points.\n\nThat control will be essential against Australia. The Kiwis have enough individual quality to create tries, but their best route to the trophy is to give those players repeated opportunities rather than rely on isolated moments.\n\nSamoa's frustration compounds a difficult night\nSamoa will leave Sydney frustrated by several decisions, particularly the first-half ruling that denied Stephen Crichton a try after an aerial contest.\n\nThe Bunker ruled Francis Manuleleua had knocked on, and Australia scored through Walsh shortly afterwards. A second Samoa try was also disallowed later in the match.\n\nThose moments deserve scrutiny, but Samoa's own errors and discipline also made an already demanding assignment significantly harder.\n\nAustralia repeatedly received opportunities to build pressure, while Spencer Leniu's sin-binning for dissent added to Samoa's problems before halftime. The Kangaroos went to the break ahead 26-2.\n\nLeniu, so influential earlier in the tournament, also lost possession with his first carry and again after returning from the sin bin. Samoa struggled to establish the sustained pressure needed to bring their attacking strengths into the contest.\n\nTheir talent remains undeniable. The next step is maintaining enough composure and possession to make that talent count against the strongest opponents.\n\nAustralia gave them a harsh demonstration of how quickly a sequence of small setbacks can become a decisive deficit.\n\nAustralia's combinations are coming together at the right time\nAfter several changes through the pool stage, Australia's attack looked more settled in its first knockout match.\n\nDearden opened the scoring with a dummy and run from a scrum, while Munster helped create Jacob Preston's try. The Kangaroos continued finding different avenues to the line, finishing with eight tries from six scorers.\n\nHarry Grant and Munster supplied control, Walsh provided the speed, and Australia's forwards gave them a stronger platform than they had enjoyed during some of their earlier outings.\n\nPat Carrigan and Tino Fa'asuamaleaui made important contributions through the middle, offering encouragement after the scrutiny directed at the pack during the pool stage.\n\nThe final will provide a more demanding examination. New Zealand's forwards troubled Australia in their opening meeting, and winning that battle will be central to whether the Kangaroos can reproduce Sunday's attacking fluency.\n\nAustralia won the opener 24-22. With Ponga back and both teams coming off convincing semi-final performances, the rematch offers every prospect of another closely fought contest.\n\nThe title will be decided at Suncorp Stadium on November 15."
     },
     {
+      "story_id": "50429093",
+      "headline": "Paul George and Jayson Tatum lead Celtics to a 117-97 victory over the Bucks",
+      "summary": "\u2014 Paul George scored 27 points, Jayson Tatum added 21 and the Boston Celtics rolled to a 117-97 victory over the slumping Milwaukee Bucks on Sunday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909949.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-09T03:23:35Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nba/recap?gameId=401909949",
+      "stream_url": "",
+      "body": "MILWAUKEE -- \u2014 Paul George scored 27 points, Jayson Tatum added 21 and the Boston Celtics rolled to a 117-97 victory over the slumping Milwaukee Bucks on Sunday night.\n\n\r\nThis marked the second matchup between these teams in five nights. The Celtics had beaten the Bucks 109-102 on Wednesday in Boston while resting Tatum.\n\n\r\nBoston (8-2) built a big enough lead Sunday to sit Tatum for the entire fourth quarter as the Celtics continued a four-game trip that started with a 119-80 win at Charlotte on Friday. The Celtics next head to Philadelphia and Toronto.\n\n\r\nKyle Kuzma led Milwaukee with 27 points.\n\n\r\nMyles Turner scored just three points for the Bucks, though he did have five rebounds and a career-high seven assists. Turner, who has shot 1 of 15 over his last two games, was coming off a scoreless performance in a 121-107 NBA Cup loss to the Toronto Raptors on Frieday.\n\n\r\nThe Bucks (1-9) are off to their worst start since 1993-94, when they lost 10 of their first 11 games and went on to finish 20-62.\n\n\r\nKuzma scored 14 points in the first five minutes of the game to help Milwaukee grab an early 20-6 lead. Tatum and George sparked an 18-0 run that enabled the Celtics to take control later in the first half.\n\n\r\nTatum scored the final 10 points of the first quarter to cut Milwaukee\u2019s lead to 27-25. George delivered the first eight points of the second period.\n\n\r\nGeorge\u2019s 3-pointer in the opening minute of the second quarter gave Boston its first lead at 28-27. George then hit a layup and another 3-pointer to cap the 18-0 spurt.\n\n\r\nBoston owned a 58-45 halftime advantage. The Celtics scored the first nine points of the third period to extend their lead to 22, and they stayed in front by at least 15 the rest of the way.\n\n\r\nUp next\r\nCeltics: At Philadelphia on Tuesday night.\n\n\r\nBucks: At New York on Tuesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+    },
+    {
       "story_id": "50429011",
       "headline": "Hellebuyck makes 23 saves for his first shutout with Devils in 4-0 victory over Maple Leafs",
       "summary": "\u2014 Connor Hellebuyck made 23 saves for his first shutout with New Jersey and the Devils beat the Toronto Maple Leafs 4-0 on Sunday night.",
@@ -12577,20 +12591,6 @@
       "link": "http://www.espn.com/nhl/recap?gameId=401892676",
       "stream_url": "",
       "body": "TORONTO -- \u2014 Connor Hellebuyck made 23 saves for his first shutout with New Jersey and the Devils beat the Toronto Maple Leafs 4-0 on Sunday night.\n\n\r\nAcquired from the Winnipeg Jets last month after demanding a trade, Hellebuyck became the first goalie in franchise history to win each of his first five games with the club.\n\n\r\nThe Devils are set to play at Winnipeg on Tuesday night, with general manager Sunny Mehta saying Sunday night that Hellebuyck will not play. Hellebuyck had his first shutout of the season and the 46th of his NHL career.\n\n\r\nTimo Meier scored twice for New Jersey (13-5-0), which has won nine of its last 10 games. Nico Hischier, with a goal and an assist, and Connor Brown, into an empty net, provided the rest of the offense. Jack Hughes and Jesper Bratt each had two assists.\n\n\r\nAnthony Stolarz stopped 25 shots for Toronto (8-9-2). The Maple Leafs have lost three straight and five of their last six in regulation.\n\n\r\nMeier opened the scoring at 8:28 of the second period when he was left alone in front after a faceoff in the offensive zone. The winger doubled the advantage with 7:16 left in the period when a Hughes' shot deflected off Meier and past Stolarz.\n\n\r\nHischier made it 3-0 on a power play at 9:49 of the third, and Brown iced it into the empty net. Hischier assisted on Meier\u2019s first goal to become the third Swiss-born player in NHL history with 500 career points, joining Roman Josi (799) and Kevin Fiala (528).\n\n\r\nThe Hockey Hall of Fame\u2019s class of 2026 was honored before the puck drop. Carey Price, Patrice Bergeron, Pekka Rinne, Keith Tkachuk and Cindy Curley are set to be enshrined in the player category Monday. Brian Burke will go in as a builder.\n\n\r\nUp next\r\nDevils: At Winnipeg on Tuesday night.\n\n\r\nMaple Leafs: Host Colorado on Tuesday night\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
-    },
-    {
-      "story_id": "50429090",
-      "headline": "Cooper Flagg has 25 points, career-best 12 assists as Mavericks beat Nets 130-93",
-      "summary": "\u2014 Cooper Flagg had 25 points and a career-high 12 assists for his third consecutive double-double and fourth of the season as the Dallas Mavericks beat the Brooklyn Nets 130-93 on Sunday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909948.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-09T03:22:35Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909948",
-      "stream_url": "",
-      "body": "DALLAS -- \u2014 Cooper Flagg had 25 points and a career-high 12 assists for his third consecutive double-double and fourth of the season as the Dallas Mavericks beat the Brooklyn Nets 130-93 on Sunday night.\n\n\r\nKyrie Irving scored 21 points and Daniel Gafford added 18 as the Mavericks played the first of a home back-to-back.\n\n\r\nMichael Porter Jr. had 19 points and nine rebounds for the Nets, who were swept in a back-to-back to begin a four-game road trip. Nolan Traore added 14 points.\n\n\r\nThe Nets didn\u2019t trail until the final two minutes of Saturday\u2019s 124-121 loss at Atlanta but never led against the Mavericks.\n\n\r\nFlagg, last season\u2019s Rookie of the Year, had his 16th career 20-point half and first this season after opening hot by hitting 5 of 6 shots in the first period. He had missed 6 of 8 shots and scored four points in the first half on Friday against Utah but finished with 21 points in Dallas\u2019 112-100 win.\n\n\r\nThe Mavericks shot a season best 57.1% and scored a season high in points on Sunday. They led 66-46 at halftime, and the 37-point final margin was the largest of the game.\n\n\r\nBrooklyn\u2019s Julius Randle grew up in the Dallas area and went into play averaging 23.5 points in his homecoming games but finished with 13 points.\n\n\r\nNets rookie Mikel Brown Jr., who tied his career-high with 18 points on Saturday, sat out, not yet cleared for back-to-backs as he recovers from a back injury that limited him to 21 games last season for Louisville.\n\n\r\nUp next\r\nNets: Visit New Orleans on Wednesday night.\n\n\r\nMavericks: Host Indiana on Monday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50427335",
