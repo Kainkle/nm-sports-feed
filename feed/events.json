@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T02:45:23.465950+00:00",
+  "generated_utc": "2026-11-11T02:55:29.017345+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057448",
@@ -3197,7 +3197,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-11T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:9",
         "name": "Ottawa Senators",
@@ -3227,7 +3227,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Canadian Tire Centre",
       "detail": "",
       "game_number": 1,
@@ -3322,7 +3322,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "InfoCision Stadium",
-      "detail": "6:53 - 4th Quarter",
+      "detail": "3:25 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3368,7 +3368,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Doyt L. Perry Stadium",
-      "detail": "12:46 - 4th Quarter",
+      "detail": "10:15 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3521,7 +3521,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-11T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:18",
         "name": "New York Knicks",
@@ -3551,9 +3551,9 @@
         "color": "00471b"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Madison Square Garden",
-      "detail": "3:59 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3679,9 +3679,9 @@
         "color": "008348"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Xfinity Mobile Arena",
-      "detail": "3:57 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3726,9 +3726,9 @@
         "color": "154734"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Yager Stadium",
-      "detail": "0:56 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3774,7 +3774,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "United Supermarkets Arena",
-      "detail": "7:12 - 2nd Half",
+      "detail": "3:44 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3820,7 +3820,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Mortgage Matchup Center",
-      "detail": "9:00 - 2nd Quarter",
+      "detail": "5:21 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3866,7 +3866,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Delta Center",
-      "detail": "11.1 - 1st Quarter",
+      "detail": "8:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3910,9 +3910,9 @@
         "color": "000060"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "John Paul Jones Arena",
-      "detail": "3:12 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3957,9 +3957,9 @@
         "color": "003976"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "McKale Center at ALKEME Arena",
-      "detail": "2:13 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4003,9 +4003,9 @@
         "color": "192C66"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Marriott Center",
-      "detail": "0:46 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8084,6 +8084,20 @@
   ],
   "stories": [
     {
+      "story_id": "50448937",
+      "headline": "New Jersey Devils vs. Winnipeg Jets: Game Highlights",
+      "summary": "New Jersey Devils vs. Winnipeg Jets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1111/51fd6ced-3aa5-4a22-a32d-e2ed080d7a8e/51fd6ced-3aa5-4a22-a32d-e2ed080d7a8e.jpg",
+      "published_utc": "2026-11-11T02:49:29Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50448937/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50448300",
       "headline": "Patrick and Brittany Mahomes announce baby No. 4 on NFL trade deadline day",
       "summary": "The couple shared the news on a busy trade deadline day that also brought receiver Josh Downs to Kansas City.",
@@ -8124,20 +8138,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50447394/shams-shares-insights-history-jayson-tatum-jaylen-brown-relationship",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50444702",
-      "headline": "Ovechkin says Russians want to play for country, doesn't weigh in on worlds",
-      "summary": "Alex Ovechkin didn't weigh in on CAS' decision to allow Russian players back in hockey worlds, but said they just want to represent their country.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/48bf8ffd-cfa4-4e93-9f8c-8accec37f4aa/48bf8ffd-cfa4-4e93-9f8c-8accec37f4aa.jpg",
-      "published_utc": "2026-11-10T23:30:11Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50444702/ovechkin-weigh-allowing-russians-worlds",
-      "stream_url": "",
-      "body": "OTTAWA, Ontario-- Alex Ovechkin said Tuesday that athletes from Russia just want to represent their country, but the Washington Capitals' captain and NHL career goal-scoring leader declined to weigh in on the decision to allow his home nation back into international hockey tournaments.\n\n\"I don't know how it's going to work out, but I'm pretty sure if you ask the fans, the fans want to see the best players out there,\" Ovechkin said after his team's morning skate ahead of playing the Ottawa Senators in Canada's capital city. \"The fans want to see young generation players who are going to be future stars, future NHLers. But you know it's not up to us.\"\n\nThe Court of Arbitration for Sport ruled late last month that the International Ice Hockey Federation must reinstate Russia, beginning with the world junior championship set to open in the Canadian province of Alberta on Dec. 26. Russia has been excluded from participating in the sport internationally since it invaded Ukraine in 2022.\n\nCanadian Prime Minister Mark Carney said Russia will not be allowed to play at the world juniors, and the government may opt not to issue visas.\n\nWayne Gretzky, the league's all-time points leader, said he understood Carney's stance, adding, \"I think a lot of the players and the people of Canada feel the same way.\"\n\nOvechkin passed Gretzky in goals in April 2025, with The Great One in attendance for the final days of the chase. Asked about Carney's stance, Ovechkin said, \"It's his thoughts, his decision.\"\n\nSeveral prominent hockey countries, including Sweden, Finland and Czechia, have voiced opposition to Russia's readmittance, even going so far as to say their national teams will not take the ice against Russia as long as the war is ongoing.\n\nCanada's secretary of state for sport, Adam van Koeverden, said last week the decision to bar Russia stems from accusations the Kremlin has used sporting success for \"propaganda\" purposes to garner domestic support for the war in Ukraine -- a charge Ovechkin denied when prompted about it Tuesday.\n\nThe Ukrainian Canadian Congress is organizing a demonstration outside the Canadian Tire Centre called \"No War Crimes in Hockey\" to protest Ovechkin's support for Russian President Vladimir Putin.\n\nOvechkin publicly backed Putin in 2017 when he launched a social movement called \"Putin Team.\" At the time, he told reporters from The Associated Press and The Washington Post, \"I just support my country.\"\n\nWhen Russia invaded Ukraine in February 2022, Ovechkin said, \"Please, no more war,\" when asked about the invasion. Asked about his relationship with Putin, Ovechkin said: \"He's my president, but I'm not in politics. I'm an athlete.\"\n\nOvechkin also appeared in an ad earlier this year for a political party aligned with Putin. He told reporters in September that he was asked to participate and agreed to do so.\n\nSpeaking after the annual fall general managers meeting in Toronto, NHL commissioner Gary Bettman said he and deputy commissioner Bill Daly met with new IIHF president Franz Reindl about the CAS decision and cast doubt on the ability to make a change to the world juniors on such short notice.\n\n\"Obviously there's been some strong reaction to the CAS decision, and at the end of the day the IIHF is going to have to work through it because a number of the federations have said they're not going to play,\" Bettman said. \"Ordering the IIHF to change the junior world championship in a month, obviously practically a real difficult problem. The Canadian government saying that Russian teams can't come in anyway is very complicated.\"\n\nWith the league and NHL Players' Association set to stage a World Cup of Hockey in February 2028, a call needs to be made \"at some point\" on Russian participation and what that may or may not look like. That does not appear to be coming any time soon.\n\n\"We're going to have to evaluate what is the right thing to do at the right point in time, taking into account everything that is and isn't going on in the world,\" Bettman said. \"There's no easy answer to that, but we're committed to making the best possible decision when we need to.\""
     },
     {
       "story_id": "50446824",
@@ -8252,6 +8252,20 @@
       "body": "Australia have recalled Brisbane star Jesse Southwell at five-eighth and dropped Sydney Roosters premiership winner Jocelyn Kelleher for the Women's World Cup final.\n\nIt is a big call by Jillaroos coach Jess Skinner ahead of the showdown with the Kiwi Ferns on Sunday at Suncorp Stadium, after Kelleher played in three of the four matches won by Australia in the tournament.\n\nKelleher was also player of the match at No.6 in the 40-0 win over Samoa on Test debut in the opening round.\n\nSouthwell, who will partner Tarryn Aiken in the halves, did shine in the record-breaking 124-6 win over Wales where she had a personal haul of 44 points from a try and 20 goals from 21 attempts.\n\nShe was also a key in NSW's 3-0 series win over Queensland in this year's State of Origin series.\n\nKelleher also kicks goals and shared a strong bond with Roosters teammate and halfback Aiken during their NRLW title win, but has been named in the 21 jersey for the clash with New Zealand.\n\nTry whiz Jaime Chapman has been picked on the wing, despite coming from the field early with a hamstring issue in the 30-14 win over Fiji in the semi-final.\n\nThe Ferns have retained the same 17 that defeated Samoa 32-0 in their semi.\n\nNew Zealand men's team, meantime, have recalled winger Ronaldo Mulitalo from suspension to the starting side for the final showdown with Australia on Sunday night.\n\nCharnze Nicoll-Klokstad has made way after he scored a try in the 34-10 semi-final win over Tonga.\n\nMulitalo was sent off in the 72-0 win over Fiji for a shoulder charge and copped a one-match ban.\n\nAustralia have named the same 19 that beat Samoa 44-12 for the decider.\n\nCentre Latrell Mitchell and half Sam Walker have been listed at No.18 and No.19 respectively with coach Kevin Walters settling on Bradman Best as his left centre and Tom Dearden at No.7, both of whom were outstanding against Samoa."
     },
     {
+      "story_id": "50444957",
+      "headline": "Kings expect to get Kevin Fiala back this week, sources say",
+      "summary": "Kevin Fiala is expected to make his season debut this week, sources told ESPN's Emily Kaplan, with the Kings also slated to get Mats Zuccarello back Tuesday night.",
+      "image": "https://a.espncdn.com/photo/2026/1110/r1744116_1296x729_16-9.jpg",
+      "published_utc": "2026-11-10T20:04:27Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "Emily Kaplan",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50444957/kings-expect-get-kevin-fiala-back-week-sources-say",
+      "stream_url": "",
+      "body": "Los Angeles Kings forward Kevin Fiala is expected to make his season debut Thursday against the New York Islanders or Saturday against the Calgary Flames, sources said.\n\nThe Kings' string of good injury news will actually begin Tuesday night as Mats Zuccarello will return from an upper-body injury to face the Nashville Predators.\n\nFiala, 30, fractured his left leg while playing for Switzerland at February's Olympics. He underwent surgery in Italy and had a follow-up procedure in September that kept him out of the start of training camp. Fiala, one of the team's most gifted forwards, had 18 goals and 22 assists in 56 games for the Kings last season.\n\nZuccarello has played six games this season across two stints in the lineup. The 39-year-old signed a one-year, bonus-laden deal with Los Angeles in free agency after posting 15 goals and 39 assists in 59 games for the Minnesota Wild last season. It was his fifth consecutive 50-point season.\n\nFor Los Angeles (5-8-2) the returns come at a crucial juncture. The three games this week close out a seven-game homestand, giving the Kings a chance to put together their first consecutive wins in nearly three weeks. Fiala's return will mark the first time the Kings have had him and Artemi Panarin in the lineup."
+    },
+    {
       "story_id": "50447756",
       "headline": "Raiders name Fernando Mendoza starting QB after trading Kirk Cousins",
       "summary": "No. 1 pick Fernando Mendoza was officially named the Raiders' starting quarterback Tuesday after the team traded Kirk Cousins to the Vikings.",
@@ -8292,20 +8306,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50447301/anthony-moves-effortlessly-court",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50444957",
-      "headline": "Kings expect to get Kevin Fiala back this week, sources say",
-      "summary": "Kevin Fiala is expected to make his season debut this week, sources told ESPN's Emily Kaplan, with the Kings also slated to get Mats Zuccarello back Tuesday night.",
-      "image": "https://a.espncdn.com/photo/2026/1110/r1744116_1296x729_16-9.jpg",
-      "published_utc": "2026-11-10T20:04:27Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Emily Kaplan",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50444957/kings-expect-get-kevin-fiala-back-week-sources-say",
-      "stream_url": "",
-      "body": "Los Angeles Kings forward Kevin Fiala is expected to make his season debut Thursday against the New York Islanders or Saturday against the Calgary Flames, sources said.\n\nThe Kings' string of good injury news will actually begin Tuesday night as Mats Zuccarello will return from an upper-body injury to face the Nashville Predators.\n\nFiala, 30, fractured his left leg while playing for Switzerland at February's Olympics. He underwent surgery in Italy and had a follow-up procedure in September that kept him out of the start of training camp. Fiala, one of the team's most gifted forwards, had 18 goals and 22 assists in 56 games for the Kings last season.\n\nZuccarello has played six games this season across two stints in the lineup. The 39-year-old signed a one-year, bonus-laden deal with Los Angeles in free agency after posting 15 goals and 39 assists in 59 games for the Minnesota Wild last season. It was his fifth consecutive 50-point season.\n\nFor Los Angeles (5-8-2) the returns come at a crucial juncture. The three games this week close out a seven-game homestand, giving the Kings a chance to put together their first consecutive wins in nearly three weeks. Fiala's return will mark the first time the Kings have had him and Artemi Panarin in the lineup."
     },
     {
       "story_id": "50445699",
@@ -8508,6 +8508,12 @@
         {
           "url": "https://dailywrestling.cc/embed/txneww/11-10-2026/select-post-1/4/5",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/11-10-2026/select-post-1/4/6",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 6",
           "part": true,
           "live": true
         }
