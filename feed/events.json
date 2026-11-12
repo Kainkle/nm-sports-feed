@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-12T03:59:52.768625+00:00",
+  "generated_utc": "2026-11-12T04:09:59.327350+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401909952",
@@ -2293,7 +2293,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-12T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2050",
         "name": "Ball State Cardinals",
@@ -2323,55 +2323,8 @@
         "color": "005bbb"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Scheumann Stadium",
-      "detail": "End of 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866463",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-12T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2649",
-        "name": "Toledo Rockets",
-        "abbrev": "TOL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
-        "logo_dark": null,
-        "aliases": [
-          "Rockets",
-          "TOL",
-          "Toledo",
-          "Toledo Rockets"
-        ],
-        "color": "0b2240"
-      },
-      "away": {
-        "id": "espn:113",
-        "name": "Massachusetts Minutemen",
-        "abbrev": "MASS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-        "logo_dark": null,
-        "aliases": [
-          "MASS",
-          "Massachusetts",
-          "Massachusetts Minutemen",
-          "Minutemen",
-          "UMass"
-        ],
-        "color": "881c1c"
-      },
-      "source": "espn:football/college-football",
       "source_status": "post/Final",
-      "venue": "Glass Bowl",
+      "venue": "Scheumann Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -2420,6 +2373,53 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Kelly/Shorts Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866463",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-12T00:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2649",
+        "name": "Toledo Rockets",
+        "abbrev": "TOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rockets",
+          "TOL",
+          "Toledo",
+          "Toledo Rockets"
+        ],
+        "color": "0b2240"
+      },
+      "away": {
+        "id": "espn:113",
+        "name": "Massachusetts Minutemen",
+        "abbrev": "MASS",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+        "logo_dark": null,
+        "aliases": [
+          "MASS",
+          "Massachusetts",
+          "Massachusetts Minutemen",
+          "Minutemen",
+          "UMass"
+        ],
+        "color": "881c1c"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Glass Bowl",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -2859,9 +2859,9 @@
         "color": "0150b5"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Delta Center",
-      "detail": "End of 3rd Quarter",
+      "detail": "8:30 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2875,7 +2875,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-12T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:26",
         "name": "UCLA Bruins",
@@ -2905,9 +2905,9 @@
         "color": "e0aa0f"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Pauley Pavilion",
-      "detail": "3:11 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2921,7 +2921,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-12T02:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:158",
         "name": "Nebraska Cornhuskers",
@@ -2951,9 +2951,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Pinnacle Bank Arena",
-      "detail": "0:56 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3045,7 +3045,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "11:02 - 3rd Quarter",
+      "detail": "6:40 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3181,9 +3181,9 @@
         "color": "007ac1"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Moda Center",
-      "detail": "3:48 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3197,7 +3197,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-12T04:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:25",
         "name": "California Golden Bears",
@@ -3226,9 +3226,9 @@
         "color": "9d2235"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Haas Pavilion",
-      "detail": "Wed, November 11th at 11:00 PM EST",
+      "detail": "16:36 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
