@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-12T15:30:34.199039+00:00",
+  "generated_utc": "2026-11-12T15:41:11.975164+00:00",
   "window_days": 2,
-  "total_events": 166,
+  "total_events": 165,
   "competitions": [
     {
       "competition": "aew",
@@ -398,19 +398,35 @@
       "competition": "wwe",
       "name": "WWE",
       "sport": "wrestling",
-      "events": 3,
+      "events": 2,
       "date_range": [
         "2026-11-10",
-        "2026-11-14"
+        "2026-11-11"
       ],
-      "explicit_status": 3,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
       "both_logos": 0,
       "logo_coverage_pct": 0,
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "mlb",
+      "date": "2026-11-13",
+      "error": "URLError for https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=2026-11-13: <urlopen error timed out>"
+    },
+    {
+      "source": "tvmaze:wwe",
+      "date": "2026-11-13",
+      "error": "URLError for https://api.tvmaze.com/shows/802: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "tvmaze:tna",
+      "date": "2026-11-09",
+      "error": "URLError for https://api.tvmaze.com/shows/1349: <urlopen error [Errno 101] Network is unreachable>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
