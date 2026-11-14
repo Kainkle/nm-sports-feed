@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T03:36:09.525854+00:00",
+  "generated_utc": "2026-11-14T03:46:18.090745+00:00",
   "events": [
     {
       "event_id": "nhl:2026020293",
@@ -2701,7 +2701,7 @@
       "competition_id": "wwe",
       "competition_name": "WWE",
       "start_utc": "2026-11-14T01:00:00Z",
-      "status": "unknown",
+      "status": "final",
       "home": {
         "id": "tvmaze:803",
         "name": "WWE Friday Night SmackDown",
@@ -2737,7 +2737,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-14T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:14",
         "name": "Miami Heat",
@@ -2767,9 +2767,9 @@
         "color": "860038"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Kaseya Center",
-      "detail": "1:10 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2815,7 +2815,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "United Center",
-      "detail": "3:05 - OT",
+      "detail": "7.4 - OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2829,7 +2829,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-14T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:3",
         "name": "New Orleans Pelicans",
@@ -2859,9 +2859,9 @@
         "color": "5d76a9"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Smoothie King Center",
-      "detail": "44.1 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3046,7 +3046,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "10:40 - 4th Quarter",
+      "detail": "6:55 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3137,7 +3137,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rose Bowl",
-      "detail": "0:35 - 2nd Quarter",
+      "detail": "0:12 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3183,7 +3183,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Neville Arena",
-      "detail": "12:58 - 2nd Half",
+      "detail": "9:38 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3229,7 +3229,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Coleman Coliseum",
-      "detail": "11:39 - 2nd Half",
+      "detail": "8:08 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3275,7 +3275,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Frost Bank Center",
-      "detail": "6:21 - 2nd Quarter",
+      "detail": "2:29 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3367,7 +3367,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Golden 1 Center",
-      "detail": "16.6 - 1st Quarter",
+      "detail": "10:15 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3413,7 +3413,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Folsom Field",
-      "detail": "7:50 - 1st Quarter",
+      "detail": "5:35 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3427,7 +3427,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-14T03:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:12",
         "name": "LA Clippers",
@@ -3457,9 +3457,9 @@
         "color": "007ac1"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Intuit Dome",
-      "detail": "Fri, November 13th at 10:30 PM EST",
+      "detail": "9:05 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4620,51 +4620,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856858",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:252",
-        "name": "BYU Cougars",
-        "abbrev": "BYU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-        "logo_dark": null,
-        "aliases": [
-          "BYU",
-          "BYU Cougars",
-          "Cougars"
-        ],
-        "color": "0047ba"
-      },
-      "away": {
-        "id": "espn:239",
-        "name": "Baylor Bears",
-        "abbrev": "BAY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-        "logo_dark": null,
-        "aliases": [
-          "BAY",
-          "Baylor",
-          "Baylor Bears",
-          "Bears"
-        ],
-        "color": "154734"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "LaVell Edwards Stadium",
-      "detail": "Sat, November 14th at 3:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858523",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4702,52 +4657,6 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Autzen Stadium",
-      "detail": "Sat, November 14th at 3:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856857",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2116",
-        "name": "UCF Knights",
-        "abbrev": "UCF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knights",
-          "UCF",
-          "UCF Knights"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "Arizona State Sun Devils",
-        "abbrev": "ASU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-        "logo_dark": null,
-        "aliases": [
-          "ASU",
-          "Arizona St",
-          "Arizona State",
-          "Arizona State Sun Devils",
-          "Sun Devils"
-        ],
-        "color": "ffc627"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Acrisure Bounce House",
       "detail": "Sat, November 14th at 3:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4840,7 +4749,7 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "H. A. Chapman Stadium",
-      "detail": "Sat, November 14th at 3:30 PM EST",
+      "detail": "Sat, November 14th at 8:15 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5029,6 +4938,98 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Williams Stadium (VA)",
+      "detail": "Sat, November 14th at 3:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856861",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T20:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:277",
+        "name": "West Virginia Mountaineers",
+        "abbrev": "WVU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mountaineers",
+          "WVU",
+          "West Virginia",
+          "West Virginia Mountaineers"
+        ],
+        "color": "eaaa00"
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Milan Puskar Stadium",
+      "detail": "Sat, November 14th at 3:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856857",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T20:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2116",
+        "name": "UCF Knights",
+        "abbrev": "UCF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knights",
+          "UCF",
+          "UCF Knights"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:9",
+        "name": "Arizona State Sun Devils",
+        "abbrev": "ASU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+        "logo_dark": null,
+        "aliases": [
+          "ASU",
+          "Arizona St",
+          "Arizona State",
+          "Arizona State Sun Devils",
+          "Sun Devils"
+        ],
+        "color": "ffc627"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Acrisure Bounce House",
       "detail": "Sat, November 14th at 3:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5355,52 +5356,6 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": "UFC 334: Gane vs. Hokit"
-    },
-    {
-      "event_id": "espn:football:401856861",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T22:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:277",
-        "name": "West Virginia Mountaineers",
-        "abbrev": "WVU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mountaineers",
-          "WVU",
-          "West Virginia",
-          "West Virginia Mountaineers"
-        ],
-        "color": "eaaa00"
-      },
-      "away": {
-        "id": "espn:2305",
-        "name": "Kansas Jayhawks",
-        "abbrev": "KU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jayhawks",
-          "KU",
-          "Kansas",
-          "Kansas Jayhawks"
-        ],
-        "color": "0051ba"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Milan Puskar Stadium",
-      "detail": "Sat, November 14th at 5:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
     },
     {
       "event_id": "espn:football:401860914",
@@ -5948,6 +5903,51 @@
       "source": "espn:basketball/nba",
       "source_status": "pre/Scheduled",
       "venue": "Smoothie King Center",
+      "detail": "Sat, November 14th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856858",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-15T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:252",
+        "name": "BYU Cougars",
+        "abbrev": "BYU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+        "logo_dark": null,
+        "aliases": [
+          "BYU",
+          "BYU Cougars",
+          "Cougars"
+        ],
+        "color": "0047ba"
+      },
+      "away": {
+        "id": "espn:239",
+        "name": "Baylor Bears",
+        "abbrev": "BAY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAY",
+          "Baylor",
+          "Baylor Bears",
+          "Bears"
+        ],
+        "color": "154734"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "LaVell Edwards Stadium",
       "detail": "Sat, November 14th at 7:00 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
@@ -10829,18 +10829,18 @@
       "body": ""
     },
     {
-      "story_id": "50475709",
-      "headline": "Australia's vital cog locked in for final Cup conflict",
-      "summary": "Australia captain Isaah Yeo says he won't be around for the 2030 World Cup and reveals why the Kangaroos are ready to fire against NZ in this year's final.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_RLWC_Highlight_Walshs_sensational_hat_trick_lifts_Australia_to_RLWC_final_20261109_AUS_ONLY/dm_261108_RLWC_Highlight_Walshs_sensational_hat_trick_lifts_Australia_to_RLWC_final_20261109_AUS_ONLY.jpg",
+      "story_id": "50171231",
+      "headline": "2026 Rugby League World Cup fixtures, scores, table, squads",
+      "summary": "The 2026 Rugby League Cup in underway in Australia, Papua New Guinea and New Zealand.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_RLWC_Highlight_Reece_Walsh_stars_as_Kangaroos_smash_Cook_Islands_2026111_AUS_ONLY/dm_261031_RLWC_Highlight_Reece_Walsh_stars_as_Kangaroos_smash_Cook_Islands_2026111_AUS_ONLY.jpg",
       "published_utc": "",
       "competition_id": "rugby-league",
       "competition_name": "Rugby League",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nrl/story/_/id/50475709/rlwc-australia-isaah-yeo-locked-final-cup-conflict",
+      "link": "https://www.espn.com/nrl/story/_/id/50171231/2026-rugby-league-world-cup-fixtures-scores-table-squads",
       "stream_url": "",
-      "body": "Isaah Yeo is the vital engine room cog who ensures Australia's spine fires and ahead of the World Cup final against New Zealand the Kangaroos skipper says it is well oiled and ready to ignite.\n\nThe 32-year-old lock forward is the link man at Penrith, where he has played alongside the likes of fullback Dylan Edwards and half Nathan Cleary for the entire decade.\n\nThe starting Australia spine of Reece Walsh, Cameron Munster, Tom Dearden and Harry Grant will play together with Yeo for just the third time this tournament in the final at Suncorp Stadium on Sunday.\n\nIn the 66-6 win over Cook Islands they showed promise, but the 44-12 semi-final win over Samoa was a giant leap forward with Munster and Dearden running the ball, Grant scheming and Walsh adding the magic touches.\n\nYeo was the guiding light at No.13 with his forays into the defensive line and elite passing game.\n\n\"At Penrith we've played over 150 or 200 games together, so it just happens, but in this instance, you front-load that connection,\" Yeo said when asked about his combination with the spine.\n\n\"You try to figure out what each other's strengths are and play off the back of that.\n\n\"I'm incredibly lucky to be in this environment and everyone's world-class, so I still pinch myself in that regard. I feel like our combination's grown as the campaign's gone on and hopefully we keep improving.\"\n\nThe Kangaroos haven't lost a Test match since the 2023 Pacific Championships final, when the Kiwis sprung a shock 30-0 win.\n\nYeo was in that team, but says revenge isn't driving him on Sunday.\n\n\"I certainly didn't like it at the time, but there's been a lot happen since then,\" Yeo said.\n\n\"This is a totally different group, with new coaching staff as well. It certainly wasn't a highlight, but I think we learnt lessons from that.\n\n\"The year after we won the Pacific Championships. Then we went and won the Ashes after that.\"\n\nAustralia were rusty at the start of this tournament, but Yeo has said several times that learning lessons while still winning has been the key.\n\n\"We've improved as the campaign has gone on. You obviously become more connected as a group. You go into video and narrow down what you think your real strengths are as a team and I feel like we've done that,\" he said.\n\n\"From the first game, we've had little areas that we've wanted to improve. I thought we put most of it together against Samoa last week, but ultimately we're still chasing our best performance and we look forward to that challenge.\"\n\nYeo won't leave anything in the tank, realising that this will be his last World Cup.\n\n\"I think it certainly will be. I'll be 36 or 37 (by 2030), so I highly doubt it, but I just stay in the present,\" Yeo added.\n\n\"I'm incredibly grateful to be in this position and understand the honour it is to captain your country. It's certainly not lost on me, but I'm certainly enjoying the ride at the moment.\""
+      "body": "The 2026 Rugby League Cup kicks off in Sydney with the Kangaroos facing the Kiwis of New Zealand, in what could well be an early preview of the final.\n\nWith the continuing growth of International Rugby League and the improving strength of the island nations, each World Cup throws up a tougher challenge.\n\nThis year, with the men's, women's and wheelchair competitions to be played across Australia and Papua New Guinea, Australia's long standing rugby league dominance is under serious threat.\n\nMEN'S\nGroup Games\nWeek 1\n\nAustralia 24 def. New Zealand 22\nSamoa 78 def. France 4\n\nPapua New Guinea 42 def. Lebanon 18\n\nEngland 12 def. by Tonga 30\n\nFiji 40 def. Cook Islands 12\n\nWeek 2\n\nTonga 36 def. Lebanon 0\n\nPapua New Guinea 6 def. by Samoa 64\n\nEngland 82 def. France 0\n\nNew Zealand 82 def. Cook Islands 16\n\nAustralia 36 def. Fiji 22\n\nWeek 3\n\nEngland 34 def. Papua New Guinea 12\n\nNew Zealand 78 def. Fiji 0\n\nAustralia 66 def. Cook Islands 6\n\nLebanon 24 def. France 20\n\nTonga 20 def. Samoa 18\n\nSemifinals\n\nNew Zealand 34 def. Tonga 10\n\nAustralia 44 def. Samoa 12\n\nFinal\n\nSun Nov 15, 7:35pm - TBC v TBC - Suncorp Stadium, Brisbane\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Kevin Walters\n\nBradman Best (Knights), Jack Bostock (Dolphins), Blayke Brailey (Sharks), Pat Carrigan (Broncos), Reuben Cotter, Tom Dearden (Cowboys), Tino Fa'asuamaleaui (Titans), David Fifita, Keaon Koloamatangi, Latrell Mitchell, Cameron Murray (Rabbitohs), Harry Grant, Cameron Munster (Storm), Liam Martin, Lindsay Smith, Isaah Yeo (Panthers), Mitchell Moses (Eels), Jacob Preston (Bulldogs), Kotoni Staggs, Reece Walsh (Broncos), James Tedesco, Sam Walker (Roosters), Tom Trbojevic (Sea Eagles)\n\nCook Islands\n\nCoach: Karmichael Hunt\n\nCameron Brown (Brisbane Tigers), Rhys Dakin (Roosters), Glassie Glassie (Tigers), Valentine Holmes (Dragons), Esom Ioka (Brisbane Tigers), KL Iro (Sharks), Chaev Kolone (Raiders), Makahesi Makatoa (Roosters), Esan Marsters (Bradford Bulls), Amare Milford (Storm), Davvy Moale (Storm), K-CI Newton-Whare (Storm), Rua Ngatikaura (North Sydney Bears), Marata Niukore (Warriors), Pride Petterson-Robati (Souths Logan Magpies), Reuben Porter (Dragons), Reubenn Rennie (Toulouse Olympique), Brad Takairangi (Glebe Dirty Reds), Mason Teague (Wakefield Trinity), David Tuariki (Storm), Paul Ulberg (Toulouse Olympique), Delahia Wigmore (Panthers), Maui Winitana-Patelesio (Warriors)\n\nEngland\n\nCoach: Brian McDermott\n\nMatty Ashton (Warrington Wolves), AJ Brimson (Titans), Ben Currie (Warrington Wolves), Zach Eckersley (Wigan Warriors), Herbie Farnworth (Dolphins), Ethan Havard (Wigan Warriors), Max King (Bulldogs), Morgan Knowles (Dolphins), Mikey Lewis (Hull KR), Jez Litten (Hull KR), Junior Nsemba (Wigan Warriors), Brad O'Neill (Wigan Warriors), Kai Pearce-Paul (Tigers), Victor Radley (Roosters), Hugo Savala (Roosters), Harry Smith (Wigan Warriors), Morgan Smithies (Raiders), Ben Talty (Broncos), Luke Thompson (Wigan Warriors), Sam Walters (Wigan Warriors), Jack Welsby (St Helens), George Williams (Warrington Wolves), Dom Young (Knights)\n\nFiji\n\nCoach: Mick Potter\n\nBayleigh Bentley-Hape (Rabbitohs), Waqa Blake (St Helens), Kurt Donoghoe (Dolphins), Apenisa Driti (Northern Pride), Kitione Kautoga (Bulldogs), Elijah Keung (Bulldogs), Apisai Koroisau (Tigers), Josese Lanyon (Tigers), Jordan Leiu (Bulldogs), Joseph Litidamu (Fiji Bati), Kylan Mafoa (Sea Eagles), Taane Milne (Rabbitohs), Caleb Navale (Sea Eagles), Jimmy Ngutlik (Western Suburbs Magpies), Ronald Philitoga (North Sydney Bears), Mitchell Prest (Mackay Cutters), Emosi Ravosai (Kaiviti Silktails), Jacob Saifiti (Knights), Solomone Saukuru (Tigers), Sunia Turuva (Tigers), Semi Valemei (Castleford Tigers), Brandon Wakeham (Sea Eagles), Jordan Miller (Tigers)\n\nFrance\n\nCoach: Laurent Frayssinous\n\nGuillermo Aispuro-Bichet (Catalans Dragons), L\u00e9o Darr\u00e9latour (Catalans Dragons), Julian Bousquet (Catalans Dragons), Romain Navarrete (Catalans Dragons), Benjamin Garcia (Catalans Dragons), Alrix Da Costa (Catalans Dragons), Benjamin Laguerre (Toulouse Olympique), C\u00e9sar Roug\u00e9 (Toulouse Olympique), Thomas Lacans (Toulouse Olympique), Lambert Belmas (Toulouse Olympique), Tiaki Chan (Toulouse Olympique), Louis Grossemy (Toulouse Olympique), Mathieu Jussaume (Toulouse Olympique), Rom\u00e9o Tropis (Toulouse Olympique), Amir Bourouh (Hull FC), Arthur Romano (Hull FC), Arthur Mourgue (Hull KR), Jordan Dezaria (Hull KR), Mathieu Cozza (Huddersfield), Joe Drodrolagi (AS Carcassonne), Th\u00e9o Fages (Pia Donkeys), Fouad Yaha (Albi), Latrell Siegwalt (Rabbitohs)\n\nLebanon\n\nCoach: Michael Cheika\n\nMohamed Alameddine (Eels), Yehya Ayache (Rabbitohs), Jalal Bazzaz (Shellharbour Stingrays), Alex Conti (Bulldogs), Moustafa Dirani (St Marys Saints), Ibrahim El Labban (Wentworthville Magpies), Tony Francis (Titans), Tupou Francis (Broncos), Michael Gabrael (Sharks), Mikael Ibrahim (Titans), Jacob Kiraz (Bulldogs), Abbas Miski (Wigan Warriors), Brandon Morkos (Dragons), Joseph Nohra (Eels), Jaxson Rahme (Roosters), Khalil Rahme (Newtown Jets), Khaled Rajab (Newtown Jets), James Roumanos (Toulouse Olympique), Jason Saab (Sea Eagles), Jordan Samrani (Eels), Tanous Sukkar (Tigers), Charbel Tasipale (Newtown Jets), Alex Twal (Tigers)\n\nNew Zealand\n\nCoach: Stacey Jones\n\nErin Clark (Warriors), James Fisher-Harris (Warriors), Dane Gagai (Knights), Jahrome Hughes (Storm), Jamayne Isaako (Dolphins), Keano Kini (Titans), Jacob Laban (Warriors), Moses Leota (Panthers), Jeremy Marshall-King (Dolphins), Te Maire Martin (Warriors), Casey McLean (Panthers), Ronaldo Mulitalo (Sharks), Charnze Nicoll-Klokstad (Warriors), Briton Nikora (Sharks), Kodi Nikorima (Dolphins), Isaiah Papali'i (Panthers), Kalyn Ponga (Knights), Scott Sorensen (Panthers), Tanner Stowers-Smith (Warriors), Joseph Tapine (Raiders), Leo Thompson (Bulldogs), Naufahu Whyte (Roosters), Xavier Willison (Broncos)\n\nPapua New Guinea\n\nCoach: Jason Demetriou\n\nJack de Belin (Eels), Robert Derby (Cowboys), Dudley Dotoi (Townsville Blackhawks), Josh Feledy (Sea Eagles), Finley Glare (London Broncos), Liam Horne (Leigh Leopards), Edwin Ipape (Leigh Leopards), Zev John (Central Queensland Capras), Epel Kapinias (London Broncos), Bailey Biondi-Odo (Townsville Blackhawks), Zac Laybutt (Cowboys), Nene Macdonald (St Helens Saints), Rhyse Martin (Hull KR), Robert Mathias (London Broncos), Morea Morea Jnr (London Broncos), Luca Moretti (Eels), Sylvester Namo (Brisbane Tigers), Nixon Putt (Central Queensland Capras), Rodrick Tai (Central Queensland Capras), Valentine Richard (PNG Hunters), Gairo Voro (London Broncos), Sanny Wabo (PNG Hunters), Khaiya Waiembi (PNG Hunters)\n\nSamoa\n\nCoach: Ben Gardiner\n\nShawn Blore, Anae Ulesese (Storm), Stephen Crichton (Bulldogs), Sua Fa'alogo (Storm), Clayton Faulalo (Sea Eagles), Chanel Harris-Tavita (Warriors), Benaiah Ioelu (Roosters), Connelly Lemuelu (Dolphins), Spencer Leniu (Roosters), Jarome Luai (Tigers), Francis Manuleleua (Knights), Deine Mariner (Broncos), Ata Mariota (Raiders), Greg Marzhew (Knights), Jermaine McEwen (Knights), Francis Molo (Dolphins), Junior Paulo (Eels), Pasami Saulo (Knights), Hamiso Tabuai-Fidow (Dolphins), Izack Tago (Panthers), Jazz Tevaga (Wakefield Trinity), Brian To'o (Panthers), Enari Tuala (Bulldogs), Ronald Volkman (Eels)\n\nTonga\n\nCoach: Kristian Woolf\n\nAddin Fonua-Blake (Sharks), Dallin Watene-Zelezniak (Warriors), Demitric Vaimauga (Warriors), Haumole Olakau'atu (Sea Eagles), Isaiya Katoa (Dolphins), Jason Taumalolo (Cowboys), Jojo Fifita (Titans), Junior Amone (Wynnum Manly Seagulls), Kulikefu Finefeuiaki (Dolphins), Latu Fainu (Tigers), Lehi Hopoate (Sea Eagles), Leka Halasima (Warriors), Paul Alamoti (Panthers), Robert To'ia (Roosters), Salesi Foketi (Roosters), Sione Katoa (Sharks), Siua Wong (Roosters), Soni Luke (Cowboys), Stefano Utoikamanu (Storm), Taniela Paseka (Sea Eagles), Tolutau Koula (Sea Eagles), Tuimoala Lolohea (Huddersfield Giants), Tyson Frizell (Knights)\n\nWomen's\n\nPools\nGroup A: Australia, England, Samoa, Wales\n\nGroup B: New Zealand, Papua New Guinea, France, Fiji\n\nGROUP GAMES\nWeek 1\n\nAustralia 40 def. Samoa 0\n\nPapua New Guinea 58 def. France 4\n\nEngland 70 def. Wales 6\n\nNew Zealand 18 def. Fiji 12\n\nWeek 2\n\nSamoa 76 def. Wales 0\n\nFiji 40 def. Papua New Guinea 4\n\nAustralia 78 def. England 0\n\nNew Zealand 92 def. France 0\n\nWeek 3\n\nEngland 6 def. by Samoa 24\n\nFiji 54 def. France 6\n\nNew Zealand 40 def. Papua New Guinea 12\n\nAustralia 124 def. Wales 6\n\nSemifinals\n\nNew Zealand 32 def. Samoa 0\n\nAustralia 30 def. Fiji 16\n\nFinals\n\nSun Nov 15, 4:10pm - TBC v TBC - Suncorp Stadium\n\nTABLE\n\nSQUADS\nAustralia\n\nCoach: Jess Skinner\n\nTarryn Aiken, Kezie Apps, Shaylee Bent, Jaime Chapman, Abbi Church, Quincy Dodd, Millie Elliott, Olivia Higgins, Ellie Johnston, Keilee Joseph, Jocelyn Kelleher, Isabelle Kelly, Olivia Kernick, Keeley Nizza, Sariah Paki, Tiana Penitani Gray, Julia Robinson, Jessica Sergis, Jesse Southwell, Simaima Taufa, Sarah Togatuki, Tamika Upton, Makenzie Weale.\n\nEngland\n\nCoach: Stuart Barrow\n\nKeara Bennett, Connie Boyd, Amelia Brown, Ruby Bruce, Mary Coleman, Evie Cousins, Jodie Cunningham, Anna Davies, Hollie-Mae Dodd, Jenna Foubister, Fran Goldthorp, Eva Hunter, Molly Jones, Hope Millard, Lucy Murray, Georgia Roche, Isabel Rowe, Lucie Sams, Jasmin Strange, Vicky Whitfield, Megan Williams, Georgia Wilson, Liv Wood.\nSamoa\n\nCoach: Frank Pritchard\n\nAmber Hall, Annetta Nu'uausala, Christabelle Onesemo-Tuilaepa, Christian Pio, Evania Isa'ako, Evelyn Roberts, Fanua Rimoni, Freedom Crichton Ropati, Ivana Lolesio, Jaydika Tafua, Jetaya Faifua, Laikha Clarke, Leilani Wilson, Mary-Jane Taito, Mercedez Taulelei-Siala, Monica Tagoai, Pauline Piliae-Rasabale, Sarina Masaga, Taliah Fuimaono, Tavarna Papalii, Tyra Ekepati.\nWales\n\nCoach: Tom Brindle\n\nHannah Bluck, Hollie Brussels, Leanne Burnell, Katie Carr, Georgia Cussions, Bethan Dainton, Lucia Davies, Jasmine Gibbons, Zoe Heeley, Gracie Hobbs, Emily Hughes, Frances Layton, Ffion Lewis, Carys Marsh, Dani McGifford, Jade Mullen, Tayla Preston, Amberley Ruck, Kathryn Salter, Paige Travis, Erin Williams, Si\u00e2n Williams, Agnes Wood.\nFiji\n\nCoach: Jone Wesele\n\nLeilani Ahsam, Teaghan Hartigan, Talei Holmes, Lorren Ieli, Tamika Jones, Ebony Laing, Sienna Laing, Losana Lutu, Tahlia Marshall, Ema Masi, Rory Muller, Sereana Naitokatoka, Taina Naividi, Elizabeth Naleba, Aliti Namoce, Maria Paseka, Abigayle Sekitoga, Latisha Smythe, Cassie Staples, Naomi Tegu, Nanise Vakacavu, Isabella Waterman, Luisa Yaranamua.\nFrance\n\nCoach: Alan Walsh\n\nElisa Akpa, Tessa Benmalek, Le\u00efla Bessahli, Stecy Bessiere, Camille Boudaud, Margot Canal, Lisa Diraison, Tallis Eranossian, Chahrazad Himoudi, Haoua Kessely, M\u00e9lissa Medina, Perrine Monsarrat, \u00c9lodie Pacull, Perle Ramazeilles, Fanny Ramos, Justine Roses, Manon Samarra, No\u00e9mie Samuel, Salom\u00e9 S\u00e9gala, Cristina Song-Puche, Louisa Tooman, Sarah-Louise Vernay, Ama\u00ebl Vilanove.\nNew Zealand\n\nCoach: Ricky Henry\n\nBrooke Anderson, Kaiyah Atai, Annessa Biddle, Brianna Clark, Georgia Hale, Mele Hufanga, Chantay Kiria-Ratu, Ivana Lauitiiti, Shannon Mato, Raecene McGregor, Shaniece Monschau, Apii Nicholls, Shanice Parker, Otesa Pule, Ashleigh Quinlan, Abigail Roache, Alexis Tauaneai, Trinity Tauaneai, Angelina Teakaraanga-Katoa, Zahara Temara, Leianne Tufuga, Stacey Waaka, Tenika Willison.\nPapua New Guinea\n\nCoach: Craig Sandercock\n\nTherese Aiton, Elsie Albert, Essay Banu, Anika Butler, Jenny David, Fleur Ginn, Belinda Gwasamun, Josephine Howard, Jasmine Joe, Naomi Kelly, Shellie Long, Mala Mark, Tia Molo, Mya Muller, Venessa Nakas, Cynthiah Peters, Ua Ravu, Jafinda Sap, Gemma Schnaubelt, India Seeto, Emily Veivers, Ivania Wong, Relna Wuruki-Hosea."
     }
   ],
   "shows": [
