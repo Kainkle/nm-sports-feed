@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T03:46:18.090745+00:00",
+  "generated_utc": "2026-11-14T03:56:29.448208+00:00",
   "events": [
     {
       "event_id": "nhl:2026020293",
@@ -2783,7 +2783,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-14T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:4",
         "name": "Chicago Bulls",
@@ -2813,9 +2813,9 @@
         "color": "c8102e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "United Center",
-      "detail": "7.4 - OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3046,7 +3046,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "6:55 - 4th Quarter",
+      "detail": "4:04 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3135,9 +3135,9 @@
         "color": "ff5f05"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Rose Bowl",
-      "detail": "0:12 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3183,7 +3183,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Neville Arena",
-      "detail": "9:38 - 2nd Half",
+      "detail": "7:12 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3229,7 +3229,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Coleman Coliseum",
-      "detail": "8:08 - 2nd Half",
+      "detail": "3:58 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3273,9 +3273,9 @@
         "color": "fdb927"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Frost Bank Center",
-      "detail": "2:29 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3367,7 +3367,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Golden 1 Center",
-      "detail": "10:15 - 2nd Quarter",
+      "detail": "6:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3413,7 +3413,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Folsom Field",
-      "detail": "5:35 - 1st Quarter",
+      "detail": "15:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3459,7 +3459,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Intuit Dome",
-      "detail": "9:05 - 1st Quarter",
+      "detail": "4:46 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4712,52 +4712,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401862826",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:202",
-        "name": "Tulsa Golden Hurricane",
-        "abbrev": "TLSA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Hurricane",
-          "TLSA",
-          "Tulsa",
-          "Tulsa Golden Hurricane"
-        ],
-        "color": "003595"
-      },
-      "away": {
-        "id": "espn:2226",
-        "name": "Florida Atlantic Owls",
-        "abbrev": "FAU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
-        "logo_dark": null,
-        "aliases": [
-          "FAU",
-          "Florida Atlantic",
-          "Florida Atlantic Owls",
-          "Owls"
-        ],
-        "color": "003366"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "H. A. Chapman Stadium",
-      "detail": "Sat, November 14th at 8:15 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401864536",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4984,52 +4938,6 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Milan Puskar Stadium",
-      "detail": "Sat, November 14th at 3:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856857",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2116",
-        "name": "UCF Knights",
-        "abbrev": "UCF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knights",
-          "UCF",
-          "UCF Knights"
-        ],
-        "color": "000000"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "Arizona State Sun Devils",
-        "abbrev": "ASU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
-        "logo_dark": null,
-        "aliases": [
-          "ASU",
-          "Arizona St",
-          "Arizona State",
-          "Arizona State Sun Devils",
-          "Sun Devils"
-        ],
-        "color": "ffc627"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Acrisure Bounce House",
       "detail": "Sat, November 14th at 3:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5356,6 +5264,52 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": "UFC 334: Gane vs. Hokit"
+    },
+    {
+      "event_id": "espn:football:401856857",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T22:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2116",
+        "name": "UCF Knights",
+        "abbrev": "UCF",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knights",
+          "UCF",
+          "UCF Knights"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:9",
+        "name": "Arizona State Sun Devils",
+        "abbrev": "ASU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+        "logo_dark": null,
+        "aliases": [
+          "ASU",
+          "Arizona St",
+          "Arizona State",
+          "Arizona State Sun Devils",
+          "Sun Devils"
+        ],
+        "color": "ffc627"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Acrisure Bounce House",
+      "detail": "Sat, November 14th at 5:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     },
     {
       "event_id": "espn:football:401860914",
@@ -6188,52 +6142,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401856864",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-15T00:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:12",
-        "name": "Arizona Wildcats",
-        "abbrev": "ARIZ",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARIZ",
-          "Arizona",
-          "Arizona Wildcats",
-          "Wildcats"
-        ],
-        "color": "cc0033"
-      },
-      "away": {
-        "id": "espn:254",
-        "name": "Utah Utes",
-        "abbrev": "UTAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
-        "logo_dark": null,
-        "aliases": [
-          "UTAH",
-          "Utah",
-          "Utah Utes",
-          "Utes"
-        ],
-        "color": "be0000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Casino Del Sol Stadium",
-      "detail": "Sat, November 14th at 7:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856885",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6682,6 +6590,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401862826",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-15T01:15Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:202",
+        "name": "Tulsa Golden Hurricane",
+        "abbrev": "TLSA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Hurricane",
+          "TLSA",
+          "Tulsa",
+          "Tulsa Golden Hurricane"
+        ],
+        "color": "003595"
+      },
+      "away": {
+        "id": "espn:2226",
+        "name": "Florida Atlantic Owls",
+        "abbrev": "FAU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+        "logo_dark": null,
+        "aliases": [
+          "FAU",
+          "Florida Atlantic",
+          "Florida Atlantic Owls",
+          "Owls"
+        ],
+        "color": "003366"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "H. A. Chapman Stadium",
+      "detail": "Sat, November 14th at 8:15 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020323",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -6996,6 +6950,52 @@
       "source_status": "pre/Scheduled",
       "venue": "Sun Bowl",
       "detail": "Sat, November 14th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401856864",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-15T03:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:12",
+        "name": "Arizona Wildcats",
+        "abbrev": "ARIZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARIZ",
+          "Arizona",
+          "Arizona Wildcats",
+          "Wildcats"
+        ],
+        "color": "cc0033"
+      },
+      "away": {
+        "id": "espn:254",
+        "name": "Utah Utes",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+        "logo_dark": null,
+        "aliases": [
+          "UTAH",
+          "Utah",
+          "Utah Utes",
+          "Utes"
+        ],
+        "color": "be0000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Casino Del Sol Stadium",
+      "detail": "Sat, November 14th at 7:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10507,18 +10507,32 @@
   ],
   "stories": [
     {
-      "story_id": "50476842",
-      "headline": "New York Knicks vs. Indiana Pacers: Game Highlights",
-      "summary": "New York Knicks vs. Indiana Pacers: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/e0a82d9c-465b-478d-b2f0-ea98f50ef58c/e0a82d9c-465b-478d-b2f0-ea98f50ef58c.jpg",
-      "published_utc": "2026-11-14T03:21:02Z",
+      "story_id": "50475169",
+      "headline": "FAA ground stop throws sports world into travel chaos ahead of weekend games",
+      "summary": "Travel plans for multiple college football teams have been disrupted by the FAA's nationwide ground stop of all flights because of communications problems.",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745477_1296x729_16-9.jpg",
+      "published_utc": "2026-11-14T03:51:49Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/college-football/story/_/id/50475169/faa-ground-stop-disrupting-travel-college-football-teams",
+      "stream_url": "",
+      "body": "The Federal Aviation Administration's decision to ground all flights nationwide for several hours Friday threw the sports world into chaos, leaving NBA, NHL and college teams scrambling to reach their destinations in time for games this weekend.\n\nThe ground stop lasted more than four hours before the FAA announced Friday evening that airplane departures could resume.\n\nTransportation officials cited \"extraordinary circumstances\" caused by communications issues at regional air traffic control centers for the stoppage. It left some professional sports teams searching for hotel rooms, college teams were left to reschedule flights, and some teams had even taken the extraordinary step of chartering buses rather than waiting for the ground stop to end.\n\nMost college football teams playing Saturday travel the day before their game, and the stoppage left many schools -- including No. 2 Utah, eighth-ranked Texas and No. 9 Tennessee -- at a standstill as they departed for road games. The Utes play at No. 22 Arizona, the Longhorns visit No. 24 LSU and the Vols are traveling to Texas A&M in three of the bigger games of the weekend.\n\nTexas and Tennessee both returned to their campuses during the ground stoppage. Once it was lifted following more than four hours of uncertainty, the schools began making plans to fly out as soon as possible, allowing them to arrive before game day.\n\nAuburn opted to take buses to Mississippi State, and the SEC announced late Friday that the start time for the teams' game would move from noon ET to 4:15 p.m.\n\nNo. 19 Ole Miss announced it would not travel Friday night to Oklahoma and was still assessing options for Saturday's game.\n\nPurdue took buses from West Lafayette, Indiana, for its game at No. 15 Iowa.\n\nIn the Big 12, the kickoff time for Kansas at West Virginia was moved to 3:30 p.m. ET. Arizona State, which deplaned and headed home to rest during Friday's ground stop, planned to fly to Orlando, Florida, on Saturday. The Sun Devils' game against UCF Knights, originally scheduled to begin at 3:30 p.m. ET, was moved to 5:30 p.m. Baylor's game at No. 10 BYU was rescheduled to 7 p.m. ET, a source told ESPN.\n\nESPN also confirmed that Oregon State, which is scheduled to play at No. 24 Boise State on Saturday (6 p.m. ET), initially began traveling to Idaho by bus before heading back to the airport Friday evening. The Beavers planned to fly to Boise later Friday, a source told ESPN.\n\nOther teams from the Group of 6 conferences that were grounded include Wyoming (at UTEP) and Colorado State, whose players were shown holding a walk-through at Northern Colorado Regional Airport as they waited to depart to play Washington State. Tulane, which was scheduled to fly to Houston for its game against Rice on Saturday, was set to board five buses to make the 350-mile drive Friday night.\n\nOther schools affected by the stoppage included Washington, Kansas State and Minnesota.\n\nWashington spokesman Kurt Svoboda said the Huskies returned to campus when flights were grounded, but officials stayed in touch with their Alaska/Hawaiian Airlines partners and their flight crew remained in place. The Huskies planned to fly out late Friday.\n\nFlorida State was playing at Pittsburgh on Friday night, while Illinois was visiting fourth-ranked UCLA and No. 14 Houston was visiting Colorado. Those teams were hoping their charter flights home afterward would be unaffected by the upheaval.\n\nIt also was unclear whether any referees, who typically fly to their assignments the day before games, would have trouble making it to their games. The Big Ten said in a statement that all of its officials had arrived for their scheduled assignments Saturday.\n\nSeveral teams were able to take off before the stoppage began, including all of those traveling in the Atlantic Coast Conference; Missouri, which was flying to top-ranked Georgia; Duke, which was visiting fifth-ranked Miami; and No. 10 Texas Tech, which posted on social media images of its arrival for a game at Oklahoma State.\n\nNFL teams playing Sunday typically travel the day before their games, and they were expected to fly as planned on Saturday.\n\nMeanwhile, the Brooklyn Nets were among five NBA teams scheduled to fly Friday for games Saturday. They had just boarded the team plane in New Orleans after playing the Pelicans earlier this week when their flight to Memphis was halted in place.\n\nThe Detroit Pistons flew earlier in the day to Miami. The Cleveland Cavaliers, Chicago Bulls and Memphis Grizzlies played Friday night and were due to fly afterward.\n\nThe Cavaliers played in Miami on Friday night and were scheduled to play the Dallas Mavericks at home on Saturday. Cleveland coach Kenny Atkinson said about 90 minutes before tip-off that his team was scrambling to find hotel rooms for Friday night, just in case.\n\n\"It's part of it. You just adapt,\" Atkinson said.\n\nThere are 14 scheduled games in the NHL on Saturday. The Florida Panthers were among the majority that made it to their destinations before the stoppage began, but the Sharks were left waiting in San Jose to see whether they would be able to travel to Utah.\n\nJuJu Watkins and her third-ranked USC teammates were trying to get to South Carolina for their game Sunday against the top-ranked Gamecocks. The team had just boarded its flight at Los Angeles International Airport when the ground stop was issued. After a while, the decision was made to deboard passengers and the team returned to the Galen Center.\n\nIn soccer, the Utah Royals already were in the Washington, D.C., area ahead of their National Women's Soccer League semifinal against the Washington Spirit on Saturday. But the Kansas City Current were supposed to depart Friday for their semifinal against Gotham FC on Sunday in New York, and team officials were uncertain when their flight would be allowed to leave.\n\nThe U.S. national team's match against Haiti on Saturday in Miami was unaffected by the ground stop. Both teams and officials already were in town for the first leg of the two-match CONCACAF Nations League quarterfinal series.\n\nESPN's Mark Schlabach, Pete Thamel, Adam Rittenberg, Andrea Adelson and The Associated Press contributed to this report."
+    },
+    {
+      "story_id": "50477104",
+      "headline": "Adebayo, Antetokounmpo make Heat history, Miami tops Cleveland 133-121 in NBA Cup game",
+      "summary": "\u2014 Bam Adebayo finished with 37 points and 14 rebounds, Giannis Antetokiunmpo also scored 37 and the Miami Heat took control of East Group B by beating the Cleveland Cavaliers 133-121 in an NBA Cup game Tuesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909298.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-14T03:50:35Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50476842/game-highlights",
+      "link": "http://www.espn.com/nba/recap?gameId=401909298",
       "stream_url": "",
-      "body": ""
+      "body": "MIAMI -- \u2014 Bam Adebayo finished with 37 points and 14 rebounds, Giannis Antetokiunmpo also scored 37 and the Miami Heat took control of East Group B by beating the Cleveland Cavaliers 133-121 in an NBA Cup game Tuesday night.\n\n\r\nIt was the second time the Heat had two players score 37 in the same game: LeBron James and Dwyane Wade did it in 2013.\n\n\r\nDavion Mitchell had 22 points and a career-high-tying 17 assists for Miami, which won its third straight. Ryan Conwell added 20 off the bench for the Heat.\n\n\r\nDonovan Mitchell scored 25 points to lead Cleveland, which got 22 from Tyrese Proctor, 20 from James Harden, 16 from Jaylon Tyson and 12 from Meleek Thomas.\n\n\r\nMiami was without Klay Thompson (sprained ankle) and Pelle Larsson (illness).\n\n\r\nCleveland played without forward Evan Mobley, who sat out for the first time this season with a sprained left great toe. \"The MRI came back clean. Sprained, definitely sore, but we don't expect it to be a long-term thing at all,\u201d Cavaliers coach Kenny Atkinson said.\n\n\r\nWith the win, the Heat move to 2-0 and are now alone atop East Group B in the NBA Cup standings. They control their destiny now when it comes to making the knockout stage; a sweep of remaining group-stage games against Philadelphia and New York \u2014 both on the road \u2014 would get Miami into the quarterfinals. Even going 1-1 in those matchups would give the Heat a solid shot at a wild-card berth.\n\n\r\nCleveland falls to 1-1 in group play and will almost certainly need to win both of its remaining games \u2014 home against Indiana, then at New York \u2014 to have a shot at advancing. No team in NBA Cup history has made the knockout stage with less than a 3-1 record in group play.\n\n\r\nUp next\r\nCavaliers: Host Dallas on Saturday.\n\n\r\nHeat: Host Detroit on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50475505",
@@ -10605,20 +10619,6 @@
       "body": "Six members of Team Nurmagomedov have been sentenced to six months in prison following a brawl involving former UFC champion Merab Dvalishvili in an Abu Dhabi hotel.\n\nOn Wednesday at the host hotel of a Real American Fighting event, PFL lightweight champion Usman Nurmagomedov, the cousin of retired MMA legend Khabib Nurmagomedov, approached Dvalishvili from behind and slapped him, triggering a larger altercation between members of the two camps.\n\nPolice arrested and detained all parties. Dvalishvili was later released, according to RAF CEO Chad Bronstein.\n\nAccording to the Abu Dhabi Judicial Department, six members of Nurmagomedov's team were each sentenced to six months in prison, fined 300,000 AED (approximately $81,700) and ordered to be deported after serving their sentences. According to The National news outlet in the United Arab Emirates, Dvalishvili and a friend were fined 50,000 AED (approximately $13,600) for \"disturbing public security and assaulting others.\"\n\nTwo individuals who filmed the altercation also received six-month prison sentences, according to The National, for violating privacy laws by filming and publishing footage of the incident. The court confiscated their phones to delete footage.\n\nDvalishvili addressed the incident in a social media post Friday, confirming he was released and writing that he is \"good, healthy and ready to go.\" He added that he was hoping everyone involved in the altercation would be released.\n\nTensions have escalated between Dvalishvili and Team Nurmagomedov since Dvalishvili defeated Umar Nurmagomedov, Usman's older brother, in a UFC bantamweight title fight in January 2025. The two camps had another, smaller altercation at an RAF event in the nation of Georgia in July.\n\nUmar Nurmagomedov was scheduled to wrestle former UFC champion Urijah Faber at the RAF event Saturday but has been replaced by Dvalishvili's 21-year-old Georgian friend Saba Lazishvili, who was involved in the hotel brawl Wednesday. Dvalishvili will still compete in his scheduled bout against former UFC champion Marlon Moraes.\n\nUsman Nurmagomedov, 28, recently fought out his exclusive contract with the PFL, and there had been speculation around the possibility of the undefeated fighter signing with the UFC.\n\nUFC CEO Dana White commented on the brawl Thursday during a news conference in New York.\n\n\"What a bunch of f---ing idiots,\" White said. \"It's absolutely ridiculous and stupid, and they're all in jail. That is not a place to go f--- around.\""
     },
     {
-      "story_id": "49299647",
-      "headline": "Fantasy hockey rankings: Kochetkov rises to fifth, three Oilers lead overall",
-      "summary": "Pyotr Kochetkov rises, Connor McDavid is still the fantasy hockey rankings leader after his red-hot start.",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745335_1296x729_16-9.jpg",
-      "published_utc": "2026-11-13T18:12:00Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Sean Allen",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/hockey/story/_/id/49299647/espn-nhl-fantasy-hockey-rankings-forwards-defensemen-goalies-points-leagues",
-      "stream_url": "",
-      "body": "On Friday the 13th, the scariest mask in the league belongs to Pyotr Kochetkov. He climbs from No. 36 to No. 5 to become the top goalie in fantasy. Still, nothing is scarier than the Edmonton trio of Connor McDavid, Leon Draisaitl and Evan Bouchard, who hold the top three spots.\n\nThese rankings are based on expectations of fantasy points produced from Friday, Nov. 13, until the end of the season. Fantasy points are based on the ESPN.com standard game (for skaters: goals = 2 points, assists = 1 point, shots and hits = 0.1 points, blocked shots and special-teams points = 0.5 points; for goaltenders: wins = 4 points, OT losses = 1 point, shutouts = 3 points, saves = 0.2 points, goals against = -2 points).\n\nTop 250 players for 2026\n\n1. Connor McDavid, Edmonton Oilers, C1\n\n2. Leon Draisaitl, Edmonton Oilers, C2\n\n3. Evan Bouchard, Edmonton Oilers, D1\n\n4. Cutter Gauthier, Anaheim Ducks, LW1\n\n5. Pyotr Kochetkov, Carolina Hurricanes, G1\n\n6. Macklin Celebrini, San Jose Sharks, C3\n\n7. Nathan MacKinnon, Colorado Avalanche, C4\n\n8. Kyle Connor, Winnipeg Jets, LW2\n\n9. Jack Hughes, New Jersey Devils, C5\n\n10. Sebastian Aho, Carolina Hurricanes, C6\n\n11. Kirill Kaprizov, Minnesota Wild, LW3\n\n12. Auston Matthews, Toronto Maple Leafs, C7\n\n13. Nick Suzuki, Montreal Canadiens, C8\n\n14. Jake Oettinger, Dallas Stars, G2\n\n15. David Pastrnak, Boston Bruins, RW1\n\n16. Logan Cooley, Utah Mammoth, C9\n\n17. Nikita Kucherov, Tampa Bay Lightning, RW2\n\n18. Zach Werenski, Columbus Blue Jackets, D2\n\n19. Jason Robertson, Dallas Stars, LW4\n\n20. Matthew Schaefer, New York Islanders, D3\n\n21. Brandon Hagel, Tampa Bay Lightning, LW5\n\n22. Brady Tkachuk, Florida Panthers, LW6\n\n23. Moritz Seider, Detroit Red Wings, D4\n\n24. Connor Bedard, Chicago Blackhawks, C10\n\n25. Jacob Fowler, Montreal Canadiens, G3\n\n26. Leo Carlsson, Anaheim Ducks, C11\n\n27. Mikhail Sergachev, Utah Mammoth, D5\n\n28. Tage Thompson, Buffalo Sabres, C12\n\n29. Jackson LaCombe, Anaheim Ducks, D6\n\n30. Wyatt Johnston, Dallas Stars, C13\n\n31. Jack Eichel, Vegas Golden Knights, C14\n\n32. Cale Makar, Colorado Avalanche, D7\n\n33. Jake Sanderson, Ottawa Senators, D8\n\n34. Jake Guentzel, Tampa Bay Lightning, LW7\n\n35. Tim Stutzle, Ottawa Senators, C15\n\n36. Linus Ullmark, Ottawa Senators, G4\n\n37. Roman Josi, Nashville Predators, D9\n\n38. Filip Forsberg, Nashville Predators, LW8\n\n39. Cole Caufield, Montreal Canadiens, LW9\n\n40. Alex Tuch, Washington Capitals, RW3\n\n41. Adam Fox, New York Rangers, D10\n\n42. Beckett Sennecke, Anaheim Ducks, RW4\n\n43. Adrian Kempe, Los Angeles Kings, RW5\n\n44. Quinn Hughes, Minnesota Wild, D11\n\n45. Brandt Clarke, Los Angeles Kings, D12\n\n46. Steven Stamkos, Nashville Predators, C16\n\n47. Lane Hutson, Montreal Canadiens, D13\n\n48. Jakob Chychrun, Washington Capitals, D14\n\n49. Mark Scheifele, Winnipeg Jets, C17\n\n50. Ilya Sorokin, New York Islanders, G5\n\n51. Thomas Harley, Dallas Stars, D15\n\n52. Nick Schmaltz, Utah Mammoth, C18\n\n53. Mikko Rantanen, Dallas Stars, RW6\n\n54. Sam Reinhart, Florida Panthers, RW7\n\n55. Matt Boldy, Minnesota Wild, LW10\n\n56. Martin Necas, Colorado Avalanche, RW8\n\n57. Connor Hellebuyck, New Jersey Devils, G6\n\n58. Artturi Lehkonen, Colorado Avalanche, LW11\n\n59. Clayton Keller, Utah Mammoth, LW12\n\n60. Logan Stankoven, Carolina Hurricanes, C19\n\n61. Mark Stone, Vegas Golden Knights, RW9\n\n62. Dylan Holloway, St. Louis Blues, LW13\n\n63. Joel Hofer, St. Louis Blues, G7\n\n64. Elias Pettersson, Vancouver Canucks, C20\n\n65. Charlie McAvoy, Boston Bruins, D16\n\n66. Mackenzie Blackwood, Colorado Avalanche, G8\n\n67. Seth Jones, Florida Panthers, D17\n\n68. Seth Jarvis, Carolina Hurricanes, RW10\n\n69. Brock Boeser, Vancouver Canucks, RW11\n\n70. Jeremy Swayman, Boston Bruins, G9\n\n71. William Nylander, Toronto Maple Leafs, RW12\n\n72. Rasmus Dahlin, Buffalo Sabres, D18\n\n73. Juuse Saros, Nashville Predators, G10\n\n74. Alexis Lafreniere, New York Rangers, LW14\n\n75. Andrei Svechnikov, Carolina Hurricanes, LW15\n\n76. Mitch Marner, Vegas Golden Knights, RW13\n\n77. Andrei Vasilevskiy, Tampa Bay Lightning, G11\n\n78. Adam Fantilli, Columbus Blue Jackets, C21\n\n79. Travis Sanheim, Philadelphia Flyers, D19\n\n80. Nico Hischier, New Jersey Devils, C22\n\n81. Jesper Wallstedt, Minnesota Wild, G12\n\n82. Filip Hronek, Vancouver Canucks, D20\n\n83. Matthew Tkachuk, Florida Panthers, RW14\n\n84. Ryan O'Reilly, Nashville Predators, C23\n\n85. Jimmy Snuggerud, St. Louis Blues, RW15\n\n86. Cole Hutson, Washington Capitals, D21\n\n87. Juraj Slafkovsky, Montreal Canadiens, LW16\n\n88. Erik Karlsson, Pittsburgh Penguins, D22\n\n89. Thomas Chabot, Ottawa Senators, D23\n\n90. MacKenzie Weegar, Utah Mammoth, D24\n\n91. Alex Laferriere, Los Angeles Kings, RW16\n\n92. Bo Horvat, New York Islanders, C24\n\n93. Shane Pinto, Ottawa Senators, C25\n\n94. Mikael Granlund, Anaheim Ducks, C26\n\n95. Artemi Panarin, Los Angeles Kings, LW17\n\n96. Aleksander Barkov, Florida Panthers, C27\n\n97. Roope Hintz, Dallas Stars, C28\n\n98. Victor Eklund, New York Islanders, LW18\n\n99. Shayne Gostisbehere, Carolina Hurricanes, D25\n\n100. Jack Roslovic, Toronto Maple Leafs, C29\n\n101. Logan Thompson, Washington Capitals, G13\n\n102. Pavel Zacha, Boston Bruins, C30\n\n103. Joel Farabee, Calgary Flames, LW19\n\n104. Ryan Leonard, Washington Capitals, RW17\n\n105. Brock Faber, Minnesota Wild, D26\n\n106. Lucas Raymond, Detroit Red Wings, LW20\n\n107. Martin Fehervary, Washington Capitals, D27\n\n108. Adin Hill, Vegas Golden Knights, G14\n\n109. Alex DeBrincat, Detroit Red Wings, LW21\n\n110. Filip Gustavsson, Minnesota Wild, G15\n\n111. Carter Verhaeghe, Florida Panthers, LW22\n\n112. Jack Quinn, Buffalo Sabres, RW18\n\n113. Michael DiPietro, Boston Bruins, G16\n\n114. John Carlson, Tampa Bay Lightning, D28\n\n115. Vasily Podkolzin, Edmonton Oilers, RW19\n\n116. Mika Zibanejad, New York Rangers, C31\n\n117. Robert Thomas, St. Louis Blues, C32\n\n118. Philip Broberg, St. Louis Blues, D29\n\n119. Miro Heiskanen, Dallas Stars, D30\n\n120. Jackson Blake, Carolina Hurricanes, RW20\n\n121. James Hagens, Boston Bruins, C33\n\n122. Dylan Strome, Washington Capitals, C34\n\n123. Joonas Korpisalo, New York Rangers, G17\n\n124. Kirill Marchenko, Toronto Maple Leafs, LW23\n\n125. Rickard Rakell, Pittsburgh Penguins, RW21\n\n126. Kaiden Guhle, Montreal Canadiens, D31\n\n127. Elias Lindholm, Boston Bruins, C35\n\n128. Brad Marchand, Florida Panthers, LW24\n\n129. Sean Walker, Carolina Hurricanes, D32\n\n130. Mathew Barzal, New York Islanders, C36\n\n131. Brandon Montour, Seattle Kraken, D33\n\n132. Devon Toews, Colorado Avalanche, D34\n\n133. Cam Talbot, Columbus Blue Jackets, G18\n\n134. Drake Batherson, Ottawa Senators, RW22\n\n135. Jacob Trouba, San Jose Sharks, D35\n\n136. Darren Raddysh, Toronto Maple Leafs, D36\n\n137. Mattias Samuelsson, Buffalo Sabres, D37\n\n138. Charle-Edouard D'Astous, Tampa Bay Lightning, D38\n\n139. Jacob Markstrom, Florida Panthers, G19\n\n140. Viktor Arvidsson, Detroit Red Wings, RW23\n\n141. Anton Frondell, Chicago Blackhawks, C37\n\n142. Cole Perfetti, Winnipeg Jets, LW25\n\n143. Joel Eriksson Ek, Minnesota Wild, C38\n\n144. Nick Seeler, Philadelphia Flyers, D39\n\n145. Evgeni Malkin, Pittsburgh Penguins, C39\n\n146. Vince Dunn, Seattle Kraken, D40\n\n147. Devon Levi, Edmonton Oilers, G20\n\n148. Quinton Byfield, Los Angeles Kings, C40\n\n149. Nikolaj Ehlers, Carolina Hurricanes, LW26\n\n150. Tye Kartye, New York Rangers, LW27\n\n151. Tristan Jarry, Edmonton Oilers, G21\n\n152. Ivan Demidov, Montreal Canadiens, RW24\n\n153. Anthony Cirelli, Tampa Bay Lightning, C41\n\n154. Justin Faulk, Detroit Red Wings, D41\n\n155. Josh Morrissey, Winnipeg Jets, D42\n\n156. Tomas Hertl, Vegas Golden Knights, C42\n\n157. Matvei Michkov, Philadelphia Flyers, RW25\n\n158. Kent Johnson, Columbus Blue Jackets, LW28\n\n159. Tristan Luneau, Anaheim Ducks, D43\n\n160. Brayden Schenn, New York Islanders, C43\n\n161. Arseniy Gritsyuk, New Jersey Devils, RW26\n\n162. Dylan Guenther, Utah Mammoth, RW27\n\n163. Jesper Bratt, New Jersey Devils, RW28\n\n164. Jordan Eberle, Seattle Kraken, RW29\n\n165. Easton Cowan, Toronto Maple Leafs, RW30\n\n166. Morgan Geekie, Boston Bruins, RW31\n\n167. Charlie Coyle, Columbus Blue Jackets, C44\n\n168. Mikey Anderson, Los Angeles Kings, D44\n\n169. Dylan Garand, New York Rangers, G22\n\n170. Bryan Rust, Pittsburgh Penguins, RW32\n\n171. Colton Parayko, St. Louis Blues, D45\n\n172. Noah Dobson, Montreal Canadiens, D46\n\n173. Zach Benson, Buffalo Sabres, LW29\n\n174. Sam Bennett, Florida Panthers, C45\n\n175. Morgan Rielly, Toronto Maple Leafs, D47\n\n176. Neal Pionk, Winnipeg Jets, D48\n\n177. Trevor Connelly, Vegas Golden Knights, LW30\n\n178. Dylan Cozens, Ottawa Senators, C46\n\n179. Zach Hyman, Edmonton Oilers, RW33\n\n180. J.T. Miller, New York Rangers, C47\n\n181. Sidney Crosby, Pittsburgh Penguins, C48\n\n182. Patrick Kane, Chicago Blackhawks, RW34\n\n183. Trevor Zegras, Philadelphia Flyers, C49\n\n184. Nazem Kadri, Colorado Avalanche, C50\n\n185. John Tavares, Toronto Maple Leafs, C51\n\n186. Matvei Gridin, Calgary Flames, RW35\n\n187. Jonas Brodin, Minnesota Wild, D49\n\n188. Carter Hart, Vegas Golden Knights, G23\n\n189. Ben Kindel, Pittsburgh Penguins, C52\n\n190. Roman Kantserov, Chicago Blackhawks, RW36\n\n191. Zayne Parekh, Calgary Flames, D50\n\n192. Stuart Skinner, Winnipeg Jets, G24\n\n193. Rasmus Andersson, Vegas Golden Knights, D51\n\n194. Ivar Stenberg, San Jose Sharks, LW31\n\n195. Gabe Perreault, New York Rangers, RW37\n\n196. Boone Jenner, Washington Capitals, C53\n\n197. Dawson Mercer, Winnipeg Jets, RW38\n\n198. Frank Nazar, Chicago Blackhawks, C54\n\n199. Kevin Fiala, Los Angeles Kings, LW32\n\n200. Jamie Drysdale, Philadelphia Flyers, D52\n\n201. Pavel Dorofeyev, New York Rangers, RW39\n\n202. Jakub Dobes, Montreal Canadiens, G25\n\n203. Tom Wilson, Washington Capitals, RW40\n\n204. Esa Lindell, Dallas Stars, D53\n\n205. Anton Lundell, Florida Panthers, C55\n\n206. Mike Matheson, Montreal Canadiens, D54\n\n207. Alexander Nikishin, Carolina Hurricanes, D55\n\n208. Denton Mateychuk, Columbus Blue Jackets, D56\n\n209. Brandon Bussi, Carolina Hurricanes, G26\n\n210. Travis Konecny, Philadelphia Flyers, RW41\n\n211. Dougie Hamilton, New Jersey Devils, D57\n\n212. Owen Power, Buffalo Sabres, D58\n\n213. Vincent Trocheck, Utah Mammoth, C56\n\n214. Mats Zuccarello, Los Angeles Kings, RW42\n\n215. Mario Ferraro, Winnipeg Jets, D59\n\n216. Mason McTavish, St. Louis Blues, C57\n\n217. Anthony Stolarz, Toronto Maple Leafs, G27\n\n218. Adam Edstrom, Nashville Predators, LW33\n\n219. Judd Caulfield, Anaheim Ducks, RW43\n\n220. Jaccob Slavin, Carolina Hurricanes, D60\n\n221. Ivan Barbashev, Vegas Golden Knights, LW34\n\n222. Matt Coronato, Calgary Flames, RW44\n\n223. Martin Pospisil, Calgary Flames, LW35\n\n224. Troy Terry, Anaheim Ducks, LW36\n\n225. Tyler Kleven, Ottawa Senators, D61\n\n226. Karel Vejmelka, Utah Mammoth, G28\n\n227. Ryan Pulock, New York Islanders, D62\n\n228. Tyson Foerster, Philadelphia Flyers, RW45\n\n229. Matty Beniers, Seattle Kraken, C58\n\n230. Scott Wedgewood, Colorado Avalanche, G29\n\n231. Emmitt Finnie, Detroit Red Wings, LW37\n\n232. Casey DeSmith, Dallas Stars, G30\n\n233. Matthew Knies, Columbus Blue Jackets, LW38\n\n234. Morgan Frost, Calgary Flames, C59\n\n235. Erik Gudbranson, Columbus Blue Jackets, D63\n\n236. Will Smith, San Jose Sharks, RW46\n\n237. Olli Maatta, Minnesota Wild, D64\n\n238. Owen Tippett, Philadelphia Flyers, RW47\n\n239. Gabriel Landeskog, Colorado Avalanche, LW39\n\n240. Jake McCabe, Toronto Maple Leafs, D65\n\n241. Aliaksei Protas, Washington Capitals, LW40\n\n242. Shane Wright, Nashville Predators, C60\n\n243. Bobby McMann, Seattle Kraken, LW41\n\n244. Brayden Point, Tampa Bay Lightning, C61\n\n245. Gavin McKenna, Toronto Maple Leafs, LW42\n\n246. Devin Cooley, Calgary Flames, G31\n\n247. Victor Hedman, Tampa Bay Lightning, D66\n\n248. Mackie Samoskevich, Seattle Kraken, LW43\n\n249. Justin Barron, St. Louis Blues, D67\n\n250. Semyon Varlamov, New York Islanders, G32"
-    },
-    {
       "story_id": "50389130",
       "headline": "Las Vegas Grand Prix 2026: Race start time, how to watch, full schedule, predictions",
       "summary": "Formula 1 is back under the bright lights of Las Vegas for one of the most extravagant weekends on the calendar.",
@@ -10675,18 +10675,32 @@
       "body": "Australia's dual-international powerhouse Sariah Paki has her sights set on another personal three-peat of title wins, similar to what she achieved in rugby union in 2022.\n\nThe former rugby sevens star has been a smash hit since her code switch this year and the forward will come off the bench against New Zealand in the women's World Cup final at Suncorp Stadium.\n\nThe 25-year-old started the year with a World Series title win with the Australia rugby sevens side, before joining the Sydney Roosters and shining in their undefeated season that culminated in an NRLW title.\n\nPaki said before Jillaroos training on Saturday that this year had vibes like her incredible 2022 feats with Australia in sevens.\n\n\"It meant a lot that year because we did a three-peat to win the Commonwealth Games, the World Series and topped it off with the World Cup,\" she said.\n\n\"This feels pretty similar this time around. It has been a long journey, but I have loved every step of it. To win a World Cup would top my year.\"\n\nShe joined the Tricolours to \"try something new\" and has thrived in rugby league.\n\nPaki said she enjoyed the big games and \"immersed herself\" in the pressure.\n\nThe challenge for her has been staying switched on for 70 minutes compared to the 14 minutes of rugby sevens.\n\nThe Jillaroos are wary of New Zealand's recently crowned women's Golden Boot winner Stacey Waaka, who will play in the centres for the Kiwi Ferns on Sunday in Brisbane after scoring nine tries in the World Cup so far.\n\nWaaka was a rugby sevens star for NZ and her class is well known to Paki, who backed Jillaroos captain Isabelle Kelly to mark her well.\n\n\"Stacey is an amazing player and I have versed her in many games over in sevens,\" she said.\n\n\"We know how we are going to play each other and I will definitely tip Izzy up about that. Those two will go well against each other and Izzy will definitely mark her up.\"\n\nPaki said she had thrived at the Roosters and now Jillaroos under the tutelage of Kelly, who will play her 25th Test against NZ.\n\nThe World Cup final has special meaning to Paki, who has Maori heritage and was in the sights of the Ferns.\n\nShe said it was \"really nice\" for both nations to come knocking.\n\n\"I would have qualified for New Zealand as well and it was a really difficult decision with my family from New Zealand,\" she said.\n\n\"I knew I wanted to play with great players like Tamika Upton and Isabelle Kelly. I feel like I made the right decision to come to the Jillaroos.\""
     },
     {
-      "story_id": "50476744",
-      "headline": "Siakam and Nesmith power the Pacers to a 106-104 win over the Knicks",
-      "summary": "\u2014 Pascal Siakam scored 19 points and Aaron Nesmith added 18 to lead the Indiana Pacers to a 106-104 win over the New York Knicks in an NBA Cup game on Friday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909296.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-14T03:09:35Z",
+      "story_id": "49299647",
+      "headline": "Fantasy hockey rankings: Kochetkov rises to fifth, three Oilers lead overall",
+      "summary": "Pyotr Kochetkov rises, Connor McDavid is still the fantasy hockey rankings leader after his red-hot start.",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745335_1296x729_16-9.jpg",
+      "published_utc": "2026-11-13T18:12:00Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "Sean Allen",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/hockey/story/_/id/49299647/espn-nhl-fantasy-hockey-rankings-forwards-defensemen-goalies-points-leagues",
+      "stream_url": "",
+      "body": "On Friday the 13th, the scariest mask in the league belongs to Pyotr Kochetkov. He climbs from No. 36 to No. 5 to become the top goalie in fantasy. Still, nothing is scarier than the Edmonton trio of Connor McDavid, Leon Draisaitl and Evan Bouchard, who hold the top three spots.\n\nThese rankings are based on expectations of fantasy points produced from Friday, Nov. 13, until the end of the season. Fantasy points are based on the ESPN.com standard game (for skaters: goals = 2 points, assists = 1 point, shots and hits = 0.1 points, blocked shots and special-teams points = 0.5 points; for goaltenders: wins = 4 points, OT losses = 1 point, shutouts = 3 points, saves = 0.2 points, goals against = -2 points).\n\nTop 250 players for 2026\n\n1. Connor McDavid, Edmonton Oilers, C1\n\n2. Leon Draisaitl, Edmonton Oilers, C2\n\n3. Evan Bouchard, Edmonton Oilers, D1\n\n4. Cutter Gauthier, Anaheim Ducks, LW1\n\n5. Pyotr Kochetkov, Carolina Hurricanes, G1\n\n6. Macklin Celebrini, San Jose Sharks, C3\n\n7. Nathan MacKinnon, Colorado Avalanche, C4\n\n8. Kyle Connor, Winnipeg Jets, LW2\n\n9. Jack Hughes, New Jersey Devils, C5\n\n10. Sebastian Aho, Carolina Hurricanes, C6\n\n11. Kirill Kaprizov, Minnesota Wild, LW3\n\n12. Auston Matthews, Toronto Maple Leafs, C7\n\n13. Nick Suzuki, Montreal Canadiens, C8\n\n14. Jake Oettinger, Dallas Stars, G2\n\n15. David Pastrnak, Boston Bruins, RW1\n\n16. Logan Cooley, Utah Mammoth, C9\n\n17. Nikita Kucherov, Tampa Bay Lightning, RW2\n\n18. Zach Werenski, Columbus Blue Jackets, D2\n\n19. Jason Robertson, Dallas Stars, LW4\n\n20. Matthew Schaefer, New York Islanders, D3\n\n21. Brandon Hagel, Tampa Bay Lightning, LW5\n\n22. Brady Tkachuk, Florida Panthers, LW6\n\n23. Moritz Seider, Detroit Red Wings, D4\n\n24. Connor Bedard, Chicago Blackhawks, C10\n\n25. Jacob Fowler, Montreal Canadiens, G3\n\n26. Leo Carlsson, Anaheim Ducks, C11\n\n27. Mikhail Sergachev, Utah Mammoth, D5\n\n28. Tage Thompson, Buffalo Sabres, C12\n\n29. Jackson LaCombe, Anaheim Ducks, D6\n\n30. Wyatt Johnston, Dallas Stars, C13\n\n31. Jack Eichel, Vegas Golden Knights, C14\n\n32. Cale Makar, Colorado Avalanche, D7\n\n33. Jake Sanderson, Ottawa Senators, D8\n\n34. Jake Guentzel, Tampa Bay Lightning, LW7\n\n35. Tim Stutzle, Ottawa Senators, C15\n\n36. Linus Ullmark, Ottawa Senators, G4\n\n37. Roman Josi, Nashville Predators, D9\n\n38. Filip Forsberg, Nashville Predators, LW8\n\n39. Cole Caufield, Montreal Canadiens, LW9\n\n40. Alex Tuch, Washington Capitals, RW3\n\n41. Adam Fox, New York Rangers, D10\n\n42. Beckett Sennecke, Anaheim Ducks, RW4\n\n43. Adrian Kempe, Los Angeles Kings, RW5\n\n44. Quinn Hughes, Minnesota Wild, D11\n\n45. Brandt Clarke, Los Angeles Kings, D12\n\n46. Steven Stamkos, Nashville Predators, C16\n\n47. Lane Hutson, Montreal Canadiens, D13\n\n48. Jakob Chychrun, Washington Capitals, D14\n\n49. Mark Scheifele, Winnipeg Jets, C17\n\n50. Ilya Sorokin, New York Islanders, G5\n\n51. Thomas Harley, Dallas Stars, D15\n\n52. Nick Schmaltz, Utah Mammoth, C18\n\n53. Mikko Rantanen, Dallas Stars, RW6\n\n54. Sam Reinhart, Florida Panthers, RW7\n\n55. Matt Boldy, Minnesota Wild, LW10\n\n56. Martin Necas, Colorado Avalanche, RW8\n\n57. Connor Hellebuyck, New Jersey Devils, G6\n\n58. Artturi Lehkonen, Colorado Avalanche, LW11\n\n59. Clayton Keller, Utah Mammoth, LW12\n\n60. Logan Stankoven, Carolina Hurricanes, C19\n\n61. Mark Stone, Vegas Golden Knights, RW9\n\n62. Dylan Holloway, St. Louis Blues, LW13\n\n63. Joel Hofer, St. Louis Blues, G7\n\n64. Elias Pettersson, Vancouver Canucks, C20\n\n65. Charlie McAvoy, Boston Bruins, D16\n\n66. Mackenzie Blackwood, Colorado Avalanche, G8\n\n67. Seth Jones, Florida Panthers, D17\n\n68. Seth Jarvis, Carolina Hurricanes, RW10\n\n69. Brock Boeser, Vancouver Canucks, RW11\n\n70. Jeremy Swayman, Boston Bruins, G9\n\n71. William Nylander, Toronto Maple Leafs, RW12\n\n72. Rasmus Dahlin, Buffalo Sabres, D18\n\n73. Juuse Saros, Nashville Predators, G10\n\n74. Alexis Lafreniere, New York Rangers, LW14\n\n75. Andrei Svechnikov, Carolina Hurricanes, LW15\n\n76. Mitch Marner, Vegas Golden Knights, RW13\n\n77. Andrei Vasilevskiy, Tampa Bay Lightning, G11\n\n78. Adam Fantilli, Columbus Blue Jackets, C21\n\n79. Travis Sanheim, Philadelphia Flyers, D19\n\n80. Nico Hischier, New Jersey Devils, C22\n\n81. Jesper Wallstedt, Minnesota Wild, G12\n\n82. Filip Hronek, Vancouver Canucks, D20\n\n83. Matthew Tkachuk, Florida Panthers, RW14\n\n84. Ryan O'Reilly, Nashville Predators, C23\n\n85. Jimmy Snuggerud, St. Louis Blues, RW15\n\n86. Cole Hutson, Washington Capitals, D21\n\n87. Juraj Slafkovsky, Montreal Canadiens, LW16\n\n88. Erik Karlsson, Pittsburgh Penguins, D22\n\n89. Thomas Chabot, Ottawa Senators, D23\n\n90. MacKenzie Weegar, Utah Mammoth, D24\n\n91. Alex Laferriere, Los Angeles Kings, RW16\n\n92. Bo Horvat, New York Islanders, C24\n\n93. Shane Pinto, Ottawa Senators, C25\n\n94. Mikael Granlund, Anaheim Ducks, C26\n\n95. Artemi Panarin, Los Angeles Kings, LW17\n\n96. Aleksander Barkov, Florida Panthers, C27\n\n97. Roope Hintz, Dallas Stars, C28\n\n98. Victor Eklund, New York Islanders, LW18\n\n99. Shayne Gostisbehere, Carolina Hurricanes, D25\n\n100. Jack Roslovic, Toronto Maple Leafs, C29\n\n101. Logan Thompson, Washington Capitals, G13\n\n102. Pavel Zacha, Boston Bruins, C30\n\n103. Joel Farabee, Calgary Flames, LW19\n\n104. Ryan Leonard, Washington Capitals, RW17\n\n105. Brock Faber, Minnesota Wild, D26\n\n106. Lucas Raymond, Detroit Red Wings, LW20\n\n107. Martin Fehervary, Washington Capitals, D27\n\n108. Adin Hill, Vegas Golden Knights, G14\n\n109. Alex DeBrincat, Detroit Red Wings, LW21\n\n110. Filip Gustavsson, Minnesota Wild, G15\n\n111. Carter Verhaeghe, Florida Panthers, LW22\n\n112. Jack Quinn, Buffalo Sabres, RW18\n\n113. Michael DiPietro, Boston Bruins, G16\n\n114. John Carlson, Tampa Bay Lightning, D28\n\n115. Vasily Podkolzin, Edmonton Oilers, RW19\n\n116. Mika Zibanejad, New York Rangers, C31\n\n117. Robert Thomas, St. Louis Blues, C32\n\n118. Philip Broberg, St. Louis Blues, D29\n\n119. Miro Heiskanen, Dallas Stars, D30\n\n120. Jackson Blake, Carolina Hurricanes, RW20\n\n121. James Hagens, Boston Bruins, C33\n\n122. Dylan Strome, Washington Capitals, C34\n\n123. Joonas Korpisalo, New York Rangers, G17\n\n124. Kirill Marchenko, Toronto Maple Leafs, LW23\n\n125. Rickard Rakell, Pittsburgh Penguins, RW21\n\n126. Kaiden Guhle, Montreal Canadiens, D31\n\n127. Elias Lindholm, Boston Bruins, C35\n\n128. Brad Marchand, Florida Panthers, LW24\n\n129. Sean Walker, Carolina Hurricanes, D32\n\n130. Mathew Barzal, New York Islanders, C36\n\n131. Brandon Montour, Seattle Kraken, D33\n\n132. Devon Toews, Colorado Avalanche, D34\n\n133. Cam Talbot, Columbus Blue Jackets, G18\n\n134. Drake Batherson, Ottawa Senators, RW22\n\n135. Jacob Trouba, San Jose Sharks, D35\n\n136. Darren Raddysh, Toronto Maple Leafs, D36\n\n137. Mattias Samuelsson, Buffalo Sabres, D37\n\n138. Charle-Edouard D'Astous, Tampa Bay Lightning, D38\n\n139. Jacob Markstrom, Florida Panthers, G19\n\n140. Viktor Arvidsson, Detroit Red Wings, RW23\n\n141. Anton Frondell, Chicago Blackhawks, C37\n\n142. Cole Perfetti, Winnipeg Jets, LW25\n\n143. Joel Eriksson Ek, Minnesota Wild, C38\n\n144. Nick Seeler, Philadelphia Flyers, D39\n\n145. Evgeni Malkin, Pittsburgh Penguins, C39\n\n146. Vince Dunn, Seattle Kraken, D40\n\n147. Devon Levi, Edmonton Oilers, G20\n\n148. Quinton Byfield, Los Angeles Kings, C40\n\n149. Nikolaj Ehlers, Carolina Hurricanes, LW26\n\n150. Tye Kartye, New York Rangers, LW27\n\n151. Tristan Jarry, Edmonton Oilers, G21\n\n152. Ivan Demidov, Montreal Canadiens, RW24\n\n153. Anthony Cirelli, Tampa Bay Lightning, C41\n\n154. Justin Faulk, Detroit Red Wings, D41\n\n155. Josh Morrissey, Winnipeg Jets, D42\n\n156. Tomas Hertl, Vegas Golden Knights, C42\n\n157. Matvei Michkov, Philadelphia Flyers, RW25\n\n158. Kent Johnson, Columbus Blue Jackets, LW28\n\n159. Tristan Luneau, Anaheim Ducks, D43\n\n160. Brayden Schenn, New York Islanders, C43\n\n161. Arseniy Gritsyuk, New Jersey Devils, RW26\n\n162. Dylan Guenther, Utah Mammoth, RW27\n\n163. Jesper Bratt, New Jersey Devils, RW28\n\n164. Jordan Eberle, Seattle Kraken, RW29\n\n165. Easton Cowan, Toronto Maple Leafs, RW30\n\n166. Morgan Geekie, Boston Bruins, RW31\n\n167. Charlie Coyle, Columbus Blue Jackets, C44\n\n168. Mikey Anderson, Los Angeles Kings, D44\n\n169. Dylan Garand, New York Rangers, G22\n\n170. Bryan Rust, Pittsburgh Penguins, RW32\n\n171. Colton Parayko, St. Louis Blues, D45\n\n172. Noah Dobson, Montreal Canadiens, D46\n\n173. Zach Benson, Buffalo Sabres, LW29\n\n174. Sam Bennett, Florida Panthers, C45\n\n175. Morgan Rielly, Toronto Maple Leafs, D47\n\n176. Neal Pionk, Winnipeg Jets, D48\n\n177. Trevor Connelly, Vegas Golden Knights, LW30\n\n178. Dylan Cozens, Ottawa Senators, C46\n\n179. Zach Hyman, Edmonton Oilers, RW33\n\n180. J.T. Miller, New York Rangers, C47\n\n181. Sidney Crosby, Pittsburgh Penguins, C48\n\n182. Patrick Kane, Chicago Blackhawks, RW34\n\n183. Trevor Zegras, Philadelphia Flyers, C49\n\n184. Nazem Kadri, Colorado Avalanche, C50\n\n185. John Tavares, Toronto Maple Leafs, C51\n\n186. Matvei Gridin, Calgary Flames, RW35\n\n187. Jonas Brodin, Minnesota Wild, D49\n\n188. Carter Hart, Vegas Golden Knights, G23\n\n189. Ben Kindel, Pittsburgh Penguins, C52\n\n190. Roman Kantserov, Chicago Blackhawks, RW36\n\n191. Zayne Parekh, Calgary Flames, D50\n\n192. Stuart Skinner, Winnipeg Jets, G24\n\n193. Rasmus Andersson, Vegas Golden Knights, D51\n\n194. Ivar Stenberg, San Jose Sharks, LW31\n\n195. Gabe Perreault, New York Rangers, RW37\n\n196. Boone Jenner, Washington Capitals, C53\n\n197. Dawson Mercer, Winnipeg Jets, RW38\n\n198. Frank Nazar, Chicago Blackhawks, C54\n\n199. Kevin Fiala, Los Angeles Kings, LW32\n\n200. Jamie Drysdale, Philadelphia Flyers, D52\n\n201. Pavel Dorofeyev, New York Rangers, RW39\n\n202. Jakub Dobes, Montreal Canadiens, G25\n\n203. Tom Wilson, Washington Capitals, RW40\n\n204. Esa Lindell, Dallas Stars, D53\n\n205. Anton Lundell, Florida Panthers, C55\n\n206. Mike Matheson, Montreal Canadiens, D54\n\n207. Alexander Nikishin, Carolina Hurricanes, D55\n\n208. Denton Mateychuk, Columbus Blue Jackets, D56\n\n209. Brandon Bussi, Carolina Hurricanes, G26\n\n210. Travis Konecny, Philadelphia Flyers, RW41\n\n211. Dougie Hamilton, New Jersey Devils, D57\n\n212. Owen Power, Buffalo Sabres, D58\n\n213. Vincent Trocheck, Utah Mammoth, C56\n\n214. Mats Zuccarello, Los Angeles Kings, RW42\n\n215. Mario Ferraro, Winnipeg Jets, D59\n\n216. Mason McTavish, St. Louis Blues, C57\n\n217. Anthony Stolarz, Toronto Maple Leafs, G27\n\n218. Adam Edstrom, Nashville Predators, LW33\n\n219. Judd Caulfield, Anaheim Ducks, RW43\n\n220. Jaccob Slavin, Carolina Hurricanes, D60\n\n221. Ivan Barbashev, Vegas Golden Knights, LW34\n\n222. Matt Coronato, Calgary Flames, RW44\n\n223. Martin Pospisil, Calgary Flames, LW35\n\n224. Troy Terry, Anaheim Ducks, LW36\n\n225. Tyler Kleven, Ottawa Senators, D61\n\n226. Karel Vejmelka, Utah Mammoth, G28\n\n227. Ryan Pulock, New York Islanders, D62\n\n228. Tyson Foerster, Philadelphia Flyers, RW45\n\n229. Matty Beniers, Seattle Kraken, C58\n\n230. Scott Wedgewood, Colorado Avalanche, G29\n\n231. Emmitt Finnie, Detroit Red Wings, LW37\n\n232. Casey DeSmith, Dallas Stars, G30\n\n233. Matthew Knies, Columbus Blue Jackets, LW38\n\n234. Morgan Frost, Calgary Flames, C59\n\n235. Erik Gudbranson, Columbus Blue Jackets, D63\n\n236. Will Smith, San Jose Sharks, RW46\n\n237. Olli Maatta, Minnesota Wild, D64\n\n238. Owen Tippett, Philadelphia Flyers, RW47\n\n239. Gabriel Landeskog, Colorado Avalanche, LW39\n\n240. Jake McCabe, Toronto Maple Leafs, D65\n\n241. Aliaksei Protas, Washington Capitals, LW40\n\n242. Shane Wright, Nashville Predators, C60\n\n243. Bobby McMann, Seattle Kraken, LW41\n\n244. Brayden Point, Tampa Bay Lightning, C61\n\n245. Gavin McKenna, Toronto Maple Leafs, LW42\n\n246. Devin Cooley, Calgary Flames, G31\n\n247. Victor Hedman, Tampa Bay Lightning, D66\n\n248. Mackie Samoskevich, Seattle Kraken, LW43\n\n249. Justin Barron, St. Louis Blues, D67\n\n250. Semyon Varlamov, New York Islanders, G32"
+    },
+    {
+      "story_id": "50477092",
+      "headline": "Memphis Grizzlies vs. New Orleans Pelicans: Game Highlights",
+      "summary": "Memphis Grizzlies vs. New Orleans Pelicans: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/1aa1ef6e-1cfd-4925-81a8-0299ff09f608/1aa1ef6e-1cfd-4925-81a8-0299ff09f608.jpg",
+      "published_utc": "2026-11-14T03:49:22Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909296",
+      "link": "https://www.espn.com/video/clip/_/id/50477092/game-highlights",
       "stream_url": "",
-      "body": "INDIANAPOLIS -- \u2014 Pascal Siakam scored 19 points and Aaron Nesmith added 18 to lead the Indiana Pacers to a 106-104 win over the New York Knicks in an NBA Cup game on Friday night.\n\n\r\nSiakam's 15-foot jumper with 1:49 remaining gave Indiana a 106-98 lead before the Knicks stormed back. Jalen Brunson\u2019s driving layup cut the lead to 106-102 with 26 seconds left. Siakam was fouled, but missed both free throws with 23 seconds left. Mikal Bridges scored to slice the lead to two points with 10 seconds to go before the Pacers turned the ball over with 2.8 seconds to go. But, Karl-Anthony Towns missed a potential game-tying 15-foot jumper at the buzzer.\n\n\r\nNesmith, who was limited to 21 minutes because of right knee soreness in Wednesday\u2019s victory over Washington, was declared available earlier Friday. Kelly Oubre Jr. scored 16 points and Ivica Zubac had 12 points and 13 rebounds for Indiana.\n\n\r\nBrunson led he Knicks with 33 points. Towns finished with 23 points and 15 rebounds and Bridges added 18 for the Knicks.\n\n\r\nBoth teams shot 43%. Indiana held a 50-43 edge in rebounds.\n\n\r\nWith the Pacers leading 85-74, the Knicks went on a 10-0 run to narrow the deficit to 85-84 after three quarters.\n\n\r\nFor the game, the Pacers shot 18 of 25 from the line. New York made 10 of 13.\n\n\r\nUp next\r\nKnicks: At Toronto on Sunday.\n\n\r\nPacers: At Philadelphia on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+      "body": ""
     },
     {
       "story_id": "50462045",
@@ -10771,20 +10785,6 @@
       "link": "https://www.espn.com/mma/story/_/id/50463294/ufc-334-gane-hokit-harrison-nunes-picks",
       "stream_url": "",
       "body": "One year ago, Josh Hokit was virtually unknown in the fight world. On Saturday, he will headline a UFC event at the iconic Madison Square Garden in New York. One of the biggest questions surrounding him is how much of his soul he's sacrificed to get here. This weekend could provide an answer to an even bigger question.\n\nHokit (10-0) will challenge heavyweight champion Ciryl Gane (14-2) at UFC 334 (Paramount+, 9 p.m. ET). Hokit, 28, has been one of the sport's biggest breakouts in 2026, thanks in no small part to the controversy he's stirred on the mic. He stood on the South Lawn of the White House in June and made vulgar remarks about former first lady Michelle Obama. He made distasteful 9/11 jokes on social media the same day of the 25th anniversary of the attacks on the very city where he will compete this weekend.\n\nA former collegiate football player at Fresno State University, Hokit has broken character on numerous occasions and said he doesn't even enjoy the attention. But he's using hate and controversy to stand out, and he won't apologize for it. He acknowledged as much again this week, during media appearances in New York.\n\n\"I'll never look back and regret it,\" Hokit said. \"I'm here to be remembered. If I have to crack a few eggs to make an omelette, f--- it. If I have to burn the bridge to light the way, f--- it.\"\n\nSome of Hokit's appalling comments have prompted UFC CEO Dana White to say during an episode of \"The Jim Rome Show\" on Nov. 4 that he's given Hokit difficult matchups on his way up and that he doesn't like \"anything Josh Hokit says.\" Hokit has taken advantage of the high-profile opportunities he has received this year from White, who's said Hokit earned his title shot on Saturday.\n\nWhether Hokit would tone down his act if he captures a UFC championship -- or double down on it -- remains to be seen. Either way, it does create an intriguing industry-wide storyline to watch on Saturday.\n\nThose who have been offended by Hokit's tactics likely want to see him lose. Such is the effect of him playing a villain.\n\nBut there's another reason critics should fear a Hokit victory: It could inspire other fighters to follow his blueprint for success. That could happen, actually, regardless of Saturday's outcome.\n\nMore storylines to watch\n\nAfter 8 years, Kayla Harrison and Amanda Nunes finally settle their differences\n\nFrom the moment Harrison walked into the American Top Team gym in South Florida in 2018 to begin her MMA career, she and Nunes were on a path to one of the greatest rivalries in women's MMA -- even if it took years for them to call it one.\n\nThe history behind the matchup is as compelling as their individual achievements. Harrison says she wanted to build something in the gym alongside Nunes, while Nunes -- already UFC champion when Harrison arrived -- says she recognized from the start that Harrison wanted to take her place in the sport. Those conflicting perceptions created the tension that led to Saturday's bout, with Nunes coming out of a 3\u00bd-year retirement to challenge for Harrison's bantamweight belt.\n\nThe fight was originally scheduled for January 2026, but Harrison was forced to withdraw just weeks before the bout to undergo two-level spinal fusion surgery for a neck injury she had been dealing with for years.\n\nStephen 'Wonderboy' Thompson retirement\n\nThompson was never the only \"nice guy\" in MMA, but he might have perfected it more than anyone else.\n\nThompson has announced that Saturday's bout against Charles Radtke will be the end of his 14-year UFC career. It's fitting that his last act will take place in Madison Square Garden, the same building in which his career could have taken a very different path. Thompson fought Tyron Woodley to a majority draw in November 2016 at UFC 205, the promotion's first event in New York City. He came within one round on one judge's scorecard of becoming UFC champion. Thompson lost an immediate rematch to Woodley in 2017, and never returned to title contention after a 2019 loss to Anthony Pettis.\n\nNevertheless, Thompson left his mark in the sport. He's regarded as one of the most honorable fighters of the past decade. A karate-based welterweight, Thompson continued teaching children's martial arts classes even as an active, ranked fighter in the UFC. His iconic walkouts to Tenacious D's \"Wonderboy\" and notable wins over Johny Hendricks, Rory MacDonald, Jorge Masvidal and Robert Whittaker will not soon be forgotten.\n\n\"I want to leave this sport knowing that, hey, you can still be at the top of the game and be the good guy,\" Thompson said. \"That's a breath of fresh air. You don't have to be the guy to talk trash all the time.\"\n\nCoaches' questions and predictions for the title fights\n\nEditor's note: Responses have been edited for brevity and clarity.\n\nCiryl Gane (c) vs. Josh Hokit\n\nHow will Hokit handle Gane's size?\n\nI was in Francis Ngannou's corner against Gane, and the first thing I said was, \"This is a big f---ing guy who can move.\" Hokit is smaller, and could probably be a light heavyweight. He needs to wrestle in this fight, and what will grappling a big guy like that do to his gas tank? Gane's stance switches on the feet are big, because they change the wrestling picture. He's always changing his lead leg, which could force Josh to constantly recalculate where his attacks are. Gane will need to mix in anti-wrestling strikes, meaning target some strikes to the chest and body to negate Josh's level changes. Hokit has to cut off the cage and, once he does get Gane down, prioritize controlling his legs to slow the process of him getting back up. I think the size is a real factor, so I'm picking Gane. -- Eric Nicksick, Xtreme Couture\n\nCan Hokit's chaos disrupt the technical superiority of Gane?\n\nThis is Hokit's biggest step up, a true test of the elite -- whereas, I do not believe this is the best guy Gane has fought. The question is whether Hokit's off-the-wall pressure, all the s--- he does in there to make it chaotic, can hold up against a technical fighter like Gane. You have to let Hokit do the things that have gotten him to this point. You don't want him to be sloppy, but I wouldn't try to tighten things up too much. I feel like Gane is going to be too much, though, and expose what Hokit is missing technically. Hokit has to make the fight ugly. I feel Gane is too crisp, too clean, and ends up sparking him. Gane by TKO. -- John Wood, Syndicate MMA\n\nKayla Harrison (c) vs. Amanda Nunes\nWhat do the fighters know that we don't, and how will they use it?\n\nWho got the better of whom in the gym? What do they know intimately about each other that we don't, and how will they use that information? For Amanda, she needs to intercept Kayla's pressure with straight punches. Looping punches allow Kayla to sit down and get into the hips, so those punches scare me. Amanda has to defend the second and third takedown attempts and, if and when she does get taken down, she has to make Kayla work. The issue there is that Amanda has been notorious for her own failed cardio, but she has to make Kayla work for any grappling success. And for Kayla, she can't fight a la carte, which she has done in the past. She can't say, \"Now I'm striking; OK, now I'm wrestling.\" She has to throw strikes to close distance and then blend her wrestling. Prioritize positions over going for submissions and make this a physical fight. I'm going to pick Amanda. I think she wins a decision. -- Eric Nicksick, Xtreme Couture\n\nHow will Nunes look after 3\u00bd years away from the Octagon?\n\nIs Nunes still Nunes? Usually in MMA, time off doesn't result in a better, sharper fighter. But Amanda was so dominant and such a beast. I know Amanda personally and I know she wouldn't be coming back if she didn't know she's still got it. I think she will have a good night at the office. It's the power. She has that rare power that can change the outcome of a fight if she hits you just one time. And she's dealt with the pressure that Kayla is going to bring. I know Julianna Pe\u00f1a got Amanda off her game when she beat her in 2021, but I think Amanda went into that fight injured and not caring as much. As long as that's not the case and she comes in ready, just needs to make contact once. Nunes by TKO. -- John Wood, Syndicate MMA"
-    },
-    {
-      "story_id": "50472487",
-      "headline": "Finland's block on Russian athletes could affect NHL's return",
-      "summary": "The NHL will consider Finland's plans to prevent Russian athletes from entering the country when deciding whether to stage more regular-season games there in the future, the league told The Associated Press.",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745296_1296x729_16-9.jpg",
-      "published_utc": "2026-11-13T17:14:05Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50472487/finland-block-russian-athletes-affect-nhl-return",
-      "stream_url": "",
-      "body": "The NHL will consider Finland's plans to prevent Russian athletes from entering the country when deciding whether to stage more regular-season games there in the future, the league told The Associated Press.\n\nFinland and Norway both announced plans to refuse entry to Russian athletes Thursday, the same day as the Carolina Hurricanes defeated the Seattle Kraken 4-1 in the first of two NHL regular-season games in the Finnish capital, Helsinki.\n\nThe Finnish restrictions take effect Monday, after the NHL games, and follow a backlash to Russia being reinstated in the hockey world championships, which is not an NHL event.\n\n\"We are aware of the government's position, and we'll have to take that into account,\" the league said Friday when asked if the new restrictions would be an obstacle to future games in Finland.\n\nThe Finnish foreign ministry's statement outlining the restrictions did not distinguish between Russian athletes on national teams, those competing as neutral athletes or those on club teams in sports like hockey or soccer.\n\nThe ministry said Thursday that Russians would be allowed to work in Finland only on \"tasks that are essential to Finland's national interests.\" It added that Russia \"uses sports as a propaganda tool.\"\n\nThe NHL has played regular-season games in Finland as part of its Global Series in 2022 and 2024. No future games have yet been announced.\n\nAs of the opening day of the 2026-27 season in September, there were 53 Russians on NHL rosters, making up 7.3% of the league. That was the fourth-largest contingent of players from any country.\n\nRussian wing Andrei Svechnikov had an assist for the Hurricanes in Thursday's win. Pyotr Kochetkov was Carolina's backup goaltender. The Hurricanes and Kraken play again in Finland on Saturday.\n\nThe government decisions Thursday followed a backlash in Finland to Russia being reinstated for the ice hockey world championships, but its effects could mostly be felt in other sports. The International Skating Union warned of a \"possible consequential impact\" on its figure skating world championships in Finland in March.\n\nPublic broadcaster ERR reported Friday that Estonia had written to the International Ski and Snowboard Federation that athletes from Russia and its ally Belarus would not be allowed to enter the country. Estonia hosts the world junior championships in Nordic skiing in January."
     },
     {
       "story_id": "50389094",
