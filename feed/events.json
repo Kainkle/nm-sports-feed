@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T00:53:17.712706+00:00",
+  "generated_utc": "2026-11-14T01:04:22.602980+00:00",
   "events": [
     {
       "event_id": "nhl:2026020293",
@@ -2267,7 +2267,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "8:24 - 2nd Quarter",
+      "detail": "4:27 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2313,7 +2313,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kia Center",
-      "detail": "5:57 - 2nd Quarter",
+      "detail": "2.6 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2361,7 +2361,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Acrisure Stadium",
-      "detail": "10:57 - 2nd Quarter",
+      "detail": "7:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2405,9 +2405,9 @@
         "color": "2f4f93"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Tower Hill Arena",
-      "detail": "Halftime",
+      "detail": "19:10 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2451,9 +2451,9 @@
         "color": "f56423"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "State Farm Center",
-      "detail": "Halftime",
+      "detail": "18:58 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2498,9 +2498,9 @@
         "color": "473282"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Breslin Center",
-      "detail": "2:43 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2545,9 +2545,9 @@
         "color": "171796"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Food City Center",
-      "detail": "3:10 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2592,9 +2592,9 @@
         "color": "582c83"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Memorial Gymnasium (TN)",
-      "detail": "Halftime",
+      "detail": "18:38 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2639,9 +2639,9 @@
         "color": "003976"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Rupp Arena",
-      "detail": "Halftime",
+      "detail": "17:40 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2687,7 +2687,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "PeoplesBank Arena",
-      "detail": "11:19 - 1st Half",
+      "detail": "7:42 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2701,7 +2701,7 @@
       "competition_id": "wwe",
       "competition_name": "WWE",
       "start_utc": "2026-11-14T01:00:00Z",
-      "status": "scheduled",
+      "status": "unknown",
       "home": {
         "id": "tvmaze:803",
         "name": "WWE Friday Night SmackDown",
@@ -2870,6 +2870,99 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401916297",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-14T01:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:120",
+        "name": "Maryland Terrapins",
+        "abbrev": "MD",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+        "logo_dark": null,
+        "aliases": [
+          "MD",
+          "Maryland",
+          "Maryland Terrapins",
+          "Terrapins"
+        ],
+        "color": "ce1126"
+      },
+      "away": {
+        "id": "espn:258",
+        "name": "Virginia Cavaliers",
+        "abbrev": "UVA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cavaliers",
+          "UVA",
+          "Virginia",
+          "Virginia Cavaliers"
+        ],
+        "color": "232d4b"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "in/In Progress",
+      "venue": "XFINITY Center",
+      "detail": "19:04 - 1st Half",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401917916",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-14T01:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:8",
+        "name": "Arkansas Razorbacks",
+        "abbrev": "ARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARK",
+          "Arkansas",
+          "Arkansas Razorbacks",
+          "Razorbacks"
+        ],
+        "color": "a32136"
+      },
+      "away": {
+        "id": "espn:2110",
+        "name": "Central Arkansas Bears",
+        "abbrev": "CARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bears",
+          "C Arkansas",
+          "CARK",
+          "Central Arkansas",
+          "Central Arkansas Bears"
+        ],
+        "color": "a7a9ac"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "in/In Progress",
+      "venue": "Bud Walton Arena",
+      "detail": "18:51 - 1st Half",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401909565",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -2907,99 +3000,6 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "pre/Scheduled",
       "venue": "Cameron Indoor Stadium",
-      "detail": "Fri, November 13th at 8:00 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401916297",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-14T01:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:120",
-        "name": "Maryland Terrapins",
-        "abbrev": "MD",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
-        "logo_dark": null,
-        "aliases": [
-          "MD",
-          "Maryland",
-          "Maryland Terrapins",
-          "Terrapins"
-        ],
-        "color": "ce1126"
-      },
-      "away": {
-        "id": "espn:258",
-        "name": "Virginia Cavaliers",
-        "abbrev": "UVA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cavaliers",
-          "UVA",
-          "Virginia",
-          "Virginia Cavaliers"
-        ],
-        "color": "232d4b"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
-      "venue": "XFINITY Center",
-      "detail": "Fri, November 13th at 8:00 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401917916",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-14T01:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:8",
-        "name": "Arkansas Razorbacks",
-        "abbrev": "ARK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARK",
-          "Arkansas",
-          "Arkansas Razorbacks",
-          "Razorbacks"
-        ],
-        "color": "a32136"
-      },
-      "away": {
-        "id": "espn:2110",
-        "name": "Central Arkansas Bears",
-        "abbrev": "CARK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bears",
-          "C Arkansas",
-          "CARK",
-          "Central Arkansas",
-          "Central Arkansas Bears"
-        ],
-        "color": "a7a9ac"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
-      "venue": "Bud Walton Arena",
       "detail": "Fri, November 13th at 8:00 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
@@ -10507,25 +10507,39 @@
   ],
   "stories": [
     {
-      "story_id": "50475505",
-      "headline": "Seahawks are hurting with injuries, but two players will return vs. Raiders",
-      "summary": "QB Drew Lock will start again for Darnold. LB Uchenna Nwosu and WR Rashid Shaheed will return to the field in Las Vegas.",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745471_608x342_16-9.jpg",
-      "published_utc": "2026-11-14T00:33:45Z",
+      "story_id": "50462045",
+      "headline": "Fantasy football Week 10 inactives: Who's in and who's out?",
+      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745316_576x324_16-9.jpg",
+      "published_utc": "2026-11-14T01:01:08Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Brady Henderson",
+      "byline": "Michael F. Florio",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50475505/seahawks-raiders-week-10-darnold-lock-shaheed-returns",
+      "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50462045/fantasy-football-injuries-nfl-week-10-inactive-active",
       "stream_url": "",
-      "body": "RENTON, Wash. - Seattle Seahawks coach Mike Macdonald said Drew Lock had a good week of practice as he prepares to fill in again for Sam Darnold on Sunday against the 4-5 Las Vegas Raiders (4:05 p.m. ET, CBS) -- this time despite a pair of ailments of his own.\n\nLock was already dealing with an injury to his right elbow when he hurt his oblique last Sunday in Seattle's 17-3 win over the Arizona Cardinals. He was again limited in practice all week, as has been the case since the start of Week 6.\n\n\"Similar cadence in workload in terms of last week,\" Macdonald said Friday. \"It's good to have done it and gotten through the week well. I know he's confident and optimistic, so we're in good shape.\"\n\nIn addition to Darnold (quad, rib) and left guard Quenton Nelson (knee) -- whom Macdonald had ruled out earlier in the week -- the Seahawks will be without defensive tackle Leonard Williams (stinger) and left tackle Charles Cross (ankle) again Sunday.\n\nThey'll get outside linebacker Uchenna Nwosu (ankle) and wide receiver/kick returner Rashid Shaheed (knee) back against the Raiders after each missed the past two games. Defensive tackle Jarran Reed will play Sunday after missing two days this week to tend to a personal matter.\n\nLock said Thursday that he was feeling good, and that his oblique injury wasn't impacting his throwing all that much. It's on his right side, which Lock said is \"way better\" for a right-handed quatrerback than a left oblique injury, which caused him to miss two weeks during the preseason when he was with the New York Giants in 2024.\n\n\"I feel like we did a great job handling the week last week, and here we are, we've just got a little something added to it, and I think we're doing the same,\" Lock said. \"We're doing a great job getting ready.\"\n\nMacdonald volunteered that No. 3 quarterback Jalen Milroe \"has done a tremendous job\" while taking reps with the Seahawks' No. 1 offense as the team continues to manage Lock's workload in practice.\n\nSunday's game will mark Lock's third start this season and the fourth time he's stepped in for Darnold, who hurt his glute on the fifth play of the opener, then suffered a cracked rib and a quad injury in Week 8.\n\nMacdonald has said Darnold might be able to return for the Seahawks' game against the San Francisco 49ers in Week 12, following their bye.\n\n\"I see Sam progressing with his rehab,\" Macdonald said. \"The guys are saying he's doing a great job and he's progressing. We'll take it a day and a week at a time.\"\n\nWilliams will miss his second straight game due to a stinger. He took part in pre-practice warmups on Wednesday and Thursday but was listed as a non-participant all week.\n\n\"It's more of a contact thing,\" Macdonald said. \"So he's done a good job of staying in shape and staying fresh. He's in the meetings. He's doing all the Leo things. He's just not playing right now.\"\n\nJosh Jones will make a third consecutive start at left tackle for Cross, who also did not practice this week. Macdonald said Cross should be ready for the 49ers game on Nov. 29."
+      "body": "Biggest injury concerns for Week 10\nPlayers in Germany\nAmon-Ra St. Brown, WR, Lions (ribs): The \"Sun God\" was limited at practice this week and is listed as questionable but appears\u202flikely to play\u202fin Week 10. He played through the injury last week and surpassed 16 fantasy points. St. Brown, who is a German citizen, will look to put on a show.\n\nA.J. Brown, WR, Patriots (ankle/knee): Brown has been limited at practice this week and is questionable for Week 10. Brown averaged eight targets per game for the two times that he played on over 75% of snaps. Given all the missed time, he brings some risk. Still, if he suits up, fantasy managers should take the chance as he has a fantastic matchup against the Lions, who have allowed the fourth-most WR fantasy PPG.\n\nRhamondre Stevenson, RB, Patriots (knee): Stevenson was able to return in a limited fashion after missing practice to start the week. He is listed as questionable for Sunday. He has a tough matchup against the Lions, who have allowed the second-fewest fantasy PPG. They rank bottom six in rushing touchdowns and rushing yards per game allowed to RBs. He would be a risky flex option if he suits up. If he sits, Corey Kiner is the next man up. He would see volume, which is enough to have him in the flex range, but he should ideally be avoided if possible.\n\nHunter Henry, TE, Patriots (foot): Henry has been limited at practice this week but does not currently carry an injury designation for Week 10. That means he is expected to play. Henry is a TE1 worth starting against the Lions, who have allowed the most yards, touchdowns and fantasy points to tight ends.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 10 Buzz\n\nWeek 10 Rankings | Matchup rankings for Week 10\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nPlayers with early starts\nHarold Fannin Jr., TE, Browns (groin): While Fannin was limited at practice this week, he has been removed from Cleveland's injury report and will play in Week 10. The Texans' defense is tough on tight ends, having allowed the fourth-fewest fantasy PPG to the position. Still, consider Fannin to be a TE1 this week in a game where the Browns might be trailing and needing to throw.\n\nDenzel Boston, WR, Browns (toe): Boston missed practice on Thursday before returning Friday. He is questionable for Week 10, but HC Todd Monken said on Friday that Boston is \"trending in the right direction.\" On paper, Boston has a favorable matchup against the Texans, although they have been tougher as of late. He is in the WR3/flex range. If he were to sit, KC Concepcion gets the biggest boost and would be in a similar range as Boston. Fannin, albeit in a tough matchup, would also likely see a few more targets.\n\nDavid Montgomery, RB, Texans (groin): Montgomery returned to practice in a limited fashion Thursday before upgrading to full on Friday. He is listed as questionable, but his participation gives him a\u202fchance to suit up\u202fin Week 10.\u202fWoody Marks\u202fpopped up on the injury report with a knee injury suffered at practice on Wednesday. He missed Thursday but is not on the final injury report, meaning he will play this Sunday. If Montgomery plays, he's the top option. Either way, the Texans' starting RB is no more than a flex option in a favorable matchup against the Browns, who have allowed the third-most rushing yards per game to the position.\n\nBhayshul Tuten, RB, Jaguars (ankle/foot): \u202fDespite missing practice this week, Tuten is off the practice report and will play in Week 10. Tuten should be started in fantasy this week. The lone concern is the potential for him to see a reduced workload (just like last week). That would especially be the case if the Jaguars pull ahead, which is very likely against the Titans.\n\nJakobi Meyers, WR, Jaguars (ankle): \u202fMeyers returned to practice Thursday and is off the injury report, meaning he will play\u202fin Week 10. Meyers has played through a number of injuries this season. He is a flex option for those in deeper leagues. The Titans have allowed the most WR fantasy PPG and allow explosive pass plays at the third-highest rate.\n\nKenneth Walker III, RB, Chiefs (groin): Walker sat out Friday's practice, which always adds concern. Andy Reid said the Chiefs will \"see how he feels\" before making a call for Sunday. If he suits up, even with limited touches, he should be started in fantasy football. That would also make Emmett Johnson a flex option, as he would likely see a bump in usage. Johnson becomes a \"must start\" if Walker is ruled out.\n\nGarrett Wilson, WR, Jets (concussion): After sitting out Week 9, Wilson has been limited at practice and is questionable for Week 10. If Wilson suits up, fantasy managers should start him as a WR2. While he has been up and down, the Bills are allowing the 10th-most WR fantasy PPG. Plus, the Jets are likely to be playing from behind in this one and, thus, will have to throw.\n\nOmar Cooper Jr., WR, Jets (ankle): Cooper was limited at practice this week before upgrading to full on Friday. He is\u202fquestionable\u202ffor Week 10. If Cooper plays, he'd be in the WR3 range but with much more upside. Cooper saw 11 targets last week and has surpassed 13 fantasy points in three of his past four games, including two 22-point efforts. Plus,\u202fGeno Smith\u202fshould be very effective airing the ball out against a Bills secondary that has been very leaky at times. Adonai Mitchell (knee) popped onto the injury report Friday and is also questionable for the Jets.\n\nTravis Etienne Jr, WR, Saints (hamstring): Etienne, who has not played since Week 3, was limited at practice this week before upgrading to full participation Friday. Nevertheless, he is questionable for Week 10. If he suits up, do not be surprised if he has a reduced workload in his first game back. Even so, he would be in the RB2 range against the Panthers, who rank top-two in terms of the most rushing TDs and fantasy RB PPG allowed. If he sits, Audric Estime would be a streaming option worth starting in 12-team leagues.\n\n-->\n\nPlayers with late starts\nBam Knight, RB, Cardinals (concussion): Knight has cleared the league's concussion protocol and will play in Week 10. Expect him to handle the bulk of early-down opportunities. Tyler Allgeier is the preferred fantasy play because he handles passing downs on a team that will likely throw often. Still, both are just flex options. Trey McBride is the only Cardinal who should be started this week.\n\nGeorge Pickens, WR, Cowboys (hamstring): Pickens has been limited at practice but was removed from the injury report, meaning he will play Sunday. Even though he has not duplicated his success from last season, Pickens is still good enough that when he plays, you start him in fantasy. If he were to sit, Ryan Flournoy becomes a streaming option in what could be a high-scoring game against the 49ers.\n\nDeebo Samuel Sr., WR, 49ers (hamstring): Samuel has practiced in a limited fashion this week and has been removed from the injury report, meaning he will play in Week 10. He is a WR3/flex play with upside against the Cowboys, who have allowed the seventh-most WR fantasy PPG. The 49ers will be without\u202fMike Evans\u202fthis week but did add Keenan Allen at the trade deadline. Expect Allen to be used only in a limited fashion for his first game with a new team.\n\nDrew Lock, QB, Seahawks (right elbow/oblique): Lock had been limited at practice this week but has since been removed from the injury report, meaning he will play in Week 10. He's a streaming option for those in need of a bye week/injury replacement. He faces the Raiders, who have allowed the most passing touchdowns and third-most QB fantasy PPG.\n\nPlayers on Sunday night\nNo fantasy relevant injuries of note.\n\nPlayers on Monday night\nLadd McConkey, WR, Chargers (back spasms): Twice in the past five weeks, McConkey has been active for his game but did not play a single snap. Last week, fantasy managers did not know he would not be playing until after kickoff. Simply put, it's very tough to trust him -- especially since McConkey did not practice to start the week and this game is on Monday night. Sitting all your Chargers is probably the way to go.\n\nRuled out before Sunday\nMichael Wilson, WR, Cardinals (neck): Wilson has been placed on IR and is out for the rest of the season. Arizona's receivers moving forward are Reggie Virgil, Simi Fehoko, Devin Duvernay with Zay Jones, Phillip Dorsett II and James Proche II on the practice squad. The preferred options would be Virgil and Jones (if he's elevated). However, this is a situation to avoid unless you are both in a deep league and desperate.\n\nGardner Minshew II, QB, Cardinals (elbow): Minshew has also been placed on the IR and is out for the rest of the season. It will be Carson Beck starting moving forward for Arizona. He's worth an add in 2-QB formats, but even there, he is just \"depth\" until we see otherwise. For the time being, consider the Cardinals' offensive motto to be \"McBride or bust\" and act accordingly.\n\nJake Ferguson, TE, Cowboys (knee/ankle): Ferguson is out for Week 10 and might miss multiple weeks. That likely means more volume for the Cowboys trio of WRs and makes Ryan Flournoy a more appealing flex option. Go with the replacement options listed above if you need a TE this week.\n\nMarvin Harrison Jr, WR, Texans (hamstring): Harrison was limited Wednesday before missing practice Thursday, which indicates that he was likely injured during practice. He has since been ruled out for Week 10. That makes\u202fTank Dell\u202fa bit more appealing. However, he would still be no more than a \"boom or bust\" option.\n\nPuka Nacua, WR, Rams (knee): Nacua was placed on IR and will miss a minimum of four games. The Rams also placed Jordan Whittington on IR this week (back). That leaves the Rams with Konata Mumpfield and Tutu Atwell as their top receivers. Both are deeper-league flex options. However, I expect a lot of targets to go to the team's RBs and TEs. Both Kyren Williams and Blake Corum should be started this week, while Higbee is a streaming option.\n\nMalik Willis, QB, Dolphins (groin): Willis was placed on the IR this week, meaning he will miss a minimum of four games. The Dolphins will start Kyle McCord in his place. For the time being, fantasy managers should avoid all Dolphins pass catchers. Ollie Gordon II is the lone Miami player worth starting this week. The Colts D/ST is a solid streaming option against the McCord-led Dolphins.\n\nT.J. Hockenson, TE, Vikings (chest/wrist): Hockenson has not practiced this week and is out\u202ffor Week 10. This likely means even more volume for\u202fJustin Jefferson\u202fand\u202fJordan Addison, who is listed as questionable with a thumb injury. Some potential alternatives for Hockenson are Hunter Henry, Darren Waller and Tyler Higbee.\n\nCarnell Tate, WR, Titans (shoulder): Coming out of the bye week, Tate has still not practiced. He has been ruled out for Week 10. Expect Wan'Dale Robinson to get a boost in targets. The Titans are likely going to be trailing and will need to throw plenty in a game facing a Jaguars team that has allowed the most WR receiving yards per game. That's enough to make Robinson a flex option in 12-team leagues."
+    },
+    {
+      "story_id": "49577473",
+      "headline": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament.",
+      "image": "https://a.espncdn.com/photo/2026/0811/r1700475_1296x729_16-9.jpg",
+      "published_utc": "2026-11-14T00:54:09Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "stream_url": "",
+      "body": "Which two teams will face off inside Hinkle Fieldhouse in Indianapolis for the 2026 Emirates NBA Cup?\n\nThis summer, the league unveiled the full group stage schedule for this year's in-season tournament, with action taking place every Friday from Oct. 30 to Nov. 27 and on special Cup nights during Thanksgiving week (Nov. 24-25).\n\nAfter the New York Knicks became the first team to win the NBA Cup and Finals in the same season, can Jalen Brunson & Co. keep their championship run going? They'll have plenty of competition, specifically within the star-studded East Group B.\n\nHere's what you need to know about the in-season tournament, now in its fourth year.\n\nJump to a section:\n\nSchedule | Groups | FAQ\n\n2026 Emirates NBA Cup schedule\n\nGroup Play\nOct. 30\n\nWashington Wizards 95, Charlotte Hornets 79\nBoston Celtics 125, Chicago Bulls 111\nDetroit Pistons 110, Brooklyn Nets 94\nPhiladelphia 76ers 98, New York Knicks 93\nOrlando Magic 121, Toronto Raptors 114\nMiami Heat 145, Indiana Pacers 125\nDallas Mavericks 116, Houston Rockets 111\nMinnesota Timberwolves 127, LA Clippers 101\nGolden State Warriors 112, Los Angeles Lakers 95\nDenver Nuggets 127, Phoenix Suns 120\n\nNov. 6\n\nAtlanta Hawks 139, Washington Wizards 132\nBoston Celtics 119, Charlotte Hornets 80\nCleveland Cavaliers 119, Philadelphia 76ers 95\nDallas Mavericks 112, Utah Jazz 100\nOklahoma City Thunder 128, Memphis Grizzlies 97\nToronto Raptors 121, Milwaukee Bucks 107\nMinnesota Timberwolves 115, New Orleans Pelicans 109\nLos Angeles Lakers 124, Portland Trail Blazers 118\nSan Antonio Spurs 124, Sacramento Kings 109\n\nNov. 13\n\nNew York Knicks at Indiana Pacers, 7 p.m. ET (Prime)\nMilwaukee Bucks at Orlando Magic, 7 p.m. ET\nCleveland Cavaliers at Miami Heat, 8 p.m. ET\nAtlanta Hawks at Chicago Bulls, 8 p.m. ET\nMemphis Grizzlies at New Orleans Pelicans, 8 p.m. ET\nUtah Jazz at Houston Rockets, 8:30 p.m. ET\nGolden State Warriors at San Antonio Spurs, 9:30 p.m. ET (Prime)\nPortland Trail Blazers at Sacramento Kings, 10 p.m. ET\nOklahoma City Thunder at LA Clippers, 10:30 p.m. ET\n\nNov. 20\n\nCharlotte Hornets at Atlanta Hawks, 7 p.m. ET\nOrlando Magic at Brooklyn Nets, 7:30 p.m. ET\nIndiana Pacers at Cleveland Cavaliers, 7:30 p.m. ET\nToronto Raptors at Detroit Pistons, 7:30 p.m. ET (Prime)\nWashington Wizards at Chicago Bulls, 8 p.m. ET\nNew Orleans Pelicans at Oklahoma City Thunder, 8 p.m. ET\nPhoenix Suns at Utah Jazz, 9:30 p.m. ET\nHouston Rockets at Denver Nuggets, 10 p.m. ET (Prime)\nSacramento Kings at Los Angeles Lakers, 10 p.m. ET\n\nNov. 24\n\nDetroit Pistons at Orlando Magic, 7 p.m. ET\nBoston Celtics at Washington Wizards, 8 p.m. ET (NBC)\nDallas Mavericks at Denver Nuggets, 10 p.m. ET (NBC)\n\nNov. 25\n\nMiami Heat at Philadelphia 76ers, 5 p.m. ET (ESPN)\nChicago Bulls at Charlotte Hornets, 7 p.m. ET\nCleveland Cavaliers at New York Knicks, 7:30 p.m. ET\nMinnesota Timberwolves at Oklahoma City Thunder, 7:30 p.m. ET\nLA Clippers at Memphis Grizzlies, 8 p.m. ET\nBrooklyn Nets at Milwaukee Bucks, 8 p.m. ET\nPhoenix Suns at Houston Rockets, 8:30 p.m. ET\nSacramento Kings at Golden State Warriors, 10 p.m. ET\nSan Antonio Spurs at Portland Trail Blazers, 10 p.m. ET (ESPN)\n\nNov. 27\n\nMiami Heat at New York Knicks, 7 p.m. ET (Prime)\nMilwaukee Bucks at Detroit Pistons, 7:30 p.m. ET\nPhiladelphia 76ers at Indiana Pacers, 7:30 p.m. ET\nBrooklyn Nets at Toronto Raptors, 7:30 p.m. ET\nAtlanta Hawks at Boston Celtics, 8 p.m. ET\nMemphis Grizzlies at Minnesota Timberwolves, 8:30 p.m. ET\nDallas Mavericks at Phoenix Suns, 9 p.m. ET\nLos Angeles Lakers at San Antonio Spurs, 9:30 p.m. ET (Prime)\nDenver Nuggets at Utah Jazz, 9:30 p.m. ET\nNew Orleans Pelicans at LA Clippers, 9:30 p.m. ET\nGolden State Warriors at Portland Trail Blazers, 9:30 p.m. ET\n\nKnockout rounds\n\nDec. 4-5: Quarterfinals\n\nDec. 8 and/or Dec. 9: Semifinals\n\nDec. 11: Championship\n\nNBA Cup FAQ: Everything to know\nWhat is the format?\n\nNBA commissioner Adam Silver has had a longstanding fascination with European soccer. Establishing an in-season cup competition within the NBA schedule came from soccer leagues having both a regular-season title, won by the team with the most points over the full year, and a separate tournament (or, in some leagues, multiple tournaments) that runs concurrently with the league season.\n\nIn England, for example, there are the various divisions -- led by the Premier League -- and also the FA Cup competition. But unlike those European leagues, which play their cup competitions outside of their league schedules, the NBA Cup is built in to the regular-season slate.\n\nThe 30 NBA teams are split into six five-team groups -- three featuring Eastern Conference teams and three comprising Western Conference teams -- with each team then playing one game against the other four in its group. The winner of each group, plus the team with the best record among the non-group winners, advances to the knockout stage of the competition.\n\nHow will this impact the regular-season schedule and standings?\n\nTypically, the NBA sends out a full 82-game schedule in mid-August. Now, the league sends out only 80 games and leaves a gap of roughly a week to fill in later, depending on how the group stage of the NBA Cup plays out.\n\nThe two teams from the East and West that lose in the quarterfinals will play their 82nd game against each other. Meanwhile, the 22 teams that fail to qualify for the knockout rounds will have their final two games scheduled -- one at home and one on the road against others eliminated in the group stage.\n\nThe teams that reach the NBA Cup final will actually play 83 games -- though the championship game won't count toward the standings or any statistical markers. The four teams that reach the semifinals will have completed their 82 games and won't need any other games added to their schedule.\n\nAny team that makes it to the semifinals will have that game moved later in the schedule to avoid back-to-back games. The NBA made this change in an effort to avoid having empty days on the calendar while attempting to minimize back-to-backs for all teams as much as possible.\n\nWhere are the semifinals and final being played?\n\nIn a shift from previous tournaments, the quarterfinals and semifinals will be played at home sites. The Dec. 11 title game, meanwhile, will move from Las Vegas to the storied Hinkle Fieldhouse in Indianapolis. NBA commissioner Adam Silver previously said the league was searching for \"storied college arenas\" to play host to the Cup final. (No venue has been announced for 2027.)\n\nWhy does the NBA Cup include regular-season games?\n\nBefore its launch, one of the main questions surrounding the in-season tournament was why any team would be incentivized to compete in it. The NBA ensured teams will be motivated by making every game part of the season and, as in-conference matchups, potentially important to playoff tiebreakers. If this had been set up like the cup tournaments in European soccer, there would have been nothing stopping NBA teams from opting out by sitting their top players for extra rest.\n\nWhich teams make up the groups?\n\nTo create the groups, the NBA put the 15 teams in each conference into five pots, separated by their finish last season. Pot 1 included the teams that finished in the top three in the regular-season standings, Nos. 4-6 in the standings went into Pot 2, Nos. 7-9 into Pot 3, Nos. 10-12 into Pot 4 and Nos. 13-15 into Pot 5. As a result, the following groups were drawn:\n\nEast Group A\n\nDetroit Pistons\nToronto Raptors\nOrlando Magic\nMilwaukee Bucks\nBrooklyn Nets\n\nEast Group B\n\nNew York Knicks\nCleveland Cavaliers\nPhiladelphia 76ers\nMiami Heat\nIndiana Pacers\n\nEast Group C\n\nBoston Celtics\nAtlanta Hawks\nCharlotte Hornets\nChicago Bulls\nWashington Wizards\n\nWest Group A\n\nDenver Nuggets\nHouston Rockets\nPhoenix Suns\nDallas Mavericks\nUtah Jazz\n\nWest Group B\n\nOklahoma City Thunder\nMinnesota Timberwolves\nLA Clippers\nNew Orleans Pelicans\nMemphis Grizzlies\n\nWest Group C\n\nSan Antonio Spurs\nLos Angeles Lakers\nPortland Trail Blazers\nGolden State Warriors\nSacramento Kings\n\nDoes one group stand out the most from the others?\n\nEast Group B is a monster.\n\nAll five teams -- defending NBA Cup and Finals champion New York, Philadelphia, Cleveland, Miami and Indiana -- are among the favorites to win the conference in 2026-27. The group stage will also feature reunion games for LeBron James, when the 76ers face the Cavs and Heat. And after guard Tyrese Haliburton missed the entire 2025-26 season while rehabbing a torn Achilles, the Pacers will be back among the East elite and hungry to reach the title game in Indianapolis.\n\nWhat do players get for winning?\n\nIn 2023, the first year the tournament was held, the players on the winning team received $500,000 each and the runners-up got $200,000. The losing players of the semifinals each got $100,000, and those ousted in the quarterfinals got $50,000. Now, in each subsequent year, the prizes will be slightly higher, as a result of negotiated raises year over year to keep pace with increases in the salary cap and basketball-related income as part of the most recent collective bargaining agreement between the NBA and the National Basketball Players Association.\n\nWill anyone earn individual honors for their play in NBA Cup games?\n\nThere will be an MVP award, as well as an all-tournament team.\n\nWill this have any impact on the playoffs?\n\nNot beyond the games counting in the regular-season standings (and toward tiebreakers). The only playoff impact comes from the wins and losses accrued throughout the tournament. Though there was debate among league insiders about guaranteeing a playoff berth for winning the tournament, ultimately that idea (or any other to further incentivize teams) was not enacted.\n\nWhy is it called the Emirates NBA Cup?\n\nThe league struck a sponsorship deal with Emirates, the Dubai-based airline, to sponsor the tournament after its initial run. The NBA said last year that it went with the most basic titles for both the tournament and its trophy -- the \"in-season tournament\" and \"NBA Cup\" -- as a way to introduce the concept to fans. However, using such nondescript names had another clear advantage: It gave the league a blank slate in case it sold the naming rights for the tournament and cup to a sponsor and avoided the complications that could arise by naming them after someone (for example, late NBA commissioner David Stern, one possibility that had been floated before the tournament was officially unveiled).\n\nPrevious NBA Cup champions\n\n2025\n\nNew York Knicks defeat San Antonio Spurs, 124-113\nTournament MVP: Jalen Brunson, Knicks\n\n2024\n\nMilwaukee Bucks defeat Oklahoma City Thunder, 97-81\nTournament MVP: Giannis Antetokounmpo, Bucks\n\n2023\n\nLos Angeles Lakers defeat Indiana Pacers, 123-109\nTournament MVP: LeBron James, Lakers"
     },
     {
       "story_id": "50474340",
       "headline": "Sources: San Jose Earthquakes sold for $625 million to Heath Freeman",
-      "summary": "Alden Global Capital co-founder Heath Freeman is purchasing the San Jose Earthquakes from John Fisher, following MLS owners' approval of the sale on Thursday.",
+      "summary": "Alden Global Capital co-founder Heath Freeman is purchasing the San Jose Earthquakes from John Fisher, following MLS owners' approval of the sale Thursday.",
       "image": "https://a.espncdn.com/photo/2026/1113/r1745440_1296x729_16-9.jpg",
-      "published_utc": "2026-11-14T00:28:09Z",
+      "published_utc": "2026-11-14T00:49:47Z",
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "byline": "Jeff Carlisle",
@@ -10547,20 +10561,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50475260/pochettino-had-one-foot-door-world-cup",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50475090",
-      "headline": "Lakers' Austin Reaves day-to-day with left heel bruise",
-      "summary": "Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said Friday.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/180244b3-72dc-4af0-a281-c52094df7f63/180244b3-72dc-4af0-a281-c52094df7f63.jpg",
-      "published_utc": "2026-11-13T23:14:42Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Dave McMenamin",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50475090/lakers-austin-reaves-day-day-left-heel-bruise",
-      "stream_url": "",
-      "body": "EL SEGUNDO, Calif. -- Los Angeles Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said after practice Friday.\n\nReaves left L.A.'s 123-112 victory over the Milwaukee Bucks on Wednesday midway through the third quarter and did not return after landing awkwardly on his left foot after missing a contested fast-break dunk.\n\nReaves underwent X-rays at the arena Wednesday that came back clean. After seeing how Reaves was feeling Thursday morning once the Lakers returned to Los Angeles, the team determined that further medical imaging on the shooting guard's foot would not be necessary.\n\nWhen Redick was asked if Reaves had suffered only a \"minor\" injury, considering the Lakers decided to forgo an MRI, the coach replied: \"I would assume a day-to-day injury is minor, yeah.\"\n\nRedick provided injury updates on three other Lakers players as well.\n\nLuka Doncic, who turned his right ankle late in the win over the Bucks, \"is fine,\" according to Redick.\n\n\"I think the expectation would be he's available,\" Redick said, referring to L.A.'s next game against the Phoenix Suns on Sunday.\n\nRedick said backup guard Collin Sexton, who required stitches above his right eye after he and Bucks guard Ryan Rollins unintentionally head-butted one another Wednesday, was cleared of any concussion symptoms but is also considered day-to-day.\n\nGuard Quentin Grimes, who sprained the right pinkie on his shooting hand and missed the Lakers' past two games, participated in the live portion of practice Friday, Redick said.\n\nGrimes said he jammed the finger in the Pistons game and taped it up for practice.\n\n\"The swelling has gone down a lot,\" Grimes said. \"It's kind of feeling basically back to normal.\"\n\nThe Lakers, at 11-2, own the No. 1 record in the NBA. Redick used the three-day break in the schedule to \"audit\" the team. He said he had his analytics department prepare a 21-page presentation he used, along with a film session, to discuss L.A.'s defensive and offensive identities before practice Friday.\n\n\"It was good,\" forward Ziaire Williams said of the meeting. \"A lot of good things and a lot of things to clean up. Being first in the West, with the stuff that they showed us, you would think we were almost last, you know? But yeah, for sure, got to keep us honest.\""
     },
     {
       "story_id": "50474604",
@@ -10675,18 +10675,32 @@
       "body": "Jamayne Isaako is taking it personally as a generational New Zealand team attempts to break Australia's World Cup stranglehold in their Brisbane decider.\n\nThe Kiwis will face the Kangaroos at Suncorp Stadium on Sunday, attempting to win a second cup and first since 2008.\n\nThe hosts have won nine of the last 10 tournaments but will be challenged by a side that did everything but win in a 24-22 loss to begin the tournament.\n\nAustralian winger Jack Bostock scored a hat trick on debut, twice leaping above Dolphins teammate Isaako for tries while also plucking an intercept.\n\nIsaako, who will leave for the Melbourne Storm next season after 11 campaigns with Brisbane's, Gold Coast's and Redcliffe's NRL clubs, hasn't forgotten.\n\n\"Not to take him lightly,\" Isaako said of what he took from that duel.\n\n\"It wasn't something I incorporated into my prep; his height and reach there.\n\n\"So it's something I'll be taking personally this weekend, hopefully I can stop him and do a better job.\"\n\nBostock played in the centres - on the same side of the field as Isaako - in the New Zealander's last season at the Dolphins and the pair were able to laugh about the contest when they reunited for a photo-shoot this week.\n\n\"He gave me a little bit of stick,\" Isaako said.\n\nThe 30-year-old maintains belief is high, pointing to the side's 2023 Pacific Champions triumph as a turning point for the team and himself. The goal-kicker was left out of the Kiwis side for four years before his 2023 return and has played 13 consecutive Test and 98 consecutive NRL games since.\n\n\"There's a lot of confidence about what we've been able to create here,\" he said.\n\n\"I don't think we're ever going to get a squad (this good) again, so it's about making the most of the moments we get together.\n\n\"I'm certainly going to miss this place (living in Brisbane) and I'd like to finish on a high, hopefully holding the World Cup.\""
     },
     {
-      "story_id": "50462045",
-      "headline": "Fantasy football Week 10 inactives: Who's in and who's out?",
-      "summary": "Updated inactives and analysis based on the latest reports and official announcements leading up to kickoff.",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745316_576x324_16-9.jpg",
-      "published_utc": "2026-11-14T00:11:35Z",
+      "story_id": "50475505",
+      "headline": "Seahawks are hurting with injuries, but two players will return vs. Raiders",
+      "summary": "QB Drew Lock will start again for Darnold. LB Uchenna Nwosu and WR Rashid Shaheed will return to the field in Las Vegas.",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745471_608x342_16-9.jpg",
+      "published_utc": "2026-11-14T00:33:45Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Michael F. Florio",
+      "byline": "Brady Henderson",
       "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50462045/fantasy-football-injuries-nfl-week-10-inactive-active",
+      "link": "https://www.espn.com/nfl/story/_/id/50475505/seahawks-raiders-week-10-darnold-lock-shaheed-returns",
       "stream_url": "",
-      "body": "Biggest injury concerns for Week 10\nPlayers in Germany\nAmon-Ra St. Brown, WR, Lions (ribs): The \"Sun God\" was limited at practice this week and is listed as questionable but appears\u202flikely to play\u202fin Week 10. He played through the injury last week and surpassed 16 fantasy points. St. Brown, who is a German citizen, will look to put on a show.\n\nA.J. Brown, WR, Patriots (ankle/knee): Brown has been limited at practice this week and is questionable for Week 10. Brown averaged eight targets per game for the two times that he played on over 75% of snaps. Given all of the missed time, he brings some risk. Still, if he suits up, fantasy managers should take the chance as he has a fantastic matchup against the Lions, who have allowed the fourth-most WR fantasy PPG.\n\nRhamondre Stevenson, RB, Patriots (knee): Stevenson was able to return in a limited fashion after missing practice to start the week. He is listed as questionable for Sunday. He has a tough matchup against the Lions, who have allowed the second-fewest fantasy PPG. They rank bottom six in rushing touchdowns and rushing yards per game allowed to RBs. He would be a risky flex option if he suits up. If he sits, Corey Kiner is the next man up. He would see volume, which is enough to have him in the flex range, but should ideally be avoided if possible.\n\nHunter Henry, TE, Patriots (foot): Henry has been limited at practice this week, but does not currently carry an injury designation for Week 10. That means he is expected to play. Henry is a TE1 worth starting against the Lions who have allowed the most yards, touchdowns and fantasy points to tight ends.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 10 Buzz\n\nWeek 10 Rankings | Matchup rankings for Week 10\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nPlayers with early starts\nHarold Fannin Jr., TE, Browns (groin): While Fannin was limited at practice this week, he has been removed from Cleveland's injury report and will play in Week 10. The Texans defense is tough on tight ends, having allowed the fourth-fewest fantasy PPG to the position. Still, consider Fannin to be a TE1 this week in a game where the Browns may be trailing and needing to throw.\n\nDenzel Boston, WR, Browns (toe): Boston missed practice on Thursday before returning on Friday. He is questionable for Week 10, however HC Todd Monken said on Friday that Boston is \"trending in the right direction.\" On paper, Boston has a favorable matchup against the Texans, although they have been tougher as of late. He is in the WR3/flex range. If he were to sit, KC Concepcion gets the biggest boost and would be in a similar range as Boston. Fannin, albeit in a tough matchup, would also likely see a few more targets.\n\nDavid Montgomery, RB, Texans (groin): Montgomery returned to practice in a limited fashion on Thursday before upgrading to full on Friday. He is listed as questionable his participation gives him a\u202fchance to suit up\u202fin Week 10.\u202fWoody Marks\u202fpopped up on the injury report with a knee injury suffered at practice on Wednesday. He missed Thursday, but is not on the final injury report meaning he will play this Sunday. If Montgomery plays, he's the top option. Either way, the Texans' starting RB is no more than a flex option in a favorable matchup against the Browns, who have allowed the third-most rushing yards per game to the position.\n\nBhayshul Tuten, RB, Jaguars (ankle/foot): \u202fDespite missing practice this week, Tuten is off the practice report and will play in Week 10. Tuten should be started in fantasy this week. The lone concern is the potential for him to see a reduced workload (just like last week) is a concern. That would especially be the case if the Jaguars pull ahead, which is very likely against the Titans.\n\nJakobi Meyers, WR, Jaguars (ankle): \u202fMeyers returned to practice on Thursday and is off the injury report, meaning he will play\u202fin Week 10. Meyers has played through a number of injuries this season. He is a flex option for those in deeper leagues. The Titans have allowed the most WR fantasy PPG and allow explosive pass plays at the third-highest rate.\n\nKenneth Walker III, RB, Chiefs (groin): Walker sat out Friday's practice, which always adds concern. Andy Reid said the Chiefs will \"see how he feels\" before making a call for Sunday. If he suits up, even with limited touches, he should be started in fantasy football. That would also make Emmett Johnson a flex option, as he would likely see a bump in usage. Johnson becomes a \"must start\" if Walker is ruled out.\n\nGarrett Wilson, WR, Jets (concussion): After sitting out Week 9, Wilson has been limited at practice and is questionable for Week 10. If Wilson suits up, fantasy managers should start him as a WR2. While he has been up and down, the Bills are allowing the 10th-most WR fantasy PPG. Plus, the Jets are likely to be playing a lot from behind in this one and, thus, will have to throw.\n\nOmar Cooper Jr., WR, Jets (ankle): Cooper was limited at practice this week before upgrading to full on Friday. He is\u202fquestionable\u202ffor Week 10. If Cooper plays, he'd be in the WR3 range, but with much more upside. Cooper saw 11 targets last week and has surpassed 13 fantasy points in three of his last four games, including two 22-point efforts. Plus,\u202fGeno Smith\u202fshould be very effective airing the ball out against a Bills secondary that has been very leaky at times. Adonai Mitchell (knee) popped on the injury report on Friday and is also questionable for the Jets.\n\nTravis Etienne Jr, WR, Saints (hamstring): Etienne, who has not played since Week 3, was limited at practice this week before upgrading to full participation on Friday. Nevertheless, he is questionable for Week 10. If he suits up, do not be surprised if he has a reduced workload in his first game back. Even so, he would be in the RB2 range against the Panthers, who rank top-two in terms of the most rushing TDs and fantasy RB PPG allowed. If he sits, Audric Estime would be a streaming option worth starting in 12-team leagues.\n\n-->\n\nPlayers with late starts\nBam Knight, RB, Cardinals (concussion): Knight has cleared the league's concussion protocol and will play in Week 10. Expect him to handle the bulk of early-down opportunities. Tyler Allgeier is the preferred fantasy play, just because he handles passing downs on a team that will likely throw often. Still, both are just flex options. Trey McBride is the only Cardinal who should be started this week.\n\nGeorge Pickens, WR, Cowboys (hamstring): Pickens has been limited at practice, but was removed from the injury report meaning he will play Sunday. Even though he has not duplicated his success from last season, Pickens is still good enough that when he plays, you start him in fantasy. If he were to sit, Ryan Flournoy becomes a streaming option in what could be a high-scoring game against the 49ers.\n\nDeebo Samuel Sr., WR, 49ers (hamstring): Samuel has practiced in a limited fashion this week and has been removed from the practice report, meaning he will play in Week 10. He is a WR3/flex play with upside against the Cowboys, who have allowed the seventh-most WR fantasy PPG. The 49ers are will be without\u202fMike Evans\u202fthis week, but did add Keenan Allen at the trade deadline. Expect Allen to be used only in a limited fashion for his first game with a new team.\n\nDrew Lock, QB, Seahawks (right elbow/oblique): Lock had been limited at practice this week but has since been removed from the injury report meaning he will play in Week 10. He's a streaming option for those in need of a bye week/injury replacement. He faces the Raiders, who have allowed the most passing touchdowns and third-most QB fantasy PPG.\n\nPlayers on Sunday night\nNo fantasy relevant injuries of note.\n\nPlayers on Monday night\nLadd McConkey, WR, Chargers (back spasms): Twice in the last five weeks, McConkey has been active for his game, but did not play on a single snap. Last week, fantasy managers did not know he would not be playing until after kickoff. Simply put, it's very tough to trust him -- especially since McConkey did not practice to start the week and this game is on Monday night. Sitting all of your Chargers is probably the way to go.\n\nRuled out before Sunday\nMichael Wilson, WR, Cardinals (neck): Wilson has been placed on IR and is out for the rest of the season. Arizona's receivers moving forward are Reggie Virgil, Simi Fehoko, Devin Duvernay with Zay Jones, Phillip Dorsett II and James Proche II on the practice squad. The preferred options would be Virgil and Jones (if he's elevated). However, this is a situation to avoid unless you both in a deep league and desperate.\n\nGardner Minshew II, QB, Cardinals (elbow): Minshew has also been placed on the IR and is out for the rest of the season. It will be Carson Beck starting moving forward for Arizona. He's worth an add in 2-QB formats, but even there, he is just \"depth\" until we see otherwise. For the time being, consider the Cardinals offensive motto to be \"McBride or bust\" and act accordingly.\n\nJake Ferguson, TE, Cowboys (knee/ankle): Ferguson is out for Week 10 and may miss multiple weeks. That likely means more volume for the Cowboys trio of WRs and makes Ryan Flournoy a more appealing flex option. Go with the replacement options listed above if you need a TE this week.\n\nMarvin Harrison Jr, WR, Texans (hamstring): Harrison was limited on Wednesday before missing practice on Thursday, which indicates that he was likely injured during practice. He has since been ruled out for Week 10. That makes\u202fTank Dell\u202fa bit more appealing. However, he would still be no more than a \"boom or bust\" option.\n\nPuka Nacua, WR, Rams (knee): Nacua was placed on IR and will miss a minimum of four games. The Rams also placed Jordan Whittington on IR this week (back). That leaves the Rams with Konata Mumpfield and Tutu Atwell as their top receivers. Both are deeper-league flex options. However, I expect a lot of targets to go to the team's RBs and TEs. Both Kyren Williams and Blake Corum should be started this week, while Higbee is a streaming option.\n\nMalik Willis, QB, Dolphins (groin): Willis was placed on the IR this week, meaning he will miss a minimum of four games. The Dolphins will start Kyle McCord in his place. For the time being, fantasy managers should avoid all Dolphins pass catchers. Ollie Gordon II is the lone Miami player worth starting this week. The Colts D/ST is a solid streaming option against the McCord-led Dolphins.\n\nT.J. Hockenson, TE, Vikings (chest/wrist): Hockenson has not practiced this week and is out\u202ffor Week 10. This likely means even more volume for\u202fJustin Jefferson\u202fand\u202fJordan Addison, who is listed as questionable with a thumb injury. Some potential alternatives for Hockenson are Hunter Henry, Darren Waller and Tyler Higbee.\n\nCarnell Tate, WR, Titans (shoulder): Coming out of the bye week, Tate has still not practiced. He has been ruled out for Week 10. Expect Wan'Dale Robinson to get a boost in targets. The Titans are likely going to be trailing and will need to throw plenty in a game facing a Jaguars team that has allowed the most WR receiving yards per game. That's enough to make Robinson a flex option in 12-team leagues."
+      "body": "RENTON, Wash. - Seattle Seahawks coach Mike Macdonald said Drew Lock had a good week of practice as he prepares to fill in again for Sam Darnold on Sunday against the 4-5 Las Vegas Raiders (4:05 p.m. ET, CBS) -- this time despite a pair of ailments of his own.\n\nLock was already dealing with an injury to his right elbow when he hurt his oblique last Sunday in Seattle's 17-3 win over the Arizona Cardinals. He was again limited in practice all week, as has been the case since the start of Week 6.\n\n\"Similar cadence in workload in terms of last week,\" Macdonald said Friday. \"It's good to have done it and gotten through the week well. I know he's confident and optimistic, so we're in good shape.\"\n\nIn addition to Darnold (quad, rib) and left guard Quenton Nelson (knee) -- whom Macdonald had ruled out earlier in the week -- the Seahawks will be without defensive tackle Leonard Williams (stinger) and left tackle Charles Cross (ankle) again Sunday.\n\nThey'll get outside linebacker Uchenna Nwosu (ankle) and wide receiver/kick returner Rashid Shaheed (knee) back against the Raiders after each missed the past two games. Defensive tackle Jarran Reed will play Sunday after missing two days this week to tend to a personal matter.\n\nLock said Thursday that he was feeling good, and that his oblique injury wasn't impacting his throwing all that much. It's on his right side, which Lock said is \"way better\" for a right-handed quatrerback than a left oblique injury, which caused him to miss two weeks during the preseason when he was with the New York Giants in 2024.\n\n\"I feel like we did a great job handling the week last week, and here we are, we've just got a little something added to it, and I think we're doing the same,\" Lock said. \"We're doing a great job getting ready.\"\n\nMacdonald volunteered that No. 3 quarterback Jalen Milroe \"has done a tremendous job\" while taking reps with the Seahawks' No. 1 offense as the team continues to manage Lock's workload in practice.\n\nSunday's game will mark Lock's third start this season and the fourth time he's stepped in for Darnold, who hurt his glute on the fifth play of the opener, then suffered a cracked rib and a quad injury in Week 8.\n\nMacdonald has said Darnold might be able to return for the Seahawks' game against the San Francisco 49ers in Week 12, following their bye.\n\n\"I see Sam progressing with his rehab,\" Macdonald said. \"The guys are saying he's doing a great job and he's progressing. We'll take it a day and a week at a time.\"\n\nWilliams will miss his second straight game due to a stinger. He took part in pre-practice warmups on Wednesday and Thursday but was listed as a non-participant all week.\n\n\"It's more of a contact thing,\" Macdonald said. \"So he's done a good job of staying in shape and staying fresh. He's in the meetings. He's doing all the Leo things. He's just not playing right now.\"\n\nJosh Jones will make a third consecutive start at left tackle for Cross, who also did not practice this week. Macdonald said Cross should be ready for the 49ers game on Nov. 29."
+    },
+    {
+      "story_id": "50475090",
+      "headline": "Lakers' Austin Reaves day-to-day with left heel bruise",
+      "summary": "Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said Friday.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/180244b3-72dc-4af0-a281-c52094df7f63/180244b3-72dc-4af0-a281-c52094df7f63.jpg",
+      "published_utc": "2026-11-13T23:14:42Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Dave McMenamin",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50475090/lakers-austin-reaves-day-day-left-heel-bruise",
+      "stream_url": "",
+      "body": "EL SEGUNDO, Calif. -- Los Angeles Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said after practice Friday.\n\nReaves left L.A.'s 123-112 victory over the Milwaukee Bucks on Wednesday midway through the third quarter and did not return after landing awkwardly on his left foot after missing a contested fast-break dunk.\n\nReaves underwent X-rays at the arena Wednesday that came back clean. After seeing how Reaves was feeling Thursday morning once the Lakers returned to Los Angeles, the team determined that further medical imaging on the shooting guard's foot would not be necessary.\n\nWhen Redick was asked if Reaves had suffered only a \"minor\" injury, considering the Lakers decided to forgo an MRI, the coach replied: \"I would assume a day-to-day injury is minor, yeah.\"\n\nRedick provided injury updates on three other Lakers players as well.\n\nLuka Doncic, who turned his right ankle late in the win over the Bucks, \"is fine,\" according to Redick.\n\n\"I think the expectation would be he's available,\" Redick said, referring to L.A.'s next game against the Phoenix Suns on Sunday.\n\nRedick said backup guard Collin Sexton, who required stitches above his right eye after he and Bucks guard Ryan Rollins unintentionally head-butted one another Wednesday, was cleared of any concussion symptoms but is also considered day-to-day.\n\nGuard Quentin Grimes, who sprained the right pinkie on his shooting hand and missed the Lakers' past two games, participated in the live portion of practice Friday, Redick said.\n\nGrimes said he jammed the finger in the Pistons game and taped it up for practice.\n\n\"The swelling has gone down a lot,\" Grimes said. \"It's kind of feeling basically back to normal.\"\n\nThe Lakers, at 11-2, own the No. 1 record in the NBA. Redick used the three-day break in the schedule to \"audit\" the team. He said he had his analytics department prepare a 21-page presentation he used, along with a film session, to discuss L.A.'s defensive and offensive identities before practice Friday.\n\n\"It was good,\" forward Ziaire Williams said of the meeting. \"A lot of good things and a lot of things to clean up. Being first in the West, with the stuff that they showed us, you would think we were almost last, you know? But yeah, for sure, got to keep us honest.\""
     },
     {
       "story_id": "50472990",
@@ -10713,20 +10727,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/50475329/man-united-two-year-deal-pochettino-makes-sense",
-      "stream_url": "",
-      "body": ""
-    },
-    {
-      "story_id": "50473956",
-      "headline": "Shams: Dejounte Murray has requested a trade from the Pelicans",
-      "summary": "Shams: Dejounte Murray has requested a trade from the Pelicans",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/ss_20261113_152101365_3739563/ss_20261113_152101365_3739563.jpg",
-      "published_utc": "2026-11-13T21:01:26Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50473956/dejounte-murray-requested-trade-pelicans",
       "stream_url": "",
       "body": ""
     },
