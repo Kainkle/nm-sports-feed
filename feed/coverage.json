@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-14T17:04:54.969188+00:00",
+  "generated_utc": "2026-11-14T17:14:59.040835+00:00",
   "window_days": 2,
-  "total_events": 216,
+  "total_events": 229,
   "competitions": [
     {
       "competition": "aew",
@@ -228,7 +228,7 @@
       "status_coverage_pct": 100,
       "both_logos": 64,
       "logo_coverage_pct": 100,
-      "live_now": 4
+      "live_now": 7
     },
     {
       "competition": "ncaam",
@@ -249,14 +249,16 @@
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 13,
+      "date_range": [
+        "2026-11-13",
+        "2026-11-16"
+      ],
+      "explicit_status": 13,
+      "status_coverage_pct": 100,
+      "both_logos": 13,
+      "logo_coverage_pct": 100,
+      "live_now": 0
     },
     {
       "competition": "nhl",
@@ -410,28 +412,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:football/nfl",
-      "date": "2026-11-12",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:football/nfl",
-      "date": "2026-11-13",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261113: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:football/nfl",
-      "date": "2026-11-14",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261114: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:football/nfl",
-      "date": "2026-11-15",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
