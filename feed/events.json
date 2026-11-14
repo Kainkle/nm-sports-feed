@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T10:25:57.005311+00:00",
+  "generated_utc": "2026-11-14T10:36:00.520575+00:00",
   "events": [
     {
       "event_id": "nhl:2026020293",
@@ -4620,6 +4620,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856861",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T20:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:277",
+        "name": "West Virginia Mountaineers",
+        "abbrev": "WVU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mountaineers",
+          "WVU",
+          "West Virginia",
+          "West Virginia Mountaineers"
+        ],
+        "color": "eaaa00"
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Milan Puskar Stadium",
+      "detail": "Sat, November 14th at 3:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401858295",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4846,52 +4892,6 @@
       "source": "espn:football/college-football",
       "source_status": "pre/Scheduled",
       "venue": "Williams Stadium (VA)",
-      "detail": "Sat, November 14th at 3:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856861",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:277",
-        "name": "West Virginia Mountaineers",
-        "abbrev": "WVU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mountaineers",
-          "WVU",
-          "West Virginia",
-          "West Virginia Mountaineers"
-        ],
-        "color": "eaaa00"
-      },
-      "away": {
-        "id": "espn:2305",
-        "name": "Kansas Jayhawks",
-        "abbrev": "KU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jayhawks",
-          "KU",
-          "Kansas",
-          "Kansas Jayhawks"
-        ],
-        "color": "0051ba"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Milan Puskar Stadium",
       "detail": "Sat, November 14th at 3:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
