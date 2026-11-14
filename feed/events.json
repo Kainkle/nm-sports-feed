@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T01:54:55.755915+00:00",
+  "generated_utc": "2026-11-14T02:05:04.405330+00:00",
   "events": [
     {
       "event_id": "nhl:2026020293",
@@ -2265,9 +2265,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "3:11 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2313,7 +2313,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kia Center",
-      "detail": "11:10 - 4th Quarter",
+      "detail": "8:04 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2361,53 +2361,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Acrisure Stadium",
-      "detail": "14:04 - 3rd Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401906772",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-14T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:57",
-        "name": "Florida Gators",
-        "abbrev": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-        "logo_dark": null,
-        "aliases": [
-          "FLA",
-          "Florida",
-          "Florida Gators",
-          "Gators"
-        ],
-        "color": "0021a5"
-      },
-      "away": {
-        "id": "espn:2771",
-        "name": "Merrimack Warriors",
-        "abbrev": "MRMK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
-        "logo_dark": null,
-        "aliases": [
-          "MRMK",
-          "Merrimack",
-          "Merrimack Warriors",
-          "Warriors"
-        ],
-        "color": "2f4f93"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Tower Hill Arena",
-      "detail": "Final",
+      "detail": "10:49 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2453,7 +2407,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "State Farm Center",
-      "detail": "3:55 - 2nd Half",
+      "detail": "0:10 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2500,7 +2454,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Breslin Center",
-      "detail": "8:57 - 2nd Half",
+      "detail": "5:16 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2547,7 +2501,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Food City Center",
-      "detail": "7:00 - 2nd Half",
+      "detail": "3:38 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2556,44 +2510,43 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401921803",
+      "event_id": "espn:basketball:401906772",
       "sport": "basketball",
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-14T00:00Z",
       "status": "final",
       "home": {
-        "id": "espn:96",
-        "name": "Kentucky Wildcats",
-        "abbrev": "UK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
         "logo_dark": null,
         "aliases": [
-          "Kentucky",
-          "Kentucky Wildcats",
-          "UK",
-          "Wildcats"
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
         ],
-        "color": "0033a0"
+        "color": "0021a5"
       },
       "away": {
-        "id": "espn:2464",
-        "name": "Northern Arizona Lumberjacks",
-        "abbrev": "NAU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
+        "id": "espn:2771",
+        "name": "Merrimack Warriors",
+        "abbrev": "MRMK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
         "logo_dark": null,
         "aliases": [
-          "Lumberjacks",
-          "N Arizona",
-          "NAU",
-          "Northern Arizona",
-          "Northern Arizona Lumberjacks"
+          "MRMK",
+          "Merrimack",
+          "Merrimack Warriors",
+          "Warriors"
         ],
-        "color": "003976"
+        "color": "2f4f93"
       },
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "post/Final",
-      "venue": "Rupp Arena",
+      "venue": "Tower Hill Arena",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -2650,6 +2603,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401921803",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-14T00:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:96",
+        "name": "Kentucky Wildcats",
+        "abbrev": "UK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kentucky",
+          "Kentucky Wildcats",
+          "UK",
+          "Wildcats"
+        ],
+        "color": "0033a0"
+      },
+      "away": {
+        "id": "espn:2464",
+        "name": "Northern Arizona Lumberjacks",
+        "abbrev": "NAU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lumberjacks",
+          "N Arizona",
+          "NAU",
+          "Northern Arizona",
+          "Northern Arizona Lumberjacks"
+        ],
+        "color": "003976"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Rupp Arena",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401916316",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -2687,7 +2687,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "PeoplesBank Arena",
-      "detail": "14:35 - 2nd Half",
+      "detail": "11:29 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2769,7 +2769,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kaseya Center",
-      "detail": "6:17 - 2nd Quarter",
+      "detail": "2:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2815,7 +2815,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "United Center",
-      "detail": "4:11 - 2nd Quarter",
+      "detail": "48.8 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2861,7 +2861,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "6:02 - 2nd Quarter",
+      "detail": "3:49 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2905,9 +2905,9 @@
         "color": "eb1c23"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Cameron Indoor Stadium",
-      "detail": "0:51 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2951,9 +2951,9 @@
         "color": "232d4b"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "XFINITY Center",
-      "detail": "1:55 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3046,7 +3046,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "6:19 - 1st Quarter",
+      "detail": "1:25 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3146,6 +3146,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401906760",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-14T02:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:333",
+        "name": "Alabama Crimson Tide",
+        "abbrev": "ALA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+        "logo_dark": null,
+        "aliases": [
+          "ALA",
+          "Alabama",
+          "Alabama Crimson Tide",
+          "Crimson Tide"
+        ],
+        "color": "9e1b32"
+      },
+      "away": {
+        "id": "espn:2550",
+        "name": "Seton Hall Pirates",
+        "abbrev": "HALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
+        "logo_dark": null,
+        "aliases": [
+          "HALL",
+          "Pirates",
+          "Seton Hall",
+          "Seton Hall Pirates"
+        ],
+        "color": "0857B1"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "in/In Progress",
+      "venue": "Coleman Coliseum",
+      "detail": "18:21 - 1st Half",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401909741",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -3183,52 +3229,6 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "pre/Scheduled",
       "venue": "Neville Arena",
-      "detail": "Fri, November 13th at 9:00 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401906760",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-14T02:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:333",
-        "name": "Alabama Crimson Tide",
-        "abbrev": "ALA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-        "logo_dark": null,
-        "aliases": [
-          "ALA",
-          "Alabama",
-          "Alabama Crimson Tide",
-          "Crimson Tide"
-        ],
-        "color": "9e1b32"
-      },
-      "away": {
-        "id": "espn:2550",
-        "name": "Seton Hall Pirates",
-        "abbrev": "HALL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-        "logo_dark": null,
-        "aliases": [
-          "HALL",
-          "Pirates",
-          "Seton Hall",
-          "Seton Hall Pirates"
-        ],
-        "color": "0857B1"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
-      "venue": "Coleman Coliseum",
       "detail": "Fri, November 13th at 9:00 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
