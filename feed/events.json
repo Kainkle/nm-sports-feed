@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T00:28:51.077313+00:00",
+  "generated_utc": "2026-11-15T00:38:55.579503+00:00",
   "events": [
     {
       "event_id": "nhl:2026020309",
@@ -3679,7 +3679,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-14T21:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:326",
         "name": "Texas State Bobcats",
@@ -3711,9 +3711,9 @@
         "color": "b1102b"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "UFCU Stadium",
-      "detail": "End of 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3760,7 +3760,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Davis Wade Stadium",
-      "detail": "9:44 - 4th Quarter",
+      "detail": "5:51 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3806,7 +3806,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "First Community Stadium",
-      "detail": "4:47 - 4th Quarter",
+      "detail": "1:56 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3852,7 +3852,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joe Aillet Stadium",
-      "detail": "6:32 - 3rd Quarter",
+      "detail": "1:46 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3936,9 +3936,9 @@
         "color": "ffc627"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Acrisure Bounce House",
-      "detail": "Halftime",
+      "detail": "12:42 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3983,9 +3983,9 @@
         "color": "33006f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Spartan Stadium",
-      "detail": "Halftime",
+      "detail": "14:53 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4033,7 +4033,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "4:35 - 2nd Quarter",
+      "detail": "1:30 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4079,7 +4079,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joan C. Edwards Stadium",
-      "detail": "0:03 - 2nd Quarter",
+      "detail": "End of 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4125,7 +4125,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kroger Field",
-      "detail": "3:42 - 2nd Quarter",
+      "detail": "1:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4539,7 +4539,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "5:06 - 1st Quarter",
+      "detail": "0.6 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4584,7 +4584,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "LaVell Edwards Stadium",
-      "detail": "6:57 - 1st Quarter",
+      "detail": "0:10 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4630,7 +4630,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kenan Stadium",
-      "detail": "4:54 - 1st Quarter",
+      "detail": "15:00 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4685,52 +4685,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401871100",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-15T00:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:6",
-        "name": "South Alabama Jaguars",
-        "abbrev": "USA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jaguars",
-          "South Alabama",
-          "South Alabama Jaguars",
-          "USA"
-        ],
-        "color": "00205b"
-      },
-      "away": {
-        "id": "espn:2653",
-        "name": "Troy Trojans",
-        "abbrev": "TROY",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-        "logo_dark": null,
-        "aliases": [
-          "TROY",
-          "Trojans",
-          "Troy",
-          "Troy Trojans"
-        ],
-        "color": "862633"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Hancock Whitney Stadium",
-      "detail": "5:29 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401864538",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4769,7 +4723,53 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Falcon Stadium",
-      "detail": "11:16 - 1st Quarter",
+      "detail": "5:13 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871100",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-15T00:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:6",
+        "name": "South Alabama Jaguars",
+        "abbrev": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jaguars",
+          "South Alabama",
+          "South Alabama Jaguars",
+          "USA"
+        ],
+        "color": "00205b"
+      },
+      "away": {
+        "id": "espn:2653",
+        "name": "Troy Trojans",
+        "abbrev": "TROY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+        "logo_dark": null,
+        "aliases": [
+          "TROY",
+          "Trojans",
+          "Troy",
+          "Troy Trojans"
+        ],
+        "color": "862633"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Hancock Whitney Stadium",
+      "detail": "0:37 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4815,7 +4815,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "H. A. Chapman Stadium",
-      "detail": "12:00 - 1st Quarter",
+      "detail": "9:23 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4870,6 +4870,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858519",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-15T00:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2294",
+        "name": "Iowa Hawkeyes",
+        "abbrev": "IOWA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hawkeyes",
+          "IOWA",
+          "Iowa",
+          "Iowa Hawkeyes"
+        ],
+        "color": "231f20"
+      },
+      "away": {
+        "id": "espn:2509",
+        "name": "Purdue Boilermakers",
+        "abbrev": "PUR",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+        "logo_dark": null,
+        "aliases": [
+          "Boilermakers",
+          "PUR",
+          "Purdue",
+          "Purdue Boilermakers"
+        ],
+        "color": "ceb888"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Kinnick Stadium",
+      "detail": "11:16 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401856885",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4915,58 +4961,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858519",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-15T00:30Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:2294",
-        "name": "Iowa Hawkeyes",
-        "abbrev": "IOWA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hawkeyes",
-          "IOWA",
-          "Iowa",
-          "Iowa Hawkeyes"
-        ],
-        "color": "231f20"
-      },
-      "away": {
-        "id": "espn:2509",
-        "name": "Purdue Boilermakers",
-        "abbrev": "PUR",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-        "logo_dark": null,
-        "aliases": [
-          "Boilermakers",
-          "PUR",
-          "Purdue",
-          "Purdue Boilermakers"
-        ],
-        "color": "ceb888"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
-      "venue": "Kinnick Stadium",
-      "detail": "Sat, November 14th at 7:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858299",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-15T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:259",
         "name": "Virginia Tech Hokies",
@@ -4996,9 +4996,9 @@
         "color": "8c1515"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Lane Stadium",
-      "detail": "Sat, November 14th at 7:30 PM EST",
+      "detail": "13:11 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5169,7 +5169,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "American Airlines Center",
       "detail": "",
       "game_number": 1,
