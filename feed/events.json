@@ -1,1278 +1,6 @@
 {
-  "generated_utc": "2026-11-14T23:58:30.215808+00:00",
+  "generated_utc": "2026-11-15T00:08:32.923182+00:00",
   "events": [
-    {
-      "event_id": "nhl:2026020293",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:7",
-        "name": "Buffalo Sabres",
-        "abbrev": "BUF",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
-        "aliases": [
-          "BUF",
-          "Buffalo",
-          "Buffalo Sabres",
-          "Sabres"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:14",
-        "name": "Tampa Bay Lightning",
-        "abbrev": "TBL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
-        "aliases": [
-          "Lightning",
-          "TBL",
-          "Tampa Bay",
-          "Tampa Bay Lightning"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "KeyBank Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909966",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:11",
-        "name": "Indiana Pacers",
-        "abbrev": "IND",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-        "logo_dark": null,
-        "aliases": [
-          "IND",
-          "Indiana",
-          "Indiana Pacers",
-          "Pacers"
-        ],
-        "color": "0c2340"
-      },
-      "away": {
-        "id": "espn:27",
-        "name": "Washington Wizards",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "WSH",
-          "Washington",
-          "Washington Wizards",
-          "Wizards"
-        ],
-        "color": "e31837"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Gainbridge Fieldhouse",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909967",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:18",
-        "name": "New York Knicks",
-        "abbrev": "NY",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
-        "logo_dark": null,
-        "aliases": [
-          "Knicks",
-          "NY",
-          "New York",
-          "New York Knicks"
-        ],
-        "color": "1d428a"
-      },
-      "away": {
-        "id": "espn:5",
-        "name": "Cleveland Cavaliers",
-        "abbrev": "CLE",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-        "logo_dark": null,
-        "aliases": [
-          "CLE",
-          "Cavaliers",
-          "Cleveland",
-          "Cleveland Cavaliers"
-        ],
-        "color": "860038"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Madison Square Garden",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909968",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:28",
-        "name": "Toronto Raptors",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-        "logo_dark": null,
-        "aliases": [
-          "Raptors",
-          "TOR",
-          "Toronto",
-          "Toronto Raptors"
-        ],
-        "color": "d91244"
-      },
-      "away": {
-        "id": "espn:2",
-        "name": "Boston Celtics",
-        "abbrev": "BOS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-        "logo_dark": null,
-        "aliases": [
-          "BOS",
-          "Boston",
-          "Boston Celtics",
-          "Celtics"
-        ],
-        "color": "008348"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Scotiabank Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401920680",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2599",
-        "name": "St. John's Red Storm",
-        "abbrev": "SJU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-        "logo_dark": null,
-        "aliases": [
-          "Red Storm",
-          "SJU",
-          "St John's",
-          "St. John's",
-          "St. John's Red Storm"
-        ],
-        "color": "d10000"
-      },
-      "away": {
-        "id": "espn:2142",
-        "name": "Colgate Raiders",
-        "abbrev": "COLG",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png",
-        "logo_dark": null,
-        "aliases": [
-          "COLG",
-          "Colgate",
-          "Colgate Raiders",
-          "Raiders"
-        ],
-        "color": "821019"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Carnesecca Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909524",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:130",
-        "name": "Michigan Wolverines",
-        "abbrev": "MICH",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-        "logo_dark": null,
-        "aliases": [
-          "MICH",
-          "Michigan",
-          "Michigan Wolverines",
-          "Wolverines"
-        ],
-        "color": "00274c"
-      },
-      "away": {
-        "id": "espn:269",
-        "name": "Marquette Golden Eagles",
-        "abbrev": "MARQ",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/269.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Eagles",
-          "MARQ",
-          "Marquette",
-          "Marquette Golden Eagles"
-        ],
-        "color": "003366"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Crisler Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020294",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T00:30:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:20",
-        "name": "Calgary Flames",
-        "abbrev": "CGY",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
-        "aliases": [
-          "CGY",
-          "Calgary",
-          "Calgary Flames",
-          "Flames"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:3",
-        "name": "New York Rangers",
-        "abbrev": "NYR",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
-        "aliases": [
-          "NYR",
-          "New York",
-          "New York Rangers",
-          "Rangers"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Scotiabank Saddledome",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866461",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-12T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2050",
-        "name": "Ball State Cardinals",
-        "abbrev": "BALL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
-        "logo_dark": null,
-        "aliases": [
-          "BALL",
-          "Ball State",
-          "Ball State Cardinals",
-          "Cardinals"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:2084",
-        "name": "Buffalo Bulls",
-        "abbrev": "BUFF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
-        "logo_dark": null,
-        "aliases": [
-          "BUFF",
-          "Buffalo",
-          "Buffalo Bulls",
-          "Bulls"
-        ],
-        "color": "005bbb"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Scheumann Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "AzkRsKAhtB8",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866462",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-12T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2117",
-        "name": "Central Michigan Chippewas",
-        "abbrev": "CMU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
-        "logo_dark": null,
-        "aliases": [
-          "C Michigan",
-          "CMU",
-          "Central Michigan",
-          "Central Michigan Chippewas",
-          "Chippewas"
-        ],
-        "color": "4c0027"
-      },
-      "away": {
-        "id": "espn:16",
-        "name": "Sacramento State Hornets",
-        "abbrev": "SAC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hornets",
-          "SAC",
-          "Sacramento St",
-          "Sacramento State",
-          "Sacramento State Hornets"
-        ],
-        "color": "00573C"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Kelly/Shorts Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "S6Xayq9TFSI",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401866463",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-12T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2649",
-        "name": "Toledo Rockets",
-        "abbrev": "TOL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
-        "logo_dark": null,
-        "aliases": [
-          "Rockets",
-          "TOL",
-          "Toledo",
-          "Toledo Rockets"
-        ],
-        "color": "0b2240"
-      },
-      "away": {
-        "id": "espn:113",
-        "name": "Massachusetts Minutemen",
-        "abbrev": "MASS",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
-        "logo_dark": null,
-        "aliases": [
-          "MASS",
-          "Massachusetts",
-          "Massachusetts Minutemen",
-          "Minutemen",
-          "UMass"
-        ],
-        "color": "881c1c"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Glass Bowl",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "tvmaze:42189:s8e45",
-      "sport": "wrestling",
-      "competition_id": "aew",
-      "competition_name": "AEW",
-      "start_utc": "2026-11-12T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:42189",
-        "name": "All Elite Wrestling: Dynamite",
-        "abbrev": "DYN",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/649/1624689.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:aew",
-        "name": "AEW",
-        "abbrev": "AEW",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:aew",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "All Elite Wrestling: Dynamite"
-    },
-    {
-      "event_id": "tvmaze:68778:s4e51",
-      "sport": "wrestling",
-      "competition_id": "aew",
-      "competition_name": "AEW",
-      "start_utc": "2026-11-12T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:68778",
-        "name": "AEW: Collision",
-        "abbrev": "COL",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/649/1624690.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:aew",
-        "name": "AEW",
-        "abbrev": "AEW",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:aew",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "AEW: Collision"
-    },
-    {
-      "event_id": "espn:basketball:401909969",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:4",
-        "name": "Chicago Bulls",
-        "abbrev": "CHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "CHI",
-          "Chicago",
-          "Chicago Bulls"
-        ],
-        "color": "ce1141"
-      },
-      "away": {
-        "id": "espn:24",
-        "name": "San Antonio Spurs",
-        "abbrev": "SA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
-        "logo_dark": null,
-        "aliases": [
-          "SA",
-          "San Antonio",
-          "San Antonio Spurs",
-          "Spurs"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "United Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909970",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:29",
-        "name": "Memphis Grizzlies",
-        "abbrev": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-        "logo_dark": null,
-        "aliases": [
-          "Grizzlies",
-          "MEM",
-          "Memphis",
-          "Memphis Grizzlies"
-        ],
-        "color": "5d76a9"
-      },
-      "away": {
-        "id": "espn:7",
-        "name": "Denver Nuggets",
-        "abbrev": "DEN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-        "logo_dark": null,
-        "aliases": [
-          "DEN",
-          "Denver",
-          "Denver Nuggets",
-          "Nuggets"
-        ],
-        "color": "0e2240"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "FedExForum",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909971",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:15",
-        "name": "Milwaukee Bucks",
-        "abbrev": "MIL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bucks",
-          "MIL",
-          "Milwaukee",
-          "Milwaukee Bucks"
-        ],
-        "color": "00471b"
-      },
-      "away": {
-        "id": "espn:13",
-        "name": "Los Angeles Lakers",
-        "abbrev": "LAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-        "logo_dark": null,
-        "aliases": [
-          "LAL",
-          "Lakers",
-          "Los Angeles",
-          "Los Angeles Lakers"
-        ],
-        "color": "552583"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Fiserv Forum",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909972",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:3",
-        "name": "New Orleans Pelicans",
-        "abbrev": "NO",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
-        "logo_dark": null,
-        "aliases": [
-          "NO",
-          "New Orleans",
-          "New Orleans Pelicans",
-          "Pelicans"
-        ],
-        "color": "0a2240"
-      },
-      "away": {
-        "id": "espn:17",
-        "name": "Brooklyn Nets",
-        "abbrev": "BKN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-        "logo_dark": null,
-        "aliases": [
-          "BKN",
-          "Brooklyn",
-          "Brooklyn Nets",
-          "Nets"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Smoothie King Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401925702",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:248",
-        "name": "Houston Cougars",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cougars",
-          "HOU",
-          "Houston",
-          "Houston Cougars"
-        ],
-        "color": "c8102e"
-      },
-      "away": {
-        "id": "espn:55",
-        "name": "Jacksonville State Gamecocks",
-        "abbrev": "JXST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-        "logo_dark": null,
-        "aliases": [
-          "Gamecocks",
-          "JXST",
-          "Jacksonville State",
-          "Jacksonville State Gamecocks",
-          "Jax State"
-        ],
-        "color": "cc0000"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Fertitta Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401928824",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:8",
-        "name": "Arkansas Razorbacks",
-        "abbrev": "ARK",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
-        "logo_dark": null,
-        "aliases": [
-          "ARK",
-          "Arkansas",
-          "Arkansas Razorbacks",
-          "Razorbacks"
-        ],
-        "color": "a32136"
-      },
-      "away": {
-        "id": "espn:2523",
-        "name": "Robert Morris Colonials",
-        "abbrev": "RMU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-        "logo_dark": null,
-        "aliases": [
-          "Colonials",
-          "RMU",
-          "Robert Morris",
-          "Robert Morris Colonials"
-        ],
-        "color": "00214D"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Bud Walton Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020295",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T02:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:22",
-        "name": "Edmonton Oilers",
-        "abbrev": "EDM",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
-        "aliases": [
-          "EDM",
-          "Edmonton",
-          "Edmonton Oilers",
-          "Oilers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:4",
-        "name": "Philadelphia Flyers",
-        "abbrev": "PHI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
-        "aliases": [
-          "Flyers",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Flyers"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Rogers Place",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909973",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:26",
-        "name": "Utah Jazz",
-        "abbrev": "UTAH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jazz",
-          "UTAH",
-          "Utah",
-          "Utah Jazz"
-        ],
-        "color": "4e008e"
-      },
-      "away": {
-        "id": "espn:19",
-        "name": "Orlando Magic",
-        "abbrev": "ORL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
-        "logo_dark": null,
-        "aliases": [
-          "Magic",
-          "ORL",
-          "Orlando",
-          "Orlando Magic"
-        ],
-        "color": "0150b5"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Delta Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401930177",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:26",
-        "name": "UCLA Bruins",
-        "abbrev": "UCLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bruins",
-          "UCLA",
-          "UCLA Bruins"
-        ],
-        "color": "2774ae"
-      },
-      "away": {
-        "id": "espn:2029",
-        "name": "Arkansas-Pine Bluff Golden Lions",
-        "abbrev": "UAPB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
-        "logo_dark": null,
-        "aliases": [
-          "AR-Pine Bluff",
-          "Arkansas-Pine Bluff",
-          "Arkansas-Pine Bluff Golden Lions",
-          "Golden Lions",
-          "UAPB"
-        ],
-        "color": "e0aa0f"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Pauley Pavilion",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401926062",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:158",
-        "name": "Nebraska Cornhuskers",
-        "abbrev": "NEB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cornhuskers",
-          "NEB",
-          "Nebraska",
-          "Nebraska Cornhuskers"
-        ],
-        "color": "e31937"
-      },
-      "away": {
-        "id": "espn:2815",
-        "name": "Lindenwood Lions",
-        "abbrev": "LIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
-        "logo_dark": null,
-        "aliases": [
-          "LIN",
-          "Lindenwood",
-          "Lindenwood Lions",
-          "Lions"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Pinnacle Bank Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020296",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T02:30:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:54",
-        "name": "Vegas Golden Knights",
-        "abbrev": "VGK",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
-        "aliases": [
-          "Golden Knights",
-          "VGK",
-          "Vegas",
-          "Vegas Golden Knights"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:68",
-        "name": "Utah Mammoth",
-        "abbrev": "UTA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
-        "aliases": [
-          "Mammoth",
-          "UTA",
-          "Utah",
-          "Utah Mammoth"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "T-Mobile Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909974",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T02:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:10",
-        "name": "Houston Rockets",
-        "abbrev": "HOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
-        "logo_dark": null,
-        "aliases": [
-          "HOU",
-          "Houston",
-          "Houston Rockets",
-          "Rockets"
-        ],
-        "color": "ce0e2d"
-      },
-      "away": {
-        "id": "espn:9",
-        "name": "Golden State Warriors",
-        "abbrev": "GS",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
-        "logo_dark": null,
-        "aliases": [
-          "GS",
-          "Golden State",
-          "Golden State Warriors",
-          "Warriors"
-        ],
-        "color": "fdb927"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Toyota Center (Houston)",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020297",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T03:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:24",
-        "name": "Anaheim Ducks",
-        "abbrev": "ANA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
-        "aliases": [
-          "ANA",
-          "Anaheim",
-          "Anaheim Ducks",
-          "Ducks"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:18",
-        "name": "Nashville Predators",
-        "abbrev": "NSH",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
-        "aliases": [
-          "NSH",
-          "Nashville",
-          "Nashville Predators",
-          "Predators"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Honda Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020298",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T03:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:28",
-        "name": "San Jose Sharks",
-        "abbrev": "SJS",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
-        "aliases": [
-          "SJS",
-          "San Jose",
-          "San Jose Sharks",
-          "Sharks"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:5",
-        "name": "Pittsburgh Penguins",
-        "abbrev": "PIT",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
-        "aliases": [
-          "PIT",
-          "Penguins",
-          "Pittsburgh",
-          "Pittsburgh Penguins"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "SAP Center at San Jose",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909975",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-12T03:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:22",
-        "name": "Portland Trail Blazers",
-        "abbrev": "POR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
-        "logo_dark": null,
-        "aliases": [
-          "POR",
-          "Portland",
-          "Portland Trail Blazers",
-          "Trail Blazers"
-        ],
-        "color": "e03a3e"
-      },
-      "away": {
-        "id": "espn:25",
-        "name": "Oklahoma City Thunder",
-        "abbrev": "OKC",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
-        "logo_dark": null,
-        "aliases": [
-          "OKC",
-          "Oklahoma City",
-          "Oklahoma City Thunder",
-          "Thunder"
-        ],
-        "color": "007ac1"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Moda Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401918054",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-12T04:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:25",
-        "name": "California Golden Bears",
-        "abbrev": "CAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAL",
-          "California",
-          "California Golden Bears",
-          "Golden Bears"
-        ],
-        "color": "041e42"
-      },
-      "away": {
-        "id": "espn:30",
-        "name": "USC Trojans",
-        "abbrev": "USC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-        "logo_dark": null,
-        "aliases": [
-          "Trojans",
-          "USC",
-          "USC Trojans"
-        ],
-        "color": "9d2235"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Haas Pavilion",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "nhl:2026020309",
       "sport": "hockey",
@@ -4437,12 +3165,57 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401858518",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T20:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:84",
+        "name": "Indiana Hoosiers",
+        "abbrev": "IU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hoosiers",
+          "IU",
+          "Indiana",
+          "Indiana Hoosiers"
+        ],
+        "color": "970310"
+      },
+      "away": {
+        "id": "espn:30",
+        "name": "USC Trojans",
+        "abbrev": "USC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+        "logo_dark": null,
+        "aliases": [
+          "Trojans",
+          "USC",
+          "USC Trojans"
+        ],
+        "color": "9d2235"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Memorial Stadium (Bloomington, IN)",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401856883",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-14T20:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:61",
         "name": "Georgia Bulldogs",
@@ -4472,9 +3245,9 @@
         "color": "f1b82d"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Sanford Stadium",
-      "detail": "1:15 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4488,7 +3261,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-14T20:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:87",
         "name": "Notre Dame Fighting Irish",
@@ -4518,54 +3291,9 @@
         "color": "8c2232"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Notre Dame Stadium",
-      "detail": "1:47 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858518",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:84",
-        "name": "Indiana Hoosiers",
-        "abbrev": "IU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hoosiers",
-          "IU",
-          "Indiana",
-          "Indiana Hoosiers"
-        ],
-        "color": "970310"
-      },
-      "away": {
-        "id": "espn:30",
-        "name": "USC Trojans",
-        "abbrev": "USC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-        "logo_dark": null,
-        "aliases": [
-          "Trojans",
-          "USC",
-          "USC Trojans"
-        ],
-        "color": "9d2235"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Memorial Stadium (Bloomington, IN)",
-      "detail": "2:23 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4657,100 +3385,6 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Milan Puskar Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401870752",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:98",
-        "name": "Western Kentucky Hilltoppers",
-        "abbrev": "WKU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
-        "logo_dark": null,
-        "aliases": [
-          "Hilltoppers",
-          "WKU",
-          "Western KY",
-          "Western Kentucky",
-          "Western Kentucky Hilltoppers"
-        ],
-        "color": "e13a3e"
-      },
-      "away": {
-        "id": "espn:55",
-        "name": "Jacksonville State Gamecocks",
-        "abbrev": "JXST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
-        "logo_dark": null,
-        "aliases": [
-          "Gamecocks",
-          "JXST",
-          "Jacksonville State",
-          "Jacksonville State Gamecocks",
-          "Jax State"
-        ],
-        "color": "cc0000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Houchens Industries-L.T. Smith Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401871061",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-14T20:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2335",
-        "name": "Liberty Flames",
-        "abbrev": "LIB",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
-        "logo_dark": null,
-        "aliases": [
-          "Flames",
-          "LIB",
-          "Liberty",
-          "Liberty Flames"
-        ],
-        "color": "0a254e"
-      },
-      "away": {
-        "id": "espn:2393",
-        "name": "Middle Tennessee Blue Raiders",
-        "abbrev": "MTSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
-        "logo_dark": null,
-        "aliases": [
-          "Blue Raiders",
-          "MTSU",
-          "Middle Tennessee",
-          "Middle Tennessee Blue Raiders"
-        ],
-        "color": "036eb7"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Williams Stadium (VA)",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4901,6 +3535,100 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401870752",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T20:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:98",
+        "name": "Western Kentucky Hilltoppers",
+        "abbrev": "WKU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hilltoppers",
+          "WKU",
+          "Western KY",
+          "Western Kentucky",
+          "Western Kentucky Hilltoppers"
+        ],
+        "color": "e13a3e"
+      },
+      "away": {
+        "id": "espn:55",
+        "name": "Jacksonville State Gamecocks",
+        "abbrev": "JXST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gamecocks",
+          "JXST",
+          "Jacksonville State",
+          "Jacksonville State Gamecocks",
+          "Jax State"
+        ],
+        "color": "cc0000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Houchens Industries-L.T. Smith Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871061",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-14T20:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2335",
+        "name": "Liberty Flames",
+        "abbrev": "LIB",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+        "logo_dark": null,
+        "aliases": [
+          "Flames",
+          "LIB",
+          "Liberty",
+          "Liberty Flames"
+        ],
+        "color": "0a254e"
+      },
+      "away": {
+        "id": "espn:2393",
+        "name": "Middle Tennessee Blue Raiders",
+        "abbrev": "MTSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Raiders",
+          "MTSU",
+          "Middle Tennessee",
+          "Middle Tennessee Blue Raiders"
+        ],
+        "color": "036eb7"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Williams Stadium (VA)",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401921689",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -4985,7 +3713,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "UFCU Stadium",
-      "detail": "10:33 - 4th Quarter",
+      "detail": "5:47 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5032,7 +3760,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Davis Wade Stadium",
-      "detail": "5:52 - 3rd Quarter",
+      "detail": "0:50 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5078,7 +3806,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "First Community Stadium",
-      "detail": "13:41 - 4th Quarter",
+      "detail": "10:55 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5122,9 +3850,9 @@
         "color": "ffc72c"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Joe Aillet Stadium",
-      "detail": "Halftime",
+      "detail": "11:01 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5210,7 +3938,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Acrisure Bounce House",
-      "detail": "0:51 - 2nd Quarter",
+      "detail": "0:16 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5257,7 +3985,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Spartan Stadium",
-      "detail": "3:00 - 2nd Quarter",
+      "detail": "1:55 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5305,7 +4033,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "13:25 - 2nd Quarter",
+      "detail": "12:09 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5351,7 +4079,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Joan C. Edwards Stadium",
-      "detail": "10:49 - 2nd Quarter",
+      "detail": "7:53 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5397,7 +4125,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kroger Field",
-      "detail": "13:01 - 2nd Quarter",
+      "detail": "8:45 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5411,7 +4139,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-15T00:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:6",
         "name": "Boston Bruins",
@@ -5441,7 +4169,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "TD Garden",
       "detail": "",
       "game_number": 1,
@@ -5687,7 +4415,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-15T00:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:29",
         "name": "Columbus Blue Jackets",
@@ -5717,7 +4445,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Nationwide Arena",
       "detail": "",
       "game_number": 1,
@@ -5733,7 +4461,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-15T00:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:19",
         "name": "St. Louis Blues",
@@ -5763,7 +4491,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Enterprise Center",
       "detail": "",
       "game_number": 1,
@@ -5825,7 +4553,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-15T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:252",
         "name": "BYU Cougars",
@@ -5854,9 +4582,9 @@
         "color": "154734"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "LaVell Edwards Stadium",
-      "detail": "Sat, November 14th at 7:00 PM EST",
+      "detail": "14:11 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5870,7 +4598,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-15T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:153",
         "name": "North Carolina Tar Heels",
@@ -5900,9 +4628,9 @@
         "color": "c9001f"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Kenan Stadium",
-      "detail": "Sat, November 14th at 7:00 PM EST",
+      "detail": "14:48 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5916,7 +4644,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-15T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:213",
         "name": "Penn State Nittany Lions",
@@ -5946,9 +4674,9 @@
         "color": "5e0a2f"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Beaver Stadium",
-      "detail": "Sat, November 14th at 7:00 PM EST",
+      "detail": "15:00 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6009,7 +4737,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-15T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:6",
         "name": "South Alabama Jaguars",
@@ -6039,9 +4767,9 @@
         "color": "862633"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Hancock Whitney Stadium",
-      "detail": "Sat, November 14th at 7:00 PM EST",
+      "detail": "13:35 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8573,6 +7301,190 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401909994",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2",
+        "name": "Boston Celtics",
+        "abbrev": "BOS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+        "logo_dark": null,
+        "aliases": [
+          "BOS",
+          "Boston",
+          "Boston Celtics",
+          "Celtics"
+        ],
+        "color": "008348"
+      },
+      "away": {
+        "id": "espn:19",
+        "name": "Orlando Magic",
+        "abbrev": "ORL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+        "logo_dark": null,
+        "aliases": [
+          "Magic",
+          "ORL",
+          "Orlando",
+          "Orlando Magic"
+        ],
+        "color": "0150b5"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "TD Garden",
+      "detail": "Mon, November 16th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909995",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:5",
+        "name": "Cleveland Cavaliers",
+        "abbrev": "CLE",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+        "logo_dark": null,
+        "aliases": [
+          "CLE",
+          "Cavaliers",
+          "Cleveland",
+          "Cleveland Cavaliers"
+        ],
+        "color": "860038"
+      },
+      "away": {
+        "id": "espn:4",
+        "name": "Chicago Bulls",
+        "abbrev": "CHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulls",
+          "CHI",
+          "Chicago",
+          "Chicago Bulls"
+        ],
+        "color": "ce1141"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Rocket Arena",
+      "detail": "Mon, November 16th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909996",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:27",
+        "name": "Washington Wizards",
+        "abbrev": "WSH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+        "logo_dark": null,
+        "aliases": [
+          "WSH",
+          "Washington",
+          "Washington Wizards",
+          "Wizards"
+        ],
+        "color": "e31837"
+      },
+      "away": {
+        "id": "espn:29",
+        "name": "Memphis Grizzlies",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+        "logo_dark": null,
+        "aliases": [
+          "Grizzlies",
+          "MEM",
+          "Memphis",
+          "Memphis Grizzlies"
+        ],
+        "color": "5d76a9"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Capital One Arena",
+      "detail": "Mon, November 16th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401921804",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-17T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:96",
+        "name": "Kentucky Wildcats",
+        "abbrev": "UK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+        "logo_dark": null,
+        "aliases": [
+          "Kentucky",
+          "Kentucky Wildcats",
+          "UK",
+          "Wildcats"
+        ],
+        "color": "0033a0"
+      },
+      "away": {
+        "id": "espn:2755",
+        "name": "Grambling Tigers",
+        "abbrev": "GRAM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
+        "logo_dark": null,
+        "aliases": [
+          "GRAM",
+          "Grambling",
+          "Grambling Tigers",
+          "Tigers"
+        ],
+        "color": "ee8601"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Rupp Arena",
+      "detail": "Mon, November 16th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020331",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -8619,6 +7531,318 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401909997",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:17",
+        "name": "Brooklyn Nets",
+        "abbrev": "BKN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+        "logo_dark": null,
+        "aliases": [
+          "BKN",
+          "Brooklyn",
+          "Brooklyn Nets",
+          "Nets"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:20",
+        "name": "Philadelphia 76ers",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "76ers",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia 76ers"
+        ],
+        "color": "1d428a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Barclays Center",
+      "detail": "Mon, November 16th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909998",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:14",
+        "name": "Miami Heat",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+        "logo_dark": null,
+        "aliases": [
+          "Heat",
+          "MIA",
+          "Miami",
+          "Miami Heat"
+        ],
+        "color": "98002e"
+      },
+      "away": {
+        "id": "espn:10",
+        "name": "Houston Rockets",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+        "logo_dark": null,
+        "aliases": [
+          "HOU",
+          "Houston",
+          "Houston Rockets",
+          "Rockets"
+        ],
+        "color": "ce0e2d"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Kaseya Center",
+      "detail": "Mon, November 16th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "tvmaze:802:s33e46",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-11-17T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:802",
+        "name": "WWE Monday Night RAW",
+        "abbrev": "RAW",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE Monday Night RAW"
+    },
+    {
+      "event_id": "espn:basketball:401909999",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:16",
+        "name": "Minnesota Timberwolves",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Timberwolves",
+          "Timberwolves"
+        ],
+        "color": "266092"
+      },
+      "away": {
+        "id": "espn:22",
+        "name": "Portland Trail Blazers",
+        "abbrev": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "logo_dark": null,
+        "aliases": [
+          "POR",
+          "Portland",
+          "Portland Trail Blazers",
+          "Trail Blazers"
+        ],
+        "color": "e03a3e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Target Center",
+      "detail": "Mon, November 16th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401910000",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:3",
+        "name": "New Orleans Pelicans",
+        "abbrev": "NO",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+        "logo_dark": null,
+        "aliases": [
+          "NO",
+          "New Orleans",
+          "New Orleans Pelicans",
+          "Pelicans"
+        ],
+        "color": "0a2240"
+      },
+      "away": {
+        "id": "espn:9",
+        "name": "Golden State Warriors",
+        "abbrev": "GS",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+        "logo_dark": null,
+        "aliases": [
+          "GS",
+          "Golden State",
+          "Golden State Warriors",
+          "Warriors"
+        ],
+        "color": "fdb927"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Smoothie King Center",
+      "detail": "Mon, November 16th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401873065",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-11-17T01:15Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:33",
+        "name": "Baltimore Ravens",
+        "abbrev": "BAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAL",
+          "Baltimore",
+          "Baltimore Ravens",
+          "Ravens"
+        ],
+        "color": "29126f"
+      },
+      "away": {
+        "id": "espn:24",
+        "name": "Los Angeles Chargers",
+        "abbrev": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Chargers",
+          "LAC",
+          "Los Angeles",
+          "Los Angeles Chargers"
+        ],
+        "color": "0080c6"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "pre/Scheduled",
+      "venue": "M&T Bank Stadium",
+      "detail": "Mon, November 16th at 8:15 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401910001",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-17T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:7",
+        "name": "Denver Nuggets",
+        "abbrev": "DEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+        "logo_dark": null,
+        "aliases": [
+          "DEN",
+          "Denver",
+          "Denver Nuggets",
+          "Nuggets"
+        ],
+        "color": "0e2240"
+      },
+      "away": {
+        "id": "espn:21",
+        "name": "Phoenix Suns",
+        "abbrev": "PHX",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+        "logo_dark": null,
+        "aliases": [
+          "PHX",
+          "Phoenix",
+          "Phoenix Suns",
+          "Suns"
+        ],
+        "color": "29127a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Ball Arena",
+      "detail": "Mon, November 16th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020332",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -8657,6 +7881,52 @@
       "source_status": "FUT/OK",
       "venue": "Delta Center",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401924265",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-17T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:26",
+        "name": "UCLA Bruins",
+        "abbrev": "UCLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bruins",
+          "UCLA",
+          "UCLA Bruins"
+        ],
+        "color": "2774ae"
+      },
+      "away": {
+        "id": "espn:299",
+        "name": "Long Beach State Beach",
+        "abbrev": "LBSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/299.png",
+        "logo_dark": null,
+        "aliases": [
+          "Beach",
+          "LBSU",
+          "Long Beach St",
+          "Long Beach State",
+          "Long Beach State Beach"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Pauley Pavilion",
+      "detail": "Mon, November 16th at 10:00 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10503,29 +9773,259 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020373",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-22T17:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:3",
+        "name": "New York Rangers",
+        "abbrev": "NYR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
+        "aliases": [
+          "NYR",
+          "New York",
+          "New York Rangers",
+          "Rangers"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:12",
+        "name": "Carolina Hurricanes",
+        "abbrev": "CAR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Hurricanes",
+          "Hurricanes"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Madison Square Garden",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020374",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-22T22:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:14",
+        "name": "Tampa Bay Lightning",
+        "abbrev": "TBL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
+        "aliases": [
+          "Lightning",
+          "TBL",
+          "Tampa Bay",
+          "Tampa Bay Lightning"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:7",
+        "name": "Buffalo Sabres",
+        "abbrev": "BUF",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
+        "aliases": [
+          "BUF",
+          "Buffalo",
+          "Buffalo Sabres",
+          "Sabres"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Benchmark International Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020375",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-23T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:19",
+        "name": "St. Louis Blues",
+        "abbrev": "STL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
+        "aliases": [
+          "Blues",
+          "STL",
+          "St. Louis",
+          "St. Louis Blues"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:22",
+        "name": "Edmonton Oilers",
+        "abbrev": "EDM",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
+        "aliases": [
+          "EDM",
+          "Edmonton",
+          "Edmonton Oilers",
+          "Oilers"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Enterprise Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020376",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-23T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:25",
+        "name": "Dallas Stars",
+        "abbrev": "DAL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+        "aliases": [
+          "DAL",
+          "Dallas",
+          "Dallas Stars",
+          "Stars"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:5",
+        "name": "Pittsburgh Penguins",
+        "abbrev": "PIT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
+        "aliases": [
+          "PIT",
+          "Penguins",
+          "Pittsburgh",
+          "Pittsburgh Penguins"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "American Airlines Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020377",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-23T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:23",
+        "name": "Vancouver Canucks",
+        "abbrev": "VAN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
+        "aliases": [
+          "Canucks",
+          "VAN",
+          "Vancouver",
+          "Vancouver Canucks"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:16",
+        "name": "Chicago Blackhawks",
+        "abbrev": "CHI",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
+        "aliases": [
+          "Blackhawks",
+          "CHI",
+          "Chicago",
+          "Chicago Blackhawks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Rogers Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
     {
-      "story_id": "50484546",
-      "headline": "Winnipeg Jets vs. Chicago Blackhawks: Game Highlights",
-      "summary": "Winnipeg Jets vs. Chicago Blackhawks: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/926ecfbf-025e-4ce7-882a-5070070fb3ae/926ecfbf-025e-4ce7-882a-5070070fb3ae.jpg",
-      "published_utc": "2026-11-14T23:39:56Z",
+      "story_id": "50484713",
+      "headline": "Scheifele and Connor score in shootout and Jets erase 4-goal deficit for 5-4 win over Blackhawks",
+      "summary": "\u2014 Mark Scheifele had a goal and three assists, Kyle Connor scored a goal in regulation and had the deciding shootout goal, and the Winnipeg Jets rallied from a four-goal deficit to beat the Chicago Blackhawks 5-4 on Saturday.",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892708.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-14T23:56:35Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50484546/game-highlights",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892708",
       "stream_url": "",
-      "body": ""
+      "body": "CHICAGO -- \u2014 Mark Scheifele had a goal and three assists, Kyle Connor scored a goal in regulation and had the deciding shootout goal, and the Winnipeg Jets rallied from a four-goal deficit to beat the Chicago Blackhawks 5-4 on Saturday.\n\n\r\nThe Jets\u2019 sixth straight win was their second comeback from four goals down this season. They scored four times in 2:07 to beat Montreal 5-4 in overtime on Nov. 3.\n\n\r\nGabriel Vilardi\u2019s shot from the right slot tied the game 4-all with 1:13 left in regulation and goalie Nico Daws pulled for an extra attacker.\n\n\r\nScheifele also scored in the shootout. Daws stopped Roman Kantserov to lock up the victory.\n\n\r\nSpencer Knight, who made 27 saves, lost his bid for the Blackhawks\u2019 first shutout since March when Scheifele ripped a 15-foot shot past his glove side with 3:55 to play in the second period to make it 4-1. Scheifele\u2019s goal made him the Jets\u2019 points leader for the second time. He finished the game with 933 points.\n\n\r\nScheifele had held the mark until the original Jets\u2019 records were consolidated before this season, making the late Dale Hawerchuk, who played for the team that eventually moved to Phoenix, the points leader.\n\n\r\nOnly 1:56 later, Scheifele set up Kyle Connor for his 700th career point to cut the lead to 4-2. In the first minute of the third period, Cole Perfetti\u2019s power-play score brought the Jets within a goal.\n\n\r\nDaws made 12 saves in relief for Winnipeg.\n\n\r\nThe Blackhawks chased Winnipeg starting goalie Stuart Skinner from the crease after 20 minutes, scoring three times on eight shots in the first period. Tyler Bertuzzi, Anton Frondell and Connor Bedard scored the goals. The Blackhawks took a 4-0 lead on Frank Nazar\u2019s tip with 5:16 left in the second and Daws in the net.\n\n\r\nUp Next\r\nWinnipeg: Hosts Ottawa on Tuesday night.\n\n\r\nChicago: Hosts Toronto on Tuesday night, on the 100th anniversary of the Blackhawks\u2019 first game.\n\n\r\n----\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
       "story_id": "50444358",
       "headline": "UFC 334: Live results, analysis for Gane-Hokit, Harrison-Nunes",
       "summary": "ESPN provides live results and analysis of all the action from UFC 334 at Madison Square Garden.",
       "image": "https://a.espncdn.com/photo/2026/1114/r1745890_1296x729_16-9.jpg",
-      "published_utc": "2026-11-14T23:19:39Z",
+      "published_utc": "2026-11-14T23:50:09Z",
       "competition_id": "ufc",
       "competition_name": "UFC",
       "byline": "",
@@ -10675,18 +10175,18 @@
       "body": "Australia's dual-international powerhouse Sariah Paki has her sights set on another personal three-peat of title wins, similar to what she achieved in rugby union in 2022.\n\nThe former rugby sevens star has been a smash hit since her code switch this year and the forward will come off the bench against New Zealand in the women's World Cup final at Suncorp Stadium.\n\nThe 25-year-old started the year with a World Series title win with the Australia rugby sevens side, before joining the Sydney Roosters and shining in their undefeated season that culminated in an NRLW title.\n\nPaki said before Jillaroos training on Saturday that this year had vibes like her incredible 2022 feats with Australia in sevens.\n\n\"It meant a lot that year because we did a three-peat to win the Commonwealth Games, the World Series and topped it off with the World Cup,\" she said.\n\n\"This feels pretty similar this time around. It has been a long journey, but I have loved every step of it. To win a World Cup would top my year.\"\n\nShe joined the Tricolours to \"try something new\" and has thrived in rugby league.\n\nPaki said she enjoyed the big games and \"immersed herself\" in the pressure.\n\nThe challenge for her has been staying switched on for 70 minutes compared to the 14 minutes of rugby sevens.\n\nThe Jillaroos are wary of New Zealand's recently crowned women's Golden Boot winner Stacey Waaka, who will play in the centres for the Kiwi Ferns on Sunday in Brisbane after scoring nine tries in the World Cup so far.\n\nWaaka was a rugby sevens star for NZ and her class is well known to Paki, who backed Jillaroos captain Isabelle Kelly to mark her well.\n\n\"Stacey is an amazing player and I have versed her in many games over in sevens,\" she said.\n\n\"We know how we are going to play each other and I will definitely tip Izzy up about that. Those two will go well against each other and Izzy will definitely mark her up.\"\n\nPaki said she had thrived at the Roosters and now Jillaroos under the tutelage of Kelly, who will play her 25th Test against NZ.\n\nThe World Cup final has special meaning to Paki, who has Maori heritage and was in the sights of the Ferns.\n\nShe said it was \"really nice\" for both nations to come knocking.\n\n\"I would have qualified for New Zealand as well and it was a really difficult decision with my family from New Zealand,\" she said.\n\n\"I knew I wanted to play with great players like Tamika Upton and Isabelle Kelly. I feel like I made the right decision to come to the Jillaroos.\""
     },
     {
-      "story_id": "50483012",
-      "headline": "Svechnikov and Jankowski each score twice, Carolina beats Kraken 5-1 to sweep series in Finland",
-      "summary": "\u2014 Jordan Staal returned from injury, Andrei Svechnikov and Mark Jankowski each scored twice and the Carolina Hurricanes beat the Seattle Kraken 5-1 on Saturday to sweep the NHL\u2019s Global Series in Finland\u2019s capital.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401891809.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-14T21:28:35Z",
+      "story_id": "50484546",
+      "headline": "Winnipeg Jets vs. Chicago Blackhawks: Game Highlights",
+      "summary": "Winnipeg Jets vs. Chicago Blackhawks: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/926ecfbf-025e-4ce7-882a-5070070fb3ae/926ecfbf-025e-4ce7-882a-5070070fb3ae.jpg",
+      "published_utc": "2026-11-14T23:39:56Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401891809",
+      "link": "https://www.espn.com/video/clip/_/id/50484546/game-highlights",
       "stream_url": "",
-      "body": "HELSINKI -- \u2014 Jordan Staal returned from injury, Andrei Svechnikov and Mark Jankowski each scored twice and the Carolina Hurricanes beat the Seattle Kraken 5-1 on Saturday to sweep the NHL\u2019s Global Series in Finland\u2019s capital.\n\n\r\nThe Hurricanes (16-3-2) followed on their dominant 4-1 victory on Thursday and extended their winning streak to four.\n\n\r\nCarolina became the first NHL franchise to win each of its first four regular-season games played outside North America following a sweep of a 2010 series against the Minnesota Wild, also in Helsinki.\n\n\r\nJackson Blake also scored for the Hurricanes, Nikolaj Ehlers had three assists and Shayne Gostisbehere had two assists and Pyotr Kochetkov stopped 12 shots for his 12th win in 13 games.\n\n\r\nSvechnikov scored on power plays with two identical goals from the right circle in the middle period, one-timing a precise snap shot to make it 3-0 and another for a 4-1 advantage. He has five goals in his four-game point streak and has 11 goals on the season.\n\n\r\nHis second goal with 9:55 left in the second period prompted the Kraken to pull Joey Daccord after he allowed four goals on 14 shots. Philipp Grubauer made 22 saves in relief.\n\n\r\nMatty Beniers scored for the Kraken (9-8-1) to reduce the deficit to 3-1.\n\n\r\nBlake beat Daccord with a snap shot after Sebastian Aho sent him a backhand pass in between his legs in the first period. Blake extended his career-best point streak to 11 games.\n\n\r\nJankowski doubled that advantage with 2:30 left in the period. He added his second with 8:54 left in the final period, tapping in a precise pass from Taylor Hall.\n\n\r\nStaal, Carolina's captain, played his first game for the reigning champions after missing 14 following a calf tear on Oct 11. The 38-year-old center skated on the third line alongside wingers Seth Jarvis and Jordan Martinook and played 13:55.\n\n\r\nThe game Saturday was the 50th contested outside North America and ninth in Helsinki to tie Prague, with only Stockholm hosting more.\n\n\r\nThe NHL returns to Europe next month, this time to grow the fan base in Germany with a series between the Ottawa Senators and the Chicago Blackhawks in D\u00fcsseldorf on Dec. 18 and 20.\n\n\r\nUp next\r\nKraken: Host Canucks on Thursday.\n\n\r\nHurricanes: Host Montreal on Thursday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50471378",
@@ -11711,315 +11211,8 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-NOAH-Pro-wrestling-Full-Show-Online.jpg",
       "source_url": "https://watch-wrestling.eu/noah-maruhan-presents-noah-jr-grand-prix-2-legacy-rise-2026-opening-night-11-9-2026/3e86eb4bcebc35288a82e2c81d73eacf"
-    },
-    {
-      "id": "ww:f93c0bf2acd0d264bada622e23622641",
-      "title": "DDT UTAN FESTA 2026 11/8/2026",
-      "date": "2026-11-08",
-      "replay_url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-08-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "",
-      "source_url": "https://watch-wrestling.eu/ddt-utan-festa-2026-11-8-2026/f93c0bf2acd0d264bada622e23622641"
-    },
-    {
-      "id": "ww:b4125913eb3f9dd134a25946754c6bbd",
-      "title": "MARIGOLD Battle Heart 2026 11/8/2026",
-      "date": "2026-11-08",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-3/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-3/1/1",
-          "label": "Dailymotion HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-3/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-3/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-3/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-3/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "",
-      "source_url": "https://watch-wrestling.eu/marigold-battle-heart-2026-11-8-2026/b4125913eb3f9dd134a25946754c6bbd"
-    },
-    {
-      "id": "ww:f7bc9f4b99eab35bd7197ea15a47d51b",
-      "title": "EVE Elite Encounters II 11/8/2026",
-      "date": "2026-11-08",
-      "replay_url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/1/1",
-          "label": "VidFrame HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/2/1",
-          "label": "VidQ HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/4/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/5/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/5/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/3/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/gniltserwsnemow/11-08-2026/select-post-2/3/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2026/08/Eve-wrestling.webp",
-      "source_url": "https://watch-wrestling.eu/eve-elite-encounters-ii-11-8-2026/f7bc9f4b99eab35bd7197ea15a47d51b"
     }
   ],
-  "replays": [
-    {
-      "id": "ww:ufc-fight-night-cortes-acosta-vs-walker-11-7-2026",
-      "title": "UFC Fight Night: Cortes Acosta vs Walker 11/7/2026",
-      "date": "2026-11-07",
-      "sport": "mma",
-      "competition": "UFC",
-      "replay_url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/1/1",
-          "label": "VidFrame FHD (Main card) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/2/1",
-          "label": "VidQ FHD (Main card) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/3/1",
-          "label": "VidFrame FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/4/1",
-          "label": "VidQ FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/6/1",
-          "label": "OK.ru FHD (Prelims) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/7/1",
-          "label": "OK.ru FHD (Main card) \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/8/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/8/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/8/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/9/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/9/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/9/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD (Prelims) \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/cfu/11-07-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD (Prelims) \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/12/Watch-UFC-Fight-Night-Full-Show-online.jpg",
-      "source_url": "https://watch-wrestling.eu/ufc-fight-night-cortes-acosta-vs-walker-11-7-2026/"
-    },
-    {
-      "id": "ffr:737",
-      "title": "Joshua Buatsi vs. Willy Hutchinson II - Full Fight Replay - November 7, 2026 Boxing",
-      "date": "2026-11-07",
-      "sport": "boxing",
-      "competition": "Boxing",
-      "replay_url": "https://ok.ru/videoembed/16800505399980",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16800505399980",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://ok.ru/videoembed/16800605735596",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://ok.ru/videoembed/16800581683884",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://ok.ru/videoembed/16800614910636",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://fullfightreplays.com/_pu/7/90202123.jpg",
-      "source_url": "https://fullfightreplays.com/joshua-buatsi-vs-willy-hutchinson-ii-full-fight-replay-november-7-2026-boxing"
-    },
-    {
-      "id": "ffr:736",
-      "title": "Zuffa Boxing 12: Chris Billam-Smith vs. Cheavon Clarke - Full Fight Replay - November 7, 2026 Boxing",
-      "date": "2026-11-07",
-      "sport": "boxing",
-      "competition": "Boxing",
-      "replay_url": "https://ok.ru/videoembed/16800408472236",
-      "replay_candidates": [
-        {
-          "url": "https://ok.ru/videoembed/16800408472236",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://ok.ru/videoembed/16800296864428",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://ok.ru/videoembed/16800190499500",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://ok.ru/videoembed/16800156355244",
-          "label": "OK.ru",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://fullfightreplays.com/_pu/7/45601125.jpg",
-      "source_url": "https://fullfightreplays.com/zuffa-boxing-12-chris-billam-smith-vs-cheavon-clarke-full-fight-replay-november-7-2026-boxing"
-    }
-  ],
+  "replays": [],
   "trackers": []
 }
