@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T21:17:13.402322+00:00",
+  "generated_utc": "2026-11-15T21:27:28.923595+00:00",
   "events": [
     {
       "event_id": "nhl:2026020309",
@@ -6225,6 +6225,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401873060",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-11-15T18:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:9",
+        "name": "Green Bay Packers",
+        "abbrev": "GB",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+        "logo_dark": null,
+        "aliases": [
+          "GB",
+          "Green Bay",
+          "Green Bay Packers",
+          "Packers"
+        ],
+        "color": "204e32"
+      },
+      "away": {
+        "id": "espn:16",
+        "name": "Minnesota Vikings",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Vikings",
+          "Vikings"
+        ],
+        "color": "4f2683"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "post/Final",
+      "venue": "Lambeau Field",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "l8WKDp6IfQA",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401873057",
       "sport": "football",
       "competition_id": "nfl",
@@ -6276,7 +6322,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-15T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:11",
         "name": "Indianapolis Colts",
@@ -6306,9 +6352,9 @@
         "color": "008e97"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Lucas Oil Stadium",
-      "detail": "0:38 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6402,53 +6448,7 @@
       "venue": "MetLife Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873060",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-11-15T18:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:9",
-        "name": "Green Bay Packers",
-        "abbrev": "GB",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-        "logo_dark": null,
-        "aliases": [
-          "GB",
-          "Green Bay",
-          "Green Bay Packers",
-          "Packers"
-        ],
-        "color": "204e32"
-      },
-      "away": {
-        "id": "espn:16",
-        "name": "Minnesota Vikings",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Vikings",
-          "Vikings"
-        ],
-        "color": "4f2683"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "Lambeau Field",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "Ix5ccUgKSh4",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -6538,7 +6538,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Frost Bank Center",
-      "detail": "19:02 - 2nd Half",
+      "detail": "15:38 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6584,7 +6584,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Mortgage Matchup Center",
-      "detail": "8:50 - 1st Quarter",
+      "detail": "5:34 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6630,7 +6630,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Allegiant Stadium",
-      "detail": "9:07 - 1st Quarter",
+      "detail": "4:06 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6676,7 +6676,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "State Farm Stadium",
-      "detail": "10:48 - 1st Quarter",
+      "detail": "6:10 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6690,7 +6690,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-15T21:25Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:6",
         "name": "Dallas Cowboys",
@@ -6720,9 +6720,9 @@
         "color": "aa0000"
       },
       "source": "espn:football/nfl",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "AT&T Stadium",
-      "detail": "Sun, November 15th at 4:25 PM EST",
+      "detail": "14:54 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "5501U8-cbw4",
       "replay_url": "",
@@ -10128,18 +10128,18 @@
   ],
   "stories": [
     {
-      "story_id": "50493391",
-      "headline": "Jets QB Geno Smith suffers ankle injury, replaced by rookie Cade Klubnik",
-      "summary": "Jets quarterback Geno Smith suffered an ankle injury in the third quarter and was replaced by rookie Cade Klubnik on Sunday at MetLife Stadium.",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746260_1296x729_16-9.jpg",
-      "published_utc": "2026-11-15T21:15:04Z",
+      "story_id": "50493936",
+      "headline": "Mahomes throws 5 TD passes and rookie Johnson runs for 101 yards as Chiefs overwhelm Falcons 35-13",
+      "summary": "\u2014 Patrick Mahomes threw five touchdown passes, including one to newly acquired Josh Downs and two to rookie Emmett Johnson, and the Kansas City Chiefs beat the struggling Atlanta...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873058.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-15T21:23:35Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Rich Cimini",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50493391/jets-qb-geno-smith-suffers-ankle-injury-bills",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873058",
       "stream_url": "",
-      "body": "EAST RUTHERFORD, N.J. -- New York Jets quarterback Geno Smith suffered an ankle injury in the third quarter of Sunday's 31-12 loss to the Buffalo Bills and was replaced by rookie Cade Klubnik at MetLife Stadium.\n\nSmith walked gingerly to the sideline after getting knocked down by Bills safety Cole Bishop on an incomplete pass with 4:26 remaining in the quarter. Smith went to the medical tent and then to the locker room, ending his day.\n\nThe Jets made a field goal after Smith departed, cutting the Bills' lead to 17-12.\n\nThe Jets' quarterback, who had played every offensive snap in the first nine games, took a physical beating. Late in the first half, he was sandwiched by a pair of Buffalo defenders and wound up missing the first series of the third quarter due to a concussion evaluation.\n\nHe was cleared and returned for one series before the ankle injury.\n\nIt was Klubnik's NFL debut. The former Clemson star, a fourth-round pick, was the No. 2 quarterback for every game but saw no game action."
+      "body": "ATLANTA -- \u2014 Patrick Mahomes threw five touchdown passes, including one to newly acquired Josh Downs and two to rookie Emmett Johnson, and the Kansas City Chiefs beat the struggling Atlanta Falcons 35-13 on Sunday to move into a first-place tie in the AFC West.\n\n\r\nThe Chiefs (7-2) leaned on Johnson at running back after ruling out Kenneth Walker on Saturday because of a groin injury. Johnson had 22 carries for 101 yards and six catches for 70 yards and two touchdowns in his first start.\n\n\r\nThe Chiefs moved into a first-place tie with Denver, which had its bye week.\n\n\r\nMahomes completed 22 of 35 passes for 348 yards to keep the depleted offense moving. Cyrus Allen and Andrew Armstrong each had his first career touchdown catch.\n\n\r\nWalker was not the only missing player on the Chiefs' offense. Tight end Travis Kelce aggravated a right ankle injury on a 23-yard catch on the Chiefs' opening touchdown drive. Kelce missed most of the first half and finished with two catches for 30 yards. Tight end Jared Wiley was ruled out with an ankle injury in the opening quarter and right guard Trey Smith (concussion) also left in the first half.\n\n\r\nThe Falcons (3-7) have lost three straight and five of six. Atlanta was held without a first down on its first four possessions.\n\n\r\nKansas City led 28-3 before Bijan Robinson's 3-yard scoring run midway through the fourth quarter.\n\n\r\nRobinson, the NFL rushing leader, ran for 71 yards on 16 carries. Michael Penix Jr. completed 23 of 43 passes for 286 yards and one interception. Cornerback Nohl Williams picked off a pass from Penix intended for Chris Blair in the end zone with 2:39 remaining.\n\n\r\nDowns was acquired from Indianapolis on Tuesday and made an immediate impact. He had an 18-yard touchdown catch on a perfect pass from Mahomes late in the first half and finished with four receptions for 53 yards while also returning punts.\n\n\r\nThe Chiefs stopped the Falcons on fourth down at midfield in the third quarter. Mahomes' 39-yard touchdown pass to rookie Allen pushed the lead to 21-3.\n\n\r\nWalker entered the weekend as the league's No. 2 rusher, behind only Atlanta's Robinson.\n\n\r\nJohnson and Nate Carter, who was promoted from the practice squad, were the Chiefs' only active running backs.\n\n\r\nThe Falcons had three new starters after trading safety Jessie Bates III and center Ryan Neuzil before the deadline. Corey Levin moved up as the starting center. DeMarcco Hellams started at safety.\n\n\r\nJake Moody, who was signed off Baltimore's practice squad on Wednesday when Nick Folk was cut, made a 28-yard field goal in the second quarter for Atlanta's only first-half points. Moody added a 38-yarder in the final quarter after a successful onside kick was recovered by Blair.\n\n\r\nInjuries\r\nChiefs: Kelce returned in the second quarter after being carted off the field. Running back Jaydn Ott (hamstring) was inactive, adding another blow to the depth at the position with Walker out.\n\n\r\nFalcons: Linebacker Divine Deablo (forearm) was inactive. Josh Woods was the fill-in starter.\n\n\r\nUp next\r\nChiefs: Host Arizona next Sunday.\n\n\r\nFalcons: Following a bye week, visit Minnesota on Nov. 29.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50493152",
@@ -10296,18 +10296,18 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
-      "story_id": "50493633",
-      "headline": "Minnesota Vikings vs. Green Bay Packers: Game Highlights",
-      "summary": "Minnesota Vikings vs. Green Bay Packers: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/fa789622-2990-4433-9aad-0937c75ad25e/fa789622-2990-4433-9aad-0937c75ad25e.jpg",
-      "published_utc": "2026-11-15T21:11:31Z",
+      "story_id": "50493909",
+      "headline": "Trevor Lawrence lights up the Titans as the Jaguars roll 40-23 for a sixth win in 7 games",
+      "summary": "\u2014 Trevor Lawrence threw for 352 yards and three touchdowns as the Jacksonville Jaguars beat the",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873057.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-15T21:22:35Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50493633/game-highlights",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873057",
       "stream_url": "",
-      "body": ""
+      "body": "NASHVILLE, Tenn. -- \u2014 Trevor Lawrence threw for 352 yards and three touchdowns as the Jacksonville Jaguars beat the Tennessee Titans 40-23 on Sunday for their sixth victory in seven games.\n\n\r\nThe Jaguars (7-2) also won a franchise-record fifth straight against their AFC South rivals, and this was their eighth win in 11 games in the series.\n\n\r\nLawrence completed passes to nine Jaguars with the fourth-highest passing yardage total of his career.\n\n\r\nParker Washington had a career-high 148 yards receiving by halftime and finished with 152. Cam Little kicked field goals of 46, 48, 36 and 40 yards. Bhayshul Tuten added a 6-yard TD run with 1:10 left, padding the score off Tennessee's turnover on downs.\n\n\r\nTravis Hunter had an interception as the Jaguars held Tennessee to 327 yards of total offense even with new trade acquisitions safety Jessie Bates III and defensive tackle Jordan Davis inactive.\n\n\r\nThe depleted Titans (1-8) remain winless at home as they lost their fifth in their final season at Nissan Stadium. After trading their top two defensive players in tackle Jeffery Simmons and safety Amani Hooker, the Titans put two more on injured reserve Saturday in left guard Peter Skoronski and punter Tommy Townsend.\n\n\r\nTennessee scratched three more starters, with rookie wide receiver Carnell Tate and linebackers Cody Barton and rookie Anthony Hill Jr. sidelined by injuries. Chandler Zavala, signed from the practice squad Saturday, started at left guard.\n\n\r\nThe Jaguars took the lead from the opening drive and never trailed after Lawrence hit Washington for a 2-yard TD.\n\n\r\nCam Ward found Elic Ayomanor for a 50-yard catch-and-run that was the longest completion of the quarterback's young career, and Ward capped the drive with a 2-yard TD pass to Daniel Bellinger, pulling the Titans within 13-10. Little's 36-yard field goal made it a 16-10 halftime lead.\n\n\r\nJoey Slye kicked a 54-yarder and a 50-yarder in the second half to keep the Titans within range.\n\n\r\nJacksonville answered with a 10-play drive, capped by a 3-yard TD pass by Lawrence to Brenton Strange on fourth-and-2 at the Titans 3. Titans coach Robert Saleh was furious officials missed a pick on his defender, leaving Strange wide open for the TD catch and a 23-13 lead. Lawrence made it 30-16 with a 25-yard TD pass to Josh Cameron early in the fourth quarter.\n\n\r\nThe Titans answered with Tony Pollard taking a dump-off pass from Ward 32 yards to the end zone pulling them within 30-23 with 8:21 remaining. That was as close as they would get.\n\n\r\nInjuries\r\nJaguars DE Danny Striggow was evaluated for a concussion in the first half and did not return. Jaguars C Robert Hainsey hurt his left knee early in the third quarter and did not return.\n\n\r\nTitans safety Tony Adams suffered a concussion that sidelined him.\n\n\r\nUp next\r\nThe Jaguars visit the New York Giants.\n\n\r\nThe Titans visit Dallas.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50487187",
