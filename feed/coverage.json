@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T05:50:38.066431+00:00",
+  "generated_utc": "2026-11-15T06:00:49.057485+00:00",
   "window_days": 2,
   "total_events": 218,
   "competitions": [
@@ -273,7 +273,7 @@
       "status_coverage_pct": 100,
       "both_logos": 79,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "rugby-league",
@@ -342,7 +342,7 @@
       "status_coverage_pct": 100,
       "both_logos": 1,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "urc",
@@ -419,8 +419,10 @@
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
   },
   "replay_items": {
-    "total": 0,
-    "by_sport": {}
+    "total": 1,
+    "by_sport": {
+      "mma": 1
+    }
   },
   "stories": {
     "total": 24,
