@@ -1,916 +1,6 @@
 {
-  "generated_utc": "2026-11-15T23:57:15.551533+00:00",
+  "generated_utc": "2026-11-16T00:07:27.876348+00:00",
   "events": [
-    {
-      "event_id": "nhl:2026020309",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-12T17:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:55",
-        "name": "Seattle Kraken",
-        "abbrev": "SEA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
-        "aliases": [
-          "Kraken",
-          "SEA",
-          "Seattle",
-          "Seattle Kraken"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:12",
-        "name": "Carolina Hurricanes",
-        "abbrev": "CAR",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
-        "aliases": [
-          "CAR",
-          "Carolina",
-          "Carolina Hurricanes",
-          "Hurricanes"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Veikkaus Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "ffEdLygsEEQ",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020299",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:6",
-        "name": "Boston Bruins",
-        "abbrev": "BOS",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
-        "aliases": [
-          "BOS",
-          "Boston",
-          "Boston Bruins",
-          "Bruins"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:8",
-        "name": "Montr\u00e9al Canadiens",
-        "abbrev": "MTL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
-        "aliases": [
-          "Canadiens",
-          "MTL",
-          "Montr\u00e9al",
-          "Montr\u00e9al Canadiens"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "TD Garden",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020300",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:10",
-        "name": "Toronto Maple Leafs",
-        "abbrev": "TOR",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
-        "aliases": [
-          "Maple Leafs",
-          "TOR",
-          "Toronto",
-          "Toronto Maple Leafs"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:30",
-        "name": "Minnesota Wild",
-        "abbrev": "MIN",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Wild",
-          "Wild"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Scotiabank Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020301",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:9",
-        "name": "Ottawa Senators",
-        "abbrev": "OTT",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
-        "aliases": [
-          "OTT",
-          "Ottawa",
-          "Ottawa Senators",
-          "Senators"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:21",
-        "name": "Colorado Avalanche",
-        "abbrev": "COL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
-        "aliases": [
-          "Avalanche",
-          "COL",
-          "Colorado",
-          "Colorado Avalanche"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Canadian Tire Centre",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020303",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:1",
-        "name": "New Jersey Devils",
-        "abbrev": "NJD",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
-        "aliases": [
-          "Devils",
-          "NJD",
-          "New Jersey",
-          "New Jersey Devils"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:15",
-        "name": "Washington Capitals",
-        "abbrev": "WSH",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
-        "aliases": [
-          "Capitals",
-          "WSH",
-          "Washington",
-          "Washington Capitals"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Prudential Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020304",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T00:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:29",
-        "name": "Columbus Blue Jackets",
-        "abbrev": "CBJ",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
-        "aliases": [
-          "Blue Jackets",
-          "CBJ",
-          "Columbus",
-          "Columbus Blue Jackets"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:14",
-        "name": "Tampa Bay Lightning",
-        "abbrev": "TBL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
-        "aliases": [
-          "Lightning",
-          "TBL",
-          "Tampa Bay",
-          "Tampa Bay Lightning"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Nationwide Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909976",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-13T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:20",
-        "name": "Philadelphia 76ers",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-        "logo_dark": null,
-        "aliases": [
-          "76ers",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia 76ers"
-        ],
-        "color": "1d428a"
-      },
-      "away": {
-        "id": "espn:28",
-        "name": "Toronto Raptors",
-        "abbrev": "TOR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
-        "logo_dark": null,
-        "aliases": [
-          "Raptors",
-          "TOR",
-          "Toronto",
-          "Toronto Raptors"
-        ],
-        "color": "d91244"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Xfinity Mobile Arena",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909977",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-13T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:27",
-        "name": "Washington Wizards",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "WSH",
-          "Washington",
-          "Washington Wizards",
-          "Wizards"
-        ],
-        "color": "e31837"
-      },
-      "away": {
-        "id": "espn:8",
-        "name": "Detroit Pistons",
-        "abbrev": "DET",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-        "logo_dark": null,
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Pistons",
-          "Pistons"
-        ],
-        "color": "1d428a"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Capital One Arena",
-      "detail": "Final/2OT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020302",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T00:30:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:13",
-        "name": "Florida Panthers",
-        "abbrev": "FLA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
-        "aliases": [
-          "FLA",
-          "Florida",
-          "Florida Panthers",
-          "Panthers"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:17",
-        "name": "Detroit Red Wings",
-        "abbrev": "DET",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
-        "aliases": [
-          "DET",
-          "Detroit",
-          "Detroit Red Wings",
-          "Red Wings"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Amerant Bank Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020305",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:16",
-        "name": "Chicago Blackhawks",
-        "abbrev": "CHI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
-        "aliases": [
-          "Blackhawks",
-          "CHI",
-          "Chicago",
-          "Chicago Blackhawks"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:7",
-        "name": "Buffalo Sabres",
-        "abbrev": "BUF",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
-        "aliases": [
-          "BUF",
-          "Buffalo",
-          "Buffalo Sabres",
-          "Sabres"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "United Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020306",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T01:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:25",
-        "name": "Dallas Stars",
-        "abbrev": "DAL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Stars",
-          "Stars"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:52",
-        "name": "Winnipeg Jets",
-        "abbrev": "WPG",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
-        "aliases": [
-          "Jets",
-          "WPG",
-          "Winnipeg",
-          "Winnipeg Jets"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "American Airlines Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401909978",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-13T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:16",
-        "name": "Minnesota Timberwolves",
-        "abbrev": "MIN",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-        "logo_dark": null,
-        "aliases": [
-          "MIN",
-          "Minnesota",
-          "Minnesota Timberwolves",
-          "Timberwolves"
-        ],
-        "color": "266092"
-      },
-      "away": {
-        "id": "espn:6",
-        "name": "Dallas Mavericks",
-        "abbrev": "DAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-        "logo_dark": null,
-        "aliases": [
-          "DAL",
-          "Dallas",
-          "Dallas Mavericks",
-          "Mavericks"
-        ],
-        "color": "0064b1"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Target Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401862824",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-13T01:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:58",
-        "name": "South Florida Bulls",
-        "abbrev": "USF",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulls",
-          "South Florida",
-          "South Florida Bulls",
-          "USF"
-        ],
-        "color": "006747"
-      },
-      "away": {
-        "id": "espn:235",
-        "name": "Memphis Tigers",
-        "abbrev": "MEM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-        "logo_dark": null,
-        "aliases": [
-          "MEM",
-          "Memphis",
-          "Memphis Tigers",
-          "Tigers"
-        ],
-        "color": "004991"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Raymond James Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873052",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-11-13T01:15Z",
-      "status": "final",
-      "home": {
-        "id": "espn:19",
-        "name": "New York Giants",
-        "abbrev": "NYG",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-        "logo_dark": null,
-        "aliases": [
-          "Giants",
-          "NYG",
-          "New York",
-          "New York Giants"
-        ],
-        "color": "003c7f"
-      },
-      "away": {
-        "id": "espn:28",
-        "name": "Washington Commanders",
-        "abbrev": "WSH",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-        "logo_dark": null,
-        "aliases": [
-          "Commanders",
-          "WSH",
-          "Washington",
-          "Washington Commanders"
-        ],
-        "color": "5a1414"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "post/Final",
-      "venue": "MetLife Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "8IkBPuLki58",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020307",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T02:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:68",
-        "name": "Utah Mammoth",
-        "abbrev": "UTA",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
-        "aliases": [
-          "Mammoth",
-          "UTA",
-          "Utah",
-          "Utah Mammoth"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:19",
-        "name": "St. Louis Blues",
-        "abbrev": "STL",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
-        "aliases": [
-          "Blues",
-          "STL",
-          "St. Louis",
-          "St. Louis Blues"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Delta Center",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "tvmaze:1349:s2026e46",
-      "sport": "wrestling",
-      "competition_id": "tna",
-      "competition_name": "TNA",
-      "start_utc": "2026-11-13T02:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "tvmaze:1349",
-        "name": "TNA iMPACT!",
-        "abbrev": "IMP",
-        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg",
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "away": {
-        "id": "wrestling:tna",
-        "name": "TNA",
-        "abbrev": "TNA",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [],
-        "color": null
-      },
-      "source": "tvmaze:tna",
-      "source_status": "calendar",
-      "venue": "",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": "TNA iMPACT!"
-    },
-    {
-      "event_id": "espn:basketball:401909979",
-      "sport": "basketball",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "start_utc": "2026-11-13T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:21",
-        "name": "Phoenix Suns",
-        "abbrev": "PHX",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-        "logo_dark": null,
-        "aliases": [
-          "PHX",
-          "Phoenix",
-          "Phoenix Suns",
-          "Suns"
-        ],
-        "color": "29127a"
-      },
-      "away": {
-        "id": "espn:30",
-        "name": "Charlotte Hornets",
-        "abbrev": "CHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-        "logo_dark": null,
-        "aliases": [
-          "CHA",
-          "Charlotte",
-          "Charlotte Hornets",
-          "Hornets"
-        ],
-        "color": "008ca8"
-      },
-      "source": "espn:basketball/nba",
-      "source_status": "post/Final",
-      "venue": "Mortgage Matchup Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401869969",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-13T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2433",
-        "name": "UL Monroe Warhawks",
-        "abbrev": "ULM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-        "logo_dark": null,
-        "aliases": [
-          "UL Monroe",
-          "UL Monroe Warhawks",
-          "ULM",
-          "Warhawks"
-        ],
-        "color": "840029"
-      },
-      "away": {
-        "id": "espn:309",
-        "name": "Louisiana Ragin' Cajuns",
-        "abbrev": "UL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-        "logo_dark": null,
-        "aliases": [
-          "Louisiana",
-          "Louisiana Ragin' Cajuns",
-          "Ragin' Cajuns",
-          "UL"
-        ],
-        "color": "ce181e"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Malone Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "22UaOi0G5zk",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401921741",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-13T02:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:252",
-        "name": "BYU Cougars",
-        "abbrev": "BYU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
-        "logo_dark": null,
-        "aliases": [
-          "BYU",
-          "BYU Cougars",
-          "Cougars"
-        ],
-        "color": "0047ba"
-      },
-      "away": {
-        "id": "espn:147",
-        "name": "Montana State Bobcats",
-        "abbrev": "MTST",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bobcats",
-          "MTST",
-          "Montana St",
-          "Montana State",
-          "Montana State Bobcats"
-        ],
-        "color": "00205c"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Marriott Center",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "nhl:2026020308",
-      "sport": "hockey",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "start_utc": "2026-11-13T03:00:00Z",
-      "status": "final",
-      "home": {
-        "id": "nhl:26",
-        "name": "Los Angeles Kings",
-        "abbrev": "LAK",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
-        "aliases": [
-          "Kings",
-          "LAK",
-          "Los Angeles",
-          "Los Angeles Kings"
-        ],
-        "color": null
-      },
-      "away": {
-        "id": "nhl:2",
-        "name": "New York Islanders",
-        "abbrev": "NYI",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
-        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
-        "aliases": [
-          "Islanders",
-          "NYI",
-          "New York",
-          "New York Islanders"
-        ],
-        "color": null
-      },
-      "source": "nhl",
-      "source_status": "OFF/OK",
-      "venue": "Crypto.com Arena",
-      "detail": "",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
     {
       "event_id": "espn:basketball:401921721",
       "sport": "basketball",
@@ -6598,7 +5688,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-15T21:05Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:13",
         "name": "Las Vegas Raiders",
@@ -6628,9 +5718,9 @@
         "color": "002a5c"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Allegiant Stadium",
-      "detail": "1:01 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6722,7 +5812,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "AT&T Stadium",
-      "detail": "11:26 - 4th Quarter",
+      "detail": "7:38 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "5501U8-cbw4",
       "replay_url": "",
@@ -6814,7 +5904,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Delta Center",
-      "detail": "8:26 - 4th Quarter",
+      "detail": "4:29 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6858,9 +5948,9 @@
         "color": "0064b1"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "TD Garden",
-      "detail": "1:55 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6906,7 +5996,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "6:07 - 2nd Quarter",
+      "detail": "2:05 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6966,7 +6056,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-16T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2599",
         "name": "St. John's Red Storm",
@@ -6997,9 +6087,9 @@
         "color": "000e54"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "Sun, November 15th at 7:00 PM EST",
+      "detail": "16:27 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7013,7 +6103,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-16T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:30",
         "name": "USC Trojans",
@@ -7043,9 +6133,9 @@
         "color": "e0aa0f"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Galen Center",
-      "detail": "Sun, November 15th at 7:00 PM EST",
+      "detail": "17:16 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7089,7 +6179,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FUT/OK",
+      "source_status": "PRE/OK",
       "venue": "Xfinity Mobile Arena",
       "detail": "",
       "game_number": 1,
@@ -8056,6 +7146,146 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401920511",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-17T19:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:248",
+        "name": "Houston Cougars",
+        "abbrev": "HOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cougars",
+          "HOU",
+          "Houston",
+          "Houston Cougars"
+        ],
+        "color": "c8102e"
+      },
+      "away": {
+        "id": "espn:164",
+        "name": "Rutgers Scarlet Knights",
+        "abbrev": "RUTG",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+        "logo_dark": null,
+        "aliases": [
+          "RUTG",
+          "Rutgers",
+          "Rutgers Scarlet Knights",
+          "Scarlet Knights"
+        ],
+        "color": "ce0e2d"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Tue, November 17th at 2:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401906773",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-17T21:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "away": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Tue, November 17th at 4:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866465",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-17T23:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2711",
+        "name": "Western Michigan Broncos",
+        "abbrev": "WMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+        "logo_dark": null,
+        "aliases": [
+          "Broncos",
+          "W Michigan",
+          "WMU",
+          "Western Michigan",
+          "Western Michigan Broncos"
+        ],
+        "color": "532e1f"
+      },
+      "away": {
+        "id": "espn:2199",
+        "name": "Eastern Michigan Eagles",
+        "abbrev": "EMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Michigan",
+          "EMU",
+          "Eagles",
+          "Eastern Michigan",
+          "Eastern Michigan Eagles"
+        ],
+        "color": "006938"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Waldo Stadium",
+      "detail": "Tue, November 17th at 6:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020333",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -8286,6 +7516,191 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401866464",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-18T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:195",
+        "name": "Ohio Bobcats",
+        "abbrev": "OHIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "OHIO",
+          "Ohio",
+          "Ohio Bobcats"
+        ],
+        "color": "154734"
+      },
+      "away": {
+        "id": "espn:2050",
+        "name": "Ball State Cardinals",
+        "abbrev": "BALL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+        "logo_dark": null,
+        "aliases": [
+          "BALL",
+          "Ball State",
+          "Ball State Cardinals",
+          "Cardinals"
+        ],
+        "color": "ba0c2f"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Peden Stadium",
+      "detail": "Tue, November 17th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401866466",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-18T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2309",
+        "name": "Kent State Golden Flashes",
+        "abbrev": "KENT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Flashes",
+          "KENT",
+          "Kent State",
+          "Kent State Golden Flashes"
+        ],
+        "color": "002664"
+      },
+      "away": {
+        "id": "espn:193",
+        "name": "Miami (OH) RedHawks",
+        "abbrev": "M-OH",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+        "logo_dark": null,
+        "aliases": [
+          "M-OH",
+          "Miami (OH)",
+          "Miami (OH) RedHawks",
+          "Miami OH",
+          "RedHawks"
+        ],
+        "color": "c41230"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "pre/Scheduled",
+      "venue": "Zoeller Field at Dix Stadium",
+      "detail": "Tue, November 17th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909566",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:150",
+        "name": "Duke Blue Devils",
+        "abbrev": "DUKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+        "logo_dark": null,
+        "aliases": [
+          "Blue Devils",
+          "DUKE",
+          "Duke",
+          "Duke Blue Devils"
+        ],
+        "color": "00539b"
+      },
+      "away": {
+        "id": "espn:356",
+        "name": "Illinois Fighting Illini",
+        "abbrev": "ILL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Illini",
+          "ILL",
+          "Illinois",
+          "Illinois Fighting Illini"
+        ],
+        "color": "ff5f05"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Cameron Indoor Stadium",
+      "detail": "Tue, November 17th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401921722",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2390",
+        "name": "Miami Hurricanes",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hurricanes",
+          "MIA",
+          "Miami",
+          "Miami Hurricanes"
+        ],
+        "color": "f47423"
+      },
+      "away": {
+        "id": "espn:2520",
+        "name": "Rider Broncs",
+        "abbrev": "RID",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png",
+        "logo_dark": null,
+        "aliases": [
+          "Broncs",
+          "RID",
+          "Rider",
+          "Rider Broncs"
+        ],
+        "color": "a80532"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Watsco Center",
+      "detail": "Tue, November 17th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020334",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -8370,6 +7785,145 @@
       "source_status": "FUT/OK",
       "venue": "United Center",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401910002",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-18T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:28",
+        "name": "Toronto Raptors",
+        "abbrev": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+        "logo_dark": null,
+        "aliases": [
+          "Raptors",
+          "TOR",
+          "Toronto",
+          "Toronto Raptors"
+        ],
+        "color": "d91244"
+      },
+      "away": {
+        "id": "espn:18",
+        "name": "New York Knicks",
+        "abbrev": "NY",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+        "logo_dark": null,
+        "aliases": [
+          "Knicks",
+          "NY",
+          "New York",
+          "New York Knicks"
+        ],
+        "color": "1d428a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Scotiabank Arena",
+      "detail": "Tue, November 17th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401906761",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:333",
+        "name": "Alabama Crimson Tide",
+        "abbrev": "ALA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+        "logo_dark": null,
+        "aliases": [
+          "ALA",
+          "Alabama",
+          "Alabama Crimson Tide",
+          "Crimson Tide"
+        ],
+        "color": "9e1b32"
+      },
+      "away": {
+        "id": "espn:338",
+        "name": "Kennesaw State Owls",
+        "abbrev": "KENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+        "logo_dark": null,
+        "aliases": [
+          "KENN",
+          "Kennesaw St",
+          "Kennesaw State",
+          "Kennesaw State Owls",
+          "Owls"
+        ],
+        "color": "fdbb30"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Coleman Coliseum",
+      "detail": "Tue, November 17th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401916289",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:84",
+        "name": "Indiana Hoosiers",
+        "abbrev": "IU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hoosiers",
+          "IU",
+          "Indiana",
+          "Indiana Hoosiers"
+        ],
+        "color": "970310"
+      },
+      "away": {
+        "id": "espn:8",
+        "name": "Arkansas Razorbacks",
+        "abbrev": "ARK",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+        "logo_dark": null,
+        "aliases": [
+          "ARK",
+          "Arkansas",
+          "Arkansas Razorbacks",
+          "Razorbacks"
+        ],
+        "color": "a32136"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Madison Square Garden",
+      "detail": "Tue, November 17th at 7:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8470,6 +8024,319 @@
       "card": ""
     },
     {
+      "event_id": "tvmaze:2266:s20e46",
+      "sport": "wrestling",
+      "competition_id": "wwe",
+      "competition_name": "WWE",
+      "start_utc": "2026-11-18T01:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "tvmaze:2266",
+        "name": "WWE NXT",
+        "abbrev": "NXT",
+        "logo": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg",
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "away": {
+        "id": "wrestling:wwe",
+        "name": "WWE",
+        "abbrev": "WWE",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [],
+        "color": null
+      },
+      "source": "tvmaze:wwe",
+      "source_status": "calendar",
+      "venue": "",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "WWE NXT"
+    },
+    {
+      "event_id": "espn:basketball:401910003",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-18T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:16",
+        "name": "Minnesota Timberwolves",
+        "abbrev": "MIN",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+        "logo_dark": null,
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Timberwolves",
+          "Timberwolves"
+        ],
+        "color": "266092"
+      },
+      "away": {
+        "id": "espn:22",
+        "name": "Portland Trail Blazers",
+        "abbrev": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+        "logo_dark": null,
+        "aliases": [
+          "POR",
+          "Portland",
+          "Portland Trail Blazers",
+          "Trail Blazers"
+        ],
+        "color": "e03a3e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Target Center",
+      "detail": "Tue, November 17th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401910004",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-18T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:24",
+        "name": "San Antonio Spurs",
+        "abbrev": "SA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+        "logo_dark": null,
+        "aliases": [
+          "SA",
+          "San Antonio",
+          "San Antonio Spurs",
+          "Spurs"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:8",
+        "name": "Detroit Pistons",
+        "abbrev": "DET",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+        "logo_dark": null,
+        "aliases": [
+          "DET",
+          "Detroit",
+          "Detroit Pistons",
+          "Pistons"
+        ],
+        "color": "1d428a"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Frost Bank Center",
+      "detail": "Tue, November 17th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401921826",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:238",
+        "name": "Vanderbilt Commodores",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+        "logo_dark": null,
+        "aliases": [
+          "Commodores",
+          "VAN",
+          "Vanderbilt",
+          "Vanderbilt Commodores"
+        ],
+        "color": "000000"
+      },
+      "away": {
+        "id": "espn:2197",
+        "name": "Eastern Illinois Panthers",
+        "abbrev": "EIU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png",
+        "logo_dark": null,
+        "aliases": [
+          "E Illinois",
+          "EIU",
+          "Eastern Illinois",
+          "Eastern Illinois Panthers",
+          "Panthers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Memorial Gymnasium (TN)",
+      "detail": "Tue, November 17th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401906851",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2633",
+        "name": "Tennessee Volunteers",
+        "abbrev": "TENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+        "logo_dark": null,
+        "aliases": [
+          "TENN",
+          "Tennessee",
+          "Tennessee Volunteers",
+          "Volunteers"
+        ],
+        "color": "ff8200"
+      },
+      "away": {
+        "id": "espn:127",
+        "name": "Michigan State Spartans",
+        "abbrev": "MSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+        "logo_dark": null,
+        "aliases": [
+          "MSU",
+          "Michigan St",
+          "Michigan State",
+          "Michigan State Spartans",
+          "Spartans"
+        ],
+        "color": "173f35"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Food City Center",
+      "detail": "Tue, November 17th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920426",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:258",
+        "name": "Virginia Cavaliers",
+        "abbrev": "UVA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cavaliers",
+          "UVA",
+          "Virginia",
+          "Virginia Cavaliers"
+        ],
+        "color": "232d4b"
+      },
+      "away": {
+        "id": "espn:295",
+        "name": "Old Dominion Monarchs",
+        "abbrev": "ODU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+        "logo_dark": null,
+        "aliases": [
+          "Monarchs",
+          "ODU",
+          "Old Dominion",
+          "Old Dominion Monarchs"
+        ],
+        "color": "003768"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "John Paul Jones Arena",
+      "detail": "Tue, November 17th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909787",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T02:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "away": {
+        "id": "espn:2439",
+        "name": "UNLV Rebels",
+        "abbrev": "UNLV",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+        "logo_dark": null,
+        "aliases": [
+          "Rebels",
+          "UNLV",
+          "UNLV Rebels"
+        ],
+        "color": "cf0a2c"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Tue, November 17th at 9:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020342",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -8554,6 +8421,145 @@
       "source_status": "FUT/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401910006",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-18T03:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:12",
+        "name": "LA Clippers",
+        "abbrev": "LAC",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+        "logo_dark": null,
+        "aliases": [
+          "Clippers",
+          "LA",
+          "LA Clippers",
+          "LAC"
+        ],
+        "color": "12173f"
+      },
+      "away": {
+        "id": "espn:26",
+        "name": "Utah Jazz",
+        "abbrev": "UTAH",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jazz",
+          "UTAH",
+          "Utah",
+          "Utah Jazz"
+        ],
+        "color": "4e008e"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "Intuit Dome",
+      "detail": "Tue, November 17th at 10:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401910005",
+      "sport": "basketball",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "start_utc": "2026-11-18T04:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:13",
+        "name": "Los Angeles Lakers",
+        "abbrev": "LAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+        "logo_dark": null,
+        "aliases": [
+          "LAL",
+          "Lakers",
+          "Los Angeles",
+          "Los Angeles Lakers"
+        ],
+        "color": "552583"
+      },
+      "away": {
+        "id": "espn:30",
+        "name": "Charlotte Hornets",
+        "abbrev": "CHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+        "logo_dark": null,
+        "aliases": [
+          "CHA",
+          "Charlotte",
+          "Charlotte Hornets",
+          "Hornets"
+        ],
+        "color": "008ca8"
+      },
+      "source": "espn:basketball/nba",
+      "source_status": "pre/Scheduled",
+      "venue": "crypto.com Arena",
+      "detail": "Tue, November 17th at 11:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401925879",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-18T04:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2250",
+        "name": "Gonzaga Bulldogs",
+        "abbrev": "GONZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "GONZ",
+          "Gonzaga",
+          "Gonzaga Bulldogs"
+        ],
+        "color": "041e42"
+      },
+      "away": {
+        "id": "espn:147",
+        "name": "Montana State Bobcats",
+        "abbrev": "MTST",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bobcats",
+          "MTST",
+          "Montana St",
+          "Montana State",
+          "Montana State Bobcats"
+        ],
+        "color": "00205c"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "McCarthey Athletic Center",
+      "detail": "Tue, November 17th at 11:00 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10124,9 +10130,359 @@
       "replay_candidates": [],
       "replay_poster": "",
       "card": ""
+    },
+    {
+      "event_id": "nhl:2026020378",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T00:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:1",
+        "name": "New Jersey Devils",
+        "abbrev": "NJD",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+        "aliases": [
+          "Devils",
+          "NJD",
+          "New Jersey",
+          "New Jersey Devils"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:29",
+        "name": "Columbus Blue Jackets",
+        "abbrev": "CBJ",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
+        "aliases": [
+          "Blue Jackets",
+          "CBJ",
+          "Columbus",
+          "Columbus Blue Jackets"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Prudential Center",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020379",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:8",
+        "name": "Montr\u00e9al Canadiens",
+        "abbrev": "MTL",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
+        "aliases": [
+          "Canadiens",
+          "MTL",
+          "Montr\u00e9al",
+          "Montr\u00e9al Canadiens"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:26",
+        "name": "Los Angeles Kings",
+        "abbrev": "LAK",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
+        "aliases": [
+          "Kings",
+          "LAK",
+          "Los Angeles",
+          "Los Angeles Kings"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Centre Bell",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020380",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:9",
+        "name": "Ottawa Senators",
+        "abbrev": "OTT",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
+        "aliases": [
+          "OTT",
+          "Ottawa",
+          "Ottawa Senators",
+          "Senators"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:20",
+        "name": "Calgary Flames",
+        "abbrev": "CGY",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
+        "aliases": [
+          "CGY",
+          "Calgary",
+          "Calgary Flames",
+          "Flames"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canadian Tire Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020381",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:2",
+        "name": "New York Islanders",
+        "abbrev": "NYI",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
+        "aliases": [
+          "Islanders",
+          "NYI",
+          "New York",
+          "New York Islanders"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:10",
+        "name": "Toronto Maple Leafs",
+        "abbrev": "TOR",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
+        "aliases": [
+          "Maple Leafs",
+          "TOR",
+          "Toronto",
+          "Toronto Maple Leafs"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "UBS Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020382",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T00:30:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:52",
+        "name": "Winnipeg Jets",
+        "abbrev": "WPG",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+        "aliases": [
+          "Jets",
+          "WPG",
+          "Winnipeg",
+          "Winnipeg Jets"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:68",
+        "name": "Utah Mammoth",
+        "abbrev": "UTA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
+        "aliases": [
+          "Mammoth",
+          "UTA",
+          "Utah",
+          "Utah Mammoth"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Canada Life Centre",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020383",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T02:40:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:55",
+        "name": "Seattle Kraken",
+        "abbrev": "SEA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+        "aliases": [
+          "Kraken",
+          "SEA",
+          "Seattle",
+          "Seattle Kraken"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:24",
+        "name": "Anaheim Ducks",
+        "abbrev": "ANA",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
+        "aliases": [
+          "ANA",
+          "Anaheim",
+          "Anaheim Ducks",
+          "Ducks"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "Climate Pledge Arena",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "nhl:2026020384",
+      "sport": "hockey",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "start_utc": "2026-11-24T03:00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "nhl:28",
+        "name": "San Jose Sharks",
+        "abbrev": "SJS",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
+        "aliases": [
+          "SJS",
+          "San Jose",
+          "San Jose Sharks",
+          "Sharks"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "nhl:30",
+        "name": "Minnesota Wild",
+        "abbrev": "MIN",
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+        "logo_dark": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
+        "aliases": [
+          "MIN",
+          "Minnesota",
+          "Minnesota Wild",
+          "Wild"
+        ],
+        "color": null
+      },
+      "source": "nhl",
+      "source_status": "FUT/OK",
+      "venue": "SAP Center at San Jose",
+      "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
     }
   ],
   "stories": [
+    {
+      "story_id": "50489998",
+      "headline": "Week 10 NFL highlights: Best plays, moments, touchdowns, more",
+      "summary": "Check here for all of Sunday's top moments, TDs and analysis from ESPN's NFL reporters.",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746223_1296x729_16-9.jpg",
+      "published_utc": "2026-11-16T00:04:19Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "NFL Nation",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50489998/week-10-highlights-sunday-best-plays-touchdowns-2026",
+      "stream_url": "",
+      "body": "The Detroit Lions and New England Patriots kicked off Sunday's action for Week 10 in Munich, with the Lions taking home a resounding 35-10 victory.\n\nIn the early lineup of games, Kirk Cousins and the Minnesota Vikings beat NFC North rival Green Bay Packers, 30-10, and in another division battle, the Carolina Panthers escaped New Orleans with a 20-17 win.\n\nAnd in the late afternoon slate, No. 1 overall pick Fernando Mendoza's first NFL start for the Las Vegas Raiders didn't turn into a win -- despite his one rushing TD, with the Raiders losing to the Seattle Seahawks, 21-13.\n\nQuarterbacks Aaron Rodgers and Joe Burrow will face off when the Pittsburgh Steelers visit the Cincinnati Bengals on \"Sunday Night Football.\"\n\nHere are the top plays from Sunday:\n\nNFL Week 10 highlights"
+    },
+    {
+      "story_id": "50496112",
+      "headline": "Los Angeles Lakers vs. Phoenix Suns: Game Highlights",
+      "summary": "Los Angeles Lakers vs. Phoenix Suns: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/5fbafced-be06-420a-933e-0d097e1b13ef/5fbafced-be06-420a-933e-0d097e1b13ef.jpg",
+      "published_utc": "2026-11-16T00:01:28Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50496112/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
     {
       "story_id": "50495394",
       "headline": "Spain 'overwhelmed' by 'exceptional' England: We also know how to lose",
@@ -10154,34 +10510,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50495398/andy-burnham-urges-caution-potential-moves-scrap-premier-league-3pm-blackout",
       "stream_url": "",
       "body": "Prime Minister Andy Burnham says he would \"urge caution\" on scrapping the Saturday 3pm blackout, and called for broadcasters to be mindful of the impact on fans caused by changes to kick-off times.\n\nThe ban on broadcasting live matches between 2.45 p.m. and 5.15 p.m on Saturdays was introduced in the 1960s but it could be dropped for the next set of Premier League, EFL and Scottish Professional Football League (SPFL) rights cycles from 2029-30.\n\nThe purpose of the blackout has been to protect live attendance at matches, amid fears crowds would be affected, especially in lower league or non-league football, if top-flight matches were available to watch on television or streaming services.\n\nBurnham said any decision to remove the ban would require careful thought about the consequences.\n\n\"I would urge a bit of caution on it [the blackout], because it does protect the income of lower league clubs,\" he said.\n\n\"If you have effectively wall-to-wall Premier League football at any time, it takes away perhaps the incentive to go and watch the football league or non-league.\n\n\"So I think it has to be considered carefully. I'm not going to take the pure consumer view here. I'll take the health of football approach to this particular issue.\n\n\"I would first of all want to protect the football pyramid before I agree to saying 'let's have even more live football.\"\n\n- Andy Burnham to publish Man City mayoral dealings after intervention draws criticism\n\n- UK PM Burnham wants 'outdated' football drinking ban scrapped\n\n\"I think it's about protecting the experience with the paying supporter, protecting the football pyramid. Those issues matter to me, first of all.\"\n\nThe trend in television rights has been to offer more matches in order to keep revenues up -- the current Premier League deal includes 270 live matches compared to 200 in the previous one for example.\n\nThe logical conclusion of that trend is for all matches to be made available live, and the SPFL's tender for its next set of rights is reported to offer the chance to do just that.\n\nThe blackout is enforced by article 48 of UEFA's statutes, which the Football Association and the Scottish Football Association choose to impose.\n\nIt applies when 50% or more of matches in the top two divisions are due to be played simultaneously.\n\nPremier League chief executive Richard Masters told talkSPORT in August that English football was leaning towards a blackout but added: \"It's not just us involved in the decision about article 48. It's us, the EFL and the FA.\n\n\"\"We've got to take that decision at some point in the future about whether things are going to change.\n\n\"It's not a decision for now. It's a decision we've got to make before the next set of domestic processes that the EFL and the Premier League are going to do.\n\n\"I'd say in about 18 months time we'll come back to that decision about whether article 48 should remain or not.\"\n\nBurnham was also asked if broadcasters needed to be more mindful of the disruption caused to fans by the scheduling of matches for live broadcast.\n\n\"It doesn't give any regard, actually, as far as I can see, to travelling supporters,\" he said.\n\n\"Monday night games, you know, people in the north-east coming to the north-west, it's not fair, the way that is done, or very early kick-offs on Saturday, very difficult for people to get there. So on that, I agree [with the need to be more mindful]."
-    },
-    {
-      "story_id": "50494331",
-      "headline": "Week 10 winners and losers: Mahomes has biggest game in years; Taylor struggles",
-      "summary": "Jahmyr Gibbs, Patrick Mahomes and Emmett Johnson put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746379_2_1296x729_16-9.jpg",
-      "published_utc": "2026-11-15T23:47:17Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Matt Bowen and Tristan H. Cockcroft",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
-      "stream_url": "",
-      "body": "Week 10 of the 2026 fantasy football season featured huge games by Jahmyr Gibbs, Patrick Mahomes and rookie Emmett Johnson. Meanwhile, Jonathan Taylor and the Green Bay and Carolina passing games underperformed in a big way Sunday.\n\nSo, who were the big winners and losers around the league? Matt Bowen and Tristan H. Cockcroft offer their analysis.\n\nJump to a topic:\n\nRanking winners | Ranking losers\n\nBiggest injuries and what's next\n\nRanking fantasy winners of Week 10\n1. Jahmyr Gibbs, RB, Detroit Lions\nAfter a quiet Week 9, Gibbs roared back with a 44.2-point performance in Munich, reminding us why he's the No. 1 player in our game. He tore up a New England Patriots defense that has been reeling the past two weeks; the Patriots surrendered a combined 80 points and 972 total yards to the Green Bay Packers and Lions. Gibbs has exceeded 40 fantasy points in three of his past 16 regular-season games and 35-plus in seven of his past 20. His 253.4 points for the season is the eighth most ever by a running back through his team's first nine games. Gibbs' Week 11 matchup against the Tampa Bay Buccaneers might seem scary -- they entered the week the No. 1 defense against running backs -- but he's on too historic a run to quibble about his clear overall RB1 fantasy stock. -- Cockcroft\n\n2. Patrick Mahomes, QB, Kansas City Chiefs\nThe deadline acquisition of WR Josh Downs paid immediate dividends for Mahomes and the Chiefs, as the veteran quarterback scored 35.42 fantasy points, his most in a game in five years, and the team totaled 461 yards of offense. Kenneth Walker III's absence shifted the Chiefs' offensive philosophy more toward the pass, as fill-in running back Emmett Johnson has been excellent as a receiver. Should Walker miss more time -- he's tentatively expected to play in Week 11 -- Mahomes could put up another big score in an extremely favorable matchup against the Arizona Cardinals. -- Cockcroft\n\n3. Emmett Johnson, RB, Kansas City Chiefs\nJohnson, making his first pro start while filling in for an injured Walker, scored a career-best 35.1 points in the win over Atlanta. Johnson rushed for 101 yards on 22 carries, showing that elusive running style from his college tape, but coach Andy Reid has unlocked his receiving ability in this offense. Johnson caught six passes for 70 yards and two touchdowns Sunday. If Walker doesn't return for the Week 11 game versus Arizona, Johnson should be played as an RB1 with dual-threat upside. -- Bowen\n\n4. Chuba Hubbard, RB, Carolina Panthers\nIn a prime matchup versus the Saints' defense, Hubbard had a season-best 34.2 points. Hubbard rushed for 92 yards and two touchdowns on 27 carries, plus he had a season-high 80 yards receiving on five catches. The Week 11 tilt versus the Ravens' defense creates a tougher matchup for Hubbard, but with 20 or more touches in three straight games (and at least one touchdown in two), he'll be a fringe RB1 in my rankings. -- Bowen\n\n5. Parker Washington, WR, and Trevor Lawrence, QB, Jacksonville Jaguars\nWashington scored 28.2 points in Sunday's win over the Titans, catching seven of nine targets for a season-high 152 yards and a touchdown. Washington has now caught a touchdown in back-to-back games, with at least seven targets in each. Lawrence (26.78 points) threw for a season-high 352 yards -- with three touchdowns -- and he added 27 yards rushing. Lawrence will be in my QB1 ranks for the Week 11 game versus the New York Giants, while Washington can be trusted as a WR2. -- Bowen\n\n6. Nico Collins, WR, Houston Texans\nHis 24.4 points surely pleased his fantasy managers as they represented his second-best total in 2026, and his 16 targets were easily his season high. Collins' day had its rough spots, however, as he collided with a pair of Cleveland Browns defenders en route to C.J. Stroud's only interception late in the second quarter, he committed an unnecessary roughness penalty late in the fourth quarter, and he failed to catch five of his final seven targets on the day in a game his Texans lost in the final minutes. Still, Collins' heavy usage continues to bolster his back-end fantasy WR1 value. -- Cockcroft\n\n7. Tony Pollard, RB, Tennessee Titans\nTyjae Spears' healthy return, and the opposing Jacksonville Jaguars' handy lead for much of the day, suppressed Pollard's rushing workload, but the scorching-hot running back rewarded his fantasy managers nonetheless. Pollard's 23.9 fantasy points were buoyed by an 8-66-1 receiving line, easily his best in any of his three seasons with the Titans. He now has 89.1 points in his past three games, ahead of what should be a high-scoring matchup with the Dallas Cowboys. Pollard is a fantasy RB1 for that game. -- Cockcroft\n\nRanking fantasy losers of Week 10\n1. Jonathan Taylor, RB, Indianapolis Colts\nTaylor had 12.3 points in the Week 10 win over the Dolphins, finishing with 103 total yards on 18 carries. He failed to score a touchdown for the third straight game, and he's averaging only 9.5 points per game over that stretch. After the Colts traded away Quenton Nelson and multiple wide receivers at the deadline, we are now watching a very limited offense, which will continue to impact Taylor's production. He'll drop down into my ranks for the Week 11 matchup versus Houston. -- Bowen\n\n2. Green Bay Packers' passing game\nOver the five weeks preceding this one, QB Jordan Love and WRs Matthew Golden and Christian Watson ranked among the top eight in fantasy points scored. In Week 10, they managed 10.8, 12.0 and 6.7 points, with Love's and Watson's numbers representing season lows. Chalk much of this up to the matchup against the tough-as-nails Minnesota Vikings defense, which sent a relentless pass rush (week-high 68% blitz and 82% pass rush win rates), leading to Love being sacked eight times. The bye comes at a good time for the Packers, who can lick their wounds following this disappointing showing and go right back to being solid fantasy options over the season's final seven weeks. -- Cockcroft\n\n3. Carolina Panthers' passing game\nConsidering the matchup -- the New Orleans Saints entered the week the eighth best for quarterbacks and the best for wide receivers (when schedule-adjusted) -- QB Bryce Young and WRs Tetairoa McMillan and Jalen Coker were huge disappointments. Young scored 8.1 fantasy points in his third poor performance in his past four, calling back into question his lineup utility as we head into \"Bye-mageddon\" Week 11. McMillan scored 6.5 and Coker 0.3 points on seven and four targets, as Young's funk has had a noticeably adverse impact upon their production. Consider Young a superflex/QB2 at best against the Baltimore Ravens, while McMillan should be a midrange WR2 and Coker more of a WR3/flex. -- Cockcroft\n\n4. Tyler Shough, QB, and Chris Olave, WR, New Orleans Saints\nShough completed 71% of his throws in Sunday's loss to the Panthers, but he finished with only 187 yards passing and a touchdown, plus he turned the ball over twice. Shough's 25 rush yards pushed his total to 9.98 points, but I expected more here versus Carolina. Olave had season lows across the board, scoring 6.0 points on three of four targets for 30 yards receiving. Rough day for the Saints' pass game. With the Bears up next, Shough will remain in the QB2 range, while Olave will be a fringe WR1 in my rankings. -- Bowen\n\n5. Rhamondre Stevenson, RB, New England Patriots\nCleared to play despite suffering what seemed like a serious knee injury in Week 9, Stevenson -- and the Patriots as a whole -- had a forgettable game in Germany on Sunday. Stevenson's 1.5 fantasy points were the third fewest he has scored in any game in which he played at least 20 offensive snaps, though he was hardly needed -- and didn't have a rushing attempt in the game's final 18 minutes -- in what was a 35-10 blowout loss. He has a Week 11 bye, and he'd be a matchups-oriented flex play against the Los Angeles Chargers in Week 12, much of that depending upon Drake Maye's (ankle) status. -- Cockcroft\n\nInjury impact\nDrake Maye, QB, New England Patriots\n\nWhat we know: Maye injured an ankle when he was tackled by Lions DE Aidan Hutchinson -- who, incidentally, was also lost for the day due to injury on the same play -- and was ruled out for the game midway through the second quarter.\n\nWhat's next: The Patriots have their bye in Week 11, affording Maye additional time to rest, but the swift decision to rule him out raises concerns that he might have a high ankle sprain, which usually requires multiple weeks of recovery. Tommy DeVito, who had a 54.3 passer rating and 7.14 fantasy points, will be the starter if Maye isn't ready for Week 12, but that would significantly set the offense back. No Patriots player scored as many as 10 fantasy points against the Lions in Munich. -- Cockcroft\n\nA.J. Brown, WR, New England Patriots\n\nWhat we know: Brown, who has been playing through a knee injury for much of the season, left Sunday's game in the fourth quarter with a hamstring issue. He didn't return in the Patriots' blowout loss, ending his day with 4.7 fantasy points.\n\nWhat's next: Brown has now been limited to four games due to his various ailments, and he has yet to exceed 7.8 fantasy points (Week 7, @CHI) in any of them. He has the bye week's rest to potentially get healthy, but with all of his setbacks and Maye's uncertain status, Brown should be treated as a risk/reward fantasy WR3 going forward, until he proves otherwise. The Patriots could lean more on Kyle Williams and tight end Eli Raridon if Brown is forced to miss Week 12. -- Cockcroft\n\nWoody Marks, RB, Houston Texans\n\nWhat we know: Marks suffered a concussion in the third quarter versus the Browns, and he did not return. Before exiting, Marks had 65 total yards on 13 touches (7.5 points).\n\nWhat's next: With Marks expected to enter the concussion protocol, we'll monitor updates on his condition throughout the week. David Montgomery (groin) hasn't played since Week 5, but he could return for the Week 11 matchup versus the Colts, where he will have RB2 value if Marks is out. -- Bowen\n\nGeno Smith, QB, New York Jets\n\nWhat we know: Smith left the game twice in Sunday's loss to the Bills. After taking a hit at the end of the first half, Smith was evaluated for a concussion but returned to the game midway through the third quarter. However, after putting together a drive that resulted in a field goal, Smith exited again with an ankle injury, and he did not return.\n\nWhat's next: Rookie Cade Klubnik relieved Smith twice, completing 11 of 20 passes for 137 yards and an interception, plus he was sacked three times. Klubnik will be in line to start for the Week 11 matchup versus the Los Angeles Chargers if Smith can't go, which would lower fantasy expectations for the Jets' receiving options. -- Bowen"
-    },
-    {
-      "story_id": "50493152",
-      "headline": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
-      "summary": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
-      "published_utc": "2026-11-15T22:58:36Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Kris Rhim",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50493152/lebron-james-passes-jason-kidd-nba-assists-list",
-      "stream_url": "",
-      "body": "PHILADELPHIA -- As LeBron James leaped for a contested layup over the outstretched arms of Indiana Pacers forward Pascal Siakam and guard Aaron Nesmith on Sunday, James turned and passed the ball to Sixers guard Tyrese Maxey for a 3-pointer.\n\nIt was a pass that only James knew was coming, and it was one of eleven assists in Sunday's 131-124 win over Indiana that moved him past Hall of Fame point guard Jason Kidd for third on the NBA career assists list with 12,092.\n\n\"It's super humbling. It's something that I didn't obviously foresee in my career,\" James said. \"But I knew assists meant a lot to me. Just the movement of the ball, being able to find my teammates and put the ball on time and on target.\"\n\nJames finished Sunday's game with 15 points, 11 assists and seven rebounds. The eleventh assist, which pushed James past Kidd, came in the fourth quarter on a pass to guard VJ Edgecombe. James has thrived as a passer against the Pacers this year, posting his top two assist totals of the season against them -- including 10 against Indiana on Oct. 28.\n\nThroughout the night, James had a handful of highlight-worthy dimes. There was a no-look pass to a cutting Jaylen Brown that drew roars from the crowd at Xfinity Mobile Arena, as well as the pass to Maxey. James said that his new teammates adjusted to his passes by necessity, after James \"hit them in the head a couple times,\" with passes throughout training camp.\n\n\"You can ask VJ [Edgecombe] for sure. I hit VJ a couple times,\" James said with a smile.\n\nBut he and Maxey have trained together in the offseason for the last six years, so they have a different level of chemistry, James said. But even Maxey wasn't sure that the pass in the first quarter was coming. He stood ready in shooting position but then dropped his hands as James rose before quickly adjusting as the ball headed toward him.\n\n\"I knew once I got his defender to stare at me, I was going to 'Rese,\" James said. \"It caught 'Rese by surprise. He was like, 'Yo, I didn't even believe that you was gonna pass the ball.' So you know, I just tell my guys, I mean, 'Always just pay attention to me when I got the ball because I definitely see plays develop before they happen.'\"\n\nA few minutes before that play, Maxey and James had a failed connection. On the opening possession of the game, James threw a bounce pass to a cutting Maxey, who missed the layup.\n\n\"I missed at the rim because ... I was just jogging through and I was not playing to get the ball,\" Maxey said. \"And the ball hit me in my chest, and I looked up; I was at the rim, so I laid in, and I missed it. But it's just like plays like that where you need to be ready at all times.\"\n\nJames could continue to climb the charts this season, as he is 461 assists away from passing point guard Chris Paul for second all time. The top spot, held by former Utah Jazz point guard John Stockton, is a ways away at 15,062 assists.\n\nFor the season, James is averaging 15.1 points, 7.2 rebounds and 6.9 assists per game. The Sixers play the Nets in Brooklyn on Monday. James hasn't played both games of a back-to-back this season."
     },
     {
       "story_id": "50492078",
@@ -10296,6 +10624,34 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
+      "story_id": "50494331",
+      "headline": "Week 10 winners and losers: Mahomes has biggest game in years; Taylor struggles",
+      "summary": "Jahmyr Gibbs, Patrick Mahomes and Emmett Johnson put fantasy teams on their back in Week 10, while Jonathan Taylor and the Packers and Panthers' passing games had quiet days.",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746379_2_1296x729_16-9.jpg",
+      "published_utc": "2026-11-16T00:00:44Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Matt Bowen and Tristan H. Cockcroft",
+      "source": "ESPN",
+      "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-50494331/nfl-week-10-fantasy-football-winners-losers-injuries-rankings-more",
+      "stream_url": "",
+      "body": "Week 10 of the 2026 fantasy football season featured huge games by Jahmyr Gibbs, Patrick Mahomes and rookie Emmett Johnson. Meanwhile, Jonathan Taylor and the Green Bay and Carolina passing games underperformed in a big way Sunday.\n\nSo, who were the big winners and losers around the league? Matt Bowen and Tristan H. Cockcroft offer their analysis.\n\nJump to a topic:\n\nRanking winners | Ranking losers\n\nBiggest injuries and what's next\n\nRanking fantasy winners of Week 10\n1. Jahmyr Gibbs, RB, Detroit Lions\nAfter a quiet Week 9, Gibbs roared back with a 44.2-point performance in Munich, reminding us why he's the No. 1 player in our game. He tore up a New England Patriots defense that has been reeling the past two weeks; the Patriots surrendered a combined 80 points and 972 total yards to the Green Bay Packers and Lions.\n\nGibbs has exceeded 40 fantasy points in three of his past 16 regular-season games and 35-plus in seven of his past 20. His 253.4 points for the season is the eighth-most ever by a running back through his team's first nine games. Gibbs' Week 11 matchup against the Tampa Bay Buccaneers might seem scary -- they entered the week the No. 1 defense against running backs -- but he's on too historic of a run to quibble about his clear overall RB1 fantasy stock. -- Cockcroft\n\n2. Patrick Mahomes, QB, Kansas City Chiefs\nThe deadline acquisition of WR Josh Downs paid immediate dividends for Mahomes and the Chiefs as the veteran quarterback scored 35.42 fantasy points (his most in a game in five years) and the team totaled 461 yards of offense. Kenneth Walker III's absence shifted the Chiefs' offensive philosophy more toward the pass, as fill-in running back Emmett Johnson has been excellent as a receiver.\n\nShould Walker miss more time -- he's tentatively expected to play in Week 11 -- Mahomes could put up another big score in an extremely favorable matchup against the Arizona Cardinals. -- Cockcroft\n\n3. Emmett Johnson, RB, Kansas City Chiefs\nJohnson, making his first pro start while filling in for an injured Walker, scored a career-best 35.1 points in the win over Atlanta. Johnson rushed for 101 yards on 22 carries as he showed that elusive running style from his college tape, but coach Andy Reid has unlocked his receiving ability in this offense. Johnson caught six passes for 70 yards and two touchdowns Sunday. If Walker doesn't return for the Week 11 game versus Arizona, Johnson should be played as an RB1 with dual-threat upside. -- Bowen\n\n4. Chuba Hubbard, RB, Carolina Panthers\nIn a prime matchup versus the Saints' defense, Hubbard had a season-best 34.2 points. Hubbard rushed for 92 yards and two touchdowns on 27 carries, plus he had a season-high 80 receiving yards on five catches. The Week 11 tilt versus the Ravens' defense creates a tougher matchup for Hubbard, but with 20 or more touches in three straight games (and at least one touchdown in two), he'll be a fringe RB1 in my rankings. -- Bowen\n\n5. Parker Washington, WR, and Trevor Lawrence, QB, Jacksonville Jaguars\nWashington scored 28.2 points in Sunday's win over the Titans, catching seven of nine targets for a season-high 152 yards and a touchdown. Washington has now caught a touchdown in back-to-back games, with at least seven targets in each. Lawrence (26.78 points) threw for a season-high 352 yards with three touchdowns, and he added 27 rushing yards. Lawrence will be in my QB1 ranks for the Week 11 game versus the New York Giants, while Washington can be trusted as a WR2. -- Bowen\n\n6. Nico Collins, WR, Houston Texans\nHis 24.4 points surely pleased his fantasy managers as they represented his second-best total in 2026 and his 16 targets were easily his season high. Collins' day had its rough spots, as he collided with a pair of Cleveland Browns defenders en route to C.J. Stroud's only interception late in the second quarter, he committed an unnecessary roughness penalty late in the fourth quarter and he failed to catch five of his final seven targets on the day in a game his Texans lost in the final minutes. Still, Collins' heavy usage continues to bolster his back-end fantasy WR1 value. -- Cockcroft\n\n7. Tony Pollard, RB, Tennessee Titans\nTyjae Spears' healthy return and the opposing Jacksonville Jaguars' handy lead for much of the day suppressed Pollard's rushing workload, but the scorching-hot running back rewarded his fantasy managers nonetheless. Pollard's 23.9 fantasy points were buoyed by an 8-66-1 receiving line, easily his best in any of his three seasons with the Titans. He now has 89.1 points in his past three games ahead of what should be a high-scoring matchup with the Dallas Cowboys. Pollard is a fantasy RB1 for that game. -- Cockcroft\n\nRanking fantasy losers of Week 10\n1. Jonathan Taylor, RB, Indianapolis Colts\nTaylor had 12.3 points in the Week 10 win over the Dolphins, finishing with 103 total yards on 18 carries. He failed to score a touchdown for the third straight game, and he's averaging only 9.5 points per game over that stretch. After the Colts traded away Quenton Nelson and multiple wide receivers at the deadline, we are now watching a very limited offense, which will continue to impact Taylor's production. He'll drop down into my ranks for the Week 11 matchup versus Houston. -- Bowen\n\n2. Green Bay Packers' passing game\nOver the five weeks preceding this game, QB Jordan Love and WRs Matthew Golden and Christian Watson ranked among the top eight in fantasy points scored. In Week 10, they managed 10.8, 12.0 and 6.7 points, with Love's and Watson's numbers representing season lows. Chalk much of this up to the matchup against the tough-as-nails Minnesota Vikings defense, which sent a relentless pass rush (week-high 68% blitz and 82% pass rush win rates) leading to Love being sacked eight times. The bye comes at a good time for the Packers, who can lick their wounds following this disappointing showing and go right back to being solid fantasy options over the season's final seven weeks. -- Cockcroft\n\n3. Carolina Panthers' passing game\nConsidering the matchup as the New Orleans Saints entered the week the eighth best for quarterbacks and the best for wide receivers (when schedule-adjusted), QB Bryce Young and WRs Tetairoa McMillan and Jalen Coker were huge disappointments. Young scored 8.1 fantasy points in his third poor performance in his past four, calling back into question his lineup utility as we head into \"Bye-mageddon\" Week 11. McMillan scored 6.5 and Coker 0.3 points on seven and four targets, as Young's funk has had a noticeably adverse impact upon their production. Consider Young a superflex/QB2 at best against the Baltimore Ravens, while McMillan should be a midrange WR2 and Coker more of a WR3/flex. -- Cockcroft\n\n4. Tyler Shough, QB, and Chris Olave, WR, New Orleans Saints\nShough completed 71% of his throws in Sunday's loss to the Panthers but he finished with only 187 yards passing and a touchdown, plus he turned the ball over twice. Shough's 25 rush yards pushed his total to 9.98 points, but I expected more here versus Carolina. Olave had season lows across the board, scoring 6.0 points on three of four targets for 30 yards receiving. It was a rough day for the Saints' pass game. With the Bears up next, Shough will remain in the QB2 range while Olave will be a fringe WR1 in my rankings. -- Bowen\n\n5. Rhamondre Stevenson, RB, New England Patriots\nCleared to play despite suffering what seemed like a serious knee injury in Week 9, Stevenson -- and the Patriots as a whole -- had a forgettable game in Germany on Sunday. Stevenson's 1.5 fantasy points were the third-fewest he has scored in any game in which he played at least 20 offensive snaps, though he was hardly needed (and didn't have a rushing attempt in the game's final 18 minutes) in what was a 35-10 blowout loss. He has a Week 11 bye and he'll be a matchups-oriented flex play against the Los Angeles Chargers in Week 12, though much of that depending upon Drake Maye's (ankle) status. -- Cockcroft\n\nInjury impact\nDrake Maye, QB, New England Patriots\n\nWhat we know: Maye injured an ankle when he was tackled by Lions DE Aidan Hutchinson -- who, incidentally, was also lost for the day due to injury on the same play -- and was ruled out for the game midway through the second quarter.\n\nWhat's next: The Patriots have their bye in Week 11, affording Maye additional time to rest but the swift decision to rule him out raises concerns that he might have a high ankle sprain, which usually requires multiple weeks of recovery. Tommy DeVito, who had a 54.3 passer rating and 7.14 fantasy points, will be the starter if Maye isn't ready for Week 12, but that would significantly set the offense back. No Patriots player scored as many as 10 fantasy points against the Lions in Munich. -- Cockcroft\n\nA.J. Brown, WR, New England Patriots\n\nWhat we know: Brown, who has been playing through a knee injury for much of the season, left Sunday's game in the fourth quarter with a hamstring issue. He didn't return and ended his day with 4.7 fantasy points.\n\nWhat's next: Brown has now been limited to four games due to his various ailments, and he has yet to exceed 7.8 fantasy points (Week 7, @CHI) in any of them. He has the bye week's rest to potentially get healthy, but with all of his setbacks and Maye's uncertain status, Brown should be treated as a risk/reward fantasy WR3 going forward, until he proves otherwise. The Patriots could lean more on Kyle Williams and tight end Eli Raridon if Brown is forced to miss Week 12. -- Cockcroft\n\nWoody Marks, RB, Houston Texans\n\nWhat we know: Marks suffered a concussion in the third quarter versus the Browns, and he did not return. Before exiting, Marks had 65 total yards on 13 touches (7.5 points).\n\nWhat's next: With Marks expected to enter the concussion protocol, we'll monitor updates on his condition throughout the week. David Montgomery (groin) hasn't played since Week 5, but he could return for the Week 11 matchup versus the Colts, where he will have RB2 value if Marks is out. -- Bowen\n\nGeno Smith, QB, New York Jets\n\nWhat we know: Smith left the game twice in Sunday's loss to the Bills. After taking a hit at the end of the first half, Smith was evaluated for a concussion but returned to the game midway through the third quarter. However, after putting together a drive that resulted in a field goal, Smith exited again with an ankle injury, and he did not return.\n\nWhat's next: Rookie Cade Klubnik relieved Smith twice, completing 11 of 20 passes for 137 yards and an interception, plus he was sacked three times. Klubnik will be in line to start for the Week 11 matchup versus the Los Angeles Chargers if Smith can't go, which would lower fantasy expectations for the Jets' receiving options. -- Bowen"
+    },
+    {
+      "story_id": "50493152",
+      "headline": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
+      "summary": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
+      "published_utc": "2026-11-15T22:58:36Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Kris Rhim",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50493152/lebron-james-passes-jason-kidd-nba-assists-list",
+      "stream_url": "",
+      "body": "PHILADELPHIA -- As LeBron James leaped for a contested layup over the outstretched arms of Indiana Pacers forward Pascal Siakam and guard Aaron Nesmith on Sunday, James turned and passed the ball to Sixers guard Tyrese Maxey for a 3-pointer.\n\nIt was a pass that only James knew was coming, and it was one of eleven assists in Sunday's 131-124 win over Indiana that moved him past Hall of Fame point guard Jason Kidd for third on the NBA career assists list with 12,092.\n\n\"It's super humbling. It's something that I didn't obviously foresee in my career,\" James said. \"But I knew assists meant a lot to me. Just the movement of the ball, being able to find my teammates and put the ball on time and on target.\"\n\nJames finished Sunday's game with 15 points, 11 assists and seven rebounds. The eleventh assist, which pushed James past Kidd, came in the fourth quarter on a pass to guard VJ Edgecombe. James has thrived as a passer against the Pacers this year, posting his top two assist totals of the season against them -- including 10 against Indiana on Oct. 28.\n\nThroughout the night, James had a handful of highlight-worthy dimes. There was a no-look pass to a cutting Jaylen Brown that drew roars from the crowd at Xfinity Mobile Arena, as well as the pass to Maxey. James said that his new teammates adjusted to his passes by necessity, after James \"hit them in the head a couple times,\" with passes throughout training camp.\n\n\"You can ask VJ [Edgecombe] for sure. I hit VJ a couple times,\" James said with a smile.\n\nBut he and Maxey have trained together in the offseason for the last six years, so they have a different level of chemistry, James said. But even Maxey wasn't sure that the pass in the first quarter was coming. He stood ready in shooting position but then dropped his hands as James rose before quickly adjusting as the ball headed toward him.\n\n\"I knew once I got his defender to stare at me, I was going to 'Rese,\" James said. \"It caught 'Rese by surprise. He was like, 'Yo, I didn't even believe that you was gonna pass the ball.' So you know, I just tell my guys, I mean, 'Always just pay attention to me when I got the ball because I definitely see plays develop before they happen.'\"\n\nA few minutes before that play, Maxey and James had a failed connection. On the opening possession of the game, James threw a bounce pass to a cutting Maxey, who missed the layup.\n\n\"I missed at the rim because ... I was just jogging through and I was not playing to get the ball,\" Maxey said. \"And the ball hit me in my chest, and I looked up; I was at the rim, so I laid in, and I missed it. But it's just like plays like that where you need to be ready at all times.\"\n\nJames could continue to climb the charts this season, as he is 461 assists away from passing point guard Chris Paul for second all time. The top spot, held by former Utah Jazz point guard John Stockton, is a ways away at 15,062 assists.\n\nFor the season, James is averaging 15.1 points, 7.2 rebounds and 6.9 assists per game. The Sixers play the Nets in Brooklyn on Monday. James hasn't played both games of a back-to-back this season."
+    },
+    {
       "story_id": "50483716",
       "headline": "Olley: Manchester United have lacked culture, togetherness and desire",
       "summary": "Olley: Manchester United have lacked culture, togetherness and desire",
@@ -10322,34 +10678,6 @@
       "link": "https://www.espn.com/soccer/story/_/id/50489327/transfer-rumors-news-gossip-arsenal-tottenham-lankshear",
       "stream_url": "",
       "body": "Manchester United captain Bruno Fernandes is holding off on signing a new contract for now, while Arsenal are the latest team to join a long list of admirers following Middlesbrough striker Will Lankshear. Join us for the latest transfer news and rumors from around the globe.\n\nTransfers home page | Men's summer grades | Women's grades\n\nTrending rumors\n\n- Manchester United captain Bruno Fernandes is holding off on signing a new contract for now, says The Sun. Fernandes, 32, has a contract which expires next summer -- albeit with a one-year club option to renew -- and reportedly wants to wait to see what happens under new boss Mauricio Pochettino. The Portugal midfielder has been linked with a lucrative move to Saudi Arabia before.\n\n- Arsenal are in the market for a center forward, and TEAMtalk claims that the Gunners are the latest team to join a long list of admirers following Middlesbrough striker Will Lankshear. The 21-year-old joined Boro from Tottenham Hotspur this summer, after a loan spell at Oxford United in the Championship, and has hit the ground running, scoring 13 goals in as many appearances in the league so far. That has brought about plenty of transfer interest, but Middlesbrough will try to block any exit in January.\n\n- Arsenal are continuing the push to sign a left-sided forward, with RB Leipzig star Antonio Nusa leading their shortlist, says TEAMtalk. Gabriel Martinelli and Leandro Trossard left in the summer, and were replaced by Christos Tzolis before a move to sign Vin\u00edcius J\u00fanior from Real Madrid fell short. With Mikel Arteta wanting more options on that flank, the report claims that talks have opened with Nusa's representatives about a possible switch, but the 21-year-old's transfer could cost \u20ac80 million.\n\n- Tottenham defender Pedro Porro has decided that he only wants to join Barcelona if he leaves the club, according to Sport. The 27-year-old Spain right back has seen interest from the Blaugrana, as well as Real Madrid, despite only signing a new contract with Spurs in the summer. But while Barcelona are eyeing up a deal worth no more than \u20ac50 million next summer, Tottenham will stand firm on their \u20ac70 million valuation.\n\n- AC Milan are looking to bolster in the forward areas during January, with Gazzetta dello Sport reporting that Real Madrid's Endrick and Club Brugge's Nicol\u00f2 Tresoldi are on their shortlist. Endrick has seen few minutes in the starting XI for Los Blancos this season and Milan are keen on a loan deal with a permanent option included. Meanwhile, Tresoldi 22, who has five goals in four Champions League appearances this season, has caught the eye of a number of a teams and could move in a \u20ac60 million deal.\n\nOther rumors\n- Arsenal believe that Real Madrid forward Vinicius Junior will join the club eventually. (Football Transfers)\n\n- Sunderland will look to block any move for Brian Brobbey, as Tottenham are eyeing a potential deal for the striker. (Football Insider)\n\n- Liverpool, Real Madrid and AC Milan are set to face off for the signature of Angelo Stiller, with the VfB Stuttgart midfielder attracting interest heading into January. (Ekrem Konur)\n\n- Liverpool would be willing to trigger the \u20ac55 million permanent clause in Ronald Ara\u00fajo's contract this January, but the Barcelona defender's loan only includes the option for the end of the season. The 27-year-old has been a regular at right back for the Reds since joining on loan in the summer. (Marca)\n\n- Borussia M\u00f6nchengladbach attacking midfielder Wael Mohya, 17, is now attracting interest from Liverpool, Real Madrid, Barcelona, Bayern Munich and AC Milan after a breakthrough season in the Bundesliga. (Ekrem Konur)\n\n- Versatile midfielder Brian Fari\u00f1as is set to extend his contract with Barcelona, as the 20-year-old holds new talks with sporting director Deco. The Spaniard has featured three times for the Blaugrana so far this season, and has filled in at full back. (Marca)\n\n- Two clubs outside of Serie A have been enquiring about the future of Juventus winger Edon Zhegrova, with the 27-year-old Kosovo international facing a potential exit in January. (Nicol\u00f2 Schira)\n\n- Juventus remain keen on signing striker Alexander S\u00f8rloth from Atl\u00e9tico Madrid, after failing in their pursuit in the summer. Discussions have already been held about a deal for the 30-year-old. (La Gazzetta dello Sport)\n\n- Juventus are also keeping a close eye on Hakan \u00c7alhano\u011flu, as his contract situation with Inter Milan unravels. The Old Lady remain keen on the 32-year-old midfielder, who is a free agent next summer, while talks over a new deal have seemingly stalled. (Tuttosport)"
-    },
-    {
-      "story_id": "50495965",
-      "headline": "Kirk Cousins emotional after win in Vikings return, reflects on 'tough 3 years'",
-      "summary": "Kirk Cousins was emotional discussing his return to the Vikings after their victory over the Packers.",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746351_1296x729_16-9.jpg",
-      "published_utc": "2026-11-15T23:45:00Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Kevin Seifert",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50495965/kirk-cousins-emotional-getting-win-return-vikings",
-      "stream_url": "",
-      "body": "GREEN BAY, Wis. -- Kirk Cousins managed to hold back tears Sunday morning when he arrived at Lambeau Field. He didn't even try on the way out.\n\nAfter the Minnesota Vikings' 30-10 victory over the Green Bay Packers, Cousins' first game since the Vikings reacquired him at last Tuesday's trade deadline, Cousins let it all out.\n\n\"It was emotional coming to the stadium,\" Cousins told ESPN's Lindsey Thiry, his voice catching several times before he headed into the locker room. \"Three years ago, tearing my Achilles here. It's been a tough three years. I was just grateful for the opportunity to play here today, and grateful for my teammates and what they did to make this outcome possible.\"\n\nCousins' six-season tenure as the Vikings' quarterback effectively ended on Oct. 29, 2023, when he tore his right Achilles tendon during a 24-10 victory over the Packers. He signed that offseason with the Atlanta Falcons, only to see the Falcons use the No. 8 overall pick of the 2024 draft on quarterback Michael Penix. After two years in limbo, Cousins signed last spring with the Las Vegas Raiders, who then selected quarterback Fernando Mendoza with the No. 1 overall pick.\n\nThe Vikings, however, needed him to do nothing short of rescuing their season when they traded a 2027 third-round pick last Tuesday to bring him back. Week 1 starter Kyler Murray is nursing a strained hamstring and, in Week 9, backup Carson Wentz produced the worst outing by QBR of any NFL quarterback in a game this season. The Vikings had lost consecutive games after a 6-0 start.\n\nOn Sunday, Cousins became the first quarterback since at least 1950 -- when the NFL began tracking quarterback snaps -- to start games for different teams in consecutive weeks. He completed 21 of 31 passes for 207 yards and two touchdowns, including a season-high nine completions to receiver Justin Jefferson, and was particularly effective in critical moments of the NFC North matchup.\n\nCousins completed all eight attempts during a fourth-quarter drive that gave the Vikings a three-score lead, On third downs, he completed 9 of 12 passes for 110 yards and 7 first down conversions. Jefferson said afterward that with a defense that is playing as well as the Vikings' -- it sacked Packers quarterback Jordan Love eight times and forced four turnovers -- the Vikings offense needs only to be \"mediocre\" to do its part.\n\n\"He did what we needed him to do,\" Jefferson said, \"and that was just pitch and catch, just kind of getting it to the open guys and just letting them be the playmakers. It wasn't really too much of big shots down the field, but it was just dumping it off and getting those extra three, four yards after the catch. So it was definitely great for us. And his composure, his confidence in the huddle, all of that, it definitely created a positive vibe in the huddle.\"\n\nCousins arrived in Minnesota on Tuesday night, attended his first meeting Wednesday morning and participated in two practices on Thursday and Friday. Right tackle Brian O'Neill said the Vikings changed most of their cadences to accommodate Cousins' preferences during the short week, and Cousins said that on a couple of occasions he let coach Kevin O'Connell know what playcalls he was most and least comfortable with.\n\n\"He's always been mature,\" O'Connell said. \"He's always been meticulous in his preparation. He's always done everything in his power to prepare himself for games. But there was a level of poise. It never felt like at any point from the time we talked on the phone [before the trade] all the way through to giving him a game ball today, where it was anything other than just rock solid, consistent.\"\n\nSaid O'Neill: \"I can't say enough about what he did all week to prepare. I mean, he has been gone for a couple years, learned a language in Atlanta, learned a language in Vegas, and then in three days switched back to the language we talk about here. And he was running the show and he was in command. It was so awesome to see that. ... [and] a little bit of full circle to have a good feeling again in this locker room, but we got a lot of work to do and we'll keep going.\"\n\nO'Neill was referencing the morose atmosphere in the visitor's locker room after their game at Lambeau in 2023, knowing that Cousins would be lost for the season. The Vikings tiptoed around that coincidence this week, and O'Connell said he knew Cousins well enough to avoid the topic entirely.\n\n\"Kirk's not really wired like that,\" O'Connell said.\n\nCousins, however, had clearly thought about it himself.\n\n\"There's so much football up ahead,\" Cousins said, \"but certainly it's gratifying to be able to come back here with the purple on. I think to come back here with another team isn't quite the same. To come back here with the purple on, similar time of year, three years later, it's a blessing, to be able to have a win like we had today.\n\n\"But there's just so much football ahead, and the story is going to get written much later.\""
-    },
-    {
-      "story_id": "50493088",
-      "headline": "Indiana Pacers vs. Philadelphia 76ers: Game Highlights",
-      "summary": "Indiana Pacers vs. Philadelphia 76ers: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/f2404072-73da-4886-a505-6515ba61634b/f2404072-73da-4886-a505-6515ba61634b.jpg",
-      "published_utc": "2026-11-15T21:49:13Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50493088/game-highlights",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50474604",
@@ -11290,204 +11618,6 @@
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/09/Watch-WWE-NxT-Full-Show.jpg",
       "source_url": "https://watch-wrestling.eu/wwe-nxt-live-1k/"
-    },
-    {
-      "id": "ww:wwe-raw-2k26-live-full-show",
-      "title": "WWE Raw 11/9/26 \u2013 November 9, 2026",
-      "date": "2026-11-09",
-      "replay_url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/1/1",
-          "label": "VidFrame FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/2/1",
-          "label": "VidFrame SD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/3/1",
-          "label": "VidQ FHD@60fps \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/4/1",
-          "label": "VidQ SD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/6/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/7/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/7/2",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD \u2014 Part 2",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/1",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/2",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/3",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 3",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/4",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 4",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/5",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 5",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/6",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 6",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/7",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 7",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-09-2026/select-post-1/8/8",
-          "label": "VidFrame FHD (Live replay) \u2014 last part",
-          "part": true,
-          "live": true
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/12/WWE-Raw-Netflix-2025.jpg",
-      "source_url": "https://watch-wrestling.eu/wwe-raw-2k26-live-full-show/"
-    },
-    {
-      "id": "ww:2c61ba0dc076ddcceddc9be8ca5cbb2c",
-      "title": "NJPW GASPE invitational 11/9/2026",
-      "date": "2026-11-09",
-      "replay_url": "https://dailywrestling.cc/embed/wpjn/11-09-2026/select-post-1/1/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/11-09-2026/select-post-1/1/1",
-          "label": "Dailymotion FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/11-09-2026/select-post-1/2/1",
-          "label": "OK.ru FHD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/11-09-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/11-09-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wpjn/11-09-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/10/Watch-NJPW-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/njpw-ppv-live-1192026-gaspe-invitational-11-9-2026/2c61ba0dc076ddcceddc9be8ca5cbb2c"
-    },
-    {
-      "id": "ww:3e86eb4bcebc35288a82e2c81d73eacf",
-      "title": "NOAH MARUHAN presents NOAH Jr. GRAND PRIX 2 ~LEGACY RISE 2026~ Opening Night 11/9/2026",
-      "date": "2026-11-09",
-      "replay_url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/2/1",
-      "replay_candidates": [
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/2/1",
-          "label": "OK.ru HD \u2014 Full Show",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/3/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/3/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/3/3",
-          "label": "Other Hosts \u2014 NetU (SD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/1/1",
-          "label": "Dailymotion HD \u2014 Part 1",
-          "part": true,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/userorup/11-09-2026/select-post-1/1/2",
-          "label": "Dailymotion HD \u2014 Part 2",
-          "part": true,
-          "live": false
-        }
-      ],
-      "poster": "https://watch-wrestling.eu/wp-content/uploads/2023/04/Watch-NOAH-Pro-wrestling-Full-Show-Online.jpg",
-      "source_url": "https://watch-wrestling.eu/noah-maruhan-presents-noah-jr-grand-prix-2-legacy-rise-2026-opening-night-11-9-2026/3e86eb4bcebc35288a82e2c81d73eacf"
     }
   ],
   "replays": [
