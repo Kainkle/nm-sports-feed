@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-17T02:28:22.626102+00:00",
+  "generated_utc": "2026-11-17T02:38:15.144059+00:00",
   "events": [
     {
       "event_id": "espn:football:401858296",
@@ -5233,7 +5233,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-17T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2",
         "name": "Boston Celtics",
@@ -5263,9 +5263,9 @@
         "color": "0150b5"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "TD Garden",
-      "detail": "39.7 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5279,7 +5279,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-17T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:5",
         "name": "Cleveland Cavaliers",
@@ -5309,9 +5309,9 @@
         "color": "ce1141"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Rocket Arena",
-      "detail": "58.1 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5325,7 +5325,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-17T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:27",
         "name": "Washington Wizards",
@@ -5355,9 +5355,9 @@
         "color": "5d76a9"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Capital One Arena",
-      "detail": "4.8 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5449,7 +5449,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Barclays Center",
-      "detail": "2:59 - 3rd Quarter",
+      "detail": "11:43 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5495,7 +5495,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kaseya Center",
-      "detail": "10:47 - 4th Quarter",
+      "detail": "6:18 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5577,7 +5577,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Target Center",
-      "detail": "11:36 - 3rd Quarter",
+      "detail": "7:18 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5621,9 +5621,9 @@
         "color": "fdb927"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "Halftime",
+      "detail": "7:09 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5669,7 +5669,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "M&T Bank Stadium",
-      "detail": "2:00 - 2nd Quarter",
+      "detail": "0:57 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5715,7 +5715,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Ball Arena",
-      "detail": "3:04 - 1st Quarter",
+      "detail": "11:59 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5729,7 +5729,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-17T02:30:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:68",
         "name": "Utah Mammoth",
@@ -5759,7 +5759,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Delta Center",
       "detail": "",
       "game_number": 1,
@@ -10593,6 +10593,12 @@
           "live": true
         },
         {
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/4",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 4",
+          "part": true,
+          "live": true
+        },
+        {
           "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
@@ -10607,6 +10613,12 @@
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/4",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         }
