@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-17T03:26:01.854643+00:00",
+  "generated_utc": "2026-11-17T03:35:46.665532+00:00",
   "events": [
     {
       "event_id": "espn:football:401858296",
@@ -5371,7 +5371,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-17T00:30:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:3",
         "name": "New York Rangers",
@@ -5401,7 +5401,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Madison Square Garden",
       "detail": "",
       "game_number": 1,
@@ -5545,7 +5545,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-17T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:16",
         "name": "Minnesota Timberwolves",
@@ -5575,9 +5575,9 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Target Center",
-      "detail": "58.5 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5591,7 +5591,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-17T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:3",
         "name": "New Orleans Pelicans",
@@ -5621,9 +5621,9 @@
         "color": "fdb927"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Smoothie King Center",
-      "detail": "1:34 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5669,7 +5669,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "M&T Bank Stadium",
-      "detail": "4:29 - 3rd Quarter",
+      "detail": "0:29 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5713,9 +5713,9 @@
         "color": "29127a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Ball Arena",
-      "detail": "Halftime",
+      "detail": "9:12 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5807,7 +5807,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Pauley Pavilion",
-      "detail": "11:50 - 1st Half",
+      "detail": "9:17 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -10177,32 +10177,32 @@
   ],
   "stories": [
     {
-      "story_id": "50507360",
-      "headline": "Houston Rockets vs. Miami Heat: Game Highlights",
-      "summary": "Houston Rockets vs. Miami Heat: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/6d92444f-be46-440a-8dc2-f831150d181d/6d92444f-be46-440a-8dc2-f831150d181d.jpg",
-      "published_utc": "2026-11-17T03:09:53Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
+      "story_id": "50507501",
+      "headline": "Bo Nix and Eli do some quality trolling of Peyton's rushing game",
+      "summary": "Bo Nix and Eli do some quality trolling of Peyton's rushing game",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/ss_20261116_222531410_37460101348/ss_20261116_222531410_37460101348.jpg",
+      "published_utc": "2026-11-17T03:30:10Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50507360/game-highlights",
+      "link": "https://www.espn.com/video/clip/_/id/50507501/bo-nix-eli-do-some-quality-trolling-peyton-rushing-game",
       "stream_url": "",
       "body": ""
     },
     {
-      "story_id": "50505946",
-      "headline": "Mike McCarthy on Steelers' blowout loss: 'Needs to stop there'",
-      "summary": "After a deflating loss at Cincinnati, Pittsburgh faces a Week 11 gut-check game at the Eagles on Sunday.",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1746942_608x342_16-9.jpg",
-      "published_utc": "2026-11-17T02:52:26Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Brooke Pryor",
+      "story_id": "50507462",
+      "headline": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
+      "summary": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/6d566a5c-7e13-4f09-8854-6613bae9190b/6d566a5c-7e13-4f09-8854-6613bae9190b.jpg",
+      "published_utc": "2026-11-17T03:29:40Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50505946/mike-mccarthy-pittsburgh-steelers-week-10-blowout-loss",
+      "link": "https://www.espn.com/video/clip/_/id/50507462/game-highlights",
       "stream_url": "",
-      "body": "PITTSBURGH -- In the wake of a 20-point loss Sunday night, Pittsburgh Steelers linebacker Patrick Queen was soft-spoken and introspective as he outlined two paths forward for his team.\n\n\"I think, for the most part, all of us are looking at ourselves and just knowing where we could have been better, what we could have done just to stop the bleeding here and there,\" he said. \"The other way you could look at it is [that] it goes downhill, and we can just keep going downhill the whole season.\"\n\nMonday afternoon, Steelers coach Mike McCarthy emphatically chose the former.\n\n\"This needs to be one game, and it needs to stop there,\" McCarthy said. \"... This is a part of the journey of the season, but it needs to be one game, and that'll be our approach as we prepare for Philadelphia.\"\n\nAfter a deflating 38-18 Week 10 loss, the Steelers face a Week 11 gut-check game at the Eagles on Sunday (1 p.m. ET, CBS).\n\nBut just because McCarthy needs the loss to be a one-game speed bump in the Steelers' season doesn't mean it will be -- especially facing a cross-state rival in a city where the Steelers haven't won a regular-season game since 1965.\n\nAnd though the Steelers had a history of resilience under former coach Mike Tomlin and posted a 12-2 record in games following a loss of 20 or more points, McCarthy's units haven't rebounded as successfully. McCarthy is 8-15 in games following a loss of at least 20 points, including a 2-8 record in Dallas. Even so, McCarthy dismissed the idea Sunday night that the loss could turn the tide of the season.\n\n\"Oh, wow,\" he said, somewhat incredulous at the question. \"It's one loss, and it will be dealt with as much. I'm more focused on the details of the fundamentals and the things we needed to do.\n\n\"We're not going to drive down the drama road of those types of things. It's a waste of time. It's a waste of energy, and we're going to pour our energy into ourselves looking in the mirror and stay focused on the things that we can control.\"\n\nThe Steelers did that after each of their previous losses and responded with wins, including a four-game streak after the Thursday night loss in Cleveland during Week 4.\n\nBut Sunday night's loss at Cincinnati felt different. A win against one of the league's hottest teams could have legitimized Pittsburgh's 6-2 start to a national audience, solidified its standing as a serious postseason contender and validated a series of front office decisions, including bringing back quarterback Aaron Rodgers this offseason and also standing pat at this month's NFL trade deadline.\n\nThough they entered Cincinnati as underdogs, the Steelers had reason to believe they could prove the sportsbooks wrong. Teams coming off a bye were undefeated in games against opponents who played in an international game the previous week. McCarthy was 12-6 after bye weeks. And perhaps most crucially, the Steelers beat the Bengals 30-27 seven weeks earlier.\n\nInstead, the Steelers were thoroughly dismantled and outplayed by Cincinnati in every phase. They were outgained by 262 yards, their worst margin in nearly three decades. Rodgers opened the game with a career-worst eight incompletions before finally connecting with tight end Darnell Washington late in the second quarter. And the Steelers' formidable edge rushers didn't record a quarterback pressure or sack on a near-flawless Joe Burrow, while Rodgers was sacked three times and hit six times total.\n\n\"The biggest thing this week was handling how to win and coming off a four-game win streak and then we had a bye,\" Steelers left tackle Troy Fautanu said. \"We were fresh. There was no real excuse for us going out there and performing like this. We just got to get better.\"\n\nThat starts with another week of introspection and self-improvement. After the Week 4 loss to the Browns, McCarthy's mandate to his players was to clean up their house. This week, the Steelers have to break out the brooms and dustpans again.\n\n\"Our toughness didn't go away because we got beat last week,\" Pittsburgh defensive coordinator Patrick Graham said Monday. \"Our resiliency didn't go away because we got beat yesterday. We lost the game. We didn't play the way we wanted to play. We didn't coach the way we wanted to coach, and they beat us.\n\n\"... We're going to pull closer together and get the answers and go out there. And we got a great opportunity this week against Philadelphia, against a team that's fighting right now an in-state rivalry, and it's going to provide some spark there.\n\n\"But we got plenty of motivation to get it right as opposed to going the other route.\""
+      "body": ""
     },
     {
       "story_id": "50506190",
@@ -10345,32 +10345,32 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
-      "story_id": "50507310",
-      "headline": "Bane scores 24, Magic rally in 4th quarter to beat Celtics 115-105, extend win streak to 4 games",
-      "summary": "\u2014 Desmond Bane had 24 points and eight rebounds to help the Orlando Magic rally in the fourth quarter and earn their fourth consecutive victory, 115-105 over the Boston Celtics on Monday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909994.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-17T03:05:34Z",
+      "story_id": "50505946",
+      "headline": "Mike McCarthy on Steelers' blowout loss: 'Needs to stop there'",
+      "summary": "After a deflating loss at Cincinnati, Pittsburgh faces a Week 11 gut-check game at the Eagles on Sunday.",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1746942_608x342_16-9.jpg",
+      "published_utc": "2026-11-17T02:52:26Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Brooke Pryor",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50505946/mike-mccarthy-pittsburgh-steelers-week-10-blowout-loss",
+      "stream_url": "",
+      "body": "PITTSBURGH -- In the wake of a 20-point loss Sunday night, Pittsburgh Steelers linebacker Patrick Queen was soft-spoken and introspective as he outlined two paths forward for his team.\n\n\"I think, for the most part, all of us are looking at ourselves and just knowing where we could have been better, what we could have done just to stop the bleeding here and there,\" he said. \"The other way you could look at it is [that] it goes downhill, and we can just keep going downhill the whole season.\"\n\nMonday afternoon, Steelers coach Mike McCarthy emphatically chose the former.\n\n\"This needs to be one game, and it needs to stop there,\" McCarthy said. \"... This is a part of the journey of the season, but it needs to be one game, and that'll be our approach as we prepare for Philadelphia.\"\n\nAfter a deflating 38-18 Week 10 loss, the Steelers face a Week 11 gut-check game at the Eagles on Sunday (1 p.m. ET, CBS).\n\nBut just because McCarthy needs the loss to be a one-game speed bump in the Steelers' season doesn't mean it will be -- especially facing a cross-state rival in a city where the Steelers haven't won a regular-season game since 1965.\n\nAnd though the Steelers had a history of resilience under former coach Mike Tomlin and posted a 12-2 record in games following a loss of 20 or more points, McCarthy's units haven't rebounded as successfully. McCarthy is 8-15 in games following a loss of at least 20 points, including a 2-8 record in Dallas. Even so, McCarthy dismissed the idea Sunday night that the loss could turn the tide of the season.\n\n\"Oh, wow,\" he said, somewhat incredulous at the question. \"It's one loss, and it will be dealt with as much. I'm more focused on the details of the fundamentals and the things we needed to do.\n\n\"We're not going to drive down the drama road of those types of things. It's a waste of time. It's a waste of energy, and we're going to pour our energy into ourselves looking in the mirror and stay focused on the things that we can control.\"\n\nThe Steelers did that after each of their previous losses and responded with wins, including a four-game streak after the Thursday night loss in Cleveland during Week 4.\n\nBut Sunday night's loss at Cincinnati felt different. A win against one of the league's hottest teams could have legitimized Pittsburgh's 6-2 start to a national audience, solidified its standing as a serious postseason contender and validated a series of front office decisions, including bringing back quarterback Aaron Rodgers this offseason and also standing pat at this month's NFL trade deadline.\n\nThough they entered Cincinnati as underdogs, the Steelers had reason to believe they could prove the sportsbooks wrong. Teams coming off a bye were undefeated in games against opponents who played in an international game the previous week. McCarthy was 12-6 after bye weeks. And perhaps most crucially, the Steelers beat the Bengals 30-27 seven weeks earlier.\n\nInstead, the Steelers were thoroughly dismantled and outplayed by Cincinnati in every phase. They were outgained by 262 yards, their worst margin in nearly three decades. Rodgers opened the game with a career-worst eight incompletions before finally connecting with tight end Darnell Washington late in the second quarter. And the Steelers' formidable edge rushers didn't record a quarterback pressure or sack on a near-flawless Joe Burrow, while Rodgers was sacked three times and hit six times total.\n\n\"The biggest thing this week was handling how to win and coming off a four-game win streak and then we had a bye,\" Steelers left tackle Troy Fautanu said. \"We were fresh. There was no real excuse for us going out there and performing like this. We just got to get better.\"\n\nThat starts with another week of introspection and self-improvement. After the Week 4 loss to the Browns, McCarthy's mandate to his players was to clean up their house. This week, the Steelers have to break out the brooms and dustpans again.\n\n\"Our toughness didn't go away because we got beat last week,\" Pittsburgh defensive coordinator Patrick Graham said Monday. \"Our resiliency didn't go away because we got beat yesterday. We lost the game. We didn't play the way we wanted to play. We didn't coach the way we wanted to coach, and they beat us.\n\n\"... We're going to pull closer together and get the answers and go out there. And we got a great opportunity this week against Philadelphia, against a team that's fighting right now an in-state rivalry, and it's going to provide some spark there.\n\n\"But we got plenty of motivation to get it right as opposed to going the other route.\""
+    },
+    {
+      "story_id": "50507493",
+      "headline": "Embiid has season-high 37 and Brown adds 31 as 76ers beat Nets 135-123 without LeBron James",
+      "summary": "\u2014 Joel Embiid scored a season-high 37 points, Jaylen Brown matched his season best with 31 and the superstars provided the Philadelphia 76ers with more than enough in LeBron James' absence to beat the Brooklyn Nets 135-123 on Monday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909997.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-17T03:24:35Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909994",
+      "link": "http://www.espn.com/nba/recap?gameId=401909997",
       "stream_url": "",
-      "body": "BOSTON -- \u2014 Desmond Bane had 24 points and eight rebounds to help the Orlando Magic rally in the fourth quarter and earn their fourth consecutive victory, 115-105 over the Boston Celtics on Monday night.\n\n\r\nFranz Wagner, who entered the night having scored 30 or more points in each of Orlando\u2019s previous four games, had 21 points, nine assists and eight rebounds. Anthony Black finished with 20 points and seven assists.\n\n\r\nThe Magic shot 50% (41 of 82) from the field in the game to earn their first win in Boston since Dec. 18, 2022.\n\n\r\nIt was Boston's first home loss of the season and snapped the team's six-game win streak. Jayson Tatum led the Celtics with 24 points and 12 rebounds, his first double-double since their season-opening loss at Detroit. But he also had five of his team\u2019s 11 turnovers.\n\n\r\nPaul George added 22 points and Payton Pritchard had 21 points.\n\n\r\nThe Magic, despite playing on three days of rest, struggled with their shot early. But they still managed to cobble together a 50-41 lead at halftime.\n\n\r\nPlaying on the second night of a back-to-back, the Celtics showed some early signs of fatigue. But they found some traction in the third quarter, led by Tatum\u2019s 14 points to outscore Orlando 36-25 in the period and take a 77-75 lead into the fourth.\n\n\r\nBut the Magic recovered and got an alley-oop from Wagner to Wendell Carter Jr., followed by a jumper by Bane to take a 110-99 edge with 1:33 left.\n\n\r\nA night after finishing the first quarter with a franchise-high 33-point lead in its blowout win over Dallas, Boston needed a 3-pointer at the buzzer by Pritchard to even make it to 17 points by the end of the first period on Monday.\n\n\r\nBoth teams had trouble scoring in the opening quarter. The Magic went 7 of 21 (33.3%) from the field, while the Celtics made only 6 of 24 (25%) shots.\n\n\r\nUp next\r\nMagic: Host Philadelphia on Wednesday night.\n\n\r\nCeltics: Visit Denver on Wednesday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
-    },
-    {
-      "story_id": "50506334",
-      "headline": "Fan makes a fantastic catch to send himself to Super Bowl LXI",
-      "summary": "Fan makes a fantastic catch to send himself to Super Bowl LXI",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/ss_20261116_200452806_3745664/ss_20261116_200452806_3745664.jpg",
-      "published_utc": "2026-11-17T01:21:29Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50506334/fan-makes-fantastic-catch-send-super-bowl-lxi",
-      "stream_url": "",
-      "body": ""
+      "body": "NEW YORK -- \u2014 Joel Embiid scored a season-high 37 points, Jaylen Brown matched his season best with 31 and the superstars provided the Philadelphia 76ers with more than enough in LeBron James' absence to beat the Brooklyn Nets 135-123 on Monday night.\n\n\r\nBrown added 13 rebounds but wasn't in the game for the finish after a collision with Julius Randle in the fourth quarter opened a cut on his head. Brown returned to the game wearing a headband after being treated, but then left again a few minutes later.\n\n\r\nJames sat out on the second half of the 76ers' back-to-back games and Philadelphia improved to 4-0 without him. Tyrese Maxey finished with 24 points and nine assists.\n\n\r\nEmbiid had 24 points by halftime of what appeared would be a blowout. The Nets made it a game in the fourth quarter before the center helped turn them back, scoring six straight Philadelphia points to extend a six-point lead back into double figures and then making a 3-pointer with 51 seconds remaining after Brooklyn had climbed back within four.\n\n\r\nJulius Randle scored 33 points and Michael Porter Jr. added 25 for the Nets, who fell to 3-10. Second-year guard Nolan Traore matched his career high with 23 points.\n\n\r\nEmbiid sat out the victory Sunday over Indiana in which James passed Jason Kidd to move into No. 3 on the NBA's career assists list. The 76ers didn't officially list Embiid as available Monday until about half an hour before the game, but it was clear he was fine. He had 13 points in the first quarter as Philadelphia took a 33-26 lead.\n\n\r\nThe Sixers made their first three shots in the second, and when they finally missed, Dean Wade dunked the rebound while being fouled for a three-point play and a 46-28 lead. They made nine of their first 11 shots in the period \u2014 and scored on the rebound of that second miss as well. The lead reached 63-39 on Maxey's 3-pointer before Philadelphia took a 78-59 lead to halftime.\n\n\r\nThe Nets charged back into the game in the third, cutting it to 105-95 headed to the fourth. Randle's 3-pointer trimmed it to 106-101 early in the period.\n\n\r\nUp next\r\n76ers: Visit Orlando on Wednesday.\n\n\r\nNets: Host Chicago on Wednesday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50436911",
@@ -10522,127 +10522,85 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live FHD (CH 1)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live HD (CH 2)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live SD (CH 3)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live FHD (CH 30)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live HD (CH 31)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live SD (CH 32)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/1",
           "label": "VidFrame FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/2",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/2",
           "label": "VidFrame FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/3",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/3",
           "label": "VidFrame FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/4",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/4",
           "label": "VidFrame FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/5",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/5",
           "label": "VidFrame FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/4/6",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/6",
           "label": "VidFrame FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/1",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/1/7",
+          "label": "VidFrame FHD (Live replay) \u2014 Part 6",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/2",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/3",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/4",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/5",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/5",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/5/6",
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/6",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 6",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/11-16-2026/select-post-1/2/7",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 7",
           "part": true,
           "live": true
         }
