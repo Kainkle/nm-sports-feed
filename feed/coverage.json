@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-17T20:24:27.561042+00:00",
+  "generated_utc": "2026-11-17T20:34:54.171168+00:00",
   "window_days": 2,
-  "total_events": 219,
+  "total_events": 214,
   "competitions": [
     {
       "competition": "aew",
@@ -204,14 +204,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 39,
+      "events": 34,
       "date_range": [
         "2026-11-15",
         "2026-11-19"
       ],
-      "explicit_status": 39,
+      "explicit_status": 34,
       "status_coverage_pct": 100,
-      "both_logos": 39,
+      "both_logos": 34,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -222,7 +222,7 @@
       "events": 61,
       "date_range": [
         "1993-01-31",
-        "2026-11-15"
+        "2026-11-14"
       ],
       "explicit_status": 61,
       "status_coverage_pct": 100,
@@ -252,7 +252,7 @@
       "events": 13,
       "date_range": [
         "1993-01-31",
-        "2026-11-16"
+        "1993-01-31"
       ],
       "explicit_status": 13,
       "status_coverage_pct": 100,
@@ -410,7 +410,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:basketball/nba",
+      "date": "2026-11-14",
+      "error": "TimeoutError for https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261114: The read operation timed out"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
