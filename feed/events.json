@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T01:35:38.900022+00:00",
+  "generated_utc": "2026-11-18T01:45:50.053202+00:00",
   "events": [
     {
       "event_id": "espn:football:401873053",
@@ -2239,9 +2239,9 @@
         "color": "006938"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Waldo Stadium",
-      "detail": "End of 3rd Quarter",
+      "detail": "12:03 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2562,9 +2562,9 @@
         "color": "c41230"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Zoeller Field at Dix Stadium",
-      "detail": "Halftime",
+      "detail": "13:37 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2610,7 +2610,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Cameron Indoor Stadium",
-      "detail": "15:41 - 2nd Half",
+      "detail": "13:51 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2656,7 +2656,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Watsco Center",
-      "detail": "13:53 - 2nd Half",
+      "detail": "11:55 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2792,9 +2792,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Scotiabank Arena",
-      "detail": "0.0 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2839,9 +2839,9 @@
         "color": "fdbb30"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Coleman Coliseum",
-      "detail": "Halftime",
+      "detail": "18:44 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2885,9 +2885,9 @@
         "color": "a32136"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "Halftime",
+      "detail": "19:20 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3061,7 +3061,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Target Center",
-      "detail": "1:53 - 1st Quarter",
+      "detail": "9:45 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3105,9 +3105,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Frost Bank Center",
-      "detail": "2:02 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3154,7 +3154,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Memorial Gymnasium (TN)",
-      "detail": "5:10 - 1st Half",
+      "detail": "1:01 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8099,6 +8099,12 @@
         {
           "url": "https://dailywrestling.cc/embed/txneww/11-17-2026/select-post-1/4/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
+          "part": true,
+          "live": true
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/txneww/11-17-2026/select-post-1/4/2",
+          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         }
