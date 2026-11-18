@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T05:05:29.303004+00:00",
+  "generated_utc": "2026-11-18T05:15:47.208479+00:00",
   "events": [
     {
       "event_id": "espn:football:401873053",
@@ -3430,7 +3430,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Intuit Dome",
-      "detail": "4:26 - 3rd Quarter",
+      "detail": "2:17 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3476,7 +3476,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "4:50 - 2nd Quarter",
+      "detail": "4.7 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3521,9 +3521,9 @@
         "color": "00205c"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "McCarthey Athletic Center",
-      "detail": "Halftime",
+      "detail": "15:40 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4125,6 +4125,49 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "pre/Scheduled",
       "venue": "United Supermarkets Arena",
+      "detail": "Wed, November 18th at 7:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920515",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-19T00:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:-1",
+        "name": "TBD",
+        "abbrev": "TBD",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "TBD"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
       "detail": "Wed, November 18th at 7:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
@@ -7699,6 +7742,20 @@
   ],
   "stories": [
     {
+      "story_id": "50517677",
+      "headline": "Ducks' Cutter Gauthier makes NHL history, records fourth hat trick in month",
+      "summary": "Cutter Gauthier became the first NHL player to have four hat tricks in a single month, netting a trio of tallies in a loss to the Blues on Tuesday night.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1117/ss_20261117_234209677_3747472/ss_20261117_234209677_3747472.jpg",
+      "published_utc": "2026-11-18T05:13:06Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "Greg Wyshynski",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50517677/ducks-cutter-gauthier-bags-record-4th-hat-trick-month",
+      "stream_url": "",
+      "body": "Anaheim Ducks forward Cutter Gauthier became the first NHL player to have four hat tricks in a single month, netting a trio of tallies in a road loss to the St. Louis Blues on Tuesday night.\n\nGauthier scored twice in the second period on one-timers and then again in the third off a cross-ice feed from teammate Troy Terry.\n\nThe Ducks lost 8-6, but Gauthier extended one of the most dominant scoring months in NHL history with his fourth hat trick in nine games. The 22-year-old winger now has 21 goals and eight assists on the season, with 19 of those goals coming in a 10-game span.\n\nIn the NHL's modern era (since 1943-44), only three other players have scored that many in 10 games: Mario Lemieux (twice -- 1988-89, 1992-93), Wayne Gretzky (1981-82) and Alexander Mogilny (1992-93).\n\nGauthier is the first NHL player with a 10-game goal streak in a season since Teemu Selanne in 1997-98, also with the Ducks. He's the third player ever age 22 or younger with a 10-game goal streak, joining Babe Dye (1920-21) and Mike Bossy (1978-79).\n\nGauthier now has 17 goals in November, putting him within reach of the NHL record for most goals in a month: 20, shared by Joe Malone in February 1921 and Selanne in March 1993. The Ducks have six more games left in November.\n\n\"I'm just shooting the puck and they're going in. So I'm just going to keep shooting,\" Gauthier said earlier this month.\n\nWith his three goals against the Blues, Gauthier set an Anaheim franchise record for most hat tricks in a season (four) and goals in a month. He's the second NHL player age 22 or younger to notch four hat tricks in his team's first 22 games, behind only the five tallied by Reg Noble in 1917-18."
+    },
+    {
       "story_id": "50517203",
       "headline": "Spurs guard Dylan Harper limps off in pain after slip on court",
       "summary": "Spurs second-year guard Dylan Harper limped off in pain after appearing to slip on the court late in Tuesday's loss to the Pistons.",
@@ -7711,20 +7768,6 @@
       "link": "https://www.espn.com/nba/story/_/id/50517203/spurs-dylan-harper-limps-pain-slip-court",
       "stream_url": "",
       "body": "SAN ANTONIO -- Spurs guard Dylan Harper limped to the locker room assisted by a team staffer with 53.6 seconds remaining in the team's 105-93 loss Tuesday night to the Pistons.\n\nHarper appeared to slip on a wet spot on the Frost Bank Center court while running up the floor with teammate Stephon Castle bringing up the ball behind him. Harper slipped just as Castle fired a pass his way and Ausar Thompson secured the loose ball for the steal.\n\nHarper writhed on the floor in pain after the play and appeared to grab at his groin area.\n\nThe extent of the injury wasn't immediately known.\n\n\"It just looked like he slipped obviously,\" Spurs coach Mitch Johnson said. \"So, hoping for the best. But don't know anything yet.\"\n\nTeammates Keldon Johnson and David Jones Garcia initially escorted Harper to the tunnel, before the second-year guard put his arm over the shoulder of a staffer that helped him down the hallway.\n\n\"It's a terrible feeling, terrible sight,\" said Victor Wembanyama, who was the first to check on Harper when he went down. \"I know as much as you guys. So, I hope he's fine. I just hate this.\"\n\nThe loss snapped a 12-game winning streak for the Spurs. Point guard De'Aaron Fox said the team will have to step up in Harper's absence should the injury cause the second-year guard to miss time.\n\n\"At certain parts of [last] season we didn't have certain guys and what made us go is we were able to kind of cover for guys when they were out,\" Fox said. \"So, right now, it looks like we might have to do that again.\"\n\nHarper, 20, scored 20 points on 8-of-14 shooting in 34 minutes with four rebounds and two assists on Tuesday. The former No. 2 pick joined San Antonio's starting lineup this season after spending 2025-26 coming off the bench.\n\nHarper entered the matchup against the Pistons averaging 18.3 points, 5.5 rebounds, 4.7 assists and a steal over the first 14 games."
-    },
-    {
-      "story_id": "48431082",
-      "headline": "Which NHL coaches have the most wins in history?",
-      "summary": "Scotty Bowman leads all NHL coaches in wins all-time. Find out who else makes the list.",
-      "image": "https://a.espncdn.com/photo/2026/0408/r1640517_608x342_16-9.jpg",
-      "published_utc": "2026-11-18T04:50:26Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Keith Jenkins",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/48431082/which-nhl-coaches-most-wins-history",
-      "stream_url": "",
-      "body": "From Paul Maurice and Joel Quenneville to Lindy Ruff and John Tortorella, the NHL has its fair share of all-time great coaches. But all of them are chasing the accomplishments of Scotty Bowman.\n\nThe Montreal native won a record nine Stanley Cups in 30 seasons behind the bench, five with the Montreal Canadiens, three with the Detroit Red Wings and one with the Pittsburgh Penguins. Bowman twice won the Jack Adams Award, the honor presented annually to the NHL's top coach.\n\nIn 2002, at 68 years old, Bowman retired after leading Detroit to its 10th Stanley Cup in franchise history. He left the game with 1,244 career regular-season victories, the most in NHL history.\n\nIn February 2026, Quenneville joined Bowman as the only NHL head coaches with 1,000 career wins. Check out the NHL head coaches with the most career victories below:\n\nScotty Bowman, 1,244\nJoel Quenneville*, 1,023\nPaul Maurice*, 967\nLindy Ruff*, 958\nBarry Trotz, 914\nPeter Laviolette*, 852\nKen Hitchcock, 849\nAl Arbour, 782\nJohn Tortorella, 777\nDarryl Sutter, 737\nAlain Vigneault, 722\nMike Babcock*, 717\n\n*Active\n\nCheck out the ESPN NHL hub page for the latest news, features, scores, stats, schedules and more."
     },
     {
       "story_id": "50514216",
@@ -7867,6 +7910,20 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
+      "story_id": "50517556",
+      "headline": "Islanders' Schaefer becomes 2nd-youngest defenseman with hat trick",
+      "summary": "Matthew Schaefer became the second-youngest defenseman in NHL history to record a hat trick when he scored three goals in the Islanders' rout of Columbus.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/19ec7057-28d4-4e74-81ec-92c5e9a9e82a/19ec7057-28d4-4e74-81ec-92c5e9a9e82a.jpg",
+      "published_utc": "2026-11-18T05:02:15Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nhl/story/_/id/50517556/islanders-schaefer-2nd-youngest-defenseman-hat-trick",
+      "stream_url": "",
+      "body": "NEW YORK -- Matthew Schaefer became the second-youngest defenseman in NHL history to record a hat trick when he scored three goals in the New York Islanders' 5-1 rout of the Columbus Blue Jackets on Tuesday night.\n\nOnly Hall of Famer Phil Housley at 18 years, 320 days was younger than Schaefer at 19 years, 73 days. Schaefer joined Housley as the only players at the position to reach 30 goals before age 20.\n\n\"All these things, it's just crazy to hear,\" Schaefer said. \"It's an honor. I mean, you don't think about things like that, but obviously, when you hear it, it's pretty cool. But you just want to keep focusing on your season and what we got going on in here.\"\n\nThe only other defensemen in franchise history with a hat trick are brothers Denis and Jean Potvin.\n\n\"You just got to live in the moment,\" Schaefer said. \"You've got to take it day by day. You can't look at the past. You can't look ahead.\""
+    },
+    {
       "story_id": "50517393",
       "headline": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
       "summary": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
@@ -7877,20 +7934,6 @@
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/video/clip/_/id/50517393/game-highlights",
-      "stream_url": "",
-      "body": ""
-    },
-    {
-      "story_id": "50517286",
-      "headline": "Anaheim Ducks vs. St. Louis Blues: Game Highlights",
-      "summary": "Anaheim Ducks vs. St. Louis Blues: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/65d47fab-63cd-40ec-89c4-59c5decd7132/65d47fab-63cd-40ec-89c4-59c5decd7132.jpg",
-      "published_utc": "2026-11-18T04:03:46Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50517286/game-highlights",
       "stream_url": "",
       "body": ""
     },
