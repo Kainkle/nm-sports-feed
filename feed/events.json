@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-19T03:10:52.262932+00:00",
+  "generated_utc": "2026-11-19T03:20:57.710632+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401909994",
@@ -2247,7 +2247,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-19T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:113",
         "name": "Massachusetts Minutemen",
@@ -2278,9 +2278,9 @@
         "color": "041e42"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Warren McGuirk Alumni Stadium",
-      "detail": "0:31 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2341,7 +2341,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-19T00:30:00Z",
-      "status": "unknown",
+      "status": "final",
       "home": {
         "id": "nhl:17",
         "name": "Detroit Red Wings",
@@ -2371,7 +2371,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "OVER/OK",
+      "source_status": "FINAL/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -2387,7 +2387,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-19T00:30:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:1",
         "name": "New Jersey Devils",
@@ -2417,7 +2417,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -2558,7 +2558,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Broadview Stadium",
-      "detail": "3:54 - 4th Quarter",
+      "detail": "5:31 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2733,7 +2733,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "7:07 - 4th Quarter",
+      "detail": "4:21 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2747,7 +2747,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-19T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:25",
         "name": "Oklahoma City Thunder",
@@ -2777,9 +2777,9 @@
         "color": "c8102e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Paycom Center",
-      "detail": "2:01 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2825,7 +2825,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "American Airlines Center",
-      "detail": "7:27 - 4th Quarter",
+      "detail": "2:04 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2916,7 +2916,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Pinnacle Bank Arena",
-      "detail": "7:51 - 2nd Half",
+      "detail": "3:18 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3008,7 +3008,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Marriott Center",
-      "detail": "17:23 - 2nd Half",
+      "detail": "15:43 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3054,7 +3054,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Ball Arena",
-      "detail": "2:13 - 1st Quarter",
+      "detail": "11:57 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3068,7 +3068,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-19T03:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:68",
         "name": "Utah Mammoth",
@@ -3098,7 +3098,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Delta Center",
       "detail": "",
       "game_number": 1,
@@ -3114,7 +3114,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-19T03:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:13",
         "name": "Los Angeles Lakers",
@@ -3144,9 +3144,9 @@
         "color": "4e008e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "crypto.com Arena",
-      "detail": "Wed, November 18th at 10:00 PM EST",
+      "detail": "7:37 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3160,7 +3160,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-19T03:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:23",
         "name": "Sacramento Kings",
@@ -3190,9 +3190,9 @@
         "color": "29127a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Golden 1 Center",
-      "detail": "Wed, November 18th at 10:00 PM EST",
+      "detail": "7:11 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7438,18 +7438,18 @@
   ],
   "stories": [
     {
-      "story_id": "50527118",
-      "headline": "Giannis gets win over Bucks in 1st meeting as Heat hang on late for 137-130 victory",
-      "summary": "\u2014 Giannis Antetokounmpo scored 27 points and nearly got a triple-double in his first game against his former franchise, Bam Adebayo had 21 of his 26 points in the first half and the sizzling Miami Heat downed the sliding Milwaukee Bucks 137-130 on...",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910009.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-19T03:05:39Z",
+      "story_id": "50527298",
+      "headline": "Embiid, Edgecombe, James power the 76ers to a 121-116 win over Magic",
+      "summary": "\u2014 Joel Embiid scored 26 points, VJ Edgecombe added a season-high 24 and LeBron James finished with 22 as the Philadelphia 76ers beat Orlando 121-116 on Wednesday night, halting the Magic's four-game winning streak.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910010.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-19T03:15:44Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401910009",
+      "link": "http://www.espn.com/nba/recap?gameId=401910010",
       "stream_url": "",
-      "body": "MIAMI -- \u2014 Giannis Antetokounmpo scored 27 points and nearly got a triple-double in his first game against his former franchise, Bam Adebayo had 21 of his 26 points in the first half and the sizzling Miami Heat downed the sliding Milwaukee Bucks 137-130 on Wednesday night.\n\n\r\nAntetokounmpo added 13 rebounds and nine assists for Miami, which won its sixth straight and has gone 9-2 since starting 0-4. Davion Mitchell scored 24 for the Heat, who made 22 3-pointers.\n\n\r\nKlay Thompson and Ryan Conwell each scored 13 for Miami on \u201cVice City\u201d night, a collaboration between the Heat and Rockstar Games tied to Thursday's launch of the \u201cGrand Theft Auto VI\u201d video game.\n\n\r\nKyle Kuzma scored 26 points and Brayden Burries added 20 for Milwaukee, which lost its 11th straight and fell to 1-14. It's the worst 15-game start in franchise history and the 11-game losing streak is the Bucks' worst since November 2013, when the then-rookie Antetokounmpo was still finding his NBA footing.\n\n\r\nTyler Herro, Jaime Jaquez Jr., Kel'el Ware and Kasparas Jakucionis \u2014 the players Miami gave up in the deal that sent Antetokounmpo and Bobby Portis Jr. to the Heat \u2014 all played for the Bucks, combining for 49 points. The Heat welcomed them with a video commemorating their time in Miami.\n\n\r\nMilwaukee trailed by 30, then outscored the Heat 30-9 in the final 6 1/2 minutes.\n\n\r\nOver the last 127 minutes, 34 seconds \u2014 a little more than 10 1/2 quarters, going back to midway through the second quarter of their game against Detroit on Saturday \u2014 the Heat have not trailed, outscoring the Pistons, Houston and now Milwaukee by a combined 45 points.\n\n\r\nUp next\r\nBucks: Host Portland on Thursday.\n\n\r\nHeat: Host Oklahoma City on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+      "body": "ORLANDO, Fla. -- \u2014 Joel Embiid scored 26 points, VJ Edgecombe added a season-high 24 and LeBron James finished with 22 as the Philadelphia 76ers beat Orlando 121-116 on Wednesday night, halting the Magic's four-game winning streak.\n\n\r\nPhiladelphia rallied from an early 17-point deficit and improved to 13-3, it's best start in 26 years. The team opened the 2000-01 season 14-2 en route to an appearance in the NBA Finals.\n\n\r\nFranz Wagner scored 27 for Orlando, which led for 41 minutes of the game. Wagner has scored at least 20 points in six straight games. Jalen Suggs added 18 points for Orlando.\n\n\r\nPhiladelphia played without three starters. Leading scorer Tyrese Maxey (foot) was a late scratch, and both Jaylen Brown and Dean Wade sat with hamstring issues. Maxey was the only Sixers' starter who hadn\u2019t missed a game this season.\n\n\r\nEmbiid shook off a slow start and took charge for Philadelphia, finishing 12 of 15 from the free-throw line. That, combined with Edgecombe\u2019s 4-for-9 shooting from 3-point range and 13 fourth-quarter points, was too much for the Magic.\n\n\r\nEdgecombe\u2019s clutch 3-pointer on a no-look pass from James gave Philadelphia a 114-112 lead with 1:36 left.\n\n\r\nPhiladelphia also got an important 3-pointer from Anfernee Simons, who made his first start of the season. Raised in the Orlando area and named after Magic legend Anfernee \u201cPenny\u201d Hardaway, Simons hit a deep jumper that put the game out of reach with 14.3 seconds left and sparked a celebration led by James.\n\n\r\nOrlando shot 51% from 3-point distance, but couldn't overcome a 9-for-17 effort from the free throw line.\n\n\r\nUp next\r\n76ers: Host Milwaukee on Saturday.\n\n\r\nMagic: At Brooklyn on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50524109",
@@ -7606,18 +7606,18 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
-      "story_id": "50527142",
-      "headline": "Bulls roll to a 137-107 victory over the Nets in their easiest win of the season",
-      "summary": "\u2014 Matas Buzelis scored a season-high 25 points, Josh Giddey had 18 points, 14 rebounds and nine assists, and the Chicago Bulls rolled to their easiest victory of the season by beating the Brooklyn Nets 137-107 on Wednesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910011.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-19T03:05:37Z",
+      "story_id": "50527253",
+      "headline": "Washington Wizards vs. Toronto Raptors: Game Highlights",
+      "summary": "Washington Wizards vs. Toronto Raptors: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/f087c094-2c0c-4eab-96c8-1e093216109a/f087c094-2c0c-4eab-96c8-1e093216109a.jpg",
+      "published_utc": "2026-11-19T03:14:34Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401910011",
+      "link": "https://www.espn.com/video/clip/_/id/50527253/game-highlights",
       "stream_url": "",
-      "body": "NEW YORK -- \u2014 Matas Buzelis scored a season-high 25 points, Josh Giddey had 18 points, 14 rebounds and nine assists, and the Chicago Bulls rolled to their easiest victory of the season by beating the Brooklyn Nets 137-107 on Wednesday night.\n\n\r\nChicago had all five starters in double figures by the end of its 76-point first half and eight players had at least 10 points in the game. The Bulls made a franchise-record 15 3-pointers in the first half and finished with 21.\n\n\r\nNorman Powell had 17 points and former Nets center Nic Claxton added 14 for the Bulls, who won for the third time in four games following an eight-game losing streak. They surpassed their previous season high of 132 points against Milwaukee.\n\n\r\nBoth teams entered 3-10 but they certainly didn't look the same. The Nets' only lead was 2-0 and the Bulls were ahead by 37 points in the second half.\n\n\r\nEgor Demin scored 22 points for the Nets, who lost their third straight. Julius Randle had 17 but Michael Porter Jr. shot 1 for 7 and finished with five.\n\n\r\nThe Nets gave up 78 points in the first half of their loss to Philadelphia on Monday and were nearly as defenseless in the first 24 minutes of this one as the Bulls snapped a six-game skid in Brooklyn, where they won for the first time since Nov. 1, 2022.\n\n\r\nThe Bulls led by only three with 3 minutes left in the first quarter before closing with a 13-0 burst to take a 37-21 lead. Chicago then went 7 for 11 from 3-point range in the second, opening a 77-44 lead on Buzelis' 3-pointer.\n\n\r\nIt was 76-51 at halftime, when the Nets honored members of their 1974 and 1976 ABA championship teams in a ceremony on the court. Hall of Famer Julius Erving, addressing the crowd, noticed he was being told to wrap up his remarks.\n\n\r\n\u201cBut the Nets have to make a comeback tonight!\u201d Dr. J shouted as he was finishing.\n\n\r\nWell, they didn't.\n\n\r\nThe Nets couldn't get the deficit under 20 points and the Bulls extended it to 107-70 on Buddy Hield's 3-pointer with 2:08 remaining in the third.\n\n\r\nUp next\r\nBulls: Host Washington on Friday.\n\n\r\nNets: Host Orlando on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+      "body": ""
     },
     {
       "story_id": "50524890",
