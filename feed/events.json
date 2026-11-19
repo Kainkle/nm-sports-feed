@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-19T03:00:50.522858+00:00",
+  "generated_utc": "2026-11-19T03:10:52.262932+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401909994",
@@ -2280,7 +2280,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Warren McGuirk Alumni Stadium",
-      "detail": "1:53 - 4th Quarter",
+      "detail": "0:31 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2341,7 +2341,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-19T00:30:00Z",
-      "status": "live",
+      "status": "unknown",
       "home": {
         "id": "nhl:17",
         "name": "Detroit Red Wings",
@@ -2371,7 +2371,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "OVER/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -2417,7 +2417,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -2479,7 +2479,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-19T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:28",
         "name": "Toronto Raptors",
@@ -2509,9 +2509,9 @@
         "color": "e31837"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/End of Period",
+      "source_status": "post/Final",
       "venue": "Scotiabank Arena",
-      "detail": "End of 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2558,53 +2558,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Broadview Stadium",
-      "detail": "12:21 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401920515",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-19T00:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:277",
-        "name": "West Virginia Mountaineers",
-        "abbrev": "WVU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mountaineers",
-          "WVU",
-          "West Virginia",
-          "West Virginia Mountaineers"
-        ],
-        "color": "eaaa00"
-      },
-      "away": {
-        "id": "espn:2305",
-        "name": "Kansas Jayhawks",
-        "abbrev": "KU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jayhawks",
-          "KU",
-          "Kansas",
-          "Kansas Jayhawks"
-        ],
-        "color": "0051ba"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
-      "venue": "Michelob ULTRA Arena",
-      "detail": "0:02 - 2nd Half",
+      "detail": "3:54 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2651,6 +2605,52 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "post/Final",
       "venue": "United Supermarkets Arena",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920515",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-19T00:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:277",
+        "name": "West Virginia Mountaineers",
+        "abbrev": "WVU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mountaineers",
+          "WVU",
+          "West Virginia",
+          "West Virginia Mountaineers"
+        ],
+        "color": "eaaa00"
+      },
+      "away": {
+        "id": "espn:2305",
+        "name": "Kansas Jayhawks",
+        "abbrev": "KU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jayhawks",
+          "KU",
+          "Kansas",
+          "Kansas Jayhawks"
+        ],
+        "color": "0051ba"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Michelob ULTRA Arena",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -2733,7 +2733,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "10:37 - 4th Quarter",
+      "detail": "7:07 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2779,7 +2779,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Paycom Center",
-      "detail": "7:16 - 4th Quarter",
+      "detail": "2:01 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2825,7 +2825,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "American Airlines Center",
-      "detail": "11:18 - 4th Quarter",
+      "detail": "7:27 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2839,7 +2839,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-19T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:99",
         "name": "LSU Tigers",
@@ -2868,9 +2868,9 @@
         "color": "840029"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Pete Maravich Assembly Center",
-      "detail": "0:48 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2916,7 +2916,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Pinnacle Bank Arena",
-      "detail": "10:44 - 2nd Half",
+      "detail": "7:51 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -2960,9 +2960,9 @@
         "color": "0c2340"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "McKale Center at ALKEME Arena",
-      "detail": "3:26 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3006,9 +3006,9 @@
         "color": "13558D"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Marriott Center",
-      "detail": "Halftime",
+      "detail": "17:23 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3054,7 +3054,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Ball Arena",
-      "detail": "5:46 - 1st Quarter",
+      "detail": "2:13 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7438,18 +7438,18 @@
   ],
   "stories": [
     {
-      "story_id": "50527085",
-      "headline": "Chicago Bulls vs. Brooklyn Nets: Game Highlights",
-      "summary": "Chicago Bulls vs. Brooklyn Nets: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/5591326b-a752-4f1f-95b0-7c2588d5a76e/5591326b-a752-4f1f-95b0-7c2588d5a76e.jpg",
-      "published_utc": "2026-11-19T03:00:15Z",
+      "story_id": "50527118",
+      "headline": "Giannis gets win over Bucks in 1st meeting as Heat hang on late for 137-130 victory",
+      "summary": "\u2014 Giannis Antetokounmpo scored 27 points and nearly got a triple-double in his first game against his former franchise, Bam Adebayo had 21 of his 26 points in the first half and the sizzling Miami Heat downed the sliding Milwaukee Bucks 137-130 on...",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910009.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-19T03:05:39Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50527085/game-highlights",
+      "link": "http://www.espn.com/nba/recap?gameId=401910009",
       "stream_url": "",
-      "body": ""
+      "body": "MIAMI -- \u2014 Giannis Antetokounmpo scored 27 points and nearly got a triple-double in his first game against his former franchise, Bam Adebayo had 21 of his 26 points in the first half and the sizzling Miami Heat downed the sliding Milwaukee Bucks 137-130 on Wednesday night.\n\n\r\nAntetokounmpo added 13 rebounds and nine assists for Miami, which won its sixth straight and has gone 9-2 since starting 0-4. Davion Mitchell scored 24 for the Heat, who made 22 3-pointers.\n\n\r\nKlay Thompson and Ryan Conwell each scored 13 for Miami on \u201cVice City\u201d night, a collaboration between the Heat and Rockstar Games tied to Thursday's launch of the \u201cGrand Theft Auto VI\u201d video game.\n\n\r\nKyle Kuzma scored 26 points and Brayden Burries added 20 for Milwaukee, which lost its 11th straight and fell to 1-14. It's the worst 15-game start in franchise history and the 11-game losing streak is the Bucks' worst since November 2013, when the then-rookie Antetokounmpo was still finding his NBA footing.\n\n\r\nTyler Herro, Jaime Jaquez Jr., Kel'el Ware and Kasparas Jakucionis \u2014 the players Miami gave up in the deal that sent Antetokounmpo and Bobby Portis Jr. to the Heat \u2014 all played for the Bucks, combining for 49 points. The Heat welcomed them with a video commemorating their time in Miami.\n\n\r\nMilwaukee trailed by 30, then outscored the Heat 30-9 in the final 6 1/2 minutes.\n\n\r\nOver the last 127 minutes, 34 seconds \u2014 a little more than 10 1/2 quarters, going back to midway through the second quarter of their game against Detroit on Saturday \u2014 the Heat have not trailed, outscoring the Pistons, Houston and now Milwaukee by a combined 45 points.\n\n\r\nUp next\r\nBucks: Host Portland on Thursday.\n\n\r\nHeat: Host Oklahoma City on Sunday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50524109",
@@ -7606,18 +7606,18 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
-      "story_id": "50527031",
-      "headline": "76ers go on the road and pick up a win over the Magic",
-      "summary": "76ers go on the road and pick up a win over the Magic",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/8d1b5443-d1af-43d9-9e52-ab38e77bef38/8d1b5443-d1af-43d9-9e52-ab38e77bef38.jpg",
-      "published_utc": "2026-11-19T02:58:00Z",
+      "story_id": "50527142",
+      "headline": "Bulls roll to a 137-107 victory over the Nets in their easiest win of the season",
+      "summary": "\u2014 Matas Buzelis scored a season-high 25 points, Josh Giddey had 18 points, 14 rebounds and nine assists, and the Chicago Bulls rolled to their easiest victory of the season by beating the Brooklyn Nets 137-107 on Wednesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910011.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-19T03:05:37Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50527031/76ers-go-road-pick-win-magic",
+      "link": "http://www.espn.com/nba/recap?gameId=401910011",
       "stream_url": "",
-      "body": ""
+      "body": "NEW YORK -- \u2014 Matas Buzelis scored a season-high 25 points, Josh Giddey had 18 points, 14 rebounds and nine assists, and the Chicago Bulls rolled to their easiest victory of the season by beating the Brooklyn Nets 137-107 on Wednesday night.\n\n\r\nChicago had all five starters in double figures by the end of its 76-point first half and eight players had at least 10 points in the game. The Bulls made a franchise-record 15 3-pointers in the first half and finished with 21.\n\n\r\nNorman Powell had 17 points and former Nets center Nic Claxton added 14 for the Bulls, who won for the third time in four games following an eight-game losing streak. They surpassed their previous season high of 132 points against Milwaukee.\n\n\r\nBoth teams entered 3-10 but they certainly didn't look the same. The Nets' only lead was 2-0 and the Bulls were ahead by 37 points in the second half.\n\n\r\nEgor Demin scored 22 points for the Nets, who lost their third straight. Julius Randle had 17 but Michael Porter Jr. shot 1 for 7 and finished with five.\n\n\r\nThe Nets gave up 78 points in the first half of their loss to Philadelphia on Monday and were nearly as defenseless in the first 24 minutes of this one as the Bulls snapped a six-game skid in Brooklyn, where they won for the first time since Nov. 1, 2022.\n\n\r\nThe Bulls led by only three with 3 minutes left in the first quarter before closing with a 13-0 burst to take a 37-21 lead. Chicago then went 7 for 11 from 3-point range in the second, opening a 77-44 lead on Buzelis' 3-pointer.\n\n\r\nIt was 76-51 at halftime, when the Nets honored members of their 1974 and 1976 ABA championship teams in a ceremony on the court. Hall of Famer Julius Erving, addressing the crowd, noticed he was being told to wrap up his remarks.\n\n\r\n\u201cBut the Nets have to make a comeback tonight!\u201d Dr. J shouted as he was finishing.\n\n\r\nWell, they didn't.\n\n\r\nThe Nets couldn't get the deficit under 20 points and the Bulls extended it to 107-70 on Buddy Hield's 3-pointer with 2:08 remaining in the third.\n\n\r\nUp next\r\nBulls: Host Washington on Friday.\n\n\r\nNets: Host Orlando on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50524890",
