@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T20:39:40.620719+00:00",
+  "generated_utc": "2026-11-20T20:49:43.385551+00:00",
   "window_days": 2,
   "total_events": 260,
   "competitions": [
@@ -426,48 +426,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/wnba",
-      "date": "2026-11-20",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20261120: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:soccer/esp.1",
-      "date": "2026-11-17",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261117: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:soccer/usa.1",
-      "date": "2026-11-20",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261120: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:soccer/uefa.champions",
-      "date": "2026-11-21",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261121: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:australian-football/afl",
-      "date": "2026-11-17",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard?dates=20261117: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:australian-football/afl",
-      "date": "2026-11-18",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard?dates=20261118: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:rugby/270557",
-      "date": "2026-11-17",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby/270557/scoreboard?dates=20261117: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    },
-    {
-      "source": "espn:rugby-league/3",
-      "date": "2026-11-20",
-      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby-league/3/scoreboard?dates=20261120: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
