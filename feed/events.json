@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T00:35:35.491718+00:00",
+  "generated_utc": "2026-11-20T00:46:10.266677+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920511",
@@ -2986,7 +2986,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-20T00:30:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:14",
         "name": "Tampa Bay Lightning",
@@ -3016,7 +3016,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -3027,12 +3027,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:racing:600057449",
+      "sport": "racing",
+      "competition_id": "f1",
+      "competition_name": "Formula 1",
+      "start_utc": "2026-11-20T00:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:None",
+        "name": "Lando Norris",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gbr.png",
+        "logo_dark": null,
+        "aliases": [
+          "Lando Norris"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:None",
+        "name": "Sergio P\u00e9rez",
+        "abbrev": "",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+        "logo_dark": null,
+        "aliases": [
+          "Sergio P\u00e9rez"
+        ],
+        "color": null
+      },
+      "source": "espn:racing/f1",
+      "source_status": "in/In Progress",
+      "venue": "",
+      "detail": "In Progress",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": "Heineken Las Vegas Grand Prix"
+    },
+    {
       "event_id": "espn:football:401862830",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-20T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:218",
         "name": "Temple Owls",
@@ -3062,9 +3102,9 @@
         "color": "00205b"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Lincoln Financial Field",
-      "detail": "Thu, November 19th at 7:30 PM EST",
+      "detail": "10:23 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3078,7 +3118,7 @@
       "competition_id": "usa.1",
       "competition_name": "MLS",
       "start_utc": "2026-11-20T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:12011",
         "name": "Orlando City SC",
@@ -3106,9 +3146,9 @@
         "color": "003087"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/First Half",
       "venue": "Inter&Co Stadium",
-      "detail": "Thu, November 19th at 7:30 PM EST",
+      "detail": "4'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -11804,6 +11844,20 @@
   ],
   "stories": [
     {
+      "story_id": "50534447",
+      "headline": "Mavericks lean into Cooper Flagg's peanut butter and jelly trend with pop-up",
+      "summary": "The Dallas Mavericks' pop-up includes creamy peanut butter and grape jelly on white sourdough bread.",
+      "image": "https://a.espncdn.com/photo/2026/1119/r1748270_608x342_16-9.jpg",
+      "published_utc": "2026-11-20T00:40:16Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Anthony Gharib",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50534447/cooper-flagg-peanut-butter-jelly",
+      "stream_url": "",
+      "body": "Dallas Mavericks fans might not be able to hoop like Cooper Flagg, but they can eat like him.\n\nThe Mavericks announced Thursday that they are bringing \"The Jam Box\" pop-up concession stand to American Airlines Center exclusively for Saturday's game against the LA Clippers, courtesy of Levy Restaurants.\n\nFans will be able to indulge in the limited-edition offering of creamy peanut butter and grape jelly on white sourdough bread -- Flagg's preferred combination. They are set to be priced at $3.20, a nod to Flagg's No. 32, with just 320 sandwiches supplied and given out in a sandwich bag sealed with a sticker. They are available while supplies last on the American Airlines Center's main plaza level outside section 117.\n\nThe forward has been spotted eating the combination on the bench during games and even in news conferences this season. He explained on Nov. 8 that the in-game snack is because he's trying to put on weight and gain muscle.\n\n\"So those requirements I got to meet. I'm just trying to stay ahead of it,\" Flagg said. \"We got another game [on Nov. 9]. So just trying to get my calories and stay ahead of it and be ready for another one.\"\n\nHe clarified that he's a smooth peanut butter and grape jelly enthusiast, no different than what the Mavericks are giving away Saturday. Flagg added that he also enjoys a simple peanut butter and banana sandwich, while sometimes adding honey.\n\nThe 19-year-old is currently averaging 24.2 points, 6.6 rebounds and 6.4 assists per game. As his PB&J trend gained traction, Flagg dropped 43 points, 10 rebounds and six assists in a 125-122 win against the Indiana Pacers on Nov. 9. He then forgot to bring his sandwich to the postgame news conference, before posting an image of it while in his car.\n\nNBA players and peanut butter and jelly sandwiches might be the epitome of the saying: \"we go together like peanut butter and jelly.\" During his tenure with the Boston Celtics in the 2007-08 campaign, Kevin Garnett ate a sandwich before a game, proceeded to play well and started a tradition that other NBA players have adopted since then.\n\nNow, Mavs fans can potentially start their own."
+    },
+    {
       "story_id": "50535323",
       "headline": "Washington Commanders unveil 'Beer Spear' ahead of 'Hail Raiser' debut on 'MNF'",
       "summary": "The limited-edition collectible vessel can hold 16 ounces of beer, equipped with a gold spear at the end of it.",
@@ -11816,20 +11870,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50535323/washington-commanders-beer-spear",
       "stream_url": "",
       "body": "Monday marks the Washington Commanders' debut of their new alternate uniforms, the \"Hail Raiser.\" The Commanders will be ringing in the all-black threads with a similarly themed concession item: the \"Beer Spear.\"\n\nIt's a limited-edition collectible vessel that can hold 16 ounces of beer, equipped with a gold spear at the end of it. Featured on the vessel is the Commanders' new W-spear logo, which also appears on the Hail Raiser helmet. The logo includes a gold spear interwoven into a burgundy \"W\" with gold outline.\n\nThe Commanders announced the new item Thursday. It will be available for purchase at select concession stands during the rest of the Commanders' home games, starting on \"Monday Night Football\" against the Cincinnati Bengals.\n\nWashington already boasts a crab stuffed pretzel at its concession stands. The pretzel is shaped like a crab and is filled with lemon tarragon crab dip topped with garlic butter and grated parmesan cheese.\n\nThe beer spear is just another in the list of creative sport-related concession items that deal with beer. Some MLB teams have the \"beer bat.\" The NHL's Buffalo Sabres introduced the \"beer sabres\" last season, while the Philadelphia Flyers countered with the \"beer skate.\" Each of them became instantly popular among fans and collectors alike.\n\nTeams haven't stopped experimenting for similar items, and with a beer spear now off the table, the natural evolution could be a beer shield."
-    },
-    {
-      "story_id": "50533303",
-      "headline": "Sources: Spurs' Dylan Harper out 1-3 weeks with hip strain",
-      "summary": "Spurs guard Dylan Harper has been diagnosed with a left hip rotator strain, avoiding any major injury, sources told ESPN's Shams Charania on Thursday.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/946b1cedf8c84daaa81fb73d4de9120c23/946b1cedf8c84daaa81fb73d4de9120c23.jpg",
-      "published_utc": "2026-11-20T00:22:18Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "ESPN",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50533303/sources-spurs-dylan-harper-1-3-weeks-hip-strain",
-      "stream_url": "",
-      "body": "San Antonio Spurs guard Dylan Harper has been diagnosed with a left hip rotator strain, avoiding any major injury, sources told ESPN's Shams Charania on Thursday.\n\nThis type of strain will carry a one-to-three-week timetable for return, dependent on Harper's rehab.\n\nHarper was injured when he appeared to slip on a wet spot in the team's 105-93 loss to the Detroit Pistons in San Antonio on Tuesday night. Harper writhed on the floor in pain after the play and appeared to grab at his groin area.\n\n\"The visuals and optics of falls, potential injuries, whatever you want to call it can be impressionable. And that one did not look great,\" Spurs coach Mitch Johnson said.\n\n\"So, there's a lot of WebMD and you try not to let your mind run the wrong way and you hope for the best,\" he continued. \"But you really don't know. It's part of the things we can't control. So, we're just very lucky, fortunate and mostly just happy for Dylan that there will be some time [that he's out]. Very best case scenario for a lot of the things that could have been.\"\n\nTeammates Keldon Johnson and David Jones Garcia initially escorted Harper to the tunnel before the second-year guard put his arm over the shoulder of a staffer who helped him down the hallway.\n\nHarper is averaging 18.4 points, 5.4 rebounds and 4.5 assists in 15 games this season."
     },
     {
       "story_id": "50534625",
@@ -11972,6 +12012,20 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
+      "story_id": "50533303",
+      "headline": "Sources: Spurs' Dylan Harper out 1-3 weeks with hip strain",
+      "summary": "Spurs guard Dylan Harper has been diagnosed with a left hip rotator strain, avoiding any major injury, sources told ESPN's Shams Charania on Thursday.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/946b1cedf8c84daaa81fb73d4de9120c23/946b1cedf8c84daaa81fb73d4de9120c23.jpg",
+      "published_utc": "2026-11-20T00:22:18Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "ESPN",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50533303/sources-spurs-dylan-harper-1-3-weeks-hip-strain",
+      "stream_url": "",
+      "body": "San Antonio Spurs guard Dylan Harper has been diagnosed with a left hip rotator strain, avoiding any major injury, sources told ESPN's Shams Charania on Thursday.\n\nThis type of strain will carry a one-to-three-week timetable for return, dependent on Harper's rehab.\n\nHarper was injured when he appeared to slip on a wet spot in the team's 105-93 loss to the Detroit Pistons in San Antonio on Tuesday night. Harper writhed on the floor in pain after the play and appeared to grab at his groin area.\n\n\"The visuals and optics of falls, potential injuries, whatever you want to call it can be impressionable. And that one did not look great,\" Spurs coach Mitch Johnson said.\n\n\"So, there's a lot of WebMD and you try not to let your mind run the wrong way and you hope for the best,\" he continued. \"But you really don't know. It's part of the things we can't control. So, we're just very lucky, fortunate and mostly just happy for Dylan that there will be some time [that he's out]. Very best case scenario for a lot of the things that could have been.\"\n\nTeammates Keldon Johnson and David Jones Garcia initially escorted Harper to the tunnel before the second-year guard put his arm over the shoulder of a staffer who helped him down the hallway.\n\nHarper is averaging 18.4 points, 5.4 rebounds and 4.5 assists in 15 games this season."
+    },
+    {
       "story_id": "50514892",
       "headline": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
       "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
@@ -11984,20 +12038,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
       "stream_url": "",
       "body": "A primetime game can be a perfect opportunity for a team to send a message with its play. It also helps when it is looking its finest on the gridiron. The Houston Texans and Washington Commanders enter Week 10 with one part of that down with the debut of their respective uniforms.\n\nIt's the Texans' turn first, as they will wear their Rivalries threads against the Indianapolis Colts on \"Thursday Night Football.\" The look is primarily white, but includes H-Town blue and battle red with details that pay homage to Houston's streets. The city's signature blue street tiles appear on the uniform's helmet, name plate, sleeve, collar and pant stripes in a two-tone battle red and blue finish. Houston's \"be someone\" bridge is the inspiration for the blue jersey numbers.\n\nFor the first time, the Texans will wear a liberty white helmet, paying tribute to the white prototype founder Robert C. McNair revealed in 1999 before shifting to a deep steel blue lid. The white helmet's face mask includes a chrome H-town blue finish, a nod to Houston's car culture.\n\nAs part of the Commanders' redesign of their uniform closet last offseason, they unveiled the all-black \"Hail Raiser\" alternates, which debut against the Cincinnati Bengals on \"Monday Night Football.\" It features a black helmet with a \"Spear W\" logo on both sides, as the spear and \"W\" are interwoven at their center. Burgundy and gold stripes appear on the sleeve and pants, while the lid includes a three-stripe look on top of similar colors. Solid burgundy block numbers are outlined by gold.\n\nThe Buffalo Bills are also rocking a Rivalries look against the Miami Dolphins. Buffalo debuted its all-white \"Cold Front\" combination last season, but it returns with icy details throughout. The shoulder sleeve features a chrome charging buffalo, the first time a Bills uniform incorporates this element. The white helmet similarly includes a frosty metallic-filled charging buffalo logo, while the shoulder and pant leg patters boast a cracked-ice texture with a pattern that resembles snowfall on a bison's fur.\n\nIt's an alternate week for the Detroit Lions as well. Detroit is going all-black against the Tampa Bay Buccaneers. Complete with a Honolulu blue matte helmet, the \"Motor City Muscle\" threads were first unveiled in 2024. The lid also includes a leaping lion logo in silver with a black stripe down the middle. The Lions wore these threads in Week 7 against the Green Bay Packers.\n\nHere's a look at the Week 11 uniforms for all NFL teams, excluding the Atlanta Falcons, Cleveland Browns, Green Bay Packers, Los Angeles Rams, New England Patriots and Seattle Seahawks, who are on bye.\n\nArizona Cardinals\nHelmet: White\n\nJersey: White\n\nPants: White\n\nBaltimore Ravens\nHelmet: Black\n\nJersey: White\n\nPants: TBA\n\nBuffalo Bills\nHelmet: White\n\nJersey: White\n\nPants: White\n\nCarolina Panthers\nHelmet: Silver\n\nJersey: Black\n\nPants: TBA\n\nChicago Bears\nHelmet: Navy\n\nJersey: Navy\n\nPants: White\n\nCincinnati Bengals\n\nHelmet: Orange\n\nJersey: White\n\nPants: White\n\nDallas Cowboys\nHelmet: Silver\n\nJersey: White\n\nPants: Cowboys blue\n\nDenver Broncos\n\nHelmet: Midnight navy\n\nJersey: Sunset orange\n\nPants: TBA\n\nDetroit Lions\n\nHelmet: Blue\n\nJersey: Black\n\nPants: Black\n\nHouston Texans\n\nHelmet: Liberty white\n\nJersey: Liberty white\n\nPants: Liberty white\n\nIndianapolis Colts\nHelmet: White\n\nJersey: Blue\n\nPants: White\n\nJacksonville Jaguars\nHelmet: Black\n\nJersey: White\n\nPants: TBA\n\nKansas City Chiefs\nHelmet: Red\n\nJersey: Red\n\nPants: TBA\n\nLas Vegas Raiders\n\nHelmet: Silver\n\nJersey: White\n\nPants: Silver\n\nLos Angeles Chargers\n\nHelmet: White\n\nJersey: Powder blue\n\nPants: Powder blue\n\nMiami Dolphins\nHelmet: White\n\nJersey: Aqua\n\nPants: Aqua\n\nMinnesota Vikings\nHelmet: Purple\n\nJersey: White\n\nPants: TBA\n\nNew Orleans Saints\n\nHelmet: Gold\n\nJersey: White\n\nPants: White\n\nNew York Giants\n\nHelmet: Blue\n\nJersey: Blue\n\nPants: White\n\nNew York Jets\n\nHelmet: Green\n\nJersey: White\n\nPants: Green\n\nPhiladelphia Eagles\n\nHelmet: Midnight green\n\nJersey: Midnight green\n\nPants: White\n\nPittsburgh Steelers\n\nHelmet: Black\n\nJersey: White\n\nPants: Gold\n\nSan Francisco 49ers\n\nHelmet: Gold\n\nJersey: Red\n\nPants: Gold\n\nTampa Bay Buccaneers\n\nHelmet: Pewter\n\nJersey: White\n\nPants: White\n\nTennessee Titans\n\nHelmet: White\n\nJersey: Titans blue\n\nPants: Titans blue\n\nWashington Commanders\nHelmet: Black\n\nJersey: Black\n\nPants: Black"
-    },
-    {
-      "story_id": "50534447",
-      "headline": "Mavericks lean into Cooper Flagg's peanut butter and jelly trend with pop-up",
-      "summary": "The Dallas Mavericks' pop-up includes creamy peanut butter and grape jelly on white sourdough bread.",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1748270_608x342_16-9.jpg",
-      "published_utc": "2026-11-19T23:15:36Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Anthony Gharib",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50534447/cooper-flagg-peanut-butter-jelly",
-      "stream_url": "",
-      "body": "Dallas Mavericks fans might not be able to hoop like Cooper Flagg, but they can eat like him.\n\nThe Mavericks announced Thursday that they are bringing \"The Jam Box\" pop-up concession stand to American Airlines Center exclusively for Saturday's game against the LA Clippers, courtesy of Levy Restaurants.\n\nFans will be able to indulge in the limited-edition offering of creamy peanut butter and grape jelly on white sourdough bread -- Flagg's preferred combination. They are set to be priced at $3.20, a nod to Flagg's No. 32, with just 320 sandwiches supplied and given out in a sandwich bag sealed with a sticker. They are available while supplies last on the American Airlines Center's main plaza level outside section 117.\n\nThe forward has been spotted eating the combination on the bench during games and even in news conferences this season. He explained on Nov. 8 that the in-game snack is because he's trying to put on weight and gain muscle.\n\n\"So those requirements I got to meet. I'm just trying to stay ahead of it,\" Flagg said. \"We got another game [on Nov. 9]. So just trying to get my calories and stay ahead of it and be ready for another one.\"\n\nHe clarified that he's a smooth peanut butter and grape jelly enthusiast, no different than what the Mavericks are giving away Saturday. Flagg added that he also enjoys a simple peanut butter and banana sandwich, while sometimes adding honey.\n\nThe 19-year-old is currently averaging 24.2 points, 6.6 rebounds and 6.4 assists per game. As his PB&J trend gained traction, Flagg dropped 43 points, 10 rebounds and six assists in a 125-122 win against the Indiana Pacers on Nov. 9. He then forgot to bring his sandwich to the postgame news conference, before posting an image of it while in his car.\n\nNBA players and peanut butter and jelly sandwiches might be the epitome of the saying: \"we go together like peanut butter and jelly.\" During his tenure with the Boston Celtics in the 2007-08 campaign, Kevin Garnett ate a sandwich before a game, proceeded to play well and started a tradition that other NBA players have adopted since then.\n\nNow, Mavs fans can potentially start their own."
     },
     {
       "story_id": "50534187",

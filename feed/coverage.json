@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-20T00:35:35.504641+00:00",
+  "generated_utc": "2026-11-20T00:46:10.329591+00:00",
   "window_days": 2,
-  "total_events": 259,
+  "total_events": 260,
   "competitions": [
     {
       "competition": "aew",
@@ -104,14 +104,16 @@
       "competition": "f1",
       "name": "Formula 1",
       "sport": "racing",
-      "events": 0,
-      "date_range": null,
-      "explicit_status": 0,
-      "status_coverage_pct": 0,
-      "both_logos": 0,
-      "logo_coverage_pct": 0,
-      "live_now": 0,
-      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
+      "events": 1,
+      "date_range": [
+        "2026-11-20",
+        "2026-11-20"
+      ],
+      "explicit_status": 1,
+      "status_coverage_pct": 100,
+      "both_logos": 1,
+      "logo_coverage_pct": 100,
+      "live_now": 1
     },
     {
       "competition": "ger.1",
@@ -238,7 +240,7 @@
       "status_coverage_pct": 100,
       "both_logos": 70,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "ncaam",
@@ -283,7 +285,7 @@
       "status_coverage_pct": 100,
       "both_logos": 82,
       "logo_coverage_pct": 100,
-      "live_now": 6
+      "live_now": 7
     },
     {
       "competition": "rugby-league",
@@ -380,7 +382,7 @@
       "status_coverage_pct": 100,
       "both_logos": 5,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "volleyball",
