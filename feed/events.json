@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T02:47:23.386823+00:00",
+  "generated_utc": "2026-11-20T02:57:42.075342+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920511",
@@ -2756,7 +2756,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-20T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:9",
         "name": "Ottawa Senators",
@@ -2786,7 +2786,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Canadian Tire Centre",
       "detail": "",
       "game_number": 1,
@@ -2848,7 +2848,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-20T00:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:15",
         "name": "Washington Capitals",
@@ -2878,7 +2878,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Capital One Arena",
       "detail": "",
       "game_number": 1,
@@ -3016,7 +3016,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Benchmark International Arena",
       "detail": "",
       "game_number": 1,
@@ -3104,7 +3104,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Lincoln Financial Field",
-      "detail": "6:44 - 3rd Quarter",
+      "detail": "7:03 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3284,9 +3284,9 @@
         "color": "fdb927"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "FedExForum",
-      "detail": "2:14 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3332,7 +3332,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Fiserv Forum",
-      "detail": "5:51 - 3rd Quarter",
+      "detail": "1:13 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3378,7 +3378,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Target Center",
-      "detail": "0.1 - 3rd Quarter",
+      "detail": "8:48 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3422,9 +3422,9 @@
         "color": "12173f"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Frost Bank Center",
-      "detail": "2:22 - 3rd Quarter",
+      "detail": "End of 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3470,7 +3470,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Moody Center",
-      "detail": "7:17 - 2nd Half",
+      "detail": "3:57 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3516,7 +3516,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "KFC Yum! Center",
-      "detail": "9:19 - 2nd Half",
+      "detail": "5:39 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3560,9 +3560,9 @@
         "color": "003b75"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Reliant Stadium",
-      "detail": "0:15 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "m6xFWXq-7uM",
       "replay_url": "",
@@ -11844,6 +11844,34 @@
   ],
   "stories": [
     {
+      "story_id": "50536837",
+      "headline": "New York Islanders vs. Winnipeg Jets: Game Highlights",
+      "summary": "New York Islanders vs. Winnipeg Jets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/fe2998e4-5eed-430b-b4ca-49722a161ff5/fe2998e4-5eed-430b-b4ca-49722a161ff5.jpg",
+      "published_utc": "2026-11-20T02:49:22Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50536837/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
+      "story_id": "50536803",
+      "headline": "Orlando City SC vs. FC Cincinnati - Game Highlights",
+      "summary": "Watch the Game Highlights from Orlando City SC vs. FC Cincinnati, 11/19/2026",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/e5f50f03-85b2-4dbe-9ee8-b88549a7ff6a/e5f50f03-85b2-4dbe-9ee8-b88549a7ff6a.jpg",
+      "published_utc": "2026-11-20T02:47:13Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50536803/orlando-city-sc-vs-fc-cincinnati-game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50535018",
       "headline": "Colts-Texans highlights: Best plays, moments, touchdowns, more",
       "summary": "The Colts and Texans are squaring off on Thursday Night Football.",
@@ -11900,20 +11928,6 @@
       "body": "Thomas Frank said he hopes never to get caught drinking from a Brighton coffee cup after he was reminded of his famous gaffe from his time at Tottenham.\n\nIn January, the new Crystal Palace boss -- then in charge of Spurs -- was spotted sipping from a cup branded with the logo of their bitter rivals Arsenal ahead of their Bournemouth loss -- something he at the time insisted he simply did not notice, and would have been \"absolutely stupid\" to do.\n\nFrank takes charge of the Premier League's bottom club for the first time on Saturday for what could be a crucial trip to Coventry, who sit one place clear of the relegation zone with two more points than the Danish club's new club.\n\n- Predicting the rest of the Premier League season: How all 20 teams will finish\n\n- Frank: Crystal Palace job 'too good' to turn down\n\nAsked if there was a chance he might get busted with more controversial drinkware, Frank joked: \"I hope not! I still think it's a fantastic story.\n\n\"I know, and I still don't understand, how anyone can think that I will drink from a cup from an opponent's team, that their supporters don't like, on purpose. Come on. But what a story, huh, to discuss?\"\n\nFrank hinted that there was more behind the story to his disappointing spell at Tottenham he might one day reveal.\n\n\"If you don't learn from any of your jobs, I don't think you reflect, I don't think you improve, and I don't think you get better,\" said Frank, who was sacked by Spurs in February after less than eight months in charge.\n\n\"Of course there's a lot of things I have been reflecting over. The details, that will be for another time, but I can say I've learned, definitely.\"\n\nFrank added that he could have easily spent a few more months sipping wine, \"eating too well\" and collecting passport stamps after his Spurs departure, but something resonated when he asked his wife why he was tempted to seek out a new job and she told him, \"[It's] because you can't help yourself.\"\n\n\"I was very aware I didn't want to do anything in the summer,\" he said. \"I put a statement out there, I needed more time. I can actually, honestly say I would have been fine if it was three, four, five, six, seven months more, because it's good to be back in the circus, but it's also unbelievably good not to be in, especially if you enjoy life, which I do.\n\n\"I was spending time with family and friends and doing all that, but I think the club, the way Palace is, how well [chairman] Steve Parish especially spoke about the club and ideas, [sporting director] Matt Hobbs and [recruitment consultant] Iain Moody and these guys, too, helped convince me it was a good idea.\"\n\nSo pleased is Frank to be back, in fact, that he admitted: \"I'm a little bit surprised by this feeling I have in the body, how good it feels.\"\n\nFrank will be without Jean-Philippe Mateta, who will serve the second game of his three-match ban for the red card he was shown in Palace's loss to Frank's former employers Spurs before the international break.\n\nTakehiro Tomiyasu will start training next week, while Isma\u00efla Sarr (groin) is \"touch and go when he starts training.\"\n\nFrank said it's \"obvious\" Palace are \"recruited to a 3-4-3\" but thinks he will \"do what I've always done, changing between two formations or being flexible depending on how we can get the players in the best possible positions\".\n\nHe is now hoping to build back confidence in a squad that have conceded the most goals in the Premier League.\n\n\"If it's not going your way you can drop a bit,\" he added. \"It's never nice to be in a situation like this, when you take over from a manager who got sacked. I don't know Pierre (Sage), but of course I wish him the best.\n\n\"For whatever reason, it didn't work, or there needs to be a change, so I think the energy has been good amongst the players. I think they trained very well with intensity and bringing a lot of energy to the sessions, then it's about confidence as well.\n\n\"I see a lot of potential in a lot of the players, and sometimes you get that lift, and if you get all the players to lift, then there's much more potential in the performances.\"\n\nInformation from PA contributed to this report."
     },
     {
-      "story_id": "50532686",
-      "headline": "Studies: Blood test has potential to detect CTE in the living",
-      "summary": "A new blood test shows potential to detect advanced stages of chronic traumatic encephalopathy (CTE) in the living, according to two recent published studies.",
-      "image": "https://a.espncdn.com/photo/2026/0904/260904_nfl_risk-of-cte_16x9.jpg",
-      "published_utc": "2026-11-19T22:37:56Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Shwetha Surendran and Mark Fainaru-Wada",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50532686/studies-blood-test-potential-detect-cte-living",
-      "stream_url": "",
-      "body": "A new blood test shows potential to detect advanced stages of chronic traumatic encephalopathy (CTE) in the living, according to two recent studies published in the medical journal JAMA.\n\nScientists researching the connection between football and brain damage have long described diagnosing CTE in the living as the holy grail. To date, the disease, which has been linked to repeated blows to the head from football and other contact sports, has been diagnosable only after death.\n\nOne study, published Thursday by researchers at Boston University and Banner Health, was based on a small sample of former American football players who donated blood while alive. After those players died, autopsies of their brains determined they had CTE. The researchers then identified a CTE marker by examining the levels of a specific protein in the blood samples.\n\nMichael Alosco, the co-director of clinical research at Boston University's CTE Center and co-senior author of the study, called the test a \"game changer\" in the ability to diagnose the degenerative brain illness in the living.\n\n\"I'm cautiously optimistic that we can really understand this finding and move it forward in the next five years or so,\" Alosco told ESPN.\n\nHowever, the Boston University and Banner Health test showed promise only in identifying advanced stages of CTE during life -- not in the early stages.\n\nThe severity of CTE increases as it progresses. In the early stages, it often tends to be symptom-free, while patients in advanced stages present with symptoms such as memory loss, confusion, depression, irritability and severe mood swings.\n\nThe study released Thursday examined 21 deceased football players: 12 who played professionally, seven who played through college and two who played only through the high school level.\n\nAutopsies showed that most of the former professional players, along with four college players and one high school player, had advanced-stage CTE. The blood tests showed a higher concentration of the identified protein, confirming the diagnosis.\n\nFive players who had both CTE and Alzheimer's disease showed the highest levels of the protein in their blood.\n\n\"We are still in the discovery phase and it's a small sample size,\" Alosco said in a separate statement. \"But if future studies validate these findings, this blood test will allow us to detect CTE with a high level of accuracy and open the doors to clinical trials and treatment.\"\n\nIn a separate study published in JAMA last Friday, a research group from the Washington University School of Medicine in St. Louis also identified the same blood biomarker. That study was based on 11 cases.\n\nScientists have been trying for years to detect CTE in the living. In 2017, researchers said they used a brain scan to identify the disease in a former NFL player while he was still alive, and attempts to use scans as a diagnostic tool are ongoing.\n\nSo far, no tests or treatments specific to CTE have been approved by the U.S. Food and Drug Administration.\n\nWhile the recent findings are a major milestone, the possibility of a CTE test also raises complicated questions for players at all levels of the game, from pee wee to the pros, and their families. Among the potential issues is whether players, particularly those in the NFL, will want to know if they have the disease while still in the league.\n\nLast summer, ESPN asked more than 30 current and former NFL players about a range of CTE-related topics, including whether they would take a test for CTE if one existed.\n\n\"Yeah, I would,\" Washington Commanders quarterback Marcus Mariota told ESPN. \"I think because, at the end of the day, it gives insight to the rest of the NFL, to college kids, to high school kids of what we're getting ourselves into. Then yeah, absolutely.\"\n\nSaid Minnesota Vikings safety Joshua Metellus: \"I probably wouldn't want [the test] while I'm in the league, because I think it'll change the way I play. But I know there's a lot of guys who are very curious and would like to know.\""
-    },
-    {
       "story_id": "50534142",
       "headline": "'No one saw it coming': Inside the Swans' draft heist that landed a Lions Academy star",
       "summary": "The Swans are notorious for bidding on draft night. But no one saw their heist of Lions Academy star Caylen Murray coming, given they didn't even meet his family. Jasper Chellappah looks into the fascinating happenings on night one of the AFL Draft.",
@@ -11926,20 +11940,6 @@
       "link": "https://www.espn.com/afl/story/_/id/50534142/afl-draft-caylen-murray-sydney-swans-brisbane-lions",
       "stream_url": "",
       "body": "Caylen Murray is the earliest pick to have his club-tied matching rights passed up in AFL Draft history. No one saw it coming, not even the Lions.\n\nMake no mistake, this was a Sydney draft heist months in the making. The Swans ran the numbers and it showed Brisbane was three misly points short of matching a bid at pick 9. They pulled the trigger and watched on for five agonising minutes as trade partners disappeared one by one.\n\nThe three-time premiers were scrambling and the scenes unfolding inside their corporate box were increasingly uncomfortable. Each phone call was shorter than the last as candidates dried up in a race against time to find three points.\n\nUp until that stage Sydney had not shown serious interest in Murray. They surely wouldn't bid on him without any leaks of interest from their camp; they surely couldn't bid on him without meeting his family.\n\nA smokescreen devised in pre-draft analysis and 12 months of assessing Murray's talents was pulled at the perfect time to rip him out of Queensland. They feigned disinterest and caught the Lions napping. No one saw it coming, not least Brisbane's war room.\n\n'Bidney' has been up to these tricks before. They'd made 11 bids in 10 years prior to last night, including Brisbane's own prospect Sam Marshall. They nearly snared Adelaide's Max Michalanney with a similar ploy in 2022.\n\nAs the dust settles, it's clear to see the Lions were undone by new draft rules that they themselves necessitated.\n\nIn 2022 they used 34, 35, 38, 40, and 41 to match Will Ashcroft's bid at pick 2. In 2024 they used 40, 42, 43, and 46 to match Levi Ashcroft's bid at pick 5. In 2025 they used 22, 23, and 39 to match a bid at pick 6 for Dan Annable. They achieved similar results for first-round talents Jaspa Fletcher and Marshall.\n\nBrisbane had played the system to perfection up until Thursday night. But new draft rules require clubs to find the points to match with a maximum of two draft picks. A new draft value index (DVI) inflated the worth of top 10 picks. And a new levy added a 20% tax to bids matched by grand finalists.\n\nBrisbane was caught looking too far ahead by sliding pick 19 down to 24 and 34. The 1355-point value of pick 9 became 1626 points with the grand finalist loading. Brisbane's picks 24 and 25 were worth 1211 points and they could go into a maximum of 412 points deficit on their future first-rounder. Tallied up and they accounted for 1623 of the 1626 points required.\n\nThe AFL values that gap at 1/1000th of the worth of the 3000 points Dougie Cochrane was matched with.\n\nSydney pulled off a coup to rival footy's very best off-field drama in 2026.\n\nBrisbane's shortcoming wasn't just to the Swans's benefit, either. Gustavo Teixeira landed in St Kilda's lap at pick 11, a genuine pick one chance throughout the season. The flow-on effect kept coming with Collingwood grabbing their top target in mad Pies fan Sam Gayfer. Without the bid being matched these clubs effectively moved up the draft order.\n\nMurray's shock was plain to see as reality set in. But the star academy graduate quickly recovered to deliver an extremely mature interview.\n\n\"I didn't realise Sydney was that keen but [I'm] stoked to join the club. It's an amazing club, great players, great staff and I'm keen to explore Sydney.\n\n\"It was a bit of a shock at the start but now it's sunk in. I'm stoked to be a Swans player.\"\n\nThe classy and composed halfback looms as a natural replacement for departed All-Australian Nick Blakey."
-    },
-    {
-      "story_id": "50526796",
-      "headline": "Messi leads way as MLS salaries rise; Union's Sullivan checks in at $614K",
-      "summary": "Inter Miami CF star Lionel Messi remains the highest-paid player in MLS, though the number of players making at least $10 million grew to five.",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1728980_1296x729_16-9.jpg",
-      "published_utc": "2026-11-19T18:29:23Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50526796/messi-leads-mls-salaries-rise-sullivan-614k",
-      "stream_url": "",
-      "body": "Inter Miami CF star Lionel Messi remains the highest-paid player in MLS, though the number of players making at least $10 million grew to five.\n\nAccording to the MLS Players Association, Messi's guaranteed compensation remained $28.33 million, the same as during the spring salary release, though it is up from $20.45 million a year ago. Other players in the over $10 million club include the Chicago Fire FC's Robert Lewandowski ($19.51 million), Orlando City SC forward Antoine Griezmann ($13.94 million), LAFC's Son Heung-Min ($11.25 million) and Atlanta United FC forward Breel Embolo ($10.81 million).\n\nAll told, 150 of the league's players make at least $1 million in guaranteed compensation.\n\nAs in previous years, Messi's number reflects just the playing portion of his compensation. Last October, Messi signed a contract extension through the 2028 campaign. Inter Miami owner Jorge Mas told Bloomberg in March that Messi's total income is between $70 million to $80 million per year. Messi is also expected to acquire an equity stake in the club once he retires.\n\nAll data is as of Oct. 9, 2026. The salary data was annualized for players who arrived during the summer transfer window.\n\nMiami continues to obliterate the competition in terms of total team spending. Thanks in part to the midseason arrival of midfielder Casemiro, Miami increased its spending to a record $59.37 million, though it finished second in the Eastern Conference behind Supporters Shield winners Nashville SC, which spent just $24.97 million. Miami's outlay is more than double the amount spent by 25 of the league's remaining 29 teams.\n\nIn terms of team payroll based on guaranteed base compensation, Chicago ranked second behind Miami at $41.29 million, due in part to the midseason arrival of Lewandowski. The Fire were followed by Atlanta United ($38.35 million), the LA Galaxy ($34.91 million) and LAFC ($32.91 million)\n\nThe Philadelphia Union had the league's lowest payroll at $12.64 million. Budding star Cavan Sullivan's guaranteed compensation checked in at a relatively modest $614,000. The next lowest payrolls after the Union were Sporting Kansas City ($13.30 million), D.C. United ($14.55 million), CF Montreal ($15.02 million) and FC Dallas ($15.49 million).\n\nThe average guaranteed base compensation for the entire MLS player pool -- which included pool players and retired players still owed money -- continues to climb on an annual basis, rising to $746,936, up 18% from the October 2025 mark of $632,809.\n\nThe salaries of players at the bottom of the wage scale continue to improve, though not at the same rate as those at the top. The league's median guaranteed base compensation was $360,042, up 6.4% from the October 2025 mark of $338,347.\n\nMLS and the MLSPA are in the sixth year of the collective bargaining agreement (CBA) that was agreed upon in February 2021. The current CBA runs through the end of 2027.\n\nTotal Guaranteed Compensation per team:\n\n1. Inter Miami - $59.37 million\n\n2. Chicago Fire - $41.29 million\n\n3. Atlanta United - $38.35 million\n\n4. LA Galaxy - $34.91 million\n\n5. LAFC - $32.91 million\n\n6. Columbus Crew - $28.14 million\n\n7. Orlando City - $28.13 million\n\n8. Charlotte FC - $26.54 million\n\n9. New York City FC - $25.88 million\n\n10. Nashville SC - $24.97 million\n\n11. New England Revolution - $24.91 million\n\n12. FC Cincinnati - $24.82 million\n\n13. Vancouver Whitecaps - $24.73 million\n\n14. Toronto FC - $23.97 million\n\n15. St. Louis City - $22.82 million\n\n16. Seattle Sounders - $22.68 million\n\n17. San Jose Earthquakes - $21.32 million\n\n18. New York Red Bulls - $21.08 million\n\n19. Portland Timbers - $18.98 million\n\n20. San Diego FC - $18.66 million\n\n21. Austin FC - $18.01 million\n\n22. Houston Dynamo - $17.50 million\n\n23. Real Salt Lake - $17.03 million\n\n24. Colorado Rapids - $16.60 million\n\n25. Minnesota United - $16.25 million\n\n26. FC Dallas - $15.49 million\n\n27. CF Montreal - $15.01 million\n\n28. DC United - $14.55 million\n\n29. Sporting Kansas City - $13.30 million\n\n30. Philadelphia Union - $12.64 million"
     },
     {
       "story_id": "50526626",
@@ -12012,6 +12012,34 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
+      "story_id": "50532686",
+      "headline": "Studies: Blood test has potential to detect CTE in the living",
+      "summary": "A new blood test shows potential to detect advanced stages of chronic traumatic encephalopathy (CTE) in the living, according to two recent published studies.",
+      "image": "https://a.espncdn.com/photo/2026/0904/260904_nfl_risk-of-cte_16x9.jpg",
+      "published_utc": "2026-11-19T22:37:56Z",
+      "competition_id": "nhl",
+      "competition_name": "NHL",
+      "byline": "Shwetha Surendran and Mark Fainaru-Wada",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50532686/studies-blood-test-potential-detect-cte-living",
+      "stream_url": "",
+      "body": "A new blood test shows potential to detect advanced stages of chronic traumatic encephalopathy (CTE) in the living, according to two recent studies published in the medical journal JAMA.\n\nScientists researching the connection between football and brain damage have long described diagnosing CTE in the living as the holy grail. To date, the disease, which has been linked to repeated blows to the head from football and other contact sports, has been diagnosable only after death.\n\nOne study, published Thursday by researchers at Boston University and Banner Health, was based on a small sample of former American football players who donated blood while alive. After those players died, autopsies of their brains determined they had CTE. The researchers then identified a CTE marker by examining the levels of a specific protein in the blood samples.\n\nMichael Alosco, the co-director of clinical research at Boston University's CTE Center and co-senior author of the study, called the test a \"game changer\" in the ability to diagnose the degenerative brain illness in the living.\n\n\"I'm cautiously optimistic that we can really understand this finding and move it forward in the next five years or so,\" Alosco told ESPN.\n\nHowever, the Boston University and Banner Health test showed promise only in identifying advanced stages of CTE during life -- not in the early stages.\n\nThe severity of CTE increases as it progresses. In the early stages, it often tends to be symptom-free, while patients in advanced stages present with symptoms such as memory loss, confusion, depression, irritability and severe mood swings.\n\nThe study released Thursday examined 21 deceased football players: 12 who played professionally, seven who played through college and two who played only through the high school level.\n\nAutopsies showed that most of the former professional players, along with four college players and one high school player, had advanced-stage CTE. The blood tests showed a higher concentration of the identified protein, confirming the diagnosis.\n\nFive players who had both CTE and Alzheimer's disease showed the highest levels of the protein in their blood.\n\n\"We are still in the discovery phase and it's a small sample size,\" Alosco said in a separate statement. \"But if future studies validate these findings, this blood test will allow us to detect CTE with a high level of accuracy and open the doors to clinical trials and treatment.\"\n\nIn a separate study published in JAMA last Friday, a research group from the Washington University School of Medicine in St. Louis also identified the same blood biomarker. That study was based on 11 cases.\n\nScientists have been trying for years to detect CTE in the living. In 2017, researchers said they used a brain scan to identify the disease in a former NFL player while he was still alive, and attempts to use scans as a diagnostic tool are ongoing.\n\nSo far, no tests or treatments specific to CTE have been approved by the U.S. Food and Drug Administration.\n\nWhile the recent findings are a major milestone, the possibility of a CTE test also raises complicated questions for players at all levels of the game, from pee wee to the pros, and their families. Among the potential issues is whether players, particularly those in the NFL, will want to know if they have the disease while still in the league.\n\nLast summer, ESPN asked more than 30 current and former NFL players about a range of CTE-related topics, including whether they would take a test for CTE if one existed.\n\n\"Yeah, I would,\" Washington Commanders quarterback Marcus Mariota told ESPN. \"I think because, at the end of the day, it gives insight to the rest of the NFL, to college kids, to high school kids of what we're getting ourselves into. Then yeah, absolutely.\"\n\nSaid Minnesota Vikings safety Joshua Metellus: \"I probably wouldn't want [the test] while I'm in the league, because I think it'll change the way I play. But I know there's a lot of guys who are very curious and would like to know.\""
+    },
+    {
+      "story_id": "50526796",
+      "headline": "Messi leads way as MLS salaries rise; Union's Sullivan checks in at $614K",
+      "summary": "Inter Miami CF star Lionel Messi remains the highest-paid player in MLS, though the number of players making at least $10 million grew to five.",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1728980_1296x729_16-9.jpg",
+      "published_utc": "2026-11-19T18:29:23Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50526796/messi-leads-mls-salaries-rise-sullivan-614k",
+      "stream_url": "",
+      "body": "Inter Miami CF star Lionel Messi remains the highest-paid player in MLS, though the number of players making at least $10 million grew to five.\n\nAccording to the MLS Players Association, Messi's guaranteed compensation remained $28.33 million, the same as during the spring salary release, though it is up from $20.45 million a year ago. Other players in the over $10 million club include the Chicago Fire FC's Robert Lewandowski ($19.51 million), Orlando City SC forward Antoine Griezmann ($13.94 million), LAFC's Son Heung-Min ($11.25 million) and Atlanta United FC forward Breel Embolo ($10.81 million).\n\nAll told, 150 of the league's players make at least $1 million in guaranteed compensation.\n\nAs in previous years, Messi's number reflects just the playing portion of his compensation. Last October, Messi signed a contract extension through the 2028 campaign. Inter Miami owner Jorge Mas told Bloomberg in March that Messi's total income is between $70 million to $80 million per year. Messi is also expected to acquire an equity stake in the club once he retires.\n\nAll data is as of Oct. 9, 2026. The salary data was annualized for players who arrived during the summer transfer window.\n\nMiami continues to obliterate the competition in terms of total team spending. Thanks in part to the midseason arrival of midfielder Casemiro, Miami increased its spending to a record $59.37 million, though it finished second in the Eastern Conference behind Supporters Shield winners Nashville SC, which spent just $24.97 million. Miami's outlay is more than double the amount spent by 25 of the league's remaining 29 teams.\n\nIn terms of team payroll based on guaranteed base compensation, Chicago ranked second behind Miami at $41.29 million, due in part to the midseason arrival of Lewandowski. The Fire were followed by Atlanta United ($38.35 million), the LA Galaxy ($34.91 million) and LAFC ($32.91 million)\n\nThe Philadelphia Union had the league's lowest payroll at $12.64 million. Budding star Cavan Sullivan's guaranteed compensation checked in at a relatively modest $614,000. The next lowest payrolls after the Union were Sporting Kansas City ($13.30 million), D.C. United ($14.55 million), CF Montreal ($15.02 million) and FC Dallas ($15.49 million).\n\nThe average guaranteed base compensation for the entire MLS player pool -- which included pool players and retired players still owed money -- continues to climb on an annual basis, rising to $746,936, up 18% from the October 2025 mark of $632,809.\n\nThe salaries of players at the bottom of the wage scale continue to improve, though not at the same rate as those at the top. The league's median guaranteed base compensation was $360,042, up 6.4% from the October 2025 mark of $338,347.\n\nMLS and the MLSPA are in the sixth year of the collective bargaining agreement (CBA) that was agreed upon in February 2021. The current CBA runs through the end of 2027.\n\nTotal Guaranteed Compensation per team:\n\n1. Inter Miami - $59.37 million\n\n2. Chicago Fire - $41.29 million\n\n3. Atlanta United - $38.35 million\n\n4. LA Galaxy - $34.91 million\n\n5. LAFC - $32.91 million\n\n6. Columbus Crew - $28.14 million\n\n7. Orlando City - $28.13 million\n\n8. Charlotte FC - $26.54 million\n\n9. New York City FC - $25.88 million\n\n10. Nashville SC - $24.97 million\n\n11. New England Revolution - $24.91 million\n\n12. FC Cincinnati - $24.82 million\n\n13. Vancouver Whitecaps - $24.73 million\n\n14. Toronto FC - $23.97 million\n\n15. St. Louis City - $22.82 million\n\n16. Seattle Sounders - $22.68 million\n\n17. San Jose Earthquakes - $21.32 million\n\n18. New York Red Bulls - $21.08 million\n\n19. Portland Timbers - $18.98 million\n\n20. San Diego FC - $18.66 million\n\n21. Austin FC - $18.01 million\n\n22. Houston Dynamo - $17.50 million\n\n23. Real Salt Lake - $17.03 million\n\n24. Colorado Rapids - $16.60 million\n\n25. Minnesota United - $16.25 million\n\n26. FC Dallas - $15.49 million\n\n27. CF Montreal - $15.01 million\n\n28. DC United - $14.55 million\n\n29. Sporting Kansas City - $13.30 million\n\n30. Philadelphia Union - $12.64 million"
+    },
+    {
       "story_id": "50514892",
       "headline": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
       "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
@@ -12068,20 +12096,6 @@
       "body": "Video footage of Mauricio Pochettino's first training session as Manchester United head coach has appeared on YouTube after it was filmed by a drone operator.\n\nAround 12 minutes of the session was posted online on Thursday -- Pochettino's first full day in the job after arriving in Manchester on Wednesday. United have declined to comment.\n\n- Pochettino: Man United players must relearn 'about being winners'\n\n- Predicting the rest of the Premier League season: How all 20 teams will finish\n\n- After a decade of near misses, Man United finally get their man in Pochettino\n\nThe footage shows Pochettino -- who signed a two-and-a-half year deal to take over from Michael Carrick last week -- working with a group of players while another two groups work separately under the supervision of his assistant, Jesus Perez.\n\nAudio from the footage of United's Carrington training base could be heard, with the man appearing to operate the drone saying \"let's get closer,\" before zooming in on Pochettino.\n\nHarry Maguire, Kobbie Mainoo, Amad Diallo, Matheus Cunha and Bryan Mbeumo were among the players shown working with Pochettinho.\n\n\"I can definitely see Harry Maguire,\" added the man providing commentary. \"That there is Bruno [Fernandes], definitely, [I can] tell by the gestures.\"\n\nPerez, along with staff members Toni Jimenez and Sebastiano Pochettino, arrived at Carrington earlier in the week after being released from their commitments with the USMNT ahead of Pochettino's final game in charge against Haiti on Tuesday.\n\nThe account justified the filming in a pinned post that said it's legal.\n\n\"It is unrestricted airspace, meaning anyone can fly over it. The drone remained in line of sight at all times, it didn't fly over anyone or even near anyone,\" the post said. \"The drone is correctly labelled and I hold all the relevant licenses, public liability and insurance required.\"\n\nThe post said no sensitive information had been revealed with regard to how struggling United would line up at fourth-place Liverpool in the Premier League on Sunday.\n\n\"As for leaking team news/tactics, it was half an hour into the manager's first training session,\" wrote the poster. \"There are many media there so certainly won't be the only footage of training released.\"\n\nPochettino travelled directly from Cincinnati to Manchester immediately after his final match with the USMNT and arrived at Carrington on Wednesday afternoon. His first game as United head coach is against Liverpool at Anfield on Sunday.\n\nInformation from The Associated Press was used in this report."
     },
     {
-      "story_id": "50532265",
-      "headline": "What does a fair fantasy hockey trade offer for Connor McDavid look like?",
-      "summary": "What would a fair trade offer for the highest-scoring player in fantasy hockey look like? Here are five tips.",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1748200_1296x729_16-9.jpg",
-      "published_utc": "2026-11-19T22:32:52Z",
-      "competition_id": "nhl",
-      "competition_name": "NHL",
-      "byline": "Victoria Matiash",
-      "source": "ESPN",
-      "link": "https://www.espn.com/fantasy/hockey/story/_/id/50532265/fantasy-hockey-trade-advice-connor-mcdavid-offer-points",
-      "stream_url": "",
-      "body": "\"McDavid's controlling every single game he's playing right now. He's on a whole different level than anyone else in the League right now.\"\n\n- Panthers forward Matthew Tkachuk, following Edmonton's 5-2 win over Florida\n\nReflecting back to preseason fantasy discussions, it's almost adorable how earnestly and robustly many of us debated which skater should be selected first overall. Even more delightfully cute, mind you, for fantasy managers who happened to acquire Connor McDavid either through a cunning sense of insight, or because a manager with a higher draft pick instead selected Nathan MacKinnon, Nikita Kucherov, Macklin Celebrini or other. Remember, McDavid was projected to take a minor step back in the production department under Mike Babcock's fresh defense-first system. Right. Now we're keeping daily track of where the league's top producer -- a ridiculous 55 points in 23 games thus far -- is pacing out relative to Wayne Gretzky's 215 points earned 1985-86. For hockey fans everywhere, this is a treat to experience.\n\nWhich also, getting back to our specific intents and purposes, inspires the question: What's McDavid's fantasy trade value now? Everyone has a price, including the league's list-of-one ultra-megastar. So, after scanning some public trade boards for what the elite center is actually commanding in return -- in some cases way too much and others not early enough -- I threw out the query to fellow managers across the continent, including those in my Fantasy Sports & Gaming Association Champions League. My confidential straw poll was focused on fantasy redraft competition (we can open up the conversation to include keeper leagues at a later date) drew a rather consistent response.\n\nWhat would a Conor McDavid trade even look like?\n\"You'd have to be convinced you'd have an opportunity to win the league off of a trade like that. I'd need three top-15 players. Kirill Kaprizov, Macklin Celebrini and Evan Bouchard? And I'd probably have to be in a situation where I was bumping some non-contributors from my roster with those players.\"\n\n\"In a 12 team redraft league, I'd want one of Leon Draisaitl, Nikita Kucherov, Celebrini, or Nathan MacKinnon (once healthy) plus another significant piece. For instance, Kucherov plus Bouchard or Draisaitl plus Eichel. I'd consider McDavid pretty much untouchable, so the offer would need to be a haul. Wouldn't want a goalie, they're too volatile.\"\n\n\"Because it is fantasy hockey, any trade is possible. It truly depends on the league and format. I did see McDavid go for something crazy like Jesper Wallstedt, Leon Draisaitl, and Adam Fox recently.\"\n\n\"I'm not giving him away for anything. My league is too small. So is my roster. He carries too much weight.\"\n\nThe last point is critical. In shallow leagues with precious few lineup spots, it's difficult to justify moving such a fantasy outlier -- one capable of singularly seizing weekly victory in head-to-head competition -- for anything less than two other exceptional skaters.\n\nIt makes little sense to jettison the only NHLer who's averaging more than 4.0 fantasy points/game, along with being forced to move another reasonably valuable performer, say David Pastrnak or Beckett Sennecke, to accommodate a top-tier individual and player near equal in value to a Pastrnak or Sennecke etc. Right? The fantasy math doesn't make sense. Especially when considering McDavid posts the most legit potential to go off any night of the week. So this is only worth examining in deeper leagues where, as touched on above, a two-or-more-for-one-deal involves dropping so-called non-contributors to make room for other valued performers.\n\nIs a McDavid trade even a serious consideration?\nAs you can see in this chart of the most involved players in trade discussions, approved trades for McDavid are rare. In fact, McDavid has been the target of the most trade offers (i.e. the team offering wants to get him back), but at 6.2%, he has the lowest acceptance rate of any of the 267 players with a minimum of 1,000 trade offers.\n\nKucherov, the most-traded player, has seen 11.3% of trade offers in which he was involved accepted. Andrei Vasilevskiy has been the most-traded goalie in the past 30 days and the overall \"accepted\" leader at 14.6%.\n\nI once again harassed my fellow managers on who they would actually move to acquire the best player on the planet. Turns out there's little appetite to relinquish Draisaitl or Bouchard as part of a package, which makes sense since both exceptional players also benefit every game from battling alongside McDavid. In fact, thanks to his goal-scoring prowess, Draisaitl is averaging more fantasy points per game than his running mate these past three weeks. Bouchard is the only 3.0-plus point defender in ESPN standard leagues. On the other hand, most agreed Kucherov, MacKinnon (when healthy), Celebrini, and others might be worth surrendering, depending on who else needed to be included in the deal.\n\nIs trading away Conor McDavid the right move for you?\n\nOkay, so after polling several esteemed members of the fantasy hockey community, perusing online trade market boards, and crunching some numbers, I'm offering the following list of boxes to check when considering dealing away Edmonton's No. 97. Take note, this entire exercise falls under the necessary assumption that McDavid remains healthy for the majority of the season, and, as in real life, maintains the fair spirit of both managers benefiting from the deal.\n\nYour league comprises at least 150 total skaters and McDavid takes up less than approximately 5% of your lineup when active. That means a 10-team league starting 15 forwards and 5 defensemen, but the deeper, the better. Otherwise, unless your trading partner is relinquishing more than one exceptional performer, you're not getting back fair value in exchange for giving up another otherwise valuable contributor.\nThe math adds up, obviously. For instance, in a two-for-one -- which I'd stick with unless your league is exceptionally large and/or you sport several substantial roster flaws -- at least one regular skater averaging more than 3.0 points and another around the 2.7 range. Otherwise, the math doesn't math for such a singular fantasy powerhouse.\nYou're satisfying a positional weakness. Stacked up front but your fantasy blue line stinks? Assuming Bouchard isn't part of the discussion, how about Matthew Schaefer or similar along with a top-10 forward? A league peer with a more balanced lineup should be willing to broker such an arrangement.\nYou're in deep goaltending doo-doo. While I don't disagree that goalies are often volatile, you're also not winning anything with a really vulnerable crease. Without question, there are managers out there who drafted Sergei Bobrovsky, Scott Wedgewood or Igor Shesterkin (IR) who are now facing a long, miserable season unless, of course they acquire a net-minding heavyweight -- maybe Vasilevskiy? -- plus more, in exchange for the Oilers captain.\nYou feel McDavid's current 2.4 point/game run is substantially unsustainable. Hardly an unreasonable hunch considering he's still a human being and, as we've been reminded recently by the man himself, not a robot. A quarter into the season, other teams are undoubtedly going to increase their focus on muffling the guy.\n\nLet's leave it there. Whether you're looking to move McDavid, acquire him, or enjoying the superstar's quest to make more history, we're all unquestionably in for one of the greatest individual campaigns in NHL history."
-    },
-    {
       "story_id": "50528063",
       "headline": "Breaking down the top open pool prospects for the AFL Draft",
       "summary": "ESPN's draft expert Jasper Chellappah takes a look at some of the elite young juniors ahead of draft night.",
@@ -12094,20 +12108,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50528063/breaking-top-open-pool-prospects-afl-draft",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50513113",
-      "headline": "Sources: MLS side FC Cincy nearing deal to acquire NWSL's Racing",
-      "summary": "The ownership groups of MLS side FC Cincinnati and the NWSL's Racing Louisville FC are nearing an agreement that would relocate the NWSL team to Cincinnati in 2028, multiple sources told ESPN.",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1747236_1024x576_16-9.jpg",
-      "published_utc": "2026-11-17T21:08:44Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "Jeff Kassouf",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50513113/mls-fc-cincy-advanced-talks-acquire-nwsl-racing-louisville",
-      "stream_url": "",
-      "body": "The ownership groups of MLS side FC Cincinnati and the NWSL's Racing Louisville FC are nearing an agreement that would relocate the NWSL team to Cincinnati in 2028, multiple sources told ESPN.\n\nRacing Louisville said in a statement on Tuesday that the team is \"actively working through a process to sell\" the team, although it did not name a prospective buyer. No agreement has been finalized yet, sources said, and it is not immediately clear what a final sale price could be for the NWSL team.\n\nIf a deal is reached, Racing Louisville would play the 2027 NWSL season at Lynn Family Stadium in Louisville, Kentucky, before operations moved 100 miles northeast to Cincinnati in 2028. Once there, Racing would play at TQL Stadium, the 26,000-seat downtown home of the MLS side.\n\nESPN first reported in September that the two sides were engaged in negotiations.\n\nSoccer Holdings and chairman John Neace own Racing Louisville and began seeking investment earlier this year, as ESPN reported in May.\n\n\"As the NWSL has grown, so have the financial demands of competing in the league. Additional investment is needed to support the club's long-term future, and we are actively working through a process to sell Racing to a new ownership group,\" the Louisville-based club said in a statement Tuesday. \"Racing was established to bring top-tier women's professional sports to Louisville -- something meaningful our community could rally around. That vision became reality because of the fans, partners and community members who believed in it and continue to support the club. We are deeply grateful for their roles in making Racing what it is today.\n\n\"Further updates will be shared as appropriate. In the meantime, our focus is on supporting our players and staff ahead of the 2027 season.\"\n\nFC Cincinnati also inquired about purchasing Racing Louisville in recent years, ESPN previously reported. On each previous occasion, however, sources cited personal relationships between ownership groups as an obstacle to a potential sale.\n\nAn FC Cincinnati spokesperson provided the following statement to ESPN on Tuesday: \"We understand and appreciate the excitement and interest around the possibility of bringing an NWSL team to Cincinnati. The passion for soccer in this community is undeniable, and FC Cincinnati remains deeply committed to supporting the continued growth of the women's game. We are hard at work exploring opportunities to expand our involvement in women's soccer, and we are hopeful to have an update in the near future.\"\n\nRecently, the situation in Louisville has become more urgent. Racing joined the NWSL ahead of the 2021 NWSL season for an expansion fee of around $2 million. Investment in the league by new owners of other clubs has increased exponentially since then. Expansion teams in Atlanta and Columbus will begin playing in the NWSL in 2028 after paying $165 million and $205 million fees, respectively.\n\nSources told ESPN that throughout the year NWSL commissioner Jessica Berman has been heavily involved in the process of finding a solution in Louisville.\n\n\"Their ownership group has made clear that they are prepared to sell,\" NWSL commissioner Jessica Berman told ESPN in August. \"The trajectory of this league has an investment thesis. Our owners, and the future of the league, need to be aligned in that investment thesis.\n\n\"They [Louisville] have made clear that they're not prepared to sign up for that. And so, they're raising capital because they want more financial support to be able to invest in the team, which is an indication of their understanding of what's required.\"\n\nRacing Louisville averaged just under 5,500 fans per game this year, down slightly from 2025. Only the Chicago Stars averaged fewer fans per game.\n\nSources across the league said to ESPN that Columbus' $205 million price tag paid earlier this year ostensibly sets a floor for any future team, while adding that the NWSL is exercising caution about any potential sale price for a relocation of Racing Louisville to Cincinnati since those cities are only about 100 miles apart.\n\nFC Cincinnati unsuccessfully bid for a 2026 NWSL expansion team with a group that, at the time, included WNBA star Caitlin Clark. Denver was ultimately awarded that team, the NWSL's 14th, for $110 million.\n\nRacing Louisville was recently valued at $127 million and $140 million by Sportico and Forbes, respectively, ranking it as one of the least valuable franchises in the NWSL.\n\n\"Relocation should be a last resort,\" Berman said in March about her philosophy at large. \"We view, in our philosophy of what our teams are, is driven by the idea that these are community assets. And what that means is that the community has to believe and it has to be demonstrated over time, that owners and the league will keep these teams in markets even through periods of transition, team sales, or other ups and downs that might be happening with the club, with their on-field performance.\n\n\"That does not mean that it's a red line. It means that we will only consider that under appropriate circumstances, and we will be very judicious and exercise high discretion in those circumstances where we feel that it's appropriate.\"\n\nVersions of relocation have happened in the past in the NWSL. The North Carolina Courage were previously the Western New York Flash until moving in January of 2017. The NWSL also had a franchise leave Kansas City for Salt Lake City, Utah, then return to Kansas City. Both markets now have teams after the Utah Royals were revived in 2024."
     },
     {
       "story_id": "50491141",
