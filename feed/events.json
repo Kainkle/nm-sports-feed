@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T00:39:58.653280+00:00",
+  "generated_utc": "2026-11-22T00:49:54.675587+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920517",
@@ -4777,7 +4777,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-21T20:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2633",
         "name": "Tennessee Volunteers",
@@ -4806,9 +4806,9 @@
         "color": "461d76"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Neyland Stadium",
-      "detail": "0:29 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4993,7 +4993,7 @@
       "venue": "McLane Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "fm5h2qjm7jw",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5039,7 +5039,7 @@
       "venue": "Jordan-Hare Stadium",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "PGe813IqWcE",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5638,7 +5638,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Nu Stadium",
-      "detail": "67'",
+      "detail": "77'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5683,7 +5683,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "1:29 - 2nd Quarter",
+      "detail": "End of 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6051,7 +6051,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hard Rock Stadium",
-      "detail": "1:44 - 1st Quarter",
+      "detail": "14:51 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6098,7 +6098,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bill Snyder Family Stadium",
-      "detail": "2:22 - 1st Quarter",
+      "detail": "13:33 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6144,7 +6144,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "3:33 - 1st Quarter",
+      "detail": "14:59 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6189,9 +6189,9 @@
         "color": "cc092f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Joe Aillet Stadium",
-      "detail": "End of 1st Quarter",
+      "detail": "11:24 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6237,7 +6237,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Xfinity Mobile Arena",
-      "detail": "3:45 - 1st Half",
+      "detail": "1:19 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6251,7 +6251,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:18",
         "name": "New York Knicks",
@@ -6281,9 +6281,147 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "Sat, November 21st at 7:30 PM EST",
+      "detail": "9:09 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858307",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-22T00:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "away": {
+        "id": "espn:2567",
+        "name": "SMU Mustangs",
+        "abbrev": "SMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mustangs",
+          "SMU",
+          "SMU Mustangs"
+        ],
+        "color": "a80000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Notre Dame Stadium",
+      "detail": "9:37 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858306",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-22T00:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "away": {
+        "id": "espn:221",
+        "name": "Pittsburgh Panthers",
+        "abbrev": "PITT",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+        "logo_dark": null,
+        "aliases": [
+          "PITT",
+          "Panthers",
+          "Pitt",
+          "Pittsburgh",
+          "Pittsburgh Panthers"
+        ],
+        "color": "003594"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "L&N Federal Credit Union Stadium",
+      "detail": "10:04 - 1st Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858308",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-22T00:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:25",
+        "name": "California Golden Bears",
+        "abbrev": "CAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAL",
+          "California",
+          "California Golden Bears",
+          "Golden Bears"
+        ],
+        "color": "041e42"
+      },
+      "away": {
+        "id": "espn:24",
+        "name": "Stanford Cardinal",
+        "abbrev": "STAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinal",
+          "STAN",
+          "Stanford",
+          "Stanford Cardinal"
+        ],
+        "color": "8c1515"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "California Memorial Stadium",
+      "detail": "5:27 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6338,57 +6476,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858307",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-22T00:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:87",
-        "name": "Notre Dame Fighting Irish",
-        "abbrev": "ND",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Irish",
-          "ND",
-          "Notre Dame",
-          "Notre Dame Fighting Irish"
-        ],
-        "color": "062340"
-      },
-      "away": {
-        "id": "espn:2567",
-        "name": "SMU Mustangs",
-        "abbrev": "SMU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mustangs",
-          "SMU",
-          "SMU Mustangs"
-        ],
-        "color": "a80000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Notre Dame Stadium",
-      "detail": "13:52 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856751",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:142",
         "name": "Missouri Tigers",
@@ -6418,102 +6511,9 @@
         "color": "0033a0"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Memorial Stadium",
-      "detail": "Sat, November 21st at 7:30 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858306",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-22T00:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:97",
-        "name": "Louisville Cardinals",
-        "abbrev": "LOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinals",
-          "LOU",
-          "Louisville",
-          "Louisville Cardinals"
-        ],
-        "color": "c9001f"
-      },
-      "away": {
-        "id": "espn:221",
-        "name": "Pittsburgh Panthers",
-        "abbrev": "PITT",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
-        "logo_dark": null,
-        "aliases": [
-          "PITT",
-          "Panthers",
-          "Pitt",
-          "Pittsburgh",
-          "Pittsburgh Panthers"
-        ],
-        "color": "003594"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "L&N Federal Credit Union Stadium",
-      "detail": "13:31 - 1st Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401858308",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-22T00:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:25",
-        "name": "California Golden Bears",
-        "abbrev": "CAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAL",
-          "California",
-          "California Golden Bears",
-          "Golden Bears"
-        ],
-        "color": "041e42"
-      },
-      "away": {
-        "id": "espn:24",
-        "name": "Stanford Cardinal",
-        "abbrev": "STAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinal",
-          "STAN",
-          "Stanford",
-          "Stanford Cardinal"
-        ],
-        "color": "8c1515"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "California Memorial Stadium",
-      "detail": "12:57 - 1st Quarter",
+      "detail": "9:21 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6527,7 +6527,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:278",
         "name": "Fresno State Bulldogs",
@@ -6559,9 +6559,9 @@
         "color": "004c23"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "Sat, November 21st at 7:30 PM EST",
+      "detail": "13:52 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12470,6 +12470,20 @@
   ],
   "stories": [
     {
+      "story_id": "50555316",
+      "headline": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
+      "summary": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/0ae8873c-42b8-4286-b751-404cd307a63f/0ae8873c-42b8-4286-b751-404cd307a63f.jpg",
+      "published_utc": "2026-11-22T00:42:47Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "Kris Rhim",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
+      "stream_url": "",
+      "body": "PHILADELPHIA -- In a season full of wins that keep this fanbase stressed until the final buzzer, the Philadelphia 76ers' 132-129 victory over the Milwaukee Bucks on Saturday followed suit.\n\nThe Sixers survived a career-high 50 points from Bucks guard Tyler Herro, who nailed a contested fadeaway 3-pointer at the end of regulation that would have tied the score, but an official review determined Herro released the ball just after time expired.\n\nAfter the game, Sixers center Joel Embiid, who led the team with 26 points, 17 rebounds and nine assists, praised Herro as \"a top five player in the league.\"\n\nThe win moved the Sixers to 14-3, which is tied for the NBA's best record and their best 17-game start since 2000-01, when they last reached the NBA Finals. And yet, much of the conversation after their most recent victory centered on how they're winning games.\n\n\"Obviously, we wanted to close the game out a lot better,\" said LeBron James, who finished with 21 points, six rebounds and six assists. \"But a team like that, we know they're scrappy. They're going to play as hard as they can for their minutes. It's about just getting the win, but we can learn from a lot of things that we didn't do well tonight.\"\n\nThe Sixers have been in a lot of close games this season. They are a league-leading 12-0 in clutch-time games, a stat that reflects both how good they've been at finishing games and their struggles to build and maintain leads against lesser teams like the Bucks, who have just one win this season.\n\n\"We've got to play a 48-minute game,\" said guard Tyrese Maxey, who had 17 points. \"We're playing like 40-minute games or 24-minute games, 30-minute games. And soon, we're going to have to put together a 48-minute game.\"\n\n\u200bMilwaukee -- as most teams have this season -- pounced on the Sixers early, jumping out to a seven-point first-quarter lead. The Sixers quickly overcame that deficit and were in control for much of the second half. They led by 10 points with just over two minutes left, but the Bucks stormed back and nearly sent it to overtime.\n\n\"I try not to complain too much about any win in this league ... we got to finish a little better,\" 76ers coach Nick Nurse said.\n\nDespite the Sixers struggling to put away teams this season, James said he has been impressed with how well they are already playing, particularly with their willingness to pass.\n\n\"I think early on, like preseason, it looked a little weird. Guys were like overpassing, you know, looking weird,\" he said with a smile. \"But that's been great. And I think for the majority, our defense has been really good for the majority of the season. Tonight wasn't so great, but we've been really good defensively throughout the course of the season.\"\n\nStill, James said there is room for improvement, which he welcomes: \"We don't want to be great in November. That would be weird.\"\n\nThe Sixers next host the Portland Trail Blazers on Monday."
+    },
+    {
       "story_id": "50555170",
       "headline": "FC Dallas vs. Portland Timbers - Game Highlights",
       "summary": "Watch the Game Highlights from FC Dallas vs. Portland Timbers, 11/21/2026",
@@ -12482,20 +12496,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50555170/fc-dallas-vs-portland-timbers-game-highlights",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50555316",
-      "headline": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
-      "summary": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/0ae8873c-42b8-4286-b751-404cd307a63f/0ae8873c-42b8-4286-b751-404cd307a63f.jpg",
-      "published_utc": "2026-11-22T00:03:09Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Kris Rhim",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
-      "stream_url": "",
-      "body": "PHILADELPHIA -- In a season full of wins that keep this fanbase stressed until the final buzzer, the Philadelphia 76ers' 132-129 victory over the Milwaukee Bucks on Saturday followed suit.\n\nThe Sixers survived a career-high 50 points from Bucks guard Tyler Herro, who nailed a contested fadeaway 3-pointer at the end of regulation that would have tied the score, but an official review determined Herro released the ball just after time expired.\n\nAfter the game, Sixers center Joel Embiid, who led the team with 26 points, 17 rebounds and nine assists, praised Herro as \"a top five player in the league.\"\n\nThe win moved the Sixers to 14-3, which is tied for the NBA's best record and their best 17-game start since 2000-01 when they last reached the NBA Finals. And yet, much of the conversation after their most recent victory centered on how they're winning games.\n\n\"Obviously, we wanted to close the game out a lot better,\" said LeBron James, who finished with 21 points, six rebounds and six assists. \"But a team like that, we know they're scrappy. They're going to play as hard as they can for their minutes. It's about just getting the win, but we can learn from a lot of things that we didn't do well tonight.\"\n\nThe Sixers have been in a lot of close games this season. They are a league-leading 12-0 in clutch-time games, a stat that reflects how good they've been at finishing games but their struggles to build and maintain leads against lesser teams like the Bucks, who have just one win this season.\n\n\"We've got to play a 48-minute game,\" said guard Tyrese Maxey, who had 17 points. \"We're playing like 40-minute games or 24-minute games, 30-minute games. And soon, we're going to have to put together a 48-minute game.\"\n\n\u200bMilwaukee -- as most teams have this season -- pounced on the Sixers early, jumping out to a seven-point first-quarter lead. The Sixers quickly overcame that deficit and were in control for much of the second half. They led by 10 points with just over two minutes left, but the Bucks stormed back and nearly sent it to overtime.\n\n\"I try not to complain too much about any win in this league ... we got to finish a little better,\" 76ers coach Nick Nurse said.\n\nDespite the Sixers struggling to put away teams this season, James said he has been impressed with how well they are already playing, particularly with their willingness to pass.\n\n\"I think early on, like preseason, it looked a little weird. Guys were like overpassing, you know, looking weird,\" he said with a smile. \"But that's been great. And I think for the majority, our defense has been really good for the majority of the season. Tonight wasn't so great, but we've been really good defensively throughout the course of the season.\"\n\nStill, James said there is room for improvement, which he welcomes: \"We don't want to be great in November. That would be weird.\"\n\nThe Sixers next host the Portland Trail Blazers on Monday."
     },
     {
       "story_id": "50555778",
@@ -12638,20 +12638,6 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
-      "story_id": "50555667",
-      "headline": "Valiente's brace earns Dallas Game 1 win over Timbers",
-      "summary": "- Joaqu\u00edn Valiente scored two second-half goals in a 2-minute span, Samuel Sarver added a stoppage-time goal and FC Dallas beat the Portland Timbers 3-0 on Saturday in Game 1 of their best-of-three series in the first round of the MLS Cup playoffs.",
-      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/401933732.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-21T23:57:13Z",
-      "competition_id": "usa.1",
-      "competition_name": "MLS",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/soccer/report/_/gameId/401933732",
-      "stream_url": "",
-      "body": "FRISCO, Texas -- Joaqu\u00edn Valiente scored two second-half goals in a two-minute span, Samuel Sarver added a stoppage-time goal and FC Dallas beat the Portland Timbers 3-0 on Saturday in Game 1 of their best-of-three series in the first round of the MLS Cup playoffs.\n\nDallas, the No. 2 seed in the Western Conference, can eliminated the Timbers with a win in Game 2 next Saturday.\n\nDaniel de Sousa Britto - known simply as \"Daniel\" - had four saves for Dallas.\n\nPortland's Ariel Lassiter left the game in the 33rd minute due to an apparent injury.\n\nValiente put away a volley from 6 yards out to open the scoring in the 53rd minute. Daniel Job, on the counter-attack, cut inside near the left edge of the penalty box and blast a shot from near the spot that was parried by sparling goalkeeper James Pantemis but Valiente tapped in the first-touch putback.\n\nIn the 55th, Valiente perfectly timed his run onto a feed from Job and redirected it between the legs of Pantemis into the net to make it 2-0.\n\nSarver's first-touch shot, off a cross played by Logan Farrington on the counter-attack, past a diving Pantemis and inside the left post in the fourth minute of stoppage time.\n\nPantemis finished with five saves.\n\nUp next The teams play next Saturday at Providence Park."
-    },
-    {
       "story_id": "50553416",
       "headline": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
       "summary": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
@@ -12664,6 +12650,20 @@
       "link": "https://www.espn.com/video/clip/_/id/50553416/game-highlights",
       "stream_url": "",
       "body": ""
+    },
+    {
+      "story_id": "50555667",
+      "headline": "Valiente's brace earns Dallas Game 1 win over Timbers",
+      "summary": "- Joaqu\u00edn Valiente scored two second-half goals in a 2-minute span, Samuel Sarver added a stoppage-time goal and FC Dallas beat the Portland Timbers 3-0 on Saturday in Game 1 of their best-of-three series in the first round of the MLS Cup playoffs.",
+      "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/401933732.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-21T23:57:13Z",
+      "competition_id": "usa.1",
+      "competition_name": "MLS",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/soccer/report/_/gameId/401933732",
+      "stream_url": "",
+      "body": "FRISCO, Texas -- Joaqu\u00edn Valiente scored two second-half goals in a two-minute span, Samuel Sarver added a stoppage-time goal and FC Dallas beat the Portland Timbers 3-0 on Saturday in Game 1 of their best-of-three series in the first round of the MLS Cup playoffs.\n\nDallas, the No. 2 seed in the Western Conference, can eliminated the Timbers with a win in Game 2 next Saturday.\n\nDaniel de Sousa Britto - known simply as \"Daniel\" - had four saves for Dallas.\n\nPortland's Ariel Lassiter left the game in the 33rd minute due to an apparent injury.\n\nValiente put away a volley from 6 yards out to open the scoring in the 53rd minute. Daniel Job, on the counter-attack, cut inside near the left edge of the penalty box and blast a shot from near the spot that was parried by sparling goalkeeper James Pantemis but Valiente tapped in the first-touch putback.\n\nIn the 55th, Valiente perfectly timed his run onto a feed from Job and redirected it between the legs of Pantemis into the net to make it 2-0.\n\nSarver's first-touch shot, off a cross played by Logan Farrington on the counter-attack, past a diving Pantemis and inside the left post in the fourth minute of stoppage time.\n\nPantemis finished with five saves.\n\nUp next The teams play next Saturday at Providence Park."
     },
     {
       "story_id": "50555549",
