@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T00:29:49.183838+00:00",
+  "generated_utc": "2026-11-22T00:39:58.653280+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920517",
@@ -4368,7 +4368,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-21T19:30Z",
-      "status": "live",
+      "status": "suspended",
       "home": {
         "id": "espn:2226",
         "name": "Florida Atlantic Owls",
@@ -4398,9 +4398,9 @@
         "color": "006747"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Delayed",
       "venue": "Flagler Credit Union Stadium",
-      "detail": "6:25 - 4th Quarter",
+      "detail": "Delayed",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4772,6 +4772,51 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401856754",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-21T20:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:2633",
+        "name": "Tennessee Volunteers",
+        "abbrev": "TENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+        "logo_dark": null,
+        "aliases": [
+          "TENN",
+          "Tennessee",
+          "Tennessee Volunteers",
+          "Volunteers"
+        ],
+        "color": "ff8200"
+      },
+      "away": {
+        "id": "espn:99",
+        "name": "LSU Tigers",
+        "abbrev": "LSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+        "logo_dark": null,
+        "aliases": [
+          "LSU",
+          "LSU Tigers",
+          "Tigers"
+        ],
+        "color": "461d76"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "in/In Progress",
+      "venue": "Neyland Stadium",
+      "detail": "0:29 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:football:401858528",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -4809,51 +4854,6 @@
       "source_status": "post/Final",
       "venue": "Michigan Stadium",
       "detail": "Final/3OT",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401856754",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-21T20:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:2633",
-        "name": "Tennessee Volunteers",
-        "abbrev": "TENN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
-        "logo_dark": null,
-        "aliases": [
-          "TENN",
-          "Tennessee",
-          "Tennessee Volunteers",
-          "Volunteers"
-        ],
-        "color": "ff8200"
-      },
-      "away": {
-        "id": "espn:99",
-        "name": "LSU Tigers",
-        "abbrev": "LSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
-        "logo_dark": null,
-        "aliases": [
-          "LSU",
-          "LSU Tigers",
-          "Tigers"
-        ],
-        "color": "461d76"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
-      "venue": "Neyland Stadium",
-      "detail": "2:38 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5224,7 +5224,7 @@
       "venue": "Memorial Stadium (Norman, OK)",
       "detail": "Final",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "ZB0OLb5mYBo",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -5270,52 +5270,6 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Fargodome",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401871101",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-21T21:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:2572",
-        "name": "Southern Miss Golden Eagles",
-        "abbrev": "USM",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-        "logo_dark": null,
-        "aliases": [
-          "Golden Eagles",
-          "Southern Miss",
-          "Southern Miss Golden Eagles",
-          "USM"
-        ],
-        "color": "ffc72c"
-      },
-      "away": {
-        "id": "espn:6",
-        "name": "South Alabama Jaguars",
-        "abbrev": "USA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-        "logo_dark": null,
-        "aliases": [
-          "Jaguars",
-          "South Alabama",
-          "South Alabama Jaguars",
-          "USA"
-        ],
-        "color": "00205b"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "M. M. Roberts Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5410,6 +5364,52 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Joan C. Edwards Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401871101",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-21T21:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:2572",
+        "name": "Southern Miss Golden Eagles",
+        "abbrev": "USM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+        "logo_dark": null,
+        "aliases": [
+          "Golden Eagles",
+          "Southern Miss",
+          "Southern Miss Golden Eagles",
+          "USM"
+        ],
+        "color": "ffc72c"
+      },
+      "away": {
+        "id": "espn:6",
+        "name": "South Alabama Jaguars",
+        "abbrev": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+        "logo_dark": null,
+        "aliases": [
+          "Jaguars",
+          "South Alabama",
+          "South Alabama Jaguars",
+          "USA"
+        ],
+        "color": "00205b"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "M. M. Roberts Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -5592,9 +5592,9 @@
         "color": "a60f2d"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "UFCU Stadium",
-      "detail": "1:16 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5636,9 +5636,9 @@
         "color": "000000"
       },
       "source": "espn:soccer/usa.1",
-      "source_status": "in/In Progress",
+      "source_status": "in/Second Half",
       "venue": "Nu Stadium",
-      "detail": "57'",
+      "detail": "67'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5683,7 +5683,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Los Angeles Memorial Coliseum",
-      "detail": "5:56 - 2nd Quarter",
+      "detail": "1:29 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6051,7 +6051,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Hard Rock Stadium",
-      "detail": "5:56 - 1st Quarter",
+      "detail": "1:44 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6098,7 +6098,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Bill Snyder Family Stadium",
-      "detail": "5:15 - 1st Quarter",
+      "detail": "2:22 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6144,7 +6144,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "CEFCU Stadium",
-      "detail": "6:45 - 1st Quarter",
+      "detail": "3:33 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6189,9 +6189,9 @@
         "color": "cc092f"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/End of Period",
       "venue": "Joe Aillet Stadium",
-      "detail": "4:04 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6237,7 +6237,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Xfinity Mobile Arena",
-      "detail": "7:37 - 1st Half",
+      "detail": "3:45 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6343,7 +6343,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:87",
         "name": "Notre Dame Fighting Irish",
@@ -6372,9 +6372,9 @@
         "color": "a80000"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Notre Dame Stadium",
-      "detail": "Sat, November 21st at 7:30 PM EST",
+      "detail": "13:52 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6434,7 +6434,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:97",
         "name": "Louisville Cardinals",
@@ -6465,9 +6465,9 @@
         "color": "003594"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "L&N Federal Credit Union Stadium",
-      "detail": "Sat, November 21st at 7:30 PM EST",
+      "detail": "13:31 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6481,7 +6481,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:25",
         "name": "California Golden Bears",
@@ -6511,9 +6511,9 @@
         "color": "8c1515"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "California Memorial Stadium",
-      "detail": "Sat, November 21st at 7:30 PM EST",
+      "detail": "12:57 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
