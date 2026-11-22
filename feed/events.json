@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T04:02:50.889477+00:00",
+  "generated_utc": "2026-11-22T04:13:01.636972+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920517",
@@ -6019,7 +6019,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2306",
         "name": "Kansas State Wildcats",
@@ -6050,9 +6050,9 @@
         "color": "cc0033"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Bill Snyder Family Stadium",
-      "detail": "OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6292,57 +6292,12 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401858307",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-22T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:87",
-        "name": "Notre Dame Fighting Irish",
-        "abbrev": "ND",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-        "logo_dark": null,
-        "aliases": [
-          "Fighting Irish",
-          "ND",
-          "Notre Dame",
-          "Notre Dame Fighting Irish"
-        ],
-        "color": "062340"
-      },
-      "away": {
-        "id": "espn:2567",
-        "name": "SMU Mustangs",
-        "abbrev": "SMU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
-        "logo_dark": null,
-        "aliases": [
-          "Mustangs",
-          "SMU",
-          "SMU Mustangs"
-        ],
-        "color": "a80000"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Notre Dame Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401858306",
       "sport": "football",
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:97",
         "name": "Louisville Cardinals",
@@ -6373,9 +6328,9 @@
         "color": "003594"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "L&N Federal Credit Union Stadium",
-      "detail": "3:14 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6389,7 +6344,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-22T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:25",
         "name": "California Golden Bears",
@@ -6419,9 +6374,9 @@
         "color": "8c1515"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "California Memorial Stadium",
-      "detail": "1:39 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6469,7 +6424,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Valley Children's Stadium",
-      "detail": "1:48 - 4th Quarter",
+      "detail": "0:46 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6515,6 +6470,51 @@
       "source": "espn:football/college-football",
       "source_status": "post/Final",
       "venue": "Williams-Brice Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "XICdvRxvhk4",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401858307",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-22T00:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:87",
+        "name": "Notre Dame Fighting Irish",
+        "abbrev": "ND",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+        "logo_dark": null,
+        "aliases": [
+          "Fighting Irish",
+          "ND",
+          "Notre Dame",
+          "Notre Dame Fighting Irish"
+        ],
+        "color": "062340"
+      },
+      "away": {
+        "id": "espn:2567",
+        "name": "SMU Mustangs",
+        "abbrev": "SMU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+        "logo_dark": null,
+        "aliases": [
+          "Mustangs",
+          "SMU",
+          "SMU Mustangs"
+        ],
+        "color": "a80000"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Notre Dame Stadium",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -6779,7 +6779,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Protective Stadium",
-      "detail": "9:21 - 4th Quarter",
+      "detail": "2:36 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6916,9 +6916,9 @@
         "color": "a6192e"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Albertsons Stadium",
-      "detail": "1:03 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7054,9 +7054,9 @@
         "color": "008348"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Golden 1 Center",
-      "detail": "2:17 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7104,7 +7104,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mountain America Stadium",
-      "detail": "2:41 - 1st Quarter",
+      "detail": "13:38 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7151,7 +7151,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "8:32 - 1st Quarter",
+      "detail": "4:33 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7197,7 +7197,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mackay Stadium",
-      "detail": "2:05 - 1st Quarter",
+      "detail": "15:00 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7211,7 +7211,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-22T04:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:150",
         "name": "Duke Blue Devils",
@@ -7242,9 +7242,9 @@
         "color": "a60f2d"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Acrisure Arena",
-      "detail": "Sat, November 21st at 11:00 PM EST",
+      "detail": "15:57 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12470,18 +12470,18 @@
   ],
   "stories": [
     {
-      "story_id": "50558313",
-      "headline": "New Orleans Pelicans vs. San Antonio Spurs: Game Highlights",
-      "summary": "New Orleans Pelicans vs. San Antonio Spurs: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/8d6260b3-d5b7-4911-9243-97f6dfc0a143/8d6260b3-d5b7-4911-9243-97f6dfc0a143.jpg",
-      "published_utc": "2026-11-22T03:57:33Z",
+      "story_id": "50558602",
+      "headline": "Kyrie Irving scores 25, Cooper Flagg 22 as the Mavericks top the Clippers 110-100",
+      "summary": "\u2014 Kyrie Irving scored 25 points and Cooper Flagg had 22 points, eight rebounds and six assists as the Dallas Mavericks used a late 11-0 run to beat the Los Angeles Clippers 110-100 on Saturday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910025.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-22T03:59:45Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50558313/game-highlights",
+      "link": "http://www.espn.com/nba/recap?gameId=401910025",
       "stream_url": "",
-      "body": ""
+      "body": "DALLAS -- \u2014 Kyrie Irving scored 25 points and Cooper Flagg had 22 points, eight rebounds and six assists as the Dallas Mavericks used a late 11-0 run to beat the Los Angeles Clippers 110-100 on Saturday night.\n\n\r\nWalter Clayton Jr. added 16 points and Max Christie finished with 13, both off the bench, as Dallas (9-7) began a back-to-back with a second consecutive win at home following an 0-3 trip.\n\n\r\nBrook Lopez scored 17 of his 21 points in the second half to lead the Clippers (4-11), who have dropped three straight overall and are 0-7 on the road. Rui Hachimura had 19 points, matching a season high with four 3-pointers.\n\n\r\nAfter the Clippers\u2019 Kris Dunn hit a corner 3 that cut Dallas\u2019 lead to 91-88 with 5:12 left, the Mavericks scored 11 in a row aided by two Los Angeles turnovers.\n\n\r\nIrving opened shooting 1 of 7 from the floor but scored 12 points in the fourth quarter.\n\n\r\nFlagg went 7 of 13 at the foul line, the first time last season\u2019s NBA Rookie of the Year \u2014 an 84.2% free-throw shooter \u2014 has missed six in his brief career.\n\n\r\nClayton and Christie combined to go 5 of 7 from behind the arc.\n\n\r\nThe Clippers entered last in the NBA in rebounding, averaging 39 per game. They beat the Mavericks on the boards 54-52 but were outscored 20-19 in second-chance points.\n\n\r\nThe Mavericks played their first game this season without starting forward P.J. Washington Jr., who sat out with an illness.\n\n\r\nUp next\r\nClippers: Visit Houston on Monday.\n\n\r\nMavericks: At Utah on Sunday night to begin a three-game trip.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "46407078",
