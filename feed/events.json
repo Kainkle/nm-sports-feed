@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T20:55:29.222047+00:00",
+  "generated_utc": "2026-11-22T21:05:25.012791+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920517",
@@ -4536,7 +4536,7 @@
       "venue": "Stadio Diego Armando Maradona",
       "detail": "FT",
       "game_number": 1,
-      "highlight_video_id": "BxEdpB3phMo",
+      "highlight_video_id": "2f2L174gzhU",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -7852,7 +7852,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Highmark Stadium",
-      "detail": "2:00 - 4th Quarter",
+      "detail": "0:20 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "JdLBeM9cvhY",
       "replay_url": "",
@@ -7898,7 +7898,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Soldier Field",
-      "detail": "4:01 - 4th Quarter",
+      "detail": "1:09 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7912,7 +7912,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-22T18:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6",
         "name": "Dallas Cowboys",
@@ -7942,9 +7942,9 @@
         "color": "4495d2"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "AT&T Stadium",
-      "detail": "2:34 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7990,7 +7990,99 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Ford Field",
-      "detail": "2:00 - 4th Quarter",
+      "detail": "0:13 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401873076",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-11-22T18:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:21",
+        "name": "Philadelphia Eagles",
+        "abbrev": "PHI",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+        "logo_dark": null,
+        "aliases": [
+          "Eagles",
+          "PHI",
+          "Philadelphia",
+          "Philadelphia Eagles"
+        ],
+        "color": "06424d"
+      },
+      "away": {
+        "id": "espn:23",
+        "name": "Pittsburgh Steelers",
+        "abbrev": "PIT",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+        "logo_dark": null,
+        "aliases": [
+          "PIT",
+          "Pittsburgh",
+          "Pittsburgh Steelers",
+          "Steelers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "Lincoln Financial Field",
+      "detail": "1:21 - 4th Quarter",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:football:401873068",
+      "sport": "football",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "start_utc": "2026-11-22T18:00Z",
+      "status": "live",
+      "home": {
+        "id": "espn:29",
+        "name": "Carolina Panthers",
+        "abbrev": "CAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+        "logo_dark": null,
+        "aliases": [
+          "CAR",
+          "Carolina",
+          "Carolina Panthers",
+          "Panthers"
+        ],
+        "color": "0085ca"
+      },
+      "away": {
+        "id": "espn:33",
+        "name": "Baltimore Ravens",
+        "abbrev": "BAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAL",
+          "Baltimore",
+          "Baltimore Ravens",
+          "Ravens"
+        ],
+        "color": "29126f"
+      },
+      "source": "espn:football/nfl",
+      "source_status": "in/In Progress",
+      "venue": "Bank of America Stadium",
+      "detail": "1:58 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8045,98 +8137,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401873076",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-11-22T18:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:21",
-        "name": "Philadelphia Eagles",
-        "abbrev": "PHI",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-        "logo_dark": null,
-        "aliases": [
-          "Eagles",
-          "PHI",
-          "Philadelphia",
-          "Philadelphia Eagles"
-        ],
-        "color": "06424d"
-      },
-      "away": {
-        "id": "espn:23",
-        "name": "Pittsburgh Steelers",
-        "abbrev": "PIT",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-        "logo_dark": null,
-        "aliases": [
-          "PIT",
-          "Pittsburgh",
-          "Pittsburgh Steelers",
-          "Steelers"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Lincoln Financial Field",
-      "detail": "2:10 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:football:401873068",
-      "sport": "football",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "start_utc": "2026-11-22T18:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:29",
-        "name": "Carolina Panthers",
-        "abbrev": "CAR",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-        "logo_dark": null,
-        "aliases": [
-          "CAR",
-          "Carolina",
-          "Carolina Panthers",
-          "Panthers"
-        ],
-        "color": "0085ca"
-      },
-      "away": {
-        "id": "espn:33",
-        "name": "Baltimore Ravens",
-        "abbrev": "BAL",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-        "logo_dark": null,
-        "aliases": [
-          "BAL",
-          "Baltimore",
-          "Baltimore Ravens",
-          "Ravens"
-        ],
-        "color": "29126f"
-      },
-      "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
-      "venue": "Bank of America Stadium",
-      "detail": "6:40 - 4th Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:soccer:401875001",
       "sport": "soccer",
       "competition_id": "ita.1",
@@ -8169,9 +8169,9 @@
         "color": "00239c"
       },
       "source": "espn:soccer/ita.1",
-      "source_status": "in/In Progress",
+      "source_status": "in/Second Half",
       "venue": "New Balance Arena",
-      "detail": "51'",
+      "detail": "61'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8259,9 +8259,9 @@
         "color": null
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Moody Center",
-      "detail": "Halftime",
+      "detail": "20:00 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8307,7 +8307,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "State Farm Arena",
-      "detail": "4:48 - 1st Quarter",
+      "detail": "1:05 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12470,18 +12470,18 @@
   ],
   "stories": [
     {
-      "story_id": "50564550",
-      "headline": "Arizona Cardinals vs. Kansas City Chiefs: Game Highlights",
-      "summary": "Arizona Cardinals vs. Kansas City Chiefs: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/f870fbd9-2404-4e9d-aed7-daf8fc4f5748/f870fbd9-2404-4e9d-aed7-daf8fc4f5748.jpg",
-      "published_utc": "2026-11-22T20:45:56Z",
+      "story_id": "50564874",
+      "headline": "Mahomes throws 3 TD passes, Kelce catches 2 of them, as KC routs Cardinals 34-7 for 3rd straight win",
+      "summary": "\u2014 Patrick Mahomes threw for 324 yards and three touchdowns in just over three quarters, Travis Kelce caught two of the TD passes, and the Kansas City Chiefs whipped the Arizona Cardinals 34-7 on Sunday to take some momentum into a crucial five-week...",
+      "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873067.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-22T20:56:35Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50564550/game-highlights",
+      "link": "http://www.espn.com/nfl/recap?gameId=401873067",
       "stream_url": "",
-      "body": ""
+      "body": "KANSAS CITY, Mo. -- \u2014 Patrick Mahomes threw for 324 yards and three touchdowns in just over three quarters, Travis Kelce caught two of the TD passes, and the Kansas City Chiefs whipped the Arizona Cardinals 34-7 on Sunday to take some momentum into a crucial five-week stretch.\n\n\r\nThe AFC West-leading Chiefs (8-2) head to Buffalo for a Thanksgiving night showdown between Super Bowl contenders. After heading back across the country to face the Rams, the Chiefs play the Bengals, Patriots and 49ers in quick succession.\n\n\r\nKansas City hopes to have running back Kenneth Walker back for that stretch after missing his second game to a groin injury.\n\n\r\nEmmett Johnson filled in again Sunday, and just like in last week's blowout of Atlanta, the fifth-round pick out of Nebraska proved to be a load for the Cardinals. He carried 23 times for 105 yards while reaching the end zone for the fourth straight game.\n\n\r\nThe Chiefs, who have won three straight by an average of 24 points, finished with 435 yards. Arizona managed 205.\n\n\r\nThe injury-plagued Cardinals (3-8) planned to start Carson Beck at quarterback for the second straight week, but the rookie was ruled out Saturday because of back spasms. They turned to 40-year-old journeyman Josh Johnson, their fourth starter in four games, who joined his 15th franchise when Arizona claimed him off the Bengals practice squad a couple of weeks ago.\n\n\r\nJohnson ended up 18 of 31 for 155 yards with a touchdown pass to Simi Fehoko. He also was sacked three times.\n\n\r\nThe Cardinals have lost six of their past seven against the Chiefs, and they have never won in five tries at Arrowhead Stadium.\n\n\r\nThe tone was set in the first 15 minutes, when the Chiefs ran 27 plays for 152 yards and the Cardinals ran just four for 13.\n\n\r\nKansas City opened with a 72-yard march that ended with Kelce's first touchdown reception, then put together an 80-yard drive that Johnson capped with his short TD run. After the Cardinals answered with a touchdown of their own \u2014 on a 10-play, 63-yard drive that proved to be their only real bright spot \u2014 the Chiefs tacked on two field goals and another touchdown.\n\n\r\nThe first field goal came after Kansas City stuffed Arizona on fourth down. The second came after a three-and-out by Arizona gave the Chiefs the ball with just over a minute left in the first half, and Mahomes and Co. got them within Harrison Butker's range.\n\n\r\nThe Chiefs' embattled kicker was perfect on Sunday, hitting both of his field-goal attempts and all four PATs.\n\n\r\nArizona held the ball for less than 10 minutes in the first half and gained a mere 78 yards, and things weren't a whole lot better after the break. The Cardinals punted on their first three possessions before a fourth-quarter drive ended on downs.\n\n\r\nThe Chiefs, meanwhile, added a 97-yard touchdown drive. It finished on the first play of the fourth quarter, when Xavier Worthy outran a linebacker on a dump-off pass to make it 34-7 \u2014 the final play for Mahomes and several of the starters.\n\n\r\nInjuries\r\nCardinals: LB Cody Simon left in the third quarter with a calf injury.\n\n\r\nChiefs: TE Noah Gray left in the fourth quarter with a rib injury. FB Ben VanSumeren hurt his knee.\n\n\r\nUp next\r\nArizona begins a three-game homestand against Washington next Sunday.\n\n\r\nKansas City heads to Buffalo on Thursday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
     },
     {
       "story_id": "50563730",
@@ -12638,18 +12638,18 @@
       "body": "The Kangaroos have punished a disappointing New Zealand, with Reece Walsh running riot in a 32-12 World Cup final waltz.\n\nThere was an expectation the Kiwis, searching for their second Cup title and first since 2008, would push Australia all the way after a two-point loss in a pulsating tournament opener.\n\nBut the visitors struggled from the outset in Brisbane on Sunday night, Jamayne Isaako's kick-off floating long in a sign of things to come.\n\nWalsh dazzled at fullback for the Kangaroos, his pace, vision and wicked footwork too much as he helped lay on two tries and generally wreak havoc around the ruck and close to the line.\n\nConversely, Walsh's New Zealand opposite Kalyn Ponga -- International Rugby League's Golden Boot winner on Thursday night -- was unable to get into game.\n\nAustralian hooker Harry Grant and halves Tom Dearden and Cam Munster completely outplayed their error-riddled opposites, while the Kangaroos' pack muscled up.\n\nDearden laid on two first-half tries for Liam Martin with well-timed short balls, while Bradman Best was rewarded for an inspired chase-down tackle of Jahrome Hughes with a try soon after.\n\nWhen Tom Trbojevic scored to begin the second half it was 28-6 and effectively game over.\n\nJack Bostock completed his breakout season with a try in each half for Australia.\n\nIt was the Kangaroos' fourth consecutive title and 10th in the last 11 tournaments, dating back to 1975."
     },
     {
-      "story_id": "50564475",
-      "headline": "Steelers WR DK Metcalf ejected from game against Eagles",
-      "summary": "Steelers wide receiver DK Metcalf was ejected in the third quarter of Sunday's game against the Eagles for unsportsmanlike conduct.",
-      "image": "https://a.espncdn.com/photo/2026/1122/r1749752_1296x729_16-9.jpg",
-      "published_utc": "2026-11-22T20:40:08Z",
+      "story_id": "50564550",
+      "headline": "Arizona Cardinals vs. Kansas City Chiefs: Game Highlights",
+      "summary": "Arizona Cardinals vs. Kansas City Chiefs: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/f870fbd9-2404-4e9d-aed7-daf8fc4f5748/f870fbd9-2404-4e9d-aed7-daf8fc4f5748.jpg",
+      "published_utc": "2026-11-22T20:45:56Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "Brooke Pryor",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50564475/steelers-wr-dk-metcalf-ejected-game-eagles",
+      "link": "https://www.espn.com/video/clip/_/id/50564550/game-highlights",
       "stream_url": "",
-      "body": "PHILADELPHIA -- Pittsburgh Steelers wide receiver DK Metcalf was ejected in the third quarter of Sunday's game against the Philadelphia Eagles for unsportsmanlike conduct.\n\nMetcalf appeared to be jawing with Eagles safety Marcus Epps after an incomplete pass from Aaron Rodgers to Germie Bernard in the third quarter. A scrum around the two quickly broke out as teammates moved to separate Metcalf from the safety.\n\nOfficials threw a flag for Metcalf's taunting as the incensed receiver continued talking on his way to the Steelers sideline, escorted by a Steelers staffer.\n\nThe third-quarter altercation was Metcalf's second of the day. He also got into it with Eagles cornerback Cooper DeJean in the first half and was flagged for unnecessary roughness.\n\nThe ejection marked Metcalf's third career disqualification since his debut in 2019. It's tied with Dre Greenlaw for the most disqualifications in the NFL during that time span, per ESPN Research.\n\nMetcalf has struggled throughout the season, and at the time of his ejection, he had just one catch for 2 yards on four targets against the Eagles.\n\nLast season, Metcalf was suspended for two games as the result of an altercation with a Detroit Lions fan during the Steelers' Week 16 win."
+      "body": ""
     },
     {
       "story_id": "50564280",
