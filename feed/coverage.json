@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T21:05:25.025753+00:00",
+  "generated_utc": "2026-11-22T21:16:06.404265+00:00",
   "window_days": 2,
   "total_events": 275,
   "competitions": [
@@ -270,7 +270,7 @@
       "status_coverage_pct": 100,
       "both_logos": 13,
       "logo_coverage_pct": 100,
-      "live_now": 5
+      "live_now": 2
     },
     {
       "competition": "nhl",
@@ -426,7 +426,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:rugby/270557",
+      "date": "2026-11-23",
+      "error": "URLError for https://site.api.espn.com/apis/site/v2/sports/rugby/270557/scoreboard?dates=20261123: <urlopen error _ssl.c:994: The handshake operation timed out>"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
