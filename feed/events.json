@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T04:33:12.494565+00:00",
+  "generated_utc": "2026-11-22T04:43:26.093975+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920517",
@@ -6292,54 +6292,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401860918",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-22T00:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:278",
-        "name": "Fresno State Bulldogs",
-        "abbrev": "FRES",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bulldogs",
-          "FRES",
-          "Fresno St",
-          "Fresno State",
-          "Fresno State Bulldogs"
-        ],
-        "color": "b1102b"
-      },
-      "away": {
-        "id": "espn:36",
-        "name": "Colorado State Rams",
-        "abbrev": "CSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-        "logo_dark": null,
-        "aliases": [
-          "CSU",
-          "Colorado St",
-          "Colorado State",
-          "Colorado State Rams",
-          "Rams"
-        ],
-        "color": "004c23"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "Valley Children's Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856753",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -6570,6 +6522,54 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401860918",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-22T00:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:278",
+        "name": "Fresno State Bulldogs",
+        "abbrev": "FRES",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "FRES",
+          "Fresno St",
+          "Fresno State",
+          "Fresno State Bulldogs"
+        ],
+        "color": "b1102b"
+      },
+      "away": {
+        "id": "espn:36",
+        "name": "Colorado State Rams",
+        "abbrev": "CSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+        "logo_dark": null,
+        "aliases": [
+          "CSU",
+          "Colorado St",
+          "Colorado State",
+          "Colorado State Rams",
+          "Rams"
+        ],
+        "color": "004c23"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "Valley Children's Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "tvmaze:68778:s4e53",
       "sport": "wrestling",
       "competition_id": "aew",
@@ -6793,7 +6793,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-22T02:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:68",
         "name": "Utah Mammoth",
@@ -6823,7 +6823,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Delta Center",
       "detail": "",
       "game_number": 1,
@@ -6870,7 +6870,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Amon G. Carter Stadium",
-      "detail": "9:41 - 3rd Quarter",
+      "detail": "7:41 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6918,7 +6918,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Albertsons Stadium",
-      "detail": "12:33 - 3rd Quarter",
+      "detail": "8:17 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7056,7 +7056,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Golden 1 Center",
-      "detail": "8:06 - 3rd Quarter",
+      "detail": "5:29 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7104,7 +7104,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mountain America Stadium",
-      "detail": "7:04 - 2nd Quarter",
+      "detail": "3:22 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7151,7 +7151,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Reser Stadium",
-      "detail": "11:31 - 2nd Quarter",
+      "detail": "8:46 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7197,7 +7197,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Mackay Stadium",
-      "detail": "5:01 - 2nd Quarter",
+      "detail": "2:00 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7244,7 +7244,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Acrisure Arena",
-      "detail": "10:28 - 1st Half",
+      "detail": "7:55 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12470,25 +12470,25 @@
   ],
   "stories": [
     {
-      "story_id": "50558265",
-      "headline": "Elias Lindholm authors first four-goal game of career in Bruins' 7-5 victory",
-      "summary": "Veteran forward Elias Lindholm authored the first four-goal game of his NHL career, carrying the Bruins past the Washington Capitals 7-5 on Saturday, an effort in which Boston scored three times in the opening nine minutes of the second period.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/ss_20261121_220226565_3755578/ss_20261121_220226565_3755578.jpg",
-      "published_utc": "2026-11-22T04:25:01Z",
+      "story_id": "48431082",
+      "headline": "Which NHL coaches have the most wins in history?",
+      "summary": "Scotty Bowman leads all NHL coaches in wins all-time. Find out who else makes the list.",
+      "image": "https://a.espncdn.com/photo/2026/0408/r1640517_608x342_16-9.jpg",
+      "published_utc": "2026-11-22T04:39:39Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
-      "byline": "",
+      "byline": "Keith Jenkins",
       "source": "ESPN",
-      "link": "https://www.espn.com/nhl/story/_/id/50558265/elias-lindholm-four-goal-game-powers-bruins-capitals",
+      "link": "https://www.espn.com/nhl/story/_/id/48431082/which-nhl-coaches-most-wins-history",
       "stream_url": "",
-      "body": "BOSTON -- Elias Lindholm had the first four-goal game of his NHL career, carrying the Boston Bruins past the Washington Capitals 7-5 on Saturday.\n\nIt was his first hat trick with Boston and the third of his career. David Pastrnak, Tanner Jeannot and Fraser Minten also scored for Boston. Charlie McAvoy added three assists to reach 301 for his career. Minten's goal was an empty-netter.\n\nJeremy Swayman made 30 saves and had a secondary assist on Lindholm's second score at 8:54 of the second period that gave Boston a 4-2 lead.\n\nAlex Tuch, Tom Wilson, Pierre-Luc Dubois, Dylan Strome and Jakob Chychrun scored goals for the Capitals, who have lost five straight.\n\nLindholm's third goal came on a tip of Connor Clifton's shot that moved Boston ahead 5-4 late in the second.\n\nBecause it was tipped, most of the fans didn't realize he completed the hat trick, and only one hat was thrown onto the ice until about half a dozen came at the end of the period after his goal was announced.\n\nHis fourth goal was on the tip of Pastrnak's shot that popped over goalie Charlie Lindgren 4:07 into the third, prompting a delayed celebration with many more hats sailing onto the ice as Frankie Valli's \"Can't Take My Eyes Off You\" played over the PA system. Lindgren had 16 saves.\n\n\"He was buzzing around,\" Pastrnak said of Lindholm on the Bruins' postgame show on NESN. \"He was flying out there. He's a heck of a player. He plays in every situation for us, and he's a very important player. We're really happy that it's been going in for him, and he deserves it.\"\n\nAfter ending a three-game losing streak at Detroit on Wednesday, the Bruins scored three times in the opening nine minutes of the second.\n\nPastrnak circled with the puck in the Capitals' zone before his wrist shot tied it at 2-2 just over two minutes into the period.\n\nJeannot's tip-in made it 3-2 at 6:23. Lindholm split a pair of defensemen before flipping the puck into the net 2:31 later for his second.\n\nLindholm's first goal was a power-play score on a tip of Pastrnak's shot.\n\nThe Associated Press contributed to this report."
+      "body": "From Paul Maurice and Joel Quenneville to Lindy Ruff and John Tortorella, the NHL has its fair share of all-time great coaches. But all of them are chasing the accomplishments of Scotty Bowman.\n\nThe Montreal native won a record nine Stanley Cups in 30 seasons behind the bench, five with the Montreal Canadiens, three with the Detroit Red Wings and one with the Pittsburgh Penguins. Bowman twice won the Jack Adams Award, the honor presented annually to the NHL's top coach.\n\nIn 2002, at 68 years old, Bowman retired after leading Detroit to its 10th Stanley Cup in franchise history. He left the game with 1,244 career regular-season victories, the most in NHL history.\n\nIn February 2026, Quenneville joined Bowman as the only NHL head coaches with 1,000 career wins. Check out the NHL head coaches with the most career victories below:\n\nScotty Bowman, 1,244\nJoel Quenneville*, 1,023\nPaul Maurice*, 969\nLindy Ruff*, 959\nBarry Trotz, 914\nPeter Laviolette*, 853\nKen Hitchcock, 849\nAl Arbour, 782\nJohn Tortorella, 777\nDarryl Sutter, 737\nAlain Vigneault, 722\nMike Babcock*, 717\n\n*Active\n\nCheck out the ESPN NHL hub page for the latest news, features, scores, stats, schedules and more."
     },
     {
       "story_id": "50530089",
       "headline": "Las Vegas Grand Prix LIVE! F1 race updates, commentary and results",
       "summary": "Max Verstappen leads the Las Vegas Grand Prix, and you can follow live updates on ESPN.",
       "image": "https://a.espncdn.com/photo/2026/1122/r1749448_1296x729_16-9.jpg",
-      "published_utc": "2026-11-22T04:14:35Z",
+      "published_utc": "2026-11-22T04:25:17Z",
       "competition_id": "f1",
       "competition_name": "Formula 1",
       "byline": "Tom Rostance",
