@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-24T19:51:04.529005+00:00",
+  "generated_utc": "2026-11-24T20:00:37.409752+00:00",
   "window_days": 2,
-  "total_events": 292,
+  "total_events": 281,
   "competitions": [
     {
       "competition": "aew",
@@ -244,16 +244,16 @@
       "competition": "ncaam",
       "name": "College Basketball",
       "sport": "basketball",
-      "events": 29,
+      "events": 18,
       "date_range": [
         "2026-11-21",
         "2026-11-26"
       ],
-      "explicit_status": 29,
+      "explicit_status": 18,
       "status_coverage_pct": 100,
-      "both_logos": 29,
+      "both_logos": 18,
       "logo_coverage_pct": 100,
-      "live_now": 1
+      "live_now": 0
     },
     {
       "competition": "nfl",
@@ -426,15 +426,19 @@
   ],
   "problems": [
     {
-      "source": "motogp",
-      "date": "2026-11-25",
-      "error": "TimeoutError for https://api.motogp.pulselive.com/motogp/v1/events?seasonYear=2026: The read operation timed out"
+      "source": "espn:basketball/mens-college-basketball",
+      "date": "2026-11-24",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124: Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
     "boxing": "Matchroom only; Top Rank / PBC / Golden Boy uncovered"
+  },
+  "live_intersection": {
+    "live_events": 0,
+    "carried": 0
   },
   "replay_items": {
     "total": 1,
