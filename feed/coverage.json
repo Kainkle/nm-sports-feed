@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-24T22:02:37.232766+00:00",
+  "generated_utc": "2026-11-24T22:12:53.447620+00:00",
   "window_days": 2,
-  "total_events": 286,
+  "total_events": 292,
   "competitions": [
     {
       "competition": "aew",
@@ -244,14 +244,14 @@
       "competition": "ncaam",
       "name": "College Basketball",
       "sport": "basketball",
-      "events": 23,
+      "events": 29,
       "date_range": [
         "2026-11-21",
-        "2026-11-25"
+        "2026-11-26"
       ],
-      "explicit_status": 23,
+      "explicit_status": 29,
       "status_coverage_pct": 100,
-      "both_logos": 23,
+      "both_logos": 29,
       "logo_coverage_pct": 100,
       "live_now": 2
     },
@@ -424,13 +424,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/mens-college-basketball",
-      "date": "2026-11-25",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261125: Expecting value: line 1 column 1 (char 0)"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
