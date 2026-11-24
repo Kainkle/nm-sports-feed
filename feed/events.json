@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-24T01:39:10.895221+00:00",
+  "generated_utc": "2026-11-24T01:49:29.527080+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057449",
@@ -7127,7 +7127,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Spectrum Center",
-      "detail": "5:20 - 3rd Quarter",
+      "detail": "1:40 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7173,7 +7173,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Xfinity Mobile Arena",
-      "detail": "5:39 - 3rd Quarter",
+      "detail": "1:54 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7493,9 +7493,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Target Center",
-      "detail": "23.1 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7575,9 +7575,9 @@
         "color": "860038"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "United Center",
-      "detail": "End of 1st Quarter",
+      "detail": "9:41 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7621,9 +7621,9 @@
         "color": "29127a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/End of Period",
+      "source_status": "in/In Progress",
       "venue": "Smoothie King Center",
-      "detail": "End of 1st Quarter",
+      "detail": "6:46 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7669,7 +7669,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "State Farm Center",
-      "detail": "5:29 - 1st Half",
+      "detail": "2:13 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7713,9 +7713,9 @@
         "color": "98002e"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Allen Fieldhouse",
-      "detail": "2:38 - 1st Half",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7761,7 +7761,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Northwest Stadium",
-      "detail": "6:08 - 1st Quarter",
+      "detail": "0:58 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7803,7 +7803,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/First Half",
       "venue": "Energizer Park",
-      "detail": "13'",
+      "detail": "24'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7817,7 +7817,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-24T01:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:10",
         "name": "Houston Rockets",
@@ -7847,9 +7847,9 @@
         "color": "12173f"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "Mon, November 23rd at 8:30 PM EST",
+      "detail": "6:47 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13509,81 +13509,51 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
+          "label": "VidFrame FHD@60fps \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live FHD (CH 1)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live HD (CH 2)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Adfree (Thunder) \u2014 Live SD (CH 3)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live FHD (CH 30)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live HD (CH 31)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 Adfree (Alpha) \u2014 Live SD (CH 32)",
+          "label": "VidQ FHD@60fps \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/4/1",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/4/2",
-          "label": "VidFrame FHD (Live replay) \u2014 Part 2",
-          "part": true,
-          "live": true
+          "label": "OK.ru FHD \u2014 Full Show",
+          "part": false,
+          "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/5/1",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
-          "part": true,
-          "live": true
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/5/2",
-          "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/5/3",
+          "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/3/1",
+          "label": "Dailymotion FHD \u2014 Part 1",
           "part": true,
-          "live": true
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/wareww/11-23-2026/select-post-1/3/2",
+          "label": "Dailymotion FHD \u2014 Part 2",
+          "part": true,
+          "live": false
         }
       ],
       "poster": "https://watch-wrestling.eu/wp-content/uploads/2024/12/WWE-Raw-Netflix-2025.jpg",
