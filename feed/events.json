@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-24T03:01:32.613963+00:00",
+  "generated_utc": "2026-11-24T03:10:27.858469+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057449",
@@ -7079,7 +7079,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -7263,7 +7263,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Canadian Tire Centre",
       "detail": "",
       "game_number": 1,
@@ -7279,7 +7279,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-24T00:30:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:2",
         "name": "New York Islanders",
@@ -7309,7 +7309,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
@@ -7325,7 +7325,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-24T00:30:00Z",
-      "status": "live",
+      "status": "unknown",
       "home": {
         "id": "nhl:52",
         "name": "Winnipeg Jets",
@@ -7355,7 +7355,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "OVER/OK",
       "venue": "Canada Life Centre",
       "detail": "",
       "game_number": 1,
@@ -7417,7 +7417,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-24T00:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:28",
         "name": "Toronto Raptors",
@@ -7447,9 +7447,9 @@
         "color": "00471b"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Scotiabank Arena",
-      "detail": "1:13 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7577,7 +7577,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "United Center",
-      "detail": "9:57 - 4th Quarter",
+      "detail": "6:31 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7637,7 +7637,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-24T01:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:356",
         "name": "Illinois Fighting Illini",
@@ -7667,9 +7667,9 @@
         "color": "9e0b0e"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "State Farm Center",
-      "detail": "2:28 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7761,7 +7761,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Northwest Stadium",
-      "detail": "12:03 - 3rd Quarter",
+      "detail": "11:39 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7803,7 +7803,7 @@
       "source": "espn:soccer/usa.1",
       "source_status": "in/Second Half",
       "venue": "Energizer Park",
-      "detail": "77'",
+      "detail": "87'",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7849,7 +7849,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "6:51 - 3rd Quarter",
+      "detail": "3:09 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7909,7 +7909,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-24T03:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:28",
         "name": "San Jose Sharks",
@@ -7939,7 +7939,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "SAP Center at San Jose",
       "detail": "",
       "game_number": 1,
@@ -13164,18 +13164,18 @@
   ],
   "stories": [
     {
-      "story_id": "50578774",
-      "headline": "Ty Jerome scores 29, Cam Spencer has 24 as Grizzlies hand Hornets their 5th straight loss, 117-111",
-      "summary": "\u2014 Ty Jerome made seven 3-pointers and finished with 29 points, and the Memphis Grizzlies handed the Charlotte Hornets their fifth straight loss, 117-111 on Monday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910036.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-24T02:51:32Z",
+      "story_id": "50578971",
+      "headline": "Oklahoma City Thunder vs. Indiana Pacers: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Indiana Pacers: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/d86de237-97a8-4ca1-a293-07275300e833/d86de237-97a8-4ca1-a293-07275300e833.jpg",
+      "published_utc": "2026-11-24T03:08:57Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401910036",
+      "link": "https://www.espn.com/video/clip/_/id/50578971/game-highlights",
       "stream_url": "",
-      "body": "CHARLOTTE, N.C. -- \u2014 Ty Jerome made seven 3-pointers and finished with 29 points, and the Memphis Grizzlies handed the Charlotte Hornets their fifth straight loss, 117-111 on Monday night.\n\n\r\nCam Spencer added 24 points and Cedric Coward had 16 points and nine rebounds for the Grizzlies, who limited the Hornets to 40% shooting from the field.\n\n\r\nRookie Christian Anderson led the Hornets with a career-high 25 points on 6-of-8 shooting from 3-point range. Naz Reid added 24 points, Coby White scored 21 and Brandon Miller had 20 for Charlotte.\n\n\r\nThe Hornets trailed by double digits for most of the fourth quarter and attempted to make a late run, but two of White's jumpers rattled in and out. That's been a trend in recent weeks as Charlotte has struggled to make shots from the field.\n\n\r\nMemphis had won five in a row before falling 104-95 at Minnesota on Saturday night.\n\n\r\nJerome, the Grizzlies' leading scorer, appeared eager to start a new winning streak, hitting big shot after big shot and waving three fingers after each of his deep jumpers. He finished 10 of 21 from the field and 7 of 12 beyond the arc.\n\n\r\nSpencer also played with swagger, trash-talking Charlotte's Moussa Diabate after drawing a foul on a 3 and making all three free throws.\n\n\r\nMemphis played without rookie Cameron Boozer, the third pick in the draft who's expected to miss at least a month with a sprained right ankle.\n\n\r\nThe Grizzlies were 24 of 24 from the free-throw line, with Spencer going 11 of 11.\n\n\r\nThe Hornets were hoping to change the tide as they began a four-game homestand after losing all four games on a trip that ended Friday at Atlanta.\n\n\r\nInstead, they lost for the 11th time in 12 games.\n\n\r\nUp next\r\nCavaliers: Host the Los Angeles Clippers on Wednesday night in an NBA Cup game.\n\n\r\nHornets: Host the Chicago Bulls on Wednesday night in an NBA Cup game.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+      "body": ""
     },
     {
       "story_id": "50578741",
@@ -13332,18 +13332,18 @@
       "body": "NSW Origin back-rower Hudson Young has ended months of speculation, signing with the PNG Chiefs for their inaugural season.\n\nThe 28-year-old Canberra star has inked a deal to become the Chiefs' ninth official signing, the NRL's 19th team confirmed on Monday.\n\nYoung will honour the final year of his contract with the Raiders, where he has scored 59 tries across 155 NRL matches, before linking up with the Chiefs in 2028.\n\nThe second-rower's acquisition will bolster the Chiefs' forward pack.\n\n\"Hudson is a player that every club would like to have,\" Chiefs general manager of football Michael Chammas said on Monday.\n\n\"He is tough, competitive, incredibly consistent and brings an edge that lifts those around him.\"\n\nYoung played every minute of the NSW Blues' 2-1 Origin series win over Queensland this year, scoring two tries and making 115 tackles.\n\nHe has tallied six Test caps for Australia, but missed the Kangaroos' victorious 2026 World Cup campaign after rupturing his Achilles tendon in July.\n\nChiefs coach Willie Peters spent time with Young while working with the Australian Test side in 2025.\n\n\"Hudson plays with an aggressive style which I have no doubt the people of Papua New Guinea will love to see,\" Peters said.\n\n\"He will be an important leader in our group, and I look forward to working with him in season 2028 and beyond.\"\n\nPNG have already signed Joey Manu, Brian To'o, Jarome Luai, Alex Johnston, Zac Lomax, Zac Laybutt, Matty Lees and Connor Watson.\n\nAJ Brimson is poised to be the next cab off the rank, with Gold Coast agreeing to terms with PNG to make him the Chiefs' inaugural fullback.\n\nThe former Origin flyer was reportedly spotted playing golf with PNG Prime Minister James Marape while in the country to decide whether to consent to the move.\n\nFormer Dolphins No.7 Sean O'Sullivan is also set to join the club after next year's English Super League season.\n\nThe Chiefs have also met with Sydney Roosters halfback Sam Walker, and held preliminary talks with Brisbane pair Xavier Willison and Deine Mariner over a potential move."
     },
     {
-      "story_id": "50578725",
-      "headline": "Memphis Grizzlies vs. Charlotte Hornets: Game Highlights",
-      "summary": "Memphis Grizzlies vs. Charlotte Hornets: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/811f582f-5b68-4d1b-953e-4370f68cda5a/811f582f-5b68-4d1b-953e-4370f68cda5a.jpg",
-      "published_utc": "2026-11-24T02:49:53Z",
+      "story_id": "50578774",
+      "headline": "Ty Jerome scores 29, Cam Spencer has 24 as Grizzlies hand Hornets their 5th straight loss, 117-111",
+      "summary": "\u2014 Ty Jerome made seven 3-pointers and finished with 29 points, and the Memphis Grizzlies handed the Charlotte Hornets their fifth straight loss, 117-111 on Monday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910036.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-24T02:51:32Z",
       "competition_id": "nba",
       "competition_name": "NBA",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50578725/game-highlights",
+      "link": "http://www.espn.com/nba/recap?gameId=401910036",
       "stream_url": "",
-      "body": ""
+      "body": "CHARLOTTE, N.C. -- \u2014 Ty Jerome made seven 3-pointers and finished with 29 points, and the Memphis Grizzlies handed the Charlotte Hornets their fifth straight loss, 117-111 on Monday night.\n\n\r\nCam Spencer added 24 points and Cedric Coward had 16 points and nine rebounds for the Grizzlies, who limited the Hornets to 40% shooting from the field.\n\n\r\nRookie Christian Anderson led the Hornets with a career-high 25 points on 6-of-8 shooting from 3-point range. Naz Reid added 24 points, Coby White scored 21 and Brandon Miller had 20 for Charlotte.\n\n\r\nThe Hornets trailed by double digits for most of the fourth quarter and attempted to make a late run, but two of White's jumpers rattled in and out. That's been a trend in recent weeks as Charlotte has struggled to make shots from the field.\n\n\r\nMemphis had won five in a row before falling 104-95 at Minnesota on Saturday night.\n\n\r\nJerome, the Grizzlies' leading scorer, appeared eager to start a new winning streak, hitting big shot after big shot and waving three fingers after each of his deep jumpers. He finished 10 of 21 from the field and 7 of 12 beyond the arc.\n\n\r\nSpencer also played with swagger, trash-talking Charlotte's Moussa Diabate after drawing a foul on a 3 and making all three free throws.\n\n\r\nMemphis played without rookie Cameron Boozer, the third pick in the draft who's expected to miss at least a month with a sprained right ankle.\n\n\r\nThe Grizzlies were 24 of 24 from the free-throw line, with Spencer going 11 of 11.\n\n\r\nThe Hornets were hoping to change the tide as they began a four-game homestand after losing all four games on a trip that ended Friday at Atlanta.\n\n\r\nInstead, they lost for the 11th time in 12 games.\n\n\r\nUp next\r\nCavaliers: Host the Los Angeles Clippers on Wednesday night in an NBA Cup game.\n\n\r\nHornets: Host the Chicago Bulls on Wednesday night in an NBA Cup game.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50578690",
