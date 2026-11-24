@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-24T00:07:45.058988+00:00",
+  "generated_utc": "2026-11-24T00:17:55.917482+00:00",
   "window_days": 2,
-  "total_events": 281,
+  "total_events": 290,
   "competitions": [
     {
       "competition": "aew",
@@ -223,7 +223,7 @@
       "status_coverage_pct": 100,
       "both_logos": 35,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 2
     },
     {
       "competition": "ncaaf",
@@ -244,14 +244,14 @@
       "competition": "ncaam",
       "name": "College Basketball",
       "sport": "basketball",
-      "events": 18,
+      "events": 27,
       "date_range": [
         "2026-11-21",
         "2026-11-26"
       ],
-      "explicit_status": 18,
+      "explicit_status": 27,
       "status_coverage_pct": 100,
-      "both_logos": 18,
+      "both_logos": 27,
       "logo_coverage_pct": 100,
       "live_now": 1
     },
@@ -283,7 +283,7 @@
       "status_coverage_pct": 100,
       "both_logos": 86,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "rugby-league",
@@ -424,13 +424,7 @@
       "live_now": 0
     }
   ],
-  "problems": [
-    {
-      "source": "espn:basketball/mens-college-basketball",
-      "date": "2026-11-24",
-      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=20261124: Expecting value: line 1 column 1 (char 0)"
-    }
-  ],
+  "problems": [],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",

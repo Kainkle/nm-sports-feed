@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-24T00:07:45.029589+00:00",
+  "generated_utc": "2026-11-24T00:17:55.903128+00:00",
   "events": [
     {
       "event_id": "espn:racing:600057449",
@@ -7035,7 +7035,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Lahaina Civic Center",
-      "detail": "3:32 - 2nd Half",
+      "detail": "0:43 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7049,7 +7049,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-24T00:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:1",
         "name": "New Jersey Devils",
@@ -7079,7 +7079,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Prudential Center",
       "detail": "",
       "game_number": 1,
@@ -7095,7 +7095,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-24T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:30",
         "name": "Charlotte Hornets",
@@ -7125,9 +7125,9 @@
         "color": "5d76a9"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Spectrum Center",
-      "detail": "Mon, November 23rd at 7:00 PM EST",
+      "detail": "6:54 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -7141,7 +7141,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-24T00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:20",
         "name": "Philadelphia 76ers",
@@ -7171,9 +7171,9 @@
         "color": "e03a3e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Xfinity Mobile Arena",
-      "detail": "Mon, November 23rd at 7:00 PM EST",
+      "detail": "9:35 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -8173,6 +8173,97 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401906853",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-24T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:120",
+        "name": "Maryland Terrapins",
+        "abbrev": "MD",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+        "logo_dark": null,
+        "aliases": [
+          "MD",
+          "Maryland",
+          "Maryland Terrapins",
+          "Terrapins"
+        ],
+        "color": "ce1126"
+      },
+      "away": {
+        "id": "espn:2633",
+        "name": "Tennessee Volunteers",
+        "abbrev": "TENN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+        "logo_dark": null,
+        "aliases": [
+          "TENN",
+          "Tennessee",
+          "Tennessee Volunteers",
+          "Volunteers"
+        ],
+        "color": "ff8200"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Tue, November 24th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401915941",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-24T20:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2628",
+        "name": "TCU Horned Frogs",
+        "abbrev": "TCU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+        "logo_dark": null,
+        "aliases": [
+          "Horned Frogs",
+          "TCU",
+          "TCU Horned Frogs"
+        ],
+        "color": "4d1979"
+      },
+      "away": {
+        "id": "espn:2390",
+        "name": "Miami Hurricanes",
+        "abbrev": "MIA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hurricanes",
+          "MIA",
+          "Miami",
+          "Miami Hurricanes"
+        ],
+        "color": "f47423"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "T-Mobile Arena",
+      "detail": "Tue, November 24th at 3:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:soccer:401915295",
       "sport": "soccer",
       "competition_id": "uefa.champions",
@@ -8613,6 +8704,144 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401906774",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "away": {
+        "id": "espn:270",
+        "name": "Milwaukee Panthers",
+        "abbrev": "MILW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
+        "logo_dark": null,
+        "aliases": [
+          "MILW",
+          "Milwaukee",
+          "Milwaukee Panthers",
+          "Panthers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Tower Hill Arena",
+      "detail": "Tue, November 24th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401916319",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:238",
+        "name": "Vanderbilt Commodores",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+        "logo_dark": null,
+        "aliases": [
+          "Commodores",
+          "VAN",
+          "Vanderbilt",
+          "Vanderbilt Commodores"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Schottenstein Center",
+      "detail": "Tue, November 24th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401916291",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T00:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:84",
+        "name": "Indiana Hoosiers",
+        "abbrev": "IU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+        "logo_dark": null,
+        "aliases": [
+          "Hoosiers",
+          "IU",
+          "Indiana",
+          "Indiana Hoosiers"
+        ],
+        "color": "970310"
+      },
+      "away": {
+        "id": "espn:294",
+        "name": "Jacksonville Dolphins",
+        "abbrev": "JAX",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+        "logo_dark": null,
+        "aliases": [
+          "Dolphins",
+          "JAX",
+          "Jacksonville",
+          "Jacksonville Dolphins"
+        ],
+        "color": "00523e"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Simon Skjodt Assembly Hall",
+      "detail": "Tue, November 24th at 7:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020385",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -8741,6 +8970,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401915942",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T01:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "away": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Tue, November 24th at 8:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401909316",
       "sport": "basketball",
       "competition_id": "nba",
@@ -8787,6 +9062,52 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401906762",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T03:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:333",
+        "name": "Alabama Crimson Tide",
+        "abbrev": "ALA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+        "logo_dark": null,
+        "aliases": [
+          "ALA",
+          "Alabama",
+          "Alabama Crimson Tide",
+          "Crimson Tide"
+        ],
+        "color": "9e1b32"
+      },
+      "away": {
+        "id": "espn:239",
+        "name": "Baylor Bears",
+        "abbrev": "BAY",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+        "logo_dark": null,
+        "aliases": [
+          "BAY",
+          "Baylor",
+          "Baylor Bears",
+          "Bears"
+        ],
+        "color": "154734"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "T-Mobile Arena",
+      "detail": "Tue, November 24th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:soccer:401933738",
       "sport": "soccer",
       "competition_id": "usa.1",
@@ -8823,6 +9144,100 @@
       "source_status": "pre/Scheduled",
       "venue": "PayPal Park",
       "detail": "Tue, November 24th at 10:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401915943",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T03:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2599",
+        "name": "St. John's Red Storm",
+        "abbrev": "SJU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Storm",
+          "SJU",
+          "St John's",
+          "St. John's",
+          "St. John's Red Storm"
+        ],
+        "color": "d10000"
+      },
+      "away": {
+        "id": "espn:2483",
+        "name": "Oregon Ducks",
+        "abbrev": "ORE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+        "logo_dark": null,
+        "aliases": [
+          "Ducks",
+          "ORE",
+          "Oregon",
+          "Oregon Ducks"
+        ],
+        "color": "00934b"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Tue, November 24th at 10:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401909800",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T05:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2306",
+        "name": "Kansas State Wildcats",
+        "abbrev": "KSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+        "logo_dark": null,
+        "aliases": [
+          "KSU",
+          "Kansas St",
+          "Kansas State",
+          "Kansas State Wildcats",
+          "Wildcats"
+        ],
+        "color": "330a57"
+      },
+      "away": {
+        "id": "espn:2250",
+        "name": "Gonzaga Bulldogs",
+        "abbrev": "GONZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bulldogs",
+          "GONZ",
+          "Gonzaga",
+          "Gonzaga Bulldogs"
+        ],
+        "color": "041e42"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "T-Mobile Arena",
+      "detail": "Wed, November 24th at 12:30 AM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -12704,18 +13119,18 @@
   ],
   "stories": [
     {
-      "story_id": "50535179",
-      "headline": "NFL Week 11 arrivals: Tee Higgins pays homage to Fiona the Hippo ahead of 'MNF'",
-      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1749927_608x342_16-9.jpg",
-      "published_utc": "2026-11-24T00:04:07Z",
+      "story_id": "50577618",
+      "headline": "Why the Commanders D/ST has top-10 fantasy upside in Week 12",
+      "summary": "Why the Commanders D/ST has top-10 fantasy upside in Week 12",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1123/ss_20261123_184443920_3758396/ss_20261123_184443920_3758396.jpg",
+      "published_utc": "2026-11-24T00:12:38Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "ESPN Staff",
+      "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
+      "link": "https://www.espn.com/video/clip/_/id/50577618/why-commanders-d-st-top-10-fantasy-upside-week-12",
       "stream_url": "",
-      "body": "The forecast affected the game plan for how NFL players put together their Week 11 looks.\n\nAnd Sunday's arrivals called for a little more wardrobe strategy.\n\nWith morning temperatures near freezing in Denver before an afternoon climb into the 40s, players arriving for the Raiders-Broncos game had an opening for coats and chunky knits. Showers in Chicago could have made weatherproof outerwear a smart finishing touch, while temperatures approaching 70 in Southern California gave the New York Jets and Los Angeles Chargers room to keep things lighter.\n\nOn the East Coast, Sunday's forecast left room for fall outfits without going full winter. Morning temperatures in the 50s in Buffalo gave Miami Dolphins and Buffalo Bills players an opening for sweaters and light jackets, while Jacksonville Jaguars and New York Giants arrivals in East Rutherford, New Jersey, called for similar layers under cloudy skies, with rain possible later in the day.\n\nFrom practical layers to outfits built for the spotlight, here are the standout arrivals from Week 11.\n\nMonday night drip\nBengals wide receiver Tee Higgins sported a tribute to a local legend for his pregame fit ahead of Monday Night Football against the Washington Commanders.\n\nHiggins wore a \"Fiona the Hippo\" long sleeve for his arrival at Northwest Stadium. Fiona was one of the most beloved animals at the Cincinnati Zoo but died on Thursday after ingesting a hat thrown by a child that ended up in the hippo enclosure.\n\nThe Cincinnati star receiver, who owns a jellyfish tank at his home, is among many in the Cincinnati sports community and around the country who have offered their condolences following Fiona's death. -- Ben Baby\n\nSunday's best\nPlaying in Mexico City on \"Sunday Night Football,\" players from the San Francisco 49ers and Minnesota Vikings arrived in looks fit for the location. 49ers tight end George Kittle rocked a mask and shirt that paid homage to luchador Penta, while Fred Warner had a Mexico national team kit on. Vikings running back Aaron Jones Sr. kept his sombrero trend alive in a full mariachi look.\n\nDenver Broncos linebacker Alex Singleton paid homage to former Broncos linebacker Tom Jackson by wearing Jackson's jersey before facing the Las Vegas Raiders. Jackson, a fixture at ESPN as a Hall of Fame broadcaster, died on Friday. He was 75.\n\nDallas Cowboys wide receiver CeeDee Lamb hit the blue carpet in a plush charcoal jacket, wide-leg plaid trousers and chunky black boots. A scarf tied to his burgundy leather bag added a pop of color to the pregame look.\n\nBryce Young goes with a modernized throwback flavor to the late 1990s and early 2000s aesthetic. Think Allen Iverson redefining NBA wardrobe attire with the baggy Reebok track pants and hats with titled swag. The modern unique addition here is the pants appear satin-like look that almost looks like Liquid Metal.\n\nYoung doesn't make many statements with his words, but he does it with his actions. And this fit feels like he's tapping back into California childhood energy he grew up on. The LA hat slightly titled to the side shows that element too. It translated to his play as the Panthers put up 30-plus points on Baltimore Ravens.\n\n-- Cameron Wolfe\n\nThursday night fashion\nTexture did the talking in C.J. Stroud's arrival. The Texans quarterback sported a gray knit polo paired with relaxed light-wash jeans, while a black woven bag, brown shoes and a blue-faced watch added the finishing touches."
+      "body": ""
     },
     {
       "story_id": "50577324",
@@ -12872,18 +13287,18 @@
       "body": "NSW Origin back-rower Hudson Young has ended months of speculation, signing with the PNG Chiefs for their inaugural season.\n\nThe 28-year-old Canberra star has inked a deal to become the Chiefs' ninth official signing, the NRL's 19th team confirmed on Monday.\n\nYoung will honour the final year of his contract with the Raiders, where he has scored 59 tries across 155 NRL matches, before linking up with the Chiefs in 2028.\n\nThe second-rower's acquisition will bolster the Chiefs' forward pack.\n\n\"Hudson is a player that every club would like to have,\" Chiefs general manager of football Michael Chammas said on Monday.\n\n\"He is tough, competitive, incredibly consistent and brings an edge that lifts those around him.\"\n\nYoung played every minute of the NSW Blues' 2-1 Origin series win over Queensland this year, scoring two tries and making 115 tackles.\n\nHe has tallied six Test caps for Australia, but missed the Kangaroos' victorious 2026 World Cup campaign after rupturing his Achilles tendon in July.\n\nChiefs coach Willie Peters spent time with Young while working with the Australian Test side in 2025.\n\n\"Hudson plays with an aggressive style which I have no doubt the people of Papua New Guinea will love to see,\" Peters said.\n\n\"He will be an important leader in our group, and I look forward to working with him in season 2028 and beyond.\"\n\nPNG have already signed Joey Manu, Brian To'o, Jarome Luai, Alex Johnston, Zac Lomax, Zac Laybutt, Matty Lees and Connor Watson.\n\nAJ Brimson is poised to be the next cab off the rank, with Gold Coast agreeing to terms with PNG to make him the Chiefs' inaugural fullback.\n\nThe former Origin flyer was reportedly spotted playing golf with PNG Prime Minister James Marape while in the country to decide whether to consent to the move.\n\nFormer Dolphins No.7 Sean O'Sullivan is also set to join the club after next year's English Super League season.\n\nThe Chiefs have also met with Sydney Roosters halfback Sam Walker, and held preliminary talks with Brisbane pair Xavier Willison and Deine Mariner over a potential move."
     },
     {
-      "story_id": "50577730",
-      "headline": "Why Brian Branch should be on fantasy managers' rosters in Week 12",
-      "summary": "Why Brian Branch should be on fantasy managers' rosters in Week 12",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1123/ss_20261123_185401101_37584071138/ss_20261123_185401101_37584071138.jpg",
-      "published_utc": "2026-11-24T00:02:10Z",
+      "story_id": "50535179",
+      "headline": "NFL Week 11 arrivals: Tee Higgins pays homage to Fiona the Hippo ahead of 'MNF'",
+      "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750424_608x342_16-9.jpg",
+      "published_utc": "2026-11-24T00:12:35Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
-      "byline": "",
+      "byline": "ESPN Staff",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50577730/why-brian-branch-fantasy-managers-rosters-week-12",
+      "link": "https://www.espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
       "stream_url": "",
-      "body": ""
+      "body": "The forecast affected the game plan for how NFL players put together their Week 11 looks.\n\nAnd Sunday's arrivals called for a little more wardrobe strategy.\n\nWith morning temperatures near freezing in Denver before an afternoon climb into the 40s, players arriving for the Raiders-Broncos game had an opening for coats and chunky knits. Showers in Chicago could have made weatherproof outerwear a smart finishing touch, while temperatures approaching 70 in Southern California gave the New York Jets and Los Angeles Chargers room to keep things lighter.\n\nOn the East Coast, Sunday's forecast left room for fall outfits without going full winter. Morning temperatures in the 50s in Buffalo gave Miami Dolphins and Buffalo Bills players an opening for sweaters and light jackets, while Jacksonville Jaguars and New York Giants arrivals in East Rutherford, New Jersey, called for similar layers under cloudy skies, with rain possible later in the day.\n\nFrom practical layers to outfits built for the spotlight, here are the standout arrivals from Week 11.\n\nMonday night drip\nBengals wide receiver Tee Higgins sported a tribute to a local legend for his pregame fit ahead of Monday Night Football against the Washington Commanders.\n\nHiggins wore a \"Fiona the Hippo\" long sleeve for his arrival at Northwest Stadium. Fiona was one of the most beloved animals at the Cincinnati Zoo but died on Thursday after ingesting a hat thrown by a child that ended up in the hippo enclosure.\n\nThe Cincinnati star receiver, who owns a jellyfish tank at his home, is among many in the Cincinnati sports community and around the country who have offered their condolences following Fiona's death. -- Ben Baby\n\nSunday's best\nPlaying in Mexico City on \"Sunday Night Football,\" players from the San Francisco 49ers and Minnesota Vikings arrived in looks fit for the location. 49ers tight end George Kittle rocked a mask and shirt that paid homage to luchador Penta, while Fred Warner had a Mexico national team kit on. Vikings running back Aaron Jones Sr. kept his sombrero trend alive in a full mariachi look.\n\nDenver Broncos linebacker Alex Singleton paid homage to former Broncos linebacker Tom Jackson by wearing Jackson's jersey before facing the Las Vegas Raiders. Jackson, a fixture at ESPN as a Hall of Fame broadcaster, died on Friday. He was 75.\n\nDallas Cowboys wide receiver CeeDee Lamb hit the blue carpet in a plush charcoal jacket, wide-leg plaid trousers and chunky black boots. A scarf tied to his burgundy leather bag added a pop of color to the pregame look.\n\nBryce Young goes with a modernized throwback flavor to the late 1990s and early 2000s aesthetic. Think Allen Iverson redefining NBA wardrobe attire with the baggy Reebok track pants and hats with titled swag. The modern unique addition here is the pants appear satin-like look that almost looks like Liquid Metal.\n\nYoung doesn't make many statements with his words, but he does it with his actions. And this fit feels like he's tapping back into California childhood energy he grew up on. The LA hat slightly titled to the side shows that element too. It translated to his play as the Panthers put up 30-plus points on Baltimore Ravens.\n\n-- Cameron Wolfe\n\nThursday night fashion\nTexture did the talking in C.J. Stroud's arrival. The Texans quarterback sported a gray knit polo paired with relaxed light-wash jeans, while a black woven bag, brown shoes and a blue-faced watch added the finishing touches."
     },
     {
       "story_id": "50515357",
