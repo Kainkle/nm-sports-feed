@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-25T14:06:14.431394+00:00",
+  "generated_utc": "2026-11-25T14:16:18.802634+00:00",
   "window_days": 2,
-  "total_events": 204,
+  "total_events": 202,
   "competitions": [
     {
       "competition": "aew",
@@ -227,14 +227,14 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 3,
+      "events": 1,
       "date_range": [
-        "2026-11-25",
+        "2026-11-27",
         "2026-11-27"
       ],
-      "explicit_status": 3,
+      "explicit_status": 1,
       "status_coverage_pct": 100,
-      "both_logos": 3,
+      "both_logos": 1,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -420,7 +420,13 @@
       "live_now": 0
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "source": "espn:football/college-football",
+      "date": "2026-11-24",
+      "error": "JSONDecodeError for https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?dates=20261124: Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
   "known_absent": {
     "cricket": "no free source found; ESPN lists 0 leagues, Cricinfo 403s, TheSportsDB leagues empty",
     "snooker": "TheSportsDB has the league but no current fixtures",
