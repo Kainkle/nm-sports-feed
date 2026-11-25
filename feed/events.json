@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T06:50:42.267039+00:00",
+  "generated_utc": "2026-11-25T07:00:49.122988+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875008",
@@ -4384,9 +4384,9 @@
         "color": "041e42"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "T-Mobile Arena",
-      "detail": "Halftime",
+      "detail": "15:29 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6825,6 +6825,53 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401920530",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-27T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2599",
+        "name": "St. John's Red Storm",
+        "abbrev": "SJU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Storm",
+          "SJU",
+          "St John's",
+          "St. John's",
+          "St. John's Red Storm"
+        ],
+        "color": "d10000"
+      },
+      "away": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Thu, November 26th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401920539",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -6868,49 +6915,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401920530",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-27T02:00Z",
-      "status": "scheduled",
-      "home": {
-        "id": "espn:97",
-        "name": "Louisville Cardinals",
-        "abbrev": "LOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-        "logo_dark": null,
-        "aliases": [
-          "Cardinals",
-          "LOU",
-          "Louisville",
-          "Louisville Cardinals"
-        ],
-        "color": "c9001f"
-      },
-      "away": {
-        "id": "espn:-2",
-        "name": "TBD",
-        "abbrev": "TBD",
-        "logo": null,
-        "logo_dark": null,
-        "aliases": [
-          "TBD"
-        ],
-        "color": null
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
-      "venue": "Michelob ULTRA Arena",
-      "detail": "Thu, November 26th at 9:00 PM EST",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:basketball:401920531",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -6918,15 +6922,18 @@
       "start_utc": "2026-11-27T04:30Z",
       "status": "scheduled",
       "home": {
-        "id": "espn:-1",
-        "name": "TBD",
-        "abbrev": "TBD",
-        "logo": null,
+        "id": "espn:2483",
+        "name": "Oregon Ducks",
+        "abbrev": "ORE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
         "logo_dark": null,
         "aliases": [
-          "TBD"
+          "Ducks",
+          "ORE",
+          "Oregon",
+          "Oregon Ducks"
         ],
-        "color": null
+        "color": "00934b"
       },
       "away": {
         "id": "espn:2641",
