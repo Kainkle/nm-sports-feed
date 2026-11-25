@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T02:16:39.418509+00:00",
+  "generated_utc": "2026-11-25T02:26:31.190444+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875008",
@@ -3717,7 +3717,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-25T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:19",
         "name": "Orlando Magic",
@@ -3747,9 +3747,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Kia Center",
-      "detail": "1:06 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3796,7 +3796,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Rynearson Stadium",
-      "detail": "0:42 - 3rd Quarter",
+      "detail": "13:22 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3844,53 +3844,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Waldo Stadium",
-      "detail": "7:27 - 3rd Quarter",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
-      "event_id": "espn:basketball:401916319",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-25T00:00Z",
-      "status": "final",
-      "home": {
-        "id": "espn:194",
-        "name": "Ohio State Buckeyes",
-        "abbrev": "OSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-        "logo_dark": null,
-        "aliases": [
-          "Buckeyes",
-          "OSU",
-          "Ohio State",
-          "Ohio State Buckeyes"
-        ],
-        "color": "ba0c2f"
-      },
-      "away": {
-        "id": "espn:238",
-        "name": "Vanderbilt Commodores",
-        "abbrev": "VAN",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-        "logo_dark": null,
-        "aliases": [
-          "Commodores",
-          "VAN",
-          "Vanderbilt",
-          "Vanderbilt Commodores"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "post/Final",
-      "venue": "Schottenstein Center",
-      "detail": "Final",
+      "detail": "4:39 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3936,6 +3890,52 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "post/Final",
       "venue": "Tower Hill Arena",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401916319",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T00:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:194",
+        "name": "Ohio State Buckeyes",
+        "abbrev": "OSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+        "logo_dark": null,
+        "aliases": [
+          "Buckeyes",
+          "OSU",
+          "Ohio State",
+          "Ohio State Buckeyes"
+        ],
+        "color": "ba0c2f"
+      },
+      "away": {
+        "id": "espn:238",
+        "name": "Vanderbilt Commodores",
+        "abbrev": "VAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+        "logo_dark": null,
+        "aliases": [
+          "Commodores",
+          "VAN",
+          "Vanderbilt",
+          "Vanderbilt Commodores"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Schottenstein Center",
       "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
@@ -4156,7 +4156,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "5:26 - 1st Half",
+      "detail": "1:53 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9035,6 +9035,20 @@
   ],
   "stories": [
     {
+      "story_id": "50586087",
+      "headline": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
+      "summary": "The Broncos suspended running back J.K. Dobbins for one game for conduct detrimental to the team.",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750794_1296x729_16-9.jpg",
+      "published_utc": "2026-11-25T02:19:50Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "Jeff Legwold",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50586087/broncos-payton-says-rb-dobbins-suspended-one-game",
+      "stream_url": "",
+      "body": "ENGLEWOOD, Colo. -- Denver Broncos coach Sean Payton said Tuesday that he has suspended running back J.K. Dobbins for Friday's game against the Pittsburgh Steelers due to \"conduct detrimental.''\n\nDobbins will not practice or take part in any team activities this week. The Broncos (8-2) face the Steelers on Friday at Acrisure Stadium in Pittsburgh.\n\n\"There is one team announcement, I'm not going to comment afterwards: I'm suspending J.K. Dobbins for this weekend's game, conduct detrimental, that's all I'm going to say about it,'' Payton said after Tuesday's practice. \"Head coach's decision.''\n\nAsked if he wanted to elaborate on any of the circumstances that surrounded the decision, Payton said no and added \"think it's better that way.''\n\nDobbins was in the Broncos' facility earlier Tuesday and then left, multiple team sources said. Payton then told players of the suspension in the team's normally scheduled group meeting.\n\nDobbins, in his second season with the team and a player Payton had called one of the \"top priorities'' to re-sign this past offseason, had one carry, for no gain, in the Broncos' 38-24 victory Sunday over the Las Vegas Raiders. It marked the first time since the 2020 season Dobbins had a single carry in a game he was in uniform to play -- he had two one-carry games for the Baltimore Ravens that year.\n\nDobbins was visibly frustrated at times on the sideline during Sunday's game and high-fiving teammates at other times. When asked about the running back rotation Monday, Payton had offered that Dobbins \"is healthy'' and that \"J.K. is going to be super important for what we're doing in this stretch.''\n\nJonah Coleman, who sat out four games earlier this season because of an ankle injury, has steadily received more work since his Week 7 return to the lineup. Coleman got 24 of the team's 27 carries by running backs Sunday. Coleman's 111 yards rushing were also the team's first 100-yard rushing game since Dobbins' 111 in a Week 8 win last season over the Dallas Cowboys.\n\nThe Broncos also designated running back Tyler Badie for return from injured reserve Tuesday, and he practiced with the team and was listed as a full participant. Asked if Badie would play Friday or how the rotation might look against the Steelers, Payton said, \"I'm not going to get into who's playing.''\n\nRunning back RJ Harvey (knee) is eligible to return from injured reserve next week.\n\nQuarterback Bo Nix, when asked about the suspension, said: \"Well, obviously I have nothing to do with it,'' Nix said. \"Just keep finding our way to figure out how to win games, fortunately it has nothing to do with me.''\n\nCornerback Pat Surtain II, also a team captain like Nix, offered a similar answer with, \"I ain't got nothing much to say, it's coach's decision at the end of the day.''\n\nIt's all a long way from Dobbins' promise -- he termed it a \"pinkie swear'' -- both during the team's minicamp in June as well as training camp, that he would play in every game this season and lead the league in rushing.\n\n\"This year, forget a top-three, I keep saying it, people think I'm crazy but I'm going to be No. 1, and I'm going to keep it there for the whole year,'' Dobbins said in August. \"You know, 17 games. A lot of people get mad when I say the injuries are over, cause I said it last year, but that one was pretty fluky, right? This year there won't be any.''\n\nDobbins has dealt with several injuries in his career, including a career-threatening knee injury, and he sat out the final seven regular-season games because of a foot injury as well as both of the Broncos' playoff games last season. His 15 games played in 2020, as a rookie for the Baltimore Ravens, is still the most games he has played in a season.\n\nIt is believed Dobbins, who signed a two-year, $16 million deal with the team this past offseason, is the first player suspended by the Broncos during a season for conduct detrimental to the team since wide receiver Brandon Marshall in 2009."
+    },
+    {
       "story_id": "50328768",
       "headline": "MLB free agency tracker: 2026-27 offseason trades, moves",
       "summary": "We've got you covered on all the major MLB hot stove signings and trades.",
@@ -9075,20 +9089,6 @@
       "link": "https://www.espn.com/wnba/story/_/id/50587846/cameron-brink-ben-felter-wedding",
       "stream_url": "",
       "body": "Cameron Brink and Ben Felter have officially tied the knot after holding a ceremony on Nov. 14 at their alma mater Stanford's Memorial Church.\n\nAccording to a report Tuesday from Vogue Magazine, which shared behind-the-scenes details and images, the Los Angeles Sparks forward had four bridal looks, including a custom dress from bridal designer Danielle Frankel for the ceremony, and another for the reception.\n\nGolden State Warriors star Stephen Curry and his wife, Ayesha, were among those in attendance. Curry and Brink are godsiblings as their fathers were teammates at Virginia Tech, and their mothers were roommates on campus.\n\nThe reception was at Ritz-Carlton, Half Moon Bay, while vows were exchanged at Memorial Church, one of the earliest interdenominational churches in the West. The waiting list to get married there can be up to four years, but alumni receive a shorter period, according to Vogue. The couple told the magazine that they always knew they wanted to wed there.\n\n\"Walking past the ornate mosaics on my way to class was always the best part of my day,\" Brink said.\n\nBrink and Felter met at Stanford in the fall of 2020. The two began dating in March 2021 after Felter sent Brink an email in which he included his phone number. Felter, who rowed at Stanford, proposed to Brink in Paris in September 2024.\n\nThe No. 2 pick in the 2024 WNBA draft, Brink averaged a career-high 9.5 points plus five rebounds and 1.8 blocks for Los Angeles in the 2026 season."
-    },
-    {
-      "story_id": "50586087",
-      "headline": "Broncos' Sean Payton: J.K. Dobbins suspended one game for detrimental conduct",
-      "summary": "The Broncos suspended running back J.K. Dobbins for one game for conduct detrimental to the team.",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750794_1296x729_16-9.jpg",
-      "published_utc": "2026-11-24T23:51:49Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "Jeff Legwold",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50586087/broncos-payton-says-rb-dobbins-suspended-one-game",
-      "stream_url": "",
-      "body": "ENGLEWOOD, Colo. -- Denver Broncos coach Sean Payton said Tuesday he has suspended running back J.K. Dobbins for Friday's game against the Pittsburgh Steelers due to \"conduct detrimental.''\n\nDobbins will not practice or take part in any team activities this week. The Broncos (8-2) face the Steelers on Friday at Acrisure Stadium in Pittsburgh.\n\n\"There is one team announcement, I'm not going to comment afterwards, I'm suspending J.K. Dobbins for this weekend's game, conduct detrimental, that's all I'm going to say about it,'' Payton said after Tuesday's practice. \"Head coach's decision.''\n\nAsked if he wanted to elaborate on any of the circumstances that surrounded the decision, Payton said no and added \"think it's better that way.''\n\nDobbins was in the Broncos' facility earlier on Tuesday and then left, multiple team sources said. Payton then told players of the suspension in the team's normally-scheduled group meeting.\n\nDobbins, in his second season with the team and a player Payton had called one of the \"top priorities'' to re-sign this past offseason, had one carry, for no gain, in the Broncos' 38-24 victory Sunday over the Las Vegas Raiders. It marked the first time since the 2020 season Dobbins had a single carry in a game he was in uniform to play -- he had two one-carry games for the Baltimore Ravens that year.\n\nDobbins was visibly frustrated at times on the sideline during Sunday's game and high-fiving teammates at other times. When asked about the running back rotation Monday, Payton had offered that Dobbins \"is healthy'' and that \"J.K. is going to be super important for what we're doing in this stretch.''\n\nJonah Coleman, who sat out four games earlier this season because of an ankle injury, has steadily received more work since his Week 7 return to the lineup. Coleman got 24 of the team's 27 carries by running backs in Sunday's win. Coleman's 111 yards rushing were also the team's first 100-yard rushing game since Dobbins' 111 yards rushing in a Week 8 win last season over the Dallas Cowboys.\n\nThe Broncos also designated running back Tyler Badie for return from injured reserve Tuesday and Badie practiced with the team and was listed as a full participant. Asked if Badie would play Friday or how the rotation might look against the Steelers, Payton said, \"I'm not going to get into who's playing.''\n\nRunning back RJ Harvey (knee) is eligible to return from injured reserve next week.\n\nQuarterback Bo Nix, when asked about the suspension, said: \"Well, obviously I have nothing to do with it,'' Nix said. \"Just keep finding our way to figure out how to win games, fortunately it has nothing to do with me.''\n\nCornerback Pat Surtain II, also a team captain like Nix, offered a similar answer with, \"I ain't got nothing much to say, it's coach's decision at the end of the day.''\n\nIt's all a long way from Dobbins' promise -- he termed it a \"pinkie swear'' -- both during the team's minicamp in June as well as training camp, that he would play in every game this season and lead the league in rushing.\n\n\"This year, forget a top-three, I keep saying it, people think I'm crazy but I'm going to be No. 1, and I'm going to keep it there for the whole year,'' Dobbins said in August. \"You know, 17 games. A lot of people get mad when I say the injuries are over, cause I said it last year, but that one was pretty fluky, right? This year there won't be any.''\n\nDobbins has dealt with several injuries in his career, including a career-threatening knee injury, and he sat out the final seven regular-season games because of a foot injury as well as both of the Broncos' playoff games last season. His 15 games played in 2020, as a rookie for the Baltimore Ravens, is still the most games he has played in a season.\n\nIt is believed Dobbins, who signed a two-year, $16 million deal with the team this past offseason, is the first player suspended by the Broncos during a season for conduct detrimental to the team since wide receiver Brandon Marshall in 2009."
     },
     {
       "story_id": "50586828",
@@ -9203,6 +9203,20 @@
       "body": "Cameron Munster has declared all options are on the table after officially rejecting a deal to stay in Melbourne and labelling the Storm's latest offer as \"disappointing\".\n\nWith Melbourne already facing a battle to retain Harry Grant, the Storm are now officially fighting a retention war on two fronts after Munster's call.\n\nThe Melbourne superstar admitted on Tuesday that Grant's future could play a role in his own call, as well as Craig Bellamy's impending retirement at the end of 2027.\n\nAs it stands Munster will not take up an offer from the Storm that is understood to have been for one year with an option for a second.\n\n\"I have declined it,\" the Queensland State of Origin captain said at a Maroons sponsor announcement with Westpac.\n\n\"I am not saying I am going to leave Melbourne. Just with the terms and conditions that they put out to me, it is probably something that is a little disappointing.\n\n\"But it's a business, I am not stupid.\"\n\nMunster admitted his own form had not been good enough for the Storm last season as they missed the finals for the first time in his career.\n\nAnd in turn, the 32-year-old conceded the offer may have been as a result of that.\n\n\"That (offer) just makes my job a little bit harder. But it's also a bit of a challenge saying I am not where I need to be,\" he said.\n\n\"Maybe I need to be a little bit better to earn that contract that we're looking from.\n\n\"And maybe it is a little bit of a kick up the bum from them. I am not too sure where we'll go from here but all options are open at the moment.\"\n\nMunster's rejection comes after Grant met with Gold Coast officials last Friday and officially received an offer to join the Titans.\n\nIt is understood Melbourne's offer for the Queensland dummy-half will either be worth similar or more than the Titans.\n\nBut Gold Coast are hopeful of luring the hooker north, given his relationship with ex-Maroons assistant coach Josh Hannay and prop Tino Fa'asuamaleaui.\n\nThe Titans officially released AJ Brimson to the PNG Chiefs on Tuesday on a three-year deal, with the money from the centre used to help pursue Grant.\n\nNSW prop Stefano Utoikamanu is also off contract at Melbourne at the end of next year and has also been linked to the Sydney Roosters.\n\nAt the same time Bellamy's retirement at the end of next season is proving a challenge for the Storm, given he is like a father figure to Munster.\n\n\"When you look at someone like Craig as a coach, he is a great coach and I have so much respect and have admired him for such a long time,\" Munster said.\n\n\"It's going to be different at the club. I'm not too sure where the club wants to go with all that stuff.\n\n\"I don't know who they are going to get and I'm sure it will be a daunting job coming after him.\"\n\nMunster also confirmed he will likely follow the Cameron Smith route and give away representative football at some point to focus on club duties.\n\n\"It definitely has (crossed my mind),\" Munster said.\n\n\"The hard thing for me is giving up the captaincy.\n\n\"Once I start declining (I will look at it) and I thought I was declining. But after my last few games for the World Cup I am pretty confident I can get back to that.\""
     },
     {
+      "story_id": "50586505",
+      "headline": "Brandon Aiyuk scheduled for visit Wednesday with Commanders, agent says",
+      "summary": "Wide receiver Brandon Aiyuk is scheduled to visit Wednesday with the Commanders, agent Drew Rosenhaus told ESPN's Adam Schefter.",
+      "image": "https://a.espncdn.com/photo/2024/0814/r1373326_1296x729_16-9.jpg",
+      "published_utc": "2026-11-24T23:29:38Z",
+      "competition_id": "nfl",
+      "competition_name": "NFL",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/nfl/story/_/id/50586505/brandon-aiyuk-scheduled-visit-wednesday-commanders",
+      "stream_url": "",
+      "body": "Wide receiver Brandon Aiyuk is scheduled to visit Wednesday with the Washington Commanders, agent Drew Rosenhaus told ESPN's Adam Schefter.\n\nThe San Francisco 49ers released Aiyuk on Tuesday, two weeks after the NFL reinstated him. He cleared waivers, making him an unrestricted free agent.\n\nAiyuk has not played since tearing the ACL, MCL and meniscus in his right knee on Oct. 20, 2024, and was placed on the 49ers' reserve/left squad list last December. He could not be removed from that list until he reported and passed a physical, which he did Nov. 9.\n\n\"I'm feeling great, feeling healthy,\" Aiyuk told 49ers reporters earlier this month. \"It was a long recovery process, a long rehab process, but I'm back to 100%.\"\n\nAiyuk is expected to work out for the Commanders during Wednesday's visit.\n\nIn 2023, his last full season before his injury, Aiyuk was named second-team All-Pro after catching 75 passes for 1,342 yards and seven touchdowns.\n\nAiyuk and Commanders quarterback Jayden Daniels played together at Arizona State during the 2019 season. However, a rift in their relationship appeared to have developed following a series of social media posts by the receiver. Aiyuk targeted Daniels in several posts and in one referenced Daniels' mother.\n\nDaniels and Aiyuk spoke more than a month ago to clear the air, according to multiple sources.\n\nDaniels befriended Aiyuk early in their time together at ASU -- before Daniels had won the starting quarterback job. During workouts, Daniels would throw with Aiyuk, who was going into his senior season and coming off a 33-catch, 474-yard season.\n\nThey quickly developed a rapport as Aiyuk ended the season with Associated Press All-America honors after catching 65 passes for 1,192 yards and eight touchdowns.\n\nESPN's John Keim contributed to this report."
+    },
+    {
       "story_id": "50473334",
       "headline": "2026-27 MLB free agency, trade grades: Offseason analysis",
       "summary": "We've got you covered with grades and analysis on every winter signing and big offseason trade.",
@@ -9243,20 +9257,6 @@
       "link": "https://www.espn.com/wnba/story/_/id/50585586/wnba-players-elect-elizabeth-williams-lead-players-union",
       "stream_url": "",
       "body": "Chicago Sky center Elizabeth Williams was elected president of the Women's National Basketball Players Association and will replace Nneka Ogwumike, who retired after being in the role since 2016.\n\nWilliams, who will serve out the final two years of Ogwumike's term that began earlier this year, was picked by players on Tuesday over Breanna Stewart of the New York Liberty and Gabby Williams of the Golden State Valkyries, a source with knowledge of the ballot told ESPN.\n\nA 12-year veteran, Williams joined the WNBPA executive committee in 2018 and served four two-year terms. She has been at the bargaining table for two CBAs, including the most recent agreement that raised maximum player salaries to over $1 million.\n\n\"One of my main goals as president is to increase the engagement of the younger members of this union,\" Williams said in a statement to WNBPA player representatives. \"I know the value of diverse voices in these conversations. We may not always agree, but I want to make sure every player knows that her voice is being heard.\n\n\"This is the strength of our union. I am grateful for what we have accomplished over these last few years, and I'm excited about the potential for a new opportunity to serve.\"\n\nThe WNBA will also have a new face leading the league office as commissioner Cathy Engelbert is retiring at the end of the year. A search for her replacement is ongoing.\n\nWilliams will lead the executive committee comprised of Napheesa Collier (1st vice president), Veronica Burton (secretary), Chelsea Gray (treasurer), and three additional vice presidents: Alysha Clark, Ezi Magbegor, and Maya Caldwell.\n\nBurton, Gray, Magbegor and Caldwell join the executive committee for the first time.\n\n\"These election results reflect the strength of our union and the power of player leadership,\" WNBPA executive director Terri Carmichael Jackson said in a statement. \"Congratulations to Elizabeth and each of our newly elected and returning Executive Committee members, whose collective experience, diverse perspectives, and commitment will help guide the WNBPA into its next chapter.\n\n\"As we turn our focus to implementing our transformational CBA and building on the progress our members have fought so hard to achieve, our greatest strength remains our unity, our democratic process, and our unwavering commitment to one another.\"\n\nWilliams, who was selected fourth overall in the 2015 WNBA draft out of Duke and was the 2016 Most Improved Player, becomes president after a lengthy period of stability in union leadership.\n\nOgwumike, the outgoing WNBPA president, announced her WNBA retirement during the 2026 season. An 11-time All-Star and the 2016 MVP, Ogwumike has served as WNBPA president since 2016, presiding over two collective bargaining agreement negotiations and shaping the social justice activism that defined the player body during her tenure."
-    },
-    {
-      "story_id": "50586505",
-      "headline": "Brandon Aiyuk scheduled for visit Wednesday with Commanders, agent says",
-      "summary": "Wide receiver Brandon Aiyuk is scheduled to visit Wednesday with the Commanders, agent Drew Rosenhaus told ESPN's Adam Schefter.",
-      "image": "https://a.espncdn.com/photo/2024/0814/r1373326_1296x729_16-9.jpg",
-      "published_utc": "2026-11-24T23:29:38Z",
-      "competition_id": "nfl",
-      "competition_name": "NFL",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nfl/story/_/id/50586505/brandon-aiyuk-scheduled-visit-wednesday-commanders",
-      "stream_url": "",
-      "body": "Wide receiver Brandon Aiyuk is scheduled to visit Wednesday with the Washington Commanders, agent Drew Rosenhaus told ESPN's Adam Schefter.\n\nThe San Francisco 49ers released Aiyuk on Tuesday, two weeks after the NFL reinstated him. He cleared waivers, making him an unrestricted free agent.\n\nAiyuk has not played since tearing the ACL, MCL and meniscus in his right knee on Oct. 20, 2024, and was placed on the 49ers' reserve/left squad list last December. He could not be removed from that list until he reported and passed a physical, which he did Nov. 9.\n\n\"I'm feeling great, feeling healthy,\" Aiyuk told 49ers reporters earlier this month. \"It was a long recovery process, a long rehab process, but I'm back to 100%.\"\n\nAiyuk is expected to work out for the Commanders during Wednesday's visit.\n\nIn 2023, his last full season before his injury, Aiyuk was named second-team All-Pro after catching 75 passes for 1,342 yards and seven touchdowns.\n\nAiyuk and Commanders quarterback Jayden Daniels played together at Arizona State during the 2019 season. However, a rift in their relationship appeared to have developed following a series of social media posts by the receiver. Aiyuk targeted Daniels in several posts and in one referenced Daniels' mother.\n\nDaniels and Aiyuk spoke more than a month ago to clear the air, according to multiple sources.\n\nDaniels befriended Aiyuk early in their time together at ASU -- before Daniels had won the starting quarterback job. During workouts, Daniels would throw with Aiyuk, who was going into his senior season and coming off a 33-catch, 474-yard season.\n\nThey quickly developed a rapport as Aiyuk ended the season with Associated Press All-America honors after catching 65 passes for 1,192 yards and eight touchdowns.\n\nESPN's John Keim contributed to this report."
     },
     {
       "story_id": "50585929",
