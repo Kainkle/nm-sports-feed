@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T01:45:52.106178+00:00",
+  "generated_utc": "2026-11-25T01:56:09.314604+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875008",
@@ -3749,7 +3749,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kia Center",
-      "detail": "2:16 - 3rd Quarter",
+      "detail": "9:53 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3794,9 +3794,9 @@
         "color": "002664"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Rynearson Stadium",
-      "detail": "Halftime",
+      "detail": "11:36 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3853,52 +3853,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401906774",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-25T00:00Z",
-      "status": "live",
-      "home": {
-        "id": "espn:57",
-        "name": "Florida Gators",
-        "abbrev": "FLA",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-        "logo_dark": null,
-        "aliases": [
-          "FLA",
-          "Florida",
-          "Florida Gators",
-          "Gators"
-        ],
-        "color": "0021a5"
-      },
-      "away": {
-        "id": "espn:270",
-        "name": "Milwaukee Panthers",
-        "abbrev": "MILW",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-        "logo_dark": null,
-        "aliases": [
-          "MILW",
-          "Milwaukee",
-          "Milwaukee Panthers",
-          "Panthers"
-        ],
-        "color": "000000"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
-      "venue": "Tower Hill Arena",
-      "detail": "0:39 - 2nd Half",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:basketball:401916319",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -3936,7 +3890,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Schottenstein Center",
-      "detail": "6:03 - 2nd Half",
+      "detail": "2:59 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3950,7 +3904,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-25T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:84",
         "name": "Indiana Hoosiers",
@@ -3980,9 +3934,55 @@
         "color": "00523e"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Simon Skjodt Assembly Hall",
-      "detail": "3:46 - 2nd Half",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401906774",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-25T00:00Z",
+      "status": "final",
+      "home": {
+        "id": "espn:57",
+        "name": "Florida Gators",
+        "abbrev": "FLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+        "logo_dark": null,
+        "aliases": [
+          "FLA",
+          "Florida",
+          "Florida Gators",
+          "Gators"
+        ],
+        "color": "0021a5"
+      },
+      "away": {
+        "id": "espn:270",
+        "name": "Milwaukee Panthers",
+        "abbrev": "MILW",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
+        "logo_dark": null,
+        "aliases": [
+          "MILW",
+          "Milwaukee",
+          "Milwaukee Panthers",
+          "Panthers"
+        ],
+        "color": "000000"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "post/Final",
+      "venue": "Tower Hill Arena",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4110,7 +4110,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Capital One Arena",
-      "detail": "10:36 - 2nd Quarter",
+      "detail": "5:42 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4156,7 +4156,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "17:01 - 1st Half",
+      "detail": "12:10 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9074,7 +9074,7 @@
       "source": "ESPN",
       "link": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027",
       "stream_url": "",
-      "body": "The 2026-27 MLB hot stove was lit just days after the Milwaukee Brewers hoisted the franchise's first World Series championship trophy.\n\nWhich teams will go big to contend for the 2027 World Series title? And who will make the trades and signings that have everyone buzzing?\n\nBelow is a running list of notable transactions and updates from throughout the MLB offseason.\n\nGrades for every notable offseason move\n\nNotable offseason transactions\n\nNov. 24\n\nRight-hander Freddy Peralta and the Baltimore Orioles are in agreement on a five-year, $125 million contract, sources tell ESPN.\n\nLeft-hander Kris Bubic and the Cleveland Guardians are in agreement on a one-year, $17.5 million contract, sources tell ESPN.\n\nThe Chicago Cubs have reached an agreement with Japanese Central League MVP Teruaki Sato on a six-year, $120 million contract, sources tell ESPN.\n\nStar Japanese right-hander Kaima Taira and the Toronto Blue Jays are in agreement on a five-year, $80 million contract with an opt-out after the third season, sources told ESPN's Jeff Passan.\n\nThe Chicago White Sox are in agreement with free agent outfielder Tyrone Taylor on a two-year, $17 million contract, sources confirmed to ESPN.\n\nInfielder Ha-Seong Kim and the Detroit Tigers are in agreement on a one-year, $5 million contract, sources tell ESPN.\n\nNov. 23\n\nThe Chicago Cubs have agreed to a five-year, $120 million contract with free agent pitcher Trevor Rogers, sources familiar with the situation told ESPN.\n\nThe New York Mets continued their spending spree by coming to terms on a one-year deal with first baseman Paul Goldschmidt, a source told ESPN.\n\nLeft-handed reliever Brent Suter and the New York Yankees are in agreement on a one-year, $4 million contract with a club option for 2028, sources tell ESPN.\n\nThe Kansas City Royals signed left-hander Caleb Thielbar to a one-year, $3.25 million contract, sources told ESPN.\n\nNov. 22\n\nTarik Skubal and the New York Mets are in agreement on a nine-year, $450 million contract, sources tell ESPN.\n\nRight-hander Luis Gil and the Detroit Tigers are in agreement on a one-year, $2.3 million contract, sources told ESPN.\n\nNov. 20\n\nThe New York Yankees and right-hander Jonathan Loaisiga are in agreement on a two-year deal with a club option for 2029, sources told ESPN, reuniting the reliever and club after a season apart.\n\nRight-hander Troy Melton and the Detroit Tigers are in agreement on a six-year, $46.5 million contract extension, sources tell ESPN.\n\nOutfielder Gavin Sheets and the San Diego Padres are in agreement on a three-year, $11 million contract, sources tell ESPN.\n\nNov. 19\n\nThe Colorado Rockies are acquiring right-handers Davis Martin and Luis Castillo in a trade with the Chicago White Sox, sources tell ESPN. The White Sox are getting LHP Sean Sullivan and catching prospect Douglas Veliz in return.\n\nRight-hander Randy Dobnak and the Kansas City Royals are in agreement on a one-year, $1.35 million contract, a source tells ESPN.\n\nNov. 18\n\nRight-hander Sonny Gray and the Minnesota Twins are in agreement on a two-year, the team announced. The contract is for $55 million and includes an opt-out after the first season, sources tell ESPN.\n\nThe Boston Red Sox are acquiring catcher Nick Fortes in a deal with the Tampa Bay Rays, sources tell ESPN.\n\nThe Seattle Mariners are acquiring Gold Glove third baseman Maikel Garcia in a six-player trade with the Kansas City Royals, sources tell ESPN. The Royals are receiving three major league pitchers in return, headlined by right-hander Bryce Miller.\n\nThe Los Angeles Angels acquired infielder Jace Jung from the Detroit Tigers for cash.\n\nNov. 17\n\nThe Chicago White Sox are in agreement with free agent pitcher Dustin May on a three-year, $52.5 million deal, source confirms to ESPN.\n\nNov. 15\n\nLeft-hander Tim Hill is staying with the New York Yankees, agreeing to a one-year, $2.25 million contract, sources told ESPN's Jeff Passan.\n\nReliever Ryan Walker went to the Milwaukee Brewers in a trade that sent right-handers Blake Holub and Gavin Perry to the San Francisco Giants.\n\nNov. 13\n\nFirst baseman Jake Bauers and the Boston Red Sox are in agreement on a four-year, $58 million contract, sources tell ESPN.\n\nNov. 12\n\nReliever Evan Phillips and the Atlanta Braves are in agreement on a three-year, $35 million contract.\n\nNov. 11\n\nJacob Young agreed to terms on a long-term contract with the Washington Nationals, president of baseball operations Paul Toboni announced.\n\nNov. 10\n\nSource: Detroit Tigers agree to one-year deal with reliever Emilio Pagan.\n\nRHP Ryan Weiss agrees to $1.85M deal with San Diego Padres, sources say.\n\nNov. 6\n\nMets re-sign pitcher Robert Stock to one-year contract.\n\nNov. 2\n\nNew York Yankees closer David Bednar, Chicago Cubs outfielder Seiya Suzuki and Seattle Mariners outfielder Randy Arozarena were among eight players who received $23.15 million qualifying offers from their teams Monday.\n\nSources: Chicago Cubs decline $7.5 million option for pitcher Colin Rea.\n\nNov. 1\n\nSan Diego Padres decline options on Nick Pivetta, Lucas Giolito, Griffin Canning; exercise option on Hart.\n\nGarrett Whitlock's $8.25 million option exercised by Boston Red Sox.\n\nOct. 31\n\nTampa Bay Rays pick up $20 million option on ace pitcher Drew Rasmussen.\n\nOct. 29\n\nAtlanta Braves exercise options on Ronald Acu\u00f1a Jr., Ozzie Albies.\n\nSeattle Mariners exercise Andr\u00e9s Mu\u00f1oz option, decline Victor Robles, Bryce Miller option."
+      "body": "The 2026-27 MLB hot stove was lit just days after the Milwaukee Brewers hoisted the franchise's first World Series championship trophy.\n\nWhich teams will go big to contend for the 2027 World Series title? And who will make the trades and signings that have everyone buzzing?\n\nBelow is a running list of notable transactions and updates from throughout the MLB offseason.\n\nGrades for every notable offseason move\n\nNotable offseason transactions\n\nNov. 24\n\nRight-hander Freddy Peralta and the Baltimore Orioles are in agreement on a five-year, $125 million contract, sources tell ESPN.\n\nLeft-hander Kris Bubic and the Cleveland Guardians are in agreement on a one-year, $17.5 million contract, sources tell ESPN.\n\nThe Chicago Cubs have reached an agreement with Japanese Central League MVP Teruaki Sato on a six-year, $120 million contract, sources tell ESPN.\n\nStar Japanese right-hander Kaima Taira and the Toronto Blue Jays are in agreement on a five-year, $80 million contract with an opt-out after the third season, sources told ESPN's Jeff Passan.\n\nCatcher Tyler Stephenson and the Cincinnati Reds are in agreement on a three-year, $30 million contract with an opt-out after the second season, pending physical, sources tell ESPN.\n\nThe Chicago White Sox are in agreement with free agent outfielder Tyrone Taylor on a two-year, $17 million contract, sources confirmed to ESPN.\n\nInfielder Ha-Seong Kim and the Detroit Tigers are in agreement on a one-year, $5 million contract, sources tell ESPN.\n\nNov. 23\n\nThe Chicago Cubs have agreed to a five-year, $120 million contract with free agent pitcher Trevor Rogers, sources familiar with the situation told ESPN.\n\nThe New York Mets continued their spending spree by coming to terms on a one-year deal with first baseman Paul Goldschmidt, a source told ESPN.\n\nLeft-handed reliever Brent Suter and the New York Yankees are in agreement on a one-year, $4 million contract with a club option for 2028, sources tell ESPN.\n\nThe Kansas City Royals signed left-hander Caleb Thielbar to a one-year, $3.25 million contract, sources told ESPN.\n\nNov. 22\n\nTarik Skubal and the New York Mets are in agreement on a nine-year, $450 million contract, sources tell ESPN.\n\nRight-hander Luis Gil and the Detroit Tigers are in agreement on a one-year, $2.3 million contract, sources told ESPN.\n\nNov. 20\n\nThe New York Yankees and right-hander Jonathan Loaisiga are in agreement on a two-year deal with a club option for 2029, sources told ESPN, reuniting the reliever and club after a season apart.\n\nRight-hander Troy Melton and the Detroit Tigers are in agreement on a six-year, $46.5 million contract extension, sources tell ESPN.\n\nOutfielder Gavin Sheets and the San Diego Padres are in agreement on a three-year, $11 million contract, sources tell ESPN.\n\nNov. 19\n\nThe Colorado Rockies are acquiring right-handers Davis Martin and Luis Castillo in a trade with the Chicago White Sox, sources tell ESPN. The White Sox are getting LHP Sean Sullivan and catching prospect Douglas Veliz in return.\n\nRight-hander Randy Dobnak and the Kansas City Royals are in agreement on a one-year, $1.35 million contract, a source tells ESPN.\n\nNov. 18\n\nRight-hander Sonny Gray and the Minnesota Twins are in agreement on a two-year, the team announced. The contract is for $55 million and includes an opt-out after the first season, sources tell ESPN.\n\nThe Boston Red Sox are acquiring catcher Nick Fortes in a deal with the Tampa Bay Rays, sources tell ESPN.\n\nThe Seattle Mariners are acquiring Gold Glove third baseman Maikel Garcia in a six-player trade with the Kansas City Royals, sources tell ESPN. The Royals are receiving three major league pitchers in return, headlined by right-hander Bryce Miller.\n\nThe Los Angeles Angels acquired infielder Jace Jung from the Detroit Tigers for cash.\n\nNov. 17\n\nThe Chicago White Sox are in agreement with free agent pitcher Dustin May on a three-year, $52.5 million deal, source confirms to ESPN.\n\nNov. 15\n\nLeft-hander Tim Hill is staying with the New York Yankees, agreeing to a one-year, $2.25 million contract, sources told ESPN's Jeff Passan.\n\nReliever Ryan Walker went to the Milwaukee Brewers in a trade that sent right-handers Blake Holub and Gavin Perry to the San Francisco Giants.\n\nNov. 13\n\nFirst baseman Jake Bauers and the Boston Red Sox are in agreement on a four-year, $58 million contract, sources tell ESPN.\n\nNov. 12\n\nReliever Evan Phillips and the Atlanta Braves are in agreement on a three-year, $35 million contract.\n\nNov. 11\n\nJacob Young agreed to terms on a long-term contract with the Washington Nationals, president of baseball operations Paul Toboni announced.\n\nNov. 10\n\nSource: Detroit Tigers agree to one-year deal with reliever Emilio Pagan.\n\nRHP Ryan Weiss agrees to $1.85M deal with San Diego Padres, sources say.\n\nNov. 6\n\nMets re-sign pitcher Robert Stock to one-year contract.\n\nNov. 2\n\nNew York Yankees closer David Bednar, Chicago Cubs outfielder Seiya Suzuki and Seattle Mariners outfielder Randy Arozarena were among eight players who received $23.15 million qualifying offers from their teams Monday.\n\nSources: Chicago Cubs decline $7.5 million option for pitcher Colin Rea.\n\nNov. 1\n\nSan Diego Padres decline options on Nick Pivetta, Lucas Giolito, Griffin Canning; exercise option on Hart.\n\nGarrett Whitlock's $8.25 million option exercised by Boston Red Sox.\n\nOct. 31\n\nTampa Bay Rays pick up $20 million option on ace pitcher Drew Rasmussen.\n\nOct. 29\n\nAtlanta Braves exercise options on Ronald Acu\u00f1a Jr., Ozzie Albies.\n\nSeattle Mariners exercise Andr\u00e9s Mu\u00f1oz option, decline Victor Robles, Bryce Miller option."
     },
     {
       "story_id": "50586087",
