@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T01:25:30.462460+00:00",
+  "generated_utc": "2026-11-25T01:35:54.654507+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875008",
@@ -3749,7 +3749,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Kia Center",
-      "detail": "10:41 - 3rd Quarter",
+      "detail": "5:50 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3794,9 +3794,9 @@
         "color": "002664"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Rynearson Stadium",
-      "detail": "0:39 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3844,7 +3844,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Waldo Stadium",
-      "detail": "1:43 - 2nd Quarter",
+      "detail": "0:10 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3890,7 +3890,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Tower Hill Arena",
-      "detail": "8:15 - 2nd Half",
+      "detail": "5:16 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3936,7 +3936,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Schottenstein Center",
-      "detail": "12:05 - 2nd Half",
+      "detail": "9:00 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3982,7 +3982,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Simon Skjodt Assembly Hall",
-      "detail": "11:36 - 2nd Half",
+      "detail": "7:45 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4110,7 +4110,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Capital One Arena",
-      "detail": "6:57 - 1st Quarter",
+      "detail": "2:26 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4123,7 +4123,7 @@
       "sport": "basketball",
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
-      "start_utc": "2026-11-25T01:30Z",
+      "start_utc": "2026-11-25T01:37Z",
       "status": "scheduled",
       "home": {
         "id": "espn:97",
@@ -4156,7 +4156,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "pre/Scheduled",
       "venue": "Michelob ULTRA Arena",
-      "detail": "Tue, November 24th at 8:30 PM EST",
+      "detail": "Tue, November 24th at 8:37 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6340,15 +6340,18 @@
       "start_utc": "2026-11-26T20:30Z",
       "status": "scheduled",
       "home": {
-        "id": "espn:-1",
-        "name": "TBD",
-        "abbrev": "TBD",
-        "logo": null,
+        "id": "espn:66",
+        "name": "Iowa State Cyclones",
+        "abbrev": "ISU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
         "logo_dark": null,
         "aliases": [
-          "TBD"
+          "Cyclones",
+          "ISU",
+          "Iowa State",
+          "Iowa State Cyclones"
         ],
-        "color": null
+        "color": "ae192d"
       },
       "away": {
         "id": "espn:2633",
