@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-24T23:54:17.869447+00:00",
+  "generated_utc": "2026-11-25T00:04:29.073698+00:00",
   "window_days": 2,
-  "total_events": 293,
+  "total_events": 197,
   "competitions": [
     {
       "competition": "aew",
@@ -9,8 +9,8 @@
       "sport": "wrestling",
       "events": 2,
       "date_range": [
-        "2026-11-22",
-        "2026-11-26"
+        "2026-11-26",
+        "2026-11-27"
       ],
       "explicit_status": 2,
       "status_coverage_pct": 100,
@@ -74,14 +74,14 @@
       "competition": "eng.1",
       "name": "Premier League",
       "sport": "soccer",
-      "events": 10,
+      "events": 3,
       "date_range": [
-        "2026-11-21",
+        "2026-11-22",
         "2026-11-23"
       ],
-      "explicit_status": 10,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 3,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -89,14 +89,14 @@
       "competition": "esp.1",
       "name": "La Liga",
       "sport": "soccer",
-      "events": 9,
+      "events": 5,
       "date_range": [
-        "2026-11-21",
+        "2026-11-22",
         "2026-11-23"
       ],
-      "explicit_status": 9,
+      "explicit_status": 5,
       "status_coverage_pct": 100,
-      "both_logos": 9,
+      "both_logos": 5,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -104,29 +104,27 @@
       "competition": "f1",
       "name": "Formula 1",
       "sport": "racing",
-      "events": 1,
-      "date_range": [
-        "2026-11-20",
-        "2026-11-20"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
-      "both_logos": 1,
-      "logo_coverage_pct": 100,
-      "live_now": 0
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "ger.1",
       "name": "Bundesliga",
       "sport": "soccer",
-      "events": 8,
+      "events": 2,
       "date_range": [
-        "2026-11-21",
+        "2026-11-22",
         "2026-11-22"
       ],
-      "explicit_status": 8,
+      "explicit_status": 2,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 2,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -147,14 +145,14 @@
       "competition": "ita.1",
       "name": "Serie A",
       "sport": "soccer",
-      "events": 10,
+      "events": 6,
       "date_range": [
-        "2026-11-21",
+        "2026-11-22",
         "2026-11-23"
       ],
-      "explicit_status": 10,
+      "explicit_status": 6,
       "status_coverage_pct": 100,
-      "both_logos": 10,
+      "both_logos": 6,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -214,14 +212,14 @@
       "competition": "nba",
       "name": "NBA",
       "sport": "basketball",
-      "events": 35,
+      "events": 29,
       "date_range": [
-        "2026-11-21",
+        "2026-11-22",
         "2026-11-26"
       ],
-      "explicit_status": 35,
+      "explicit_status": 29,
       "status_coverage_pct": 100,
-      "both_logos": 35,
+      "both_logos": 29,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -229,44 +227,44 @@
       "competition": "ncaaf",
       "name": "College Football",
       "sport": "football",
-      "events": 60,
+      "events": 3,
       "date_range": [
-        "2026-11-21",
-        "2026-11-25"
+        "2026-11-25",
+        "2026-11-27"
       ],
-      "explicit_status": 60,
+      "explicit_status": 3,
       "status_coverage_pct": 100,
-      "both_logos": 60,
+      "both_logos": 3,
       "logo_coverage_pct": 100,
-      "live_now": 0
+      "live_now": 1
     },
     {
       "competition": "ncaam",
       "name": "College Basketball",
       "sport": "basketball",
-      "events": 30,
+      "events": 31,
       "date_range": [
-        "2026-11-21",
-        "2026-11-26"
+        "2026-11-22",
+        "2026-11-27"
       ],
-      "explicit_status": 30,
+      "explicit_status": 31,
       "status_coverage_pct": 100,
-      "both_logos": 29,
+      "both_logos": 30,
       "logo_coverage_pct": 97,
-      "live_now": 1
+      "live_now": 4
     },
     {
       "competition": "nfl",
       "name": "NFL",
       "sport": "football",
-      "events": 13,
+      "events": 16,
       "date_range": [
         "2026-11-22",
-        "2026-11-26"
+        "2026-11-27"
       ],
-      "explicit_status": 13,
+      "explicit_status": 16,
       "status_coverage_pct": 100,
-      "both_logos": 13,
+      "both_logos": 16,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -274,14 +272,14 @@
       "competition": "nhl",
       "name": "NHL",
       "sport": "hockey",
-      "events": 86,
+      "events": 75,
       "date_range": [
-        "2026-11-21",
-        "2026-12-02"
+        "2026-11-22",
+        "2026-12-03"
       ],
-      "explicit_status": 86,
+      "explicit_status": 75,
       "status_coverage_pct": 100,
-      "both_logos": 86,
+      "both_logos": 75,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
@@ -343,16 +341,14 @@
       "competition": "ufc",
       "name": "UFC",
       "sport": "mma",
-      "events": 1,
-      "date_range": [
-        "2026-11-21",
-        "2026-11-21"
-      ],
-      "explicit_status": 1,
-      "status_coverage_pct": 100,
-      "both_logos": 1,
-      "logo_coverage_pct": 100,
-      "live_now": 0
+      "events": 0,
+      "date_range": null,
+      "explicit_status": 0,
+      "status_coverage_pct": 0,
+      "both_logos": 0,
+      "logo_coverage_pct": 0,
+      "live_now": 0,
+      "note": "zero events \u2014 off-season, or the source stopped returning data. Check `problems`."
     },
     {
       "competition": "urc",
@@ -371,14 +367,14 @@
       "competition": "usa.1",
       "name": "MLS",
       "sport": "soccer",
-      "events": 8,
+      "events": 5,
       "date_range": [
-        "2026-11-21",
+        "2026-11-22",
         "2026-11-25"
       ],
-      "explicit_status": 8,
+      "explicit_status": 5,
       "status_coverage_pct": 100,
-      "both_logos": 8,
+      "both_logos": 5,
       "logo_coverage_pct": 100,
       "live_now": 0
     },
