@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T05:29:31.650499+00:00",
+  "generated_utc": "2026-11-25T05:39:45.913500+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875008",
@@ -4170,7 +4170,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-25T03:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:7",
         "name": "Denver Nuggets",
@@ -4200,9 +4200,9 @@
         "color": "0064b1"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Ball Arena",
-      "detail": "1:49 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4337,9 +4337,9 @@
         "color": "00934b"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "Halftime",
+      "detail": "17:53 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4352,7 +4352,7 @@
       "sport": "basketball",
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
-      "start_utc": "2026-11-25T05:30Z",
+      "start_utc": "2026-11-25T05:49Z",
       "status": "scheduled",
       "home": {
         "id": "espn:2306",
@@ -4386,7 +4386,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "pre/Scheduled",
       "venue": "T-Mobile Arena",
-      "detail": "Wed, November 24th at 12:30 AM EST",
+      "detail": "Wed, November 24th at 12:49 AM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -6825,6 +6825,92 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401920530",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-27T02:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:97",
+        "name": "Louisville Cardinals",
+        "abbrev": "LOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+        "logo_dark": null,
+        "aliases": [
+          "Cardinals",
+          "LOU",
+          "Louisville",
+          "Louisville Cardinals"
+        ],
+        "color": "c9001f"
+      },
+      "away": {
+        "id": "espn:-2",
+        "name": "TBD",
+        "abbrev": "TBD",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "TBD"
+        ],
+        "color": null
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Thu, November 26th at 9:00 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401920531",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-27T04:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:-1",
+        "name": "TBD",
+        "abbrev": "TBD",
+        "logo": null,
+        "logo_dark": null,
+        "aliases": [
+          "TBD"
+        ],
+        "color": null
+      },
+      "away": {
+        "id": "espn:2641",
+        "name": "Texas Tech Red Raiders",
+        "abbrev": "TTU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+        "logo_dark": null,
+        "aliases": [
+          "Red Raiders",
+          "TTU",
+          "Texas Tech",
+          "Texas Tech Red Raiders"
+        ],
+        "color": "da291c"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Michelob ULTRA Arena",
+      "detail": "Thu, November 26th at 11:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020400",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -9035,18 +9121,32 @@
   ],
   "stories": [
     {
+      "story_id": "50590138",
+      "headline": "Dallas Mavericks vs. Denver Nuggets: Game Highlights",
+      "summary": "Dallas Mavericks vs. Denver Nuggets: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/14d56108-91ca-4566-9eaa-8ab344d3c031/14d56108-91ca-4566-9eaa-8ab344d3c031.jpg",
+      "published_utc": "2026-11-25T05:34:13Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50590138/game-highlights",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50588773",
       "headline": "Longtime Lions owner Martha Firestone Ford dies at age 101",
       "summary": "Martha Firestone Ford, who served as the primary owner of the Lions from 2014 to 2020, has died at the age of 101, the team announced Tuesday night.",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/b8e1facb-b7a9-4daf-87d7-0e9517d9eca4/b8e1facb-b7a9-4daf-87d7-0e9517d9eca4.jpg",
-      "published_utc": "2026-11-25T05:13:27Z",
+      "published_utc": "2026-11-25T05:33:55Z",
       "competition_id": "nfl",
       "competition_name": "NFL",
       "byline": "",
       "source": "ESPN",
       "link": "https://www.espn.com/nfl/story/_/id/50588773/long-lions-owner-martha-firestone-ford-dies-age-101",
       "stream_url": "",
-      "body": "Martha Firestone Ford, who served as the primary owner of the Detroit Lions from 2014 to 2020, has died at the age of 101, the team announced Tuesday night.\n\n\"Over more than six decades with the Detroit Lions, she was a loyal and constant fixture of the franchise, sharing in its history and traditions,\" the team said in a statement announcing her death. \"She remained present with the team even this season, attending games with a devotion that endured throughout her life.\"\n\nNo cause of death was given, although the team said she died at home surrounded by her family.\n\nFord and her husband, William Clay Ford Sr., bought the Lions in 1963, and she took over his controlling interest in the team after his death in 2014.\n\nAlthough she seldom spoke to reporters or commented publicly on the direction of the franchise, her influence was felt. She was in charge of the team from 2014 until 2020, when she turned the Lions over to her daughter, Sheila Ford Hamp.\n\nFord had since served as chair emeritus.\n\nThe Lions made the playoffs in 2014 but lost seven of their first eight games the following season. In November 2015, the team fired its president and general manager in a midseason shake-up. When Ford announced the changes, she told fans the franchise intended to \"identify and hire the very best leadership in order to produce a consistently, winning football team.\"\n\nThe Lions played better down the stretch that season, and after hiring Bob Quinn as their new general manager, they returned to the playoffs a year later.\n\nAlthough Ford kept a low profile, the 2015 shakeup was a sign that she was more than willing to bring about change in an effort to reverse the team's fortunes. Then-coach Jim Caldwell said she was very much a presence within the organization.\n\n\"I think visible ownership is great, and Mrs. Ford does it extremely well,\" Caldwell said in 2015. \"She's there before games and she's there after games, and I think guys enjoy that part of it. She comes to practice and things of that nature, so it's been fun.\"\n\nFord also made an impact in the Detroit community. She was an officer on the board for Detroit Lions Charities and on the board of the Henry Ford Health System. Martha and William Clay Ford were credited with helping establish the Maplegrove Center, a substance abuse treatment facility in West Bloomfield, Michigan.\n\nBorn Sept. 16, 1925, in Akron, Ohio, Martha Parke Firestone was a granddaughter of tire magnate Harvey Firestone. She graduated from Vassar College in 1946 and married William Clay Ford Sr., Henry Ford's grandson, the next year.\n\nIn 2017, Forbes estimated her net worth at more than $1.4 billion.\n\nShe is survived by her four children, 14 grandchildren and 17 great-grandchildren.\n\nThe Associated Press contributed to this report."
+      "body": "Martha Firestone Ford, who served as the primary owner of the Detroit Lions from 2014 to 2020, has died at the age of 101, the team announced Tuesday night.\n\n\"Over more than six decades with the Detroit Lions, she was a loyal and constant fixture of the franchise, sharing in its history and traditions,\" the team said in a statement announcing her death. \"She remained present with the team even this season, attending games with a devotion that endured throughout her life.\"\n\nNo cause of death was given, although the team said she died at home surrounded by her family.\n\nFord and her husband, William Clay Ford Sr., bought the Lions in 1963, and she took over his controlling interest in the team after his death in 2014.\n\nAlthough she seldom spoke to reporters or commented publicly on the direction of the franchise, her influence was felt. She was in charge of the team from 2014 until 2020, when she turned the Lions over to her daughter, Sheila Ford Hamp.\n\nFord had since served as chair emeritus.\n\n\"Martha was special,\" NFL commissioner Roger Goodell said in a statement. \"She cared so deeply about her family, the players, their fans, and the city of Detroit. She was committed to making the Lions -- and the game of football -- better. Martha and her husband, William Clay Ford, led the franchise with dignity and integrity. We will miss her kindness and sweet sense of humor. We extend our deepest condolences to her children, the entire Ford family, and the Lions' organization.\"\n\nThe Lions made the playoffs in Ford's first year in charge in 2014 but lost seven of their first eight games the following season. In November 2015, the team fired its president and general manager in a midseason shake-up. When Ford announced the changes, she told fans the franchise intended to \"identify and hire the very best leadership in order to produce a consistently, winning football team.\"\n\nThe Lions played better down the stretch that season, and after hiring Bob Quinn as their new general manager, they returned to the playoffs a year later.\n\nAlthough Ford kept a low profile, the 2015 shakeup was a sign that she was more than willing to bring about change in an effort to reverse the team's fortunes. Then-coach Jim Caldwell said she was very much a presence within the organization.\n\n\"I think visible ownership is great, and Mrs. Ford does it extremely well,\" Caldwell said in 2015. \"She's there before games and she's there after games, and I think guys enjoy that part of it. She comes to practice and things of that nature, so it's been fun.\"\n\nFord also made an impact in the Detroit community. She was an officer on the board for Detroit Lions Charities and on the board of the Henry Ford Health System. Martha and William Clay Ford were credited with helping establish the Maplegrove Center, a substance abuse treatment facility in West Bloomfield, Michigan.\n\nBorn Sept. 16, 1925, in Akron, Ohio, Martha Parke Firestone was a granddaughter of tire magnate Harvey Firestone. She graduated from Vassar College in 1946 and married William Clay Ford Sr., Henry Ford's grandson, the next year.\n\nIn 2017, Forbes estimated her net worth at more than $1.4 billion.\n\nShe is survived by her four children, 14 grandchildren and 17 great-grandchildren.\n\nThe Associated Press contributed to this report."
     },
     {
       "story_id": "50473334",
@@ -9075,20 +9175,6 @@
       "link": "http://www.espn.com/nhl/recap?gameId=401892780",
       "stream_url": "",
       "body": "EDMONTON, Alberta -- \u2014 Trevor Connelly had two goals and an assist, Jack Eichel also scored twice, and the Vegas Golden Knights beat the Edmonton Oilers 5-3 on Tuesday night in a battle between the top two teams in the Pacific Division.\n\n\r\nNic Dowd also scored for the Golden Knights and Mitch Marner chipped in with two assists. Carter Hart stopped 21 shots.\n\n\r\nColton Dach, Connor McDavid and Vasily Podkolzin scored for the Oilers, who have lost four straight. Devon Levi made 22 stops in the Oilers\u2019 net.\n\n\r\nConnelly notched his eighth and ninth goals of the season to move into second among rookies. The 19th pick in the 2024 draft, Connelly has points in four straight games to give him 19 this season.\n\n\r\nThe decisive moment was when the Golden Knights went up 4-2 just 5:29 into the third as Eichel got his second of the game and 11th of the season on a two-on-one break.\n\n\r\nEvan Bouchard had two assists to move him past 40 points in 27 games, beating Paul Coffey as the fastest in Oilers history to reach the points plateau. He\u2019s only the third defenseman in NHL history to hit 40 points in 27 games or fewer behind Bobby Orr and Coffey, who was then with Pittsburgh.\n\n\r\nMarner recorded his 600th career assist in his 762nd game, becoming the 15th-fastest player in NHL history to hit the mark and the third-fastest active skater to reach the milestone, behind McDavid (616 games) and Sidney Crosby (704 games).\n\n\r\nUp next\r\nGolden Knights: Visit the San Jose Sharks on Friday night.\n\n\r\nOilers: Host the Seattle Kraken on Friday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
-    },
-    {
-      "story_id": "50589424",
-      "headline": "Celtics snap losing streak with win at the Wizards",
-      "summary": "Celtics snap losing streak with win at the Wizards",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1124/82e68f66bd774da7979ef6a908ef11bd1368/82e68f66bd774da7979ef6a908ef11bd1368.jpg",
-      "published_utc": "2026-11-25T03:48:41Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50589424/celtics-snap-losing-streak-win-wizards",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50581745",
@@ -9203,6 +9289,20 @@
       "body": "Cameron Munster has declared all options are on the table after officially rejecting a deal to stay in Melbourne and labelling the Storm's latest offer as \"disappointing\".\n\nWith Melbourne already facing a battle to retain Harry Grant, the Storm are now officially fighting a retention war on two fronts after Munster's call.\n\nThe Melbourne superstar admitted on Tuesday that Grant's future could play a role in his own call, as well as Craig Bellamy's impending retirement at the end of 2027.\n\nAs it stands Munster will not take up an offer from the Storm that is understood to have been for one year with an option for a second.\n\n\"I have declined it,\" the Queensland State of Origin captain said at a Maroons sponsor announcement with Westpac.\n\n\"I am not saying I am going to leave Melbourne. Just with the terms and conditions that they put out to me, it is probably something that is a little disappointing.\n\n\"But it's a business, I am not stupid.\"\n\nMunster admitted his own form had not been good enough for the Storm last season as they missed the finals for the first time in his career.\n\nAnd in turn, the 32-year-old conceded the offer may have been as a result of that.\n\n\"That (offer) just makes my job a little bit harder. But it's also a bit of a challenge saying I am not where I need to be,\" he said.\n\n\"Maybe I need to be a little bit better to earn that contract that we're looking from.\n\n\"And maybe it is a little bit of a kick up the bum from them. I am not too sure where we'll go from here but all options are open at the moment.\"\n\nMunster's rejection comes after Grant met with Gold Coast officials last Friday and officially received an offer to join the Titans.\n\nIt is understood Melbourne's offer for the Queensland dummy-half will either be worth similar or more than the Titans.\n\nBut Gold Coast are hopeful of luring the hooker north, given his relationship with ex-Maroons assistant coach Josh Hannay and prop Tino Fa'asuamaleaui.\n\nThe Titans officially released AJ Brimson to the PNG Chiefs on Tuesday on a three-year deal, with the money from the centre used to help pursue Grant.\n\nNSW prop Stefano Utoikamanu is also off contract at Melbourne at the end of next year and has also been linked to the Sydney Roosters.\n\nAt the same time Bellamy's retirement at the end of next season is proving a challenge for the Storm, given he is like a father figure to Munster.\n\n\"When you look at someone like Craig as a coach, he is a great coach and I have so much respect and have admired him for such a long time,\" Munster said.\n\n\"It's going to be different at the club. I'm not too sure where the club wants to go with all that stuff.\n\n\"I don't know who they are going to get and I'm sure it will be a daunting job coming after him.\"\n\nMunster also confirmed he will likely follow the Cameron Smith route and give away representative football at some point to focus on club duties.\n\n\"It definitely has (crossed my mind),\" Munster said.\n\n\"The hard thing for me is giving up the captaincy.\n\n\"Once I start declining (I will look at it) and I thought I was declining. But after my last few games for the World Cup I am pretty confident I can get back to that.\""
     },
     {
+      "story_id": "50589424",
+      "headline": "Celtics snap losing streak with win at the Wizards",
+      "summary": "Celtics snap losing streak with win at the Wizards",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1124/82e68f66bd774da7979ef6a908ef11bd1368/82e68f66bd774da7979ef6a908ef11bd1368.jpg",
+      "published_utc": "2026-11-25T03:48:41Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50589424/celtics-snap-losing-streak-win-wizards",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50589757",
       "headline": "Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph",
       "summary": "Pittsburgh Steelers coach Mike McCarthy has benched starting quarterback Aaron Rodgers in favor of backup Mason Rudolph.",
@@ -9243,20 +9343,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50589542/game-highlights",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "50589432",
-      "headline": "Tatum scores 41 to help Celtics snap 4-game skid with a 131-116 win over Wizards",
-      "summary": "\u2014 Jayson Tatum scored 28 of his 41 points in the first half and the Boston Celtics snapped their four-game losing streak by beating the Washington Wizards 131-116 on Tuesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909315.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-25T03:48:34Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909315",
-      "stream_url": "",
-      "body": "WASHINGTON -- \u2014 Jayson Tatum scored 28 of his 41 points in the first half and the Boston Celtics snapped their four-game losing streak by beating the Washington Wizards 131-116 on Tuesday night.\n\n\r\nThe Celtics made 10 3-pointers during a 46-point second quarter. That gave Boston an 80-49 lead at halftime, and although Washington cut the deficit to five with a spirited second-half effort, the Celtics held on.\n\n\r\nThe Celtics remained unbeaten in NBA Cup play, and Washington is mathematically eliminated.\n\n\r\nPaul George scored 28 points for Boston, and Neemias Queta had 21.\n\n\r\nAnthony Davis had 33 points and 13 rebounds for the Wizards. Kyshawn George added 24 points and rookie AJ Dybantsa had 20 points, 11 rebounds and seven assists. Trae Young scored 17 points with 12 assists.\n\n\r\nQueta scored 13 points for Boston before Davis, the opposing big man, managed any. That helped the Celtics to a 34-28 lead after one quarter, and then the bottom fell out for the Wizards.\n\n\r\nBoston began the second quarter with a 14-3 run, and the Celtics later went on an 11-0 streak \u2014 with three 3-pointers by Tatum \u2014 to lead 70-38.\n\n\r\nBoston faces Atlanta on Friday night, with the winner finishing atop this NBA Cup group.\n\n\r\nWashington had a three-game winning streak snapped. The Wizards haven't won four in a row since a six-game run in January 2023.\n\n\r\nPaul George left Kyshawn George on the ground with a crossover dribble, paused for effect, and sank a jumper in the third quarter. But by then the Wizards had already begun to fight back. Washington got the deficit down to 13 before the period ended.\n\n\r\nIt was 117-112 after Dybantsa's bank shot, but then Tatum got free for a layup and Boston's Baylor Scheierman sank a 3 for his first points of the game.\n\n\r\nUp next\r\nCeltics: Host Atlanta on Friday night.\n\n\r\nWizards: Host Orlando on Saturday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50581137",
