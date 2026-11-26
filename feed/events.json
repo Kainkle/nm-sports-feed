@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T03:43:44.935976+00:00",
+  "generated_utc": "2026-11-26T03:53:52.545918+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875009",
@@ -3713,7 +3713,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Little Caesars Arena",
       "detail": "",
       "game_number": 1,
@@ -3821,7 +3821,7 @@
       "competition_id": "aew",
       "competition_name": "AEW",
       "start_utc": "2026-11-26T01:00:00Z",
-      "status": "unknown",
+      "status": "final",
       "home": {
         "id": "tvmaze:42189",
         "name": "All Elite Wrestling: Dynamite",
@@ -3903,7 +3903,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-26T01:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:30",
         "name": "Minnesota Wild",
@@ -3933,7 +3933,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Grand Casino Arena",
       "detail": "",
       "game_number": 1,
@@ -4073,7 +4073,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "SoFi Stadium",
-      "detail": "14:47 - 4th Quarter",
+      "detail": "12:00 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "NdfrTqtRB9Y",
       "replay_url": "",
@@ -4119,7 +4119,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Toyota Center (Houston)",
-      "detail": "8:16 - 4th Quarter",
+      "detail": "3:44 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4303,7 +4303,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "10:32 - 2nd Quarter",
+      "detail": "6:01 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4349,7 +4349,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Moda Center",
-      "detail": "18.5 - 1st Quarter",
+      "detail": "9:29 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9606,32 +9606,32 @@
   ],
   "stories": [
     {
-      "story_id": "50601173",
-      "headline": "Timberwolves beat the Thunder 113-106 to improve to 3-0 in NBA Cup play",
-      "summary": "\u2014 Jaden McDaniels had 32 points and 10 rebounds, LaMelo Ball added 19 points before leaving with an ankle injury and the Minnesota Timberwolves improved to 3-0 in NBA Cup play with a 113-106 win over the Oklahoma City Thunder on Wednesday night.",
-      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909320.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-26T03:41:33Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "http://www.espn.com/nba/recap?gameId=401909320",
-      "stream_url": "",
-      "body": "OKLAHOMA CITY -- \u2014 Jaden McDaniels had 32 points and 10 rebounds, LaMelo Ball added 19 points before leaving with an ankle injury and the Minnesota Timberwolves improved to 3-0 in NBA Cup play with a 113-106 win over the Oklahoma City Thunder on Wednesday night.\n\n\r\nBall left the game in the the final 2:30 after landing on the foot of Thunder center Isaiah Hartenstein while they were fighting for a rebound.\n\n\r\nMinnesota made 17 of 39 3-pointers (43.6%) and outrebounded the short-handed Thunder 40-30. Oklahoma City was playing without injured 7-foot-3 rookie Aday Mara (shin contusion).\n\n\r\nMcDaniels made 11 of 15 shots and was four of five from beyond the arc for the Timberwolves (14-5), who have won 12 of their last 12 games.\n\n\r\nShai Gilgeous-Alexander scored 32 points and Ajay Mitchell added 25 for the Thunder (10-9), who have dropped six of nine amid the loss of three starters to long-term injuries.\n\n\r\nOklahoma City overcame a poor-shooting first quarter by outscoring the Timberwolves 37-21 in the second for a 53-47 halftime lead. Gilgeous-Alexander had 12 points in the quarter, including nine in the final three minutes.\n\n\r\nThe advantage grew to 73-63 on a 3-point play by SGA, but Minnesota responded with a 24-10 run to close out the third quarter. McDaniels made a pair of shots from distance, including a 26-footer at the buzzer to put the Timberwolves in front 87-83.\n\n\r\nOklahoma City pulled to within 105-104 on a 3-pointer by Mitchell but could not get any closer after that.\n\n\r\nUp next\r\nTimberwolves: Host Memphis on Friday night.\n\n\r\nThunder: Play at Milwaukee on Saturday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
-    },
-    {
-      "story_id": "50600988",
-      "headline": "Vancouver Canucks vs. Detroit Red Wings: Game Highlights",
-      "summary": "Vancouver Canucks vs. Detroit Red Wings: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/fd8f51c9-ac8a-45cc-bdf0-6646ad36cea5/fd8f51c9-ac8a-45cc-bdf0-6646ad36cea5.jpg",
-      "published_utc": "2026-11-26T03:20:30Z",
+      "story_id": "50601242",
+      "headline": "Nashville Predators vs. Dallas Stars: Game Highlights",
+      "summary": "Nashville Predators vs. Dallas Stars: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/4f78877d-1683-43b8-b2a7-8b76a861fc93/4f78877d-1683-43b8-b2a7-8b76a861fc93.jpg",
+      "published_utc": "2026-11-26T03:46:43Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50600988/game-highlights",
+      "link": "https://www.espn.com/video/clip/_/id/50601242/game-highlights",
       "stream_url": "",
       "body": ""
+    },
+    {
+      "story_id": "50601237",
+      "headline": "Randle scores 28 points to lead Nets past Bucks 104-97 in NBA Cup action",
+      "summary": "\u2014 Julius Randle scored 28 points and Noah Clowney had 17 as the Brooklyn Nets beat the Milwaukee Bucks 104-97 to snap a five-game losing streak on Wednesday night in NBA Cup play.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909322.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-26T03:45:32Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nba/recap?gameId=401909322",
+      "stream_url": "",
+      "body": "MILWAUKEE -- \u2014 Julius Randle scored 28 points and Noah Clowney had 17 as the Brooklyn Nets beat the Milwaukee Bucks 104-97 to snap a five-game losing streak on Wednesday night in NBA Cup play.\n\n\r\nEgor Demin added 15, Michael Porter Jr. had 12 points and 11 rebounds and Day\u2019Ron Sharpe chipped in with 11 points and 14 rebounds for Brooklyn, which improved to 1-2 in NBA Cup group play.\n\n\r\nTyler Herro scored 28 points, Jaime Jaquez Jr. had 21 and Kyle Kuzma and Kel\u2019el Ware 13 apiece for the Bucks, who fell to 0-3 in the NBA Cup group that also includes Detroit, Orlando and Toronto.\n\n\r\nThe Bucks, who snapped a 13-game losing streak by beating the Toronto Raptors 116-111 on Monday night, jumped out to a 9-2 first-quarter lead but the Nets countered with a 16-2 run to pull ahead. Brooklyn led 28-24 after the opening period.\n\n\r\nThe Nets built a 13-point lead in the second quarter and led 51-47 at the half after a late Bucks push. Randle had 16 first-half points while Sharpe had 10 rebounds.\n\n\r\nMilwaukee took a 56-55 lead on Herro's 3-pointer early in the third and led by six in the quarter, but Brooklyn regained control and led 76-71 headed to the fourth.\n\n\r\nThe Nets, who were routed by the Minnesota Timberwolves 142-116 on Monday night, pushed the lead to double digits in the final period and held off the Bucks down the stretch.\n\n\r\nNets center Moe Wagner departed with left knee soreness.\n\n\r\nUp next\r\nNets: At Toronto on Friday night.\n\n\r\nBucks: At Detroit on Friday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50473334",
@@ -9774,32 +9774,32 @@
       "body": "Ryan Papenhuyzen empathises with Cameron Munster but believes Melbourne must prioritise keeping Harry Grant if the NRL powerhouse can't hold on to both superstars.\n\nMunster on Tuesday rejected an offer from the Storm believed to be for one year with the option of another season, labelling the terms \"disappointing\".\n\nThe Storm are also fighting to keep Grant, and Papenhuyzen was unequivocal when asked on Wednesday who the club should target if salary-cap pressures meant only one of the newly crowned Australian World Cup winners could stay.\n\n\"I went through something similar as Munster where I thought the club had low-balled me,\" the happily retired 2020 premiership-winning hero told AAP.\n\n\"But having my time out of the game now, they've got their reasons for offering those certain amounts and it might not be enough (for Munster).\n\n\"Penrith have done it for years and years. They get to a point where they can't hold their players and they've got a price for their players.\n\n\"So I understand Munster's perspective. He wants to earn as much as he can in his career and he wants to win a premiership, so that probably limits his opportunities.\n\n\"If a club's got money and they're in a premiership window, it's probably a good chance he'll go to that club.\"\n\nAt 28, skipper Grant is four years younger than Munster and more important long-term to the Storm, Papenhuyzen believes.\n\n\"Harry's done a brilliant job in terms of leadership,\" the ex-Clive Churchill Medallist turned caddy said after playing in the Australian PGA Championship pro-am in Sydney.\n\n\"The amount of care he has for everyone in that group and the way he thinks about the game, I feel really sorry for him over the last 12 months (when Melbourne missed the finals) because he's always trying to find new ideas to bring everyone.\n\n\"He's a great leader for that club going forward. I'd hate to see him go because he's a player you want to build a club around and I guess Munster is towards the back end of his career.\n\n\"He had a great World Cup, but World Cups are different to NRL seasons. You've got to lock in for a month with that, and an NRL season's a long time.\"\n\nPressed on who he'd keep as a priority, Papenhuyzen said: \"Harry's probably the one leadership-wise. Just his qualities are really admirable.\n\n\"You know what Munster brings to the game. He gives you confidence standing next to him, knowing what he's going do, but I just think Harry ...\"\n\nWith coach Craig Bellamy confirming he is moving on at the end of 2027, Papenhuyzen also suspects Grant might be a better for the Storm's new mentor, whomever that may be.\n\n\"Harry's really respected and in terms of trying to keep the culture, he's very open-minded too,\" the BMW golf correspondent said.\n\n\"He's open to new ideas, whereas Munster is very much like Bellamy - he's sort of got his way and it's worked for him for so long.\n\n\"Whatever they both decide to do, you can't judge them. It's never a right or wrong decision.\"\n\nPapenhuyzen believes it would be \"awesome\" if Billy Slater succeeded Bellamy, but suspects \"life is too good\" for the Storm legend to be a head NRL coach.\n\n\"I love Jyles. If he went back there, I'd be awfully encouraged of how well they're going to go. They'd probably be my two.\"\n\nBut Papenhuyzen, also open to helping out the new coach, nominated Bellamy's son Aaron as a left-field option.\n\n\"Aaron's awesome with people,\" he said.\n\n\"He's awesome with the wider playing group and he understands that Craig sometimes pushes the boundaries. Aaron's a bit more like Wendy - Craig's, Craig's wife.\n\n\"They're both a bit more more gentle, so you've got that loving, nurturing side and potentially (he could do the job).\n\n\"I do know you just need people around you. We'd be silly to say the coach controls everything.\""
     },
     {
-      "story_id": "50601141",
-      "headline": "LA Clippers vs. Memphis Grizzlies: Game Highlights",
-      "summary": "LA Clippers vs. Memphis Grizzlies: Game Highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/ecfc0e27-e144-4a69-995d-0b8df652bd6b/ecfc0e27-e144-4a69-995d-0b8df652bd6b.jpg",
-      "published_utc": "2026-11-26T03:39:16Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50601141/game-highlights",
-      "stream_url": "",
-      "body": ""
-    },
-    {
-      "story_id": "50600942",
-      "headline": "Finnie, Arvidsson each have 3 points in Red Wings' 5-1 win over Canucks",
-      "summary": "\u2014 Emmitt Finnie scored two early goals to lead the Detroit Red Wings to a 5-1 victory over the Vancouver Canucks on Wednesday night in a battle of last-place teams.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892789.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-26T03:16:32Z",
+      "story_id": "50601202",
+      "headline": "Mavrik Bourque returns to Dallas and scores his first goal for Nashville in 3-1 win",
+      "summary": "\u2014 Mavrick Bourque scored his first goal for Nashville, getting it against the team that traded him nearly five months ago as the Predators beat Dallas 3-1 on...",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892790.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-26T03:43:33Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892789",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892790",
       "stream_url": "",
-      "body": "DETROIT -- \u2014 Emmitt Finnie scored two early goals to lead the Detroit Red Wings to a 5-1 victory over the Vancouver Canucks on Wednesday night in a battle of last-place teams.\n\n\r\nFinnie added an assist and Viktor Arvidsson had a goal and two assists for Detroit, which had lost seven of eight. Lucas Raymond and J.T. Compher also scored and Daniil Tarasov made 25 saves.\n\n\r\nVancouver had won three of five since breaking a 1-16-1 skid.\n\n\r\nFinnie got his first at 1:16, tipping in Arvidsson's shot from the right wing, then made it 2-0 at 4:05 by knocking in the rebound of Marco Kasper's shot.\n\n\r\nFinnie was the first Red Wings player to score twice in the first five minutes of a game since Brett Hull had two in the first 3:56 of a 5-2 win over the St. Louis Blues on Jan. 26, 2002. Hull finished that game with five points \u2014 three goals and two assists.\n\n\r\nRaymond made it 3-0 with a power-play goal with 57 seconds left in the first. Moritz Seider fed him the puck at the right faceoff spot, and he beat a screened Merilainen for his 10th goal of the season.\n\n\r\nCompher got Detroit's fourth goal at 6:24 of the second period, tapping in Michael Brandsegg-Nygard's pass at the back post.\n\n\r\nPaul Cotter ruined Tarasov's shutout bid with a goal at 7:26 of the third, but Arvidsson restored the four-goal lead at 8:08.\n\n\r\nDetroit outscored Vancouver 10-3 while sweeping the two-game season series.\n\n\r\nUp next\r\nCanucks: At Philadelphia on Friday.\n\n\r\nRed Wings: At Columbus on Friday.\n\n\r\n------ See AP\u2019s full NHL coverage here"
+      "body": "DALLAS -- \u2014 Mavrick Bourque scored his first goal for Nashville, getting it against the team that traded him nearly five months ago as the Predators beat Dallas 3-1 on Wednesday night to end the Stars' five-game winning streak.\n\n\r\nPredators goalie Juuse Saros stopped 20 shots, and withstood a flurry of activity in front of his net toward the end of the Stars' only power play with about 5 1/2 minutes left.\n\n\r\nBourque put Nashville ahead to stay when he scored with just under a minute left in the first period, taking a pass from Brady Skjei and then sliding across the center of the circle before sending a wrister past former teammate Jake Oettinger. The 24-year-old Bourque raised both arms in the air and glanced upward with an expression of relief after finally scoring a goal in his 20th game, though he already had five assists.\n\n\r\nOettinger was coming off his NHL-leading fifth shutout three nights earlier in a 1-0 win over Pittsburgh when he had 33 saves. He stopped 24 shots against the Predators, who won for the ninth time in 11 games.\n\n\r\nWyatt Johnston scored with 35 seconds left for the Stars to avoid being shut out for the first time since a 4-0 loss to St. Louis in their season opener Oct. 1. That came between a pair of empty-net goals for Nashville, Ross Colton with 1:11 left and Jack Drury with 15 seconds left.\n\n\r\nDallas traded Bourque because of salary cap issues to the Predators at the start of free agency July 1. Bourque a restricted free agent due for a big bump from his $950,000 salary last season, and got a $33 million, six-year contract ($5.5 million a season) from the Predators.\n\n\r\nA first-round draft pick by the Stars in 2020, Bourque made his NHL debut at the end of 2023-24 season. He had 20 goals and 21 assists playing all 82 regular-season games last season.\n\n\r\nUp next\r\nPredators: Host Utah on Friday.\n\n\r\nStars: At St. Louis on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+    },
+    {
+      "story_id": "50601186",
+      "headline": "Wells and Jerome lead the Grizzlies to a 115-97 win over the Clippers, who fall to 0-9 on the road",
+      "summary": "\u2014 Jaylen Wells scored 19 points, Ty Jerome added 17 points and seven assists, and the Memphis Grizzles beat the Clippers 115-70 on Wednesday night in an NBA Cup game, dropping Los Angeles to 0-9 on the road.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909321.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-26T03:42:32Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nba/recap?gameId=401909321",
+      "stream_url": "",
+      "body": "MEMPHIS, Tenn. -- \u2014 Jaylen Wells scored 19 points, Ty Jerome added 17 points and seven assists, and the Memphis Grizzles beat the Clippers 115-70 on Wednesday night in an NBA Cup game, dropping Los Angeles to 0-9 on the road.\n\n\r\nThe Clippers finished their current trip at 0-4, with each loss by at least 10 points. They are the only NBA team without a road win this season.\n\n\r\nCam Spencer scored 16 points and Cedric Coward finished with 14 points and 10 rebounds for Memphis, which has won seven of eight. The Grizzlies will meet the Timberwolves on Friday for the top spot in West Group B.\n\n\r\nBrandon Ingram, who made his first appearance of the season in Monday's loss at Houston, led the Clippers with 18 points. Ingram missed LA's first 15 games with a right heel injury. Rui Hachimura had 14 points and 12 rebounds, and Darius Garland, rookie Keaton Wagler and Kris Dunn finished with 12 points each.\n\n\r\nMemphis built an early 20-point lead as the Clippers struggled from the field. The shooting got better for Los Angeles, which trailed 50-43 at the half.\n\n\r\nThe teams \u2014 tops in the league from 3-point range \u2014 were a combined 8 of 37 from beyond the arc in the first half. That included the starting Grizzlies backcourt of Coward and Jerome missing all 11 of their 3-point attempts.\n\n\r\nThe Clippers turned it into a one-possession game early in the third, but Memphis responded with an 18-2 run.\n\n\r\nLos Angeles never got closer than 13 in the fourth.\n\n\r\nUp next\r\nClippers: Host New Orleans on Friday.\n\n\r\nGrizzlies: At Minnesota on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
     },
     {
       "story_id": "50318517",
@@ -9957,60 +9957,72 @@
         },
         {
           "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/2/1",
-          "label": "VidQ FHD@50fps \u2014 Full Show",
+          "label": "VidFrame SD \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/3/1",
-          "label": "OK.ru FHD \u2014 Full Show",
+          "label": "VidQ FHD@50fps \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/4/1",
-          "label": "Other Hosts \u2014 Abyss (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/4/2",
-          "label": "Other Hosts \u2014 StreamW (HD)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/4/3",
-          "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "label": "VidQ SD \u2014 Full Show",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/5/1",
+          "label": "OK.ru FHD \u2014 Full Show",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/6/1",
+          "label": "Other Hosts \u2014 Abyss (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/6/2",
+          "label": "Other Hosts \u2014 StreamW (HD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/6/3",
+          "label": "Other Hosts \u2014 VOE.sx (SD)",
+          "part": false,
+          "live": false
+        },
+        {
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/7/1",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 1",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/5/2",
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/7/2",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 2",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/5/3",
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/7/3",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 3",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/5/4",
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/7/4",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 4",
           "part": true,
           "live": true
         },
         {
-          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/5/5",
+          "url": "https://dailywrestling.cc/embed/etimanyd/11-25-2026/select-post-1/7/5",
           "label": "Dailymotion FHD (Live replay) \u2014 Part 5",
           "part": true,
           "live": true
