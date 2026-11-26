@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T05:33:48.981219+00:00",
+  "generated_utc": "2026-11-26T05:43:40.012563+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875009",
@@ -4225,7 +4225,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-26T03:00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:24",
         "name": "Anaheim Ducks",
@@ -4255,7 +4255,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "Honda Center",
       "detail": "",
       "game_number": 1,
@@ -4317,7 +4317,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-26T03:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:22",
         "name": "Portland Trail Blazers",
@@ -4347,9 +4347,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Moda Center",
-      "detail": "1:07 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -9652,18 +9652,32 @@
   ],
   "stories": [
     {
-      "story_id": "50601981",
-      "headline": "Toews scores 2 quick goals in 2nd period, Blackwood sharp in net as Avalanche beat Canadiens 6-0",
-      "summary": "\u2014 Devon Toews scored twice in a 1:33 span during the second period, Mackenzie Blackwood stopped 27 shots and the refreshed Colorado Avalanche beat the...",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892792.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-26T05:29:33Z",
+      "story_id": "50601999",
+      "headline": "De'Anthony Melton scores 24 points, matches career high with eight 3s as Warriors beat Kings 129-110",
+      "summary": "\u2014 De'Anthony Melton scored 24 points and matched his career high with eight 3-pointers and the Golden State Warriors made 20 total 3s on the way to a 129-110 win over the Sacramento Kings in an NBA Cup game on Wednesday night.",
+      "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909324.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-26T05:33:42Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "http://www.espn.com/nba/recap?gameId=401909324",
+      "stream_url": "",
+      "body": "SAN FRANCISCO -- \u2014 De'Anthony Melton scored 24 points and matched his career high with eight 3-pointers and the Golden State Warriors made 20 total 3s on the way to a 129-110 win over the Sacramento Kings in an NBA Cup game on Wednesday night.\n\n\r\nGui Santos scored 22 points off the bench for Golden State as the reserves contributed a season-best 61 points. Melton shot 8 for 14 in his third 20-point performance of the season and added seven assists.\n\n\r\nGolden State had 37 assists and improved to 2-4 during this recent stretch without Stephen Curry, who is scheduled to be re-evaluated Friday after missing two weeks with a torn right oblique abdominal muscle.\n\n\r\nCharles Bassey had 10 points and seven rebounds in Golden State's second consecutive win after the Warriors beat the Boston Celtics 88-87 on Sunday to snap a five-game losing streak. Sacramento (2-16) had also held off the Celtics by one point a night earlier for just its second win and first at home.\n\n\r\nDomantas Sabonis had 27 points, 10 rebounds and six assists, rookie Darius Acuff Jr. added 22 points and nine assists and Keegan Murray added 18 points for the Kings.\n\n\r\nEmanuel Sharp's 3-pointer with 4:34 left in the third pulled Sacramento within 85-81 only for Will Richard to make a baseline 3 moments later.\n\n\r\nThe Warriors hit seven of their initial eight 3-pointers to take a 33-16 lead \u2014 44-19 after the opening quarter for their most points in any period this season \u2014 and wound up 20 for 44 from long range.\n\n\r\nRookie Yaxel Lendeborg had 15 points and eight rebounds as Golden State matched its most points in a first half with 72.\n\n\r\nGolden State's Brandon Williams returned from a six-game absence because of a strained left hamstring and had 14 points and three assists in 12 minutes.\n\n\r\nUp next\r\nKings: Host the Timberwolves on Sunday night.\n\n\r\nWarriors: Visit Portland on Friday night.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NBA coverage here"
+    },
+    {
+      "story_id": "50601984",
+      "headline": "Montreal Canadiens vs. Colorado Avalanche: Game Highlights",
+      "summary": "Montreal Canadiens vs. Colorado Avalanche: Game Highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/84cf0693-98e5-4f37-9152-a3c5d4a1eecd/84cf0693-98e5-4f37-9152-a3c5d4a1eecd.jpg",
+      "published_utc": "2026-11-26T05:30:23Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892792",
+      "link": "https://www.espn.com/video/clip/_/id/50601984/game-highlights",
       "stream_url": "",
-      "body": "DENVER -- \u2014 Devon Toews scored twice in a 1:33 span during the second period, Mackenzie Blackwood stopped 27 shots and the refreshed Colorado Avalanche beat the Montreal Canadiens 6-0 on Wednesday night.\n\n\r\nArtturi Lehkonen, Logan O\u2019Connor, Martin Necas and Gabriel Landeskog also had goals for the Avalanche, who were back in action for the first time since a 4-0 win over Anaheim last Thursday. Colorado looked energized by the break, especially in the second period with a three-goal spurt.\n\n\r\nColorado posted its the third consecutive home shutout, with Blackwood responsible for two and Scott Wedgewood one. It's the second time in Avalanche history they have notched three straight home shutouts, according to NHL research. They also accomplished the feat in November 2001 behind Hall of Fame goaltender Patrick Roy.\n\n\r\nThe Canadiens dropped to 0-2 since acquiring Dylan Larkin in a deal with Detroit. Jacob Fowler stopped 32 shots.\n\n\r\nCale Makar had three assists in his return after missing three games with a lower-body injury.\n\n\r\nColorado outscored Montreal 10-1 in the two meetings this season. The game turned chippy in the third. Florian Xhekaj drew a major near the end of the contest.\n\n\r\nDefenseman Brent Burns took a hit in the back from Arber Xhekaj late in the third period and momentarily stayed down on the ice before heading to the bench. Burns has played in 1,031 straight games. He's 33 away from tying the NHL\u2019s streak for consecutive games held by Phil Kessel (1,064).\n\n\r\nParker Kelly appeared to catch the blade of Arber Xhekaj's skate near his wrist after a hit in the corner during the second period. Kelly went to the locker room moments after the play but returned to the bench.\n\n\r\nUp next\r\nCanadiens: At Vegas on Saturday.\n\n\r\nAvalanche: At Minnesota on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": ""
     },
     {
       "story_id": "50601719",
@@ -9678,20 +9692,6 @@
       "link": "http://www.espn.com/nfl/recap?gameId=401873079",
       "stream_url": "",
       "body": "INGLEWOOD, Calif. -- \u2014 Blake Corum rushed for a career-high 184 yards and a touchdown, Kyren Williams ran for another score and the Los Angeles Rams used a relentless ground game to pound out their fifth consecutive victory, 26-13 over the Green Bay Packers on Wednesday night.\n\n\r\nCorum extended his breakout season with another standout effort on his 26th birthday, carrying the ball a whopping 32 times and scoring a TD in his seventh consecutive game. The Rams (7-4) stayed firmly in the NFC playoff race with 241 total yards rushing and another stout defensive performance, holding the Packers to 244 total yards.\n\n\r\n\u201cWhat you learn is, every single week you\u2019ve got to adjust and adapt,\u201d Rams coach Sean McVay said. \u201cThe game honors toughness, and I think we\u2019re playing tougher. We\u2019re learning how to establish possession.\u201d\n\n\r\nIndeed, Los Angeles controlled the ball for 23:45 in the second half, squeezing the life from the Packers inside a lively SoFi Stadium for this Thanksgiving Eve matchup.\n\n\r\nThe Rams did it behind Corum, whose 32 carries were the most in the NFL this season and the most by any Rams running back in McVay's 10-year career. Corum had 25 carries for 161 yards in the second half alone while Los Angeles stayed in control.\n\n\r\n\u201cWe knew coming in that we would have to be a physical team, and I think we were the more physical team tonight,\u201d Corum said.\n\n\r\nJordan Love passed for 198 yards with two interceptions for the Packers (6-5), who have lost two straight for the first time since losing their final five games last season. Green Bay only had the ball for 19:20 \u2014 just 6:15 in the second half \u2014 in a loss that pushed it farther from playoff contention.\n\n\r\nChristian Watson had four catches for 65 yards and an early touchdown, but the star receiver was ruled out just before halftime with a concussion on a hard hit from Rams safety Kam Kinchens, who was ejected.\n\n\r\n\u201cLosing the turnover battle, and then on top of that, our inability to stop the run \u2014 which is exactly what we knew they were going to do \u2014 that was a recipe for disaster, and tonight it was,\u201d Packers coach Matt LaFleur said.\n\n\r\nMicah Parsons had a sack in his season debut, but Green Bay's defense couldn't thwart the Rams' methodical ground attack.\n\n\r\nMcVay has changed his offense's focus with star receivers Puka Nacua and Davante Adams both injured for the past two games.\n\n\r\nNFL MVP Matthew Stafford passed for just 140 yards against the Packers while LA ran the ball 47 times despite losing two starters from in the second half from an offensive line that was already down two previous starters.\n\n\r\nBrandon McManus also kicked four field goals against his former team for the Rams, who snapped their five-game skid in their rivalry with the Packers. McVay finally earned his first victory over LaFleur, his offensive coordinator in Los Angeles in his debut season in 2017.\n\n\r\nRams linebacker Nate Landman produced his fourth forced fumble of the season on the Packers' second drive, leading to Los Angeles' second field goal. Williams scored from 7 yards out early in the second quarter, giving the Rams points on their first three drives for the first time all season.\n\n\r\nGreen Bay responded with a confident 80-yard drive for Watson's short TD catch, but Watson was injured on Kinchens' hit shortly before halftime.\n\n\r\nAfter the Rams made a 14-play drive out of halftime ending with Corum's 1-yard TD plunge, they were rolling downfield again until Ty'Ron Hopper picked off Stafford's underthrown pass \u2014 but two plays later, Jaylen McCollough intercepted Love's inaccurate throw to the goal line.\n\n\r\nRosey recognized by Rams\r\nThe Rams debuted their Fearsome White uniforms created in tribute to the 1960s teams led by the Fearsome Foursome defensive line. Rosey Grier, the 94-year-old member of that famed group, wore the jersey to the game and got a huge ovation when he was honored during a timeout.\n\n\r\nInjuries\r\nPackers: RB Josh Jacobs missed his second straight game with a finger injury. ... RG Kevin Zeitler got his first start, but left in the second quarter with an ankle injury. ... Edge rusher Barryn Sorrell injured his thumb in the third quarter.\n\n\r\nRams: TE Davis Allen injured his ankle in the second quarter and didn't return. ... TE Tyler Higbee then left in the second half with a chest injury. ... RT Warren McClendon Jr. limped off in the fourth quarter, and on the next play, LG Bill Murray left with an injury. McClendon eventually returned.\n\n\r\nUp next\r\nPackers: At New Orleans on Sunday, Dec. 6.\n\n\r\nRams: Host Kansas City on Thursday, Dec. 3.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NFL coverage here"
-    },
-    {
-      "story_id": "50601808",
-      "headline": "Who wore fur better: Shaq or Chet Holmgren?",
-      "summary": "Who wore fur better: Shaq or Chet Holmgren?",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/bbc28b27-4025-430f-8aab-5c84fb60baff/bbc28b27-4025-430f-8aab-5c84fb60baff.jpg",
-      "published_utc": "2026-11-26T04:56:17Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50601808/shaq-chet-holmgren",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50473334",
@@ -9820,18 +9820,32 @@
       "body": "Ryan Papenhuyzen empathises with Cameron Munster but believes Melbourne must prioritise keeping Harry Grant if the NRL powerhouse can't hold on to both superstars.\n\nMunster on Tuesday rejected an offer from the Storm believed to be for one year with the option of another season, labelling the terms \"disappointing\".\n\nThe Storm are also fighting to keep Grant, and Papenhuyzen was unequivocal when asked on Wednesday who the club should target if salary-cap pressures meant only one of the newly crowned Australian World Cup winners could stay.\n\n\"I went through something similar as Munster where I thought the club had low-balled me,\" the happily retired 2020 premiership-winning hero told AAP.\n\n\"But having my time out of the game now, they've got their reasons for offering those certain amounts and it might not be enough (for Munster).\n\n\"Penrith have done it for years and years. They get to a point where they can't hold their players and they've got a price for their players.\n\n\"So I understand Munster's perspective. He wants to earn as much as he can in his career and he wants to win a premiership, so that probably limits his opportunities.\n\n\"If a club's got money and they're in a premiership window, it's probably a good chance he'll go to that club.\"\n\nAt 28, skipper Grant is four years younger than Munster and more important long-term to the Storm, Papenhuyzen believes.\n\n\"Harry's done a brilliant job in terms of leadership,\" the ex-Clive Churchill Medallist turned caddy said after playing in the Australian PGA Championship pro-am in Sydney.\n\n\"The amount of care he has for everyone in that group and the way he thinks about the game, I feel really sorry for him over the last 12 months (when Melbourne missed the finals) because he's always trying to find new ideas to bring everyone.\n\n\"He's a great leader for that club going forward. I'd hate to see him go because he's a player you want to build a club around and I guess Munster is towards the back end of his career.\n\n\"He had a great World Cup, but World Cups are different to NRL seasons. You've got to lock in for a month with that, and an NRL season's a long time.\"\n\nPressed on who he'd keep as a priority, Papenhuyzen said: \"Harry's probably the one leadership-wise. Just his qualities are really admirable.\n\n\"You know what Munster brings to the game. He gives you confidence standing next to him, knowing what he's going do, but I just think Harry ...\"\n\nWith coach Craig Bellamy confirming he is moving on at the end of 2027, Papenhuyzen also suspects Grant might be a better for the Storm's new mentor, whomever that may be.\n\n\"Harry's really respected and in terms of trying to keep the culture, he's very open-minded too,\" the BMW golf correspondent said.\n\n\"He's open to new ideas, whereas Munster is very much like Bellamy - he's sort of got his way and it's worked for him for so long.\n\n\"Whatever they both decide to do, you can't judge them. It's never a right or wrong decision.\"\n\nPapenhuyzen believes it would be \"awesome\" if Billy Slater succeeded Bellamy, but suspects \"life is too good\" for the Storm legend to be a head NRL coach.\n\n\"I love Jyles. If he went back there, I'd be awfully encouraged of how well they're going to go. They'd probably be my two.\"\n\nBut Papenhuyzen, also open to helping out the new coach, nominated Bellamy's son Aaron as a left-field option.\n\n\"Aaron's awesome with people,\" he said.\n\n\"He's awesome with the wider playing group and he understands that Craig sometimes pushes the boundaries. Aaron's a bit more like Wendy - Craig's, Craig's wife.\n\n\"They're both a bit more more gentle, so you've got that loving, nurturing side and potentially (he could do the job).\n\n\"I do know you just need people around you. We'd be silly to say the coach controls everything.\""
     },
     {
-      "story_id": "50601379",
-      "headline": "Mammoth's 4-3 win gives the Wild their first regulation loss in 16 games to end a franchise-best run",
-      "summary": "\u2014 Logan Cooley and Dylan Guenther each had a goal and an assist for the Utah Mammoth in a 4-3 win over the Minnesota Wild on Wednesday night. It was the first regulation loss for Minnesota in 16 games.",
-      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892791.png?templateId=espn.all.awayhome.16x9.2",
-      "published_utc": "2026-11-26T04:29:33Z",
+      "story_id": "50601808",
+      "headline": "Who wore fur better: Shaq or Chet Holmgren?",
+      "summary": "Who wore fur better: Shaq or Chet Holmgren?",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/bbc28b27-4025-430f-8aab-5c84fb60baff/bbc28b27-4025-430f-8aab-5c84fb60baff.jpg",
+      "published_utc": "2026-11-26T04:56:17Z",
+      "competition_id": "nba",
+      "competition_name": "NBA",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50601808/shaq-chet-holmgren",
+      "stream_url": "",
+      "body": ""
+    },
+    {
+      "story_id": "50601981",
+      "headline": "Toews scores 2 quick goals in 2nd period, Blackwood sharp in net as Avalanche beat Canadiens 6-0",
+      "summary": "\u2014 Devon Toews scored twice in a 1:33 span during the second period, Mackenzie Blackwood stopped 27 shots and the refreshed Colorado Avalanche beat the...",
+      "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892792.png?templateId=espn.all.awayhome.16x9.2",
+      "published_utc": "2026-11-26T05:29:33Z",
       "competition_id": "nhl",
       "competition_name": "NHL",
       "byline": "",
       "source": "ESPN",
-      "link": "http://www.espn.com/nhl/recap?gameId=401892791",
+      "link": "http://www.espn.com/nhl/recap?gameId=401892792",
       "stream_url": "",
-      "body": "ST. PAUL, Minn. -- \u2014 Logan Cooley and Dylan Guenther each had a goal and an assist for the Utah Mammoth in a 4-3 win over the Minnesota Wild on Wednesday night. It was the first regulation loss for Minnesota in 16 games.\n\n\r\nBlake Coleman had two goals and Bobby Brink also scored for the Western Conference-leading Wild (18-4-5), who were a franchise-best 12-0-3 in their previous 15 games.\n\n\r\nAfter Coleman cut the deficit to one with 4:04 left, Mammoth center Barret Hayton was whistled 19 seconds later for a double-minor penalty for high-sticking Joel Eriksson Ek. The Wild had a power play for the remainder of regulation but managed only two shots.\n\n\r\nKarel Vejmelka made 22 saves for his first win in seven starts since Oct. 24 and Lawson Crouse and Dmitri Simashev scored for the Mammoth, whose second-period leads of 3-1 and 4-2 gave the Wild a two-goal deficit for the first time since their last regulation loss at Calgary on Oct. 22.\n\n\r\nCrouse\u2019s tip-in of Vincent Trocheck\u2019s shot in the first period stopped Minnesota\u2019s scoring-first streak at 15 straight games. That was tied for the second-longest run in NHL history and best in the league since Montreal in 1972. The Canadiens have the record with 18 consecutive games, set during the 1959-60 season.\n\n\r\nKirill Kaprizov\u2019s franchise-record streak of 15 straight games with a point ended, as did his run of six consecutive games with multiple assists. That was the second-longest streak in NHL history, behind Wayne Gretzky's eight in 1984.\n\n\r\nKaprizov went without a point for just the third time in 27 games, with linemates Eriksson Ek and Matt Boldy also producing at a prolific rate this season. The Wild played without star defenseman Quinn Hughes for the third straight game with an undisclosed injury.\n\n\r\nUp next\r\nMammoth: At Nashville on Friday.\n\n\r\nWild: Host Colorado on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
+      "body": "DENVER -- \u2014 Devon Toews scored twice in a 1:33 span during the second period, Mackenzie Blackwood stopped 27 shots and the refreshed Colorado Avalanche beat the Montreal Canadiens 6-0 on Wednesday night.\n\n\r\nArtturi Lehkonen, Logan O\u2019Connor, Martin Necas and Gabriel Landeskog also had goals for the Avalanche, who were back in action for the first time since a 4-0 win over Anaheim last Thursday. Colorado looked energized by the break, especially in the second period with a three-goal spurt.\n\n\r\nColorado posted its the third consecutive home shutout, with Blackwood responsible for two and Scott Wedgewood one. It's the second time in Avalanche history they have notched three straight home shutouts, according to NHL research. They also accomplished the feat in November 2001 behind Hall of Fame goaltender Patrick Roy.\n\n\r\nThe Canadiens dropped to 0-2 since acquiring Dylan Larkin in a deal with Detroit. Jacob Fowler stopped 32 shots.\n\n\r\nCale Makar had three assists in his return after missing three games with a lower-body injury.\n\n\r\nColorado outscored Montreal 10-1 in the two meetings this season. The game turned chippy in the third. Florian Xhekaj drew a major near the end of the contest.\n\n\r\nDefenseman Brent Burns took a hit in the back from Arber Xhekaj late in the third period and momentarily stayed down on the ice before heading to the bench. Burns has played in 1,031 straight games. He's 33 away from tying the NHL\u2019s streak for consecutive games held by Phil Kessel (1,064).\n\n\r\nParker Kelly appeared to catch the blade of Arber Xhekaj's skate near his wrist after a hit in the corner during the second period. Kelly went to the locker room moments after the play but returned to the bench.\n\n\r\nUp next\r\nCanadiens: At Vegas on Saturday.\n\n\r\nAvalanche: At Minnesota on Friday.\n\n\r\n------\n\n\r\n\r\nSee AP\u2019s full NHL coverage here"
     },
     {
       "story_id": "50601743",
@@ -9846,20 +9860,6 @@
       "link": "https://www.espn.com/video/clip/_/id/50601743/rams-pick-important-home-win-packers",
       "stream_url": "",
       "body": ""
-    },
-    {
-      "story_id": "47987750",
-      "headline": "Which NBA players have the most triple-doubles of all time?",
-      "summary": "Russell Westbrook holds the NBA record for most triple-doubles in a career. See who else joins him on the list.",
-      "image": "https://a.espncdn.com/photo/2026/0220/r1617781_608x342_16-9.jpg",
-      "published_utc": "2026-11-26T04:43:10Z",
-      "competition_id": "nba",
-      "competition_name": "NBA",
-      "byline": "Keith Jenkins",
-      "source": "ESPN",
-      "link": "https://www.espn.com/nba/story/_/id/47987750/which-nba-players-most-triple-doubles-all",
-      "stream_url": "",
-      "body": "Russell Westbrook has more than earned the nickname Mr. Triple Double.\n\nIn basketball, a triple-double is when a player compiles a double-digit total in three of five statistical categories (assists, blocks, points, rebounds and steals) over the course of a game. Blocks and steals were officially recorded by the NBA starting in the 1973-74 season. No player in NBA history has recorded more triple-doubles than Westbrook.\n\nOn May 10, 2021, Westbrook became the NBA's career leader in triple-doubles, tallying 28 points, 13 rebounds and 21 assists for the Washington Wizards in a 125-124 loss against the Atlanta Hawks. It marked the 182nd triple-double of Westbrook's career, passing Oscar Robertson for the most on the all-time list.\n\nAssist your wardrobe with NBA gear from Fanatics\n\nNikola Joki\u0107 also has since passed Robertson, whose record stood for more than 47 years.\n\nWestbrook had already broken Robertson's record for the most triple-doubles in a single NBA season (41), recording 42 during the 2016-17 campaign.\n\nHere is a look at the players with the most triple-doubles in NBA history:\n\nRussell Westbrook, 209\nNikola Joki\u0107*, 202\nOscar Robertson, 181\nMagic Johnson, 138\nLeBron James*, 126\nWilt Chamberlain, 109\nJason Kidd, 107\nLuka Don\u010di\u0107*, 90\nJames Harden*, 82\nDomantas Sabonis*, 69\nLarry Bird, 59\nGiannis Antetokounmpo*, 58\nFat Lever, 43\nDraymond Green*, 33\nBen Simmons*, 33\nBob Cousy, 33\nJosh Giddey*, 33\nRajon Rondo, 32\nJohn Havlicek, 31\nGrant Hill, 29\nMichael Jordan, 28\nElgin Baylor, 26\nClyde Drexler, 25\nWalt Frazier, 23\nKareem Abdul-Jabbar, 22\nBill Russell, 22\n\n*Active\n\nCheck out the ESPN NBA hub page for the latest news, analysis, scores, stats, schedules and more."
     },
     {
       "story_id": "50318517",
