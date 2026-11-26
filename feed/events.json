@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T23:48:48.871204+00:00",
+  "generated_utc": "2026-11-26T23:57:20.700081+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875009",
@@ -4542,6 +4542,51 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401921673",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-26T21:30Z",
+      "status": "live",
+      "home": {
+        "id": "espn:328",
+        "name": "Utah State Aggies",
+        "abbrev": "USU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+        "logo_dark": null,
+        "aliases": [
+          "Aggies",
+          "USU",
+          "Utah State",
+          "Utah State Aggies"
+        ],
+        "color": "0f2439"
+      },
+      "away": {
+        "id": "espn:30",
+        "name": "USC Trojans",
+        "abbrev": "USC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+        "logo_dark": null,
+        "aliases": [
+          "Trojans",
+          "USC",
+          "USC Trojans"
+        ],
+        "color": "9d2235"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "in/In Progress",
+      "venue": "Acrisure Arena",
+      "detail": "0:07 - 2nd Half",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:basketball:401925757",
       "sport": "basketball",
       "competition_id": "ncaam",
@@ -4589,51 +4634,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:basketball:401921673",
-      "sport": "basketball",
-      "competition_id": "ncaam",
-      "competition_name": "College Basketball",
-      "start_utc": "2026-11-26T21:30Z",
-      "status": "live",
-      "home": {
-        "id": "espn:328",
-        "name": "Utah State Aggies",
-        "abbrev": "USU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
-        "logo_dark": null,
-        "aliases": [
-          "Aggies",
-          "USU",
-          "Utah State",
-          "Utah State Aggies"
-        ],
-        "color": "0f2439"
-      },
-      "away": {
-        "id": "espn:30",
-        "name": "USC Trojans",
-        "abbrev": "USC",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-        "logo_dark": null,
-        "aliases": [
-          "Trojans",
-          "USC",
-          "USC Trojans"
-        ],
-        "color": "9d2235"
-      },
-      "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
-      "venue": "Acrisure Arena",
-      "detail": "2:58 - 2nd Half",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401873080",
       "sport": "football",
       "competition_id": "nfl",
@@ -4669,9 +4669,9 @@
         "color": "06424d"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "AT&T Stadium",
-      "detail": "Halftime",
+      "detail": "11:15 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "kwjTjWkKtdw",
       "replay_url": "",
@@ -4716,7 +4716,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Jenny Craig Pavilion",
-      "detail": "15:14 - 2nd Half",
+      "detail": "12:29 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
