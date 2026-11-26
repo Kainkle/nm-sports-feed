@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T05:03:02.541781+00:00",
+  "generated_utc": "2026-11-26T05:12:47.905451+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401875009",
@@ -4209,7 +4209,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "Climate Pledge Arena",
       "detail": "",
       "game_number": 1,
@@ -4303,7 +4303,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Chase Center",
-      "detail": "7:56 - 4th Quarter",
+      "detail": "5:19 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4349,7 +4349,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Moda Center",
-      "detail": "11:46 - 4th Quarter",
+      "detail": "7:43 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5524,6 +5524,52 @@
       "source_status": "FUT/OK",
       "venue": "Bridgestone Arena",
       "detail": "",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401929288",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-27T18:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:235",
+        "name": "Memphis Tigers",
+        "abbrev": "MEM",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+        "logo_dark": null,
+        "aliases": [
+          "MEM",
+          "Memphis",
+          "Memphis Tigers",
+          "Tigers"
+        ],
+        "color": "004991"
+      },
+      "away": {
+        "id": "espn:154",
+        "name": "Wake Forest Demon Deacons",
+        "abbrev": "WAKE",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+        "logo_dark": null,
+        "aliases": [
+          "Demon Deacons",
+          "WAKE",
+          "Wake Forest",
+          "Wake Forest Demon Deacons"
+        ],
+        "color": "ceb888"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Imperial Arena",
+      "detail": "Fri, November 27th at 1:30 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
