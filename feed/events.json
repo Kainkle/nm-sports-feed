@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T03:01:31.936394+00:00",
+  "generated_utc": "2026-11-27T03:11:38.651106+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915380",
@@ -3514,7 +3514,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-27T00:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2567",
         "name": "SMU Mustangs",
@@ -3542,9 +3542,9 @@
         "color": "461d76"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Acrisure Arena",
-      "detail": "0:45 - OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3623,9 +3623,9 @@
         "color": "4d1979"
       },
       "source": "espn:football/college-football",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Galaxy Stadium",
-      "detail": "Halftime",
+      "detail": "14:03 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3669,9 +3669,9 @@
         "color": "e31837"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/Halftime",
+      "source_status": "in/In Progress",
       "venue": "Highmark Stadium",
-      "detail": "Halftime",
+      "detail": "11:36 - 3rd Quarter",
       "game_number": 1,
       "highlight_video_id": "qJxYJDD_MYk",
       "replay_url": "",
@@ -16185,37 +16185,19 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/11-26-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 TNT (Thunder) \u2014 Live FHD (CH 14)",
+          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live FHD (CH 11)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/11-26-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 TNT (Thunder) \u2014 Live HD (CH 15)",
+          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live HD (CH 12)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/noisilloc/11-26-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 TNT (Thunder) \u2014 Live SD (CH 16)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/11-26-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 MyAEW (Thunder) \u2014 Live FHD (CH 11)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/11-26-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 MyAEW (Thunder) \u2014 Live HD (CH 12)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/noisilloc/11-26-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 MyAEW (Thunder) \u2014 Live SD (CH 13)",
+          "label": "Source 1 \u2013 MyAEW (Thunder) \u2014 Live SD (CH 13)",
           "part": false,
           "live": false
         }
