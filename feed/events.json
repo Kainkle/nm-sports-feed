@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T01:30:05.883076+00:00",
+  "generated_utc": "2026-11-27T01:40:09.489138+00:00",
   "events": [
     {
       "event_id": "espn:soccer:401915380",
@@ -3423,7 +3423,7 @@
       "competition_id": "nfl",
       "competition_name": "NFL",
       "start_utc": "2026-11-26T21:30Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:6",
         "name": "Dallas Cowboys",
@@ -3453,9 +3453,9 @@
         "color": "06424d"
       },
       "source": "espn:football/nfl",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "AT&T Stadium",
-      "detail": "0:11 - 4th Quarter",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "kwjTjWkKtdw",
       "replay_url": "",
@@ -3625,7 +3625,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Galaxy Stadium",
-      "detail": "5:35 - 1st Quarter",
+      "detail": "3:15 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -3671,7 +3671,7 @@
       "source": "espn:football/nfl",
       "source_status": "in/In Progress",
       "venue": "Highmark Stadium",
-      "detail": "15:00 - 1st Quarter",
+      "detail": "9:42 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "qJxYJDD_MYk",
       "replay_url": "",
@@ -4498,6 +4498,51 @@
       "card": ""
     },
     {
+      "event_id": "espn:basketball:401921717",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-27T19:30Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:26",
+        "name": "UCLA Bruins",
+        "abbrev": "UCLA",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bruins",
+          "UCLA",
+          "UCLA Bruins"
+        ],
+        "color": "2774ae"
+      },
+      "away": {
+        "id": "espn:46",
+        "name": "Georgetown Hoyas",
+        "abbrev": "GTWN",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+        "logo_dark": null,
+        "aliases": [
+          "GTWN",
+          "Georgetown",
+          "Georgetown Hoyas",
+          "Hoyas"
+        ],
+        "color": "110E42"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Jenny Craig Pavilion",
+      "detail": "Fri, November 27th at 2:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "espn:soccer:401875004",
       "sport": "soccer",
       "competition_id": "ita.1",
@@ -5219,6 +5264,52 @@
       "source_status": "pre/Scheduled",
       "venue": "University Stadium (NM)",
       "detail": "Fri, November 27th at 4:30 PM EST",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
+      "event_id": "espn:basketball:401921718",
+      "sport": "basketball",
+      "competition_id": "ncaam",
+      "competition_name": "College Basketball",
+      "start_utc": "2026-11-27T22:00Z",
+      "status": "scheduled",
+      "home": {
+        "id": "espn:2608",
+        "name": "Saint Mary's Gaels",
+        "abbrev": "SMC",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
+        "logo_dark": null,
+        "aliases": [
+          "Gaels",
+          "SMC",
+          "Saint Mary's",
+          "Saint Mary's Gaels"
+        ],
+        "color": "d80024"
+      },
+      "away": {
+        "id": "espn:251",
+        "name": "Texas Longhorns",
+        "abbrev": "TEX",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+        "logo_dark": null,
+        "aliases": [
+          "Longhorns",
+          "TEX",
+          "Texas",
+          "Texas Longhorns"
+        ],
+        "color": "af5c37"
+      },
+      "source": "espn:basketball/mens-college-basketball",
+      "source_status": "pre/Scheduled",
+      "venue": "Jenny Craig Pavilion",
+      "detail": "Fri, November 27th at 5:00 PM EST",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
