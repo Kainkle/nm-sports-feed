@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-28T01:05:36.281368+00:00",
+  "generated_utc": "2026-11-28T01:15:52.439155+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920428",
@@ -4208,7 +4208,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-27T22:30:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "nhl:16",
         "name": "Chicago Blackhawks",
@@ -4238,7 +4238,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "CRIT/OK",
+      "source_status": "FINAL/OK",
       "venue": "United Center",
       "detail": "",
       "game_number": 1,
@@ -4377,9 +4377,9 @@
         "color": "98002e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "in/In Progress",
+      "source_status": "in/Halftime",
       "venue": "Madison Square Garden",
-      "detail": "2:22 - 2nd Quarter",
+      "detail": "Halftime",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4471,7 +4471,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Little Caesars Arena",
-      "detail": "1:42 - 1st Quarter",
+      "detail": "9:55 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4517,7 +4517,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "2:04 - 1st Quarter",
+      "detail": "9:04 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4563,7 +4563,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "2:46 - 1st Quarter",
+      "detail": "10:53 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4609,7 +4609,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kyle Field",
-      "detail": "6:03 - 1st Quarter",
+      "detail": "1:18 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4655,7 +4655,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Camp Randall Stadium",
-      "detail": "3:46 - 1st Quarter",
+      "detail": "End of 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4701,7 +4701,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Fertitta Center",
-      "detail": "7:39 - 1st Half",
+      "detail": "3:43 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4715,7 +4715,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-28T01:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:7",
         "name": "Buffalo Sabres",
@@ -4745,7 +4745,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "KeyBank Center",
       "detail": "",
       "game_number": 1,
@@ -4761,7 +4761,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-28T01:00:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:22",
         "name": "Edmonton Oilers",
@@ -4791,7 +4791,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "Rogers Place",
       "detail": "",
       "game_number": 1,
@@ -4843,7 +4843,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-28T01:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:2",
         "name": "Boston Celtics",
@@ -4873,9 +4873,9 @@
         "color": "c8102e"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "TD Garden",
-      "detail": "Fri, November 27th at 8:00 PM EST",
+      "detail": "9:17 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -17155,6 +17155,20 @@
   ],
   "stories": [
     {
+      "story_id": "50615700",
+      "headline": "Alonso urges Chelsea to 'stick together' amid run of three losses",
+      "summary": "Chelsea boss Xabi Alonso said his team should \"stick together\" after a 3-2 loss to Nottingham Forest on Friday made it three Premier League defeats in a row for the Stamford Bridge side.",
+      "image": "https://a.espncdn.com/photo/2026/1127/r1752262_1296x729_16-9.jpg",
+      "published_utc": "2026-11-28T01:05:32Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "ESPN News Services",
+      "source": "ESPN",
+      "link": "https://www.espn.com/soccer/story/_/id/50615700/alonso-chelsea-stick-together-run-three-losses",
+      "stream_url": "",
+      "body": "Chelsea boss Xabi Alonso said his team should \"stick together\" after a 3-2 loss to Nottingham Forest on Friday made it three Premier League defeats in a row for the Stamford Bridge side.\n\nIgor Jesus scored a spectacular opener for the hosts at the City Ground before Wesley Fofana's reckless foul on Liam Delap allowed Morgan Gibbs-White to double Forest's lead.\n\nEmmanuel Emegha scored twice for Chelsea to give the scoreline a different complexion, but that did not change the complexion of a game in which Fofana was loudly booed by Chelsea's travelling fans and was subbed off soon after his foul on Delap.\n\n\"Well, we have to stick together, and everyone that is in the changing room, everyone in the team is needed,\" Alonso said. \"We need to help, and we need to go through these tough moments all together, and we don't leave anyone apart.\n\n\"We need to support everyone. That is because we need everyone, and we need the fans. We need all the players. We need to stick together because if not, things will get more complicated, and that's what we want to do.\"\n\nAsked whether the Chelsea fans' reaction, where Fofana was booed throughout and subjected to derogatory chants, made it more difficult to pick him going forward, Alonso added: \"Well, I'm thinking right after the game and for the next games, we will see.\"\n\nFofana's situation is just one of a growing list of issues for Alonso to deal with as they slide down the table.\n\nJesus' brilliant opening goal, an acrobatic volley into the top corner, put Forest ahead and they doubled the lead when Gibbs-White struck from the spot.\n\nEmegha got Chelsea back into it, with their first shot on target, but the hosts restored their two-goal lead when Gibbs-White latched on to Xaver Schlager's fine pass.\n\nEmegha's late second set up a grandstand finish, but Forest held on for a deserved three points.\n\nForest claimed back-to-back home wins after beating Manchester City last time out at the City Ground and this performance was an indication that they are moving in the right direction under Oliver Glasner.\n\nBut the Austrian is not getting carried away.\n\n\"It looks like we are progressing, and this is what we all want to see,\" Glasner said. \"But also, I said last time it was the first swallow, and now it's the second swallow, and I think everybody could feel it tonight, we are far away from summer!\n\n\"So staying humble, take this feeling of the win and the confidence and the belief, but staying humble and prepare well for Hull because we have three-game week before we face Brighton.\n\n\"After the three-game week we can summarise.\"\n\nChelsea, who ended the day in 8th place, host Crystal Palace in their next match, while 14th-placed Forest are away to Hull City. Both games are on Dec. 2.\n\nInformation from PA was used in this report."
+    },
+    {
       "story_id": "50028196",
       "headline": "NBA buzz: Latest on trades, news, roster moves and intel for the 2026-27 season",
       "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
@@ -17195,20 +17209,6 @@
       "link": "https://www.espn.com/nfl/story/_/id/50615818/qb-dj-uiagalelei-start-chargers-justin-herbert-concussion-protocol",
       "stream_url": "",
       "body": "LOS ANGELES -- Chargers quarterback Justin Herbert was ruled out for Sunday's game against the New England Patriots as he remains in concussion protocol, coach Jim Harbaugh said Friday.\n\nSo what was once scheduled as a primetime showdown between Herbert and Drake Maye will now be DJ Uiagalelei vs. Tommy DeVito at SoFi Stadium (CBS, 4:05 p.m. ET).\n\nHarbaugh announced Uiagalelei as the team's starter Friday, with No. 2 option Trey Lance (groin) on injured reserve. The Chargers (1-9) also signed quarterback Jake Browning to their 53-man roster from their practice squad Thursday to serve as Uiagalelei's backup.\n\nHerbert played all 60 offensive snaps in the Chargers' 27-24 loss to the Jets last Sunday, but didn't take part in postgame interviews, with a team spokesperson saying at the time that he was in concussion protocol.\n\nMeanwhile, the Patriots (5-5) have spent the past two weeks preparing for an extended stretch without Maye, who fractured his right fibula in the first quarter of a Week 10 loss to the Lions in Munich, and are coming off their bye in Week 11.\n\nTwo days after Maye's injury, the NFL flexed the Patriots-Chargers game out of its Sunday night slot in favor of Raiders-Browns.\n\nUiagalelei, 25, entered the NFL as an undrafted free agent in 2025 after five collegiate seasons at Clemson, Oregon State and Florida State, and he spent 2025 on the Chargers' practice squad. He began 2026 on the Chargers' practice squad as well before getting signed to the 53-man roster when Lance went on IR in October.\n\nSunday will mark his first career NFL start after he made his regular-season debut in relief in Week 9, which included throwing a touchdown pass.\n\n\"I've seen a lot of growth from DJ,\" Harbaugh said earlier this week. \"He was already a very talented player, but every part of the game, it's something a quarterback is constantly working on -- there's so many things to get better at at that position.\"\n\nPatriots coach Mike Vrabel acknowledged Friday how the team was preparing for multiple possibilities at quarterback, with the primary focus on the Chargers' scheme.\n\n\"We can go back and watch the 173 snaps that DJ's had the last two years in preseason and some of the regular season ... but the plays are the plays; what they do is what they do,\" he said. \"I'm sure they'll have some modifications, and we'll just have to see how the game plays out. But we'll have to make sure that we're good against the run no matter who the quarterback is; it's what they've done well lately, and that'll be a good place to start.\""
-    },
-    {
-      "story_id": "50615700",
-      "headline": "Alonso urges Chelsea to 'stick together' amid run of three losses",
-      "summary": "Chelsea boss Xabi Alonso said his team should \"stick together\" after a 3-2 loss to Nottingham Forest on Friday made it three Premier League defeats in a row for the Stamford Bridge side.",
-      "image": "https://a.espncdn.com/photo/2026/1127/r1752262_1296x729_16-9.jpg",
-      "published_utc": "2026-11-27T23:58:45Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "ESPN News Services",
-      "source": "ESPN",
-      "link": "https://www.espn.com/soccer/story/_/id/50615700/alonso-chelsea-stick-together-run-three-losses",
-      "stream_url": "",
-      "body": "Chelsea boss Xabi Alonso said his team should \"stick together\" after a 3-2 loss to Nottingham Forest on Friday made it three Premier League defeats in a row for the Stamford Bridge side.\n\nIgor Jesus scored a spectacular opener for the hosts at the City Ground before Wesley Fofana's reckless foul on Liam Delap allowed Morgan Gibbs-White to double Forest's lead.\n\nEmmanuel Emegha scored twice for Chelsea to give the scoreline a different complexion, but that did not change the complexion of a game in which Fofana was loudly booed by Chelsea's travelling fans and was subbed off soon after his foul on Delap.\n\n\"Well, we have to stick together, and everyone that is in the changing room, everyone in the team is needed,\" Alonso said. \"We need to help, and we need to go through these tough moments all together, and we don't leave anyone apart.\n\n\"We need to support everyone. That is because we need everyone, and we need the fans. We need all the players. We need to stick together because if not, things will get more complicated, and that's what we want to do.\"\n\nAsked whether the Chelsea fans' reaction, where Fofana was booed throughout and subjected to derogatory chants, made it more difficult to pick him going forward, Alonso added: \"Well, I'm thinking right after the game and for the next games, we will see.\"\n\nFofana's situation is just one of a growing list of issues for Alonso to deal with as they slide down the table.\n\nJesus' brilliant opening goal, an acrobatic volley into the top corner, put Forest ahead and they doubled the lead when Gibbs-White struck from the spot.\n\nEmegha got Chelsea back into it, with their first shot on target, but the hosts restored their two-goal lead when Gibbs-White latched on to Xaver Schlager's fine pass.\n\nEmegha's late second set up a grandstand finish, but Forest held on for a deserved three points.\n\nForest claimed back-to-back home wins after beating Manchester City last time out at the City Ground and this performance was an indication that they are moving in the right direction under Oliver Glasner.\n\nBut the Austrian is not getting carried away.\n\n\"It looks like we are progressing, and this is what we all want to see,\" Glasner said. \"But also, I said last time it was the first swallow, and now it's the second swallow, and I think everybody could feel it tonight, we are far away from summer!\n\n\"So staying humble, take this feeling of the win and the confidence and the belief, but staying humble and prepare well for Hull because we have three-game week before we face Brighton.\n\n\"After the three-game week we can summarise.\"\n\nChelsea, who ended the day in 8th place, host Crystal Palace in their next match, while 14th-placed Forest are away to Hull City. Both games are on Dec. 2.\n\nInformation from PA was used in this report."
     },
     {
       "story_id": "50473334",
@@ -17323,6 +17323,20 @@
       "body": "Ryan Papenhuyzen empathises with Cameron Munster but believes Melbourne must prioritise keeping Harry Grant if the NRL powerhouse can't hold on to both superstars.\n\nMunster on Tuesday rejected an offer from the Storm believed to be for one year with the option of another season, labelling the terms \"disappointing\".\n\nThe Storm are also fighting to keep Grant, and Papenhuyzen was unequivocal when asked on Wednesday who the club should target if salary-cap pressures meant only one of the newly crowned Australian World Cup winners could stay.\n\n\"I went through something similar as Munster where I thought the club had low-balled me,\" the happily retired 2020 premiership-winning hero told AAP.\n\n\"But having my time out of the game now, they've got their reasons for offering those certain amounts and it might not be enough (for Munster).\n\n\"Penrith have done it for years and years. They get to a point where they can't hold their players and they've got a price for their players.\n\n\"So I understand Munster's perspective. He wants to earn as much as he can in his career and he wants to win a premiership, so that probably limits his opportunities.\n\n\"If a club's got money and they're in a premiership window, it's probably a good chance he'll go to that club.\"\n\nAt 28, skipper Grant is four years younger than Munster and more important long-term to the Storm, Papenhuyzen believes.\n\n\"Harry's done a brilliant job in terms of leadership,\" the ex-Clive Churchill Medallist turned caddy said after playing in the Australian PGA Championship pro-am in Sydney.\n\n\"The amount of care he has for everyone in that group and the way he thinks about the game, I feel really sorry for him over the last 12 months (when Melbourne missed the finals) because he's always trying to find new ideas to bring everyone.\n\n\"He's a great leader for that club going forward. I'd hate to see him go because he's a player you want to build a club around and I guess Munster is towards the back end of his career.\n\n\"He had a great World Cup, but World Cups are different to NRL seasons. You've got to lock in for a month with that, and an NRL season's a long time.\"\n\nPressed on who he'd keep as a priority, Papenhuyzen said: \"Harry's probably the one leadership-wise. Just his qualities are really admirable.\n\n\"You know what Munster brings to the game. He gives you confidence standing next to him, knowing what he's going do, but I just think Harry ...\"\n\nWith coach Craig Bellamy confirming he is moving on at the end of 2027, Papenhuyzen also suspects Grant might be a better for the Storm's new mentor, whomever that may be.\n\n\"Harry's really respected and in terms of trying to keep the culture, he's very open-minded too,\" the BMW golf correspondent said.\n\n\"He's open to new ideas, whereas Munster is very much like Bellamy - he's sort of got his way and it's worked for him for so long.\n\n\"Whatever they both decide to do, you can't judge them. It's never a right or wrong decision.\"\n\nPapenhuyzen believes it would be \"awesome\" if Billy Slater succeeded Bellamy, but suspects \"life is too good\" for the Storm legend to be a head NRL coach.\n\n\"I love Jyles. If he went back there, I'd be awfully encouraged of how well they're going to go. They'd probably be my two.\"\n\nBut Papenhuyzen, also open to helping out the new coach, nominated Bellamy's son Aaron as a left-field option.\n\n\"Aaron's awesome with people,\" he said.\n\n\"He's awesome with the wider playing group and he understands that Craig sometimes pushes the boundaries. Aaron's a bit more like Wendy - Craig's, Craig's wife.\n\n\"They're both a bit more more gentle, so you've got that loving, nurturing side and potentially (he could do the job).\n\n\"I do know you just need people around you. We'd be silly to say the coach controls everything.\""
     },
     {
+      "story_id": "50615678",
+      "headline": "Moreno: Alonso must drop Fofana for Chelsea's benefit",
+      "summary": "The ESPN FC crew react to Nottingham Forest beating Chelsea 3-2 in the Premier League.",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/dm_261127_COM_SOC_Analysis_Moreno3A_Alonso_must_drop_Fofana_for_ChelseaE28099s_benefit_GLOBAL_2026-11-27/dm_261127_COM_SOC_Analysis_Moreno3A_Alonso_must_drop_Fofana_for_ChelseaE28099s_benefit_GLOBAL_2026-11-27.jpg",
+      "published_utc": "2026-11-27T23:07:34Z",
+      "competition_id": "eng.1",
+      "competition_name": "Premier League",
+      "byline": "",
+      "source": "ESPN",
+      "link": "https://www.espn.com/video/clip/_/id/50615678/alonso-drop-fofana-chelsea-benefit",
+      "stream_url": "",
+      "body": ""
+    },
+    {
       "story_id": "50613364",
       "headline": "Lakers' Austin Reaves available vs. Spurs after missing 5 games with heel bruise",
       "summary": "Lakers guard Austin Reaves is available to play in Friday night's NBA Cup matchup against the Spurs after missing the past five games with a heel bruise.",
@@ -17363,20 +17377,6 @@
       "link": "https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50595780/fantasy-football-injuries-nfl-week-12-inactive-active",
       "stream_url": "",
       "body": "Biggest injury concerns for Week 12\nPlayers with early starts\nDerrick Henry, RB, Ravens (concussion): Henry had originally cleared the league's concussion protocol after last week's game, but had \"small symptoms\" and re-entered the protocol on Wednesday. He returned to practice in a full capacity on Thursday. He has since returned to full practice and is off the injury report, meaning he will play in Week 12. Fantasy managers should start him, even in a difficult matchup against the Texans.\n\nZay Flowers, WR, Ravens (ankle): Flowers was limited to start the practice week before being elevating to full participation on Thursday. While it is a bit worrisome considering he dealt with ankle issues early this season, Flowers will play in Week 12. While his ceiling is clearly lower without Lamar Jackson, he has still surpassed 11 points in two straight games. The volume he sees keeps him in play for fantasy managers.\n\nTee Higgins, WR, Bengals (hamstring): Tee Higgins reportedly woke up with soreness in his hamstring on Friday and is questionable for Week 12. Zac Taylor did say that Higgins should be fine for Sunday's game. While it is an added risk that fantasy managers would rather not have to deal with, Higgins is a \"must start\" whenever active.\n\nDon't forget to check these out: Mike Clay's Playbook | Week 12 Buzz\n\nWeek 12 Rankings | Matchup rankings for Week 12\n\nOfficial Sunday inactives should begin coming in approximately 90 minutes before the scheduled kickoff times: around 11:30 a.m. ET for the early games and 2:30 p.m. ET for the late-afternoon games.\n\nRefresh often for the latest information.\n\nWoody Marks, RB, Texans (concussion): Marks returned to practice on Wednesday and has cleared the concussion protocol and will play\u202fin Week 12. However, with David Montgomery also back, Marks can be left on benches. He is an insurance back worth rostering, but unlikely to have enough standalone value when Montgomery is healthy.\n\nMarvin Harrison Jr, WR, Texans (hamstring): Harrison returned to practice this week and is off the injury report, meaning he will play\u202fin Week 12. He has not played since Week 9. While his absence allowed him to get acclimated in this new offense, we have yet to see him surpass four targets or eight fantasy points with Houston. Additionally, outside of Nico Collins, trusting any Texans WR is playing a game of \"who might happen to catch a long TD this week.\" His presence helps C.J. Stroud, but fantasy managers should take a wait-and-see approach with Harrison. It's also worth noting that Kayshon Boutte is out this week.\n\n-->\n\nPlayers with late starts\n\nMike Evans, WR, 49ers (Achilles): Evans is questionable for Week 12. He missed Wednesdays practice, which is something fantasy managers will likely have to get used to down the stretch. Even in a tough matchup without his starting QB, it's still worth starting Evans in fantasy. There is more volatility at present, but he has been far too productive to get away from.\n\nSam Darnold, QB, Seahawks (quad/rib): Darnold, who has not played since Week 8, is\u202foff the injury report and will play\u202fthis week. Earlier this season against the 49ers, he threw for 195 yards, one touchdown, two interceptions and finished with just 8.3 fantasy points. While his return helps Seattle's playmakers, fantasy managers should stay away. Especially with no teams on bye, Darnold is only in play for two-QB formats.\n\nJaxon Smith-Njigba, WR, Seahawks (ankle): The MVP candidate has been limited to start the week. However, he is looking likely to play in Week 12. If he plays, he starts in fantasy, no questions asked.\n\nPlayers on Sunday night\nDenzel Boston, WR, Browns (toe): Boston missed practice all week and is listed as questionable for Week 12. He has been playing through the injury for a couple of weeks now, but not practicing at all adds a layer of risk. While Boston has a favorable matchup this week against the Raiders, who rank top three in terms of the most yards and touchdowns allowed to WRs, he is a boom-or-bust flex play. Concepcion is the preferred play among the Browns WRs this week.\n\nHarold Fannin Jr, TE, Browns (groin): Fannin was limited to start the week before elevating to full. He's off the injury report and will play in Week 12. He has been dealing with this injury for weeks now but continues to produce, surpassing 12 fantasy points in each of his last four contests. If he suits up, he is a \"must play\" in a great matchup against the Raiders, who have allowed the third-most TE touchdowns entering Week 12.\n\nBrock Bowers, TE, Raiders (ankle): The good news is that his quad injury is no longer being listed. Bowers was limited at practice to start the week before missing on Friday. His ankle was seen heavily tapped on Thursday. Bowers is questionable for Week 12 and with the Raiders having the bye next week, they may opt to be cautious with the star tight end. If he plays, he must be started in fantasy. If we hear he will sit before the main Sunday slate, I would recommend outside streaming options over\u202fMichael Mayer, who finished with only one catch in Week 11. However, if he takes this down the wire and is a game time decision, fantasy managers should add Mayer as a pivot option and roll the dice on Bowers.\n\nPlayers on Monday night\nTetairoa McMillan, WR, Panthers (foot): McMillan exited last week's game due to a foot injury, but ultimately returned. While he is questionable, the Panthers are optimistic that he will play this week. He's been a steady source of volume. That should continue this week. Tampa Bay is very strong against the run, which should lead the Panthers to throw often. With this game being on Monday night, fantasy managers should pick up an insurance option just in case. Consider Ted Hurst III, Darren Waller or Tez Johnson. Just make sure to put McMillan in your flex spot. If he sits, Jalen Coker would rise into the fantasy WR2 range.\n\nJonathon Brooks, RB, Panthers: Brooks has practiced in full this week and has a chance to return. However, for fantasy purposes, he is purely a bench stash until we see exactly what we're dealing with.\n\nDarren Waller, TE, Panthers (knee): Waller was limited to start the week. The veteran has been no stranger to the practice report this season. Still, with the Panthers' TE room banged up, expect him to give it a go this week. He is a TD-dependent TE2.\n\nRuled out before Sunday\nCarson Beck, QB, Cardinals (back spasms): After missing last week's game, Beck was not able to return to practice this week. He is out for Week 12. That leaves Josh Johnson as the Cardinals' starting QB. The only Cardinals player that fantasy managers should start is Trey McBride. The Commanders D/ST becomes a top streaming option.\n\nBhayshul Tuten, RB, Jaguars (foot): Tuten has not practiced this week and while that has not stopped him from being active the last couple of weeks, HC Liam Coen did say that getting Tuten healthy is their \"priority.\" He is out for Week 12. That makes Chris Rodriguez Jr.\u202fan RB2 or flex play. Play him over Travis Etienne Jr, Zach Charbonnet, David Montgomery, and the Vikings RBs.\n\nParker Washington, WR, Jaguars (shoulder): Washington was added to the injury report on Thursday, which indicates the injury happened at practice. He is out for Week 12. Jakobi Meyers, who has been limited at practice but is likely to play, would be a strong WR2 play against the Titans. Tennessee is allowing the most fantasy WR PPG. Josh Cameron is in play as a streaming flex play. While the usage is uncertain, Liam Coen did say Washington's injury is a \"big opportunity\" for Cameron and added that Trevor Lawrence trusts him. At the very least, he's worth a bench stash. Brian Thomas Jr can also be considered as a deep-league option.\n\nJustin Herbert, QB, Chargers (concussion): Herbert suffered a concussion last week and has not practiced this week. He is\u202f out \u202ffor Week 12. DJ Uiagalelei will start for the Chargers. While I liked the matchup for Ladd McConkey, it is too risky now. I would look to get away from all Chargers except\u202f Omarion Hampton,\u202fespecially since\u202f Keaton Mitchell\u202f has been ruled out this week.\n\nJordan Addison, WR, Vikings (thumb): Addison underwent thumb surgery last week and has not yet returned to practice. He is out for Week 12. Some replacement options are Antonio Williams, KC Concepcion, Jakobi Meyers and Caleb Douglas.\n\nA.J. Brown, WR, Patriots (hamstring): Brown is out for Week 12. That leaves the Patriots with DeMario Douglas and Mack Hollins as their top receivers. With Tommy DeVito starting at quarterback, and no teams on bye this week, I would entirely avoid this situation. If you feel the absolute need to start a Patriots pass catcher, I guess I'd take a chance on Hunter Henry.\n\nJuwan Johnson, TE, Saints (hamstring): \u202fJohnson has not practiced this week and is\u202fout \u202ffor Week 12. Johnson has struggled to find consistent fantasy success, scoring double-digits just once since Week 5. His absence likely means more volume for\u202fChris Olave\u202fand\u202fJordyn Tyson.\n\nOmar Cooper Jr, WR, Jets (ankle): Cooper tried playing through this ankle injury in Week 10 but ended up leaving after just one play. He missed Week 11 and has not yet returned to practice. He has been ruled out for Week 12. It's no surprise that the Jets would practice caution here, given the 3-8 record. Perhaps this means more targets for Adonai Mitchell? He is a low-floor, high upside flex option. Expect the Jets to run the ball a bunch this week.\n\nBrock Purdy, QB, 49ers (ankle): Purdy suffered the injury in the second quarter last week and still finished the game. He was unable to practice this week and is out for Week 12. While Mac Jones is a quality backup and showed he can keep things afloat last year, the rest of the 49ers' fantasy value takes a hit. Jones\u202fis a QB2 in a very tough matchup against Seattle, who allow the second-fewest QB fantasy PPG."
-    },
-    {
-      "story_id": "50615678",
-      "headline": "Moreno: Alonso must drop Fofana for Chelsea's benefit",
-      "summary": "The ESPN FC crew react to Nottingham Forest beating Chelsea 3-2 in the Premier League.",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/dm_261127_COM_SOC_Analysis_Moreno3A_Alonso_must_drop_Fofana_for_ChelseaE28099s_benefit_GLOBAL_2026-11-27/dm_261127_COM_SOC_Analysis_Moreno3A_Alonso_must_drop_Fofana_for_ChelseaE28099s_benefit_GLOBAL_2026-11-27.jpg",
-      "published_utc": "2026-11-27T23:07:34Z",
-      "competition_id": "eng.1",
-      "competition_name": "Premier League",
-      "byline": "",
-      "source": "ESPN",
-      "link": "https://www.espn.com/video/clip/_/id/50615678/alonso-drop-fofana-chelsea-benefit",
-      "stream_url": "",
-      "body": ""
     },
     {
       "story_id": "50318517",
