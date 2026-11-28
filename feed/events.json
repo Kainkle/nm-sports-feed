@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-28T00:35:13.897917+00:00",
+  "generated_utc": "2026-11-28T00:45:24.016306+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920428",
@@ -3786,54 +3786,6 @@
       "card": ""
     },
     {
-      "event_id": "espn:football:401864549",
-      "sport": "football",
-      "competition_id": "ncaaf",
-      "competition_name": "College Football",
-      "start_utc": "2026-11-27T20:30Z",
-      "status": "final",
-      "home": {
-        "id": "espn:23",
-        "name": "San Jos\u00e9 State Spartans",
-        "abbrev": "SJSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
-        "logo_dark": null,
-        "aliases": [
-          "SJSU",
-          "San Jos\u00e9 St",
-          "San Jos\u00e9 State",
-          "San Jos\u00e9 State Spartans",
-          "Spartans"
-        ],
-        "color": "0038a8"
-      },
-      "away": {
-        "id": "espn:2449",
-        "name": "North Dakota State Bison",
-        "abbrev": "NDSU",
-        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
-        "logo_dark": null,
-        "aliases": [
-          "Bison",
-          "N Dakota St",
-          "NDSU",
-          "North Dakota State",
-          "North Dakota State Bison"
-        ],
-        "color": "01402A"
-      },
-      "source": "espn:football/college-football",
-      "source_status": "post/Final",
-      "venue": "CEFCU Stadium",
-      "detail": "Final",
-      "game_number": 1,
-      "highlight_video_id": "",
-      "replay_url": "",
-      "replay_candidates": [],
-      "replay_poster": "",
-      "card": ""
-    },
-    {
       "event_id": "espn:football:401856759",
       "sport": "football",
       "competition_id": "ncaaf",
@@ -3927,6 +3879,54 @@
       "card": ""
     },
     {
+      "event_id": "espn:football:401864549",
+      "sport": "football",
+      "competition_id": "ncaaf",
+      "competition_name": "College Football",
+      "start_utc": "2026-11-27T20:30Z",
+      "status": "final",
+      "home": {
+        "id": "espn:23",
+        "name": "San Jos\u00e9 State Spartans",
+        "abbrev": "SJSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+        "logo_dark": null,
+        "aliases": [
+          "SJSU",
+          "San Jos\u00e9 St",
+          "San Jos\u00e9 State",
+          "San Jos\u00e9 State Spartans",
+          "Spartans"
+        ],
+        "color": "0038a8"
+      },
+      "away": {
+        "id": "espn:2449",
+        "name": "North Dakota State Bison",
+        "abbrev": "NDSU",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+        "logo_dark": null,
+        "aliases": [
+          "Bison",
+          "N Dakota St",
+          "NDSU",
+          "North Dakota State",
+          "North Dakota State Bison"
+        ],
+        "color": "01402A"
+      },
+      "source": "espn:football/college-football",
+      "source_status": "post/Final",
+      "venue": "CEFCU Stadium",
+      "detail": "Final",
+      "game_number": 1,
+      "highlight_video_id": "",
+      "replay_url": "",
+      "replay_candidates": [],
+      "replay_poster": "",
+      "card": ""
+    },
+    {
       "event_id": "nhl:2026020408",
       "sport": "hockey",
       "competition_id": "nhl",
@@ -3966,7 +3966,7 @@
       "venue": "Grand Casino Arena",
       "detail": "",
       "game_number": 1,
-      "highlight_video_id": "",
+      "highlight_video_id": "PLYXPUHYU_E",
       "replay_url": "",
       "replay_candidates": [],
       "replay_poster": "",
@@ -4008,7 +4008,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "FINAL/OK",
+      "source_status": "OFF/OK",
       "venue": "Honda Center",
       "detail": "",
       "game_number": 1,
@@ -4102,7 +4102,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "University Stadium (NM)",
-      "detail": "6:21 - 4th Quarter",
+      "detail": "1:53 - 4th Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4116,7 +4116,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-27T22:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2608",
         "name": "Saint Mary's Gaels",
@@ -4146,9 +4146,9 @@
         "color": "af5c37"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Jenny Craig Pavilion",
-      "detail": "0:31 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4287,7 +4287,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "State Farm Center",
-      "detail": "11:03 - 2nd Half",
+      "detail": "7:37 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4333,7 +4333,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Simon Skjodt Assembly Hall",
-      "detail": "10:33 - 2nd Half",
+      "detail": "6:18 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4379,7 +4379,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "2:05 - 1st Quarter",
+      "detail": "9:32 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4393,7 +4393,7 @@
       "competition_id": "nhl",
       "competition_name": "NHL",
       "start_utc": "2026-11-28T00:30:00Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "nhl:2",
         "name": "New York Islanders",
@@ -4423,7 +4423,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "PRE/OK",
+      "source_status": "LIVE/OK",
       "venue": "UBS Arena",
       "detail": "",
       "game_number": 1,
@@ -4439,7 +4439,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-28T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:8",
         "name": "Detroit Pistons",
@@ -4469,9 +4469,9 @@
         "color": "00471b"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Little Caesars Arena",
-      "detail": "Fri, November 27th at 7:30 PM EST",
+      "detail": "10:08 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4485,7 +4485,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-28T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:11",
         "name": "Indiana Pacers",
@@ -4515,9 +4515,9 @@
         "color": "1d428a"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "Fri, November 27th at 7:30 PM EST",
+      "detail": "9:52 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4531,7 +4531,7 @@
       "competition_id": "nba",
       "competition_name": "NBA",
       "start_utc": "2026-11-28T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:28",
         "name": "Toronto Raptors",
@@ -4561,9 +4561,9 @@
         "color": "000000"
       },
       "source": "espn:basketball/nba",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "Fri, November 27th at 7:30 PM EST",
+      "detail": "11:21 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4623,7 +4623,7 @@
       "competition_id": "ncaaf",
       "competition_name": "College Football",
       "start_utc": "2026-11-28T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:275",
         "name": "Wisconsin Badgers",
@@ -4653,9 +4653,9 @@
         "color": "5e0a2f"
       },
       "source": "espn:football/college-football",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Camp Randall Stadium",
-      "detail": "Fri, November 27th at 7:30 PM EST",
+      "detail": "12:55 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4669,7 +4669,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-28T00:30Z",
-      "status": "scheduled",
+      "status": "live",
       "home": {
         "id": "espn:248",
         "name": "Houston Cougars",
@@ -4699,9 +4699,9 @@
         "color": "04091c"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "pre/Scheduled",
+      "source_status": "in/In Progress",
       "venue": "Fertitta Center",
-      "detail": "Fri, November 27th at 7:30 PM EST",
+      "detail": "15:51 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
