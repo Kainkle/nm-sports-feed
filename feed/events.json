@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-28T00:55:33.027742+00:00",
+  "generated_utc": "2026-11-28T01:05:36.281368+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920428",
@@ -4238,7 +4238,7 @@
         "color": null
       },
       "source": "nhl",
-      "source_status": "LIVE/OK",
+      "source_status": "CRIT/OK",
       "venue": "United Center",
       "detail": "",
       "game_number": 1,
@@ -4254,7 +4254,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-27T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:356",
         "name": "Illinois Fighting Illini",
@@ -4285,9 +4285,9 @@
         "color": "e13a3e"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "State Farm Center",
-      "detail": "3:04 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4301,7 +4301,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-27T23:00Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:84",
         "name": "Indiana Hoosiers",
@@ -4331,9 +4331,9 @@
         "color": "fd5000"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "Simon Skjodt Assembly Hall",
-      "detail": "3:10 - 2nd Half",
+      "detail": "Final",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4379,7 +4379,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Madison Square Garden",
-      "detail": "6:39 - 2nd Quarter",
+      "detail": "2:22 - 2nd Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4471,7 +4471,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Little Caesars Arena",
-      "detail": "5:44 - 1st Quarter",
+      "detail": "1:42 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4517,7 +4517,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Gainbridge Fieldhouse",
-      "detail": "5:29 - 1st Quarter",
+      "detail": "2:04 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4563,7 +4563,7 @@
       "source": "espn:basketball/nba",
       "source_status": "in/In Progress",
       "venue": "Scotiabank Arena",
-      "detail": "7:12 - 1st Quarter",
+      "detail": "2:46 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4609,7 +4609,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Kyle Field",
-      "detail": "9:49 - 1st Quarter",
+      "detail": "6:03 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4655,7 +4655,7 @@
       "source": "espn:football/college-football",
       "source_status": "in/In Progress",
       "venue": "Camp Randall Stadium",
-      "detail": "8:03 - 1st Quarter",
+      "detail": "3:46 - 1st Quarter",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4701,7 +4701,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Fertitta Center",
-      "detail": "11:23 - 1st Half",
+      "detail": "7:39 - 1st Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -4807,7 +4807,7 @@
       "competition_id": "wwe",
       "competition_name": "WWE",
       "start_utc": "2026-11-28T01:00:00Z",
-      "status": "scheduled",
+      "status": "unknown",
       "home": {
         "id": "tvmaze:803",
         "name": "WWE Friday Night SmackDown",
@@ -17500,55 +17500,37 @@
       "replay_candidates": [
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/1/1",
-          "label": "Source 1 \u2013 Adfree (Alpha) \u2014 Live FHD (CH 1)",
+          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/1/2",
-          "label": "Source 1 \u2013 Adfree (Alpha) \u2014 Live HD (CH 2)",
+          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/1/3",
-          "label": "Source 1 \u2013 Adfree (Alpha) \u2014 Live SD (CH 3)",
+          "label": "Source 1 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/2/1",
-          "label": "Source 2 \u2013 Adfree (Zeta) \u2014 Live FHD (CH 4)",
+          "label": "Source 2 \u2013 USAN (Alpha) \u2014 Live FHD (CH 30)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/2/2",
-          "label": "Source 2 \u2013 Adfree (Zeta) \u2014 Live HD (CH 5)",
+          "label": "Source 2 \u2013 USAN (Alpha) \u2014 Live HD (CH 31)",
           "part": false,
           "live": false
         },
         {
           "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/2/3",
-          "label": "Source 2 \u2013 Adfree (Zeta) \u2014 Live SD (CH 6)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/3/1",
-          "label": "Source 3 \u2013 USAN (Alpha) \u2014 Live FHD (CH 30)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/3/2",
-          "label": "Source 3 \u2013 USAN (Alpha) \u2014 Live HD (CH 31)",
-          "part": false,
-          "live": false
-        },
-        {
-          "url": "https://dailywrestling.cc/embed/nwodkcamseww/11-27-2026/select-post-1/3/3",
-          "label": "Source 3 \u2013 USAN (Alpha) \u2014 Live SD (CH 32)",
+          "label": "Source 2 \u2013 USAN (Alpha) \u2014 Live SD (CH 32)",
           "part": false,
           "live": false
         }
