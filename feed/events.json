@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-28T06:40:12.037076+00:00",
+  "generated_utc": "2026-11-28T06:50:18.775941+00:00",
   "events": [
     {
       "event_id": "espn:basketball:401920428",
@@ -5391,7 +5391,7 @@
       "competition_id": "ncaam",
       "competition_name": "College Basketball",
       "start_utc": "2026-11-28T04:15Z",
-      "status": "live",
+      "status": "final",
       "home": {
         "id": "espn:2250",
         "name": "Gonzaga Bulldogs",
@@ -5421,9 +5421,9 @@
         "color": "005ca9"
       },
       "source": "espn:basketball/mens-college-basketball",
-      "source_status": "in/In Progress",
+      "source_status": "post/Final",
       "venue": "T-Mobile Arena",
-      "detail": "0:31 - OT",
+      "detail": "Final/OT",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -5470,7 +5470,7 @@
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "in/In Progress",
       "venue": "Michelob ULTRA Arena",
-      "detail": "4:20 - 2nd Half",
+      "detail": "1:48 - 2nd Half",
       "game_number": 1,
       "highlight_video_id": "",
       "replay_url": "",
@@ -13096,15 +13096,18 @@
         "color": "c9001f"
       },
       "away": {
-        "id": "espn:-2",
-        "name": "TBD",
-        "abbrev": "TBD",
-        "logo": null,
+        "id": "espn:156",
+        "name": "Creighton Bluejays",
+        "abbrev": "CREI",
+        "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
         "logo_dark": null,
         "aliases": [
-          "TBD"
+          "Bluejays",
+          "CREI",
+          "Creighton",
+          "Creighton Bluejays"
         ],
-        "color": null
+        "color": "005ca9"
       },
       "source": "espn:basketball/mens-college-basketball",
       "source_status": "pre/Scheduled",
